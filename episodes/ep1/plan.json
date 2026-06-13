@@ -179,6 +179,11 @@
       "src_time": 2645.64
     },
     {
+      "label": "What this pod is about",
+      "block": "A",
+      "src_time": 2962.32
+    },
+    {
       "label": "Pico update - why Tyler is remote",
       "block": "P"
     },
@@ -192,6 +197,11 @@
       "src_time": 872.04
     },
     {
+      "label": "If we couldn't work at computers...",
+      "block": "B",
+      "src_time": 2007.2
+    },
+    {
       "label": "The confessional: biggest bag fumbles",
       "block": "C"
     },
@@ -200,9 +210,19 @@
       "block": "DE"
     },
     {
+      "label": "The Vitalik sighting",
+      "block": "DE",
+      "src_time": 4477.12
+    },
+    {
       "label": "The lottery tickets (ft. Claude)",
       "block": "DE",
       "src_time": 4591.44
+    },
+    {
+      "label": "Outro",
+      "block": "DE",
+      "src_time": 5151.68
     },
     {
       "label": "Bonus: naming the pod",
