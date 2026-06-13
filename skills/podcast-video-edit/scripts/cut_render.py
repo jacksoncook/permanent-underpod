@@ -117,12 +117,41 @@ for c in clips:
     cum += d
 print(f"final runtime: {cum/60:.2f} min")
 
-with open(os.path.join(WORK, "concat.txt"), "w") as f:
+# --- Concatenate with GUARANTEED sync ---------------------------------------
+# The concat demuxer with `-c copy` CORRUPTS video PTS at clip boundaries (frames
+# pile onto one timestamp, others get double gaps); the audio PCM concatenates
+# fine, so video drifts progressively ahead of audio. The concat FILTER instead
+# pads audio ~1 frame per join. Both reintroduce drift. The reliable method:
+#   VIDEO: concat-demuxer (preserves every frame) then re-stamp PTS by frame
+#          index (setpts=N/FPS/TB) -> perfectly even CFR, exact frame count.
+#   AUDIO: byte-concatenate raw PCM (zero padding/resample) -> exact sample sum.
+# Since each clip was rendered with frames*SPF == samples, the assembled
+# video_frames*SPF == audio_samples to the sample. Locked, no drift.
+concat_txt = os.path.join(WORK, "concat.txt")
+with open(concat_txt, "w") as f:
     for c in clips:
         f.write(f"file '{os.path.join(WORK, c['file'])}'\n")
-subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-f", "concat",
-                "-safe", "0", "-i", os.path.join(WORK, "concat.txt"), "-c", "copy",
+
+raw_audio = os.path.join(WORK, "_audio_cat.raw")
+with open(raw_audio, "wb") as out:
+    for c in clips:
+        subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error",
+                        "-i", os.path.join(WORK, c["file"]),
+                        "-map", "0:a", "-f", "s16le", "-acodec", "pcm_s16le",
+                        "-ar", str(SR), "-ac", "1", "-"], stdout=out, check=True)
+
+clean_video = os.path.join(WORK, "_video_cat.mov")
+subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y",
+                "-f", "concat", "-safe", "0", "-i", concat_txt, "-an",
+                "-vf", f"setpts=N/{FPS}/TB", "-fps_mode", "passthrough",
+                "-video_track_timescale", "30000",
+                "-c:v", "h264_videotoolbox", "-b:v", "12M", clean_video], check=True)
+
+subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y",
+                "-i", clean_video, "-f", "s16le", "-ar", str(SR), "-ac", "1",
+                "-i", raw_audio, "-c:v", "copy", "-c:a", "pcm_s16le",
                 os.path.join(WORK, "edited_raw.mov")], check=True)
+os.remove(raw_audio); os.remove(clean_video)
 json.dump(clips, open(os.path.join(WORK, "clips.json"), "w"), indent=1)
 
 def s2f(block, t):

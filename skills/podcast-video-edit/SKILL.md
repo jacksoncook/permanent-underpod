@@ -126,20 +126,32 @@ Trim/fade and loudnorm before mixing.
 
 ## Gotchas
 
-- **Progressive A/V drift (THE big one — bit Ep 1):** cutting clips with
-  `-t <dur> ... -vf fps=30` lets the video round UP to a whole frame (~+33 ms)
-  while audio is cut to the exact length. Per clip it's imperceptible; across
-  ~60 concatenated clips it accumulates into **seconds** of drift (Ep 1: video
-  ran 2.4 s ahead of audio by the end). The concat demuxer with `-c copy`
-  cannot fix it because each clip genuinely has video_len > audio_len. FIX:
-  render an EXACT frame count and the matching sample count per clip —
-  `-frames:v round(dur*30)` for video and `-af aresample=48000,apad,
-  atrim=end_sample=round(dur*30)*1600` for audio (1600 = 48000/30 samples per
-  frame). Then video_len == audio_len to the sample and concat stays locked.
-  Verify with `ffprobe -count_frames` (the duration *field* may look ~1 frame
-  long per clip — that's harmless metadata; compare `nb_read_frames` and audio
-  `duration_ts` instead). Baked into `scripts/cut_render.py`; the final pass
-  also forces `-r 30 -fps_mode cfr` + `aresample=async=1:first_pts=0`.
+- **Progressive A/V drift (THE big one — bit Ep 1 TWICE).** There are two
+  independent causes; you must fix BOTH or the picture drifts ahead of the sound,
+  worsening through the episode. Always verify by checking sync at a LATE point —
+  matching total durations does NOT prove internal sync.
+  1. *Per-clip frame rounding.* `-t <dur> ... -vf fps=30` rounds each clip's video
+     up to a whole frame (~+33 ms) while audio is cut exact. FIX: render an EXACT
+     frame count + matching sample count — `-frames:v round(dur*30)` and
+     `-af aresample=48000,apad,atrim=end_sample=round(dur*30)*1600`
+     (1600 = 48000/30 samples/frame), so video_len == audio_len per clip.
+  2. *Concat-demuxer PTS corruption (the subtle one).* Even with perfectly
+     matched clips, `ffmpeg -f concat -c copy` MANGLES video PTS at every clip
+     boundary — piles of frames land on a single timestamp, others get double
+     gaps (`ffprobe -show_entries packet=pts_time` reveals 0 ms and 66 ms gaps).
+     The PCM audio concatenates cleanly, so video drifts. The concat *filter*
+     isn't a fix either — it pads audio ~1 frame per join. RELIABLE FIX, done in
+     `cut_render.py`: assemble the two tracks separately —
+       • VIDEO: concat-demuxer (keeps every frame) then **re-stamp PTS by frame
+         index**: `-vf setpts=N/30/TB -fps_mode passthrough` → perfectly even CFR.
+       • AUDIO: **byte-concatenate raw PCM** (`-f s16le` per clip, `cat` the
+         bytes) → exact sample sum, zero padding/resample.
+       • mux the clean video + raw audio.
+     Verify: `ffprobe -show_entries packet=pts_time` shows ZERO gaps off 1/30,
+     and `nb_read_frames*1600 == audio duration_ts` to the sample.
+  The final pass also forces `-fps_mode cfr` + `aresample=async=1:first_pts=0`,
+  but those only hold if the concat feeding them is already clean (cfr will
+  drop/dup frames trying to conform corrupt PTS, spreading the drift around).
 - **Runaway encode:** `-loop 1` image inputs NEVER signal EOF. Without a finite
   input `-t` on every looped image, `eof_action=pass` on overlays, and an output
   `-t <timeline>` cap, the final render encodes static frames forever and the MP4
