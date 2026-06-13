@@ -1,0 +1,18 @@
+# Large media — never commit raw recordings or final renders to git
+*.mov
+*.mp4
+*.m4a
+*.wav
+*.mkv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Work scratch / intermediate render artifacts
+work/
+clips/
+*.bak
+.DS_Store

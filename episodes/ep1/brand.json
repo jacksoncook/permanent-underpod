@@ -1,0 +1,18 @@
+{
+  "show": "PERMANENT UNDERPOD",
+  "show_kicker": "PERMANENT",
+  "show_main": "UNDERPOD",
+  "accent": [255, 210, 74],
+  "source": "/Users/jcook/Desktop/pod6122026 for_ai.mov",
+  "title_card": {"bg_frame": 2410, "line": "EPISODE 1   ·   Bitcoin  ·  Stablecoins  ·  AI", "dur": 4.5},
+  "end_card": {"bg_frame": 5165, "kicker": "NEXT WEEK ON",
+    "lines": ["Pico's recovery arc", "Tyler + Jackson's contrarian takes", "Did Chris's lottery ticket pay out?"],
+    "cta": "LIKE  +  SUBSCRIBE", "dur": 7},
+  "lower_thirds": [
+    {"name": "meet",    "kicker": "EPISODE 1",           "title": "MEET THE HOSTS"},
+    {"name": "confess", "kicker": "THE CONFESSIONAL",    "title": "BIGGEST BAG FUMBLES"}
+  ],
+  "stats": [
+    {"name": "calls", "kicker": "TYLER'S FUMBLE", "main": "$20K of BTC calls -> $100K -> $0"}
+  ]
+}

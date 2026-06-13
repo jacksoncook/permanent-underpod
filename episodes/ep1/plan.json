@@ -1,0 +1,46 @@
+{
+  "source": "/Users/jcook/Desktop/pod6122026 for_ai.mov",
+  "pause_keep_default": 0.7,
+  "pause_zones": [{"start": 4591, "end": 5173, "keep": 1.2}],
+  "protect": [[3597, 3630]],
+  "blocks": [
+    {"id": "T2", "start": 3207.0,  "end": 3215.4,  "cut_silences": false},
+    {"id": "T1", "start": 3400.6,  "end": 3415.7,  "cut_silences": false},
+    {"id": "T3", "start": 5002.2,  "end": 5012.7,  "cut_silences": false},
+    {"id": "CARD_TITLE", "card": "card_title.mov"},
+    {"id": "A",  "start": 2404.9,  "end": 2993.88, "cut_silences": true},
+    {"id": "P",  "start": 3495.4,  "end": 3636.9,  "cut_silences": true},
+    {"id": "B",  "start": 15.6,    "end": 2291.95, "cut_silences": true},
+    {"id": "C",  "start": 2993.88, "end": 3487.42, "cut_silences": true},
+    {"id": "DE", "start": 3638.0,  "end": 5173.0,  "cut_silences": true},
+    {"id": "F",  "start": 2291.95, "end": 2402.64, "cut_silences": true},
+    {"id": "CARD_END", "card": "card_end.mov"}
+  ],
+  "overlays": [
+    {"name": "lt_meet",    "block": "A",  "src_time": 2406.5, "dur": 6,  "kind": "lt"},
+    {"name": "lt_crypto",  "block": "A",  "src_time": 2646.0, "dur": 6,  "kind": "lt"},
+    {"name": "lt_pico",    "block": "P",  "src_time": 3505.0, "dur": 6,  "kind": "lt"},
+    {"name": "lt_news",    "block": "B",  "src_time": 17.0,   "dur": 6,  "kind": "lt"},
+    {"name": "lt_fable",   "block": "B",  "src_time": 880.0,  "dur": 6,  "kind": "lt"},
+    {"name": "lt_confess", "block": "C",  "src_time": 2996.0, "dur": 6,  "kind": "lt"},
+    {"name": "lt_contra",  "block": "DE", "src_time": 3686.0, "dur": 6,  "kind": "lt"},
+    {"name": "lt_lotto",   "block": "DE", "src_time": 4605.0, "dur": 6,  "kind": "lt"},
+    {"name": "lt_bonus",   "block": "F",  "src_time": 2296.5, "dur": 6,  "kind": "lt"},
+    {"name": "st_loop",    "block": "C",  "src_time": 3047.5, "dur": 10, "kind": "st"},
+    {"name": "st_calls",   "block": "C",  "src_time": 3185.0, "dur": 12, "kind": "st"},
+    {"name": "st_bag",     "block": "C",  "src_time": 3409.6, "dur": 12, "kind": "st"}
+  ],
+  "sheet": [
+    {"label": "Cold open (teaser)", "block": "T2"},
+    {"label": "Welcome + meet the hosts", "block": "A"},
+    {"label": "The first crypto we ever bought", "block": "A", "src_time": 2645.64},
+    {"label": "Pico update - why Tyler is remote", "block": "P"},
+    {"label": "The news: crypto shakeout + the AI rotation", "block": "B"},
+    {"label": "Claude Fable 5 - are we cooked?", "block": "B", "src_time": 872.04},
+    {"label": "The confessional: biggest bag fumbles", "block": "C"},
+    {"label": "Contrarian corner: stablecoins to zero?", "block": "DE"},
+    {"label": "The lottery tickets (ft. Claude)", "block": "DE", "src_time": 4591.44},
+    {"label": "Bonus: naming the pod", "block": "F"},
+    {"label": "End card / next week", "block": "CARD_END"}
+  ]
+}
