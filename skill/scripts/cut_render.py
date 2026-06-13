@@ -75,16 +75,30 @@ for b in PLAN["blocks"]:
 
 print(f"{idx} clips to render, {sum(e-s for s,e in removals)/60:.1f} min dead air removed")
 
+FPS = 30
+SR = 48000
+SPF = SR // FPS  # 1600 audio samples per video frame at 30fps / 48kHz
+
 def render(c):
     if c["src_start"] is None:
         return True
     out = os.path.join(WORK, c["file"])
+    # A/V SYNC: render an EXACT whole number of frames and the EXACTLY matching
+    # number of audio samples, so every clip has video_len == audio_len to the
+    # sample. The old `-t <dur>` recipe let `fps=30` round video up to a whole
+    # frame (+~33ms) while audio was cut exact; across dozens of clips that
+    # accumulates into seconds of progressive drift after concat. -frames:v n
+    # pins the video; apad+atrim pins audio to n*SPF samples (silence-padded if
+    # the source ran short at the cut, which lands on a pause so it's inaudible).
+    n = max(1, round((c["src_end"] - c["src_start"]) * FPS))
+    samples = n * SPF
     r = subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y",
-                        "-ss", f"{c['src_start']:.3f}",
-                        "-t", f"{c['src_end']-c['src_start']:.3f}", "-i", SRC,
-                        "-vf", "fps=30,format=yuv420p",
+                        "-ss", f"{c['src_start']:.3f}", "-i", SRC,
+                        "-vf", "fps=30,format=yuv420p", "-frames:v", str(n),
+                        "-af", f"aresample={SR},apad,atrim=end_sample={samples}",
+                        "-video_track_timescale", "30000",
                         "-c:v", "h264_videotoolbox", "-b:v", "10M",
-                        "-c:a", "pcm_s16le", "-ar", "48000", "-ac", "1", out],
+                        "-c:a", "pcm_s16le", "-ar", str(SR), "-ac", "1", out],
                        capture_output=True, text=True)
     if r.returncode != 0:
         print("FAIL", c["file"], r.stderr[-200:])

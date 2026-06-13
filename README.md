@@ -62,9 +62,12 @@ First episode (recorded 2026-06-12): two-host-on-couch + Tyler remote (his dog
 Pico was sick). Final cut ~1:24, 16 chapters. Teases for Ep 2: Pico's recovery,
 saved contrarian takes, and whether Chris's lottery ticket paid out.
 
-## Known issues / TODO
+## Changelog
 
-- **A/V drift in the Ep 1 render** (`fps=30` rounds each clip's video up ~1
-  frame; over 63 clips the picture drifts ~2.4s ahead of audio). Diagnosed;
-  fix pending — see the next commit. Future renders should frame-align each
-  clip's duration and pad audio to an exact matching sample count.
+- **A/V drift fixed.** The first Ep 1 render drifted ~2.4s (picture ahead of
+  sound) because `fps=30` rounded each clip's video up ~1 frame while audio was
+  cut exact, accumulating across 63 clips. `cut_render.py` now renders an exact
+  frame count per clip and pads/trims audio to the matching sample count
+  (`n*1600`), so every clip has `video_len == audio_len` and concat stays
+  locked; the final pass also forces `-r 30 -fps_mode cfr`. Re-cut episodes to
+  pick up the fix. See `skill/SKILL.md` → Gotchas for the full writeup.

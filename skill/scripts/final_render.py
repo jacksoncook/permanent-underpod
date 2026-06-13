@@ -82,7 +82,10 @@ if logo:
 else:
     f.append(f"{cur}null[vout]")
 
-f.append(f"[0:a]{CHAIN},volume={gain:.2f}dB,alimiter=limit={lim}:level=false[sp]")
+# aresample=async=1:first_pts=0 locks audio to the video clock from t=0 so the
+# final mux can't reintroduce an offset.
+f.append(f"[0:a]aresample=async=1:first_pts=0,{CHAIN},"
+         f"volume={gain:.2f}dB,alimiter=limit={lim}:level=false[sp]")
 amix_in = "[sp]"
 for j, (i, s) in enumerate(zip(sfx_idx, CFG.get("sfx", []))):
     ms = int(max(0, blk_start(s["block"]) + s.get("offset", 0)) * 1000)
@@ -97,6 +100,7 @@ else:
 out = CFG["out"] if not TEST_T else os.path.join(WORK, "test_head.mp4")
 cmd += ["-filter_complex", ";".join(f), "-map", "[vout]", "-map", "[aout]",
         "-t", f"{(TEST_T or total + 0.2):.2f}", "-shortest",
+        "-r", "30", "-fps_mode", "cfr", "-video_track_timescale", "30000",
         "-c:v", "h264_videotoolbox", "-b:v", "7500k", "-profile:v", "high",
         "-c:a", "aac", "-b:a", "192k", "-ar", "48000",
         "-movflags", "+faststart", out]

@@ -1,11 +1,27 @@
 {
-  "out": "/Users/jcook/Desktop/Permanent Underpod - Ep 1 (Final Cut).mp4",
+  "out": "/Users/jcook/Desktop/permanent-underpod/media/ep1-final-cut.mp4",
   "chain": "highpass=f=70,afftdn=nr=22:nf=-52:tn=1,dynaudnorm=f=200:g=11:m=30:p=0.95:t=0.0065",
   "target_lufs": -16,
   "limit": 0.84,
-  "logo": {"file": "logo.png", "width": 170, "alpha": 0.8, "hide_during": ["CARD_TITLE", "CARD_END"]},
+  "logo": {
+    "file": "logo.png",
+    "width": 170,
+    "alpha": 0.8,
+    "hide_during": [
+      "CARD_TITLE",
+      "CARD_END"
+    ]
+  },
   "sfx": [
-    {"file": "sfx_whoosh.wav", "block": "CARD_TITLE", "offset": -0.45},
-    {"file": "sfx_sting.wav",  "block": "CARD_END",   "offset": 0}
+    {
+      "file": "sfx_whoosh.wav",
+      "block": "CARD_TITLE",
+      "offset": -0.45
+    },
+    {
+      "file": "sfx_sting.wav",
+      "block": "CARD_END",
+      "offset": 0
+    }
   ]
 }

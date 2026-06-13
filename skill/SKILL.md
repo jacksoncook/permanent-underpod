@@ -120,6 +120,20 @@ Trim/fade and loudnorm before mixing.
 
 ## Gotchas
 
+- **Progressive A/V drift (THE big one — bit Ep 1):** cutting clips with
+  `-t <dur> ... -vf fps=30` lets the video round UP to a whole frame (~+33 ms)
+  while audio is cut to the exact length. Per clip it's imperceptible; across
+  ~60 concatenated clips it accumulates into **seconds** of drift (Ep 1: video
+  ran 2.4 s ahead of audio by the end). The concat demuxer with `-c copy`
+  cannot fix it because each clip genuinely has video_len > audio_len. FIX:
+  render an EXACT frame count and the matching sample count per clip —
+  `-frames:v round(dur*30)` for video and `-af aresample=48000,apad,
+  atrim=end_sample=round(dur*30)*1600` for audio (1600 = 48000/30 samples per
+  frame). Then video_len == audio_len to the sample and concat stays locked.
+  Verify with `ffprobe -count_frames` (the duration *field* may look ~1 frame
+  long per clip — that's harmless metadata; compare `nb_read_frames` and audio
+  `duration_ts` instead). Baked into `scripts/cut_render.py`; the final pass
+  also forces `-r 30 -fps_mode cfr` + `aresample=async=1:first_pts=0`.
 - **Runaway encode:** `-loop 1` image inputs NEVER signal EOF. Without a finite
   input `-t` on every looped image, `eof_action=pass` on overlays, and an output
   `-t <timeline>` cap, the final render encodes static frames forever and the MP4
@@ -134,4 +148,5 @@ Trim/fade and loudnorm before mixing.
 - Title/teaser quote boundaries: pull exact ms from the transcript CSV, pad ±0.15 s.
 - Check `input_tp` from a loudnorm measure early: far-mic recordings can hide +5 dB
   clipped transients (mic bumps) — the limiter at the end of the chain catches them.
-- Verify the final A/V sync by spot-checking a late segment, not just the start.
+- Verify the final A/V sync by spot-checking a LATE segment, not just the start —
+  drift is invisible at the top and only obvious near the end.
