@@ -97,5 +97,8 @@ saved contrarian takes, and whether Chris's lottery ticket paid out.
   cut exact, accumulating across 63 clips. `cut_render.py` now renders an exact
   frame count per clip and pads/trims audio to the matching sample count
   (`n*1600`), so every clip has `video_len == audio_len` and concat stays
-  locked; the final pass also forces `-r 30 -fps_mode cfr`. Re-cut episodes to
-  pick up the fix. See `skill/SKILL.md` → Gotchas for the full writeup.
+  locked; the final pass also forces `-r 30 -fps_mode cfr`. See
+  `skills/podcast-video-edit/SKILL.md` → Gotchas for the full writeup.
+- **Ep 1 v2 re-rendered & verified.** +0.010s A/V delta across 84 min (was
+  +2.4s), true 30fps CFR, −16.6 LUFS / −1.14 dBTP. Three teasers + a 15-min
+  Contrarian Corner pull exported to `media/clips/`.
