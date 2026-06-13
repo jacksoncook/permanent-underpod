@@ -43,8 +43,13 @@ if not os.path.exists(mfile):
     r = subprocess.run(["ffmpeg", "-hide_banner", "-i", raw, "-map", "0:a", "-af",
                         CHAIN + ",loudnorm=print_format=json", "-f", "null", "-"],
                        capture_output=True, text=True)
-    m = re.search(r"\{[^{}]*\}\s*$", r.stderr.strip(), re.S)
-    json.dump(json.loads(m.group(0)), open(mfile, "w"))
+    # loudnorm prints its JSON summary somewhere in stderr, often with ffmpeg
+    # progress/footer lines after it — so grab the LAST {...} block, not an
+    # end-anchored match (the anchor was fragile and returned None mid-run).
+    blocks = re.findall(r"\{[^{}]*\}", r.stderr, re.S)
+    if not blocks:
+        sys.exit("loudnorm measurement failed:\n" + r.stderr[-800:])
+    json.dump(json.loads(blocks[-1]), open(mfile, "w"))
 meas = json.load(open(mfile))
 gain = CFG.get("target_lufs", -16) - float(meas["input_i"])
 lim = CFG.get("limit", 0.84)
