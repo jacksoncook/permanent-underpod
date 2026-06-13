@@ -11,18 +11,33 @@ segment maps, prep guides, render configs).
 ## Layout
 
 ```
-skill/            The "podcast-video-edit" agent skill (canonical copy)
-  SKILL.md          Full workflow + gotchas
-  scripts/          The automated pipeline (see below)
-  examples/         Schema-documented example configs (Ep 1's real decisions)
-brand/            Logo masters (480 / 1920 / 3000px cover) + brand spec
+skills/
+  podcast-video-edit/   Make the full episode: reorder, cut, brand, master
+    SKILL.md              Full workflow + gotchas
+    scripts/              The automated pipeline (analyze → verify → graphics → cut → final)
+    examples/             Schema-documented example configs (Ep 1's real decisions)
+  clipify/              Carve shareable clips out of a recording
+    SKILL.md              Teasers/shorts (branded) + long-form chapter pulls (plain)
+    scripts/clipify.py
+brand/                Logo masters (480 / 1920 / 3000px cover) + brand spec
 episodes/
-  ep1/              Transcript (csv/srt/words), segment-times, prep guide,
-                    and the plan/brand/render JSON used to cut the episode
+  ep1/                  Transcript (csv/srt/words), segment-times, prep guide,
+                        and the plan/brand/render/clips JSON for the episode
+media/                (gitignored) raw recording, final cuts, exported clips
 ```
 
-Large media (raw recordings, final `.mp4`s) are **gitignored** — they live on
-the Desktop / external storage, not in git.
+All media — raw recordings, final `.mp4`s, exported clips — lives in `media/`
+and is **gitignored**. It's large and regenerable from the configs above.
+
+## Skills
+
+Two companion agent skills (canonical copies also installed under `~/.claude/skills`):
+
+- **`podcast-video-edit`** — turns a raw recording into a polished episode.
+- **`clipify`** — cuts standalone clips: short **branded** teasers/shorts from raw
+  footage (logo bug + caption, 16:9 or vertical 9:16), or **plain** long-form
+  chapter pulls sliced out of the finished cut. Both share the frame-aligned
+  anti-drift recipe.
 
 ## Producing an episode (the scripted pipeline)
 
@@ -49,6 +64,19 @@ python3 $SKILL/final_render.py <workdir> render.json
 The LLM judgment lives in: segment order & boundaries (from the transcript),
 teaser clip picks, protect/pause zones, overlay titles & timing, card copy,
 and chapter labels. Everything else is the scripts' job.
+
+## Clips & teasers
+
+```bash
+# captions need Pillow; use a venv that has it
+python3 skills/clipify/scripts/clipify.py episodes/ep1/clips.json
+```
+
+`episodes/ep1/clips.json` defines the three cold-open **teasers** (branded, pulled
+from the raw footage → `media/clips/`) plus a **long-form** "Contrarian Corner"
+pull from the finished cut (`style: plain`). The long-form entry is skipped until
+`media/ep1-final-cut.mp4` exists, and its timestamps should be refreshed from
+`episodes/ep1/segment-times.md` after a re-render.
 
 ## Brand
 

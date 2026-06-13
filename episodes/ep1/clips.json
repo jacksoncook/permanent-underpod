@@ -1,0 +1,29 @@
+{
+  "source": "/Users/jcook/Desktop/permanent-underpod/media/ep1-raw.mov",
+  "out_dir": "/Users/jcook/Desktop/permanent-underpod/media/clips",
+  "logo": "/Users/jcook/Desktop/permanent-underpod/brand/logo-ep1-original.png",
+  "clips": [
+    {
+      "name": "teaser-1-options-fumble",
+      "start": 3207.0, "end": 3215.4,
+      "caption": {"kicker": "BIGGEST FUMBLES", "title": "$20K → $100K → $0"}
+    },
+    {
+      "name": "teaser-2-8m-bag",
+      "start": 3400.6, "end": 3415.7,
+      "caption": {"kicker": "BIGGEST FUMBLES", "title": "$300 → $8,000,000"}
+    },
+    {
+      "name": "teaser-3-lotto-underclass",
+      "start": 5002.2, "end": 5012.7,
+      "caption": {"kicker": "LOTTERY NIGHT", "title": "Verified by Claude"}
+    },
+    {
+      "name": "segment-contrarian-corner",
+      "source": "/Users/jcook/Desktop/permanent-underpod/media/ep1-final-cut.mp4",
+      "start": "58:01", "end": "1:13:24",
+      "style": "plain",
+      "_note": "Long-form chapter pulled from the FINISHED cut. Update start/end from episodes/ep1/segment-times.md after the v2 re-render (times shift slightly with frame-aligned clips). Runs once ep1-final-cut.mp4 exists; skipped until then."
+    }
+  ]
+}

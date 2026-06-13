@@ -8,6 +8,12 @@ description: Edit a raw podcast video recording into a polished episode — reor
 Turn a single raw recording (e.g. `.mov` from a camera) into a polished, reordered,
 branded episode using only ffmpeg + whisper-cpp + Python/Pillow. No NLE needed.
 
+> **Companion skill — `clipify`:** to carve shareable pieces out of a recording
+> (short branded teasers/shorts, or long-form chapter pulls from the finished
+> cut), use the `clipify` skill. It shares this skill's frame-aligned anti-drift
+> recipe and logo/lower-third styling. This skill makes the episode; clipify
+> slices it.
+
 ## Scripted pipeline (use this — scripts in `scripts/`, examples in `examples/`)
 
 The mechanical work is automated; your job is the three JSON decision documents.

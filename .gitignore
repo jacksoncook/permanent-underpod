@@ -16,3 +16,6 @@ work/
 clips/
 *.bak
 .DS_Store
+
+# All media output (raw, finals, clips) — regenerable, not for git
+media/
