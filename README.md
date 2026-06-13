@@ -92,13 +92,21 @@ saved contrarian takes, and whether Chris's lottery ticket paid out.
 
 ## Changelog
 
-- **A/V drift fixed.** The first Ep 1 render drifted ~2.4s (picture ahead of
-  sound) because `fps=30` rounded each clip's video up ~1 frame while audio was
-  cut exact, accumulating across 63 clips. `cut_render.py` now renders an exact
-  frame count per clip and pads/trims audio to the matching sample count
-  (`n*1600`), so every clip has `video_len == audio_len` and concat stays
-  locked; the final pass also forces `-r 30 -fps_mode cfr`. See
-  `skills/podcast-video-edit/SKILL.md` → Gotchas for the full writeup.
-- **Ep 1 v2 re-rendered & verified.** +0.010s A/V delta across 84 min (was
-  +2.4s), true 30fps CFR, −16.6 LUFS / −1.14 dBTP. Three teasers + a 15-min
-  Contrarian Corner pull exported to `media/clips/`.
+- **A/V drift fixed (two root causes).** The first Ep 1 renders drifted (picture
+  progressively ahead of sound). Two independent bugs, both now fixed in
+  `cut_render.py`:
+  1. *Per-clip frame rounding* — `fps=30` rounded each clip's video up ~1 frame
+     while audio was cut exact. Fixed by rendering an exact `-frames:v` count and
+     padding/trimming audio to the matching `n*1600` samples.
+  2. *Concat-demuxer PTS corruption* — `-f concat -c copy` mangled video PTS at
+     clip boundaries (frames piling on one timestamp), so video drifted even with
+     matched clips. Fixed by re-stamping video PTS by frame index
+     (`setpts=N/30/TB`) and byte-concatenating raw PCM audio, assembled as
+     separate tracks then muxed.
+  See `skills/podcast-video-edit/SKILL.md` → Gotchas for the full writeup.
+- **Ep 1 final re-rendered & verified the right way.** Across the whole 84 min:
+  **0 irregular video PTS gaps** (was 381), `frames×1600 == audio samples`
+  (delta +0.0003s, ~16 AAC samples — non-progressive), true 30fps CFR,
+  −16.6 LUFS / −1.14 dBTP. Verified by PTS regularity + frame↔sample match across
+  the entire file, not just total duration (which had masked the drift). Three
+  teasers + a 15-min Contrarian Corner pull in `media/clips/`.
