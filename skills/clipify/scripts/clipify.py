@@ -46,7 +46,8 @@ LOGO = SPEC.get("logo")
 DEF_SRC = SPEC.get("source")
 CHAIN = SPEC.get("audio_chain",
     "highpass=f=70,afftdn=nr=22:nf=-52:tn=1,"
-    "dynaudnorm=f=200:g=11:m=30:p=0.95:t=0.0065,loudnorm=I=-16:TP=-1.5:LRA=11")
+    "acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,"
+    "loudnorm=I=-16:TP=-1.5:LRA=5")
 
 FONTS = SPEC.get("fonts_dir", OUTDIR)
 BLACK_F, BOLD_F = os.path.join(FONTS, "arialblack.ttf"), os.path.join(FONTS, "arialbold.ttf")

@@ -90,21 +90,43 @@ transcript gaps can't verify either. The fix that works:
   business); skip protected zones (visual moments). Require ≥1 s net removal.
 - Expect to reject ~60% of candidates. ~2–3 min of true dead air per 90 min is normal.
 
-## Audio chain for uneven multi-mic recordings
+## Audio chain — stable & equal speaker levels (uneven multi-mic recordings)
 
 ```
-highpass=f=70, afftdn=nr=22:nf=-52:tn=1,
-dynaudnorm=f=200:g=11:m=30:p=0.95:t=0.0065,
-loudnorm=I=-16:TP=-1.5:LRA=11:linear=true:measured_*=<2-pass values>
+highpass=f=70,
+afftdn=nr=22:nf=-52:tn=1,
+acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,
+loudnorm=I=-16:TP=-1.5:LRA=5
 ```
 
-- `dynaudnorm` with a tuned `t` (threshold) is the key: it lifts faint speakers
-  (+25 dB) but leaves true silence un-amplified (no noise pumping). Tune `t` between
-  noise peaks and faint-speech peaks (~0.006–0.01); verify on three slices: faint
-  speech, normal speech, true silence. Target: speech within ~5 dB, silence < −60.
-- Two-pass loudnorm: measure with the chain applied, then render with `measured_*`
-  values and `linear=true`. −16 LUFS integrated / −1.5 dBTP is the podcast standard.
-- Mix SFX *after* loudnorm: `adelay=<ms>:all=1` + `amix=normalize=0` + alimiter.
+The goal is every presenter at a stable, equal loudness — critical when one mic
+is far/remote (e.g. a laptop) and others are close. The right metric is **LRA
+(loudness range)**, NOT a peak/RMS spread: LRA captures the slow, macro variation
+*between speakers and sections* that you actually hear as "fluctuation."
+
+- **Measure LRA** with `loudnorm=...:print_format=json` (read `input_lra`) on a
+  representative 10-min multi-speaker chunk. Raw conversational ≈ 10 LU; target
+  **≈ 5 LU** for "stable and equal." Also check std of short-term loudness
+  (`ebur128=metadata=1,ametadata=print:key=lavfi.r128.S`) — should roughly halve.
+- **`loudnorm` (dynamic, low LRA target) is the leveler that works.** LRA=5 pulls
+  the range from ~10 → ~4.7 LU. It's the EBU reference leveler — smoother on speech
+  than alternatives and the only thing here that meaningfully reduces *macro*
+  variation between speakers.
+- **`acompressor` first** tames within-speaker peaks/micro-dynamics (plosives,
+  emphasis) so loudnorm has less to do; keep it gentle (ratio 3, soft knee).
+- **DON'T use `dynaudnorm` for this** — it's a windowed normalizer that *pumps*
+  on a single mixed track, ramping gain up/down as speakers alternate. Measured:
+  it INCREASED the range (raw 4.8 → 11.7 LU in a uniform-quiet window) and was the
+  main cause of the perceived fluctuation. Compressors with ms timing also don't
+  help LRA — they only touch micro-dynamics, not the between-speaker macro level.
+- The final pass then measures the chain output and applies a small constant
+  `volume` correction + `alimiter` to land exactly −16 LUFS / −1.5 dBTP. (`linear`
+  two-pass loudnorm does NOT fix fluctuation — it's constant-gain; you need the
+  dynamic low-LRA stage above for that.)
+- For true per-speaker equality with zero pumping you'd diarize + apply per-speaker
+  static gain; the chain above gets ~90% of the way with no extra deps. Revisit
+  diarization only if a single track still isn't enough.
+- Mix SFX *after* the chain: `adelay=<ms>:all=1` + `amix=normalize=0` + alimiter.
   Pre-normalize SFX to ~−20 LUFS so they sit under speech.
 
 ## SFX & music
