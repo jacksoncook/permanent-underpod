@@ -92,6 +92,14 @@ saved contrarian takes, and whether Chris's lottery ticket paid out.
 
 ## Changelog
 
+- **Speaker loudness stabilized & equalized.** Voices fluctuated (quiet
+  remote/far mic vs loud in-room) — a 10 LU loudness range. The old
+  `dynaudnorm` was *pumping* on the single mixed track and making it worse.
+  New chain: `acompressor` (within-speaker peaks) + `loudnorm` dynamic at
+  **LRA=5** (between-speaker macro leveling). Result: final-cut LRA 8.6 → **6.0**,
+  short-term loudness std ~halved, speakers within ~1 LU. Clips regenerated with
+  the leveled audio. See `skills/podcast-video-edit/SKILL.md` → Audio chain.
+
 - **A/V drift fixed (two root causes).** The first Ep 1 renders drifted (picture
   progressively ahead of sound). Two independent bugs, both now fixed in
   `cut_render.py`:
