@@ -94,6 +94,7 @@ def build(c):
     style = c.get("style", "branded")
     inputs = ["-ss", f"{start:.3f}", "-i", src]
     fg = []
+    cap_tmp = None
 
     if style == "plain":
         # slice a finished, already-branded+mastered video: clean accurate cut only
@@ -118,9 +119,9 @@ def build(c):
             fg.append(f"{last}[bug]overlay={logo_pos}:eof_action=pass[v{idx}]")
             last = f"[v{idx}]"; idx += 1
         if c.get("caption"):
-            cp = os.path.join(OUTDIR, "_cap_" + c["name"] + ".png")
-            caption_png(c["caption"]["kicker"], c["caption"]["title"], cp, big=vertical)
-            inputs += ["-loop", "1", "-t", f"{dur:.3f}", "-i", cp]
+            cap_tmp = os.path.join(OUTDIR, "_cap_" + c["name"] + ".png")
+            caption_png(c["caption"]["kicker"], c["caption"]["title"], cap_tmp, big=vertical)
+            inputs += ["-loop", "1", "-t", f"{dur:.3f}", "-i", cap_tmp]
             fg.append(f"{last}[{idx}:v]overlay={cap_pos}:eof_action=pass[v{idx}]")
             last = f"[v{idx}]"; idx += 1
         fg.append(f"{last}null[vout]")
@@ -135,6 +136,8 @@ def build(c):
         "-c:a", "aac", "-b:a", "192k", "-ar", "48000",
         "-movflags", "+faststart", out]
     r = subprocess.run(cmd, capture_output=True, text=True)
+    if cap_tmp and os.path.exists(cap_tmp):
+        os.remove(cap_tmp)  # caption is burned into the mp4; PNG is scratch
     if r.returncode != 0:
         print("FAIL", c["name"], r.stderr[-300:]); return None
     d = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries",
