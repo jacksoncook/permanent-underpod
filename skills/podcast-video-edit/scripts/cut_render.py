@@ -182,9 +182,33 @@ for r in PLAN.get("sheet", []):
     t = (s2f(r["block"], r["src_time"]) if "src_time" in r
          else next(c["final_start"] for c in clips if c["block"] == r["block"]))
     rows.append((r["label"], t))
+
+def platform_chapters(rows, min_gap):
+    """Enforce a platform's minimum gap between chapters. On a too-close pair the
+    earlier chapter is by definition the short one (its length == the gap), so
+    drop it and keep the later (more substantial) one — except never drop the
+    0:00 opener. Returns (kept_rows, dropped_labels)."""
+    kept, dropped = [], []
+    for label, t in rows:
+        if not kept or t - kept[-1][1] >= min_gap:
+            kept.append((label, t))
+        elif kept[-1][1] == 0:        # keep the 0:00 opener; drop this one
+            dropped.append(label)
+        else:                          # replace the short earlier chapter
+            dropped.append(kept[-1][0]); kept[-1] = (label, t)
+    return kept, dropped
+
+# YouTube needs >=10s between chapters; Spotify needs >=30s. Both need a 0:00
+# line and >=3 chapters. Emit a ready-to-paste block for each.
 with open(os.path.join(WORK, "sheet.md"), "w") as f:
     f.write("| Time | Segment |\n|---|---|\n")
     for label, t in rows:
         f.write(f"| {fmt(t)} | {label} |\n")
-    f.write("\n```\n" + "\n".join(f"{fmt(t)} {l}" for l, t in rows) + "\n```\n")
-print("wrote clips.json, overlays.json, sheet.md, edited_raw.mov")
+    for platform, gap in [("YouTube", 10), ("Spotify", 30)]:
+        kept, dropped = platform_chapters(rows, gap)
+        f.write(f"\n## {platform} chapters (paste into description — "
+                f">={gap}s spacing, {len(kept)} chapters)\n")
+        if dropped:
+            f.write(f"<!-- dropped for {gap}s spacing: {', '.join(dropped)} -->\n")
+        f.write("\n```\n" + "\n".join(f"{fmt(t)} {l}" for l, t in kept) + "\n```\n")
+print("wrote clips.json, overlays.json, sheet.md (YouTube + Spotify chapters), edited_raw.mov")
