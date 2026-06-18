@@ -130,7 +130,9 @@ print(f"final runtime: {cum/60:.2f} min")
 concat_txt = os.path.join(WORK, "concat.txt")
 with open(concat_txt, "w") as f:
     for c in clips:
-        f.write(f"file '{os.path.join(WORK, c['file'])}'\n")
+        # absolute paths: the concat demuxer resolves relative `file` entries
+        # against concat.txt's OWN directory, which doubles a relative WORK.
+        f.write(f"file '{os.path.abspath(os.path.join(WORK, c['file']))}'\n")
 
 raw_audio = os.path.join(WORK, "_audio_cat.raw")
 with open(raw_audio, "wb") as out:
@@ -173,6 +175,22 @@ for o in PLAN.get("overlays", []):
                  "start": round(ft, 2), "end": round(ft + o.get("dur", 6), 2)})
 json.dump(omap, open(os.path.join(WORK, "overlays.json"), "w"), indent=1)
 
+# creative reframes (punch-ins / slow pushes): same source-time -> final-time
+# mapping as overlays. final_render applies the whole schedule as ONE zoompan
+# pass. "dur" is FINAL-time seconds (how long the punch holds on screen).
+rmap = []
+for r in PLAN.get("reframes", []):
+    ft = s2f(r["block"], r["src_time"])
+    if ft is None:
+        print("WARN reframe unmapped:", r.get("preset"), r.get("src_time")); continue
+    entry = {"preset": r.get("preset", "center"),
+             "start": round(ft, 2), "end": round(ft + r.get("dur", 5), 2)}
+    if "rect" in r:
+        entry["rect"] = r["rect"]
+    rmap.append(entry)
+rmap.sort(key=lambda r: r["start"])
+json.dump(rmap, open(os.path.join(WORK, "reframes.json"), "w"), indent=1)
+
 def fmt(s):
     s = int(round(s)); h, r = divmod(s, 3600); m, sec = divmod(r, 60)
     return f"{h}:{m:02d}:{sec:02d}" if h else f"{m}:{sec:02d}"
@@ -211,4 +229,5 @@ with open(os.path.join(WORK, "sheet.md"), "w") as f:
         if dropped:
             f.write(f"<!-- dropped for {gap}s spacing: {', '.join(dropped)} -->\n")
         f.write("\n```\n" + "\n".join(f"{fmt(t)} {l}" for l, t in kept) + "\n```\n")
-print("wrote clips.json, overlays.json, sheet.md (YouTube + Spotify chapters), edited_raw.mov")
+print(f"wrote clips.json, overlays.json, reframes.json ({len(rmap)} reframes), "
+      f"sheet.md (YouTube + Spotify chapters), edited_raw.mov")

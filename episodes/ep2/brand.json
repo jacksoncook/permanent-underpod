@@ -1,0 +1,27 @@
+{
+  "show": "PERMANENT UNDERPOD",
+  "show_kicker": "PERMANENT",
+  "show_main": "UNDERPOD",
+  "accent": [255, 210, 74],
+  "source": "/Users/jcook/Desktop/permanent-underpod/media/ep2-raw.mov",
+  "title_card": {"bg_frame": 30, "line": "EPISODE 2   ·   Perps  ·  Stablecoins  ·  Fable 5", "dur": 4.5},
+  "end_card": {"bg_frame": 3990, "kicker": "NEXT TIME ON",
+    "lines": ["Contrarian Corner - the takes come due", "Agentic payments, for real this time", "GENIUS Act rules drop (Jul 18)"],
+    "cta": "LIKE  +  SUBSCRIBE", "dur": 7},
+  "lower_thirds": [
+    {"name": "welcome", "kicker": "WEEK TWO",                    "title": "THE EMPTY CHAIR MOVED"},
+    {"name": "house",   "kicker": "HOUSEKEEPING",               "title": "WE HEARD YOU"},
+    {"name": "pico",    "kicker": "DOG OF THE POD",             "title": "THE PICO UPDATE"},
+    {"name": "lotto",   "kicker": "UNFINISHED BUSINESS",        "title": "THE LOTTERY TICKETS"},
+    {"name": "conf",    "kicker": "BOOTS ON THE GROUND",        "title": "STABLECOINS IN CDMX"},
+    {"name": "genius",  "kicker": "THE FIGHT",                  "title": "DIMON vs. THE GENIUS ACT"},
+    {"name": "pay",     "kicker": "THE BIG QUESTION",           "title": "WILL WE PAY IN STABLECOINS?"},
+    {"name": "perps",   "kicker": "MAIN EVENT",                 "title": "PERPETUAL FUTURES"},
+    {"name": "fable",   "kicker": "PERMANENT-UNDERCLASS UPDATE","title": "FABLE 5, YANKED"}
+  ],
+  "stats": [
+    {"name": "lotto",   "kicker": "JACKSON'S HAUL", "main": "$15 IN -> $11 OUT"},
+    {"name": "premium", "kicker": "THE SCAM",       "main": "+$2 'LOTERIA PREMIUM'"},
+    {"name": "perp",    "kicker": "RETAIL PERPS",   "main": "100X LONG = 1% MARGIN"}
+  ]
+}

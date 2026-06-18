@@ -1,0 +1,17 @@
+{
+  "out": "/Users/jcook/Desktop/permanent-underpod/media/Permanent Underpod - Ep 2 (Final Cut).mp4",
+  "chain": "highpass=f=80,adeclick,afftdn=nr=16:nf=-52:tn=1,equalizer=f=260:t=q:w=1.2:g=-3,equalizer=f=2800:t=q:w=1.4:g=2.5,equalizer=f=6500:t=q:w=2:g=-2,adynamicequalizer=dfrequency=6800:dqfactor=2.5:tfrequency=6800:tqfactor=2.5:mode=cutabove:threshold=0:ratio=4:range=8:attack=2:release=40,acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,loudnorm=I=-16:TP=-1.5:LRA=5",
+  "target_lufs": -16,
+  "limit": 0.84,
+  "logo": {"file": "logo.png", "width": 170, "alpha": 0.8, "hide_during": ["CARD_TITLE", "CARD_END"]},
+  "reframe_presets": {
+    "jackson": {"zoom": 1.85, "cx": 285, "cy": 285},
+    "tyler":   {"zoom": 1.85, "cx": 975, "cy": 270},
+    "center":  {"zoom": 1.5,  "cx": 640, "cy": 400},
+    "push":    {"zoom": 1.12, "cx": 640, "cy": 360}
+  },
+  "sfx": [
+    {"file": "sfx_whoosh.wav", "block": "CARD_TITLE", "offset": -0.45},
+    {"file": "sfx_sting.wav",  "block": "CARD_END",   "offset": 0}
+  ]
+}

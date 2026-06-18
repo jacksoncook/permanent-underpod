@@ -69,7 +69,47 @@ for s in CFG.get("sfx", []):
     cmd += ["-i", os.path.join(WORK, s["file"])]
     sfx_idx.append(i_next); i_next += 1
 
-f, cur = [], "[0:v]"
+f = []
+# --- creative reframes: punch-ins / slow pushes, applied UNDER the overlays ---
+# A single static camera (couch wide) gets monotonous; reframes simulate cutting
+# to a tighter shot of the active speaker (or a slow push for emphasis). We do
+# the WHOLE schedule in ONE zoompan pass driven by piecewise expressions of the
+# output time (on/30), so it costs one scaler pass — not N crop/scale branches —
+# and stays frame-exact (1280x720 CFR in, 1:1 out), leaving the anti-drift work
+# untouched. Outside every window z=1 -> the crop is the full frame (no zoom).
+# Lower-thirds/logo composite on top afterwards, so captions stay full-frame/sharp.
+rfile = os.path.join(WORK, "reframes.json")
+reframes = json.load(open(rfile)) if os.path.exists(rfile) else []
+DEF = {"jackson": {"zoom": 1.85, "cx": 285, "cy": 285},
+       "tyler":   {"zoom": 1.85, "cx": 975, "cy": 270},
+       "center":  {"zoom": 1.5,  "cx": 640, "cy": 400},
+       "push":    {"zoom": 1.12, "cx": 640, "cy": 360}}
+PRESETS = CFG.get("reframe_presets", {})
+def preset(name):
+    p = dict(DEF.get(name, DEF["center"])); p.update(PRESETS.get(name, {})); return p
+
+if reframes:
+    # default (wide): z=1, centered crop == full frame.
+    zx, xx, yy = "1", "iw/2-(iw/zoom/2)", "ih/2-(ih/zoom/2)"
+    for r in reframes:
+        s, e = r["start"], r["end"]; dur = max(0.1, e - s)
+        if "rect" in r:                       # explicit [x,y,w,h] -> derive zoom/center
+            x, y, w, h = r["rect"]; Z = 1280.0 / w; CX = x + w / 2; CY = y + h / 2
+        else:
+            p = preset(r["preset"]); Z, CX, CY = p["zoom"], p["cx"], p["cy"]
+        # push eases z from 1 -> Z across the window; static presets hold Z.
+        zt = (f"(1+{Z-1:.4f}*max(0,min(1,(on/30-{s})/{dur:.3f})))"
+              if r.get("preset") == "push" and "rect" not in r else f"{Z}")
+        xt = f"max(0,min(iw-iw/zoom,{CX}-(iw/zoom)/2))"
+        yt = f"max(0,min(ih-ih/zoom,{CY}-(ih/zoom)/2))"
+        zx = f"if(between(on/30,{s},{e}),{zt},{zx})"
+        xx = f"if(between(on/30,{s},{e}),{xt},{xx})"
+        yy = f"if(between(on/30,{s},{e}),{yt},{yy})"
+    f.append(f"[0:v]zoompan=z='{zx}':x='{xx}':y='{yy}':d=1:s=1280x720:fps=30,setsar=1[zp]")
+    cur = "[zp]"
+else:
+    cur = "[0:v]"
+
 for k, o in enumerate(overlays):
     pos = "x=60:y=H-h-46" if o["kind"] == "lt" else "x=W-w-50:y=64"
     f.append(f"{cur}[{k+1}:v]overlay={pos}:eof_action=pass"
