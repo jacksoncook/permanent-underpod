@@ -1,194 +1,49 @@
-[
- {
-  "file": "clips/c001.mov",
-  "block": "T1",
-  "src_start": 3321.75,
-  "src_end": 3329.0,
-  "final_start": 0.0,
-  "dur": 7.3
- },
- {
-  "file": "clips/c002.mov",
-  "block": "T2",
-  "src_start": 3306.35,
-  "src_end": 3316.4,
-  "final_start": 7.3,
-  "dur": 10.1
- },
- {
-  "file": "clips/c003.mov",
-  "block": "T3",
-  "src_start": 1380.3,
-  "src_end": 1387.4,
-  "final_start": 17.399,
-  "dur": 7.133
- },
- {
-  "file": "card_title.mov",
-  "block": "CARD_TITLE",
-  "src_start": null,
-  "src_end": null,
-  "final_start": 24.532,
-  "dur": 4.5
- },
- {
-  "file": "clips/c004.mov",
-  "block": "INTRO",
-  "src_start": 9.52,
-  "src_end": 73.729,
-  "final_start": 29.032,
-  "dur": 64.2
- },
- {
-  "file": "clips/c005.mov",
-  "block": "INTRO",
-  "src_start": 75.309,
-  "src_end": 90.7,
-  "final_start": 93.232,
-  "dur": 15.433
- },
- {
-  "file": "clips/c006.mov",
-  "block": "MAIN",
-  "src_start": 153.2,
-  "src_end": 337.086,
-  "final_start": 108.665,
-  "dur": 183.933
- },
- {
-  "file": "clips/c007.mov",
-  "block": "MAIN",
-  "src_start": 339.371,
-  "src_end": 356.622,
-  "final_start": 292.598,
-  "dur": 17.3
- },
- {
-  "file": "clips/c008.mov",
-  "block": "MAIN",
-  "src_start": 358.226,
-  "src_end": 1196.141,
-  "final_start": 309.898,
-  "dur": 837.9
- },
- {
-  "file": "clips/c009.mov",
-  "block": "MAIN",
-  "src_start": 1197.746,
-  "src_end": 1398.555,
-  "final_start": 1147.798,
-  "dur": 200.8
- },
- {
-  "file": "clips/c010.mov",
-  "block": "MAIN",
-  "src_start": 1400.679,
-  "src_end": 1554.901,
-  "final_start": 1348.598,
-  "dur": 154.233
- },
- {
-  "file": "clips/c011.mov",
-  "block": "MAIN",
-  "src_start": 1557.138,
-  "src_end": 1966.835,
-  "final_start": 1502.831,
-  "dur": 409.7
- },
- {
-  "file": "clips/c012.mov",
-  "block": "MAIN",
-  "src_start": 1968.291,
-  "src_end": 2036.241,
-  "final_start": 1912.531,
-  "dur": 67.967
- },
- {
-  "file": "clips/c013.mov",
-  "block": "MAIN",
-  "src_start": 2039.144,
-  "src_end": 2917.735,
-  "final_start": 1980.498,
-  "dur": 878.633
- },
- {
-  "file": "clips/c014.mov",
-  "block": "MAIN",
-  "src_start": 2920.145,
-  "src_end": 2946.521,
-  "final_start": 2859.131,
-  "dur": 26.4
- },
- {
-  "file": "clips/c015.mov",
-  "block": "MAIN",
-  "src_start": 2948.734,
-  "src_end": 3120.05,
-  "final_start": 2885.531,
-  "dur": 171.3
- },
- {
-  "file": "clips/c016.mov",
-  "block": "MAIN",
-  "src_start": 3123.206,
-  "src_end": 3289.562,
-  "final_start": 3056.831,
-  "dur": 166.367
- },
- {
-  "file": "clips/c017.mov",
-  "block": "MAIN",
-  "src_start": 3291.851,
-  "src_end": 3315.921,
-  "final_start": 3223.197,
-  "dur": 24.1
- },
- {
-  "file": "clips/c018.mov",
-  "block": "MAIN",
-  "src_start": 3317.409,
-  "src_end": 3338.845,
-  "final_start": 3247.297,
-  "dur": 21.466
- },
- {
-  "file": "clips/c019.mov",
-  "block": "MAIN",
-  "src_start": 3340.3,
-  "src_end": 3760.359,
-  "final_start": 3268.763,
-  "dur": 420.1
- },
- {
-  "file": "clips/c020.mov",
-  "block": "MAIN",
-  "src_start": 3761.736,
-  "src_end": 3811.731,
-  "final_start": 3688.863,
-  "dur": 50.033
- },
- {
-  "file": "clips/c021.mov",
-  "block": "MAIN",
-  "src_start": 3815.62,
-  "src_end": 3976.365,
-  "final_start": 3738.896,
-  "dur": 160.766
- },
- {
-  "file": "clips/c022.mov",
-  "block": "MAIN",
-  "src_start": 3979.173,
-  "src_end": 4027.0,
-  "final_start": 3899.662,
-  "dur": 47.866
- },
- {
-  "file": "card_end.mov",
-  "block": "CARD_END",
-  "src_start": null,
-  "src_end": null,
-  "final_start": 3947.529,
-  "dur": 7.0
- }
-]
+{
+  "source": "/Users/jcook/Desktop/permanent-underpod/media/ep2-raw.mov",
+  "out_dir": "/Users/jcook/Desktop/permanent-underpod/media/clips",
+  "logo": "/Users/jcook/Desktop/permanent-underpod/brand/logo-480.png",
+  "audio_chain": "highpass=f=80,adeclick,afftdn=nr=16:nf=-52:tn=1,equalizer=f=260:t=q:w=1.2:g=-3,equalizer=f=2800:t=q:w=1.4:g=2.5,equalizer=f=6500:t=q:w=2:g=-2,adynamicequalizer=dfrequency=6800:dqfactor=2.5:tfrequency=6800:tqfactor=2.5:mode=cutabove:threshold=0:ratio=4:range=8:attack=2:release=40,acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,loudnorm=I=-16:TP=-1.5:LRA=5",
+  "clips": [
+    {"name": "ep2-teaser-1-fable-yanked", "start": 3321.75, "end": 3329.0,
+     "caption": {"kicker": "PERMANENT UNDERCLASS", "title": "THE GOVT TOOK OUR AI"},
+     "title": "The government deleted the best AI on Earth 💀",
+     "description": "3 days after launch, the US ordered Anthropic to pull Fable 5 — its most powerful model — offline worldwide. Priced out AND locked out: welcome to the permanent underclass. 🎙️ Permanent Underpod Ep 2 — full episode linked. #AI #Anthropic #ClaudeAI #Fable #tech #podcast"},
+
+    {"name": "ep2-teaser-2-roll-the-dice", "start": 3306.35, "end": 3316.4,
+     "caption": {"kicker": "RETAIL PERPS", "title": "ROLL THE DICE"},
+     "title": "Why retail traders can't stop gambling 🎲",
+     "description": "Scratchers, perps, prediction markets — same impulse, more leverage. \"I want money now… roll the dice, get out of the permanent underclass.\" Now that the US legalized 100x perps, it's everywhere. 🎙️ Permanent Underpod Ep 2. #crypto #perps #bitcoin #trading #leverage #podcast"},
+
+    {"name": "ep2-teaser-3-rent-zinger", "start": 1380.3, "end": 1387.4,
+     "caption": {"kicker": "RENT-SEEKING", "title": "RENT, NOT THE HOUSE"},
+     "title": "Jamie Dimon vs Coinbase in one sentence 🏦",
+     "description": "The GENIUS Act fight, distilled: Coinbase wants a bank's privileges without a bank's rules — \"the right to collect the rent, but not the obligation to keep the house.\" 🎙️ Permanent Underpod Ep 2. #stablecoins #GENIUSAct #JamieDimon #Coinbase #crypto #fintech"},
+
+    {"name": "ep2-teaser-1-fable-yanked-vertical", "start": 3321.75, "end": 3329.0, "vertical": true,
+     "caption": {"kicker": "PERMANENT UNDERCLASS", "title": "THE GOVT TOOK OUR AI"},
+     "title": "The government deleted the best AI on Earth 💀",
+     "description": "3 days after launch, the US ordered Anthropic to pull Fable 5 offline worldwide. Priced out AND locked out — the permanent underclass is real. 🎙️ Permanent Underpod Ep 2. #AI #Anthropic #ClaudeAI #Fable #shorts #tech"},
+
+    {"name": "ep2-teaser-2-roll-the-dice-vertical", "start": 3306.35, "end": 3316.4, "vertical": true,
+     "caption": {"kicker": "RETAIL PERPS", "title": "ROLL THE DICE"},
+     "title": "Why retail traders can't stop gambling 🎲",
+     "description": "Scratchers, perps, prediction markets — same impulse, more leverage. \"Roll the dice, get out of the permanent underclass.\" 🎙️ Permanent Underpod Ep 2. #crypto #perps #bitcoin #trading #shorts"},
+
+    {"name": "ep2-teaser-3-rent-zinger-vertical", "start": 1380.3, "end": 1387.4, "vertical": true,
+     "caption": {"kicker": "RENT-SEEKING", "title": "RENT, NOT THE HOUSE"},
+     "title": "Jamie Dimon vs Coinbase in one sentence 🏦",
+     "description": "The GENIUS Act fight in a sentence: Coinbase wants a bank's privileges without a bank's rules — \"the right to collect the rent, not the obligation to keep the house.\" 🎙️ Permanent Underpod Ep 2. #stablecoins #GENIUSAct #crypto #fintech #shorts"},
+
+    {"name": "ep2-segment-perps-main-event",
+     "source": "/Users/jcook/Desktop/permanent-underpod/media/ep2-final-cut.mp4",
+     "start": "35:07", "end": "54:08", "style": "plain",
+     "title": "Perpetual Futures Explained — and Why the US Just Legalized 100x Leverage | Permanent Underpod Ep 2",
+     "description": "Our resident perps guy breaks down perpetual futures from scratch: what they are, how the funding rate pegs them to spot, why BitMEX invented them, liquidations and socialized losses, and how an on-chain venue started leading price discovery on oil. Then the news: the CFTC cleared regulated US perps (Kalshi, Kraken, Coinbase) — maturation, or a leverage bazooka with a federal stamp? Not financial advice; our own opinions, not our employers'. 🎙️ Full episode linked. #perps #perpetualfutures #crypto #bitcoin #hyperliquid #trading #DeFi"},
+
+    {"name": "ep2-segment-fable-yanked",
+     "source": "/Users/jcook/Desktop/permanent-underpod/media/ep2-final-cut.mp4",
+     "start": "54:08", "end": "1:04:28", "style": "plain",
+     "title": "The US Government Pulled the Best AI Off the Market — 3 Days After Launch | Permanent Underpod Ep 2",
+     "description": "Anthropic shipped Fable 5 — its most powerful model — and three days later the US government ordered it (and the \"Mythos\" class) shut off worldwide over a claimed narrow jailbreak. We process the grief: priced out at $10/$50 per million tokens, then locked out entirely, and what it means that a government can switch off a commercial AI used by hundreds of millions overnight. Not affiliated with any employer. 🎙️ Full episode linked. #AI #Anthropic #ClaudeAI #Fable #tech #podcast"}
+  ]
+}
