@@ -129,6 +129,43 @@ is far/remote (e.g. a laptop) and others are close. The right metric is **LRA
 - Mix SFX *after* the chain: `adelay=<ms>:all=1` + `amix=normalize=0` + alimiter.
   Pre-normalize SFX to ~−20 LUFS so they sit under speech.
 
+### Voice-enhancement front-end (de-essing, EQ, declick) — for shaky/far-mic feeds
+
+When a feed is rough (sibilant, boxy, clicky, far-mic), put a cleanup front-end
+*ahead of* the leveler. Order matters: **repair → denoise → corrective EQ → de-ess →
+compress → loudnorm** (declick before denoise so it repairs the artifact, not a
+smeared copy; EQ before de-ess so the de-esser only chases true sibilance; loudnorm
+always last). Drop-in front-end (Ep 2's `render.json` chain), all ffmpeg-native:
+
+```
+highpass=f=80, adeclick,
+afftdn=nr=16:nf=-52:tn=1,                                   # gentle (nr 12–18, not 22)
+equalizer=f=260:t=q:w=1.2:g=-3,                             # cut 200–400 Hz mud/boxiness
+equalizer=f=2800:t=q:w=1.4:g=2.5,                           # presence/intelligibility lift
+equalizer=f=6500:t=q:w=2:g=-2,                              # pre-tame harshness
+adynamicequalizer=dfrequency=6800:dqfactor=2.5:tfrequency=6800:tqfactor=2.5:\
+mode=cutabove:threshold=0:ratio=4:range=8:attack=2:release=40,   # transparent dynamic de-esser
+acompressor=...,
+loudnorm=I=-16:TP=-1.5:LRA=5
+```
+
+- **De-ess with `adynamicequalizer`**, not ffmpeg's broadband `deesser` — it only
+  attenuates the sibilance band when it gets loud, and `range=8` caps reduction at 8 dB
+  so it can't lisp the voice. (ffmpeg `deesser`'s default `i=0` is a no-op — easy to
+  "add a de-esser" and ship zero effect.) Target 5–9 kHz, 3–8 dB on peaks only.
+- **Verify it's tonal-only**: measure mud/presence/sibilance band RMS before vs after
+  (`bandpass + astats`) — expect presence ↑, sibilance ↓, with integrated/TP/LRA
+  unchanged. If sibilance constant-gain drops or the voice dulls, back off.
+- **Denoise ONCE.** Stacking `afftdn`+`arnndn`(+`anlmdn`) or a deep denoiser on top of
+  `afftdn` robotizes the voice. `arnndn` needs an external `.rnnn` model
+  (GregorR/rnnoise-models; `somnolent-hogwash` is a sane podcast default).
+- **DeepFilterNet** (`deep-filter` CLI, MIT/Apache, ~25× realtime on CPU, 48 kHz) is the
+  one external dep worth it — but ONLY when the feed is genuinely *noisy*. For a quiet
+  recording (good speech-band SNR), it adds a sterile/"underwater" character for no gain;
+  prefer the native chain. If you do use it, cap with `--atten-lim-db 18` and drop `afftdn`.
+- **Skip `adeclip`** unless the input actually clips — check `input_tp` first (Ep 2 was
+  −11.8 dBTP, no clipping, so declip was a no-op and omitted).
+
 ## SFX & music
 
 freesound.org preview MP3s are fetchable without auth: scrape
@@ -145,6 +182,41 @@ Trim/fade and loudnorm before mixing.
   auto-width from `textbbox`. Show each for ~6 s at segment starts.
 - Stat callouts (top-right) for "numbers" moments (confessions, prices) ~10–12 s.
 - Cards: grab a frame (`-ss T -frames:v 1`), GaussianBlur(22) + 55% black blend.
+
+## Creative reframes (punch-ins / face-cuts / slow pushes)
+
+A locked-off single-camera wide (e.g. a couch two-shot) goes visually flat over an
+hour. Simulate a multicam by cropping-and-scaling the static frame to a tighter shot
+of the active speaker, or a slow Ken-Burns push for emphasis. Author in `plan.json`:
+
+```
+"reframes": [
+  {"block": "MAIN", "src_time": 1035.0, "dur": 7, "preset": "tyler"},   # punch right host
+  {"block": "MAIN", "src_time": 869.0,  "dur": 7, "preset": "center"},  # group / laptop guest
+  {"block": "MAIN", "src_time": 1380.0, "dur": 6, "preset": "push"}     # eased push for a zinger
+]
+```
+
+`cut_render.py` maps each `(block, src_time)` to final time exactly like overlays
+(→ `reframes.json`; `dur` is FINAL-time seconds). `final_render.py` applies the WHOLE
+schedule as **one `zoompan` pass** with piecewise expressions of `on/30`:
+
+- **One scaler pass, not N crop/scale branches.** Splitting the stream into a branch
+  per window costs N× the per-frame scaling over a 60-min file; a single `zoompan`
+  whose `z`/`x`/`y` are piecewise-by-time is O(1 pass). Outside every window `z=1` →
+  the crop is the full frame (≈ identity), so wide shots are untouched.
+- **Frame-exact.** `d=1:s=1280x720:fps=30` is 1:1 in→out, so the anti-drift work
+  (PTS restamp, frame↔sample match) is preserved — verify on the final file anyway.
+- Presets live in `render.json` (`reframe_presets`): `{zoom, cx, cy}` per name. Defaults:
+  `jackson`/`tyler` (zoom ~1.85 on a side seat), `center` (zoom ~1.5 on the laptop/group),
+  `push` (eases `z` 1→1.12 across the window). An explicit `"rect":[x,y,w,h]` overrides.
+- Keep upscale ≲1.85× (720p source) or it softens; static presets are hard "face cuts",
+  `push` is the only animated one. Lower-thirds/logo composite AFTER, so captions stay
+  full-frame and sharp even over a punch-in.
+- **Don't reframe where the camera already moves.** If the operator tilts/pans for a
+  beat (e.g. to a dog), leave that span wide — cropping the non-standard framing looks
+  wrong, and the real camera move already supplies the variety. Space punches ~30–60 s
+  apart, hold 5–7 s; favor the safe `center`/`push` when speaker attribution is uncertain.
 
 ## Gotchas
 
@@ -185,7 +257,12 @@ Trim/fade and loudnorm before mixing.
 - Homebrew ffmpeg may lack `drawtext` — render ALL text as PNG overlays instead.
 - whisper word-level mode (`-ml 1 -sow`): words absorb silence; never infer pauses.
 - `-ss` before `-i` + re-encode is frame-accurate; with `-c copy` it is not.
-- Title/teaser quote boundaries: pull exact ms from the transcript CSV, pad ±0.15 s.
+- Title/teaser quote boundaries: whisper word timings tile contiguously and DON'T mark
+  real pauses, so cutting on a transcript ms lands mid-word and clips the speech. Use the
+  CSV only to *locate* the line, then snap each boundary to a MEASURED silence —
+  `silencedetect=noise=-42dB:d=0.12` on a window around it (or check edge RMS with
+  `astats`) — landing the cut INSIDE the pause with ~0.2–0.4 s of breathing room before
+  the first sound / after the last. Cut in the gap between sounds, never through one.
 - Check `input_tp` from a loudnorm measure early: far-mic recordings can hide +5 dB
   clipped transients (mic bumps) — the limiter at the end of the chain catches them.
 - Verify the final A/V sync by spot-checking a LATE segment, not just the start —

@@ -11,6 +11,10 @@ render.json schema:
   "target_lufs": -16, "limit": 0.84,
   "logo": {"file": "logo.png", "width": 170, "alpha": 0.8,
             "hide_during": ["CARD_TITLE", "CARD_END"]},
+  "reframe_presets": {            # OPTIONAL; punch-in/push presets used by reframes.json
+    "jackson": {"zoom": 1.85, "cx": 285, "cy": 285},   # crop center in source 1280x720 px
+    "center":  {"zoom": 1.5,  "cx": 640, "cy": 400},
+    "push":    {"zoom": 1.12, "cx": 640, "cy": 360}},  # "push" eases zoom across the window
   "sfx": [{"file": "sfx_whoosh.wav", "block": "CARD_TITLE", "offset": -0.45},
            {"file": "sfx_sting.wav",  "block": "CARD_END",   "offset": 0}]
 }
@@ -80,10 +84,16 @@ f = []
 # Lower-thirds/logo composite on top afterwards, so captions stay full-frame/sharp.
 rfile = os.path.join(WORK, "reframes.json")
 reframes = json.load(open(rfile)) if os.path.exists(rfile) else []
+# Each preset has a START (zoom,cx,cy) and OPTIONAL END (zoom2,cx2,cy2). When an end
+# value differs it EASES across the window -> pushes (zoom moves) and pans (center
+# moves) fall out of the same machinery; static "face-cut" presets just omit the *2.
 DEF = {"jackson": {"zoom": 1.85, "cx": 285, "cy": 285},
        "tyler":   {"zoom": 1.85, "cx": 975, "cy": 270},
-       "center":  {"zoom": 1.5,  "cx": 640, "cy": 400},
-       "push":    {"zoom": 1.12, "cx": 640, "cy": 360}}
+       "center":  {"zoom": 1.5,  "cx": 640, "cy": 460},
+       "push":    {"zoom": 1.0,  "cx": 640, "cy": 360, "zoom2": 1.12},
+       "pushin":  {"zoom": 1.25, "cx": 640, "cy": 430, "zoom2": 1.65, "cy2": 465},
+       "pan_lr":  {"zoom": 1.6,  "cx": 400, "cy": 290, "cx2": 880},
+       "pan_rl":  {"zoom": 1.6,  "cx": 880, "cy": 290, "cx2": 400}}
 PRESETS = CFG.get("reframe_presets", {})
 def preset(name):
     p = dict(DEF.get(name, DEF["center"])); p.update(PRESETS.get(name, {})); return p
@@ -93,15 +103,19 @@ if reframes:
     zx, xx, yy = "1", "iw/2-(iw/zoom/2)", "ih/2-(ih/zoom/2)"
     for r in reframes:
         s, e = r["start"], r["end"]; dur = max(0.1, e - s)
-        if "rect" in r:                       # explicit [x,y,w,h] -> derive zoom/center
-            x, y, w, h = r["rect"]; Z = 1280.0 / w; CX = x + w / 2; CY = y + h / 2
+        if "rect" in r:                       # explicit [x,y,w,h] -> static crop
+            x, y, w, h = r["rect"]
+            z0 = z1 = 1280.0 / w; cx0 = cx1 = x + w / 2; cy0 = cy1 = y + h / 2
         else:
-            p = preset(r["preset"]); Z, CX, CY = p["zoom"], p["cx"], p["cy"]
-        # push eases z from 1 -> Z across the window; static presets hold Z.
-        zt = (f"(1+{Z-1:.4f}*max(0,min(1,(on/30-{s})/{dur:.3f})))"
-              if r.get("preset") == "push" and "rect" not in r else f"{Z}")
-        xt = f"max(0,min(iw-iw/zoom,{CX}-(iw/zoom)/2))"
-        yt = f"max(0,min(ih-ih/zoom,{CY}-(ih/zoom)/2))"
+            p = preset(r["preset"])
+            z0, cx0, cy0 = p["zoom"], p["cx"], p["cy"]
+            z1, cx1, cy1 = p.get("zoom2", z0), p.get("cx2", cx0), p.get("cy2", cy0)
+        u = f"max(0,min(1,(on/30-{s})/{dur:.3f}))"   # 0->1 ramp across the window
+        zt  = f"{z0}" if z1 == z0 else f"({z0}+{z1-z0:.4f}*{u})"
+        cxt = f"{cx0}" if cx1 == cx0 else f"({cx0}+{cx1-cx0:.2f}*{u})"
+        cyt = f"{cy0}" if cy1 == cy0 else f"({cy0}+{cy1-cy0:.2f}*{u})"
+        xt = f"max(0,min(iw-iw/zoom,{cxt}-(iw/zoom)/2))"  # x/y use current 'zoom' var
+        yt = f"max(0,min(ih-ih/zoom,{cyt}-(ih/zoom)/2))"
         zx = f"if(between(on/30,{s},{e}),{zt},{zx})"
         xx = f"if(between(on/30,{s},{e}),{xt},{xx})"
         yy = f"if(between(on/30,{s},{e}),{yt},{yy})"

@@ -1,0 +1,232 @@
+[
+ {
+  "preset": "jackson",
+  "start": 30.51,
+  "end": 35.51
+ },
+ {
+  "preset": "center",
+  "start": 45.51,
+  "end": 50.51
+ },
+ {
+  "preset": "pan_lr",
+  "start": 81.51,
+  "end": 86.51
+ },
+ {
+  "preset": "push",
+  "start": 111.47,
+  "end": 117.47
+ },
+ {
+  "preset": "jackson",
+  "start": 174.47,
+  "end": 180.47
+ },
+ {
+  "preset": "center",
+  "start": 213.47,
+  "end": 218.47
+ },
+ {
+  "preset": "pan_rl",
+  "start": 303.23,
+  "end": 308.23
+ },
+ {
+  "preset": "jackson",
+  "start": 657.67,
+  "end": 663.67
+ },
+ {
+  "preset": "center",
+  "start": 696.67,
+  "end": 701.67
+ },
+ {
+  "preset": "center",
+  "start": 751.67,
+  "end": 757.67
+ },
+ {
+  "preset": "pan_lr",
+  "start": 783.67,
+  "end": 788.67
+ },
+ {
+  "preset": "center",
+  "start": 820.67,
+  "end": 827.67
+ },
+ {
+  "preset": "center",
+  "start": 866.67,
+  "end": 872.67
+ },
+ {
+  "preset": "center",
+  "start": 913.67,
+  "end": 919.67
+ },
+ {
+  "preset": "pan_rl",
+  "start": 951.67,
+  "end": 956.67
+ },
+ {
+  "preset": "tyler",
+  "start": 986.67,
+  "end": 993.67
+ },
+ {
+  "preset": "tyler",
+  "start": 1036.67,
+  "end": 1042.67
+ },
+ {
+  "preset": "jackson",
+  "start": 1149.05,
+  "end": 1154.05
+ },
+ {
+  "preset": "center",
+  "start": 1210.05,
+  "end": 1216.05
+ },
+ {
+  "preset": "tyler",
+  "start": 1270.05,
+  "end": 1275.05
+ },
+ {
+  "preset": "push",
+  "start": 1330.05,
+  "end": 1336.05
+ },
+ {
+  "preset": "center",
+  "start": 1397.92,
+  "end": 1404.92
+ },
+ {
+  "preset": "jackson",
+  "start": 1452.92,
+  "end": 1457.92
+ },
+ {
+  "preset": "center",
+  "start": 1505.69,
+  "end": 1511.69
+ },
+ {
+  "preset": "tyler",
+  "start": 1585.69,
+  "end": 1591.69
+ },
+ {
+  "preset": "tyler",
+  "start": 1705.69,
+  "end": 1711.69
+ },
+ {
+  "preset": "pan_lr",
+  "start": 1795.69,
+  "end": 1801.69
+ },
+ {
+  "preset": "jackson",
+  "start": 1845.69,
+  "end": 1851.69
+ },
+ {
+  "preset": "jackson",
+  "start": 1919.24,
+  "end": 1925.24
+ },
+ {
+  "preset": "jackson",
+  "start": 1996.35,
+  "end": 2002.35
+ },
+ {
+  "preset": "tyler",
+  "start": 2146.35,
+  "end": 2151.35
+ },
+ {
+  "preset": "center",
+  "start": 2179.35,
+  "end": 2187.35
+ },
+ {
+  "preset": "center",
+  "start": 2261.35,
+  "end": 2267.35
+ },
+ {
+  "preset": "center",
+  "start": 2351.35,
+  "end": 2358.35
+ },
+ {
+  "preset": "center",
+  "start": 2431.35,
+  "end": 2437.35
+ },
+ {
+  "preset": "tyler",
+  "start": 2501.35,
+  "end": 2506.35
+ },
+ {
+  "preset": "jackson",
+  "start": 2641.35,
+  "end": 2647.35
+ },
+ {
+  "preset": "center",
+  "start": 2863.99,
+  "end": 2869.99
+ },
+ {
+  "preset": "center",
+  "start": 3011.8,
+  "end": 3016.8
+ },
+ {
+  "preset": "jackson",
+  "start": 3068.62,
+  "end": 3074.62
+ },
+ {
+  "preset": "jackson",
+  "start": 3251.89,
+  "end": 3257.89
+ },
+ {
+  "preset": "tyler",
+  "start": 3361.46,
+  "end": 3366.46
+ },
+ {
+  "preset": "tyler",
+  "start": 3418.46,
+  "end": 3424.46
+ },
+ {
+  "preset": "jackson",
+  "start": 3677.46,
+  "end": 3683.46
+ },
+ {
+  "preset": "center",
+  "start": 3809.28,
+  "end": 3814.28
+ },
+ {
+  "preset": "push",
+  "start": 3868.28,
+  "end": 3874.28
+ }
+]

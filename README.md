@@ -104,7 +104,10 @@ auto-cleans its caption scratch PNGs.
 - **Chapters** → `episodes/ep1/segment-times.md` has a ready-to-paste block for
   **each** platform: YouTube (≥10s spacing) and Spotify (≥30s spacing). Paste the
   matching one into the description; both auto-create clickable chapters.
-- **Captions** → upload `episodes/ep1/transcript.srt` as the subtitle file.
+- **Captions** → upload the SRT **regenerated from the final cut** (re-transcribe the
+  rendered MP4 with whisper), e.g. `episodes/ep2/transcript.srt`. **NEVER** upload an SRT
+  cut from the *raw* recording: its order and timing predate the reorder + silence trims,
+  so captions land minutes off (this was the Ep 1 caption-desync bug).
 - **Cover art** → `brand/logo-3000-cover.png` (3000×3000, meets Apple/Spotify spec).
 - **Promo** → `media/clips/`: 16:9 teasers for YouTube, 9:16 verticals for
   Shorts/Reels/TikTok, the long-form segment as its own upload.
@@ -121,8 +124,45 @@ First episode (recorded 2026-06-12): two-host-on-couch + Tyler remote (his dog
 Pico was sick). Final cut **1:24:17**, 15 chapters. Teases for Ep 2: Pico's
 recovery, saved contrarian takes, and whether Chris's lottery ticket paid out.
 
+## Episode 2
+
+Second episode (recorded 2026-06-18): **Tyler in-room, Chris remote** from a CDMX
+crypto conference — the "empty chair" just moved seats. Final cut **1:05:46**, 12
+chapters: Pico recovered, the lottery follow-up, the stablecoin/GENIUS-Act fight,
+**perps** as the main event, and the **Fable 5** government-shutoff ("permanent-underclass
+update"). Configs in `episodes/ep2/`. Two firsts this episode:
+- **Voice enhancement** on the shaky/quiet remote feed — the leveler now sits behind a
+  cleanup front-end: `highpass → adeclick → afftdn → corrective EQ → dynamic de-esser`
+  (de-ess −2.5 dB @6.5–9k, presence +1 dB @2.8k, mud −0.6 dB @260, rumble HPF @80).
+  Measured tonal-only: integrated/TP/LRA unchanged. (DeepFilterNet was evaluated and
+  skipped — the recording is quiet, not noisy.)
+- **Reframes** (punch-ins / face-cuts / slow pushes) to break up the locked couch wide.
+  Teases for Ep 3: Contrarian Corner, agentic payments for real, GENIUS Act rules (Jul 18).
+
 ## Changelog
 
+- **Creative reframes (punch-ins / face-cuts / slow pushes).** A single locked-off
+  couch wide gets visually flat over an hour. `plan.json` now takes a `reframes` list
+  (`{block, src_time, dur, preset}`); `cut_render.py` maps each to final time
+  (`reframes.json`) and `final_render.py` applies the **whole schedule as ONE `zoompan`
+  pass** driven by piecewise time expressions — one scaler pass, not N crop branches,
+  and frame-exact (1280×720 CFR in, 1:1 out) so the anti-drift work is untouched.
+  Presets `jackson`/`tyler`/`center` (active-speaker crops) + `push` (eased Ken-Burns),
+  overridable per-`render.json`. Lower-thirds/logo composite on top, so captions stay
+  full-frame/sharp. Ep 2 uses 23 windows; none during the Pico segment (its native
+  camera tilt is the variety there). See SKILL.md → Creative reframes.
+- **Voice enhancement front-end (de-essing + EQ + declick).** Added ahead of the
+  leveler for shaky/far-mic feeds: `adeclick`, corrective parametric EQ (mud cut,
+  presence lift, harshness tame), and a transparent dynamic de-esser (`adynamicequalizer`,
+  capped at −8 dB so it can't lisp the voice). Verified tonal-only on Ep 2 (presence
+  +1 dB, sibilance −2.5 dB; integrated/TP/LRA unchanged). DeepFilterNet researched and
+  deliberately not adopted — the recording was quiet, not noisy, and a deep denoiser
+  risks a sterile/"underwater" artifact for no gain. See SKILL.md → Audio chain.
+- **`cut_render` concat hardened.** `concat.txt` now writes **absolute** clip paths —
+  the demuxer resolves relative `file` entries against the concat file's own directory,
+  which silently doubled a relative workdir and aborted the assembly.
+- **Captions now regenerated from the final cut.** Publishing step fixed: re-transcribe
+  the rendered MP4 (never ship the raw-recording SRT, which is in raw order/timing).
 - **Speaker loudness stabilized & equalized.** Voices fluctuated (quiet
   remote/far mic vs loud in-room) — a 10 LU loudness range. The old
   `dynaudnorm` was *pumping* on the single mixed track and making it worse.

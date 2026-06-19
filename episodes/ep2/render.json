@@ -7,8 +7,11 @@
   "reframe_presets": {
     "jackson": {"zoom": 1.85, "cx": 285, "cy": 285},
     "tyler":   {"zoom": 1.85, "cx": 975, "cy": 270},
-    "center":  {"zoom": 1.5,  "cx": 640, "cy": 400},
-    "push":    {"zoom": 1.12, "cx": 640, "cy": 360}
+    "center":  {"zoom": 1.5,  "cx": 640, "cy": 460},
+    "push":    {"zoom": 1.0,  "cx": 640, "cy": 360, "zoom2": 1.12},
+    "pushin":  {"zoom": 1.25, "cx": 640, "cy": 430, "zoom2": 1.65, "cy2": 465},
+    "pan_lr":  {"zoom": 1.6,  "cx": 400, "cy": 290, "cx2": 880},
+    "pan_rl":  {"zoom": 1.6,  "cx": 880, "cy": 290, "cx2": 400}
   },
   "sfx": [
     {"file": "sfx_whoosh.wav", "block": "CARD_TITLE", "offset": -0.45},

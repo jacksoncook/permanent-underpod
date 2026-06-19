@@ -19,6 +19,9 @@ plan.json schema (the LLM's creative decisions live here):
   "overlays": [   # src_time anchors inside a block; mapped to final time
     {"name": "lt_meet", "block": "A", "src_time": 2406.5, "dur": 6, "kind": "lt"}
   ],
+  "reframes": [   # OPTIONAL punch-ins/pushes; src anchor -> final window (dur=final secs)
+    {"block": "A", "src_time": 2406.5, "dur": 6, "preset": "center"}  # or "rect":[x,y,w,h]
+  ],
   "sheet": [      # chapter rows: block start or {block, src_time}
     {"label": "Welcome + meet the hosts", "block": "A"},
     {"label": "First crypto", "block": "A", "src_time": 2645.6}
