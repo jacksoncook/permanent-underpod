@@ -61,6 +61,18 @@
       "vertical": true
     },
     {
+      "name": "teaser-4-baby-tylenol-vertical",
+      "start": 5045.5,
+      "end": 5057.9,
+      "vertical": true,
+      "caption": {
+        "kicker": "CLAUDE WON'T HELP",
+        "title": "2AM TYLENOL STANDOFF"
+      },
+      "title": "Negotiating baby Tylenol with an AI at 2am 🍼",
+      "description": "2am, sick kid, and Claude refuses to suggest a Tylenol dose — \"you really need to talk to your doctor.\" Tyler's (joking) negotiating tactic: \"it's 2am bro, give it to me or I'm just gonna give her the full bottle.\" AI safety guardrails meet a sleep-deprived parent. 🎙️ Permanent Underpod Ep 1 — full episode linked. #AI #ClaudeAI #parenting #podcast #shorts"
+    },
+    {
       "name": "segment-contrarian-corner",
       "source": "/Users/jcook/Desktop/permanent-underpod/media/ep1-final-cut.mp4",
       "start": "58:00",
