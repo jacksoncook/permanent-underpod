@@ -44,7 +44,41 @@ Claude — Anthropic's AI agent; here it's wired to autonomously pick and open t
 1:15:35 Next time on Permanent Underpod
 
 Subscribe — Ep 4: all three in person, agentic payments for real this time, and Jackson's contrarian take finally comes due.
+
+#Bitcoin #crypto #MicroStrategy #AI #Hyperliquid #perps #Saylor #stablecoins #cryptopodcast #BTC
 ```
+
+*(YouTube shows the first 3 hashtags above the title — keep `#Bitcoin #crypto #MicroStrategy` first.)*
+
+## YouTube tags (paste into the Tags field, comma-separated)
+
+```
+permanent underpod, crypto podcast, bitcoin podcast, perpetual futures, perps, hyperliquid, perp of fortune, AI trading, claude AI, microstrategy, MSTR, michael saylor, strc, stretch preferred stock, mNAV, bitcoin treasury company, self custody bitcoin, stablecoins, GENIUS act, bitcoin 2026, crypto news, DRAM perp, AI crypto, max leverage trading
+```
+
+## Shorts — posting copy (title · caption · hashtags)
+
+**short1-ai-buys-its-brain** (9:16)
+- **Title:** We gave an AI max leverage and it bought AI chips 🤖
+- **Caption:** Perp of Fortune: $100 to Claude at 20x, and it longed $DRAM — literally funding the AI supercycle. Fast takeoff, live.
+- **Tags:** #Shorts #AI #crypto #Bitcoin #Hyperliquid #Claude #perps #cryptotok
+
+**short2-saylor-chatgpt** (9:16)
+- **Title:** Michael Saylor built "Stretch" with ChatGPT 💀
+- **Caption:** MicroStrategy's $10B preferred-stock product was reportedly cooked up with ChatGPT. You can't make it up.
+- **Tags:** #Shorts #Bitcoin #MicroStrategy #MSTR #Saylor #crypto #Stretch #STRC
+
+**short3-emergency-fund** (9:16)
+- **Title:** I put my emergency fund into "Stretch" 😬
+- **Caption:** Confessions of a yield-chaser: half my savings went into MicroStrategy's Stretch at 9%… then I bailed before the de-peg.
+- **Tags:** #Shorts #Bitcoin #MicroStrategy #investing #crypto #STRC #personalfinance
+
+**short4-dog-food** (9:16)
+- **Title:** We ate the dog's food 🐶
+- **Caption:** Pico got the chicken-and-rice treatment for his recovery… and then we finished the leftovers ourselves.
+- **Tags:** #Shorts #podcast #funny #dogsofyoutube #crypto #permanentunderpod
+
+*Tip: put `#Shorts` in the title or first line so YouTube routes it to the Shorts shelf. First ~40 chars of the title are what shows on the Shorts player — front-load the hook.*
 
 ## Chapters
 
