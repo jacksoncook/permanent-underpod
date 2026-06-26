@@ -1,0 +1,29 @@
+{
+  "show": "PERMANENT UNDERPOD",
+  "show_kicker": "PERMANENT",
+  "show_main": "UNDERPOD",
+  "accent": [255, 210, 74],
+  "source": "/Users/jcook/Desktop/permanent-underpod/media/ep3-raw.mov",
+  "title_card": {"bg_frame": 700, "line": "EPISODE 3   ·   Perp of Fortune  ·  The Stretch Problem", "dur": 4.5},
+  "end_card": {"bg_frame": 4500, "kicker": "NEXT WEEK ON",
+    "lines": ["All three of us, in person", "Agentic payments, for real", "Jackson's contrarian take comes due"],
+    "cta": "LIKE  +  SUBSCRIBE", "dur": 7},
+  "lower_thirds": [
+    {"name": "welcome", "kicker": "WEEK THREE",         "title": "WE'RE LIVE"},
+    {"name": "pico",    "kicker": "DOG OF THE POD",      "title": "THE PICO RECOVERY"},
+    {"name": "perp",    "kicker": "MAIN EVENT",          "title": "PERP OF FORTUNE"},
+    {"name": "contra",  "kicker": "CONTRARIAN CORNER",   "title": "TYLER'S HOT TAKE"},
+    {"name": "honey",   "kicker": "THE PATTERN",         "title": "THE CUSTODIAL HONEY-TRAP"},
+    {"name": "mstr",    "kicker": "DEATH SPIRAL?",       "title": "MICROSTRATEGY & STRETCH"},
+    {"name": "endgame", "kicker": "THE ENDGAME",         "title": "JUST A $64B ETF?"},
+    {"name": "price",   "kicker": "THE BIG QUESTION",    "title": "WHAT MOVES BITCOIN?"},
+    {"name": "outro",   "kicker": "NEXT WEEK",           "title": "ALL THREE, IN PERSON"}
+  ],
+  "stats": [
+    {"name": "disclaimer", "kicker": "REAL MONEY · HIGH LEVERAGE", "main": "NOT FINANCIAL ADVICE"},
+    {"name": "pick",       "kicker": "CLAUDE'S PICK",              "main": "20X LONG ON $DRAM"},
+    {"name": "skip",       "kicker": "SKIPPED FOR TIME",           "main": "A WILD INTRUDER APPEARED"},
+    {"name": "stretch",    "kicker": "STRETCH, THE 'STABLECOIN'",  "main": "$100 -> $75"},
+    {"name": "confess",    "kicker": "TYLER CONFESSES",            "main": "EMERGENCY FUND -> STRETCH"}
+  ]
+}

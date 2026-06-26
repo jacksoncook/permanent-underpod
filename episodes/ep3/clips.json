@@ -1,0 +1,50 @@
+[
+ {
+  "file": "clips/c001.mov",
+  "block": "T1",
+  "src_start": 279.1,
+  "src_end": 284.8,
+  "final_start": 0.0,
+  "dur": 5.7
+ },
+ {
+  "file": "clips/c002.mov",
+  "block": "T2",
+  "src_start": 726.86,
+  "src_end": 735.58,
+  "final_start": 5.7,
+  "dur": 8.733
+ },
+ {
+  "file": "card_title.mov",
+  "block": "CARD_TITLE",
+  "src_start": null,
+  "src_end": null,
+  "final_start": 14.433,
+  "dur": 4.5
+ },
+ {
+  "file": "clips/c003.mov",
+  "block": "MAIN_A",
+  "src_start": 0.0,
+  "src_end": 2682.9,
+  "final_start": 18.933,
+  "dur": 2682.9
+ },
+ {
+  "file": "clips/c004.mov",
+  "block": "MAIN_B",
+  "src_start": 2736.9,
+  "src_end": 4569.6,
+  "final_start": 2701.833,
+  "dur": 1832.733
+ },
+ {
+  "file": "card_end.mov",
+  "block": "CARD_END",
+  "src_start": null,
+  "src_end": null,
+  "final_start": 4534.566,
+  "dur": 7.0
+ }
+]

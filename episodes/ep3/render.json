@@ -1,0 +1,21 @@
+{
+  "out": "/Users/jcook/Desktop/permanent-underpod/media/Permanent Underpod - Ep 3 (Final Cut).mp4",
+  "chain": "highpass=f=80,adeclick,afftdn=nr=18:nf=-50:tn=1,volume=16dB,equalizer=f=260:t=q:w=1.2:g=-3,equalizer=f=2800:t=q:w=1.4:g=2.8,equalizer=f=6500:t=q:w=2:g=-2,adynamicequalizer=dfrequency=6800:dqfactor=2.5:tfrequency=6800:tqfactor=2.5:mode=cutabove:threshold=0:ratio=4:range=8:attack=2:release=40,acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,treble=f=9500:width_type=q:w=0.8:g=2.0,loudnorm=I=-16:TP=-1.5:LRA=5",
+  "target_lufs": -16,
+  "limit": 0.75,
+  "logo": {"file": "logo.png", "width": 170, "alpha": 0.8, "hide_during": ["CARD_TITLE", "CARD_END"]},
+  "reframe_presets": {
+    "left":   {"zoom": 1.65, "cx": 370, "cy": 225},
+    "mid":    {"zoom": 1.8,  "cx": 600, "cy": 215},
+    "right":  {"zoom": 1.65, "cx": 910, "cy": 225},
+    "center": {"zoom": 1.4,  "cx": 640, "cy": 285},
+    "push":   {"zoom": 1.0,  "cx": 640, "cy": 300, "zoom2": 1.12},
+    "pan_lr": {"zoom": 1.5,  "cx": 380, "cy": 240, "cx2": 900},
+    "pan_rl": {"zoom": 1.5,  "cx": 900, "cy": 240, "cx2": 380}
+  },
+  "sfx": [
+    {"file": "sfx_whoosh.wav", "block": "CARD_TITLE", "offset": -0.45},
+    {"file": "sfx_whoosh.wav", "block": "MAIN_B",     "offset": -0.30},
+    {"file": "sfx_sting.wav",  "block": "CARD_END",   "offset": 0}
+  ]
+}
