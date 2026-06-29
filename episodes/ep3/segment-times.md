@@ -78,7 +78,39 @@ permanent underpod, crypto podcast, bitcoin podcast, perpetual futures, perps, h
 - **Caption:** Pico got the chicken-and-rice treatment for his recovery… and then we finished the leftovers ourselves.
 - **Tags:** #Shorts #podcast #funny #dogsofyoutube #crypto #permanentunderpod
 
+**short5-monster-energy** (9:16 · 0:33)
+- **Title:** Roasted for grinding Halo 3 as a fully-grown adult 🎮
+- **Caption:** Chris cops to needing 200mg of caffeine to game — then gets roasted for grinding Halo 3 as a fully-grown adult. Low blow.
+- **Tags:** #Shorts #MonsterEnergy #Halo3 #gaming #podcast #funny #energydrink #permanentunderpod
+
+**short6-big-mac-perp** (9:16 · 0:10)
+- **Title:** You can open a max-leverage bet on a Big Mac 🍔
+- **Caption:** With a price oracle you can perp literally anything — including the price of a Big Mac. Degenerate finance has no ceiling.
+- **Tags:** #Shorts #crypto #perps #Hyperliquid #Bitcoin #trading #BigMac #cryptotok
+
+**short7-recursive-loop** (9:16 · 0:16)
+- **Title:** We found the AI recursive loop 🤖 Anthropic, buy our podcast
+- **Caption:** We gave an AI max leverage, it started funding its own chips, and we may have found the recursive loop. Anthropic, our DMs are open.
+- **Tags:** #Shorts #AI #Claude #Anthropic #crypto #Bitcoin #fasttakeoff #cryptotok
+
 *Tip: put `#Shorts` in the title or first line so YouTube routes it to the Shorts shelf. First ~40 chars of the title are what shows on the Shorts player — front-load the hook.*
+
+## Long-form & segment clips — posting copy (16:9, YouTube)
+
+**segment-emergency-fund-confession** (3:42)
+- **Title:** I Put Half My Emergency Fund Into a 9% Crypto "Stablecoin" — Then Bailed Before the De-Peg
+- **Description:** A confession: one host moved half of his emergency fund into MicroStrategy's "Stretch" (STRC) chasing a 9% yield, clipped the monthly coupons, then sold the whole position before it broke its $100 peg — plus what it taught us about MSTR's elaborate capital structure and the health of Bitcoin itself. NOT financial advice.
+- **Tags:** #Bitcoin #MicroStrategy #MSTR #Stretch #STRC #emergencyfund #personalfinance #crypto #cryptopodcast
+
+**longform1-perp-of-fortune** (15:15)
+- **Title:** We Let an AI Gamble Our Money at 20x Leverage — "Perp of Fortune"
+- **Description:** We built Perp of Fortune: hand $100 to Claude, let it pick any perp at max leverage, and watch it ride. It chose $DRAM (an AI-memory index) at 20x and started funding the AI supercycle. The full segment — the concept, the harness, and Claude's live pick.
+- **Tags:** #Bitcoin #crypto #AI #Hyperliquid #perps #Claude #MicroStrategy #cryptopodcast
+
+**longform2-microstrategy-stretch** (18:24)
+- **Title:** MicroStrategy's "Stretch" Death Spiral, Explained
+- **Description:** What STRC ("Stretch") actually is, why a ~$100 "stable" yield product is bleeding toward its 4% floor, the mNAV discount that flips the engine into reverse, and one host's confession about putting his emergency fund in it.
+- **Tags:** #Bitcoin #MicroStrategy #MSTR #Saylor #Stretch #STRC #crypto #cryptopodcast
 
 ## Chapters
 

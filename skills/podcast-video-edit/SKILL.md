@@ -71,8 +71,13 @@ edited_raw.mov and remux with `-c:v copy` — never re-encode video for an audio
    `enable='between(t,a,b)'`), logo bug (`format=rgba,scale=170:-1,
    colorchannelmixer=aa=0.8`, disabled during cards), audio chain + SFX mix,
    `h264_videotoolbox -b:v 7500k`, `-movflags +faststart`.
-10. **Deliverables** — final mp4 + a segment-times markdown sheet (chapter list with
-    final timestamps, YouTube-chapter friendly).
+10. **Deliverables** — final mp4 + a segment-times markdown sheet. The sheet ALWAYS
+    includes BOTH a paste-ready **YouTube description** (narrative body + glossary +
+    bare `m:ss` chapters, >=10s spacing) AND a paste-ready **Spotify description**
+    (same body, glossary inlined as plain text since Spotify ignores markdown, and
+    chapters in parenthesized `(m:ss)`/`(h:mm:ss)` form with >=30s spacing — Spotify's
+    parser prefers that format). Also a clickbait title + alternates, a chapter table,
+    and the captions note (upload the SRT regenerated from the FINAL cut).
 
 ## The dead-air trap (critical)
 
@@ -132,20 +137,24 @@ is far/remote (e.g. a laptop) and others are close. The right metric is **LRA
 ### Voice-enhancement front-end (de-essing, EQ, declick) — for shaky/far-mic feeds
 
 When a feed is rough (sibilant, boxy, clicky, far-mic), put a cleanup front-end
-*ahead of* the leveler. Order matters: **repair → denoise → corrective EQ → de-ess →
-compress → loudnorm** (declick before denoise so it repairs the artifact, not a
-smeared copy; EQ before de-ess so the de-esser only chases true sibilance; loudnorm
-always last). Drop-in front-end (Ep 2's `render.json` chain), all ffmpeg-native:
+*ahead of* the leveler. Order matters: **repair → denoise → (pre-gain if the feed is
+quiet) → corrective EQ → de-ess → compress → air → loudnorm** (declick before denoise
+so it repairs the artifact, not a smeared copy; pre-gain *after* denoise so `afftdn`
+still sees the native floor and `nf` stays valid; EQ before de-ess so the de-esser only
+chases true sibilance; air *after* de-ess so it isn't immediately chased; loudnorm
+always last). Drop-in front-end (Ep 3's `render.json` chain), all ffmpeg-native:
 
 ```
 highpass=f=80, adeclick,
-afftdn=nr=16:nf=-52:tn=1,                                   # gentle (nr 12–18, not 22)
+afftdn=nr=18:nf=-50:tn=1,                                   # gentle (nr 12–18, not 22); nudge nr/nf up when pre-gaining a quiet feed
+volume=16dB,                                                # ONLY for quiet inputs — see bullet below; omit if peaks already sit above the comp threshold
 equalizer=f=260:t=q:w=1.2:g=-3,                             # cut 200–400 Hz mud/boxiness
-equalizer=f=2800:t=q:w=1.4:g=2.5,                           # presence/intelligibility lift
+equalizer=f=2800:t=q:w=1.4:g=2.8,                           # presence/intelligibility lift
 equalizer=f=6500:t=q:w=2:g=-2,                              # pre-tame harshness
 adynamicequalizer=dfrequency=6800:dqfactor=2.5:tfrequency=6800:tqfactor=2.5:\
 mode=cutabove:threshold=0:ratio=4:range=8:attack=2:release=40,   # transparent dynamic de-esser
-acompressor=...,
+acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,
+treble=f=9500:width_type=q:w=0.8:g=2,                       # gentle "air"/sheen for clarity — safe default polish, keep ≤2–3 dB
 loudnorm=I=-16:TP=-1.5:LRA=5
 ```
 
@@ -156,6 +165,24 @@ loudnorm=I=-16:TP=-1.5:LRA=5
 - **Verify it's tonal-only**: measure mud/presence/sibilance band RMS before vs after
   (`bandpass + astats`) — expect presence ↑, sibilance ↓, with integrated/TP/LRA
   unchanged. If sibilance constant-gain drops or the voice dulls, back off.
+- **Quiet inputs silently DISABLE the compressor — pre-gain it into range (do this by
+  default for quiet feeds).** A fixed-threshold `acompressor=threshold=-20dB` is a *no-op*
+  when input peaks sit below the threshold, so the chain ships with the leveler doing all
+  the work and plosives/emphasis untamed. Camera-/room-mic episodes run very quiet (Ep 3
+  was −43 LUFS integrated, peaks −21.6 dBFS — right *at* the −20 dB threshold, so it never
+  engaged). Check early: `astats=measure_overall=Peak_level+RMS_level` (plus `input_i`
+  from analyze.sh). If peaks are within ~3 dB of (or below) the comp threshold, insert a
+  clean `volume=<makeup>dB` **after** denoise to land peaks ≈ −6 dBFS (Ep 3: +16 dB).
+  The trailing `loudnorm` re-normalizes to −16, so the pre-gain only changes the
+  level-dependent stages (compressor, de-ess detection, final `alimiter`) — it does NOT
+  change final loudness. **Confirm it engaged** via crest factor (Peak − RMS) on a chunk
+  before/after: it should drop ~0.5–1.5 dB (Ep 3: 16.2 → 15.6 dB) and RMS should rise at
+  matched peak (denser, steadier voice). A/B three short renders (raw-leveled / current /
+  pre-gained) and listen before committing.
+- **Always include the high-shelf "air" lift** (`treble=f=9500:w=0.8:g=2`, after the
+  de-esser): it's a safe default polish that adds clarity/sheen. The 6.5 kHz dip already
+  upstream keeps it from stacking into harshness; keep it ≤2–3 dB and the de-esser will
+  still cap any sibilance it lifts.
 - **Denoise ONCE.** Stacking `afftdn`+`arnndn`(+`anlmdn`) or a deep denoiser on top of
   `afftdn` robotizes the voice. `arnndn` needs an external `.rnnn` model
   (GregorR/rnnoise-models; `somnolent-hogwash` is a sane podcast default).
@@ -238,11 +265,19 @@ schedule as **one `zoompan` pass** with piecewise expressions of `on/30`:
      `cut_render.py`: assemble the two tracks separately —
        • VIDEO: concat-demuxer (keeps every frame) then **re-stamp PTS by frame
          index**: `-vf setpts=N/30/TB -fps_mode passthrough` → perfectly even CFR.
-       • AUDIO: **byte-concatenate raw PCM** (`-f s16le` per clip, `cat` the
-         bytes) → exact sample sum, zero padding/resample.
+       • AUDIO: **byte-concatenate raw PCM** (`-f s16le` per clip), but FIRST
+         conform each clip's PCM to exactly `(that clip's video frames)*SPF`
+         samples via `apad,atrim=end_sample=…`. A long clip rendered with
+         `-frames:v n` can stop muxing a few samples before its `apad/atrim`
+         audio reaches `n*SPF` (the muxer ends at video EOF), so its audio is a
+         hair short — and EVERY later clip then plays audio-ahead-of-video
+         (progressive drift, invisible at the top, only shows late: bit Ep 3 —
+         the 44-min MAIN clip lost 0.21s and desynced the whole back half).
+         Per-clip conform makes the sample sum == total `frames*SPF` regardless.
        • mux the clean video + raw audio.
      Verify: `ffprobe -show_entries packet=pts_time` shows ZERO gaps off 1/30,
-     and `nb_read_frames*1600 == audio duration_ts` to the sample.
+     and `nb_read_frames*1600 == audio duration_ts` to the sample (decompose
+     per clip if it's off — the deficit is usually one long clip's tail).
   The final pass also forces `-fps_mode cfr` + `aresample=async=1:first_pts=0`,
   but those only hold if the concat feeding them is already clean (cfr will
   drop/dup frames trying to conform corrupt PTS, spreading the drift around).
@@ -267,3 +302,20 @@ schedule as **one `zoompan` pass** with piecewise expressions of `on/30`:
   clipped transients (mic bumps) — the limiter at the end of the chain catches them.
 - Verify the final A/V sync by spot-checking a LATE segment, not just the start —
   drift is invisible at the top and only obvious near the end.
+
+## Publish to YouTube
+
+Publishing is shared with the **`clipify`** skill — use its `scripts/yt_upload.py`
+(YouTube Data API v3) rather than duplicating it. The finished episode is just one
+upload entry (16:9, full description from the `segment-times` sheet, **no** `#Shorts`);
+any clips go in the same manifest. Default flow is **scheduled-private**: each video
+uploads private with a `publishAt` time and YouTube auto-publishes it at release —
+**ask the user for the release date/time (Pacific), then convert to RFC3339 UTC.**
+
+One-time OAuth setup + the manifest format live in the clipify skill (its
+`youtube-setup.md` and the "Publish to YouTube" section of its `SKILL.md`):
+
+```bash
+~/.config/clipify-youtube/.venv/bin/python <clipify-skill>/scripts/yt_upload.py manifest.json --dry-run
+~/.config/clipify-youtube/.venv/bin/python <clipify-skill>/scripts/yt_upload.py manifest.json
+```

@@ -19,3 +19,8 @@ clips/
 
 # All media output (raw, finals, clips) — regenerable, not for git
 media/
+
+# YouTube uploader — never commit OAuth secrets or upload state
+client_secret*.json
+token.json
+*.results.json
