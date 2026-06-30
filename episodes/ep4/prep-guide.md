@@ -22,7 +22,7 @@ took Ep 1 & Ep 3).
 | D | **OUSD vs. Stripe's Tempo** | Chris / Jackson | Stripe is in **both**: **Tempo** is the L1 *rail* (no gas token, fees in stablecoins, mainnet Mar 18) and **OUSD** is the consortium *asset*. Rivals, complementary, or Stripe hedging every layer? Where does **USD1** (first native Tempo stablecoin) fit? |
 | E | **Tether's US play: USAT vs. USDT** | Tyler / Chris | **USA₮** launched Jan 27 — GENIUS-Act-compliant, US-regulated (via **Anchorage**, **Cantor** custodian, Bo Hines), while **USDT** stays the offshore global product. A real Circle-killer, or a compliance hedge that splits Tether's own brand? Ties into C/D. |
 | F | **GPT-5.6 gets the Fable treatment** | All | Recurring "is Fable back?" runner. **GPT-5.6** (Sol/Terra/Luna) dropped Jun 26 but gated to ~20 gov-approved companies; **Fable 5** shipped Jun 9, GA, SOTA on nearly every benchmark (80.3% SWE-bench Pro vs GPT-5.5's 58.6%). The model everyone *can* use is already out. Tie-in: a vuln-hunting flagship in the same week a $7.5M MEV bot got drained (Topic B). |
-| G | **Contrarian Corner — Jackson** | **Jackson** | Jackson's owed contrarian take (Tyler took Ep 1 & Ep 3). **Topic TBD — unrelated to MEV.** Tell me the take and I'll write it up. |
+| G | **Contrarian Corner — Jackson** | **Jackson** | Jackson's owed contrarian take (Tyler took Ep 1 & Ep 3). **AI-related — kept under wraps; reveal on the day.** Not MEV. |
 
 ---
 
