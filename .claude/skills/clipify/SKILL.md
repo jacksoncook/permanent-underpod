@@ -136,6 +136,13 @@ in `<manifest>.results.json` and skipped on re-run (`--force` to re-upload).
 10,000/day API quota (~6 uploads/day). A brand-new channel locks API uploads to
 private until you verify it by phone in YouTube Studio.
 
+**Reading back what's live (`scripts/yt_fetch.py`).** Companion fetcher — pulls every
+published video's title/description/tags for the authed channel (scope
+`youtube.readonly`, same `client_secret.json`, cached to `token_readonly.json`). Use it
+to backfill each episode's `segment-times.md` from the *actual published* copy instead
+of drafts: `~/.config/clipify-youtube/.venv/bin/python scripts/yt_fetch.py` → writes
+`channel_dump.json`. (YouTube only returns a video's real `tags` to the channel owner.)
+
 ## Notes / gotchas
 
 - **A/V sync:** clips are frame-aligned the same way `podcast-video-edit` cuts —
