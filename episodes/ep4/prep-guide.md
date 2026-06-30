@@ -19,7 +19,7 @@ took Ep 1 & Ep 3).
 | A | **Agentic commerce — is it viable?** | All | The owed "agentic payments" callback. Make an AI agent complete a real purchase live (stretch: fund it off the Perp of Fortune position). Landscape w/o the jargon: OpenAI+Stripe **ACP** / Instant Checkout, **Visa Trusted Agent**, **Mastercard AP4M**, **Tempo Machine Payments**. Real infra now, or a demo that dies the second it touches real money? |
 | B | **MEV & the jaredfromsubway.eth "sandwich" saga** | **Chris** | Ethereum's most notorious sandwich bot (~70% of all sandwich attacks) got **drained of $7.5M on June 20–21** in a *reverse honeypot* — the predator got sandwiched. Chris explains MEV. *(Dictation: read "Meb"=MEV, "Jared sandwich"=jaredfromsubway.eth — correct me if not.)* |
 | C | **"Open USD" — what even is it?** | Chris / All | The name is hopelessly overloaded. *Today (Jun 30)* a consortium (**Stripe, Visa, BlackRock + ~140 cos**) announced **OUSD ("Open USD")**, a yield-bearing dollar stablecoin to rival Tether/Circle (Circle stock −13%). Meanwhile **OpenUSD** has long meant **Pixar's 3D file format**. A stablecoin and a 3D format share a name — what does "open" even buy you? |
-| D | **OUSD vs. Stripe's Tempo** | Chris / Jackson | Stripe is in **both**: **Tempo** is the L1 *rail* (no gas token, fees in stablecoins, mainnet Mar 18) and **OUSD** is the consortium *asset*. Rivals, complementary, or Stripe hedging every layer? Where does **USD1** (first native Tempo stablecoin) fit? |
+| D | **Coinbase's Base vs. Stripe's Tempo — which is most dystopian?** | Chris / Jackson | Two corporate-owned chains face off. **Base** is Coinbase's Ethereum L2 — "Stage 1 decentralized," but Coinbase still runs the *only* sequencer (can screen txns at the sequencer, books the margin as company revenue). **Tempo** is Stripe's own L1 — no gas token, fees paid in stablecoins, validator set Stripe curates. Pick your dystopia: the exchange that owns the chain you trade on, or the payments giant that owns the rail you get paid on. |
 | E | **Tether's US play: USAT vs. USDT** | Tyler / Chris | **USA₮** launched Jan 27 — GENIUS-Act-compliant, US-regulated (via **Anchorage**, **Cantor** custodian, Bo Hines), while **USDT** stays the offshore global product. A real Circle-killer, or a compliance hedge that splits Tether's own brand? Ties into C/D. |
 | F | **GPT-5.6 gets the Fable treatment** | All | Recurring "is Fable back?" runner. **GPT-5.6** (Sol/Terra/Luna) dropped Jun 26 but gated to ~20 gov-approved companies; **Fable 5** shipped Jun 9, GA, SOTA on nearly every benchmark (80.3% SWE-bench Pro vs GPT-5.5's 58.6%). The model everyone *can* use is already out. Tie-in: a vuln-hunting flagship in the same week a $7.5M MEV bot got drained (Topic B). |
 | G | **Contrarian Corner — Jackson** | **Jackson** | Jackson's owed contrarian take (Tyler took Ep 1 & Ep 3). **AI-related — kept under wraps; reveal on the day.** Not MEV. |
@@ -47,10 +47,10 @@ Optional prep; skim what's relevant to the segment you're leading.
 - Fortune — Stripe, Visa & 140+ businesses to launch OUSD to rival Tether and Circle: https://fortune.com/2026/06/30/stripe-visa-stablecoin-rival-ousd-tether-circle/
 - Alliance for OpenUSD — Pixar's Universal Scene Description 3D format (the collision): https://aousd.org/
 
-**D · OUSD vs. Tempo**
+**D · Base vs. Tempo — corporate-owned chains**
+- Base (official) — "Base has reached Stage 1 Decentralization" (Coinbase still runs the only sequencer): https://blog.base.org/base-has-reached-stage-1-decentralization
+- DEXTools — Base chain ecosystem guide: architecture, fees, Coinbase's L2 (2026): https://www.dextools.io/tutorials/what-is-base-chain-coinbase-l2-guide-2026
 - Tempo — official site (the blockchain for stablecoin payments): https://tempo.xyz/
-- Fortune — Tempo launches an advisory unit to push stablecoin adoption: https://fortune.com/2026/04/21/stripe-and-paradigm-tempo-advisory-stablecoin-adoption/
-- Crypto Times — World Liberty's USD1 launches natively on Tempo: https://www.cryptotimes.io/2026/05/08/world-liberty-financial-launches-usd1-stablecoin-natively-on-stripe-backed-tempo-l1-blockchain/
 - Sean Goedecke — an unofficial FAQ for Stripe's Tempo (plain-English primer): https://www.seangoedecke.com/tempo-faq/
 
 **E · Tether USAT**
