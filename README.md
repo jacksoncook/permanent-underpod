@@ -11,14 +11,16 @@ segment maps, prep guides, render configs).
 ## Layout
 
 ```
-skills/
+.claude/skills/         (auto-loaded by Claude Code when you open this repo)
   podcast-video-edit/   Make the full episode: reorder, cut, brand, master
     SKILL.md              Full workflow + gotchas
     scripts/              The automated pipeline (analyze → verify → graphics → cut → final)
     examples/             Schema-documented example configs (Ep 1's real decisions)
   clipify/              Carve shareable clips out of a recording
     SKILL.md              Teasers/shorts (branded) + long-form chapter pulls (plain)
-    scripts/clipify.py
+    scripts/clipify.py    cut clips
+    scripts/yt_upload.py  publish to YouTube (scheduled-private auto-publish)
+    youtube-setup.md      one-time OAuth setup for uploads
 brand/                Logo masters (480 / 1920 / 3000px cover) + brand spec
 episodes/
   ep1/                  Transcript (csv/srt/words), segment-times, prep guide,
@@ -29,9 +31,33 @@ media/                (gitignored) raw recording, final cuts, exported clips
 All media — raw recordings, final `.mp4`s, exported clips — lives in `media/`
 and is **gitignored**. It's large and regenerable from the configs above.
 
+## Reproduce on a new machine
+
+Everything needed to *produce* the show is in this repo: the skills (in
+`.claude/skills/`), the brand masters, and every per-episode config/transcript.
+Raw recordings and final renders are **not** — they're large and gitignored under
+`media/`, so copy the source `.mov` over separately if you want to re-render a past
+episode.
+
+```bash
+git clone <repo> && cd permanent-underpod
+bash setup.sh        # ffmpeg + whisper-cpp + whisper model + Pillow (and optionally the upload venv)
+```
+
+- **Skills auto-load.** They live in `.claude/skills/`, so opening this repo in
+  Claude Code registers `podcast-video-edit` and `clipify` with no copy step.
+- **Tools:** `ffmpeg`, `whisper-cpp` (+ `ggml-small.en.bin` in `~/.cache/whisper/`),
+  Python 3 + **Pillow**. `analyze.sh` also auto-installs whisper-cpp and fetches the
+  model on first run, so `setup.sh` is just a convenience.
+- **Fonts** (Arial Black/Bold) are copied from macOS system fonts automatically; the
+  repo doesn't vendor them (licensed). On non-macOS, point `fonts_dir` at equivalents.
+- **YouTube upload is optional** — `.claude/skills/clipify/youtube-setup.md` covers the
+  one-time Google OAuth setup. Secrets live in `~/.config/clipify-youtube/`, never the repo.
+
 ## Skills
 
-Two companion agent skills (canonical copies also installed under `~/.claude/skills`):
+Two companion agent skills, in **`.claude/skills/`** so they auto-load when you open
+this repo in Claude Code (also installed globally under `~/.claude/skills`):
 
 - **`podcast-video-edit`** — turns a raw recording into a polished episode.
 - **`clipify`** — cuts standalone clips: short **branded** teasers/shorts from raw
@@ -45,13 +71,13 @@ The mechanical work is automated; a human (or LLM) makes the creative calls
 via three JSON files. From a working directory:
 
 ```bash
-SKILL=skills/podcast-video-edit/scripts
+SKILL=.claude/skills/podcast-video-edit/scripts
 # 1. Probe, extract audio, transcribe, find silences, measure loudness (automatic)
 bash $SKILL/analyze.sh <raw.mov> <workdir>
 # 2. Verify silence candidates by speech-band RMS so quiet speakers aren't cut
 python3 $SKILL/verify_silences.py <workdir>
 #    >>> read <workdir>/transcript.csv, design the episode ->
-#        write plan.json, brand.json, render.json (see skills/podcast-video-edit/examples/)
+#        write plan.json, brand.json, render.json (see .claude/skills/podcast-video-edit/examples/)
 # 3. Logo, title/end cards, lower thirds, stat callouts
 <workdir>/.venv/bin/python $SKILL/graphics.py <workdir> brand.json
 # 4. Cut + render clips, concat (sync-safe), map overlay times, write chapter sheet
@@ -86,7 +112,7 @@ Also eyeball a frame from a **late** segment (overlays + lip sync), not just the
 
 ```bash
 # captions need Pillow; use a venv that has it
-python3 skills/clipify/scripts/clipify.py episodes/ep1/clips.json
+python3 .claude/skills/clipify/scripts/clipify.py episodes/ep1/clips.json
 ```
 
 `episodes/ep1/clips.json` defines the cold-open **teasers** — each in **16:9** and
@@ -116,7 +142,7 @@ auto-cleans its caption scratch PNGs.
 
 Accent yellow `#FFD24A`, badge dark `#0E0E13`, Arial Black wordmark. The couch
 logo is drawn procedurally — regenerate at any size from `make_logo()` in
-`skills/podcast-video-edit/scripts/graphics.py`. Cover art: `brand/logo-3000-cover.png`.
+`.claude/skills/podcast-video-edit/scripts/graphics.py`. Cover art: `brand/logo-3000-cover.png`.
 
 ## Episode 1
 
@@ -169,7 +195,7 @@ update"). Configs in `episodes/ep2/`. Two firsts this episode:
   New chain: `acompressor` (within-speaker peaks) + `loudnorm` dynamic at
   **LRA=5** (between-speaker macro leveling). Result: final-cut LRA 8.6 → **6.0**,
   short-term loudness std ~halved, speakers within ~1 LU. Clips regenerated with
-  the leveled audio. See `skills/podcast-video-edit/SKILL.md` → Audio chain.
+  the leveled audio. See `.claude/skills/podcast-video-edit/SKILL.md` → Audio chain.
 
 - **A/V drift fixed (two root causes).** The first Ep 1 renders drifted (picture
   progressively ahead of sound). Two independent bugs, both now fixed in
@@ -182,7 +208,7 @@ update"). Configs in `episodes/ep2/`. Two firsts this episode:
      matched clips. Fixed by re-stamping video PTS by frame index
      (`setpts=N/30/TB`) and byte-concatenating raw PCM audio, assembled as
      separate tracks then muxed.
-  See `skills/podcast-video-edit/SKILL.md` → Gotchas for the full writeup.
+  See `.claude/skills/podcast-video-edit/SKILL.md` → Gotchas for the full writeup.
 - **Ep 1 final re-rendered & verified the right way.** Across the whole 84 min:
   **0 irregular video PTS gaps** (was 381), `frames×1600 == audio samples`
   (delta +0.0003s, ~16 AAC samples — non-progressive), true 30fps CFR,

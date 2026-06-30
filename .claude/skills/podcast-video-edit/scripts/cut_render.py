@@ -137,12 +137,36 @@ with open(concat_txt, "w") as f:
         # against concat.txt's OWN directory, which doubles a relative WORK.
         f.write(f"file '{os.path.abspath(os.path.join(WORK, c['file']))}'\n")
 
+def clip_vframes(path):
+    # header nb_frames is accurate for the re-encoded clips/cards; fall back to a
+    # full decode count only if a container omits it.
+    r = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0",
+                        "-show_entries", "stream=nb_frames", "-of", "csv=p=0", path],
+                       capture_output=True, text=True).stdout.strip()
+    if r.isdigit():
+        return int(r)
+    r = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0",
+                        "-count_frames", "-show_entries", "stream=nb_read_frames",
+                        "-of", "csv=p=0", path], capture_output=True, text=True).stdout.strip()
+    return int(r)
+
 raw_audio = os.path.join(WORK, "_audio_cat.raw")
 with open(raw_audio, "wb") as out:
     for c in clips:
+        path = os.path.join(WORK, c["file"])
+        # Conform each clip's audio to EXACTLY (its video frames)*SPF samples. A long
+        # clip rendered with `-frames:v n` can stop muxing a few samples before its
+        # apad/atrim audio reaches n*SPF (the muxer ends at video EOF), leaving the
+        # audio a hair short -> every clip AFTER it plays audio-ahead-of-video, i.e.
+        # progressive drift that's invisible at the top and only shows late (bit Ep 3:
+        # the 44-min MAIN clip lost 0.21s, desyncing the entire back half). Padding/
+        # trimming per clip to frames*SPF makes the concatenated audio == total
+        # frames*SPF to the sample, regardless of any per-clip muxer truncation.
+        target = clip_vframes(path) * SPF
         subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error",
-                        "-i", os.path.join(WORK, c["file"]),
-                        "-map", "0:a", "-f", "s16le", "-acodec", "pcm_s16le",
+                        "-i", path, "-map", "0:a",
+                        "-af", f"apad,atrim=end_sample={target}",
+                        "-f", "s16le", "-acodec", "pcm_s16le",
                         "-ar", str(SR), "-ac", "1", "-"], stdout=out, check=True)
 
 clean_video = os.path.join(WORK, "_video_cat.mov")
