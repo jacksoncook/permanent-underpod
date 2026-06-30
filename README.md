@@ -54,6 +54,24 @@ bash setup.sh        # ffmpeg + whisper-cpp + whisper model + Pillow (and option
 - **YouTube upload is optional** — `.claude/skills/clipify/youtube-setup.md` covers the
   one-time Google OAuth setup. Secrets live in `~/.config/clipify-youtube/`, never the repo.
 
+### Moving off this machine (what's NOT in git)
+
+The repo is safe in git, but two things live only on local disk — **copy them before
+wiping the old machine**:
+
+1. **`media/` (~58 GB)** — raw recordings, final cuts, exported clips. The raw `.mov`
+   files are **irreplaceable** (the finals are also on YouTube, but only as compressed
+   uploads). Back up at minimum `media/*-raw.mov`; ideally the whole dir, e.g.
+   `rsync -a media/ /Volumes/<backup>/permanent-underpod-media/`.
+2. **`~/.config/clipify-youtube/client_secret.json`** — your YouTube OAuth client. It's
+   re-downloadable from the Google Cloud project (Credentials → your OAuth client), so
+   back it up *or* just recreate it via `youtube-setup.md`. The `token*.json` and `.venv`
+   regenerate themselves on first use.
+
+On the new machine: `git clone` → `bash setup.sh` → copy `media/` back from backup →
+re-do the OAuth. Everything else (skills, brand, configs, transcripts, `segment-times`
+sheets) comes down with the clone.
+
 ## Skills
 
 Two companion agent skills, in **`.claude/skills/`** so they auto-load when you open
