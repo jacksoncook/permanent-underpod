@@ -1,0 +1,187 @@
+{
+  "out": "/Users/jcook/Personal/permanent-underpod/media/Permanent Underpod - Ep 4 (Final Cut).mp4",
+  "chain": "highpass=f=70,afftdn=nr=12:nf=-52:tn=1,acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,treble=f=9500:width_type=q:w=0.8:g=1.5,loudnorm=I=-16:TP=-1.5:LRA=5",
+  "target_lufs": -16,
+  "limit": 0.8,
+  "logo": {
+    "file": "logo.png",
+    "width": 170,
+    "alpha": 0.8,
+    "hide_during": [
+      "CARD_TITLE",
+      "CARD_END"
+    ]
+  },
+  "reframe_presets": {
+    "chris": {
+      "zoom": 1.8,
+      "cx": 360,
+      "cy": 295
+    },
+    "jackson": {
+      "zoom": 1.8,
+      "cx": 620,
+      "cy": 310
+    },
+    "tyler": {
+      "zoom": 1.8,
+      "cx": 920,
+      "cy": 285
+    },
+    "center": {
+      "zoom": 1.35,
+      "cx": 640,
+      "cy": 330
+    },
+    "push": {
+      "zoom": 1.0,
+      "cx": 640,
+      "cy": 330,
+      "zoom2": 1.12
+    },
+    "laptop": {
+      "zoom": 1.28,
+      "cx": 700,
+      "cy": 430,
+      "zoom2": 1.5
+    },
+    "pan_lr": {
+      "zoom": 1.55,
+      "cx": 420,
+      "cy": 300,
+      "cx2": 860
+    },
+    "pan_rl": {
+      "zoom": 1.55,
+      "cx": 860,
+      "cy": 300,
+      "cx2": 420
+    }
+  },
+  "sfx": [
+    {
+      "file": "sfx_whoosh.wav",
+      "block": "CARD_TITLE",
+      "offset": -0.45
+    },
+    {
+      "file": "sfx_whoosh.wav",
+      "block": "STINGER",
+      "offset": -0.3
+    },
+    {
+      "file": "sfx_sting.wav",
+      "block": "CARD_END",
+      "offset": 0
+    }
+  ],
+  "anim": [
+    {
+      "file": "badge_jackson.mov",
+      "x": 450,
+      "y": 108,
+      "start": 2293.3,
+      "end": 2295.68
+    },
+    {
+      "file": "badge_jackson.mov",
+      "x": 450,
+      "y": 108,
+      "start": 2314.1,
+      "end": 2334.7
+    },
+    {
+      "file": "badge_chris.mov",
+      "x": 160,
+      "y": 140,
+      "start": 2334.7,
+      "end": 2350.8
+    },
+    {
+      "file": "badge_chris.mov",
+      "x": 160,
+      "y": 140,
+      "start": 2369.16,
+      "end": 2405.68
+    },
+    {
+      "file": "badge_chris.mov",
+      "x": 160,
+      "y": 140,
+      "start": 2411.98,
+      "end": 2435.66
+    },
+    {
+      "file": "badge_chris.mov",
+      "x": 160,
+      "y": 140,
+      "start": 2480.74,
+      "end": 2483.68
+    },
+    {
+      "file": "badge_chris.mov",
+      "x": 160,
+      "y": 140,
+      "start": 2489.98,
+      "end": 2491.84
+    },
+    {
+      "file": "badge_jackson.mov",
+      "x": 450,
+      "y": 108,
+      "start": 2491.84,
+      "end": 2505.64
+    },
+    {
+      "file": "badge_tyler.mov",
+      "x": 835,
+      "y": 72,
+      "start": 2505.64,
+      "end": 2510.74
+    },
+    {
+      "file": "badge_tyler.mov",
+      "x": 835,
+      "y": 72,
+      "start": 2585.84,
+      "end": 2617.68
+    },
+    {
+      "file": "badge_tyler.mov",
+      "x": 835,
+      "y": 72,
+      "start": 2623.98,
+      "end": 2659.84
+    }
+  ],
+  "aux_audio": [
+    {
+      "file": "ai_seg_clean.m4a",
+      "src_start": 0.0,
+      "src_end": 57.5,
+      "at": 2293.3,
+      "gain_db": -0.8
+    },
+    {
+      "file": "ai_seg_clean.m4a",
+      "src_start": 57.5,
+      "src_end": 124.5,
+      "at": 2369.16,
+      "gain_db": -0.8
+    },
+    {
+      "file": "ai_seg_clean.m4a",
+      "src_start": 122.0,
+      "src_end": 152.0,
+      "at": 2480.74,
+      "gain_db": -0.8
+    },
+    {
+      "file": "ai_seg_clean.m4a",
+      "src_start": 152.0,
+      "src_end": 226.0,
+      "at": 2585.84,
+      "gain_db": -0.8
+    }
+  ]
+}

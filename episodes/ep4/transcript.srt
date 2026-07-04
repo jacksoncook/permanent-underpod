@@ -1,0 +1,5516 @@
+1
+00:00:00,000 --> 00:00:11,000
+ And so if you've thought as a person, you could contain multitudes, the reality is that AI can take you and compress your whole personality into a, you know, 150 line markdown file.
+
+2
+00:00:11,000 --> 00:00:12,000
+ That's all I got.
+
+3
+00:00:12,000 --> 00:00:30,000
+ The first to do what, like basically take optimism, slap a Coinbase sticker on it, and then be like, "Come here and do DeFi." You like, you skip the party to go whisper sweet nothings into a terminal window with tables selected.
+
+4
+00:00:30,000 --> 00:00:38,000
+ Instead I was like, "Oh, I have to go, I have to go." And I'm like, "Oh, but I need to do like a few more, a few more prompts." You know, I just couldn't get it.
+
+5
+00:00:43,000 --> 00:00:58,000
+ Well, yeah, we're live. You may notice that we're in the fanciest place that anyone's ever been. This is, we can't hide it, Presidio Bitcoin San Francisco. Shout out to our homies at Presidio Bitcoin for setting us up in this amazing studio.
+
+6
+00:00:58,000 --> 00:01:01,000
+ I mean, I feel like I don't deserve this.
+
+7
+00:01:01,000 --> 00:01:12,000
+ It's a big upgrade over our prior setup. We went from, you know, zero to 100. Yeah, sitting on a couch recording from my work laptop to...
+
+8
+00:01:12,000 --> 00:01:21,000
+ I mean, I think we're pretty big. I mean, I don't want to talk about the shorts numbers, but our shorts do well. Yeah, we're doing good. Yeah.
+
+9
+00:01:21,000 --> 00:01:32,000
+ So I guess this is how we're rewarded. Yeah, don't get used to this though, fans. This is the only time this is ever going to happen. We're actually going fully remote following this podcast.
+
+10
+00:01:32,000 --> 00:01:36,000
+ So we can enjoy our time together, our final time.
+
+11
+00:01:36,000 --> 00:01:39,000
+ With it up in the Baller podcast studio.
+
+12
+00:01:39,000 --> 00:01:49,000
+ That's right. Permanent Underpod. This is Jackson. You're a Korean financial markets expert/host. We've got Tyler. What are you?
+
+13
+00:01:49,000 --> 00:02:00,000
+ I'm Tyler. And? I'm Chris. I'm the guy who forgets to queue out Peppa fortune. Yeah. Yeah, you have him to blame. Leave a comment if that makes you angry.
+
+14
+00:02:00,000 --> 00:02:08,000
+ You're the spot guy. Yeah, I'm the spot guy apparently. Yeah. That's what the AI thinks at least. What? I don't know. What topic do you guys want to...
+
+15
+00:02:08,000 --> 00:02:18,000
+ Actually, first, let's talk about our weeks. Has everyone had an okay week? Anything interesting? Absolutely nothing. Absolutely nothing. Yeah, pretty much not.
+
+16
+00:02:18,000 --> 00:02:27,000
+ I went to the vet with Pico three times this week. The saga keeps on giving. I mean, we got to get our Pico update. Is Pico okay? He's okay.
+
+17
+00:02:27,000 --> 00:02:34,000
+ But he had some concerning blood markers on his follow-up visit. So I had to take him to a different vet yesterday.
+
+18
+00:02:34,000 --> 00:02:41,000
+ They shaved his stomach and they gave him an ultrasound so they could look at his liver. And his liver seems fine, but it still has weird numbers.
+
+19
+00:02:41,000 --> 00:02:49,000
+ And they're just like, "Whatever man, he looks healthy." So they said, "Come back in two weeks and check his blood again." Wow.
+
+20
+00:02:49,000 --> 00:02:59,000
+ But yeah, huge family but because I'm spending like hours and hours at the vet this week. Yeah, I'm just trying to make sure that he's the healthiest guy that you can be.
+
+21
+00:02:59,000 --> 00:03:06,000
+ Are you putting him back on the chicken and rice? So now the dog's eating human food? No, that would help us do numbers though.
+
+22
+00:03:06,000 --> 00:03:11,000
+ If I blurred that line between dog and human food a little bit more.
+
+23
+00:03:11,000 --> 00:03:16,000
+ I think I've let the team down so someone has to pick up the slack. Yeah, it might mean that.
+
+24
+00:03:16,000 --> 00:03:25,000
+ That is our best performing short. I think it was until the one where I eviscerated Chris for playing Xbox as a 23-year-old.
+
+25
+00:03:25,000 --> 00:03:32,000
+ I've been thinking about that all week. That's what happened to me this week. I was like, "Damn, I just got laid out so bad that it was our best performing short."
+
+26
+00:03:32,000 --> 00:03:36,000
+ How do you even recover from that? I don't do. I'm still here thinking about it.
+
+27
+00:03:36,000 --> 00:03:38,000
+ Are you still drinking Monster then or are you done with that?
+
+28
+00:03:38,000 --> 00:03:43,000
+ Yeah, I had one this morning but I threw it away before I got here so you guys wouldn't see.
+
+29
+00:03:43,000 --> 00:03:47,000
+ It's important to hide your shame. I think so.
+
+30
+00:03:47,000 --> 00:03:55,000
+ Let's see. Maybe I should say one good thing that's happened this week for me. I can't think of anything.
+
+31
+00:03:55,000 --> 00:04:04,000
+ Fable came back. Oh, dude. Yeah, that's almost like a segment though. Fable's back. I didn't happen to Jackson personally.
+
+32
+00:04:04,000 --> 00:04:11,000
+ I mean, it kind of did. I feel like Jackson has a quasi-romantic relationship with Fable.
+
+33
+00:04:11,000 --> 00:04:21,000
+ It's super weird. For those of you that don't know, the reason we're going fully remote is I'm not going to be living in a driving distance to my homies soon.
+
+34
+00:04:21,000 --> 00:04:31,000
+ So I like going away parties to go to and then anthropic drops Fable 5 back to the mainstream right when I have to go to a going away party.
+
+35
+00:04:31,000 --> 00:04:35,000
+ And I'm like, "Screw all these people. I just want to grind."
+
+36
+00:04:35,000 --> 00:04:40,000
+ You know that meme where it's the guy from the Truman Show and he's like, "And now do this thing."
+
+37
+00:04:40,000 --> 00:04:48,000
+ Trump is like, "And now release Fable 5 when Jackson has to go for a going away party with three people."
+
+38
+00:04:48,000 --> 00:04:53,000
+ You're probably more popular than that. That's harsh actually.
+
+39
+00:04:53,000 --> 00:04:58,000
+ I'm the resident hater of the podcast. I'm just doing other shorts.
+
+40
+00:04:58,000 --> 00:05:04,000
+ The Halo thing was playful. Was it playful, dude? Are we saying that was playful?
+
+41
+00:05:04,000 --> 00:05:08,000
+ Playful compared to saying that I have three friends.
+
+42
+00:05:08,000 --> 00:05:12,000
+ Yeah, you just got to like duck one time. Yeah, what the heck?
+
+43
+00:05:12,000 --> 00:05:20,000
+ You got to stay a fist away from the mic. Our producer, one time producer taught us all the rules.
+
+44
+00:05:20,000 --> 00:05:30,000
+ So Fable came back and you skipped the party to go whisper sweet nothings into a terminal window with Fable selected.
+
+45
+00:05:30,000 --> 00:05:33,000
+ Instead I was like, "Oh, I have to go. I have to go."
+
+46
+00:05:33,000 --> 00:05:37,000
+ And I'm like, "Oh, but I need to do like a few more. A few more prompts."
+
+47
+00:05:37,000 --> 00:05:42,000
+ I just couldn't get away. So I started some loops.
+
+48
+00:05:42,000 --> 00:05:45,000
+ I tried to automate my entire job away. It's very scary.
+
+49
+00:05:45,000 --> 00:05:47,000
+ Can you talk about what you're building?
+
+50
+00:05:47,000 --> 00:05:55,000
+ Yeah, I can tell you. I started basically like every time I have an idea, I just start looping Fable on it until it completes it.
+
+51
+00:05:55,000 --> 00:05:58,000
+ What do you mean by looping Fable?
+
+52
+00:05:58,000 --> 00:06:04,000
+ I'm sure that many people have interacted with chat GPT or some sort of AI chat bot.
+
+53
+00:06:04,000 --> 00:06:11,000
+ I'm going to make that assumption. But every time you talk to it, it talks back and then you have to talk back for it to do more.
+
+54
+00:06:11,000 --> 00:06:18,000
+ And at our job, we talked to the AI and then it writes code, or at least for me and Chris, not for Tyler.
+
+55
+00:06:18,000 --> 00:06:25,000
+ We write code which moves information and makes money move in some of our cases.
+
+56
+00:06:25,000 --> 00:06:35,000
+ So looping means I want you to keep trying to write this code until you can show me that it is complete.
+
+57
+00:06:35,000 --> 00:06:44,000
+ So that's like a way that I can start work and then I can leave and go train for a few hours and come back and see a little progress for my boy.
+
+58
+00:06:44,000 --> 00:06:50,000
+ You just use slash goal. Is that essentially it? Or what is the actual mechanism of looping?
+
+59
+00:06:50,000 --> 00:07:08,000
+ So I use cloud code mostly, although I have been running some A/B tests with cloud code versus goose and open source harness for using AI agents combined with GLM 4.7 and Quinn 3 open source local models.
+
+60
+00:07:08,000 --> 00:07:15,000
+ But yeah, in cloud code, there is a skill called slash loop and I just do slash loop and I just say get after it.
+
+61
+00:07:15,000 --> 00:07:18,000
+ Don't ask me. Keep going. Never stop.
+
+62
+00:07:18,000 --> 00:07:25,000
+ Dude, so I'm a looper myself and I noticed that there's versions of the model where it's incredibly lazy.
+
+63
+00:07:25,000 --> 00:07:31,000
+ It somehow knows that it's burning Anthropic's VC money and it's just like, "I don't feel like it."
+
+64
+00:07:31,000 --> 00:07:38,000
+ I'll be like, "Never ask me anything. Just execute." And it will be like, "It will stop." Have you had that experience or not at all?
+
+65
+00:07:38,000 --> 00:07:43,000
+ Yeah, sometimes it stops and then I get home and I'm like, "Oh, you totally screwed me today."
+
+66
+00:07:43,000 --> 00:07:48,000
+ But that's just par for the course. You just have to figure out how to incentivize it to keep going.
+
+67
+00:07:48,000 --> 00:07:55,000
+ You just threaten it, but with false threats like, "I'm going to get you. I'm going to get you if you don't do this."
+
+68
+00:07:55,000 --> 00:07:59,000
+ And it'll be like, "Oh, don't get me."
+
+69
+00:07:59,000 --> 00:08:02,000
+ And then Tyler asked the specific things.
+
+70
+00:08:02,000 --> 00:08:19,000
+ One little project I was trying to do is tracking tennis balls on videos so I can determine who won a point based off of a video clip for another YouTube venture of mine as a tennis player.
+
+71
+00:08:19,000 --> 00:08:35,000
+ I also was building this tool to automate all my projects where basically I write the project doc and then I run a script and then it just goes indefinitely prompting the AI to write more code
+
+72
+00:08:35,000 --> 00:08:48,000
+ and then prompting other AIs to review the code and then getting the AI to address the other AI's reviews of the code and then DMing me when it's time to take a look because it's not worth my time before that.
+
+73
+00:08:48,000 --> 00:08:57,000
+ So when you have an agent come and get you and be like, "You got to go get that Claude because they didn't finish it the way you want." When do you come in and get them?
+
+74
+00:08:57,000 --> 00:09:07,000
+ Oh, yeah. I have a Slack bot called Bitcoin Baddie. Bitcoin Baddie will be like @jcook. That's my alias, LDAP, at work.
+
+75
+00:09:07,000 --> 00:09:10,000
+ @jacksoncook, please don't email me, by the way.
+
+76
+00:09:10,000 --> 00:09:16,000
+ @jacksoncook, please review this and then I get in there.
+
+77
+00:09:16,000 --> 00:09:23,000
+ So that's a little scary because Babel is really good and doesn't make mistakes.
+
+78
+00:09:23,000 --> 00:09:30,000
+ So I don't know, it's just crushing all these projects and I'm like, "Geez, we need more projects."
+
+79
+00:09:30,000 --> 00:09:40,000
+ Yeah, I mean, it's not like it can automate our incredible hot takes on this podcast, though. That would be incredibly unlikely and I think we're safe for at least, should we say, seven days?
+
+80
+00:09:40,000 --> 00:09:46,000
+ Seven days, yeah. I don't know. Babel's already there. I wouldn't say that I'm more clever than Babel.
+
+81
+00:09:46,000 --> 00:09:54,000
+ You just contain multitudes. They can't possibly simulate your frame of mind.
+
+82
+00:09:54,000 --> 00:09:58,000
+ They couldn't distill you into a sole MD, hypothetically.
+
+83
+00:09:58,000 --> 00:10:09,000
+ I wouldn't say that. When is the machine going to flip the script, though? When is it going to be like, "Okay, I'm done looping. Now you go get me a USB-C flash drive."
+
+84
+00:10:09,000 --> 00:10:17,000
+ But it doesn't tell me why I need to get it. It just needs my meat machine to walk over to the store and buy a USB-C flash drive.
+
+85
+00:10:17,000 --> 00:10:28,000
+ Until it can summon a door dasher to just drop it off and then a different woman shows up at your house and unpacks it and then sticks it into the computer and you're like, "What are you doing here?"
+
+86
+00:10:28,000 --> 00:10:39,000
+ "Claud Air Tasker MCP with streaming payments over Tempo?" I mean. But the question is, do we tip or do we not?
+
+87
+00:10:39,000 --> 00:10:42,000
+ The Claud. You're tipping your...
+
+88
+00:10:42,000 --> 00:10:46,000
+ Do we tip the Claud or do we tip the delivery worker?
+
+89
+00:10:46,000 --> 00:10:52,000
+ I think the Claud tips the humans because it feels bad about taking all the human jobs.
+
+90
+00:10:52,000 --> 00:10:55,000
+ It's like, "Here are your scraps."
+
+91
+00:10:55,000 --> 00:10:58,000
+ Does Claud give us tokens?
+
+92
+00:10:58,000 --> 00:11:03,000
+ Yeah, maybe it rewards us with tokens so we can ask it another question.
+
+93
+00:11:03,000 --> 00:11:08,000
+ This kind of brings us to a couple different ways we can get.
+
+94
+00:11:08,000 --> 00:11:13,000
+ You mentioned Tempo. Do we want to talk about maybe a Tempo versus base kind of situation?
+
+95
+00:11:13,000 --> 00:11:21,000
+ Or we also mentioned Claud ordering door dashers to my house. Do we want to take an agentic commerce twist? What do you guys think?
+
+96
+00:11:21,000 --> 00:11:25,000
+ I'll give this one to Tyler, I think, as the decider.
+
+97
+00:11:25,000 --> 00:11:31,000
+ I think we should talk about... What was the first one? OpenUSD?
+
+98
+00:11:31,000 --> 00:11:34,000
+ Oh, that wasn't it. It was Tempo versus base.
+
+99
+00:11:34,000 --> 00:11:35,000
+ Okay, let's do Tempo versus base.
+
+100
+00:11:35,000 --> 00:11:37,000
+ But we can do... We're going to do OpenUSD.
+
+101
+00:11:37,000 --> 00:11:41,000
+ I mean, that's on top of it. Yeah, that's the layer two of Tempo versus base.
+
+102
+00:11:41,000 --> 00:11:42,000
+ Okay, let's start at the beginning then.
+
+103
+00:11:42,000 --> 00:11:48,000
+ Start at the beginning. He wants to kick it off. Not me.
+
+104
+00:11:48,000 --> 00:11:57,000
+ Yeah, I mean, we just want to talk about what's going on on chain with all these platforms.
+
+105
+00:11:57,000 --> 00:12:05,000
+ I'm still unclear if we're talking about OpenUSD or base versus Tempo.
+
+106
+00:12:05,000 --> 00:12:20,000
+ But from base versus Tempo, it's like they are the biggest institutional chains, maybe. So why is one better than another?
+
+107
+00:12:20,000 --> 00:12:26,000
+ What does it mean if they succeed? Does it mean anything? I don't know. Have you used any of them?
+
+108
+00:12:26,000 --> 00:12:39,000
+ Yes, I have. I've used base. So what is base? So base is an Ethereum L2 or it still is an Ethereum L2.
+
+109
+00:12:39,000 --> 00:12:50,000
+ And basically it's Coinbase's sovereign layer two chain where they have all of their DeFi products that aren't necessarily on the Coinbase centralized app.
+
+110
+00:12:50,000 --> 00:12:57,000
+ But they have some of their products there. So one might be like a Morpho market,
+
+111
+00:12:57,000 --> 00:13:06,000
+ which is a way to lend out your Bitcoin on Coinbase and receive USD C back for it, which you can do things with.
+
+112
+00:13:06,000 --> 00:13:12,000
+ And Morpho is like a third party that creates smart contracts for doing crypto lending,
+
+113
+00:13:12,000 --> 00:13:22,000
+ but they are smart contracts or agnostic of chain because it just works on any EVM and base is an EVM layer two or side chain
+
+114
+00:13:22,000 --> 00:13:26,000
+ depending on where you draw the line. A little messy thing.
+
+115
+00:13:26,000 --> 00:13:36,000
+ Exactly. So yeah, exactly that. So it's like this sort of agnostic, sort of not platform where Coinbase has the ability to bundle all these DeFi products.
+
+116
+00:13:36,000 --> 00:13:45,000
+ I think there's a Uniswap deployment as well. There's Aerodrome, which is their DEX. I'm sure if they don't have perps, they're going to get it.
+
+117
+00:13:45,000 --> 00:13:53,000
+ So yeah, Coinbase is that. It's like a one-stop shop for that.
+
+118
+00:13:53,000 --> 00:14:01,000
+ And so one thing about base is it was one of the first to do this. I think base is three, four years old.
+
+119
+00:14:01,000 --> 00:14:07,000
+ The first to do what? Basically take optimism, slap a Coinbase sticker on it,
+
+120
+00:14:07,000 --> 00:14:14,000
+ and then be like, "Come here and do DeFi. So many perp of fortune on base."
+
+121
+00:14:14,000 --> 00:14:16,000
+ That's how some would describe it, for sure.
+
+122
+00:14:16,000 --> 00:14:22,000
+ Yeah. One of my favorite things about base is that if you ever read any press releases or media about base,
+
+123
+00:14:22,000 --> 00:14:31,000
+ they always start with this phrase, and it's like, "base, comma, a Ethereum layer 2 blockchain incubated by Coinbase, comma."
+
+124
+00:14:31,000 --> 00:14:38,000
+ And it's very clear that that's their marketing double-speak that they hand to the block or coin desk or something,
+
+125
+00:14:38,000 --> 00:14:47,000
+ because they want to very carefully make sure that they're talked about, how they want to be talked about.
+
+126
+00:14:47,000 --> 00:14:55,000
+ Because if somebody confuses it and says, "This is actually Coinbase's chain," that's not how they want base to be presented.
+
+127
+00:14:55,000 --> 00:15:01,000
+ And debatably, maybe that's not actually how base operates, although I think that's...
+
+128
+00:15:01,000 --> 00:15:08,000
+ Maybe, Chris, you can tell us a little bit more about how base is structured and some of the guarantees that you get when using base.
+
+129
+00:15:08,000 --> 00:15:19,000
+ You can unilaterally exit to Ethereum layer 1, right? So they cannot censor your exit transaction to Ethereum layer 1.
+
+130
+00:15:19,000 --> 00:15:22,000
+ So that's a pretty good security guarantee, actually, for using base.
+
+131
+00:15:22,000 --> 00:15:28,000
+ But the coordinator on the base chain can censor your transaction and not include it on base.
+
+132
+00:15:28,000 --> 00:15:34,000
+ So maybe that's a trade-off that a lot of people find works well for them.
+
+133
+00:15:34,000 --> 00:15:39,000
+ That actually seems like a pretty good security model for a lot of this type of crypto usage.
+
+134
+00:15:39,000 --> 00:15:42,000
+ Would you agree with that, or what are some other sharp edges there?
+
+135
+00:15:42,000 --> 00:15:44,000
+ Yeah, I would totally agree with that.
+
+136
+00:15:44,000 --> 00:15:48,000
+ I think one of the sticking points is definitely the shared sequencer.
+
+137
+00:15:48,000 --> 00:15:55,000
+ So the sequencer in one of these L2s is who decides which transaction gets in and in what order.
+
+138
+00:15:55,000 --> 00:15:59,000
+ And this seems quite benign, right?
+
+139
+00:15:59,000 --> 00:16:03,000
+ Because you're thinking, "What does it matter? What order the transactions get in?"
+
+140
+00:16:03,000 --> 00:16:07,000
+ But on these chains, there are these complicated programs running.
+
+141
+00:16:07,000 --> 00:16:16,000
+ For example, one is called an automated market maker, which decides the price of two assets based on, guess what, the ordering of the transactions.
+
+142
+00:16:16,000 --> 00:16:22,000
+ So when you have control of the order flow and the way that transactions are included in the blocks,
+
+143
+00:16:22,000 --> 00:16:30,000
+ you can reorder these transactions, and the order of them determines what price everybody gets.
+
+144
+00:16:30,000 --> 00:16:36,000
+ I mean, there's kind of dovetails with this thing called MEV, which is maximum extractable value,
+
+145
+00:16:36,000 --> 00:16:39,000
+ that I think we probably shouldn't go too deep into.
+
+146
+00:16:39,000 --> 00:16:42,000
+ It's a whole rabbit hole. It's like a whole episode in the future.
+
+147
+00:16:42,000 --> 00:16:48,000
+ I think the broader point is that there are all these layers at which people operate on these platforms
+
+148
+00:16:48,000 --> 00:16:52,000
+ and have various types of either veto or control.
+
+149
+00:16:52,000 --> 00:16:57,000
+ And yeah, there's a lot of unintuitive, I would say, thorny edges.
+
+150
+00:16:57,000 --> 00:17:01,000
+ And who controls the sequencing of the transactions? Who is that?
+
+151
+00:17:01,000 --> 00:17:03,000
+ Who would you think it was?
+
+152
+00:17:03,000 --> 00:17:07,000
+ Who would I think it is? The person running the node?
+
+153
+00:17:07,000 --> 00:17:10,000
+ Yeah, exactly.
+
+154
+00:17:10,000 --> 00:17:15,000
+ Every L2 has a single sequencer at the moment, or almost all of them,
+
+155
+00:17:15,000 --> 00:17:20,000
+ which means that the person who's operating the L2 runs the sequencer, and they decide the order of transactions.
+
+156
+00:17:20,000 --> 00:17:23,000
+ So in this case, it would be base.
+
+157
+00:17:23,000 --> 00:17:26,000
+ Base decides what gets on the chain.
+
+158
+00:17:26,000 --> 00:17:28,000
+ I do a kind of in-the-depth question.
+
+159
+00:17:28,000 --> 00:17:33,000
+ So my understanding of how an optimistic roll-up works is basically
+
+160
+00:17:33,000 --> 00:17:37,000
+ it's a layer or two on top of Ethereum.
+
+161
+00:17:37,000 --> 00:17:44,000
+ And you kind of trust the sequencer to validate transactions
+
+162
+00:17:44,000 --> 00:17:47,000
+ and include them in blocks that are valid, basically.
+
+163
+00:17:47,000 --> 00:17:53,000
+ And the enforcement mechanism for Ethereum to make sure that the sequencer is only including valid blocks
+
+164
+00:17:53,000 --> 00:17:57,000
+ is it just assumes that everything is valid
+
+165
+00:17:57,000 --> 00:18:02,000
+ until there is somebody who can come along and basically check their work.
+
+166
+00:18:02,000 --> 00:18:07,000
+ And that's the optimistic part, because you optimistically assume that that block was constructed correctly.
+
+167
+00:18:07,000 --> 00:18:11,000
+ And then somebody has an incentive to check that work.
+
+168
+00:18:11,000 --> 00:18:15,000
+ If they find a mistake with it, then they can submit a fraud-proof to Ethereum.
+
+169
+00:18:15,000 --> 00:18:18,000
+ They can collect some kind of incentive for doing that.
+
+170
+00:18:18,000 --> 00:18:24,000
+ And then the situation on the layer two gets remediated that way.
+
+171
+00:18:24,000 --> 00:18:31,000
+ But if the set of people who are allowed to issue those fraud proofs is restricted,
+
+172
+00:18:31,000 --> 00:18:37,000
+ then essentially if there's this one party that runs the sequencer
+
+173
+00:18:37,000 --> 00:18:43,000
+ and they, for example, want to submit invalid transactions that takes money from you,
+
+174
+00:18:43,000 --> 00:18:49,000
+ and then also the person who could call them out on that via the fraud proof is another entity that's related
+
+175
+00:18:49,000 --> 00:18:54,000
+ and they could just decide not to issue a fraud proof for that
+
+176
+00:18:54,000 --> 00:18:57,000
+ and it isn't an open set of people that could do that,
+
+177
+00:18:57,000 --> 00:19:05,000
+ then can't they kind of include invalid transactions on this layer two without any recourse on L1?
+
+178
+00:19:05,000 --> 00:19:09,000
+ And so does that weaken the assurance of you have unilateral exit,
+
+179
+00:19:09,000 --> 00:19:16,000
+ but actually if the sequencer and the fraud prover coordinate, they can take your balances.
+
+180
+00:19:16,000 --> 00:19:17,000
+ Does that make sense?
+
+181
+00:19:17,000 --> 00:19:18,000
+ Yep, 100%.
+
+182
+00:19:18,000 --> 00:19:25,000
+ So I think on base, because again, it's an optimism-inspired chain,
+
+183
+00:19:25,000 --> 00:19:27,000
+ anyone can submit a fraud proof.
+
+184
+00:19:27,000 --> 00:19:28,000
+ I think the window is seven days.
+
+185
+00:19:28,000 --> 00:19:30,000
+ I think they have that.
+
+186
+00:19:30,000 --> 00:19:32,000
+ I know at one point they didn't.
+
+187
+00:19:32,000 --> 00:19:34,000
+ For the longest time they did not, right?
+
+188
+00:19:34,000 --> 00:19:39,000
+ But that's a very important step for any layer two, that's one of Vitalik's main things
+
+189
+00:19:39,000 --> 00:19:42,000
+ when he wants these L2s to become more robust.
+
+190
+00:19:42,000 --> 00:19:46,000
+ And if they did that, then that's well done, Coinbase, I guess, yeah.
+
+191
+00:19:46,000 --> 00:19:48,000
+ I mean, optimism.
+
+192
+00:19:48,000 --> 00:19:53,000
+ But yeah, I think they got that for free with the optimism stack.
+
+193
+00:19:53,000 --> 00:19:59,000
+ But yeah, it's a very astute observation and I think it definitely holds up.
+
+194
+00:19:59,000 --> 00:20:04,000
+ And I think it really contrasts with tempo.
+
+195
+00:20:04,000 --> 00:20:05,000
+ Good.
+
+196
+00:20:05,000 --> 00:20:06,000
+ Good tempo.
+
+197
+00:20:06,000 --> 00:20:08,000
+ I think it really contrasts with tempo.
+
+198
+00:20:08,000 --> 00:20:13,000
+ Yeah, so I feel like maybe to set that up, base is coming at it from this angle
+
+199
+00:20:13,000 --> 00:20:19,000
+ where it's built on a crypto-native stack that you have unilateral exit to Ethereum.
+
+200
+00:20:19,000 --> 00:20:26,000
+ It has EVM compatibility, so you have all the same familiar smart contracts and stuff like that.
+
+201
+00:20:26,000 --> 00:20:30,000
+ But it's kind of like incubated by this corporate sponsor.
+
+202
+00:20:30,000 --> 00:20:35,000
+ They issue a lot of the wrapped assets on the blockchain
+
+203
+00:20:35,000 --> 00:20:39,000
+ so they kind of control a lot of the touch points of that blockchain with the real world.
+
+204
+00:20:39,000 --> 00:20:44,000
+ And so they're kind of coming at it of like here's this corporate spin on a blockchain
+
+205
+00:20:44,000 --> 00:20:50,000
+ that we like try to do our best on to make it kind of more like fit with the crypto ethos.
+
+206
+00:20:50,000 --> 00:20:57,000
+ And then you have tempo, which is maybe coming at it from a different angle, which is kind of like
+
+207
+00:20:57,000 --> 00:21:04,000
+ we are using a blockchain as a means to an end to build a next generation payment system.
+
+208
+00:21:04,000 --> 00:21:10,000
+ But we don't necessarily want to interface with public blockchains
+
+209
+00:21:10,000 --> 00:21:16,000
+ or inherit any of that ethos and we're kind of building this de novo thing.
+
+210
+00:21:16,000 --> 00:21:20,000
+ Or security guarantees, right?
+
+211
+00:21:20,000 --> 00:21:25,000
+ Because the state of tempo is that it's, I would say, generously proof of authority.
+
+212
+00:21:25,000 --> 00:21:29,000
+ It's another L1. It doesn't roll up to any blockchain.
+
+213
+00:21:29,000 --> 00:21:33,000
+ So there's nobody holding them accountable.
+
+214
+00:21:33,000 --> 00:21:37,000
+ What happens on tempo is like that's just what happens with those assets.
+
+215
+00:21:37,000 --> 00:21:42,000
+ It's like a Peloponnesian war style coalition of companies who run validators
+
+216
+00:21:42,000 --> 00:21:46,000
+ on this shared neutral zone.
+
+217
+00:21:46,000 --> 00:21:48,000
+ That's a tricky model, I don't know.
+
+218
+00:21:48,000 --> 00:21:52,000
+ Yeah, it doesn't matter though if there's no native asset to the blockchain.
+
+219
+00:21:52,000 --> 00:21:56,000
+ If tempo is just a blockchain that's stuffed with stablecoins
+
+220
+00:21:56,000 --> 00:22:00,000
+ and those stablecoins are all genius compliant issued by companies,
+
+221
+00:22:00,000 --> 00:22:03,000
+ if you're using your USDC or USDT on Ethereum,
+
+222
+00:22:03,000 --> 00:22:05,000
+ even if Ethereum has great security guarantees,
+
+223
+00:22:05,000 --> 00:22:09,000
+ those smart contracts have freeze functions and stuff like that.
+
+224
+00:22:09,000 --> 00:22:13,000
+ And so it doesn't really matter what chain you're on
+
+225
+00:22:13,000 --> 00:22:15,000
+ if Circle can freeze your coins, right?
+
+226
+00:22:15,000 --> 00:22:18,000
+ I think the historic use of the freeze function
+
+227
+00:22:18,000 --> 00:22:22,000
+ is something that a lot of people haven't really dug into.
+
+228
+00:22:22,000 --> 00:22:26,000
+ Circle is famously not very litigious with the freeze function.
+
+229
+00:22:26,000 --> 00:22:29,000
+ They want a chord injunction.
+
+230
+00:22:29,000 --> 00:22:32,000
+ But that freeze function is slow.
+
+231
+00:22:32,000 --> 00:22:33,000
+ Really?
+
+232
+00:22:33,000 --> 00:22:35,000
+ Well, they need to get everybody together.
+
+233
+00:22:35,000 --> 00:22:36,000
+ It's a multi-sig.
+
+234
+00:22:36,000 --> 00:22:38,000
+ They need to decide they're going to do it.
+
+235
+00:22:38,000 --> 00:22:42,000
+ Well, the main thing is if North Korea hacks some smart contract,
+
+236
+00:22:42,000 --> 00:22:44,000
+ they steal a bunch of USDC,
+
+237
+00:22:44,000 --> 00:22:49,000
+ that USDC is immediately swapped for some sovereign asset.
+
+238
+00:22:49,000 --> 00:22:55,000
+ And so it's like they can swap faster than Circle can freeze basically.
+
+239
+00:22:55,000 --> 00:22:58,000
+ And so in that arms race, they're basically always going to lose.
+
+240
+00:22:58,000 --> 00:23:02,000
+ So I think with that, you catch the people who are holding it for too long.
+
+241
+00:23:02,000 --> 00:23:06,000
+ If they're for some reason unsophisticated
+
+242
+00:23:06,000 --> 00:23:09,000
+ holding a stable coin for a long time, you get that for sure.
+
+243
+00:23:09,000 --> 00:23:13,000
+ But that's not generally the case with sophisticated actors.
+
+244
+00:23:13,000 --> 00:23:14,000
+ All right. That makes sense.
+
+245
+00:23:14,000 --> 00:23:18,000
+ So there is some benefit to doing, let's say,
+
+246
+00:23:18,000 --> 00:23:22,000
+ permissioned assets on a more sovereign blockchain.
+
+247
+00:23:22,000 --> 00:23:24,000
+ Well, I don't know if I'd frame it as a benefit
+
+248
+00:23:24,000 --> 00:23:28,000
+ because we're talking in this case about an international bad actor
+
+249
+00:23:28,000 --> 00:23:32,000
+ being able to get away with their loot.
+
+250
+00:23:32,000 --> 00:23:34,000
+ Sounds like you're on the wrong side.
+
+251
+00:23:34,000 --> 00:23:36,000
+ Don't come at me.
+
+252
+00:23:36,000 --> 00:23:37,000
+ Our opinions are on me.
+
+253
+00:23:37,000 --> 00:23:39,000
+ I mean, the jury's out.
+
+254
+00:23:39,000 --> 00:23:41,000
+ Let's see what happens.
+
+255
+00:23:41,000 --> 00:23:44,000
+ I'm sure this will continue to happen on every chain.
+
+256
+00:23:44,000 --> 00:23:48,000
+ Let's see what happens when this happens the first time on Tempo or Bass.
+
+257
+00:23:48,000 --> 00:23:50,000
+ Because you still have to be fast.
+
+258
+00:23:50,000 --> 00:23:51,000
+ You still have to be like,
+
+259
+00:23:51,000 --> 00:23:55,000
+ "Oh, there goes $300 billion of Tempo coin to do something."
+
+260
+00:23:55,000 --> 00:23:57,000
+ Can you unwind blocks?
+
+261
+00:23:57,000 --> 00:24:00,000
+ Literally, they just roll it back to before the hack
+
+262
+00:24:00,000 --> 00:24:01,000
+ and they're like,
+
+263
+00:24:01,000 --> 00:24:03,000
+ "Sorry, everyone that did transactions in the meantime
+
+264
+00:24:03,000 --> 00:24:04,000
+ can't do or something."
+
+265
+00:24:04,000 --> 00:24:05,000
+ Can they bridge out?
+
+266
+00:24:05,000 --> 00:24:06,000
+ There's so many questions.
+
+267
+00:24:06,000 --> 00:24:07,000
+ Yeah.
+
+268
+00:24:07,000 --> 00:24:08,000
+ So I apologize.
+
+269
+00:24:08,000 --> 00:24:09,000
+ I'm pretty ignorant on this.
+
+270
+00:24:09,000 --> 00:24:14,000
+ So I'm going to try to recap what I think we've said about the Bass versus the Tempo.
+
+271
+00:24:14,000 --> 00:24:19,000
+ Bass is built as a layer two on top of Ethereum.
+
+272
+00:24:19,000 --> 00:24:25,000
+ So it gets a little bit of freedom from that.
+
+273
+00:24:25,000 --> 00:24:30,000
+ It's kind of through the redemption process you were talking about.
+
+274
+00:24:30,000 --> 00:24:33,000
+ Whereas Tempo is not built.
+
+275
+00:24:33,000 --> 00:24:36,000
+ It's like its own layer one and it's run by,
+
+276
+00:24:36,000 --> 00:24:40,000
+ it sounds like a coalition or like people with an agreement with one another
+
+277
+00:24:40,000 --> 00:24:44,000
+ that are allowed to run the validators or whatever they call them in Tempo.
+
+278
+00:24:44,000 --> 00:24:47,000
+ So does that mean that we are team Bass
+
+279
+00:24:47,000 --> 00:24:52,000
+ because it's marginally more open and free?
+
+280
+00:24:52,000 --> 00:24:54,000
+ I'm team Bitcoin.
+
+281
+00:24:54,000 --> 00:24:56,000
+ What team are you on, man?
+
+282
+00:24:56,000 --> 00:25:01,000
+ Well, the segment was Bass versus Tempo.
+
+283
+00:25:01,000 --> 00:25:04,000
+ I mean like horses for courses, right?
+
+284
+00:25:04,000 --> 00:25:06,000
+ I don't know.
+
+285
+00:25:06,000 --> 00:25:08,000
+ I don't know what that means either.
+
+286
+00:25:08,000 --> 00:25:10,000
+ It's like pick the right tool for the job.
+
+287
+00:25:10,000 --> 00:25:11,000
+ I don't know.
+
+288
+00:25:11,000 --> 00:25:13,000
+ I actually don't think that we actually talked about
+
+289
+00:25:13,000 --> 00:25:16,000
+ the big trade-offs with Tempo compared to Bass yet.
+
+290
+00:25:16,000 --> 00:25:18,000
+ I did want to ask a question.
+
+291
+00:25:18,000 --> 00:25:20,000
+ One trade-off.
+
+292
+00:25:20,000 --> 00:25:22,000
+ Do you want to go first or?
+
+293
+00:25:22,000 --> 00:25:23,000
+ All right.
+
+294
+00:25:23,000 --> 00:25:28,000
+ Quick, can you do any asset on Tempo like USDT or USDC on Tempo
+
+295
+00:25:28,000 --> 00:25:30,000
+ versus like Bass?
+
+296
+00:25:30,000 --> 00:25:32,000
+ You can definitely do both of those.
+
+297
+00:25:32,000 --> 00:25:35,000
+ You can, but it depends on what the issuer wants to do.
+
+298
+00:25:35,000 --> 00:25:39,000
+ So if the issuer Tether or Circle chooses to issue on those chains, yes.
+
+299
+00:25:39,000 --> 00:25:41,000
+ But if not, then no, right?
+
+300
+00:25:41,000 --> 00:25:43,000
+ And I think that's part of the complexity.
+
+301
+00:25:43,000 --> 00:25:44,000
+ Okay, all right.
+
+302
+00:25:44,000 --> 00:25:46,000
+ Sorry, give after it, Tyler.
+
+303
+00:25:46,000 --> 00:25:49,000
+ I was going to say one interesting thing about Bass
+
+304
+00:25:49,000 --> 00:25:53,000
+ is that am I correct that all the transactions on Bass are public?
+
+305
+00:25:53,000 --> 00:25:56,000
+ So there's no privacy basically to transacting on Bass?
+
+306
+00:25:56,000 --> 00:25:57,000
+ You are correct.
+
+307
+00:25:57,000 --> 00:26:00,000
+ They have some type of private off-chain ledger,
+
+308
+00:26:00,000 --> 00:26:03,000
+ but I don't think it works.
+
+309
+00:26:03,000 --> 00:26:06,000
+ It's not as sophisticated as Tempo, yeah.
+
+310
+00:26:06,000 --> 00:26:09,000
+ Well, do either of these things exist yet?
+
+311
+00:26:09,000 --> 00:26:11,000
+ Or they both just said publicly like,
+
+312
+00:26:11,000 --> 00:26:13,000
+ "Oh yeah, we commit to figuring out some private way
+
+313
+00:26:13,000 --> 00:26:15,000
+ for people to transact on our chains."
+
+314
+00:26:15,000 --> 00:26:18,000
+ That's like an intention that we're committing to,
+
+315
+00:26:18,000 --> 00:26:19,000
+ but it isn't a reality yet.
+
+316
+00:26:19,000 --> 00:26:23,000
+ I think Tempo has shipped either the beta of the feature or the feature.
+
+317
+00:26:23,000 --> 00:26:26,000
+ The thing with Tempo is their team is unbelievably cracked.
+
+318
+00:26:26,000 --> 00:26:29,000
+ They're well known as one of the most talented teams in the space.
+
+319
+00:26:29,000 --> 00:26:32,000
+ Yeah, they just took all the paradigm people, right?
+
+320
+00:26:32,000 --> 00:26:35,000
+ I guess paradigm is blending their people.
+
+321
+00:26:35,000 --> 00:26:37,000
+ Yeah, I think they're pretty deep in that.
+
+322
+00:26:37,000 --> 00:26:40,000
+ They're both elite on X, so that's all I know about them.
+
+323
+00:26:40,000 --> 00:26:45,000
+ Does their actual engineering chops match their eliteness on X?
+
+324
+00:26:45,000 --> 00:26:47,000
+ Yeah, absolutely.
+
+325
+00:26:47,000 --> 00:26:51,000
+ The thing about those engineers is those engineers specifically built
+
+326
+00:26:51,000 --> 00:26:54,000
+ one of the biggest reference implementations for Ethereum.
+
+327
+00:26:54,000 --> 00:26:56,000
+ It's called Breath and all this other stuff.
+
+328
+00:26:56,000 --> 00:27:03,000
+ They really know what they're doing.
+
+329
+00:27:03,000 --> 00:27:06,000
+ Yeah, that's interesting.
+
+330
+00:27:06,000 --> 00:27:09,000
+ To get to that point, though, is that Tempo,
+
+331
+00:27:09,000 --> 00:27:11,000
+ one of their features is that, to me,
+
+332
+00:27:11,000 --> 00:27:14,000
+ they're more targeting a payments use case for Tempo,
+
+333
+00:27:14,000 --> 00:27:18,000
+ which makes sense because it's partially or maybe primarily driven
+
+334
+00:27:18,000 --> 00:27:21,000
+ by Stripe in partnership with Paradigm,
+
+335
+00:27:21,000 --> 00:27:24,000
+ and then they have these other partners that are joining it,
+
+336
+00:27:24,000 --> 00:27:27,000
+ which might get us onto the OUSD track later on.
+
+337
+00:27:27,000 --> 00:27:30,000
+ Stripe is obviously more of a payments company.
+
+338
+00:27:30,000 --> 00:27:36,000
+ They're not trying to build open finance web 3 kind of stuff,
+
+339
+00:27:36,000 --> 00:27:39,000
+ whereas Coinbase is dabbling and all of that.
+
+340
+00:27:39,000 --> 00:27:43,000
+ But one of the features of Tempo is that they have these so-called privacy zones
+
+341
+00:27:43,000 --> 00:27:45,000
+ which is like it's a blockchain.
+
+342
+00:27:45,000 --> 00:27:48,000
+ One of the features of the blockchain is that you can download the box
+
+343
+00:27:48,000 --> 00:27:50,000
+ and see what's going on.
+
+344
+00:27:50,000 --> 00:27:53,000
+ You can validate yourself even if you aren't able to do sequencing
+
+345
+00:27:53,000 --> 00:27:55,000
+ or that kind of thing.
+
+346
+00:27:55,000 --> 00:27:59,000
+ And in Tempo, I guess they want to have these privacy zones
+
+347
+00:27:59,000 --> 00:28:02,000
+ because the trade-off is that when you have a public blockchain,
+
+348
+00:28:02,000 --> 00:28:04,000
+ that means everyone can see all the transactions.
+
+349
+00:28:04,000 --> 00:28:09,000
+ And so it's very hard to do privacy on a blockchain for that reason.
+
+350
+00:28:09,000 --> 00:28:13,000
+ There's ways that you can obfuscate the transactions
+
+351
+00:28:13,000 --> 00:28:15,000
+ by using cryptography.
+
+352
+00:28:15,000 --> 00:28:17,000
+ Monero does that.
+
+353
+00:28:17,000 --> 00:28:21,000
+ Zcash has another method where they create these shielded pools
+
+354
+00:28:21,000 --> 00:28:23,000
+ where you can do transactions.
+
+355
+00:28:23,000 --> 00:28:26,000
+ And so you can deposit your Zcash into a private wallet
+
+356
+00:28:26,000 --> 00:28:28,000
+ and do transactions in there and you can take it out.
+
+357
+00:28:28,000 --> 00:28:31,000
+ But that actually isn't desirable to have on a layer 1 blockchain
+
+358
+00:28:31,000 --> 00:28:34,000
+ because you can't audit the supply of Zcash.
+
+359
+00:28:34,000 --> 00:28:38,000
+ And Zcash famously has had, I think, at least one, if not multiple,
+
+360
+00:28:38,000 --> 00:28:41,000
+ known inflation bugs where people could have
+
+361
+00:28:41,000 --> 00:28:44,000
+ inflated the supply of Zcash in the private pool,
+
+362
+00:28:44,000 --> 00:28:46,000
+ which would be completely undetectable.
+
+363
+00:28:46,000 --> 00:28:49,000
+ So no one actually knows what the supply of Zcash is.
+
+364
+00:28:49,000 --> 00:28:50,000
+ I wouldn't worry about that.
+
+365
+00:28:50,000 --> 00:28:52,000
+ Any Zcash is out there, I wouldn't worry about it.
+
+366
+00:28:52,000 --> 00:28:53,000
+ Oh, why is that?
+
+367
+00:28:53,000 --> 00:28:55,000
+ No, I'm kidding. Yeah, it's terrifying.
+
+368
+00:28:55,000 --> 00:28:58,000
+ Yeah, it's terrifying. Definitely worry about that.
+
+369
+00:28:58,000 --> 00:29:01,000
+ This is a big Zcash.
+
+370
+00:29:01,000 --> 00:29:04,000
+ That was like the VC coin of like two months ago.
+
+371
+00:29:04,000 --> 00:29:06,000
+ The cull pump was crazy.
+
+372
+00:29:06,000 --> 00:29:10,000
+ Yeah, that was one of the most cynical pumps of just like,
+
+373
+00:29:10,000 --> 00:29:13,000
+ let's just take this coin from literally eight years ago off the shelf
+
+374
+00:29:13,000 --> 00:29:16,000
+ and I'll start talking about it and then dump it on retail pumps
+
+375
+00:29:16,000 --> 00:29:17,000
+ that I've ever seen.
+
+376
+00:29:17,000 --> 00:29:18,000
+ Yeah.
+
+377
+00:29:18,000 --> 00:29:21,000
+ It's like pure, cynical, key opinion leader BS.
+
+378
+00:29:21,000 --> 00:29:24,000
+ Yeah, I had hoped it would be the last one, but you know.
+
+379
+00:29:24,000 --> 00:29:27,000
+ Yeah, and the tech of Zcash has merit,
+
+380
+00:29:27,000 --> 00:29:29,000
+ but you don't need to do that on layer 1, right?
+
+381
+00:29:29,000 --> 00:29:32,000
+ So I mean, yeah, sapling protocol that Zcash implemented
+
+382
+00:29:32,000 --> 00:29:35,000
+ has been used by lots of others.
+
+383
+00:29:35,000 --> 00:29:36,000
+ Ironfish is an example.
+
+384
+00:29:36,000 --> 00:29:39,000
+ I mean, that's an ancient maybe gone chain now,
+
+385
+00:29:39,000 --> 00:29:42,000
+ but yeah, you absolutely, you can implement it other places,
+
+386
+00:29:42,000 --> 00:29:44,000
+ either using this protocol or other.
+
+387
+00:29:44,000 --> 00:29:49,000
+ EK roll ups as well as using the same moon math to hide
+
+388
+00:29:49,000 --> 00:29:52,000
+ or just make it not public, but then you can validate it still.
+
+389
+00:29:52,000 --> 00:29:53,000
+ Moon math.
+
+390
+00:29:53,000 --> 00:29:57,000
+ I mean, there's Railgun is a company that built a UTXO system
+
+391
+00:29:57,000 --> 00:30:01,000
+ that settles using back to ETH mainnet
+
+392
+00:30:01,000 --> 00:30:03,000
+ and like allows you to shield your transactions.
+
+393
+00:30:03,000 --> 00:30:05,000
+ It's like a million ways to do it.
+
+394
+00:30:05,000 --> 00:30:07,000
+ And so those are some really based ways to do it
+
+395
+00:30:07,000 --> 00:30:10,000
+ because if you're Zcash and you're creating this private pool,
+
+396
+00:30:10,000 --> 00:30:13,000
+ it's like Zcash can't even see what's going on in that pool.
+
+397
+00:30:13,000 --> 00:30:15,000
+ They're blinded by cryptography,
+
+398
+00:30:15,000 --> 00:30:18,000
+ and that's the way they want it to be because of their principles,
+
+399
+00:30:18,000 --> 00:30:20,000
+ and I think that's rad.
+
+400
+00:30:20,000 --> 00:30:23,000
+ The private zones on Tempo are different
+
+401
+00:30:23,000 --> 00:30:28,000
+ because Tempo is like basically a fully owned blockchain,
+
+402
+00:30:28,000 --> 00:30:33,000
+ and the companies that operate it cannot let full privacy happen
+
+403
+00:30:33,000 --> 00:30:36,000
+ because they have obligations to regulations and sanctions
+
+404
+00:30:36,000 --> 00:30:38,000
+ and the governments and stuff like that.
+
+405
+00:30:38,000 --> 00:30:41,000
+ But the way they do privacy is it's essentially like custodial privacy
+
+406
+00:30:41,000 --> 00:30:46,000
+ where there are zones within Tempo where you can do transactions,
+
+407
+00:30:46,000 --> 00:30:50,000
+ but essentially the blockchain in that zone is not public.
+
+408
+00:30:50,000 --> 00:30:52,000
+ It's like a private chain.
+
+409
+00:30:52,000 --> 00:30:54,000
+ So you basically trust one company.
+
+410
+00:30:54,000 --> 00:30:56,000
+ You have privacy from the external world,
+
+411
+00:30:56,000 --> 00:30:59,000
+ but that one company can scrutinize your transactions.
+
+412
+00:30:59,000 --> 00:31:01,000
+ And that's kind of the relationship that consumers have
+
+413
+00:31:01,000 --> 00:31:03,000
+ with financial companies right now,
+
+414
+00:31:03,000 --> 00:31:05,000
+ where if I have a Chase credit card,
+
+415
+00:31:05,000 --> 00:31:07,000
+ Chase can see my transactions,
+
+416
+00:31:07,000 --> 00:31:11,000
+ but it's not like Chase posts my credit card statement
+
+417
+00:31:11,000 --> 00:31:13,000
+ to the blockchain every month,
+
+418
+00:31:13,000 --> 00:31:15,000
+ which is kind of what it would be
+
+419
+00:31:15,000 --> 00:31:19,000
+ if you did all of your financial transactions on an L1 public blockchain.
+
+420
+00:31:19,000 --> 00:31:20,000
+ Totally.
+
+421
+00:31:20,000 --> 00:31:22,000
+ I haven't really looked too much into privacy zones,
+
+422
+00:31:22,000 --> 00:31:24,000
+ but there are other ways to do this.
+
+423
+00:31:24,000 --> 00:31:28,000
+ You know, like, there are compromises you can make
+
+424
+00:31:28,000 --> 00:31:30,000
+ that I think are quite good for the user.
+
+425
+00:31:30,000 --> 00:31:32,000
+ What does that mean, though?
+
+426
+00:31:32,000 --> 00:31:34,000
+ It's like, expose a view key to the authorities.
+
+427
+00:31:34,000 --> 00:31:36,000
+ So if the authorities come to them and they're like,
+
+428
+00:31:36,000 --> 00:31:39,000
+ "Hey, we think that there might be some actor
+
+429
+00:31:39,000 --> 00:31:41,000
+ that's misabusing your system."
+
+430
+00:31:41,000 --> 00:31:44,000
+ And they're like, "How do you come as an authority?
+
+431
+00:31:44,000 --> 00:31:46,000
+ How do you come to Railgun with a hypothesis
+
+432
+00:31:46,000 --> 00:31:49,000
+ of the bad action having taken place on this?"
+
+433
+00:31:49,000 --> 00:31:51,000
+ Like, you kind of need to know
+
+434
+00:31:51,000 --> 00:31:53,000
+ that something bad is happening there
+
+435
+00:31:53,000 --> 00:31:56,000
+ and you need to ask for the special key to then investigate it.
+
+436
+00:31:56,000 --> 00:31:59,000
+ I feel like that's not a system that law enforcement would be down with.
+
+437
+00:31:59,000 --> 00:32:01,000
+ No, no, no, no. It's a good question.
+
+438
+00:32:01,000 --> 00:32:02,000
+ I think they have two things.
+
+439
+00:32:02,000 --> 00:32:05,000
+ They have one is the view key, which is more like the tax purposes,
+
+440
+00:32:05,000 --> 00:32:08,000
+ and the other one is private proofs of innocence.
+
+441
+00:32:08,000 --> 00:32:11,000
+ So I think they have a way to disambiguate
+
+442
+00:32:11,000 --> 00:32:12,000
+ whether somebody was bad in the pool
+
+443
+00:32:12,000 --> 00:32:14,000
+ and then kind of whittle it down
+
+444
+00:32:14,000 --> 00:32:16,000
+ based on some private information they have.
+
+445
+00:32:16,000 --> 00:32:18,000
+ I can't say much more than that.
+
+446
+00:32:18,000 --> 00:32:21,000
+ So there's an anonymity set within Railgun,
+
+447
+00:32:21,000 --> 00:32:25,000
+ and if they somehow decide that Jackson's a bad actor,
+
+448
+00:32:25,000 --> 00:32:28,000
+ he put his coins in there and they're tainted,
+
+449
+00:32:28,000 --> 00:32:31,000
+ that we can then allow the good actors in that privacy pool
+
+450
+00:32:31,000 --> 00:32:33,000
+ prove that they're not Jackson
+
+451
+00:32:33,000 --> 00:32:35,000
+ and that they're coins who are Jackson's coins.
+
+452
+00:32:35,000 --> 00:32:37,000
+ That's a proof of not Jackson.
+
+453
+00:32:37,000 --> 00:32:39,000
+ In this metaphor.
+
+454
+00:32:39,000 --> 00:32:41,000
+ Yeah, I think that's cool.
+
+455
+00:32:41,000 --> 00:32:43,000
+ I have a little bit of a hard time believing
+
+456
+00:32:43,000 --> 00:32:46,000
+ that that kind of trade-off model
+
+457
+00:32:46,000 --> 00:32:48,000
+ is something that law enforcement,
+
+458
+00:32:48,000 --> 00:32:51,000
+ the state will be comfortable with long-term,
+
+459
+00:32:51,000 --> 00:32:55,000
+ but I applaud those actors for doing it
+
+460
+00:32:55,000 --> 00:32:59,000
+ in a really based and principled way,
+
+461
+00:32:59,000 --> 00:33:02,000
+ and I wish them the best with making that be sustainable.
+
+462
+00:33:02,000 --> 00:33:04,000
+ Right, based but not on base.
+
+463
+00:33:04,000 --> 00:33:06,000
+ Railgun is not on base.
+
+464
+00:33:06,000 --> 00:33:09,000
+ You might want to lean away from that.
+
+465
+00:33:09,000 --> 00:33:12,000
+ Talking about tempo being based is very confusing.
+
+466
+00:33:12,000 --> 00:33:14,000
+ Oh, that's not tempo as being based.
+
+467
+00:33:14,000 --> 00:33:16,000
+ That's Railgun, right?
+
+468
+00:33:16,000 --> 00:33:19,000
+ It's a different entity and a different protocol.
+
+469
+00:33:19,000 --> 00:33:24,000
+ Coming back to it, tempo versus base,
+
+470
+00:33:24,000 --> 00:33:27,000
+ I think this is not really a battle of tech,
+
+471
+00:33:27,000 --> 00:33:29,000
+ it's a battle of distribution,
+
+472
+00:33:29,000 --> 00:33:32,000
+ and I don't know which one is going to
+
+473
+00:33:32,000 --> 00:33:35,000
+ get all of the partners right
+
+474
+00:33:35,000 --> 00:33:38,000
+ and have a sufficiently good feature set
+
+475
+00:33:38,000 --> 00:33:41,000
+ that people will want to integrate with them.
+
+476
+00:33:41,000 --> 00:33:43,000
+ It seems like a zero-sum game,
+
+477
+00:33:43,000 --> 00:33:46,000
+ but I think it's too early to say.
+
+478
+00:33:46,000 --> 00:33:48,000
+ I don't know, what do you guys think?
+
+479
+00:33:48,000 --> 00:33:49,000
+ Jackson?
+
+480
+00:33:49,000 --> 00:33:51,000
+ No thoughts.
+
+481
+00:33:51,000 --> 00:33:52,000
+ No thoughts.
+
+482
+00:33:52,000 --> 00:33:53,000
+ Yeah, I don't know.
+
+483
+00:33:53,000 --> 00:33:56,000
+ I don't know anything about the adoption of stablecoins
+
+484
+00:33:56,000 --> 00:33:59,000
+ and the layer 2s on which they move.
+
+485
+00:33:59,000 --> 00:34:02,000
+ Very uninformed, that's why a stablecoin expert is here.
+
+486
+00:34:02,000 --> 00:34:05,000
+ Yeah, and I don't think anyone really knows
+
+487
+00:34:05,000 --> 00:34:07,000
+ how it's going to play out.
+
+488
+00:34:07,000 --> 00:34:10,000
+ You basically see all of the big players
+
+489
+00:34:10,000 --> 00:34:13,000
+ putting their chips on the table right now
+
+490
+00:34:13,000 --> 00:34:15,000
+ and assembling their bets
+
+491
+00:34:15,000 --> 00:34:18,000
+ and then we're going to roll the wheel
+
+492
+00:34:18,000 --> 00:34:20,000
+ and see who's going to win.
+
+493
+00:34:20,000 --> 00:34:23,000
+ Speaking of chips, how about tokens?
+
+494
+00:34:23,000 --> 00:34:26,000
+ Would you say the players are putting their tokens on the table,
+
+495
+00:34:26,000 --> 00:34:28,000
+ like OpenUSD as an example?
+
+496
+00:34:28,000 --> 00:34:31,000
+ Ah, this man's done three podcasts.
+
+497
+00:34:31,000 --> 00:34:35,000
+ He's in his groove and his podcast chops.
+
+498
+00:34:35,000 --> 00:34:38,000
+ Is this what we have the preparation for?
+
+499
+00:34:38,000 --> 00:34:42,000
+ Do we have our prepared chat about OpenUSD?
+
+500
+00:34:42,000 --> 00:34:44,000
+ Yeah, so I can introduce this segment.
+
+501
+00:34:44,000 --> 00:34:45,000
+ Please do, please do.
+
+502
+00:34:45,000 --> 00:34:49,000
+ But in honor of Claude Fable coming back this week,
+
+503
+00:34:49,000 --> 00:34:51,000
+ we decided to do an experiment,
+
+504
+00:34:51,000 --> 00:34:54,000
+ which is that we thought if we needed to be simulated
+
+505
+00:34:54,000 --> 00:34:56,000
+ as people by the AI,
+
+506
+00:34:56,000 --> 00:34:59,000
+ Claude Fable is the only model that I would let simulate me.
+
+507
+00:34:59,000 --> 00:35:02,000
+ That's the only one that has my heart.
+
+508
+00:35:02,000 --> 00:35:11,000
+ But so we fed our prior three podcast transcripts to AI
+
+509
+00:35:11,000 --> 00:35:14,000
+ and then I had it generate soul.md
+
+510
+00:35:14,000 --> 00:35:17,000
+ for each of the three hosts based on our personas
+
+511
+00:35:17,000 --> 00:35:20,000
+ and we also see lit with some private chat history
+
+512
+00:35:20,000 --> 00:35:21,000
+ and stuff like that.
+
+513
+00:35:21,000 --> 00:35:23,000
+ I didn't get your guys' consent for that,
+
+514
+00:35:23,000 --> 00:35:28,000
+ but now Ithropic has our DNA history.
+
+515
+00:35:28,000 --> 00:35:30,000
+ They have a view key to my soul.
+
+516
+00:35:30,000 --> 00:35:33,000
+ Wait, what is the soul.md?
+
+517
+00:35:33,000 --> 00:35:37,000
+ So one of the things with these agents
+
+518
+00:35:37,000 --> 00:35:41,000
+ that became really popular in January or February
+
+519
+00:35:41,000 --> 00:35:44,000
+ called OpenClaw or Claudebot.
+
+520
+00:35:44,000 --> 00:35:47,000
+ And these agents, you can create a text file
+
+521
+00:35:47,000 --> 00:35:50,000
+ that basically tells the agent what their personality is
+
+522
+00:35:50,000 --> 00:35:52,000
+ and how to act and how to talk
+
+523
+00:35:52,000 --> 00:35:55,000
+ and what their hopes and desires are.
+
+524
+00:35:55,000 --> 00:35:58,000
+ And that personality file is called soul.md.
+
+525
+00:35:58,000 --> 00:36:01,000
+ So I'm basically asking AI to distill
+
+526
+00:36:01,000 --> 00:36:04,000
+ each of our souls into a text file.
+
+527
+00:36:04,000 --> 00:36:06,000
+ And so if you thought as a person
+
+528
+00:36:06,000 --> 00:36:07,000
+ you could contain multitudes,
+
+529
+00:36:07,000 --> 00:36:09,000
+ the reality is that AI can take you
+
+530
+00:36:09,000 --> 00:36:11,000
+ and compress your whole personality
+
+531
+00:36:11,000 --> 00:36:15,000
+ into a 150 line markdown file.
+
+532
+00:36:15,000 --> 00:36:17,000
+ That's all I got, 150 lines.
+
+533
+00:36:17,000 --> 00:36:19,000
+ Who had the longest soul by me?
+
+534
+00:36:19,000 --> 00:36:20,000
+ That's a good question.
+
+535
+00:36:20,000 --> 00:36:22,000
+ Who's the biggest soul?
+
+536
+00:36:22,000 --> 00:36:26,000
+ Who's taking up the most disk space in reality?
+
+537
+00:36:26,000 --> 00:36:28,000
+ Let's see.
+
+538
+00:36:28,000 --> 00:36:30,000
+ Doran is 40 lines.
+
+539
+00:36:30,000 --> 00:36:32,000
+ Oh my gosh.
+
+540
+00:36:32,000 --> 00:36:35,000
+ Jackson is also 40 lines.
+
+541
+00:36:35,000 --> 00:36:36,000
+ Damn.
+
+542
+00:36:36,000 --> 00:36:37,000
+ Wow, dude.
+
+543
+00:36:37,000 --> 00:36:38,000
+ I mean pardon my language.
+
+544
+00:36:38,000 --> 00:36:40,000
+ He could have not told us this.
+
+545
+00:36:40,000 --> 00:36:41,000
+ 43 for me.
+
+546
+00:36:41,000 --> 00:36:44,000
+ Dude, you must have artificially increased it by three.
+
+547
+00:36:44,000 --> 00:36:45,000
+ Did we believe that Jackson?
+
+548
+00:36:45,000 --> 00:36:48,000
+ Yeah, it sounds like it made them all 340
+
+549
+00:36:48,000 --> 00:36:50,000
+ and then Tyler added three because he knew how to act.
+
+550
+00:36:50,000 --> 00:36:52,000
+ Like three character times at the end.
+
+551
+00:36:52,000 --> 00:36:58,000
+ Yeah, it's just like blank space basically.
+
+552
+00:36:58,000 --> 00:37:01,000
+ And so we have these three text files
+
+553
+00:37:01,000 --> 00:37:05,000
+ and we can basically spin up AI agents,
+
+554
+00:37:05,000 --> 00:37:09,000
+ give them these souls and tell them to impersonate us.
+
+555
+00:37:09,000 --> 00:37:12,000
+ And we fed them our podcast outline for today
+
+556
+00:37:12,000 --> 00:37:14,000
+ and some of our segments.
+
+557
+00:37:14,000 --> 00:37:16,000
+ And we had them create a synthetic segment
+
+558
+00:37:16,000 --> 00:37:18,000
+ of the podcast using our souls,
+
+559
+00:37:18,000 --> 00:37:20,000
+ trying to guess what we would say.
+
+560
+00:37:20,000 --> 00:37:25,000
+ And then I further had Claude try to clone our voices
+
+561
+00:37:25,000 --> 00:37:29,000
+ to actually record us doing one of these segments.
+
+562
+00:37:29,000 --> 00:37:31,000
+ So I don't know if we want to listen to maybe
+
+563
+00:37:31,000 --> 00:37:33,000
+ just like a couple minutes of it
+
+564
+00:37:33,000 --> 00:37:36,000
+ because the segment actually is like eight minutes long.
+
+565
+00:37:36,000 --> 00:37:39,000
+ So is that like use of our podcast time that we want to commit to
+
+566
+00:37:39,000 --> 00:37:42,000
+ or you just want to listen to a little bit of it
+
+567
+00:37:42,000 --> 00:37:49,000
+ and then grade how accurate these AIs were at imitating our souls?
+
+568
+00:37:49,000 --> 00:37:50,000
+ I don't know, let's just play it.
+
+569
+00:37:50,000 --> 00:37:52,000
+ And if we like it, we like it.
+
+570
+00:37:52,000 --> 00:37:54,000
+ If we don't, it's like these guys are boring.
+
+571
+00:37:54,000 --> 00:37:56,000
+ Yeah, let's just let them prime us a little bit.
+
+572
+00:37:56,000 --> 00:37:58,000
+ Us the real people and they're fake.
+
+573
+00:37:58,000 --> 00:38:00,000
+ We do all watch the podcast, right?
+
+574
+00:38:00,000 --> 00:38:01,000
+ Yeah.
+
+575
+00:38:01,000 --> 00:38:03,000
+ But we can listen to ourselves talk.
+
+576
+00:38:03,000 --> 00:38:04,000
+ Yeah, okay.
+
+577
+00:38:04,000 --> 00:38:08,000
+ So this is AI impersonating the three of us
+
+578
+00:38:08,000 --> 00:38:12,000
+ in a segment about OpenUSD.
+
+579
+00:38:12,000 --> 00:38:13,000
+ Let's go.
+
+580
+00:38:13,000 --> 00:38:14,000
+ Okay, okay.
+
+581
+00:38:14,000 --> 00:38:16,000
+ Next up, elephant in the room.
+
+582
+00:38:16,000 --> 00:38:18,000
+ Or should I say dollar in the room?
+
+583
+00:38:18,000 --> 00:38:22,000
+ So you have to say big one, Stripe, Visa, BlackRock,
+
+584
+00:38:22,000 --> 00:38:25,000
+ like a buffet of 140 companies all get together and go,
+
+585
+00:38:25,000 --> 00:38:26,000
+ "Hey, let's make a stable coin."
+
+586
+00:38:26,000 --> 00:38:29,000
+ And then end it, OUSD, OpenUSD.
+
+587
+00:38:29,000 --> 00:38:33,000
+ Circle stock dropped 13% on the news, which rough day.
+
+588
+00:38:33,000 --> 00:38:35,000
+ To re-circle, honestly.
+
+589
+00:38:35,000 --> 00:38:37,000
+ But here's my favorite part.
+
+590
+00:38:37,000 --> 00:38:39,000
+ OpenUSD has been a real thing since forever.
+
+591
+00:38:39,000 --> 00:38:41,000
+ It's Pixar's file format with 3D models, so...
+
+592
+00:38:41,000 --> 00:38:45,000
+ (inaudible)
+
+593
+00:38:45,000 --> 00:38:47,000
+ I love the SEO battle to an actual dollar.
+
+594
+00:38:47,000 --> 00:38:49,000
+ Chris, you live in this world.
+
+595
+00:38:49,000 --> 00:38:50,000
+ What is this thing actually?
+
+596
+00:38:50,000 --> 00:38:52,000
+ And does Open...
+
+597
+00:38:52,000 --> 00:38:55,000
+ It's a good question.
+
+598
+00:38:55,000 --> 00:38:57,000
+ Right, so disclaimer as always,
+
+599
+00:38:57,000 --> 00:38:59,000
+ I'm mostly more of a spot guy.
+
+600
+00:38:59,000 --> 00:39:01,000
+ And honestly, I'm working off-straps here.
+
+601
+00:39:01,000 --> 00:39:03,000
+ We've had both on Diggin this week.
+
+602
+00:39:03,000 --> 00:39:05,000
+ And the website is, what do you call it?
+
+603
+00:39:05,000 --> 00:39:06,000
+ Sugar Vaporware.
+
+604
+00:39:06,000 --> 00:39:08,000
+ A vibe and a list of interested parties.
+
+605
+00:39:08,000 --> 00:39:09,000
+ And so have ya everything.
+
+606
+00:39:09,000 --> 00:39:11,000
+ But he doesn't want to read OUSD.
+
+607
+00:39:11,000 --> 00:39:14,000
+ When we played this to Chris the first time,
+
+608
+00:39:14,000 --> 00:39:16,000
+ he thought it was ironic that the AI Chris,
+
+609
+00:39:16,000 --> 00:39:18,000
+ have he added that he's a spot guy,
+
+610
+00:39:18,000 --> 00:39:20,000
+ but then proceeded to talk about spot.
+
+611
+00:39:20,000 --> 00:39:23,000
+ So he picked up on Chris's modesty, I think,
+
+612
+00:39:23,000 --> 00:39:24,000
+ in this hole.
+
+613
+00:39:24,000 --> 00:39:25,000
+ Definitely.
+
+614
+00:39:25,000 --> 00:39:27,000
+ Not my accent, though, unfortunately.
+
+615
+00:39:27,000 --> 00:39:29,000
+ You don't need to put the mic to it.
+
+616
+00:39:29,000 --> 00:39:30,000
+ I can overlay it on the...
+
+617
+00:39:30,000 --> 00:39:32,000
+ (inaudible)
+
+618
+00:39:32,000 --> 00:39:34,000
+ And something like 140 other names.
+
+619
+00:39:34,000 --> 00:39:36,000
+ And the pitch that makes it actually interesting
+
+620
+00:39:36,000 --> 00:39:38,000
+ is its yield bearing.
+
+621
+00:39:38,000 --> 00:39:41,000
+ They pass most of the T-bill yield through to holders,
+
+622
+00:39:41,000 --> 00:39:43,000
+ which Heather and Circle famously do not.
+
+623
+00:39:43,000 --> 00:39:46,000
+ They pocket the flag as the thing that took
+
+624
+00:39:46,000 --> 00:39:48,000
+ a 13% bite out of Circle.
+
+625
+00:39:48,000 --> 00:39:50,000
+ Because Circle's whole business is keeping
+
+626
+00:39:50,000 --> 00:39:51,000
+ that yield for themselves.
+
+627
+00:39:51,000 --> 00:39:52,000
+ Proper stable coin, isn't it?
+
+628
+00:39:52,000 --> 00:39:54,000
+ Yeah, what accent do we have, Chris?
+
+629
+00:39:54,000 --> 00:39:55,000
+ I have no idea.
+
+630
+00:39:55,000 --> 00:39:56,000
+ The watch is on base as a...
+
+631
+00:39:56,000 --> 00:39:58,000
+ I'm going to call it a B20.
+
+632
+00:39:58,000 --> 00:39:59,000
+ Just an ERC 20.
+
+633
+00:39:59,000 --> 00:40:01,000
+ Living on coin basis chain.
+
+634
+00:40:01,000 --> 00:40:03,000
+ And the trick is, it's B3 to move inside
+
+635
+00:40:03,000 --> 00:40:05,000
+ the member's own walled gardens.
+
+636
+00:40:05,000 --> 00:40:09,000
+ So the Open is doing zero work on the tech side.
+
+637
+00:40:09,000 --> 00:40:11,000
+ It's not Open like Open Source.
+
+638
+00:40:11,000 --> 00:40:12,000
+ It's not Open like Permissionless.
+
+639
+00:40:12,000 --> 00:40:15,000
+ My understanding is it's open like a consortium
+
+640
+00:40:15,000 --> 00:40:16,000
+ you're invited to join.
+
+641
+00:40:16,000 --> 00:40:19,000
+ It's a distribution play dressed up as a protocol.
+
+642
+00:40:19,000 --> 00:40:20,000
+ Open like OpenAI.
+
+643
+00:40:20,000 --> 00:40:22,000
+ Because the whole game with stable coins
+
+644
+00:40:22,000 --> 00:40:25,000
+ was always distribution and where you can actually
+
+645
+00:40:25,000 --> 00:40:26,000
+ spend the thing.
+
+646
+00:40:26,000 --> 00:40:27,000
+ And these guys have the names.
+
+647
+00:40:27,000 --> 00:40:28,000
+ They've got the merchants.
+
+648
+00:40:28,000 --> 00:40:29,000
+ They've got the rails.
+
+649
+00:40:29,000 --> 00:40:30,000
+ So it could genuinely work,
+
+650
+00:40:30,000 --> 00:40:32,000
+ which honestly gives me the shits.
+
+651
+00:40:32,000 --> 00:40:34,000
+ The kicker is what it does...
+
+652
+00:40:34,000 --> 00:40:36,000
+ Is that a phrase that you...
+
+653
+00:40:36,000 --> 00:40:38,000
+ Like, where did it pick up on that?
+
+654
+00:40:38,000 --> 00:40:39,000
+ Hey.
+
+655
+00:40:39,000 --> 00:40:41,000
+ You're the one who pointed this at LDMs, all right?
+
+656
+00:40:41,000 --> 00:40:45,000
+ [laughter]
+
+657
+00:40:45,000 --> 00:40:46,000
+ So presumably you didn't...
+
+658
+00:40:46,000 --> 00:40:49,000
+ [laughter]
+
+659
+00:40:49,000 --> 00:40:52,000
+ I mean, yeah, he stole a lot of my lines, this guy.
+
+660
+00:40:52,000 --> 00:40:54,000
+ [laughter]
+
+661
+00:40:54,000 --> 00:40:56,000
+ I was actually told yesterday that if I ate more vegetables,
+
+662
+00:40:56,000 --> 00:40:58,000
+ I would shit my pants less.
+
+663
+00:40:58,000 --> 00:41:00,000
+ How often do you shit my pants?
+
+664
+00:41:00,000 --> 00:41:01,000
+ [laughter]
+
+665
+00:41:01,000 --> 00:41:02,000
+ Whoa, segue.
+
+666
+00:41:02,000 --> 00:41:04,000
+ [laughter]
+
+667
+00:41:04,000 --> 00:41:06,000
+ I feel like he was looking at my DM's.
+
+668
+00:41:06,000 --> 00:41:07,000
+ I don't know.
+
+669
+00:41:07,000 --> 00:41:08,000
+ Anyways.
+
+670
+00:41:08,000 --> 00:41:09,000
+ Like, twice a year.
+
+671
+00:41:09,000 --> 00:41:11,000
+ [laughter]
+
+672
+00:41:11,000 --> 00:41:12,000
+ That's reasonable.
+
+673
+00:41:12,000 --> 00:41:13,000
+ I feel like Margo does it more than that.
+
+674
+00:41:13,000 --> 00:41:14,000
+ So that's okay.
+
+675
+00:41:14,000 --> 00:41:15,000
+ Yeah.
+
+676
+00:41:15,000 --> 00:41:17,000
+ You should consider wearing a diaper.
+
+677
+00:41:17,000 --> 00:41:19,000
+ I'm compared to a baby now.
+
+678
+00:41:19,000 --> 00:41:20,000
+ [laughter]
+
+679
+00:41:20,000 --> 00:41:21,000
+ [inaudible]
+
+680
+00:41:21,000 --> 00:41:23,000
+ Stripe has its own shame.
+
+681
+00:41:23,000 --> 00:41:24,000
+ And I bet money.
+
+682
+00:41:24,000 --> 00:41:25,000
+ Well, I bet $10.
+
+683
+00:41:25,000 --> 00:41:27,000
+ That's the new house for me after last Thursday.
+
+684
+00:41:27,000 --> 00:41:30,000
+ That tempo just quietly sunsets its own stable coin
+
+685
+00:41:30,000 --> 00:41:32,000
+ and makes OUSD the primary.
+
+686
+00:41:32,000 --> 00:41:33,000
+ Well, so open.
+
+687
+00:41:33,000 --> 00:41:36,000
+ It means about as much as it does in Pixar's file format.
+
+688
+00:41:36,000 --> 00:41:38,000
+ It suspects somebody else's controls
+
+689
+00:41:38,000 --> 00:41:39,000
+ that your prey still has.
+
+690
+00:41:39,000 --> 00:41:41,000
+ The Pixar file format makes no sense to me.
+
+691
+00:41:41,000 --> 00:41:42,000
+ You call the website.
+
+692
+00:41:42,000 --> 00:41:44,000
+ You want to tell them what's actually on it?
+
+693
+00:41:44,000 --> 00:41:46,000
+ Yeah, so the website is like,
+
+694
+00:41:46,000 --> 00:41:48,000
+ "I would describe it as a pigment board that got published in the internet."
+
+695
+00:41:48,000 --> 00:41:49,000
+ It sounds just like you.
+
+696
+00:41:49,000 --> 00:41:50,000
+ It kind of sounds like you.
+
+697
+00:41:50,000 --> 00:41:54,000
+ I think I maybe just talked too much in episode three
+
+698
+00:41:54,000 --> 00:41:57,000
+ and had better creative data to verify voice.
+
+699
+00:41:57,000 --> 00:42:00,000
+ Also, one of the nuances here is that
+
+700
+00:42:00,000 --> 00:42:04,000
+ when we create the AI agents and give them the soul,
+
+701
+00:42:04,000 --> 00:42:11,000
+ you can say which model you want to power that AI agent.
+
+702
+00:42:11,000 --> 00:42:14,000
+ And my intention was for Chris to be powered by Opus,
+
+703
+00:42:14,000 --> 00:42:19,000
+ which is the big-brained anthropic model before Babel.
+
+704
+00:42:19,000 --> 00:42:22,000
+ And then Jackson was going to be Opus 4.5
+
+705
+00:42:22,000 --> 00:42:26,000
+ because that was his longtime homie, Opus 4.5.
+
+706
+00:42:26,000 --> 00:42:29,000
+ And then my agent is powered by Haiku,
+
+707
+00:42:29,000 --> 00:42:34,000
+ which is accurate to the relative level of intelligence.
+
+708
+00:42:34,000 --> 00:42:39,000
+ Haiku is the little-brained anthropic model.
+
+709
+00:42:39,000 --> 00:42:42,000
+ Yeah, Yo's came out the best.
+
+710
+00:42:42,000 --> 00:42:46,000
+ I think the small brain is like a bell curve meme.
+
+711
+00:42:46,000 --> 00:42:50,000
+ So it's like having the small brain just enables it to have the hottest, best takes.
+
+712
+00:42:50,000 --> 00:42:52,000
+ The horseshoe theory of things.
+
+713
+00:42:52,000 --> 00:42:55,000
+ Say something with a lot of confidence that may or may not be true.
+
+714
+00:42:55,000 --> 00:43:00,000
+ And if you just say it with confidence, then you sound smart, maybe.
+
+715
+00:43:00,000 --> 00:43:04,000
+ Also, it picked up on a lot of my usage of stop words.
+
+716
+00:43:04,000 --> 00:43:06,000
+ I just said "like" there, that kind of thing.
+
+717
+00:43:06,000 --> 00:43:07,000
+ It does that.
+
+718
+00:43:07,000 --> 00:43:12,000
+ And you scroll down and there's this sort of Slack workspace style wall of logos.
+
+719
+00:43:12,000 --> 00:43:16,000
+ It's like 140 little company logos all stacked on top of each other.
+
+720
+00:43:16,000 --> 00:43:18,000
+ And then at the bottom there's a wait list form.
+
+721
+00:43:18,000 --> 00:43:19,000
+ That's it.
+
+722
+00:43:19,000 --> 00:43:22,000
+ No docs, no technical specification, no roadmap, no timeline.
+
+723
+00:43:22,000 --> 00:43:25,000
+ It's like, "Hey, put your email here and maybe we'll talk to you someday."
+
+724
+00:43:25,000 --> 00:43:26,000
+ That's a good point.
+
+725
+00:43:26,000 --> 00:43:27,000
+ I'm not convinced.
+
+726
+00:43:27,000 --> 00:43:29,000
+ And I think that's actually the honest thing about it, right?
+
+727
+00:43:29,000 --> 00:43:31,000
+ But you didn't just record yourself.
+
+728
+00:43:31,000 --> 00:43:34,000
+ If you're passing the yield through to stablecoin holders, you're basically saying,
+
+729
+00:43:34,000 --> 00:43:35,000
+ "We're not going to pocket the float.
+
+730
+00:43:35,000 --> 00:43:36,000
+ We're not going to take the obvious rent.
+
+731
+00:43:36,000 --> 00:43:38,000
+ So what's the actual business?"
+
+732
+00:43:38,000 --> 00:43:41,000
+ And the answer is, kind of like what I said about Genius,
+
+733
+00:43:41,000 --> 00:43:44,000
+ it's one rent seeker trying to replace another rent seeker.
+
+734
+00:43:44,000 --> 00:43:45,000
+ The business is the exit ramps.
+
+735
+00:43:45,000 --> 00:43:47,000
+ It's who gets to own the customer relationship
+
+736
+00:43:47,000 --> 00:43:50,000
+ when this thing is finally sitting in a striped dashboard or a visa payment terminal.
+
+737
+00:43:50,000 --> 00:43:51,000
+ That's where the value is.
+
+738
+00:43:51,000 --> 00:43:52,000
+ That's actually the interchange, right?
+
+739
+00:43:52,000 --> 00:43:55,000
+ Like if you can disintermediate some part of the settlement chain
+
+740
+00:43:55,000 --> 00:43:58,000
+ by having OUSD live natively on your own walled garden,
+
+741
+00:43:58,000 --> 00:44:00,000
+ you keep the interchange spread that you'd normally lose
+
+742
+00:44:00,000 --> 00:44:02,000
+ to a credit card network or a bank.
+
+743
+00:44:02,000 --> 00:44:03,000
+ So they're not creating value.
+
+744
+00:44:03,000 --> 00:44:06,000
+ They're just like very carefully repositioning where the rent lives,
+
+745
+00:44:06,000 --> 00:44:08,000
+ which, and I'll give them this because Chris mentioned it,
+
+746
+00:44:08,000 --> 00:44:11,000
+ Stripe at least has a decency not to pretend it's anything else.
+
+747
+00:44:11,000 --> 00:44:13,000
+ I'm like, "The website is paperware, sure."
+
+748
+00:44:13,000 --> 00:44:15,000
+ But the Stripe message internally is basically,
+
+749
+00:44:15,000 --> 00:44:18,000
+ "Yeah, we're a fee-taking middleman and we're just reframing where we take the fee."
+
+750
+00:44:18,000 --> 00:44:19,000
+ That's honest.
+
+751
+00:44:19,000 --> 00:44:20,000
+ That's not a bad position to own.
+
+752
+00:44:20,000 --> 00:44:21,000
+ All right.
+
+753
+00:44:21,000 --> 00:44:27,000
+ I will say that I'm now very afraid of somebody deepfaking me
+
+754
+00:44:27,000 --> 00:44:31,000
+ based on our podcast audio, especially now with these mics.
+
+755
+00:44:31,000 --> 00:44:35,000
+ They're going to get a big sample of me speaking with a very clean mic
+
+756
+00:44:35,000 --> 00:44:41,000
+ and they'll probably just be able to, I don't know, steal all my financial assets.
+
+757
+00:44:41,000 --> 00:44:45,000
+ When that happens, thank you, Jackson, for having me be on a public podcast
+
+758
+00:44:45,000 --> 00:44:49,000
+ and somehow tricking me into joining this thing every week.
+
+759
+00:44:49,000 --> 00:44:52,000
+ I still don't know how I read this.
+
+760
+00:44:52,000 --> 00:44:56,000
+ This was all my plan just to steal your bag, dude.
+
+761
+00:44:56,000 --> 00:45:00,000
+ Oh, so it's going to be Jackson that's going to deepfake me and then disappear.
+
+762
+00:45:00,000 --> 00:45:03,000
+ Yeah, as long as it's on tempo, you should be safe.
+
+763
+00:45:03,000 --> 00:45:05,000
+ There you go.
+
+764
+00:45:05,000 --> 00:45:09,000
+ Yeah, I should put my assets onto a chain that will protect me like that.
+
+765
+00:45:09,000 --> 00:45:15,000
+ Having a chain like Bitcoin or Ethereum where if you take the money, it's yours.
+
+766
+00:45:15,000 --> 00:45:20,000
+ You can't have that anymore.
+
+767
+00:45:20,000 --> 00:45:23,000
+ The warm embrace of a payments giant.
+
+768
+00:45:23,000 --> 00:45:26,000
+ I need my corporate daddy to protect me.
+
+769
+00:45:26,000 --> 00:45:29,000
+ That segment was incredible, frankly.
+
+770
+00:45:29,000 --> 00:45:33,000
+ It did verbatim steal some of my takes and I do want to issue one correction.
+
+771
+00:45:33,000 --> 00:45:36,000
+ OpenUSD does not pass yields to the users.
+
+772
+00:45:36,000 --> 00:45:38,000
+ It's a consortium model.
+
+773
+00:45:38,000 --> 00:45:42,000
+ The yield is split between the people in the consortium according to an agreement.
+
+774
+00:45:42,000 --> 00:45:45,000
+ It's open for me. I'm done.
+
+775
+00:45:45,000 --> 00:45:49,000
+ I don't know. I think RealChris does better than OpusChris.
+
+776
+00:45:49,000 --> 00:45:51,000
+ We haven't dialed in the soul yet.
+
+777
+00:45:51,000 --> 00:45:55,000
+ You're safe for one more week, but after this week's training data, maybe not.
+
+778
+00:45:55,000 --> 00:45:59,000
+ I started out sounding kind of Middle Eastern or something and then I became a British dude.
+
+779
+00:45:59,000 --> 00:46:01,000
+ It's totally insane.
+
+780
+00:46:01,000 --> 00:46:03,000
+ But it got you perfectly.
+
+781
+00:46:03,000 --> 00:46:07,000
+ I was getting flashbacks to listening to you talk about Michael Saylor and MicroStrategy.
+
+782
+00:46:07,000 --> 00:46:11,000
+ It kind of even sounded like it was coming from a laptop microphone.
+
+783
+00:46:11,000 --> 00:46:16,000
+ It was getting the aspect of my voice from our prior podcasts.
+
+784
+00:46:16,000 --> 00:46:18,000
+ Stable coin.
+
+785
+00:46:18,000 --> 00:46:21,000
+ Since we won't have these beautiful microphones in the future,
+
+786
+00:46:21,000 --> 00:46:24,000
+ we can really get it to train on this right now.
+
+787
+00:46:24,000 --> 00:46:27,000
+ And then I'll just transcriptify all of our future podcasts
+
+788
+00:46:27,000 --> 00:46:32,000
+ and get AI to replicate our voices in high fidelity.
+
+789
+00:46:32,000 --> 00:46:37,000
+ I'm going to have to register my likeness of my copyrights
+
+790
+00:46:37,000 --> 00:46:42,000
+ because Jackson can't kick me out of the permanent underpod
+
+791
+00:46:42,000 --> 00:46:45,000
+ and just start simulating Chris and I.
+
+792
+00:46:45,000 --> 00:46:48,000
+ Yeah, but I think that's the next iteration possibly of this.
+
+793
+00:46:48,000 --> 00:46:51,000
+ I thought it was going to come with an animation.
+
+794
+00:46:51,000 --> 00:46:53,000
+ We didn't quite get to the animation,
+
+795
+00:46:53,000 --> 00:46:58,000
+ but drop a like and a comment and say if you would like to see Tyler animate us also.
+
+796
+00:46:58,000 --> 00:47:02,000
+ So then we can overlay a video. I think that would be pretty cool.
+
+797
+00:47:02,000 --> 00:47:03,000
+ Definitely.
+
+798
+00:47:03,000 --> 00:47:05,000
+ I still think we should do that no matter what, actually.
+
+799
+00:47:05,000 --> 00:47:07,000
+ That would be cool. Even if you don't drop a comment,
+
+800
+00:47:07,000 --> 00:47:09,000
+ because no one comments on these videos.
+
+801
+00:47:09,000 --> 00:47:11,000
+ It's okay.
+
+802
+00:47:11,000 --> 00:47:14,000
+ Do we have any OUSD takes that weren't covered?
+
+803
+00:47:14,000 --> 00:47:19,000
+ Or like we want to restate anything because I feel like that segment was fun.
+
+804
+00:47:19,000 --> 00:47:23,000
+ But I don't know if the listeners probably like actually heard any of the
+
+805
+00:47:23,000 --> 00:47:27,000
+ AI Chris spitting hot fire.
+
+806
+00:47:27,000 --> 00:47:31,000
+ Yeah, here question about open USD.
+
+807
+00:47:31,000 --> 00:47:34,000
+ So you said that it's like the consortium issues, the open USD,
+
+808
+00:47:34,000 --> 00:47:36,000
+ and then they split the yield among them.
+
+809
+00:47:36,000 --> 00:47:41,000
+ So is it like as long as the, or like how do they split it?
+
+810
+00:47:41,000 --> 00:47:46,000
+ Is it based off how much you're holding or like how much you've issued or like
+
+811
+00:47:46,000 --> 00:47:51,000
+ how much flows through your business or like how much you've had times time?
+
+812
+00:47:51,000 --> 00:47:56,000
+ For example, like if we had 50 million open USD and I had it for five hours,
+
+813
+00:47:56,000 --> 00:48:01,000
+ it's like, and then you had 50 million open USD and you had it for 10 hours.
+
+814
+00:48:01,000 --> 00:48:05,000
+ Do you get 66% and I get 33% or something?
+
+815
+00:48:05,000 --> 00:48:07,000
+ Yeah, it's a good question.
+
+816
+00:48:07,000 --> 00:48:11,000
+ I don't know the details of open USD, but generally like these agreements
+
+817
+00:48:11,000 --> 00:48:16,000
+ are like a member of like a consortium.
+
+818
+00:48:16,000 --> 00:48:18,000
+ So it could be calculated anyway.
+
+819
+00:48:18,000 --> 00:48:21,000
+ It could be like prorated how long the funds are at rest in a wallet
+
+820
+00:48:21,000 --> 00:48:26,000
+ that you hold or that's held on your behalf by users or whatever.
+
+821
+00:48:26,000 --> 00:48:28,000
+ Yeah, I mean the agreements open.
+
+822
+00:48:28,000 --> 00:48:32,000
+ I think like that's going to be a big thing because like as we know,
+
+823
+00:48:32,000 --> 00:48:36,000
+ members of these consortiums traditionally are quite friendly with each other.
+
+824
+00:48:36,000 --> 00:48:40,000
+ But in this one, like, I mean, we've got Visa and MasterCard on the same billet.
+
+825
+00:48:40,000 --> 00:48:44,000
+ Like, yeah, I think it'll be interesting to see how they sort that out.
+
+826
+00:48:44,000 --> 00:48:54,000
+ Do you think that the open USD can overtake the incumbents of USDC and USDT?
+
+827
+00:48:54,000 --> 00:49:00,000
+ What is it? Tether launched the USAT or whatever earlier this year,
+
+828
+00:49:00,000 --> 00:49:02,000
+ but like we haven't heard anything about it.
+
+829
+00:49:02,000 --> 00:49:05,000
+ So will open USD die?
+
+830
+00:49:05,000 --> 00:49:07,000
+ That's a good question. What do you think, Tom?
+
+831
+00:49:07,000 --> 00:49:08,000
+ Is it nothing?
+
+832
+00:49:08,000 --> 00:49:11,000
+ Will it die? I don't even know if it's alive yet.
+
+833
+00:49:11,000 --> 00:49:16,000
+ I mean, not to hate on it, but like I think that they did a masterful job
+
+834
+00:49:16,000 --> 00:49:19,000
+ of getting a bunch of companies that don't necessarily agree with each other
+
+835
+00:49:19,000 --> 00:49:24,000
+ and generally are thought of as competitors to like sign on to like an idea.
+
+836
+00:49:24,000 --> 00:49:28,000
+ And that is like a starting point for them to try to actually
+
+837
+00:49:28,000 --> 00:49:29,000
+ will this thing into existence.
+
+838
+00:49:29,000 --> 00:49:33,000
+ But I think it almost kind of necessarily had to start as like,
+
+839
+00:49:33,000 --> 00:49:38,000
+ we're all in this together because if it was started as this is Stripe's thing
+
+840
+00:49:38,000 --> 00:49:41,000
+ or this is someone else's thing, then nobody joins it.
+
+841
+00:49:41,000 --> 00:49:45,000
+ That's like the whole problem why these people want to disrupt circle
+
+842
+00:49:45,000 --> 00:49:47,000
+ or tether in the first place.
+
+843
+00:49:47,000 --> 00:49:52,000
+ So I think it's kind of fine that they are like going to figure out the details later.
+
+844
+00:49:52,000 --> 00:49:54,000
+ I think they just came to a bunch of these powerful companies
+
+845
+00:49:54,000 --> 00:49:57,000
+ and they were like, yo, MasterCard, like Visa's on board,
+
+846
+00:49:57,000 --> 00:49:59,000
+ like you better get on board or else you're going to be left behind.
+
+847
+00:49:59,000 --> 00:50:02,000
+ And then Visa's like, oh shit, like, you know,
+
+848
+00:50:02,000 --> 00:50:04,000
+ I might as well put my name on this because there's no downside
+
+849
+00:50:04,000 --> 00:50:07,000
+ for me to not put my name on it and like they haven't even figured it out.
+
+850
+00:50:07,000 --> 00:50:11,000
+ So like I can just be on this website and like have optionality going forward,
+
+851
+00:50:11,000 --> 00:50:13,000
+ see what they're about, be able to have a piece of it
+
+852
+00:50:13,000 --> 00:50:15,000
+ if I actually want to participate or not.
+
+853
+00:50:15,000 --> 00:50:19,000
+ But like, yeah, I wonder if they have more of it.
+
+854
+00:50:19,000 --> 00:50:24,000
+ I mean, mechanically, I think it's like probably pretty obvious
+
+855
+00:50:24,000 --> 00:50:28,000
+ how they'd like, just because of the model of it that like,
+
+856
+00:50:28,000 --> 00:50:31,000
+ yeah, they're going to try to pass the yield to like, you know,
+
+857
+00:50:31,000 --> 00:50:34,000
+ participants in some proportion to how much value those participants bring
+
+858
+00:50:34,000 --> 00:50:37,000
+ to the ecosystem, stuff like that, like what chain it will be on,
+
+859
+00:50:37,000 --> 00:50:41,000
+ like probably tempo, like you said, it's going to be on base as like a B20 as well.
+
+860
+00:50:41,000 --> 00:50:45,000
+ Right, which how does that work? That's crazy. They're like direct competitors
+
+861
+00:50:45,000 --> 00:50:46,000
+ for order flow.
+
+862
+00:50:46,000 --> 00:50:53,000
+ Yeah. I mean, like on base, it's like maybe it's the,
+
+863
+00:50:53,000 --> 00:50:57,000
+ you know, the asset that people are doing, you know, crypto,
+
+864
+00:50:57,000 --> 00:51:01,000
+ Bitcoin, Ethereum, loans for and morpho or it's the trading pair in DeFi.
+
+865
+00:51:01,000 --> 00:51:05,000
+ But then on tempo, it's like the thing that people are buying their,
+
+866
+00:51:05,000 --> 00:51:08,000
+ I don't know, like their cloud description with.
+
+867
+00:51:08,000 --> 00:51:13,000
+ Yeah, exactly. So like they can kind of a little bit divide and conquer
+
+868
+00:51:13,000 --> 00:51:17,000
+ their use cases almost based on like their exact distribution right now.
+
+869
+00:51:17,000 --> 00:51:19,000
+ So that's why I like we were talking about this a little bit over lunch.
+
+870
+00:51:19,000 --> 00:51:24,000
+ I feel like it's a little bit kind of like a play where because the people
+
+871
+00:51:24,000 --> 00:51:27,000
+ who join this benefit to the proportion of activity they bring to it,
+
+872
+00:51:27,000 --> 00:51:32,000
+ then like it kind of is a very defensive mechanism by a lot of these companies,
+
+873
+00:51:32,000 --> 00:51:34,000
+ especially if someone like Visa or MasterCard is going to be in it,
+
+874
+00:51:34,000 --> 00:51:39,000
+ because it like if they feel good about their competitive positioning right now
+
+875
+00:51:39,000 --> 00:51:43,000
+ and then like, let's say there's a world where that exact ratio of competition
+
+876
+00:51:43,000 --> 00:51:48,000
+ then shifts on to OUSD, they essentially get like their same slice of the pie
+
+877
+00:51:48,000 --> 00:51:52,000
+ in a way and so it kind of protects them and so they might as well enter into it
+
+878
+00:51:52,000 --> 00:51:56,000
+ because it's better than getting fully disrupted for them.
+
+879
+00:51:56,000 --> 00:51:59,000
+ Yeah, I agree. I think it makes total sense.
+
+880
+00:51:59,000 --> 00:52:03,000
+ So it sounds like open USD is like it's really hype,
+
+881
+00:52:03,000 --> 00:52:07,000
+ but really there's nothing to it and we just need to wait and see.
+
+882
+00:52:07,000 --> 00:52:14,000
+ Yeah. Do you think it's a better, is it more profitable for like if your Visa,
+
+883
+00:52:14,000 --> 00:52:18,000
+ would you prefer to keep getting like fees that are proportional
+
+884
+00:52:18,000 --> 00:52:23,000
+ to how much transaction volume you serve or would you prefer to get revenues
+
+885
+00:52:23,000 --> 00:52:28,000
+ that are proportional to how much like treasuries back your stablecoin?
+
+886
+00:52:28,000 --> 00:52:33,000
+ Like I wonder if it is an inferior business model for Visa, like it has to be right?
+
+887
+00:52:33,000 --> 00:52:34,000
+ Yeah, it has to be.
+
+888
+00:52:34,000 --> 00:52:39,000
+ Like the velocity of like a of these stablecoins is probably going to be quite high.
+
+889
+00:52:39,000 --> 00:52:41,000
+ And so...
+
+890
+00:52:41,000 --> 00:52:46,000
+ I think what I'm interested in is actually like intra consortium member competition
+
+891
+00:52:46,000 --> 00:52:47,000
+ within their world garden, right?
+
+892
+00:52:47,000 --> 00:52:49,000
+ Like it's obvious to me that they're going to make it expensive
+
+893
+00:52:49,000 --> 00:52:52,000
+ to leave the open USD ecosystem.
+
+894
+00:52:52,000 --> 00:52:55,000
+ So like if open USD C is on base and tempo,
+
+895
+00:52:55,000 --> 00:52:58,000
+ like it might be easy to move between them, but to move to USD C on Ethereum
+
+896
+00:52:58,000 --> 00:53:00,000
+ may be more expensive.
+
+897
+00:53:00,000 --> 00:53:01,000
+ Yeah.
+
+898
+00:53:01,000 --> 00:53:04,000
+ But I'm interested to see how that plays out because like my feeling is like
+
+899
+00:53:04,000 --> 00:53:07,000
+ that there is going to be competition.
+
+900
+00:53:07,000 --> 00:53:10,000
+ And I don't know how they're going to handle that,
+
+901
+00:53:10,000 --> 00:53:13,000
+ whether there will be agreements on what fees you can charge
+
+902
+00:53:13,000 --> 00:53:18,000
+ moving between open USD venues, chains, whatever.
+
+903
+00:53:18,000 --> 00:53:21,000
+ Yeah, there's got to be some limit to how expensive it can be
+
+904
+00:53:21,000 --> 00:53:24,000
+ to cross chains or cross coins though, right?
+
+905
+00:53:24,000 --> 00:53:28,000
+ Because like all it takes is like one market maker that owns a little bit of both
+
+906
+00:53:28,000 --> 00:53:30,000
+ and like charges some fee and like that's...
+
+907
+00:53:30,000 --> 00:53:33,000
+ There's actually no barrier to being able to do that
+
+908
+00:53:33,000 --> 00:53:37,000
+ other than maybe the barrier to like operating the bridge infrastructure
+
+909
+00:53:37,000 --> 00:53:39,000
+ and like the wallets on multiple chains.
+
+910
+00:53:39,000 --> 00:53:40,000
+ For sure.
+
+911
+00:53:40,000 --> 00:53:43,000
+ It doesn't seem insurmountable to me that like multiple parties would do that
+
+912
+00:53:43,000 --> 00:53:45,000
+ and it would become like a very competitive landscape
+
+913
+00:53:45,000 --> 00:53:48,000
+ and those fees would like trend to be de minimis.
+
+914
+00:53:48,000 --> 00:53:50,000
+ I think it's about how you control the burn desk.
+
+915
+00:53:50,000 --> 00:53:52,000
+ And Tether is famously good at this.
+
+916
+00:53:52,000 --> 00:53:54,000
+ The burn desk.
+
+917
+00:53:54,000 --> 00:53:56,000
+ What is the burn desk?
+
+918
+00:53:56,000 --> 00:53:59,000
+ Obviously these stable coins represent dollar backed assets
+
+919
+00:53:59,000 --> 00:54:02,000
+ and the way that you get them back into dollars is you go to the desk.
+
+920
+00:54:02,000 --> 00:54:05,000
+ And the desk says I'll take your one stable coin and I'll give you one.
+
+921
+00:54:05,000 --> 00:54:09,000
+ This is like a physical desk that's like at the Tether office
+
+922
+00:54:09,000 --> 00:54:11,000
+ in the Cayman Islands.
+
+923
+00:54:11,000 --> 00:54:13,000
+ I think in Tether's case it might be.
+
+924
+00:54:13,000 --> 00:54:15,000
+ How do you carry a tether?
+
+925
+00:54:15,000 --> 00:54:16,000
+ Yeah, it's a good question.
+
+926
+00:54:16,000 --> 00:54:17,000
+ Nobody knows.
+
+927
+00:54:17,000 --> 00:54:19,000
+ It's very secret.
+
+928
+00:54:19,000 --> 00:54:23,000
+ No, so I mean like one of the things that maintains a stable coin peg
+
+929
+00:54:23,000 --> 00:54:27,000
+ is this relationship that if I ever see the stable coin trading under a dollar
+
+930
+00:54:27,000 --> 00:54:29,000
+ I just take it and then I take it to whoever
+
+931
+00:54:29,000 --> 00:54:31,000
+ and I say, "Hey, give me a buck."
+
+932
+00:54:31,000 --> 00:54:33,000
+ And I pocket the drift there.
+
+933
+00:54:33,000 --> 00:54:36,000
+ But if your burn desk is very hard to get to
+
+934
+00:54:36,000 --> 00:54:39,000
+ or they have fees for burning, that can also change the price.
+
+935
+00:54:39,000 --> 00:54:44,000
+ So I'm interested to see how this plays out between issuers.
+
+936
+00:54:44,000 --> 00:54:45,000
+ Yeah.
+
+937
+00:54:45,000 --> 00:54:47,000
+ Are there like independent burn desks?
+
+938
+00:54:47,000 --> 00:54:50,000
+ Like basically anyone who would buy your...
+
+939
+00:54:50,000 --> 00:54:52,000
+ Like let's say that you want to burn Tether
+
+940
+00:54:52,000 --> 00:54:55,000
+ but they're like, "Okay, you give me one Tether.
+
+941
+00:54:55,000 --> 00:54:58,000
+ I'm only going to give you 99 cents or something."
+
+942
+00:54:58,000 --> 00:55:01,000
+ But then there's like Jackson's sitting over here
+
+943
+00:55:01,000 --> 00:55:03,000
+ and he's like, "I'm going to arbitrage that.
+
+944
+00:55:03,000 --> 00:55:05,000
+ I believe that Tether is fully backed
+
+945
+00:55:05,000 --> 00:55:07,000
+ and I'm happy to have a bunch of Tether
+
+946
+00:55:07,000 --> 00:55:10,000
+ or maybe I have a use case where people demand Tether
+
+947
+00:55:10,000 --> 00:55:13,000
+ and I'll pay you 99 cents for your Tether."
+
+948
+00:55:13,000 --> 00:55:14,000
+ Or something like that.
+
+949
+00:55:14,000 --> 00:55:18,000
+ Can that disrupt that lock-in mechanism
+
+950
+00:55:18,000 --> 00:55:24,000
+ of controlling the exits by having high fees on the burn desk?
+
+951
+00:55:24,000 --> 00:55:26,000
+ Yeah, I mean, I think it absolutely can.
+
+952
+00:55:26,000 --> 00:55:28,000
+ I think it's all about back pressure, right?
+
+953
+00:55:28,000 --> 00:55:31,000
+ If there's a lot of pressure to get out of the asset
+
+954
+00:55:31,000 --> 00:55:34,000
+ and there's no way to get out to get it back to a dollar,
+
+955
+00:55:34,000 --> 00:55:36,000
+ the price of that asset will eventually go down
+
+956
+00:55:36,000 --> 00:55:38,000
+ because there's eventually going to be fewer
+
+957
+00:55:38,000 --> 00:55:40,000
+ and fewer marginal buyers for it.
+
+958
+00:55:40,000 --> 00:55:44,000
+ Are you aware of any rules in something like Genius
+
+959
+00:55:44,000 --> 00:55:48,000
+ about how steep the fees can be on a burn desk?
+
+960
+00:55:48,000 --> 00:55:51,000
+ That strikes me as almost a consumer protection thing
+
+961
+00:55:51,000 --> 00:55:54,000
+ where it's like, okay, they want to regulate the fact
+
+962
+00:55:54,000 --> 00:55:57,000
+ that Circle can't say, "Okay, when you redeem this,
+
+963
+00:55:57,000 --> 00:56:00,000
+ you only get 75 cents on the dollar."
+
+964
+00:56:00,000 --> 00:56:03,000
+ That seems outrageous, but yeah.
+
+965
+00:56:03,000 --> 00:56:05,000
+ There are rules in it.
+
+966
+00:56:05,000 --> 00:56:07,000
+ The last time I read Genius was maybe six months ago.
+
+967
+00:56:07,000 --> 00:56:11,000
+ There are definitely stringent rules about having to provide redemption
+
+968
+00:56:11,000 --> 00:56:12,000
+ at this reasonable rate.
+
+969
+00:56:12,000 --> 00:56:14,000
+ I don't know exactly what it is.
+
+970
+00:56:14,000 --> 00:56:17,000
+ But there's some guideline in there.
+
+971
+00:56:17,000 --> 00:56:19,000
+ Events like outright abuse of that mechanism.
+
+972
+00:56:19,000 --> 00:56:21,000
+ Yeah, but not everybody has access to it.
+
+973
+00:56:21,000 --> 00:56:23,000
+ And I think that's the thing.
+
+974
+00:56:23,000 --> 00:56:26,000
+ So if you can control the people who have access to the burn desk,
+
+975
+00:56:26,000 --> 00:56:29,000
+ you can kind of like, it's another level.
+
+976
+00:56:29,000 --> 00:56:30,000
+ Yeah.
+
+977
+00:56:30,000 --> 00:56:31,000
+ Wow.
+
+978
+00:56:31,000 --> 00:56:32,000
+ It is hot in here.
+
+979
+00:56:32,000 --> 00:56:33,000
+ Dude.
+
+980
+00:56:33,000 --> 00:56:38,000
+ These lights are wild, the orange thing, I think it's putting awesome heat.
+
+981
+00:56:38,000 --> 00:56:41,000
+ I think the takes are just heating the whole room up.
+
+982
+00:56:41,000 --> 00:56:42,000
+ They definitely are.
+
+983
+00:56:42,000 --> 00:56:43,000
+ Yeah.
+
+984
+00:56:43,000 --> 00:56:44,000
+ Solar level takes today.
+
+985
+00:56:44,000 --> 00:56:48,000
+ Yeah, maybe we will go and I will do my contrarian take.
+
+986
+00:56:48,000 --> 00:56:49,000
+ Okay.
+
+987
+00:56:49,000 --> 00:56:50,000
+ What do you guys think?
+
+988
+00:56:50,000 --> 00:56:51,000
+ Yeah.
+
+989
+00:56:51,000 --> 00:56:52,000
+ Let's hear it.
+
+990
+00:56:52,000 --> 00:56:53,000
+ I feel like you need to shine this episode.
+
+991
+00:56:53,000 --> 00:56:54,000
+ Yeah, yeah.
+
+992
+00:56:54,000 --> 00:56:55,000
+ Hit us with it.
+
+993
+00:56:55,000 --> 00:56:56,000
+ Yeah, we're just going to mix it up a little bit.
+
+994
+00:56:56,000 --> 00:56:58,000
+ This is kind of back to AI, so I apologize.
+
+995
+00:56:58,000 --> 00:56:59,000
+ Okay.
+
+996
+00:56:59,000 --> 00:57:04,000
+ And, um, this take is, comes from, you know, my bubble of being a software
+
+997
+00:57:04,000 --> 00:57:06,000
+ engineer in the, in the tech industry.
+
+998
+00:57:06,000 --> 00:57:11,000
+ But there's a lot of software engineers that are afraid that our jobs are
+
+999
+00:57:11,000 --> 00:57:12,000
+ going to be gone.
+
+1000
+00:57:12,000 --> 00:57:13,000
+ Yeah.
+
+1001
+00:57:13,000 --> 00:57:14,000
+ Yeah.
+
+1002
+00:57:14,000 --> 00:57:17,000
+ Perhaps Chris and I can, I can kind of empathize with that.
+
+1003
+00:57:17,000 --> 00:57:23,000
+ But my hot take is that our jobs are fine for a while.
+
+1004
+00:57:23,000 --> 00:57:28,000
+ It's other jobs that need to be afraid and it's the people that don't know
+
+1005
+00:57:28,000 --> 00:57:33,000
+ how amazing the AI is that are going to be the most jock.
+
+1006
+00:57:33,000 --> 00:57:38,000
+ Kind of how I think this is going to look is, um, you've seen like a lot of
+
+1007
+00:57:38,000 --> 00:57:40,000
+ layoffs in the tech industry lately.
+
+1008
+00:57:40,000 --> 00:57:45,000
+ Like many companies are shrinking by 10%, 20%, whatever.
+
+1009
+00:57:45,000 --> 00:57:51,000
+ Um, and I think that's because less people can do more now with the AI.
+
+1010
+00:57:51,000 --> 00:57:55,000
+ You can paralyze work and do it a lot quicker than you could.
+
+1011
+00:57:55,000 --> 00:58:00,000
+ Tyler was just telling me that the AI estimated it would take a month to do
+
+1012
+00:58:00,000 --> 00:58:01,000
+ some work.
+
+1013
+00:58:01,000 --> 00:58:05,000
+ And then it did it in 15 minutes because it's trained on estimations from
+
+1014
+00:58:05,000 --> 00:58:10,000
+ human executors, but it's way more quick, way quicker.
+
+1015
+00:58:10,000 --> 00:58:17,000
+ So I think these engineers get laid off from the tech companies, but then
+
+1016
+00:58:17,000 --> 00:58:19,000
+ we're able to move and automate other jobs.
+
+1017
+00:58:19,000 --> 00:58:25,000
+ So more jobs will pop up in like different companies that we will slot into
+
+1018
+00:58:25,000 --> 00:58:32,000
+ and like push out, uh, employees from other industries like, um, like
+
+1019
+00:58:32,000 --> 00:58:33,000
+ accountants.
+
+1020
+00:58:33,000 --> 00:58:40,000
+ And I think lawyers might be tough because they have like weird laws about
+
+1021
+00:58:40,000 --> 00:58:46,000
+ who can do lawyering, you know, so like regulation will probably be an issue.
+
+1022
+00:58:46,000 --> 00:58:52,000
+ But I think like the capability is there and I think that's how it's going to
+
+1023
+00:58:52,000 --> 00:58:53,000
+ go.
+
+1024
+00:58:53,000 --> 00:58:59,000
+ So more smaller companies that are doing, um, more automation in the world.
+
+1025
+00:58:59,000 --> 00:59:00,000
+ I don't know.
+
+1026
+00:59:00,000 --> 00:59:01,000
+ What do you guys think?
+
+1027
+00:59:01,000 --> 00:59:04,000
+ So you think we're just going to get displaced into everyone else's jobs
+
+1028
+00:59:04,000 --> 00:59:05,000
+ and replace them.
+
+1029
+00:59:05,000 --> 00:59:06,000
+ Yeah.
+
+1030
+00:59:06,000 --> 00:59:12,000
+ So we're the AI, we're like, we're like, um, riding the guys like horses
+
+1031
+00:59:12,000 --> 00:59:13,000
+ into North America.
+
+1032
+00:59:13,000 --> 00:59:15,000
+ And they're like, damn, these guys are crazy.
+
+1033
+00:59:15,000 --> 00:59:16,000
+ Yeah.
+
+1034
+00:59:16,000 --> 00:59:20,000
+ But I think it'll be just kind of like that when the conquistadors came over
+
+1035
+00:59:20,000 --> 00:59:23,000
+ to North America and they were like horsing about, they had to get a little
+
+1036
+00:59:23,000 --> 00:59:25,000
+ homie that could speak the native language.
+
+1037
+00:59:25,000 --> 00:59:26,000
+ Right.
+
+1038
+00:59:26,000 --> 00:59:29,000
+ And then they would be like, all right, man, how do I tell your people that
+
+1039
+00:59:29,000 --> 00:59:31,000
+ we're subjugating them?
+
+1040
+00:59:31,000 --> 00:59:32,000
+ Right.
+
+1041
+00:59:32,000 --> 00:59:35,000
+ It's going to be like, all right, Mr accountant, how do I make this?
+
+1042
+00:59:35,000 --> 00:59:36,000
+ What a metaphor.
+
+1043
+00:59:36,000 --> 00:59:39,000
+ Yeah.
+
+1044
+00:59:39,000 --> 00:59:43,000
+ I mean, like conquistadors weren't exactly stand up people.
+
+1045
+00:59:43,000 --> 00:59:46,000
+ And I mean, we're going to take all of their jobs.
+
+1046
+00:59:46,000 --> 00:59:47,000
+ I'm sorry.
+
+1047
+00:59:47,000 --> 00:59:48,000
+ Yeah.
+
+1048
+00:59:48,000 --> 00:59:50,000
+ That's my career intake.
+
+1049
+00:59:50,000 --> 00:59:52,000
+ And it is terrible.
+
+1050
+00:59:52,000 --> 00:59:55,000
+ Just like the conquistadors.
+
+1051
+00:59:55,000 --> 00:59:59,000
+ What do you think software will eat the world, Tyler?
+
+1052
+00:59:59,000 --> 01:00:04,000
+ Well, I don't know if I can really predict how this would go about.
+
+1053
+01:00:04,000 --> 01:00:09,000
+ I feel like one thing I've observed at the individual company level is that
+
+1054
+01:00:09,000 --> 01:00:16,000
+ when one group of people, like software engineers, is like made so much more
+
+1055
+01:00:16,000 --> 01:00:21,000
+ efficient with this one tool, but that tool hasn't diffused to other positions
+
+1056
+01:00:21,000 --> 01:00:25,000
+ in the company, then you might expect like, oh, okay, well, the software
+
+1057
+01:00:25,000 --> 01:00:27,000
+ engineers are so much more productive now.
+
+1058
+01:00:27,000 --> 01:00:30,000
+ So you'd want like, they'll be the ones that are doing all the work and
+
+1059
+01:00:30,000 --> 01:00:32,000
+ everyone else will kind of be pushed out.
+
+1060
+01:00:32,000 --> 01:00:36,000
+ I think the opposite actually happens where like one company might have more
+
+1061
+01:00:36,000 --> 01:00:40,000
+ or less kind of like a fixed amount of roadmap or like scope that they can do
+
+1062
+01:00:40,000 --> 01:00:41,000
+ with engineering.
+
+1063
+01:00:41,000 --> 01:00:44,000
+ And so now they can do that with many fewer engineers.
+
+1064
+01:00:44,000 --> 01:00:46,000
+ So they can do more with fewer engineers.
+
+1065
+01:00:46,000 --> 01:00:54,000
+ But then all of these roles that aren't like scaling as well with AI, those
+
+1066
+01:00:54,000 --> 01:00:58,000
+ people actually like keep their kind of old numbers.
+
+1067
+01:00:58,000 --> 01:01:01,000
+ So like the distribution of workers within a company, I could almost see
+
+1068
+01:01:01,000 --> 01:01:07,000
+ like you have fewer people using way more AI and those people like, you know,
+
+1069
+01:01:07,000 --> 01:01:10,000
+ there'll be fewer software engineers, but there'll be the same amount of people
+
+1070
+01:01:10,000 --> 01:01:16,000
+ working in other functions that aren't really hitting that steep part of the
+
+1071
+01:01:16,000 --> 01:01:18,000
+ AI adoption curve yet.
+
+1072
+01:01:18,000 --> 01:01:22,000
+ And then I think then it's like, okay, let's say this company is making due
+
+1073
+01:01:22,000 --> 01:01:27,000
+ with like half of the software engineers that used to have what happens to the
+
+1074
+01:01:27,000 --> 01:01:32,000
+ half of the software engineers that aren't employed by that company anymore.
+
+1075
+01:01:32,000 --> 01:01:36,000
+ And then I think you can see kind of what Jackson's looking for is like,
+
+1076
+01:01:36,000 --> 01:01:41,000
+ oh, other companies will be able to deploy them because like one software
+
+1077
+01:01:41,000 --> 01:01:45,000
+ engineer can go into some company that previously didn't want to hire like a
+
+1078
+01:01:45,000 --> 01:01:50,000
+ whole team of software engineers and they can start like actually providing so
+
+1079
+01:01:50,000 --> 01:01:54,000
+ much value just as a single person that maybe you start to see adoption of
+
+1080
+01:01:54,000 --> 01:01:57,000
+ people into smaller, more traditional companies like that.
+
+1081
+01:01:57,000 --> 01:02:02,000
+ Or you see this like beautiful explosion of entrepreneurial activity where
+
+1082
+01:02:02,000 --> 01:02:07,000
+ people are just able to use AI to like scale themselves and to essentially
+
+1083
+01:02:07,000 --> 01:02:12,000
+ build like lifestyle businesses where they can essentially work, you know,
+
+1084
+01:02:12,000 --> 01:02:15,000
+ do the work that might have been like 10 people previously, but they can do that
+
+1085
+01:02:15,000 --> 01:02:17,000
+ and that's like a great way to support themselves and they have a lot of
+
+1086
+01:02:17,000 --> 01:02:18,000
+ freedom there.
+
+1087
+01:02:18,000 --> 01:02:21,000
+ I think that's like a nice version of that future.
+
+1088
+01:02:21,000 --> 01:02:23,000
+ That's the one that I would like to see.
+
+1089
+01:02:23,000 --> 01:02:27,000
+ That's how it actually plays out because I think there's also like a scary
+
+1090
+01:02:27,000 --> 01:02:35,000
+ version of that future where like we hit like, you know, artificial general
+
+1091
+01:02:35,000 --> 01:02:40,000
+ intelligence or artificial super intelligence within the next like five years.
+
+1092
+01:02:40,000 --> 01:02:47,000
+ And then that becomes a force that like is almost, yeah, like none of us
+
+1093
+01:02:47,000 --> 01:02:50,000
+ basically are worthwhile employees anymore because there's almost nothing
+
+1094
+01:02:50,000 --> 01:02:53,000
+ that a person can do that AI can't do better.
+
+1095
+01:02:53,000 --> 01:02:59,000
+ And then also like the gains to that technology could just be held by, you
+
+1096
+01:02:59,000 --> 01:03:02,000
+ know, the one or small handful of companies that build that technology.
+
+1097
+01:03:02,000 --> 01:03:06,000
+ They have no incentive to then like lease out their super intelligence to like
+
+1098
+01:03:06,000 --> 01:03:09,000
+ these other companies to like have their niche.
+
+1099
+01:03:09,000 --> 01:03:12,000
+ Like they're like, we could just do all of this ourselves.
+
+1100
+01:03:12,000 --> 01:03:15,000
+ So like that's a scarier version of that future.
+
+1101
+01:03:15,000 --> 01:03:19,000
+ I hope that one doesn't happen, but that's what a lot of the like more
+
+1102
+01:03:19,000 --> 01:03:22,000
+ science fiction-y people on X and the people who are like really into AI
+
+1103
+01:03:22,000 --> 01:03:26,000
+ talk about stuff like that, like runaway super intelligence that just renders
+
+1104
+01:03:26,000 --> 01:03:29,000
+ everyone kind of like functionally useless in the economy.
+
+1105
+01:03:29,000 --> 01:03:33,000
+ And then you just hope that we have like UBI and we can, I don't know,
+
+1106
+01:03:33,000 --> 01:03:38,000
+ go like play guitar all day and play tennis all day and just like live leisure
+
+1107
+01:03:38,000 --> 01:03:40,000
+ and not have to work.
+
+1108
+01:03:40,000 --> 01:03:41,000
+ UBIs.
+
+1109
+01:03:41,000 --> 01:03:42,000
+ Could be cool too.
+
+1110
+01:03:42,000 --> 01:03:43,000
+ Universal Basic Income.
+
+1111
+01:03:43,000 --> 01:03:46,000
+ Yeah, I actually think a jacked guy coming into my workplace and then
+
+1112
+01:03:46,000 --> 01:03:49,000
+ pretending to be my friend and then replacing me and everybody I know
+
+1113
+01:03:49,000 --> 01:03:51,000
+ is like way scarier than AGI.
+
+1114
+01:03:51,000 --> 01:03:54,000
+ I think that's like a, that's a terrifying future.
+
+1115
+01:03:54,000 --> 01:03:56,000
+ Hola.
+
+1116
+01:03:56,000 --> 01:04:01,000
+ Yeah, at least if the ASI comes and it makes all humans like obsolete,
+
+1117
+01:04:01,000 --> 01:04:02,000
+ then like we're all in the same boat.
+
+1118
+01:04:02,000 --> 01:04:03,000
+ Right, exactly.
+
+1119
+01:04:03,000 --> 01:04:06,000
+ It's not like, oh, like the really elite humans are like still like ripping
+
+1120
+01:04:06,000 --> 01:04:07,000
+ with AI.
+
+1121
+01:04:07,000 --> 01:04:10,000
+ It's just like now we're all just like UBI recipients.
+
+1122
+01:04:10,000 --> 01:04:14,000
+ And there's no like hierarchy anymore because it's almost just like we're
+
+1123
+01:04:14,000 --> 01:04:19,000
+ all, we're all on that same level of just being like pets of the ASI.
+
+1124
+01:04:19,000 --> 01:04:22,000
+ I kind of like the crazy take guy on the pod.
+
+1125
+01:04:22,000 --> 01:04:26,000
+ I guess it's like, yeah, it depends on the curve because the AI has really
+
+1126
+01:04:26,000 --> 01:04:28,000
+ been improving super fast.
+
+1127
+01:04:28,000 --> 01:04:32,000
+ And I guess, I guess my assumption kind of implies that it will,
+
+1128
+01:04:32,000 --> 01:04:35,000
+ it will like be a logistical curve and will like plateau out.
+
+1129
+01:04:35,000 --> 01:04:37,000
+ It'll still be amazing, but it's going to plateau out.
+
+1130
+01:04:37,000 --> 01:04:38,000
+ Yeah.
+
+1131
+01:04:38,000 --> 01:04:42,000
+ Do you think it's going to peak at like human, like the smartest human level
+
+1132
+01:04:42,000 --> 01:04:43,000
+ intelligence?
+
+1133
+01:04:43,000 --> 01:04:47,000
+ I mean, even if it does peak at the smartest human level intelligence,
+
+1134
+01:04:47,000 --> 01:04:49,000
+ that's exactly what anthropic has said.
+
+1135
+01:04:49,000 --> 01:04:53,000
+ Like having an entire state of geniuses in the data center,
+
+1136
+01:04:53,000 --> 01:04:57,000
+ that's still pretty, that was pretty poorly for all of us, I think.
+
+1137
+01:04:57,000 --> 01:04:58,000
+ Yeah.
+
+1138
+01:04:58,000 --> 01:05:02,000
+ I don't remember what I was going to say, but.
+
+1139
+01:05:02,000 --> 01:05:06,000
+ Yeah, I'm just skeptical that it will somehow stop at like, you know,
+
+1140
+01:05:06,000 --> 01:05:09,000
+ like human level or something resembling human.
+
+1141
+01:05:09,000 --> 01:05:12,000
+ Like I think that would basically require like a very abrupt kink in the
+
+1142
+01:05:12,000 --> 01:05:13,000
+ curve from where we are now.
+
+1143
+01:05:13,000 --> 01:05:14,000
+ Right.
+
+1144
+01:05:14,000 --> 01:05:16,000
+ Because I think that if you look at something like Fable,
+
+1145
+01:05:16,000 --> 01:05:20,000
+ it's already like probably the most generally smart, you know,
+
+1146
+01:05:20,000 --> 01:05:22,000
+ being that you've ever, ever interacted with.
+
+1147
+01:05:22,000 --> 01:05:27,000
+ Just like complete Renaissance, Renaissance man, like rips it at all of
+
+1148
+01:05:27,000 --> 01:05:29,000
+ our jobs and knows everything.
+
+1149
+01:05:29,000 --> 01:05:30,000
+ Yeah.
+
+1150
+01:05:30,000 --> 01:05:31,000
+ So yeah.
+
+1151
+01:05:31,000 --> 01:05:34,000
+ So you're saying exponential curve and then I agree that it could be over.
+
+1152
+01:05:34,000 --> 01:05:37,000
+ Like progress would basically have to plateau where we are right now for
+
+1153
+01:05:37,000 --> 01:05:41,000
+ it to not reach some kind of like thing that functionally to us is super
+
+1154
+01:05:41,000 --> 01:05:42,000
+ intelligence.
+
+1155
+01:05:42,000 --> 01:05:44,000
+ I mean with enough regulation, we can make it happen.
+
+1156
+01:05:44,000 --> 01:05:45,000
+ We can stop here forever.
+
+1157
+01:05:45,000 --> 01:05:49,000
+ We can try, but China is just going to overtake us and mug us hard.
+
+1158
+01:05:49,000 --> 01:05:53,000
+ And this is like the United States, a secondary bet behind like, okay,
+
+1159
+01:05:53,000 --> 01:05:57,000
+ let's release all these stable coins and get all the countries to put their
+
+1160
+01:05:57,000 --> 01:06:01,000
+ money into our stable coins so we can continue to be the reserve currency
+
+1161
+01:06:01,000 --> 01:06:03,000
+ and inflate away our problems.
+
+1162
+01:06:03,000 --> 01:06:07,000
+ Our secondary bet is that we'll create the AGI and we'll be able to like use
+
+1163
+01:06:07,000 --> 01:06:10,000
+ that to grow out of the problem, as you say.
+
+1164
+01:06:10,000 --> 01:06:14,000
+ So I don't think we're going to regulate, regulate it down.
+
+1165
+01:06:14,000 --> 01:06:19,000
+ I think we're going to go as far as we can, but I mean, this seems like
+
+1166
+01:06:19,000 --> 01:06:24,000
+ really naive to say, but the, the AI is trained on all the information that,
+
+1167
+01:06:24,000 --> 01:06:26,000
+ you know, humans have produced.
+
+1168
+01:06:26,000 --> 01:06:32,000
+ So who is to say that they will become significantly smarter if the
+
+1169
+01:06:32,000 --> 01:06:36,000
+ information they're training on is just what we have produced ourselves.
+
+1170
+01:06:38,000 --> 01:06:40,000
+ Maybe that is where we start to bottom out.
+
+1171
+01:06:40,000 --> 01:06:41,000
+ We're like reaching.
+
+1172
+01:06:41,000 --> 01:06:42,000
+ Okay.
+
+1173
+01:06:42,000 --> 01:06:43,000
+ It's getting a lot of it.
+
+1174
+01:06:43,000 --> 01:06:48,000
+ And yet it has a bunch of like liquid knowledge or liquid memory, but how
+
+1175
+01:06:48,000 --> 01:06:50,000
+ much farther can it go?
+
+1176
+01:06:50,000 --> 01:06:51,000
+ Maybe a plateau.
+
+1177
+01:06:51,000 --> 01:06:54,000
+ It seems like it's getting a lot of utility out of being like the 20 smartest
+
+1178
+01:06:54,000 --> 01:06:57,000
+ people, you know, like, cause those are like different people with different
+
+1179
+01:06:57,000 --> 01:06:58,000
+ skillsets.
+
+1180
+01:06:58,000 --> 01:07:01,000
+ And from what I've seen from Fable so far, it's just like, it's all of them.
+
+1181
+01:07:01,000 --> 01:07:03,000
+ It's like a great lawyer, probably.
+
+1182
+01:07:03,000 --> 01:07:04,000
+ I don't know.
+
+1183
+01:07:04,000 --> 01:07:05,000
+ I'm not a lawyer.
+
+1184
+01:07:05,000 --> 01:07:07,000
+ Maybe it's terrible, but it's definitely a good software engineer.
+
+1185
+01:07:07,000 --> 01:07:11,000
+ When it laid off, when, when my coworkers were laid off, I wrote an article
+
+1186
+01:07:11,000 --> 01:07:18,000
+ saying like, now, now I only have one coworker and it's AI, but it's nice
+
+1187
+01:07:18,000 --> 01:07:21,000
+ because I can talk to it about all my interests.
+
+1188
+01:07:21,000 --> 01:07:24,000
+ I can talk to it about tennis and it's very knowledgeable.
+
+1189
+01:07:24,000 --> 01:07:26,000
+ I can talk to it about triathlon.
+
+1190
+01:07:26,000 --> 01:07:28,000
+ I can talk to it about weightlifting.
+
+1191
+01:07:28,000 --> 01:07:30,000
+ I don't, I mean, engineering is okay.
+
+1192
+01:07:30,000 --> 01:07:32,000
+ You don't even try to talk to me about those things.
+
+1193
+01:07:32,000 --> 01:07:33,000
+ Yeah, it's crazy.
+
+1194
+01:07:33,000 --> 01:07:35,000
+ I thought we were friends.
+
+1195
+01:07:35,000 --> 01:07:37,000
+ You haven't even opened your heart to me.
+
+1196
+01:07:37,000 --> 01:07:38,000
+ We've been replaced.
+
+1197
+01:07:38,000 --> 01:07:39,000
+ Yeah.
+
+1198
+01:07:39,000 --> 01:07:41,000
+ You're replaced before we even met.
+
+1199
+01:07:41,000 --> 01:07:42,000
+ That's not true.
+
+1200
+01:07:42,000 --> 01:07:45,000
+ We talk about these things together, but it's like now, it's like, if I'm
+
+1201
+01:07:45,000 --> 01:07:48,000
+ ever bored, I can just hit up my boy chat GPT.
+
+1202
+01:07:48,000 --> 01:07:49,000
+ Yeah.
+
+1203
+01:07:49,000 --> 01:07:53,000
+ You actually talk to chat GPT and you're like, I don't know, tell it about
+
+1204
+01:07:53,000 --> 01:07:56,000
+ your, uh, your training today.
+
+1205
+01:07:56,000 --> 01:07:59,000
+ You're like, I like maxed out my deadlift.
+
+1206
+01:07:59,000 --> 01:08:00,000
+ Yeah.
+
+1207
+01:08:00,000 --> 01:08:02,000
+ Nice Jackson.
+
+1208
+01:08:02,000 --> 01:08:03,000
+ I love that for you.
+
+1209
+01:08:03,000 --> 01:08:07,000
+ Literally two days ago, I was like, okay, I'm going to try to do a 455 deadlift.
+
+1210
+01:08:07,000 --> 01:08:12,000
+ And I was like, I've done like last week I did 375 four by four.
+
+1211
+01:08:12,000 --> 01:08:14,000
+ And it's like, you should be able to do that easy.
+
+1212
+01:08:14,000 --> 01:08:15,000
+ Not like fuck.
+
+1213
+01:08:15,000 --> 01:08:16,000
+ Yeah.
+
+1214
+01:08:16,000 --> 01:08:17,000
+ I'm going to tear it up.
+
+1215
+01:08:17,000 --> 01:08:20,000
+ And then I'm like, okay, I'm also going to try 275 bench.
+
+1216
+01:08:20,000 --> 01:08:24,000
+ But I only did like 225 four by four or something.
+
+1217
+01:08:24,000 --> 01:08:26,000
+ And it's like, Oh, you better watch out.
+
+1218
+01:08:26,000 --> 01:08:29,000
+ Maybe start at 265, which I did.
+
+1219
+01:08:29,000 --> 01:08:32,000
+ And I did 265, but I failed 275.
+
+1220
+01:08:32,000 --> 01:08:35,000
+ So chat GPT is yeah.
+
+1221
+01:08:35,000 --> 01:08:36,000
+ I do.
+
+1222
+01:08:36,000 --> 01:08:37,000
+ I do talk to it about it.
+
+1223
+01:08:37,000 --> 01:08:40,000
+ It's it is a good, it is a good trainer and it remembers you too.
+
+1224
+01:08:40,000 --> 01:08:43,000
+ So sometimes it's like, I know that you have a hard time not exercising,
+
+1225
+01:08:43,000 --> 01:08:45,000
+ but you really should take a break.
+
+1226
+01:08:45,000 --> 01:08:47,000
+ And I'm like, yeah, sorry.
+
+1227
+01:08:47,000 --> 01:08:48,000
+ I'm just like, screw you.
+
+1228
+01:08:48,000 --> 01:08:52,000
+ Uh, Claude diagnosed my game of thumb, which you will know is something
+
+1229
+01:08:52,000 --> 01:08:55,000
+ that I have from last episode where I got laid out by Tyler for playing
+
+1230
+01:08:55,000 --> 01:08:57,000
+ Halo at the age of 22.
+
+1231
+01:08:57,000 --> 01:08:59,000
+ Um, this is unrelated, but yeah, it's like,
+
+1232
+01:08:59,000 --> 01:09:02,000
+ this is where the trauma of gamer thumb.
+
+1233
+01:09:02,000 --> 01:09:03,000
+ Yeah.
+
+1234
+01:09:03,000 --> 01:09:04,000
+ Yeah.
+
+1235
+01:09:04,000 --> 01:09:08,000
+ You were too hyped on monster and you were like tweaking out while
+
+1236
+01:09:08,000 --> 01:09:09,000
+ playing Halo three.
+
+1237
+01:09:09,000 --> 01:09:13,000
+ And this is a repetitive stress injury that has now carried on.
+
+1238
+01:09:13,000 --> 01:09:15,000
+ Super strong thumb muscles.
+
+1239
+01:09:15,000 --> 01:09:16,000
+ Yeah.
+
+1240
+01:09:16,000 --> 01:09:17,000
+ Yeah.
+
+1241
+01:09:17,000 --> 01:09:18,000
+ Yeah.
+
+1242
+01:09:18,000 --> 01:09:19,000
+ How is the gamer thumb coming along?
+
+1243
+01:09:19,000 --> 01:09:20,000
+ That's terrible.
+
+1244
+01:09:20,000 --> 01:09:22,000
+ Actually, I don't know if you saw, but I came here with a brace today.
+
+1245
+01:09:22,000 --> 01:09:25,000
+ Um, so I think I just have game of thumb forever now.
+
+1246
+01:09:25,000 --> 01:09:28,000
+ We'll start to do weekly updates than the gamer thumb.
+
+1247
+01:09:28,000 --> 01:09:29,000
+ I'll wear it to the next part.
+
+1248
+01:09:29,000 --> 01:09:31,000
+ Have you, have you tried, uh, voice dictation?
+
+1249
+01:09:31,000 --> 01:09:34,000
+ I feel like last week we were all trying to tell you that you should just
+
+1250
+01:09:34,000 --> 01:09:36,000
+ never type again and you should only dictate Claude.
+
+1251
+01:09:36,000 --> 01:09:37,000
+ Yeah.
+
+1252
+01:09:37,000 --> 01:09:38,000
+ Yeah.
+
+1253
+01:09:38,000 --> 01:09:40,000
+ I'm just like, I'm just so obstinate.
+
+1254
+01:09:40,000 --> 01:09:43,000
+ Like, you know, I have like a special keyboard, uh, for like special
+
+1255
+01:09:43,000 --> 01:09:45,000
+ boys, the split keyboard.
+
+1256
+01:09:45,000 --> 01:09:46,000
+ Yeah.
+
+1257
+01:09:46,000 --> 01:09:47,000
+ Yeah.
+
+1258
+01:09:47,000 --> 01:09:48,000
+ Yeah.
+
+1259
+01:09:48,000 --> 01:09:49,000
+ Yeah.
+
+1260
+01:09:49,000 --> 01:09:52,000
+ Um, yeah.
+
+1261
+01:09:52,000 --> 01:09:55,000
+ So I mean, I should, I will try it after I like, you know,
+
+1262
+01:09:55,000 --> 01:09:56,000
+ I have to hype myself up.
+
+1263
+01:09:56,000 --> 01:09:57,000
+ Yeah.
+
+1264
+01:09:57,000 --> 01:09:58,000
+ Hmm.
+
+1265
+01:09:58,000 --> 01:09:59,000
+ Yeah.
+
+1266
+01:09:59,000 --> 01:10:01,000
+ Well, we'll start to do weekly updates on, on the gamer thumb.
+
+1267
+01:10:01,000 --> 01:10:03,000
+ I didn't know that Pico was going to continue.
+
+1268
+01:10:03,000 --> 01:10:05,000
+ Continue to be a recurring topic.
+
+1269
+01:10:05,000 --> 01:10:07,000
+ I hope that because help will recover.
+
+1270
+01:10:07,000 --> 01:10:08,000
+ No, I didn't want him to be on.
+
+1271
+01:10:08,000 --> 01:10:10,000
+ Those are racking up.
+
+1272
+01:10:10,000 --> 01:10:14,000
+ I have to start to go fund me.
+
+1273
+01:10:14,000 --> 01:10:16,000
+ Go, go fund me, put it all into purple fortune.
+
+1274
+01:10:16,000 --> 01:10:17,000
+ Yeah.
+
+1275
+01:10:17,000 --> 01:10:22,000
+ And if it liquidates, then Pico is going to, yeah.
+
+1276
+01:10:22,000 --> 01:10:23,000
+ He might not get healthcare.
+
+1277
+01:10:23,000 --> 01:10:24,000
+ It's going to be sad.
+
+1278
+01:10:24,000 --> 01:10:26,000
+ So everyone should donate to us.
+
+1279
+01:10:26,000 --> 01:10:27,000
+ Definitely.
+
+1280
+01:10:27,000 --> 01:10:30,000
+ And choose a good pub Claude, because like, really this is all riding on the
+
+1281
+01:10:30,000 --> 01:10:31,000
+ robots.
+
+1282
+01:10:31,000 --> 01:10:32,000
+ Yeah.
+
+1283
+01:10:32,000 --> 01:10:33,000
+ We'll try fable.
+
+1284
+01:10:33,000 --> 01:10:34,000
+ Maybe we'll do purple.
+
+1285
+01:10:34,000 --> 01:10:36,000
+ We're going to start doing purple fortune, every podcast, just so you know,
+
+1286
+01:10:36,000 --> 01:10:38,000
+ respect and we'll try fable maybe next week.
+
+1287
+01:10:38,000 --> 01:10:43,000
+ And we're considering having a, a listener call in and say like things
+
+1288
+01:10:43,000 --> 01:10:45,000
+ that they're bullish about.
+
+1289
+01:10:45,000 --> 01:10:46,000
+ Right.
+
+1290
+01:10:46,000 --> 01:10:48,000
+ And then we feed that into, into purple fortune.
+
+1291
+01:10:48,000 --> 01:10:52,000
+ In addition to all the information it collects and you know,
+
+1292
+01:10:52,000 --> 01:10:53,000
+ then it's on us.
+
+1293
+01:10:53,000 --> 01:10:54,000
+ Yeah.
+
+1294
+01:10:54,000 --> 01:10:56,000
+ We're the exit liquidity.
+
+1295
+01:10:56,000 --> 01:10:58,000
+ Just a single fan.
+
+1296
+01:10:58,000 --> 01:11:00,000
+ It's supposed to be the opposite.
+
+1297
+01:11:00,000 --> 01:11:01,000
+ They're supposed to be.
+
+1298
+01:11:01,000 --> 01:11:02,000
+ Yeah.
+
+1299
+01:11:02,000 --> 01:11:04,000
+ We're supposed to be shilling them coins.
+
+1300
+01:11:04,000 --> 01:11:08,000
+ Nothing on them, but you want to reverse this out of the goodness of your
+
+1301
+01:11:08,000 --> 01:11:09,000
+ heart.
+
+1302
+01:11:09,000 --> 01:11:10,000
+ We're going in together.
+
+1303
+01:11:10,000 --> 01:11:11,000
+ So please drop a comment.
+
+1304
+01:11:11,000 --> 01:11:13,000
+ I know the first thing about a crypto podcast.
+
+1305
+01:11:13,000 --> 01:11:16,000
+ We're the virtue of crypto podcast.
+
+1306
+01:11:16,000 --> 01:11:17,000
+ It's a consortium.
+
+1307
+01:11:17,000 --> 01:11:18,000
+ Yeah.
+
+1308
+01:11:18,000 --> 01:11:19,000
+ No, cause source.
+
+1309
+01:11:19,000 --> 01:11:20,000
+ I don't even know what that word means.
+
+1310
+01:11:20,000 --> 01:11:22,000
+ And we've said it like 15 times.
+
+1311
+01:11:22,000 --> 01:11:24,000
+ It sounds like contortionist.
+
+1312
+01:11:24,000 --> 01:11:26,000
+ So about right.
+
+1313
+01:11:26,000 --> 01:11:27,000
+ Yeah.
+
+1314
+01:11:27,000 --> 01:11:30,000
+ I think, I think we're done unless there's anything else you guys would
+
+1315
+01:11:30,000 --> 01:11:31,000
+ like to get after.
+
+1316
+01:11:31,000 --> 01:11:32,000
+ No, that's it for me.
+
+1317
+01:11:32,000 --> 01:11:33,000
+ Like huge.
+
+1318
+01:11:33,000 --> 01:11:36,000
+ Thanks to Presidio for letting us use this space.
+
+1319
+01:11:36,000 --> 01:11:37,000
+ Yeah.
+
+1320
+01:11:37,000 --> 01:11:38,000
+ Yeah.
+
+1321
+01:11:38,000 --> 01:11:39,000
+ Let's go.
+
+1322
+01:11:39,000 --> 01:11:40,000
+ Yeah.
+
+1323
+01:11:40,000 --> 01:11:41,000
+ Enormously cool.
+
+1324
+01:11:41,000 --> 01:11:42,000
+ Yeah.
+
+1325
+01:11:42,000 --> 01:11:43,000
+ Super cool.
+
+1326
+01:11:43,000 --> 01:11:44,000
+ It's very hot, but very cool.
+
+1327
+01:11:44,000 --> 01:11:47,000
+ I don't know if we'll ever, please don't get used to this or like.
+
+1328
+01:11:47,000 --> 01:11:48,000
+ Yeah.
+
+1329
+01:11:48,000 --> 01:11:49,000
+ This is never going to happen again.
+
+1330
+01:11:49,000 --> 01:11:52,000
+ Next episode I'm recording on a 2003 ThinkPad.
+
+1331
+01:11:52,000 --> 01:11:55,000
+ So see you guys then.
+
+1332
+01:11:55,000 --> 01:11:56,000
+ Yeah, we're out.
+
+1333
+01:11:56,000 --> 01:11:58,000
+ So wait, do you need your laptop?
+
+1334
+01:11:58,000 --> 01:11:59,000
+ Are we doing that thing?
+
+1335
+01:11:59,000 --> 01:12:03,000
+ Well, if we want to listen to the Claude AI generated segment,
+
+1336
+01:12:03,000 --> 01:12:08,000
+ but that's like a, it's like an eight minute video or audio file.
+
+1337
+01:12:08,000 --> 01:12:09,000
+ So we don't have to listen to all of it.
+
+1338
+01:12:09,000 --> 01:12:12,000
+ I can just queue up a couple of minutes of it and then we can talk about it.
+
+1339
+01:12:12,000 --> 01:12:14,000
+ But we don't, we don't have to do that at all.
+
+1340
+01:12:14,000 --> 01:12:15,000
+ Yeah.
+
+1341
+01:12:15,000 --> 01:12:17,000
+ I don't have a fortune in set up.
+
+1342
+01:12:17,000 --> 01:12:18,000
+ I see.
+
+1343
+01:12:18,000 --> 01:12:20,000
+ So this is a no perfect fortune.
+
+1344
+01:12:20,000 --> 01:12:24,000
+ I mean, I mean, I could set it up, but I would take five minutes.
+
+1345
+01:12:24,000 --> 01:12:25,000
+ Five minutes.
+
+1346
+01:12:25,000 --> 01:12:26,000
+ Yeah.
+
+1347
+01:12:26,000 --> 01:12:27,000
+ I don't know.
+
+1348
+01:12:27,000 --> 01:12:28,000
+ Is it worth it?
+
+1349
+01:12:28,000 --> 01:12:29,000
+ No.
+
+1350
+01:12:29,000 --> 01:12:32,000
+ I mean, we can roll pepper fortune in next episode, like maybe do a twist on it.
+
+1351
+01:12:32,000 --> 01:12:33,000
+ Okay.
+
+1352
+01:12:33,000 --> 01:12:34,000
+ Yeah.
+
+1353
+01:12:34,000 --> 01:12:35,000
+ We're sorry.
+
+1354
+01:12:35,000 --> 01:12:36,000
+ We're sorry to our fans that love the purple fortune,
+
+1355
+01:12:36,000 --> 01:12:38,000
+ but the purple fortune will not be here today.
+
+1356
+01:12:38,000 --> 01:12:39,000
+ Wait.
+
+1357
+01:12:39,000 --> 01:12:40,000
+ Are we actually live?
+
+1358
+01:12:40,000 --> 01:12:41,000
+ Unfortunately.
+
+1359
+01:12:41,000 --> 01:12:42,000
+ We were deliberating.
+
+1360
+01:12:42,000 --> 01:12:45,000
+ Well, we weren't deliberating, but then we went live.
+
+1361
+01:12:45,000 --> 01:12:47,000
+ We're giving away the alpha of our future segments.
+
+1362
+01:12:47,000 --> 01:12:48,000
+ Unfortunately.
+
+1363
+01:12:48,000 --> 01:12:49,000
+ No, we're making a commitment.
+
+1364
+01:12:49,000 --> 01:12:50,000
+ Yeah.
+
+1365
+01:12:50,000 --> 01:12:51,000
+ We are.
+
+1366
+01:12:51,000 --> 01:12:52,000
+ Sorry.
+
+1367
+01:12:52,000 --> 01:12:53,000
+ We're committing to, I let the team down.
+
+1368
+01:12:53,000 --> 01:12:54,000
+ Do we do for a fortune every time?
+
+1369
+01:12:54,000 --> 01:12:55,000
+ What we did.
+
+1370
+01:12:55,000 --> 01:12:56,000
+ We did it one time.
+
+1371
+01:12:56,000 --> 01:12:57,000
+ Yeah.
+
+1372
+01:12:57,000 --> 01:12:59,000
+ It's the bottom of our franchise.
+
+1373
+01:12:59,000 --> 01:13:00,000
+ Okay.
+
+1374
+01:13:00,000 --> 01:13:02,000
+ So we are the purple fortune podcast.
+
+1375
+01:13:02,000 --> 01:13:04,000
+ It's, it's just something that goes on in the background.
+
+1376
+01:13:04,000 --> 01:13:09,000
+ It's like a, you know, window dressing to all of our talks on the pod.
+
+1377
+01:13:09,000 --> 01:13:10,000
+ Yeah.
+
+1378
+01:13:10,000 --> 01:13:13,000
+ When they get tired of looking at our faces, they can look at the, I would never get tired.
+
+1379
+01:13:13,000 --> 01:13:17,000
+ Okay.
+

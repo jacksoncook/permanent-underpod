@@ -1,0 +1,106 @@
+[
+ {
+  "file": "clips/c001.mov",
+  "block": "T1",
+  "src_start": 2206.95,
+  "src_end": 2219.0,
+  "final_start": 0.0,
+  "dur": 12.1
+ },
+ {
+  "file": "clips/c002.mov",
+  "block": "T2",
+  "src_start": 882.6,
+  "src_end": 893.25,
+  "final_start": 12.1,
+  "dur": 10.633
+ },
+ {
+  "file": "clips/c003.mov",
+  "block": "T3",
+  "src_start": 363.85,
+  "src_end": 379.25,
+  "final_start": 22.733,
+  "dur": 15.433
+ },
+ {
+  "file": "card_title.mov",
+  "block": "CARD_TITLE",
+  "src_start": null,
+  "src_end": null,
+  "final_start": 38.166,
+  "dur": 4.5
+ },
+ {
+  "file": "clips/c004.mov",
+  "block": "MAIN",
+  "src_start": 81.82,
+  "src_end": 358.387,
+  "final_start": 42.666,
+  "dur": 276.567
+ },
+ {
+  "file": "clips/c005.mov",
+  "block": "MAIN",
+  "src_start": 360.138,
+  "src_end": 2068.766,
+  "final_start": 319.233,
+  "dur": 1708.666
+ },
+ {
+  "file": "clips/c006.mov",
+  "block": "MAIN",
+  "src_start": 2070.072,
+  "src_end": 3432.198,
+  "final_start": 2027.899,
+  "dur": 1362.166
+ },
+ {
+  "file": "clips/c007.mov",
+  "block": "MAIN",
+  "src_start": 3433.569,
+  "src_end": 3434.565,
+  "final_start": 3390.065,
+  "dur": 1.033
+ },
+ {
+  "file": "clips/c008.mov",
+  "block": "MAIN",
+  "src_start": 3436.895,
+  "src_end": 4027.2,
+  "final_start": 3391.098,
+  "dur": 590.3
+ },
+ {
+  "file": "clips/c009.mov",
+  "block": "MAIN",
+  "src_start": 4029.036,
+  "src_end": 4364.6,
+  "final_start": 3981.398,
+  "dur": 335.6
+ },
+ {
+  "file": "clips/c010.mov",
+  "block": "STINGER",
+  "src_start": 0.0,
+  "src_end": 29.205,
+  "final_start": 4316.998,
+  "dur": 29.2
+ },
+ {
+  "file": "clips/c011.mov",
+  "block": "STINGER",
+  "src_start": 32.138,
+  "src_end": 81.8,
+  "final_start": 4346.198,
+  "dur": 49.7
+ },
+ {
+  "file": "card_end.mov",
+  "block": "CARD_END",
+  "src_start": null,
+  "src_end": null,
+  "final_start": 4395.898,
+  "dur": 7.0
+ }
+]

@@ -32,9 +32,9 @@ for src, dst in [("Arial Black.ttf", BLACK_F), ("Arial Bold.ttf", BOLD_F)]:
 
 font = lambda p, s: ImageFont.truetype(p, s)
 
-def center(d, y, text, f, fill):
+def center(d, y, text, f, fill, w=None):
     bb = d.textbbox((0, 0), text, font=f)
-    d.text(((W - bb[2] + bb[0]) / 2, y), text, font=f, fill=fill)
+    d.text((((w or W) - bb[2] + bb[0]) / 2, y), text, font=f, fill=fill)
 
 def grab_frame(t, out):
     subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-ss", str(t),
@@ -60,8 +60,8 @@ def make_logo():
     d.rectangle([(120, 282), (146, 306)], fill=ACC); d.rectangle([(334, 282), (360, 306)], fill=ACC)
     k = " ".join(BRAND.get("show_kicker", "")) or None
     if k:
-        center(d, 322, k, font(BOLD_F, 27), WHITE)
-    center(d, 358, BRAND.get("show_main", BRAND["show"]), font(BLACK_F, 56), ACC)
+        center(d, 322, k, font(BOLD_F, 27), WHITE, w=S)
+    center(d, 358, BRAND.get("show_main", BRAND["show"]), font(BLACK_F, 56), ACC, w=S)
     img.save(os.path.join(WORK, "logo.png"))
     return img
 

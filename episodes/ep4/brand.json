@@ -1,0 +1,29 @@
+{
+  "show": "PERMANENT UNDERPOD",
+  "show_kicker": "PERMANENT",
+  "show_main": "UNDERPOD",
+  "accent": [255, 210, 74],
+  "source": "/Users/jcook/Personal/permanent-underpod/media/ep4-work/ep4-src-720p.mp4",
+  "title_card": {"bg_frame": 900, "line": "EPISODE 4   ·   Base vs Tempo  ·  AI Clones the Hosts", "dur": 4.5},
+  "end_card": {"bg_frame": 4300, "kicker": "NEXT WEEK ON",
+    "lines": ["We go fully remote - RIP the studio", "Perp of Fortune returns (Fable's picks)", "Gamer thumb: week three"],
+    "cta": "LIKE  +  SUBSCRIBE", "dur": 7},
+  "lower_thirds": [
+    {"name": "welcome", "kicker": "EPISODE 4",           "title": "LIVE FROM PRESIDIO BITCOIN"},
+    {"name": "pico",    "kicker": "DOG OF THE POD",       "title": "PICO'S VET SAGA, PART 3"},
+    {"name": "loop",    "kicker": "AI CORNER",            "title": "LOOPING FABLE ALL NIGHT"},
+    {"name": "base",    "kicker": "MAIN EVENT",           "title": "BASE VS TEMPO"},
+    {"name": "souls",   "kicker": "THE EXPERIMENT",       "title": "AI CLONES THE HOSTS"},
+    {"name": "ousd",    "kicker": "STABLECOIN WARS",      "title": "OPENUSD, FOR REAL"},
+    {"name": "contra",  "kicker": "CONTRARIAN CORNER",    "title": "JACKSON'S AI JOBS TAKE"},
+    {"name": "outro",   "kicker": "THANKS, PRESIDIO",     "title": "SEE YOU NEXT WEEK"},
+    {"name": "stinger", "kicker": "POST-CREDITS",         "title": "THE PERP OF FORTUNE INCIDENT"}
+  ],
+  "stats": [
+    {"name": "souls",    "kicker": "SOUL.MD LINE COUNT",       "main": "CHRIS 40 · JACKSON 40 · TYLER 43"},
+    {"name": "140",      "kicker": "OPENUSD",                  "main": "140 COMPANIES, ONE STABLECOIN"},
+    {"name": "opinions", "kicker": "OUR OPINIONS ARE OUR OWN", "main": "NOT FINANCIAL ADVICE"},
+    {"name": "lift",     "kicker": "CHATGPT SAYS SEND IT",     "main": "THE 455 LB DEADLIFT"},
+    {"name": "thumb",    "kicker": "INJURY REPORT",            "main": "GAMER THUMB: NOW WITH BRACE"}
+  ]
+}
