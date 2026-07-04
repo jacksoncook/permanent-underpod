@@ -113,7 +113,27 @@ Secrets live OUTSIDE the repo; never commit `client_secret.json` / `token.json`.
 4. Report the resulting URLs. Scheduled clips stay **private** until `publishAt`,
    then auto-publish.
 
-**Manifest** (`publishAt` is RFC3339 UTC; omit it to just use `privacyStatus`):
+**Show conventions (learned Ep 4 — follow by default):**
+
+- **The episode publishes BEFORE its clips.** Schedule the full episode first;
+  clips start after it's live. Every clip description links the live episode
+  ("Full episode: https://youtu.be/…") — never "drops soon".
+- **Playlists:** every vertical short gets `"playlist": "Underpod Shorts"`; every
+  16:9 clip/highlight gets `"playlist": "Underpod Clips"` (both exist on the
+  channel). The uploader resolves playlist names case-insensitively and adds each
+  video right after upload. This needs the broad `youtube` OAuth scope (the script
+  requests it; an old upload-only token triggers a one-time re-auth).
+- **Shorts "related video"** (the Studio button that points a Short at its source
+  episode) is NOT settable via the Data API — flag it in the run summary as a
+  ~10-second-per-short manual step in YouTube Studio → Content → (short) →
+  Related video. The description link is the automated fallback.
+- **Browser auth gotcha:** on the OAuth channel-picker screen, choose the
+  **Permanent Underpod brand channel**, not the personal account — the flow
+  defaults to personal, and a token is channel-bound (Ep 4's first batch landed
+  on the wrong channel and had to be re-uploaded).
+
+**Manifest** (`publishAt` is RFC3339 UTC; omit it to just use `privacyStatus`;
+`playlist` is a playlist name or PL… id, per-entry or in `defaults`):
 
 ```json
 {
@@ -123,8 +143,9 @@ Secrets live OUTSIDE the repo; never commit `client_secret.json` / `token.json`.
   "uploads": [
     {"file": "/path/clips/ep3/short5-monster-energy.mp4",
      "title": "Roasted for grinding Halo 3 as a fully-grown adult 🎮 #Shorts",
-     "description": "Chris cops to needing 200mg of caffeine to game…",
+     "description": "Chris cops to needing 200mg of caffeine to game… Full episode: https://youtu.be/…",
      "tags": ["Halo3", "gaming", "podcast", "MonsterEnergy"],
+     "playlist": "Underpod Shorts",
      "publishAt": "2026-07-01T17:00:00Z"}
   ]
 }

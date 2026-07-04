@@ -37,7 +37,10 @@ verify the channel by phone in YouTube Studio. Scheduled publish won't fire unti
 """
 import json, os, sys, time
 
-SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
+# The broad `youtube` scope covers uploads AND playlist management (adding each
+# clip to a playlist). Older tokens minted with only `youtube.upload` are
+# detected in get_creds and trigger a one-time re-auth.
+SCOPES = ["https://www.googleapis.com/auth/youtube"]
 RETRIABLE = {500, 502, 503, 504}
 
 
@@ -81,7 +84,15 @@ def get_creds(client_secret, token_path):
     from google_auth_oauthlib.flow import InstalledAppFlow
     creds = None
     if os.path.exists(token_path):
-        creds = Credentials.from_authorized_user_file(token_path, SCOPES)
+        # a cached token minted under a NARROWER scope (e.g. youtube.upload only)
+        # still loads as "valid" but 403s on playlist calls — force re-auth. Read
+        # the GRANTED scopes from the token file itself: from_authorized_user_file
+        # overwrites .scopes with whatever we request, so it can't be used to check.
+        granted = set(json.load(open(token_path)).get("scopes") or [])
+        if set(SCOPES) <= granted:
+            creds = Credentials.from_authorized_user_file(token_path, SCOPES)
+        else:
+            print("cached token lacks required scopes — re-authorizing…")
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
@@ -119,10 +130,12 @@ def plan_one(up, defaults):
     }
     if publish_at:
         status["publishAt"] = publish_at
+    playlist = up.get("playlist", defaults.get("playlist"))
     sched = f" -> publish {publish_at}" if publish_at else ""
-    print(f"  {os.path.basename(f)}  [{privacy}]{sched}")
+    print(f"  {os.path.basename(f)}  [{privacy}]{sched}"
+          + (f"  [playlist: {playlist}]" if playlist else ""))
     print(f"      title: {snippet['title']}")
-    return f, {"snippet": snippet, "status": status}, privacy, publish_at
+    return f, {"snippet": snippet, "status": status}, privacy, publish_at, playlist
 
 
 def upload_one(youtube, f, body, privacy, publish_at):
@@ -148,6 +161,39 @@ def upload_one(youtube, f, body, privacy, publish_at):
     url = f"https://youtu.be/{vid}"
     print(f"      done: {url}            ")
     return {"videoId": vid, "url": url, "privacy": privacy, "publishAt": publish_at}
+
+
+_playlist_cache = None
+
+
+def playlist_id(youtube, name_or_id):
+    """Resolve a playlist by NAME (or pass a PL… id through). Case-insensitive."""
+    if name_or_id.startswith("PL"):
+        return name_or_id
+    global _playlist_cache
+    if _playlist_cache is None:
+        _playlist_cache, page = {}, None
+        while True:
+            r = youtube.playlists().list(part="snippet", mine=True,
+                                         maxResults=50, pageToken=page).execute()
+            for p in r.get("items", []):
+                _playlist_cache[p["snippet"]["title"].lower()] = p["id"]
+            page = r.get("nextPageToken")
+            if not page:
+                break
+    return _playlist_cache.get(name_or_id.lower())
+
+
+def add_to_playlist(youtube, vid, playlist):
+    pid = playlist_id(youtube, playlist)
+    if not pid:
+        print(f"      WARN playlist not found on channel: '{playlist}' — skipped")
+        return None
+    youtube.playlistItems().insert(part="snippet", body={
+        "snippet": {"playlistId": pid,
+                    "resourceId": {"kind": "youtube#video", "videoId": vid}}}).execute()
+    print(f"      added to playlist: {playlist}")
+    return pid
 
 
 def main():
@@ -195,11 +241,21 @@ def main():
     results = json.load(open(results_path)) if os.path.exists(results_path) else {}
     done = 0
     for u in uploads:
-        f, body, privacy, publish_at = plan_one(u, defaults)
+        f, body, privacy, publish_at, playlist = plan_one(u, defaults)
         if f in results and not force:
+            # already uploaded — but still add to the playlist if that's missing
+            if playlist and not results[f].get("playlist"):
+                add_to_playlist(youtube, results[f]["videoId"], playlist)
+                results[f]["playlist"] = playlist
+                with open(results_path, "w") as out:
+                    json.dump(results, out, indent=2)
+                continue
             print(f"      SKIP (already uploaded: {results[f].get('url', '')})")
             continue
         r = upload_one(youtube, f, body, privacy, publish_at)
+        if playlist:
+            add_to_playlist(youtube, r["videoId"], playlist)
+            r["playlist"] = playlist
         results[f] = r
         with open(results_path, "w") as out:
             json.dump(results, out, indent=2)
