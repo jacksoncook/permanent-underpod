@@ -136,12 +136,12 @@ Cut from the final cut (`media/clips/ep4/`, manifest + posting-copy there). Uplo
 
 | Date (2 PM PT) | Clip | Format | Title | URL |
 |---|---|---|---|---|
-| Sat Jul 4 | short1-soul-md | 9:16 · 0:60 | An AI compressed our souls into 40 lines 🤖 #Shorts | https://youtu.be/DCPB-uZ54h0 |
-| Sun Jul 5 | longform1-ai-clones | 16:9 · 6:03 | We let AI clone us — it recorded a podcast segment without us | https://youtu.be/n6dvIxCxC2w |
-| Mon Jul 6 | short3-conquistador | 9:16 · 0:54 | Software engineers are the conquistadores of AI 🐎 #Shorts | https://youtu.be/RKNqTY8hjrg |
-| Tue Jul 7 | short4-coinbase-sticker | 9:16 · 0:24 | Base is just Optimism with a Coinbase sticker 🏷️ #Shorts | https://youtu.be/FrQ2A6sWzz0 |
-| Wed Jul 8 | longform2-burn-desk | 16:9 · 3:09 | The burn desk: how stablecoins control your exit | https://youtu.be/TATDhRQOobs |
-| Thu Jul 9 | short2-sweet-nothings | 9:16 · 0:25 | He skipped his own party to prompt an AI 💔 #Shorts | https://youtu.be/uWESJ2rXbmg |
+| Sat Jul 4 | short1-soul-md | 9:16 · 0:60 | An AI compressed our souls into 40 lines 🤖 #Shorts | https://youtu.be/v2YD3ZkHKks |
+| Sun Jul 5 | longform1-ai-clones | 16:9 · 6:03 | We let AI clone us — it recorded a podcast segment without us | https://youtu.be/tmX3PrCDOM0 |
+| Mon Jul 6 | short3-conquistador | 9:16 · 0:54 | Software engineers are the conquistadores of AI 🐎 #Shorts | https://youtu.be/gI-qOQhWI18 |
+| Tue Jul 7 | short4-coinbase-sticker | 9:16 · 0:24 | Base is just Optimism with a Coinbase sticker 🏷️ #Shorts | https://youtu.be/N5GFCGi52XM |
+| Wed Jul 8 | longform2-burn-desk | 16:9 · 3:09 | The burn desk: how stablecoins control your exit | https://youtu.be/mDE0RnqCheE |
+| Thu Jul 9 | short2-sweet-nothings | 9:16 · 0:25 | He skipped his own party to prompt an AI 💔 #Shorts | https://youtu.be/s8eUw6DiMrs |
 
 ## Attributed transcript (who said what)
 
