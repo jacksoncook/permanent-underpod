@@ -130,6 +130,19 @@ Glossary — L2: a chain that settles onto Ethereum. Sequencer: who orders an L2
 
 Upload **`episodes/ep4/transcript.srt`** — regenerated from the **final cut** (re-transcribed the rendered MP4), so it matches the cold open + stinger reorder AND includes the AI-clone dialogue (audible after the clean-feed overlay). Do NOT use the raw-recording transcript (Ep 1 caption-desync bug).
 
+## Clips (scheduled — one per day, Jul 4–9 2026, 2:00 PM Pacific)
+
+Cut from the final cut (`media/clips/ep4/`, manifest + posting-copy there). Uploaded scheduled-private via `yt_upload.py` on Jul 3; each auto-publishes at 2:00 PM PT.
+
+| Date (2 PM PT) | Clip | Format | Title | URL |
+|---|---|---|---|---|
+| Sat Jul 4 | short1-soul-md | 9:16 · 0:60 | An AI compressed our souls into 40 lines 🤖 #Shorts | https://youtu.be/DCPB-uZ54h0 |
+| Sun Jul 5 | longform1-ai-clones | 16:9 · 6:03 | We let AI clone us — it recorded a podcast segment without us | https://youtu.be/n6dvIxCxC2w |
+| Mon Jul 6 | short3-conquistador | 9:16 · 0:54 | Software engineers are the conquistadores of AI 🐎 #Shorts | https://youtu.be/RKNqTY8hjrg |
+| Tue Jul 7 | short4-coinbase-sticker | 9:16 · 0:24 | Base is just Optimism with a Coinbase sticker 🏷️ #Shorts | https://youtu.be/FrQ2A6sWzz0 |
+| Wed Jul 8 | longform2-burn-desk | 16:9 · 3:09 | The burn desk: how stablecoins control your exit | https://youtu.be/TATDhRQOobs |
+| Thu Jul 9 | short2-sweet-nothings | 9:16 · 0:25 | He skipped his own party to prompt an AI 💔 #Shorts | https://youtu.be/uWESJ2rXbmg |
+
 ## Attributed transcript (who said what)
 
 - **`transcript-attributed.srt`** — same cues with `Name:` prefixes (upload this instead if you want speaker names in captions)
