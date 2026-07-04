@@ -72,8 +72,11 @@ edited_raw.mov and remux with `-c:v copy` — never re-encode video for an audio
    colorchannelmixer=aa=0.8`, disabled during cards), audio chain + SFX mix,
    `h264_videotoolbox -b:v 7500k`, `-movflags +faststart`.
 10. **Deliverables** — final mp4 + a segment-times markdown sheet. The sheet ALWAYS
-    includes BOTH a paste-ready **YouTube description** (narrative body + glossary +
-    bare `m:ss` chapters, >=10s spacing) AND a paste-ready **Spotify description**
+    includes BOTH a paste-ready **YouTube description** (HOUSE FORMAT, set by the
+    Ep 4 published copy: hook paragraph → `🔥 On the Agenda` heading + bare `m:ss`
+    chapters (>=10s spacing) → location line + `Disclaimers:` → `GLOSSARY` as
+    condensed `•` bullets at the BOTTOM → `🔔 Subscribe for next week:` teaser;
+    no tags on the episode) AND a paste-ready **Spotify description**
     (same body, glossary inlined as plain text since Spotify ignores markdown, and
     chapters in parenthesized `(m:ss)`/`(h:mm:ss)` form with >=30s spacing — Spotify's
     parser prefers that format). Also a clickbait title + alternates, a chapter table,

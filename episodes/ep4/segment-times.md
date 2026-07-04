@@ -2,41 +2,21 @@
 
 **Final cut: 1:13:23 · −16.02 LUFS / −1.12 dBTP / LRA 3.9 · 0 drift across 132,080 frames (constant 35 ms chain latency, imperceptible) · 100 reframes · 13.7 s dead air removed · clean AI-segment audio overlaid + animated AI CLONE badges.**
 
-> **DRAFT — not yet published.** Per repo convention this file reflects the ACTUAL
-> published YouTube copy (via `yt_fetch.py`). Replace the title/description below
-> with the live copy after upload.
+> Source of truth = what's live on the channel. Titles/descriptions below are the
+> **actual published** copy (pulled via the API 2026-07-04), not pre-production drafts.
 
 ## Episode video
 
-- **Title (proposed):** We Let an AI Clone Us — It Stole Our Takes, Roasted Us, and Turned Chris British
-- **URL:** _(pending upload)_
+- **Title (published):** An AI Compressed Our Souls Into 40 Line File
+- **URL:** https://youtu.be/XmPUdQ3TQpw  (uploaded manually via Studio on 2026-07-04 — API quota was spent on the clip batch)
 - **Alternates considered:** "An AI Compressed Our Souls Into 40 Lines of Markdown" · "Visa, Stripe & 140 Companies Have a Plan to Kill Circle" · "Your Job Isn't Safe (Ours Is): the Conquistador Theory of AI" · "soul.md: We Fed Our Podcast to an AI and It Made the Next Episode Without Us"
 
-## YouTube description (paste-ready)
+## YouTube description (as published)
 
 ```
-We ran an experiment: feed our first three episodes (and, without asking, our group DMs) to Claude, have it distill each host into a soul.md personality file, then spin up AI agents with cloned voices and let them record a segment of this episode without us. We play it live, grade our clones, and issue corrections. The AI stole Chris's actual takes, nailed Tyler's skepticism, and gave Chris a British accent for reasons nobody can explain. Each of our souls fit in ~40 lines of Markdown.
+We fed our first three episodes and private DMs into Anthropic’s Claude to distill our personalities into 40-line soul.md files. Then, we let voice-cloned AI agents record a segment of this show without us. The results? Terrifyingly accurate skepticism, stolen takes, and a completely unexplained British accent.
 
-In between: the main event — Base vs Tempo. Coinbase's "incubated" L2 vs the Stripe/Paradigm payments chain: who controls the sequencer, what unilateral exit actually guarantees, why freeze functions make chain security moot for stablecoins, custodial "privacy zones," and how North Korea out-races Circle's multi-sig. Then OpenUSD — the 140-company consortium stablecoin (Visa, Mastercard, BlackRock…) that's a distribution play dressed up as a protocol — and the underrated art of controlling the burn desk.
-
-Plus Jackson's contrarian take finally comes due: your job isn't safe — ours is. Laid-off software engineers will ride AI into every other industry like conquistadores, and it ends somewhere between lifestyle-business utopia and all of us as pets of the ASI.
-
-Recorded live at Presidio Bitcoin, San Francisco — huge thanks for the studio. Our opinions are our own, and this is NOT financial advice.
-
-Glossary
-L2 (layer two) — a chain that batches transactions and settles them on a base chain like Ethereum
-Sequencer — the operator who orders an L2's transactions; ordering = power (see MEV)
-MEV — value extracted by whoever controls transaction ordering
-Fraud proof — how anyone can challenge an invalid L2 batch on Ethereum; the "optimistic" safety net
-Base — Coinbase's Ethereum L2 ("incubated by," never "owned by," as their press kit insists)
-Tempo — the Stripe/Paradigm payments L1; no rollup, run by a coalition of company validators
-OpenUSD (OUSD) — a ~140-company consortium stablecoin; yield split by agreement, not passed to holders
-Freeze function — issuer's power to freeze USDC/USDT in place, on any chain
-Burn desk — where stablecoins get redeemed for dollars; control the exit, control the peg
-soul.md — a Markdown personality file that tells an AI agent who to be; ours are ~40 lines each
-Claude Fable — Anthropic's newest model; Jackson's quasi-romantic partner and the clone engine here
-Looping — re-prompting an AI agent until the job is done ("get after it, don't ask me, never stop")
-
+🔥 On the Agenda
 0:00 Cold open: the AI clone experiment
 0:43 Welcome to Presidio Bitcoin
 2:13 Check-in: Pico's vet saga
@@ -46,7 +26,7 @@ Looping — re-prompting an AI agent until the job is done ("get after it, don't
 15:43 Sequencers, MEV & who's in control
 22:16 Freeze functions & privacy zones
 34:43 soul.md: AI clones the hosts
-38:13 The synthetic segment (AI Chris goes British)
+38:13 The synthetic OpenUSD segment (AI Chris goes British)
 47:11 OpenUSD, for real: 140 companies, one coin
 53:49 The burn desk
 56:56 Contrarian corner: our jobs are fine, yours aren't
@@ -55,7 +35,17 @@ Looping — re-prompting an AI agent until the job is done ("get after it, don't
 1:11:27 Outro: thanks, Presidio
 1:11:57 Post-credits: the Perp of Fortune incident
 
-Subscribe — next week we go fully remote (RIP the studio), Perp of Fortune returns with Fable picking the trade, and the gamer thumb enters week three.
+Recorded live at Presidio Bitcoin, San Francisco.
+Disclaimers: Our opinions are our own. NOT financial advice.
+
+GLOSSARY
+• L2 / Sequencer: A chain that batches transactions; the sequencer orders them (Ordering = Power/MEV).
+• Tempo: The Stripe/Paradigm payments L1 run by corporate validators.
+• OpenUSD (OUSD): A 140-company consortium stablecoin where yield is split by agreement, not passed to holders.
+• Freeze Function / Burn Desk: The issuer's power to freeze assets, and the exit ramp where stablecoins redeem for USD.
+• soul.md: A ~40-line Markdown personality file used to anchor an AI agent.
+
+🔔 Subscribe for next week: We go fully remote, Perp of Fortune returns with Claude picking the trade, and the gamer thumb saga enters week three.
 ```
 
 ## Chapters
@@ -132,16 +122,19 @@ Upload **`episodes/ep4/transcript.srt`** — regenerated from the **final cut** 
 
 ## Clips (scheduled — one per day, Jul 4–9 2026, 2:00 PM Pacific)
 
-Cut from the final cut (`media/clips/ep4/`, manifest + posting-copy there). Uploaded scheduled-private via `yt_upload.py` on Jul 3; each auto-publishes at 2:00 PM PT.
+Cut from the final cut (`media/clips/ep4/`, manifest + posting-copy there). Uploaded scheduled-private via `yt_upload.py`; each auto-publishes at 2:00 PM PT.
+Titles below are AS PUBLISHED (Jackson's Studio edits: no `#Shorts` in titles — `#shorts` hashtag
+in the description instead; "Highlights:" prefix on long-form). All descriptions link the episode.
+Playlists (Underpod Shorts / Underpod Clips) + per-short "related video" set manually in Studio.
 
 | Date (2 PM PT) | Clip | Format | Title | URL |
 |---|---|---|---|---|
-| Sat Jul 4 | short1-soul-md | 9:16 · 0:60 | An AI compressed our souls into 40 lines 🤖 #Shorts | https://youtu.be/v2YD3ZkHKks |
-| Sun Jul 5 | longform1-ai-clones | 16:9 · 6:03 | We let AI clone us — it recorded a podcast segment without us | https://youtu.be/tmX3PrCDOM0 |
-| Mon Jul 6 | short3-conquistador | 9:16 · 0:54 | Software engineers are the conquistadores of AI 🐎 #Shorts | https://youtu.be/gI-qOQhWI18 |
-| Tue Jul 7 | short4-coinbase-sticker | 9:16 · 0:24 | Base is just Optimism with a Coinbase sticker 🏷️ #Shorts | https://youtu.be/N5GFCGi52XM |
+| Sat Jul 4 | short1-soul-md | 9:16 · 0:60 | An AI compressed our souls into 40 lines 🤖 | https://youtu.be/v2YD3ZkHKks |
+| Sun Jul 5 | longform1-ai-clones | 16:9 · 6:03 | Highlights: We let AI clone us — it recorded a podcast segment without us | https://youtu.be/tmX3PrCDOM0 |
+| Mon Jul 6 | short3-conquistador | 9:16 · 0:54 | Software engineers are the conquistadores of AI 🐎 | https://youtu.be/gI-qOQhWI18 |
+| Tue Jul 7 | short4-coinbase-sticker | 9:16 · 0:24 | Base is just Optimism with a Coinbase sticker 🏷️ | https://youtu.be/N5GFCGi52XM |
 | Wed Jul 8 | longform2-burn-desk | 16:9 · 3:09 | The burn desk: how stablecoins control your exit | https://youtu.be/mDE0RnqCheE |
-| Thu Jul 9 | short2-sweet-nothings | 9:16 · 0:25 | He skipped his own party to prompt an AI 💔 #Shorts | https://youtu.be/s8eUw6DiMrs |
+| Thu Jul 9 | short2-sweet-nothings | 9:16 · 0:25 | He skipped his own party to prompt an AI 💔 | https://youtu.be/s8eUw6DiMrs |
 
 ## Attributed transcript (who said what)
 

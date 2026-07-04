@@ -59,12 +59,15 @@ to watch. This is LLM-authored judgment (hooks/hashtags), the same way the JSON
 decision docs are in `podcast-video-edit`. For **each** clip include:
 
 - **Title** — platform-ready, with the hook **front-loaded in the first ~40 chars**
-  (that's all the Shorts/Reels player shows). Put `#Shorts` in the title or first
-  line for vertical clips so YouTube routes them to the Shorts shelf.
+  (that's all the Shorts/Reels player shows). **NO `#Shorts` in the title** (house
+  style, set by Jackson's Ep 4 edits) — routing comes from a `#shorts` hashtag in
+  the description instead. Long-form pulls get a **"Highlights: " title prefix**.
 - **Caption** — one punchy sentence of context (assume the viewer has zero episode
-  context; the clip must stand alone).
-- **Hashtags** — `#Shorts` (vertical) + 5–8 topical tags; lead with the broadest
-  relevant ones. Reuse the show + episode-topic tags for consistency.
+  context; the clip must stand alone), ending with the live episode link
+  ("Full episode: https://youtu.be/…").
+- **Hashtags** — the description's LAST line: 2–3 lowercase topical tags plus
+  `#shorts` for verticals (e.g. `#shorts #ai #conquistador`). Keep the `tags`
+  manifest field for the 5–8 plain keywords.
 
 Shape (one block per clip):
 
