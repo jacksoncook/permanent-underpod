@@ -31,6 +31,14 @@ up** — confirm with him, don't assume on air.
 
 ---
 
+## Backup Topics (if a segment runs short or falls through)
+
+| # | Topic | Lead | The hook / angle |
+|---|---|---|---|
+| I | **Agentic payments — did anyone actually ship it?** | Chris / Jackson | The thread we've teased since Ep 1 ("the winner of payments might not be human") and landscaped in Ep 4 Topic A (ACP, Visa Trusted Agent, Mastercard AP4M, Tempo Machine Payments) without ever landing it on air. Fresh hook: Visa says it settled its **first live agentic-commerce payments in Europe on Jul 2** (lastminute.com, Frasers, BrickDepot — via its Trusted Agent Protocol), and **Mastercard's "Agent Pay for Machines"** (launched June 2026) reads like a crypto guest list: Coinbase, OKX, Solana Foundation, Polygon, Anchorage Digital, RippleX, and Tempo are all launch partners. The stablecoin/crypto rails we assumed would win agentic payments by default are showing up as infra *under* the card networks, not replacing them. Pairs naturally with Topic A (Perp of Fortune) — is this finally the episode an agent completes a real purchase on camera? |
+
+---
+
 ## Appendix — pre-read references (sourced from the internet)
 
 Optional prep; skim what's relevant to the segment you're leading. **Dates verified as of
@@ -69,10 +77,15 @@ Jul 7, 2026** — re-check anything time-sensitive (BTC price, GENIUS Act status
 - Chapman and Cutler — GENIUS Act Rulemaking and Reporting Tracker: https://www.chapman.com/publication-genius-act-rulemaking-tracker
 - OCC — GENIUS Act Regulations: Notice of Proposed Rulemaking: https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-3.html
 
+**I · Agentic payments (backup)**
+- Payment Expert — Visa settles first merchant agentic payments in Europe (Jul 2): https://paymentexpert.com/2026/07/02/visa-agentic-payments-merchants-eu/
+- Visa — Visa and partners complete secure AI transactions: https://corporate.visa.com/en/sites/visa-perspectives/newsroom/visa-partners-complete-secure-agentic-transactions.html
+- Mastercard — Mastercard launches Agent Pay for Machines (Jun 2026, crypto-native partner list): https://www.mastercard.com/us/en/news-and-trends/press/2026/june/mastercard-launches-agent-pay-for-machines.html
+- PYMNTS — Visa scales agentic commerce through Stripe protocol collaboration: https://www.pymnts.com/visa/2026/visa-scales-agentic-commerce-through-stripe-protocol-collaboration/
+
 ---
 
 ## Open threads NOT yet addressed (park or cut if the clock's tight)
 
-- Did anyone actually complete a real agentic-commerce purchase (Ep 4 Topic A, still technically owed beyond the Perp of Fortune bit)?
 - Base vs. Tempo — any sequencer/decentralization update since Ep 4?
 - Fable 5's global re-release (Jul 1, per Anthropic) landed the same week as this news sweep — worth a one-line "so is Fable back, for real, everywhere now?" close-out if Topic B runs long.
