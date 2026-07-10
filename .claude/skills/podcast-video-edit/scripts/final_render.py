@@ -34,6 +34,10 @@ TEST_T = next((float(a.split("=")[1]) for a in sys.argv if a.startswith("--test=
 
 clips = json.load(open(os.path.join(WORK, "clips.json")))
 overlays = json.load(open(os.path.join(WORK, "overlays.json")))
+# optional video picture-in-picture windows (screen recordings etc.) written by
+# remote_cut.py: [{file, mode: corner|full, crop:[w,h,x,y]|null, t0, start, end}]
+pfile = os.path.join(WORK, "pip.json")
+pips = json.load(open(pfile)) if os.path.exists(pfile) else []
 raw = os.path.join(WORK, "edited_raw.mov")
 CHAIN = CFG["chain"]
 total = clips[-1]["final_start"] + clips[-1]["dur"]
@@ -58,6 +62,16 @@ meas = json.load(open(mfile))
 gain = CFG.get("target_lufs", -16) - float(meas["input_i"])
 lim = CFG.get("limit", 0.84)
 print(f"post-chain {meas['input_i']} LUFS -> gain {gain:+.2f} dB, limiter {lim}")
+
+# test mode: drop overlay/pip/sfx entries outside the test window — their looped
+# far-future inputs can deadlock the filtergraph against a short output -t
+if TEST_T:
+    overlays = [o for o in overlays if o["start"] < TEST_T]
+    pips = [p for p in pips if p["start"] < TEST_T]
+    CFG["sfx"] = [s for s in CFG.get("sfx", [])
+                  if blk_start(s["block"]) + s.get("offset", 0) < TEST_T]
+    CFG["anim"] = [a for a in CFG.get("anim", []) if a["start"] < TEST_T]
+    CFG["aux_audio"] = [a for a in CFG.get("aux_audio", []) if a["at"] < TEST_T]
 
 cmd = ["ffmpeg", "-hide_banner", "-loglevel", "warning", "-stats", "-y", "-i", raw]
 for o in overlays:
@@ -90,6 +104,11 @@ aux_idx = []
 for a in auxes:
     cmd += ["-i", os.path.join(WORK, a["file"])]
     aux_idx.append(i_next); i_next += 1
+pip_idx = []
+for p in pips:
+    cmd += ["-ss", f"{max(0, p['t0']):.2f}", "-t", f"{p['end']-p['start']+1.0:.2f}",
+            "-i", p["file"]]
+    pip_idx.append(i_next); i_next += 1
 
 f = []
 # --- creative reframes: punch-ins / slow pushes, applied UNDER the overlays ---
@@ -160,8 +179,22 @@ if reframes:
                  f":d=1:s=1280x720:fps=30,setsar=1[zp{ci}]")
         cur = f"[zp{ci}]"
 
+# PiP video windows composite UNDER lower thirds / logo. setpts shifts the
+# trimmed input to its window; eof_action=pass + finite input -t keep it safe.
+for k, (i, p) in enumerate(zip(pip_idx, pips)):
+    if p["mode"] == "full":
+        proc, pos = "scale=1280:720", "x=0:y=0"
+    else:
+        cw, ch, cx0, cy0 = p.get("crop") or [1100, 550, 410, 130]
+        proc = f"crop={cw}:{ch}:{cx0}:{cy0},scale=430:-2"
+        pos = "x=W-w-30:y=24"
+    f.append(f"[{i}:v]fps=30,setpts=PTS-STARTPTS+{p['start']:.2f}/TB,{proc},"
+             f"format=yuv420p[pp{k}]")
+    f.append(f"{cur}[pp{k}]overlay={pos}:eof_action=pass"
+             f":enable='between(t,{p['start']},{p['end']})'[vp{k}]")
+    cur = f"[vp{k}]"
 for k, o in enumerate(overlays):
-    pos = "x=60:y=H-h-46" if o["kind"] == "lt" else "x=W-w-50:y=64"
+    pos = {"lt": "x=60:y=H-h-46", "st2": "x=W-w-50:y=H-h-46"}.get(o["kind"], "x=W-w-50:y=64")
     f.append(f"{cur}[{k+1}:v]overlay={pos}:eof_action=pass"
              f":enable='between(t,{o['start']},{o['end']})'[v{k}]")
     cur = f"[v{k}]"

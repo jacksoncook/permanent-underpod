@@ -1,0 +1,27 @@
+{
+  "show": "PERMANENT UNDERPOD",
+  "show_kicker": "PERMANENT",
+  "show_main": "UNDERPOD",
+  "accent": [255, 210, 74],
+  "source": "/Users/jcook/Personal/permanent-underpod/media/ep5-assets/pod recording.mov",
+  "title_card": {"bg_frame": 620, "line": "EPISODE 5   ·   Fully Remote   ·   Bitcoin  ·  Stablecoins  ·  AI", "dur": 4.5},
+  "end_card": {"bg_frame": 3350, "kicker": "NEXT WEEK ON",
+    "lines": ["MEV — the dark forest, finally", "Agentic payments — robots buying things", "Chris's Contrarian Corner (owed)"],
+    "cta": "LIKE  +  SUBSCRIBE", "dur": 7},
+  "lower_thirds": [
+    {"name": "intro",  "kicker": "EPISODE 5",              "title": "FULLY REMOTE — EVERYONE'S ON A LAPTOP"},
+    {"name": "thumb",  "kicker": "WEEK 3 CHECK-IN",        "title": "GAMER THUMB SAGA"},
+    {"name": "venice", "kicker": "THE PANEL REACTS",       "title": "VENICE AI — SMOKE OR FIRE?"},
+    {"name": "perp",   "kicker": "FABLE PICKS THE TRADE",  "title": "PERP OF FORTUNE"},
+    {"name": "usdc",   "kicker": "NOT ALL DOLLARS MATCH",  "title": "USDC CHAIN DRIFT"},
+    {"name": "bonk",   "kicker": "$20M GOVERNANCE HEIST",  "title": "BONKDAO GETS BONKED"},
+    {"name": "wrap",   "kicker": "THE DAMAGE",             "title": "PERP CHECK + NEXT WEEK"}
+  ],
+  "stats": [
+    {"name": "ai",     "kicker": "100% AI-GENERATED SEGMENT", "main": "Not us. The takes? ...debatable"},
+    {"name": "venice", "kicker": "VENICE AI",                 "main": "$65M Series A  ->  $1B valuation"},
+    {"name": "trade",  "kicker": "THE ROLL",                  "main": "LONG XYZ:CL  ·  20x  ·  $100 margin"},
+    {"name": "thumb",  "kicker": "BRACE STATUS",              "main": "OFF — keyboard incompatible"},
+    {"name": "heist",  "kicker": "THE MATH",                  "main": "$4.3M spent  ->  $20M drained"}
+  ]
+}

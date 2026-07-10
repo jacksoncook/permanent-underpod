@@ -102,7 +102,27 @@ def build(c):
         fg.append(f"[0:a]aresample={SR},apad,atrim=end_sample={n*SPF}[aout]")
     else:
         vertical = c.get("vertical", False)
-        if vertical:
+        if vertical and c.get("face_crops"):
+            # full-bleed speaker crop (digital/remote episodes): a 406x720
+            # column tracking the active face -> 1080x1920, no blur bars.
+            # face_crops = [[t_rel, x_left], ...]. Each switch is a SWIPE:
+            # the crop eases (smoothstep) across the frame to the next
+            # person over `swipe` seconds instead of hard-jumping.
+            # x(t) = x0 + sum of per-key deltas, each ramped 0->1.
+            SWIPE_S = float(c.get("swipe", 0.35))
+            fcs = c["face_crops"]
+            expr = f"{int(fcs[0][1])}"
+            for i in range(1, len(fcs)):
+                dx = int(fcs[i][1]) - int(fcs[i - 1][1])
+                if not dx:
+                    continue
+                p = f"clip((t-{fcs[i][0]:.2f})/{SWIPE_S:.2f},0,1)"
+                expr += f"+{dx}*st(0,{p})*ld(0)*ld(0)*(3-2*ld(0))"
+            fg.append("[0:v]fps=30,format=yuv420p,"
+                      f"crop=w=406:h=720:x='{expr}':y=0,"
+                      "scale=1080:1920,setsar=1[base]")
+            logo_pos, cap_pos, lsz = "x=40:y=120", "x=(W-w)/2:y=H-h-360", 220
+        elif vertical:
             fg.append("[0:v]fps=30,format=yuv420p,split=2[bg][fg]")
             fg.append("[bg]scale=1080:1920:force_original_aspect_ratio=increase,"
                       "crop=1080:1920,gblur=sigma=22,eq=brightness=-0.22[bgb]")

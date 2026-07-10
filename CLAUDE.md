@@ -19,6 +19,11 @@ production files. Not affiliated with any employer.
 ## Skills (auto-loaded from `.claude/skills/`)
 - **podcast-video-edit**: `analyze.sh → verify_silences.py → graphics.py → cut_render.py
   → final_render.py`. The human/LLM writes `plan.json`, `brand.json`, `render.json`.
+  **Fully-remote episodes** (each host records their own cam, à la Ep 5):
+  `remote_sync.py → remote_sync_bench.py (a HOST aligns by ear — ALWAYS; never trust
+  file metadata) → remote_transcribe.py → graphics.py → remote_cutlist.py → remote_cut.py
+  → final_render.py → remote_attribute.py`, driven by `sources.json` + `remote_plan.json`
+  (see SKILL.md → "Fully-remote episodes").
 - **clipify**: `clipify.py` cuts clips; `yt_upload.py` publishes (scheduled-private,
   auto-publish at a `publishAt`); `yt_fetch.py` reads back live video metadata. One-time
   OAuth setup is in `.claude/skills/clipify/youtube-setup.md`.

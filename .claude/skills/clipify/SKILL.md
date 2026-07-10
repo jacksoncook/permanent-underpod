@@ -30,6 +30,33 @@ you can paste timestamps straight off a chapter list.
   and NO audio processing. This is the long-form path: e.g. pull "Contrarian
   Corner, 58:01–1:11:31" out of the final episode as its own video.
 
+## Face-crop verticals (digital / fully-remote episodes)
+
+For episodes shot as per-host webcams (solo shots + split-screen panels), vertical
+shorts should be a FULL-BLEED face crop of the active speaker — not the blurred
+letterbox layout. Add `"face_crops": [[t_rel, x_left], ...]` to a vertical clip:
+a 406x720 column tracked piecewise across the clip, scaled to 1080x1920.
+
+Every crop switch renders as a **swipe**: the crop eases (smoothstep) across the
+frame to the next person over 0.35s instead of hard-jumping (per-clip override:
+`"swipe": <seconds>`). Reads as an intentional camera slide.
+
+Generate the schedule from the episode workdir (shot layout + VAD pick the
+active speaker; solo shots crop around the face, splits crop the speaking panel).
+Schedules switch EXACTLY at shot-layout boundaries — hysteresis only applies to
+speaker changes within a constant layout (a lagged switch across a layout cut
+parks the crop on the seam between panels and shows "no one"):
+
+```bash
+python3 ../podcast-video-edit/scripts/remote_face_crops.py <workdir> <final_start> <final_end>
+```
+
+**Source rule:** cut face-crop shorts from the episode's `edited_raw.mov`
+(pre-overlay master — same timeline as the final cut) with the episode's audio
+chain as `audio_chain`, and let clipify add the logo + caption. Cutting from the
+final mp4 works but left-edge crops catch the BAKED logo (double bug) and
+stat callouts can be sliced mid-graphic.
+
 ## clips.json
 
 ```json

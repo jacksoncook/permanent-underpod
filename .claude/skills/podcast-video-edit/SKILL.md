@@ -248,6 +248,108 @@ schedule as **one `zoompan` pass** with piecewise expressions of `on/30`:
   wrong, and the real camera move already supplies the variety. Space punches ~30–60 s
   apart, hold 5–7 s; favor the safe `center`/`push` when speaker attribution is uncertain.
 
+## Fully-remote episodes (each host records their own camera — built for Ep 5)
+
+When the hosts are on a call and each records LOCALLY (QuickTime per person, possibly
+split into several files by crashes/restarts), the single-recording pipeline doesn't
+apply. Use the `remote_*.py` scripts instead of `analyze.sh`/`cut_render.py`:
+
+```
+1. remote_sync.py <work> sources.json        # 16k wavs + metadata offsets -> offsets.json (HINT ONLY)
+2. remote_sync_bench.py <work> [clapT ...]   # sync.html: a HOST drags waveforms + plays until
+   #  group claps sound like ONE hit, hits Confirm, pastes the offsets JSON back to you ->
+   #  overwrite offsets.json. NOT optional — do this EVERY remote episode (see below).
+3. remote_transcribe.py <work>               # per-track whisper -> session.md (attributed!)
+   remote_sync.py <work> --validate          # turn-gap medians; sanity-check the bench numbers
+   remote_sync.py <work> --claps m0 m1       # optional: verify vs counted group claps
+   >>> YOU: read session.md, design blocks -> write remote_plan.json + brand.json + render.json
+4. graphics.py <work> brand.json
+5. remote_cutlist.py <work> remote_plan.json # multicam shot plan -> cutlist.json
+6. remote_preview.py <work>                  # planned cut as a transcript — READ IT,
+   fix boundaries/mics/mutes in the plan, re-run 5+6 until it reads coherently
+7. remote_cut.py <work> remote_plan.json     # clips+concat+overlays.json/pip.json/sheet.md
+8. final_render.py <work> render.json --test=75   # picks up pip.json automatically
+9. remote_attribute.py <work> <final.srt> episodes/epN/transcript-attributed
+   # person-attributed SRT+MD for the FINAL cut (deliverable, like the plain SRT)
+```
+
+What's different from the one-camera flow (all learned the hard way on Ep 5):
+
+- **Sync ground truth is the HUMAN, not metadata (Ep 5's hardest lesson) — the
+  bench is a STANDARD step now, not a fallback.** `com.apple.quicktime.creationdate`
+  was wrong by 26 SECONDS to 3.5 MINUTES across files in the same session — treat
+  it as a rough hint only. Turn-gap medians (±6s window) can't see errors that
+  large, and clap-cluster searches will confirmation-fit wrong offsets among many
+  transient candidates. `remote_sync_bench.py` builds the bench (per-track
+  waveform strips + draggable offsets + synchronized browser playback +
+  jump-to-clap buttons); a host aligns by ear/eye and pastes the exported offsets
+  back — every downstream editorial judgment depends on these numbers, and with
+  wrong offsets the merged transcript reads as scrambled crosstalk that no amount
+  of beat surgery fixes. Ep 5 burned days of edit iteration before doing this;
+  it takes the host ~10 minutes. Do it before ANY editorial work, every time.
+- **Sync: there is NO shared audio.** With headphones, each track contains ONLY its
+  owner's voice — envelope cross-correlation and VAD-complementarity searches both
+  fail (weak z-scores, garbage offsets). What works: `com.apple.quicktime.creationdate`
+  (capture START, 1 s resolution, NTP => ±0.6 s; the plain `creation_time` tag is the
+  SAVE time — do not use it). Validate with merged-transcript turn-taking gap medians
+  per incoming track (should agree within ~±0.5 s) and, if the hosts did a counted
+  group clap, `--claps` (claps from separate rooms cluster to ±0.4 s — call latency +
+  reaction skew, so claps CONFIRM alignment but can't refine below that).
+- **±0.3–0.5 s cross-track error is fine** — each host's own A/V comes from one file
+  (internally sample-exact); the residual only shifts *reaction* timing in the mix.
+  Cut boundaries snap to all-silent gaps, so word onsets aren't at risk.
+- **Speaker attribution is free**: one track = one person. Merged `session.md` is a
+  diarized transcript with zero extra work. BUT whisper hallucinates repeated lines on
+  long near-silent stretches of an own-voice track ("...like I said, like I said",
+  "Thank you. Thank you.") — judge activity by VAD, never by transcript density.
+- **Speaker-mic bleed:** if a host used speakers (bleed of others on their mic —
+  low amplitude relative to their own voice), gate that track harder: raise its
+  audio-span threshold (~0.010 RMS), tighten pads/merge (0.3s/0.8s), deepen its
+  idle attenuation (~0.06). Aligned bleed doubles as slap-echo under the real voices.
+- **Audio = per-clip mix of every covering track.** Per-track static gain equalizes
+  speech to `gain_target` ≈ **0.028 (−31 dBFS RMS)** — the first Ep 5 attempt used
+  0.055 and CLIPPED (3 mics sum + 14 dB speech crest → 0 dBFS). Idle mics duck to
+  `idle_gain` 0.12 between their VAD spans (kills keyboard clatter under monologues).
+- **Split-screen composites replace punch-ins/pans.** Solo full-frame by default; when
+  2–3 people are simultaneously active (laughing / crosstalk / rapid trading), cut to
+  side-by-side column crops: duo 640+640, trio 426+428+426 — widths must be EVEN or
+  yuv420p silently rounds an odd crop down and hstack yields 1278px (720p sources crop
+  natively — no scaling, stays sharp). Fixed left-to-right panel order per episode; face-center
+  x per host in `face_cx`. A churn-killer pass absorbs sub-3.5 s shots.
+- **Recording-gap coverage:** restarts leave per-host holes (no cam AND no mic). The
+  planner refuses shots without coverage; anything said in a hole is simply LOST —
+  check session.md around gaps and plan blocks so a gap never lands mid-keeper.
+- **Turn-based mode (the Ep 5 endgame — prefer this for chaotic remote sessions).**
+  When the raw call has heavy parallel-thread crosstalk, timeline-mixing (blocks +
+  mics/mutes) needs endless whack-a-mole. Instead rebuild discussions as SEQUENCED
+  TURNS: `remote_turns.py` extracts per-speaker utterance runs (own-mic VAD merged
+  across <1.2s gaps, whisper text attached for curation only); a beats generator
+  (see Ep 5's `gen_beats.py`) serializes them by start time into solo cam+mic beats,
+  with curation as (person, m0)-keyed DROPS (mumbles/fragments/backchannels),
+  MOVES (questions before answers, threads untangled), TRIMS. Overlapping speech
+  plays one turn after another — crosstalk becomes impossible, and residual
+  cross-track offset error stops mattering (each beat is one file, internally
+  exact; offsets only affect sort order). Costs: group shots become solo,
+  same-speaker joins are jump cuts, runtime grows ~10-15% (decompressed overlap).
+  Anchor overlays/chapters by master time with block=None matching (skip COLD*
+  teaser blocks), and bridge sub-8s PiP gaps (reordering leaves slivers).
+- **Review the planned transcript BEFORE rendering** (`remote_preview.py`): parallel
+  conversation threads make raw-order edits read like nonsense. Watch for meta lines
+  that break an insert's illusion ("pretend we just watched it"), dangling fragments
+  at block starts, and deliberation chatter. Fix with block boundaries, `mics`
+  (person whitelist per block) or `mute` (force-silence one person for a master-time
+  span — right when someone talks over a keeper and their line must go but the
+  timeline must stay). And DON'T trust whisper line timestamps for short excerpt
+  blocks: starts tile backwards over silence by 10+ s (Ep 5's cold-open teaser cut a
+  SILENT window because of this) — locate the utterance with an energy scan first.
+- **Screen-recording PiP** (`pips` in remote_plan.json): map dashboard/screen replays
+  by wall-clock anchor (`video_t = master − anchor`); verify the anchor by matching an
+  on-screen value to a spoken line ("we're up $1.92"). `mode: full` for a beat, then
+  `corner` — final_render.py composites from `pip.json` under the lower thirds.
+- **AI/insert segments** (`insert` blocks) are conformed to house format (30 fps,
+  1280×720, mono PCM pinned to frames×1600 samples) and take the same audio chain as
+  speech — no separate leveling needed.
+
 ## Gotchas
 
 - **Progressive A/V drift (THE big one — bit Ep 1 TWICE).** There are two
