@@ -2,16 +2,16 @@
 
 **Final cut v4: 1:01:29 (110,680 frames) · −16.63 LUFS / −1.32 dBTP · 0 drift (constant 32 ms chain latency; all PTS gaps exactly 1/30 s) · offsets HUMAN-VERIFIED in the sync bench (QuickTime metadata was wrong by 26s–3.5min — the root cause of every earlier flow issue) · natural-timeline edit + not-for-viewers meta cuts · AI Venice segment inserted at the cue · Perp dashboard pop + persistent wall-clock-synced corner PiP · Chris-mic bleed gated · group split-screens on simultaneous speech.**
 
-> DRAFT — pre-publish. Times are from the final render; update this header + URLs
-> via `yt_fetch.py` after upload (house rule: sheet mirrors the ACTUAL published copy).
-
 ## Episode video
 
+- **URL:** https://youtu.be/UA7jz9XF_vQ — published 2026-07-10 04:18 UTC (public)
 - **File:** `media/Permanent Underpod - Ep 5 (Final Cut v4).mp4` (v1/v2/v3 kept alongside for reference)
-- **Title (proposed):** We Gave an AI $100 and It Bet on War
-- **Alternates:** "An AI Made Our Podcast Segment, Then Bet $2,000 on Oil" · "'Fable Is War Profiteering' — AI Picks a 20x Crude Trade" · "The $20M DAO Heist Where Everyone Lost Money" · "Not All Dollars Are Worth a Dollar (Chain Drift, Explained)"
+- **Title (published):** We Gave an AI $100 and It Bet On War
+- Jackson's upload dropped the draft's GLOSSARY (accidental — restored via API
+  2026-07-09) and the 🔔 Subscribe teaser (intentional — stays off). The block
+  below is the LIVE copy.
 
-## YouTube description (paste-ready)
+## YouTube description (as published)
 
 ```
 This week the AI does the segment before we do: a fully AI-generated take on Venice AI's $1B raise — cyborg avatars, our cloned voices, takes we mostly agree with — then the real us react. Then Perp of Fortune returns: Fable reads the news, goes LONG crude oil at 20x with $100 of real money ("Iran is back"), gets rate-limited mid-trade, and Opus has to finish the job. We are up $1.92. Best we've ever done.
@@ -43,8 +43,6 @@ GLOSSARY
 • Perp of Fortune: our recurring bit — a tiny real-money leveraged perp on Hyperliquid. This week the AI picked the trade: LONG XYZ:CL (WTI crude) · 20x · $100 margin.
 • Chain drift: the same stablecoin trading at (slightly, sometimes catastrophically) different prices on different chains — bridged IOUs vs Circle-issued native USDC.
 • BonkDAO heist: attacker buys 1% of supply for $4.3M, votes his own "send me the treasury" proposal through, drains $20M — and is still probably down on the trade. Love of the game.
-
-🔔 Subscribe for next week: MEV — the dark forest, finally; agentic payments (do robots buy things?); and Chris's Contrarian Corner, owed since episode one.
 ```
 
 ## Chapters
