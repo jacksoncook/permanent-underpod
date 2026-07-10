@@ -105,10 +105,10 @@ Playlists set by the uploader; per-short "related video" is manual in Studio.
 
 | Date (2 PM PT) | Clip | Format | Title | URL |
 |---|---|---|---|---|
-| Fri Jul 10 | short1-war-profiteering | 9:16 · 0:34 | AI went long oil on Iran news. Live. 🛢️ | https://youtu.be/DLc8bQ_Q75c |
+| Fri Jul 10 | short1-war-profiteering | 9:16 · 0:34 | AI went long oil on Iran news. Live. 🛢️ | https://youtu.be/A8SYLHJhGB8 |
 | Sat Jul 11 | longform1-ai-clones | 16:9 · 7:07 | Highlights: The AI cloned us again — now with video (and we grade it) | https://youtu.be/tUAgTNbKox0 |
-| Sun Jul 12 | short3-literally-me | 9:16 · 0:39 | Our AI clones have faces now. "He's literally me" 🤖 | https://youtu.be/7NK7cUV0pl8 |
-| Mon Jul 13 | short2-we-got-a-perp | 9:16 · 0:26 | The AI's trade finally filled mid-show 📈 | https://youtu.be/ZXgnGp_Jt_Q |
+| Sun Jul 12 | short3-literally-me | 9:16 · 0:39 | Our AI clones have faces now. "He's literally me" 🤖 | https://youtu.be/obnm-HxEaqk |
+| Mon Jul 13 | short2-we-got-a-perp | 9:16 · 0:26 | The AI's trade finally filled mid-show 📈 | https://youtu.be/VakKUZLuvM4 |
 | Tue Jul 14 | longform2-bonkdao-heist | 16:9 · 5:11 | Highlights: The $20M DAO heist where the hacker lost money | https://youtu.be/Jbj5bOGwCwE |
-| Wed Jul 15 | short4-treasury-heist | 9:16 · 0:43 | He spent $4.3M to steal $20M. Legally-ish. 💸 | https://youtu.be/V_qIgOohRW8 |
-| Thu Jul 16 | short5-leaf-blower | 9:16 · 0:41 | Local frontier AI = a $50K leaf blower 🍃 | https://youtu.be/a3wjwDp4AZo |
+| Wed Jul 15 | short4-treasury-heist | 9:16 · 0:43 | He spent $4.3M to steal $20M. Legally-ish. 💸 | https://youtu.be/dkQDeUZgCi8 |
+| Thu Jul 16 | short5-leaf-blower | 9:16 · 0:41 | Local frontier AI = a $50K leaf blower 🍃 | https://youtu.be/wQhOnB0BOIo |
