@@ -24,3 +24,4 @@ media/
 client_secret*.json
 token.json
 *.results.json
+*.swp

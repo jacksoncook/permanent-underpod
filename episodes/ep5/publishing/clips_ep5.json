@@ -1,0 +1,20 @@
+{
+  "source": "/Users/jcook/Personal/permanent-underpod/media/Permanent Underpod - Ep 5 (Final Cut v4).mp4",
+  "out_dir": "/Users/jcook/Personal/permanent-underpod/media/clips/ep5",
+  "logo": "/Users/jcook/Personal/permanent-underpod/media/ep5-work/logo.png",
+  "audio_chain": "anull",
+  "clips": [
+    {"name": "short1-war-profiteering", "start": 1680.9, "end": 1714.5, "vertical": true, "logo": false,
+     "caption": {"kicker": "AI PICKS THE TRADE", "title": "\"FABLE IS WAR PROFITEERING\""}},
+    {"name": "short2-we-got-a-perp", "start": 3043.7, "end": 3070.0, "vertical": true, "logo": false,
+     "caption": {"kicker": "PERP OF FORTUNE", "title": "\"WE GOT A PERP!\""}},
+    {"name": "short3-literally-me", "start": 594.5, "end": 633.8, "vertical": true, "logo": false,
+     "caption": {"kicker": "THE AI CLONED US", "title": "\"HE'S LITERALLY ME\""}},
+    {"name": "short4-treasury-heist", "start": 3183.0, "end": 3226.0, "vertical": true, "logo": false,
+     "caption": {"kicker": "BONKDAO HEIST", "title": "$4.3M TO STEAL $20M"}},
+    {"name": "short5-leaf-blower", "start": 1312.4, "end": 1353.5, "vertical": true, "logo": false,
+     "caption": {"kicker": "LOCAL AI REALITY CHECK", "title": "THE $50K LEAF BLOWER"}},
+    {"name": "longform1-ai-clones", "start": 269.4, "end": 696.3, "style": "plain"},
+    {"name": "longform2-bonkdao-heist", "start": 2995.9, "end": 3307.3, "style": "plain"}
+  ]
+}

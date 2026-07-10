@@ -1,0 +1,141 @@
+{
+ "source": "/Users/jcook/Personal/permanent-underpod/media/ep5-work/edited_raw.mov",
+ "out_dir": "/Users/jcook/Personal/permanent-underpod/media/clips/ep5/facecrop",
+ "logo": "/Users/jcook/Personal/permanent-underpod/media/ep5-work/logo.png",
+ "audio_chain": "highpass=f=80,afftdn=nr=18:nf=-50:tn=1,acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,treble=f=9500:width_type=q:w=0.8:g=2,loudnorm=I=-16:TP=-1.5:LRA=5",
+ "clips": [
+  {
+   "name": "short1-war-profiteering",
+   "start": 1680.9,
+   "end": 1714.5,
+   "vertical": true,
+   "logo": true,
+   "face_crops": [
+    [
+     0.0,
+     397
+    ],
+    [
+     26.8,
+     864
+    ],
+    [
+     29.05,
+     10
+    ],
+    [
+     31.3,
+     117
+    ]
+   ],
+   "caption": {
+    "kicker": "AI PICKS THE TRADE",
+    "title": "\"FABLE IS WAR PROFITEERING\""
+   }
+  },
+  {
+   "name": "short2-we-got-a-perp",
+   "start": 3043.7,
+   "end": 3070.0,
+   "vertical": true,
+   "logo": true,
+   "face_crops": [
+    [
+     0.0,
+     757
+    ],
+    [
+     3.5,
+     117
+    ],
+    [
+     10.6,
+     397
+    ]
+   ],
+   "caption": {
+    "kicker": "PERP OF FORTUNE",
+    "title": "\"WE GOT A PERP!\""
+   }
+  },
+  {
+   "name": "short3-literally-me",
+   "start": 594.5,
+   "end": 633.8,
+   "vertical": true,
+   "logo": true,
+   "face_crops": [
+    [
+     0.0,
+     117
+    ],
+    [
+     4.57,
+     10
+    ],
+    [
+     10.07,
+     117
+    ],
+    [
+     16.07,
+     397
+    ]
+   ],
+   "caption": {
+    "kicker": "THE AI CLONED US",
+    "title": "\"HE'S LITERALLY ME\""
+   }
+  },
+  {
+   "name": "short4-treasury-heist",
+   "start": 3183.0,
+   "end": 3226.0,
+   "vertical": true,
+   "logo": true,
+   "face_crops": [
+    [
+     0.0,
+     397
+    ],
+    [
+     42.3,
+     757
+    ]
+   ],
+   "caption": {
+    "kicker": "BONKDAO HEIST",
+    "title": "$4.3M TO STEAL $20M"
+   }
+  },
+  {
+   "name": "short5-leaf-blower",
+   "start": 1312.4,
+   "end": 1353.5,
+   "vertical": true,
+   "logo": true,
+   "face_crops": [
+    [
+     0.0,
+     457
+    ],
+    [
+     31.43,
+     757
+    ],
+    [
+     33.18,
+     117
+    ],
+    [
+     38.43,
+     457
+    ]
+   ],
+   "caption": {
+    "kicker": "LOCAL AI REALITY CHECK",
+    "title": "THE $50K LEAF BLOWER"
+   }
+  }
+ ]
+}
