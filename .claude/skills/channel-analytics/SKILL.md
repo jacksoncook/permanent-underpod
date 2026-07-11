@@ -58,9 +58,13 @@ retention curves overlaid per episode; then the insight cards and a full video t
   allows, else curve-only.
 - **Shorts detection is a heuristic** (≤183 s ⇒ short); a genuinely short landscape
   clip would be mislabeled.
-- **Impressions/CTR are NOT in the public Analytics API** (YouTube Studio only) —
-  use views + traffic sources as the packaging proxy; say so in insights rather
-  than inventing CTR numbers.
+- **Impressions/CTR** come from the **YouTube Reporting API** (added Jan 2026;
+  report type `channel_reach_basic_a1` — they are NOT in the Analytics query API).
+  `yt_pull.py` handles it: first run creates the report job, later runs download the
+  daily CSVs and merge per-video `reach: {impressions, ctr_pct}`. Expect ~48 h before
+  the first reports exist (with ~30-day backfill); until then reach is null — say
+  "no CTR data yet", don't invent numbers. Requires `youtubereporting.googleapis.com`
+  enabled in the Cloud project (the script prints the enable URL on 403).
 - Token expiry: if the OAuth consent screen is still in Testing mode, refresh tokens
   die after 7 days — re-auth or publish the app (see memory / clipify youtube-setup.md).
 - Data lands in `analytics/` (committable — it's our own channel's data; no secrets).

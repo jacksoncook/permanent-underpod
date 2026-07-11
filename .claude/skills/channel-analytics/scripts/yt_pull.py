@@ -76,6 +76,79 @@ def rows_as_dicts(resp):
     return [dict(zip(cols, r)) for r in resp.get("rows", [])]
 
 
+def pull_reach(creds, videos):
+    """Thumbnail impressions + CTR via the YouTube Reporting API (added Jan 2026).
+
+    Bulk-report model: a `channel_reach_basic_a1` job must exist; Google then drops
+    daily CSVs (~48h lag, backfilled ~30 days from job creation). First call creates
+    the job and returns; later calls download + aggregate per video.
+    """
+    from google.auth.transport.requests import AuthorizedSession
+    from googleapiclient.discovery import build
+    from googleapiclient.errors import HttpError
+    try:
+        rep = build("youtubereporting", "v1", credentials=creds)
+        jobs = rep.jobs().list().execute().get("jobs", [])
+        job = next((j for j in jobs if j["reportTypeId"] == "channel_reach_basic_a1"), None)
+        if not job:
+            rep.jobs().create(body={"reportTypeId": "channel_reach_basic_a1",
+                                    "name": "underpod-reach"}).execute()
+            print("reach: created Reporting API job — impressions/CTR will appear on a "
+                  "future pull (Google generates daily reports within ~48h, ~30-day backfill)")
+            return
+        reports, page = [], None
+        while True:
+            r = rep.jobs().reports().list(jobId=job["id"], pageToken=page).execute()
+            reports += r.get("reports", [])
+            page = r.get("nextPageToken")
+            if not page:
+                break
+        if not reports:
+            print("reach: job exists but no reports generated yet (~48h after creation)")
+            return
+        latest = {}  # one report per covered day, newest version wins
+        for rpt in reports:
+            k = rpt["startTime"]
+            if k not in latest or rpt["createTime"] > latest[k]["createTime"]:
+                latest[k] = rpt
+        sess = AuthorizedSession(creds)
+        agg = {}  # video_id -> [impressions, estimated clicks]
+        ctr_is_pct = False
+        for rpt in latest.values():
+            lines = [l for l in sess.get(rpt["downloadUrl"]).text.splitlines() if l]
+            if not lines:
+                continue
+            hdr = lines[0].split(",")
+            try:
+                vi = hdr.index("video_id")
+                ii = hdr.index("video_thumbnail_impressions")
+                ci = hdr.index("video_thumbnail_impressions_ctr")
+            except ValueError:
+                continue
+            for line in lines[1:]:
+                f = line.split(",")
+                imp, ctr = float(f[ii] or 0), float(f[ci] or 0)
+                if ctr > 1.5:
+                    ctr_is_pct = True
+                a = agg.setdefault(f[vi], [0.0, 0.0])
+                a[0] += imp
+                a[1] += imp * ctr
+        n = 0
+        for vid, (imp, clicks) in agg.items():
+            if vid in videos and imp > 0:
+                pct = clicks / imp * (1 if ctr_is_pct else 100)
+                videos[vid]["reach"] = {"impressions": int(imp), "ctr_pct": round(pct, 2)}
+                n += 1
+        print(f"reach: impressions/CTR merged for {n} videos ({len(latest)} daily reports)")
+    except HttpError as e:
+        if e.status_code == 403:
+            print("reach: YouTube Reporting API not enabled — enable it at\n"
+                  "  https://console.developers.google.com/apis/api/youtubereporting."
+                  "googleapis.com/overview then re-run (rest of the pull is unaffected)")
+        else:
+            print(f"reach unavailable ({e.status_code}) — continuing without impressions/CTR")
+
+
 def main():
     args = [a for a in sys.argv[1:]]
     expect = None
@@ -148,6 +221,7 @@ def main():
                 },
                 "analytics": None,
                 "retention": None,
+                "reach": None,
             }
 
     # lifetime per-video analytics, chunked filters
@@ -202,6 +276,8 @@ def main():
                 for r in rows
             ]
             print(f"  retention: {v['title'][:60]}  ({len(rows)} pts)")
+
+    pull_reach(creds, videos)
 
     daily = rows_as_dicts(yta.reports().query(
         ids="channel==MINE", startDate=start, endDate=today,

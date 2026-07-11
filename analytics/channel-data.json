@@ -1,5 +1,5 @@
 {
-  "pulledAt": "2026-07-11T05:07:10-07:00",
+  "pulledAt": "2026-07-11T05:30:04-07:00",
   "range": {
     "start": "2026-06-13",
     "end": "2026-07-11"
@@ -539,7 +539,8 @@
           "watch_ratio": 0.0313,
           "vs_typical": 0.51605
         }
-      ]
+      ],
+      "reach": null
     },
     {
       "id": "RAygnmBvylw",
@@ -566,12 +567,13 @@
         "shares": 0,
         "subs_gained": 0
       },
-      "retention": null
+      "retention": null,
+      "reach": null
     },
     {
       "id": "GWEp23KVDlY",
       "url": "https://youtu.be/GWEp23KVDlY",
-      "title": "Highlight - Stablecoins to Zero?",
+      "title": "Stablecoins to Zero? - Ep 1 Clip",
       "publishedAt": "2026-06-15T21:00:04Z",
       "duration_s": 772,
       "is_short": false,
@@ -593,7 +595,8 @@
         "shares": 0,
         "subs_gained": 0
       },
-      "retention": null
+      "retention": null,
+      "reach": null
     },
     {
       "id": "XotyRQczHlI",
@@ -620,7 +623,8 @@
         "shares": 0,
         "subs_gained": 0
       },
-      "retention": null
+      "retention": null,
+      "reach": null
     },
     {
       "id": "dtxtElP5Rno",
@@ -647,7 +651,8 @@
         "shares": 0,
         "subs_gained": 0
       },
-      "retention": null
+      "retention": null,
+      "reach": null
     },
     {
       "id": "H0ptrq1BhYI",
@@ -1175,7 +1180,8 @@
           "watch_ratio": 0.0513,
           "vs_typical": 0.69465
         }
-      ]
+      ],
+      "reach": null
     },
     {
       "id": "zwQgZz3H_f0",
@@ -1202,7 +1208,8 @@
         "shares": 0,
         "subs_gained": 0
       },
-      "retention": null
+      "retention": null,
+      "reach": null
     },
     {
       "id": "XCYZmorQMI8",
@@ -1229,12 +1236,13 @@
         "shares": 0,
         "subs_gained": 0
       },
-      "retention": null
+      "retention": null,
+      "reach": null
     },
     {
       "id": "qwlCzhwirRI",
       "url": "https://youtu.be/qwlCzhwirRI",
-      "title": "Highlight - The US Government AI Rugged Us",
+      "title": "The US Government AI Rugged Us - Ep 2 Clip",
       "publishedAt": "2026-06-21T21:00:29Z",
       "duration_s": 621,
       "is_short": false,
@@ -1757,7 +1765,8 @@
           "watch_ratio": 0.0204,
           "vs_typical": 0.4535
         }
-      ]
+      ],
+      "reach": null
     },
     {
       "id": "AO4GvNrjzyo",
@@ -1784,7 +1793,8 @@
         "shares": 0,
         "subs_gained": 0
       },
-      "retention": null
+      "retention": null,
+      "reach": null
     },
     {
       "id": "54Dhaa2GTbQ",
@@ -1811,7 +1821,8 @@
         "shares": 0,
         "subs_gained": 0
       },
-      "retention": null
+      "retention": null,
+      "reach": null
     },
     {
       "id": "2FnR-6aqpp4",
@@ -1838,7 +1849,8 @@
         "shares": 0,
         "subs_gained": 0
       },
-      "retention": null
+      "retention": null,
+      "reach": null
     },
     {
       "id": "fzhXz_KrYrs",
@@ -2366,7 +2378,8 @@
           "watch_ratio": 0.0519,
           "vs_typical": 0.75585
         }
-      ]
+      ],
+      "reach": null
     },
     {
       "id": "A3Nly6uxVNA",
@@ -2393,7 +2406,8 @@
         "shares": 0,
         "subs_gained": 0
       },
-      "retention": null
+      "retention": null,
+      "reach": null
     },
     {
       "id": "mAInSYYiLxw",
@@ -2420,7 +2434,8 @@
         "shares": 0,
         "subs_gained": 0
       },
-      "retention": null
+      "retention": null,
+      "reach": null
     },
     {
       "id": "RiUBHlCwiWk",
@@ -2813,7 +2828,8 @@
           "watch_ratio": 0.087,
           "vs_typical": 0.7859499999999999
         }
-      ]
+      ],
+      "reach": null
     },
     {
       "id": "h15aAre2tIs",
@@ -2840,7 +2856,8 @@
         "shares": 0,
         "subs_gained": 0
       },
-      "retention": null
+      "retention": null,
+      "reach": null
     },
     {
       "id": "-CVRZLaywQo",
@@ -2867,7 +2884,8 @@
         "shares": 0,
         "subs_gained": 0
       },
-      "retention": null
+      "retention": null,
+      "reach": null
     },
     {
       "id": "JU_k2lHGdpo",
@@ -2894,7 +2912,8 @@
         "shares": 0,
         "subs_gained": 0
       },
-      "retention": null
+      "retention": null,
+      "reach": null
     },
     {
       "id": "aawutydvfOI",
@@ -2921,7 +2940,8 @@
         "shares": 0,
         "subs_gained": 1
       },
-      "retention": null
+      "retention": null,
+      "reach": null
     },
     {
       "id": "XmPUdQ3TQpw",
@@ -3449,7 +3469,8 @@
           "watch_ratio": 0.036699999999999997,
           "vs_typical": 0.3891
         }
-      ]
+      ],
+      "reach": null
     },
     {
       "id": "v2YD3ZkHKks",
@@ -3483,12 +3504,13 @@
         "shares": 0,
         "subs_gained": 0
       },
-      "retention": null
+      "retention": null,
+      "reach": null
     },
     {
       "id": "tmX3PrCDOM0",
       "url": "https://youtu.be/tmX3PrCDOM0",
-      "title": "Highlight - AI cloned us...then it recorded a segment on OpenUSD",
+      "title": "AI cloned us...then it recorded a segment on OpenUSD - Ep 4 Clip",
       "publishedAt": "2026-07-05T21:00:13Z",
       "duration_s": 364,
       "is_short": false,
@@ -4019,7 +4041,8 @@
           "watch_ratio": 0.0345,
           "vs_typical": 0.09674999999999995
         }
-      ]
+      ],
+      "reach": null
     },
     {
       "id": "gI-qOQhWI18",
@@ -4053,7 +4076,8 @@
         "shares": 0,
         "subs_gained": 0
       },
-      "retention": null
+      "retention": null,
+      "reach": null
     },
     {
       "id": "N5GFCGi52XM",
@@ -4088,12 +4112,13 @@
         "shares": 0,
         "subs_gained": 0
       },
-      "retention": null
+      "retention": null,
+      "reach": null
     },
     {
       "id": "mDE0RnqCheE",
       "url": "https://youtu.be/mDE0RnqCheE",
-      "title": "Highlight - The burn desk: how stablecoins control your exit",
+      "title": "The burn desk: how stablecoins control your exit - Ep 4 Clip",
       "publishedAt": "2026-07-08T21:00:31Z",
       "duration_s": 189,
       "is_short": false,
@@ -4123,7 +4148,8 @@
         "shares": 0,
         "subs_gained": 0
       },
-      "retention": null
+      "retention": null,
+      "reach": null
     },
     {
       "id": "s8eUw6DiMrs",
@@ -4148,36 +4174,13 @@
         "comments": 0
       },
       "analytics": null,
-      "retention": null
-    },
-    {
-      "id": "tUAgTNbKox0",
-      "url": "https://youtu.be/tUAgTNbKox0",
-      "title": "Highlight - The AI cloned us again — now with video...",
-      "publishedAt": "2026-07-10T04:09:51Z",
-      "duration_s": 427,
-      "is_short": false,
-      "tags": [
-        "ai",
-        "aiclone",
-        "deepfake",
-        "podcast",
-        "veniceai"
-      ],
-      "privacyStatus": "private",
-      "publishAt": "2026-07-11T21:00:00Z",
-      "stats": {
-        "views": 1,
-        "likes": 0,
-        "comments": 0
-      },
-      "analytics": null,
-      "retention": null
+      "retention": null,
+      "reach": null
     },
     {
       "id": "Jbj5bOGwCwE",
       "url": "https://youtu.be/Jbj5bOGwCwE",
-      "title": "Highlight - The $20M DAO heist where the hacker lost money",
+      "title": "The $20M DAO heist where the hacker lost money - Ep 5 Clip",
       "publishedAt": "2026-07-10T04:14:40Z",
       "duration_s": 312,
       "is_short": false,
@@ -4196,7 +4199,8 @@
         "comments": 0
       },
       "analytics": null,
-      "retention": null
+      "retention": null,
+      "reach": null
     },
     {
       "id": "UA7jz9XF_vQ",
@@ -4214,7 +4218,8 @@
         "comments": 0
       },
       "analytics": null,
-      "retention": null
+      "retention": null,
+      "reach": null
     },
     {
       "id": "obnm-HxEaqk",
@@ -4237,7 +4242,8 @@
         "comments": 0
       },
       "analytics": null,
-      "retention": null
+      "retention": null,
+      "reach": null
     },
     {
       "id": "VakKUZLuvM4",
@@ -4261,7 +4267,8 @@
         "comments": 0
       },
       "analytics": null,
-      "retention": null
+      "retention": null,
+      "reach": null
     },
     {
       "id": "dkQDeUZgCi8",
@@ -4285,7 +4292,8 @@
         "comments": 0
       },
       "analytics": null,
-      "retention": null
+      "retention": null,
+      "reach": null
     },
     {
       "id": "wQhOnB0BOIo",
@@ -4309,7 +4317,8 @@
         "comments": 0
       },
       "analytics": null,
-      "retention": null
+      "retention": null,
+      "reach": null
     },
     {
       "id": "A8SYLHJhGB8",
@@ -4333,7 +4342,33 @@
         "comments": 0
       },
       "analytics": null,
-      "retention": null
+      "retention": null,
+      "reach": null
+    },
+    {
+      "id": "GFMjkD7uJn8",
+      "url": "https://youtu.be/GFMjkD7uJn8",
+      "title": "The AI cloned us again — now with video - Ep 5 Clip",
+      "publishedAt": "2026-07-11T12:10:10Z",
+      "duration_s": 393,
+      "is_short": false,
+      "tags": [
+        "ai",
+        "aiclone",
+        "deepfake",
+        "podcast",
+        "veniceai"
+      ],
+      "privacyStatus": "private",
+      "publishAt": "2026-07-11T21:00:00Z",
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      },
+      "analytics": null,
+      "retention": null,
+      "reach": null
     }
   ],
   "daily": [

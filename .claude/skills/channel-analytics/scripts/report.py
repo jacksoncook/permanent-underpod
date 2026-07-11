@@ -93,6 +93,9 @@ def main():
     rows = []
     for v in sorted(videos, key=lambda x: x.get("publishedAt") or "9999", reverse=True):
         a = v.get("analytics") or {}
+        r = v.get("reach") or {}
+        impr = f"{r['impressions']:,}" if r else "–"
+        ctr = f"{r['ctr_pct']:.1f}%" if r else "–"
         status = v.get("privacyStatus")
         badge = ("<span class='tag short'>short</span>" if v["is_short"] else "<span class='tag'>episode</span>")
         if status != "public":
@@ -101,6 +104,8 @@ def main():
           <td><a href="{esc(v['url'])}">{esc(v['title'])}</a> {badge}</td>
           <td>{esc((v.get('publishedAt') or v.get('publishAt') or '')[:10])}</td>
           <td>{fmt_dur(v['duration_s'])}</td>
+          <td class="num">{impr}</td>
+          <td class="num">{ctr}</td>
           <td class="num">{v['stats']['views']:,}</td>
           <td class="num">{a.get('avg_view_pct', 0):.0f}%</td>
           <td class="num">{fmt_dur(a.get('avg_view_s', 0))}</td>
@@ -185,7 +190,8 @@ def main():
 {'<h2>Experiments to run</h2><ul class="exp">' + experiments + '</ul>' if experiments else ''}
 
 <h2>All videos</h2>
-<table><tr><th>Title</th><th>Date</th><th>Len</th><th class="num">Views</th>
+<table><tr><th>Title</th><th>Date</th><th>Len</th><th class="num">Impr</th>
+<th class="num">CTR</th><th class="num">Views</th>
 <th class="num">Avg %</th><th class="num">Avg time</th><th class="num">Likes</th>
 <th class="num">Comments</th><th class="num">Shares</th><th class="num">Subs+</th></tr>
 {''.join(rows)}</table>
