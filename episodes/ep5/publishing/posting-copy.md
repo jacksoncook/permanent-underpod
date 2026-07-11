@@ -5,7 +5,7 @@
 - Caption: We let an AI pick a real leveraged trade on the show — it chose 20x long crude and Tyler called it war profiteering. Full episode: EPISODE_URL
 - Tags:    #shorts #ai #trading #crypto
 
-**longform1-ai-clones** (16:9 | 7:07) — Sat Jul 11
+**longform1-ai-clones-v2** (16:9 | 6:32, intro trimmed — opens on the AI segment) — Sat Jul 11
 - Title:   Highlights: The AI cloned us again — now with video (and we grade it)
 - Caption: We had an AI generate an entire podcast segment about Venice AI using cloned versions of us — faces, voices, takes — then reviewed our own clones on air. "He's literally me." Full episode: EPISODE_URL
 - Tags:    #ai #deepfake #veniceai #podcast

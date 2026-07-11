@@ -1,0 +1,12 @@
+{
+  "client_secret": "~/.config/clipify-youtube/client_secret.json",
+  "token": "~/.config/clipify-youtube/token.json",
+  "defaults": {"categoryId": "22", "privacyStatus": "private", "madeForKids": false},
+  "uploads": [
+    {"file": "/Users/jcook/Personal/permanent-underpod/media/clips/ep5/longform1-ai-clones-v2.mp4",
+     "title": "Highlights: The AI cloned us again — now with video (and we grade it)",
+     "description": "We had an AI generate an entire podcast segment about Venice AI using cloned versions of us — faces, voices, takes — then reviewed our own clones on air. \"He's literally me.\" Full episode on the Permanent Underpod channel.\n\n#ai #deepfake #veniceai",
+     "tags": ["ai", "deepfake", "veniceai", "aiclone", "podcast"],
+     "playlist": "Underpod Clips", "publishAt": "2026-07-11T21:00:00Z"}
+  ]
+}
