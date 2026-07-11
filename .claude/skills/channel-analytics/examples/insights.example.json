@@ -1,0 +1,22 @@
+{
+  "headline": "One-sentence TLDR of the channel's current trajectory and the single biggest lever.",
+  "channel": [
+    {
+      "title": "Short, imperative finding about packaging/distribution (titles, thumbnails, shorts strategy, cadence, SEO)",
+      "evidence": "The specific numbers from channel-data.json that support it (name videos, cite views/CTR-proxies/retention).",
+      "recommendation": "The concrete action to take next episode.",
+      "priority": "high"
+    }
+  ],
+  "pod": [
+    {
+      "title": "Finding about the show itself (episode length, segment order, hooks, topics, pacing)",
+      "evidence": "e.g. retention on Ep 4 drops from 62% to 31% between 40-55% mark, which maps to segment X.",
+      "recommendation": "What to change in how the show is recorded/edited.",
+      "priority": "med"
+    }
+  ],
+  "experiments": [
+    "Optional list of one-line A/B-style experiments worth running."
+  ]
+}

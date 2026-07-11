@@ -1,0 +1,75 @@
+{
+  "generatedAt": "2026-07-11",
+  "headline": "Shorts bring 81% of views but ~zero subscribers; episodes convert. The single biggest lever: fix the shorts→episode funnel and rebuild episodes around what demonstrably retains — live stakes, confessions, and AI bits — instead of long explainers.",
+  "channel": [
+    {
+      "title": "Kill the 'Highlight -' mid-length format (two more are scheduled — retitle them TODAY)",
+      "evidence": "All five published Highlights flopped: Stablecoins to Zero 8 views, US Govt AI Rugged Us 50, Perp of Fortune 23, AI cloned us 92, burn desk 5 — with retention vs-typical in the bottom decile (0.03–0.12 through their first third). Two more 'Highlight -' videos are scheduled for Jul 11 and Jul 14.",
+      "recommendation": "Before they auto-publish, retitle the two scheduled clips as standalone videos with hook titles (e.g. 'Our AI Clones Have Video Now' / 'He Spent $4.3M to Steal $20M — and Lost'). Going forward, either cut highlights as <60s shorts or give them standalone packaging; never ship the 'Highlight -' prefix.",
+      "priority": "high"
+    },
+    {
+      "title": "Shorts get views but convert nothing — wire the funnel",
+      "evidence": "Traffic: SHORTS = 4,525 views (81% of channel) but only 238 watch-minutes (8%) and ~1 subscriber gained across all shorts. SUBSCRIBER + direct traffic = 524 views but 1,636 watch-minutes. Episodes gained 2–3 subs each; shorts ~0. The related-video link (shorts → episode) is still a pending manual step for Ep 5.",
+      "recommendation": "Set the related-video on every short (it's still unset for the Ep 5 batch), pin a comment with the episode link + timestamp of the full segment, and say the show name out loud in the first 2 seconds of each short.",
+      "priority": "high"
+    },
+    {
+      "title": "Double down on the shorts that work: human moments and spicy one-liners, not concepts",
+      "evidence": "Winners are all personality/absurdity: lottery ticket 1,273 views, Halo 3 roast 986, skipped-his-party 674, ate the dog's food 469, Pico's shrooms 395, Jamie Dimon one-liner 392, 'Coinbase sticker' 380. Losers are all abstract finance/AI concepts: building a stock with ChatGPT 4, agentic investor 11, Claude won't help 10, retail gambling 24.",
+      "recommendation": "Pick shorts by 'is a host being a character / is there a quotable roast', not by topic importance. Every episode has 2–3 of these moments — clip those first.",
+      "priority": "high"
+    },
+    {
+      "title": "Shorter shorts loop; aim 10–20 seconds",
+      "evidence": "Sub-15s shorts average >100% viewed (they loop: Dimon 145%, Bitcoin Bankruptcy 130%, govt-deleted-AI 109%), which feeds the Shorts algorithm. The 25–60s ones hold only 30–48%.",
+      "recommendation": "Default to a single punchline in 10–20s; use 25s+ only when the bit genuinely needs setup. Re-cut long-setup shorts to start mid-laugh.",
+      "priority": "med"
+    },
+    {
+      "title": "Cadence is working — protect it",
+      "evidence": "5 episodes in 4 weeks (Jun 13 → Jul 10) plus a daily short queue; the channel went 0 → 16 subs and 6,169 views in 26 days. Every episode day shows a views + watch-time spike.",
+      "recommendation": "Keep weekly episode + daily short. Note: impressions/CTR aren't exposed by the API (Studio-only), so thumbnail/title CTR judgments here are proxied by views — check Studio's CTR on Ep 3 vs Ep 4 packaging when curious.",
+      "priority": "low"
+    }
+  ],
+  "pod": [
+    {
+      "title": "The first 4 minutes lose ~85% of viewers — open with the payoff, not the check-in",
+      "evidence": "By the 5% mark retention is already 11–19% on every episode (Ep1 17%, Ep2 19%, Ep3 11%, Ep4 18%), and vs-typical at 5–10% is below 0.65 on all of them. Yet every episode spends minutes 1–5 on housekeeping/Pico updates (Ep1 10:11, Ep2 5:42, Ep3 0:54, Ep4 2:13) before the main content.",
+      "recommendation": "Cold-open with the episode's single best 60–90 seconds (the fill landing, the confession, the AI clone reveal), then title card, then AT MOST 60s of check-in before the first real segment. Move Pico/gamer-thumb updates to mid-show palate cleansers.",
+      "priority": "high"
+    },
+    {
+      "title": "Long educational explainers are where episodes die",
+      "evidence": "Ep 4's single biggest cliff (7%→4%) lands at the 30% mark = 22:00, exactly where 'Freeze functions & privacy zones' (22:16) starts, inside a 24-min L2 deep-dive. Ep 2 collapses (vs-typical 0.22→0.07) at 55–70% = 36–46 min, mid 19-min perps explainer. Ep 1 craters to 3% at 75% = 63 min, inside the 13-min stablecoins-to-zero segment — the same content that got 8 views as a standalone highlight.",
+      "recommendation": "Cap any explainer at ~8 minutes, and anchor it to something live or personal (explain perps WHILE the position is open — Ep 3/5 proved this works). If a segment can't be tied to stakes, cut it down in the edit even if the conversation was good.",
+      "priority": "high"
+    },
+    {
+      "title": "Live stakes, confessions, and AI bits are the retention engine — make them the spine",
+      "evidence": "Ep 3's back half holds 0.64–0.95 vs-typical from 50%→100% (the live $DRAM/custody/confession stretch); 'Confession: emergency fund into Stretch' sits right at its 0.91–0.95 peak. Ep 4 peaks (0.73–0.86) at 80–85% = 'our jobs are fine, yours aren't'. Ep 4's recovery after the L2 cliff coincides with soul.md/AI-clone content at ~50%. Ep 1's best moment vs-typical (0.88) is the lottery-ticket bit at 95%.",
+      "recommendation": "Structure every episode around one live-stakes bit (Perp of Fortune), one confession/personal-money story, and one AI-does-something-unsettling segment — and place one of them in the first 10 minutes instead of at minute 27+ (Ep 5 opened Perp at 27:08).",
+      "priority": "high"
+    },
+    {
+      "title": "Episodes are 60–85 min but the median viewer stays 3–7 min",
+      "evidence": "Avg view duration: Ep1 6:53 (8.2% of 84 min), Ep2 6:10 (9.4%), Ep3 2:59 (4.0%), Ep4 4:28 (6.1%). Nobody's episode-completion economics support 80+ minutes at 16 subscribers.",
+      "recommendation": "Tighten the edit toward 45–55 min by cutting the weakest explainer stretches (the retention curves literally mark them). Keep the long version only if the cut costs a segment you'd want as a standalone clip.",
+      "priority": "med"
+    },
+    {
+      "title": "Payoffs at the very end mostly go unseen — but they're clip gold",
+      "evidence": "Ep 1's lottery bit (95% mark, 0.88 vs-typical) and Ep 5's post-credits land where only 3–5% of viewers remain, yet the lottery short became the channel's #1 video (1,273 views).",
+      "recommendation": "Keep the end-of-show bits, but treat them as shorts-first content: clip them within 24h of the episode, and tease them in the cold open ('stay for the lottery tickets').",
+      "priority": "med"
+    }
+  ],
+  "experiments": [
+    "Retitle the two scheduled 'Highlight -' videos before their Jul 11 / Jul 14 publish times and compare views vs the five that shipped with the prefix.",
+    "Ep 6: open with Perp of Fortune in the first 10 minutes (Perp continuity from Ep 5 is already planned) and compare the 5–25% retention band vs Eps 1–5.",
+    "Cut one 10–15s loop-style short (single punchline, starts mid-laugh) from Ep 6 and A/B against a 30s+ setup short from the same segment.",
+    "Set related-video + pinned episode-link comments on the whole Ep 5 shorts batch, then watch whether SHORTS-source watch-minutes and subs move over 2 weeks.",
+    "Check YouTube Studio CTR (not in the API) on Ep 3's title style vs Ep 4's to settle which thumbnail/title formula to standardize."
+  ]
+}

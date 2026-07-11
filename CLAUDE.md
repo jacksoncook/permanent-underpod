@@ -27,6 +27,9 @@ production files. Not affiliated with any employer.
 - **clipify**: `clipify.py` cuts clips; `yt_upload.py` publishes (scheduled-private,
   auto-publish at a `publishAt`); `yt_fetch.py` reads back live video metadata. One-time
   OAuth setup is in `.claude/skills/clipify/youtube-setup.md`.
+- **channel-analytics**: `yt_pull.py` pulls channel/video stats + retention curves +
+  traffic sources; LLM writes `analytics/insights.json`; `report.py` renders a branded
+  HTML report. Always `--expect-channel "Permanent Underpod"`.
 
 ## Conventions / gotchas
 - **`segment-times.md` reflects the ACTUAL published YouTube copy** (pulled via
