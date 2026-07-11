@@ -74,7 +74,7 @@ sheets) comes down with the clone.
 
 ## Skills
 
-Two companion agent skills, in **`.claude/skills/`** so they auto-load when you open
+Three companion agent skills, in **`.claude/skills/`** so they auto-load when you open
 this repo in Claude Code (also installed globally under `~/.claude/skills`):
 
 - **`podcast-video-edit`** — turns a raw recording into a polished episode.
@@ -82,6 +82,13 @@ this repo in Claude Code (also installed globally under `~/.claude/skills`):
   footage (logo bug + caption, 16:9 or vertical 9:16), or **plain** long-form
   chapter pulls sliced out of the finished cut. Both share the frame-aligned
   anti-drift recipe.
+- **`channel-analytics`** — pulls the channel's YouTube stats (views, watch time,
+  retention curves, traffic sources, impressions/CTR), writes data-backed
+  improvement insights, and renders a branded HTML report published at
+  https://jacksoncook.github.io/pod-analytics-latest/.
+
+How the three fit together week to week: see **CLAUDE.md → "Managing the pod"**
+(record → edit → publish episode → clips + funnel checklist → weekly review).
 
 ## Producing an episode (the scripted pipeline)
 
