@@ -54,6 +54,19 @@ Self-contained dark-brand HTML (logo embedded; Chart.js from CDN, so viewing nee
 network). Charts: views per video, daily views + net subs, traffic sources,
 retention curves overlaid per episode; then the insight cards and a full video table.
 
+## 4. Publish to the shareable URL
+The latest report lives at **https://jacksoncook.github.io/pod-analytics-latest/**
+(served from the sibling repo `../jacksoncook.github.io`; the page carries
+`noindex`, so it's link-shareable but not searchable):
+```bash
+mkdir -p ../jacksoncook.github.io/pod-analytics-latest
+cp analytics/report.html ../jacksoncook.github.io/pod-analytics-latest/index.html
+git -C ../jacksoncook.github.io add pod-analytics-latest \
+  && git -C ../jacksoncook.github.io commit -m "pod-analytics: refresh report" \
+  && git -C ../jacksoncook.github.io push
+```
+Do this after every re-render so the URL always shows the latest run.
+
 ## Gotchas
 - **Scheduled/private videos** appear in the table (flagged) but have ~no analytics
   yet — don't read their zeros as failure.

@@ -6,43 +6,57 @@
       "title": "Never ship the 'Highlight -' prefix — hook first, provenance as suffix",
       "evidence": "All five published Highlights flopped: Stablecoins to Zero 8 views, US Govt AI Rugged Us 50, Perp of Fortune 23, AI cloned us 92, burn desk 5 — retention vs-typical in the bottom decile (0.03–0.12 through their first third). Retitles to the new house convention '<Hook> - Ep N Clip' are underway (Ep 2 + Ep 4 clips done); impressions/CTR data landing ~Jul 13 will give the clean before/after.",
       "recommendation": "Standardize clip titling: hook first, '- Ep N Clip' suffix (e.g. 'The US Government AI Rugged Us - Ep 2 Clip'), 'Clip from Episode N — full episode: [link]' as the description's first line. Finish retitling the remaining Highlight ('Perp of Fortune') and the scheduled Jul 14 clip.",
-      "priority": "high"
+      "priority": "high",
+      "status": "partial",
+      "status_note": "Convention + lint baked into clipify (commit c0d20d2); 4 of 5 published Highlights retitled, both scheduled Ep 5 clips use '- Ep N Clip'. Remaining: retitle 'Highlight - Perp of Fortune'."
     },
     {
       "title": "Wire the shorts→episode funnel — it's currently disconnected",
       "evidence": "Traffic: SHORTS = 4,525 views (81% of channel) but only 238 watch-minutes (8%) and ~1 subscriber gained across all shorts. SUBSCRIBER + direct = 524 views but 1,636 watch-minutes. Episodes gained 2–3 subs each; shorts ~0. The related-video link is still unset for the Ep 5 batch.",
       "recommendation": "Set the related-video on every short, pin a comment with the episode link + timestamp of the full segment, and add end screens on episodes/clips. Make this a standard yt_upload.py-era publishing checklist step.",
-      "priority": "high"
+      "priority": "high",
+      "status": "partial",
+      "status_note": "Tooling done: yt_upload.py prints the funnel checklist after every batch and lints missing episode links. Still manual + pending: related-video and pinned comments on the live Ep 1-5 shorts, end screens."
     },
     {
       "title": "Pick shorts by personality, not topic importance",
       "evidence": "Winners are all human moments/one-liners: lottery ticket 1,273 views, Halo 3 roast 986, skipped-his-party 674, dog food 469, Pico's shrooms 395, Jamie Dimon 392, 'Coinbase sticker' 380. Losers are all abstract concepts: building a stock with ChatGPT 4, agentic investor 11, Claude won't help 10, retail gambling 24.",
       "recommendation": "In clipify selection, the test is 'is a host being a character / is there a quotable roast'. Every episode has 2–3 of these — clip those first, concepts last.",
-      "priority": "high"
+      "priority": "high",
+      "status": "done",
+      "status_note": "Selection rule in clipify SKILL.md ('What to clip'); applies to every future batch."
     },
     {
       "title": "Cut shorts to 10–20 seconds so they loop",
       "evidence": "Sub-15s shorts average >100% viewed (Dimon 145%, Bitcoin Bankruptcy 130%, govt-deleted-AI 109%) — looping feeds the Shorts algorithm. The 25–60s cuts hold only 30–48%.",
       "recommendation": "Default clipify cuts to a single punchline in 10–20s, starting mid-laugh; use 25s+ only when the bit needs setup.",
-      "priority": "med"
+      "priority": "med",
+      "status": "done",
+      "status_note": "10-20s loop-style default in clipify SKILL.md; applies to every future batch."
     },
     {
       "title": "Tighten the episode edit toward 45–55 min using the retention curves",
       "evidence": "Episodes run 60–85 min but median avg view duration is 3–7 min (Ep1 6:53, Ep2 6:10, Ep3 2:59, Ep4 4:28). The curves literally mark the cuttable stretches: Ep 4's cliff at 22:00 (Freeze functions), Ep 2's collapse mid perps-explainer (36–46 min), Ep 1's crater inside stablecoins-to-zero (63 min).",
       "recommendation": "In the edit, cut or heavily trim the explainer stretches the curves flag, even when the conversation was good. Keep a segment long only if it would survive as a standalone clip.",
-      "priority": "med"
+      "priority": "med",
+      "status": "done",
+      "status_note": "Now a default in podcast-video-edit SKILL.md ('Retention-informed edit defaults'); first applies to the Ep 6 cut."
     },
     {
       "title": "Build cold opens from the episode's best 60–90 seconds and tease the end-of-show bit",
       "evidence": "End-of-show payoffs go mostly unseen live (Ep 1's lottery bit sits at the 95% mark with only 3–5% of viewers left) yet the lottery short is the channel's #1 video (1,273 views). Cold opens today don't stop the first-4-minute bleed (retention 11–19% by the 5% mark on every episode).",
       "recommendation": "In the edit: cold-open with the single best moment (the fill landing, the confession, the clone reveal), tease the finale ('stay for the lottery tickets'), and clip end-of-show bits as shorts within 24h of episode publish.",
-      "priority": "med"
+      "priority": "med",
+      "status": "done",
+      "status_note": "Cold-open + first-10-minutes defaults in podcast-video-edit SKILL.md; 24h end-bit clipping rule in clipify. First applies to Ep 6."
     },
     {
       "title": "Cadence is working — protect it",
       "evidence": "5 episodes in 4 weeks plus a daily short queue took the channel 0 → 16 subs and 6,169 views in 26 days; every episode day shows a views + watch-time spike.",
       "recommendation": "Keep weekly episode + daily short in the publishing schedule. Re-pull after Jul 13 to add impressions/CTR to packaging decisions (reach job created Jul 11).",
-      "priority": "low"
+      "priority": "low",
+      "status": "done",
+      "status_note": "Nothing to change — weekly episode + daily short queue is holding (Ep 5 clips scheduled through Jul 16)."
     }
   ],
   "recording": [

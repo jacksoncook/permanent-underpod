@@ -31,16 +31,27 @@ def fmt_dur(s):
     return f"{int(s) // 60}:{int(s) % 60:02d}"
 
 
+STATUS_CHIP = {"done": ("✓ ADDRESSED", "#7bd88f"), "partial": ("◐ PARTIAL", YELLOW),
+               "open": ("○ OPEN", "#ff6b6b")}
+
+
 def insight_cards(items):
     out = []
     for it in items:
         p = (it.get("priority") or "med").lower()
+        chip = ""
+        if it.get("status") in STATUS_CHIP:
+            label, color = STATUS_CHIP[it["status"]]
+            chip = f'<span class="chip" style="border-color:{color};color:{color}">{label}</span>'
+        note = (f'<p class="status-note">{esc(it["status_note"])}</p>'
+                if it.get("status_note") else "")
         out.append(f"""
         <div class="card">
           <div class="card-head"><span class="prio" style="background:{PRIO_COLOR.get(p, YELLOW)}">{esc(p.upper())}</span>
-          <h3>{esc(it.get('title'))}</h3></div>
+          <h3>{esc(it.get('title'))}</h3>{chip}</div>
           <p class="evidence"><b>Evidence:</b> {esc(it.get('evidence'))}</p>
           <p class="rec"><b>Do:</b> {esc(it.get('recommendation'))}</p>
+          {note}
         </div>""")
     return "\n".join(out) or "<p class='muted'>none</p>"
 
@@ -119,6 +130,8 @@ def main():
     experiments = "".join(f"<li>{esc(e)}</li>" for e in ins.get("experiments", []))
 
     html_out = f"""<!doctype html><html><head><meta charset="utf-8">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(ch['title'])} — Channel Report</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
 <style>
@@ -144,6 +157,9 @@ def main():
   .card-head {{ display:flex; gap:10px; align-items:center; }}
   .card h3 {{ margin:0; font-size:16px; }}
   .prio {{ color:{DARK}; font-weight:bold; font-size:11px; padding:2px 8px; border-radius:10px; }}
+  .chip {{ margin-left:auto; font-weight:bold; font-size:11px; padding:2px 8px;
+          border-radius:10px; border:1.5px solid; white-space:nowrap; }}
+  .status-note {{ color:{MUT}; font-style:italic; font-size:13px; }}
   .card p {{ margin:8px 0 0; }} .evidence {{ color:{MUT}; }}
   table {{ width:100%; border-collapse:collapse; font-size:13.5px; }}
   th, td {{ text-align:left; padding:7px 9px; border-bottom:1px solid #26262f; }}

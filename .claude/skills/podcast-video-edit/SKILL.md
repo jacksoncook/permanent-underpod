@@ -39,6 +39,25 @@ exact final times), confirm A/V durations match, loudnorm-measure the result
 (target ≈ -16 LUFS, TP ≤ -1 dBTP). If peaks are hot, re-render AUDIO ONLY from
 edited_raw.mov and remux with `-c:v copy` — never re-encode video for an audio fix.
 
+## Retention-informed edit defaults (channel analytics, Jul 2026 — applies from Ep 6)
+
+When designing `plan.json`, these are the defaults; deviate knowingly. Evidence in
+`analytics/report.html` (refresh with the `channel-analytics` skill):
+
+- **Cold open = the episode's single best 60–90 s** (the fill landing, the
+  confession, the clone reveal) and tease the end-of-show bit ("stay for the
+  lottery tickets"). Every episode so far loses ~85% of viewers by the 5% mark.
+- **First real segment by ~2 min.** Keep welcome + check-in to ≤60 s of final-cut
+  time; reorder Pico/gamer-thumb updates into mid-show palate cleansers.
+- **Front-load a retainer**: one of Perp-of-Fortune / confession / AI-bit lands in
+  the first 10 minutes of the cut (Ep 5 opened Perp at 27:08 — after most viewers
+  had left).
+- **Target 45–55 min final cut.** Median viewer stays 3–7 min of a 60–85 min
+  episode. Trim hardest inside long explainers — every episode's retention cliff
+  sits in one (Ep 4: 22:00 'Freeze functions'; Ep 2: the perps explainer;
+  Ep 1: stablecoins-to-zero). An explainer that can't be tied to live stakes or a
+  personal story is the first candidate to shorten.
+
 ## Pipeline overview (what the scripts do, for debugging or extending)
 
 1. **Probe & context** — `ffprobe` the file (duration, streams, fps, loudness).

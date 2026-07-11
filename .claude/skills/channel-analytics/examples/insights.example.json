@@ -5,7 +5,9 @@
       "title": "Finding actionable IN THIS REPO / by the skills: editing, clip selection & length, titles/packaging, publishing, funnel wiring (related videos, pinned comments, playlists), cadence",
       "evidence": "The specific numbers from channel-data.json that support it (name videos, cite views/impressions/CTR/retention).",
       "recommendation": "The concrete action to take in the next edit/clip/publish cycle.",
-      "priority": "high"
+      "priority": "high",
+      "status": "done | partial | open  (optional — renders a checkmark chip; use on production items to track whether the fix has shipped)",
+      "status_note": "optional — what was done / what remains, with commit or video references"
     }
   ],
   "recording": [
