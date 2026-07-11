@@ -1,22 +1,22 @@
 {
   "headline": "One-sentence TLDR of the channel's current trajectory and the single biggest lever.",
-  "channel": [
+  "production": [
     {
-      "title": "Short, imperative finding about packaging/distribution (titles, thumbnails, shorts strategy, cadence, SEO)",
-      "evidence": "The specific numbers from channel-data.json that support it (name videos, cite views/CTR-proxies/retention).",
-      "recommendation": "The concrete action to take next episode.",
+      "title": "Finding actionable IN THIS REPO / by the skills: editing, clip selection & length, titles/packaging, publishing, funnel wiring (related videos, pinned comments, playlists), cadence",
+      "evidence": "The specific numbers from channel-data.json that support it (name videos, cite views/impressions/CTR/retention).",
+      "recommendation": "The concrete action to take in the next edit/clip/publish cycle.",
       "priority": "high"
     }
   ],
-  "pod": [
+  "recording": [
     {
-      "title": "Finding about the show itself (episode length, segment order, hooks, topics, pacing)",
-      "evidence": "e.g. retention on Ep 4 drops from 62% to 31% between 40-55% mark, which maps to segment X.",
-      "recommendation": "What to change in how the show is recorded/edited.",
+      "title": "Finding actionable BY THE HOSTS while recording: episode structure, segment order and length, hooks, live bits, on-mic habits",
+      "evidence": "e.g. retention on Ep 4 drops from 7% to 4% at the 30% mark, which maps to segment X starting.",
+      "recommendation": "What to change in how the show is recorded.",
       "priority": "med"
     }
   ],
   "experiments": [
-    "Optional list of one-line A/B-style experiments worth running."
+    "Optional list of one-line A/B-style experiments; prefix [prod] or [rec] for ownership."
   ]
 }

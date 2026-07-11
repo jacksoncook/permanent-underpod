@@ -29,10 +29,14 @@ curves for long-form videos**, daily views/subs timeseries, traffic-source break
 Quota cost is trivial (all reads); no upload-quota impact.
 
 ## 2. Analyze → write `analytics/insights.json`
-Read the pulled JSON and write insights per `examples/insights.example.json`:
-`headline`, `channel[]` (packaging/distribution: titles, thumbnails, shorts strategy,
-cadence, SEO), `pod[]` (the show itself: length, segment order, hooks, pacing), and
-optional `experiments[]`. Every item needs `evidence` citing actual numbers/videos.
+Read the pulled JSON and write insights per `examples/insights.example.json`, split
+by WHO owns the fix: `production[]` (actionable in this repo / by the skills —
+editing, clip selection & length, titles/packaging, publishing, funnel wiring,
+cadence) vs `recording[]` (actionable by the hosts on the mic — episode structure,
+segment order/length, hooks, live bits). Plus `headline` and optional
+`experiments[]` (prefix each `[prod]`/`[rec]`). Every item needs `evidence` citing
+actual numbers/videos. If a finding straddles both (e.g. weak openings), split it:
+the edit-side fix goes in production, the on-mic fix in recording.
 
 The highest-value move: **map retention-curve drop-offs to segments** using the
 episode's `episodes/epN/segment-times.md` chapter timestamps — "viewers bail at 38%

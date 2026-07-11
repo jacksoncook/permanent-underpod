@@ -181,11 +181,11 @@ def main():
 <div class="panel"><canvas id="retention"></canvas>
 <div class="muted" style="margin-top:6px">% of viewers still watching at each point of the video</div></div>
 
-<h2>Improve the channel</h2>
-<div class="cards">{insight_cards(ins.get('channel', []))}</div>
+<h2>Production changes — this repo &amp; the skills</h2>
+<div class="cards">{insight_cards(ins.get('production', []))}</div>
 
-<h2>Improve the pod</h2>
-<div class="cards">{insight_cards(ins.get('pod', []))}</div>
+<h2>Recording changes — on the podcasters</h2>
+<div class="cards">{insight_cards(ins.get('recording', []))}</div>
 
 {'<h2>Experiments to run</h2><ul class="exp">' + experiments + '</ul>' if experiments else ''}
 
