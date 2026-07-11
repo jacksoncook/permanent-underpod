@@ -67,6 +67,25 @@ git -C ../jacksoncook.github.io add pod-analytics-latest \
 ```
 Do this after every re-render so the URL always shows the latest run.
 
+## Weekly review (the standing cadence)
+Run steps 1→4 weekly (good slot: after the episode drops). Beyond a fresh pull,
+a weekly review means:
+- **Deltas, not just snapshots**: the previous week's `channel-data.json` is in git
+  history (`git log -- analytics/channel-data.json`) — diff subs/views/watch-time
+  and call out movers in the `headline`.
+- **Re-verify statuses**: check each production item's `status`/`status_note`
+  against reality (e.g. did the retitles happen? funnel checklist worked?) and
+  flip `partial`→`done` or back with evidence. Recording items get judged against
+  the newest episode's retention curve.
+- **Retire what's fixed, add what's new**: drop items that stayed `done` two weeks
+  running (git history keeps them); new findings need the same evidence bar.
+- **Check the experiments**: each `[prod]`/`[rec]` experiment either has a result
+  (report it in evidence) or a reason it's still pending.
+- Commit the refreshed data/insights/report to the pod repo AND push the Pages
+  copy (step 4) — the shared URL should never go stale.
+No re-auth needed: the OAuth app is published (verified 2026-07-11), so tokens
+refresh headlessly.
+
 ## Gotchas
 - **Scheduled/private videos** appear in the table (flagged) but have ~no analytics
   yet — don't read their zeros as failure.
