@@ -109,6 +109,25 @@ def get_creds(client_secret, token_path):
     return creds
 
 
+def lint_packaging(title, description, playlist):
+    """Data-backed packaging checks (channel analytics, Jul 2026). Warn, don't block."""
+    warns = []
+    if title.lower().startswith(("highlight -", "highlights:", "highlight:")):
+        warns.append("'Highlight' title prefix — every Ep1-4 clip shipped with it did "
+                     "5-92 views; use '<Hook> | Underpod Ep N Clip' instead")
+    if "#shorts" in title.lower():
+        warns.append("#Shorts in the TITLE — house style puts the #shorts hashtag on "
+                     "the description's last line instead")
+    is_clip = bool(playlist) and any(w in playlist.lower() for w in ("short", "clip"))
+    if is_clip and "youtu.be/" not in description and "youtube.com/watch" not in description:
+        warns.append("clip description has no episode link — add "
+                     "'Full episode: https://youtu.be/…' (the shorts->episode funnel "
+                     "is the channel's weakest metric)")
+    for w in warns:
+        print(f"      LINT: {w}")
+    return warns
+
+
 def plan_one(up, defaults):
     """Resolve an upload entry into (file, body, privacy, publishAt) and print it."""
     f = expand(up["file"])
@@ -135,6 +154,7 @@ def plan_one(up, defaults):
     print(f"  {os.path.basename(f)}  [{privacy}]{sched}"
           + (f"  [playlist: {playlist}]" if playlist else ""))
     print(f"      title: {snippet['title']}")
+    lint_packaging(snippet["title"], snippet["description"], playlist or "")
     return f, {"snippet": snippet, "status": status}, privacy, publish_at, playlist
 
 
@@ -266,6 +286,14 @@ def main():
         print("scheduled (stay private until publishAt):")
         for r in sched:
             print(f"  {r['url']}  -> {r['publishAt']}")
+    clips = [r for r in results.values()
+             if any(w in (r.get("playlist") or "").lower() for w in ("short", "clip"))]
+    if clips:
+        print("\nFUNNEL CHECKLIST — manual, per clip, in YouTube Studio (shorts drive 81% "
+              "of views but ~0 subs until these are set):")
+        print("  1. Content -> (short) -> Related video -> the source episode")
+        print("  2. once public: pin a comment with the episode link + segment timestamp")
+        print("  3. episodes & 16:9 clips: end screen -> next episode / subscribe")
 
 
 if __name__ == "__main__":

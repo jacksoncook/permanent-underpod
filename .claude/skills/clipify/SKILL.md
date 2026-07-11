@@ -57,6 +57,23 @@ chain as `audio_chain`, and let clipify add the logo + caption. Cutting from the
 final mp4 works but left-edge crops catch the BAKED logo (double bug) and
 stat callouts can be sliced mid-graphic.
 
+## What to clip & how long (data-backed — channel analytics, Jul 2026)
+
+Selection and length rules, from `analytics/report.html` (refresh with the
+`channel-analytics` skill):
+
+- **Pick by personality, not topic importance.** Every top short is a host being
+  a character or a quotable one-liner (lottery ticket 1,273 views, Halo 3 roast
+  986, skipped-his-party 674, dog food 469); every abstract-concept short flopped
+  (4–24 views). Clip the human moments first, concepts last.
+- **Default a short to 10–20 s, one punchline, start mid-laugh.** Sub-15 s shorts
+  loop (>100% avg viewed — Dimon 145%, Bitcoin Bankruptcy 130%), which feeds the
+  Shorts algorithm; 25–60 s cuts hold only 30–48%. Go 25 s+ only when the bit
+  genuinely needs setup.
+- **End-of-show bits are shorts gold** — they air where only 3–5% of episode
+  viewers remain, but the lottery-ticket finale became the channel's #1 video.
+  Clip them within 24 h of the episode going live.
+
 ## clips.json
 
 ```json
@@ -88,10 +105,14 @@ decision docs are in `podcast-video-edit`. For **each** clip include:
 - **Title** — platform-ready, with the hook **front-loaded in the first ~40 chars**
   (that's all the Shorts/Reels player shows). **NO `#Shorts` in the title** (house
   style, set by Jackson's Ep 4 edits) — routing comes from a `#shorts` hashtag in
-  the description instead. Long-form pulls get a **"Highlights: " title prefix**.
+  the description instead. Long-form pulls: hook first, provenance as a **suffix**
+  — `<Hook> | Underpod Ep N Clip`. **NEVER a "Highlight -"/"Highlights:" prefix**:
+  the five Ep 1–4 clips that shipped with it did 5–92 views with bottom-decile
+  retention (retitled Jul 2026; `yt_upload.py` lints for this).
 - **Caption** — one punchy sentence of context (assume the viewer has zero episode
   context; the clip must stand alone), ending with the live episode link
-  ("Full episode: https://youtu.be/…").
+  ("Full episode: https://youtu.be/…"). Long-form pulls instead put the funnel
+  line FIRST in the description: "Clip from Episode N — full episode: <link>".
 - **Hashtags** — the description's LAST line: 2–3 lowercase topical tags plus
   `#shorts` for verticals (e.g. `#shorts #ai #conquistador`). Keep the `tags`
   manifest field for the 5–8 plain keywords.
@@ -128,8 +149,9 @@ Secrets live OUTSIDE the repo; never commit `client_secret.json` / `token.json`.
 1. Build an **upload manifest** from the posting copy you already authored — one
    entry per file, reusing its title/description/tags. Map markdown → JSON:
    `Title → title`, `Caption → description` (or a fuller description), `Tags → tags`
-   (strip the `#` — the `tags` field is plain keywords; keep `#Shorts` in the *title*
-   so YouTube still routes verticals to the Shorts shelf).
+   (strip the `#` — the `tags` field is plain keywords). Per house style the title
+   carries NO `#Shorts`; the `#shorts` hashtag on the description's last line is
+   what routes verticals to the Shorts shelf.
 2. **Ask the user for the release date/time** (their local Pacific time), then
    convert to RFC3339 **UTC** and set `publishAt` per entry. Ask whether they want
    everything at one time or a stagger (e.g. one short every few days). Use
@@ -153,10 +175,15 @@ Secrets live OUTSIDE the repo; never commit `client_secret.json` / `token.json`.
   channel). The uploader resolves playlist names case-insensitively and adds each
   video right after upload. This needs the broad `youtube` OAuth scope (the script
   requests it; an old upload-only token triggers a one-time re-auth).
-- **Shorts "related video"** (the Studio button that points a Short at its source
-  episode) is NOT settable via the Data API — flag it in the run summary as a
-  ~10-second-per-short manual step in YouTube Studio → Content → (short) →
-  Related video. The description link is the automated fallback.
+- **The funnel is the point** (channel analytics, Jul 2026: shorts = 81% of views
+  but ~0 subscribers — episodes convert). After every clip batch, work the
+  checklist `yt_upload.py` prints:
+  1. **Related video** (Studio button pointing a Short at its source episode) —
+     NOT settable via the Data API; ~10 s per short in YouTube Studio → Content →
+     (short) → Related video. The description link is the automated fallback.
+  2. **Pinned comment** once each clip is public: episode link + the timestamp
+     where the full segment starts (pinning isn't in the API either).
+  3. **End screens** on episodes and 16:9 clips → next episode / subscribe.
 - **Browser auth gotcha:** on the OAuth channel-picker screen, choose the
   **Permanent Underpod brand channel**, not the personal account — the flow
   defaults to personal, and a token is channel-bound (Ep 4's first batch landed
