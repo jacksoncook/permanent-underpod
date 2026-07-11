@@ -106,7 +106,8 @@ decision docs are in `podcast-video-edit`. For **each** clip include:
   (that's all the Shorts/Reels player shows). **NO `#Shorts` in the title** (house
   style, set by Jackson's Ep 4 edits) — routing comes from a `#shorts` hashtag in
   the description instead. Long-form pulls: hook first, provenance as a **suffix**
-  — `<Hook> | Underpod Ep N Clip`. **NEVER a "Highlight -"/"Highlights:" prefix**:
+  — **house convention: `<Hook> - Ep N Clip`** (e.g. "The US Government AI Rugged
+  Us - Ep 2 Clip"). **NEVER a "Highlight -"/"Highlights:" prefix**:
   the five Ep 1–4 clips that shipped with it did 5–92 views with bottom-decile
   retention (retitled Jul 2026; `yt_upload.py` lints for this).
 - **Caption** — one punchy sentence of context (assume the viewer has zero episode

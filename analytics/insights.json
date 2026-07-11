@@ -4,8 +4,8 @@
   "production": [
     {
       "title": "Never ship the 'Highlight -' prefix — hook first, provenance as suffix",
-      "evidence": "All five published Highlights flopped: Stablecoins to Zero 8 views, US Govt AI Rugged Us 50, Perp of Fortune 23, AI cloned us 92, burn desk 5 — retention vs-typical in the bottom decile (0.03–0.12 through their first third). Retitles to 'Hook | Underpod Ep N Clip' are underway (Ep 2 + Ep 4 clips done); impressions/CTR data landing ~Jul 13 will give the clean before/after.",
-      "recommendation": "Standardize clip titling: hook first, '| Underpod Ep N Clip' suffix, 'Clip from Episode N — full episode: [link]' as the description's first line. Finish retitling the remaining Highlight ('Perp of Fortune') and the scheduled Jul 14 clip.",
+      "evidence": "All five published Highlights flopped: Stablecoins to Zero 8 views, US Govt AI Rugged Us 50, Perp of Fortune 23, AI cloned us 92, burn desk 5 — retention vs-typical in the bottom decile (0.03–0.12 through their first third). Retitles to the new house convention '<Hook> - Ep N Clip' are underway (Ep 2 + Ep 4 clips done); impressions/CTR data landing ~Jul 13 will give the clean before/after.",
+      "recommendation": "Standardize clip titling: hook first, '- Ep N Clip' suffix (e.g. 'The US Government AI Rugged Us - Ep 2 Clip'), 'Clip from Episode N — full episode: [link]' as the description's first line. Finish retitling the remaining Highlight ('Perp of Fortune') and the scheduled Jul 14 clip.",
       "priority": "high"
     },
     {

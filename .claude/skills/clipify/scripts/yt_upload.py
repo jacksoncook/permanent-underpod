@@ -114,7 +114,7 @@ def lint_packaging(title, description, playlist):
     warns = []
     if title.lower().startswith(("highlight -", "highlights:", "highlight:")):
         warns.append("'Highlight' title prefix — every Ep1-4 clip shipped with it did "
-                     "5-92 views; use '<Hook> | Underpod Ep N Clip' instead")
+                     "5-92 views; house convention is '<Hook> - Ep N Clip' instead")
     if "#shorts" in title.lower():
         warns.append("#Shorts in the TITLE — house style puts the #shorts hashtag on "
                      "the description's last line instead")
