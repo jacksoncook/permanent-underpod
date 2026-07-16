@@ -1,0 +1,12 @@
+outputs/
+sample/demo/
+inputs/
+# personal media drops (faces, renders, audio) never belong in the repo
+*.mp4
+*.mov
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.wav
+*.m4a

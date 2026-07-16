@@ -1,0 +1,22 @@
+{
+  "speakers": [
+    {
+      "name": "jackson",
+      "display_name": "Jackson",
+      "face_image": "faces/jackson.jpg",
+      "audio_file": "audio/jackson.wav"
+    },
+    {
+      "name": "chris",
+      "display_name": "Chris",
+      "face_image": "faces/chris.jpg",
+      "audio_file": "audio/chris.wav"
+    },
+    {
+      "name": "tyler",
+      "display_name": "Tyler",
+      "face_image": "faces/tyler.jpg",
+      "audio_file": "audio/tyler.wav"
+    }
+  ]
+}
