@@ -1,0 +1,32 @@
+{
+  "show": "PERMANENT UNDERPOD",
+  "show_kicker": "PERMANENT",
+  "show_main": "UNDERPOD",
+  "accent": [255, 210, 74],
+  "source": "/Users/jcook/Personal/permanent-underpod/media/ep6-work/src/jackson_720.mp4",
+  "title_card": {"bg_frame": 1120, "line": "EPISODE 6   ·   Sandwiched   ·   Bitcoin  ·  Stablecoins  ·  AI", "dur": 4.5},
+  "end_card": {"bg_frame": 3660, "kicker": "NEXT WEEK ON",
+    "lines": ["Agentic commerce — Chris has been STEWING", "Very specific bad reasons (no spoilers)", "Perp of Fortune rolls again"],
+    "cta": "LIKE  +  SUBSCRIBE", "dur": 7},
+  "lower_thirds": [
+    {"name": "intro",   "kicker": "EPISODE 6",               "title": "FULLY REMOTE, FULLY DEGEN"},
+    {"name": "thumb",   "kicker": "WEEK 4 CHECK-IN",         "title": "GAMER THUMB SAGA"},
+    {"name": "ai",      "kicker": "THE PANEL REACTS",        "title": "OUR AI CLONES, ROUND 2"},
+    {"name": "mev",     "kicker": "$15M REVERSE HONEYPOT",   "title": "THE SANDWICH BOT GOT SANDWICHED"},
+    {"name": "codelaw", "kicker": "PHILOSOPHY CORNER",       "title": "CODE IS LAW vs LAW IS LAW"},
+    {"name": "perp",    "kicker": "CLAUDE PICKS THE TRADE",  "title": "PERP OF FORTUNE — LONG JTO 5x"},
+    {"name": "jito",    "kicker": "PERP POSTSCRIPT",         "title": "JITO — THE MEV MONOPOLY"},
+    {"name": "kimi",    "kicker": "DEEPSEEK MOMENT 2.0",     "title": "KIMI K3 — FRONTIER AT $15/M?"},
+    {"name": "persona", "kicker": "PARASOCIAL CORNER",       "title": "CLAUDE vs GPT: PERSONALITY WARS"},
+    {"name": "h2h",     "kicker": "JACKSON'S EXPERIMENT",    "title": "FABLE vs GPT-5.6 — HEAD TO HEAD"},
+    {"name": "cost",    "kicker": "THE FRONTIER TAX",        "title": "WHY THE BEST AI COSTS MORE"},
+    {"name": "water",   "kicker": "PALATE CLEANSER",         "title": "BUT WHAT ABOUT THE WATER?"},
+    {"name": "atrophy", "kicker": "SKILL ISSUE",             "title": "IS AI MELTING OUR BRAINS?"},
+    {"name": "wrap",    "kicker": "THE PERP PAYS",           "title": "PEACE OUT AT $10 UP + NEXT WEEK"}
+  ],
+  "stats": [
+    {"name": "thumb", "kicker": "BRACE STATUS, WEEK 4",       "main": "Keyboard 1 — Thumb 0"},
+    {"name": "ai",    "kicker": "100% AI-GENERATED PANEL",    "main": "Round 2 — souls.md, less pastrami"},
+    {"name": "roll",  "kicker": "THE ROLL",                   "main": "LONG JTO  ·  5x  ·  $101 margin"}
+  ]
+}

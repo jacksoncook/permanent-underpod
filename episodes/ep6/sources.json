@@ -1,0 +1,17 @@
+{
+  "reference": "jackson",
+  "tracks": {
+    "jackson": {
+      "file": "/Users/jcook/Personal/permanent-underpod/media/ep6-work/src/jackson_720.mp4",
+      "person": "jackson"
+    },
+    "chris": {
+      "file": "/Users/jcook/Personal/permanent-underpod/media/ep6-work/src/chris_720.mp4",
+      "person": "chris"
+    },
+    "tyler": {
+      "file": "/Users/jcook/Personal/permanent-underpod/media/ep6-work/src/tyler_720.mp4",
+      "person": "tyler"
+    }
+  }
+}

@@ -1,0 +1,698 @@
+{
+ "blocks": [
+  {
+   "id": "COLD1",
+   "m0": 496.8,
+   "m1": 539.5
+  },
+  {
+   "id": "COLD3a",
+   "m0": 1020.8,
+   "m1": 1046.3,
+   "cam": "tyler",
+   "mics": [
+    "tyler"
+   ]
+  },
+  {
+   "id": "COLD3b",
+   "m0": 1091.8,
+   "m1": 1104.6,
+   "cam": "tyler",
+   "mics": [
+    "tyler"
+   ]
+  },
+  {
+   "id": "CARD_TITLE",
+   "card": "card_title.mov"
+  },
+  {
+   "id": "S1",
+   "m0": 101.5,
+   "m1": 179.6,
+   "mute": [
+    [
+     "chris",
+     164.5,
+     170.5
+    ]
+   ]
+  },
+  {
+   "id": "S2",
+   "m0": 203.65,
+   "m1": 217.2,
+   "cam": "jackson",
+   "mics": [
+    "jackson"
+   ]
+  },
+  {
+   "id": "AI",
+   "insert": "/Users/jcook/Personal/permanent-underpod/media/ai_voices_2_panel.mp4",
+   "attr": "AI Hosts"
+  },
+  {
+   "id": "S3a",
+   "m0": 216.5,
+   "m1": 275.4,
+   "mute": [
+    [
+     "jackson",
+     218.7,
+     220.6
+    ]
+   ]
+  },
+  {
+   "id": "S3b",
+   "m0": 319.6,
+   "m1": 572.5
+  },
+  {
+   "id": "S3c",
+   "m0": 613.2,
+   "m1": 667.5
+  },
+  {
+   "id": "S3d",
+   "m0": 729.0,
+   "m1": 790.8
+  },
+  {
+   "id": "S3e",
+   "m0": 831.6,
+   "m1": 972.5,
+   "mute": [
+    [
+     "jackson",
+     969.8,
+     973.0
+    ]
+   ]
+  },
+  {
+   "id": "S4b",
+   "m0": 1002.3,
+   "m1": 1205.5
+  },
+  {
+   "id": "JTO1",
+   "m0": 3205.8,
+   "m1": 3278.0,
+   "mute": [
+    [
+     "chris",
+     3208.0,
+     3215.5
+    ]
+   ]
+  },
+  {
+   "id": "JTO2",
+   "m0": 3392.8,
+   "m1": 3620.5
+  },
+  {
+   "id": "S5a",
+   "m0": 1210.6,
+   "m1": 1324.5
+  },
+  {
+   "id": "S5b",
+   "m0": 1367.3,
+   "m1": 1478.5
+  },
+  {
+   "id": "S6",
+   "m0": 1478.5,
+   "m1": 1670.5
+  },
+  {
+   "id": "S7",
+   "m0": 1670.8,
+   "m1": 1908.9
+  },
+  {
+   "id": "S8",
+   "m0": 1908.9,
+   "m1": 2064.8
+  },
+  {
+   "id": "S9",
+   "m0": 2064.8,
+   "m1": 2184.8
+  },
+  {
+   "id": "S10",
+   "m0": 2220.9,
+   "m1": 2428.9
+  },
+  {
+   "id": "GIT",
+   "m0": 3294.6,
+   "m1": 3392.5
+  },
+  {
+   "id": "S11a",
+   "m0": 2428.9,
+   "m1": 2563.5
+  },
+  {
+   "id": "S11a2",
+   "m0": 2592.2,
+   "m1": 2649.0
+  },
+  {
+   "id": "S11b",
+   "m0": 2663.5,
+   "m1": 2756.0
+  },
+  {
+   "id": "S11c",
+   "m0": 2913.8,
+   "m1": 3010.5,
+   "mute": [
+    [
+     "jackson",
+     2914.4,
+     2916.5
+    ],
+    [
+     "tyler",
+     2914.8,
+     2916.8
+    ]
+   ]
+  },
+  {
+   "id": "S11d",
+   "m0": 3133.5,
+   "m1": 3205.6,
+   "mute": [
+    [
+     "jackson",
+     3140.5,
+     3148.0
+    ]
+   ]
+  },
+  {
+   "id": "S12",
+   "m0": 3626.5,
+   "m1": 3706.4
+  },
+  {
+   "id": "CARD_END",
+   "card": "card_end.mov"
+  }
+ ],
+ "protect": [
+  [
+   1050.0,
+   1062.0
+  ],
+  [
+   1104.0,
+   1112.0
+  ],
+  [
+   3699.0,
+   3706.4
+  ]
+ ],
+ "face_cx": {
+  "jackson": 660,
+  "chris": 570,
+  "tyler": 700
+ },
+ "panel_order": [
+  "jackson",
+  "chris",
+  "tyler"
+ ],
+ "params": {
+  "idle_gain": 0.12,
+  "group_thresh": 0.48,
+  "min_shot": 3.5,
+  "gain_target": 0.028
+ },
+ "overlays": [
+  {
+   "name": "lt_intro",
+   "block": "S1",
+   "m": 104.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_thumb",
+   "block": "S1",
+   "m": 127.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_thumb",
+   "block": "S1",
+   "m": 140.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_ai",
+   "block": "AI",
+   "rel": 1.5,
+   "dur": 12,
+   "kind": "st"
+  },
+  {
+   "name": "lt_ai",
+   "block": "S3a",
+   "m": 220.8,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_mev",
+   "block": "S3b",
+   "m": 352.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_codelaw",
+   "block": "S3c",
+   "m": 616.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_perp",
+   "block": "S4b",
+   "m": 1004.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_roll",
+   "block": "S4b",
+   "m": 1035.5,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "lt_jito",
+   "block": "JTO1",
+   "m": 3216.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_kimi",
+   "block": "S5a",
+   "m": 1212.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_persona",
+   "block": "S6",
+   "m": 1480.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_h2h",
+   "block": "S7",
+   "m": 1672.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "img_h2h",
+   "block": "S7",
+   "m": 1705.0,
+   "dur": 15,
+   "kind": "st2"
+  },
+  {
+   "name": "lt_cost",
+   "block": "S8",
+   "m": 1910.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_water",
+   "block": "S9",
+   "m": 2066.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_atrophy",
+   "block": "S11a",
+   "m": 2430.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "img_gitstats",
+   "block": "GIT",
+   "m": 3309.5,
+   "dur": 14,
+   "kind": "st2"
+  },
+  {
+   "name": "lt_wrap",
+   "block": "S12",
+   "m": 3628.0,
+   "dur": 6,
+   "kind": "lt"
+  }
+ ],
+ "pips": [
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/perpOfFortune.mp4",
+   "block": "S4b",
+   "m0": 1055.0,
+   "m1": 1104.8,
+   "anchor": 1055.0,
+   "mode": "corner",
+   "crop": [
+    940,
+    420,
+    490,
+    170
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/perpOfFortune.mp4",
+   "block": "S4b",
+   "m0": 1104.8,
+   "m1": 1111.5,
+   "anchor": 1055.0,
+   "mode": "full"
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/perpOfFortune.mp4",
+   "block": "S4b",
+   "m0": 1111.5,
+   "m1": 1206.0,
+   "anchor": 1055.0,
+   "mode": "corner",
+   "crop": [
+    940,
+    420,
+    490,
+    170
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/perpOfFortune.mp4",
+   "block": "S5a",
+   "m0": 1206.0,
+   "m1": 3206.0,
+   "anchor": 1055.0,
+   "mode": "corner",
+   "crop": [
+    940,
+    420,
+    490,
+    170
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/perpOfFortune.mp4",
+   "block": "S5b",
+   "m0": 1206.0,
+   "m1": 3206.0,
+   "anchor": 1055.0,
+   "mode": "corner",
+   "crop": [
+    940,
+    420,
+    490,
+    170
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/perpOfFortune.mp4",
+   "block": "S6",
+   "m0": 1206.0,
+   "m1": 3206.0,
+   "anchor": 1055.0,
+   "mode": "corner",
+   "crop": [
+    940,
+    420,
+    490,
+    170
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/perpOfFortune.mp4",
+   "block": "S7",
+   "m0": 1206.0,
+   "m1": 3206.0,
+   "anchor": 1055.0,
+   "mode": "corner",
+   "crop": [
+    940,
+    420,
+    490,
+    170
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/perpOfFortune.mp4",
+   "block": "S8",
+   "m0": 1206.0,
+   "m1": 3206.0,
+   "anchor": 1055.0,
+   "mode": "corner",
+   "crop": [
+    940,
+    420,
+    490,
+    170
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/perpOfFortune.mp4",
+   "block": "S9",
+   "m0": 1206.0,
+   "m1": 3206.0,
+   "anchor": 1055.0,
+   "mode": "corner",
+   "crop": [
+    940,
+    420,
+    490,
+    170
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/perpOfFortune.mp4",
+   "block": "S10",
+   "m0": 1206.0,
+   "m1": 3206.0,
+   "anchor": 1055.0,
+   "mode": "corner",
+   "crop": [
+    940,
+    420,
+    490,
+    170
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/perpOfFortune.mp4",
+   "block": "S11a",
+   "m0": 1206.0,
+   "m1": 3206.0,
+   "anchor": 1055.0,
+   "mode": "corner",
+   "crop": [
+    940,
+    420,
+    490,
+    170
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/perpOfFortune.mp4",
+   "block": "S11a2",
+   "m0": 1206.0,
+   "m1": 3206.0,
+   "anchor": 1055.0,
+   "mode": "corner",
+   "crop": [
+    940,
+    420,
+    490,
+    170
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/perpOfFortune.mp4",
+   "block": "S11b",
+   "m0": 1206.0,
+   "m1": 3206.0,
+   "anchor": 1055.0,
+   "mode": "corner",
+   "crop": [
+    940,
+    420,
+    490,
+    170
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/perpOfFortune.mp4",
+   "block": "S11c",
+   "m0": 1206.0,
+   "m1": 3206.0,
+   "anchor": 1055.0,
+   "mode": "corner",
+   "crop": [
+    940,
+    420,
+    490,
+    170
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/perpOfFortune.mp4",
+   "block": "S11d",
+   "m0": 1206.0,
+   "m1": 3206.0,
+   "anchor": 1055.0,
+   "mode": "corner",
+   "crop": [
+    940,
+    420,
+    490,
+    170
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/perpOfFortune.mp4",
+   "block": "S12",
+   "m0": 3626.0,
+   "m1": 3707.0,
+   "anchor": 1055.0,
+   "mode": "corner",
+   "crop": [
+    940,
+    420,
+    490,
+    170
+   ]
+  }
+ ],
+ "sheet": [
+  {
+   "block": "COLD1",
+   "m": 496.8,
+   "label": "Cold open"
+  },
+  {
+   "block": "S1",
+   "m": 101.8,
+   "label": "3-2-1-clap: welcome to Ep 6"
+  },
+  {
+   "block": "S1",
+   "m": 127.0,
+   "label": "Gamer thumb saga \u2014 week 4 (keyboard wins)"
+  },
+  {
+   "block": "S2",
+   "m": 203.7,
+   "label": "An AI made this segment: our clones, round 2"
+  },
+  {
+   "block": "S3a",
+   "m": 215.4,
+   "label": "The panel reacts: souls.md & less pastrami"
+  },
+  {
+   "block": "S3b",
+   "m": 319.8,
+   "label": "The $15M sandwich bot got sandwiched"
+  },
+  {
+   "block": "S3c",
+   "m": 611.5,
+   "label": "Code is law vs law is law"
+  },
+  {
+   "block": "S4b",
+   "m": 1002.3,
+   "label": "Perp of Fortune: Claude goes LONG JTO 5x"
+  },
+  {
+   "block": "S4b",
+   "m": 1055.0,
+   "label": "The dashboard goes live: $101 on the line"
+  },
+  {
+   "block": "JTO1",
+   "m": 3205.4,
+   "label": "Jito deep-dive: the MEV monopoly"
+  },
+  {
+   "block": "S5a",
+   "m": 1210.0,
+   "label": "Kimi K3: DeepSeek moment 2.0"
+  },
+  {
+   "block": "S6",
+   "m": 1478.8,
+   "label": "Claude vs GPT: personality wars"
+  },
+  {
+   "block": "S7",
+   "m": 1670.8,
+   "label": "Fable vs GPT-5.6: same task, two agents"
+  },
+  {
+   "block": "S8",
+   "m": 1908.8,
+   "label": "The frontier tax: our AI bills are rising"
+  },
+  {
+   "block": "S9",
+   "m": 2064.4,
+   "label": "But what about the water?"
+  },
+  {
+   "block": "S10",
+   "m": 2221.1,
+   "label": "The upgrade treadmill: Sonnet \u2192 Opus \u2192 Fable"
+  },
+  {
+   "block": "GIT",
+   "m": 3294.6,
+   "label": "A year of commits: Fable goes dark green"
+  },
+  {
+   "block": "S11a",
+   "m": 2428.9,
+   "label": "Is AI melting our brains?"
+  },
+  {
+   "block": "S11d",
+   "m": 3163.0,
+   "label": "JTO rips mid-show: \"about to break $10\""
+  },
+  {
+   "block": "S12",
+   "m": 3626.7,
+   "label": "Wrap: peace out at $10 up"
+  }
+ ]
+}

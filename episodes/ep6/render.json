@@ -1,0 +1,25 @@
+{
+  "out": "/Users/jcook/Personal/permanent-underpod/media/Permanent Underpod - Ep 6 (Final Cut).mp4",
+  "chain": "highpass=f=80,afftdn=nr=18:nf=-50:tn=1,acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,treble=f=9500:width_type=q:w=0.8:g=2,loudnorm=I=-16:TP=-1.5:LRA=5",
+  "target_lufs": -16,
+  "limit": 0.84,
+  "logo": {
+    "file": "logo.png",
+    "width": 170,
+    "alpha": 0.8,
+    "hide_during": ["CARD_TITLE", "CARD_END"]
+  },
+  "sfx": [
+    {"file": "sfx_whoosh.wav", "block": "CARD_TITLE", "offset": -0.45},
+    {"file": "sfx_whoosh.wav", "block": "AI",   "offset": -0.3},
+    {"file": "sfx_whoosh.wav", "block": "S3a",  "offset": -0.3},
+    {"file": "sfx_whoosh.wav", "block": "S4b",  "offset": -0.3},
+    {"file": "sfx_whoosh.wav", "block": "S5a",  "offset": -0.3},
+    {"file": "sfx_whoosh.wav", "block": "S6",   "offset": -0.3},
+    {"file": "sfx_whoosh.wav", "block": "S7",   "offset": -0.3},
+    {"file": "sfx_whoosh.wav", "block": "S9",   "offset": -0.3},
+    {"file": "sfx_whoosh.wav", "block": "S11a", "offset": -0.3},
+    {"file": "sfx_whoosh.wav", "block": "S12",  "offset": -0.3},
+    {"file": "sfx_sting.wav",  "block": "CARD_END", "offset": 0}
+  ]
+}

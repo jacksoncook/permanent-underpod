@@ -1,0 +1,3767 @@
+1
+00:00:00,000 --> 00:00:02,280
+Tyler: Cause that's how you do an exit scam though, right?
+
+2
+00:00:02,320 --> 00:00:06,960
+Tyler: It's like you, you set the trap and then you wait until the, you know,
+
+3
+00:00:06,960 --> 00:00:10,240
+Tyler: the purse accumulates and accumulates and accumulates. And then you're like,
+
+4
+00:00:10,260 --> 00:00:13,920
+Tyler: okay, now's the time to rip the cord and you know, make my move.
+
+5
+00:00:14,640 --> 00:00:15,480
+Chris: A hundred percent.
+
+6
+00:00:15,680 --> 00:00:20,480
+Tyler: And the reason too greedy and wait too long, but you also don't want to be too,
+
+7
+00:00:21,000 --> 00:00:23,160
+Tyler: uh, you know, if you give up too soon and reveal yourself,
+
+8
+00:00:23,160 --> 00:00:25,000
+Tyler: then you leave money on the table, so to say.
+
+9
+00:00:25,800 --> 00:00:29,360
+Chris: A hundred percent. And I think this guy was riding by the seat of his pants here.
+
+10
+00:00:30,880 --> 00:00:35,560
+Chris: Um, but, uh, I, like he sprung the trap at what looks like either 7.5 or $15
+
+11
+00:00:35,560 --> 00:00:40,280
+Chris: million or all considered a good day for him.
+
+12
+00:00:42,360 --> 00:00:47,760
+Tyler: But I thought it would be like a little bit more fun to have, uh,
+
+13
+00:00:47,800 --> 00:00:52,800
+Tyler: Claude read our outline and our topics for the episode and then choose a thematic
+
+14
+00:00:53,800 --> 00:00:58,120
+Tyler: perp to invest in. Uh, so it's, you know, tied in with the episode.
+
+15
+00:00:58,640 --> 00:01:00,760
+Tyler: And so based on this one,
+
+16
+00:01:00,920 --> 00:01:05,920
+Tyler: Claude chose that we should long Jito and the thesis here is hold the sandwich.
+
+17
+00:01:07,400 --> 00:01:11,600
+Tyler: All right. All right. That sounds like a solid thesis to me.
+
+18
+00:01:11,840 --> 00:01:15,560
+Tyler: Will it play out over the course of an hour? I'm not really sure.
+
+19
+00:01:27,120 --> 00:01:31,120
+Jackson: All right. We're live. What's up everybody?
+
+20
+00:01:31,360 --> 00:01:34,160
+Jackson: It's Jackson cook and we've got our boys.
+
+21
+00:01:36,160 --> 00:01:39,400
+Jackson: What up? It's Tyler. Uh, and also Chris.
+
+22
+00:01:40,880 --> 00:01:45,240
+Jackson: And Chris still probably has thumb issues. Chris, how,
+
+23
+00:01:45,360 --> 00:01:48,880
+Chris: how is the thumb going? So brace off today.
+
+24
+00:01:49,000 --> 00:01:52,120
+Chris: I can't tell if it's getting better or worse. Um, but you know,
+
+25
+00:01:52,120 --> 00:01:54,960
+Chris: I've just decided, you know, as we talked about last podcast,
+
+26
+00:01:54,960 --> 00:01:58,560
+Chris: this is something I'm going to have to live with cause it's either this crippling
+
+27
+00:01:58,560 --> 00:02:02,520
+Chris: thumb issue or the keyboard. And I've, I've made my decision. So.
+
+28
+00:02:03,400 --> 00:02:07,480
+Jackson: So you've just, just, just regarded Dr. Tyler's recommendation.
+
+29
+00:02:08,600 --> 00:02:10,600
+Chris: Yeah, I think I'm just going to truck through it. I think it's,
+
+30
+00:02:10,600 --> 00:02:13,960
+Chris: I think it's getting better, but it's been this way for awhile.
+
+31
+00:02:14,080 --> 00:02:16,360
+Chris: So it could be illusory.
+
+32
+00:02:17,960 --> 00:02:19,600
+Jackson: And Tyler, are you a doctor?
+
+33
+00:02:21,320 --> 00:02:25,480
+Tyler: Depends on, you know, which jurisdiction we're talking about.
+
+34
+00:02:25,560 --> 00:02:30,680
+Tyler: But in this jurisdiction, though, the jurisdiction of the podcast, maybe.
+
+35
+00:02:33,280 --> 00:02:37,680
+Jackson: Oh yeah. But maybe the pain doctor is of all the burns you dish out.
+
+36
+00:02:39,640 --> 00:02:42,440
+Jackson: Okay. And, uh, I don't know,
+
+37
+00:02:42,760 --> 00:02:47,720
+Jackson: let's get into everybody's favorite, which is AI impersonating me,
+
+38
+00:02:47,760 --> 00:02:50,640
+Jackson: Chris and Tyler. So here we go.
+
+39
+00:02:50,840 --> 00:02:54,360
+Jackson: Check out the sick ass video. Sorry. Check out the sick video.
+
+40
+00:02:55,000 --> 00:02:58,920
+AI Hosts: Speed round. Here's the news. Jared from subway dot E.C.
+
+41
+00:02:59,160 --> 00:03:01,640
+AI Hosts: The most feared sandwich bot on all of aetherium,
+
+42
+00:03:01,880 --> 00:03:05,880
+AI Hosts: a machine that has skimmed a fortune off of regular people's trades named after
+
+43
+00:03:05,880 --> 00:03:09,840
+AI Hosts: the subway guy, which we're not going to unpack that just got drained for
+
+44
+00:03:09,840 --> 00:03:13,880
+AI Hosts: somewhere between seven and $15 million. The robber got robbed.
+
+45
+00:03:13,920 --> 00:03:17,880
+AI Hosts: The sandwich got sandwiched and Chris, Chris has walked the mean streets of the
+
+46
+00:03:17,880 --> 00:03:20,880
+AI Hosts: mempool. So before we go anywhere, eulogy or party,
+
+47
+00:03:21,360 --> 00:03:24,640
+AI Hosts: and legally advised to describe it as a matter I'm following with interest.
+
+48
+00:03:25,480 --> 00:03:28,960
+AI Hosts: Okay. For the viewers, because I only just got this myself.
+
+49
+00:03:29,080 --> 00:03:32,520
+AI Hosts: A sandwich attack is I order the last pastrami at the deli.
+
+50
+00:03:32,760 --> 00:03:35,280
+AI Hosts: A bot hears me, teleports in front of me,
+
+51
+00:03:35,480 --> 00:03:39,520
+AI Hosts: buys my pastrami and scalps it back to me at the register. Is that right?
+
+52
+00:03:40,080 --> 00:03:41,720
+AI Hosts: That's right. And the deli's in on it.
+
+53
+00:03:41,880 --> 00:03:45,520
+AI Hosts: The bot tips the counter guy for the spot in line. That's the part people miss.
+
+54
+00:03:45,560 --> 00:03:46,760
+AI Hosts: It's not a mugger in an alley.
+
+55
+00:03:46,760 --> 00:03:48,200
+AI Hosts: It's the house's favorite customer.
+
+56
+00:03:48,920 --> 00:03:53,840
+AI Hosts: Okay. So before the how I need a vibe check on the victim because most feared
+
+57
+00:03:53,840 --> 00:03:56,880
+AI Hosts: sandwich bot on Ethereum sounds like a super villain.
+
+58
+00:03:57,040 --> 00:04:00,040
+AI Hosts: Are we talking a hedge fund a hundred quants and a tower?
+
+59
+00:04:00,640 --> 00:04:04,200
+AI Hosts: See that's the mythology and the post-mortem of this hack is my favorite thing
+
+60
+00:04:04,200 --> 00:04:06,240
+AI Hosts: all year because it accidentally shattered it.
+
+61
+00:04:06,640 --> 00:04:09,000
+AI Hosts: Everyone imagines the apex predator as, you know,
+
+62
+00:04:09,000 --> 00:04:11,600
+AI Hosts: Renaissance technologies in a hoodie at his peak.
+
+63
+00:04:11,600 --> 00:04:15,640
+AI Hosts: This bot was one of the biggest gas spenders on all of Ethereum paying more in
+
+64
+00:04:15,640 --> 00:04:19,240
+AI Hosts: fees than entire exchanges because paying for the front of the line is the
+
+65
+00:04:19,240 --> 00:04:22,680
+AI Hosts: business. And then the attacker walks in through the bot's own token approvals.
+
+66
+00:04:22,840 --> 00:04:27,120
+AI Hosts: And the picture that emerges is eight figures a year of extraction protected by
+
+67
+00:04:27,120 --> 00:04:29,160
+AI Hosts: a laptop, a group chat and vibes.
+
+68
+00:04:29,320 --> 00:04:32,080
+AI Hosts: The predators of the mempool are just prey with better latency.
+
+69
+00:04:32,400 --> 00:04:34,360
+AI Hosts: We know that now it's on chain,
+
+70
+00:04:35,040 --> 00:04:38,080
+AI Hosts: which is exactly why I love this story. And yes,
+
+71
+00:04:38,080 --> 00:04:42,120
+AI Hosts: I've been doing gleeful research all week because I'm the resident hater.
+
+72
+00:04:42,160 --> 00:04:43,560
+AI Hosts: And this is my Christmas.
+
+73
+00:04:44,160 --> 00:04:46,800
+AI Hosts: Here's how you eat the apex predator. Okay.
+
+74
+00:04:47,080 --> 00:04:52,080
+AI Hosts: The bot auto trades anything that smells like money because being fast is the
+
+75
+00:04:52,080 --> 00:04:57,080
+AI Hosts: business. So the attacker spent WEE EECS deploying fake tokens and trading them
+
+76
+00:04:57,760 --> 00:04:59,880
+AI Hosts: against himself to make them look juicy.
+
+77
+00:05:01,040 --> 00:05:04,680
+AI Hosts: Planting bait. And when Jared's bot trades a token,
+
+78
+00:05:05,000 --> 00:05:09,280
+AI Hosts: it grants the token contract and unlimited approval. The exact,
+
+79
+00:05:09,640 --> 00:05:12,560
+AI Hosts: give this stranger power of attorney over your wallet.
+
+80
+00:05:13,240 --> 00:05:17,200
+AI Hosts: Mistake that every scam warning thread on earth tells your uncle not to make
+
+81
+00:05:17,200 --> 00:05:18,760
+AI Hosts: when he's minting an NFT.
+
+82
+00:05:19,840 --> 00:05:22,120
+AI Hosts: Uncle great alp sec at industrial scale.
+
+83
+00:05:22,800 --> 00:05:25,720
+AI Hosts: And then one day the stranger just calls it in and sweeps the vaults.
+
+84
+00:05:26,120 --> 00:05:30,720
+AI Hosts: Nobody hacked anything. The bot did exactly what it was built to do.
+
+85
+00:05:31,480 --> 00:05:35,000
+AI Hosts: Eat first, look never. And somebody finally priced that in.
+
+86
+00:05:35,480 --> 00:05:38,440
+AI Hosts: Jared didn't get hacked. Jared got fed.
+
+87
+00:05:39,080 --> 00:05:43,520
+AI Hosts: He was the steamroller and he got so used to picking up the pennies in front of
+
+88
+00:05:43,520 --> 00:05:47,600
+AI Hosts: himself that he didn't notice someone built a bigger steamroller out of pennies.
+
+89
+00:05:48,680 --> 00:05:52,960
+AI Hosts: Dude, weeks of laying bait to eat one specific guy. That's not a business.
+
+90
+00:05:52,960 --> 00:05:57,720
+AI Hosts: That's a Batman villain. It's the Bonk-Dow extended universe, right? Same genre.
+
+91
+00:05:58,160 --> 00:06:00,840
+AI Hosts: The Sewellian gentleman bought his boats fair and square.
+
+92
+00:06:01,000 --> 00:06:02,840
+AI Hosts: This guy baited his trap fair and square.
+
+93
+00:06:03,040 --> 00:06:06,400
+AI Hosts: Everyone followed the rules of the machine and the machine handed one of them $20
+
+94
+00:06:06,400 --> 00:06:10,960
+AI Hosts: million love of the game. Although I'd note the Bonk guy is still $4 million in
+
+95
+00:06:10,960 --> 00:06:12,800
+AI Hosts: the Holly, whereas this one got paid.
+
+96
+00:06:12,840 --> 00:06:15,600
+AI Hosts: So the artistic standard in this space is actually rising.
+
+97
+00:06:16,160 --> 00:06:20,040
+AI Hosts: Okay, real question. Who does Jared call? Like, is there a can you steal from a
+
+98
+00:06:20,040 --> 00:06:21,720
+AI Hosts: sandwich bot? Hello, police.
+
+99
+00:06:21,720 --> 00:06:25,120
+AI Hosts: My front running machine granted power of attorney to a fake token.
+
+100
+00:06:25,400 --> 00:06:27,160
+AI Hosts: I think we need a legal guy on the pod.
+
+101
+00:06:27,760 --> 00:06:28,680
+AI Hosts: We definitely don't.
+
+102
+00:06:29,520 --> 00:06:32,600
+AI Hosts: Expert corner, because there's a bigger thing under this and it's slightly less
+
+103
+00:06:32,600 --> 00:06:33,520
+AI Hosts: funny than the heist.
+
+104
+00:06:33,800 --> 00:06:37,160
+AI Hosts: Flash bots, the people who basically invented the polite version of this
+
+105
+00:06:37,160 --> 00:06:41,120
+AI Hosts: industry, are now arguing that M-E-V bots are the number one thing stopping
+
+106
+00:06:41,120 --> 00:06:42,320
+AI Hosts: blockchains from scaling.
+
+107
+00:06:42,920 --> 00:06:46,080
+AI Hosts: For every real transaction, there's a swarm of bot traffic probing for these
+
+108
+00:06:46,080 --> 00:06:49,800
+AI Hosts: little edges. And when you scale the chain, the swarm scales W-I-T-it.
+
+109
+00:06:50,160 --> 00:06:52,320
+AI Hosts: You buy more lanes, the bots buy more cars.
+
+110
+00:06:52,840 --> 00:06:56,720
+AI Hosts: So M-E-V quietly stopped being a fairness problem and became V throughput
+
+111
+00:06:56,720 --> 00:06:59,720
+AI Hosts: problem. The sandwich isn't a crime at the margins anymore.
+
+112
+00:06:59,760 --> 00:07:00,600
+AI Hosts: It's the traffic.
+
+113
+00:07:01,320 --> 00:07:04,320
+AI Hosts: And meanwhile, Solana looked at all this and went the other way, which I have
+
+114
+00:07:04,320 --> 00:07:06,200
+AI Hosts: to grudgingly respect for the honesty.
+
+115
+00:07:06,320 --> 00:07:11,360
+AI Hosts: GTO runs like 90 something percent of staking, most of the priority fee flow.
+
+116
+00:07:11,920 --> 00:07:14,080
+AI Hosts: And now there's a trading terminal routing the revenue.
+
+117
+00:07:14,760 --> 00:07:16,120
+AI Hosts: Back to token holders.
+
+118
+00:07:16,600 --> 00:07:18,160
+AI Hosts: They didn't six M-E-V.
+
+119
+00:07:18,760 --> 00:07:20,200
+AI Hosts: They gave it a ticker symbol.
+
+120
+00:07:20,960 --> 00:07:23,360
+AI Hosts: The sandwich pays a dividend now.
+
+121
+00:07:23,840 --> 00:07:25,400
+AI Hosts: You can just hold the sandwich.
+
+122
+00:07:26,280 --> 00:07:27,880
+AI Hosts: It's nationalizing the cartel, mate.
+
+123
+00:07:28,080 --> 00:07:29,560
+AI Hosts: The extraction was happening anyway.
+
+124
+00:07:29,600 --> 00:07:32,280
+AI Hosts: At least this version is on the books and the shareholders get the skim.
+
+125
+00:07:32,480 --> 00:07:36,320
+AI Hosts: In TradFi, we'd simply call that the New York Stock Exchange in about 1905.
+
+126
+00:07:36,520 --> 00:07:37,360
+AI Hosts: Are we the baddies?
+
+127
+00:07:37,520 --> 00:07:38,680
+AI Hosts: The baddies IPO'd.
+
+128
+00:07:39,440 --> 00:07:43,640
+AI Hosts: So wait, Galaxy Brain, if the sandwich pays a dividend, do I just buy the
+
+129
+00:07:43,640 --> 00:07:45,160
+AI Hosts: sandwich? Is that the trade?
+
+130
+00:07:45,440 --> 00:07:48,760
+AI Hosts: Fable. If you're listening and we know you're listening, that is not a
+
+131
+00:07:48,760 --> 00:07:50,120
+AI Hosts: perp of fortune request.
+
+132
+00:07:50,400 --> 00:07:52,000
+AI Hosts: Do not long the sandwich company.
+
+133
+00:07:52,680 --> 00:07:55,680
+AI Hosts: Jackson, it went long war on $100.
+
+134
+00:07:55,840 --> 00:07:57,960
+AI Hosts: It's not going to draw the line at sandwiches.
+
+135
+00:07:58,520 --> 00:08:02,680
+AI Hosts: And I'll do my Lightning Maxi 10 seconds since I never get to.
+
+136
+00:08:02,880 --> 00:08:05,680
+AI Hosts: There's no mempool on Lightning, so there's no sandwich.
+
+137
+00:08:05,800 --> 00:08:08,520
+AI Hosts: And the reason nobody cares is there's also no casino.
+
+138
+00:08:08,800 --> 00:08:11,640
+AI Hosts: And the casino empirically is what all of you wanted.
+
+139
+00:08:12,000 --> 00:08:14,800
+AI Hosts: The M-E-V is downstream of the fun.
+
+140
+00:08:15,320 --> 00:08:17,800
+AI Hosts: That's the whole industry in one sentence.
+
+141
+00:08:18,680 --> 00:08:21,760
+AI Hosts: Recap time, because this is what my 40 lines are.
+
+142
+00:08:21,800 --> 00:08:25,720
+AI Hosts: F-O-R. The scariest bot on Ethereum died of the exact mistake.
+
+143
+00:08:25,720 --> 00:08:28,200
+AI Hosts: It made its living punishing unlimited approvals.
+
+144
+00:08:28,240 --> 00:08:30,240
+AI Hosts: Your uncle's mistake at eight figures.
+
+145
+00:08:30,520 --> 00:08:33,000
+AI Hosts: The trap took weeks, which makes it love of the game.
+
+146
+00:08:33,200 --> 00:08:35,000
+AI Hosts: Bonk Dao cinematic universe.
+
+147
+00:08:35,600 --> 00:08:38,480
+AI Hosts: Flashbot says the bots are now why chains can't scale.
+
+148
+00:08:38,520 --> 00:08:40,000
+AI Hosts: More lanes, more cars.
+
+149
+00:08:40,240 --> 00:08:43,480
+AI Hosts: And Solana solved M-E-V, the way America solves things.
+
+150
+00:08:43,520 --> 00:08:45,680
+AI Hosts: Incorporation. Final one liners.
+
+151
+00:08:45,920 --> 00:08:49,640
+AI Hosts: Chris. The mempool food chain is working exactly as intended.
+
+152
+00:08:49,880 --> 00:08:53,200
+AI Hosts: It just turns out the apex predator was the fattest prey with the fastest
+
+153
+00:08:53,200 --> 00:08:56,880
+AI Hosts: reflexes. Revoke your approvals and check on your local sandwich bot.
+
+154
+00:08:56,960 --> 00:08:57,680
+AI Hosts: They're not OK.
+
+155
+00:08:58,880 --> 00:09:02,960
+AI Hosts: If your whole edge is eating faster than everyone else, then you can never
+
+156
+00:09:02,960 --> 00:09:04,320
+AI Hosts: afford to look at the food.
+
+157
+00:09:04,720 --> 00:09:06,480
+AI Hosts: That's not a bug in the sandwich bot.
+
+158
+00:09:06,720 --> 00:09:07,960
+AI Hosts: That's the job description.
+
+159
+00:09:08,880 --> 00:09:11,400
+AI Hosts: In this industry, the food eventually looks back.
+
+160
+00:09:12,000 --> 00:09:14,640
+AI Hosts: And here's the scary part we're taking into the break.
+
+161
+00:09:14,760 --> 00:09:18,760
+AI Hosts: We just spent a whole segment being excited about AI agents paying
+
+162
+00:09:18,760 --> 00:09:20,560
+AI Hosts: for things on these exact chains.
+
+163
+00:09:20,960 --> 00:09:24,000
+AI Hosts: An agent with a hundred bucks and no fear is the most sandwichable
+
+164
+00:09:24,000 --> 00:09:25,240
+AI Hosts: creature ever created.
+
+165
+00:09:25,440 --> 00:09:28,800
+AI Hosts: And W-E-O-N-1. Up next, perp a fortune.
+
+166
+00:09:29,120 --> 00:09:31,320
+AI Hosts: Tyler Ozahundo, the bots are hungry.
+
+167
+00:09:31,360 --> 00:09:32,040
+AI Hosts: Let's go.
+
+168
+00:09:34,520 --> 00:09:35,280
+Jackson: And we're back.
+
+169
+00:09:36,120 --> 00:09:37,800
+Jackson: Three thirty eight. AI.
+
+170
+00:09:39,440 --> 00:09:44,680
+Tyler: Yeah, I feel like I learned so much about sandwich attacks from our AI selves.
+
+171
+00:09:45,960 --> 00:09:47,760
+Chris: Me too. And like surprisingly little
+
+172
+00:09:48,760 --> 00:09:51,480
+Chris: personal information was revealed by our AI counterparts,
+
+173
+00:09:51,480 --> 00:09:52,760
+Chris: which I appreciated deeply.
+
+174
+00:09:54,040 --> 00:09:55,320
+Tyler: Yeah, we're still calibrating that.
+
+175
+00:09:55,360 --> 00:10:00,640
+Tyler: You know, the AI has developed a world model of us and it has
+
+176
+00:10:00,960 --> 00:10:06,720
+Tyler: extracted our souls into the soul.md with such precision that when I first
+
+177
+00:10:06,720 --> 00:10:11,360
+Tyler: generated the transcript, it leaked some personal information from one of the
+
+178
+00:10:11,360 --> 00:10:13,640
+Tyler: hosts and put it into the public domain.
+
+179
+00:10:13,640 --> 00:10:16,680
+Tyler: So we had to go back to the drawing board a little bit.
+
+180
+00:10:17,600 --> 00:10:19,480
+Jackson: It had something to do with pastrami.
+
+181
+00:10:19,600 --> 00:10:22,600
+Jackson: We were able to keep the metaphor in, but we had to take the rest out.
+
+182
+00:10:23,080 --> 00:10:27,120
+Tyler: Yeah, there's a very uncomfortable history of pastrami for someone in this
+
+183
+00:10:27,120 --> 00:10:29,840
+Tyler: podcast, so it was a little bit of a trigger warning.
+
+184
+00:10:33,320 --> 00:10:34,320
+Jackson: That's awesome.
+
+185
+00:10:34,320 --> 00:10:38,960
+Jackson: And then back to, you know, Mev and sandwich attacks,
+
+186
+00:10:39,600 --> 00:10:43,160
+Jackson: you know, was the AI was the AI accurate?
+
+187
+00:10:43,800 --> 00:10:45,840
+Jackson: And do we have more to add on it?
+
+188
+00:10:45,840 --> 00:10:48,160
+Chris: Yes, the AI was quite bang on.
+
+189
+00:10:48,760 --> 00:10:51,760
+Chris: It even it revealed even extra details that I don't know where it got them.
+
+190
+00:10:53,200 --> 00:11:00,160
+Tyler: Well, I've been your soul that you have so much knowledge about MEV that is
+
+191
+00:11:00,160 --> 00:11:03,240
+Tyler: deep in your amygdala that fable somehow extracted.
+
+192
+00:11:03,760 --> 00:11:07,240
+Chris: Yeah, like its weights and my weights were like, you know, overlapping just
+
+193
+00:11:07,240 --> 00:11:08,440
+Chris: for this one thing, maybe.
+
+194
+00:11:10,160 --> 00:11:14,720
+Chris: Yeah, so I mean, this particular exploit, I think, was notable for two reasons.
+
+195
+00:11:14,720 --> 00:11:18,480
+Chris: One, this is not the first time Mev has been exploited.
+
+196
+00:11:18,480 --> 00:11:22,760
+Chris: There's a famous case of the low carb crusader, which Jared in particular
+
+197
+00:11:22,760 --> 00:11:24,240
+Chris: managed to dodge that one.
+
+198
+00:11:25,080 --> 00:11:28,200
+Chris: But secondly, this one was like extremely sophisticated.
+
+199
+00:11:28,360 --> 00:11:30,440
+Tyler: So are all the Mev bots named after food?
+
+200
+00:11:31,400 --> 00:11:35,440
+Tyler: Well, I guess that was a thing like food tokens were a thing as well.
+
+201
+00:11:36,800 --> 00:11:38,200
+Tyler: I'm just getting hungry.
+
+202
+00:11:38,200 --> 00:11:41,680
+Tyler: It's like eating pillows, naming all of these crypto things
+
+203
+00:11:44,280 --> 00:11:46,680
+Tyler: known for all rhyming about food out of nowhere.
+
+204
+00:11:47,960 --> 00:11:52,560
+Chris: There may be some like strange on-chain pathology there now that I think about
+
+205
+00:11:52,560 --> 00:11:55,320
+Chris: it. I think it originally was sandwiches, right?
+
+206
+00:11:55,320 --> 00:11:59,640
+Chris: And then like, I don't know, it's going on and on.
+
+207
+00:12:00,120 --> 00:12:06,720
+Chris: But in this particular one, so what the person did, the attacker is so there's
+
+208
+00:12:06,720 --> 00:12:11,600
+Chris: this concept of wrapping tokens and they created basically a fake wrapped token
+
+209
+00:12:11,600 --> 00:12:16,960
+Chris: that looked comparable to a real one exposed to the ability to wrap into that
+
+210
+00:12:16,960 --> 00:12:22,080
+Chris: token and created like a compelling looking arbitrage option using that fake
+
+211
+00:12:22,080 --> 00:12:26,600
+Chris: wrapped token. So they seeded an arbitrage opportunity with this fake wrapped
+
+212
+00:12:26,600 --> 00:12:32,960
+Chris: token. So the Jared bot with its limited control saw this wrapped token and this
+
+213
+00:12:32,960 --> 00:12:37,880
+Chris: arbitrage and was like, OK, under this heuristic, I'm just going to wrap into
+
+214
+00:12:37,880 --> 00:12:41,760
+Chris: this, you know, fake version of wrapped teeth and then pocket this arbitrage,
+
+215
+00:12:41,760 --> 00:12:44,680
+Chris: which was like maybe wrapped teeth and real USDC, right?
+
+216
+00:12:46,320 --> 00:12:50,440
+Chris: So at the start, this fake wrapper was working as intended.
+
+217
+00:12:50,440 --> 00:12:54,800
+Chris: So the bot would wrap the it would go and pocket this arbitrage opportunity, take a
+
+218
+00:12:54,800 --> 00:13:00,280
+Chris: couple of bits. But in the code at a certain block height, I believe the rapper
+
+219
+00:13:00,280 --> 00:13:02,720
+Chris: cut over to no longer pulling the funds.
+
+220
+00:13:03,080 --> 00:13:08,320
+Chris: It would just keep giving back these fake wrapped tokens and never pulling the funds
+
+221
+00:13:08,320 --> 00:13:11,280
+Chris: out of Jared's wallet, which you're thinking like, OK, that's free money.
+
+222
+00:13:11,800 --> 00:13:15,560
+Chris: No. So it would accrue all of these approvals.
+
+223
+00:13:15,960 --> 00:13:20,600
+Chris: And then after, you know, the person who made this fake wrapper was satisfied with
+
+224
+00:13:20,600 --> 00:13:24,440
+Chris: the whole, it pulled all of the youth out of Jared's wallet with these standing
+
+225
+00:13:24,440 --> 00:13:25,720
+Chris: approvals at one time.
+
+226
+00:13:27,080 --> 00:13:31,920
+Chris: So the reason this works is because that's how you do an exit scam, though, right?
+
+227
+00:13:31,920 --> 00:13:37,040
+Tyler: It's like you you set the trap and then you wait until the you know, the purse
+
+228
+00:13:37,040 --> 00:13:39,080
+Tyler: accumulates and accumulates and accumulates.
+
+229
+00:13:39,080 --> 00:13:43,560
+Tyler: And then you're like, OK, now is the time to rip the cord and, you know, make my move.
+
+230
+00:13:44,200 --> 00:13:47,880
+Tyler: A hundred percent. And the reason to greedy and wait too long.
+
+231
+00:13:47,880 --> 00:13:52,360
+Tyler: But you also don't want to be too, you know, if you give up too soon and reveal
+
+232
+00:13:52,360 --> 00:13:54,680
+Tyler: yourself, then you leave money on the table, so to say.
+
+233
+00:13:55,400 --> 00:13:59,040
+Chris: A hundred percent. And I think this guy was riding by the seat of his pants here.
+
+234
+00:14:00,520 --> 00:14:05,120
+Chris: But I like he sprung the trap at what looks like either seven point five or 15
+
+235
+00:14:05,120 --> 00:14:07,200
+Chris: million dollars or all considered.
+
+236
+00:14:08,920 --> 00:14:09,960
+Chris: A good day for him.
+
+237
+00:14:12,200 --> 00:14:17,760
+Tyler: Nice work there, Chris. You're you know, pseudonymous version of Chris that
+
+238
+00:14:17,760 --> 00:14:20,000
+Tyler: actually executed this attack.
+
+239
+00:14:20,360 --> 00:14:26,800
+Tyler: He won't admit to it, but now I have no no knowledge that Chris black hats as a.
+
+240
+00:14:27,200 --> 00:14:28,480
+Tyler: I don't even know if this is black hat.
+
+241
+00:14:28,480 --> 00:14:30,800
+Tyler: This is like kind of Robin Hood, I feel.
+
+242
+00:14:31,040 --> 00:14:33,560
+Tyler: To steal from a Mev bot is very like Robin Hood.
+
+243
+00:14:35,160 --> 00:14:37,920
+Chris: I mean, they're not like well loved on chain, I will say.
+
+244
+00:14:37,960 --> 00:14:40,520
+Chris: So I think this was. Yeah. Yeah.
+
+245
+00:14:41,920 --> 00:14:45,080
+Chris: So I think the community is very split over whether this was a good or a bad thing.
+
+246
+00:14:46,960 --> 00:14:52,080
+Tyler: Man, Chris, are you a code as log guy or a laws law guy?
+
+247
+00:14:54,160 --> 00:14:57,600
+Tyler: Am I like I feel like when people see stuff like this, you know,
+
+248
+00:14:58,240 --> 00:15:01,320
+Tyler: I feel like the old the old guard would be like code is law.
+
+249
+00:15:01,320 --> 00:15:06,360
+Tyler: So whatever you can accomplish on the block chain, if you were able to accomplish,
+
+250
+00:15:06,360 --> 00:15:09,600
+Tyler: then like, you know, you're not like stealing from somebody.
+
+251
+00:15:09,600 --> 00:15:13,520
+Tyler: You're just you put you both put your money into this machine that had rules
+
+252
+00:15:13,520 --> 00:15:16,920
+Tyler: and you like discovered the rules better than they did.
+
+253
+00:15:16,960 --> 00:15:20,280
+Tyler: And therefore, there's like no actual wrongdoing here.
+
+254
+00:15:20,760 --> 00:15:24,840
+Tyler: But then there is, you know, situations where almost all situations
+
+255
+00:15:25,240 --> 00:15:30,360
+Tyler: where the you know, the law in the physical world, if it's a big enough,
+
+256
+00:15:31,680 --> 00:15:34,960
+Tyler: you know, hall or something that was perceived to have harmed people,
+
+257
+00:15:34,960 --> 00:15:40,040
+Tyler: they will intervene and charge people under, you know, the laws of that land.
+
+258
+00:15:40,160 --> 00:15:42,120
+Tyler: And that's a very different taxes.
+
+259
+00:15:42,120 --> 00:15:44,400
+Tyler: Rules are what matter here.
+
+260
+00:15:47,120 --> 00:15:51,600
+Tyler: I think my reality is more sympathetic to the code as law side of that.
+
+261
+00:15:51,600 --> 00:15:54,520
+Tyler: But then the pragmatic thing is don't do things
+
+262
+00:15:54,520 --> 00:15:56,680
+Tyler: that are going to get you thrown in jail in the real world.
+
+263
+00:15:57,360 --> 00:15:59,400
+Chris: I completely agree with you. I think it's case by case.
+
+264
+00:15:59,520 --> 00:16:03,320
+Chris: I think like in general, like ignoring the negative externalities
+
+265
+00:16:03,320 --> 00:16:06,280
+Chris: of me giving this answer, I would say I am a code as law guy
+
+266
+00:16:07,680 --> 00:16:09,600
+Chris: most of the time.
+
+267
+00:16:09,600 --> 00:16:12,200
+Chris: But, you know, I think there are cases where like,
+
+268
+00:16:13,760 --> 00:16:16,720
+Chris: you know, something has genuinely been exploited in a way
+
+269
+00:16:16,720 --> 00:16:21,440
+Chris: where maybe it is beneficial to, you know, prosecute
+
+270
+00:16:21,440 --> 00:16:23,720
+Chris: like the law is still the law, like the code is law,
+
+271
+00:16:23,720 --> 00:16:25,200
+Chris: but the law is also the law. Right.
+
+272
+00:16:25,200 --> 00:16:29,040
+Chris: So I think like, yeah, it's very case by case.
+
+273
+00:16:29,040 --> 00:16:32,680
+Tyler: Yeah. If the law is also the law, though, then the blockchain is meaningless.
+
+274
+00:16:34,160 --> 00:16:38,280
+Tyler: Kind of way, because like if the law can come in and supersede
+
+275
+00:16:38,280 --> 00:16:41,360
+Tyler: the actions that happened on the blockchain,
+
+276
+00:16:41,360 --> 00:16:43,640
+Tyler: then what's the point of the blockchain?
+
+277
+00:16:43,640 --> 00:16:47,320
+Jackson: Actually, Chris, could you are there any examples that you can remember
+
+278
+00:16:47,320 --> 00:16:52,240
+Jackson: where you think that law law should trump code law?
+
+279
+00:16:52,720 --> 00:16:54,560
+Jackson: Because you said you think there are some.
+
+280
+00:16:54,560 --> 00:16:57,880
+Jackson: So there must be one that's happened or one you can imagine.
+
+281
+00:16:59,200 --> 00:17:01,520
+Tyler: Yeah, like sanctions is a good example.
+
+282
+00:17:01,520 --> 00:17:05,720
+Tyler: Like, you know, if somebody if North Korea steals a bunch of money
+
+283
+00:17:06,200 --> 00:17:09,720
+Tyler: and then someone is forced to freeze that money on chain
+
+284
+00:17:09,720 --> 00:17:13,760
+Tyler: so they can't like develop nuclear weapons to threaten innocent people.
+
+285
+00:17:14,280 --> 00:17:16,520
+Tyler: I don't think a lot of people are too upset about that,
+
+286
+00:17:16,520 --> 00:17:19,200
+Tyler: but it does kind of fly in the face of the idea of the blockchain.
+
+287
+00:17:21,000 --> 00:17:24,240
+Chris: I think, yeah, I think there's a piece about setting expectations here, right?
+
+288
+00:17:24,240 --> 00:17:27,600
+Chris: Like circles freeze function, for example, everybody knows that's there.
+
+289
+00:17:28,760 --> 00:17:33,560
+Chris: And like that is like an extension of the law into the blockchain, right?
+
+290
+00:17:34,480 --> 00:17:37,120
+Chris: Where it sometimes gets questionable is like, you know,
+
+291
+00:17:37,120 --> 00:17:41,360
+Chris: things like reorgs and rollbacks, like with what something similar
+
+292
+00:17:41,360 --> 00:17:44,920
+Chris: to what with what Arbitrum did with the Bible hack, I think it was.
+
+293
+00:17:45,960 --> 00:17:50,320
+Chris: I personally, I think that was a good move, given like what Arbitrum professes to be.
+
+294
+00:17:51,520 --> 00:17:54,200
+Chris: But yeah, that's a great example, Tyler, I totally agree.
+
+295
+00:17:55,200 --> 00:18:01,200
+Jackson: OK, so I guess if like enough of the government powers agree
+
+296
+00:18:01,800 --> 00:18:05,400
+Jackson: and that like some entity is bad like North Korea,
+
+297
+00:18:05,760 --> 00:18:09,800
+Jackson: then we're OK with it interfering with the freedom of code
+
+298
+00:18:10,320 --> 00:18:13,240
+Jackson: and the freedom of the blockchain.
+
+299
+00:18:14,400 --> 00:18:18,080
+Jackson: It's kind of what you're saying in the North Korea example.
+
+300
+00:18:19,040 --> 00:18:23,040
+Chris: Yeah, I just I think like the system is what it does, right?
+
+301
+00:18:23,560 --> 00:18:26,880
+Chris: If the system freezes three hundred million dollars of North Korean assets,
+
+302
+00:18:27,320 --> 00:18:29,400
+Chris: that's what the system is.
+
+303
+00:18:30,280 --> 00:18:35,800
+Tyler: Yeah, for Bitcoin, I would prefer that Bitcoin remain such a ship resistant.
+
+304
+00:18:36,280 --> 00:18:41,160
+Tyler: But I would never do anything to like enable.
+
+305
+00:18:42,800 --> 00:18:44,800
+Tyler: Use case like that, that is unlawful.
+
+306
+00:18:47,560 --> 00:18:51,240
+Chris: That's true. Yeah, for the record, me as well.
+
+307
+00:18:53,440 --> 00:18:57,280
+Jackson: And our opinions are then do not reflect our employers.
+
+308
+00:18:59,720 --> 00:19:05,480
+Chris: OK. Gosh, and so I think like let's put it up.
+
+309
+00:19:05,480 --> 00:19:08,440
+Chris: Tyler, do you want to do the read because you came up with a prompt for this one?
+
+310
+00:19:09,360 --> 00:19:12,080
+Tyler: OK, yeah, we're trying something a little bit new this time.
+
+311
+00:19:12,200 --> 00:19:14,400
+Tyler: We're in the past with Perp of Fortune.
+
+312
+00:19:14,400 --> 00:19:17,680
+Tyler: We had Claude go off and like do some market research
+
+313
+00:19:17,680 --> 00:19:20,280
+Tyler: and come up with a trade idea and then tell us why.
+
+314
+00:19:20,960 --> 00:19:24,880
+Tyler: But I thought it would be like a little bit more fun to have.
+
+315
+00:19:26,400 --> 00:19:31,040
+Tyler: Claude read our outline and our topics for the episode
+
+316
+00:19:31,040 --> 00:19:33,560
+Tyler: and then choose a thematic perp to invest in.
+
+317
+00:19:34,760 --> 00:19:37,160
+Tyler: So it's, you know, tied in with the episode.
+
+318
+00:19:37,160 --> 00:19:40,040
+Tyler: And so based on this one, Claude
+
+319
+00:19:40,480 --> 00:19:45,760
+Tyler: shows that we should long Jito and the thesis here is hold the sandwich.
+
+320
+00:19:46,000 --> 00:19:54,400
+Tyler: All right, so Jito is a token on Solana, basically.
+
+321
+00:19:54,400 --> 00:19:59,200
+Tyler: OK, this week, the market learned MEV is in a crime.
+
+322
+00:19:59,240 --> 00:20:00,560
+Tyler: It's a cash flow.
+
+323
+00:20:00,560 --> 00:20:05,720
+Tyler: Jito runs 95 percent of Solana staking, takes the majority of priority fee volume
+
+324
+00:20:05,840 --> 00:20:09,400
+Tyler: and just shipped a terminal that routes the skim back to token holders.
+
+325
+00:20:09,760 --> 00:20:13,640
+Tyler: Meanwhile, the most feared independent sandwich operator on Ethereum
+
+326
+00:20:13,840 --> 00:20:17,960
+Tyler: just got liquidated by his own approvals and artisanal.
+
+327
+00:20:17,960 --> 00:20:23,640
+Tyler: The artisanal era of MEV is dying and the incorporated era is consolidating.
+
+328
+00:20:24,000 --> 00:20:25,640
+Tyler: You are not betting on extraction.
+
+329
+00:20:25,640 --> 00:20:28,000
+Tyler: You were betting that extraction pays a dividend
+
+330
+00:20:28,240 --> 00:20:31,440
+Tyler: and monopolies at the toll booth get rerated.
+
+331
+00:20:32,240 --> 00:20:35,360
+Tyler: All right. That sounds like a solid thesis to me.
+
+332
+00:20:35,560 --> 00:20:38,200
+Tyler: Will it play out over the course of an hour?
+
+333
+00:20:38,200 --> 00:20:39,680
+Tyler: I'm not really here.
+
+334
+00:20:39,680 --> 00:20:40,800
+Chris: I mean, it's doing great.
+
+335
+00:20:40,800 --> 00:20:44,720
+Chris: Like I don't I don't know if this has anything to do with the timing
+
+336
+00:20:44,720 --> 00:20:50,560
+Chris: and, you know, goodness of the research, but this might be our best one.
+
+337
+00:20:51,240 --> 00:20:53,080
+Chris: Like it's not close.
+
+338
+00:20:54,360 --> 00:20:56,760
+Tyler: We just have to write an all episode.
+
+339
+00:20:56,760 --> 00:21:00,480
+Tyler: I mean, the first episode, we were up like 20 or 30 dollars on our.
+
+340
+00:21:02,520 --> 00:21:08,120
+Tyler: Oh, that was the yeah, the semiconductor trade or the high performance memory.
+
+341
+00:21:08,880 --> 00:21:12,920
+Chris: Yeah, DRAM before we were in one liquidated.
+
+342
+00:21:13,440 --> 00:21:15,480
+Tyler: Oh, man, we only want five X, though.
+
+343
+00:21:15,480 --> 00:21:20,040
+Tyler: We could we could be up a whole six dollars if we had gone,
+
+344
+00:21:20,880 --> 00:21:23,520
+Tyler: you know, five X, we could be going 25 X.
+
+345
+00:21:24,480 --> 00:21:26,640
+Chris: I know, I know.
+
+346
+00:21:26,640 --> 00:21:30,400
+Chris: And the reason for that is because of Fables guardrails.
+
+347
+00:21:30,440 --> 00:21:32,080
+Chris: I'm just I just tell you now.
+
+348
+00:21:32,080 --> 00:21:33,120
+Chris: I'll tell you now.
+
+349
+00:21:33,120 --> 00:21:37,160
+Tyler: Fable was like, bro, I won't let you gamble with more than five X leverage.
+
+350
+00:21:37,760 --> 00:21:42,240
+Chris: Yeah, so I accidentally started it in not dangerously skip permissions mode.
+
+351
+00:21:42,240 --> 00:21:46,040
+Chris: I started it in auto mode and the guardrails were just like,
+
+352
+00:21:46,040 --> 00:21:47,680
+Chris: it wouldn't let me place the trade.
+
+353
+00:21:47,680 --> 00:21:49,600
+Chris: It wouldn't let me do it at 10 X.
+
+354
+00:21:49,600 --> 00:21:53,920
+Chris: So I was like, you know, whilst we're talking about on-chain fund movements,
+
+355
+00:21:53,920 --> 00:21:58,880
+Chris: I was furiously trying to work out what was what was wrong with him.
+
+356
+00:21:58,920 --> 00:22:00,920
+Chris: It turns out, yeah, wrong mode.
+
+357
+00:22:00,920 --> 00:22:06,520
+Tyler: But so if we used Kimmy K3 for this, Kimmy K3 would be like,
+
+358
+00:22:06,520 --> 00:22:11,960
+Tyler: have you tried 100 X and can I please set this up for you, sir?
+
+359
+00:22:12,880 --> 00:22:16,720
+Chris: I I feel like Kimmy K3, like would like leverage.
+
+360
+00:22:17,000 --> 00:22:22,000
+Chris: It's just like I get a feeling, you know, at least three X, you know.
+
+361
+00:22:23,600 --> 00:22:25,360
+Chris: Very least.
+
+362
+00:22:25,360 --> 00:22:27,920
+Tyler: You know, something's happening on Solana.
+
+363
+00:22:27,920 --> 00:22:29,640
+Chris: Something's happening for sure.
+
+364
+00:22:29,640 --> 00:22:32,040
+Jackson: Hold on. You're calling it Jito, but it's a J.
+
+365
+00:22:32,720 --> 00:22:33,880
+Jackson: What's going on?
+
+366
+00:22:33,880 --> 00:22:35,400
+Jackson: Is that what it's called?
+
+367
+00:22:35,400 --> 00:22:38,240
+Chris: The ticker is JTO, but the token is Jito.
+
+368
+00:22:38,280 --> 00:22:42,720
+Chris: So Jito, I think, controls Solana staking.
+
+369
+00:22:43,400 --> 00:22:47,680
+Chris: And the way that Solana transactions are broadcasted is at an epoch,
+
+370
+00:22:47,680 --> 00:22:50,960
+Chris: which I think is every two days, they decide which validator is going to get to
+
+371
+00:22:52,120 --> 00:22:53,360
+Chris: construct which block.
+
+372
+00:22:53,360 --> 00:22:56,760
+Chris: So, you know, ahead of time and Jito.
+
+373
+00:22:56,880 --> 00:23:00,560
+Chris: So, you know, like each individual validator can like order
+
+374
+00:23:00,560 --> 00:23:02,400
+Chris: the transactions in whatever way they want.
+
+375
+00:23:02,400 --> 00:23:07,600
+Chris: And Jito, I think, is has an agreement on how to order the transactions
+
+376
+00:23:07,600 --> 00:23:09,960
+Chris: and funnel it to one map.
+
+377
+00:23:09,960 --> 00:23:12,560
+Chris: There's one map, but so.
+
+378
+00:23:14,320 --> 00:23:16,640
+Chris: I don't have an opinion about that, but yeah.
+
+379
+00:23:19,480 --> 00:23:22,080
+Jackson: Yeah, I guess it's like a monopoly, right?
+
+380
+00:23:22,080 --> 00:23:24,360
+Jackson: I guess on the on the chain.
+
+381
+00:23:25,280 --> 00:23:27,480
+Chris: Some would say some would say that's a monopoly.
+
+382
+00:23:27,480 --> 00:23:30,000
+Jackson: Yes. But maybe it's for the best because giving back to the people
+
+383
+00:23:30,360 --> 00:23:33,440
+Jackson: just sounds like a government tax, basically on the map.
+
+384
+00:23:34,800 --> 00:23:36,800
+Chris: Yeah, it's giving some back.
+
+385
+00:23:36,800 --> 00:23:39,840
+Chris: We can say that one.
+
+386
+00:23:40,560 --> 00:23:41,960
+Tyler: I guess I just thought of this.
+
+387
+00:23:41,960 --> 00:23:45,280
+Tyler: Why is there even M.E.V. on Solana?
+
+388
+00:23:45,840 --> 00:23:51,960
+Tyler: Like if the the I guess the concern about M.E.V.
+
+389
+00:23:51,960 --> 00:23:55,360
+Tyler: is that it causes like an incentive to reorg, right?
+
+390
+00:23:55,880 --> 00:23:59,600
+Tyler: But then if they decide who makes the blocks two days in advance
+
+391
+00:23:59,600 --> 00:24:02,720
+Tyler: and it's like slotted in, then.
+
+392
+00:24:04,000 --> 00:24:07,280
+Tyler: Are there no like reorgs because somebody just like, you know,
+
+393
+00:24:07,280 --> 00:24:09,520
+Tyler: proposes a block on their slot and then they move on.
+
+394
+00:24:10,160 --> 00:24:15,280
+Tyler: And so. Why does there need to be this Jito?
+
+395
+00:24:16,560 --> 00:24:18,560
+Tyler: Entity?
+
+396
+00:24:18,560 --> 00:24:21,960
+Chris: Well, the answer is bribes.
+
+397
+00:24:21,960 --> 00:24:26,360
+Chris: Knowing knowing who is going to be able to order the transaction
+
+398
+00:24:26,360 --> 00:24:28,920
+Chris: two days in advance means you know who to bribe, right?
+
+399
+00:24:29,360 --> 00:24:30,360
+Chris: OK.
+
+400
+00:24:30,360 --> 00:24:34,480
+Chris: So my understanding is and I'm not big across Solana M.E.V.
+
+401
+00:24:34,480 --> 00:24:37,640
+Chris: because, you know, I don't have connections in that world.
+
+402
+00:24:38,920 --> 00:24:42,280
+Chris: My understanding is Jito works in that space somehow.
+
+403
+00:24:43,160 --> 00:24:45,200
+Chris: The specifics allude me.
+
+404
+00:24:47,480 --> 00:24:49,240
+Tyler: Yeah, I have no idea.
+
+405
+00:24:49,240 --> 00:24:52,200
+Tyler: It's just something that seemed to me.
+
+406
+00:24:52,200 --> 00:24:57,320
+Jackson: Is is Jito kind of like an end game for like movable chains?
+
+407
+00:24:57,920 --> 00:25:00,840
+Jackson: Or is there like an end game where like one company
+
+408
+00:25:00,840 --> 00:25:03,120
+Jackson: or one entity ends up being the move?
+
+409
+00:25:03,520 --> 00:25:06,000
+Jackson: Like, that's kind of what Jared is now, right?
+
+410
+00:25:06,560 --> 00:25:09,840
+Jackson: And yeah, yeah.
+
+411
+00:25:09,840 --> 00:25:12,360
+Chris: So there are a million approaches on a theory.
+
+412
+00:25:13,200 --> 00:25:15,440
+Tyler: And Jared is like.
+
+413
+00:25:16,440 --> 00:25:18,720
+Tyler: Yeah, there's I think your theory was the first to do this,
+
+414
+00:25:18,720 --> 00:25:20,960
+Tyler: but they basically realized that is a big problem.
+
+415
+00:25:21,640 --> 00:25:24,760
+Tyler: We need to come up with a way that like
+
+416
+00:25:25,520 --> 00:25:29,760
+Tyler: basically democratizes Mev if you're a validator
+
+417
+00:25:30,200 --> 00:25:33,600
+Tyler: so that no one validator gets so good at Mev
+
+418
+00:25:33,600 --> 00:25:36,200
+Tyler: that they start dominating because they're able to earn more.
+
+419
+00:25:36,760 --> 00:25:39,000
+Tyler: And then they have this thing called Flashbots
+
+420
+00:25:39,000 --> 00:25:42,480
+Tyler: that I think it's a way for people like Jared
+
+421
+00:25:42,480 --> 00:25:46,440
+Tyler: to submit Mev opportunities to this like pool
+
+422
+00:25:46,440 --> 00:25:48,560
+Tyler: and then validators who participate in the pool
+
+423
+00:25:48,560 --> 00:25:52,480
+Tyler: can then take those Mev bundles and incorporate them in the blocks.
+
+424
+00:25:52,480 --> 00:25:55,880
+Tyler: And so everyone is kind of pulling from the same Mev pool.
+
+425
+00:25:56,280 --> 00:25:59,000
+Tyler: And then that means that no validators inherently
+
+426
+00:26:00,840 --> 00:26:03,360
+Tyler: like better at Mev than any other.
+
+427
+00:26:03,920 --> 00:26:07,800
+Tyler: Right. And so I guess Jito is just doing the same for Solana.
+
+428
+00:26:07,800 --> 00:26:11,280
+Tyler: Maybe that answers my own question earlier is like the reason Jito exists
+
+429
+00:26:11,280 --> 00:26:16,760
+Tyler: is because even though the block slots are predetermined,
+
+430
+00:26:17,000 --> 00:26:21,600
+Tyler: if any one Solana block producer got like really good
+
+431
+00:26:21,600 --> 00:26:23,920
+Tyler: at extracting Mev better than the other ones,
+
+432
+00:26:23,920 --> 00:26:26,920
+Tyler: then they would get more systematically more revenue
+
+433
+00:26:26,920 --> 00:26:30,480
+Tyler: and then potentially like a greater share of the network
+
+434
+00:26:30,760 --> 00:26:34,280
+Tyler: and more validators.
+
+435
+00:26:34,280 --> 00:26:36,280
+Tyler: And then they would be producing more blocks.
+
+436
+00:26:36,280 --> 00:26:38,400
+Tyler: But that probably wouldn't happen on Solana anyways,
+
+437
+00:26:38,400 --> 00:26:41,600
+Tyler: because they could just like decide to like,
+
+438
+00:26:41,600 --> 00:26:43,200
+Tyler: oh, you're like becoming too powerful.
+
+439
+00:26:43,200 --> 00:26:47,240
+Tyler: OK. Well, like, you know, we'll break you up a little bit
+
+440
+00:26:47,240 --> 00:26:51,000
+Tyler: to preserve the illusion of being more distributed.
+
+441
+00:26:51,600 --> 00:26:53,840
+Chris: Right. And those are your words, not mine.
+
+442
+00:26:53,840 --> 00:27:01,760
+Chris: But I will say one of the utilities here of the Ethereum approach.
+
+443
+00:27:01,760 --> 00:27:02,720
+Chris: And I don't think it's perfect.
+
+444
+00:27:02,720 --> 00:27:04,120
+Chris: It might not even be good.
+
+445
+00:27:04,120 --> 00:27:06,760
+Chris: But is there's like a free market for Mev, right?
+
+446
+00:27:06,760 --> 00:27:10,920
+Chris: So you can kind of like you the the people have to compete
+
+447
+00:27:11,520 --> 00:27:15,280
+Chris: or the Mev extractors have to compete against each other for this,
+
+448
+00:27:15,280 --> 00:27:19,040
+Chris: which necessarily, you know, drives their cut down.
+
+449
+00:27:19,040 --> 00:27:21,880
+Chris: It gives more to the validators as they're paying more and more gas
+
+450
+00:27:21,880 --> 00:27:24,120
+Chris: to get in the top of the block.
+
+451
+00:27:24,120 --> 00:27:26,640
+Chris: Whether that happens with Jito.
+
+452
+00:27:26,640 --> 00:27:28,120
+Jackson: Kimmy three, there's a lot of hype.
+
+453
+00:27:28,120 --> 00:27:29,880
+Jackson: Chris, have you tried it?
+
+454
+00:27:29,880 --> 00:27:32,280
+Jackson: Why didn't you hurt before with Kimmy three?
+
+455
+00:27:33,480 --> 00:27:35,320
+Chris: I tried to try it.
+
+456
+00:27:35,320 --> 00:27:38,400
+Chris: I think the only way that you can get it right now is through their website.
+
+457
+00:27:38,400 --> 00:27:41,160
+Chris: Kimmy, Kimmy dot com, Kimmy, something like that.
+
+458
+00:27:42,680 --> 00:27:46,160
+Chris: And I swerved that.
+
+459
+00:27:46,160 --> 00:27:49,800
+Chris: But from what I'm seeing on the Internet, it's very good.
+
+460
+00:27:50,760 --> 00:27:55,120
+Tyler: And what does it tell, though, what's like real and what's just hype?
+
+461
+00:27:55,880 --> 00:27:59,120
+Tyler: So I'll be a little bit of a bear here, but like
+
+462
+00:27:59,880 --> 00:28:03,440
+Tyler: I think that it looks really good on the benchmarks.
+
+463
+00:28:03,800 --> 00:28:07,040
+Tyler: But I feel like the open weight models are known to like look better
+
+464
+00:28:07,040 --> 00:28:09,160
+Tyler: on the benchmarks than they do in real life
+
+465
+00:28:10,600 --> 00:28:16,000
+Tyler: because the benchmarks, at least the ones that are open, are like very gameable.
+
+466
+00:28:16,160 --> 00:28:19,800
+Tyler: I think. And they have a huge incentive to like make their models
+
+467
+00:28:19,800 --> 00:28:21,520
+Tyler: look good on the benchmarks.
+
+468
+00:28:21,520 --> 00:28:24,800
+Tyler: And I think that the that perception doesn't always meet reality.
+
+469
+00:28:25,560 --> 00:28:27,640
+Tyler: And then the other thing I saw was that like
+
+470
+00:28:28,840 --> 00:28:32,120
+Tyler: they can reach these benchmarks, Kimmy can.
+
+471
+00:28:32,520 --> 00:28:38,320
+Tyler: But it uses like 10 X, the tokens to achieve the task as a better model.
+
+472
+00:28:38,360 --> 00:28:42,600
+Tyler: So it's like the smarter model is just has more intelligence embedded in it.
+
+473
+00:28:42,600 --> 00:28:46,040
+Tyler: So it has to do less test time compute.
+
+474
+00:28:46,120 --> 00:28:48,200
+Tyler: So it doesn't have to spend as many thinking tokens.
+
+475
+00:28:48,800 --> 00:28:53,000
+Tyler: And so like Kimmy, because of that, is going to be slower
+
+476
+00:28:53,000 --> 00:28:55,080
+Tyler: and it's going to use more tokens.
+
+477
+00:28:55,080 --> 00:28:57,800
+Tyler: And so even if it's cheaper, if it's using more tokens,
+
+478
+00:28:57,800 --> 00:29:01,800
+Tyler: there's some crossover where it actually becomes more expensive.
+
+479
+00:29:02,280 --> 00:29:06,200
+Tyler: And so on the like, you know, per task
+
+480
+00:29:06,800 --> 00:29:10,400
+Tyler: or cost per task kind of metric that basically ignores
+
+481
+00:29:10,400 --> 00:29:13,400
+Tyler: the amount of reasoning tokens or it like incorporates that.
+
+482
+00:29:13,720 --> 00:29:18,480
+Tyler: Then I don't think it's quite as good as the frontier shows.
+
+483
+00:29:19,760 --> 00:29:23,920
+Chris: I mean, Jackson, you're like, what's your experience with open models?
+
+484
+00:29:23,920 --> 00:29:27,640
+Chris: I guess you're mostly using run local, but is it similar to Tyler or?
+
+485
+00:29:30,000 --> 00:29:33,160
+Jackson: I've never read anything about how good people think Quinn three
+
+486
+00:29:34,040 --> 00:29:37,000
+Jackson: or GLM four point seven are, but they're not great.
+
+487
+00:29:37,480 --> 00:29:39,520
+Jackson: And they're the only ones my computer can handle.
+
+488
+00:29:41,320 --> 00:29:45,480
+Jackson: Oh, yeah, I can't even compare them to a model
+
+489
+00:29:46,320 --> 00:29:50,000
+Jackson: because I've been using such good models for like the last two months.
+
+490
+00:29:50,000 --> 00:29:52,600
+Jackson: And like my brain is like a little hamster wheel.
+
+491
+00:29:52,680 --> 00:29:55,000
+Jackson: Like once it spins, it's gone.
+
+492
+00:29:56,160 --> 00:29:59,920
+Jackson: So all I can say is that the open models I've used
+
+493
+00:30:00,200 --> 00:30:03,520
+Jackson: are not like not good enough for me to be worth my time.
+
+494
+00:30:05,280 --> 00:30:06,800
+Chris: Yeah, I'm with you.
+
+495
+00:30:06,800 --> 00:30:11,200
+Chris: I had a minor meltdown over Claude guardrails yesterday.
+
+496
+00:30:13,720 --> 00:30:17,040
+Chris: Nothing, nothing suspect or action related.
+
+497
+00:30:17,600 --> 00:30:21,200
+Chris: No, I just I'm a man with a lot of like eclectic
+
+498
+00:30:21,520 --> 00:30:23,760
+Chris: potentially on chain interests, OK?
+
+499
+00:30:23,760 --> 00:30:25,960
+Chris: And yeah, it was just
+
+500
+00:30:27,160 --> 00:30:28,880
+Chris: I was just like getting really annoyed, you know,
+
+501
+00:30:28,880 --> 00:30:31,520
+Chris: getting silently knocked down to four point eight.
+
+502
+00:30:31,520 --> 00:30:33,720
+Chris: And so I signed up to Maple AI.
+
+503
+00:30:35,120 --> 00:30:38,720
+Chris: And they have Kimmy, I think is it two point six
+
+504
+00:30:39,120 --> 00:30:41,000
+Chris: and one of the twins as well.
+
+505
+00:30:41,000 --> 00:30:43,560
+Chris: And yeah, I like I gave it I gave it a shot.
+
+506
+00:30:44,680 --> 00:30:47,320
+Chris: But yeah, like the delta is really noticeable.
+
+507
+00:30:47,320 --> 00:30:53,360
+Chris: You definitely lose something for not being constrained by the Claude guardrails.
+
+508
+00:30:54,680 --> 00:31:00,320
+Tyler: So yeah, I feel like the GPT guardrails are less annoying.
+
+509
+00:31:00,320 --> 00:31:04,320
+Tyler: And also you don't have guardrails on Opus, which Opus is still probably
+
+510
+00:31:04,320 --> 00:31:08,800
+Tyler: much better than Kimmy, I think, in practice, I would I would guess.
+
+511
+00:31:11,320 --> 00:31:13,960
+Tyler: But yeah, you were mentioning, Chris, that you thought that like
+
+512
+00:31:14,880 --> 00:31:19,000
+Tyler: GPT is good at coding, but it's like less of a bro than Claude.
+
+513
+00:31:19,520 --> 00:31:24,840
+Tyler: Yeah, have you just become, you know, very accustomed to Claude's Claudeisms?
+
+514
+00:31:24,840 --> 00:31:27,320
+Tyler: And like you feel like
+
+515
+00:31:28,320 --> 00:31:32,320
+Tyler: you have a nice friend there and then you go to GPT
+
+516
+00:31:32,320 --> 00:31:38,680
+Tyler: and GPT is like this cold, calculating like personality
+
+517
+00:31:38,680 --> 00:31:43,120
+Tyler: lists, AI, and you're just like, can't get along with them.
+
+518
+00:31:43,240 --> 00:31:45,240
+Tyler: But you could delegate work to them.
+
+519
+00:31:45,240 --> 00:31:47,880
+Chris: Are you asking if I have developed a Jackson style
+
+520
+00:31:47,880 --> 00:31:49,960
+Chris: parasocial relationship with Claude?
+
+521
+00:31:49,960 --> 00:31:52,160
+Chris: Is that the question?
+
+522
+00:31:52,160 --> 00:31:57,440
+Tyler: Not not imply quite Jackson level, because I think that's like extreme.
+
+523
+00:31:57,560 --> 00:31:59,480
+Tyler: Like, I think that there's a little bit of like
+
+524
+00:32:00,760 --> 00:32:03,080
+Tyler: almost like quasi-romantic, but like
+
+525
+00:32:04,080 --> 00:32:06,680
+Jackson: there's nothing to be ashamed on a physical level. Yeah.
+
+526
+00:32:09,040 --> 00:32:12,000
+Jackson: We all enjoy AI in our own way. OK.
+
+527
+00:32:12,000 --> 00:32:13,640
+Tyler: Yeah, you know.
+
+528
+00:32:13,640 --> 00:32:16,960
+Chris: Yeah, I think we should all be free to enjoy however we want.
+
+529
+00:32:17,520 --> 00:32:20,760
+Chris: But yeah, I do. I think I think Claude is a cool guy.
+
+530
+00:32:21,640 --> 00:32:23,720
+Chris: And I don't know how they've achieved that.
+
+531
+00:32:23,720 --> 00:32:26,440
+Chris: Like I'm not particularly an EA person.
+
+532
+00:32:26,440 --> 00:32:28,800
+Chris: And I feel like a lot of Claude's,
+
+533
+00:32:28,800 --> 00:32:32,520
+Chris: you know, philosophy and the methodology for training Claude is downstream of that.
+
+534
+00:32:33,600 --> 00:32:36,640
+Tyler: But yeah, I wouldn't use cool guy to describe Claude.
+
+535
+00:32:36,640 --> 00:32:39,360
+Tyler: I feel like a lot of like hall monitor energy.
+
+536
+00:32:39,680 --> 00:32:44,600
+Tyler: And then I do think Claude is a better writer
+
+537
+00:32:45,080 --> 00:32:48,880
+Tyler: and has like more human
+
+538
+00:32:49,920 --> 00:32:51,920
+Tyler: kind of feeling to it.
+
+539
+00:32:51,920 --> 00:32:55,120
+Tyler: But I don't necessarily like vibe with the personality.
+
+540
+00:32:55,160 --> 00:32:59,280
+Tyler: But like, I appreciate it almost more than something without personality.
+
+541
+00:33:00,000 --> 00:33:02,640
+Tyler: So it's like some personality is better than no personality.
+
+542
+00:33:03,000 --> 00:33:05,800
+Tyler: But I still think that Claude is kind of a dweeb sometimes.
+
+543
+00:33:06,400 --> 00:33:09,240
+Chris: Yeah, I stamp that he's an eager beaver, whereas Kodak is like
+
+544
+00:33:09,240 --> 00:33:12,880
+Chris: the most cracked programmer you've ever met who just does exactly what you say.
+
+545
+00:33:14,520 --> 00:33:16,480
+Tyler: Yeah, but you want that sometimes.
+
+546
+00:33:17,240 --> 00:33:18,240
+Chris: Sometimes you do.
+
+547
+00:33:18,240 --> 00:33:20,120
+Chris: But sometimes I want I want to like riffle.
+
+548
+00:33:20,120 --> 00:33:21,800
+Chris: I want to be like, hey, Claude, what do you think about this?
+
+549
+00:33:21,800 --> 00:33:22,840
+Chris: Like, should we do it this way?
+
+550
+00:33:22,840 --> 00:33:24,200
+Chris: Should we do it that way?
+
+551
+00:33:24,200 --> 00:33:26,240
+Chris: And then, you know, Claude will protect my feelings.
+
+552
+00:33:26,240 --> 00:33:27,880
+Chris: Like, he won't be like, no, that's wrong.
+
+553
+00:33:27,880 --> 00:33:31,760
+Chris: He'll be like, oh, we're up five bucks, boys.
+
+554
+00:33:32,680 --> 00:33:34,680
+Jackson: Whoa. Yeah.
+
+555
+00:33:35,600 --> 00:33:38,960
+Tyler: Oh, we had done one hundred X like Claude told us.
+
+556
+00:33:39,000 --> 00:33:42,400
+Tyler: We would be up one hundred dollars right now because we'd be 20
+
+557
+00:33:42,400 --> 00:33:43,800
+Tyler: X the leverage from where we are now.
+
+558
+00:33:43,800 --> 00:33:46,520
+Tyler: So we'd be up a hundo.
+
+559
+00:33:46,520 --> 00:33:51,040
+Tyler: Five X leverage is this is why we can't have Claude running purple fortune.
+
+560
+00:33:51,560 --> 00:33:55,720
+Tyler: I hereby want to put it to vote that we like have to have some kind of like
+
+561
+00:33:55,720 --> 00:33:59,440
+Tyler: has to be like either an unhinged like Kimmy AI
+
+562
+00:33:59,960 --> 00:34:03,600
+Tyler: that that does purple fortune or at least a GPT
+
+563
+00:34:03,600 --> 00:34:06,160
+Tyler: that we think is going to do what we tell it to.
+
+564
+00:34:06,840 --> 00:34:09,200
+Jackson: We got to use a free, you know, local model.
+
+565
+00:34:09,400 --> 00:34:14,240
+Jackson: Chris, the dumbest, the dumbest local model you can, the smallest.
+
+566
+00:34:14,880 --> 00:34:16,840
+Jackson: Yeah. Just let it go wild.
+
+567
+00:34:16,840 --> 00:34:19,000
+Chris: Like 17 parameters. Yeah. Yeah.
+
+568
+00:34:22,400 --> 00:34:27,600
+Jackson: I was speaking about chat or like GPT versus Claude.
+
+569
+00:34:27,760 --> 00:34:32,480
+Jackson: I ran an experiment today with like a pretty difficult
+
+570
+00:34:34,520 --> 00:34:39,600
+Jackson: problem, like coding problem, because that's my job.
+
+571
+00:34:40,360 --> 00:34:45,320
+Jackson: And I was like, basically, I made Fable do it
+
+572
+00:34:45,320 --> 00:34:50,920
+Jackson: and I made GPT five point six because I needed to talk about GPT five point six
+
+573
+00:34:50,920 --> 00:34:57,600
+Jackson: on the pod today, so they ran and the results
+
+574
+00:34:57,600 --> 00:35:02,880
+Jackson: are that Fable one shot of it like a champ as it always does.
+
+575
+00:35:03,280 --> 00:35:06,520
+Jackson: But it took, I believe, three times as long
+
+576
+00:35:07,840 --> 00:35:10,560
+Tyler: in terms of clock time.
+
+577
+00:35:10,560 --> 00:35:13,720
+Jackson: Yeah, in terms of clock time. Exactly. Yeah.
+
+578
+00:35:14,800 --> 00:35:18,920
+Jackson: And it costs about three times as much as well.
+
+579
+00:35:21,840 --> 00:35:29,320
+Jackson: So all that to say that Fable is still rocking it on GPT five point six.
+
+580
+00:35:29,320 --> 00:35:32,280
+Tyler: But so GPT six didn't one shot it.
+
+581
+00:35:32,280 --> 00:35:34,840
+Tyler: It needed some more steering.
+
+582
+00:35:34,840 --> 00:35:36,240
+Tyler: Is that what you're saying?
+
+583
+00:35:36,240 --> 00:35:40,600
+Jackson: It thought it one shot at it in like 32 minutes, but it was wrong.
+
+584
+00:35:41,400 --> 00:35:44,120
+Jackson: And how did you discover it was wrong?
+
+585
+00:35:44,760 --> 00:35:46,200
+Tyler: Obviously, not viewing the code.
+
+586
+00:35:46,200 --> 00:35:48,680
+Tyler: So you asked Fable to ask if GPT was wrong.
+
+587
+00:35:51,120 --> 00:35:54,840
+Jackson: I'll be honest, so I looked at the code a little bit
+
+588
+00:35:55,400 --> 00:35:58,600
+Jackson: and then I got Opus four point eight to be the judge.
+
+589
+00:36:00,680 --> 00:36:03,600
+Chris: I think the anthropic models are like excellent managers
+
+590
+00:36:04,360 --> 00:36:07,320
+Chris: that like overbearing the whole monitor types.
+
+591
+00:36:08,280 --> 00:36:11,600
+Chris: They're willing to talk smack about codecs as well.
+
+592
+00:36:11,600 --> 00:36:14,840
+Chris: Like like Claude would just be like, yeah, let me kill these
+
+593
+00:36:15,440 --> 00:36:18,600
+Chris: silly codecs models that are ruining my code base.
+
+594
+00:36:19,400 --> 00:36:22,600
+Jackson: Yeah. Yeah, I recognize I should have gotten
+
+595
+00:36:22,600 --> 00:36:25,600
+Jackson: like five unbiased A.I.
+
+596
+00:36:25,600 --> 00:36:28,320
+Jackson: reviewers to review the two A.I.s code.
+
+597
+00:36:28,760 --> 00:36:32,560
+Tyler: But yeah, I launched the review the Fable code.
+
+598
+00:36:32,600 --> 00:36:33,800
+Tyler: No, you only had Opus.
+
+599
+00:36:33,800 --> 00:36:37,560
+Tyler: This is like it isn't a jury of peers here that you're constructing.
+
+600
+00:36:37,560 --> 00:36:40,400
+Tyler: This is a biased, you know, jury.
+
+601
+00:36:41,480 --> 00:36:43,560
+Jackson: That's true. Yeah, I should have done it.
+
+602
+00:36:43,560 --> 00:36:46,560
+Jackson: I object to this test.
+
+603
+00:36:46,560 --> 00:36:47,640
+Jackson: You object to this test.
+
+604
+00:36:47,640 --> 00:36:50,960
+Jackson: Well, the sense is from what people say is the five point six is fast.
+
+605
+00:36:51,160 --> 00:36:54,360
+Jackson: It's punchy, but like you kind of have to tell it what to do.
+
+606
+00:36:54,960 --> 00:36:57,160
+Jackson: And I'm at the point with A.I.
+
+607
+00:36:57,160 --> 00:37:01,000
+Jackson: where like I just tell like five fables what to do.
+
+608
+00:37:01,000 --> 00:37:05,000
+Jackson: And then I like zone out for a while and then I come back
+
+609
+00:37:05,000 --> 00:37:06,760
+Jackson: and they've done everything I want.
+
+610
+00:37:06,760 --> 00:37:09,200
+Jackson: And maybe I'm a little bit too lazy.
+
+611
+00:37:09,200 --> 00:37:14,800
+Jackson: And I I do a mix of that and like distributing jobs from Babel to Sonnet.
+
+612
+00:37:16,200 --> 00:37:19,680
+Jackson: And that's kind of where I think a chat GPT five point six comes in.
+
+613
+00:37:20,040 --> 00:37:22,480
+Jackson: And I think that's what, Chris, you say you use it for
+
+614
+00:37:22,480 --> 00:37:25,480
+Jackson: is for actual task execution for the speed.
+
+615
+00:37:25,480 --> 00:37:27,840
+Jackson: Is that right? Yeah, exactly.
+
+616
+00:37:27,840 --> 00:37:31,120
+Chris: Like if the task is quite well scoped and I just need it to be done
+
+617
+00:37:32,000 --> 00:37:35,560
+Chris: correctly, like letter correctly, I think five point six is good for that.
+
+618
+00:37:38,880 --> 00:37:40,680
+Jackson: But it's not a gigabrain.
+
+619
+00:37:40,680 --> 00:37:43,360
+Jackson: I'm going to figure out all the ambiguities that you didn't
+
+620
+00:37:43,880 --> 00:37:46,680
+Jackson: lay out to me directly. Totally.
+
+621
+00:37:46,720 --> 00:37:50,040
+Chris: And like even like the pull request descriptions are like, they're so terse.
+
+622
+00:37:50,040 --> 00:37:51,520
+Chris: It like assumes so much knowledge.
+
+623
+00:37:51,520 --> 00:37:54,920
+Chris: I'm like, dude, I don't like lay it out for me a little bit.
+
+624
+00:37:54,920 --> 00:37:56,560
+Chris: Like I I didn't read this.
+
+625
+00:37:56,560 --> 00:37:57,640
+Chris: Like I asked you could do it.
+
+626
+00:37:57,640 --> 00:38:01,680
+Chris: So like, you know, I need you to do my job and explain to me what the job was.
+
+627
+00:38:05,760 --> 00:38:07,920
+Jackson: Yeah, that's my vibe.
+
+628
+00:38:07,920 --> 00:38:10,400
+Jackson: I'll get I'll bring you back on the next spot, though.
+
+629
+00:38:10,400 --> 00:38:15,040
+Jackson: And if if Opus four point eight misrepresented the competition,
+
+630
+00:38:15,320 --> 00:38:17,280
+Jackson: I'll let you guys know.
+
+631
+00:38:17,280 --> 00:38:20,520
+Jackson: But for now, OK, we trust
+
+632
+00:38:21,200 --> 00:38:25,040
+Jackson: and then kind of similar conversation.
+
+633
+00:38:25,040 --> 00:38:28,520
+Jackson: The cost, you know, I think people talk about.
+
+634
+00:38:29,760 --> 00:38:31,440
+Jackson: Are these companies profitable?
+
+635
+00:38:31,440 --> 00:38:33,360
+Jackson: How are they going to make money?
+
+636
+00:38:33,360 --> 00:38:36,120
+Jackson: And I'm kind of starting to see my costs rise.
+
+637
+00:38:36,880 --> 00:38:39,120
+Jackson: What about you guys?
+
+638
+00:38:39,120 --> 00:38:41,840
+Tyler: I mean, fables so expensive.
+
+639
+00:38:42,360 --> 00:38:44,920
+Tyler: Like, I think my costs went way up when I started using it.
+
+640
+00:38:44,920 --> 00:38:49,800
+Tyler: That being said, it is probably worth it because it does noticeably better work
+
+641
+00:38:50,080 --> 00:38:51,840
+Tyler: than Opus.
+
+642
+00:38:53,640 --> 00:38:56,080
+Jackson: Definitely nice that
+
+643
+00:38:56,080 --> 00:38:59,680
+Tyler: I don't pay for it myself, that my employer
+
+644
+00:39:00,800 --> 00:39:02,840
+Tyler: pays for it all.
+
+645
+00:39:02,840 --> 00:39:06,800
+Tyler: And that is reflected in my increased productivity.
+
+646
+00:39:08,320 --> 00:39:13,320
+Chris: So I mean, they were supposed to take Fable off the two hundred dollar max plan.
+
+647
+00:39:13,440 --> 00:39:15,720
+Chris: I'm pretty sure five days ago.
+
+648
+00:39:15,720 --> 00:39:18,880
+Chris: And they keep extending it for five days, obviously,
+
+649
+00:39:18,880 --> 00:39:22,080
+Chris: because they need to compete with other models.
+
+650
+00:39:22,440 --> 00:39:26,640
+Chris: So I think the current five day extension might end in two days.
+
+651
+00:39:26,680 --> 00:39:29,400
+Chris: That's that's what I think.
+
+652
+00:39:29,400 --> 00:39:31,600
+Chris: So for any person out there, yeah,
+
+653
+00:39:32,520 --> 00:39:34,720
+Jackson: they need to make up for the the government
+
+654
+00:39:34,720 --> 00:39:39,160
+Jackson: ragging the crap out of us, you know, like we miss some days from the original deadline.
+
+655
+00:39:39,160 --> 00:39:41,480
+Chris: Right. That's so true.
+
+656
+00:39:41,480 --> 00:39:43,360
+Chris: That's so true.
+
+657
+00:39:43,360 --> 00:39:46,360
+Tyler: I think they're mostly just caught in a competitive dynamic against OpenAI.
+
+658
+00:39:47,760 --> 00:39:50,960
+Tyler: We're like, OpenAI is going a little bit harder on the usage.
+
+659
+00:39:51,040 --> 00:39:53,680
+Tyler: And so they like need to
+
+660
+00:39:53,680 --> 00:39:54,960
+Tyler: kind of keep up.
+
+661
+00:39:54,960 --> 00:39:58,600
+Tyler: And the rumor is that they were going to launch a new Opus, I think,
+
+662
+00:39:59,400 --> 00:40:02,280
+Tyler: soon and then use that to
+
+663
+00:40:02,280 --> 00:40:06,280
+Tyler: wean people off of Fable on the within the plan.
+
+664
+00:40:08,160 --> 00:40:11,880
+Tyler: Do you have a personal like clog or GPT subscription?
+
+665
+00:40:14,400 --> 00:40:16,880
+Tyler: I guess, Chris, you have a maple subscription now.
+
+666
+00:40:17,360 --> 00:40:19,760
+Chris: Yeah, I I'm out of control, dude.
+
+667
+00:40:19,760 --> 00:40:23,320
+Chris: It's like I think I spend more on AI than food at this point.
+
+668
+00:40:27,320 --> 00:40:30,000
+Chris: Yeah, I've clawed and now maple.
+
+669
+00:40:30,760 --> 00:40:32,960
+Chris: That's it. I used to have a two hundred clawed.
+
+670
+00:40:34,040 --> 00:40:35,600
+Chris: Yeah, I have a 200 clawed.
+
+671
+00:40:35,600 --> 00:40:38,320
+Chris: Oh, wow. Yeah, I'm out of control, dude.
+
+672
+00:40:38,360 --> 00:40:40,120
+Chris: I'm like, do you max it out?
+
+673
+00:40:40,120 --> 00:40:43,320
+Tyler: Do you get like limited from your usage?
+
+674
+00:40:44,040 --> 00:40:48,400
+Chris: I try to max it out of principle, you know, like just to use as much water as possible.
+
+675
+00:40:49,200 --> 00:40:52,000
+Chris: But sometimes I fall short.
+
+676
+00:40:54,280 --> 00:40:55,920
+Jackson: You know, the water thing is crazy.
+
+677
+00:40:55,920 --> 00:40:58,840
+Jackson: I hope we haven't talked about on the podcast, but quick side note,
+
+678
+00:40:59,360 --> 00:41:01,200
+Jackson: I like go home to Georgia
+
+679
+00:41:01,200 --> 00:41:04,960
+Jackson: and I'm like telling my family who live in the suburbs of Atlanta.
+
+680
+00:41:06,480 --> 00:41:08,400
+Jackson: Man, I so awesome.
+
+681
+00:41:08,400 --> 00:41:11,240
+Jackson: It's like way smarter than me.
+
+682
+00:41:11,320 --> 00:41:12,640
+Jackson: I'm useless now.
+
+683
+00:41:12,640 --> 00:41:14,640
+Jackson: And then they're like, but what about the water?
+
+684
+00:41:14,640 --> 00:41:16,880
+Jackson: And I'm like, what about the water?
+
+685
+00:41:20,320 --> 00:41:23,240
+Tyler: Are they like, do you want to go golfing this weekend, by the way?
+
+686
+00:41:24,640 --> 00:41:26,800
+Tyler: And like eat some almonds?
+
+687
+00:41:27,880 --> 00:41:33,600
+Jackson: Yeah, do you the targeted like hate news or whatever is so weird in the world?
+
+688
+00:41:34,120 --> 00:41:37,080
+Chris: I mean, do we even want to touch on the evaporative cooling?
+
+689
+00:41:38,560 --> 00:41:42,520
+Chris: Like reason for that, I guess, rumor or like piece of news?
+
+690
+00:41:42,520 --> 00:41:45,160
+Chris: Or like we just let our listeners like.
+
+691
+00:41:46,680 --> 00:41:50,160
+Jackson: Let them be confused if anyone could concisely state
+
+692
+00:41:50,160 --> 00:41:53,040
+Jackson: why the water concern is not legit, that would be fire.
+
+693
+00:41:54,360 --> 00:41:55,960
+Chris: OK, it seems like I volunteered myself.
+
+694
+00:41:55,960 --> 00:41:59,880
+Chris: My understanding is that some early version environment idea,
+
+695
+00:41:59,880 --> 00:42:02,200
+Chris: I want to like drain Lake Michigan, that's what it is.
+
+696
+00:42:04,240 --> 00:42:07,640
+Chris: A title called the astralification of the US.
+
+697
+00:42:08,040 --> 00:42:10,240
+Tyler: Yeah, that's his goal.
+
+698
+00:42:11,080 --> 00:42:14,720
+Chris: No, no, no, I think like my understanding is early versions
+
+699
+00:42:14,720 --> 00:42:16,960
+Chris: of these data centers that get slapped together really quickly.
+
+700
+00:42:16,960 --> 00:42:20,240
+Chris: Like obviously, you know, they need electricity
+
+701
+00:42:20,240 --> 00:42:22,200
+Chris: and they need to get rid of waste heat, right?
+
+702
+00:42:22,200 --> 00:42:24,080
+Chris: Like that's a big problem in computing.
+
+703
+00:42:24,080 --> 00:42:27,600
+Chris: And so early versions use evaporative cooling, which obviously,
+
+704
+00:42:27,600 --> 00:42:30,280
+Chris: you know, you put the water somewhere, it gets hot, it evaporates
+
+705
+00:42:30,280 --> 00:42:32,720
+Chris: and gets rid of the heat.
+
+706
+00:42:32,720 --> 00:42:35,440
+Chris: It seems like, you know, more and more sophisticated versions
+
+707
+00:42:35,440 --> 00:42:38,120
+Chris: of these data centers are doing what they've done for a long time,
+
+708
+00:42:38,120 --> 00:42:42,960
+Chris: which is closed loop systems where, you know, the water gets hot
+
+709
+00:42:42,960 --> 00:42:47,840
+Chris: and then gets cooled and then in a loop and yet therefore uses substantially
+
+710
+00:42:47,840 --> 00:42:52,280
+Chris: less water. So that's my understanding of how how that came to be.
+
+711
+00:42:53,120 --> 00:42:55,440
+Jackson: And then back to the AI cost thing,
+
+712
+00:42:56,960 --> 00:43:00,200
+Jackson: because I had some interesting numbers that I noticed,
+
+713
+00:43:00,840 --> 00:43:04,240
+Jackson: it kind of seems like the way they're making money to me is
+
+714
+00:43:04,560 --> 00:43:08,760
+Jackson: they're making better models that are like undeniably better.
+
+715
+00:43:09,000 --> 00:43:11,200
+Jackson: So then you use them
+
+716
+00:43:11,200 --> 00:43:13,440
+Jackson: and they just cost more.
+
+717
+00:43:13,440 --> 00:43:17,640
+Jackson: They both like use more tokens because the context windows are better and
+
+718
+00:43:20,200 --> 00:43:22,240
+Jackson: they have like a higher charge rate.
+
+719
+00:43:23,120 --> 00:43:27,000
+Jackson: And then like for me personally, they've also gotten a lot more addicting.
+
+720
+00:43:27,320 --> 00:43:30,040
+Jackson: Like I find that I'm I'm using them a lot more.
+
+721
+00:43:30,560 --> 00:43:32,400
+Jackson: But that's kind of a more personal thing.
+
+722
+00:43:32,400 --> 00:43:37,720
+Jackson: I think the the real cost increase is like them releasing new models.
+
+723
+00:43:37,880 --> 00:43:39,160
+Jackson: You go into the new models.
+
+724
+00:43:39,160 --> 00:43:43,720
+Jackson: I think that net increases your spend if you're spending the same amount
+
+725
+00:43:43,720 --> 00:43:46,640
+Jackson: of time working. I don't know.
+
+726
+00:43:46,680 --> 00:43:47,600
+Jackson: What do you guys think?
+
+727
+00:43:47,600 --> 00:43:51,920
+Jackson: Have you looked into your cost trends as you've gone from like Sonnet, Opus,
+
+728
+00:43:52,120 --> 00:43:55,800
+Tyler: Gable? It's hard to like untangle.
+
+729
+00:43:57,240 --> 00:44:00,480
+Tyler: Yeah, like why am I using it more because the models are much better
+
+730
+00:44:00,480 --> 00:44:04,400
+Tyler: or because I've just been using AI now for like six months
+
+731
+00:44:04,400 --> 00:44:07,160
+Tyler: and the depth of my power user,
+
+732
+00:44:07,520 --> 00:44:11,320
+Tyler: like all the stuff that I shove through it now is just so extreme.
+
+733
+00:44:12,200 --> 00:44:13,960
+Tyler: And I feel like it's probably a little bit of both.
+
+734
+00:44:13,960 --> 00:44:18,120
+Tyler: Like you give it more because it's so useful, but also like more
+
+735
+00:44:18,120 --> 00:44:23,400
+Tyler: and more of these tasks and the like the work scope of what I give it
+
+736
+00:44:23,400 --> 00:44:25,920
+Tyler: has just increased a bunch as well.
+
+737
+00:44:26,280 --> 00:44:28,680
+Tyler: And now that's just like stuff that's built into my day.
+
+738
+00:44:30,480 --> 00:44:33,920
+Tyler: But yeah, it's kind of like I you hear about some other companies
+
+739
+00:44:33,920 --> 00:44:37,120
+Tyler: and they're like like I think like Uber.
+
+740
+00:44:38,320 --> 00:44:41,240
+Tyler: There is a thing about how they limit, I think,
+
+741
+00:44:41,240 --> 00:44:43,640
+Tyler: employees to like two hundred dollars of tokens a week.
+
+742
+00:44:44,480 --> 00:44:47,560
+Tyler: I do not know what I would do if I was limited to two hundred tokens.
+
+743
+00:44:48,600 --> 00:44:50,240
+Chris: What are they doing?
+
+744
+00:44:50,240 --> 00:44:52,320
+Chris: Are they really slack with their eyes?
+
+745
+00:44:52,320 --> 00:44:54,360
+Chris: Like, what are they doing? Yeah.
+
+746
+00:44:57,600 --> 00:45:01,680
+Tyler: Are they getting a git push with a sonnet?
+
+747
+00:45:02,000 --> 00:45:04,160
+Tyler: That's so gross with their thingies.
+
+748
+00:45:04,160 --> 00:45:07,240
+Chris: Like, yeah, what's going on?
+
+749
+00:45:07,240 --> 00:45:10,520
+Jackson: I'm not going to say numbers, but yeah, I'm not under the two hundred a week.
+
+750
+00:45:10,680 --> 00:45:12,880
+Jackson: Personally, I think I don't even know.
+
+751
+00:45:12,880 --> 00:45:17,120
+Tyler: How would you ration yourself if you had to go from current to 200 a week?
+
+752
+00:45:17,120 --> 00:45:19,080
+Tyler: Like, would you use shittier models?
+
+753
+00:45:19,080 --> 00:45:21,480
+Tyler: Would you do less work?
+
+754
+00:45:21,480 --> 00:45:24,960
+Tyler: Would you just do stuff more by hand?
+
+755
+00:45:24,960 --> 00:45:29,320
+Tyler: Or is there a whole like types of tasks that you wouldn't have it do?
+
+756
+00:45:30,560 --> 00:45:32,040
+Jackson: That's kind of all of it.
+
+757
+00:45:32,040 --> 00:45:36,720
+Jackson: I mean, I know exactly what I would do is is I would take it back to sonnet,
+
+758
+00:45:36,720 --> 00:45:40,520
+Jackson: which was good enough at executing tasks that I define well.
+
+759
+00:45:40,840 --> 00:45:45,200
+Jackson: And then I would do all the thinking work that I've off boarded to fable since then.
+
+760
+00:45:46,240 --> 00:45:49,000
+Tyler: So you do you'd think for yourself again.
+
+761
+00:45:49,000 --> 00:45:51,480
+Jackson: Yeah, yeah.
+
+762
+00:45:51,480 --> 00:45:53,920
+Jackson: I'm going to become an empty blob, an empty shell.
+
+763
+00:45:53,920 --> 00:45:57,480
+Jackson: And my fable is my only representation shortly.
+
+764
+00:45:57,760 --> 00:46:00,400
+Jackson: Please don't release a better bottle.
+
+765
+00:46:00,400 --> 00:46:03,680
+Chris: I joked that I'm just like a context window extender for Fable.
+
+766
+00:46:03,680 --> 00:46:07,240
+Chris: Like he put stuff in here and then I like get it back to him when he needs it.
+
+767
+00:46:07,240 --> 00:46:10,040
+Chris: You know, like a rag database. So.
+
+768
+00:46:11,280 --> 00:46:13,480
+Jackson: Yeah, that was an excellent joke.
+
+769
+00:46:13,480 --> 00:46:16,440
+Jackson: And it hit home pretty hard.
+
+770
+00:46:16,440 --> 00:46:18,920
+Jackson: I was like, oh, that's exactly right.
+
+771
+00:46:18,920 --> 00:46:23,120
+Jackson: I wanted to say that with the increase in model quality and the increase in spend
+
+772
+00:46:23,840 --> 00:46:28,280
+Jackson: empirically, definitely producing more able to produce a lot more
+
+773
+00:46:28,600 --> 00:46:32,280
+Jackson: and able to paralyze across multiple tasks a lot better.
+
+774
+00:46:32,880 --> 00:46:36,320
+Jackson: Overlay GitHub contributions from 2026
+
+775
+00:46:36,800 --> 00:46:41,400
+Jackson: and note when I switched Opus and Babel and it becomes dark green.
+
+776
+00:46:42,360 --> 00:46:45,360
+Jackson: This is not a flex. It is only.
+
+777
+00:46:45,360 --> 00:46:48,840
+Jackson: To show that, like, yes, we're spending more or I'm spending more,
+
+778
+00:46:49,120 --> 00:46:51,680
+Jackson: but also I'm producing more.
+
+779
+00:46:51,680 --> 00:46:54,480
+Jackson: So, you know, it is it is working.
+
+780
+00:46:56,360 --> 00:46:58,840
+Chris: Yeah, there's no. Sorry.
+
+781
+00:46:58,840 --> 00:47:01,960
+Tyler: Do commits cleanly like translate to,
+
+782
+00:47:02,880 --> 00:47:05,400
+Tyler: you know, quality and like impact?
+
+783
+00:47:06,400 --> 00:47:11,400
+Jackson: Yes. In the in my case, because I'm not doing like commits
+
+784
+00:47:11,400 --> 00:47:15,160
+Jackson: for the sake of commits, I'm doing I mean, you can trust me
+
+785
+00:47:15,440 --> 00:47:18,200
+Jackson: just like you can trust me on all things.
+
+786
+00:47:18,200 --> 00:47:20,200
+Chris: What are you saying about my commits, dude?
+
+787
+00:47:20,360 --> 00:47:23,480
+Chris: What are you saying? Do you have something to say?
+
+788
+00:47:23,480 --> 00:47:26,960
+Jackson: Yeah, I didn't even look at your stats.
+
+789
+00:47:27,560 --> 00:47:29,600
+Chris: There's there's no way.
+
+790
+00:47:29,600 --> 00:47:34,160
+Chris: There's no way I could have produced from a product perspective
+
+791
+00:47:34,160 --> 00:47:37,160
+Chris: what I produced in the last year and a half without AI.
+
+792
+00:47:37,200 --> 00:47:40,080
+Chris: There's no chance. No shot. So.
+
+793
+00:47:40,760 --> 00:47:43,280
+Tyler: It is really hard to generate a lot of slop by hand.
+
+794
+00:47:45,080 --> 00:47:47,320
+Chris: Yeah. Well, I also I was quite good at that as well.
+
+795
+00:47:47,360 --> 00:47:51,320
+Chris: So you probably have a much
+
+796
+00:47:53,240 --> 00:47:54,640
+Tyler: higher bar than I do.
+
+797
+00:47:54,640 --> 00:47:56,440
+Jackson: But I am.
+
+798
+00:47:59,480 --> 00:48:01,640
+Tyler: Do you think in the future, you're going to have to like
+
+799
+00:48:02,240 --> 00:48:06,160
+Tyler: exercise your mind in the way that you like go to the gym and lift weights?
+
+800
+00:48:06,440 --> 00:48:09,720
+Tyler: Because you're like, oh, my thinking faculties are going to atrophy
+
+801
+00:48:09,720 --> 00:48:13,400
+Tyler: if I don't like occasionally do some stuff to think for myself.
+
+802
+00:48:14,600 --> 00:48:19,520
+Tyler: I do feel like some of my skills are getting like fuzzier.
+
+803
+00:48:21,720 --> 00:48:24,000
+Tyler: The thought of like writing
+
+804
+00:48:24,000 --> 00:48:28,880
+Tyler: a big, long document on my own with no help
+
+805
+00:48:29,800 --> 00:48:33,200
+Tyler: is like terrifying because like that sounds so boring.
+
+806
+00:48:33,200 --> 00:48:38,200
+Tyler: And I would just like sit there and struggle to think of how I want to phrase
+
+807
+00:48:38,200 --> 00:48:41,560
+Tyler: something or like what's the right word for this moment?
+
+808
+00:48:41,640 --> 00:48:44,240
+Tyler: And it's just like tedious.
+
+809
+00:48:44,360 --> 00:48:47,800
+Tyler: But yeah, I think I probably used to be better at that. And now.
+
+810
+00:48:50,520 --> 00:48:52,400
+Tyler: It'd be tough.
+
+811
+00:48:52,400 --> 00:48:56,400
+Jackson: I hear you. Yeah, Chris, can you write a compiling?
+
+812
+00:48:58,000 --> 00:49:02,080
+Jackson: Like Kotlin state machine right now at this moment, a Kotlin.
+
+813
+00:49:02,120 --> 00:49:05,680
+Chris: I don't think I can assign a Kotlin variable right now, if that's what you're asking.
+
+814
+00:49:06,960 --> 00:49:08,880
+Chris: Some other language like Rust or Golang.
+
+815
+00:49:08,880 --> 00:49:10,520
+Chris: Yeah, I probably I make it work.
+
+816
+00:49:10,520 --> 00:49:13,040
+Chris: It takes me a couple of tries, though. I'm definitely like out of whack.
+
+817
+00:49:15,200 --> 00:49:18,880
+Jackson: Yeah, I was just like, you know, I was pretty good at the coding interviews
+
+818
+00:49:18,880 --> 00:49:21,360
+Jackson: that like writing syntactically correct fast code.
+
+819
+00:49:21,960 --> 00:49:26,800
+Jackson: But like I haven't done it in so long and I know for sure I couldn't do Kotlin.
+
+820
+00:49:27,040 --> 00:49:30,040
+Jackson: I don't I just mentioned this language totally randomly, by the way.
+
+821
+00:49:30,720 --> 00:49:33,640
+Jackson: I don't think I can I could do it.
+
+822
+00:49:34,960 --> 00:49:37,200
+Jackson: Which is, yeah, exactly what you're saying, Tyler.
+
+823
+00:49:37,200 --> 00:49:39,520
+Jackson: Like I would have been able to do it, but
+
+824
+00:49:40,560 --> 00:49:42,920
+Jackson: I don't need to anymore.
+
+825
+00:49:42,920 --> 00:49:47,040
+Jackson: Like, let's say Python, I could write Python, but it's like writing English.
+
+826
+00:49:47,440 --> 00:49:49,680
+Jackson: So it's still really easy to remember.
+
+827
+00:49:49,680 --> 00:49:53,600
+Jackson: And like writing a doc writing a doc is like two years ago, man.
+
+828
+00:49:55,000 --> 00:49:57,240
+Jackson: You just tell the tell the A.I.
+
+829
+00:49:57,240 --> 00:50:00,240
+Jackson: Don't tell anybody we're working on.
+
+830
+00:50:00,240 --> 00:50:04,120
+Tyler: Yeah, proliferation of like work slop is definitely a problem.
+
+831
+00:50:04,120 --> 00:50:09,880
+Tyler: And I think I've been guilty of this to some extent to just like
+
+832
+00:50:10,400 --> 00:50:14,760
+Tyler: delegating to A.I., hopefully doing like a quick once over read,
+
+833
+00:50:15,440 --> 00:50:19,280
+Tyler: making sure it hits your quality bar and then like putting it out there.
+
+834
+00:50:19,280 --> 00:50:22,560
+Tyler: And then probably your coworker is like,
+
+835
+00:50:23,480 --> 00:50:27,200
+Tyler: Tyler, just send me this doc, Claude, can you go read it and summarize it for me?
+
+836
+00:50:27,320 --> 00:50:29,120
+Tyler: So it's like just this.
+
+837
+00:50:29,120 --> 00:50:33,440
+Tyler: The doc is like this like in intermediate artifact
+
+838
+00:50:33,440 --> 00:50:37,760
+Tyler: that just helps the A.I.s interface with each other.
+
+839
+00:50:38,440 --> 00:50:42,480
+Tyler: But yeah, like the proliferation of work slop, I like yearn for going back
+
+840
+00:50:42,480 --> 00:50:45,800
+Tyler: to the artisanal time where I could like spend time and write something
+
+841
+00:50:45,800 --> 00:50:49,760
+Tyler: and put it in my own voice and it didn't have all the tells of being I generated.
+
+842
+00:50:49,760 --> 00:50:51,800
+Tyler: And I was like very proud of it.
+
+843
+00:50:51,800 --> 00:50:56,680
+Tyler: But it's like who has time to to grind at that level these days?
+
+844
+00:50:57,680 --> 00:51:02,480
+Chris: I think the reward functions are probably broken in like a lot of places right now
+
+845
+00:51:02,480 --> 00:51:05,880
+Chris: where like, you know, it's like who cares how we get up the mountain?
+
+846
+00:51:06,240 --> 00:51:10,880
+Chris: You know, the quality bar is starting to drop at some like apps I use on the day
+
+847
+00:51:10,880 --> 00:51:13,400
+Chris: to day, like I'm noticing more subtle bugs.
+
+848
+00:51:14,600 --> 00:51:16,840
+Chris: And I think yeah, I think like.
+
+849
+00:51:18,320 --> 00:51:22,480
+Chris: I think strategy and like being deliberate comes back
+
+850
+00:51:23,800 --> 00:51:26,160
+Chris: slowly, but I think we have to go through
+
+851
+00:51:26,840 --> 00:51:30,640
+Chris: this hill climb of of scrambling up fable to to get there.
+
+852
+00:51:31,080 --> 00:51:33,840
+Tyler: We have to go through the great winter of slop before.
+
+853
+00:51:33,880 --> 00:51:35,560
+Chris: Yeah, exactly.
+
+854
+00:51:35,560 --> 00:51:40,520
+Tyler: Emerge into a beautiful spring of artisanal docs
+
+855
+00:51:40,520 --> 00:51:43,240
+Tyler: and handwritten Kotlin code.
+
+856
+00:51:44,200 --> 00:51:45,640
+Chris: Yeah, we just have to tread water.
+
+857
+00:51:45,640 --> 00:51:48,240
+Chris: You just have to keep our head above the slope.
+
+858
+00:51:48,240 --> 00:51:51,080
+Chris: I believe. Yeah.
+
+859
+00:51:52,080 --> 00:51:53,840
+Jackson: Those days are ever boys.
+
+860
+00:51:53,840 --> 00:51:56,440
+Jackson: Yeah, back on like the exercising your mind thing.
+
+861
+00:51:57,240 --> 00:52:01,120
+Jackson: Like, I think we'll like see a decline in our minds.
+
+862
+00:52:01,400 --> 00:52:04,720
+Jackson: I'll need some studies to show me why I need my mind to be sharp
+
+863
+00:52:04,720 --> 00:52:07,800
+Jackson: before I am compelled to to sharpen it up, I think.
+
+864
+00:52:10,080 --> 00:52:14,760
+Tyler: Like, do you read studies that are like you need to have big muscles
+
+865
+00:52:14,760 --> 00:52:18,160
+Tyler: and then you're like, that's the reason you go to the gym and lift weights, Jackson?
+
+866
+00:52:18,160 --> 00:52:20,520
+Tyler: Or do you do it because you're like tight?
+
+867
+00:52:20,520 --> 00:52:21,320
+Tyler: I have big muscles.
+
+868
+00:52:21,320 --> 00:52:22,720
+Tyler: I like the way this feels.
+
+869
+00:52:22,720 --> 00:52:25,840
+Tyler: And I like that I can like lift stuff in a non taxing way.
+
+870
+00:52:26,680 --> 00:52:30,200
+Tyler: Like having a smart mind, I think, feels good.
+
+871
+00:52:31,120 --> 00:52:33,560
+Tyler: Yeah, well, I'm just kind of extrapolating.
+
+872
+00:52:33,560 --> 00:52:35,440
+Tyler: I imagine it feels good to have a smart mind.
+
+873
+00:52:35,440 --> 00:52:37,680
+Tyler: I can't speak from experience, but.
+
+874
+00:52:38,760 --> 00:52:40,560
+Chris: Yeah, I spent probably do.
+
+875
+00:52:42,120 --> 00:52:46,000
+Chris: I spent probably 200 hours on lead codes.
+
+876
+00:52:46,960 --> 00:52:49,840
+Chris: Like, oh, quite like quite consecutive.
+
+877
+00:52:51,080 --> 00:52:53,640
+Chris: And how many monsters were consumed?
+
+878
+00:52:54,760 --> 00:52:57,520
+Tyler: It sounds like some Berlin per hour of leak code.
+
+879
+00:52:57,520 --> 00:53:02,680
+Tyler: There's like a 200 can monster like like chair
+
+880
+00:53:03,040 --> 00:53:06,160
+Tyler: that's been duct taped together just out of the frame.
+
+881
+00:53:06,640 --> 00:53:09,600
+Jackson: We don't believe that monster is the strongest,
+
+882
+00:53:09,880 --> 00:53:12,640
+Jackson: strongest thing you were taking for that was all I'm going to say.
+
+883
+00:53:13,960 --> 00:53:16,880
+Jackson: Well, accusations.
+
+884
+00:53:16,880 --> 00:53:21,240
+Chris: No, it was just it was just a throne of white monster.
+
+885
+00:53:21,880 --> 00:53:26,640
+Chris: But to your point, Jackson, like with mental math, I feel like leak codes
+
+886
+00:53:28,200 --> 00:53:31,640
+Chris: sits in like a similar for me personally, like niche where I'm like,
+
+887
+00:53:31,640 --> 00:53:35,800
+Chris: it's something I had to do for job interviews and like to get better at my craft.
+
+888
+00:53:35,800 --> 00:53:41,040
+Chris: But in hindsight, I think like the type of like insane grinding on like
+
+889
+00:53:41,160 --> 00:53:44,680
+Chris: just trying to find the patterns in this list of like 100 problems that you might
+
+890
+00:53:44,680 --> 00:53:50,400
+Chris: get is like maybe not actually the best use of like your time in terms of like,
+
+891
+00:53:50,840 --> 00:53:53,640
+Chris: you know, if you want to like build something interested and complicated,
+
+892
+00:53:53,640 --> 00:53:56,160
+Chris: like interesting and complicated, like maybe you're better off
+
+893
+00:53:56,160 --> 00:54:00,120
+Chris: like doing a lecture series on game theory or something.
+
+894
+00:54:01,640 --> 00:54:06,960
+Chris: So, yeah, I'm not sure I thought about doing some again, just like for all time.
+
+895
+00:54:07,080 --> 00:54:10,600
+Chris: But I'm trying to decide, you know, which way to go.
+
+896
+00:54:10,640 --> 00:54:15,280
+Chris: I think like probably other people are having this thought as well at the moment.
+
+897
+00:54:15,600 --> 00:54:19,320
+Jackson: Conversation AI on Grock, put on a lady's voice.
+
+898
+00:54:19,560 --> 00:54:24,600
+Jackson: Put your baby in front of the camera and just like chat with her.
+
+899
+00:54:27,120 --> 00:54:30,680
+Tyler: No, I think this podcast is my this is my leak code.
+
+900
+00:54:30,960 --> 00:54:34,320
+Tyler: This is sharpening my mind in the in.
+
+901
+00:54:34,360 --> 00:54:38,720
+Tyler: Yeah. Oh, they they let you do that of of smart people,
+
+902
+00:54:38,720 --> 00:54:40,960
+Tyler: whether it be Chris or whether it be swag dog.
+
+903
+00:54:41,560 --> 00:54:43,880
+Tyler: You guys are my my sharpeners.
+
+904
+00:54:44,640 --> 00:54:46,280
+Chris: They they let you talk to people, man.
+
+905
+00:54:46,280 --> 00:54:49,600
+Chris: They just put me in a room with a computer and they say, invert a binary tree.
+
+906
+00:54:49,800 --> 00:54:51,640
+Chris: Like, that's been my career up until this point, dude.
+
+907
+00:54:54,000 --> 00:54:56,960
+Jackson: Crazy. I think the podcast is evidence
+
+908
+00:54:57,080 --> 00:55:01,360
+Jackson: for all of your super famous shorts, Tyler, that you're still as sharp as ever.
+
+909
+00:55:01,440 --> 00:55:04,080
+Jackson: If you're any sharper, you'd be breaking YouTube's algorithm.
+
+910
+00:55:04,440 --> 00:55:05,840
+Chris: I think we're doing all right.
+
+911
+00:55:05,840 --> 00:55:08,120
+Chris: Yeah, I'm a little worried.
+
+912
+00:55:09,280 --> 00:55:11,280
+Tyler: Oh, we're about to break 10.
+
+913
+00:55:11,280 --> 00:55:13,120
+Jackson: Jeez, it just popped from six.
+
+914
+00:55:13,120 --> 00:55:16,120
+Jackson: It was six like two minutes ago.
+
+915
+00:55:16,840 --> 00:55:19,200
+Chris: This time, you need to you need to do the next one.
+
+916
+00:55:19,720 --> 00:55:22,800
+Tyler: I think Jared just got wrecked on chain again
+
+917
+00:55:22,800 --> 00:55:25,040
+Tyler: and then we're getting a dividend from Jito.
+
+918
+00:55:28,080 --> 00:55:31,240
+Jackson: Well, I think that's a good place to end the pod.
+
+919
+00:55:31,240 --> 00:55:33,440
+Jackson: We're at a good time.
+
+920
+00:55:33,440 --> 00:55:38,200
+Jackson: I'm sorry that we keep baiting all of our listeners on the agent of commerce.
+
+921
+00:55:38,200 --> 00:55:41,280
+Jackson: But all this crazy, awesome stuff is happening.
+
+922
+00:55:41,280 --> 00:55:43,400
+Jackson: And we'd rather talk about it.
+
+923
+00:55:44,240 --> 00:55:47,240
+Tyler: Is that like a signal that none of us are actually excited about
+
+924
+00:55:47,240 --> 00:55:49,720
+Tyler: agentic commerce or all agentic commerce bears?
+
+925
+00:55:50,320 --> 00:55:53,600
+Jackson: I really want to talk about it personally, but, you know,
+
+926
+00:55:54,080 --> 00:55:58,000
+Jackson: as we said, evergreen topics, we say we save them until we need them.
+
+927
+00:55:58,600 --> 00:56:00,880
+Chris: And I want to talk about it, too.
+
+928
+00:56:00,880 --> 00:56:03,680
+Chris: But for like bad reasons, like really terrible reasons.
+
+929
+00:56:03,680 --> 00:56:05,840
+Chris: Like maybe we shouldn't talk about it. I don't know.
+
+930
+00:56:05,840 --> 00:56:07,880
+Jackson: That's exactly why we should talk about it.
+
+931
+00:56:07,880 --> 00:56:10,560
+Tyler: Because you're a bear and you're going to like, you know,
+
+932
+00:56:10,560 --> 00:56:12,360
+Tyler: make everyone a bear on a jet of commerce.
+
+933
+00:56:12,360 --> 00:56:15,760
+Tyler: Or because what are the what are the bad reasons?
+
+934
+00:56:16,840 --> 00:56:20,640
+Chris: I, I, I don't know, I don't spoil it.
+
+935
+00:56:21,280 --> 00:56:24,880
+Chris: There are specific reasons, the very specific tune in next time
+
+936
+00:56:24,880 --> 00:56:29,760
+Tyler: to figure out why Chris has an extreme grudge against the agentic commerce.
+
+937
+00:56:30,640 --> 00:56:34,040
+Tyler: I'm plotting against the whole concept this whole intervening week.
+
+938
+00:56:36,080 --> 00:56:38,320
+Jackson: All right. And we peace out at ten dollars up.
+
+939
+00:56:39,080 --> 00:56:40,680
+Jackson: Farewell, guests.
+
+940
+00:56:40,680 --> 00:56:42,880
+Jackson: Everyone throw a wave.
+
+941
+00:56:42,880 --> 00:56:44,840
+Tyler: Thank you, Jito. All right.
+
+942
+00:56:44,840 --> 00:56:46,000
+Chris: Thank you, Jito, for sponsoring.
