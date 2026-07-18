@@ -7,19 +7,179 @@
     "file": "logo.png",
     "width": 170,
     "alpha": 0.8,
-    "hide_during": ["CARD_TITLE", "CARD_END"]
+    "hide_during": [
+      "CARD_TITLE",
+      "CARD_END"
+    ]
   },
   "sfx": [
-    {"file": "sfx_whoosh.wav", "block": "CARD_TITLE", "offset": -0.45},
-    {"file": "sfx_whoosh.wav", "block": "AI",   "offset": -0.3},
-    {"file": "sfx_whoosh.wav", "block": "S3a",  "offset": -0.3},
-    {"file": "sfx_whoosh.wav", "block": "S4b",  "offset": -0.3},
-    {"file": "sfx_whoosh.wav", "block": "S5a",  "offset": -0.3},
-    {"file": "sfx_whoosh.wav", "block": "S6",   "offset": -0.3},
-    {"file": "sfx_whoosh.wav", "block": "S7",   "offset": -0.3},
-    {"file": "sfx_whoosh.wav", "block": "S9",   "offset": -0.3},
-    {"file": "sfx_whoosh.wav", "block": "S11a", "offset": -0.3},
-    {"file": "sfx_whoosh.wav", "block": "S12",  "offset": -0.3},
-    {"file": "sfx_sting.wav",  "block": "CARD_END", "offset": 0}
+    {
+      "file": "sfx_whoosh.wav",
+      "block": "COLD1b",
+      "offset": -0.15
+    },
+    {
+      "file": "sfx_whoosh.wav",
+      "block": "COLD2",
+      "offset": -0.15
+    },
+    {
+      "file": "sfx_whoosh.wav",
+      "block": "COLD3",
+      "offset": -0.15
+    },
+    {
+      "file": "sfx_whoosh.wav",
+      "block": "CARD_TITLE",
+      "offset": -0.45
+    },
+    {
+      "file": "sfx_whoosh2.wav",
+      "block": "S2",
+      "offset": -0.15
+    },
+    {
+      "file": "sfx_whoosh.wav",
+      "block": "AI",
+      "offset": -0.3
+    },
+    {
+      "file": "sfx_whoosh.wav",
+      "block": "S3a",
+      "offset": -0.3
+    },
+    {
+      "file": "sfx_whoosh.wav",
+      "block": "S4b",
+      "offset": -0.3
+    },
+    {
+      "file": "sfx_whoosh.wav",
+      "block": "S5a",
+      "offset": -0.3
+    },
+    {
+      "file": "sfx_whoosh.wav",
+      "block": "S6",
+      "offset": -0.3
+    },
+    {
+      "file": "sfx_whoosh.wav",
+      "block": "S7",
+      "offset": -0.3
+    },
+    {
+      "file": "sfx_whoosh.wav",
+      "block": "S9",
+      "offset": -0.3
+    },
+    {
+      "file": "sfx_whoosh.wav",
+      "block": "S11a",
+      "offset": -0.3
+    },
+    {
+      "file": "sfx_whoosh.wav",
+      "block": "S12",
+      "offset": -0.3
+    },
+    {
+      "file": "sfx_sting.wav",
+      "block": "CARD_END",
+      "offset": 0
+    }
+  ],
+  "anim": [
+    {
+      "file": "wipe.mov",
+      "start": 14.0,
+      "end": 14.4,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "file": "wipe.mov",
+      "start": 24.0,
+      "end": 24.4,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "file": "wipe.mov",
+      "start": 36.8,
+      "end": 37.2,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "file": "wipe.mov",
+      "start": 124.8,
+      "end": 125.2,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "file": "wipe.mov",
+      "start": 136.8,
+      "end": 137.2,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "file": "wipe.mov",
+      "start": 534.4,
+      "end": 534.8,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "file": "wipe.mov",
+      "start": 1105.2,
+      "end": 1105.6,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "file": "wipe.mov",
+      "start": 1607.2,
+      "end": 1607.6,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "file": "wipe.mov",
+      "start": 1832.4,
+      "end": 1832.8,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "file": "wipe.mov",
+      "start": 2024.4,
+      "end": 2024.8,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "file": "wipe.mov",
+      "start": 2414.8,
+      "end": 2415.2,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "file": "wipe.mov",
+      "start": 2837.2,
+      "end": 2837.6,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "file": "wipe.mov",
+      "start": 3285.6,
+      "end": 3286.0,
+      "x": 0,
+      "y": 0
+    }
   ]
 }

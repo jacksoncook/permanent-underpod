@@ -1,21 +1,18 @@
 
-===== COLD1 =====
+===== COLD1a =====
   TYLER    (  497.0): That's how you do an exit scam though, right?
   TYLER    (  499.0): It's like you set the trap and then you wait until the purse accumulates and accumulates and accumulates.
   TYLER    (  506.0): And then you're like, okay, now's the time to rip the cord and make my move.
-  CHRIS    (  506.1): 100% and the reason. 100% and I think this guy was riding by the seat of his pants here.
-  TYLER    (  512.0): And you can't be too greedy and wait too long, but you also don't want to be too,
-  TYLER    (  517.0): if you give up too soon and reveal yourself, then you leave money on the table, so to say.
-  JACKSON  (  524.2): You
+
+===== COLD1b =====
   CHRIS    (  527.8): But I like he sprung the trap at what looks like either 7.5 or $15 million are all considered.
   CHRIS    (  534.9): A good day for him.
 
-===== COLD3a =====
-  TYLER    ( 1021.0): But I thought it would be a little bit more fun to have Claude read our outline and our topics for the episode and then choose a thematic perp to invest in.
+===== COLD2 =====
   TYLER    ( 1034.0): So it's tied in with the episode and so based on this one, Claude chose that we should long Jito and the thesis here is hold the sandwich.
   TYLER    ( 1046.0): All right, so Jito is a token on Solana basically. Okay, this week the market learned MEV is in a crime. It's a cash flow. Jito runs 95% of Solana staking takes the majority of priority fee volume and just shipped a terminal that routes the skim back to token holders.
 
-===== COLD3b =====
+===== COLD3 =====
   TYLER    ( 1092.0): All right, that sounds like a solid thesis to me. Will it play out over the course of an hour? I'm not really sure.
 
 ===== CARD_TITLE =====
@@ -71,11 +68,13 @@
   CHRIS    (  337.7): that I don't know where it got them. Uh, but the, yeah, like its weights and my weights
   TYLER    (  340.0): Deepenyoursoul.md, man.
   TYLER    (  343.0): You have subconscious knowledge about MEV that is deep in your amygdala that Fable somehow extracted.
+  JACKSON  (  344.2): You
   CHRIS    (  352.5): were like, you know, overlapping just for this one thing, maybe. Um, yeah. So I mean,
   CHRIS    (  358.5): this particular exploit I think was notable for two reasons. One, this is not the first
   CHRIS    (  363.6): time I've bought has been exploited. There's a famous case of the low carb crusader, which
   CHRIS    (  368.8): Jared in particular managed to dodge that one. Uh, but secondly, this one was like extremely
   JACKSON  (  374.2): You
+  CHRIS    (  374.6): sophisticated. So, well, it's a sandwich or. Yeah, that. Yeah, that.
   CHRIS    (  374.6): sophisticated. So, well, it's a sandwich or. Yeah, that. Yeah, that.
   TYLER    (  375.0): Why are all the MEV bots named after food?
   TYLER    (  378.0): I guess that was a thing like food tokens were a thing as well.
@@ -83,6 +82,7 @@
   TYLER    (  385.0): It's like Ghostface Killah is naming all of these crypto things.
   JACKSON  (  385.2): They're just eating
   TYLER    (  390.0): He's known for all of rhyming about food out of nowhere.
+  CHRIS    (  394.6): There may be some like strange on-chain pathology there now that I think about it. I think originally
   CHRIS    (  394.6): There may be some like strange on-chain pathology there now that I think about it. I think originally
   CHRIS    (  400.9): was sandwiches, right? And then like, I dunno, uh, it's going on and on. Uh, but, but in
   JACKSON  (  404.2): You
@@ -152,6 +152,7 @@
   JACKSON  (  781.7): Yeah, what
   TYLER    (  782.0): Because if the law can come in and supersede the actions that happen on the blockchain, then what's the point of the blockchain?
   TYLER    (  790.0): It's just like an open database that is controlled by the government.
+  JACKSON  (  792.1): You
 
 ===== S3e =====
   JACKSON  (  832.1): Actually Chris could you are there any examples that you can remember where you think that la la should trump
@@ -187,7 +188,6 @@
   JACKSON  (  970.2): Okay
 
 ===== S4b =====
-  CHRIS    ( 1002.8): So I think, like, let's put it up. Tyler, do you want to do the read? Because you came
   TYLER    ( 1009.0): Okay, yeah, we're trying something a little bit new this time. We're in the past with Perp of Fortune, we had Claude go off and do some market research and come up with a trade idea and then tell us why.
   TYLER    ( 1009.0): Okay, yeah, we're trying something a little bit new this time. We're in the past with Perp of Fortune, we had Claude go off and do some market research and come up with a trade idea and then tell us why.
   TYLER    ( 1021.0): But I thought it would be a little bit more fun to have Claude read our outline and our topics for the episode and then choose a thematic perp to invest in.
@@ -288,6 +288,7 @@
   CHRIS    ( 3583.3): You're right.
   CHRIS    ( 3585.3): Right.
   CHRIS    ( 3586.3): And those are your words, not mine.
+  CHRIS    ( 3588.3): But I will-- I will say one of the utilities here of the Ethereum
   CHRIS    ( 3588.3): But I will-- I will say one of the utilities here of the Ethereum
   TYLER    ( 3589.0): But it's been a short AI.
   JACKSON  ( 3590.9): You
@@ -393,7 +394,6 @@
   CHRIS    ( 1641.3): [LAUGHTER]
   TYLER    ( 1652.0): we think is going to do what we tell it to.
   JACKSON  ( 1654.3): We got to use a free, you know local model Chris download the dumbest
-  JACKSON  ( 1654.3): We got to use a free, you know local model Chris download the dumbest
   TYLER    ( 1658.0): We'll talk about
   JACKSON  ( 1659.0): The dumbest local model you can the smallest and then just let it go wild
   CHRIS    ( 1663.3): Yeah.
@@ -421,6 +421,7 @@
   TYLER    ( 1738.0): So GPT five six didn't one shot it, it needed some more steering. Is that what you're saying.
   JACKSON  ( 1738.0): the sense that I get
   JACKSON  ( 1743.6): It thought it one shot at it in like 32 minutes, but it was wrong and
+  JACKSON  ( 1743.6): It thought it one shot at it in like 32 minutes, but it was wrong and
   TYLER    ( 1750.0): How did you discover it was wrong. Obviously you're not reviewing the code so you asked fable to ask if GPT was wrong.
   JACKSON  ( 1750.2): Yeah, like I
   CHRIS    ( 1755.3): [LAUGHTER]
@@ -430,6 +431,7 @@
   CHRIS    ( 1772.3): They're, like, overbearing whole-monitor types.
   JACKSON  ( 1773.6): I
   CHRIS    ( 1775.3): They're willing to talk smack about Codex as well.
+  CHRIS    ( 1779.3): Like, Claude would just be like, "Yeah, let me kill these silly Codex models that are ruining my codebase."
   CHRIS    ( 1779.3): Like, Claude would just be like, "Yeah, let me kill these silly Codex models that are ruining my codebase."
   CHRIS    ( 1786.3): Yeah.
   TYLER    ( 1787.0): Yeah, did you have a GPT review, a fable code, no you only had Opus, this is like a, it isn't a jury of peers here that you're constructing this is a biased, you know, jury.
@@ -452,6 +454,7 @@
   JACKSON  ( 1860.2): I
   CHRIS    ( 1861.3): I think 5.6 is good for that.
   JACKSON  ( 1866.3): Bet it's not a gig of brain. I'm gonna figure out all the ambiguities that you didn't lay out to me directly and
+  CHRIS    ( 1873.3): Totally. Like, even, like, the pull request descriptions are, like, they're so terse.
   CHRIS    ( 1873.3): Totally. Like, even, like, the pull request descriptions are, like, they're so terse.
   CHRIS    ( 1877.3): It, like, assumes so much knowledge.
   CHRIS    ( 1879.3): I'm like, "Dude, I don't..."
@@ -580,6 +583,7 @@
   JACKSON  ( 2410.1): Yeah
   JACKSON  ( 2421.1): Yeah, that was an excellent joke and it hit home
   JACKSON  ( 2425.6): Pretty hard. I was like, oh that's exactly what I am
+  TYLER    ( 2429.0): Do you think in the future, you're going to have to like, exercise your mind in the way that you like go to the gym and lift weights, because you're like, oh my thinking faculties are going to atrophy if I don't like occasionally do some stuff to think for myself.
 
 ===== GIT =====
   JACKSON  ( 3294.6): Wanted to say that with the increase in model quality and the increase in spend
@@ -592,7 +596,6 @@
   JACKSON  ( 3326.1): I'm producing more so, you know, it is it is working
   CHRIS    ( 3326.3): [AUDIO OUT]
   CHRIS    ( 3332.3): Yeah, there's no-- sorry.
-  TYLER    ( 3334.0): Do commits cleanly like translate to, you know, quality and like impact.
   TYLER    ( 3334.0): Do commits cleanly like translate to, you know, quality and like impact.
   JACKSON  ( 3343.4): Yes in the in my case because I'm not doing like commits for the sake of commits I'm doing
   JACKSON  ( 3351.0): I mean you can trust me just like you could trust me on all things
@@ -616,7 +619,6 @@
   TYLER    ( 3386.0): You probably have a much higher bar than I do.
 
 ===== S11a =====
-  TYLER    ( 2429.0): Do you think in the future, you're going to have to like, exercise your mind in the way that you like go to the gym and lift weights, because you're like, oh my thinking faculties are going to atrophy if I don't like occasionally do some stuff to think for myself.
   JACKSON  ( 2440.1): I
   TYLER    ( 2449.0): I do feel like some of my skills are getting like fuzzier.
   TYLER    ( 2456.0): The thought of like writing a big long document on my own with no help is like terrifying, because like that sounds so boring, and I would just like sit there and struggle to think of how I want to phrase something, or like what's the right word for this moment,
@@ -710,7 +712,6 @@
   CHRIS    ( 3182.3): I'm a little bit worried.
   CHRIS    ( 3183.3): Yeah, I'm a little bit worried.
   CHRIS    ( 3185.3): [LAUGHTER]
-  JACKSON  ( 3188.8): Geez it just popped from six. It was six like two minutes ago. This is amazing
   JACKSON  ( 3188.8): Geez it just popped from six. It was six like two minutes ago. This is amazing
   CHRIS    ( 3194.3): Tyler, you need to do the next one.
   CHRIS    ( 3197.3): I think there's some serious money on the line.

@@ -1,10 +1,6 @@
-# Permanent Underpod — Ep 6 — Production Sheet (pre-publish draft)
+# Permanent Underpod — Ep 6 — Production Sheet (v2, pre-publish draft)
 
-**Final cut: 56:54 (102,406 frames) · −16.47 LUFS / −1.20 dBTP / LRA 4.3 · 0 drift (all PTS gaps exactly 1/30 s; video frames × 1600 ≈ audio samples) · offsets 0/0/0 per host instruction ("synced by default"), validated by turn-gap medians (±0.46 s) · excitement reorder + tack-on splices (JTO deep-dive → perp segment, gitstats bit → cost segment) · perp dashboard introduced at go-live (19:55), full-screen beat at 20:45, persistent wall-clock-synced corner PiP · PiP intentionally OFF during relocated JTO/GIT blocks so the on-screen price never spoils or rewinds the price story · AI clone panel (6:38) inserted at Jackson's cue · whoosh SFX at chapter-level segment starts, none at invisible tack-on seams.**
-
-> Runtime note: 56:54 is over the 45–55 min target — knowingly. The 6:38
-> AI-panel insert is the overage; live conversation is 50.1 min after ~5 min
-> of trims in the weakest material.
+**Final cut v2: 56:12 (101,148 frames) · −16.45 LUFS / −1.72 dBTP / LRA 4.0 · 0 drift (all PTS gaps exactly 1/30 s; A/V durations equal) · offsets 0/0/0 per host instruction ("synced by default"), validated by turn-gap medians (±0.46 s) · v2 revision round (Jackson, 7/18): punchier 4-clip cold open (47 s) with "In this pod…" badge + whooshes + animated accent wipes at every segment transition (distinct darker whoosh into the AI segment) · whooshes mixed 5 dB hotter (v1's were inaudible) · full seam audit — 8 mid-speech/dead-air cuts fixed · group split-screens 2.8→~7 min (laughter now triggers duo/trio) · Jackson's mic de-mudded at source (−4.5 dB @ 280 Hz, +3 dB presence) · perp dashboard live from 19:16, full-screen beat ~21:00, wall-clock-synced corner PiP; hides during graphics (Jackson approved) and during the relocated JTO/gitstats blocks so the price story never spoils or rewinds.**
 
 ## File
 
@@ -27,25 +23,25 @@ The sandwich bot that ate $15M of Solana orderflow just got eaten — so natural
 
 🔥 On the Agenda
 0:00 Cold open
-1:27 3-2-1-clap: welcome to Ep 6
-1:52 Gamer thumb saga — week 4 (keyboard wins)
-2:43 An AI made this segment: our clones, round 2
-9:33 The panel reacts: souls.md & less pastrami
-10:33 The $15M sandwich bot got sandwiched
-14:45 Code is law vs law is law
-19:02 Perp of Fortune: Claude goes LONG JTO 5x
-19:55 The dashboard goes live: $101 on the line
-22:25 Jito deep-dive: the MEV monopoly
-27:26 Kimi K3: DeepSeek moment 2.0
-31:11 Claude vs GPT: personality wars
-34:23 Fable vs GPT-5.6: same task, two agents
-38:19 The frontier tax: our AI bills are rising
-40:53 But what about the water?
-42:53 The upgrade treadmill: Sonnet → Opus → Fable
-46:19 A year of commits: Fable goes dark green
-47:55 Is AI melting our brains?
-54:45 JTO rips mid-show: "about to break $10"
-55:28 Wrap: peace out at $10 up
+0:52 3-2-1-clap: welcome to Ep 6
+1:17 Gamer thumb saga — week 4 (keyboard wins)
+2:05 An AI made this segment: our clones, round 2
+8:55 The panel reacts: souls.md & less pastrami
+9:55 The $15M sandwich bot got sandwiched
+14:07 Code is law vs law is law
+18:26 Perp of Fortune: Claude goes LONG JTO 5x
+19:16 The dashboard goes live: $101 on the line
+21:47 Jito deep-dive: the MEV monopoly
+26:47 Kimi K3: DeepSeek moment 2.0
+30:33 Claude vs GPT: personality wars
+33:45 Fable vs GPT-5.6: same task, two agents
+37:41 The frontier tax: our AI bills are rising
+40:15 But what about the water?
+42:14 The upgrade treadmill: Sonnet → Opus → Fable
+45:41 A year of commits: Fable goes dark green
+47:18 Is AI melting our brains?
+54:03 JTO rips mid-show: "about to break $10"
+54:46 Wrap: peace out at $10 up
 
 Recorded fully remote — three cameras, one live perp dashboard.
 Disclaimers: Our opinions are our own, not our employers'. NOT financial advice. The clone-panel segment is 100% AI-generated (voices and video) and clearly labeled.
@@ -65,25 +61,25 @@ GLOSSARY
 | Time | Segment |
 |---|---|
 | 0:00 | Cold open |
-| 1:27 | 3-2-1-clap: welcome to Ep 6 |
-| 1:52 | Gamer thumb saga — week 4 (keyboard wins) |
-| 2:43 | An AI made this segment: our clones, round 2 |
-| 9:33 | The panel reacts: souls.md & less pastrami |
-| 10:33 | The $15M sandwich bot got sandwiched |
-| 14:45 | Code is law vs law is law |
-| 19:02 | Perp of Fortune: Claude goes LONG JTO 5x |
-| 19:55 | The dashboard goes live: $101 on the line |
-| 22:25 | Jito deep-dive: the MEV monopoly |
-| 27:26 | Kimi K3: DeepSeek moment 2.0 |
-| 31:11 | Claude vs GPT: personality wars |
-| 34:23 | Fable vs GPT-5.6: same task, two agents |
-| 38:19 | The frontier tax: our AI bills are rising |
-| 40:53 | But what about the water? |
-| 42:53 | The upgrade treadmill: Sonnet → Opus → Fable |
-| 46:19 | A year of commits: Fable goes dark green |
-| 47:55 | Is AI melting our brains? |
-| 54:45 | JTO rips mid-show: "about to break $10" |
-| 55:28 | Wrap: peace out at $10 up |
+| 0:52 | 3-2-1-clap: welcome to Ep 6 |
+| 1:17 | Gamer thumb saga — week 4 (keyboard wins) |
+| 2:05 | An AI made this segment: our clones, round 2 |
+| 8:55 | The panel reacts: souls.md & less pastrami |
+| 9:55 | The $15M sandwich bot got sandwiched |
+| 14:07 | Code is law vs law is law |
+| 18:26 | Perp of Fortune: Claude goes LONG JTO 5x |
+| 19:16 | The dashboard goes live: $101 on the line |
+| 21:47 | Jito deep-dive: the MEV monopoly |
+| 26:47 | Kimi K3: DeepSeek moment 2.0 |
+| 30:33 | Claude vs GPT: personality wars |
+| 33:45 | Fable vs GPT-5.6: same task, two agents |
+| 37:41 | The frontier tax: our AI bills are rising |
+| 40:15 | But what about the water? |
+| 42:14 | The upgrade treadmill: Sonnet → Opus → Fable |
+| 45:41 | A year of commits: Fable goes dark green |
+| 47:18 | Is AI melting our brains? |
+| 54:03 | JTO rips mid-show: "about to break $10" |
+| 54:46 | Wrap: peace out at $10 up |
 
 ## Spotify description (paste-ready — plain text, ≥30s chapter spacing)
 
@@ -92,16 +88,15 @@ The sandwich bot that ate $15M of Solana orderflow just got eaten — so when Cl
 
 Glossary — Sandwich attack: a bot buys right before your pending trade and sells right after, pocketing the price impact; this week the biggest sandwicher became the sandwich. Jito (JTO): the validator client that runs most of Solana's MEV pipeline — the tollbooth on the orderflow highway. Perp of Fortune: our tiny real-money leveraged-perp bit on Hyperliquid (this week LONG JTO, 5x, $101 margin). Kimi K3: Moonshot's open-weights model — near-frontier quality at a fraction of the price. Frontier tax: each better model quietly raising your monthly AI spend.
 
-Chapters: Cold open (0:00) · Welcome to Ep 6 (1:27) · An AI made this segment (2:43) · The panel reacts (9:33) · The $15M sandwich bot got sandwiched (10:33) · Code is law vs law is law (14:45) · Perp of Fortune: LONG JTO 5x (19:02) · The dashboard goes live (19:55) · Jito deep-dive (22:25) · Kimi K3 (27:26) · Claude vs GPT personality wars (31:11) · Fable vs GPT-5.6 head-to-head (34:23) · The frontier tax (38:19) · But what about the water? (40:53) · The upgrade treadmill (42:53) · A year of commits (46:19) · Is AI melting our brains? (47:55) · JTO rips mid-show (54:45) · Wrap: peace out at $10 up (55:28)
+Chapters: Cold open (0:00) · Welcome to Ep 6 (0:52) · An AI made this segment (2:05) · The panel reacts (8:55) · The $15M sandwich bot got sandwiched (9:55) · Code is law vs law is law (14:07) · Perp of Fortune: LONG JTO 5x (18:26) · The dashboard goes live (19:16) · Jito deep-dive (21:47) · Kimi K3 (26:47) · Claude vs GPT personality wars (30:33) · Fable vs GPT-5.6 head-to-head (33:45) · The frontier tax (37:41) · But what about the water? (40:15) · The upgrade treadmill (42:14) · A year of commits (45:41) · Is AI melting our brains? (47:18) · JTO rips mid-show (54:03) · Wrap: peace out at $10 up (54:46)
 
 Our opinions are our own, not our employers'. NOT financial advice. The clone-panel segment is 100% AI-generated (voices and video) and labeled as such.
 ```
 
 ## Captions
 
-Upload `final_cut.srt` — regenerated from the FINAL cut (never the raw recordings;
-raw order/timing predates the reorder). Attributed transcript at
-`episodes/ep6/transcript-attributed.{srt,md}`.
+Upload `final_cut.srt` — regenerated from the FINAL v2 cut (never the raw recordings).
+Attributed transcript at `episodes/ep6/transcript-attributed.{srt,md}`.
 
 ## Publish checklist (house rules)
 
