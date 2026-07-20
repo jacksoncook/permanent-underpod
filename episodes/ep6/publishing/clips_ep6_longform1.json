@@ -1,0 +1,14 @@
+{
+  "source": "/Users/jcook/Personal/permanent-underpod/media/Permanent Underpod - Ep 6 (Final Cut).mp4",
+  "out_dir": "/Users/jcook/Personal/permanent-underpod/media/clips/ep6",
+  "logo": "/Users/jcook/Personal/permanent-underpod/media/ep6-work/logo.png",
+  "audio_chain": "anull",
+  "clips": [
+    {
+      "name": "longform1-ai-clones-round2",
+      "start": 124.8,
+      "end": 594.766,
+      "style": "plain"
+    }
+  ]
+}

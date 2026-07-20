@@ -1,0 +1,55 @@
+{
+  "client_secret": "~/.config/clipify-youtube/client_secret.json",
+  "token": "~/.config/clipify-youtube/token.json",
+  "defaults": {"categoryId": "22", "privacyStatus": "private", "madeForKids": false},
+  "uploads": [
+    {
+      "file": "/Users/jcook/Personal/permanent-underpod/media/clips/ep6/facecrop/short1-break-10.mp4",
+      "title": "The AI's trade broke $10 live mid-show 📈",
+      "description": "JTO ripped past $10 while the boys were mid-take — Claude's 5x long finally printed live on air. Full episode: https://youtu.be/yIm_4Yk0bh4\n\n#shorts #solana #crypto #trading",
+      "tags": ["solana", "crypto", "trading", "ai", "podcast", "jito"],
+      "playlist": "Underpod Shorts",
+      "publishAt": "2026-07-20T21:00:00Z"
+    },
+    {
+      "file": "/Users/jcook/Personal/permanent-underpod/media/clips/ep6/facecrop/short2-fable-guardrails.mp4",
+      "title": "Claude: \"bro, I won't let you gamble\" 🎰",
+      "description": "Jackson tried to put $101 on 10x leverage and Claude's guardrails said absolutely not — 5x max. Full episode: https://youtu.be/yIm_4Yk0bh4\n\n#shorts #ai #claude #trading",
+      "tags": ["ai", "claude", "trading", "leverage", "podcast", "hyperliquid"],
+      "playlist": "Underpod Shorts",
+      "publishAt": "2026-07-21T21:00:00Z"
+    },
+    {
+      "file": "/Users/jcook/Personal/permanent-underpod/media/clips/ep6/longform1-ai-clones-round2.mp4",
+      "title": "Our AI Clones Hosted a Segment Again - Ep 6 Clip",
+      "description": "Clip from Episode 6 — full episode: https://youtu.be/yIm_4Yk0bh4\n\nRound 2 of the clone experiment: souls.md gave the clones personalities, they hosted a full segment on the $15M sandwich-bot saga, and the real hosts grade the results (less pastrami this time). The clone segment is 100% AI-generated — voices and video — and clearly labeled.\n\n#ai #aiclones #deepfake #podcast",
+      "tags": ["ai", "aiclones", "deepfake", "podcast", "mev", "solana"],
+      "playlist": "Underpod Clips",
+      "publishAt": "2026-07-22T21:00:00Z"
+    },
+    {
+      "file": "/Users/jcook/Personal/permanent-underpod/media/clips/ep6/facecrop/short3-pastrami-soulsmd.mp4",
+      "title": "Our AI leaked the pastrami incident 🥪",
+      "description": "The AI extracted our souls into souls.md with such precision it leaked one host's personal history with pastrami. Full episode: https://youtu.be/yIm_4Yk0bh4\n\n#shorts #ai #aiclone #podcast",
+      "tags": ["ai", "aiclone", "podcast", "soulsmd", "pastrami"],
+      "playlist": "Underpod Shorts",
+      "publishAt": "2026-07-23T21:00:00Z"
+    },
+    {
+      "file": "/Users/jcook/Personal/permanent-underpod/media/clips/ep6/facecrop/short4-exit-scam.mp4",
+      "title": "That's how you do an exit scam 🪤",
+      "description": "Tyler on the $15M sandwich-bot rug: set the trap, let the purse fatten, then rip the cord. Full episode: https://youtu.be/yIm_4Yk0bh4\n\n#shorts #crypto #mev #solana",
+      "tags": ["crypto", "mev", "solana", "exitscam", "sandwichattack", "podcast"],
+      "playlist": "Underpod Shorts",
+      "publishAt": "2026-07-24T21:00:00Z"
+    },
+    {
+      "file": "/Users/jcook/Personal/permanent-underpod/media/clips/ep6/facecrop/short5-thank-you-jito.mp4",
+      "title": "Thank you, Jito, for sponsoring 💸",
+      "description": "The perp closed $10 up, so the boys signed off by thanking their \"sponsor\" — the MEV cartel they longed. Full episode: https://youtu.be/yIm_4Yk0bh4\n\n#shorts #solana #crypto #jito",
+      "tags": ["solana", "crypto", "jito", "perpoffortune", "podcast"],
+      "playlist": "Underpod Shorts",
+      "publishAt": "2026-07-25T21:00:00Z"
+    }
+  ]
+}

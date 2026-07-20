@@ -1,0 +1,53 @@
+{
+  "source": "/Users/jcook/Personal/permanent-underpod/media/ep6-work/edited_raw.mov",
+  "out_dir": "/Users/jcook/Personal/permanent-underpod/media/clips/ep6/facecrop",
+  "logo": "/Users/jcook/Personal/permanent-underpod/media/ep6-work/logo.png",
+  "audio_chain": "highpass=f=80,afftdn=nr=18:nf=-50:tn=1,acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,treble=f=9500:width_type=q:w=0.8:g=2,loudnorm=I=-16:TP=-1.5:LRA=5",
+  "clips": [
+    {
+      "name": "short1-break-10",
+      "start": 3266.5,
+      "end": 3285.633,
+      "vertical": true,
+      "logo": true,
+      "face_crops": [[0.0, 117], [3.13, 457], [8.13, 117]],
+      "caption": {"kicker": "LIVE MID-SHOW", "title": "\"OH, WE'RE ABOUT TO BREAK $10\""}
+    },
+    {
+      "name": "short2-fable-guardrails",
+      "start": 1252.4,
+      "end": 1273.2,
+      "vertical": true,
+      "logo": true,
+      "face_crops": [[0.0, 367]],
+      "caption": {"kicker": "PERP OF FORTUNE", "title": "\"BRO, I WON'T LET YOU GAMBLE\""}
+    },
+    {
+      "name": "short3-pastrami-soulsmd",
+      "start": 557.233,
+      "end": 594.766,
+      "vertical": true,
+      "logo": true,
+      "face_crops": [[0.0, 497], [23.5, 457], [27.5, 117], [31.5, 757], [33.5, 10]],
+      "caption": {"kicker": "SOULS.MD, ROUND 2", "title": "\"THE PASTRAMI INCIDENT\""}
+    },
+    {
+      "name": "short4-exit-scam",
+      "start": 0.0,
+      "end": 14.2,
+      "vertical": true,
+      "logo": true,
+      "face_crops": [[0.0, 497]],
+      "caption": {"kicker": "THE $15M SANDWICH", "title": "\"THAT'S HOW YOU DO AN EXIT SCAM\""}
+    },
+    {
+      "name": "short5-thank-you-jito",
+      "start": 3351.3,
+      "end": 3364.633,
+      "vertical": true,
+      "logo": true,
+      "face_crops": [[0.0, 117], [4.83, 457]],
+      "caption": {"kicker": "PEACE OUT, $10 UP", "title": "\"THANK YOU, JITO\""}
+    }
+  ]
+}

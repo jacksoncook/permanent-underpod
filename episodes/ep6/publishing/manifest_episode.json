@@ -1,0 +1,17 @@
+{
+ "client_secret": "~/.config/clipify-youtube/client_secret.json",
+ "token": "~/.config/clipify-youtube/token.json",
+ "defaults": {
+  "categoryId": "22",
+  "privacyStatus": "private",
+  "madeForKids": false
+ },
+ "uploads": [
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/Permanent Underpod - Ep 6 (Final Cut).mp4",
+   "title": "We Let the AI Bet Again — It Picked Solana's MEV Cartel",
+   "description": "The sandwich bot that ate $15M of Solana orderflow just got eaten — so naturally, when Claude rolled this week's Perp of Fortune, it went LONG the MEV house itself: JTO at 5x with $101 of real money. The dashboard is live on screen from the moment it boots, and for once the line goes up. Plus: our AI clones host a segment again (round 2 — souls.md, less pastrami), Kimi K3 triggers DeepSeek Moment 2.0, and Jackson makes Fable and GPT-5.6 do the exact same job and shows the receipts.\n\n🔥 On the Agenda\n0:00 Cold open\n0:52 3-2-1-clap: welcome to Ep 6\n1:17 Gamer thumb saga — week 4 (keyboard wins)\n2:05 An AI made this segment: our clones, round 2\n8:55 The panel reacts: souls.md & less pastrami\n9:55 The $15M sandwich bot got sandwiched\n14:07 Code is law vs law is law\n18:26 Perp of Fortune: Claude goes LONG JTO 5x\n19:16 The dashboard goes live: $101 on the line\n21:47 Jito deep-dive: the MEV monopoly\n26:47 Kimi K3: DeepSeek moment 2.0\n30:33 Claude vs GPT: personality wars\n33:45 Fable vs GPT-5.6: same task, two agents\n37:41 The frontier tax: our AI bills are rising\n40:15 But what about the water?\n42:14 The upgrade treadmill: Sonnet → Opus → Fable\n45:41 A year of commits: Fable goes dark green\n47:18 Is AI melting our brains?\n54:03 JTO rips mid-show: \"about to break $10\"\n54:46 Wrap: peace out at $10 up\n\nRecorded fully remote — three cameras, one live perp dashboard.\nDisclaimers: Our opinions are our own, not our employers'. NOT financial advice. The clone-panel segment is 100% AI-generated (voices and video) and clearly labeled.\n\nGLOSSARY\n• Sandwich attack: a bot spots your pending trade, buys right before you and sells right after, pocketing the price impact. This week the biggest sandwicher became the sandwich.\n• Jito (JTO): the company whose validator client runs most of Solana's MEV pipeline — the tollbooth on the orderflow highway. Claude's pick for this week's perp.\n• Perp of Fortune: our recurring bit — a tiny real-money leveraged perp on Hyperliquid, picked live. This week: LONG JTO · 5x · $101 margin, dashboard on screen the whole show.\n• Kimi K3: Moonshot's new open-weights model — frontier-adjacent quality at a fraction of the price. DeepSeek Moment 2.0.\n• Frontier tax: the pattern where each better model quietly raises your monthly AI spend — better context windows, more tokens, more addiction.\n\n🔔 Subscribe for next week: agentic commerce (Chris has been STEWING), very specific bad reasons (no spoilers), and Perp of Fortune rolls again.",
+   "tags": []
+  }
+ ]
+}
