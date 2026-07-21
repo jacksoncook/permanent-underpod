@@ -19,12 +19,12 @@
       "status_note": "New this week. Ep 6's launch window is already lost; apply to Ep 7."
     },
     {
-      "title": "Wire the shorts→episode funnel — it's still mostly unwired, and it's still the weakest metric",
-      "evidence": "SHORTS traffic grew 4,525→7,305 views (86% of channel) but only 462 watch-minutes and ~2 lifetime subs from shorts; episodes still do the converting (SUBSCRIBER+direct: 525 views but 1,072 watch-min). Encouraging: RELATED_VIDEO watch-minutes tripled (67→206 min on 86 views) — the few wired links do work. The manual steps (related-video, pinned comments, end screens) remain undone for the live Ep 5 and Ep 6 batches.",
-      "recommendation": "Do the funnel checklist for the Ep 5 + Ep 6 batches in one Studio session (related video, pinned comment with episode link + timestamp, end screens). It's ~30 min of clicking and the only channel lever that's pure execution, no creative.",
-      "priority": "high",
+      "title": "Shorts→episode funnel: related-video is wired everywhere — remaining gap is pinned comments + end screens",
+      "evidence": "Related-video is set on all shorts (confirmed in Studio 7/21 — not visible via API, so the repo had it wrongly flagged as pending). It's plausibly already paying: RELATED_VIDEO watch-minutes tripled week-over-week (67→206 min on 86 views). The conversion gap itself persists: SHORTS traffic grew 4,525→7,305 views (86% of channel) but only 462 watch-minutes and ~2 lifetime subs; episodes still do the converting (SUBSCRIBER+direct: 525 views, 1,072 watch-min).",
+      "recommendation": "Finish the last two checklist items if not already done — pinned comment with episode link + timestamp on each short, end screens on episodes/longforms — then this item retires and the funnel gets judged purely on RELATED_VIDEO + subs trends.",
+      "priority": "med",
       "status": "partial",
-      "status_note": "Tooling done since 7/11 (yt_upload.py checklist + lint). Manual wiring still pending for Ep 5 and Ep 6 batches — carried over two weeks now."
+      "status_note": "Related-video: DONE (all shorts, per Jackson 7/21). Pinned comments + end screens: unverified. Note for future reviews: Studio-manual steps aren't API-visible — ask, don't assume undone."
     },
     {
       "title": "Retention-informed edit defaults are working — keep them",
@@ -70,6 +70,6 @@
     "[prod] PENDING — 10–20s loop shorts vs 30s+ setup shorts: Ep 6 batch has both (13s/14s/19s/21s vs 38s), publishing Jul 20–25; compare next week.",
     "[rec] PENDING — Ep 6 retention curve vs Ep 5's (perp at 18:26 vs 27:08, AI clones at 2:05): needs views to accumulate; judge next pull.",
     "[rec] CARRIED — each host brings one confession to Ep 7; Ep 6 shipped without one and confessions sit at every measured retention peak.",
-    "[prod] CARRIED — wire related-video + pinned comments on Ep 5 AND Ep 6 batches, then watch SHORTS-source watch-minutes and subs (early signal is good: RELATED_VIDEO watch-min tripled to 206)."
+    "[prod] UPDATED — related-video is wired on all shorts (confirmed 7/21); now watch whether RELATED_VIDEO views/watch-min (86 / 206 min this pull) and shorts-sourced subs keep climbing over the next 2 weeks."
   ]
 }
