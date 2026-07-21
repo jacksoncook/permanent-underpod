@@ -6,7 +6,10 @@
 
 - **URL:** https://youtu.be/UA7jz9XF_vQ — published 2026-07-10 04:18 UTC (public)
 - **File:** `media/Permanent Underpod - Ep 5 (Final Cut v4).mp4` (v1/v2/v3 kept alongside for reference)
-- **Title (published):** We Gave an AI $100 and It Bet On War
+- **Title (published):** Our AI Clones Have Faces Now (This Is Getting Worse)
+  — retitled live sometime Jul 11–20 (original publish title: "We Gave an AI $100
+  and It Bet On War"); noticed via `yt_pull.py` 2026-07-21, likely chasing the
+  episode's weak 1.2% CTR.
 - Jackson's upload dropped the draft's GLOSSARY (accidental — restored via API
   2026-07-09) and the 🔔 Subscribe teaser (intentional — stays off). The block
   below is the LIVE copy.
@@ -106,9 +109,9 @@ Playlists set by the uploader; per-short "related video" is manual in Studio.
 | Date (2 PM PT) | Clip | Format | Title | URL |
 |---|---|---|---|---|
 | Fri Jul 10 | short1-war-profiteering | 9:16 · 0:34 | AI went long oil on Iran news. Live. 🛢️ | https://youtu.be/A8SYLHJhGB8 |
-| Sat Jul 11 | longform1-ai-clones-v2 | 16:9 · 6:32 | Highlights: The AI cloned us again — now with video (and we grade it) | https://youtu.be/GFMjkD7uJn8 |
+| Sat Jul 11 | longform1-ai-clones-v2 | 16:9 · 6:32 | The AI cloned us again — now with video - Ep 5 Clip | https://youtu.be/GFMjkD7uJn8 |
 | Sun Jul 12 | short3-literally-me | 9:16 · 0:39 | Our AI clones have faces now. "He's literally me" 🤖 | https://youtu.be/obnm-HxEaqk |
 | Mon Jul 13 | short2-we-got-a-perp | 9:16 · 0:26 | The AI's trade finally filled mid-show 📈 | https://youtu.be/VakKUZLuvM4 |
-| Tue Jul 14 | longform2-bonkdao-heist | 16:9 · 5:11 | Highlights: The $20M DAO heist where the hacker lost money | https://youtu.be/Jbj5bOGwCwE |
+| Tue Jul 14 | longform2-bonkdao-heist | 16:9 · 5:11 | The $20M DAO heist where the hacker lost money - Ep 5 Clip | https://youtu.be/Jbj5bOGwCwE |
 | Wed Jul 15 | short4-treasury-heist | 9:16 · 0:43 | He spent $4.3M to steal $20M. Legally-ish. 💸 | https://youtu.be/dkQDeUZgCi8 |
 | Thu Jul 16 | short5-leaf-blower | 9:16 · 0:41 | Local frontier AI = a $50K leaf blower 🍃 | https://youtu.be/wQhOnB0BOIo |

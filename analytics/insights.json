@@ -1,95 +1,75 @@
 {
-  "generatedAt": "2026-07-11",
-  "headline": "Shorts bring 81% of views but ~zero subscribers; episodes convert. Production owns the biggest lever (shorts→episode funnel + packaging); recording owns the second (build episodes around what retains — live stakes, confessions, AI bits — not long explainers).",
+  "generatedAt": "2026-07-21",
+  "headline": "Week over week: subs 16→20, views 6,169→8,511 (+38%). Ep 5's retention curve validates the new edit/recording defaults — 8:52 avg view duration, the channel's best, with early retention ~2x Eps 1–4. Two red flags own the week: Ep 6 launched into a 3-day dead clip queue and is impression-starved (77 impressions / 21 views in 3 days vs Ep 5's 1,660 / 45), and longform packaging is the broken link — YouTube serves big impressions (8.8K on the Ep 2 clip) but sub-1% CTR; retitles alone didn't fix it, thumbnails are next.",
   "production": [
     {
-      "title": "Never ship the 'Highlight -' prefix — hook first, provenance as suffix",
-      "evidence": "All five published Highlights flopped: Stablecoins to Zero 8 views, US Govt AI Rugged Us 50, Perp of Fortune 23, AI cloned us 92, burn desk 5 — retention vs-typical in the bottom decile (0.03–0.12 through their first third). Retitles to the new house convention '<Hook> - Ep N Clip' are underway (Ep 2 + Ep 4 clips done); impressions/CTR data landing ~Jul 13 will give the clean before/after.",
-      "recommendation": "Standardize clip titling: hook first, '- Ep N Clip' suffix (e.g. 'The US Government AI Rugged Us - Ep 2 Clip'), 'Clip from Episode N — full episode: [link]' as the description's first line. Finish retitling the remaining Highlight ('Perp of Fortune') and the scheduled Jul 14 clip.",
+      "title": "Fix longform packaging: impressions are there, CTR isn't — add custom thumbnails",
+      "evidence": "Reach data landed (36 videos). Longform clips get real impression volume but terrible CTR: Ep 2 clip 8,833 impressions @ 0.42% (most-served video on the channel), Ep 4 OpenUSD clip 3,854 @ 1.95%, Ep 5 clones clip 792 @ 0.38%, burn desk 369 @ 0.54%. Episodes are only okay: Ep 3 3.44%, Ep 4 2.93%, Ep 1 2.26%, Ep 5 just 1.2% on 1,660 impressions. All of these run auto-generated thumbnails. The retitle experiment's verdict: titles fixed the convention but aggregate CTR stayed sub-2% on 5 of 7 longforms — the thumbnail is the remaining variable.",
+      "recommendation": "Add a branded custom-thumbnail step (face + 3–5 word hook text, brand colors) to the publishing flow for every episode and longform clip; shorts don't need it. Start with the two highest-impression laggards (Ep 2 clip, Ep 4 OpenUSD clip) and the Ep 5 episode as the test set.",
+      "priority": "high",
+      "status": "todo",
+      "status_note": "New this week — first actionable output of the impressions/CTR data."
+    },
+    {
+      "title": "Never launch an episode into a dead clip queue — bracket every launch",
+      "evidence": "The Ep 5 clip queue ended Jul 16 and Ep 6 clips didn't start until Jul 20, leaving Jul 17–19 empty. Daily channel views collapsed into that gap (49 → 12 → 15) and Ep 6 published into the trough on Sat Jul 18: 77 impressions and 21 views in its first 3 days, vs Ep 5's 1,660 impressions / 45 views (and a 170-view channel day on its Fri-night launch). The algorithm had nothing warm to recommend the episode from.",
+      "recommendation": "Schedule each episode's first short for the morning of episode day and keep the daily 2 PM queue unbroken across the episode boundary (stretch the outgoing batch or cut a pre-release teaser from the new episode). Consider pinning the episode publish slot to the Thu-night/Fri slot that worked for Eps 1–5 rather than Saturday afternoon.",
+      "priority": "high",
+      "status": "todo",
+      "status_note": "New this week. Ep 6's launch window is already lost; apply to Ep 7."
+    },
+    {
+      "title": "Wire the shorts→episode funnel — it's still mostly unwired, and it's still the weakest metric",
+      "evidence": "SHORTS traffic grew 4,525→7,305 views (86% of channel) but only 462 watch-minutes and ~2 lifetime subs from shorts; episodes still do the converting (SUBSCRIBER+direct: 525 views but 1,072 watch-min). Encouraging: RELATED_VIDEO watch-minutes tripled (67→206 min on 86 views) — the few wired links do work. The manual steps (related-video, pinned comments, end screens) remain undone for the live Ep 5 and Ep 6 batches.",
+      "recommendation": "Do the funnel checklist for the Ep 5 + Ep 6 batches in one Studio session (related video, pinned comment with episode link + timestamp, end screens). It's ~30 min of clicking and the only channel lever that's pure execution, no creative.",
       "priority": "high",
       "status": "partial",
-      "status_note": "Convention + lint baked into clipify (commit c0d20d2); 4 of 5 published Highlights retitled, both scheduled Ep 5 clips use '- Ep N Clip'. Remaining: retitle 'Highlight - Perp of Fortune'."
+      "status_note": "Tooling done since 7/11 (yt_upload.py checklist + lint). Manual wiring still pending for Ep 5 and Ep 6 batches — carried over two weeks now."
     },
     {
-      "title": "Wire the shorts→episode funnel — it's currently disconnected",
-      "evidence": "Traffic: SHORTS = 4,525 views (81% of channel) but only 238 watch-minutes (8%) and ~1 subscriber gained across all shorts. SUBSCRIBER + direct = 524 views but 1,636 watch-minutes. Episodes gained 2–3 subs each; shorts ~0. The related-video link is still unset for the Ep 5 batch.",
-      "recommendation": "Set the related-video on every short, pin a comment with the episode link + timestamp of the full segment, and add end screens on episodes/clips. Make this a standard yt_upload.py-era publishing checklist step.",
-      "priority": "high",
-      "status": "partial",
-      "status_note": "Tooling done: yt_upload.py prints the funnel checklist after every batch and lints missing episode links. Still manual + pending: related-video and pinned comments on the live Ep 1-5 shorts, end screens."
-    },
-    {
-      "title": "Pick shorts by personality, not topic importance",
-      "evidence": "Winners are all human moments/one-liners: lottery ticket 1,273 views, Halo 3 roast 986, skipped-his-party 674, dog food 469, Pico's shrooms 395, Jamie Dimon 392, 'Coinbase sticker' 380. Losers are all abstract concepts: building a stock with ChatGPT 4, agentic investor 11, Claude won't help 10, retail gambling 24.",
-      "recommendation": "In clipify selection, the test is 'is a host being a character / is there a quotable roast'. Every episode has 2–3 of these — clip those first, concepts last.",
-      "priority": "high",
-      "status": "done",
-      "status_note": "Selection rule in clipify SKILL.md ('What to clip'); applies to every future batch."
-    },
-    {
-      "title": "Cut shorts to 10–20 seconds so they loop",
-      "evidence": "Sub-15s shorts average >100% viewed (Dimon 145%, Bitcoin Bankruptcy 130%, govt-deleted-AI 109%) — looping feeds the Shorts algorithm. The 25–60s cuts hold only 30–48%.",
-      "recommendation": "Default clipify cuts to a single punchline in 10–20s, starting mid-laugh; use 25s+ only when the bit needs setup.",
+      "title": "Retention-informed edit defaults are working — keep them",
+      "evidence": "Ep 5, the first cut under the new defaults, posts the channel's best long-form engagement: 8:52 avg view duration (Ep 1 6:47, Ep 2 6:10, Ep 4 4:37, Ep 3 2:59) and 25.6% retention at the 5% mark vs 11–19% for Eps 1–4. The curve holds a long plateau (16–19% absolute) from 15% clear through 55% of a 61-min runtime, and vs-typical peaks 0.62 in the AI-clones panel and 0.68 when the perp fill lands. Ep 6 doubled down (56:12 runtime, 47s 4-clip cold open, first segment at 2:05) — its curve lands next week.",
+      "recommendation": "No change: keep cold-open-from-best-moment + first-segment-by-2-min + 45–55 min target. Judge Ep 6's curve against Ep 5's next pull.",
       "priority": "med",
       "status": "done",
-      "status_note": "10-20s loop-style default in clipify SKILL.md; applies to every future batch."
+      "status_note": "Defaults in podcast-video-edit SKILL.md since 7/11; Ep 5 curve is the first confirming evidence. Retire once Ep 6's curve confirms."
     },
     {
-      "title": "Tighten the episode edit toward 45–55 min using the retention curves",
-      "evidence": "Episodes run 60–85 min but median avg view duration is 3–7 min (Ep1 6:53, Ep2 6:10, Ep3 2:59, Ep4 4:28). The curves literally mark the cuttable stretches: Ep 4's cliff at 22:00 (Freeze functions), Ep 2's collapse mid perps-explainer (36–46 min), Ep 1's crater inside stablecoins-to-zero (63 min).",
-      "recommendation": "In the edit, cut or heavily trim the explainer stretches the curves flag, even when the conversation was good. Keep a segment long only if it would survive as a standalone clip.",
-      "priority": "med",
-      "status": "done",
-      "status_note": "Now a default in podcast-video-edit SKILL.md ('Retention-informed edit defaults'); first applies to the Ep 6 cut."
-    },
-    {
-      "title": "Build cold opens from the episode's best 60–90 seconds and tease the end-of-show bit",
-      "evidence": "End-of-show payoffs go mostly unseen live (Ep 1's lottery bit sits at the 95% mark with only 3–5% of viewers left) yet the lottery short is the channel's #1 video (1,273 views). Cold opens today don't stop the first-4-minute bleed (retention 11–19% by the 5% mark on every episode).",
-      "recommendation": "In the edit: cold-open with the single best moment (the fill landing, the confession, the clone reveal), tease the finale ('stay for the lottery tickets'), and clip end-of-show bits as shorts within 24h of episode publish.",
-      "priority": "med",
-      "status": "done",
-      "status_note": "Cold-open + first-10-minutes defaults in podcast-video-edit SKILL.md; 24h end-bit clipping rule in clipify. First applies to Ep 6."
-    },
-    {
-      "title": "Cadence is working — protect it",
-      "evidence": "5 episodes in 4 weeks plus a daily short queue took the channel 0 → 16 subs and 6,169 views in 26 days; every episode day shows a views + watch-time spike.",
-      "recommendation": "Keep weekly episode + daily short in the publishing schedule. Re-pull after Jul 13 to add impressions/CTR to packaging decisions (reach job created Jul 11).",
+      "title": "Clip titling convention — done and holding",
+      "evidence": "Zero 'Highlight -' titles remain live (all 7 longforms now '<Hook> - Ep N Clip' or hook-only). Note: Ep 5's episode was also retitled live ('We Gave an AI $100 and It Bet On War' → 'Our AI Clones Have Faces Now (This Is Getting Worse)') — presumably chasing its weak 1.2% CTR; segment-times.md updated to match.",
+      "recommendation": "Nothing left to do; convention + lint live in clipify. CTR ownership moves to the thumbnail item above.",
       "priority": "low",
       "status": "done",
-      "status_note": "Nothing to change — weekly episode + daily short queue is holding (Ep 5 clips scheduled through Jul 16)."
+      "status_note": "Complete as of this week — retire next review."
     }
   ],
   "recording": [
     {
-      "title": "Don't spend the first 4 minutes on check-ins — 85% of viewers are gone by then",
-      "evidence": "By the 5% mark retention is 11–19% on every episode (Ep1 17%, Ep2 19%, Ep3 11%, Ep4 18%), and every episode records housekeeping/Pico updates in minutes 1–5 (Ep1 10:11, Ep2 5:42, Ep3 0:54, Ep4 2:13) before real content.",
-      "recommendation": "Record the welcome + check-in in under 60 seconds and get to the first real segment immediately. Save Pico/gamer-thumb updates as mid-show palate cleansers (the edit can only reorder what's recorded as discrete segments — keep them self-contained).",
+      "title": "Check-in discipline improved — now move the gamer-thumb saga out of minutes 2–4",
+      "evidence": "Ep 5's welcome ran 0:43–1:46 (inside the ≤60s target) and early retention doubled vs Eps 1–4 (25.6% vs 11–19% at the 5% mark). But the thumb saga occupied 1:46–4:26 and the curve bleeds straight through it (30.2% → 23.3%). Ep 6 cut it to 48 seconds (1:17–2:05) — right instinct.",
+      "recommendation": "Keep the check-in ≤60s. Retainer bits like the thumb saga work better as mid-show palate cleansers than as minute-2 content — record them self-contained so the edit can place them.",
       "priority": "high"
     },
     {
-      "title": "Cap explainers at ~8 minutes and anchor them to live stakes",
-      "evidence": "Ep 4's biggest cliff (7%→4%) lands at 22:00, exactly where 'Freeze functions & privacy zones' starts inside a 24-min L2 deep-dive. Ep 2 collapses (vs-typical 0.22→0.07) mid 19-min perps explainer. Ep 1 craters to 3% inside the 13-min stablecoins-to-zero segment — the same content that got 8 views as a standalone clip.",
-      "recommendation": "When a topic needs explaining, do it in ≤8 min and tie it to something live or personal — explain perps WHILE the position is open (Eps 3/5 proved this retains). If it can't be tied to stakes, it's a candidate to skip.",
+      "title": "The ≤8-minute explainer cap keeps being proven right — Ep 5 violated it once and paid",
+      "evidence": "Ep 5's only sustained decay is exactly the 10.3-min 'Not all USDC is the same: chain drift' explainer (33:53–44:12): absolute retention slides 16.3% → 11.6% and vs-typical craters 0.44 → 0.19, the episode's worst band. Everything before it held flat for 20 minutes. Same pattern as Ep 4's L2 deep-dive and Ep 2's perps explainer.",
+      "recommendation": "Hard cap explainers at 8 minutes and tie them to live stakes. Chain drift had a natural stake ('your burrito money') — surfacing the stake first and cutting the mechanism detail would likely have held the plateau.",
       "priority": "high"
     },
     {
-      "title": "Make live stakes, confessions, and AI bits the spine — and put one in the first 10 minutes",
-      "evidence": "Ep 3's back half holds 0.64–0.95 vs-typical through the live-trade/custody/confession stretch; 'Confession: emergency fund into Stretch' sits at its 0.91–0.95 peak. Ep 4 peaks (0.73–0.86) at 'our jobs are fine, yours aren't' and recovers from its cliff when soul.md/AI-clone content starts. Ep 5 opened Perp of Fortune at 27:08 — after most viewers already left.",
-      "recommendation": "Structure every recording around one live-stakes bit (Perp of Fortune), one confession/personal-money story, and one AI-does-something-unsettling segment, with one of the three in the first 10 minutes.",
+      "title": "AI bits and live stakes remain the retention spine — keep pulling them earlier",
+      "evidence": "Ep 5's vs-typical climbs from 0.28 to 0.62 through the AI-Venice segment + panel react (4:26–18:56) — putting an AI bit in the first 10 minutes worked exactly as predicted. The perp fill at 50:45 bumps vs-typical to 0.68 with 85% of the runtime gone. Perp of Fortune moved from 27:08 (Ep 5) to 18:26 (Ep 6) — progress, still not first-10-minutes.",
+      "recommendation": "Keep one of the three anchors (AI bit / live stakes / confession) in the first 10 minutes. The confession experiment from last review still hasn't happened — Ep 6 had none; bring one to Ep 7.",
       "priority": "high"
-    },
-    {
-      "title": "Manufacture clip-able moments on purpose",
-      "evidence": "The channel's reach is 81% shorts-driven, and every winning short is a host being a character or a quotable one-liner (lottery 1,273, Halo 3 986, skipped-party 674). These currently happen by accident.",
-      "recommendation": "Once per segment, someone states the take as a single quotable sentence ('Base is just Optimism with a Coinbase sticker' worked). Roast each other on the record — it's the best-performing content type.",
-      "priority": "med"
     }
   ],
   "experiments": [
-    "[prod] Compare CTR/views on the retitled clips vs the five that shipped with 'Highlight -' once impressions data lands (~Jul 13).",
-    "[rec] Ep 6: open with Perp of Fortune in the first 10 minutes (continuity from Ep 5 is already planned) and compare the 5–25% retention band vs Eps 1–5.",
-    "[prod] Cut one 10–15s loop-style short from Ep 6 and A/B against a 30s+ setup short from the same segment.",
-    "[prod] Set related-video + pinned episode-link comments on the whole Ep 5 shorts batch, then watch whether SHORTS-source watch-minutes and subs move over 2 weeks.",
-    "[rec] Have each host bring one 'confession' story to Ep 6 — confessions sit at every episode's retention peak."
+    "[prod] RESULT — retitle CTR test: retitles shipped but aggregate CTR on longforms stayed 0.38–3.0% (Ep 2 clip: 8,833 impressions @ 0.42%). Titles necessary but not sufficient → superseded by the custom-thumbnail experiment.",
+    "[prod] NEW — custom thumbnails on the Ep 2 clip + Ep 4 OpenUSD clip (highest impressions, worst CTR) and the Ep 5 episode; compare CTR after 2 weeks.",
+    "[prod] NEW — Ep 5 episode was retitled live (→ 'Our AI Clones Have Faces Now'); watch whether its 1.2% CTR moves by next pull.",
+    "[prod] PENDING — 10–20s loop shorts vs 30s+ setup shorts: Ep 6 batch has both (13s/14s/19s/21s vs 38s), publishing Jul 20–25; compare next week.",
+    "[rec] PENDING — Ep 6 retention curve vs Ep 5's (perp at 18:26 vs 27:08, AI clones at 2:05): needs views to accumulate; judge next pull.",
+    "[rec] CARRIED — each host brings one confession to Ep 7; Ep 6 shipped without one and confessions sit at every measured retention peak.",
+    "[prod] CARRIED — wire related-video + pinned comments on Ep 5 AND Ep 6 batches, then watch SHORTS-source watch-minutes and subs (early signal is good: RELATED_VIDEO watch-min tripled to 206)."
   ]
 }
