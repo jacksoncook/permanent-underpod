@@ -14,7 +14,10 @@ production files. Not affiliated with any employer.
 - `brand/` — logo masters + brand spec
 - `episodes/epN/` — transcript(s), `segment-times.md` (the publishing sheet), and the
   `plan/brand/render/clips/reframes` JSON decision docs
-- `media/` — raw recordings, final cuts, exported clips. **GITIGNORED — not in the repo.**
+- `media/` — all heavy assets. **GITIGNORED — not in the repo.** Per-episode layout:
+  `media/epN/raw/` source recordings · `media/epN/work*/` pipeline workdirs ·
+  `media/epN/cuts/` segment masters · the Final Cut `.mp4` at `media/epN/` top level ·
+  `media/clips/epN/` exported clips · `media/attic/` superseded renders (deletable).
 
 ## Skills (auto-loaded from `.claude/skills/`)
 - **podcast-video-edit**: `analyze.sh → verify_silences.py → graphics.py → cut_render.py

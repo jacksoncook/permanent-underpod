@@ -42,7 +42,7 @@
   JACKSON  (  209.5): So here we go. Check out the sick ass video. Sorry. Check out the sick video
 
 ===== AI =====
-  [insert: /Users/jcook/Personal/permanent-underpod/media/ai_voices_2_panel.mp4]
+  [insert: /Users/jcook/Personal/permanent-underpod/media/ep6/raw/ai_voices_2_panel.mp4]
 
 ===== S3a =====
   JACKSON  (  216.1): And we're back

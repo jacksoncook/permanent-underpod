@@ -5,7 +5,7 @@
 ## Episode video
 
 - **URL:** https://youtu.be/UA7jz9XF_vQ — published 2026-07-10 04:18 UTC (public)
-- **File:** `media/Permanent Underpod - Ep 5 (Final Cut v4).mp4` (v1/v2/v3 kept alongside for reference)
+- **File:** `media/ep5/Permanent Underpod - Ep 5 (Final Cut v4).mp4` (v1/v2/v3 kept alongside for reference)
 - **Title (published):** Our AI Clones Have Faces Now (This Is Getting Worse)
   — retitled live sometime Jul 11–20 (original publish title: "We Gave an AI $100
   and It Bet On War"); noticed via `yt_pull.py` 2026-07-21, likely chasing the

@@ -1,11 +1,11 @@
 {
   "reference": "chris",
   "tracks": {
-    "chris":    {"file": "/Users/jcook/Personal/permanent-underpod/media/ep5-assets/pod recording.mov", "person": "chris"},
-    "jackson1": {"file": "/Users/jcook/Personal/permanent-underpod/media/ep5-assets/part1.mov", "person": "jackson"},
-    "jackson2": {"file": "/Users/jcook/Personal/permanent-underpod/media/ep5-assets/part2.mov", "person": "jackson"},
-    "tyler1":   {"file": "/Users/jcook/Personal/permanent-underpod/media/ep5-assets/tw_permanent_underpod_july8_1.mov", "person": "tyler"},
-    "tyler2":   {"file": "/Users/jcook/Personal/permanent-underpod/media/ep5-assets/tw_permanent_underpod_july8_2.mov", "person": "tyler"},
-    "tyler3":   {"file": "/Users/jcook/Personal/permanent-underpod/media/ep5-assets/tw_permanent_underpod_july8_3.mov", "person": "tyler"}
+    "chris":    {"file": "/Users/jcook/Personal/permanent-underpod/media/ep5/assets/pod recording.mov", "person": "chris"},
+    "jackson1": {"file": "/Users/jcook/Personal/permanent-underpod/media/ep5/assets/part1.mov", "person": "jackson"},
+    "jackson2": {"file": "/Users/jcook/Personal/permanent-underpod/media/ep5/assets/part2.mov", "person": "jackson"},
+    "tyler1":   {"file": "/Users/jcook/Personal/permanent-underpod/media/ep5/assets/tw_permanent_underpod_july8_1.mov", "person": "tyler"},
+    "tyler2":   {"file": "/Users/jcook/Personal/permanent-underpod/media/ep5/assets/tw_permanent_underpod_july8_2.mov", "person": "tyler"},
+    "tyler3":   {"file": "/Users/jcook/Personal/permanent-underpod/media/ep5/assets/tw_permanent_underpod_july8_3.mov", "person": "tyler"}
   }
 }

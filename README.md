@@ -25,7 +25,11 @@ brand/                Logo masters (480 / 1920 / 3000px cover) + brand spec
 episodes/
   ep1/                  Transcript (csv/srt/words), segment-times, prep guide,
                         and the plan/brand/render/clips JSON for the episode
-media/                (gitignored) raw recording, final cuts, exported clips
+media/                (gitignored) all heavy assets, organized per episode:
+  epN/                  raw/ (source recordings), work*/ (pipeline workdirs),
+                        cuts/ (segment masters), and the Final Cut .mp4 at the top
+  clips/epN/            exported promo clips
+  attic/                superseded renders + scratch previews — safe to delete
 ```
 
 All media — raw recordings, final `.mp4`s, exported clips — lives in `media/`
@@ -61,7 +65,7 @@ wiping the old machine**:
 
 1. **`media/` (~58 GB)** — raw recordings, final cuts, exported clips. The raw `.mov`
    files are **irreplaceable** (the finals are also on YouTube, but only as compressed
-   uploads). Back up at minimum `media/*-raw.mov`; ideally the whole dir, e.g.
+   uploads). Back up at minimum `media/ep*/raw/`; ideally the whole dir, e.g.
    `rsync -a media/ /Volumes/<backup>/permanent-underpod-media/`.
 2. **`~/.config/clipify-youtube/client_secret.json`** — your YouTube OAuth client. It's
    re-downloadable from the Google Cloud project (Credentials → your OAuth client), so

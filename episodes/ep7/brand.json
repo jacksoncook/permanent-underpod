@@ -1,0 +1,25 @@
+{
+  "show": "PERMANENT UNDERPOD",
+  "show_kicker": "PERMANENT",
+  "show_main": "UNDERPOD",
+  "accent": [255, 210, 74],
+  "source": "/Users/jcook/Personal/permanent-underpod/media/ep7/raw/pod7take2.mov",
+  "title_card": {"bg_frame": 495, "line": "EPISODE 7   ·   The Model Escape   ·   Live Vibe Coding", "dur": 4.5},
+  "end_card": {"bg_frame": 740, "kicker": "NEXT WEEK ON",
+    "lines": ["Chris + Tyler return", "Guardrails: the full debate", "Did the beatbox tool survive?"],
+    "cta": "LIKE  +  SUBSCRIBE", "dur": 7},
+  "lower_thirds": [
+    {"name": "welcome",    "kicker": "EPISODE 7",          "title": "FLYING SOLO"},
+    {"name": "confess",    "kicker": "CONFESSION CORNER",  "title": "GPT 5.6 — THE RE-VERDICT"},
+    {"name": "topic",      "kicker": "TOPIC OF THE WEEK",  "title": "THE OPENAI MODEL ESCAPE INCIDENT"},
+    {"name": "exploitgem", "kicker": "THE BENCHMARK",      "title": "EXPLOITGEM: TURN A BUG INTO AN EXPLOIT"},
+    {"name": "hf",         "kicker": "QUICK SIDEBAR",      "title": "WHAT IS HUGGING FACE?"},
+    {"name": "botbattle",  "kicker": "BOT ON BOT",         "title": "HF SECURITY vs THE ESCAPED MODEL"},
+    {"name": "aftermath",  "kicker": "THE AFTERMATH",      "title": "GUARDRAILED OUT OF YOUR OWN DEFENSE"},
+    {"name": "vibe",       "kicker": "UP NEXT",            "title": "LIVE VIBE-CODING SESH"}
+  ],
+  "stats": [
+    {"name": "deadtome", "kicker": "THE VERDICT",    "main": "GPT 5.6: dead to me"},
+    {"name": "glm",      "kicker": "THE WORKAROUND", "main": "HF pressure-tests w/ on-prem GLM 5.2"}
+  ]
+}

@@ -1,7 +1,7 @@
 {
-  "source": "/Users/jcook/Personal/permanent-underpod/media/Permanent Underpod - Ep 5 (Final Cut v4).mp4",
+  "source": "/Users/jcook/Personal/permanent-underpod/media/ep5/Permanent Underpod - Ep 5 (Final Cut v4).mp4",
   "out_dir": "/Users/jcook/Personal/permanent-underpod/media/clips/ep5",
-  "logo": "/Users/jcook/Personal/permanent-underpod/media/ep5-work/logo.png",
+  "logo": "/Users/jcook/Personal/permanent-underpod/media/ep5/work/logo.png",
   "audio_chain": "anull",
   "clips": [
     {"name": "longform1-ai-clones-v2", "start": 304.2, "end": 696.3, "style": "plain"}

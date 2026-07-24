@@ -75,7 +75,7 @@
   },
   {
    "id": "AI",
-   "insert": "/Users/jcook/Personal/permanent-underpod/media/ai_voices_2_panel.mp4",
+   "insert": "/Users/jcook/Personal/permanent-underpod/media/ep6/raw/ai_voices_2_panel.mp4",
    "attr": "AI Hosts"
   },
   {
@@ -435,7 +435,7 @@
  ],
  "pips": [
   {
-   "file": "/Users/jcook/Personal/permanent-underpod/media/perpOfFortune.mp4",
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep6/raw/perpOfFortune.mp4",
    "block": "S4b",
    "m0": 1055.0,
    "m1": 1104.8,
@@ -449,7 +449,7 @@
    ]
   },
   {
-   "file": "/Users/jcook/Personal/permanent-underpod/media/perpOfFortune.mp4",
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep6/raw/perpOfFortune.mp4",
    "block": "S4b",
    "m0": 1104.8,
    "m1": 1111.5,
@@ -457,7 +457,7 @@
    "mode": "full"
   },
   {
-   "file": "/Users/jcook/Personal/permanent-underpod/media/perpOfFortune.mp4",
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep6/raw/perpOfFortune.mp4",
    "block": "S4b",
    "m0": 1111.5,
    "m1": 1206.0,
@@ -471,7 +471,7 @@
    ]
   },
   {
-   "file": "/Users/jcook/Personal/permanent-underpod/media/perpOfFortune.mp4",
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep6/raw/perpOfFortune.mp4",
    "block": "S5a",
    "m0": 1206.0,
    "m1": 3206.0,
@@ -485,7 +485,7 @@
    ]
   },
   {
-   "file": "/Users/jcook/Personal/permanent-underpod/media/perpOfFortune.mp4",
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep6/raw/perpOfFortune.mp4",
    "block": "S5b",
    "m0": 1206.0,
    "m1": 3206.0,
@@ -499,7 +499,7 @@
    ]
   },
   {
-   "file": "/Users/jcook/Personal/permanent-underpod/media/perpOfFortune.mp4",
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep6/raw/perpOfFortune.mp4",
    "block": "S6",
    "m0": 1206.0,
    "m1": 3206.0,
@@ -513,7 +513,7 @@
    ]
   },
   {
-   "file": "/Users/jcook/Personal/permanent-underpod/media/perpOfFortune.mp4",
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep6/raw/perpOfFortune.mp4",
    "block": "S7",
    "m0": 1206.0,
    "m1": 3206.0,
@@ -527,7 +527,7 @@
    ]
   },
   {
-   "file": "/Users/jcook/Personal/permanent-underpod/media/perpOfFortune.mp4",
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep6/raw/perpOfFortune.mp4",
    "block": "S8",
    "m0": 1206.0,
    "m1": 3206.0,
@@ -541,7 +541,7 @@
    ]
   },
   {
-   "file": "/Users/jcook/Personal/permanent-underpod/media/perpOfFortune.mp4",
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep6/raw/perpOfFortune.mp4",
    "block": "S9",
    "m0": 1206.0,
    "m1": 3206.0,
@@ -555,7 +555,7 @@
    ]
   },
   {
-   "file": "/Users/jcook/Personal/permanent-underpod/media/perpOfFortune.mp4",
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep6/raw/perpOfFortune.mp4",
    "block": "S10",
    "m0": 1206.0,
    "m1": 3206.0,
@@ -569,7 +569,7 @@
    ]
   },
   {
-   "file": "/Users/jcook/Personal/permanent-underpod/media/perpOfFortune.mp4",
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep6/raw/perpOfFortune.mp4",
    "block": "S11a",
    "m0": 1206.0,
    "m1": 3206.0,
@@ -583,7 +583,7 @@
    ]
   },
   {
-   "file": "/Users/jcook/Personal/permanent-underpod/media/perpOfFortune.mp4",
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep6/raw/perpOfFortune.mp4",
    "block": "S11a2",
    "m0": 1206.0,
    "m1": 3206.0,
@@ -597,7 +597,7 @@
    ]
   },
   {
-   "file": "/Users/jcook/Personal/permanent-underpod/media/perpOfFortune.mp4",
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep6/raw/perpOfFortune.mp4",
    "block": "S11b",
    "m0": 1206.0,
    "m1": 3206.0,
@@ -611,7 +611,7 @@
    ]
   },
   {
-   "file": "/Users/jcook/Personal/permanent-underpod/media/perpOfFortune.mp4",
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep6/raw/perpOfFortune.mp4",
    "block": "S11c",
    "m0": 1206.0,
    "m1": 3206.0,
@@ -625,7 +625,7 @@
    ]
   },
   {
-   "file": "/Users/jcook/Personal/permanent-underpod/media/perpOfFortune.mp4",
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep6/raw/perpOfFortune.mp4",
    "block": "S11d",
    "m0": 1206.0,
    "m1": 3206.0,
@@ -639,7 +639,7 @@
    ]
   },
   {
-   "file": "/Users/jcook/Personal/permanent-underpod/media/perpOfFortune.mp4",
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep6/raw/perpOfFortune.mp4",
    "block": "S12",
    "m0": 3626.0,
    "m1": 3707.0,

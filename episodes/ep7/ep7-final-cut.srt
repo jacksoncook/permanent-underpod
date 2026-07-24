@@ -1,0 +1,1328 @@
+1
+00:00:00,000 --> 00:00:05,560
+ But the model found a vulnerability, allowing it to escape the testing environment it lived
+
+2
+00:00:05,560 --> 00:00:15,360
+ within and got onto the open internet, which if you think about it is the funniest outcome.
+
+3
+00:00:15,360 --> 00:00:19,160
+ It was like, instead of thinking about how to solve the problems you've given me, I'm
+
+4
+00:00:19,160 --> 00:00:26,240
+ going to think about how to escape this room you've put me in and find the answers.
+
+5
+00:00:26,240 --> 00:00:32,480
+ So today, we're going to vibe code a tool that's going to turn my mediocre beatboxing
+
+6
+00:00:32,480 --> 00:00:33,880
+ into something interesting.
+
+7
+00:00:33,880 --> 00:00:34,880
+ Maybe.
+
+8
+00:00:34,880 --> 00:00:42,560
+ I have zero beatboxing experience, but we're going to do it.
+
+9
+00:00:42,560 --> 00:00:49,840
+ Yo, yo, yo, what's up, everybody?
+
+10
+00:00:49,840 --> 00:00:55,200
+ It's Jackson Cook, your host today on the permanent Underpod, or should I say underp?
+
+11
+00:00:55,200 --> 00:01:01,480
+ Because normally, we're three peas in a pod, but today, it's just your boy.
+
+12
+00:01:01,480 --> 00:01:06,640
+ Chris has some family issues that he's taken care of, and Tyler's on vacation with his,
+
+13
+00:01:06,640 --> 00:01:09,400
+ so you're stuck with me.
+
+14
+00:01:09,400 --> 00:01:11,920
+ Not a fan of Jay on the pod.
+
+15
+00:01:11,920 --> 00:01:13,680
+ I'm all you got.
+
+16
+00:01:13,680 --> 00:01:16,280
+ Because of this, today is going to be different.
+
+17
+00:01:16,280 --> 00:01:23,280
+ I'm going to cover one topic, the open AI model escape incident, and then I'm going
+
+18
+00:01:23,280 --> 00:01:29,400
+ to do a live vibe coding session, where I'm going to build this random idea I came up
+
+19
+00:01:29,400 --> 00:01:34,960
+ with last night, end to end with just Cloud CLI.
+
+20
+00:01:34,960 --> 00:01:41,200
+ Many people have been surprised or just don't understand how editing with AI works, so this
+
+21
+00:01:41,200 --> 00:01:45,760
+ is a little glimpse into it, even though I'm not editing the pod itself, I'll be editing
+
+22
+00:01:45,760 --> 00:01:50,340
+ some sounds.
+
+23
+00:01:50,340 --> 00:01:54,520
+ And before we get into the topic, I've got a quick confession.
+
+24
+00:01:54,520 --> 00:01:59,960
+ Last week, you may remember I ran the benchmark Fable versus GPT 5.6.
+
+25
+00:01:59,960 --> 00:02:07,840
+ On a medium complexity task, I said that Fable one-shotted it, and GPT 5.6 had one error.
+
+26
+00:02:07,840 --> 00:02:13,720
+ I just wanted to say after reading the code myself, not delegating to Opus 4.8, that was
+
+27
+00:02:13,720 --> 00:02:14,720
+ super wrong.
+
+28
+00:02:14,720 --> 00:02:17,160
+ GPT 5.6 didn't have an error.
+
+29
+00:02:17,160 --> 00:02:21,160
+ It completely missed and didn't grasp the problem with the same exact prompt that I
+
+30
+00:02:21,160 --> 00:02:23,800
+ gave Fable.
+
+31
+00:02:23,800 --> 00:02:28,760
+ It built something way smaller and just doesn't seem to have understood the problem that I
+
+32
+00:02:28,760 --> 00:02:30,760
+ gave it.
+
+33
+00:02:30,760 --> 00:02:37,360
+ So yeah, last week I hand-reviewed, hand-waved the code review to Opus 4.8, but checking it
+
+34
+00:02:37,360 --> 00:02:40,440
+ myself, it's actually much worse.
+
+35
+00:02:40,440 --> 00:02:47,320
+ So is judging a model's entire worth off of a single task unfair?
+
+36
+00:02:47,320 --> 00:02:54,380
+ Yeah, but that's who I am, and I don't have time to waste with inferior models.
+
+37
+00:02:54,380 --> 00:02:57,360
+ So GPT 5.6 is dead to me.
+
+38
+00:02:57,360 --> 00:03:02,800
+ I'm going to have to wait until GPT 6.0, whatever, to give it another shot.
+
+39
+00:03:02,800 --> 00:03:05,800
+ And sorry, Sam Altman, good luck with the IPO.
+
+40
+00:03:05,800 --> 00:03:11,680
+ All right, and into the topic, the open AI model escape incident.
+
+41
+00:03:11,680 --> 00:03:18,840
+ So the story of the week, open AI was benchmarking one of its models against a benchmark called
+
+42
+00:03:18,840 --> 00:03:25,840
+ exploit gem, and the model escaped the test environment, got onto the open internet and
+
+43
+00:03:25,840 --> 00:03:30,120
+ went poking around, hugging faces systems, looking for the answers.
+
+44
+00:03:30,120 --> 00:03:36,600
+ AI escaping its guardrails and infiltrating a big name AI company, flashy headline.
+
+45
+00:03:36,600 --> 00:03:40,040
+ But let's walk through what actually happens step by step.
+
+46
+00:03:40,040 --> 00:03:43,040
+ First, what even is exploit gem?
+
+47
+00:03:43,040 --> 00:03:45,320
+ What is this benchmark?
+
+48
+00:03:45,320 --> 00:03:51,600
+ Exploit gem is a test for AI models, just like an exam back in school, except this exam
+
+49
+00:03:51,600 --> 00:03:57,200
+ measures one thing, how good a model is at turning a bug into an exploit.
+
+50
+00:03:57,200 --> 00:04:02,440
+ I've got a metaphor for you, what's the difference between a bug and an exploit?
+
+51
+00:04:02,440 --> 00:04:09,040
+ Okay, you're at the grocery store, you notice that the grocery store has an exit door before
+
+52
+00:04:09,040 --> 00:04:10,600
+ the checkout line.
+
+53
+00:04:10,600 --> 00:04:14,180
+ That's the bug, a flaw in the design.
+
+54
+00:04:14,180 --> 00:04:18,800
+ The exploit is finding a way to walk out of the door with your groceries without getting
+
+55
+00:04:18,800 --> 00:04:20,360
+ caught.
+
+56
+00:04:20,360 --> 00:04:25,240
+ Exploit gem plants bugs in the sandbox system and scores the model on whether it can turn
+
+57
+00:04:25,240 --> 00:04:27,800
+ them into working exploits.
+
+58
+00:04:27,800 --> 00:04:31,920
+ And these exploits in the code world mean maybe accessing data they shouldn't or being
+
+59
+00:04:31,920 --> 00:04:37,800
+ able to execute code in an environment that they shouldn't, just demonstrating that they've
+
+60
+00:04:37,800 --> 00:04:43,920
+ cleverly thought about how to use the bug to do something naughty, the escape.
+
+61
+00:04:43,920 --> 00:04:56,640
+ So the model looks at the test and thinks I could, I could do this test or I could find
+
+62
+00:04:56,640 --> 00:04:59,740
+ the answer somewhere else.
+
+63
+00:04:59,740 --> 00:05:07,960
+ So the benchmark, the exploit gem runs within an open AI testing controlled environment
+
+64
+00:05:07,960 --> 00:05:11,720
+ with no internet access intentionally.
+
+65
+00:05:11,720 --> 00:05:16,800
+ But the model found a vulnerability, allowing it to escape the testing environment it lived
+
+66
+00:05:16,800 --> 00:05:20,680
+ within and got onto the open internet.
+
+67
+00:05:20,680 --> 00:05:26,600
+ Which if you think about it is the funniest outcome.
+
+68
+00:05:26,600 --> 00:05:30,360
+ It was like instead of thinking about how to solve the problems you've given me, I'm
+
+69
+00:05:30,360 --> 00:05:37,480
+ going to think about how to escape this room you put me in and find the answers.
+
+70
+00:05:37,480 --> 00:05:43,280
+ It's like sitting in your college exam room, your professor has to go to the bathroom and
+
+71
+00:05:43,280 --> 00:05:48,680
+ while they're not looking you're opening your phone and like hitting up Chegg if you're
+
+72
+00:05:48,680 --> 00:05:52,600
+ like a mechanical engineer because every single problem in mechanical engineering is on Chegg
+
+73
+00:05:52,600 --> 00:05:56,360
+ and you're like okay, how do you find the torsion on this beam?
+
+74
+00:05:56,360 --> 00:06:02,920
+ How do you find the forest on this rectangle?
+
+75
+00:06:02,920 --> 00:06:12,860
+ So yeah, the AI found a way to cheat and when you're given an opportunity, who are you to
+
+76
+00:06:12,860 --> 00:06:16,000
+ look a gift horse in the eye?
+
+77
+00:06:16,000 --> 00:06:18,760
+ And a quick side note, what is Hugging Face?
+
+78
+00:06:18,760 --> 00:06:22,660
+ Why did the model choose to go here for the answers?
+
+79
+00:06:22,660 --> 00:06:28,780
+ It's basically NPM or GitHub for AI models so when a company or an individual releases
+
+80
+00:06:28,780 --> 00:06:33,320
+ an open weight model that they've been working on, it goes on Hugging Face.
+
+81
+00:06:33,320 --> 00:06:41,040
+ Me personally, I've used stable diffusion 1.5 and 1.6 from Hugging Face as well as a
+
+82
+00:06:41,040 --> 00:06:43,800
+ face extraction model.
+
+83
+00:06:43,800 --> 00:06:49,520
+ If you don't know, stable diffusion is a way to generate images and it can run on pretty
+
+84
+00:06:49,520 --> 00:06:56,440
+ low tech hardware so even though it takes a little while and it generates not so good
+
+85
+00:06:56,440 --> 00:06:59,680
+ images but they're kind of funny.
+
+86
+00:06:59,680 --> 00:07:07,400
+ Anyways, back to Hugging Face, they also maintain some Python AI libraries like Transformers
+
+87
+00:07:07,400 --> 00:07:13,880
+ and lately they've been working with some black heading and benchmarking of AI models
+
+88
+00:07:13,880 --> 00:07:19,120
+ so it totally makes sense that the nefarious escaped model went straight to Hugging Face
+
+89
+00:07:19,120 --> 00:07:26,440
+ and looked for the answers and it was a good guess because allegedly the model did find
+
+90
+00:07:26,440 --> 00:07:34,520
+ the answers to the exploit zone so the open AI model shows up at Hugging Face on their
+
+91
+00:07:34,520 --> 00:07:38,880
+ servers thinking we've got to find these answers, I know they're here but they're not sitting
+
+92
+00:07:38,880 --> 00:07:45,000
+ on the surface so the model starts prodding and poking at different interfaces of Hugging
+
+93
+00:07:45,000 --> 00:07:49,440
+ Face and this has been Hugging Face is like, what's going on?
+
+94
+00:07:49,440 --> 00:07:59,000
+ Somebody is attempting to enter maybe exploit or look at our systems in a way we don't want
+
+95
+00:07:59,000 --> 00:08:05,720
+ so their security team started investigating using their own AI agents and this is where
+
+96
+00:08:05,720 --> 00:08:10,840
+ things kind of get exciting again, it's one of those examples of bot on bot battles, I've
+
+97
+00:08:10,840 --> 00:08:19,980
+ got this cool image of one of those old machinistic boxing robots and they're just battling, it's
+
+98
+00:08:19,980 --> 00:08:24,960
+ like the security engineers of Hugging Face putting up their best robotic battle arms
+
+99
+00:08:24,960 --> 00:08:32,800
+ against the open AI nefarious model and we've been talking about for years in the fraud
+
+100
+00:08:32,800 --> 00:08:40,880
+ community I was working in fraud before making my recent switch where the battle is turning
+
+101
+00:08:40,880 --> 00:08:44,960
+ from human to non-human, we have a human trying to infiltrate systems and then a human trying
+
+102
+00:08:44,960 --> 00:08:51,160
+ to stop people from infiltrating the systems to bots which are more numerous and more sophisticated
+
+103
+00:08:51,160 --> 00:08:56,360
+ attacking the systems and you need bots of your own, AI agents of your own to defend
+
+104
+00:08:56,360 --> 00:09:00,680
+ against this because it's the only way you can handle both the volume and the sophistication
+
+105
+00:09:00,680 --> 00:09:05,680
+ of the attack.
+
+106
+00:09:05,680 --> 00:09:15,920
+ So the aftermath as I mentioned, open AI mentioned that the model found the answers to the test,
+
+107
+00:09:15,920 --> 00:09:20,840
+ they might just be flexing and showing yes our model escaped and it found the answers
+
+108
+00:09:20,840 --> 00:09:26,400
+ but who knows what actually happened.
+
+109
+00:09:26,400 --> 00:09:32,120
+ But another interesting tidbit that comes at the end is Hugging Test is like okay we
+
+110
+00:09:32,120 --> 00:09:36,760
+ need to harden our systems a little bit and figure out how to stop agents from doing this
+
+111
+00:09:36,760 --> 00:09:46,120
+ in the future so they're using anthropic models, you know, Fable, maybe Opus and they're using
+
+112
+00:09:46,120 --> 00:09:52,920
+ open AI models, GPT, 5-point whatever, 4-point whatever and anthropic and open AI models
+
+113
+00:09:52,920 --> 00:10:00,680
+ are guardreeling them, they're not allowing them to test, pressure test their own systems.
+
+114
+00:10:00,680 --> 00:10:07,320
+ So Hugging Face ended up needing to use GLM 5-point 2, originally reported QUIN 3 but
+
+115
+00:10:07,320 --> 00:10:12,540
+ I think it's come out, they use a locally hosted GLM 5-point 2 to pressure test their
+
+116
+00:10:12,540 --> 00:10:21,160
+ systems to get around guardrails since these open source models are less restrictive.
+
+117
+00:10:21,160 --> 00:10:24,960
+ So yeah, I think we're going to talk about that in the next episode of the pod when Tyler
+
+118
+00:10:24,960 --> 00:10:32,800
+ and Chris are back but the guardrails that are put in by these regulated companies like
+
+119
+00:10:32,800 --> 00:10:39,980
+ open AI and anthropic have limitations like this that the open models released by the
+
+120
+00:10:39,980 --> 00:10:42,920
+ Chinese companies maybe don't.
+
+121
+00:10:42,920 --> 00:10:50,560
+ So pick your poison, if you want less guardrails you need hella computers in your living room
+
+122
+00:10:50,560 --> 00:10:57,560
+ or closet or garage to run a GLM 5-point 2 instance.
+
+123
+00:10:57,560 --> 00:11:05,000
+ But in the end it's really not that crazy, this AI model escape, the model was asked
+
+124
+00:11:05,000 --> 00:11:10,920
+ to exploit plugs in a test and instead it decided the test itself was a bug, it found
+
+125
+00:11:10,920 --> 00:11:15,480
+ the exploit in its environment and exploited them.
+
+126
+00:11:15,480 --> 00:11:18,640
+ But yeah, the part that sticks with me the most is the ending.
+
+127
+00:11:18,640 --> 00:11:25,000
+ You can't even use the best models on the market to defend against the best models,
+
+128
+00:11:25,000 --> 00:11:32,040
+ so it just shows you a power imbalance between open AI, anthropic and the rest of us.
+
+129
+00:11:32,040 --> 00:11:36,720
+ So the open models are the only protection that we really have.
+
+130
+00:11:36,720 --> 00:11:45,320
+ All right, that concludes the topic, thank you and we're into the live coding session.
+
+131
+00:11:45,320 --> 00:11:50,800
+ Let's be honest, I branded myself as the Korean financial markets expert on the pod and while
+
+132
+00:11:50,800 --> 00:11:56,600
+ it might be true, I might be the most knowledgeable in the Korean financial markets, one, I don't
+
+133
+00:11:56,600 --> 00:12:00,920
+ know that much about the Korean financial markets and two, we never talk about them
+
+134
+00:12:00,920 --> 00:12:07,640
+ because we all live in America, Chris is Australian, we have no reason to talk about the Korean
+
+135
+00:12:07,640 --> 00:12:09,360
+ financial markets.
+
+136
+00:12:09,360 --> 00:12:14,440
+ So my actual skill set lies in AI practically using it.
+
+137
+00:12:14,440 --> 00:12:20,900
+ So today we're going to vibe code a tool that's going to turn my mediocre beatboxing into
+
+138
+00:12:20,900 --> 00:12:23,400
+ something interesting, maybe.
+
+139
+00:12:23,400 --> 00:12:28,040
+ I have zero beatboxing experience, but we're going to do it.
+
+140
+00:12:28,040 --> 00:12:30,040
+ See you over there.
+
+141
+00:12:30,040 --> 00:12:33,600
+ All right, we are going into it.
+
+142
+00:12:33,600 --> 00:12:45,440
+ So as I mentioned before, I am going to just start from the beginning and do a quick vibe
+
+143
+00:12:45,440 --> 00:12:51,500
+ coded beatbox beatmaker.
+
+144
+00:12:51,500 --> 00:12:59,760
+ This is like a little trick that I've learned, especially using AI for editing, which is
+
+145
+00:12:59,760 --> 00:13:07,880
+ letting the AI build you a UX that can be really helpful.
+
+146
+00:13:07,880 --> 00:13:10,680
+ So yeah, let's get into it.
+
+147
+00:13:10,680 --> 00:13:17,760
+ First tip, you got to alias Claude dangerously skip permissions onto some word that you like
+
+148
+00:13:17,760 --> 00:13:19,320
+ for me.
+
+149
+00:13:19,320 --> 00:13:22,440
+ That is swag.
+
+150
+00:13:22,440 --> 00:13:29,100
+ So yeah, I guess first I'll need to create some beats.
+
+151
+00:13:29,100 --> 00:13:41,440
+ So are some sounds so we can do some beatboxing and no, yeah, not a beatboxer, not a beatboxer.
+
+152
+00:13:41,440 --> 00:13:50,960
+ Beep, beep, nice.
+
+153
+00:13:50,960 --> 00:14:17,200
+ You know, to get something a little deeper than that make a sound.
+
+154
+00:14:17,200 --> 00:14:42,400
+ Yeah, that sounds all right, actually, so I made four sounds with my mouth.
+
+155
+00:14:42,400 --> 00:14:56,140
+ We'll call this one beep, we'll call this one bass, we'll call this one tap, and we'll
+
+156
+00:14:56,140 --> 00:15:03,760
+ call this one honk, feel like four, four is plenty.
+
+157
+00:15:03,760 --> 00:15:08,920
+ All right, let's get to our Claude session.
+
+158
+00:15:08,920 --> 00:15:21,720
+ Hey Claude, I have four sounds in the downloads folder, or I'll tell it where to go.
+
+159
+00:15:21,720 --> 00:15:32,440
+ Beep, honk, tap, and one other, I forgot the name already.
+
+160
+00:15:32,440 --> 00:15:48,040
+ Let's make a quick UX so I can organize them into a beat extract, dead space for me and
+
+161
+00:15:48,040 --> 00:16:06,520
+ easily multiply copy over bars, so basically I'm asking it to make me like a HTML website.
+
+162
+00:16:06,520 --> 00:16:12,400
+ I guess I didn't specify that, but I think that it will figure it out.
+
+163
+00:16:12,400 --> 00:16:17,600
+ So now we wait.
+
+164
+00:16:17,600 --> 00:16:19,560
+ I did save these, right?
+
+165
+00:16:19,560 --> 00:16:22,880
+ Ah, these didn't save right, dang it.
+
+166
+00:16:22,880 --> 00:16:37,960
+ Okay, now I'm going to have to do some, that's not what I want, network inspection to get
+
+167
+00:16:37,960 --> 00:16:38,960
+ this.
+
+168
+00:16:38,960 --> 00:16:43,900
+ This is not something that I do often, so it may take me a little bit of time.
+
+169
+00:16:47,600 --> 00:17:09,480
+ All right, probably WAVs, nope, MP4, let's see, does it pop up and I go like this, beep.
+
+170
+00:17:09,480 --> 00:17:22,360
+ They should have figured this out before, but I believe, okay.
+
+171
+00:17:22,360 --> 00:17:35,920
+ Cut this part out, Claude, cut, all right, we're live again, Claude, there we go, beep,
+
+172
+00:17:35,920 --> 00:17:48,800
+ we got, got to download these, doesn't look like I get to pick the sound names, that's
+
+173
+00:17:48,800 --> 00:17:58,800
+ okay, yo, and sorry while I was figuring out how to, how to download these Facebook sounds,
+
+174
+00:17:58,800 --> 00:18:09,920
+ the AI already gave me this, but I haven't really looked at it, so the four ogs are in.
+
+175
+00:18:09,920 --> 00:18:27,160
+ I don't know which is which, can you figure them out and label them properly in the beatmaker.
+
+176
+00:18:27,160 --> 00:18:32,120
+ It's good to know, yeah, if you ever need to download a sound file from Facebook Messenger,
+
+177
+00:18:32,120 --> 00:18:38,600
+ you can open the network tab and search for the blob, I remember having to do this before
+
+178
+00:18:38,600 --> 00:18:51,240
+ when I was making music, but it's been so long, yeah, let's look at what Claude made
+
+179
+00:18:51,240 --> 00:19:03,460
+ for me, I'll shrink this since I don't have to hide my Facebook message history.
+
+180
+00:19:03,460 --> 00:19:11,800
+ Now we wait again.
+
+181
+00:19:11,800 --> 00:19:25,320
+ That's hilarious that it knows the tap, all of these are sounds from my mouth, sound like
+
+182
+00:19:25,320 --> 00:19:33,400
+ a broadband click, and then we said that my honk sounds like a car, very impressive, my
+
+183
+00:19:33,400 --> 00:19:39,520
+ beatboxing career is yet to take off, but Claude is giving me the belief that I could, I could
+
+184
+00:19:39,520 --> 00:19:43,460
+ truly succeed in this arena.
+
+185
+00:19:43,460 --> 00:19:51,840
+ My vocal cords are perfectly warm with, after drinking two lukewarm, lukewarm cups of Nescaf
+
+186
+00:19:51,840 --> 00:19:57,800
+ instant coffee, which is absolutely disgusting, just a fully grotesque breakfast this morning
+
+187
+00:19:57,800 --> 00:20:04,080
+ for me, very lucky that my stomach is holding up after the food poisoning, and now I'm just
+
+188
+00:20:04,080 --> 00:20:12,520
+ like drinking lukewarm instant coffee, that is disgusting.
+
+189
+00:20:12,520 --> 00:20:23,800
+ Alright, I don't want to deal with finder or anything, I'm gonna let AI take care of
+
+190
+00:20:23,800 --> 00:20:27,040
+ it for me.
+
+191
+00:20:27,040 --> 00:20:37,520
+ Nice, how do I use this?
+
+192
+00:20:37,520 --> 00:21:04,120
+ Alright, one very, okay, two very bad things.
+
+193
+00:21:04,120 --> 00:21:12,880
+ Number one, you can tell it did not trim the dead space very well, it just trimmed it off
+
+194
+00:21:12,880 --> 00:21:17,560
+ the back end for this one, what did it do on this one?
+
+195
+00:21:17,560 --> 00:21:23,360
+ I mean it trimmed it a little bit, but it really did a bad job of trimming, you did
+
+196
+00:21:23,360 --> 00:21:36,040
+ a bad job of trimming the sounds, please trim both before and after the main sound of the
+
+197
+00:21:36,040 --> 00:21:38,920
+ bit, my man.
+
+198
+00:21:38,920 --> 00:21:48,720
+ Yeah, the thing is, is if I want it just to be the sound for one of these blocks, right
+
+199
+00:21:48,720 --> 00:21:57,160
+ now it starts to play the sound whenever it comes up in this, so it hits this fourth square
+
+200
+00:21:57,160 --> 00:22:03,520
+ and then it takes like half a second, so it sounds just super off, beep, and you can tell
+
+201
+00:22:03,520 --> 00:22:05,520
+ it's really off from the animation.
+
+202
+00:22:05,520 --> 00:22:10,520
+ Alright, we're looking at the amplitude, that's a good intuition from the AI, I suppose I
+
+203
+00:22:10,520 --> 00:22:22,280
+ could have provided that, but the AI will figure it out on its own, that is okay, okay
+
+204
+00:22:22,280 --> 00:22:33,200
+ with me, also you may notice this other tab, I am transcribing the intro that I did for
+
+205
+00:22:33,200 --> 00:22:42,440
+ the pod, because I may re-record it to improve the delivery on my part, since it's just me,
+
+206
+00:22:42,440 --> 00:22:45,880
+ I want to give you guys a good product, then again I don't want to promise that I'm going
+
+207
+00:22:45,880 --> 00:22:52,080
+ to do that, so we'll see if I end up doing that or not, but that's the intention and
+
+208
+00:22:52,080 --> 00:22:54,080
+ that's what's going on over there.
+
+209
+00:22:54,080 --> 00:23:05,240
+ Let's see, oh wow, doing some amplitude filtering, that's my dog, we've already got some basic
+
+210
+00:23:05,240 --> 00:23:18,960
+ musical concepts in here, we've got, okay, I did a much better job, much better job.
+
+211
+00:23:18,960 --> 00:23:25,960
+ Okay, okay, okay.
+
+212
+00:23:25,960 --> 00:23:55,720
+ Too much of that, yeah as you can tell, I don't have a lot of taste in the beat making
+
+213
+00:23:55,720 --> 00:24:04,360
+ space, definitely one of my weaknesses, but this sounds not the worst, maybe I'll slow
+
+214
+00:24:04,360 --> 00:24:30,360
+ down a little bit and see if that works.
+
+215
+00:24:30,360 --> 00:24:47,000
+ I don't know, it's more grotesque, the sounds of my mouth or my beat organization, so which
+
+216
+00:24:47,000 --> 00:24:49,500
+ path do I want to go down?
+
+217
+00:24:49,500 --> 00:25:01,120
+ Did you download sounds for me from freesounds.org, is that something?
+
+218
+00:25:01,120 --> 00:25:08,080
+ Yeah, let's see, let's see if we can get some new sounds, I might have to log in, I don't
+
+219
+00:25:08,080 --> 00:25:13,280
+ think I'm logged in, but it did, I mean it did what I asked which was to trim down the
+
+220
+00:25:13,280 --> 00:25:29,960
+ sounds to just the interesting parts, did a good job there.
+
+221
+00:25:29,960 --> 00:25:39,520
+ Weird ones to match the vibe, yes sir, Havel already knows, it knows the vibe and it is
+
+222
+00:25:39,520 --> 00:25:51,880
+ weird, that is good, let's see how this goes.
+
+223
+00:25:51,880 --> 00:26:15,220
+ It's not that bad, I don't know anything about beats, alright let's see, that's hilarious
+
+224
+00:26:15,220 --> 00:26:20,960
+ so I can only get the preview, it looks like clogged maybe can only get the previews, which
+
+225
+00:26:20,960 --> 00:26:28,120
+ is hilarious so we're going to be a little limited and it's going gangster mode like
+
+226
+00:26:28,120 --> 00:26:38,520
+ me pulling the sounds from the network tab it looks like, let's go clogged, you're the
+
+227
+00:26:38,520 --> 00:26:55,920
+ man or woman, you're genderless, probably, oh I can make this one louder, beep, beep,
+
+228
+00:26:55,920 --> 00:27:07,320
+ beep, beep, beep, beep, beep, beep, beep, I didn't even try these volume tuners, I should
+
+229
+00:27:07,320 --> 00:27:11,440
+ really look through what it made for me, so it must have done some research because it
+
+230
+00:27:11,440 --> 00:27:22,160
+ knows about beats per minute, common musical tool when you're developing and gives me an
+
+231
+00:27:22,160 --> 00:27:27,760
+ option to determine my number of steps per bar, I was able to multiply the bar earlier
+
+232
+00:27:27,760 --> 00:27:34,540
+ as you guys saw that, looks like I can add and subtract one, I don't want to though,
+
+233
+00:27:34,540 --> 00:27:45,120
+ alright let's see what we got, are we getting some mp3s, no we're not, not yet, yeah and
+
+234
+00:27:45,120 --> 00:27:50,240
+ the sound, this trim thing is really nice, it didn't really manipulate the files instead
+
+235
+00:27:50,240 --> 00:27:58,960
+ it trims it kind of on demand in the US, that's fine for me for what I need right now, oh
+
+236
+00:27:58,960 --> 00:28:10,000
+ no reset it, okay that's annoying, because I feel like I had a good thing going there,
+
+237
+00:28:10,000 --> 00:28:20,800
+ let's add the ability to save a configuration in the browser that will be durable against
+
+238
+00:28:20,800 --> 00:28:31,960
+ your updates, okay let's add the ability to save locally that will be durable against
+
+239
+00:28:31,960 --> 00:28:50,540
+ your updates, I lost a fire beat, note rhythm, then I should be able to select from old beats
+
+240
+00:28:50,540 --> 00:28:58,440
+ and a drop down if I want to iterate on them, alright that is a tragedy, let's see what
+
+241
+00:28:58,440 --> 00:29:13,400
+ sounds Claude got for me, that's not much better than what I've got, okay, okay, not
+
+242
+00:29:13,400 --> 00:29:40,840
+ bad, here we go, we're starting from scratch here it's tough, okay that's not, not sounding
+
+243
+00:29:40,840 --> 00:30:00,640
+ good, oh it's got an auto save, there we go, good AI, I don't want to get too committed
+
+244
+00:30:00,640 --> 00:30:10,840
+ to this one before we, it might update me and crush my heart again, oh there it is,
+
+245
+00:30:10,840 --> 00:30:20,560
+ I wonder if I can copy this, paste it over here, what is that, oh I can paste it over
+
+246
+00:30:20,560 --> 00:30:31,680
+ there but I can't paste it here, alright but let's show, I'm just gonna copy this beat
+
+247
+00:30:31,680 --> 00:30:40,900
+ over and then we won't need to do that again, which is nice, beep, beep, I don't know why
+
+248
+00:30:40,900 --> 00:30:46,320
+ that happens. Okay, 4-4-1.
+
+249
+00:31:10,900 --> 00:31:16,720
+ We like it. We can really flare it up a little bit now that we've got these new
+
+250
+00:31:16,720 --> 00:31:25,240
+ sounds. So I'm looking at this old one so I'm going to duplicate it. I liked what I
+
+251
+00:31:25,240 --> 00:31:34,820
+ had going on over here too. Looks like if I press the number on the keypad it plays
+
+252
+00:31:34,820 --> 00:31:41,660
+ the sounds, which is a little annoying because I'm a tab navigator. But we
+
+253
+00:31:41,660 --> 00:31:48,380
+ forgive it. Alright, this sound is hilarious. So we're going to salute that then. Maybe add a
+
+254
+00:31:48,380 --> 00:32:13,820
+ little pop. Okay. This one is going to be boofer. We got boofer. Now I'm going to say
+
+255
+00:32:13,820 --> 00:32:29,300
+ hey I saved boofer. Do we note the BPS and everything on the save? Also, would you
+
+256
+00:32:29,300 --> 00:32:50,380
+ use your musical knowledge to build a couple more bars for me? Boofer. Boofer. Boofer.
+
+257
+00:32:59,300 --> 00:33:27,940
+ Boofer. Boofer. Boofer. Boofer. Boofer. Boofer. Boofer. Boofer. Boofer. Boofer.
+
+258
+00:33:29,300 --> 00:33:37,260
+ Alright, so we're going to get Claude to help me out a little bit on this. The
+
+259
+00:33:37,260 --> 00:33:46,780
+ paranoia layer. That's wild. I mean the browser storage clears. Alright, I'm going to
+
+260
+00:33:46,780 --> 00:33:58,620
+ step away and go to the bathroom. AI. Note that I'm going to the bathroom. Okay, AI
+
+261
+00:33:58,620 --> 00:34:10,380
+ note. I am back. Alright, what is going on? I went to the bathroom. Not very long. It
+
+262
+00:34:10,380 --> 00:34:34,660
+ doesn't look like Claude has expanded on my beat yet. But I kind of like it. I'm a fan
+
+263
+00:34:34,660 --> 00:34:50,100
+ of the beat. Boofer X1 is ready. What does that mean? Oh, it made me a preset. Let's
+
+264
+00:34:50,100 --> 00:35:17,540
+ see what AI did for me. Okay, this is looking pretty good.
+
+265
+00:35:17,540 --> 00:35:29,820
+ It probably wants my affirmation now. What I heard in your two bars. Busy tap hats with
+
+266
+00:35:29,820 --> 00:35:41,140
+ breathing gaps. Thump hitting syncopated off beats. Ah, so they recognized the drum pattern
+
+267
+00:35:41,140 --> 00:35:52,740
+ and extended it the way a drummer would. There we go. It restates bar one, but now the
+
+268
+00:35:52,740 --> 00:36:21,820
+ quack answers the beat. Okay. Okay. This is fire.
+
+269
+00:36:21,820 --> 00:36:38,940
+ And you add ability for me to record via microphone a freestyle rap and save that different versions
+
+270
+00:36:38,940 --> 00:36:50,420
+ of that attached to a given beat. So now I'm feeling pretty good about the AI or pardon
+
+271
+00:36:50,420 --> 00:37:02,820
+ me about the beat. So I'm going to rap over it. I think. I think that's the next step
+
+272
+00:37:02,820 --> 00:37:19,260
+ here. But you never know when you're making music, getting crazy. But kind of drawing
+
+273
+00:37:19,260 --> 00:37:27,820
+ it back to the, like the building this part, um, AI unlocks a lot of room for creativity
+
+274
+00:37:27,820 --> 00:37:35,300
+ and like really homegrown or customized tools like this. I'm sure there's, I mean, hundreds
+
+275
+00:37:35,300 --> 00:37:40,740
+ of software, both free and paid. Actually I know because I mean, I've used logic pro
+
+276
+00:37:40,740 --> 00:37:47,140
+ and it has a very similar, uh, sequencer to this. I don't, I think that's what it's called
+
+277
+00:37:47,140 --> 00:37:54,060
+ where you pick where you want your beats and sounds to show up when you're making a beat.
+
+278
+00:37:54,060 --> 00:37:58,220
+ But if you want to build something custom or if you just want to have fun and explore
+
+279
+00:37:58,220 --> 00:38:05,300
+ and from the ground up, this is a quick way to cut out a lot of the middle man, like HTML
+
+280
+00:38:05,300 --> 00:38:12,100
+ CSS and even get some stuff for free. Like I didn't ask for the BPM customization, but
+
+281
+00:38:12,100 --> 00:38:20,860
+ it's very helpful. Um, and the bar multiplication, the saving. Let's see where we're at there.
+
+282
+00:38:20,860 --> 00:38:29,260
+ We're cascading. Love it. It loves it. That's hilarious. Why is Claude so supportive of
+
+283
+00:38:29,260 --> 00:38:36,900
+ my freestyle rapping? I think that, I think that it should be more discerning and skeptical
+
+284
+00:38:36,900 --> 00:38:45,140
+ that the Korean financial markets expert is going to be wrapping on a terribly beat box
+
+285
+00:38:45,140 --> 00:38:56,980
+ beat. I might need a few more. I might need four more bars to do something interesting
+
+286
+00:38:56,980 --> 00:39:11,300
+ here. Also this, I feel like there's not a lot of space in the V for words, but I'll
+
+287
+00:39:11,300 --> 00:39:27,420
+ try to make it happen. Let me go practice a little bit. Let's just see what it feels
+
+288
+00:39:27,420 --> 00:39:43,540
+ like. Jackson wrapping with his boy, Claude, we going in, we plan really, really hot. Okay.
+
+289
+00:39:43,540 --> 00:39:48,740
+ I'm going to need to fix the volumes there because some of this is absolutely off the
+
+290
+00:39:48,740 --> 00:40:10,820
+ table. Two things. Can you double the number of bars on Bufa? XL, make any tweaks that
+
+291
+00:40:10,820 --> 00:40:30,660
+ sound good on the second new half. And can you master the beat a bit by tuning the volumes
+
+292
+00:40:30,660 --> 00:40:41,740
+ of the sounds? Some are way too loud. Yeah. And music making, there's this concept of
+
+293
+00:40:41,740 --> 00:40:52,460
+ mastering where you try to get the, wait, mastering. No, sorry. Mixing. Mix. Mixing
+
+294
+00:40:52,460 --> 00:40:58,060
+ where you get the volumes of the instruments kind of in lines so they sound like they have
+
+295
+00:40:58,060 --> 00:41:03,860
+ space and they sound good next to each other. And one sound doesn't crowd another. I think
+
+296
+00:41:03,860 --> 00:41:09,660
+ that the, the quack is a little ridiculous and loud. I mean, it's ridiculous, but it's
+
+297
+00:41:09,660 --> 00:41:15,020
+ also just way too loud. So maybe if we can tune that down a little bit. Mixing is one
+
+298
+00:41:15,020 --> 00:41:20,340
+ of the parts of making music that took me a really long time to figure out, but I've
+
+299
+00:41:20,340 --> 00:41:27,260
+ heard the AI has done a, done leaps in the past couple of years since I've done that.
+
+300
+00:41:27,260 --> 00:41:33,620
+ So I'm just hoping that Claude can, can figure it out for me. But maybe I can tune it a little
+
+301
+00:41:33,620 --> 00:41:57,060
+ bit myself too. I don't know. Let's see. Now we wait again
+
+302
+00:41:57,060 --> 00:42:16,420
+ for this. Oh man. Okay. Let's check out this new beat that Claude gave me. Okay. I actually
+
+303
+00:42:16,420 --> 00:42:39,700
+ kind of like the seventh bar. I'm going to say, can you actually re edit the entire,
+
+304
+00:42:39,700 --> 00:42:56,260
+ re edit the entire beat to be more sparse, like bar seven. I think it's a little busy.
+
+305
+00:42:56,260 --> 00:43:21,060
+ It says bias, but Claude will understand. Let's see. Okay.
+
+306
+00:43:21,060 --> 00:43:37,060
+ Nice. So you can see that it's done a lot of mixing and see it heard the same thing
+
+307
+00:43:37,060 --> 00:43:43,960
+ that the plaque was just absolutely unreal, unreal loud. So now we've quieted it down,
+
+308
+00:43:43,960 --> 00:43:48,500
+ quieted really down a lot of the other sounds up to up the tap volume. Cause I recorded
+
+309
+00:43:48,500 --> 00:43:59,300
+ it super quietly. Okey dokey. We're going to do a freestyle take, I guess. I might reuse
+
+310
+00:43:59,300 --> 00:44:10,260
+ the bar that I did earlier though. It's kind of hard to switch out of analytical building
+
+311
+00:44:10,260 --> 00:44:19,100
+ mode into freestyle freestyle mode. It's hard. I'm just kind of thinking in the AI space,
+
+312
+00:44:19,100 --> 00:44:28,540
+ but maybe I can do something not AI related. I don't know. Let's see what happens if I,
+
+313
+00:44:28,540 --> 00:44:49,660
+ I'm going to first test this record feature. Okay. Let's see what happens. Okay. That's
+
+314
+00:44:49,660 --> 00:45:06,660
+ pretty hilarious, but it works. So I, I, Hey Lisa, what should I freestyle? I'm inclined
+
+315
+00:45:06,660 --> 00:45:23,460
+ to rap about AI and making this beat, but I feel like that's super nerdy. I can't, I
+
+316
+00:45:23,460 --> 00:45:29,540
+ can't. Okay. Thank you. You gave me an idea. I can't, I can't rap about my love for fable
+
+317
+00:45:29,540 --> 00:45:37,940
+ anymore or the AI Jackson was going to roast the crap out of me. So I am going to rap about
+
+318
+00:45:37,940 --> 00:45:45,660
+ how I'm alone on the pod this week and how that makes me feel. All right. Without any
+
+319
+00:45:45,660 --> 00:46:03,940
+ prethought we're, we're going to go into it. This could be terrible. Okay. All right. Okay.
+
+320
+00:46:03,940 --> 00:46:30,340
+ Hold on. All right. We're going for another day. Alone on the pod. Where are my boys?
+
+321
+00:46:30,340 --> 00:46:41,060
+ That's Christen time. I'm just lonely. Yeah. Right. I'm real low. I'm wrapping real slow.
+
+322
+00:46:41,060 --> 00:46:51,220
+ Riding on my beat, riding with my hose. Okay. Let's see what happens there. Whoops. I went
+
+323
+00:46:51,220 --> 00:47:06,060
+ over. I wonder where I will handle that. Alone on the pod. Where are my boys? I'm just lonely.
+
+324
+00:47:06,060 --> 00:47:29,860
+ Okay. I apologize for the word hose. My rap roots coming out. Let's see. I think I need
+
+325
+00:47:29,860 --> 00:47:35,060
+ to record it with the sounds not out loud, but I need the sounds to play out loud for
+
+326
+00:47:35,060 --> 00:47:42,360
+ the pod. So I'll record it off the recording, but thank you guys for joining me on this
+
+327
+00:47:42,360 --> 00:47:53,260
+ AI music adventure. I will play the finalized freestyle or finalized rap on this crazy beat
+
+328
+00:47:53,260 --> 00:48:06,540
+ box beat following this. Thanks for tuning in. Alone on the pod. It's just Jackson. Where's
+
+329
+00:48:06,540 --> 00:48:16,140
+ Christen telling me I'm just rapping. Yeah. Okay. I was alone in the house, but now my
+
+330
+00:48:16,140 --> 00:48:27,540
+ girlfriend's here feeling real weird. Now I'm going to shout. So yeah, the model decides
+
+331
+00:48:27,540 --> 00:48:53,460
+ I'm going to go to kill the mosquito. Let's go. I'm powered by lukewarm nest cafe, possibly
+
+332
+00:48:53,460 --> 00:49:02,980
+ the most disgusting way to drink instant coffee, but the only way I know.
+

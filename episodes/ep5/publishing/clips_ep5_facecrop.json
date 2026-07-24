@@ -1,7 +1,7 @@
 {
- "source": "/Users/jcook/Personal/permanent-underpod/media/ep5-work/edited_raw.mov",
+ "source": "/Users/jcook/Personal/permanent-underpod/media/ep5/work/edited_raw.mov",
  "out_dir": "/Users/jcook/Personal/permanent-underpod/media/clips/ep5/facecrop",
- "logo": "/Users/jcook/Personal/permanent-underpod/media/ep5-work/logo.png",
+ "logo": "/Users/jcook/Personal/permanent-underpod/media/ep5/work/logo.png",
  "audio_chain": "highpass=f=80,afftdn=nr=18:nf=-50:tn=1,acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,treble=f=9500:width_type=q:w=0.8:g=2,loudnorm=I=-16:TP=-1.5:LRA=5",
  "clips": [
   {

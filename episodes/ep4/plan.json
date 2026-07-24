@@ -1,5 +1,5 @@
 {
-  "source": "/Users/jcook/Personal/permanent-underpod/media/ep4-work/ep4-src-720p.mp4",
+  "source": "/Users/jcook/Personal/permanent-underpod/media/ep4/work/ep4-src-720p.mp4",
   "pause_keep_default": 0.7,
   "pause_zones": [
     {"start": 0, "end": 81.8, "keep": 1.2},

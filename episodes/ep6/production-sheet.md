@@ -4,7 +4,7 @@
 
 ## File
 
-- `media/Permanent Underpod - Ep 6 (Final Cut).mp4` (3.1 GB, 1280×720@30, AAC 192k mono)
+- `media/ep6/Permanent Underpod - Ep 6 (Final Cut).mp4` (3.1 GB, 1280×720@30, AAC 192k mono)
 
 ## Title (pick one)
 

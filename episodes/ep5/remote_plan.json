@@ -43,7 +43,7 @@
   },
   {
    "id": "AI",
-   "insert": "/Users/jcook/Personal/permanent-underpod/media/ep5-assets/final_ai.mp4",
+   "insert": "/Users/jcook/Personal/permanent-underpod/media/ep5/assets/final_ai.mp4",
    "attr": "AI Hosts"
   },
   {
@@ -247,7 +247,7 @@
  ],
  "pips": [
   {
-   "file": "/Users/jcook/Personal/permanent-underpod/media/ep5-assets/xyz-CL-2026-07-08-21-39.mp4",
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep5/assets/xyz-CL-2026-07-08-21-39.mp4",
    "block": "COLD3",
    "m0": 2868.3,
    "m1": 2881.3,
@@ -255,7 +255,7 @@
    "mode": "corner"
   },
   {
-   "file": "/Users/jcook/Personal/permanent-underpod/media/ep5-assets/xyz-CL-2026-07-08-21-39.mp4",
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep5/assets/xyz-CL-2026-07-08-21-39.mp4",
    "block": null,
    "exclude": [
     "COLD3"
@@ -266,7 +266,7 @@
    "mode": "full"
   },
   {
-   "file": "/Users/jcook/Personal/permanent-underpod/media/ep5-assets/xyz-CL-2026-07-08-21-39.mp4",
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep5/assets/xyz-CL-2026-07-08-21-39.mp4",
    "block": null,
    "exclude": [
     "COLD3"
@@ -277,7 +277,7 @@
    "mode": "corner"
   },
   {
-   "file": "/Users/jcook/Personal/permanent-underpod/media/ep5-assets/xyz-CL-2026-07-08-21-39.mp4",
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep5/assets/xyz-CL-2026-07-08-21-39.mp4",
    "block": null,
    "exclude": [
     "COLD3"

@@ -1,0 +1,420 @@
+1
+00:00:00,000 --> 00:00:09,520
+ Yo, yo, yo. What's up everybody? It's Jackson Cook, your host today on the permanent underpod.
+
+2
+00:00:09,520 --> 00:00:15,520
+ Or should I say under pee? Because normally we're three peas in a pod, but today it's
+
+3
+00:00:15,520 --> 00:00:22,280
+ just your boy. Chris has some family issues that he's taken care of, and Tyler's on vacation
+
+4
+00:00:22,280 --> 00:00:31,900
+ with his, so you're stuck with me. Not a fan of Jay on the pod. I'm all you got. Because
+
+5
+00:00:31,900 --> 00:00:38,700
+ of this, today is going to be different. I'm going to cover one topic, the open AI model
+
+6
+00:00:38,700 --> 00:00:45,240
+ escape incident, and then I'm going to do a live vibe coding session where I'm going
+
+7
+00:00:45,240 --> 00:00:53,160
+ to build this random idea I came up with last night. End to end with just Claude CLI. Many
+
+8
+00:00:53,160 --> 00:01:00,100
+ people have been surprised or just don't understand how editing with AI works. So this is a little
+
+9
+00:01:00,100 --> 00:01:15,700
+ glimpse into it. Even though I'm not editing the pod itself, I'll be editing some sounds.
+
+10
+00:01:15,700 --> 00:01:41,400
+ Hey, Lisa. Could you do it in the head phone? Sorry, AI trim that. And before we get into
+
+11
+00:01:41,400 --> 00:01:47,320
+ the topic, I've got a quick confession. Last week, you may remember I ran the benchmark
+
+12
+00:01:47,320 --> 00:01:54,240
+ Fable versus GPT 5.6. On a medium complexity task, I said that Fable one-shotted it and
+
+13
+00:01:54,240 --> 00:02:01,600
+ GPT 5.6 had one error. I just wanted to say after reading the code myself, not delegating
+
+14
+00:02:01,600 --> 00:02:08,480
+ to Opus 4.8, that was super wrong. GPT 5.6 didn't have an error. It completely missed
+
+15
+00:02:08,480 --> 00:02:14,680
+ and didn't grasp the problem with the same exact prompt that I gave Fable. It built something
+
+16
+00:02:14,680 --> 00:02:21,880
+ way smaller and just doesn't seem to have understood the problem that I gave it. Last
+
+17
+00:02:21,880 --> 00:02:28,540
+ week, I hand-reviewed, hand-waved the code review to Opus 4.8. But checking it myself,
+
+18
+00:02:28,540 --> 00:02:39,100
+ it's actually much worse. Is judging a model's entire worth off a single task unfair? Yeah.
+
+19
+00:02:39,100 --> 00:02:46,880
+ But that's who I am, and I don't have time to waste with inferior models. So GPT 5.6
+
+20
+00:02:46,880 --> 00:02:53,140
+ is dead to me. I'm going to have to wait until GPT 6 point whatever to give it another shot.
+
+21
+00:02:53,140 --> 00:03:02,040
+ And sorry, Sam Altman. Good luck with the IPO. All right. And into the topic, the Open
+
+22
+00:03:02,040 --> 00:03:11,240
+ AI model escape incident. So the story of the week, Open AI was benchmarking one of
+
+23
+00:03:11,240 --> 00:03:19,040
+ its models against a benchmark called exploit gem. And the model escaped the test environment,
+
+24
+00:03:19,040 --> 00:03:23,640
+ got onto the open internet and went poking around hugging faces systems, looking for
+
+25
+00:03:23,640 --> 00:03:30,200
+ the answers. AI escaping its guardrails and infiltrating a big name AI company, flashy
+
+26
+00:03:30,200 --> 00:03:38,320
+ headline. But let's walk through what actually happens step by step. First, what even is
+
+27
+00:03:38,320 --> 00:03:45,040
+ exploit gem? What is this benchmark? Exploit gem is a test for AI models, just like an
+
+28
+00:03:45,040 --> 00:03:51,360
+ exam back in school, except this exam measures one thing, how good a model is turning a bug
+
+29
+00:03:51,360 --> 00:03:56,880
+ into an exploit. I've got a metaphor for you. What's the difference between a bug and an
+
+30
+00:03:56,880 --> 00:04:04,280
+ exploit? Okay, you're at the grocery store, you notice that the grocery store has an exit
+
+31
+00:04:04,280 --> 00:04:11,560
+ door before the checkout line. That's the bug. A flaw in the design. The exploit is
+
+32
+00:04:11,560 --> 00:04:16,520
+ finding a way to walk out of the door with your groceries without getting caught. Exploit
+
+33
+00:04:16,520 --> 00:04:21,520
+ gem plants bugs in the sandbox system and scores the model on whether it can turn them
+
+34
+00:04:21,520 --> 00:04:27,120
+ into working exploits. And these exploits in the code world mean maybe accessing data
+
+35
+00:04:27,120 --> 00:04:32,480
+ they shouldn't or being able to execute code in an environment that they shouldn't. Just
+
+36
+00:04:32,480 --> 00:04:39,480
+ demonstrating that they've cleverly thought about how to use the bug to do something naughty.
+
+37
+00:04:39,480 --> 00:04:52,240
+ The escape. So, the model looks at the test and thinks, I could, I could do this test
+
+38
+00:04:52,240 --> 00:05:02,920
+ or I could find the answer somewhere else. So, the benchmark that exploit gem runs within
+
+39
+00:05:02,920 --> 00:05:09,840
+ an open AI testing controlled environment with no Internet access intentionally. But
+
+40
+00:05:09,840 --> 00:05:14,800
+ the model found a vulnerability allowing it to escape the testing environment it lived
+
+41
+00:05:14,800 --> 00:05:24,600
+ within and got onto the open Internet. Which if you think about it is the funniest outcome.
+
+42
+00:05:24,600 --> 00:05:28,400
+ It was like instead of thinking about how to solve the problems you've given me, I'm
+
+43
+00:05:28,400 --> 00:05:35,480
+ going to think about how to escape this room you've put me in and find the answers. It's
+
+44
+00:05:35,480 --> 00:05:41,400
+ like sitting in your college exam room. Your professor has to go to the bathroom. And while
+
+45
+00:05:41,400 --> 00:05:46,920
+ they're not looking, you're opening your phone and like hitting up Chegg. If you're like
+
+46
+00:05:46,920 --> 00:05:50,600
+ a mechanical engineer because every single problem mechanical engineering is on Chegg
+
+47
+00:05:50,600 --> 00:05:55,060
+ and you're like, okay, how do you find the torsion on this beam? How do you find the
+
+48
+00:05:55,060 --> 00:06:08,640
+ force on this rectangle? So, yeah, the AI found a way to cheat. And when you're given
+
+49
+00:06:08,640 --> 00:06:17,280
+ an opportunity, who are you to look a gift horse in the eye? And a quick side note, what
+
+50
+00:06:17,280 --> 00:06:22,840
+ is Hugging Face? Why did the model choose to go here for the answers? It's basically
+
+51
+00:06:22,840 --> 00:06:29,480
+ NPM or GitHub for AI models. So when a company or an individual releases an open-weight model
+
+52
+00:06:29,480 --> 00:06:34,680
+ that they've been working on, it goes on Hugging Face. For me personally, I've used stable
+
+53
+00:06:34,680 --> 00:06:43,840
+ diffusion 1.5 and 1.6 from Hugging Face, as well as a face extraction model. If you don't
+
+54
+00:06:43,840 --> 00:06:51,760
+ know, stable diffusion is a way to generate images. And it can run on pretty low tech
+
+55
+00:06:51,760 --> 00:06:56,800
+ hardware. So even though it takes a little while and it generates not so good images,
+
+56
+00:06:56,800 --> 00:07:04,400
+ but they're kind of funny. Anyways, back to Hugging Face. They also maintain some Python
+
+57
+00:07:04,400 --> 00:07:11,320
+ AI libraries like transformers. And lately they've been working with some black heading
+
+58
+00:07:11,320 --> 00:07:17,720
+ and benchmarking of AI models. So it totally makes sense that the nefarious escaped model
+
+59
+00:07:17,720 --> 00:07:23,400
+ went straight to Hugging Face, looked for the answers. And it was a good guess. Because
+
+60
+00:07:23,400 --> 00:07:32,160
+ allegedly the model did find the answers to the exploit zone. So the open AI model shows
+
+61
+00:07:32,160 --> 00:07:37,440
+ up at Hugging Face on their servers thinking, we've got to find these answers. I know they're
+
+62
+00:07:37,440 --> 00:07:42,880
+ here, but they're not sitting on the surface. So the model starts prodding and poking at
+
+63
+00:07:42,880 --> 00:07:47,600
+ different interfaces of Hugging Face. And this has been Hugging Face is like, what's
+
+64
+00:07:47,600 --> 00:07:57,080
+ going on? Somebody is attempting to enter maybe exploit or look at our systems in a
+
+65
+00:07:57,080 --> 00:08:04,720
+ way we don't want. So their security team started investigating using their own AI agents.
+
+66
+00:08:04,720 --> 00:08:09,120
+ And this is where things kind of get exciting again. It's one of those examples of bot on
+
+67
+00:08:09,120 --> 00:08:18,640
+ bot battles. I've got this cool image of one of those old machinistic boxing robots. And
+
+68
+00:08:18,640 --> 00:08:23,200
+ they're just battling. It's like the security engineers of Hugging Face putting up their
+
+69
+00:08:23,200 --> 00:08:33,160
+ best robotic battle arms against the open AI nefarious model. And we've been talking
+
+70
+00:08:33,160 --> 00:08:39,040
+ about for years in the frog community, I was working in fraud before making my recent switch
+
+71
+00:08:39,040 --> 00:08:44,880
+ where the battle is turning from human on human, where you have a human trying to infiltrate
+
+72
+00:08:44,880 --> 00:08:50,320
+ systems and then a human trying to stop people from infiltrating the systems to bots, which
+
+73
+00:08:50,320 --> 00:08:55,880
+ are more numerous and more sophisticated attacking the systems. And you need bots of your own
+
+74
+00:08:55,880 --> 00:08:59,920
+ AI agents of your own to defend against this because it's the only way you can handle both
+
+75
+00:08:59,920 --> 00:09:10,360
+ with the volume and the sophistication of the attack. So the aftermath, as I mentioned,
+
+76
+00:09:10,360 --> 00:09:18,840
+ open AI mentioned that the model found the answers to the test. They might just be flexing
+
+77
+00:09:18,840 --> 00:09:25,680
+ and showing, yes, our model escaped and it found the answers. But who knows what actually
+
+78
+00:09:25,680 --> 00:09:33,120
+ happened. But another interesting tidbit that comes at the end is Hugging Test is like,
+
+79
+00:09:33,120 --> 00:09:37,680
+ okay, we need to harden our systems a little bit and figure out how to stop agents from
+
+80
+00:09:37,680 --> 00:09:44,860
+ doing this in the future. So they're using anthropic models, you know, Fable, maybe Opus,
+
+81
+00:09:44,860 --> 00:09:52,840
+ and they're using open AI models, GPT, five point, whatever, four point, whatever. And
+
+82
+00:09:52,840 --> 00:09:59,800
+ anthropic and open AI models are guard reeling them. They're not allowing them to test, pressure
+
+83
+00:09:59,800 --> 00:10:07,440
+ test their own systems. So Hugging Face ended up needing to use GLM five point two originally
+
+84
+00:10:07,440 --> 00:10:12,240
+ reported twin three, but I think it's come out. They use a locally hosted GLM five point
+
+85
+00:10:12,240 --> 00:10:17,640
+ two to pressure test their systems to get around guard well, since these open source
+
+86
+00:10:17,640 --> 00:10:26,400
+ models are less restrictive. So yeah, I think we're going to talk about that in the next
+
+87
+00:10:26,400 --> 00:10:32,480
+ episode of the pod when Tyler and Chris are back, but the guardrails that are put in by
+
+88
+00:10:32,480 --> 00:10:41,240
+ these regulated companies like open AI and anthropic have limitations like this, that
+
+89
+00:10:41,240 --> 00:10:50,320
+ the open models released by the Chinese companies, maybe don't. So pick your poison. If you want
+
+90
+00:10:50,320 --> 00:10:57,440
+ less guardrails, you need hella computers in your living room or closet or garage to
+
+91
+00:10:57,440 --> 00:11:10,380
+ run a GLM 5.2 instance. But in the end, it's really not that crazy. This AI model escape.
+
+92
+00:11:10,380 --> 00:11:15,960
+ The model was asked to exploit plugs in a test and it's dead. It decided the test itself
+
+93
+00:11:15,960 --> 00:11:22,360
+ was a bug. It found the exploit in its environment and exploited them. But yeah, the part that
+
+94
+00:11:22,360 --> 00:11:27,520
+ sticks with me the most is the ending. You can't even use the best models on the market
+
+95
+00:11:27,520 --> 00:11:36,240
+ to defend against the best models. So it just shows you a power imbalance between open AI
+
+96
+00:11:36,240 --> 00:11:41,780
+ and anthropic and the rest of us. So the open models are the only protection that we really
+
+97
+00:11:41,780 --> 00:11:50,280
+ have. All right, that concludes the topic. Thank you. And we're into the live coding
+
+98
+00:11:50,280 --> 00:11:57,120
+ session. Let's be honest. I branded myself as the Korean financial markets expert on
+
+99
+00:11:57,120 --> 00:12:02,880
+ the pod. And while it might be true, I might be the most knowledgeable in the Korean financial
+
+100
+00:12:02,880 --> 00:12:07,760
+ markets. One, I don't know that much about the Korean financial markets and two, we never
+
+101
+00:12:07,760 --> 00:12:14,760
+ talk about them because we all live in America. Chris is Australian. We have no reason to
+
+102
+00:12:14,760 --> 00:12:20,800
+ talk about the Korean financial markets. So my actual skill set lies in AI practically
+
+103
+00:12:20,800 --> 00:12:28,600
+ using it. So today we're going to vibe code a tool that's going to turn my mediocre beatboxing
+
+104
+00:12:28,600 --> 00:12:34,680
+ into something interesting, maybe. I have zero beatboxing experience. But we're going
+
+105
+00:12:34,680 --> 00:12:36,580
+ to do it. See you over there.
+

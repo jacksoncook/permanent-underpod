@@ -3,7 +3,7 @@
   "show_kicker": "PERMANENT",
   "show_main": "UNDERPOD",
   "accent": [255, 210, 74],
-  "source": "/Users/jcook/Personal/permanent-underpod/media/ep5-assets/pod recording.mov",
+  "source": "/Users/jcook/Personal/permanent-underpod/media/ep5/assets/pod recording.mov",
   "title_card": {"bg_frame": 620, "line": "EPISODE 5   ·   Fully Remote   ·   Bitcoin  ·  Stablecoins  ·  AI", "dur": 4.5},
   "end_card": {"bg_frame": 3350, "kicker": "NEXT WEEK ON",
     "lines": ["MEV — the dark forest, finally", "Agentic payments — robots buying things", "Chris's Contrarian Corner (owed)"],

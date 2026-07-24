@@ -5,7 +5,7 @@
 ## Episode video
 
 - **URL:** https://youtu.be/yIm_4Yk0bh4 — published 2026-07-18 20:10 UTC (public)
-- **File:** `media/Permanent Underpod - Ep 6 (Final Cut).mp4`
+- **File:** `media/ep6/Permanent Underpod - Ep 6 (Final Cut).mp4`
 - **Title (published):** We Let Claude Bet $101 Again — It Longed Solana's MEV Cartel and WON
 - Jackson uploaded manually (not via the API manifest) and swapped the draft title
   ("We Let the AI Bet Again — It Picked Solana's MEV Cartel") for the one above.
@@ -84,7 +84,7 @@ See `episodes/ep6/production-sheet.md` (unchanged from the draft).
 
 ## Captions
 
-**UPLOADED 2026-07-20 via captions API** (`media/ep6-work/final_cut.srt`, regenerated from the FINAL v2 cut — never the raw recordings; Ep 1 desync rule). Track `en`/standard, status serving. Captions API needs the `youtube.force-ssl` scope — separate token at `~/.config/clipify-youtube/token_captions.json`. Attributed transcript at `episodes/ep6/transcript-attributed.{srt,md}`.
+**UPLOADED 2026-07-20 via captions API** (`media/ep6/work/final_cut.srt`, regenerated from the FINAL v2 cut — never the raw recordings; Ep 1 desync rule). Track `en`/standard, status serving. Captions API needs the `youtube.force-ssl` scope — separate token at `~/.config/clipify-youtube/token_captions.json`. Attributed transcript at `episodes/ep6/transcript-attributed.{srt,md}`.
 
 ## Clips (scheduled — daily Jul 20–25 2026, 2:00 PM Pacific)
 

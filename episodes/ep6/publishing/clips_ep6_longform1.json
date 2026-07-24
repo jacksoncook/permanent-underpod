@@ -1,7 +1,7 @@
 {
-  "source": "/Users/jcook/Personal/permanent-underpod/media/Permanent Underpod - Ep 6 (Final Cut).mp4",
+  "source": "/Users/jcook/Personal/permanent-underpod/media/ep6/Permanent Underpod - Ep 6 (Final Cut).mp4",
   "out_dir": "/Users/jcook/Personal/permanent-underpod/media/clips/ep6",
-  "logo": "/Users/jcook/Personal/permanent-underpod/media/ep6-work/logo.png",
+  "logo": "/Users/jcook/Personal/permanent-underpod/media/ep6/work/logo.png",
   "audio_chain": "anull",
   "clips": [
     {

@@ -3,7 +3,7 @@
   "show_kicker": "PERMANENT",
   "show_main": "UNDERPOD",
   "accent": [255, 210, 74],
-  "source": "/Users/jcook/Personal/permanent-underpod/media/ep4-work/ep4-src-720p.mp4",
+  "source": "/Users/jcook/Personal/permanent-underpod/media/ep4/work/ep4-src-720p.mp4",
   "title_card": {"bg_frame": 900, "line": "EPISODE 4   ·   Base vs Tempo  ·  AI Clones the Hosts", "dur": 4.5},
   "end_card": {"bg_frame": 4300, "kicker": "NEXT WEEK ON",
     "lines": ["We go fully remote - RIP the studio", "Perp of Fortune returns (Fable's picks)", "Gamer thumb: week three"],

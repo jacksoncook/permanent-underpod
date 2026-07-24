@@ -1,0 +1,50 @@
+{
+  "source": "/Users/jcook/Personal/permanent-underpod/media/ep7/raw/pod7take2.mov",
+  "pause_keep_default": 0.7,
+  "pause_zones": [],
+  "protect": [],
+  "blocks": [
+    {"id": "COLD1", "start": 309.40, "end": 335.15, "cut_silences": false},
+    {"id": "COLD2", "start": 742.05, "end": 755.50, "cut_silences": false},
+    {"id": "CARD_TITLE", "card": "card_title.mov"},
+    {"id": "A",  "start": 0.0,    "end": 68.10,  "cut_silences": true},
+    {"id": "B1", "start": 100.20, "end": 180.00, "cut_silences": true},
+    {"id": "B2", "start": 180.00, "end": 704.90, "cut_silences": true},
+    {"id": "B3", "start": 704.90, "end": 757.50, "cut_silences": true}
+  ],
+  "overlays": [
+    {"name": "lt_welcome",   "block": "A",  "src_time": 2.0,   "dur": 6,  "kind": "lt"},
+    {"name": "lt_confess",   "block": "B1", "src_time": 101.8, "dur": 6,  "kind": "lt"},
+    {"name": "lt_topic",     "block": "B2", "src_time": 182.2, "dur": 6,  "kind": "lt"},
+    {"name": "lt_exploitgem","block": "B2", "src_time": 218.5, "dur": 6,  "kind": "lt"},
+    {"name": "lt_hf",        "block": "B2", "src_time": 377.5, "dur": 6,  "kind": "lt"},
+    {"name": "lt_botbattle", "block": "B2", "src_time": 485.0, "dur": 6,  "kind": "lt"},
+    {"name": "lt_aftermath", "block": "B2", "src_time": 550.4, "dur": 6,  "kind": "lt"},
+    {"name": "lt_vibe",      "block": "B3", "src_time": 710.6, "dur": 6,  "kind": "lt"},
+    {"name": "st_deadtome",  "block": "B1", "src_time": 166.9, "dur": 10, "kind": "st"},
+    {"name": "st_glm",       "block": "B2", "src_time": 607.6, "dur": 12, "kind": "st"}
+  ],
+  "reframes": [
+    {"block": "B1", "src_time": 159.5, "dur": 6, "preset": "push"},
+    {"block": "B2", "src_time": 236.9, "dur": 7, "preset": "center"},
+    {"block": "B2", "src_time": 314.8, "dur": 7, "preset": "center"},
+    {"block": "B2", "src_time": 368.6, "dur": 6, "preset": "push"},
+    {"block": "B2", "src_time": 494.0, "dur": 7, "preset": "center"},
+    {"block": "B2", "src_time": 552.0, "dur": 6, "preset": "push"},
+    {"block": "B2", "src_time": 649.5, "dur": 7, "preset": "center"},
+    {"block": "B3", "src_time": 716.0, "dur": 7, "preset": "center"}
+  ],
+  "sheet": [
+    {"label": "Cold open (teaser)", "block": "COLD1"},
+    {"label": "Flying solo: welcome + the plan", "block": "A"},
+    {"label": "Confession corner: the GPT 5.6 re-verdict", "block": "B1"},
+    {"label": "The OpenAI model escape incident", "block": "B2"},
+    {"label": "ExploitGem: bugs vs exploits", "block": "B2", "src_time": 218.4},
+    {"label": "The escape (funniest possible outcome)", "block": "B2", "src_time": 279.5},
+    {"label": "Sidebar: what is Hugging Face?", "block": "B2", "src_time": 377.3},
+    {"label": "Bot-on-bot: HF security vs the escaped model", "block": "B2", "src_time": 452.2},
+    {"label": "The aftermath: guardrailed out of your own defense", "block": "B2", "src_time": 549.9},
+    {"label": "Pick your poison: open models & guardrails", "block": "B2", "src_time": 626.4},
+    {"label": "Up next: the live vibe-coding sesh", "block": "B3"}
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "out": "/Users/jcook/Personal/permanent-underpod/media/Permanent Underpod - Ep 4 (Final Cut).mp4",
+  "out": "/Users/jcook/Personal/permanent-underpod/media/ep4/Permanent Underpod - Ep 4 (Final Cut).mp4",
   "chain": "highpass=f=70,afftdn=nr=12:nf=-52:tn=1,acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,treble=f=9500:width_type=q:w=0.8:g=1.5,loudnorm=I=-16:TP=-1.5:LRA=5",
   "target_lufs": -16,
   "limit": 0.8,
