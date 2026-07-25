@@ -10,9 +10,13 @@ music video + post-credits stinger (mosquito / chewing / nescafé) + end card.**
 
 - **URL:** https://youtu.be/MrW6ihGNMgM — published 2026-07-24 12:08 UTC (public)
 - **File:** `media/ep7/Permanent Underpod - Ep 7 (Final Cut).mp4`
-- **Title (published):** My podmates were out so I made a beat and rapped
+- **Title (published):** An OpenAI Model Escaped Its Sandbox to Cheat a Test (So I Rapped About It)
 - Jackson uploaded manually and used his own title (draft candidates are in
   `production-sheet.md`). Description matches the draft verbatim.
+- **Retitled + custom thumbnail 2026-07-25** (manually, in Studio) after a
+  0.9% CTR / 400-impression first 24 h — was "My podmates were out so I made
+  a beat and rapped" with an auto thumbnail. New thumbnail: disguised-robot
+  test-cheating art (OpenAI-logo fedora). Verified live via `yt_fetch.py`.
 - **Tags (patched via API 2026-07-24):** ai, claude, openai, hugging face,
   vibe coding, beatbox, beat maker, ai agents, glm 5.2, podcast (the manual
   upload had none).

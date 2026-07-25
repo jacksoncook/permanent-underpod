@@ -66,6 +66,7 @@
   "experiments": [
     "[prod] RESULT — retitle CTR test: retitles shipped but aggregate CTR on longforms stayed 0.38–3.0% (Ep 2 clip: 8,833 impressions @ 0.42%). Titles necessary but not sufficient → superseded by the custom-thumbnail experiment.",
     "[prod] NEW — custom thumbnails on the Ep 2 clip + Ep 4 OpenUSD clip (highest impressions, worst CTR) and the Ep 5 episode; compare CTR after 2 weeks.",
+    "[prod] NEW — Ep 7 episode repackaged live 7/25 after 0.9% CTR @ 400 impressions in first 24 h: retitle ('My podmates were out so I made a beat and rapped' → 'An OpenAI Model Escaped Its Sandbox to Cheat a Test (So I Rapped About It)') + first-ever custom episode thumbnail (disguised-robot cheating art). First episode-level test of the custom-thumbnail recommendation. CONFOUND: Ep 7 shorts queue starts 7/26, so impressions/CTR move for two reasons at once — judge vs the 2.3–3.4% episode baseline at the next weekly pull, not day-over-day.",
     "[prod] NEW — Ep 5 episode was retitled live (→ 'Our AI Clones Have Faces Now'); watch whether its 1.2% CTR moves by next pull.",
     "[prod] PENDING — 10–20s loop shorts vs 30s+ setup shorts: Ep 6 batch has both (13s/14s/19s/21s vs 38s), publishing Jul 20–25; compare next week.",
     "[rec] PENDING — Ep 6 retention curve vs Ep 5's (perp at 18:26 vs 27:08, AI clones at 2:05): needs views to accumulate; judge next pull.",
