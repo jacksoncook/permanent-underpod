@@ -106,10 +106,18 @@ def build(c):
         if vertical and c.get("face_crops"):
             # full-bleed speaker crop (digital/remote episodes): a 406x720
             # column tracking the active face -> 1080x1920, no blur bars.
-            # face_crops = [[t_rel, x_left], ...]. Each switch is a SWIPE:
-            # the crop eases (smoothstep) across the frame to the next
-            # person over `swipe` seconds instead of hard-jumping.
-            # x(t) = x0 + sum of per-key deltas, each ramped 0->1.
+            # face_crops = [[t_rel, x_left], ...] or [[t_rel, x_left, mode], ...]
+            # where mode is "cut" (default) or "swipe":
+            #   "cut"   -> the crop STEPS to the new x on one frame.
+            #   "swipe" -> the crop eases (smoothstep) across over `swipe` s.
+            # For multicam panel switches "cut" is the ONLY correct mode, which is
+            # why it's the default: this 406-wide column is narrower than the gap
+            # between any two faces, so a glide always spends its middle frames on
+            # the seam -- wall plus two half-faces. Ep 8's first clip batch swiped
+            # every key and read as the shot swinging off a person and boomeranging
+            # back. remote_face_crops.py therefore emits "cut" for every key.
+            # "swipe" is retained only for a hand-authored move WITHIN one panel
+            # (e.g. drifting across a wide solo shot), where there's no seam to hit.
             SWIPE_S = float(c.get("swipe", 0.35))
             fcs = c["face_crops"]
             expr = f"{int(fcs[0][1])}"
@@ -117,8 +125,16 @@ def build(c):
                 dx = int(fcs[i][1]) - int(fcs[i - 1][1])
                 if not dx:
                     continue
-                p = f"clip((t-{fcs[i][0]:.2f})/{SWIPE_S:.2f},0,1)"
-                expr += f"+{dx}*st(0,{p})*ld(0)*ld(0)*(3-2*ld(0))"
+                t_i = float(fcs[i][0])
+                mode = (fcs[i][2] if len(fcs[i]) > 2 else "cut").lower()
+                if mode == "swipe":
+                    # smoothstep p^2*(3-2p): st(0,p) stores AND returns p, so one
+                    # extra ld(0) gives p^2 -- three of them would give p^3, which
+                    # is what this used to do (a late, lurching ramp).
+                    p = f"clip((t-{t_i:.3f})/{SWIPE_S:.2f},0,1)"
+                    expr += f"+{dx}*(st(0,{p})*ld(0)*(3-2*ld(0)))"
+                else:
+                    expr += f"+{dx}*gte(t,{t_i:.3f})"
             fg.append("[0:v]fps=30,format=yuv420p,"
                       f"crop=w=406:h=720:x='{expr}':y=0,"
                       "scale=1080:1920,setsar=1[base]")
