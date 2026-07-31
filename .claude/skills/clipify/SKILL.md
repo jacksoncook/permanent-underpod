@@ -93,7 +93,17 @@ Selection and length rules, from `analytics/report.html` (refresh with the
 }
 ```
 
-Per-clip overrides: `source`, `logo` (bool), `caption`, `vertical`, `style`.
+Per-clip overrides: `source`, `logo` (bool), `caption`, `vertical`, `style`,
+`audio_chain`, `swipe`.
+
+**Mixed-source batches need a per-clip `audio_chain`.** A fully-remote episode's
+face-crop shorts come off `edited_raw.mov`, which is UNmastered and wants the
+episode chain — but any clip that needs a baked-in graphic (the Perp of Fortune
+dashboard PiP, a stat callout) has to come off the FINAL mp4, which is already
+mastered and wants `"audio_chain": "anull"` plus `"logo": false`. Set the episode
+chain at the top level and override those clips individually; running the episode
+chain twice re-drives a big pre-gain into the compressor and limiter, and the
+trailing `loudnorm` hides it in the measured level but not in the sound.
 
 ## Posting copy (ALWAYS produce this alongside the clips)
 

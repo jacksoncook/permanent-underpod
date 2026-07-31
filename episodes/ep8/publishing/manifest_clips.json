@@ -1,0 +1,126 @@
+{
+ "client_secret": "~/.config/clipify-youtube/client_secret.json",
+ "token": "~/.config/clipify-youtube/token.json",
+ "defaults": {
+  "categoryId": "22",
+  "privacyStatus": "private",
+  "madeForKids": false
+ },
+ "uploads": [
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/clips/ep8/short7-quick-close-it.mp4",
+   "title": "We're almost down — quick, CLOSE IT 📉",
+   "description": "We let GPT-5.6 pick a 20x leveraged XRP trade with $101 of real money, and the boys had to panic-close it live on air while saying goodbye.\n\nFull episode: https://youtu.be/hgLne4ec_Ig\n\n#shorts #crypto #xrp",
+   "tags": [
+    "PerpOfFortune",
+    "XRP",
+    "crypto",
+    "GPT5",
+    "leverage",
+    "podcast"
+   ],
+   "playlist": "Underpod Shorts",
+   "publishAt": "2026-07-31T21:00:00Z"
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/clips/ep8/short4-ever-been-a-ripple-guy.mp4",
+   "title": "Have you ever been a Ripple guy? 🌊",
+   "description": "Tyler asks the question no crypto podcast is brave enough to ask, then diagnoses the condition.\n\nFull episode: https://youtu.be/hgLne4ec_Ig\n\n#shorts #crypto #xrp",
+   "tags": [
+    "Ripple",
+    "XRP",
+    "crypto",
+    "confession",
+    "podcast"
+   ],
+   "playlist": "Underpod Shorts",
+   "publishAt": "2026-08-01T21:00:00Z"
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/clips/ep8/short3-seven-times-one-evening.mp4",
+   "title": "The baby egg allergy test went badly 🥚",
+   "description": "You're supposed to introduce babies to allergens one at a time to see what happens — here is what happened.\n\nFull episode: https://youtu.be/hgLne4ec_Ig\n\n#shorts #parenting #dadlife",
+   "tags": [
+    "parenting",
+    "dadlife",
+    "allergies",
+    "babies",
+    "podcast"
+   ],
+   "playlist": "Underpod Shorts",
+   "publishAt": "2026-08-02T21:00:00Z"
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/clips/ep8/short6-my-last-name-is-cook.mp4",
+   "title": "Wait, your last name is actually Cook? 👨‍🍳",
+   "description": "Jackson reveals his surname mid-podcast and immediately gets accused of doxxing himself.\n\nFull episode: https://youtu.be/hgLne4ec_Ig\n\n#shorts #podcast #cooking",
+   "tags": [
+    "nominativedeterminism",
+    "cooking",
+    "podcast",
+    "doxxing"
+   ],
+   "playlist": "Underpod Shorts",
+   "publishAt": "2026-08-03T21:00:00Z"
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/clips/ep8/short1-nsa-audits-the-crypto.mp4",
+   "title": "They probably all work for the NSA 🕵️",
+   "description": "Almost nobody on earth can audit a post-quantum cipher — Tyler's take on who those people work for.\n\nFull episode: https://youtu.be/hgLne4ec_Ig\n\n#shorts #cryptography #ai",
+   "tags": [
+    "NSA",
+    "cryptography",
+    "postquantum",
+    "HAWK",
+    "ai",
+    "bitcoin"
+   ],
+   "playlist": "Underpod Shorts",
+   "publishAt": "2026-08-04T21:00:00Z"
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/clips/ep8/short8-claude-dont-cut-it-out.mp4",
+   "title": "Claude, don't cut this out 🎙️",
+   "description": "The boys sign off by apologizing for the puke talk, then instruct the AI editing the podcast to make it the centerpiece. It did.\n\nFull episode: https://youtu.be/hgLne4ec_Ig\n\n#shorts #ai #podcast",
+   "tags": [
+    "Claude",
+    "ai",
+    "podcast",
+    "meta",
+    "editing"
+   ],
+   "playlist": "Underpod Shorts",
+   "publishAt": "2026-08-05T21:00:00Z"
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/clips/ep8/short5-my-agent-only-buys-ripple.mp4",
+   "title": "My agent only buys Ripple 🤖",
+   "description": "If you let an AI agent shop for you, someone has to decide what it's allowed to buy.\n\nFull episode: https://youtu.be/hgLne4ec_Ig\n\n#shorts #ai #crypto",
+   "tags": [
+    "agenticcommerce",
+    "ai",
+    "Ripple",
+    "XRP",
+    "x402",
+    "payments"
+   ],
+   "playlist": "Underpod Shorts",
+   "publishAt": "2026-08-06T21:00:00Z"
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/clips/ep8/short2-give-me-the-crispr-agent.mp4",
+   "title": "Give me the CRISPR agent, I'm built different 🧬",
+   "description": "The case against AI guardrails, argued by two men who would absolutely not be fine.\n\nFull episode: https://youtu.be/hgLne4ec_Ig\n\n#shorts #ai #biotech",
+   "tags": [
+    "CRISPR",
+    "guardrails",
+    "ai",
+    "Mythos",
+    "biotech",
+    "podcast"
+   ],
+   "playlist": "Underpod Shorts",
+   "publishAt": "2026-08-07T21:00:00Z"
+  }
+ ]
+}

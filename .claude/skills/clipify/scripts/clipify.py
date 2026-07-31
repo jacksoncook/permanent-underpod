@@ -15,6 +15,7 @@ clips.json:
   "logo":     "/path/logo.png",         # optional corner bug (branded clips)
   "fonts_dir":"/path",                  # dir w/ arialblack.ttf+arialbold.ttf (auto-copied on macOS)
   "audio_chain": "<ffmpeg -af chain>",  # optional; default cleanup + 1-pass loudnorm
+                                        # per-clip override too ("anull" for a mastered source)
   "clips": [
     # short branded teaser pulled from RAW footage:
     {"name": "hook-1", "start": 3207.0, "end": 3215.4,
@@ -145,7 +146,14 @@ def build(c):
             fg.append(f"{last}[{idx}:v]overlay={cap_pos}:eof_action=pass[v{idx}]")
             last = f"[v{idx}]"; idx += 1
         fg.append(f"{last}null[vout]")
-        fg.append(f"[0:a]aresample={SR}:async=1:first_pts=0,{CHAIN},"
+        # per-clip audio_chain: a batch can mix sources with different needs --
+        # face-crop shorts come off the episode's edited_raw.mov (UNmastered, so
+        # they want the episode chain) while a clip that needs a baked-in graphic
+        # must come off the FINAL mp4, which is already mastered and only wants
+        # "anull". Applying the episode chain twice re-runs a big pre-gain into
+        # the compressor/limiter; loudnorm hides it in the level but not the sound.
+        chain = c.get("audio_chain", CHAIN)
+        fg.append(f"[0:a]aresample={SR}:async=1:first_pts=0,{chain},"
                   f"aresample={SR},apad,atrim=end_sample={n*SPF}[aout]")
 
     cmd = ["ffmpeg", "-hide_banner", "-loglevel", "error", "-y"] + inputs + [

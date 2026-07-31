@@ -7,9 +7,10 @@
 recording) + continuous live Perp of Fortune dashboard PiP + title/end cards
 + whoosh & gold-wipe on all 15 transitions.**
 
-> **NOT YET PUBLISHED.** Fill in URL / published-at / tags after upload. Everything
-> below is the paste-ready draft; per house rule the episode goes up FIRST, then
-> `segment-times.md` gets backfilled from the live copy via `yt_fetch.py`.
+> **PUBLISHED 2026-07-31 — https://youtu.be/hgLne4ec_Ig.** Everything below is the
+> pre-publish draft, kept as-is for the record; the live copy went up with this title
+> and description verbatim. **`episodes/ep8/segment-times.md` is now the source of
+> truth** for the published metadata (and for the clip schedule).
 
 ## Episode video
 
