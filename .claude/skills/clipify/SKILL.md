@@ -37,9 +37,16 @@ shorts should be a FULL-BLEED face crop of the active speaker — not the blurre
 letterbox layout. Add `"face_crops": [[t_rel, x_left], ...]` to a vertical clip:
 a 406x720 column tracked piecewise across the clip, scaled to 1080x1920.
 
-Every crop switch renders as a **swipe**: the crop eases (smoothstep) across the
-frame to the next person over 0.35s instead of hard-jumping (per-clip override:
-`"swipe": <seconds>`). Reads as an intentional camera slide.
+**Every crop switch is a HARD CUT, and that is not a style choice.** A key may be
+`[t_rel, x_left]` or `[t_rel, x_left, "cut"|"swipe"]`; bare keys cut. Do NOT swipe
+between panels: the 406 px column is narrower than the gap between any two faces,
+so an eased move always spends its middle frames on the panel seam — wall plus two
+half-faces. Ep 8's first clip batch swiped every key and the shot appeared to swing
+off a person and **boomerang** back (worst when the same person was on both sides of
+the switch, e.g. duo(jackson,tyler) → solo(jackson)). "Both faces are on screen so
+easing is fine" is wrong — they're both in the SOURCE, never both in the CROP.
+`"swipe"` survives only for a hand-authored drift WITHIN one panel, where there is
+no seam to cross.
 
 Generate the schedule from the episode workdir (shot layout + VAD pick the
 active speaker; solo shots crop around the face, splits crop the speaking panel).
@@ -237,6 +244,23 @@ of drafts: `~/.config/clipify-youtube/.venv/bin/python scripts/yt_fetch.py` → 
 - **A/V sync:** clips are frame-aligned the same way `podcast-video-edit` cuts —
   exact `-frames:v round(dur*30)` video + audio padded/trimmed to `n*1600`
   samples — so video_len == audio_len and there's no drift even on long pulls.
+- **VERIFY every in/out lands in measured silence — don't trust whisper cue times.**
+  Whisper segments tile contiguously *across* real pauses, so a cue boundary is not a
+  speech boundary; on Ep 8 they were off by up to 6 s, and 11 of 16 hand-picked
+  boundaries turned out to sit mid-word ("Close it!" — the literal caption of its
+  clip — was truncated). The check that works, run per boundary before rendering:
+  1. **10 ms speech-band RMS envelope** of `[b−2.5, b+2.5]`
+     (`highpass=f=200,lowpass=f=3500`, 160-sample frames), and list the quiet runs
+     ≥80 ms below a FIXED threshold — about −55 dB for `edited_raw.mov`, −45 dB for
+     a mastered final mp4. Do NOT use a percentile-derived threshold: windows
+     containing digital silence produced baselines of −174 dB and flagged everything.
+  2. **Word-level whisper** (`--max-len 1 -sow -ocsv`) for the word straddling `b`.
+  Then move the boundary into a quiet run — in-points ~0.15–0.25 s before speech
+  resumes, out-points just after it stops. Where the two disagree the envelope wins;
+  read it directly to tell a stop consonant from a real gap (Ep 8's short5: the dip
+  at 2617.74 was the /p/ closure of "up", the true gap was 2618.35).
+  Confirm on the RENDERED clip: its first/last 100 ms should measure ≥8 dB below its
+  own body (the clip's makeup gain + loudnorm lift a quiet tail, so measure relative).
 - **Long-form from the finished cut, not raw:** when extracting a chapter, point
   `source` at the FINAL mp4 and use the final-cut chapter timestamps (the polished
   version already has overlays + mastered audio). Use `style: "plain"` so clipify
