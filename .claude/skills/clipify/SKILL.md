@@ -12,12 +12,49 @@ safe to upload directly.
 ## Usage
 
 ```bash
+# 1. GATE FIRST — always. Needs numpy + ffmpeg, so use a venv python
+#    (an episode workdir has one: media/epN/work/.venv/bin/python)
+<venv>/bin/python scripts/verify_clips.py <clips.json>      # exit 1 = do not render
+# 2. render
 python3 scripts/clipify.py <clips.json> [--no-logo]
 # captions need Pillow: pip install pillow (or use a venv that has it)
+# 3. confirm the finished files
+<venv>/bin/python scripts/verify_clips.py <clips.json> --rendered
 ```
 
 Times accept seconds (`3207.4`) or clock strings (`"58:01"`, `"1:11:31"`) — so
 you can paste timestamps straight off a chapter list.
+
+**`verify_clips.py` is not optional, and neither is reading its output.** Ep 8
+shipped 8 clips with a crop artifact and 10 truncated boundaries; every one was
+invisible in the JSON, passed a bracket-window transcript check, and was caught by
+Jackson *watching them*. The gate checks what only eyes caught before:
+
+- every in/out point lands in a **measured ≥80 ms silence** (10 ms speech-band RMS
+  envelope), and prints a suggested corrected time when it doesn't;
+- every `face_crops` switch is a hard cut, in range, in order, and not inside the
+  last 0.5 s of the clip;
+- with `--rendered`, each finished clip's first/last 100 ms sits ≥8 dB below its
+  own body level.
+
+Extra flags: `--whisper` adds word-level whisper as a second opinion (it names the
+word being cut); `--envelope T --src FILE` dumps the raw envelope around one time
+when a call is marginal; `--thr`/`--lead`/`--tail` tune it; `--clip NAME` narrows the
+run. `clipify.py` itself hard-exits on a seam-crossing swipe or a trailing crop key
+as a backstop, but it cannot check audio — skip the gate and truncation ships.
+
+**Overriding a boundary FAIL** (rare, and it has to be earned): sometimes no gap
+exists — the clip ends on a decaying consonant and the next word starts 10 ms later.
+That's a real judgement call, so it's allowed only as a *declared* override carrying
+a reason, which downgrades it to a WARN and leaves a trail:
+
+```json
+{"name": "short3-…", "verify_override":
+  {"out": "no gap exists: ends on the decaying /f/ of 'wife', next word 0.01s later"}}
+```
+
+Use it only when the envelope shows a **falling** tail (the gate reports the trend);
+**rising** or flat at the boundary means you cut into a word — move the boundary.
 
 ## Two modes (the `style` field)
 
@@ -46,7 +83,11 @@ off a person and **boomerang** back (worst when the same person was on both side
 the switch, e.g. duo(jackson,tyler) → solo(jackson)). "Both faces are on screen so
 easing is fine" is wrong — they're both in the SOURCE, never both in the CROP.
 `"swipe"` survives only for a hand-authored drift WITHIN one panel, where there is
-no seam to cross.
+no seam to cross. This is **enforced, not advised**: `verify_clips.py` FAILs any
+swipe of ≥40 px (plus out-of-range x, unordered keys, a first key not at t=0, and a
+switch inside the last 0.5 s — Ep 8's short3 had a key 0.17 s from the end, i.e. a
+5-frame flash of another person), and `clipify.py` hard-exits on the same two rather
+than render them.
 
 Generate the schedule from the episode workdir (shot layout + VAD pick the
 active speaker; solo shots crop around the face, splits crop the speaking panel).
@@ -73,10 +114,15 @@ Selection and length rules, from `analytics/report.html` (refresh with the
   a character or a quotable one-liner (lottery ticket 1,273 views, Halo 3 roast
   986, skipped-his-party 674, dog food 469); every abstract-concept short flopped
   (4–24 views). Clip the human moments first, concepts last.
-- **Default a short to 10–20 s, one punchline, start mid-laugh.** Sub-15 s shorts
-  loop (>100% avg viewed — Dimon 145%, Bitcoin Bankruptcy 130%), which feeds the
-  Shorts algorithm; 25–60 s cuts hold only 30–48%. Go 25 s+ only when the bit
-  genuinely needs setup.
+- **Default a short to 10–20 s, one punchline.** Sub-15 s shorts loop (>100% avg
+  viewed — Dimon 145%, Bitcoin Bankruptcy 130%), which feeds the Shorts algorithm;
+  25–60 s cuts hold only 30–48%. Go 25 s+ only when the bit genuinely needs setup.
+- **Length yields to word boundaries, not the reverse.** "Start mid-laugh" means open
+  on a *reaction*, never mid-syllable: pick the beat you want, then let
+  `verify_clips.py` move each end out to the nearest real gap and accept the length
+  that falls out. Ep 8's short3 landed at 21.7 s that way — over guidance, and correct,
+  because the alternative was clipping a word. If honoring the boundaries pushes a clip
+  well past ~25 s, that's the signal the pick needs a tighter beat, not a tighter trim.
 - **End-of-show bits are shorts gold** — they air where only 3–5% of episode
   viewers remain, but the lottery-ticket finale became the channel's #1 video.
   Clip them within 24 h of the episode going live.
@@ -101,7 +147,8 @@ Selection and length rules, from `analytics/report.html` (refresh with the
 ```
 
 Per-clip overrides: `source`, `logo` (bool), `caption`, `vertical`, `style`,
-`audio_chain`, `swipe`.
+`audio_chain`, `face_crops`, `swipe`, `verify_override` (see Usage — a declared,
+reasoned exception to a boundary FAIL; `clipify.py` ignores it).
 
 **Mixed-source batches need a per-clip `audio_chain`.** A fully-remote episode's
 face-crop shorts come off `edited_raw.mov`, which is UNmastered and wants the
@@ -244,23 +291,22 @@ of drafts: `~/.config/clipify-youtube/.venv/bin/python scripts/yt_fetch.py` → 
 - **A/V sync:** clips are frame-aligned the same way `podcast-video-edit` cuts —
   exact `-frames:v round(dur*30)` video + audio padded/trimmed to `n*1600`
   samples — so video_len == audio_len and there's no drift even on long pulls.
-- **VERIFY every in/out lands in measured silence — don't trust whisper cue times.**
-  Whisper segments tile contiguously *across* real pauses, so a cue boundary is not a
-  speech boundary; on Ep 8 they were off by up to 6 s, and 11 of 16 hand-picked
-  boundaries turned out to sit mid-word ("Close it!" — the literal caption of its
-  clip — was truncated). The check that works, run per boundary before rendering:
-  1. **10 ms speech-band RMS envelope** of `[b−2.5, b+2.5]`
-     (`highpass=f=200,lowpass=f=3500`, 160-sample frames), and list the quiet runs
-     ≥80 ms below a FIXED threshold — about −55 dB for `edited_raw.mov`, −45 dB for
-     a mastered final mp4. Do NOT use a percentile-derived threshold: windows
-     containing digital silence produced baselines of −174 dB and flagged everything.
-  2. **Word-level whisper** (`--max-len 1 -sow -ocsv`) for the word straddling `b`.
-  Then move the boundary into a quiet run — in-points ~0.15–0.25 s before speech
-  resumes, out-points just after it stops. Where the two disagree the envelope wins;
-  read it directly to tell a stop consonant from a real gap (Ep 8's short5: the dip
-  at 2617.74 was the /p/ closure of "up", the true gap was 2618.35).
-  Confirm on the RENDERED clip: its first/last 100 ms should measure ≥8 dB below its
-  own body (the clip's makeup gain + loudnorm lift a quiet tail, so measure relative).
+- **Whisper cue times cannot place an in/out point — run `verify_clips.py`.** Whisper
+  segments tile contiguously *across* real pauses, so a cue boundary is not a speech
+  boundary; on Ep 8 they were off by up to 6 s and most hand-picked boundaries sat
+  mid-word ("Close it!" — the literal caption of its clip — was truncated). The gate
+  measures a 10 ms speech-band RMS envelope (`highpass=200,lowpass=3500`) and requires
+  a ≥80 ms quiet run at each boundary; `--whisper` adds word-level whisper
+  (`--max-len 1 -sow`) as a second opinion. Things it encodes, worth knowing when a
+  call is close:
+  - **FIXED thresholds only** (−55 dB unmastered / −45 dB mastered, auto-picked per
+    clip). Never percentile-derived: windows containing digital silence gave baselines
+    of −174 dB and flagged everything as speech.
+  - **Where envelope and whisper disagree, the envelope wins** — but read it with
+    `--envelope` before acting, because a stop consonant's closure looks like a gap
+    (Ep 8's short5: the dip at 2617.74 was the /p/ of "up"; the real gap was 2618.35).
+  - Aim in-points ~0.15–0.25 s before speech resumes and out-points just after it
+    stops — that's what the suggested times it prints are computed for.
 - **Long-form from the finished cut, not raw:** when extracting a chapter, point
   `source` at the FINAL mp4 and use the final-cut chapter timestamps (the polished
   version already has overlays + mastered audio). Use `style: "plain"` so clipify

@@ -127,6 +127,19 @@ def build(c):
                     continue
                 t_i = float(fcs[i][0])
                 mode = (fcs[i][2] if len(fcs[i]) > 2 else "cut").lower()
+                # Hard guards, not warnings: both of these are invisible in the JSON
+                # and glaring on screen, and Ep 8 shipped 8 clips with them because
+                # nothing checked. scripts/verify_clips.py reports them with
+                # suggested fixes; this is the backstop if that gate is skipped.
+                if mode == "swipe" and abs(dx) >= 40:
+                    sys.exit(f"{c['name']}: face_crops t={t_i} swipes {abs(dx)}px, "
+                             "which crosses a panel seam (the Ep 8 boomerang). Use "
+                             '"cut". A swipe is only legal within one panel (<40px).')
+                if t_i > dur - 0.5:
+                    sys.exit(f"{c['name']}: face_crops switch at t={t_i} is in the "
+                             f"last 0.5s of a {dur:.2f}s clip -> "
+                             f"{round((dur - t_i) * FPS)} frames of another shot, "
+                             "which reads as a flash at the out point. Drop the key.")
                 if mode == "swipe":
                     # smoothstep p^2*(3-2p): st(0,p) stores AND returns p, so one
                     # extra ld(0) gives p^2 -- three of them would give p^3, which

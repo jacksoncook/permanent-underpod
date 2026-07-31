@@ -17,8 +17,9 @@ if [ ! -f "$HOME/.cache/whisper/ggml-small.en.bin" ]; then
     "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small.en.bin"
 fi
 
-echo "==> Installing Pillow (graphics + captions)"
-python3 -m pip install --user --quiet pillow
+echo "==> Installing Pillow (graphics + captions) + numpy (audio verification)"
+# numpy is what verify_silences.py / remote_*.py / clipify's verify_clips.py measure with
+python3 -m pip install --user --quiet pillow numpy
 
 read -r -p "==> Set up the YouTube upload venv too? [y/N] " yn
 if [[ "${yn:-}" =~ ^[Yy] ]]; then

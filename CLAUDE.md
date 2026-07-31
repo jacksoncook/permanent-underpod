@@ -27,9 +27,11 @@ production files. Not affiliated with any employer.
   file metadata) → remote_transcribe.py → graphics.py → remote_cutlist.py → remote_cut.py
   → final_render.py → remote_attribute.py`, driven by `sources.json` + `remote_plan.json`
   (see SKILL.md → "Fully-remote episodes").
-- **clipify**: `clipify.py` cuts clips; `yt_upload.py` publishes (scheduled-private,
-  auto-publish at a `publishAt`); `yt_fetch.py` reads back live video metadata. One-time
-  OAuth setup is in `.claude/skills/clipify/youtube-setup.md`.
+- **clipify**: `verify_clips.py` GATES the clips.json (**always run it first** — it is
+  what stops the Ep 8 boomerang + mid-word cuts from recurring); `clipify.py` cuts clips;
+  `yt_upload.py` publishes (scheduled-private, auto-publish at a `publishAt`);
+  `yt_fetch.py` reads back live video metadata. One-time OAuth setup is in
+  `.claude/skills/clipify/youtube-setup.md`.
 - **channel-analytics**: `yt_pull.py` pulls channel/video stats + retention curves +
   traffic sources + impressions/CTR; LLM writes `analytics/insights.json`; `report.py`
   renders a branded HTML report. Always `--expect-channel "Permanent Underpod"`.
@@ -45,6 +47,8 @@ production files. Not affiliated with any employer.
    `episodes/epN/segment-times.md` from the live copy (`yt_fetch.py`).
 4. **Clip** with `clipify`: personality/one-liner picks over concepts, 10–20 s
    verticals, long pulls titled `<Hook> - Ep N Clip` (never "Highlight -").
+   **Run `verify_clips.py` before rendering and again with `--rendered` after** —
+   never skip it because the picks "look right" in the JSON.
    Upload staggered (house pattern: daily 2 PM PT = 21:00 UTC), then work the
    FUNNEL CHECKLIST the uploader prints — related video, pinned comment with
    episode link + timestamp, end screens. That checklist is manual and is the

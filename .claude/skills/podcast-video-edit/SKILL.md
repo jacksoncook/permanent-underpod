@@ -331,9 +331,20 @@ apply. Use the `remote_*.py` scripts instead of `analyze.sh`/`cut_render.py`:
 8. final_render.py <work> render.json --test=75   # picks up pip.json automatically
 9. remote_attribute.py <work> <final.srt> episodes/epN/transcript-attributed
    # person-attributed SRT+MD for the FINAL cut (deliverable, like the plain SRT)
+10. remote_face_crops.py <work> <final_start> <final_end>   # per-clip, for clipify
+   # prints the "face_crops" array for one vertical short; then GATE the clips.json
+   # with clipify's scripts/verify_clips.py before rendering (see the crop rule below)
 ```
 
 What's different from the one-camera flow (all learned the hard way on Ep 5):
+
+- **Verticals off a remote episode are face-crop clips, and EVERY crop switch is a
+  hard cut** (mode `"cut"`, which `remote_face_crops.py` is the only thing that should
+  ever emit). The 406 px column is narrower than the gap between any two faces, so an
+  eased move necessarily passes through the panel seam — wall plus two half-faces —
+  and reads as the shot swinging off someone and *boomeranging* back. Ep 8 shipped 8
+  clips like that. Both this and clip in/out truncation are now enforced by
+  `clipify/scripts/verify_clips.py`; run it before every clip render.
 
 - **Sync ground truth is the HUMAN, not metadata (Ep 5's hardest lesson) — the
   bench is a STANDARD step now, not a fallback.** `com.apple.quicktime.creationdate`
