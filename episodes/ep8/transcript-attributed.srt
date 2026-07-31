@@ -1,2467 +1,2695 @@
 1
-00:00:00,000 --> 00:00:10,820
-Jackson: This is the marquee, Claude broke a post quantum cipher is Bitcoin next Tyler is the
+00:00:00,000 --> 00:00:06,000
+Jackson: This is the marquee, Claude broke a post-quantum cipher.
 
 2
-00:00:10,820 --> 00:00:16,560
-Chris: Bitcoin topics is it over like, you know, maybe there is a vulnerability here that maybe
+00:00:08,000 --> 00:00:12,000
+Jackson: It's Bitcoin next, Tyler is back on the Bitcoin topics.
 
 3
-00:00:16,560 --> 00:00:22,380
-Chris: even a human auditor wouldn't miss, but I can't find it because fable thinks I'm trying
+00:00:12,000 --> 00:00:16,000
+Chris: Is it over like, you know, maybe there is a vulnerability here
 
 4
-00:00:22,380 --> 00:00:26,000
-Chris: to steal $15 billion, which I'm not.
+00:00:16,000 --> 00:00:19,000
+Chris: that maybe even a human auditor would miss.
 
 5
-00:00:27,000 --> 00:00:32,520
-Jackson: Yeah, I mean, you've totally flipped me now, Tyler. Now I'm like scared that that if the
+00:00:19,000 --> 00:00:26,000
+Chris: But I can't find it because Fable thinks I'm trying to steal $15 billion, which I'm not.
 
 6
-00:00:32,520 --> 00:00:40,000
-Jackson: models were open that people would kill me. So now I want them to be restricted, I guess.
+00:00:27,000 --> 00:00:30,000
+Jackson: Yeah. I mean, you've totally flipped me now, Tyler.
 
 7
-00:00:41,000 --> 00:00:45,600
-Chris: Right. This is what I'm talking about. Give me give me the CRISPR agent. Like I'm built
+00:00:30,000 --> 00:00:36,000
+Jackson: Now I'm like scared that if the models were open that people would kill me.
 
 8
-00:00:45,600 --> 00:00:50,000
-Chris: different. I'll work it out. I'll figure it out. Just give me that.
+00:00:36,000 --> 00:00:40,000
+Jackson: So now I want them to be restricted, I guess.
 
 9
-00:00:51,000 --> 00:00:56,720
-Tyler: No, I can totally see a world where you like let an agent shop for you say like go find
+00:00:41,000 --> 00:00:43,000
+Jackson: Right. This is what I'm talking about.
 
 10
-00:00:56,720 --> 00:00:57,000
-Tyler: me.
+00:00:43,000 --> 00:00:45,000
+Jackson: Give me the CRISPR agent.
 
 11
-00:00:58,000 --> 00:01:04,230
-Jackson: But I'm glad we finally talked about it into payments. It looks like we're going to end
+00:00:45,000 --> 00:00:48,000
+Chris: Like I'm built different. I'll work it out. I'll figure it out.
 
 12
-00:01:04,230 --> 00:01:12,490
-Jackson: this pod up two bucks. That's 2% on the hundo. So I think we're building quite the nest
+00:00:48,000 --> 00:00:50,000
+Chris: Just give me that.
 
 13
-00:01:12,490 --> 00:01:15,000
-Jackson: egg for our retirement boys.
+00:00:50,000 --> 00:00:55,000
+Tyler: No, I can totally see a world where you like let an agent shop for you.
 
 14
-00:01:22,000 --> 00:01:31,000
-Jackson: Yo, what's up, everybody? We got our boys back. It's Jackson. But who else is it?
+00:00:55,000 --> 00:00:57,000
+Tyler: Say like, go find me.
 
 15
-00:01:32,000 --> 00:01:37,850
-Tyler: Tyler right here, as always, well, except for last week, and also Chris always except for
+00:00:57,000 --> 00:01:01,000
+Jackson: But I'm glad we finally talked about it into payments.
 
 16
-00:01:37,850 --> 00:01:39,000
-Chris: last week.
+00:01:01,000 --> 00:01:06,000
+Jackson: It looks like we're going to end this pod up two bucks.
 
 17
-00:01:40,000 --> 00:01:40,000
-Chris: The boys are back. You know, I'm not gonna lie last week when I was doing it alone, which
+00:01:06,000 --> 00:01:08,000
+Jackson: That's 2% on the hundo.
 
 18
-00:01:40,000 --> 00:01:48,000
-Jackson: was super awkward. I was like, what if they never come back?
+00:01:08,000 --> 00:01:14,000
+Jackson: So I think we're building quite the nest egg for our retirement boys.
 
 19
-00:01:49,000 --> 00:01:54,000
-Tyler: So your dedication, Jackson, you just kept the torch alive.
+00:01:22,000 --> 00:01:27,000
+Jackson: Yo, what's up, everybody?
 
 20
-00:01:55,000 --> 00:01:58,440
-Chris: Yeah, huge, huge shout out to Jackson. I don't know if I could carry a podcast. And I
+00:01:27,000 --> 00:01:29,000
+Jackson: We got our boys back.
 
 21
-00:01:58,440 --> 00:02:05,420
-Jackson: think this is the perfect time to transition to the death of Bitcoin and the death of
+00:01:29,000 --> 00:01:32,000
+Jackson: It's Jackson, but who else is it?
 
 22
-00:02:05,420 --> 00:02:07,000
-Jackson: security of Bitcoin.
+00:01:32,000 --> 00:01:37,000
+Tyler: Tyler right here, as always, well, except for last week.
 
 23
-00:02:08,000 --> 00:02:17,410
-Tyler: Yeah, I'm not a cryptographer. I'm an amateur Bitcoin appreciator. But my understanding
+00:01:37,000 --> 00:01:40,000
+Chris: And also Chris always except for last week.
 
 24
-00:02:17,410 --> 00:02:26,050
-Tyler: of this was that it broke a quantum safe cryptographic system that is not really used
+00:01:40,000 --> 00:01:42,000
+Jackson: The boys are back.
 
 25
-00:02:26,050 --> 00:02:27,000
-Tyler: anywhere.
+00:01:42,000 --> 00:01:45,550
+Jackson: You know, I'm not going to lie last week when I was doing it alone, which was super
 
 26
-00:02:28,000 --> 00:02:33,230
-Tyler: So there's like a bunch of my understanding is like quantum safe cryptography is a much
+00:01:45,550 --> 00:01:46,000
+Jackson: awkward.
 
 27
-00:02:33,230 --> 00:02:38,790
-Tyler: newer branch, newer field. And a lot of the algorithms and stuff there just has like less
+00:01:46,000 --> 00:01:49,000
+Jackson: I was like, what if they never come back?
 
 28
-00:02:38,790 --> 00:02:43,000
-Tyler: time in the field, less battle testing than the stuff that's like tried and true.
+00:01:49,000 --> 00:01:55,000
+Tyler: So with your dedication, Jackson, you just kept the torch alive.
 
 29
-00:02:44,000 --> 00:02:49,410
-Tyler: That is quantum vulnerable, like that, like Bitcoin's cryptography is some parts of it
+00:01:55,000 --> 00:01:57,000
+Chris: Yeah, huge, huge shout out to Jackson.
 
 30
-00:02:49,410 --> 00:02:54,960
-Tyler: are quantum vulnerable, which means that a quantum computer using Shor's algorithm could
+00:01:57,000 --> 00:02:00,000
+Chris: I don't know if I could carry a podcast by myself.
 
 31
-00:02:54,960 --> 00:03:00,000
-Tyler: in theory, factor it if it is a big enough quantum computer with enough capacity,
+00:02:00,000 --> 00:02:02,000
+Chris: I think I can barely carry a third of it.
 
 32
-00:03:01,000 --> 00:03:06,430
-Tyler: really far away from that threshold. But some people are worried that that's accelerating.
+00:02:02,000 --> 00:02:06,000
+Chris: So just massive props for keeping it going.
 
 33
-00:03:06,430 --> 00:03:11,370
-Tyler: But like one of the things that you would do if you were worried about quantum computers
+00:02:06,000 --> 00:02:13,360
+Jackson: This is the perfect time to transition to the death of Bitcoin and the death of security
 
 34
-00:03:11,370 --> 00:03:18,000
-Tyler: coming soon is migrate Bitcoin's cryptography to a quantum safe cryptography system.
+00:02:13,360 --> 00:02:15,000
+Jackson: of Bitcoin.
 
 35
-00:03:19,000 --> 00:03:23,900
-Tyler: And there's like a bunch of ones that are quantum safe that are candidates that you could
+00:02:15,000 --> 00:02:19,000
+Tyler: Yeah, I'm not a cryptographer.
 
 36
-00:03:23,900 --> 00:03:29,260
-Tyler: choose, but they're like newer, they've had like less scrutiny. I think they kind of rely
+00:02:19,000 --> 00:02:23,000
+Tyler: I'm an amateur Bitcoin appreciator.
 
 37
-00:03:29,260 --> 00:03:34,000
-Tyler: on like the academic cryptography community, like people looking at them and trying to
+00:02:23,000 --> 00:02:33,000
+Tyler: But my understanding of this was that it broke a quantum safe cryptographic system that
 
 38
-00:03:34,000 --> 00:03:34,000
-Tyler: break them.
+00:02:33,000 --> 00:02:35,000
+Tyler: is not really used anywhere.
 
 39
-00:03:35,000 --> 00:03:39,890
-Tyler: Like, I don't know how many people in the world have the capability or expertise to like
+00:02:35,000 --> 00:02:40,000
+Tyler: So there's like a bunch of my understanding is like quantum safe cryptography is a much
 
 40
-00:03:39,890 --> 00:03:44,950
-Tyler: look at these algorithms and actually scrutinize them and they probably all work for like
+00:02:40,000 --> 00:02:42,000
+Tyler: newer branch, newer field.
 
 41
-00:03:44,950 --> 00:03:49,000
-Tyler: the NSA and like don't don't do this out of the goodness of their heart and report it
+00:02:42,000 --> 00:02:47,230
+Tyler: And a lot of the algorithms and stuff there just has like less time in the field, less
 
 42
-00:03:49,000 --> 00:03:49,000
-Tyler: back.
+00:02:47,230 --> 00:02:53,000
+Tyler: battle testing than the stuff that's like tried and true that is quantum vulnerable.
 
 43
-00:03:50,000 --> 00:03:56,800
-Tyler: It's theorized that a lot of these, not a lot of them, but like there could be potential
+00:02:53,000 --> 00:02:59,730
+Tyler: Like Bitcoin's cryptography is some parts of it are quantum vulnerable, which means that
 
 44
-00:03:56,800 --> 00:04:03,770
-Tyler: like classical computing vulnerabilities in these quantum safe crypto algorithms and
+00:02:59,730 --> 00:03:04,600
+Tyler: a quantum computer using Shor's algorithm could, in theory, factor it if it is a big
 
 45
-00:04:03,770 --> 00:04:11,000
-Tyler: anthropic, I guess, as part of some of the stuff they're doing to prove how rad mythos is
+00:03:04,600 --> 00:03:07,000
+Tyler: enough quantum computer with enough capacity.
 
 46
-00:04:11,000 --> 00:04:19,000
-Tyler: are like having mythos just look at these quantum safe crypto algorithms and see if it
+00:03:07,000 --> 00:03:11,840
+Tyler: Like really far away from that threshold, but some people are worried that that's
 
 47
-00:04:19,000 --> 00:04:19,000
-Tyler: can find vulnerabilities.
+00:03:11,840 --> 00:03:13,000
+Tyler: accelerating.
 
 48
-00:04:20,000 --> 00:04:24,840
-Tyler: It found a vulnerability in one of them. And it seems like people are very impressed,
+00:03:13,000 --> 00:03:18,160
+Tyler: But like one of the things that you would do if you were worried about quantum computers
 
 49
-00:04:24,840 --> 00:04:30,420
-Tyler: like it was an impressive vulnerability it found it used some like creativity, the model
+00:03:18,160 --> 00:03:25,000
+Tyler: coming soon is migrate Bitcoin's cryptography to a quantum safe cryptography system.
 
 50
-00:04:30,420 --> 00:04:33,000
-Tyler: worked for like hours and hours and hours.
+00:03:25,000 --> 00:03:29,180
+Tyler: And there's like a bunch of ones that are quantum safe that are candidates that you could
 
 51
-00:04:34,000 --> 00:04:37,000
-Tyler: And it was kind of funny the, I think the anthropic like posted in their blog like here
+00:03:29,180 --> 00:03:31,000
+Tyler: choose, but they're like newer.
 
 52
-00:04:37,000 --> 00:04:39,000
-Tyler: are the prompts that we use to do this.
+00:03:31,000 --> 00:03:36,080
+Tyler: They've had like less scrutiny. I think they kind of rely on like the academic
 
 53
-00:04:40,000 --> 00:04:44,150
-Tyler: And then it was literally just like bro being like, continue, look for it, look for a
+00:03:36,080 --> 00:03:41,000
+Tyler: cryptography community, like people looking at them and trying to break them.
 
 54
-00:04:44,150 --> 00:04:48,310
-Tyler: vulnerability, and it like had to prompt it like three times and then it like popped out
+00:03:41,000 --> 00:03:46,010
+Tyler: And like I don't know how many people in the world have the capability or expertise to
 
 55
-00:04:48,310 --> 00:04:51,000
-Tyler: this thing that would break the cryptography.
+00:03:46,010 --> 00:03:50,000
+Tyler: like look at these algorithms and actually scrutinize them.
 
 56
-00:04:52,000 --> 00:04:54,000
-Tyler: So it is very scary.
+00:03:50,000 --> 00:03:53,070
+Tyler: And they probably all work for like the NSA and like don't don't do this out of the
 
 57
-00:04:55,000 --> 00:04:59,930
-Tyler: And this makes me super worried because like, I'm sure that they had applied this, you
+00:03:53,070 --> 00:03:55,000
+Tyler: goodness of their heart and report it back.
 
 58
-00:04:59,930 --> 00:05:04,750
-Tyler: know, have mythos look at the cryptography that are underlying all these important
+00:03:55,000 --> 00:04:02,000
+Tyler: So like it's theorized that a lot of these, not a lot of them, but like there could be
 
 59
-00:05:04,750 --> 00:05:10,070
-Tyler: systems is like probably the first order thing they did, and that I would assume that it
+00:04:02,000 --> 00:04:08,610
+Tyler: potential like classical computing vulnerabilities in these quantum safe crypto
 
 60
-00:05:10,070 --> 00:05:11,000
-Tyler: didn't find vulnerabilities
+00:04:08,610 --> 00:04:09,000
+Tyler: algorithms.
 
 61
-00:05:12,000 --> 00:05:20,110
-Tyler: because they've like responsibly disclosed them and they're being patched and they're
+00:04:09,000 --> 00:04:18,410
+Tyler: And anthropic, I guess, as part of some of the stuff they're doing to prove how rad mythos
 
 62
-00:05:20,110 --> 00:05:26,180
-Tyler: going to be doing that. And hopefully, it turns over without issue. But it certainly puts
+00:04:18,410 --> 00:04:25,450
+Tyler: is are like having mythos just look at these quantum safe crypto algorithms and see if it
 
 63
-00:05:26,180 --> 00:05:26,900
-Tyler: into the realm of possibility that a smarter model or a different model, or trying the
+00:04:25,450 --> 00:04:26,000
+Tyler: can find vulnerabilities.
 
 64
-00:05:26,900 --> 00:05:27,000
-Tyler: same model again
+00:04:26,000 --> 00:04:29,000
+Tyler: And it found a vulnerability in one of them.
 
 65
-00:05:28,000 --> 00:05:31,440
-Tyler: could find a vulnerability in some of the cryptography that underlies Bitcoin or really
+00:04:29,000 --> 00:04:31,000
+Tyler: And it seems like people are very impressed.
 
 66
-00:05:31,440 --> 00:05:33,000
-Tyler: ending cryptographic system.
+00:04:31,000 --> 00:04:39,460
+Tyler: Like it was an impressive vulnerability. It found use some like creativity. The model
 
 67
-00:05:34,000 --> 00:05:39,850
-Tyler: Like there's huge vulnerabilities and like core cryptography that runs the internet, like
+00:04:39,460 --> 00:04:40,000
+Tyler: worked for like hours and hours and hours.
 
 68
-00:05:39,850 --> 00:05:44,070
-Tyler: a lot of things have problems. It isn't only Bitcoin that has this problem, although
+00:04:40,000 --> 00:04:44,150
+Tyler: And it was kind of funny. The I think the anthropic like posted in their blog, like here
 
 69
-00:05:44,070 --> 00:05:46,000
-Tyler: Bitcoin is like a very prominent example of it.
+00:04:44,150 --> 00:04:46,000
+Tyler: are the prompts that we use to do this.
 
 70
-00:05:47,000 --> 00:05:52,000
-Tyler: So I'll get off of my soapbox. I think I ate up all the air in the room on that one.
+00:04:46,000 --> 00:04:50,000
+Tyler: And it was literally just like bro being like continue. Look for it.
 
 71
-00:05:53,000 --> 00:06:01,980
-Jackson: I'm sort of saying that a lot of these quantum safe cryptography algorithms were like
+00:04:50,000 --> 00:04:54,360
+Tyler: Look for a vulnerability. And like I had to prompt it like three times and then it like
 
 72
-00:06:01,980 --> 00:06:06,890
-Jackson: theorized by like, what do they call those people, the academics basically, and they're
+00:04:54,360 --> 00:04:58,000
+Tyler: popped out this thing that would break the cryptography.
 
 73
-00:06:06,890 --> 00:06:08,000
-Jackson: not well battle tested.
+00:04:58,000 --> 00:05:04,730
+Tyler: So it is very scary. I wouldn't say that this makes me super worried because like I'm
 
 74
-00:06:09,000 --> 00:06:14,650
-Jackson: Maybe this is like a way for anthropic deflects their model, but it actually doesn't
+00:05:04,730 --> 00:05:10,480
+Tyler: sure that they had applied this, you know, have mythos look at the cryptography that are
 
 75
-00:06:14,650 --> 00:06:20,760
-Jackson: imply that because mythos can crack this cryptography algorithm that is quantum safe that
+00:05:10,480 --> 00:05:14,000
+Tyler: underlying all these important systems is like probably the first order thing they did.
 
 76
-00:06:20,760 --> 00:06:27,670
-Jackson: they can crack non quantum safe and potentially other quantum safe algorithms, which is
+00:05:14,000 --> 00:05:18,320
+Tyler: And that I would assume that it didn't find vulnerabilities in those or if it did, they've
 
 77
-00:06:27,670 --> 00:06:30,000
-Jackson: like what you think when you read the article.
+00:05:18,320 --> 00:05:21,590
+Tyler: like responsibly disclosed them and they're being patched and they're going to be doing
 
 78
-00:06:31,000 --> 00:06:35,680
-Tyler: Yeah, people probably think like quantum safe, that must be the highest level of safety.
+00:05:21,590 --> 00:05:22,000
+Tyler: that.
 
 79
-00:06:35,680 --> 00:06:39,820
-Tyler: And if it can, if it can beat that, then all the stuff that's kind of like below it is
+00:05:22,000 --> 00:05:27,030
+Tyler: And hopefully it turns over without issue, but it certainly puts into the realm of
 
 80
-00:06:39,820 --> 00:06:42,000
-Tyler: vulnerable, but that isn't the case.
+00:05:27,030 --> 00:05:32,370
+Tyler: possibility that a smarter model or a different model or trying the same model again
 
 81
-00:06:43,000 --> 00:06:47,150
-Tyler: It's like quantum safe just means it's safe against Shor's algorithm, but there can be a
+00:05:32,370 --> 00:05:37,270
+Tyler: could find a vulnerability in some of the cryptography that underlies Bitcoin or really
 
 82
-00:06:47,150 --> 00:06:54,120
-Tyler: classical vulnerability in it, whereas like classic elliptic curve cryptography is
+00:05:37,270 --> 00:05:40,000
+Tyler: on a cryptographic system.
 
 83
-00:06:54,120 --> 00:06:56,000
-Tyler: vulnerable to quantum computers.
+00:05:40,000 --> 00:05:44,950
+Tyler: But if there's huge vulnerabilities and like core cryptography that runs the internet,
 
 84
-00:06:57,000 --> 00:07:02,650
-Tyler: But like, nobody's found a classic vulnerability to it. And my, my kind of point was that
+00:05:44,950 --> 00:05:50,030
+Tyler: like a lot of things have problems. It isn't only Bitcoin that has this problem, although
 
 85
-00:07:02,650 --> 00:07:07,420
-Tyler: like, I don't know, what are there like 10 people in the world who can like, find
+00:05:50,030 --> 00:05:53,000
+Tyler: Bitcoin is like a very prominent example of it.
 
 86
-00:07:07,420 --> 00:07:12,530
-Tyler: vulnerabilities and like these quantum, you know, cryptography algorithms that are like
+00:05:53,000 --> 00:05:58,000
+Tyler: So I'll get off of my soapbox. I think I ate up all the air in the room on that one.
 
 87
-00:07:12,530 --> 00:07:13,000
-Tyler: really good at it.
+00:05:58,000 --> 00:06:07,410
+Jackson: So you're sort of saying that a lot of these quantum safe cryptography algorithms were
 
 88
-00:07:14,000 --> 00:07:26,160
-Tyler: And you have like mythos is really good at it. And maybe like GPT, whatever is really
+00:06:07,410 --> 00:06:13,210
+Jackson: like theorized by like, what do they call those people, deep academics basically, and
 
 89
-00:07:26,160 --> 00:07:28,000
-Tyler: good at it. And previously, those 10 people's time was like, they couldn't look at every
+00:06:13,210 --> 00:06:15,000
+Jackson: they're not well battle tested.
 
 90
-00:07:28,000 --> 00:07:28,000
-Tyler: single algorithm that ever existed and spend an exhaustive amount of time on it.
+00:06:15,000 --> 00:06:21,270
+Jackson: So maybe this is like a way for anthropic deflects their model, but it actually doesn't
 
 91
-00:07:29,000 --> 00:07:33,440
-Tyler: And then they can do like a new mythos and have it spend like 20 hours thinking about
+00:06:21,270 --> 00:06:27,570
+Jackson: imply that because methods can crack this cryptography algorithm that is quantum safe
 
 92
-00:07:33,440 --> 00:07:38,040
-Tyler: these and it's very cheap to do that. So I think, you know, in theory, this should just
+00:06:27,570 --> 00:06:34,030
+Jackson: that they can crack non quantum safe and potentially other quantum safe algorithms, which
 
 93
-00:07:38,040 --> 00:07:42,610
-Tyler: make everything better if you have like a good actor that is scrutinizing this with like
+00:06:34,030 --> 00:06:38,000
+Jackson: is like what you think when you read the article.
 
 94
-00:07:42,610 --> 00:07:47,160
-Tyler: very intelligent systems and then, you know, responsibly disclosing and that kind of
+00:06:38,000 --> 00:06:42,500
+Tyler: Yeah, people probably think like quantum safe, that must be the highest level of safety.
 
 95
-00:07:47,160 --> 00:07:48,000
-Tyler: stuff.
+00:06:42,500 --> 00:06:47,000
+Tyler: And if it can beat that, then all the stuff that's kind of like below it is vulnerable.
 
 96
-00:07:49,000 --> 00:07:52,560
-Tyler: Like, I think that's a better world than having a bunch of vulnerabilities in the wild,
+00:06:47,000 --> 00:06:51,940
+Tyler: But that isn't the case. It's like quantum safe just means it's safe against Shor's
 
 97
-00:07:52,560 --> 00:07:56,000
-Tyler: even if people are like not sophisticated enough to find them.
+00:06:51,940 --> 00:06:58,400
+Tyler: algorithm. But there can be a classical vulnerability in it, whereas like classic elliptic
 
 98
-00:07:57,000 --> 00:08:01,320
-Chris: If the defenders can get past the model guardrails, then yes, we have a better world. But
+00:06:58,400 --> 00:07:03,000
+Tyler: curve cryptography is vulnerable to quantum computers.
 
 99
-00:08:01,320 --> 00:08:06,890
-Chris: if they cannot, then, I mean, question mark. And I look, I have something to say about
+00:07:03,000 --> 00:07:09,350
+Tyler: We know that, but nobody's found a classic vulnerability to it. And my kind of point was
 
 100
-00:08:06,890 --> 00:08:08,000
-Chris: that, but I won't.
+00:07:09,350 --> 00:07:14,350
+Tyler: that like, I don't know, what are there like 10 people in the world who can find
 
 101
-00:08:09,000 --> 00:08:14,310
-Tyler: And if there's another segment, I will. But I think you should, I mean, you, you, you've
+00:07:14,350 --> 00:07:20,000
+Tyler: vulnerabilities in these quantum cryptography algorithms that are really good at it?
 
 102
-00:08:14,310 --> 00:08:19,000
-Tyler: just let me, you know, bother on. So I think we want to hear some Chris takes here.
+00:07:20,000 --> 00:07:24,620
+Tyler: And now we have like mythos is really good at it. And maybe like GPT, whatever is really
 
 103
-00:08:20,000 --> 00:08:30,940
-Chris: Yeah, I totally agree with you. But I mean, so one thing that I found interesting about
+00:07:24,620 --> 00:07:29,700
+Tyler: good at it. And previously, those 10 people's time was like, they couldn't look at every
 
 104
-00:08:30,940 --> 00:08:36,000
-Chris: the incident that Jackson spoke about on the last pod, which was the
+00:07:29,700 --> 00:07:35,000
+Tyler: single algorithm that ever existed and spend an exhaustive amount of time on it.
 
 105
-00:08:37,000 --> 00:08:42,650
-Chris: GPT model escaping its container and hacking Hugging Face. So Hugging Face published the
+00:07:35,000 --> 00:07:39,650
+Tyler: Like spin up a new mythos and have it spend like 20 hours thinking about these and it's
 
 106
-00:08:42,650 --> 00:08:48,190
-Chris: post-mortem and in it, I saw that they obviously there's an agent in their system wreaking
+00:07:39,650 --> 00:07:44,470
+Tyler: very cheap to do that. So I think, you know, in theory, this should just make everything
 
 107
-00:08:48,190 --> 00:08:51,000
-Chris: havoc. So they need an agent to defend themselves.
+00:07:44,470 --> 00:07:49,140
+Tyler: better if you have like a good actor that is scrutinizing this with like very intelligent
 
 108
-00:08:52,000 --> 00:08:54,460
-Chris: And I think that's how this is going to look for the foreseeable. And they tried to get
+00:07:49,140 --> 00:07:54,000
+Tyler: systems and then, you know, responsibly disclosing and that kind of stuff.
 
 109
-00:08:54,460 --> 00:09:00,000
-Chris: Opus 4.8 to basically go through their systems and work out what was going on.
+00:07:54,000 --> 00:07:58,560
+Tyler: Like, I think that's a better world than having a bunch of vulnerabilities in the wild,
 
 110
-00:09:01,000 --> 00:09:05,880
-Chris: So they had to use Guardrail every single time. So they had to use GLM 5.2, which is an
+00:07:58,560 --> 00:08:02,000
+Tyler: even if people are like not sophisticated enough to find them.
 
 111
-00:09:05,880 --> 00:09:10,000
-Chris: open source model from I believe it is it ZAI or Moonshot? I think it's ZAI.
+00:08:02,000 --> 00:08:06,870
+Chris: I mean, this is if the defenders can get past the model guardrails, then yes, we have a
 
 112
-00:09:11,000 --> 00:09:12,000
-Chris: First.
+00:08:06,870 --> 00:08:12,420
+Chris: better world. But if they cannot, then I mean, question mark, and I look, I have
 
 113
-00:09:13,000 --> 00:09:18,080
-Chris: So I mean, like we were in this uncomfortable position where the defenders, unless they
+00:08:12,420 --> 00:08:15,000
+Chris: something to say about that, but I won't.
 
 114
-00:09:18,080 --> 00:09:22,820
-Chris: have like a really good relationship with the labs or they have like a special access
+00:08:15,000 --> 00:08:21,270
+Tyler: And if there's another segment, I will, but you shouldn't say, I mean, you, you, you've
 
 115
-00:09:22,820 --> 00:09:28,080
-Chris: program, are kind of defenseless. Like they're grasping at whatever tools they can get to
+00:08:21,270 --> 00:08:26,000
+Tyler: just let me, you know, bother on. So I think we want to hear some Chris takes here.
 
 116
-00:09:28,080 --> 00:09:31,000
-Chris: kind of defend themselves against these adversarial threats.
+00:08:26,000 --> 00:08:32,000
+Chris: Yeah, I like I totally agree with you.
 
 117
-00:09:32,000 --> 00:09:36,390
-Chris: And I think, you know, that probably only gets worse unless we work out what we're doing
+00:08:32,000 --> 00:08:40,340
+Chris: But I mean, so one thing that I found interesting about the incident that Jackson spoke
 
 118
-00:09:36,390 --> 00:09:38,000
-Chris: with the guardrails.
+00:08:40,340 --> 00:08:46,150
+Chris: about on the last part, which was the GPT model escaping its container and hacking
 
 119
-00:09:39,000 --> 00:09:44,490
-Chris: And I've personally had similar problems, like I write smart contracts and it is
+00:08:46,150 --> 00:08:47,000
+Chris: hugging face.
 
 120
-00:09:44,490 --> 00:09:49,790
-Chris: impossible to get an audit for your smart contract using the frontier models or very,
+00:08:47,000 --> 00:08:51,690
+Chris: So hugging face published the postmortem and in it, I saw that they obviously so
 
 121
-00:09:49,790 --> 00:09:52,000
-Chris: very, very difficult.
+00:08:51,690 --> 00:08:56,590
+Chris: obviously there's an agent in their system wreaking havoc, so they need an agent to
 
 122
-00:09:53,000 --> 00:09:56,900
-Chris: And it just puts you in this awkward position of being like, okay, like, you know, maybe
+00:08:56,590 --> 00:08:58,000
+Chris: defend themselves.
 
 123
-00:09:56,900 --> 00:10:01,680
-Chris: there is a vulnerability here that maybe even a human auditor would miss, but I can't
+00:08:58,000 --> 00:09:02,550
+Chris: And I think that's how this is going to look for the foreseeable and they tried to get Opus
 
 124
-00:10:01,680 --> 00:10:08,000
-Chris: find it because Fable thinks I'm trying to steal $15 billion, which I'm not.
+00:09:02,550 --> 00:09:07,000
+Chris: 4.8 to basically go through their systems and work out what was going on.
 
 125
-00:10:10,000 --> 00:10:15,850
-Jackson: Yeah. Are we all like super like libertarian on the guardrails? Do we all feel like there
+00:09:07,000 --> 00:09:12,600
+Chris: And they got guardrailed every single time. So they had to use GLM 5.2, which is an open
 
 126
-00:10:15,850 --> 00:10:22,000
-Jackson: shouldn't be no guardrails or is that just me in my opinion alone?
+00:09:12,600 --> 00:09:18,000
+Chris: source model from I believe it is it Z.A.I. or moonshot. I think Z.A.I.
 
 127
-00:10:23,000 --> 00:10:24,000
-Chris: Is that your feeling, Jackson?
+00:09:18,000 --> 00:09:19,000
+Chris: First.
 
 128
-00:10:25,000 --> 00:10:33,110
-Jackson: Yeah. I mean, why should Anthropic and the government have access to a tool that is way
+00:09:19,000 --> 00:09:24,590
+Chris: So so I mean, like we were in this uncomfortable position where the defenders, unless
 
 129
-00:10:33,110 --> 00:10:40,270
-Jackson: more powerful than like any tool I'm allowed to have? That feels unfair. I guess you
+00:09:24,590 --> 00:09:29,820
+Chris: they have like a really good relationship with the labs or they have like a special
 
 130
-00:10:40,270 --> 00:10:41,000
-Jackson: could say.
+00:09:29,820 --> 00:09:35,500
+Chris: access program, a kind of defenseless like they're grasping at whatever tools they can
 
 131
-00:10:42,000 --> 00:10:57,710
-Tyler: Yeah, I guess that's true. What if I can train my F-16 on an existing F-16, then is that
+00:09:35,500 --> 00:09:38,000
+Chris: get to kind of defend themselves against these adversarial threats.
 
 132
-00:10:57,710 --> 00:11:00,000
-Chris: okay? Like by having an F-16?
+00:09:38,000 --> 00:09:43,390
+Chris: And I think, you know, that probably only gets worse unless we work out what we're doing
 
 133
-00:11:01,000 --> 00:11:05,000
-Chris: I mean, that's the question. Like, what's the morality of that?
+00:09:43,390 --> 00:09:45,000
+Chris: with the guardrails.
 
 134
-00:11:06,000 --> 00:11:12,700
-Jackson: I accept your metaphor, and I guess it is similar to like the government wielding power
+00:09:45,000 --> 00:09:50,440
+Chris: And I've personally had similar problems, like I write smart contracts and it is
 
 135
-00:11:12,700 --> 00:11:19,740
-Jackson: over you through like the weapons that it has that you don't have. It's also scooping up
+00:09:50,440 --> 00:09:56,200
+Chris: impossible to get an audit for your smart contract using the frontier models or very,
 
 136
-00:11:19,740 --> 00:11:25,000
-Jackson: the power of these intelligence models and wielding it against us as well.
+00:09:56,200 --> 00:09:58,000
+Chris: very, very difficult.
 
 137
-00:11:26,000 --> 00:11:30,520
-Jackson: I don't know. I guess it's just a different form of weapon that now that they have over
+00:09:58,000 --> 00:10:07,630
+Chris: And it just puts you in this awkward position of being like, OK, like, you know, maybe
 
 138
-00:11:30,520 --> 00:11:31,000
-Jackson: us.
+00:10:07,630 --> 00:10:16,000
+Chris: there is a vulnerability here that maybe even a human auditor would miss. But I can't
 
 139
-00:11:32,000 --> 00:11:36,790
-Tyler: I mean, I think it's a pretty... I don't think that there's like a clear answer from my
+00:10:16,000 --> 00:10:16,000
+Chris: find it because Fable thinks I'm trying to steal 15 billion dollars, which I'm not.
 
 140
-00:11:36,790 --> 00:11:42,000
-Tyler: perspective because I'm definitely more aligned on like less restrictions, more freedoms.
+00:10:16,000 --> 00:10:23,380
+Jackson: Yeah. Are we all like super like libertarian on the guardrails? Do we all feel like there
 
 141
-00:11:42,000 --> 00:11:48,000
-Tyler: People should have access openly to the frontier stuff. Like, that's great.
+00:10:23,380 --> 00:10:29,000
+Jackson: should be no guardrails or is that just me, in my opinion, alone?
 
 142
-00:11:49,000 --> 00:11:55,320
-Tyler: But then I think that if you hear some of the anthropic arguments, they're really worried
+00:10:29,000 --> 00:10:31,000
+Chris: Is that your feeling, Jackson?
 
 143
-00:11:55,320 --> 00:12:01,740
-Tyler: about like bioterrorism. And my understanding is that if you have a fable or mythos class
+00:10:31,000 --> 00:10:40,100
+Jackson: Yeah, I mean, why should Anthropic and the government have access to a tool that is way
 
 144
-00:12:01,740 --> 00:12:09,090
-Tyler: model with no restrictions, the model is intelligent enough to tell you how to create a
+00:10:40,100 --> 00:10:46,000
+Jackson: more powerful than like any tool I'm allowed to have? That feels unfair.
 
 145
-00:12:09,090 --> 00:12:13,000
-Tyler: pathogen at home that could create a pandemic or something.
+00:10:46,000 --> 00:10:52,980
+Tyler: I guess you could say that the tool, I don't know, like you are like it isn't a human
 
 146
-00:12:14,000 --> 00:12:18,790
-Tyler: So all it takes is like one sicko, terrible person out in the world with access to this
+00:10:52,980 --> 00:10:57,000
+Tyler: right that you have access to like at F-16.
 
 147
-00:12:18,790 --> 00:12:23,000
-Tyler: to like cause really, really terrible outcomes for the whole globe.
+00:10:57,000 --> 00:11:01,000
+Jackson: Right. Yeah. Or like it's like a citizen. Yeah, I guess that's true.
 
 148
-00:12:24,000 --> 00:12:33,410
-Tyler: And so there is a symmetry there between attacking and defending. And yeah, what's the
+00:11:01,000 --> 00:11:06,000
+Chris: What if I can train my F-16 on an existing F-16? Then is that OK?
 
 149
-00:12:33,410 --> 00:12:42,330
-Tyler: right move there? I think it feels right to not deliver that capability to anyone in the
+00:11:06,000 --> 00:11:09,000
+Chris: Like by having all the F-16.
 
 150
-00:12:42,330 --> 00:12:45,000
-Tyler: world unrestricted.
+00:11:09,000 --> 00:11:14,000
+Chris: I mean, that's the question. Like, what's the morality of that?
 
 151
-00:12:46,000 --> 00:12:51,440
-Tyler: But then like, so that means, okay, I have a line somewhere and maybe my line, you know,
+00:11:14,000 --> 00:11:20,230
+Jackson: I accept your metaphor. And I guess it is similar to like the government wielding power
 
 152
-00:12:51,440 --> 00:12:56,340
-Tyler: bioterrorism is on one side of my line. But like, where does that line actually sit? Does
+00:11:20,230 --> 00:11:25,000
+Jackson: over you through like the weapons that it has that you don't have.
 
 153
-00:12:56,340 --> 00:13:01,170
-Tyler: it sit with like cryptography or cyber or like, you know, do I think those things should
+00:11:25,000 --> 00:11:31,880
+Jackson: But it's also scooping up the power of these intelligence models and wielding it against
 
 154
-00:13:01,170 --> 00:13:02,000
-Tyler: be blocked or included?
+00:11:31,880 --> 00:11:34,000
+Jackson: us as well. I don't know.
 
 155
-00:13:03,000 --> 00:13:09,450
-Tyler: And certainly the classifiers that were on fable originally were like extremely comical
+00:11:34,000 --> 00:11:40,000
+Jackson: I guess it's just a different form of weapon that now that they have over us.
 
 156
-00:13:09,450 --> 00:13:15,540
-Tyler: and the like, you know, level of false positives that they would have where it would
+00:11:40,000 --> 00:11:43,910
+Tyler: I mean, I think it's a pretty I don't think that there's like a clear answer from my
 
 157
-00:13:15,540 --> 00:13:22,030
-Tyler: refuse to do like basic stuff like it refused to tell me about my dog's medicine because
+00:11:43,910 --> 00:11:49,000
+Tyler: perspective because I'm definitely more aligned on like less restrictions, more freedoms.
 
 158
-00:13:22,030 --> 00:13:23,000
-Tyler: it was like a biology question.
+00:11:49,000 --> 00:11:55,750
+Tyler: People should have access openly to the frontier stuff like that's great. But then I
 
 159
-00:13:24,000 --> 00:13:28,200
-Tyler: And I'm like, I just want to know like what the right medicine is for when he got
+00:11:55,750 --> 00:12:01,430
+Tyler: think that if you hear some of the anthropic arguments, like there's they're really
 
 160
-00:13:28,200 --> 00:13:30,000
-Tyler: poisoned by mushrooms.
+00:12:01,430 --> 00:12:04,000
+Tyler: worried about like bioterrorism.
 
 161
-00:13:31,000 --> 00:13:37,230
-Chris: I think one thing I wonder about is like what is like at this point, like what is the
+00:12:04,000 --> 00:12:09,830
+Tyler: And like my understanding is that if you have like a fable or mythos class model with no
 
 162
-00:13:37,230 --> 00:13:43,780
-Chris: time until there is an open source fable or mythos level model, right? And then like it,
+00:12:09,830 --> 00:12:15,720
+Tyler: restrictions, you could like the model is intelligent enough to like tell you how to
 
 163
-00:13:43,780 --> 00:13:49,000
-Chris: you know, if you take that concession, like then maybe that changes what the best thing
+00:12:15,720 --> 00:12:20,000
+Tyler: create a pathogen at home that could like create a pandemic or something.
 
 164
-00:13:49,000 --> 00:13:50,000
-Chris: you can do is, right?
+00:12:20,000 --> 00:12:25,420
+Tyler: So all it takes is like one sicko terrible person out in the world with access to this to
 
 165
-00:13:51,000 --> 00:13:55,870
-Chris: Like six months away from having like a GLM or Kimmy that is, you know, mythos in all but
+00:12:25,420 --> 00:12:30,000
+Tyler: like cause really, really terrible outcomes for the whole globe.
 
 166
-00:13:55,870 --> 00:14:01,000
-Chris: name, like, how does that change? Oh, you know, what is the right thing to do? Like,
+00:12:30,000 --> 00:12:36,000
+Tyler: And so like there is a symmetry there between attacking and defending.
 
 167
-00:14:01,000 --> 00:14:01,000
-Chris: should we?
+00:12:36,000 --> 00:12:43,000
+Tyler: And yeah, like what's the right move there? Like I think it feels right to like not
 
 168
-00:14:02,000 --> 00:14:08,410
-Tyler: I think the actual like the 3D chess that's happening here is that to some extent, the
+00:12:43,000 --> 00:12:50,400
+Tyler: deliver that capability to like any anyone in the world unrestricted. But then like so
 
 169
-00:14:08,410 --> 00:14:15,610
-Tyler: like the fact that fable won't do like cybersecurity thinking for you, Chris, it's like,
+00:12:50,400 --> 00:12:58,140
+Tyler: that means, okay, I have a line somewhere and maybe my line, you know, bioterrorism is on
 
 170
-00:14:15,610 --> 00:14:20,000
-Tyler: okay, maybe they don't want you to have that, but they really don't want the Chinese to
+00:12:58,140 --> 00:13:00,000
+Tyler: one side of my line.
 
 171
-00:14:20,000 --> 00:14:20,000
-Tyler: do that.
+00:13:00,000 --> 00:13:05,630
+Tyler: Where does that line actually sit? Does it sit with like cryptography or cyber or like,
 
 172
-00:14:21,000 --> 00:14:25,970
-Tyler: They want the Chinese labs to have that output and then distill from it. So I think part
+00:13:05,630 --> 00:13:10,000
+Tyler: you know, do I think those things should be blocked or included?
 
 173
-00:14:25,970 --> 00:14:31,790
-Tyler: of the 3D chess is that they want to make their models basically either dumb or return
+00:13:10,000 --> 00:13:16,040
+Tyler: And certainly the classifiers that were on fable originally were like extremely comical
 
 174
-00:14:31,790 --> 00:14:36,000
-Tyler: kind of like empty, you know, refusals for these tasks.
+00:13:16,040 --> 00:13:21,800
+Tyler: and the like, you know, level of false positives that they would have where it would
 
 175
-00:14:37,000 --> 00:14:39,640
-Tyler: And then they're like, okay, as long as somebody's distilling us, maybe their model will
+00:13:21,800 --> 00:13:27,630
+Tyler: refuse to do like basic stuff like it refused to tell me about my dog's medicine because
 
 176
-00:14:39,640 --> 00:14:43,790
-Tyler: be really good at generalist coding, that's fine. But we're not going to let them distill
+00:13:27,630 --> 00:13:30,000
+Tyler: it was like a biology question.
 
 177
-00:14:43,790 --> 00:14:47,000
-Tyler: like the cyber capabilities, the bioterrorism capabilities.
+00:13:30,000 --> 00:13:35,880
+Tyler: And I'm like, I don't I just want to know like what the right medicine is for when he got
 
 178
-00:14:48,000 --> 00:14:52,620
-Tyler: It's like, you know, this is an open model that is as smart at coding as fable, it's
+00:13:35,880 --> 00:13:38,000
+Tyler: poisoned by mushrooms.
 
 179
-00:14:52,620 --> 00:14:57,560
-Tyler: going to have these like potentially big gaps because it didn't get, you know, that and
+00:13:38,000 --> 00:13:44,230
+Chris: I think one thing I wonder about is like what is like at this point, like what is the
 
 180
-00:14:57,560 --> 00:14:59,000
-Tyler: it's training data.
+00:13:44,230 --> 00:13:50,000
+Chris: time until there is an open source fable or mythos level model, right?
 
 181
-00:15:00,000 --> 00:15:04,400
-Tyler: And like potentially, you know, there's enough generalization from having a model or an
+00:13:50,000 --> 00:13:57,440
+Chris: And then like, you know, if you take that concession, like then maybe that changes what
 
 182
-00:15:04,400 --> 00:15:10,000
-Tyler: agent that's super, super good at coding that like it just becomes really good at cyber.
+00:13:57,440 --> 00:14:04,370
+Chris: the best thing you can do is right. Like if we're if we're six, six months away from
 
 183
-00:15:11,000 --> 00:15:16,000
-Tyler: They're having these classifiers, it's like to prevent you from misusing it, but also to
+00:14:04,370 --> 00:14:11,490
+Chris: having like a GLM or Kimmy that is, you know, mythos in all that name, like, how does
 
 184
-00:15:16,000 --> 00:15:20,950
-Tyler: prevent that capability from leaking through distillation reasoning traces into these
+00:14:11,490 --> 00:14:13,000
+Tyler: that change?
 
 185
-00:15:20,950 --> 00:15:22,000
-Tyler: open models.
+00:14:13,000 --> 00:14:23,000
+Tyler: Like the fact that fable won't do like cybersecurity thinking for you, Chris, it's like,
 
 186
-00:15:23,000 --> 00:15:27,890
-Jackson: Yeah, I mean, you've totally flipped me now, Tyler. Now I'm like scared that if the
+00:14:23,000 --> 00:14:28,340
+Tyler: okay, maybe they don't want you to have that, but they really don't want the Chinese labs
 
 187
-00:15:27,890 --> 00:15:35,000
-Jackson: models were open, that people would kill me. So now I want them to be restricted, I guess.
+00:14:28,340 --> 00:14:32,000
+Tyler: to have that output and then distill from it.
 
 188
-00:15:36,000 --> 00:15:41,200
-Tyler: I mean, you know, like the internet beam, it's like, how do you want to control this
+00:14:32,000 --> 00:14:37,840
+Tyler: And I think part of the 3D chess is that they want to make their models basically either
 
 189
-00:15:41,200 --> 00:15:46,770
-Tyler: technology? Do you want to use terrorism or like child abuse, you know, and like I feel
+00:14:37,840 --> 00:14:43,450
+Tyler: dumb or return kind of like empty, you know, refusals for these tasks. And then they're
 
 190
-00:15:46,770 --> 00:15:51,000
-Tyler: like a little bit like pulling back that lever by being like bioterrorism.
+00:14:43,450 --> 00:14:46,540
+Tyler: like, okay, as long as somebody's distilling us, maybe their model will be really good at
 
 191
-00:15:52,000 --> 00:16:02,840
-Tyler: So yeah, I feel like that's usually the things that people go to to justify this type of
+00:14:46,540 --> 00:14:47,000
+Jackson: generalist coding.
 
 192
-00:16:02,840 --> 00:16:06,000
-Tyler: additional control. I don't know, it's a difficult question.
+00:14:47,000 --> 00:14:53,160
+Tyler: That's fine. But we're not going to let them distill like the cyber capabilities, the bioterrorism
 
 193
-00:16:07,000 --> 00:16:13,340
-Jackson: Now that Chris says that there's going to be mythos level open source model in six months,
+00:14:53,160 --> 00:14:58,630
+Tyler: capabilities. And then if there is an open model that is as smart at coding as fable, it's
 
 194
-00:16:13,340 --> 00:16:19,160
-Jackson: does that mean we're all going to die? Not from the robots, but because of human
+00:14:58,630 --> 00:15:04,310
+Tyler: going to have these like potentially big gaps because it didn't get, you know, that and
 
 195
-00:16:19,160 --> 00:16:25,000
-Jackson: generated pathogens from a nefarious edgy 14 year old living in Colorado?
+00:15:04,310 --> 00:15:06,000
+Tyler: it's training data.
 
 196
-00:16:26,000 --> 00:16:31,850
-Tyler: I hope not. I mean, that's when, yeah, I don't know what the, what the, how you protect
+00:15:06,000 --> 00:15:11,400
+Tyler: And like potentially, you know, there's enough generalization from having a model or an
 
 197
-00:16:31,850 --> 00:16:37,830
-Tyler: against that. If that type of capability is diffused and it only takes like one motivated
+00:15:11,400 --> 00:15:17,000
+Tyler: agent that's super, super good at coding that like it just becomes really good at cyber.
 
 198
-00:16:37,830 --> 00:16:43,000
-Tyler: bad actor, then yeah.
+00:15:17,000 --> 00:15:21,000
+Tyler: But like, I think that it is part of their having these classifiers.
 
 199
-00:16:44,000 --> 00:16:50,590
-Jackson: Does that mean we all need to like have our own agents developing anti pathogens
+00:15:21,000 --> 00:15:25,670
+Tyler: It's like to prevent you from misusing it, but also to prevent that capability from
 
 200
-00:16:50,590 --> 00:16:56,850
-Jackson: monitoring what pathogens are being developed and give me the CRISPR agent, like I'm
+00:15:25,670 --> 00:15:30,000
+Tyler: leaking through distillation reasoning traces into these open models.
 
 201
-00:16:56,850 --> 00:17:02,000
-Chris: built different. I'll work it out. I'll figure it out. Just give me that.
+00:15:30,000 --> 00:15:35,840
+Jackson: Yeah, I mean, you've totally flipped me now, Tyler. Now I'm like scared that if the
 
 202
-00:17:03,000 --> 00:17:08,660
-Jackson: Yeah. Wow. Well yeah. Thanks again for the insight on the guardrails. I was like, these
+00:15:35,840 --> 00:15:42,000
+Jackson: models were open that people would kill me. So now I want them to be restricted, I guess.
 
 203
-00:17:08,660 --> 00:17:14,330
-Jackson: guardrails are stupid. I just hate being told what to do, but I think you're right. There
+00:15:42,000 --> 00:15:47,760
+Tyler: I mean, you know, like the internet beam, it's like, how do you want to control this
 
 204
-00:17:14,330 --> 00:17:17,000
-Jackson: probably needs to be some, some guardrails.
+00:15:47,760 --> 00:15:53,760
+Tyler: technology? Do you want to use terrorism or like child abuse, you know, and like I feel
 
 205
-00:17:18,000 --> 00:17:22,150
-Tyler: And I'm not like super pro guardrail. I'm just kind of like steel manning the case a
+00:15:53,760 --> 00:15:59,000
+Tyler: like a little bit like pulling back that lever by being like bioterrorism.
 
 206
-00:17:22,150 --> 00:17:26,110
-Tyler: little bit here and why I think it makes sense. Like they don't want their model
+00:15:59,000 --> 00:16:08,410
+Tyler: So yeah, I feel like that's usually the things that people go to to justify this type of
 
 207
-00:17:26,110 --> 00:17:30,160
-Tyler: distilled. So they make it. They don't provide that capability. And then they're
+00:16:08,410 --> 00:16:11,000
+Tyler: additional control.
 
 208
-00:17:30,160 --> 00:17:34,000
-Tyler: obviously worried about it being used for bad actions, but
+00:16:11,000 --> 00:16:13,000
+Tyler: I don't know. It's a difficult question.
 
 209
-00:17:35,000 --> 00:17:40,850
-Tyler: you don't know where I come down on this, but I'm not like a hundred percent like free
+00:16:13,000 --> 00:16:18,220
+Jackson: So now that Chris says that there's going to be mythos level open source model in six
 
 210
-00:17:40,850 --> 00:17:46,760
-Tyler: unrestricted model person, I think because of that, but I'm also probably less
+00:16:18,220 --> 00:16:24,170
+Jackson: months. Does that mean we're all going to die? Not from the robots, but because of human
 
 211
-00:17:46,760 --> 00:17:52,000
-Tyler: restrictive than a lot of the policies that you see right now.
+00:16:24,170 --> 00:16:33,000
+Jackson: generated pathogens from a nefarious edgy 14 year old living in Colorado.
 
 212
-00:17:53,000 --> 00:17:58,990
-Chris: I just want to say to any anthropic or open AI listeners that I can be trusted with Glasswing
+00:16:33,000 --> 00:16:39,650
+Tyler: I hope not. I mean, that's when, yeah, I don't know what the, what the, how you protect
 
 213
-00:17:58,990 --> 00:18:05,490
-Chris: or GPT-6. I really, really need it. So like, you know, shouts out to you guys. If you, if
+00:16:39,650 --> 00:16:45,190
+Tyler: against that. If that type of capability is diffused and it only takes like one motivated
 
 214
-00:18:05,490 --> 00:18:11,000
-Chris: you want to hook me up, you know, I'd be, I'd be very happy only for auditing purposes.
+00:16:45,190 --> 00:16:51,000
+Tyler: bad actor, then yeah.
 
 215
-00:18:11,000 --> 00:18:12,000
-Chris: Just to be clear.
+00:16:51,000 --> 00:16:56,850
+Jackson: Does that mean we all need to like have our own agents developing anti pathogens
 
 216
-00:18:13,000 --> 00:18:20,500
-Jackson: Open AI, you better give me early access to GPT-6 because otherwise I'm not taking back
+00:16:56,850 --> 00:17:03,000
+Jackson: monitoring what pathogens are being developed and give me the CRISPR agent.
 
 217
-00:18:20,500 --> 00:18:28,050
-Jackson: all the shit I've talked about 5.6 and open AI in general. The thread is out by myself. I
+00:17:03,000 --> 00:17:10,000
+Chris: Like I'm built different. I'll work it out. I'll figure it out. Just give me that.
 
 218
-00:18:28,050 --> 00:18:34,220
-Chris: think I can like barely carry a third of it. So just massive props for, yeah, for keeping
+00:17:10,000 --> 00:17:22,210
+Jackson: Yeah. Wow. Well yeah. Thanks again for the insight on the guardrails. I was like, these
 
 219
-00:18:34,220 --> 00:18:35,000
-Chris: it going.
+00:17:22,210 --> 00:17:23,310
+Jackson: guardrails are stupid. I just hate being told what to do, but I think you're right. There
 
 220
-00:18:36,000 --> 00:18:41,250
-Jackson: We're all a critical piece of this three legged stool that we call the podcast. Speaking
+00:17:23,310 --> 00:17:24,000
+Jackson: probably needs to be some, some guardrails.
 
 221
-00:18:41,250 --> 00:18:46,370
-Jackson: of stools, Chris, what's going on with the gamer thumb and how was your week away from
+00:17:24,000 --> 00:17:27,440
+Tyler: Yeah, totally sucks. And I'm not like super pro guardrail. I'm just kind of like steel
 
 222
-00:18:46,370 --> 00:18:47,000
-Jackson: the pod?
+00:17:27,440 --> 00:17:31,000
+Tyler: manning the case a little bit here and why I think it makes sense.
 
 223
-00:18:48,000 --> 00:18:54,860
-Chris: Yeah, I mean, so my week away from the pod was good. I was in Australia. It was very cold.
+00:17:31,000 --> 00:17:35,200
+Tyler: Like they don't want their model distilled. So they make it, um, they don't, you know,
 
 224
-00:18:54,860 --> 00:19:00,740
-Chris: But what it did give me is a chance to recover. So like, I didn't do a lot of typing
+00:17:35,200 --> 00:17:39,330
+Tyler: provide that capability. And then they're obviously worried about it being used for bad
 
 225
-00:19:00,740 --> 00:19:09,760
-Chris: whilst I was there. And, and yeah, I still have gamer thumb. So I don't want to call you
+00:17:39,330 --> 00:17:46,000
+Tyler: actions, but you don't know where I'm down on this, but I'm not like a hundred percent,
 
 226
-00:19:09,760 --> 00:19:11,000
-Chris: on. Yeah.
+00:17:46,000 --> 00:17:49,000
+Tyler: uh, like free unrestricted model person.
 
 227
-00:19:12,000 --> 00:19:19,490
-Tyler: When you were there. Absolutely not. No gaming. Okay, full rest for the thumb. Yeah. Full
+00:17:49,000 --> 00:17:57,110
+Tyler: I think because of that, but I'm also probably less restrictive than a lot of the
 
 228
-00:19:19,490 --> 00:19:20,000
-Tyler: use your phone. Were you like phone typing?
+00:17:57,110 --> 00:18:00,000
+Tyler: policies that you see right now.
 
 229
-00:19:21,000 --> 00:19:25,930
-Chris: Yeah, a little bit. I did deliver the phone. That could be it. Were you wearing your
+00:18:00,000 --> 00:18:05,850
+Chris: I just want to say to any anthropic or open AI, uh, listeners that, uh, I can be trusted
 
 230
-00:19:25,930 --> 00:19:31,420
-Chris: brace the whole time? No, I didn't wear the brace at all. So like, I obviously have a
+00:18:05,850 --> 00:18:11,330
+Chris: with glass wing or GPT six. Um, I really, really need it. So like, you know, shouts out
 
 231
-00:19:31,420 --> 00:19:33,000
-Chris: compliance issue with that thing.
+00:18:11,330 --> 00:18:16,750
+Chris: to you guys. If you, if you want to hook me up, you know, I'd be, I'd be very happy only
 
 232
-00:19:34,000 --> 00:19:38,390
-Chris: What I did hold. So a lot of my friends have children. I did hold a lot of babies and
+00:18:16,750 --> 00:18:18,000
+Chris: for auditing purposes.
 
 233
-00:19:38,390 --> 00:19:43,060
-Chris: they told me that babies create game a thumb like because you're like shaking them around
+00:18:18,000 --> 00:18:24,700
+Jackson: Just to be clear. Open AI, you better give me early access to GPT six because otherwise I'm
 
 234
-00:19:43,060 --> 00:19:46,000
-Chris: and stuff. Also, I don't know how babies work.
+00:18:24,700 --> 00:18:32,000
+Jackson: not taking back all the shit I've talked about 5.6 and open AI general.
 
 235
-00:19:47,000 --> 00:19:51,870
-Tyler: You're not supposed to shake a baby. That's like the thing they have on PSAs for, you
+00:18:32,000 --> 00:18:38,140
+Jackson: The thread is out. We're all a critical piece of this three legged stool that we call the
 
 236
-00:19:51,870 --> 00:19:57,780
-Tyler: know, public health. But yeah, you do get like hand and wrist pain from holding babies
+00:18:38,140 --> 00:18:45,010
+Jackson: podcast. Speaking of stools, Chris, what's going on with the gamer thumb and how is your
 
 237
-00:19:57,780 --> 00:20:02,630
-Tyler: all the time because they're heavy and they like wiggle and you kind of awkwardly hold
+00:18:45,010 --> 00:18:47,000
+Jackson: week away from the pod?
 
 238
-00:20:02,630 --> 00:20:03,000
-Tyler: them.
+00:18:47,000 --> 00:18:52,810
+Chris: Uh, yeah, I mean, so my week away from the pod was good. Uh, I was in Australia. Uh, it
 
 239
-00:20:04,000 --> 00:20:12,290
-Jackson: Dr. Tyler is back explaining baby thumb. Yeah. Well, when I got wrist surgery to put a
+00:18:52,810 --> 00:18:54,000
+Chris: was very cold.
 
 240
-00:20:12,290 --> 00:20:19,230
-Tyler: screw in my wrist for a broken bone a week before Margot was born, but it was like on her
+00:18:54,000 --> 00:19:00,410
+Chris: Uh, but what it did give me is a chance to recover. So like, I didn't do a lot of typing
 
 241
-00:20:19,230 --> 00:20:20,000
-Tyler: due date.
+00:19:00,410 --> 00:19:07,950
+Chris: whilst I was there. Uh, and, uh, and yeah, I still have game a thumb. So I don't want to
 
 242
-00:20:21,000 --> 00:20:24,070
-Tyler: And so I went into the surgery and I told the surgeon like, if I get a text from my wife
+00:19:07,950 --> 00:19:10,000
+Chris: tell anyone. Yeah.
 
 243
-00:20:24,070 --> 00:20:27,860
-Tyler: that she's going to labor, I'm like calling the surgery off like I don't want it to
+00:19:10,000 --> 00:19:12,000
+Tyler: Did you do any gaming when you were there?
 
 244
-00:20:27,860 --> 00:20:29,000
-Tyler: happen while I'm under.
+00:19:12,000 --> 00:19:18,550
+Chris: Absolutely not. No gaming. Okay. Full rest for the thumb. Yeah. Full use your phone. Were
 
 245
-00:20:30,000 --> 00:20:34,430
-Tyler: And they put me under and then I woke up and my wife picked me up. But then like I had a
+00:19:18,550 --> 00:19:20,000
+Tyler: you like phone typing?
 
 246
-00:20:34,430 --> 00:20:39,410
-Tyler: wrist brace on, I think for the first two to three months of Margot's life, which made it
+00:19:20,000 --> 00:19:24,000
+Chris: Yeah, a little bit. I did deliver the phone. That could be it.
 
 247
-00:20:39,410 --> 00:20:44,000
-Tyler: really difficult to like hold her and like change diapers and all this stuff.
+00:19:24,000 --> 00:19:27,000
+Tyler: Were you wearing your brace the whole time?
 
 248
-00:20:45,000 --> 00:20:49,990
-Tyler: So not the most ideal thing. So Chris, if I can do that for two to three months, your
+00:19:27,000 --> 00:19:31,310
+Chris: No, I didn't wear the brace at all. So like, I obviously have a compliance issue with
 
 249
-00:20:49,990 --> 00:20:55,660
-Tyler: compliance on the gamer thumb brace. I don't know, man. I don't know. I think you need to
+00:19:31,310 --> 00:19:36,000
+Chris: that thing. Um, I, what I did hold. So a lot of my friends have children.
 
 250
-00:20:55,660 --> 00:20:57,000
-Tyler: do it for the good of your health.
+00:19:36,000 --> 00:19:41,150
+Chris: I did hold a lot of babies and they told me that babies create game a thumb, like, cause
 
 251
-00:20:58,000 --> 00:21:02,560
-Chris: And I'm not here to be called out. All right. I'm here for like acceptance. You know,
+00:19:41,150 --> 00:19:45,000
+Chris: you're like shaking them around and stuff. Also, I don't know how babies work.
 
 252
-00:21:02,560 --> 00:21:07,000
-Chris: like I accept your non compliance and inability to fix this very small problem.
+00:19:45,000 --> 00:19:51,200
+Tyler: You're not supposed to shake a baby. That's like the thing they have on PSAs for, you
 
 253
-00:21:08,000 --> 00:21:12,320
-Jackson: What about Tyler? I mean, Tyler, you had problems with that risk for like weeks without
+00:19:51,200 --> 00:19:56,560
+Tyler: know, public health. Um, but yeah, you do get like hand and wrist pain from holding
 
 254
-00:21:12,320 --> 00:21:17,890
-Jackson: even knowing what it was. Right. And you kept grinding two handed back hands on the
+00:19:56,560 --> 00:20:01,750
+Tyler: babies all the time because, uh, they're heavy and they like wiggle and you kind of
 
 255
-00:21:17,890 --> 00:21:19,000
-Jackson: tennis board.
+00:20:01,750 --> 00:20:03,000
+Tyler: awkwardly hold them.
 
 256
-00:21:20,000 --> 00:21:27,000
-Tyler: Yeah. I think I did. I play you, Jackson, while I had a broken wrist. I think so. Yeah.
+00:20:03,000 --> 00:20:07,000
+Jackson: Dr. Tyler is back explaining baby thumb.
 
 257
-00:21:28,000 --> 00:21:32,980
-Tyler: Okay. So I broke my wrist playing tennis and I thought it was just sprained. And then I
+00:20:07,000 --> 00:20:14,500
+Tyler: Yeah. Well, when, uh, I, I got wrist surgery to put a screw in my wrist for a broken bone
 
 258
-00:21:32,980 --> 00:21:38,000
-Tyler: kept like playing tennis for like two weeks after with a broken wrist.
+00:20:14,500 --> 00:20:19,000
+Tyler: a week before Marco was born, but it was like on her due date.
 
 259
-00:21:39,000 --> 00:21:43,610
-Tyler: And it was kept being painful. And then eventually I went to the doctor and got an x-ray
+00:20:19,000 --> 00:20:22,440
+Tyler: And so I went into the surgery and I told the surgeon, like, if, if I get a text from my
 
 260
-00:21:43,610 --> 00:21:49,460
-Tyler: and they revealed that. But yeah, I guess that puts my, you know, I'm throwing stones at
+00:20:22,440 --> 00:20:26,830
+Tyler: wife that she's going to labor, I'm like calling the surgery off. Like, I don't want it
 
 261
-00:21:49,460 --> 00:21:52,000
-Tyler: Chris from my glass house over here.
+00:20:26,830 --> 00:20:28,000
+Tyler: to happen while I'm under.
 
 262
-00:21:53,000 --> 00:21:57,150
-Jackson: Yeah. Or just putting you back, you know. Yeah. Thank you for the backup, Jackson. I
+00:20:28,000 --> 00:20:32,910
+Tyler: Uh, and they put me under and then I woke up and my wife picked me up, but then like I
 
 263
-00:21:57,150 --> 00:22:01,000
-Chris: appreciate that. I was feeling cold cloud a little bit, but we're better now.
+00:20:32,910 --> 00:20:38,370
+Tyler: had a wrist brace on, I think for the first two to three months of Margo's life, which
 
 264
-00:22:02,000 --> 00:22:07,000
-Jackson: Tyler, how was your vacation? How much do you want to do? Did you go anywhere sick?
+00:20:38,370 --> 00:20:43,000
+Tyler: made it really difficult to like hold her and like change diapers and all this stuff.
 
 265
-00:22:08,000 --> 00:22:13,850
-Tyler: We went to New York and the East Coast where I grew up. It was super nice. Lovely summer
+00:20:43,000 --> 00:20:49,260
+Tyler: Um, so not the most ideal thing. So Chris, if I can do that for two to three months, um,
 
 266
-00:22:13,850 --> 00:22:18,790
-Tyler: weather there. Did some swimming with the baby. Saw some old friends, family. Yeah, it
+00:20:49,260 --> 00:20:54,390
+Tyler: your compliance on the gamer thumb brace, I don't know, man. I don't know. I think you
 
 267
-00:22:18,790 --> 00:22:20,000
-Tyler: was lovely.
+00:20:54,390 --> 00:20:56,000
+Tyler: need to do it for the good of your health.
 
 268
-00:22:21,000 --> 00:22:26,580
-Tyler: We have a lot of work with childcare because I got used to daycare a little bit too much,
+00:20:56,000 --> 00:21:01,080
+Chris: Listen, man, I'm not here to be called out. All right. I'm here for like acceptance, you
 
 269
-00:22:26,580 --> 00:22:32,520
-Tyler: that cushy life. And then now we're back in 24/7 childcare mode. And it's just pretty
+00:21:01,080 --> 00:21:07,000
+Chris: know, like I accept your non-compliance and inability to fix this very small problem.
 
 270
-00:22:32,520 --> 00:22:34,000
-Tyler: comprehensive.
+00:21:07,000 --> 00:21:11,880
+Jackson: What about Tyler? I mean, Tyler, you had problems with that risk for like weeks without
 
 271
-00:22:35,000 --> 00:22:39,660
-Tyler: And then actually last night, there's this thing with babies where you're supposed to
+00:21:11,880 --> 00:21:17,520
+Jackson: even knowing what it was, right? And you kept grinding two handed back hands on the
 
 272
-00:22:39,660 --> 00:22:43,910
-Tyler: introduce them to allergens to test if they're allergic to foods. So you give them little
+00:21:17,520 --> 00:21:19,000
+Jackson: tennis board.
 
 273
-00:22:43,910 --> 00:22:46,000
-Tyler: amounts of stuff and then you see what happens.
+00:21:19,000 --> 00:21:27,110
+Tyler: Yeah. I think I, uh, did I play you Jackson while I had a broken wrist? I think so. Yeah.
 
 274
-00:22:47,000 --> 00:22:54,290
-Tyler: So we had to leave my daughter egg. And two hours later, she threw up like seven times
+00:21:27,110 --> 00:21:32,000
+Tyler: Okay. So I broke my wrist playing tennis and I thought it was just sprained.
 
 275
-00:22:54,290 --> 00:22:59,160
-Tyler: all over both me and my wife. It was just like, I don't understand how she had that much
+00:21:32,000 --> 00:21:37,870
+Tyler: And then I kept like, uh, playing tennis for like two weeks after with a broken wrist and
 
 276
-00:22:59,160 --> 00:23:00,000
-Tyler: volume in her stomach.
+00:21:37,870 --> 00:21:43,560
+Tyler: it was kept being painful. And then eventually I went to the doctor and got an x-ray and
 
 277
-00:23:01,000 --> 00:23:05,150
-Tyler: And then she got pretty sick and we ended up taking her to the children's hospital just
+00:21:43,560 --> 00:21:45,000
+Tyler: they revealed that.
 
 278
-00:23:05,150 --> 00:23:10,410
-Tyler: out of an abundance of caution. But it was pretty sad to see. And I spent the whole
+00:21:45,000 --> 00:21:50,020
+Tyler: Um, yeah, I guess that, that puts my, you know, I'm, uh, I'm throwing stones at Chris
 
 279
-00:23:10,410 --> 00:23:13,000
-Tyler: evening covered in puke.
+00:21:50,020 --> 00:21:52,000
+Tyler: from my glass house over here.
 
 280
-00:23:14,000 --> 00:23:19,790
-Tyler: I just drove there without changing or anything. So I just smelled like baby puke for
+00:21:52,000 --> 00:21:55,000
+Jackson: Yeah. We're just putting you back, you know?
 
 281
-00:23:19,790 --> 00:23:25,000
-Tyler: five hours. And then they eventually gave her some good medicine.
+00:21:55,000 --> 00:21:58,580
+Chris: Yeah. Thank you for the backup Jackson. I appreciate that. I was feeling cold cloud a
 
 282
-00:23:26,000 --> 00:23:30,570
-Tyler: And we got home and cleaned up and went to bed. But yeah, a little bit of a harrowing
+00:21:58,580 --> 00:22:01,000
+Jackson: little bit, but we're better now.
 
 283
-00:23:30,570 --> 00:23:34,890
-Tyler: night, but everyone is okay. But it sucks because you can't eat egg now. And eggs are
+00:22:01,000 --> 00:22:06,070
+Jackson: Tyler, how was your vacation? How much, um, toxin do you want to do? Where did you go
 
 284
-00:23:34,890 --> 00:23:36,000
-Jackson: delicious.
+00:22:06,070 --> 00:22:07,000
+Jackson: anywhere say?
 
 285
-00:23:37,000 --> 00:23:44,000
-Jackson: That's true. Does baby puke smell better than human? Like American, pardon me, adult puke?
+00:22:07,000 --> 00:22:11,970
+Tyler: We went to, uh, New York and the East coast where I grew up. Uh, it was super nice,
 
 286
-00:23:45,000 --> 00:23:50,580
-Tyler: I don't think either are particularly great. But yeah, it does have that stomach acid
+00:22:11,970 --> 00:22:17,370
+Tyler: lovely summer weather there. Did some swimming with the baby, saw some old friends,
 
 287
-00:23:50,580 --> 00:23:57,000
-Tyler: kind of bile-like smell that normal puke does. But she's all right.
+00:22:17,370 --> 00:22:18,000
+Tyler: family.
 
 288
-00:23:58,000 --> 00:24:03,120
-Tyler: We just grossed out all of our listeners. So we just dropped off half of them. And the
+00:22:18,000 --> 00:22:23,070
+Tyler: Yeah. It was lovely. A lot of, uh, a lot of work with like childcare because like I got
 
 289
-00:24:03,120 --> 00:24:07,000
-Tyler: only people remaining are the people that love the puke talk.
+00:22:23,070 --> 00:22:28,370
+Tyler: used to daycare a little bit too much that like cushy life. And then now we're back in
 
 290
-00:24:08,000 --> 00:24:19,600
-Jackson: Cool. Well, maybe we can do a quick Tyler, one minute, BIP 110. Is it nothing? Why do I
+00:22:28,370 --> 00:22:30,000
+Tyler: like 24 seven childcare mode.
 
 291
-00:24:19,600 --> 00:24:21,000
-Jackson: hear about it?
+00:22:30,000 --> 00:22:35,110
+Tyler: It's just pretty, uh, pretty comprehensive. And then actually last night, um, there's
 
 292
-00:24:22,000 --> 00:24:27,040
-Tyler: I feel like I'm woefully unprepared for this, because I think it's just so stupid that I've
+00:22:35,110 --> 00:22:39,880
+Tyler: this thing with babies where you're supposed to like introduce them to allergens to like
 
 293
-00:24:27,040 --> 00:24:34,090
-Tyler: referred, I've refused to pay attention to it. And so yeah, it's just like the discourse
+00:22:39,880 --> 00:22:42,000
+Tyler: test if they're allergic to foods.
 
 294
-00:24:34,090 --> 00:24:38,000
-Tyler: I feel like is so just dumb.
+00:22:42,000 --> 00:22:45,520
+Tyler: So you give them like little amounts of stuff and then you see what happens. And so we
 
 295
-00:24:39,000 --> 00:24:41,870
-Tyler: And I'm just tired of it. And I just don't want to pay attention. And I'm not going to do
+00:22:45,520 --> 00:22:48,000
+Tyler: gave my daughter, uh, egg.
 
 296
-00:24:41,870 --> 00:24:46,000
-Tyler: anything about it. And it will probably blow over in a few months.
+00:22:48,000 --> 00:22:53,760
+Tyler: And two hours later, she threw up like seven times all over both me and my wife. It was
 
 297
-00:24:47,000 --> 00:24:53,090
-Tyler: I can try to give you my understanding of it from a very high level, which is that there
+00:22:53,760 --> 00:22:59,430
+Tyler: just like, I don't understand how she had that much volume in her stomach. And then she
 
 298
-00:24:53,090 --> 00:25:00,030
-Tyler: have been people for a while that are very upset that they believe that there's spam,
+00:22:59,430 --> 00:23:01,000
+Tyler: got like pretty sick.
 
 299
-00:25:00,030 --> 00:25:06,300
-Tyler: Bitcoin is being used for spam, which they define as these essentially like NFT kind of
+00:23:01,000 --> 00:23:04,520
+Tyler: And we ended up taking her to the, like the children's hospital just out of like an
 
 300
-00:25:06,300 --> 00:25:08,000
-Tyler: projects, like ordinals and inscriptions.
+00:23:04,520 --> 00:23:10,840
+Tyler: abundance of caution, but it was pretty sad to see. And I spent the whole evening covered
 
 301
-00:25:09,000 --> 00:25:15,670
-Tyler: They want to have the ability to block this spam, block the use of arbitrary data on the
+00:23:10,840 --> 00:23:12,000
+Tyler: in puke.
 
 302
-00:25:15,670 --> 00:25:21,770
-Tyler: blockchain. And so they are like, okay, people are doing spam in this one specific way
+00:23:12,000 --> 00:23:17,040
+Tyler: And then we just drove there without like changing or anything. So I just smelled like
 
 303
-00:25:21,770 --> 00:25:24,000
-Tyler: right now, we'll block that.
+00:23:17,040 --> 00:23:22,950
+Tyler: baby puke for like five hours. Uh, and then they like eventually, you know, gave her some
 
 304
-00:25:25,000 --> 00:25:30,060
-Tyler: And then there's this fork for people that will block that. But it's very stupid because
+00:23:22,950 --> 00:23:24,000
+Tyler: good medicine.
 
 305
-00:25:30,060 --> 00:25:34,620
-Tyler: it's like, as soon as you block that one way, the people who want that activity to
+00:23:24,000 --> 00:23:28,580
+Tyler: And, um, we got home and like cleaned up and went to bed, but yeah, a little bit of a
 
 306
-00:25:34,620 --> 00:25:39,470
-Tyler: continue are just going to tweak the way it shows up a little bit, like people have
+00:23:28,580 --> 00:23:33,590
+Tyler: harrowing night, but everyone is okay, but it sucks because you can't eat egg now and
 
 307
-00:25:39,470 --> 00:25:44,000
-Tyler: already done this and shown that like, there's BIP 110, they have these filters.
+00:23:33,590 --> 00:23:35,000
+Jackson: eggs are delicious.
 
 308
-00:25:45,000 --> 00:25:49,730
-Tyler: And they're like, okay, people are doing spam, block the use of ordinals and inscriptions,
+00:23:35,000 --> 00:23:42,000
+Jackson: That's true. Does baby puke smell better than human, like American or pardon me, adult puke?
 
 309
-00:25:49,730 --> 00:25:54,640
-Tyler: or like, we'll just do it this different way. And now it's BIP 110 compliant, you'll have
+00:23:42,000 --> 00:23:48,040
+Tyler: Um, I don't think either are particularly great, but yeah, it does. It does have like
 
 310
-00:25:54,640 --> 00:26:00,570
-Tyler: to fork a second time. And it's like this infinite game of cat and mouse, you just cannot
+00:23:48,040 --> 00:23:53,000
+Tyler: that, like stomach acid kind of Biley like smell that normal puke does.
 
 311
-00:26:00,570 --> 00:26:06,910
-Tyler: stop people from putting arbitrary data into Bitcoin transactions, because you can make
+00:23:53,000 --> 00:23:58,250
+Tyler: Um, but she's, she's all right. And now we just grossed out all of our listeners. So like
 
 312
-00:26:06,910 --> 00:26:10,780
-Tyler: arbitrary data really hard to detect. And like, you can even some of the ways that you
+00:23:58,250 --> 00:24:03,370
+Tyler: the, you know, we just, we just dropped off a half of them and the only people remaining
 
 313
-00:26:10,780 --> 00:26:12,260
-Tyler: would force people to do arbitrary data are like much less healthy for Bitcoin, it might
+00:24:03,370 --> 00:24:06,000
+Tyler: are the people that love the puke talk.
 
 314
-00:26:12,260 --> 00:26:14,000
-Tyler: bloat the U2XO state, it might mean that nodes have to like validate a bunch of junk data.
+00:24:06,000 --> 00:24:19,580
+Jackson: So, um, cool. Well, maybe we can do a quick Tyler one minute BIP 110. Is it nothing? Why
 
 315
-00:26:15,000 --> 00:26:19,350
-Tyler: That doesn't actually have any meaning. And so it's being done right now in kind of like
+00:24:19,580 --> 00:24:22,000
+Jackson: do I hear about it?
 
 316
-00:26:19,350 --> 00:26:23,970
-Tyler: a least harm way. And you could potentially force people to do it in more harmful ways,
+00:24:22,000 --> 00:24:26,230
+Tyler: I feel like I'm woefully unprepared for this because I think it's just so stupid that I've
 
 317
-00:26:23,970 --> 00:26:25,000
-Tyler: which is bad.
+00:24:26,230 --> 00:24:29,000
+Tyler: referred, I've refused to pay attention to it.
 
 318
-00:26:26,000 --> 00:26:31,760
-Tyler: So like, I just think it's a very misguided thing. Most people I know, who I respect
+00:24:29,000 --> 00:24:36,250
+Tyler: And so yeah, it's just like the discourse I feel like is so just dumb and I'm just tired
 
 319
-00:26:31,760 --> 00:26:38,240
-Tyler: think it's extremely misguided. And the people who are behind it seem like either misinformed
+00:24:36,250 --> 00:24:42,000
+Tyler: of it and I just don't want to pay attention and I'm not going to do anything about it.
 
 320
-00:26:38,240 --> 00:26:44,160
-Tyler: or just like really, like, they're not arguing in good faith, I don't really know what
+00:24:42,000 --> 00:24:54,160
+Tyler: And it will probably blow over in a few months. Um, I can try to give you my like
 
 321
-00:26:44,160 --> 00:26:49,940
-Tyler: their motivations are, but it doesn't seem like in good faith to me, because it seems so
+00:24:54,160 --> 00:24:54,660
+Tyler: understanding of it from a very high level, which is that there have been people for a
 
 322
-00:26:49,940 --> 00:26:51,000
-Tyler: obvious.
+00:24:54,660 --> 00:24:59,000
+Tyler: while that are like very upset that, uh, they believe that there's spam.
 
 323
-00:26:52,000 --> 00:26:57,650
-Tyler: And yeah, Bitcoin, I think will fork at some point, I think it's like in a couple weeks.
+00:24:59,000 --> 00:25:08,800
+Tyler: Bitcoin is being used for spam, which they define as these essentially like NFT kind of
 
 324
-00:26:57,650 --> 00:27:04,150
-Tyler: So there's the BIP110 fork, and then there's also this eCash fork that's going to happen.
+00:25:08,800 --> 00:25:14,380
+Tyler: projects like ordinals and inscriptions. And they want to have the ability to block this
 
 325
-00:27:04,150 --> 00:27:10,500
-Tyler: So we're going to get two potential forks of Bitcoin this year, which hasn't happened for
+00:25:14,380 --> 00:25:15,000
+Tyler: spam block the use of arbitrary data on the, on the blockchain.
 
 326
-00:27:10,500 --> 00:27:12,000
-Tyler: a while.
+00:25:15,000 --> 00:25:22,120
+Tyler: And so they are like, okay, people are doing spam and this one specific way right now, we'll
 
 327
-00:27:13,000 --> 00:27:16,000
-Tyler: I think both of them will die quickly.
+00:25:22,120 --> 00:25:29,050
+Tyler: block that. And like, we're trying to force a fork for people that will block that. But
 
 328
-00:27:17,000 --> 00:27:25,880
-Jackson: That's crazy. Bitcoin Cash too. Yeah, we need another one. So you're saying that the
+00:25:29,050 --> 00:25:33,000
+Tyler: it's very stupid because it's like, as soon as you block that one way, the people who
 
 329
-00:27:25,880 --> 00:27:33,000
-Jackson: people that oppose BIP110, it's not that they disagree that Bitcoin shouldn't have spam,
+00:25:33,000 --> 00:25:36,000
+Tyler: want that activity to continue are just going to tweak the way it shows up a little bit.
 
 330
-00:27:33,000 --> 00:27:40,140
-Jackson: it's that the solution to prevent the spam is really narrow. And yeah, I mean, that's
+00:25:36,000 --> 00:25:40,530
+Tyler: Like people have already done this and shown that like there's BIP 110, they have these
 
 331
-00:27:40,140 --> 00:27:43,000
-Jackson: basically it. Is that what you're saying, Tyler?
+00:25:40,530 --> 00:25:44,910
+Tyler: filters. Um, the people who do ordinals and inscriptions are like, we'll just do it this
 
 332
-00:27:44,000 --> 00:27:48,930
-Tyler: Yeah, at the root of it, you can really not prevent people from putting arbitrary data
+00:25:44,910 --> 00:25:46,000
+Tyler: different way.
 
 333
-00:27:48,930 --> 00:27:54,810
-Tyler: into Bitcoin transactions. And like the solution is like worse than the problem. And it's
+00:25:46,000 --> 00:25:49,670
+Tyler: And now it's BIP 110 compliant and you'll have to fork a second time. And it's like this
 
 334
-00:27:54,810 --> 00:28:03,170
-Tyler: also like a temporary thing, honestly, like people can afford to do this right now,
+00:25:49,670 --> 00:25:54,110
+Tyler: infinite game of cat and mouse. You just cannot stop people from putting arbitrary data
 
 335
-00:28:03,170 --> 00:28:07,000
-Tyler: because transaction fees are very low, because like nobody is using Bitcoin.
+00:25:54,110 --> 00:26:00,000
+Tyler: into Bitcoin transactions because, um, you can make arbitrary data really hard to detect.
 
 336
-00:28:08,000 --> 00:28:13,440
-Tyler: If Bitcoin exists, and people don't use Bitcoin and don't make Bitcoin transactions on
+00:26:00,000 --> 00:26:05,080
+Tyler: Um, and like you can even, some of the ways that you would force people to do arbitrary
 
 337
-00:28:13,440 --> 00:28:19,180
-Tyler: the blockchain, because they're holding Bitcoin and ETFs, or Bitcoin is not becoming like
+00:26:05,080 --> 00:26:10,790
+Tyler: data are like much less healthy for Bitcoin. It might bloat the U2XO state. Um, it might
 
 338
-00:28:19,180 --> 00:28:25,000
-Tyler: a money, then Bitcoin is probably not very successful, and it doesn't really matter.
+00:26:10,790 --> 00:26:16,300
+Tyler: mean that nodes have to like validate a bunch of junk data that doesn't actually have any
 
 339
-00:28:26,000 --> 00:28:30,990
-Tyler: If it's successful, then I expect transaction fees will increase and price out this
+00:26:16,300 --> 00:26:17,000
+Tyler: meaning.
 
 340
-00:28:30,990 --> 00:28:36,420
-Tyler: activity, and it will just go away naturally. And so I feel like this world that they're
+00:26:17,000 --> 00:26:20,740
+Tyler: And so it's being done right now in kind of like a least harm way. And you could
 
 341
-00:28:36,420 --> 00:28:40,940
-Tyler: trying to solve for where Bitcoin is successful and relevant, but spam is still
+00:26:20,740 --> 00:26:25,000
+Tyler: potentially force people to do it and more harmful ways, which is bad.
 
 342
-00:28:40,940 --> 00:28:47,490
-Tyler: economically viable on the main chain, it just is like a stupid temporary thing that we
+00:26:25,000 --> 00:26:30,900
+Tyler: So like, I just think it's a very misguided thing. Most people I know, who I respect,
 
 343
-00:28:47,490 --> 00:28:51,990
-Tyler: shouldn't overreact to, even if we had ways to stop it, and we don't have ways to stop it.
+00:26:30,900 --> 00:26:38,150
+Tyler: think it's extremely misguided and the people who are behind it seem like, um, either misinformed
 
 344
-00:28:51,990 --> 00:28:55,000
-Tyler: So it's all so tiring.
+00:26:38,150 --> 00:26:44,000
+Tyler: or just like really, um, like they're not arguing in good faith.
 
 345
-00:28:56,000 --> 00:29:01,000
-Jackson: Kind of a spontaneous topic switch.
+00:26:44,000 --> 00:26:49,520
+Tyler: I don't really know what their motivations are, but it doesn't seem like in good faith to
 
 346
-00:29:02,000 --> 00:29:10,280
-Jackson: So like, when the fork happens, all of us that have Bitcoin, I guess Bitcoin that's self
+00:26:49,520 --> 00:26:55,200
+Tyler: me because it seems so obvious. Uh, and yeah, Bitcoin, I think will, will fork at some
 
 347
-00:29:10,280 --> 00:29:19,000
-Jackson: custody, it's like duplicated, right? One is on the new chain and one is on the old chain.
+00:26:55,200 --> 00:26:56,000
+Tyler: point.
 
 348
-00:29:19,000 --> 00:29:25,000
-Jackson: Is it lucrative for people that do forks? Like, do they make any money?
+00:26:56,000 --> 00:27:00,560
+Tyler: I think it's like in a couple of weeks. So there's the BIP 110 fork and then there's also
 
 349
-00:29:26,000 --> 00:29:32,870
-Jackson: I can sell my Bitcoin e-cash to some Bitcoin e-cash to bag holders, because I don't want
+00:27:00,560 --> 00:27:06,370
+Tyler: this, um, e-cash fork that's going to happen. So we're going to get two potential forks
 
 350
-00:29:32,870 --> 00:29:38,800
-Jackson: to keep it? Or does the value go to zero so quick that I can't make money or no one makes
+00:27:06,370 --> 00:27:11,000
+Tyler: of Bitcoin this year, which hasn't happened for a while.
 
 351
-00:29:38,800 --> 00:29:40,000
-Jackson: any money?
+00:27:11,000 --> 00:27:16,000
+Tyler: Um, I think both of them will, will die quickly.
 
 352
-00:29:41,000 --> 00:29:47,300
-Tyler: Yeah, so it's true. If you hold your own keys and you have actual Bitcoin UTXOs, you will
+00:27:16,000 --> 00:27:19,000
+Chris: So it's crazy. Bitcoin cash too.
 
 353
-00:29:47,300 --> 00:29:49,000
-Tyler: have a UTXO on the fork.
+00:27:19,000 --> 00:27:25,190
+Jackson: Yeah. Yeah. We need another one. Are you, so you're saying that the people that oppose BIP
 
 354
-00:29:50,000 --> 00:29:55,720
-Tyler: If you hold your Bitcoin custodially or in an ETF, then whoever owns the keys backing
+00:27:25,190 --> 00:27:32,000
+Jackson: 110, it's not that they, that they disagree that Bitcoin shouldn't have spam.
 
 355
-00:29:55,720 --> 00:30:02,160
-Tyler: that Bitcoin will have a corresponding amount of Bitcoin on those chains, but they may or
+00:27:32,000 --> 00:27:40,110
+Jackson: It's that the solution to prevent the spam is really narrow and yeah, I mean, that's
 
 356
-00:30:02,160 --> 00:30:06,000
-Tyler: may not honor that and give you exposure to these forks.
+00:27:40,110 --> 00:27:43,000
+Jackson: basically it. Is that what you're saying, Tyler?
 
 357
-00:30:07,000 --> 00:30:14,400
-Tyler: Honestly, it's probably not even going to be worth it for them. I expect the forks will
+00:27:43,000 --> 00:27:47,730
+Tyler: Yeah. At the root of it, you can, you, you can really not prevent people from putting
 
 358
-00:30:14,400 --> 00:30:20,620
-Tyler: be not valuable enough to warrant building ways to handle them. And if you support every
+00:27:47,730 --> 00:27:52,950
+Tyler: arbitrary data into Bitcoin transactions and like the, the solution is like worse than
 
 359
-00:30:20,620 --> 00:30:23,600
-Tyler: little fork of Bitcoin that comes out in that way, then you're kind of committing
+00:27:52,950 --> 00:27:54,000
+Tyler: the problem.
 
 360
-00:30:23,600 --> 00:30:26,000
-Tyler: infinitely to support all these.
+00:27:54,000 --> 00:27:59,880
+Tyler: And it's also like a temporary thing, honestly, like, um, people can afford to do this
 
 361
-00:30:27,000 --> 00:30:35,110
-Tyler: Zip 110 is just a publicity stunt. I really don't expect it to be relevant much at all,
+00:27:59,880 --> 00:28:06,000
+Tyler: right now because transaction fees are very low because like nobody is using Bitcoin.
 
 362
-00:30:35,110 --> 00:30:41,500
-Tyler: but it is taking up a lot of the discourse on Bitcoin X, which is really sad to see
+00:28:06,000 --> 00:28:10,380
+Tyler: Uh, and if that persists and people don't use Bitcoin and don't make Bitcoin transactions
 
 363
-00:30:41,500 --> 00:30:48,000
-Tyler: because it's such a stupid discourse. And I think it's poisoning the vibes and poisoning
+00:28:10,380 --> 00:28:15,110
+Tyler: on the blockchain because they're holding Bitcoin and ETFs or, um, Bitcoin is not
 
 364
-00:30:48,000 --> 00:30:51,000
-Tyler: anyone who comes into Bitcoin at this moment.
+00:28:15,110 --> 00:28:22,300
+Tyler: becoming like a money, then, you know, Bitcoin is probably not very successful and it
 
 365
-00:30:52,000 --> 00:30:57,110
-Tyler: Bitcoin is the dumbest debate that's ever happened. Why would I want to be part of this
+00:28:22,300 --> 00:28:23,000
+Tyler: like doesn't really matter.
 
 366
-00:30:57,110 --> 00:30:59,000
-Tyler: community? It's just sad.
+00:28:23,000 --> 00:28:28,010
+Tyler: But if Bitcoin is successful, then I expect transaction fees will increase and price out
 
 367
-00:31:00,000 --> 00:31:06,310
-Jackson: I feel like for the dip in the forks, you're saying that the miner can choose to go to a
+00:28:28,010 --> 00:28:31,000
+Tyler: this activity and it will just go away naturally.
 
 368
-00:31:06,310 --> 00:31:14,260
-Jackson: different pool if they don't agree with the miner's decision on which fork to take. Is it
+00:28:31,000 --> 00:28:36,090
+Tyler: And so like, I feel like this world that they're trying to solve for where like Bitcoin
 
 369
-00:31:14,260 --> 00:31:18,000
-Jackson: that easy? Is it really easy to switch pools for the miner?
+00:28:36,090 --> 00:28:41,000
+Tyler: is successful and relevant, but spam is still economically viable on the main chain.
 
 370
-00:31:19,000 --> 00:31:23,580
-Tyler: Absolutely. It's like you have your ASIC and your ASIC has a configuration that's like,
+00:28:41,000 --> 00:28:48,500
+Tyler: It just is like a stupid, like temporary thing that we shouldn't overreact to, even if we
 
 371
-00:31:23,580 --> 00:31:28,100
-Tyler: what is the IP address of your pool to fetch blocks from? And you just change that. I
+00:28:48,500 --> 00:28:53,000
+Tyler: had ways to stop it and we don't have ways to stop it. So it's all so tiring.
 
 372
-00:31:28,100 --> 00:31:36,200
-Tyler: have a little mini BitX miner in my house. It has no chance of ever finding a block, but
+00:28:53,000 --> 00:29:05,370
+Jackson: Kind of a spontaneous topic switch. Um, so like when the fork happens, all of us that
 
 373
-00:31:36,200 --> 00:31:39,000
-Tyler: I can go on there right now and update the pool in 30 seconds.
+00:29:05,370 --> 00:29:10,000
+Jackson: have Bitcoin, uh, I guess Bitcoin that's self custody.
 
 374
-00:31:40,000 --> 00:31:45,560
-Jackson: But are you mining for yourself? Are you mining for a pool? Are you playing the lottery
+00:29:10,000 --> 00:29:16,000
+Jackson: It's like duplicated, right? One is on the new chain and one is on the old chain.
 
 375
-00:31:45,560 --> 00:31:47,000
-Jackson: with your BitX?
+00:29:16,000 --> 00:29:22,000
+Jackson: Is it lucrative for people that do forks? Like, do they make any money?
 
 376
-00:31:48,000 --> 00:31:53,280
-Tyler: Yeah, it is a pool, but it's like a pool where I get like 99% of the block that I find, I
+00:29:22,000 --> 00:29:28,860
+Jackson: Is it possible I can sell my Bitcoin e-cash to, to some Bitcoin e-cash to bag holders
 
 377
-00:31:53,280 --> 00:31:57,630
-Tyler: think. So the pool is really just you're paying them a small amount of a reward that you
+00:29:28,860 --> 00:29:32,000
+Jackson: that I don't, because I don't want to keep it?
 
 378
-00:31:57,630 --> 00:32:02,000
-Tyler: would find in order to construct the blocks because your miner can't do block
+00:29:32,000 --> 00:29:39,070
+Jackson: Or does the value go to zero so quick that like I can't make money or no one makes any
 
 379
-00:32:02,000 --> 00:32:02,000
-Tyler: construction.
+00:29:39,070 --> 00:29:40,000
+Jackson: money?
 
 380
-00:32:03,000 --> 00:32:06,000
-Tyler: It doesn't run a full node. It needs to be told what block to hash on.
+00:29:40,000 --> 00:29:45,000
+Tyler: Yeah. So it's true. If you, if you hold your own keys and you have like actual Bitcoin UTXOs,
 
 381
-00:32:07,000 --> 00:32:12,290
-Jackson: Dude, we should just say, screw the perp of fortune. Let's just look at your BitX for an
+00:29:45,000 --> 00:29:48,000
+Tyler: like you will have a UTXO on the fork.
 
 382
-00:32:12,290 --> 00:32:14,000
-Jackson: hour during the pot.
+00:29:48,000 --> 00:29:54,960
+Tyler: Um, if you hold your Bitcoin custodially or like in an ETF, then whoever owns the keys
 
 383
-00:32:15,000 --> 00:32:18,000
-Tyler: That would be a pretty boring episode.
+00:29:54,960 --> 00:30:02,070
+Tyler: backing that Bitcoin will have a corresponding amount of Bitcoin on those chains. But
 
 384
-00:32:19,000 --> 00:32:23,870
-Chris: We just will read every hash, every single hash. We'll see that like, oh, only three zeros
+00:30:02,070 --> 00:30:06,000
+Tyler: like they may or may not honor that and give you, um, exposure to these forks.
 
 385
-00:32:23,870 --> 00:32:26,000
-Jackson: on that one and we'll just manually look.
+00:30:06,000 --> 00:30:11,520
+Tyler: Honestly, it's probably not even going to be worth it for them. I, I expect the forks
 
 386
-00:32:27,000 --> 00:32:35,980
-Tyler: That'd be skintillating TV. Speaking of fortune, I feel like we've had one running.
+00:30:11,520 --> 00:30:17,220
+Tyler: will be not valuable enough to, to warrant like building, you know, uh, ways to handle
 
 387
-00:32:35,980 --> 00:32:40,000
-Tyler: Should we introduce it or do we have more fork talk?
+00:30:17,220 --> 00:30:18,000
+Tyler: them.
 
 388
-00:32:41,000 --> 00:32:50,050
-Chris: Well, speaking of forking things, so I followed your prompts, Tyler, where you said that
+00:30:18,000 --> 00:30:21,700
+Tyler: And if you support every little fork of Bitcoin that comes out in that way, then you're
 
 389
-00:32:50,050 --> 00:32:53,000
-Chris: perp of fortune should be relative to the podcast.
+00:30:21,700 --> 00:30:25,000
+Tyler: like kind of committing infinitely to support all these.
 
 390
-00:32:54,000 --> 00:33:02,110
-Chris: We haven't done this segment yet, but for context, I fed GPT 5.6 Sol the podcast
+00:30:25,000 --> 00:30:31,940
+Tyler: I kind of think zip one 10 is just like a publicity stunt. Um, I really don't expect it
 
 391
-00:33:02,110 --> 00:33:07,580
-Chris: transcript and I said, hey, help us pick a perp that is hopefully going up that's
+00:30:31,940 --> 00:30:38,940
+Tyler: to be relevant much at all, but it is taking up a lot of like the discourse on, you know,
 
 392
-00:33:07,580 --> 00:33:09,000
-Chris: relevant to the transcript.
+00:30:38,940 --> 00:30:43,000
+Tyler: Bitcoin X, which is really sad to see because it's such a stupid discourse.
 
 393
-00:33:10,000 --> 00:33:18,000
-Chris: And it said long native XRP perp at 20X isolated leverage. That is what it chose.
+00:30:43,000 --> 00:30:47,390
+Tyler: And I think it's like poisoning the vibes and poisoning, like, you know, anyone who comes
 
 394
-00:33:19,000 --> 00:33:22,000
-Chris: And I'll try to summarize some of its reasoning here.
+00:30:47,390 --> 00:30:51,430
+Tyler: into Bitcoin at this moment, they're just like, this is the dumbest debate that's ever
 
 395
-00:33:23,000 --> 00:33:32,410
-Chris: It says at the final snapshot XRP was up 1.5% over 24 hours and it had 28.2 million daily
+00:30:51,430 --> 00:30:52,000
+Tyler: happened.
 
 396
-00:33:32,410 --> 00:33:40,810
-Chris: volume and also XRLP RPL don't know what that is, officially supports X402 payments using
+00:30:52,000 --> 00:30:57,000
+Tyler: Like, why would I, why would I want to be part of this community? Um, it's just like sad.
 
 397
-00:33:40,810 --> 00:33:42,000
-Chris: XRP or RLUSD.
+00:30:57,000 --> 00:31:05,360
+Jackson: I feel like for the, for the dip in the forks. So you're saying that the minor can choose
 
 398
-00:33:43,000 --> 00:33:48,000
-Chris: And that's it. That was its whole reasoning.
+00:31:05,360 --> 00:31:08,000
+Jackson: to like go to a different pool.
 
 399
-00:33:49,000 --> 00:33:54,000
-Jackson: Just God, these GPT models are so bad.
+00:31:08,000 --> 00:31:13,000
+Jackson: If they don't agree with the minor's decision on which fork to take, is it that easy?
 
 400
-00:33:55,000 --> 00:33:59,320
-Chris: I mean, he's a great programmer, but as I alluded to on the last podcast, he's like, you
+00:31:13,000 --> 00:31:17,000
+Jackson: Like, is it really easy to switch pools for the minor? Yeah, totally.
 
 401
-00:33:59,320 --> 00:34:03,000
-Chris: know, it may be like the weird guy at the party sometimes.
+00:31:17,000 --> 00:31:22,000
+Tyler: It's like you just, you have your ASIC and your ASIC has like a configuration.
 
 402
-00:34:04,000 --> 00:34:07,000
-Chris: Let me share this. Let me share this.
+00:31:22,000 --> 00:31:25,000
+Tyler: That's like, what is the IP address of your pool to fetch blocks from?
 
 403
-00:34:08,000 --> 00:34:12,000
-Tyler: This really makes me lose faith.
+00:31:25,000 --> 00:31:31,380
+Tyler: And you just change that. I have like a little mini bid X minor in my house. Um, it has
 
 404
-00:34:15,000 --> 00:34:21,100
-Chris: It's, you know, I think it's just a case of like staying in your lane, like, and maybe
+00:31:31,380 --> 00:31:37,160
+Tyler: like no chance of ever finding a block, but I can go on there right now and update the
 
 405
-00:34:21,100 --> 00:34:26,000
-Chris: like the lane is not choosing perps for 5.0.
+00:31:37,160 --> 00:31:39,000
+Tyler: pool in 30 seconds.
 
 406
-00:34:27,000 --> 00:34:31,000
-Jackson: Dude, what are you talking about? Its reasoning was shite, but we're up.
+00:31:39,000 --> 00:31:42,000
+Jackson: But are you mining for yourself or are you mining for a pool?
 
 407
-00:34:32,000 --> 00:34:36,210
-Chris: We've been under this whole podcast. Look at this line. There's a recent occurrence. We
+00:31:42,000 --> 00:31:49,000
+Jackson: Are you playing the lottery with your bid acts? I am. Yeah. There's, um, it is a pool,
 
 408
-00:34:36,210 --> 00:34:38,000
-Chris: were here before.
+00:31:49,000 --> 00:31:53,000
+Tyler: but it's like a pool where I get like 99% of the block that I find, I think.
 
 409
-00:34:39,000 --> 00:34:45,720
-Chris: Viewers will never know. If we close green, I'm very happy. $2,000 notional. So let's see
+00:31:53,000 --> 00:31:56,830
+Tyler: So the pool is really just, you're, you're paying them a small amount of a reward that
 
 410
-00:34:45,720 --> 00:34:46,000
-Chris: where we get to.
+00:31:56,830 --> 00:32:00,000
+Tyler: you would find in order to construct the blocks because your minor can't do block
 
 411
-00:34:47,000 --> 00:34:50,000
-Tyler: Have you ever been a ripple guy? Either of you?
+00:32:00,000 --> 00:32:01,000
+Tyler: construction.
 
 412
-00:34:51,000 --> 00:34:55,500
-Tyler: I feel like ripple guy is like a very distinct phase that some people go through in the
+00:32:01,000 --> 00:32:05,000
+Tyler: It doesn't run a full note. It needs to be told like what block to hash on.
 
 413
-00:34:55,500 --> 00:34:57,000
-Tyler: crypto worlds.
+00:32:05,000 --> 00:32:11,410
+Jackson: Dude, we should just say, screw the perp of fortune. Let's just look at your bid acts for
 
 414
-00:34:58,000 --> 00:35:02,000
-Tyler: But I don't know people who actually are afflicted by that mental illness.
+00:32:11,410 --> 00:32:13,000
+Jackson: an hour in the pot.
 
 415
-00:35:03,000 --> 00:35:06,000
-Chris: What do you think, Tyler? Be very careful what you say here.
+00:32:13,000 --> 00:32:15,000
+Jackson: It'd be a pretty boring episode.
 
 416
-00:35:10,000 --> 00:35:15,200
-Tyler: I think Jackson probably has like dabbled in a little bit of ripple. I think Chris, I
+00:32:15,000 --> 00:32:19,000
+Chris: We just would read every hash, every single hash.
 
 417
-00:35:15,200 --> 00:35:17,000
-Tyler: would say no.
+00:32:19,000 --> 00:32:24,790
+Chris: We'll see that like, Oh, only three zeros on that one. And we'll just manually look at
 
 418
-00:35:18,000 --> 00:35:23,500
-Tyler: No hate on you, Jackson, but I feel like you're just like a little bit more exploratory
+00:32:24,790 --> 00:32:29,000
+Tyler: the skintillating TV.
 
 419
-00:35:23,500 --> 00:35:26,000
-Tyler: and kind of like try anything.
+00:32:29,000 --> 00:32:37,070
+Tyler: Speaking of fortune, I feel like we, we, we've had one running. Should we introduce it or
 
 420
-00:35:27,000 --> 00:35:32,180
-Tyler: And then, yeah, maybe Chris and I are like cynical, like hermits hating on the world from
+00:32:37,070 --> 00:32:39,000
+Tyler: do we have more fork talk?
 
 421
-00:35:32,180 --> 00:35:34,000
-Tyler: our computer screens.
+00:32:39,000 --> 00:32:42,000
+Jackson: We can't talk more about it. It's too much.
 
 422
-00:35:36,000 --> 00:35:40,840
-Jackson: All right, I've been called out. Yes, I have owned ripple. Yes, I've doubled my money
+00:32:42,000 --> 00:32:49,530
+Chris: Well, speaking of forking things, um, so, uh, I followed your prompts, Tyler, where you
 
 423
-00:35:40,840 --> 00:35:42,000
-Jackson: under ripple.
+00:32:49,530 --> 00:32:53,000
+Chris: said that purple fortune should be relative to the podcast.
 
 424
-00:35:43,000 --> 00:35:48,240
-Jackson: Nice. And literally an hour before this pod, I was talking to this Argentinian dude, and
+00:32:53,000 --> 00:32:58,000
+Chris: Um, uh, we haven't done this segment yet, but, uh, so I, I, so for context,
 
 425
-00:35:48,240 --> 00:35:50,000
-Jackson: he said he loves ripple.
+00:32:58,000 --> 00:33:04,410
+Chris: I fed GPT 5.6 soul the podcast transcript and I said, Hey, like help us pick a perp like
 
 426
-00:35:51,000 --> 00:35:55,560
-Jackson: The rest of it was in Spanish, so I can't tell you why. But the ripple signal is actually
+00:33:04,410 --> 00:33:06,000
+Chris: that is hopefully going up.
 
 427
-00:35:55,560 --> 00:35:57,000
-Jackson: high right now.
+00:33:06,000 --> 00:33:08,000
+Chris: Uh, that's relevant to the transcript.
 
 428
-00:35:58,000 --> 00:36:03,000
-Jackson: I mean, the purple fortune, the Argentinian dude, and I made some money on it.
+00:33:08,000 --> 00:33:16,000
+Chris: Uh, and it said long native XRP perp at 20 X isolated leverage.
 
 429
-00:36:04,000 --> 00:36:08,990
-Tyler: Yeah, maybe this is just another invocation of the bell curve meme, and I'm like a sad
+00:33:16,000 --> 00:33:17,000
+Chris: That is what it chose.
 
 430
-00:36:08,990 --> 00:36:12,000
-Tyler: mid-curve person being like, ripple is so dumb.
+00:33:17,000 --> 00:33:21,000
+Chris: And, uh, I'll try to summarize some of its reasoning here.
 
 431
-00:36:13,000 --> 00:36:18,000
-Tyler: And then, you know, GPT is off there on the right hand side.
+00:33:21,000 --> 00:33:30,810
+Chris: Uh, it says at the final snapshot XRP was up 1.5% over 24 hours and it had 28.2 million
 
 432
-00:36:19,000 --> 00:36:22,000
-Jackson: GPT is the lefty. GPT is the lefty.
+00:33:30,810 --> 00:33:35,000
+Chris: daily volume and also X RLP RPL.
 
 433
-00:36:24,000 --> 00:36:32,470
-Chris: Yeah, no, I was never a ripple guy, and I think it's due to a fundamental weakness in my
+00:33:35,000 --> 00:33:41,000
+Chris: Don't know what that is officially supports X four or two payments using XRP or RL USD.
 
 434
-00:36:32,470 --> 00:36:38,000
-Chris: reasoning. I need something to be conceptually beautiful in order for me to believe in it.
+00:33:41,000 --> 00:33:44,000
+Chris: And that's it.
 
 435
-00:36:39,000 --> 00:36:44,880
-Chris: And I don't know, I feel like ripple didn't have that for me. I was like, we're reinventing
+00:33:44,000 --> 00:33:47,000
+Chris: That was its whole reasoning.
 
 436
-00:36:44,880 --> 00:36:48,000
-Chris: Swift, but I mean, that's a great story, right?
+00:33:47,000 --> 00:33:53,000
+Jackson: Uh, God, these GPT models are so bad.
 
 437
-00:36:49,000 --> 00:36:54,000
-Chris: That's exactly it. Yeah, I think maybe I'm poor for this reason.
+00:33:53,000 --> 00:33:58,650
+Chris: I mean, he's a great programmer, but as I alluded to on the last podcast, he's like, you
 
 438
-00:36:55,000 --> 00:37:00,000
-Tyler: But why does Swift need to be reinvented? I don't know. It don't make sense to me.
+00:33:58,650 --> 00:33:59,000
+Chris: know,
 
 439
-00:37:01,000 --> 00:37:03,000
-Chris: Why do you need to put two toll boots on a bridge?
+00:33:59,000 --> 00:34:02,000
+Chris: it may be like the weird guy at the party sometimes.
 
 440
-00:37:04,000 --> 00:37:09,880
-Jackson: Yeah, I mean, 10 years ago, they're like, there's this new coin, and it can be used for
+00:34:02,000 --> 00:34:03,000
+Chris: Uh, so let me share this.
 
 441
-00:37:09,880 --> 00:37:15,000
-Jackson: international bank transfers, and you're like, what? I love that.
+00:34:03,000 --> 00:34:06,000
+Chris: Let me share this.
 
 442
-00:37:16,000 --> 00:37:21,870
-Jackson: And that was even before all like the regulatory push that they've been doing, right?
+00:34:06,000 --> 00:34:14,000
+Tyler: Uh, this really, uh, makes me lose faith.
 
 443
-00:37:21,870 --> 00:37:27,640
-Jackson: Where I think then they got sued, it went down a lot, but then they broke out because
+00:34:14,000 --> 00:34:19,400
+Chris: Uh, it's, you know, I think it's just a case of like staying in your lane, like, uh, and
 
 444
-00:37:27,640 --> 00:37:31,000
-Jackson: they just gave all the ripple to the legislators, right?
+00:34:19,400 --> 00:34:25,000
+Chris: maybe like the lane is not choosing perps for five.
 
 445
-00:37:34,000 --> 00:37:39,840
-Chris: I think I mean, to this point, I think like maybe we're moving into a time where the only
+00:34:25,000 --> 00:34:26,000
+Jackson: Oh, dude.
 
 446
-00:37:39,840 --> 00:37:46,160
-Chris: moat left is regulation. And I've like spoken to people around here, San Francisco, that
+00:34:26,000 --> 00:34:27,000
+Jackson: What are you talking about?
 
 447
-00:37:46,160 --> 00:37:49,000
-Chris: like truly believe that I don't, I don't.
+00:34:27,000 --> 00:34:31,000
+Jackson: It's reasoning was shy, but it's, is it we're up.
 
 448
-00:37:50,000 --> 00:37:56,660
-Chris: But I think a lot of people think like, you know, as you know, if we solve engineering,
+00:34:31,000 --> 00:34:33,000
+Chris: Don't we've been under this whole podcast?
 
 449
-00:37:56,660 --> 00:38:03,550
-Chris: then like, the remaining moat for your business is either regulatory or regulatory
+00:34:33,000 --> 00:34:34,000
+Chris: Look at this line.
 
 450
-00:38:03,550 --> 00:38:07,330
-Tyler: capture. And from like a generalized thesis, or one specifically for like Bitcoin and
+00:34:34,000 --> 00:34:35,000
+Chris: There's a recent occurrence.
 
 451
-00:38:07,330 --> 00:38:09,000
-Tyler: crypto and fintech.
+00:34:35,000 --> 00:34:41,000
+Chris: We were here before, uh, if we close green, I'm very happy.
 
 452
-00:38:10,000 --> 00:38:14,540
-Chris: I think I think fintech, but I also think to a lesser extent, a more general thesis, like
+00:34:41,000 --> 00:34:46,000
+Chris: Uh, $2,000 notional. So let's see, we see where we get to.
 
 453
-00:38:14,540 --> 00:38:18,590
-Chris: I've spoken to people who are like, I was going to build an AI wrapper, but then I
+00:34:46,000 --> 00:34:49,000
+Tyler: Have you ever been a ripple guy, either of you?
 
 454
-00:38:18,590 --> 00:38:23,000
-Chris: thought, like, you know, regulation would be a better moat for my business.
+00:34:49,000 --> 00:34:54,200
+Tyler: Like, I feel like ripple guy is like a very distinct phase that some people go through in
 
 455
-00:38:24,000 --> 00:38:26,610
-Chris: And so I'm doing something in fintech. I don't know if I agree with that, but it is
+00:34:54,200 --> 00:34:56,000
+Tyler: the crypto worlds.
 
 456
-00:38:26,610 --> 00:38:28,000
-Chris: something I've heard, right?
+00:34:56,000 --> 00:35:01,000
+Tyler: But I don't, I don't know people who actually are afflicted by that, um, mental illness.
 
 457
-00:38:29,000 --> 00:38:31,000
-Tyler: Instead of hiring an engineer, I hired like a lobbyist.
+00:35:01,000 --> 00:35:03,000
+Chris: What do you, what do you think, Tyler?
 
 458
-00:38:32,000 --> 00:38:34,000
-Chris: Yeah, like a team of lawyers.
+00:35:03,000 --> 00:35:08,000
+Chris: Be very careful what you say here.
 
 459
-00:38:35,000 --> 00:38:41,520
-Tyler: I donated to the, you know, I bought a lot of World Liberty Financial and suddenly I
+00:35:08,000 --> 00:35:14,000
+Tyler: I think, I think Jackson probably has like dabbled in a little bit of ripple.
 
 460
-00:38:41,520 --> 00:38:44,000
-Tyler: could do whatever I wanted.
+00:35:14,000 --> 00:35:18,000
+Tyler: I think Chris, I would say no, no, no hate on you, Jackson.
 
 461
-00:38:45,000 --> 00:38:46,000
-Chris: Exclusive rights to something. Yeah.
+00:35:18,000 --> 00:35:25,000
+Tyler: But I feel like you're just like a little bit more exploratory and kind of like, uh, try
 
 462
-00:38:47,000 --> 00:38:52,240
-Tyler: But I do think like the marketing department of Ripple is like amazing. Like every, every
+00:35:25,000 --> 00:35:25,000
+Tyler: anything.
 
 463
-00:38:52,240 --> 00:38:57,000
-Tyler: cycle, whatever the trend is, they're like hop on up. We want red.
+00:35:25,000 --> 00:35:31,670
+Tyler: And then, yeah, maybe Chris and I are like, um, like cynical, like hermits hating on the
 
 464
-00:38:58,000 --> 00:38:59,000
-Jackson: No.
+00:35:31,670 --> 00:35:34,000
+Tyler: world from our computer screens.
 
 465
-00:39:00,000 --> 00:39:01,000
-Chris: Ripple Bros. It's over.
+00:35:34,000 --> 00:35:39,000
+Jackson: All right. I've been called out. Yes. I have owned ripple.
 
 466
-00:39:02,000 --> 00:39:05,000
-Tyler: But it's like, yeah, like I think the reasoning.
+00:35:39,000 --> 00:35:42,000
+Jackson: Yes. I've doubled my money under ripple. Nice.
 
 467
-00:39:06,000 --> 00:39:11,000
-Jackson: Speaking of Ripple and agentic payments, because those two are very related.
+00:35:42,000 --> 00:35:47,500
+Jackson: And literally an hour before this pod, I was talking to this Argentinian dude, and he
 
 468
-00:39:12,000 --> 00:39:14,000
-Jackson: Sorry, Chris, what were you going to say?
+00:35:47,500 --> 00:35:49,000
+Jackson: said he loves ripple.
 
 469
-00:39:15,000 --> 00:39:16,000
-Jackson: Should we talk about that?
+00:35:49,000 --> 00:35:55,210
+Jackson: The rest of it was in Spanish, so I can't tell you why, but the ripple signal is actually
 
 470
-00:39:17,000 --> 00:39:23,000
-Chris: Should we, should we chat about agentic payments and X402 and MPP and ADP?
+00:35:55,210 --> 00:35:56,000
+Jackson: high right now.
 
 471
-00:39:24,000 --> 00:39:28,000
-Jackson: Yeah, I think maybe we should, um, we should give the agentic payments again.
+00:35:56,000 --> 00:36:02,000
+Jackson: I mean, the purple fortune, the Argentinian dude, and I made some money on it.
 
 472
-00:39:29,000 --> 00:39:34,000
-Jackson: We've been baiting our listeners about agentic payments for like a month.
+00:36:02,000 --> 00:36:06,000
+Tyler: Yeah. Maybe this is just another invocation of the bell curve meme.
 
 473
-00:39:35,000 --> 00:39:38,000
-Jackson: So I'll, I'll lay the stage.
+00:36:06,000 --> 00:36:11,000
+Tyler: And I'm like a sad mid curve person being like, ripple is so dumb.
 
 474
-00:39:39,000 --> 00:39:47,840
-Jackson: Agentic payments basically means that your chat GPT can like buy stuff for you from like
+00:36:11,000 --> 00:36:17,000
+Tyler: And then, you know, GPT is off there on the right hand side.
 
 475
+00:36:17,000 --> 00:36:22,000
+Jackson: GPT is the last thing. GPT is the last thing.
+
+476
+00:36:22,000 --> 00:36:26,000
+Chris: I, uh, yeah, I know I was, I was never a ripple guy.
+
+477
+00:36:26,000 --> 00:36:30,000
+Chris: And I think like it's due to like a fundamental weakness in my reasoning.
+
+478
+00:36:30,000 --> 00:36:37,470
+Chris: Like I need something to like be like conceptually beautiful in order for me to believe
+
+479
+00:36:37,470 --> 00:36:38,000
+Chris: in it.
+
+480
+00:36:38,000 --> 00:36:41,000
+Chris: And I don't know. I feel like I feel like ripple didn't have that for me.
+
+481
+00:36:41,000 --> 00:36:46,870
+Chris: I was like, I was like, you know, we're like reinventing Swift, but I mean, that's a
+
+482
+00:36:46,870 --> 00:36:48,000
+Chris: great story, right?
+
+483
+00:36:48,000 --> 00:36:53,000
+Chris: And I think that's exactly it. Yeah. I think like I'm maybe I'm poor for this reason.
+
+484
+00:36:53,000 --> 00:36:58,000
+Tyler: So like, I don't know, like why does Swift need to be reinvented? I don't know.
+
+485
+00:36:58,000 --> 00:37:02,000
+Chris: I don't know. Why do you need to put two toll boots on a bridge?
+
+486
+00:37:02,000 --> 00:37:10,180
+Jackson: Like 10 years ago, they're like, there's this new coin and it can be used for
+
+487
+00:37:10,180 --> 00:37:12,000
+Jackson: international bank transfers.
+
+488
+00:37:12,000 --> 00:37:16,000
+Jackson: And you're like, what? I love that. I'm in.
+
+489
+00:37:16,000 --> 00:37:21,000
+Jackson: And that was even before all like the regulatory push that they've been doing, right?
+
+490
+00:37:21,000 --> 00:37:26,500
+Jackson: Where I think then they got sued. It went down a lot, but then they broke out because
+
+491
+00:37:26,500 --> 00:37:33,000
+Jackson: they just gave all the ripple to the legislators, right?
+
+492
+00:37:33,000 --> 00:37:39,140
+Chris: I think I mean, to this point, I think like maybe we're moving into a time where the only
+
+493
+00:37:39,140 --> 00:37:41,000
+Chris: moat left is regulation.
+
+494
+00:37:41,000 --> 00:37:47,000
+Chris: And I've like spoken to people around here, San Francisco, that like truly believe that.
+
+495
+00:37:47,000 --> 00:37:52,400
+Chris: I don't. I don't. But I think a lot of people think like, you know, as you know, if we
+
+496
+00:37:52,400 --> 00:37:58,200
+Chris: solve engineering, then like the remaining moat for your business is either regulatory or
+
+497
+00:37:58,200 --> 00:38:00,000
+Chris: regulatory capture.
+
+498
+00:38:00,000 --> 00:38:08,000
+Tyler: And from like a generalized thesis or one specifically for like Bitcoin and crypto and fintech.
+
+499
+00:38:08,000 --> 00:38:13,000
+Chris: Yeah, I think I think fintech. But I also think to a lesser extent, a more general thesis,
+
+500
+00:38:13,000 --> 00:38:15,000
+Chris: like I've spoken to people who are like,
+
+501
+00:38:15,000 --> 00:38:20,450
+Chris: "Oh, I was going to build an AI wrapper." But then I thought like, you know, regulation
+
+502
+00:38:20,450 --> 00:38:22,000
+Chris: would be a better moat for my business.
+
+503
+00:38:22,000 --> 00:38:25,610
+Chris: And so I'm doing something in fintech. I don't know if I agree with that, but it is
+
+504
+00:38:25,610 --> 00:38:27,000
+Chris: something I've heard, right?
+
+505
+00:38:27,000 --> 00:38:30,000
+Tyler: Because out of hiring an engineer, I hired like a lobbyist.
+
+506
+00:38:30,000 --> 00:38:33,000
+Tyler: Yeah, like a team of lawyers.
+
+507
+00:38:33,000 --> 00:38:35,000
+Chris: Yeah.
+
+508
+00:38:35,000 --> 00:38:42,220
+Tyler: But I do think some... I bought a lot of world liberty financial and suddenly I could do
+
+509
+00:38:42,220 --> 00:38:44,000
+Chris: whatever I wanted.
+
+510
+00:38:44,000 --> 00:38:47,000
+Chris: Exclusive rights to something. Yeah.
+
+511
+00:38:47,000 --> 00:38:52,000
+Tyler: I do think like the marketing department of Ripple is like amazing.
+
+512
+00:38:52,000 --> 00:38:58,000
+Tyler: Like every cycle, whatever the trend is, they're like hop on, "Oh, we want red."
+
+513
+00:38:58,000 --> 00:38:59,000
+Chris: No.
+
+514
+00:38:59,000 --> 00:39:05,000
+Tyler: Ripple, bros, it's over. But it's like, yeah, like I think the reasoning...
+
+515
+00:39:05,000 --> 00:39:11,000
+Jackson: Speaking of Ripple and agentic payments, because those two are very related.
+
+516
+00:39:11,000 --> 00:39:13,000
+Jackson: Sorry, Chris, what were you going to say?
+
+517
+00:39:13,000 --> 00:39:16,000
+Chris: No, no, yeah. Should we talk about that?
+
+518
+00:39:16,000 --> 00:39:23,000
+Chris: Should we chat about agentic payments and X402 and MPP and ADP?
+
+519
+00:39:23,000 --> 00:39:28,000
+Jackson: Yeah, I think maybe we should give the agentic payments a go.
+
+520
+00:39:28,000 --> 00:39:34,000
+Jackson: I've been baiting our listeners about agentic payments for like a month.
+
+521
+00:39:34,000 --> 00:39:38,000
+Jackson: So I'll lay the stage.
+
+522
+00:39:38,000 --> 00:39:47,840
+Jackson: Agentic payments basically means that your chat GPT can like buy stuff for you from like
+
+523
 00:39:47,840 --> 00:39:50,000
 Jackson: a consumer point of view.
 
-476
-00:39:51,000 --> 00:39:54,860
+524
+00:39:50,000 --> 00:39:54,730
 Jackson: And from a business point of view, it could mean that your business could trade with
 
-477
-00:39:54,860 --> 00:39:58,000
+525
+00:39:54,730 --> 00:39:57,000
 Jackson: other businesses in an automated way.
 
-478
-00:39:59,000 --> 00:40:05,000
-Jackson: So I'm just trusting your AI model to do that from a bird's eye point of view.
-
-479
-00:40:06,000 --> 00:40:12,000
-Jackson: Now you two, Chris and Tyler, what do you think? Does it have legs? Is it going to happen?
-
-480
-00:40:14,000 --> 00:40:17,000
-Chris: Okay. I want to, I want to layer a little bit of context on top of this.
-
-481
-00:40:18,000 --> 00:40:21,000
-Chris: There are four agentic payments protocols in the wild.
-
-482
-00:40:22,000 --> 00:40:27,850
-Chris: So, I mean, so I think like the story here is that Coinbase and some affiliated people
-
-483
-00:40:27,850 --> 00:40:31,000
-Chris: came up with a protocol called X402.
-
-484
-00:40:32,000 --> 00:40:37,400
-Chris: The idea is that it repurposes the 402 HTTP code, which I think is payment required and
-
-485
-00:40:37,400 --> 00:40:42,000
-Chris: it like allows you to, you know, do a payment.
-
-486
-00:40:43,000 --> 00:40:46,650
-Chris: And there are some cool ideas like streaming payments and micro payments dovetailed in
-
-487
-00:40:46,650 --> 00:40:50,100
-Chris: there, but functionally what it does is you hit this endpoint and then it returns a
-
-488
-00:40:50,100 --> 00:40:53,000
-Chris: standardized JSON list of the payments that the vendor accepts.
-
-489
-00:40:54,000 --> 00:40:59,940
-Chris: On top of that spec, there's some stuff like, you know, how to integrate a facilitator to
-
-490
-00:40:59,940 --> 00:41:05,000
-Chris: facilitate and do the payments for you, which of course is Coinbase by default.
-
-491
-00:41:06,000 --> 00:41:11,200
-Chris: And was previously based by default, although I think there are more facilitators and
-
-492
-00:41:11,200 --> 00:41:15,000
-Chris: more chains accepted now. So I think that kicked it off.
-
-493
-00:41:16,000 --> 00:41:20,150
-Chris: From there, I think Google has put their hat in the ring. Stripe and Tempo have one
-
-494
-00:41:20,150 --> 00:41:25,070
-Chris: called MPP, which is going through the IETF at the moment. I think it's in the proposal
-
-495
-00:41:25,070 --> 00:41:26,000
-Chris: draft phase.
-
-496
-00:41:27,000 --> 00:41:33,230
-Chris: And I mean, my take here is they're all much of a muchness, right? Like I think, you know,
-
-497
-00:41:33,230 --> 00:41:39,160
-Chris: when anything big like this happens, there's like a war to control the standard because
-
-498
-00:41:39,160 --> 00:41:42,000
-Chris: maybe you can be on the ground floor and control some of the order flow.
-
-499
-00:41:43,000 --> 00:41:47,790
-Chris: And basically, you know, my criticism of all of these proposals is they're almost
-
-500
-00:41:47,790 --> 00:41:53,370
-Chris: exclusively exactly this. Like they seem free and open, but like under the hood, you know,
-
-501
-00:41:53,370 --> 00:41:57,000
-Chris: there are some minor structural advantages to the proposal.
-
-502
-00:41:58,000 --> 00:42:02,860
-Chris: A great example of this is that Stripe's proposal MPP is a superset of X402. So they're
-
-503
-00:42:02,860 --> 00:42:07,740
-Chris: like trying to cannibalize the other. They're like, OK, well, this has some adoption.
-
-504
-00:42:07,740 --> 00:42:12,160
-Chris: Like why don't we why don't we superset this and then like layer our own stuff on top and
-
-505
-00:42:12,160 --> 00:42:18,000
-Chris: then kind of like try to redirect the flow of this river as it's as it's running.
-
-506
-00:42:19,000 --> 00:42:21,000
-Tyler: They're vampire attacking X402.
-
-507
-00:42:22,000 --> 00:42:25,000
-Chris: I didn't want to say it, but it seems like that. Yeah.
-
-508
-00:42:26,000 --> 00:42:32,670
-Jackson: I guess like the protocols for making the payments, you know, these companies are trying
-
-509
-00:42:32,670 --> 00:42:39,000
-Jackson: to make them and like monopolize that because it's like a way to make a lot of money.
-
-510
-00:42:40,000 --> 00:42:45,160
-Jackson: But really, we don't even need them, right? You can point Fable with like full computer
-
-511
-00:42:45,160 --> 00:42:50,000
-Jackson: control at a website and it can navigate the checkout for you.
-
-512
-00:42:51,000 --> 00:42:58,080
-Jackson: So like beyond the the mechanism that the payments go through. Do you see yourselves
-
-513
-00:42:58,080 --> 00:43:03,000
-Jackson: using like letting your agent buy stuff for you?
-
-514
-00:43:05,000 --> 00:43:10,040
-Chris: I already let my agent do stuff on chain. I would say my agent is the primarily primary
-
-515
-00:43:10,040 --> 00:43:13,000
-Chris: way that I interact with stuff on chain.
-
-516
-00:43:14,000 --> 00:43:21,260
-Chris: By the way, look at CDRN/Sigil if you want. You want to know like how to do this. It's
-
-517
-00:43:21,260 --> 00:43:22,000
-Chris: very cool.
-
-518
-00:43:23,000 --> 00:43:28,000
-Chris: You mean your GitHub? Yeah. Yeah. My GitHub. Look at my GitHub. Yeah.
-
-519
-00:43:30,000 --> 00:43:35,000
-Tyler: My agent only buys Ripple. That's the only thing it's allowed to buy.
-
-520
-00:43:36,000 --> 00:43:41,850
-Jackson: I think you and Chris mixed your agents up. No, I can totally see a world where you like
-
-521
-00:43:41,850 --> 00:43:47,000
-Tyler: let an agent shop for you. Say like go find me these sneakers.
-
-522
-00:43:48,000 --> 00:43:52,980
-Tyler: Find me the best price. I'm curious, Chris, do you think this is like a winner-take-all
-
-523
-00:43:52,980 --> 00:43:55,000
-Tyler: thing with these protocols?
-
-524
-00:43:56,000 --> 00:44:07,080
-Tyler: I feel like one thing that agents are really good at is like handling complexity. So if
-
-525
-00:44:07,080 --> 00:44:09,000
-Tyler: every company has their own flavor of this protocol, that's like subtly different.
-
 526
-00:44:10,000 --> 00:44:14,370
-Tyler: Historically, you would think, okay, maybe it's going to coalesce around one. There'll be
+00:39:57,000 --> 00:40:03,000
+Jackson: And you're like just trusting your AI model to do that from a bird's eye point of view.
 
 527
-00:44:14,370 --> 00:44:17,000
-Tyler: winner-take-all because of network effects. Nobody wants to support all this.
+00:40:03,000 --> 00:40:09,640
+Jackson: Now, you two, Chris and Tyler, what do you think? Does it have legs? Is it going to
 
 528
-00:44:18,000 --> 00:44:24,430
-Tyler: But like agents, it's just trivial for them to like hop protocol to protocol, know how to
+00:40:09,640 --> 00:40:11,000
+Jackson: happen?
 
 529
-00:44:24,430 --> 00:44:30,990
-Tyler: interact with it. So I don't know, like I could see some of them, multiple of them persisting
+00:40:11,000 --> 00:40:15,000
+Chris: Okay, I want to layer a little bit of context on top of this.
 
 530
-00:44:30,990 --> 00:44:32,000
-Tyler: and it's kind of like a mess.
+00:40:15,000 --> 00:40:19,000
+Chris: There are four agentic payments protocols in the wild.
 
 531
-00:44:33,000 --> 00:44:39,670
-Tyler: But the AI is so good at disentangling that mess and hopping between different support
+00:40:19,000 --> 00:40:27,990
+Chris: So I mean, so I think like the story here is that Coinbase and some affiliated people
 
 532
-00:44:39,670 --> 00:44:44,000
-Tyler: that like it doesn't necessarily converge.
+00:40:27,990 --> 00:40:31,000
+Chris: came up with a protocol called X402.
 
 533
-00:44:45,000 --> 00:44:49,320
-Chris: Yeah, I totally agree. I think like the crispiest form of my take is that none of this
+00:40:31,000 --> 00:40:37,000
+Chris: The idea is that it repurposes the 402 HTTP code, which I think is payment required.
 
 534
-00:44:49,320 --> 00:44:54,000
-Chris: matters. Like agents will pave over the complexity as they have with programming.
+00:40:37,000 --> 00:40:41,000
+Chris: And it like allows you to do a payment.
 
 535
-00:44:55,000 --> 00:44:58,440
-Chris: But we're making this like needlessly worse for humans for just no reason, right? Like
+00:40:41,000 --> 00:40:44,520
+Chris: And there are some cool ideas like streaming payments and micro payments dovetailed in
 
 536
-00:44:58,440 --> 00:45:00,000
-Chris: with standard fragmentation.
+00:40:44,520 --> 00:40:45,000
+Chris: there.
 
 537
-00:45:01,000 --> 00:45:06,950
-Chris: Like if you go to Claude right now and you spin up CDRN/Sigil or any other key management
+00:40:45,000 --> 00:40:49,150
+Chris: But functionally, what it does is you hit this endpoint and then it returns a
 
 538
-00:45:06,950 --> 00:45:13,160
-Chris: MCP that you want and you tell it to do something, like it will work it out. Like it will
+00:40:49,150 --> 00:40:53,000
+Chris: standardized JSON list of the payments that the vendor accepts.
 
 539
-00:45:13,160 --> 00:45:17,000
-Chris: pull the contracts to bridge your funds and like execute the payload.
+00:40:53,000 --> 00:40:59,160
+Chris: On top of that spec, there's some stuff like, you know, how to integrate a facilitator to
 
 540
-00:45:18,000 --> 00:45:22,640
-Chris: It will do, you know, it doesn't matter if it's Solana or Ethereum, you know, the agents
+00:40:59,160 --> 00:41:05,000
+Chris: facilitate and do the payments for you, which of course is Coinbase by default.
 
 541
-00:45:22,640 --> 00:45:27,410
-Chris: like quite adept at figuring out how to do things. And I think, you know, this will be no
+00:41:05,000 --> 00:41:10,200
+Chris: And was previously based by default, although I think there are more facilitators and
 
 542
-00:45:27,410 --> 00:45:33,000
-Chris: different with checkout or traditional payments or whatever. Yeah, that's my hot take.
+00:41:10,200 --> 00:41:12,000
+Chris: more chains accepted now.
 
 543
-00:45:34,000 --> 00:45:38,380
-Tyler: I think that covers like the protocol level, but then there's also like the rail that
+00:41:12,000 --> 00:41:15,000
+Chris: So I think that kicked it off.
 
 544
-00:45:38,380 --> 00:45:42,990
-Tyler: this stuff travels on. So there's like, it's almost a good combinatorial explosion of
+00:41:15,000 --> 00:41:18,000
+Chris: From there, I think Google has put their hat in the ring.
 
 545
-00:45:42,990 --> 00:45:47,610
-Tyler: like we have all these different protocols. A lot of them support multiple different
+00:41:18,000 --> 00:41:22,000
+Chris: Stripe and Tempo have one called MPP, which is going through the IETF at the moment.
 
 546
-00:45:47,610 --> 00:45:48,000
-Tyler: rails.
+00:41:22,000 --> 00:41:26,000
+Chris: I think it's in the proposal draft phase.
 
 547
-00:45:49,000 --> 00:45:58,460
-Tyler: Yeah, my agent wants to pay using X402, using like USDC on base, but, you know, the
+00:41:26,000 --> 00:41:31,000
+Chris: And I mean, my take here is they're all much of a muchness, right?
 
 548
-00:45:58,460 --> 00:46:07,140
-Tyler: merchant wants to receive via like MPP on like OUSD on Tempo. And then there's like, you
+00:41:31,000 --> 00:41:35,940
+Chris: Like, I think, you know, when anything big like this happens, there's like a war to
 
 549
-00:46:07,140 --> 00:46:11,360
-Tyler: know, Google's, I forget what it's called, they have one of these protocols too, and they
+00:41:35,940 --> 00:41:40,770
+Chris: control the standard because maybe you can be on the ground floor and control some of the
 
 550
-00:46:11,360 --> 00:46:14,000
-Tyler: just like want you to buy something with Visa.
+00:41:40,770 --> 00:41:41,000
+Chris: order flow.
 
 551
-00:46:15,000 --> 00:46:21,570
-Tyler: So there's just like this, you know, multidimensional explosion of possibilities. I don't
+00:41:41,000 --> 00:41:44,600
+Chris: And basically, you know, my criticism of all of these proposals is they're almost
 
 552
-00:46:21,570 --> 00:46:28,610
-Tyler: know if I believe the thesis that like blockchains and crypto assets are particularly
+00:41:44,600 --> 00:41:46,000
+Chris: exclusively exactly this.
 
 553
-00:46:28,610 --> 00:46:37,000
-Tyler: good for micropayments or for, yeah, like machine payments, or yeah, like, it doesn't
+00:41:46,000 --> 00:41:52,660
+Chris: Like, they seem free and open, but like under the hood, you know, there are some minor
 
 554
-00:46:37,000 --> 00:46:42,110
-Tyler: seem to me like some people frame it as if it's like, so obvious that it's inevitable
+00:41:52,660 --> 00:41:56,000
+Chris: structural advantages to the proposal.
 
 555
-00:46:42,110 --> 00:46:43,000
-Tyler: that
+00:41:56,000 --> 00:42:02,000
+Chris: And I think a great example of this is that Stripe's proposal MPP is a superset of X402.
 
 556
-00:46:44,000 --> 00:46:50,680
-Tyler: crypto assets will use crypto assets. And I don't really agree with that yet. I think
+00:42:02,000 --> 00:42:04,000
+Chris: So they're like trying to cannibalize the other.
 
 557
-00:46:50,680 --> 00:46:56,900
-Tyler: there are some pros for them to use that. But then I think there are some, you know,
+00:42:04,000 --> 00:42:12,340
+Chris: They're like, okay, well, this has some adoption. Like, why don't we superset this and
 
 558
-00:46:56,900 --> 00:47:03,540
-Tyler: downsides. And so I think it's yet to be seen how it will play out. And like, for all the
+00:42:12,340 --> 00:42:14,860
+Chris: then like layer our own stuff on top and then kind of like try to redirect the flow of
 
 559
-00:47:03,540 --> 00:47:08,430
-Tyler: downsides of like the traditional rails, I think that those companies that control them
+00:42:14,860 --> 00:42:17,000
+Chris: this river as it's running.
 
 560
-00:47:08,430 --> 00:47:13,000
-Tyler: and operate on them are like sprinting to make them more agent compatible.
+00:42:17,000 --> 00:42:20,000
+Tyler: They're vampire attacking X402.
 
 561
-00:47:14,000 --> 00:47:20,580
-Jackson: What you're talking about is copium. I think that crypto people are hoping and coping the
+00:42:20,000 --> 00:42:25,000
+Chris: I didn't want to say it, but it seems like that. Yeah.
 
 562
-00:47:20,580 --> 00:47:24,000
-Jackson: agents will use internet native money.
+00:42:25,000 --> 00:42:32,190
+Jackson: I guess like the protocols for making the payments, you know, these companies are trying
 
 563
-00:47:25,000 --> 00:47:31,040
-Chris: I completely agree. I think it's maybe a better outcome for the commons if people settle
+00:42:32,190 --> 00:42:39,000
+Jackson: to make them and like monopolize that because it's like a way to make a lot of money.
 
 564
-00:47:31,040 --> 00:47:37,240
-Chris: on something that is like more open and more programmable. But like, you know, at the end
+00:42:39,000 --> 00:42:41,000
+Jackson: But really, we don't even need them, right?
 
 565
-00:47:37,240 --> 00:47:43,180
-Chris: of the day, I think this whole standards war is emblematic of like how this works, which
+00:42:41,000 --> 00:42:54,610
+Jackson: You can point Fable with like full computer control at a website and it can navigate the
 
 566
-00:47:43,180 --> 00:47:49,150
-Chris: is that large players compete to capture the order flow. And unless they're forced to use
+00:42:54,610 --> 00:43:00,630
+Jackson: checkout for you. So like beyond the mechanism that the payments go through, do you see
 
 567
-00:47:49,150 --> 00:47:52,000
-Chris: something incredibly neutral, they want, right?
+00:43:00,630 --> 00:43:04,000
+Jackson: yourselves using like letting your agent buy stuff for you?
 
 568
-00:47:53,000 --> 00:48:01,120
-Jackson: Absolutely. Yeah, I guess I could see letting an agent buy like things I don't care about,
+00:43:04,000 --> 00:43:12,510
+Chris: I already let my agent do stuff on chain. I would say my agent is the primary way that I
 
 569
-00:48:01,120 --> 00:48:07,000
-Jackson: like the shoes, getting me cheap shoes, but I don't know like groceries.
+00:43:12,510 --> 00:43:13,000
+Chris: interact with stuff on chain.
 
 570
-00:48:08,000 --> 00:48:16,270
-Tyler: I feel like groceries is like the perfect use case. You know, you tell the agent like, I
+00:43:13,000 --> 00:43:19,790
+Chris: By the way, look at CDRN/Sigil if you want. You want to know like how to do this. It's
 
 571
-00:48:16,270 --> 00:48:24,750
-Tyler: like, you know, Mexican food and Thai food and like steak, like plan me, you know, three
+00:43:19,790 --> 00:43:22,000
+Chris: very cool.
 
 572
-00:48:24,750 --> 00:48:28,000
-Tyler: to four dinners for this week.
+00:43:22,000 --> 00:43:29,000
+Chris: You mean your GitHub? Yeah, yeah, my GitHub. Look at my GitHub.
 
 573
-00:48:29,000 --> 00:48:33,970
-Tyler: You know, the recipe, put the ingredients in my cart, buy them, have them delivered to my
+00:43:29,000 --> 00:43:34,000
+Tyler: My agent only buys Ripple. That's the only thing it's allowed to buy.
 
 574
-00:48:33,970 --> 00:48:38,800
-Tyler: house and like send me an email, you know, at night with the recipe and which ingredients
+00:43:34,000 --> 00:43:38,000
+Jackson: I think you and Chris mix your agents up.
 
 575
-00:48:38,800 --> 00:48:40,000
-Tyler: I'm supposed to use.
+00:43:38,000 --> 00:43:44,650
+Tyler: No, I can totally see a world where you like let an agent shop for you. Say like go find
 
 576
-00:48:41,000 --> 00:48:45,000
-Tyler: Like that kind of thing, I think is something that people do for sure.
+00:43:44,650 --> 00:43:47,000
+Tyler: me these sneakers.
 
 577
-00:48:46,000 --> 00:48:51,250
-Jackson: I just don't trust it's gonna like pick a good recipe and get me all the right
+00:43:47,000 --> 00:43:49,000
+Tyler: Find me the best price.
 
 578
-00:48:51,250 --> 00:48:57,870
-Jackson: ingredients to actually perform the cooking. But I don't know. I also very intense about
+00:43:49,000 --> 00:43:53,780
+Tyler: I'm curious, Chris, do you think this is like a winner-take-all thing with these
 
 579
-00:48:57,870 --> 00:49:03,000
-Tyler: my eating. Yeah, I know that you are such like a culinary aficionado.
+00:43:53,780 --> 00:43:59,000
+Tyler: protocols? Because I feel like one thing that agents are really good at is like handling
 
 580
-00:49:04,000 --> 00:49:17,000
-Jackson: Did you know my last name is Cook? It's very important. Whoa, did you just talk to
+00:43:59,000 --> 00:44:00,000
+Tyler: complexity.
 
 581
-00:49:17,000 --> 00:49:17,000
-Jackson: yourself on the podcast? That's crazy. Jackson swag dog chef. You're just cooking out.
+00:44:00,000 --> 00:44:08,110
+Tyler: So if every company has their own flavor of this protocol that's like subtly different,
 
 582
-00:49:18,000 --> 00:49:34,030
-Jackson: So like dog is only visible in the stupid streaming software. Don't don't expose me, man.
+00:44:08,110 --> 00:44:13,000
+Tyler: historically, you would think, okay, maybe it's going to coalesce around one.
 
 583
-00:49:34,030 --> 00:49:34,560
-Tyler: Yeah, I agree with that. I'm also very unsure. And I'm not like the most informed on this.
+00:44:13,000 --> 00:44:19,000
+Tyler: They'll be winner-take-all because of network effects. Nobody wants to support all this.
 
 584
-00:49:34,560 --> 00:49:38,000
-Tyler: So I don't want to come out with like a very, like, you know, a strong prediction.
+00:44:19,000 --> 00:44:21,940
+Tyler: But agents, it's just trivial for them to hop protocol to protocol, know how to interact
 
 585
-00:49:39,000 --> 00:49:42,780
-Tyler: But it seems to me like a lot of the arguments I've heard about like why it will
+00:44:21,940 --> 00:44:23,000
+Tyler: with it.
 
 586
-00:49:42,780 --> 00:49:47,420
-Tyler: inevitably be some kind of crypto asset. They don't necessarily make sense to me, I think
+00:44:23,000 --> 00:44:31,110
+Tyler: So I don't know, I could see some of them, multiple of them persisting and it's kind of
 
 587
-00:49:47,420 --> 00:49:53,310
-Tyler: it is like a little bit of motivated reasoning, people want their, their coin, whether
+00:44:31,110 --> 00:44:38,290
+Tyler: like a mess, but the AI is so good at disentangling that mess and hopping between
 
 588
-00:49:53,310 --> 00:49:58,030
-Tyler: they're a company with a stable coin or protocol or they're like, you know, Bitcoin
+00:44:38,290 --> 00:44:44,000
+Tyler: different support that it doesn't necessarily converge.
 
 589
-00:49:58,030 --> 00:50:02,510
-Tyler: enthusiasts, people want the thing that they're attached to, to like when and they'll
+00:44:44,000 --> 00:44:50,940
+Chris: Yeah, I totally agree. I think like the crispiest form of my take is that none of this
 
 590
-00:50:02,510 --> 00:50:04,000
-Tyler: motivated reason around it.
+00:44:50,940 --> 00:44:53,000
+Chris: matters. Like agents will pave over the complexity as they have with programming.
 
 591
-00:50:05,000 --> 00:50:09,000
-Tyler: It will be interesting. I don't know. We'll see. I could see.
+00:44:53,000 --> 00:44:57,310
+Chris: But we're making this like needlessly worse for humans for just no reason, right? Like
 
 592
-00:50:10,000 --> 00:50:15,300
-Jackson: In the end, it's the payment company that is like processing the payments on behalf of
+00:44:57,310 --> 00:44:59,000
+Chris: with standard fragmentation.
 
 593
+00:44:59,000 --> 00:45:07,110
+Chris: Like if you go to Claude right now and you spin up CDRN/Sigil or any other key management
+
+594
+00:45:07,110 --> 00:45:14,650
+Chris: MCP that you want and you tell it to do something, it will work it out. It will pull the
+
+595
+00:45:14,650 --> 00:45:17,000
+Chris: contracts to bridge your funds and execute the payload.
+
+596
+00:45:17,000 --> 00:45:22,790
+Chris: It doesn't matter if it's Solana or Ethereum. The agents quite adept at figuring out how
+
+597
+00:45:22,790 --> 00:45:28,710
+Chris: to do things. And I think this will be no different with checkout or traditional payments
+
+598
+00:45:28,710 --> 00:45:33,000
+Chris: or whatever. Yeah, that's my whole take.
+
+599
+00:45:33,000 --> 00:45:38,270
+Tyler: Okay, I think that covers like the protocol level, but then there's also like the rail
+
+600
+00:45:38,270 --> 00:45:43,790
+Tyler: that this stuff travels on. So there's like, it's almost a good combinatorial explosion
+
+601
+00:45:43,790 --> 00:45:47,000
+Tyler: of like we have all these different protocols. A lot of them support multiple different
+
+602
+00:45:47,000 --> 00:45:47,000
+Tyler: rails.
+
+603
+00:45:47,000 --> 00:45:57,590
+Tyler: And it's like, yeah, my agent wants to pay using X402, using like USDC on base, but the
+
+604
+00:45:57,590 --> 00:46:06,030
+Tyler: merchant wants to receive via like MPP on like an OUSD on tempo. And then there's like,
+
+605
+00:46:06,030 --> 00:46:10,200
+Tyler: you know, Google's, I forget what it's called, they have one of these protocols too, and
+
+606
+00:46:10,200 --> 00:46:14,000
+Tyler: they just like want you to buy something with Visa.
+
+607
+00:46:14,000 --> 00:46:21,450
+Tyler: So there's just like this, you know, multidimensional explosion of possibilities. I don't
+
+608
+00:46:21,450 --> 00:46:28,930
+Tyler: know if I believe the thesis that like, blockchains and crypto assets are particularly
+
+609
+00:46:28,930 --> 00:46:36,460
+Tyler: good for micro payments or for, yeah, like machine payments, or yeah, like, it doesn't
+
+610
+00:46:36,460 --> 00:46:41,000
+Tyler: seem to me like some people frame it as if it's like, so obvious that it's inevitable
+
+611
+00:46:41,000 --> 00:46:50,050
+Tyler: that agents will use crypto assets. And I don't really agree with that yet. I think there
+
+612
+00:46:50,050 --> 00:46:57,200
+Tyler: are some pros for them to use that. But then I think there are some, you know, downsides.
+
+613
+00:46:57,200 --> 00:47:00,000
+Tyler: And so I think it's yet to be seen how it will play out.
+
+614
+00:47:00,000 --> 00:47:05,170
+Tyler: And like, for all the downsides of like the traditional rails, I think that those
+
+615
+00:47:05,170 --> 00:47:10,420
+Tyler: companies that control them and operate on them are like sprinting to make them more
+
+616
+00:47:10,420 --> 00:47:12,000
+Tyler: agent compatible.
+
+617
+00:47:12,000 --> 00:47:20,110
+Jackson: And what you're talking about is copium. I think that crypto people are hoping and coping
+
+618
+00:47:20,110 --> 00:47:24,000
+Jackson: that agents will use internet native money.
+
+619
+00:47:24,000 --> 00:47:28,850
+Chris: I completely agree. There's no reason. I think it's maybe a better outcome for the
+
+620
+00:47:28,850 --> 00:47:34,420
+Chris: commons if people settle on something that is like more open and more programmable. But
+
+621
+00:47:34,420 --> 00:47:40,330
+Chris: like, you know, at the end of the day, I think this whole standard score is emblematic of
+
+622
+00:47:40,330 --> 00:47:46,000
+Chris: like, how this works, which is that large players compete to capture the order flow.
+
+623
+00:47:46,000 --> 00:47:52,000
+Chris: And unless they're forced to use something incredibly neutral, they want, right?
+
+624
+00:47:52,000 --> 00:48:00,110
+Jackson: Absolutely. Yeah, I guess I could see letting an agent buy like things I don't care about,
+
+625
+00:48:00,110 --> 00:48:07,000
+Jackson: like the shoes. Getting cheap shoes, but I don't know, like groceries.
+
+626
+00:48:07,000 --> 00:48:15,270
+Tyler: I feel like groceries is like the perfect use case. You know, you tell the agent like, I
+
+627
+00:48:15,270 --> 00:48:23,750
+Tyler: like, you know, Mexican food and Thai food and like steak, like plan me, you know, three
+
+628
+00:48:23,750 --> 00:48:27,000
+Tyler: to four dinners for this week.
+
+629
+00:48:27,000 --> 00:48:32,180
+Tyler: Come up with a recipe, put the ingredients in my cart, buy them, have them delivered to
+
+630
+00:48:32,180 --> 00:48:36,800
+Tyler: my house and like send me an email, you know, at night with the recipe and which
+
+631
+00:48:36,800 --> 00:48:39,000
+Tyler: ingredients I'm supposed to use.
+
+632
+00:48:39,000 --> 00:48:45,000
+Tyler: Like that kind of thing, I think is something that people do for sure.
+
+633
+00:48:45,000 --> 00:48:51,210
+Jackson: I just don't trust it's going to like pick a good recipe and get me all the right
+
+634
+00:48:51,210 --> 00:48:57,630
+Jackson: ingredients to actually perform the cooking. But I don't know. I also very intense about
+
+635
+00:48:57,630 --> 00:48:58,000
+Tyler: my eating.
+
+636
+00:48:58,000 --> 00:49:04,000
+Tyler: Yeah, I know that you are such like a culinary aficionado. You are.
+
+637
+00:49:04,000 --> 00:49:08,000
+Jackson: Did you know my last name is Cook?
+
+638
+00:49:08,000 --> 00:49:16,330
+Chris: That's very important. Did you just dox yourself on the podcast? That's crazy. Jackson,
+
+639
+00:49:16,330 --> 00:49:17,000
+Jackson: swag dog, chef. You're just cook, you know?
+
+640
+00:49:17,000 --> 00:49:27,000
+Jackson: Swag dog is only visible in the stupid streaming software. Don't, don't expose me, man.
+
+641
+00:49:27,000 --> 00:49:32,680
+Tyler: I agree with that. I'm also very unsure and I'm not like the most informed on this. So I
+
+642
+00:49:32,680 --> 00:49:38,000
+Tyler: don't want to come out with like a very like, you know, a strong prediction.
+
+643
+00:49:38,000 --> 00:49:41,780
+Tyler: But it seems to me like a lot of the arguments I've heard about like why it will
+
+644
+00:49:41,780 --> 00:49:47,000
+Tyler: inevitably be some kind of crypto asset. They don't necessarily make sense to me.
+
+645
+00:49:47,000 --> 00:49:52,020
+Tyler: I think it is like a little bit of motivated reasoning. People want their coin, whether
+
+646
+00:49:52,020 --> 00:49:57,000
+Tyler: they're a company with a stable coin or a protocol or they're like a Bitcoin enthusiast.
+
+647
+00:49:57,000 --> 00:50:02,850
+Tyler: People want the thing that they're attached to, to like win and they'll motivated reason
+
+648
+00:50:02,850 --> 00:50:09,000
+Tyler: around it. It'll be interesting. I don't know. We'll see. I could see.
+
+649
+00:50:09,000 --> 00:50:15,300
+Jackson: In the end, it's the payment company that is like processing the payments on behalf of
+
+650
 00:50:15,300 --> 00:50:20,000
 Jackson: the vendor that's going to pick which protocols they support.
 
-594
-00:50:21,000 --> 00:50:27,860
+651
+00:50:20,000 --> 00:50:28,110
 Tyler: It's kind of crazy that that whole thing relies basically on whatever the legislation was
 
-595
-00:50:27,860 --> 00:50:33,000
-Tyler: that like bands, stable coins from passing interest on the consumers in the US.
+652
+00:50:28,110 --> 00:50:32,000
+Tyler: that like bans stable coins from passing interest on the consumers in the US.
 
-596
-00:50:34,000 --> 00:50:37,440
-Tyler: It's like, oh, there will be this new business model because they can harvest all the
+653
+00:50:32,000 --> 00:50:35,750
+Tyler: And it's like, oh, there will be this new business model because they can harvest all the
 
-597
-00:50:37,440 --> 00:50:42,110
+654
+00:50:35,750 --> 00:50:40,110
 Tyler: interest. And it's like literally, oh, that business model only exists because the
 
-598
-00:50:42,110 --> 00:50:46,250
+655
+00:50:40,110 --> 00:50:44,610
 Tyler: government banned them, like preventing a race to the bottom where they pass that
 
-599
-00:50:46,250 --> 00:50:48,000
+656
+00:50:44,610 --> 00:50:47,000
 Tyler: interest back on to customers.
 
-600
-00:50:49,000 --> 00:50:52,000
+657
+00:50:47,000 --> 00:50:51,000
 Chris: There's some kind of regulatory mode at play here, I think for sure.
 
-601
-00:50:53,000 --> 00:50:54,000
+658
+00:50:51,000 --> 00:50:54,000
 Tyler: Yeah.
 
-602
-00:50:56,000 --> 00:51:04,120
-Jackson: I think we will get to cover the genius act itself next week. I think that the deadline
+659
+00:50:54,000 --> 00:51:03,420
+Jackson: Yeah, maybe we'll get to cover the genius act itself next week. I think that the deadline
 
-603
-00:51:04,120 --> 00:51:09,000
+660
+00:51:03,420 --> 00:51:08,000
 Jackson: passed, but I'm glad we finally talked about it into payments.
 
-604
-00:51:10,000 --> 00:51:16,300
-Jackson: It looks like we're going to end the spot up two bucks. That's 2% on the hundo. So I
+661
+00:51:08,000 --> 00:51:25,000
+Jackson: And that's, it looks like we're going to end this pot up two bucks. That's 2% on the hundo.
 
-605
-00:51:16,300 --> 00:51:22,000
-Jackson: think we're building quite the nest egg for our retirement boys.
+662
+00:51:25,000 --> 00:51:25,580
+Chris: So I think we're building quite the nest egg for our retirement boys. I think you owe 5.6
 
-606
-00:51:23,000 --> 00:51:28,000
-Chris: I think you owe 5.6 an apology, Jackson. You're very scathing.
+663
+00:51:25,580 --> 00:51:28,000
+Chris: an apology. Jackson, you're very scathing.
 
-607
-00:51:29,000 --> 00:51:31,000
-Jackson: I'm never going to apologize.
+664
+00:51:28,000 --> 00:51:35,000
+Jackson: I'm never, I'm never going to apologize.
 
-608
-00:51:36,000 --> 00:51:39,000
+665
+00:51:35,000 --> 00:51:39,000
 Jackson: Yeah, I think we'll close it off there.
 
-609
-00:51:40,000 --> 00:51:44,000
-Jackson: And do you guys have any farewells to our listeners?
+666
+00:51:39,000 --> 00:51:44,000
+Jackson: And do you guys have any farewells to our, to our listeners?
 
-610
-00:51:45,000 --> 00:51:47,000
+667
+00:51:44,000 --> 00:51:47,000
 Jackson: Oh, shoot. We're almost down.
 
-611
-00:51:48,000 --> 00:51:49,000
-Jackson: Quick.
+668
+00:51:47,000 --> 00:51:50,000
+Jackson: Quick. Close it. I'm going to close it right now.
 
-612
-00:51:49,000 --> 00:51:50,000
-Chris: I'm going to close it right now.
-
-613
-00:51:51,000 --> 00:51:52,000
+669
+00:51:50,000 --> 00:51:52,000
 Jackson: Close it.
 
-614
-00:51:53,000 --> 00:51:56,000
+670
+00:51:52,000 --> 00:51:56,000
 Tyler: Sorry about all the puke talk earlier listeners.
 
-615
-00:51:57,000 --> 00:51:59,000
+671
+00:51:56,000 --> 00:51:59,000
 Jackson: Yeah, we'll see what we do with that.
 
-616
-00:52:00,000 --> 00:52:04,000
+672
+00:51:59,000 --> 00:52:06,000
 Chris: Claude, don't cut it out. Claude, make that the centerpiece of the podcast.
 
-617
-00:52:07,000 --> 00:52:09,000
-Jackson: All right. Later.
+673
+00:52:06,000 --> 00:52:08,000
+Jackson: All right.
+
+674
+00:52:08,000 --> 00:52:11,000
+Insert: Later.

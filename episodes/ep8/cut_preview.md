@@ -38,9 +38,9 @@
   TYLER    (   28.3): I'm so impressed with your dedication, Jackson.
   JACKSON  (   28.5): What will I do?
   TYLER    (   31.6): You just kept the torch alive.
+  CHRIS    (   45.0): Yeah, I mean, so my week away from the pod was good. I was in Australia. It was very cold.
 
 ===== S2a =====
-  JACKSON  (  444.1): And I think this is the perfect time to transition to the death of Bitcoin and the death of the
   JACKSON  (  451.1): security of Bitcoin.
 
 ===== S2b =====
@@ -57,6 +57,7 @@
   TYLER    (  515.1): If it is a big enough quantum computer with enough capacity, we're like really far away
   CHRIS    (  519.0): Okay.
   TYLER    (  519.7): from that threshold, but some people are worried that that's accelerating.
+  TYLER    (  524.0): Um, but like one of the things that you would do if you were worried about quantum computers
   TYLER    (  524.0): Um, but like one of the things that you would do if you were worried about quantum computers
   TYLER    (  528.7): coming soon is migrate Bitcoin's cryptography to a quantum safe, um, cryptography system.
   TYLER    (  537.1): And there's like a bunch of ones that are quantum safe that are candidates that you
@@ -101,6 +102,7 @@
   TYLER    (  662.2): model or trying the same model again could find a vulnerability in some of the cryptography
   JACKSON  (  664.5): No, no, no, no, no, no, no, no, no, no, no.
   CHRIS    (  666.0): Thank you.
+  TYLER    (  666.5): that underlies Bitcoin or really ending crypto cryptographic system.
   TYLER    (  666.5): that underlies Bitcoin or really ending crypto cryptographic system.
   TYLER    (  671.0): Um, but if there's huge vulnerabilities and like core cryptography that runs the internet,
   TYLER    (  677.0): like a lot of things have problems.
@@ -159,6 +161,7 @@
   CHRIS    (  890.0): Yeah, so, so, I mean, like, we were in this uncomfortable position where the defenders unless they have like a really good relationship with the labs or they have like a special access program are kind of defenseless like they're grasping at whatever tools they can get to kind of defend themselves
   TYLER    (  901.2): [inaudible]
   CHRIS    (  908.0): against these adversarial threats and I think, you know, that probably only gets worse unless we work out what we're doing with the guardrails.
+  CHRIS    (  917.0): And I've personally had similar problems like I write smart contracts.
   CHRIS    (  917.0): And I've personally had similar problems like I write smart contracts.
   CHRIS    (  923.0): And it is impossible to get an audit for your smart contract using the frontier models, or very very very difficult.
   JACKSON  (  926.6): Yeah, are we all like super like libertarian on the guardrails do we all feel like there
@@ -274,6 +277,7 @@
   TYLER    ( 1418.6): exactly where I come down on this, but I'm not like 100% like free unrestricted model
   JACKSON  ( 1419.1): Do you imagine like a government with a really powerful model like creates an open source version of it and drops it in a country they don't like, like, internet geo fence.
   TYLER    ( 1424.3): person I think because of that, but I'm also probably less restrictive than a lot of the
+  TYLER    ( 1424.3): person I think because of that, but I'm also probably less restrictive than a lot of the
   CHRIS    ( 1425.0): Thank you.
   TYLER    ( 1432.7): companies that you see right now.
 
@@ -284,11 +288,11 @@
   JACKSON  ( 1499.1): The thread is out.
 
 ===== S3a =====
-  CHRIS    (   45.0): Yeah, I mean, so my week away from the pod was good. I was in Australia. It was very cold.
   JACKSON  (   46.5): We're all a critical piece of this three-legged stool that we call the podcast.
   JACKSON  (   51.4): Speaking of stools, Chris, what's going on with the gamer thumb and how is your week
   JACKSON  (   56.4): away from the pod?
   TYLER    (   58.3): Did you do any gaming when you were there?
+  CHRIS    (   65.0): But what it did give me is a chance to recover. So like I didn't do a lot of typing whilst I was there. And, and yeah, I still have gameathon. So I don't want to tell everyone, yeah.
   CHRIS    (   65.0): But what it did give me is a chance to recover. So like I didn't do a lot of typing whilst I was there. And, and yeah, I still have gameathon. So I don't want to tell everyone, yeah.
   JACKSON  (   82.2): That's it.
   CHRIS    (   83.0): Absolutely not. No gaming was done.
@@ -332,7 +336,6 @@
   TYLER    (  231.4): being painful.
   TYLER    (  232.4): Eventually, I went to the doctor and got an x-ray and they revealed that.
   TYLER    (  236.4): But yeah, I guess that puts my, you know, I'm throwing stones at Chris from my glass
-  TYLER    (  236.4): But yeah, I guess that puts my, you know, I'm throwing stones at Chris from my glass
   TYLER    (  242.2): house over here.
   JACKSON  (  244.7): We're just putting you back, you know.
   CHRIS    (  246.0): Yeah, thank you for the backup Jackson I appreciate that I was feeling dogpiled a little bit, but we're better now.
@@ -369,6 +372,7 @@
   JACKSON  (  351.8): Oh, pardon me, adult fugue?
   TYLER    (  355.4): I don't think either are particularly great, but yeah, it does, it does have like that
   CHRIS    (  360.0): Thank you.
+  TYLER    (  360.2): like stomach acid kind of bile like smell that normal puke does.
   TYLER    (  360.2): like stomach acid kind of bile like smell that normal puke does.
   JACKSON  (  361.2): Jeez, the viewers have never heard Sorry Heroes Go Half.
 
@@ -541,8 +545,8 @@
   CHRIS    ( 2497.8): do you think, Tyler? Be very careful what you say here.
   JACKSON  ( 2502.1): That's on rebel.
   TYLER    ( 2504.8): I think Jackson probably has like dabbled in a little bit of ripple.
-  TYLER    ( 2504.8): I think Jackson probably has like dabbled in a little bit of ripple.
   TYLER    ( 2509.4): I think Chris, I would say no.
+  TYLER    ( 2512.8): No hate on you, Jackson, but I feel like you're just like a little bit more exploratory and
   TYLER    ( 2512.8): No hate on you, Jackson, but I feel like you're just like a little bit more exploratory and
   TYLER    ( 2517.5): kind of like try anything and then, yeah, maybe Chris and I are like cynical, like hermits
   CHRIS    ( 2519.2): Unminded. Nice. I'm not sure what you're saying. I'm not sure what you're saying. I'm not sure.
@@ -680,6 +684,7 @@
   TYLER    ( 3152.5): It, it doesn't necessarily converge.
   TYLER    ( 3158.5): [inaudible]
   CHRIS    ( 3163.6): Agents will pave over the complexity as they have with programming,
+  CHRIS    ( 3163.6): Agents will pave over the complexity as they have with programming,
   CHRIS    ( 3167.2): but we're making this needlessly worse for humans for just no reason,
   CHRIS    ( 3171.2): like with standard fragmentation. If you go to Claude right now and you spin up CDRN/Sigil,
   CHRIS    ( 3179.2): or any other key management MCP that you want, and you tell it to do something,
@@ -694,6 +699,7 @@
   TYLER    ( 3213.5): it's almost like a combinatorial explosion of like we have all these
   TYLER    ( 3216.5): different protocols.
   TYLER    ( 3217.5): A lot of them support multiple different rails and it's like,
+  TYLER    ( 3221.5): yeah, my agent wants to pay using X four or two using like USDC on base.
   TYLER    ( 3221.5): yeah, my agent wants to pay using X four or two using like USDC on base.
   TYLER    ( 3227.5): But you know, you're the merchant wants to receive via like MPP on like,
   TYLER    ( 3235.5): uh, oh USD on tempo.

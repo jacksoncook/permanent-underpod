@@ -37,7 +37,9 @@ card copy, chapter labels. Everything else is the scripts' problem.
 After the full render: spot-check frames at overlay windows (`overlays.json` has
 exact final times), confirm A/V durations match, loudnorm-measure the result
 (target ≈ -16 LUFS, TP ≤ -1 dBTP). If peaks are hot, re-render AUDIO ONLY from
-edited_raw.mov and remux with `-c:v copy` — never re-encode video for an audio fix.
+edited_raw.mov and remux with `-c:v copy` — never re-encode video for an audio fix:
+`final_render.py <work> render.json --audio-only` does exactly this (~72 s on a
+52-min episode vs ~10 min for a full re-encode, and the video stays bit-identical).
 
 ## Retention-informed edit defaults (channel analytics, Jul 2026 — applies from Ep 6)
 
@@ -150,6 +152,19 @@ is far/remote (e.g. a laptop) and others are close. The right metric is **LRA
   `volume` correction + `alimiter` to land exactly −16 LUFS / −1.5 dBTP. (`linear`
   two-pass loudnorm does NOT fix fluctuation — it's constant-gain; you need the
   dynamic low-LRA stage above for that.)
+- **A sample-limited master decodes ~1.35× HOT, so `limit` is not the delivered
+  ceiling and `target_lufs` is not the delivered loudness.** Ep 8 measured the
+  overshoot factor twice, consistently: `limit` 0.84 (−1.5 dBFS) → **+1.1 dBTP**;
+  `limit` 0.65 (−3.7 dBFS) → −1.1 dBTP. It's the 192k→48k resample plus the AAC
+  encode reconstructing peaks between the limited samples, and it can be as few as
+  4 samples in a 52-min program — so *measure the decoded file*, don't trust `limit`.
+  Budget ≈1.4 dB: for TP ≤ −1 dBTP use `limit` ≈ 0.65. Then note the limiter EATS
+  loudness at that ceiling (−16.5 → −17.4 LUFS on Ep 8). Because the limiter fixes
+  true peak regardless of how much gain precedes it, raise `target_lufs` as pure
+  make-up (Ep 8: −14.5 → delivered −16.8) and re-check — it's a *pre-limiter
+  setpoint*. Stop when extra gain stops buying loudness (+1.5 dB → +0.6 LU means the
+  limiter is absorbing the rest; pushing on just flattens transients). Use
+  `--audio-only` for these iterations — each one is ~72 s.
 - For true per-speaker equality with zero pumping you'd diarize + apply per-speaker
   static gain; the chain above gets ~90% of the way with no extra deps. Revisit
   diarization only if a single track still isn't enough.
@@ -222,6 +237,30 @@ freesound.org preview MP3s are fetchable without auth: scrape
 (use a browser User-Agent). Good queries: "whoosh transition", "logo sting".
 Trim/fade and loudnorm before mixing.
 
+### HOUSE RULE — every transition gets BOTH a sound AND a wipe
+
+Jackson's standing instruction (Ep 8): "always do transition sound + wipe." A block
+boundary that only whooshes reads as a glitch; only wiping reads as silent-movie. They
+are two separate keys in `render.json` and it is easy to ship one and forget the other —
+**Ep 8 v1 had 12 `sfx` entries and `"anim": []`, so the wipes were simply absent** and
+the user noticed. Enumerate the transition block list ONCE and write both arrays from it:
+
+```
+"sfx":  [{"block": "S2a", "file": "sfx_whoosh.wav", "offset": -0.3}, ...]   # block-relative
+"anim": [{"file": "wipe.mov", "start": <FINAL s>, "end": <FINAL s>, "x": 0, "y": 0}, ...]
+```
+
+- **`sfx` is block-relative, `anim` is absolute FINAL time.** That asymmetry is why
+  `anim` must be written AFTER `remote_cut.py`/`cut_render.py` produce final times (read
+  them out of `sheet.md`/`clips.json`); `sfx` can be authored up front. Sequence the work
+  so the `anim` pass is a mandatory step, not an afterthought.
+- **Start each wipe ~0.18 s BEFORE the cut**, `end = start + 0.4`. `wipe.mov` (qtrle
+  alpha, 12 frames @ 30 fps) peaks at only ~12.6% screen coverage around t≈0.18 — it is
+  a decorative gold accent bar, NOT a masking transition, so line its peak up with the
+  splice or it just looks like a stray graphic.
+- Verify by counting, not by eye: `len(anim) == len(sfx) == len(transition blocks)`, then
+  spot-check frames at 2–3 `anim` start times in the finished mp4.
+
 ## Branding quickly with Pillow
 
 - Logo badge: rounded-rect dark card + flat icon drawn from rounded rectangles +
@@ -283,6 +322,8 @@ apply. Use the `remote_*.py` scripts instead of `analyze.sh`/`cut_render.py`:
    remote_sync.py <work> --claps m0 m1       # optional: verify vs counted group claps
    >>> YOU: read session.md, design blocks -> write remote_plan.json + brand.json + render.json
 4. graphics.py <work> brand.json
+4b. remote_motion.py <work>                  # OPTIONAL: per-host VISUAL reaction spans
+   #  -> motion.json. Needed only if the plan sets params.react_thresh (see below).
 5. remote_cutlist.py <work> remote_plan.json # multicam shot plan -> cutlist.json
 6. remote_preview.py <work>                  # planned cut as a transcript — READ IT,
    fix boundaries/mics/mutes in the plan, re-run 5+6 until it reads coherently
@@ -349,6 +390,23 @@ What's different from the one-camera flow (all learned the hard way on Ep 5):
   yuv420p silently rounds an odd crop down and hstack yields 1278px (720p sources crop
   natively — no scaling, stays sharp). Fixed left-to-right panel order per episode; face-center
   x per host in `face_cx`. A churn-killer pass absorbs sub-3.5 s shots.
+- **VAD alone can't see a reaction — run `remote_motion.py` for the good split-screens.**
+  `group_thresh` only fires on people making NOISE, so a silent laugh, a hard nod, a
+  hands-in-the-air face is invisible and the cut stays a lonely solo. `remote_motion.py`
+  measures per-frame visual change in a box around each host's face and reports the
+  spans where they're animated *while not talking*; set `params.react_thresh` and the
+  cutlist puts those reactors on screen NEXT TO the speaker. The speaker is always
+  retained, so a reaction can only ever WIDEN a shot — it can never cut away from
+  whoever is talking. Two things matter: (1) threshold against **each host's own
+  baseline** (85th percentile of their motion during their own silence) — webcams differ
+  so wildly in noise and resting fidget that one absolute number fires constantly on
+  one host and never on another; (2) **sweep the pair and look at the resulting
+  percentage** — Ep 8's first try (`group_thresh` 0.18 / `react_thresh` 0.35) put 56.5%
+  of the show in split-screen, which defeats the purpose. Ship ~1/3: Ep 8 landed
+  0.25/0.60 → 34.0% multi-person (duo 26.4% + trio 7.6%), solo still the 66% majority.
+  Both the script and the `react_thresh` param are opt-in, so older episodes re-cut
+  identically; the cutlist hard-errors if `react_thresh` is set but `motion.json` is
+  missing, rather than silently ignoring the request.
 - **Recording-gap coverage:** restarts leave per-host holes (no cam AND no mic). The
   planner refuses shots without coverage; anything said in a hole is simply LOST —
   check session.md around gaps and plan blocks so a gap never lands mid-keeper.
@@ -379,6 +437,14 @@ What's different from the one-camera flow (all learned the hard way on Ep 5):
   by wall-clock anchor (`video_t = master − anchor`); verify the anchor by matching an
   on-screen value to a spoken line ("we're up $1.92"). `mode: full` for a beat, then
   `corner` — final_render.py composites from `pip.json` under the lower thirds.
+  **House preference (Jackson, Ep 8): once the Perp of Fortune dashboard appears, keep
+  it up for the REST of the episode**, not just during the perp segment — it's a live
+  P&L ticker and the running number is a retention device. This is only safe because
+  master time is monotonic across the later blocks, so the wall-clock-synced dashboard
+  never rewinds or spoils the finale; check that before extending a PiP across a
+  reorder. Author it as one `corner` window per block covering the whole tail —
+  `remote_cut.py` merges contiguous windows and punches the by-design ~6.6 s holes
+  where a lower third is up (it hides the PiP ±0.3 s around any overlay).
 - **AI/insert segments** (`insert` blocks) are conformed to house format (30 fps,
   1280×720, mono PCM pinned to frames×1600 samples) and take the same audio chain as
   speech — no separate leveling needed.

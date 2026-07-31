@@ -31,6 +31,11 @@ import json, os, re, subprocess, sys
 WORK = sys.argv[1]
 CFG = json.load(open(sys.argv[2]))
 TEST_T = next((float(a.split("=")[1]) for a in sys.argv if a.startswith("--test=")), None)
+# --audio-only: re-run ONLY the audio graph and remux it into the EXISTING output
+# with -c:v copy. This is the documented fix for a hot/wrong master (never
+# re-encode an hour of video for an audio problem) -- a full re-render is ~10 min
+# and generation-loss-y, this is ~2 min and leaves the video bit-identical.
+AUDIO_ONLY = "--audio-only" in sys.argv
 
 clips = json.load(open(os.path.join(WORK, "clips.json")))
 overlays = json.load(open(os.path.join(WORK, "overlays.json")))
@@ -73,6 +78,15 @@ if TEST_T:
     CFG["anim"] = [a for a in CFG.get("anim", []) if a["start"] < TEST_T]
     CFG["aux_audio"] = [a for a in CFG.get("aux_audio", []) if a["at"] < TEST_T]
 
+if AUDIO_ONLY:
+    # drop every VISUAL input so no image/anim/pip is decoded and the video
+    # filtergraph is never built (an unconnected [vout] label is a hard error)
+    overlays, pips = [], []
+    CFG["anim"] = []
+    CFG.pop("logo", None)
+    if not os.path.exists(CFG["out"]):
+        sys.exit(f"--audio-only needs an existing render to remux into: {CFG['out']}")
+
 cmd = ["ffmpeg", "-hide_banner", "-loglevel", "warning", "-stats", "-y", "-i", raw]
 for o in overlays:
     cmd += ["-loop", "1", "-t", f"{o['end']+0.5:.2f}", "-i",
@@ -90,10 +104,22 @@ for s in CFG.get("sfx", []):
 # windows in FINAL time. -stream_loop -1 + a finite input -t cap (same runaway-
 # encode guard as the -loop 1 images).
 anims = CFG.get("anim", [])
-anim_idx = []
+anim_idx, anim_shift = [], []
 for a in anims:
-    cmd += ["-stream_loop", "-1", "-t", f"{a['end']+0.5:.2f}",
-            "-i", os.path.join(WORK, a["file"])]
+    path = os.path.join(WORK, a["file"])
+    # PHASE-ALIGN the loop to the window START. -stream_loop restarts the file on
+    # multiples of its OWN duration while enable=between() only gates VISIBILITY, so
+    # a window opens at phase (start mod dur) and the animation WRAPS mid-sweep.
+    # Measured on Ep 8's 0.4 s wipe: at start=76.59 (phase 0.19) the gold bar peaked
+    # 2 frames in, vanished, then reappeared near the end of the same window — it read
+    # as a glitch, not a transition. Windows whose start happened to be a near-multiple
+    # of the duration looked fine, which is why this hid for two episodes. Shifting the
+    # input PTS by (start mod dur) puts frame 0 exactly on `start` for EVERY window.
+    d = float(subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0",
+                              "-show_entries", "stream=duration", "-of", "csv=p=0",
+                              path], capture_output=True, text=True).stdout.strip() or 0)
+    anim_shift.append(round(a["start"] % d, 4) if d > 0 else 0.0)
+    cmd += ["-stream_loop", "-1", "-t", f"{a['end']+0.5:.2f}", "-i", path]
     anim_idx.append(i_next); i_next += 1
 # aux audio beds: clean external audio (e.g. a screen-share/playback source)
 # mixed UNDER the room capture at exact FINAL-time positions. Each entry places
@@ -120,7 +146,7 @@ f = []
 # untouched. Outside every window z=1 -> the crop is the full frame (no zoom).
 # Lower-thirds/logo composite on top afterwards, so captions stay full-frame/sharp.
 rfile = os.path.join(WORK, "reframes.json")
-reframes = json.load(open(rfile)) if os.path.exists(rfile) else []
+reframes = [] if AUDIO_ONLY else (json.load(open(rfile)) if os.path.exists(rfile) else [])
 # Each preset has a START (zoom,cx,cy) and OPTIONAL END (zoom2,cx2,cy2). When an end
 # value differs it EASES across the window -> pushes (zoom moves) and pans (center
 # moves) fall out of the same machinery; static "face-cut" presets just omit the *2.
@@ -198,11 +224,17 @@ for k, o in enumerate(overlays):
     f.append(f"{cur}[{k+1}:v]overlay={pos}:eof_action=pass"
              f":enable='between(t,{o['start']},{o['end']})'[v{k}]")
     cur = f"[v{k}]"
-for k, (i, a) in enumerate(zip(anim_idx, anims)):
-    f.append(f"{cur}[{i}:v]overlay=x={a['x']}:y={a['y']}:eof_action=pass"
+for k, (i, a, sh) in enumerate(zip(anim_idx, anims, anim_shift)):
+    src = f"[{i}:v]"
+    if sh:
+        f.append(f"[{i}:v]setpts=PTS+{sh}/TB[an{k}]")
+        src = f"[an{k}]"
+    f.append(f"{cur}{src}overlay=x={a['x']}:y={a['y']}:eof_action=pass"
              f":enable='between(t,{a['start']},{a['end']})'[va{k}]")
     cur = f"[va{k}]"
-if logo:
+if AUDIO_ONLY:
+    pass                                     # no video graph at all
+elif logo:
     hide = "*".join(
         f"not(between(t,{blk_start(b):.2f},{blk_start(b)+next(c['dur'] for c in clips if c['block']==b):.2f}))"
         for b in logo.get("hide_during", []))
@@ -250,14 +282,31 @@ else:
     f.append(f"[sp]{TP_LIM}[aout]")
 
 out = CFG["out"] if not TEST_T else os.path.join(WORK, "test_head.mp4")
-cmd += ["-filter_complex", ";".join(f), "-map", "[vout]", "-map", "[aout]",
-        "-t", f"{(TEST_T or total + 0.2):.2f}", "-shortest",
-        "-r", "30", "-fps_mode", "cfr", "-video_track_timescale", "30000",
-        "-c:v", "h264_videotoolbox", "-b:v", "7500k", "-profile:v", "high",
-        "-c:a", "aac", "-b:a", "192k", "-ar", "48000",
-        "-movflags", "+faststart", out]
-print("rendering...", "(test)" if TEST_T else "")
+if AUDIO_ONLY:
+    a_tmp = os.path.join(WORK, "_audio_fix.m4a")
+    cmd += ["-filter_complex", ";".join(f), "-map", "[aout]",
+            "-t", f"{total + 0.2:.2f}",
+            "-c:a", "aac", "-b:a", "192k", "-ar", "48000", a_tmp]
+else:
+    cmd += ["-filter_complex", ";".join(f), "-map", "[vout]", "-map", "[aout]",
+            "-t", f"{(TEST_T or total + 0.2):.2f}", "-shortest",
+            "-r", "30", "-fps_mode", "cfr", "-video_track_timescale", "30000",
+            "-c:v", "h264_videotoolbox", "-b:v", "7500k", "-profile:v", "high",
+            "-c:a", "aac", "-b:a", "192k", "-ar", "48000",
+            "-movflags", "+faststart", out]
+print("rendering...", "(audio only)" if AUDIO_ONLY else "(test)" if TEST_T else "")
 r = subprocess.run(cmd)
+if r.returncode == 0 and AUDIO_ONLY:
+    mux = out + ".remux.mp4"
+    r = subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "warning", "-y",
+                        "-i", out, "-i", a_tmp, "-map", "0:v:0", "-map", "1:a:0",
+                        "-c:v", "copy", "-c:a", "copy", "-shortest",
+                        "-video_track_timescale", "30000",
+                        "-movflags", "+faststart", mux])
+    if r.returncode == 0:
+        os.replace(mux, out); os.remove(a_tmp)
+    else:
+        sys.exit("remux failed; original left untouched, new audio at " + a_tmp)
 if r.returncode == 0:
     d = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries",
                               "format=duration", "-of", "csv=p=0", out],

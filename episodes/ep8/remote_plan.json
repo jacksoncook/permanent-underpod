@@ -1,141 +1,577 @@
 {
-  "_notes": [
-    "Ep 8 — 3 simultaneous local cams (offsets 0,0,0; host-confirmed).",
-    "COLD OPEN: 6 teasers, ~74s, ends on the perp finale tease (C6).",
-    "REORDER: the welcome/check-in/baby-vomit block (master 38-436) is MOVED to",
-    "  mid-show as a palate cleanser after the guardrails debate; only the 38s",
-    "  welcome stays up front so the marquee lands at ~2:00.",
-    "CUT (requested): Jackson's 'I work in fintech' admission — MAIN body ends at",
-    "  2721.97, resumes 2768.23, + mute jackson 2768.30-2771.00 to kill the tail.",
-    "CUT (requested): baby-vomit story trimmed 155s -> 90s (concoction riff,",
-    "  allergist plan and ghost/lethargic beat removed; 'we grossed out all of our",
-    "  listeners' button kept).",
-    "CUT (length): ~7 min of BIP-110 fork minutiae (futures markets/Bitfinex,",
-    "  pool-switching, Bitmain covert ASIC boost, Luke Dash Jr), Jackson's",
-    "  unanswered geo-fence war-tool question (1436-1465), Chris's Ethereum-Classic",
-    "  replay-attack detour (1833-1894), the OCC-charter tail (2722-2748), the",
-    "  'we went red' dead patch (2786-2817) and the repetitive multi-rail hedging",
-    "  in the standards-war wrap (3522-3558).",
-    "AUDIO: gain_target 0.006 (NOT 0.028 - that clipped edited_raw.mov at 0 dBFS,\n  192k flat-topped samples; jackson x2.88 alone peaked 2.06). loudnorm still\n  lands -16 LUFS so the quieter intermediate costs nothing.",
-    "Every m0/m1 was verified to land in an all-silent (VAD union) gap via spans.py."
-  ],
-  "blocks": [
-    {"id": "COLD1", "m0": 452.60, "m1": 466.03, "mics": ["jackson", "chris"]},
-    {"id": "COLD2", "m0": 933.60, "m1": 946.20, "cam": "chris", "mics": ["chris"]},
-    {"id": "COLD3", "m0": 1283.69, "m1": 1298.10, "cam": "jackson", "mics": ["jackson"]},
-    {"id": "COLD4", "m0": 1374.15, "m1": 1382.60, "cam": "chris", "mics": ["chris"]},
-    {"id": "COLD5", "m0": 3091.80, "m1": 3098.30, "cam": "tyler", "mics": ["tyler"]},
-    {"id": "COLD6", "m0": 3654.80, "m1": 3674.50, "cam": "jackson", "mics": ["jackson"]},
-
-    {"id": "CARD_TITLE", "card": "card_title.mov"},
-
-    {"id": "S1", "m0": 1.20, "m1": 38.0},
-
-    {"id": "S2a", "m0": 443.48, "m1": 452.60, "mics": ["jackson"]},
-    {"id": "S2b", "m0": 466.03, "m1": 1261.05},
-    {"id": "S2c", "m0": 1283.69, "m1": 1435.92},
-    {"id": "S2d", "m0": 1465.87, "m1": 1500.13},
-
-    {"id": "S3a", "m0": 38.0, "m1": 365.55},
-    {"id": "S3b", "m0": 423.34, "m1": 435.75},
-
-    {"id": "S4a", "m0": 1500.13, "m1": 1833.28},
-    {"id": "S4b", "m0": 1894.14, "m1": 1939.41},
-    {"id": "S4c", "m0": 2067.73, "m1": 2103.00},
-
-    {"id": "S5", "m0": 2255.40, "m1": 2721.97},
-
-    {"id": "S6a", "m0": 2768.23, "m1": 2785.97,
-     "mute": [["jackson", 2768.30, 2771.00]]},
-    {"id": "S6b", "m0": 2816.76, "m1": 3445.52},
-
-    {"id": "S7a", "m0": 3478.26, "m1": 3521.61},
-    {"id": "S7b", "m0": 3557.90, "m1": 3568.39},
-
-    {"id": "S8", "m0": 3610.35, "m1": 3721.25},
-
-    {"id": "CARD_END", "card": "card_end.mov"}
-  ],
-
-  "protect": [
-    [3091.5, 3099.0],
-    [3418.0, 3446.0],
-    [3690.0, 3712.0]
-  ],
-
-  "face_cx": {"jackson": 630, "chris": 580, "tyler": 700},
-  "panel_order": ["jackson", "chris", "tyler"],
-
-  "params": {
-    "idle_gain": 0.12,
-    "group_thresh": 0.3,
-    "min_shot": 3.5,
-    "gain_target": 0.006
+ "_notes": [
+  "Ep 8 \u2014 3 simultaneous local cams (offsets 0,0,0; host-confirmed).",
+  "COLD OPEN: 6 teasers, ~74s, ends on the perp finale tease (C6).",
+  "REORDER: the check-in/baby-vomit block is MOVED mid-show as a palate",
+  "  cleanser after the guardrails debate; only the welcome stays up front.",
+  "v2 FIX (Jackson): the S1/S3a split at master 38.0 landed INSIDE Chris's",
+  "  10.9s 'huge shout out to Jackson ... barely carry a third of it, massive",
+  "  props' compliment (VAD: chris speaks 34.28-45.22 continuously), so its",
+  "  tail played at 18:28 mid-show. S1 now ends at 45.71 \u2014 the next true",
+  "  all-silent gap \u2014 keeping the whole compliment in the intro. S3a then",
+  "  opens on 'Speaking of stools, Chris, what's going on with the gamer",
+  "  thumb', which is a better check-in cold start anyway.",
+  "v2 (Jackson): S2a starts at 444.66 not 443.48, cutting Jackson's 'And I",
+  "  think' so the marquee opens on 'This is the perfect time to transition'.",
+  "  444.66 is the whisper+energy-verified 'think'->'this' boundary (energy",
+  "  dip 0.0162 at 444.64-444.66); snap() leaves it alone (verified). No new",
+  "  splice is created: S2a's m0 is already a block boundary (S1 ends at",
+  "  master 45.71), so this only changes where the new segment starts.",
+  "v2 (Jackson): PERP DASHBOARD STAYS UP once it starts \u2014 corner PiP is now",
+  "  continuous from 2452 to the end of the perp recording (3697.5) across",
+  "  S5/S6a/S6b/S7a/S7b/S8, instead of three short windows. Master time runs",
+  "  monotonically across those blocks, so the wall-clock-synced dashboard",
+  "  never rewinds or spoils. remote_cut.py still blanks it under overlays.",
+  "v2 (Jackson): 'always transition sound + wipe' \u2014 every segment transition",
+  "  now has BOTH an sfx (render.json) and a wipe.mov accent (render.json",
+  "  anim, which was an empty array in v1 \u2014 that is why no swipes showed).",
+  "CUT (requested): Jackson's 'I work in fintech' admission \u2014 MAIN body ends at",
+  "  2721.97, resumes 2768.23, + mute jackson 2768.30-2771.00 to kill the tail.",
+  "CUT (requested): baby-vomit story trimmed (concoction riff, allergist plan",
+  "  and ghost/lethargic beat removed; 'we grossed out all of our listeners'",
+  "  button kept).",
+  "CUT (length): ~7 min of BIP-110 fork minutiae (futures markets/Bitfinex,",
+  "  pool-switching, Bitmain covert ASIC boost, Luke Dash Jr), Jackson's",
+  "  unanswered geo-fence war-tool question (1436-1465), Chris's Ethereum-Classic",
+  "  replay-attack detour (1833-1894), the OCC-charter tail (2722-2748), the",
+  "  'we went red' dead patch (2786-2817) and the repetitive multi-rail hedging",
+  "  in the standards-war wrap (3522-3558).",
+  "AUDIO: gain_target 0.006 (NOT 0.028 - that clipped edited_raw.mov at 0 dBFS,\n  192k flat-topped samples; jackson x2.88 alone peaked 2.06). loudnorm still\n  lands -16 LUFS so the quieter intermediate costs nothing.",
+  "v2 (Jackson): MORE multi-person shots. group_thresh 0.30->0.25 and",
+  "  group_hold 1.2->1.0 so short vocal reactions (laughs, 'yeah', 'mhm')",
+  "  latch a duo/trio; plus react_thresh 0.60 which consumes motion.json",
+  "  from remote_motion.py so SILENT visible reactions (laughing, nodding,",
+  "  gesturing) also widen the shot. The speaker is always kept in frame, so",
+  "  a reaction can only ever widen \u2014 never cut away from who is talking.",
+  "Every m0/m1 was verified to land in an all-silent (VAD union) gap via spans.py.",
+  "  Swept the pair: 0.18/0.35 gave 56.5% multi-person (too much - the split screen stops meaning anything), 0.25/0.60 gives 34.0% (duo 26.4 + trio 7.6) vs v1's 14.2%, keeping solo the 66% majority. motion.json validated: flagged silent frames carry 6.6x the resting baseline and 2x the motion of SPEAKING, i.e. real gestures/laughs, well clear of the 0.21 noise floor."
+ ],
+ "blocks": [
+  {
+   "id": "COLD1",
+   "m0": 452.6,
+   "m1": 466.03,
+   "mics": [
+    "jackson",
+    "chris"
+   ]
   },
-
-  "overlays": [
-    {"name": "st_coldopen", "block": "COLD1", "rel": 0.0, "dur": 13.0, "kind": "st"},
-    {"name": "st_coldopen", "block": "COLD2", "rel": 0.0, "dur": 12.0, "kind": "st"},
-    {"name": "st_coldopen", "block": "COLD3", "rel": 0.0, "dur": 13.5, "kind": "st"},
-    {"name": "st_coldopen", "block": "COLD5", "rel": 0.0, "dur": 6.0, "kind": "st"},
-
-    {"name": "lt_intro", "block": "S1", "m": 8.0, "dur": 6, "kind": "lt"},
-
-    {"name": "lt_quantum", "block": "S2a", "m": 444.5, "dur": 6, "kind": "lt"},
-    {"name": "st_hawk", "block": "S2b", "m": 480.0, "dur": 11, "kind": "st"},
-    {"name": "lt_guardrails", "block": "S2b", "m": 845.0, "dur": 6, "kind": "lt"},
-    {"name": "st_glm", "block": "S2b", "m": 883.0, "dur": 10, "kind": "st"},
-
-    {"name": "lt_checkin", "block": "S3a", "m": 52.0, "dur": 6, "kind": "lt"},
-    {"name": "st_thumb", "block": "S3a", "m": 101.0, "dur": 9, "kind": "st"},
-    {"name": "lt_baby", "block": "S3a", "m": 292.0, "dur": 6, "kind": "lt"},
-    {"name": "st_puke", "block": "S3a", "m": 305.0, "dur": 9, "kind": "st"},
-
-    {"name": "lt_bip110", "block": "S4a", "m": 1517.0, "dur": 6, "kind": "lt"},
-    {"name": "st_forks", "block": "S4b", "m": 1900.0, "dur": 10, "kind": "st"},
-
-    {"name": "lt_bitaxe", "block": "S5", "m": 2283.0, "dur": 6, "kind": "lt"},
-    {"name": "lt_perp", "block": "S5", "m": 2360.0, "dur": 6, "kind": "lt"},
-    {"name": "st_roll", "block": "S5", "m": 2400.0, "dur": 10, "kind": "st"},
-    {"name": "lt_ripple", "block": "S5", "m": 2487.0, "dur": 6, "kind": "lt"},
-
-    {"name": "lt_agentic", "block": "S6b", "m": 2838.0, "dur": 6, "kind": "lt"},
-    {"name": "st_protocols", "block": "S6b", "m": 2870.0, "dur": 12, "kind": "st"},
-    {"name": "lt_rails", "block": "S6b", "m": 3212.0, "dur": 6, "kind": "lt"},
-    {"name": "lt_cook", "block": "S6b", "m": 3420.0, "dur": 6, "kind": "lt"},
-
-    {"name": "lt_wrap", "block": "S8", "m": 3627.0, "dur": 6, "kind": "lt"}
+  {
+   "id": "COLD2",
+   "m0": 933.6,
+   "m1": 946.2,
+   "cam": "chris",
+   "mics": [
+    "chris"
+   ]
+  },
+  {
+   "id": "COLD3",
+   "m0": 1283.69,
+   "m1": 1298.1,
+   "cam": "jackson",
+   "mics": [
+    "jackson"
+   ]
+  },
+  {
+   "id": "COLD4",
+   "m0": 1374.15,
+   "m1": 1382.6,
+   "cam": "chris",
+   "mics": [
+    "chris"
+   ]
+  },
+  {
+   "id": "COLD5",
+   "m0": 3091.8,
+   "m1": 3098.3,
+   "cam": "tyler",
+   "mics": [
+    "tyler"
+   ]
+  },
+  {
+   "id": "COLD6",
+   "m0": 3654.8,
+   "m1": 3674.5,
+   "cam": "jackson",
+   "mics": [
+    "jackson"
+   ]
+  },
+  {
+   "id": "CARD_TITLE",
+   "card": "card_title.mov"
+  },
+  {
+   "id": "S1",
+   "m0": 1.2,
+   "m1": 45.71
+  },
+  {
+   "id": "S2a",
+   "m0": 444.66,
+   "m1": 452.6,
+   "mics": [
+    "jackson"
+   ]
+  },
+  {
+   "id": "S2b",
+   "m0": 466.03,
+   "m1": 1261.05
+  },
+  {
+   "id": "S2c",
+   "m0": 1283.69,
+   "m1": 1435.92
+  },
+  {
+   "id": "S2d",
+   "m0": 1465.87,
+   "m1": 1500.13
+  },
+  {
+   "id": "S3a",
+   "m0": 45.71,
+   "m1": 365.55
+  },
+  {
+   "id": "S3b",
+   "m0": 423.34,
+   "m1": 435.75
+  },
+  {
+   "id": "S4a",
+   "m0": 1500.13,
+   "m1": 1833.28
+  },
+  {
+   "id": "S4b",
+   "m0": 1894.14,
+   "m1": 1939.41
+  },
+  {
+   "id": "S4c",
+   "m0": 2067.73,
+   "m1": 2103.0
+  },
+  {
+   "id": "S5",
+   "m0": 2255.4,
+   "m1": 2721.97
+  },
+  {
+   "id": "S6a",
+   "m0": 2768.23,
+   "m1": 2785.97,
+   "mute": [
+    [
+     "jackson",
+     2768.3,
+     2771.0
+    ]
+   ]
+  },
+  {
+   "id": "S6b",
+   "m0": 2816.76,
+   "m1": 3445.52
+  },
+  {
+   "id": "S7a",
+   "m0": 3478.26,
+   "m1": 3521.61
+  },
+  {
+   "id": "S7b",
+   "m0": 3557.9,
+   "m1": 3568.39
+  },
+  {
+   "id": "S8",
+   "m0": 3610.35,
+   "m1": 3721.25
+  },
+  {
+   "id": "CARD_END",
+   "card": "card_end.mov"
+  }
+ ],
+ "protect": [
+  [
+   3091.5,
+   3099.0
   ],
-
-  "pips": [
-    {"file": "/Users/jcook/Personal/permanent-underpod/media/ep8/raw/perp_ep_8.mp4",
-     "block": "S5", "m0": 2430.0, "m1": 2452.0, "anchor": 2430.0, "mode": "full"},
-    {"file": "/Users/jcook/Personal/permanent-underpod/media/ep8/raw/perp_ep_8.mp4",
-     "block": "S5", "m0": 2452.0, "m1": 2560.0, "anchor": 2430.0, "mode": "corner",
-     "crop": [620, 150, 510, 225]},
-    {"file": "/Users/jcook/Personal/permanent-underpod/media/ep8/raw/perp_ep_8.mp4",
-     "block": "S6a", "m0": 2782.0, "m1": 2785.9, "anchor": 2430.0, "mode": "corner",
-     "crop": [620, 150, 510, 225]},
-    {"file": "/Users/jcook/Personal/permanent-underpod/media/ep8/raw/perp_ep_8.mp4",
-     "block": "COLD6", "m0": 3654.80, "m1": 3674.50, "anchor": 2430.0, "mode": "corner",
-     "crop": [620, 150, 510, 225]},
-    {"file": "/Users/jcook/Personal/permanent-underpod/media/ep8/raw/perp_ep_8.mp4",
-     "block": "S8", "m0": 3652.0, "m1": 3664.0, "anchor": 2430.0, "mode": "full"},
-    {"file": "/Users/jcook/Personal/permanent-underpod/media/ep8/raw/perp_ep_8.mp4",
-     "block": "S8", "m0": 3664.0, "m1": 3697.5, "anchor": 2430.0, "mode": "corner",
-     "crop": [620, 150, 510, 225]}
+  [
+   3418.0,
+   3446.0
   ],
-
-  "sheet": [
-    {"block": "COLD1", "label": "Cold open"},
-    {"block": "CARD_TITLE", "label": "Title"},
-    {"block": "S1", "label": "The boys are back"},
-    {"block": "S2a", "label": "Claude broke a post-quantum cipher"},
-    {"block": "S2b", "label": "Is Bitcoin next?"},
-    {"block": "S3a", "label": "Check-in: gamer thumb, wrists, and one egg"},
-    {"block": "S4a", "label": "BIP-110 and the spam war"},
-    {"block": "S5", "label": "BitAxe + Perp of Fortune"},
-    {"block": "S6a", "label": "Agentic commerce, finally"},
-    {"block": "S8", "label": "Wrap + next week"}
+  [
+   3690.0,
+   3712.0
   ]
+ ],
+ "face_cx": {
+  "jackson": 630,
+  "chris": 580,
+  "tyler": 700
+ },
+ "panel_order": [
+  "jackson",
+  "chris",
+  "tyler"
+ ],
+ "params": {
+  "idle_gain": 0.12,
+  "group_thresh": 0.25,
+  "group_hold": 1.0,
+  "react_thresh": 0.6,
+  "min_shot": 3.0,
+  "gain_target": 0.006
+ },
+ "overlays": [
+  {
+   "name": "st_coldopen",
+   "block": "COLD1",
+   "rel": 0.0,
+   "dur": 13.0,
+   "kind": "st"
+  },
+  {
+   "name": "st_coldopen",
+   "block": "COLD2",
+   "rel": 0.0,
+   "dur": 12.0,
+   "kind": "st"
+  },
+  {
+   "name": "st_coldopen",
+   "block": "COLD3",
+   "rel": 0.0,
+   "dur": 13.5,
+   "kind": "st"
+  },
+  {
+   "name": "st_coldopen",
+   "block": "COLD5",
+   "rel": 0.0,
+   "dur": 6.0,
+   "kind": "st"
+  },
+  {
+   "name": "lt_intro",
+   "block": "S1",
+   "m": 8.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_quantum",
+   "block": "S2a",
+   "m": 445.2,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_hawk",
+   "block": "S2b",
+   "m": 480.0,
+   "dur": 11,
+   "kind": "st"
+  },
+  {
+   "name": "lt_guardrails",
+   "block": "S2b",
+   "m": 845.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_glm",
+   "block": "S2b",
+   "m": 883.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "lt_checkin",
+   "block": "S3a",
+   "m": 52.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_thumb",
+   "block": "S3a",
+   "m": 101.0,
+   "dur": 9,
+   "kind": "st"
+  },
+  {
+   "name": "lt_baby",
+   "block": "S3a",
+   "m": 292.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_puke",
+   "block": "S3a",
+   "m": 305.0,
+   "dur": 9,
+   "kind": "st"
+  },
+  {
+   "name": "lt_bip110",
+   "block": "S4a",
+   "m": 1517.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_forks",
+   "block": "S4b",
+   "m": 1900.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "lt_bitaxe",
+   "block": "S5",
+   "m": 2283.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_perp",
+   "block": "S5",
+   "m": 2360.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_roll",
+   "block": "S5",
+   "m": 2400.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "lt_ripple",
+   "block": "S5",
+   "m": 2487.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_agentic",
+   "block": "S6b",
+   "m": 2838.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_protocols",
+   "block": "S6b",
+   "m": 2870.0,
+   "dur": 12,
+   "kind": "st"
+  },
+  {
+   "name": "lt_rails",
+   "block": "S6b",
+   "m": 3212.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_cook",
+   "block": "S6b",
+   "m": 3420.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_wrap",
+   "block": "S8",
+   "m": 3627.0,
+   "dur": 6,
+   "kind": "lt"
+  }
+ ],
+ "pips": [
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep8/raw/perp_ep_8.mp4",
+   "block": "S5",
+   "m0": 2430.0,
+   "m1": 2452.0,
+   "anchor": 2430.0,
+   "mode": "full"
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep8/raw/perp_ep_8.mp4",
+   "block": "S5",
+   "m0": 2452.0,
+   "m1": 2721.97,
+   "anchor": 2430.0,
+   "mode": "corner",
+   "crop": [
+    620,
+    150,
+    510,
+    225
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep8/raw/perp_ep_8.mp4",
+   "block": "S6a",
+   "m0": 2768.23,
+   "m1": 2785.97,
+   "anchor": 2430.0,
+   "mode": "corner",
+   "crop": [
+    620,
+    150,
+    510,
+    225
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep8/raw/perp_ep_8.mp4",
+   "block": "S6b",
+   "m0": 2816.76,
+   "m1": 3445.52,
+   "anchor": 2430.0,
+   "mode": "corner",
+   "crop": [
+    620,
+    150,
+    510,
+    225
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep8/raw/perp_ep_8.mp4",
+   "block": "S7a",
+   "m0": 3478.26,
+   "m1": 3521.61,
+   "anchor": 2430.0,
+   "mode": "corner",
+   "crop": [
+    620,
+    150,
+    510,
+    225
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep8/raw/perp_ep_8.mp4",
+   "block": "S7b",
+   "m0": 3557.9,
+   "m1": 3568.39,
+   "anchor": 2430.0,
+   "mode": "corner",
+   "crop": [
+    620,
+    150,
+    510,
+    225
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep8/raw/perp_ep_8.mp4",
+   "block": "COLD6",
+   "m0": 3654.8,
+   "m1": 3674.5,
+   "anchor": 2430.0,
+   "mode": "corner",
+   "crop": [
+    620,
+    150,
+    510,
+    225
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep8/raw/perp_ep_8.mp4",
+   "block": "S8",
+   "m0": 3610.35,
+   "m1": 3652.0,
+   "anchor": 2430.0,
+   "mode": "corner",
+   "crop": [
+    620,
+    150,
+    510,
+    225
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep8/raw/perp_ep_8.mp4",
+   "block": "S8",
+   "m0": 3652.0,
+   "m1": 3664.0,
+   "anchor": 2430.0,
+   "mode": "full"
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep8/raw/perp_ep_8.mp4",
+   "block": "S8",
+   "m0": 3664.0,
+   "m1": 3697.5,
+   "anchor": 2430.0,
+   "mode": "corner",
+   "crop": [
+    620,
+    150,
+    510,
+    225
+   ]
+  }
+ ],
+ "sheet": [
+  {
+   "block": "COLD1",
+   "label": "Cold open"
+  },
+  {
+   "block": "CARD_TITLE",
+   "label": "Title"
+  },
+  {
+   "block": "S1",
+   "label": "The boys are back"
+  },
+  {
+   "block": "S2a",
+   "label": "Claude broke a post-quantum cipher"
+  },
+  {
+   "block": "S2b",
+   "label": "Is Bitcoin next?"
+  },
+  {
+   "block": "S3a",
+   "label": "Check-in: gamer thumb, wrists, and one egg"
+  },
+  {
+   "block": "S4a",
+   "label": "BIP-110 and the spam war"
+  },
+  {
+   "block": "S5",
+   "label": "BitAxe + Perp of Fortune"
+  },
+  {
+   "block": "S6a",
+   "label": "Agentic commerce, finally"
+  },
+  {
+   "block": "S8",
+   "label": "Wrap + next week"
+  }
+ ]
 }

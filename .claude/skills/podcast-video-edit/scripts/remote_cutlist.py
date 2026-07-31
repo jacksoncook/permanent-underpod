@@ -45,6 +45,20 @@ PORDER = PLAN.get('panel_order', ['jackson', 'chris', 'tyler'])
 FACE_CX = PLAN.get('face_cx', {})
 PROTECT = [tuple(p) for p in PLAN.get('protect', [])]
 SWITCH_HOLD = 2.0
+GROUP_HOLD = P.get('group_hold', 1.2)
+# Visual reaction shots: only active when the plan asks for it AND
+# remote_motion.py has been run, so pre-existing episodes re-cut identically.
+REACT_TH = P.get('react_thresh')
+REACT = {}
+if REACT_TH is not None:
+    try:
+        _mj = json.load(open(f"{WORK}/motion.json"))
+        for _nm, _d in _mj.items():
+            REACT.setdefault(SRC['tracks'][_nm]['person'], []).extend(_d['spans'])
+        print(f"reaction spans loaded for {sorted(REACT)} (react_thresh={REACT_TH})")
+    except FileNotFoundError:
+        sys.exit("params.react_thresh is set but motion.json is missing — "
+                 "run remote_motion.py <work> first (or drop react_thresh).")
 
 SR, HOP, FPS_V = 16000, 160, 100
 FILES = {nm: t['file'] for nm, t in SRC['tracks'].items()}
@@ -104,6 +118,15 @@ def snap(m, radius=2.0):
     best = min(runs, key=lambda r: abs(grid[(r[0] + r[1]) // 2] - m))
     return float(grid[(best[0] + best[1]) // 2])
 
+def react_frac(p, m, win=2.0):
+    """fraction of a window in which person p is VISIBLY animated (remote_motion.py)"""
+    sp = REACT.get(p)
+    if not sp:
+        return 0.0
+    a, z = m - win / 2, m + win / 2
+    hit = sum(max(0.0, min(z, s1) - max(a, s0)) for s0, s1 in sp)
+    return hit / (z - a)
+
 def dominant(m, win=2.4):
     return {p: float(np.mean([person_act(p, t)
                               for t in np.arange(m - win / 2, m + win / 2, 0.05)]))
@@ -137,6 +160,13 @@ def plan_block(b):
         avail = [p for p in PORDER if p in allowed and p not in muted_now
                  and person_track(p, max(a, t - 1), min(z, t + 1))]
         hot = [p for p in avail if sc[p] >= GROUP_TH]
+        if REACT_TH is not None and avail:
+            # Put visible reactors on screen NEXT TO the speaker. The speaker is
+            # always included, so a reaction can only ever widen the shot --
+            # it can never cut away from whoever is talking.
+            spk = max(avail, key=lambda q: sc[q])
+            hot = [p for p in avail
+                   if p == spk or p in hot or react_frac(p, t) >= REACT_TH]
         if len(hot) >= 2:
             return dict(type='trio' if len(hot) >= 3 else 'duo',
                         panels=[person_track(p, t - 1, t + 1) for p in PORDER if p in hot])
@@ -162,7 +192,7 @@ def plan_block(b):
             if shot_key(wnt) != shot_key(cur_s):
                 if cand is None or shot_key(cand) != shot_key(wnt):
                     cand, cand_since = wnt, t
-                hold = SWITCH_HOLD if wnt['type'] == 'solo' else 1.2
+                hold = SWITCH_HOLD if wnt["type"] == "solo" else GROUP_HOLD
                 if t - cand_since >= hold - 0.001 and t - start >= MIN_SHOT:
                     cut = cand_since - 0.25
                     if cut > start:
