@@ -62,7 +62,11 @@ for nm in FILES:
     VAD[nm] = (np.convolve((e > thr).astype(np.float32), np.ones(41), 'same') > 0)
     sp = e[VAD[nm][:len(e)]]
     rms = float(np.median(sp)) if len(sp) else 0.02
-    GAIN[nm] = float(np.clip(GAIN_TGT / rms, 0.5, 5.0))
+    # Floor must stay well below any sane GAIN_TGT/rms or the clamp BINDS and
+    # silently destroys the per-speaker equalization this function exists for
+    # (Ep 8 at gain_target 0.006: chris 0.36 and tyler 0.39 both pinned to the
+    # old 0.5 floor, leaving them ~1-3 dB hot relative to jackson).
+    GAIN[nm] = float(np.clip(GAIN_TGT / rms, 0.05, 5.0))
     print(f"{nm}: dur={DUR[nm]:.1f} speech_rms={rms:.4f} gain=x{GAIN[nm]:.2f}")
 
 def covers(nm, m0, m1, slack=0.05):

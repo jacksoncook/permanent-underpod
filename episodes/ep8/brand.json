@@ -1,0 +1,48 @@
+{
+  "show": "PERMANENT UNDERPOD",
+  "show_kicker": "PERMANENT",
+  "show_main": "UNDERPOD",
+  "accent": [255, 210, 74],
+  "source": "/Users/jcook/Personal/permanent-underpod/media/ep8/work/src/jackson_720.mp4",
+  "title_card": {
+    "bg_frame": 480,
+    "line": "EPISODE 8   ·   Is It Over?   ·   Bitcoin  ·  Stablecoins  ·  AI",
+    "dur": 4.5
+  },
+  "end_card": {
+    "bg_frame": 3660,
+    "kicker": "NEXT WEEK ON",
+    "lines": [
+      "The GENIUS Act — the deadline actually passed",
+      "An open-weight Mythos in six months?",
+      "Perp of Fortune rolls again"
+    ],
+    "cta": "LIKE  +  SUBSCRIBE",
+    "dur": 7
+  },
+  "lower_thirds": [
+    {"name": "intro", "kicker": "EPISODE 8", "title": "THE BOYS ARE BACK"},
+    {"name": "quantum", "kicker": "THE MARQUEE", "title": "CLAUDE BROKE A POST-QUANTUM CIPHER"},
+    {"name": "guardrails", "kicker": "THE DEBATE WE OWED YOU", "title": "WHO GETS THE DANGEROUS MODEL?"},
+    {"name": "checkin", "kicker": "WEEK 6 CHECK-IN", "title": "GAMER THUMB, WRISTS & ONE EGG"},
+    {"name": "baby", "kicker": "PALATE CLEANSER (SORRY)", "title": "MARGO vs THE ALLERGEN TEST"},
+    {"name": "bip110", "kicker": "\"ONE MINUTE, TYLER\"", "title": "BIP-110 AND THE SPAM WAR"},
+    {"name": "bitaxe", "kicker": "LOTTERY TICKET CORNER", "title": "TYLER'S BITAXE HAS NO CHANCE"},
+    {"name": "perp", "kicker": "GPT-5.6 PICKS THE TRADE", "title": "PERP OF FORTUNE — LONG XRP 20x"},
+    {"name": "ripple", "kicker": "CONFESSION CORNER", "title": "HAVE YOU EVER BEEN A RIPPLE GUY?"},
+    {"name": "agentic", "kicker": "PROMISED SINCE EPISODE 1", "title": "AGENTIC COMMERCE, FINALLY"},
+    {"name": "rails", "kicker": "THE STANDARDS WAR", "title": "FOUR PROTOCOLS, ZERO WINNERS"},
+    {"name": "cook", "kicker": "NOMINATIVE DETERMINISM", "title": "\"DID YOU KNOW MY LAST NAME IS COOK\""},
+    {"name": "wrap", "kicker": "THE PERP PAYS (BARELY)", "title": "UP TWO BUCKS + NEXT WEEK"}
+  ],
+  "stats": [
+    {"name": "coldopen", "kicker": "EPISODE 8", "main": "In this pod…"},
+    {"name": "hawk", "kicker": "HAWK-256 · A NIST PQ CANDIDATE", "main": "Broken in ~60 hrs · ~$100K of API"},
+    {"name": "glm", "kicker": "THE DEFENDER'S TOOLKIT", "main": "Opus 4.8 refused → GLM 5.2 (open)"},
+    {"name": "thumb", "kicker": "BRACE COMPLIANCE, WEEK 6", "main": "Worn: 0%  ·  Babies held: many"},
+    {"name": "puke", "kicker": "MARGO 1 — EGG 0", "main": "Seven times. One evening. Both parents."},
+    {"name": "forks", "kicker": "FORK MATH", "main": "Self-custody: you get both · ETF: good luck"},
+    {"name": "roll", "kicker": "THE ROLL", "main": "LONG XRP  ·  20x  ·  $101 margin"},
+    {"name": "protocols", "kicker": "AGENTIC PAYMENT PROTOCOLS", "main": "x402  ·  MPP  ·  AP2  ·  ACP"}
+  ]
+}

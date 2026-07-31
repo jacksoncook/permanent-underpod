@@ -196,6 +196,8 @@ def to_final(block, m=None, rel=None):
             continue
         if rel is not None:
             return c['final_start'] + rel
+        if m is None:          # no master time given (e.g. sheet rows) -> block start
+            return c['final_start']
         if 'm0' in c and c['m0'] - 0.01 <= m <= c['m1'] + 0.01:
             return c['final_start'] + (m - c['m0'])
     cands = [c for c in CL if c['block'] == block and 'm0' in c and c['m0'] >= (m or 0)]

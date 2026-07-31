@@ -232,12 +232,22 @@ for j, (i, a) in enumerate(zip(aux_idx, auxes)):
              f"afade=t=in:st=0:d={fd},afade=t=out:st={dur-fd:.3f}:d={fd},"
              f"adelay={ms}:all=1[ax{j}]")
     amix_in += f"[ax{j}]"
+# The FINAL limiter runs 4x-oversampled. alimiter caps SAMPLE peak, but AAC
+# encodes the continuous waveform, so a sample-limited master can decode a few
+# dB HOT (inter-sample peaks become real samples at the new phase). Limiting at
+# 192 kHz catches those. This is cheap insurance, NOT a fix for a hot master:
+# on Ep 8 it produced a BIT-IDENTICAL file, because the overage had already been
+# clipped INTO edited_raw.mov upstream (gain_target too high -> the 16-bit PCM
+# intermediate hit 0 dBFS, which is destructive and permanent). If you measure a
+# hot true peak, astats the INTERMEDIATE first: "Flat factor > 0" there means the
+# damage predates this stage and no amount of limiting here will undo it.
+TP_LIM = f"aresample=192000,alimiter=limit={lim}:level=false,aresample=48000"
 n_mix = 1 + len(sfx_idx) + len(aux_idx)
 if n_mix > 1:
     f.append(f"{amix_in}amix=inputs={n_mix}:duration=first:normalize=0,"
-             f"alimiter=limit={lim}:level=false[aout]")
+             f"{TP_LIM}[aout]")
 else:
-    f.append("[sp]anull[aout]")
+    f.append(f"[sp]{TP_LIM}[aout]")
 
 out = CFG["out"] if not TEST_T else os.path.join(WORK, "test_head.mp4")
 cmd += ["-filter_complex", ";".join(f), "-map", "[vout]", "-map", "[aout]",

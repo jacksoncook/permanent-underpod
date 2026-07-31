@@ -325,10 +325,24 @@ What's different from the one-camera flow (all learned the hard way on Ep 5):
   low amplitude relative to their own voice), gate that track harder: raise its
   audio-span threshold (~0.010 RMS), tighten pads/merge (0.3s/0.8s), deepen its
   idle attenuation (~0.06). Aligned bleed doubles as slap-echo under the real voices.
-- **Audio = per-clip mix of every covering track.** Per-track static gain equalizes
-  speech to `gain_target` ≈ **0.028 (−31 dBFS RMS)** — the first Ep 5 attempt used
-  0.055 and CLIPPED (3 mics sum + 14 dB speech crest → 0 dBFS). Idle mics duck to
-  `idle_gain` 0.12 between their VAD spans (kills keyboard clatter under monologues).
+- **Audio = per-clip mix of every covering track. `gain_target` ≈ 0.006, and CHECK
+  the intermediate.** Per-track static gain equalizes speech to `gain_target`, then
+  every covering track SUMS — so the headroom math is `Σ(gain × per-track raw peak)`,
+  which must stay < 1.0. Ep 5 ruled out 0.055; **Ep 8 proved 0.028 also clips** (a
+  ×2.88 gain on a 0.716-peak track hit 2.06 by itself, driving `edited_raw.mov` to
+  0 dBFS: 192k flat-topped samples in 1,595 clusters). Because that intermediate is
+  16-bit PCM, clipping there is **destructive and permanent** — and invisible
+  downstream, since `loudnorm` happily normalizes a clipped waveform to a
+  perfect-looking −16 LUFS. **Always astats the intermediate before the final
+  render** (`Flat factor` must be 0.000, Peak < −0.3 dBFS); a hot true peak on the
+  delivered file is usually this, not the final limiter.
+  Prefer a conservative `gain_target` (0.006) plus a matching `volume=<N>dB` early in
+  `render.json`'s chain — that restores the level the chain was tuned for while
+  keeping the sum safe, costs nothing in final loudness, and is float-domain so it
+  cannot clip. Watch the printed per-track gains: if two hosts land on the SAME
+  value the clamp in `remote_cutlist.py` is binding and the equalization silently
+  did nothing. Idle mics duck to `idle_gain` 0.12 between their VAD spans (kills
+  keyboard clatter under monologues).
 - **Split-screen composites replace punch-ins/pans.** Solo full-frame by default; when
   2–3 people are simultaneously active (laughing / crosstalk / rapid trading), cut to
   side-by-side column crops: duo 640+640, trio 426+428+426 — widths must be EVEN or
