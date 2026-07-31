@@ -105,7 +105,7 @@ at 2 PM PT, so the lead clip was pushed 4 h to 6 PM PT rather than stacking two 
 in one slot on the same day. Everything after it is on the house 2 PM cadence.
 
 Eight 9:16 verticals in `media/clips/ep8/`; decision doc `clips.json`, per-clip copy in
-`posting-copy.md`, upload manifest `publishing/manifest_clips.json` (playlist
+`posting-copy.md`, upload manifest `publishing/manifest_clips_v2.json` (playlist
 **Underpod Shorts**, scheduled-private with `publishAt`). Seven are FULL-BLEED FACE
 CROPS cut from `media/ep8/work/edited_raw.mov` — the pre-overlay master, so the baked
 logo can't be caught on a left-edge crop — carrying the episode audio chain.
@@ -115,29 +115,49 @@ and `audio_chain: "anull"` so the bug isn't doubled and the already-mastered aud
 isn't processed twice. Release order front-loads the end-of-show bit and separates the
 two Ripple jokes so the second reads as a callback.
 
-**Every in/out was pinned by transcribing the real audio in 2.5–3 s bracket windows,
-not from the whisper cue times** — those tile backwards over silence and were off by up
-to 6 s here, truncating three clips mid-sentence on the first pass. All 8 verified
-three ways: content-complete at both ends, loudness (I ≈ −17, TP ≤ −1.44 dBTP), and
-geometry (1080×1920, `nb_frames` == duration × 30 exactly).
+**RE-CUT AND RE-UPLOADED 2026-07-31** (v2). Jackson watched the first batch and found
+two defects; both are fixed in the skills (commits `d835f6b`, `5c26548`) and every clip
+was re-rendered and re-uploaded. The URLs in the table below are the v2 ones — the v1
+videos were deleted, all while still private, so nothing broken ever reached an audience.
 
-**UPLOADED 2026-07-31** via `yt_upload.py` after re-authing the revoked tokens (brand
-channel confirmed: `Permanent Underpod - Podcast`, UCmZ_tUPnopsFJS615b-NtbA). All 8 are
-scheduled-private and were added to the **Underpod Shorts** playlist; results in
-`publishing/manifest_clips.json.results.json`. Note: **all 8 went up in ONE day** with
-playlist inserts on top — so the "~1600 units/upload, max 6/day" rule of thumb is
-pessimistic; no quota error was hit.
+1. **"Boomerang."** The shot appeared to swing off a person and return, sometimes with
+   no speaker change. `clipify.py` was easing EVERY `face_crops` key across 0.35 s, but
+   the vertical crop is a 406 px column of a 1280 px frame — narrower than the gap
+   between any two faces — so a glide always spends its middle frames on the panel seam:
+   wall plus two half-faces. Worst when the same person sat on both sides of the switch.
+   All crop switches are now hard cuts; verified 14/14 land on the new x one frame after
+   the key.
+2. **Clips cutting mid-sentence.** The earlier claim here that all 8 were "content-complete
+   at both ends" was **wrong**: an audit against a 10 ms speech-band RMS envelope plus
+   word-level whisper found **11 of the 16 in/out points sitting mid-speech**, including
+   `short7` truncating "Close it!" — the exact line in its own caption — and `short5`
+   chopping Tyler's reply. Bracket-window transcription is not enough; cue times can't
+   resolve a word boundary. Every boundary now lands in a measured quiet run (procedure
+   in the clipify skill's gotchas), re-verified on the rendered files: 15/16 read ≥8 dB
+   below their own body level, and the 16th (`short3`) is word-complete — it ends on the
+   decaying /f/ of "wife", 0.03 s before "It" begins.
+
+Loudness and geometry re-verified on v2: I = −16.9 … −18.7 LUFS, TP ≤ −1.45 dBTP,
+1080×1920, and video/audio stream durations matching to under 1 ms on all 8.
+
+Upload mechanics: `yt_upload.py` with `publishing/manifest_clips_v2.json` (same titles,
+descriptions, tags, playlist and `publishAt` as v1, reordered by publish date so the
+soonest-out clip was replaced first); results in
+`publishing/manifest_clips_v2.json.results.json`. Brand channel confirmed
+(`Permanent Underpod - Podcast`, UCmZ_tUPnopsFJS615b-NtbA). Note: **16 uploads in one
+day** (8 + 8) plus playlist inserts and 8 deletes, with no quota error — the
+"~1600 units/upload, max 6/day" rule of thumb is very pessimistic.
 
 | Date (2 PM PT) | Clip | Format | Title | Episode ts | URL |
 |---|---|---|---|---|---|
-| Fri Jul 31 **6 PM PT** | short7-quick-close-it | 9:16 · 0:12 | We're almost down — quick, CLOSE IT 📉 | 51:39 | https://youtu.be/sXiduX-Yl9M |
-| Sat Aug 1 | short4-ever-been-a-ripple-guy | 9:16 · 0:15 | Have you ever been a Ripple guy? 🌊 | 34:46 | https://youtu.be/8tejZUUp8UI |
-| Sun Aug 2 | short3-seven-times-one-evening | 9:16 · 0:19 | The baby egg allergy test went badly 🥚 | 22:35 | https://youtu.be/HySmab1dQv8 |
-| Mon Aug 3 | short6-my-last-name-is-cook | 9:16 · 0:13 | Wait, your last name is actually Cook? 👨‍🍳 | 48:58 | https://youtu.be/-6YfDEybwTA |
-| Tue Aug 4 | short1-nsa-audits-the-crypto | 9:16 · 0:14 | They probably all work for the NSA 🕵️ | 3:41 | https://youtu.be/tqbyam7q19c |
-| Wed Aug 5 | short8-claude-dont-cut-it-out | 9:16 · 0:12 | Claude, don't cut this out 🎙️ | 51:52 | https://youtu.be/RqhHEkFhjZQ |
-| Thu Aug 6 | short5-my-agent-only-buys-ripple | 9:16 · 0:09 | My agent only buys Ripple 🤖 | 43:29 | https://youtu.be/Z-IR6GP0dQE |
-| Fri Aug 7 | short2-give-me-the-crispr-agent | 9:16 · 0:17 | Give me the CRISPR agent, I'm built different 🧬 | 16:51 | https://youtu.be/Em3-3-cIAbA |
+| Fri Jul 31 **6 PM PT** | short7-quick-close-it | 9:16 · 0:13 | We're almost down — quick, CLOSE IT 📉 | 51:39 | https://youtu.be/rxXTQV6CMDk |
+| Sat Aug 1 | short4-ever-been-a-ripple-guy | 9:16 · 0:15 | Have you ever been a Ripple guy? 🌊 | 34:46 | https://youtu.be/VcK4YeUkVmY |
+| Sun Aug 2 | short3-seven-times-one-evening | 9:16 · 0:21 | The baby egg allergy test went badly 🥚 | 22:33 | https://youtu.be/Sea_5hXtt8Q |
+| Mon Aug 3 | short6-my-last-name-is-cook | 9:16 · 0:14 | Wait, your last name is actually Cook? 👨‍🍳 | 48:57 | https://youtu.be/wvUSSldQ-hM |
+| Tue Aug 4 | short1-nsa-audits-the-crypto | 9:16 · 0:14 | They probably all work for the NSA 🕵️ | 3:41 | https://youtu.be/auQnwEs1Xos |
+| Wed Aug 5 | short8-claude-dont-cut-it-out | 9:16 · 0:12 | Claude, don't cut this out 🎙️ | 51:52 | https://youtu.be/FoONooRI6AE |
+| Thu Aug 6 | short5-my-agent-only-buys-ripple | 9:16 · 0:09 | My agent only buys Ripple 🤖 | 43:29 | https://youtu.be/LqwTSrZsxPA |
+| Fri Aug 7 | short2-give-me-the-crispr-agent | 9:16 · 0:18 | Give me the CRISPR agent, I'm built different 🧬 | 16:50 | https://youtu.be/w8SkPn-I0ts |
 
 **Funnel checklist, manual per clip in Studio once each is public: related video →
 episode; pinned comment = `https://youtu.be/hgLne4ec_Ig?t=<seconds>` (exact seconds in the
@@ -145,49 +165,49 @@ per-clip copy below); end screens.** This is the channel's weakest metric.
 
 ### Per-clip posting copy
 
-**short7-quick-close-it** — https://youtu.be/sXiduX-Yl9M · pin `https://youtu.be/hgLne4ec_Ig?t=3099`
+**short7-quick-close-it** — https://youtu.be/rxXTQV6CMDk · pin `https://youtu.be/hgLne4ec_Ig?t=3099`
 (9:16 · 0:12 · episode 51:39)
 - Title:   We're almost down — quick, CLOSE IT 📉
 - Caption: We let GPT-5.6 pick a 20x leveraged XRP trade with $101 of real money, and the boys had to panic-close it live on air while saying goodbye. Full episode: https://youtu.be/hgLne4ec_Ig
 - Tags:    #shorts #crypto #xrp
 
-**short4-ever-been-a-ripple-guy** — https://youtu.be/8tejZUUp8UI · pin `https://youtu.be/hgLne4ec_Ig?t=2086`
+**short4-ever-been-a-ripple-guy** — https://youtu.be/VcK4YeUkVmY · pin `https://youtu.be/hgLne4ec_Ig?t=2086`
 (9:16 · 0:15 · episode 34:46)
 - Title:   Have you ever been a Ripple guy? 🌊
 - Caption: Tyler asks the question no crypto podcast is brave enough to ask, then diagnoses the condition. Full episode: https://youtu.be/hgLne4ec_Ig
 - Tags:    #shorts #crypto #xrp
 
-**short3-seven-times-one-evening** — https://youtu.be/HySmab1dQv8 · pin `https://youtu.be/hgLne4ec_Ig?t=1355`
+**short3-seven-times-one-evening** — https://youtu.be/Sea_5hXtt8Q · pin `https://youtu.be/hgLne4ec_Ig?t=1353`
 (9:16 · 0:19 · episode 22:35)
 - Title:   The baby egg allergy test went badly 🥚
 - Caption: You're supposed to introduce babies to allergens one at a time to see what happens — here is what happened. Full episode: https://youtu.be/hgLne4ec_Ig
 - Tags:    #shorts #parenting #dadlife
 
-**short6-my-last-name-is-cook** — https://youtu.be/-6YfDEybwTA · pin `https://youtu.be/hgLne4ec_Ig?t=2938`
+**short6-my-last-name-is-cook** — https://youtu.be/wvUSSldQ-hM · pin `https://youtu.be/hgLne4ec_Ig?t=2937`
 (9:16 · 0:13 · episode 48:58)
 - Title:   Wait, your last name is actually Cook? 👨‍🍳
 - Caption: Jackson reveals his surname mid-podcast and immediately gets accused of doxxing himself. Full episode: https://youtu.be/hgLne4ec_Ig
 - Tags:    #shorts #podcast #cooking
 
-**short1-nsa-audits-the-crypto** — https://youtu.be/tqbyam7q19c · pin `https://youtu.be/hgLne4ec_Ig?t=221`
+**short1-nsa-audits-the-crypto** — https://youtu.be/auQnwEs1Xos · pin `https://youtu.be/hgLne4ec_Ig?t=221`
 (9:16 · 0:14 · episode 3:41)
 - Title:   They probably all work for the NSA 🕵️
 - Caption: Almost nobody on earth can audit a post-quantum cipher — Tyler's take on who those people work for. Full episode: https://youtu.be/hgLne4ec_Ig
 - Tags:    #shorts #cryptography #ai
 
-**short8-claude-dont-cut-it-out** — https://youtu.be/RqhHEkFhjZQ · pin `https://youtu.be/hgLne4ec_Ig?t=3112`
+**short8-claude-dont-cut-it-out** — https://youtu.be/FoONooRI6AE · pin `https://youtu.be/hgLne4ec_Ig?t=3112`
 (9:16 · 0:12 · episode 51:52)
 - Title:   Claude, don't cut this out 🎙️
 - Caption: The boys sign off by apologizing for the puke talk, then instruct the AI editing the podcast to make it the centerpiece. It did. Full episode: https://youtu.be/hgLne4ec_Ig
 - Tags:    #shorts #ai #podcast
 
-**short5-my-agent-only-buys-ripple** — https://youtu.be/Z-IR6GP0dQE · pin `https://youtu.be/hgLne4ec_Ig?t=2609`
+**short5-my-agent-only-buys-ripple** — https://youtu.be/LqwTSrZsxPA · pin `https://youtu.be/hgLne4ec_Ig?t=2609`
 (9:16 · 0:09 · episode 43:29)
 - Title:   My agent only buys Ripple 🤖
 - Caption: If you let an AI agent shop for you, someone has to decide what it's allowed to buy. Full episode: https://youtu.be/hgLne4ec_Ig
 - Tags:    #shorts #ai #crypto
 
-**short2-give-me-the-crispr-agent** — https://youtu.be/Em3-3-cIAbA · pin `https://youtu.be/hgLne4ec_Ig?t=1011`
+**short2-give-me-the-crispr-agent** — https://youtu.be/w8SkPn-I0ts · pin `https://youtu.be/hgLne4ec_Ig?t=1010`
 (9:16 · 0:17 · episode 16:51)
 - Title:   Give me the CRISPR agent, I'm built different 🧬
 - Caption: The case against AI guardrails, argued by two men who would absolutely not be fine. Full episode: https://youtu.be/hgLne4ec_Ig
