@@ -1,76 +1,97 @@
 {
-  "generatedAt": "2026-07-21",
-  "headline": "Week over week: subs 16→20, views 6,169→8,511 (+38%). Ep 5's retention curve validates the new edit/recording defaults — 8:52 avg view duration, the channel's best, with early retention ~2x Eps 1–4. Two red flags own the week: Ep 6 launched into a 3-day dead clip queue and is impression-starved (77 impressions / 21 views in 3 days vs Ep 5's 1,660 / 45), and longform packaging is the broken link — YouTube serves big impressions (8.8K on the Ep 2 clip) but sub-1% CTR; retitles alone didn't fix it, thumbnails are next.",
+  "generatedAt": "2026-07-31",
+  "headline": "Ten days: subs 20→23, views 8,511→11,650 (+37%). Two things reframe everything this week. (1) 95% of a video's lifetime thumbnail impressions arrive in its first 7 days — after that YouTube serves it 1–10 times a day, forever. So packaging is a launch-day decision and retro-fitted thumbnails/retitles are not 'weak', they are unrunnable; the whole retro-packaging experiment has to be retired. (2) A metadata bug hid the channel's single largest asset: the Ep 2 clip pulled 8,840 impressions (more than any other video, 96% of them in 3 days) and converted at 0.42% — ~26 views out of 8,500 — and it never appeared in a single report because the uploads playlist omitted it. Meanwhile Ep 6, the first episode cut under the new retention defaults, is the best on every axis (16.1% avg view, 11.5% still watching at the end vs 3–6.8% everywhere else, and the ONLY episode that doesn't lose half its audience in the first 90 seconds). The edit defaults work; the launch packaging is what's leaking.",
   "production": [
     {
-      "title": "Fix longform packaging: impressions are there, CTR isn't — add custom thumbnails",
-      "evidence": "Reach data landed (36 videos). Longform clips get real impression volume but terrible CTR: Ep 2 clip 8,833 impressions @ 0.42% (most-served video on the channel), Ep 4 OpenUSD clip 3,854 @ 1.95%, Ep 5 clones clip 792 @ 0.38%, burn desk 369 @ 0.54%. Episodes are only okay: Ep 3 3.44%, Ep 4 2.93%, Ep 1 2.26%, Ep 5 just 1.2% on 1,660 impressions. All of these run auto-generated thumbnails. The retitle experiment's verdict: titles fixed the convention but aggregate CTR stayed sub-2% on 5 of 7 longforms — the thumbnail is the remaining variable.",
-      "recommendation": "Add a branded custom-thumbnail step (face + 3–5 word hook text, brand colors) to the publishing flow for every episode and longform clip; shorts don't need it. Start with the two highest-impression laggards (Ep 2 clip, Ep 4 OpenUSD clip) and the Ep 5 episode as the test set.",
+      "title": "95% of lifetime impressions land in the first 7 days — packaging must be right AT LAUNCH, and retro-packaging is impossible",
+      "evidence": "Per-video daily impressions from the Reporting API (32 videos published inside the 6/11–7/28 window): first 7 days = 95.1% of all lifetime impressions, after day 7 = 4.9%. Per-video: Ep 2 clip 8,770 of 8,840 impressions (99%) inside 7 days, 96% inside THREE days, then 1–7/day for the next month. Ep 4 OpenUSD clip 3,815 of 3,867 (99%) then 1–9/day. Ep 5 episode 1,438 of 1,712 (84%) then collapses after 7/17. The three videos the last pull targeted for custom thumbnails were already down to 1–2 impressions/day when the experiment was written — the Ep 2 clip got 1 impression on 7/22 and 1 on 7/27, so there was literally nothing left to convert. NOTE: the previous insight ('impressions froze at +15') was a measurement error — reach in channel-data.json is a sum over the ~48 retained daily reports, a SLIDING WINDOW, so diffing it across pulls is invalid.",
+      "recommendation": "Treat title + thumbnail as a hard launch-day gate: they ship with the upload or the video is spent. Never schedule a 'fix the packaging later' task again — instead, pre-write 2–3 title/thumbnail candidates during the edit and pick before publish. The only legitimate retro-action on an old video is re-uploading it as a new asset.",
       "priority": "high",
-      "status": "todo",
-      "status_note": "New this week — first actionable output of the impressions/CTR data."
+      "status": "open",
+      "status_note": "Ep 8 published 7/31 with (per Jackson) title+description verbatim from the draft; whether a custom thumbnail was live at launch is UNVERIFIED (thumbnails aren't dateable via the API — needs a Studio check). Ep 8 has no reach data yet: the report window ends 7/28 and the Reporting API lags ~48 h, so its first-week CTR reads on the next pull (~8/2+). That number is the single most important thing to check next week."
     },
     {
-      "title": "Never launch an episode into a dead clip queue — bracket every launch",
-      "evidence": "The Ep 5 clip queue ended Jul 16 and Ep 6 clips didn't start until Jul 20, leaving Jul 17–19 empty. Daily channel views collapsed into that gap (49 → 12 → 15) and Ep 6 published into the trough on Sat Jul 18: 77 impressions and 21 views in its first 3 days, vs Ep 5's 1,660 impressions / 45 views (and a 170-view channel day on its Fri-night launch). The algorithm had nothing warm to recommend the episode from.",
-      "recommendation": "Schedule each episode's first short for the morning of episode day and keep the daily 2 PM queue unbroken across the episode boundary (stretch the outgoing batch or cut a pre-release teaser from the new episode). Consider pinning the episode publish slot to the Thu-night/Fri slot that worked for Eps 1–5 rather than Saturday afternoon.",
+      "title": "The channel's biggest asset was invisible: a metadata bug dropped an 8,840-impression video from every report",
+      "evidence": "yt_pull.py enumerated videos from the uploads playlist alone, which returned 59 items but only 58 unique (one duplicate) and silently omitted the public video qwlCzhwirRI ('The US Government AI Rugged Us - Ep 2 Clip', 51 views, 620 s, live and playable, on the brand channel). search(forMine) returned all 59. Its 8,840 impressions — the largest of any video on the channel, 2.4x the runner-up — were dropped on the floor because pull_reach only assigns reach to videos present in the list, and it did so without warning. It also has a full 100-point retention curve that had never been read.",
+      "recommendation": "FIXED this pull: enumeration now unions the uploads playlist with search(forMine) and dedupes, and pull_reach now prints a WARNING for any impressions belonging to an unknown video instead of discarding them silently. The re-pull picked up 59 videos and 11 retention curves (was 58/10). Remaining orphan is UQ6-6zdPL2Q at 13 impressions — a genuinely deleted video, safe to ignore.",
       "priority": "high",
-      "status": "todo",
-      "status_note": "New this week. Ep 6's launch window is already lost; apply to Ep 7."
+      "status": "done",
+      "status_note": "Both fixes are in .claude/skills/channel-analytics/scripts/yt_pull.py with the incident documented in a comment so the union isn't 'simplified' back to one source later."
     },
     {
-      "title": "Shorts→episode funnel: related-video is wired everywhere — remaining gap is pinned comments + end screens",
-      "evidence": "Related-video is set on all shorts (confirmed in Studio 7/21 — not visible via API, so the repo had it wrongly flagged as pending). It's plausibly already paying: RELATED_VIDEO watch-minutes tripled week-over-week (67→206 min on 86 views). The conversion gap itself persists: SHORTS traffic grew 4,525→7,305 views (86% of channel) but only 462 watch-minutes and ~2 lifetime subs; episodes still do the converting (SUBSCRIBER+direct: 525 views, 1,072 watch-min).",
-      "recommendation": "Finish the last two checklist items if not already done — pinned comment with episode link + timestamp on each short, end screens on episodes/longforms — then this item retires and the funnel gets judged purely on RELATED_VIDEO + subs trends.",
-      "priority": "med",
+      "title": "That hidden video is also the channel's worst packaging failure, and it shows what a failed audition costs",
+      "evidence": "Ep 2 clip: 8,509 impressions in its first 3 days at ~0.31% CTR (~26 views), lifetime 0.42% — against a channel long-form range of 0.68–7.81%. YouTube auditioned it harder than anything else the channel has ever published and then stopped completely (1–7 impressions/day since). Compare 'We Let Claude Gamble Our Money at 20x Leverage' at 3.43% on 6,236 impressions, and the Ep 6 clip at 7.81% on 64. Its 7.4% avg view % means the click that did happen wasn't rewarded either.",
+      "recommendation": "This is the strongest evidence on the channel for the launch-packaging rule above: a big first-week impression allocation is not a second chance, it's the only chance. Re-cut this clip as a NEW upload with a real hook title and thumbnail rather than trying to revive the existing one.",
+      "priority": "high",
+      "status": "open"
+    },
+    {
+      "title": "Shorts→episode funnel is still the highest-leverage unfixed thing, and it's now 8 clips behind",
+      "evidence": "Shorts: 10,447 views → 630 watch-minutes and 4 subs (0.038 subs/100 views, 0.06 min/view). Long-form: 881 views → 3,409 watch-minutes and 13 subs (1.476 subs/100 views, 3.87 min/view). Long-form converts a viewer to a subscriber ~39x better per view and produces 5.4x the watch-time off a tenth of the views. Shorts traffic grew +2,642 views this period but only +129 watch-minutes. RELATED_VIDEO is wired (confirmed 7/21) and is moving, but slowly: 86→97 views, 206→254 watch-minutes. SUBSCRIBER traffic is the quality source at 546 views → 1,171 minutes.",
+      "recommendation": "Work the funnel checklist on Ep 8's 8 clips as they go public Jul 31–Aug 7 — related video → episode, pinned comment with the ?t= link (all 8 timestamps are already in episodes/ep8/segment-times.md), end screens. RELATED_VIDEO views/watch-min is the metric to judge it by next pull.",
+      "priority": "high",
       "status": "partial",
-      "status_note": "Related-video: DONE (all shorts, per Jackson 7/21). Pinned comments + end screens: unverified. Note for future reviews: Studio-manual steps aren't API-visible — ask, don't assume undone."
+      "status_note": "Related-video wired on all shorts through Ep 7. Ep 8's 8 clips uploaded 7/31 scheduled-private; their checklist is untouched and pinned comments can't be set until each goes public."
     },
     {
-      "title": "Retention-informed edit defaults are working — keep them",
-      "evidence": "Ep 5, the first cut under the new defaults, posts the channel's best long-form engagement: 8:52 avg view duration (Ep 1 6:47, Ep 2 6:10, Ep 4 4:37, Ep 3 2:59) and 25.6% retention at the 5% mark vs 11–19% for Eps 1–4. The curve holds a long plateau (16–19% absolute) from 15% clear through 55% of a 61-min runtime, and vs-typical peaks 0.62 in the AI-clones panel and 0.68 when the perp fill lands. Ep 6 doubled down (56:12 runtime, 47s 4-clip cold open, first segment at 2:05) — its curve lands next week.",
-      "recommendation": "No change: keep cold-open-from-best-moment + first-segment-by-2-min + 45–55 min target. Judge Ep 6's curve against Ep 5's next pull.",
+      "title": "The cold-open handoff is the single biggest edit leak — and Ep 6 proves it's fixable",
+      "evidence": "Every episode loses the majority of its audience in the first 60–90 seconds: Ep 1 −52.2pp (0:50→1:41), Ep 2 −55.1pp (0:39→1:19), Ep 3 −71.8pp (0:45→1:30), Ep 4 −54.0pp (0:44→1:28), Ep 5 −47.7pp (0:36→1:13), Ep 7 −56.7pp (0:29→0:58). Ep 6 is the sole exception at −26.9pp (0:33→1:07) — roughly half the leak — and it is also the best episode on every downstream axis: 16.1% avg view, 11.5% still present at the end (vs 3.0–6.8% for every other episode), early-window vs_typical 0.64 (vs 0.13–0.43 elsewhere), and late-episode vs_typical 0.95. Ep 6 was the first episode cut under the retention-informed edit defaults.",
+      "recommendation": "Keep the Ep 6 shape and attack what's left of the handoff: the drop is at the seam where the cold open ends and the welcome/title begins. On Ep 9, cut the teaser straight into segment 1 with no welcome block at all and compare the 0:30–1:30 loss against Ep 6's −26.9pp.",
+      "priority": "high",
+      "status": "partial",
+      "status_note": "Defaults are in podcast-video-edit SKILL.md and shipped on Ep 6/7/8. Ep 8's curve isn't available yet (published today) — it's the confirmation case."
+    },
+    {
+      "title": "Clip length drives completion; the subject drives views — the 10–20s default holds",
+      "evidence": "Short avg view % by duration: 12s→58.7%, 14s→55.1%, 15s→81.7%, 20s→41.1%, 21s→96.5%, against 25s→48.6%, 27s→35.5%, 38s→38.8%. Completion falls off past ~20s while view counts track the topic, not the length.",
+      "recommendation": "Keep cutting 10–20s verticals; Ep 8's batch is 9–19s and compliant. Stop treating a 30s+ setup as viable for verticals.",
       "priority": "med",
-      "status": "done",
-      "status_note": "Defaults in podcast-video-edit SKILL.md since 7/11; Ep 5 curve is the first confirming evidence. Retire once Ep 6's curve confirms."
+      "status": "done"
     },
     {
-      "title": "Clip titling convention — done and holding",
-      "evidence": "Zero 'Highlight -' titles remain live (all 7 longforms now '<Hook> - Ep N Clip' or hook-only). Note: Ep 5's episode was also retitled live ('We Gave an AI $100 and It Bet On War' → 'Our AI Clones Have Faces Now (This Is Getting Worse)') — presumably chasing its weak 1.2% CTR; segment-times.md updated to match.",
-      "recommendation": "Nothing left to do; convention + lint live in clipify. CTR ownership moves to the thumbnail item above.",
-      "priority": "low",
-      "status": "done",
-      "status_note": "Complete as of this week — retire next review."
+      "title": "Episode launches are now bracketed by a live clip queue — keep it, and pre-check for collisions",
+      "evidence": "Ep 6 launched into a dead queue (77 impressions / 21 views in its first 3 days) and still recovered to 432 impressions at 3.24% CTR once clips started. Daily views show the clip queue working: 7/25–7/28 ran 655 / 836 / 231 / 410 views against 8–13/day the week before.",
+      "recommendation": "Keep the daily 2 PM PT cadence. Standing pre-flight: check the PREVIOUS episode's clip schedule for a same-day collision before setting a new batch's publishAt — Ep 8's lead clip and Ep 7's freestyle short both landed on Jul 31 2 PM PT and the lead was moved to 6 PM.",
+      "priority": "med",
+      "status": "done"
     }
   ],
   "recording": [
     {
-      "title": "Check-in discipline improved — now move the gamer-thumb saga out of minutes 2–4",
-      "evidence": "Ep 5's welcome ran 0:43–1:46 (inside the ≤60s target) and early retention doubled vs Eps 1–4 (25.6% vs 11–19% at the 5% mark). But the thumb saga occupied 1:46–4:26 and the curve bleeds straight through it (30.2% → 23.3%). Ep 6 cut it to 48 seconds (1:17–2:05) — right instinct.",
-      "recommendation": "Keep the check-in ≤60s. Retainer bits like the thumb saga work better as mid-show palate cleansers than as minute-2 content — record them self-contained so the edit can place them.",
+      "title": "Don't ship a solo episode as the main feed item",
+      "evidence": "Ep 7 (Jackson solo) is the worst episode on the channel on every measure: 0.68% CTR on 1,029 impressions, 200 s avg view duration, 6.8% avg view %, 3.3% still watching at the end, and −56.7pp in the first 29 seconds followed by another −16.7pp by 1:28. Early-window vs_typical 0.31. For contrast Ep 6 (full panel) holds 11.5% to the end at 16.1%.",
+      "recommendation": "When hosts are out, ship a short-form or a clip package instead of a full solo episode — or bring a guest. The three-host dynamic is the format's product.",
       "priority": "high"
     },
     {
-      "title": "The ≤8-minute explainer cap keeps being proven right — Ep 5 violated it once and paid",
-      "evidence": "Ep 5's only sustained decay is exactly the 10.3-min 'Not all USDC is the same: chain drift' explainer (33:53–44:12): absolute retention slides 16.3% → 11.6% and vs-typical craters 0.44 → 0.19, the episode's worst band. Everything before it held flat for 20 minutes. Same pattern as Ep 4's L2 deep-dive and Ep 2's perps explainer.",
-      "recommendation": "Hard cap explainers at 8 minutes and tie them to live stakes. Chain drift had a natural stake ('your burrito money') — surfacing the stake first and cutting the mechanism detail would likely have held the plateau.",
+      "title": "The ≤8-minute explainer cap held again — Ep 7 broke it by 4x and paid",
+      "evidence": "Ep 7's vibe-coding block ran 12:29→48:00 — about 72% of the episode in one segment. Its retention shows −10.0pp at 15:43→16:13 (16.7%→6.7%, vs_typical 0.20) right as the block settles in, and never recovers. Every episode's steepest mid-show cliff sits inside a long explainer.",
+      "recommendation": "Hard-cap explainers at 8 minutes on the mic and tie each to live stakes or a personal story; if a topic can't be, it's a clip, not a segment.",
       "priority": "high"
     },
     {
-      "title": "AI bits and live stakes remain the retention spine — keep pulling them earlier",
-      "evidence": "Ep 5's vs-typical climbs from 0.28 to 0.62 through the AI-Venice segment + panel react (4:26–18:56) — putting an AI bit in the first 10 minutes worked exactly as predicted. The perp fill at 50:45 bumps vs-typical to 0.68 with 85% of the runtime gone. Perp of Fortune moved from 27:08 (Ep 5) to 18:26 (Ep 6) — progress, still not first-10-minutes.",
-      "recommendation": "Keep one of the three anchors (AI bit / live stakes / confession) in the first 10 minutes. The confession experiment from last review still hasn't happened — Ep 6 had none; bring one to Ep 7.",
-      "priority": "high"
+      "title": "AI bits and live stakes are the retention spine — the evidence got stronger",
+      "evidence": "Ep 6's late-episode vs_typical is 0.95 (near channel-typical) and it finishes at 11.5% — its structure front-loaded the AI-clone segment and opened Perp of Fortune at 18:26 rather than Ep 5's 27:08. Ep 5's own steepest mid-show drop is −6.8pp at 37:30, after its retainer had already been spent.",
+      "recommendation": "Keep one retainer bit (Perp of Fortune / confession / AI bit) inside the first 10 minutes, every episode. Ep 8 has the Ripple-guy confession at 34:51 — that's late; move the next one earlier.",
+      "priority": "med"
+    },
+    {
+      "title": "Check-in discipline: the fix shipped on Ep 8, now verify it",
+      "evidence": "Ep 5 lost −9.1pp at 1:50→2:27 during the gamer-thumb/check-in saga (vs_typical 0.29). Ep 8 moved check-in out of the top of the show to 18:34 as a mid-show palate cleanser, with the marquee at 2:06.",
+      "recommendation": "Judge this against Ep 8's retention curve next pull: the 1:50–2:30 region should no longer show a distinct drop, and 18:00–19:00 should not crater.",
+      "priority": "med"
     }
   ],
   "experiments": [
-    "[prod] RESULT — retitle CTR test: retitles shipped but aggregate CTR on longforms stayed 0.38–3.0% (Ep 2 clip: 8,833 impressions @ 0.42%). Titles necessary but not sufficient → superseded by the custom-thumbnail experiment.",
-    "[prod] NEW — custom thumbnails on the Ep 2 clip + Ep 4 OpenUSD clip (highest impressions, worst CTR) and the Ep 5 episode; compare CTR after 2 weeks.",
-    "[prod] NEW — Ep 7 episode repackaged live 7/25 after 0.9% CTR @ 400 impressions in first 24 h: retitle ('My podmates were out so I made a beat and rapped' → 'An OpenAI Model Escaped Its Sandbox to Cheat a Test (So I Rapped About It)') + first-ever custom episode thumbnail (disguised-robot cheating art). First episode-level test of the custom-thumbnail recommendation. CONFOUND: Ep 7 shorts queue starts 7/26, so impressions/CTR move for two reasons at once — judge vs the 2.3–3.4% episode baseline at the next weekly pull, not day-over-day.",
-    "[prod] NEW — Ep 5 episode was retitled live (→ 'Our AI Clones Have Faces Now'); watch whether its 1.2% CTR moves by next pull.",
-    "[prod] PENDING — 10–20s loop shorts vs 30s+ setup shorts: Ep 6 batch has both (13s/14s/19s/21s vs 38s), publishing Jul 20–25; compare next week.",
-    "[rec] PENDING — Ep 6 retention curve vs Ep 5's (perp at 18:26 vs 27:08, AI clones at 2:05): needs views to accumulate; judge next pull.",
-    "[rec] CARRIED — each host brings one confession to Ep 7; Ep 6 shipped without one and confessions sit at every measured retention peak.",
-    "[prod] UPDATED — related-video is wired on all shorts (confirmed 7/21); now watch whether RELATED_VIDEO views/watch-min (86 / 206 min this pull) and shorts-sourced subs keep climbing over the next 2 weeks."
+    "[prod] RETIRED — custom thumbnails on the Ep 2 clip / Ep 4 OpenUSD clip / Ep 5 episode: UNRUNNABLE, not failed. All three were already at 1–2 impressions/day when the experiment was written (95% of lifetime impressions land in the first 7 days). Retiring the whole class of retro-packaging experiments.",
+    "[prod] CORRECTED — the previous pull's 'impressions froze at +15' finding was a measurement error: reach is a sliding-window sum over the ~48 retained daily reports, so cross-pull diffs are meaningless. Use the per-video DAILY series for any packaging question. Documented in the skill's Gotchas.",
+    "[prod] RESULT — Ep 7 repackage (retitle + first custom episode thumbnail, 7/25): inconclusive-to-mildly-positive on impressions, still bad on CTR. Daily impressions 7/24 495 @ 0.61% (original packaging), then 68 / 146 / 126 / 194 through 7/28 — notably it did NOT collapse to single digits like every other video, but CTR at 126–194 impressions/day is 0–1.55% (2–3 clicks), too noisy to call. Lifetime 0.68% on 1,029 impressions is still the channel's worst episode CTR.",
+    "[prod] RESULT — 10–20s vs 30s+ verticals: length drives completion (12–21s = 41–97%, 25–38s = 36–49%), views track subject matter. 10–20s default confirmed.",
+    "[rec] RESULT — Ep 6 vs Ep 5: Ep 6 wins decisively. 16.1% vs 14.1% avg view %, 11.5% vs 6.8% end retention, −26.9pp vs −47.7pp opening drop, early vs_typical 0.64 vs 0.29. The retention-informed edit defaults are validated.",
+    "[prod] NEW — Ep 8's first-week CTR is the headline number for next pull (no reach data yet; window ends 7/28, ~48 h API lag). Read it together with whether a custom thumbnail was live AT LAUNCH — that's the first clean test of launch-day packaging.",
+    "[prod] NEW — re-upload the Ep 2 clip as a NEW asset with a real hook title + thumbnail; it earned 8,840 impressions on subject matter alone at 0.42% CTR. Tests whether a fresh audition can be won with the same content.",
+    "[prod] CARRIED — funnel checklist on Ep 8's 8 clips as they publish Jul 31–Aug 7. Baseline to beat: RELATED_VIDEO 97 views / 254 watch-minutes.",
+    "[rec] NEW — Ep 9: cut the cold-open teaser straight into segment 1 with no welcome block; compare the 0:30–1:30 loss against Ep 6's −26.9pp.",
+    "[rec] NEW — verify Ep 8's 18:34 check-in placement against Ep 5's −9.1pp at 1:50→2:27, and move the next confession earlier than Ep 8's 34:51."
   ]
 }

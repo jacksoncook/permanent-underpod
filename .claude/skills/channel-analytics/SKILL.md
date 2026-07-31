@@ -101,6 +101,22 @@ refresh headlessly.
   the first reports exist (with ~30-day backfill); until then reach is null — say
   "no CTR data yet", don't invent numbers. Requires `youtubereporting.googleapis.com`
   enabled in the Cloud project (the script prints the enable URL on 403).
+- **`reach` is a SLIDING WINDOW, not a lifetime counter — never diff it across pulls.**
+  It's the sum over the daily reports Google still retains (the pull prints the covered
+  range). Old days age out, so a video's `impressions` can *fall* between pulls and total
+  channel impressions can drop while coverage grows. On 2026-07-31 this produced a
+  completely wrong conclusion ("impressions froze, so the new thumbnail had nothing to
+  convert" — from comparing two different windows). **For any packaging question, rebuild
+  the per-video DAILY series** from `jobs().reports().list()` + the CSVs and compare the
+  days before vs after the change. That analysis found the real mechanism: **~95% of a
+  video's lifetime impressions arrive in its first 7 days**, then it gets 1–10/day
+  forever — so packaging is a launch-day gate and retro-fixes are unrunnable.
+- **Enumerate videos from the uploads playlist AND `search(forMine=True)`, unioned.**
+  The uploads playlist alone is not trustworthy: on 2026-07-31 it returned 59 items but
+  only 58 unique (a dupe) and omitted a *public* video that was the channel's #1
+  thumbnail-impression driver (8,840 impressions) — so it was absent from every report
+  ever generated, and `pull_reach` discarded its reach silently. `yt_pull.py` now unions
+  both and WARNS on impressions belonging to an unknown video. Don't "simplify" it back.
 - Token expiry: if the OAuth consent screen is still in Testing mode, refresh tokens
   die after 7 days — re-auth or publish the app (see memory / clipify youtube-setup.md).
 - Data lands in `analytics/` (committable — it's our own channel's data; no secrets).

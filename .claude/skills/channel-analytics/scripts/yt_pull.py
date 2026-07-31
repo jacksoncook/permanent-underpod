@@ -133,13 +133,23 @@ def pull_reach(creds, videos):
                 a = agg.setdefault(f[vi], [0.0, 0.0])
                 a[0] += imp
                 a[1] += imp * ctr
-        n = 0
+        n, orphan = 0, []
         for vid, (imp, clicks) in agg.items():
-            if vid in videos and imp > 0:
-                pct = clicks / imp * (1 if ctr_is_pct else 100)
-                videos[vid]["reach"] = {"impressions": int(imp), "ctr_pct": round(pct, 2)}
-                n += 1
-        print(f"reach: impressions/CTR merged for {n} videos ({len(latest)} daily reports)")
+            if imp <= 0:
+                continue
+            if vid not in videos:
+                orphan.append((int(imp), vid))
+                continue
+            pct = clicks / imp * (1 if ctr_is_pct else 100)
+            videos[vid]["reach"] = {"impressions": int(imp), "ctr_pct": round(pct, 2)}
+            n += 1
+        days = sorted(latest)
+        print(f"reach: impressions/CTR merged for {n} videos "
+              f"({len(latest)} daily reports, {days[0]} .. {days[-1]})")
+        # These impressions are real but belong to no known video -> they'd vanish.
+        for imp, vid in sorted(orphan, reverse=True):
+            print(f"  WARNING: {imp} impressions for {vid}, which is not in the video "
+                  f"list — reach discarded (deleted video, or enumeration missed it)")
     except HttpError as e:
         if e.status_code == 403:
             print("reach: YouTube Reporting API not enabled — enable it at\n"
@@ -186,6 +196,11 @@ def main():
     start = (channel["publishedAt"] or "2020-01-01")[:10]
     today = datetime.date.today().isoformat()
 
+    # Enumerate from BOTH the uploads playlist and search(forMine), then union.
+    # The uploads playlist is not reliable on its own: on 2026-07-31 it returned 59
+    # items but only 58 unique (one dupe) and silently omitted a public video that was
+    # the channel's top thumbnail-impression driver (8.8k impressions) — so it never
+    # appeared in any report. search(forMine) had it. Union + dedupe covers both.
     uploads = c["contentDetails"]["relatedPlaylists"]["uploads"]
     ids, page = [], None
     while True:
@@ -195,7 +210,21 @@ def main():
         page = r.get("nextPageToken")
         if not page:
             break
-    print(f"{len(ids)} videos in uploads")
+    n_uploads = len(set(ids))
+    found, page = [], None
+    while True:
+        r = yt.search().list(part="id", forMine=True, type="video",
+                             maxResults=50, pageToken=page).execute()
+        found += [it["id"]["videoId"] for it in r["items"]]
+        page = r.get("nextPageToken")
+        if not page:
+            break
+    missed = set(found) - set(ids)
+    ids = list(dict.fromkeys(ids + found))
+    print(f"{len(ids)} videos ({n_uploads} via uploads playlist, "
+          f"{len(missed)} recovered via search)")
+    if missed:
+        print(f"  uploads playlist omitted: {', '.join(sorted(missed))}")
 
     videos = {}
     for i in range(0, len(ids), 50):

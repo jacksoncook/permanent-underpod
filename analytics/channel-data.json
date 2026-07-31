@@ -1,16 +1,16 @@
 {
-  "pulledAt": "2026-07-21T03:20:53-04:00",
+  "pulledAt": "2026-07-31T07:09:19-04:00",
   "range": {
     "start": "2026-06-13",
-    "end": "2026-07-21"
+    "end": "2026-07-31"
   },
   "channel": {
     "id": "UCmZ_tUPnopsFJS615b-NtbA",
     "title": "Permanent Underpod - Podcast",
     "publishedAt": "2026-06-13T00:35:48.733144Z",
-    "subscribers": 20,
-    "totalViews": 8511,
-    "videoCount": 37
+    "subscribers": 23,
+    "totalViews": 11650,
+    "videoCount": 49
   },
   "videos": [
     {
@@ -24,15 +24,15 @@
       "privacyStatus": "public",
       "publishAt": null,
       "stats": {
-        "views": 84,
+        "views": 87,
         "likes": 6,
         "comments": 2
       },
       "analytics": {
-        "views": 68,
-        "watch_min": 462,
-        "avg_view_s": 407,
-        "avg_view_pct": 8.07,
+        "views": 70,
+        "watch_min": 521,
+        "avg_view_s": 447,
+        "avg_view_pct": 8.85,
         "likes": 5,
         "comments": 1,
         "shares": 1,
@@ -41,508 +41,508 @@
       "retention": [
         {
           "ratio": 0.01,
-          "watch_ratio": 0.7537999999999999,
-          "vs_typical": 0.4829
+          "watch_ratio": 0.7463,
+          "vs_typical": 0.4902
         },
         {
           "ratio": 0.02,
-          "watch_ratio": 0.21539999999999998,
-          "vs_typical": 0.51525
+          "watch_ratio": 0.22390000000000002,
+          "vs_typical": 0.5444
         },
         {
           "ratio": 0.03,
-          "watch_ratio": 0.2462,
-          "vs_typical": 0.57355
+          "watch_ratio": 0.25370000000000004,
+          "vs_typical": 0.62005
         },
         {
           "ratio": 0.04,
-          "watch_ratio": 0.18460000000000001,
-          "vs_typical": 0.62315
+          "watch_ratio": 0.19399999999999998,
+          "vs_typical": 0.6746
         },
         {
           "ratio": 0.05,
-          "watch_ratio": 0.16920000000000002,
-          "vs_typical": 0.6413
+          "watch_ratio": 0.209,
+          "vs_typical": 0.6963
         },
         {
           "ratio": 0.06,
-          "watch_ratio": 0.16920000000000002,
-          "vs_typical": 0.6251
+          "watch_ratio": 0.209,
+          "vs_typical": 0.70135
         },
         {
           "ratio": 0.07,
-          "watch_ratio": 0.16920000000000002,
-          "vs_typical": 0.56585
+          "watch_ratio": 0.209,
+          "vs_typical": 0.68825
         },
         {
           "ratio": 0.08,
-          "watch_ratio": 0.13849999999999998,
-          "vs_typical": 0.46885
+          "watch_ratio": 0.1493,
+          "vs_typical": 0.63015
         },
         {
           "ratio": 0.09,
-          "watch_ratio": 0.13849999999999998,
-          "vs_typical": 0.3766
+          "watch_ratio": 0.1493,
+          "vs_typical": 0.5246
         },
         {
           "ratio": 0.1,
-          "watch_ratio": 0.13849999999999998,
-          "vs_typical": 0.32694999999999996
+          "watch_ratio": 0.1493,
+          "vs_typical": 0.43155
         },
         {
           "ratio": 0.11,
-          "watch_ratio": 0.1231,
-          "vs_typical": 0.3194
+          "watch_ratio": 0.1343,
+          "vs_typical": 0.4077
         },
         {
           "ratio": 0.12,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.34240000000000004
+          "watch_ratio": 0.1642,
+          "vs_typical": 0.46605
         },
         {
           "ratio": 0.13,
-          "watch_ratio": 0.18460000000000001,
-          "vs_typical": 0.392
+          "watch_ratio": 0.19399999999999998,
+          "vs_typical": 0.5905
         },
         {
           "ratio": 0.14,
-          "watch_ratio": 0.13849999999999998,
-          "vs_typical": 0.4552
+          "watch_ratio": 0.1493,
+          "vs_typical": 0.72325
         },
         {
           "ratio": 0.15,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.49595
+          "watch_ratio": 0.19399999999999998,
+          "vs_typical": 0.80585
         },
         {
           "ratio": 0.16,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.4896
+          "watch_ratio": 0.19399999999999998,
+          "vs_typical": 0.829
         },
         {
           "ratio": 0.17,
-          "watch_ratio": 0.13849999999999998,
-          "vs_typical": 0.4572
+          "watch_ratio": 0.1791,
+          "vs_typical": 0.7951
         },
         {
           "ratio": 0.18,
-          "watch_ratio": 0.13849999999999998,
-          "vs_typical": 0.4313
+          "watch_ratio": 0.1642,
+          "vs_typical": 0.7066
         },
         {
           "ratio": 0.19,
-          "watch_ratio": 0.13849999999999998,
-          "vs_typical": 0.4197
+          "watch_ratio": 0.1642,
+          "vs_typical": 0.6048
         },
         {
           "ratio": 0.2,
-          "watch_ratio": 0.13849999999999998,
-          "vs_typical": 0.42055
+          "watch_ratio": 0.1642,
+          "vs_typical": 0.54225
         },
         {
           "ratio": 0.21,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.43455
+          "watch_ratio": 0.1791,
+          "vs_typical": 0.52305
         },
         {
           "ratio": 0.22,
-          "watch_ratio": 0.13849999999999998,
-          "vs_typical": 0.4625
+          "watch_ratio": 0.1642,
+          "vs_typical": 0.53055
         },
         {
           "ratio": 0.23,
-          "watch_ratio": 0.1231,
-          "vs_typical": 0.5105
+          "watch_ratio": 0.1493,
+          "vs_typical": 0.55895
         },
         {
           "ratio": 0.24,
-          "watch_ratio": 0.1231,
-          "vs_typical": 0.5704
+          "watch_ratio": 0.1493,
+          "vs_typical": 0.5968
         },
         {
           "ratio": 0.25,
-          "watch_ratio": 0.13849999999999998,
-          "vs_typical": 0.60215
+          "watch_ratio": 0.1642,
+          "vs_typical": 0.61285
         },
         {
           "ratio": 0.26,
-          "watch_ratio": 0.1231,
-          "vs_typical": 0.57845
+          "watch_ratio": 0.1493,
+          "vs_typical": 0.5861
         },
         {
           "ratio": 0.27,
-          "watch_ratio": 0.1231,
-          "vs_typical": 0.52615
+          "watch_ratio": 0.1493,
+          "vs_typical": 0.53665
         },
         {
           "ratio": 0.28,
-          "watch_ratio": 0.1231,
-          "vs_typical": 0.4893
+          "watch_ratio": 0.1493,
+          "vs_typical": 0.49635
         },
         {
           "ratio": 0.29,
-          "watch_ratio": 0.10769999999999999,
-          "vs_typical": 0.4844
+          "watch_ratio": 0.1343,
+          "vs_typical": 0.4777
         },
         {
           "ratio": 0.3,
-          "watch_ratio": 0.1231,
-          "vs_typical": 0.5202
+          "watch_ratio": 0.1493,
+          "vs_typical": 0.48925
         },
         {
           "ratio": 0.31,
-          "watch_ratio": 0.10769999999999999,
-          "vs_typical": 0.6111
+          "watch_ratio": 0.1343,
+          "vs_typical": 0.54835
         },
         {
           "ratio": 0.32,
-          "watch_ratio": 0.13849999999999998,
-          "vs_typical": 0.7309
+          "watch_ratio": 0.1642,
+          "vs_typical": 0.6407
         },
         {
           "ratio": 0.33,
-          "watch_ratio": 0.13849999999999998,
-          "vs_typical": 0.8121499999999999
+          "watch_ratio": 0.1642,
+          "vs_typical": 0.7047
         },
         {
           "ratio": 0.34,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.8291999999999999
+          "watch_ratio": 0.1791,
+          "vs_typical": 0.7109
         },
         {
           "ratio": 0.35,
-          "watch_ratio": 0.13849999999999998,
-          "vs_typical": 0.7867999999999999
+          "watch_ratio": 0.1642,
+          "vs_typical": 0.6788
         },
         {
           "ratio": 0.36,
-          "watch_ratio": 0.1231,
-          "vs_typical": 0.6794
+          "watch_ratio": 0.1493,
+          "vs_typical": 0.6347
         },
         {
           "ratio": 0.37,
-          "watch_ratio": 0.1231,
-          "vs_typical": 0.532
+          "watch_ratio": 0.1642,
+          "vs_typical": 0.59295
         },
         {
           "ratio": 0.38,
-          "watch_ratio": 0.10769999999999999,
-          "vs_typical": 0.41305000000000003
+          "watch_ratio": 0.1493,
+          "vs_typical": 0.55005
         },
         {
           "ratio": 0.39,
-          "watch_ratio": 0.10769999999999999,
-          "vs_typical": 0.351
+          "watch_ratio": 0.1493,
+          "vs_typical": 0.4895
         },
         {
           "ratio": 0.4,
-          "watch_ratio": 0.13849999999999998,
-          "vs_typical": 0.33530000000000004
-        },
-        {
-          "ratio": 0.41,
-          "watch_ratio": 0.10769999999999999,
-          "vs_typical": 0.3604
-        },
-        {
-          "ratio": 0.42,
-          "watch_ratio": 0.1231,
+          "watch_ratio": 0.1493,
           "vs_typical": 0.4092
         },
         {
+          "ratio": 0.41,
+          "watch_ratio": 0.11939999999999999,
+          "vs_typical": 0.34450000000000003
+        },
+        {
+          "ratio": 0.42,
+          "watch_ratio": 0.1343,
+          "vs_typical": 0.32475
+        },
+        {
           "ratio": 0.43,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.4349
+          "watch_ratio": 0.1493,
+          "vs_typical": 0.3202
         },
         {
           "ratio": 0.44,
-          "watch_ratio": 0.1231,
-          "vs_typical": 0.41400000000000003
+          "watch_ratio": 0.11939999999999999,
+          "vs_typical": 0.29495000000000005
         },
         {
           "ratio": 0.45,
-          "watch_ratio": 0.09230000000000001,
-          "vs_typical": 0.39205
+          "watch_ratio": 0.08960000000000001,
+          "vs_typical": 0.27664999999999995
         },
         {
           "ratio": 0.46,
-          "watch_ratio": 0.09230000000000001,
-          "vs_typical": 0.4346
+          "watch_ratio": 0.08960000000000001,
+          "vs_typical": 0.3205
         },
         {
           "ratio": 0.47,
-          "watch_ratio": 0.07690000000000001,
-          "vs_typical": 0.53555
+          "watch_ratio": 0.0746,
+          "vs_typical": 0.41910000000000003
         },
         {
           "ratio": 0.48,
-          "watch_ratio": 0.09230000000000001,
-          "vs_typical": 0.6311
+          "watch_ratio": 0.08960000000000001,
+          "vs_typical": 0.51085
         },
         {
           "ratio": 0.49,
-          "watch_ratio": 0.09230000000000001,
-          "vs_typical": 0.69295
+          "watch_ratio": 0.08960000000000001,
+          "vs_typical": 0.56935
         },
         {
           "ratio": 0.5,
-          "watch_ratio": 0.07690000000000001,
-          "vs_typical": 0.7329
+          "watch_ratio": 0.0746,
+          "vs_typical": 0.6092500000000001
         },
         {
           "ratio": 0.51,
-          "watch_ratio": 0.09230000000000001,
-          "vs_typical": 0.7618
+          "watch_ratio": 0.08960000000000001,
+          "vs_typical": 0.64465
         },
         {
           "ratio": 0.52,
-          "watch_ratio": 0.07690000000000001,
-          "vs_typical": 0.7765
+          "watch_ratio": 0.0746,
+          "vs_typical": 0.67335
         },
         {
           "ratio": 0.53,
-          "watch_ratio": 0.09230000000000001,
-          "vs_typical": 0.75995
+          "watch_ratio": 0.08960000000000001,
+          "vs_typical": 0.67515
         },
         {
           "ratio": 0.54,
-          "watch_ratio": 0.09230000000000001,
-          "vs_typical": 0.6957
+          "watch_ratio": 0.08960000000000001,
+          "vs_typical": 0.6289
         },
         {
           "ratio": 0.55,
-          "watch_ratio": 0.09230000000000001,
-          "vs_typical": 0.6068
+          "watch_ratio": 0.08960000000000001,
+          "vs_typical": 0.55515
         },
         {
           "ratio": 0.56,
-          "watch_ratio": 0.09230000000000001,
-          "vs_typical": 0.5537
+          "watch_ratio": 0.08960000000000001,
+          "vs_typical": 0.5138
         },
         {
           "ratio": 0.57,
-          "watch_ratio": 0.09230000000000001,
-          "vs_typical": 0.5639
+          "watch_ratio": 0.08960000000000001,
+          "vs_typical": 0.53285
         },
         {
           "ratio": 0.58,
-          "watch_ratio": 0.13849999999999998,
-          "vs_typical": 0.5991
+          "watch_ratio": 0.1343,
+          "vs_typical": 0.5750500000000001
         },
         {
           "ratio": 0.59,
-          "watch_ratio": 0.13849999999999998,
-          "vs_typical": 0.58845
+          "watch_ratio": 0.1343,
+          "vs_typical": 0.5705
         },
         {
           "ratio": 0.6,
-          "watch_ratio": 0.09230000000000001,
-          "vs_typical": 0.49955
+          "watch_ratio": 0.08960000000000001,
+          "vs_typical": 0.4873
         },
         {
           "ratio": 0.61,
-          "watch_ratio": 0.10769999999999999,
-          "vs_typical": 0.3678
+          "watch_ratio": 0.1045,
+          "vs_typical": 0.36025
         },
         {
           "ratio": 0.62,
-          "watch_ratio": 0.09230000000000001,
-          "vs_typical": 0.25429999999999997
+          "watch_ratio": 0.08960000000000001,
+          "vs_typical": 0.24995
         },
         {
           "ratio": 0.63,
-          "watch_ratio": 0.07690000000000001,
-          "vs_typical": 0.17950000000000005
+          "watch_ratio": 0.0746,
+          "vs_typical": 0.17729999999999996
         },
         {
           "ratio": 0.64,
-          "watch_ratio": 0.061500000000000006,
-          "vs_typical": 0.13205
+          "watch_ratio": 0.059699999999999996,
+          "vs_typical": 0.13104999999999994
         },
         {
           "ratio": 0.65,
-          "watch_ratio": 0.061500000000000006,
-          "vs_typical": 0.1033
+          "watch_ratio": 0.059699999999999996,
+          "vs_typical": 0.10289999999999999
         },
         {
           "ratio": 0.66,
-          "watch_ratio": 0.07690000000000001,
-          "vs_typical": 0.08734999999999998
+          "watch_ratio": 0.0746,
+          "vs_typical": 0.08715000000000006
         },
         {
           "ratio": 0.67,
-          "watch_ratio": 0.07690000000000001,
-          "vs_typical": 0.07965000000000005
+          "watch_ratio": 0.0746,
+          "vs_typical": 0.0796
         },
         {
           "ratio": 0.68,
-          "watch_ratio": 0.10769999999999999,
+          "watch_ratio": 0.1045,
           "vs_typical": 0.08049999999999996
         },
         {
           "ratio": 0.69,
-          "watch_ratio": 0.10769999999999999,
+          "watch_ratio": 0.1045,
           "vs_typical": 0.09175
         },
         {
           "ratio": 0.7,
-          "watch_ratio": 0.061500000000000006,
+          "watch_ratio": 0.059699999999999996,
           "vs_typical": 0.11954999999999999
         },
         {
           "ratio": 0.71,
-          "watch_ratio": 0.0462,
+          "watch_ratio": 0.044800000000000006,
           "vs_typical": 0.18359999999999999
         },
         {
           "ratio": 0.72,
-          "watch_ratio": 0.0462,
+          "watch_ratio": 0.044800000000000006,
           "vs_typical": 0.29059999999999997
         },
         {
           "ratio": 0.73,
-          "watch_ratio": 0.0462,
+          "watch_ratio": 0.044800000000000006,
           "vs_typical": 0.3935
         },
         {
           "ratio": 0.74,
-          "watch_ratio": 0.0462,
+          "watch_ratio": 0.044800000000000006,
           "vs_typical": 0.4374
         },
         {
           "ratio": 0.75,
-          "watch_ratio": 0.0308,
+          "watch_ratio": 0.029900000000000003,
           "vs_typical": 0.40595000000000003
         },
         {
           "ratio": 0.76,
-          "watch_ratio": 0.0308,
+          "watch_ratio": 0.029900000000000003,
           "vs_typical": 0.31135
         },
         {
           "ratio": 0.77,
-          "watch_ratio": 0.0308,
+          "watch_ratio": 0.029900000000000003,
           "vs_typical": 0.2103
         },
         {
           "ratio": 0.78,
-          "watch_ratio": 0.0308,
+          "watch_ratio": 0.029900000000000003,
           "vs_typical": 0.18185
         },
         {
           "ratio": 0.79,
-          "watch_ratio": 0.0308,
+          "watch_ratio": 0.029900000000000003,
           "vs_typical": 0.2597
         },
         {
           "ratio": 0.8,
-          "watch_ratio": 0.0308,
+          "watch_ratio": 0.029900000000000003,
           "vs_typical": 0.40075
         },
         {
           "ratio": 0.81,
-          "watch_ratio": 0.0308,
+          "watch_ratio": 0.029900000000000003,
           "vs_typical": 0.5159
         },
         {
           "ratio": 0.82,
-          "watch_ratio": 0.0462,
+          "watch_ratio": 0.044800000000000006,
           "vs_typical": 0.58375
         },
         {
           "ratio": 0.83,
-          "watch_ratio": 0.0462,
+          "watch_ratio": 0.044800000000000006,
           "vs_typical": 0.63335
         },
         {
           "ratio": 0.84,
-          "watch_ratio": 0.0308,
+          "watch_ratio": 0.029900000000000003,
           "vs_typical": 0.6609499999999999
         },
         {
           "ratio": 0.85,
-          "watch_ratio": 0.0308,
+          "watch_ratio": 0.029900000000000003,
           "vs_typical": 0.6301
         },
         {
           "ratio": 0.86,
-          "watch_ratio": 0.0308,
+          "watch_ratio": 0.029900000000000003,
           "vs_typical": 0.5513
         },
         {
           "ratio": 0.87,
-          "watch_ratio": 0.0308,
+          "watch_ratio": 0.029900000000000003,
           "vs_typical": 0.49455
         },
         {
           "ratio": 0.88,
-          "watch_ratio": 0.0308,
+          "watch_ratio": 0.029900000000000003,
           "vs_typical": 0.47955
         },
         {
           "ratio": 0.89,
-          "watch_ratio": 0.0308,
+          "watch_ratio": 0.029900000000000003,
           "vs_typical": 0.4854
         },
         {
           "ratio": 0.9,
-          "watch_ratio": 0.0308,
+          "watch_ratio": 0.029900000000000003,
           "vs_typical": 0.50545
         },
         {
           "ratio": 0.91,
-          "watch_ratio": 0.0308,
+          "watch_ratio": 0.029900000000000003,
           "vs_typical": 0.54635
         },
         {
           "ratio": 0.92,
-          "watch_ratio": 0.0308,
+          "watch_ratio": 0.029900000000000003,
           "vs_typical": 0.6315500000000001
         },
         {
           "ratio": 0.93,
-          "watch_ratio": 0.0308,
+          "watch_ratio": 0.029900000000000003,
           "vs_typical": 0.7535499999999999
         },
         {
           "ratio": 0.94,
-          "watch_ratio": 0.0308,
+          "watch_ratio": 0.029900000000000003,
           "vs_typical": 0.84765
         },
         {
           "ratio": 0.95,
-          "watch_ratio": 0.0462,
+          "watch_ratio": 0.044800000000000006,
           "vs_typical": 0.8767
         },
         {
           "ratio": 0.96,
-          "watch_ratio": 0.0308,
+          "watch_ratio": 0.029900000000000003,
           "vs_typical": 0.8411
         },
         {
           "ratio": 0.97,
-          "watch_ratio": 0.0308,
+          "watch_ratio": 0.029900000000000003,
           "vs_typical": 0.7441
         },
         {
           "ratio": 0.98,
-          "watch_ratio": 0.0462,
+          "watch_ratio": 0.044800000000000006,
           "vs_typical": 0.62475
         },
         {
           "ratio": 0.99,
-          "watch_ratio": 0.0462,
+          "watch_ratio": 0.044800000000000006,
           "vs_typical": 0.54605
         },
         {
           "ratio": 1,
-          "watch_ratio": 0.0308,
+          "watch_ratio": 0.029900000000000003,
           "vs_typical": 0.51605
         }
       ],
       "reach": {
-        "impressions": 751,
-        "ctr_pct": 2.26
+        "impressions": 755,
+        "ctr_pct": 2.25
       }
     },
     {
@@ -587,7 +587,7 @@
       "privacyStatus": "public",
       "publishAt": null,
       "stats": {
-        "views": 8,
+        "views": 9,
         "likes": 1,
         "comments": 0
       },
@@ -603,8 +603,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 200,
-        "ctr_pct": 3.0
+        "impressions": 202,
+        "ctr_pct": 2.97
       }
     },
     {
@@ -634,7 +634,7 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 19,
+        "impressions": 20,
         "ctr_pct": 0.0
       }
     },
@@ -649,15 +649,15 @@
       "privacyStatus": "public",
       "publishAt": null,
       "stats": {
-        "views": 1282,
+        "views": 1286,
         "likes": 5,
         "comments": 0
       },
       "analytics": {
-        "views": 1280,
+        "views": 1282,
         "watch_min": 65,
         "avg_view_s": 8,
-        "avg_view_pct": 77.7,
+        "avg_view_pct": 78,
         "likes": 5,
         "comments": 0,
         "shares": 0,
@@ -665,8 +665,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 98,
-        "ctr_pct": 8.16
+        "impressions": 113,
+        "ctr_pct": 7.96
       }
     },
     {
@@ -1197,8 +1197,8 @@
         }
       ],
       "reach": {
-        "impressions": 1705,
-        "ctr_pct": 2.4
+        "impressions": 1716,
+        "ctr_pct": 2.39
       }
     },
     {
@@ -1228,8 +1228,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 539,
-        "ctr_pct": 0.19
+        "impressions": 543,
+        "ctr_pct": 0.18
       }
     },
     {
@@ -1791,7 +1791,7 @@
         }
       ],
       "reach": {
-        "impressions": 8833,
+        "impressions": 8840,
         "ctr_pct": 0.42
       }
     },
@@ -1822,7 +1822,7 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 128,
+        "impressions": 129,
         "ctr_pct": 0.78
       }
     },
@@ -1853,8 +1853,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 116,
-        "ctr_pct": 1.72
+        "impressions": 117,
+        "ctr_pct": 1.71
       }
     },
     {
@@ -1884,8 +1884,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 62,
-        "ctr_pct": 4.84
+        "impressions": 53,
+        "ctr_pct": 5.66
       }
     },
     {
@@ -1899,7 +1899,7 @@
       "privacyStatus": "public",
       "publishAt": null,
       "stats": {
-        "views": 292,
+        "views": 291,
         "likes": 6,
         "comments": 0
       },
@@ -2416,8 +2416,8 @@
         }
       ],
       "reach": {
-        "impressions": 6221,
-        "ctr_pct": 3.44
+        "impressions": 6236,
+        "ctr_pct": 3.43
       }
     },
     {
@@ -2447,7 +2447,7 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 27,
+        "impressions": 26,
         "ctr_pct": 0.0
       }
     },
@@ -2875,7 +2875,7 @@
         }
       ],
       "reach": {
-        "impressions": 1237,
+        "impressions": 1243,
         "ctr_pct": 1.29
       }
     },
@@ -2968,8 +2968,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 107,
-        "ctr_pct": 2.8
+        "impressions": 112,
+        "ctr_pct": 2.68
       }
     },
     {
@@ -2999,8 +2999,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 56,
-        "ctr_pct": 7.14
+        "impressions": 57,
+        "ctr_pct": 7.02
       }
     },
     {
@@ -3014,15 +3014,15 @@
       "privacyStatus": "public",
       "publishAt": null,
       "stats": {
-        "views": 126,
+        "views": 125,
         "likes": 4,
         "comments": 2
       },
       "analytics": {
-        "views": 126,
+        "views": 125,
         "watch_min": 583,
-        "avg_view_s": 277,
-        "avg_view_pct": 6.309999999999999,
+        "avg_view_s": 280,
+        "avg_view_pct": 6.370000000000001,
         "likes": 4,
         "comments": 1,
         "shares": 2,
@@ -3031,507 +3031,507 @@
       "retention": [
         {
           "ratio": 0.01,
-          "watch_ratio": 0.8079999999999999,
+          "watch_ratio": 0.8145,
           "vs_typical": 0.40185
         },
         {
           "ratio": 0.02,
-          "watch_ratio": 0.272,
+          "watch_ratio": 0.2742,
           "vs_typical": 0.382
         },
         {
           "ratio": 0.03,
-          "watch_ratio": 0.24,
+          "watch_ratio": 0.2419,
           "vs_typical": 0.40135
         },
         {
           "ratio": 0.04,
-          "watch_ratio": 0.2,
+          "watch_ratio": 0.2016,
           "vs_typical": 0.44995
         },
         {
           "ratio": 0.05,
-          "watch_ratio": 0.2,
+          "watch_ratio": 0.2016,
           "vs_typical": 0.49055
         },
         {
           "ratio": 0.06,
-          "watch_ratio": 0.184,
+          "watch_ratio": 0.1855,
           "vs_typical": 0.4974
         },
         {
           "ratio": 0.07,
-          "watch_ratio": 0.152,
+          "watch_ratio": 0.1532,
           "vs_typical": 0.4544
         },
         {
           "ratio": 0.08,
-          "watch_ratio": 0.136,
+          "watch_ratio": 0.1371,
           "vs_typical": 0.36535
         },
         {
           "ratio": 0.09,
-          "watch_ratio": 0.12,
+          "watch_ratio": 0.121,
           "vs_typical": 0.26935
         },
         {
           "ratio": 0.1,
-          "watch_ratio": 0.11199999999999999,
-          "vs_typical": 0.2061
+          "watch_ratio": 0.11289999999999999,
+          "vs_typical": 0.20605
         },
         {
           "ratio": 0.11,
-          "watch_ratio": 0.11199999999999999,
-          "vs_typical": 0.17435
+          "watch_ratio": 0.11289999999999999,
+          "vs_typical": 0.1743
         },
         {
           "ratio": 0.12,
-          "watch_ratio": 0.11199999999999999,
-          "vs_typical": 0.1568
+          "watch_ratio": 0.11289999999999999,
+          "vs_typical": 0.15674999999999994
         },
         {
           "ratio": 0.13,
-          "watch_ratio": 0.12,
-          "vs_typical": 0.14534999999999998
+          "watch_ratio": 0.121,
+          "vs_typical": 0.14525
         },
         {
           "ratio": 0.14,
-          "watch_ratio": 0.11199999999999999,
-          "vs_typical": 0.13685000000000003
+          "watch_ratio": 0.11289999999999999,
+          "vs_typical": 0.13665
         },
         {
           "ratio": 0.15,
-          "watch_ratio": 0.10400000000000001,
-          "vs_typical": 0.13465000000000005
+          "watch_ratio": 0.1048,
+          "vs_typical": 0.13439999999999996
         },
         {
           "ratio": 0.16,
-          "watch_ratio": 0.096,
-          "vs_typical": 0.14005
+          "watch_ratio": 0.0968,
+          "vs_typical": 0.13965000000000005
         },
         {
           "ratio": 0.17,
-          "watch_ratio": 0.096,
-          "vs_typical": 0.15295000000000003
+          "watch_ratio": 0.0968,
+          "vs_typical": 0.15234999999999999
         },
         {
           "ratio": 0.18,
-          "watch_ratio": 0.096,
-          "vs_typical": 0.17159999999999997
+          "watch_ratio": 0.0968,
+          "vs_typical": 0.17064999999999997
         },
         {
           "ratio": 0.19,
-          "watch_ratio": 0.10400000000000001,
-          "vs_typical": 0.19120000000000004
+          "watch_ratio": 0.1048,
+          "vs_typical": 0.18980000000000002
         },
         {
           "ratio": 0.2,
-          "watch_ratio": 0.096,
-          "vs_typical": 0.21425
+          "watch_ratio": 0.0968,
+          "vs_typical": 0.21234999999999998
         },
         {
           "ratio": 0.21,
-          "watch_ratio": 0.08800000000000001,
-          "vs_typical": 0.24930000000000002
+          "watch_ratio": 0.08869999999999999,
+          "vs_typical": 0.24670000000000003
         },
         {
           "ratio": 0.22,
-          "watch_ratio": 0.08,
-          "vs_typical": 0.31035
+          "watch_ratio": 0.0806,
+          "vs_typical": 0.30695
         },
         {
           "ratio": 0.23,
-          "watch_ratio": 0.08,
-          "vs_typical": 0.39605
+          "watch_ratio": 0.0806,
+          "vs_typical": 0.3919
         },
         {
           "ratio": 0.24,
-          "watch_ratio": 0.096,
-          "vs_typical": 0.4631
+          "watch_ratio": 0.0968,
+          "vs_typical": 0.4582
         },
         {
           "ratio": 0.25,
-          "watch_ratio": 0.08800000000000001,
-          "vs_typical": 0.4633
+          "watch_ratio": 0.08869999999999999,
+          "vs_typical": 0.4577
         },
         {
           "ratio": 0.26,
-          "watch_ratio": 0.055999999999999994,
-          "vs_typical": 0.39485
+          "watch_ratio": 0.0565,
+          "vs_typical": 0.38885000000000003
         },
         {
           "ratio": 0.27,
-          "watch_ratio": 0.11199999999999999,
-          "vs_typical": 0.305
+          "watch_ratio": 0.11289999999999999,
+          "vs_typical": 0.29874999999999996
         },
         {
           "ratio": 0.28,
-          "watch_ratio": 0.10400000000000001,
-          "vs_typical": 0.24010000000000004
+          "watch_ratio": 0.1048,
+          "vs_typical": 0.2338
         },
         {
           "ratio": 0.29,
-          "watch_ratio": 0.08,
-          "vs_typical": 0.2031
+          "watch_ratio": 0.0806,
+          "vs_typical": 0.19715
         },
         {
           "ratio": 0.3,
-          "watch_ratio": 0.055999999999999994,
-          "vs_typical": 0.18010000000000004
+          "watch_ratio": 0.0565,
+          "vs_typical": 0.17485
         },
         {
           "ratio": 0.31,
-          "watch_ratio": 0.08,
-          "vs_typical": 0.16314999999999996
+          "watch_ratio": 0.0806,
+          "vs_typical": 0.15865
         },
         {
           "ratio": 0.32,
-          "watch_ratio": 0.07200000000000001,
-          "vs_typical": 0.1506
+          "watch_ratio": 0.0726,
+          "vs_typical": 0.14695000000000003
         },
         {
           "ratio": 0.33,
-          "watch_ratio": 0.064,
-          "vs_typical": 0.14939999999999998
+          "watch_ratio": 0.0645,
+          "vs_typical": 0.14675
         },
         {
           "ratio": 0.34,
-          "watch_ratio": 0.08,
-          "vs_typical": 0.15960000000000002
+          "watch_ratio": 0.0726,
+          "vs_typical": 0.15814999999999996
         },
         {
           "ratio": 0.35,
-          "watch_ratio": 0.064,
+          "watch_ratio": 0.0645,
           "vs_typical": 0.17645000000000005
         },
         {
           "ratio": 0.36,
-          "watch_ratio": 0.055999999999999994,
-          "vs_typical": 0.20385000000000003
+          "watch_ratio": 0.0565,
+          "vs_typical": 0.20550000000000002
         },
         {
           "ratio": 0.37,
-          "watch_ratio": 0.055999999999999994,
-          "vs_typical": 0.25045
+          "watch_ratio": 0.0565,
+          "vs_typical": 0.2541
         },
         {
           "ratio": 0.38,
-          "watch_ratio": 0.055999999999999994,
-          "vs_typical": 0.32815000000000005
+          "watch_ratio": 0.0565,
+          "vs_typical": 0.33440000000000003
         },
         {
           "ratio": 0.39,
-          "watch_ratio": 0.055999999999999994,
-          "vs_typical": 0.4294
+          "watch_ratio": 0.0565,
+          "vs_typical": 0.43845
         },
         {
           "ratio": 0.4,
-          "watch_ratio": 0.07200000000000001,
-          "vs_typical": 0.50875
+          "watch_ratio": 0.0726,
+          "vs_typical": 0.52
         },
         {
           "ratio": 0.41,
-          "watch_ratio": 0.048,
-          "vs_typical": 0.5326
+          "watch_ratio": 0.0484,
+          "vs_typical": 0.5443
         },
         {
           "ratio": 0.42,
-          "watch_ratio": 0.048,
-          "vs_typical": 0.52215
+          "watch_ratio": 0.0484,
+          "vs_typical": 0.5323
         },
         {
           "ratio": 0.43,
-          "watch_ratio": 0.048,
-          "vs_typical": 0.5151
+          "watch_ratio": 0.0484,
+          "vs_typical": 0.52235
         },
         {
           "ratio": 0.44,
-          "watch_ratio": 0.048,
-          "vs_typical": 0.51705
+          "watch_ratio": 0.0484,
+          "vs_typical": 0.5214
         },
         {
           "ratio": 0.45,
-          "watch_ratio": 0.064,
-          "vs_typical": 0.5218
+          "watch_ratio": 0.0645,
+          "vs_typical": 0.5244
         },
         {
           "ratio": 0.46,
-          "watch_ratio": 0.048,
-          "vs_typical": 0.53495
+          "watch_ratio": 0.0484,
+          "vs_typical": 0.53635
         },
         {
           "ratio": 0.47,
-          "watch_ratio": 0.048,
-          "vs_typical": 0.56615
+          "watch_ratio": 0.0484,
+          "vs_typical": 0.5667
         },
         {
           "ratio": 0.48,
-          "watch_ratio": 0.064,
-          "vs_typical": 0.6366499999999999
+          "watch_ratio": 0.0645,
+          "vs_typical": 0.6368
         },
         {
           "ratio": 0.49,
-          "watch_ratio": 0.064,
-          "vs_typical": 0.75505
+          "watch_ratio": 0.0645,
+          "vs_typical": 0.7551
         },
         {
           "ratio": 0.5,
-          "watch_ratio": 0.064,
-          "vs_typical": 0.86995
+          "watch_ratio": 0.0645,
+          "vs_typical": 0.87
         },
         {
           "ratio": 0.51,
-          "watch_ratio": 0.08800000000000001,
-          "vs_typical": 0.9302
+          "watch_ratio": 0.08869999999999999,
+          "vs_typical": 0.93025
         },
         {
           "ratio": 0.52,
-          "watch_ratio": 0.08,
-          "vs_typical": 0.9431
+          "watch_ratio": 0.0806,
+          "vs_typical": 0.94325
         },
         {
           "ratio": 0.53,
-          "watch_ratio": 0.08,
-          "vs_typical": 0.92335
+          "watch_ratio": 0.0806,
+          "vs_typical": 0.9236500000000001
         },
         {
           "ratio": 0.54,
-          "watch_ratio": 0.064,
-          "vs_typical": 0.8523499999999999
+          "watch_ratio": 0.0645,
+          "vs_typical": 0.8527
         },
         {
           "ratio": 0.55,
-          "watch_ratio": 0.07200000000000001,
-          "vs_typical": 0.71855
+          "watch_ratio": 0.0726,
+          "vs_typical": 0.71895
         },
         {
           "ratio": 0.56,
-          "watch_ratio": 0.064,
-          "vs_typical": 0.5669
+          "watch_ratio": 0.0645,
+          "vs_typical": 0.5673
         },
         {
           "ratio": 0.57,
-          "watch_ratio": 0.064,
-          "vs_typical": 0.4471
+          "watch_ratio": 0.0645,
+          "vs_typical": 0.44745
         },
         {
           "ratio": 0.58,
-          "watch_ratio": 0.064,
-          "vs_typical": 0.35650000000000004
+          "watch_ratio": 0.0645,
+          "vs_typical": 0.3568
         },
         {
           "ratio": 0.59,
-          "watch_ratio": 0.07200000000000001,
-          "vs_typical": 0.28095
+          "watch_ratio": 0.0726,
+          "vs_typical": 0.2811
         },
         {
           "ratio": 0.6,
-          "watch_ratio": 0.064,
-          "vs_typical": 0.21704999999999997
+          "watch_ratio": 0.0645,
+          "vs_typical": 0.21715
         },
         {
           "ratio": 0.61,
-          "watch_ratio": 0.064,
-          "vs_typical": 0.16444999999999999
+          "watch_ratio": 0.0645,
+          "vs_typical": 0.16450000000000004
         },
         {
           "ratio": 0.62,
-          "watch_ratio": 0.064,
-          "vs_typical": 0.12725000000000003
+          "watch_ratio": 0.0645,
+          "vs_typical": 0.12729999999999997
         },
         {
           "ratio": 0.63,
-          "watch_ratio": 0.07200000000000001,
+          "watch_ratio": 0.0726,
           "vs_typical": 0.10435
         },
         {
           "ratio": 0.64,
-          "watch_ratio": 0.064,
+          "watch_ratio": 0.0645,
           "vs_typical": 0.0897
         },
         {
           "ratio": 0.65,
-          "watch_ratio": 0.048,
+          "watch_ratio": 0.0484,
           "vs_typical": 0.0781
         },
         {
           "ratio": 0.66,
-          "watch_ratio": 0.04,
+          "watch_ratio": 0.0403,
           "vs_typical": 0.0686
         },
         {
           "ratio": 0.67,
-          "watch_ratio": 0.04,
+          "watch_ratio": 0.0403,
           "vs_typical": 0.06490000000000001
         },
         {
           "ratio": 0.68,
-          "watch_ratio": 0.04,
+          "watch_ratio": 0.0403,
           "vs_typical": 0.06780000000000003
         },
         {
           "ratio": 0.69,
-          "watch_ratio": 0.04,
+          "watch_ratio": 0.0403,
           "vs_typical": 0.07719999999999999
         },
         {
           "ratio": 0.7,
-          "watch_ratio": 0.032,
+          "watch_ratio": 0.0323,
           "vs_typical": 0.09289999999999998
         },
         {
           "ratio": 0.71,
-          "watch_ratio": 0.032,
+          "watch_ratio": 0.0323,
           "vs_typical": 0.11229999999999996
         },
         {
           "ratio": 0.72,
-          "watch_ratio": 0.032,
+          "watch_ratio": 0.0323,
           "vs_typical": 0.13765
         },
         {
           "ratio": 0.73,
-          "watch_ratio": 0.032,
+          "watch_ratio": 0.0323,
           "vs_typical": 0.17454999999999998
         },
         {
           "ratio": 0.74,
-          "watch_ratio": 0.04,
+          "watch_ratio": 0.0403,
           "vs_typical": 0.22144999999999998
         },
         {
           "ratio": 0.75,
-          "watch_ratio": 0.04,
+          "watch_ratio": 0.0403,
           "vs_typical": 0.2686
         },
         {
           "ratio": 0.76,
-          "watch_ratio": 0.032,
+          "watch_ratio": 0.0323,
           "vs_typical": 0.3145
         },
         {
           "ratio": 0.77,
-          "watch_ratio": 0.032,
+          "watch_ratio": 0.0323,
           "vs_typical": 0.36285
         },
         {
           "ratio": 0.78,
-          "watch_ratio": 0.032,
+          "watch_ratio": 0.0323,
           "vs_typical": 0.4224
         },
         {
           "ratio": 0.79,
-          "watch_ratio": 0.04,
+          "watch_ratio": 0.0403,
           "vs_typical": 0.5201
         },
         {
           "ratio": 0.8,
-          "watch_ratio": 0.04,
+          "watch_ratio": 0.0403,
           "vs_typical": 0.66045
         },
         {
           "ratio": 0.81,
-          "watch_ratio": 0.04,
+          "watch_ratio": 0.0403,
           "vs_typical": 0.7814
         },
         {
           "ratio": 0.82,
-          "watch_ratio": 0.055999999999999994,
+          "watch_ratio": 0.0565,
           "vs_typical": 0.83775
         },
         {
           "ratio": 0.83,
-          "watch_ratio": 0.048,
+          "watch_ratio": 0.0484,
           "vs_typical": 0.85105
         },
         {
           "ratio": 0.84,
-          "watch_ratio": 0.055999999999999994,
+          "watch_ratio": 0.0565,
           "vs_typical": 0.8512500000000001
         },
         {
           "ratio": 0.85,
-          "watch_ratio": 0.055999999999999994,
+          "watch_ratio": 0.0565,
           "vs_typical": 0.8452500000000001
         },
         {
           "ratio": 0.86,
-          "watch_ratio": 0.032,
+          "watch_ratio": 0.0323,
           "vs_typical": 0.8153
         },
         {
           "ratio": 0.87,
-          "watch_ratio": 0.032,
+          "watch_ratio": 0.0323,
           "vs_typical": 0.7261
         },
         {
           "ratio": 0.88,
-          "watch_ratio": 0.032,
+          "watch_ratio": 0.0323,
           "vs_typical": 0.5931
         },
         {
           "ratio": 0.89,
-          "watch_ratio": 0.032,
+          "watch_ratio": 0.0323,
           "vs_typical": 0.49395
         },
         {
           "ratio": 0.9,
-          "watch_ratio": 0.04,
+          "watch_ratio": 0.0403,
           "vs_typical": 0.449
         },
         {
           "ratio": 0.91,
-          "watch_ratio": 0.04,
+          "watch_ratio": 0.0403,
           "vs_typical": 0.42974999999999997
         },
         {
           "ratio": 0.92,
-          "watch_ratio": 0.032,
+          "watch_ratio": 0.0323,
           "vs_typical": 0.42105000000000004
         },
         {
           "ratio": 0.93,
-          "watch_ratio": 0.032,
+          "watch_ratio": 0.0323,
           "vs_typical": 0.4142
         },
         {
           "ratio": 0.94,
-          "watch_ratio": 0.032,
+          "watch_ratio": 0.0323,
           "vs_typical": 0.4051
         },
         {
           "ratio": 0.95,
-          "watch_ratio": 0.032,
+          "watch_ratio": 0.0323,
           "vs_typical": 0.3987
         },
         {
           "ratio": 0.96,
-          "watch_ratio": 0.032,
+          "watch_ratio": 0.0323,
           "vs_typical": 0.3957
         },
         {
           "ratio": 0.97,
-          "watch_ratio": 0.032,
+          "watch_ratio": 0.0323,
           "vs_typical": 0.39175
         },
         {
           "ratio": 0.98,
-          "watch_ratio": 0.032,
+          "watch_ratio": 0.0323,
           "vs_typical": 0.3865
         },
         {
           "ratio": 0.99,
-          "watch_ratio": 0.032,
+          "watch_ratio": 0.0323,
           "vs_typical": 0.38545
         },
         {
           "ratio": 1,
-          "watch_ratio": 0.032,
+          "watch_ratio": 0.0323,
           "vs_typical": 0.3891
         }
       ],
       "reach": {
-        "impressions": 2319,
+        "impressions": 2356,
         "ctr_pct": 2.93
       }
     },
@@ -3553,15 +3553,15 @@
       "privacyStatus": "public",
       "publishAt": null,
       "stats": {
-        "views": 149,
+        "views": 150,
         "likes": 0,
         "comments": 0
       },
       "analytics": {
-        "views": 149,
+        "views": 150,
         "watch_min": 12,
-        "avg_view_s": 18,
-        "avg_view_pct": 30.31,
+        "avg_view_s": 17,
+        "avg_view_pct": 29.799999999999997,
         "likes": 0,
         "comments": 0,
         "shares": 0,
@@ -3569,8 +3569,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 79,
-        "ctr_pct": 1.27
+        "impressions": 83,
+        "ctr_pct": 1.2
       }
     },
     {
@@ -4109,8 +4109,8 @@
         }
       ],
       "reach": {
-        "impressions": 3854,
-        "ctr_pct": 1.95
+        "impressions": 3867,
+        "ctr_pct": 1.94
       }
     },
     {
@@ -4147,8 +4147,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 71,
-        "ctr_pct": 1.41
+        "impressions": 73,
+        "ctr_pct": 1.37
       }
     },
     {
@@ -4186,8 +4186,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 44,
-        "ctr_pct": 4.55
+        "impressions": 47,
+        "ctr_pct": 4.26
       }
     },
     {
@@ -4209,15 +4209,15 @@
       "privacyStatus": "public",
       "publishAt": null,
       "stats": {
-        "views": 6,
+        "views": 7,
         "likes": 1,
         "comments": 0
       },
       "analytics": {
-        "views": 6,
-        "watch_min": 8,
-        "avg_view_s": 84,
-        "avg_view_pct": 44.73,
+        "views": 7,
+        "watch_min": 10,
+        "avg_view_s": 90,
+        "avg_view_pct": 47.79,
         "likes": 1,
         "comments": 0,
         "shares": 0,
@@ -4225,8 +4225,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 369,
-        "ctr_pct": 0.54
+        "impressions": 397,
+        "ctr_pct": 0.76
       }
     },
     {
@@ -4263,7 +4263,7 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 56,
+        "impressions": 59,
         "ctr_pct": 0.0
       }
     },
@@ -4278,15 +4278,15 @@
       "privacyStatus": "public",
       "publishAt": null,
       "stats": {
-        "views": 45,
+        "views": 46,
         "likes": 1,
         "comments": 0
       },
       "analytics": {
-        "views": 45,
+        "views": 46,
         "watch_min": 399,
-        "avg_view_s": 532,
-        "avg_view_pct": 14.44,
+        "avg_view_s": 521,
+        "avg_view_pct": 14.13,
         "likes": 1,
         "comments": 0,
         "shares": 0,
@@ -4295,508 +4295,508 @@
       "retention": [
         {
           "ratio": 0.01,
-          "watch_ratio": 0.8604999999999999,
-          "vs_typical": 0.32704999999999995
+          "watch_ratio": 0.8636,
+          "vs_typical": 0.32365
         },
         {
           "ratio": 0.02,
-          "watch_ratio": 0.3953,
-          "vs_typical": 0.31135
+          "watch_ratio": 0.3864,
+          "vs_typical": 0.30475
         },
         {
           "ratio": 0.03,
-          "watch_ratio": 0.3953,
-          "vs_typical": 0.2952
+          "watch_ratio": 0.3864,
+          "vs_typical": 0.2868
         },
         {
           "ratio": 0.04,
-          "watch_ratio": 0.3023,
-          "vs_typical": 0.28205
+          "watch_ratio": 0.2955,
+          "vs_typical": 0.27335
         },
         {
           "ratio": 0.05,
-          "watch_ratio": 0.25579999999999997,
-          "vs_typical": 0.2722
+          "watch_ratio": 0.25,
+          "vs_typical": 0.2636
         },
         {
           "ratio": 0.06,
-          "watch_ratio": 0.23260000000000003,
-          "vs_typical": 0.26545
+          "watch_ratio": 0.2273,
+          "vs_typical": 0.2571
         },
         {
           "ratio": 0.07,
-          "watch_ratio": 0.23260000000000003,
-          "vs_typical": 0.2596
+          "watch_ratio": 0.2273,
+          "vs_typical": 0.25155000000000005
         },
         {
           "ratio": 0.08,
-          "watch_ratio": 0.2791,
-          "vs_typical": 0.2538
+          "watch_ratio": 0.2727,
+          "vs_typical": 0.246
         },
         {
           "ratio": 0.09,
-          "watch_ratio": 0.23260000000000003,
-          "vs_typical": 0.25165
+          "watch_ratio": 0.2273,
+          "vs_typical": 0.24409999999999998
         },
         {
           "ratio": 0.1,
-          "watch_ratio": 0.23260000000000003,
-          "vs_typical": 0.25780000000000003
+          "watch_ratio": 0.2273,
+          "vs_typical": 0.25045
         },
         {
           "ratio": 0.11,
-          "watch_ratio": 0.23260000000000003,
-          "vs_typical": 0.26949999999999996
+          "watch_ratio": 0.2273,
+          "vs_typical": 0.26245
         },
         {
           "ratio": 0.12,
-          "watch_ratio": 0.23260000000000003,
-          "vs_typical": 0.28005
+          "watch_ratio": 0.2273,
+          "vs_typical": 0.2733
         },
         {
           "ratio": 0.13,
-          "watch_ratio": 0.23260000000000003,
-          "vs_typical": 0.29215
+          "watch_ratio": 0.2273,
+          "vs_typical": 0.28575
         },
         {
           "ratio": 0.14,
-          "watch_ratio": 0.25579999999999997,
-          "vs_typical": 0.3097
+          "watch_ratio": 0.25,
+          "vs_typical": 0.30379999999999996
         },
         {
           "ratio": 0.15,
-          "watch_ratio": 0.20929999999999999,
-          "vs_typical": 0.33225000000000005
+          "watch_ratio": 0.2045,
+          "vs_typical": 0.32699999999999996
         },
         {
           "ratio": 0.16,
-          "watch_ratio": 0.20929999999999999,
-          "vs_typical": 0.36955
+          "watch_ratio": 0.2045,
+          "vs_typical": 0.3649
         },
         {
           "ratio": 0.17,
-          "watch_ratio": 0.23260000000000003,
-          "vs_typical": 0.43679999999999997
+          "watch_ratio": 0.2273,
+          "vs_typical": 0.4327
         },
         {
           "ratio": 0.18,
-          "watch_ratio": 0.20929999999999999,
-          "vs_typical": 0.52825
+          "watch_ratio": 0.2045,
+          "vs_typical": 0.52465
         },
         {
           "ratio": 0.19,
-          "watch_ratio": 0.20929999999999999,
-          "vs_typical": 0.60165
+          "watch_ratio": 0.2045,
+          "vs_typical": 0.59865
         },
         {
           "ratio": 0.2,
-          "watch_ratio": 0.18600000000000003,
-          "vs_typical": 0.61805
+          "watch_ratio": 0.1818,
+          "vs_typical": 0.61565
         },
         {
           "ratio": 0.21,
-          "watch_ratio": 0.18600000000000003,
-          "vs_typical": 0.576
+          "watch_ratio": 0.1818,
+          "vs_typical": 0.5742
         },
         {
           "ratio": 0.22,
-          "watch_ratio": 0.1628,
-          "vs_typical": 0.51235
+          "watch_ratio": 0.1591,
+          "vs_typical": 0.511
         },
         {
           "ratio": 0.23,
-          "watch_ratio": 0.18600000000000003,
-          "vs_typical": 0.469
+          "watch_ratio": 0.1818,
+          "vs_typical": 0.46805
         },
         {
           "ratio": 0.24,
-          "watch_ratio": 0.20929999999999999,
-          "vs_typical": 0.45255
+          "watch_ratio": 0.2045,
+          "vs_typical": 0.4519
         },
         {
           "ratio": 0.25,
-          "watch_ratio": 0.18600000000000003,
-          "vs_typical": 0.44805
+          "watch_ratio": 0.1818,
+          "vs_typical": 0.4476
         },
         {
           "ratio": 0.26,
-          "watch_ratio": 0.18600000000000003,
-          "vs_typical": 0.44525000000000003
+          "watch_ratio": 0.1818,
+          "vs_typical": 0.44495
         },
         {
           "ratio": 0.27,
-          "watch_ratio": 0.20929999999999999,
-          "vs_typical": 0.44515
+          "watch_ratio": 0.2045,
+          "vs_typical": 0.44495
         },
         {
           "ratio": 0.28,
-          "watch_ratio": 0.18600000000000003,
-          "vs_typical": 0.4459
+          "watch_ratio": 0.1818,
+          "vs_typical": 0.4458
         },
         {
           "ratio": 0.29,
-          "watch_ratio": 0.18600000000000003,
-          "vs_typical": 0.44105
+          "watch_ratio": 0.1818,
+          "vs_typical": 0.441
         },
         {
           "ratio": 0.3,
-          "watch_ratio": 0.18600000000000003,
-          "vs_typical": 0.43075
+          "watch_ratio": 0.1818,
+          "vs_typical": 0.43069999999999997
         },
         {
           "ratio": 0.31,
-          "watch_ratio": 0.20929999999999999,
-          "vs_typical": 0.42210000000000003
+          "watch_ratio": 0.2045,
+          "vs_typical": 0.42205
         },
         {
           "ratio": 0.32,
-          "watch_ratio": 0.18600000000000003,
-          "vs_typical": 0.4148
+          "watch_ratio": 0.1818,
+          "vs_typical": 0.41475
         },
         {
           "ratio": 0.33,
-          "watch_ratio": 0.18600000000000003,
+          "watch_ratio": 0.1818,
           "vs_typical": 0.4066
         },
         {
           "ratio": 0.34,
-          "watch_ratio": 0.1628,
+          "watch_ratio": 0.1591,
           "vs_typical": 0.40085000000000004
         },
         {
           "ratio": 0.35,
-          "watch_ratio": 0.18600000000000003,
+          "watch_ratio": 0.1818,
           "vs_typical": 0.39825
         },
         {
           "ratio": 0.36,
-          "watch_ratio": 0.18600000000000003,
+          "watch_ratio": 0.1818,
           "vs_typical": 0.39775
         },
         {
           "ratio": 0.37,
-          "watch_ratio": 0.18600000000000003,
+          "watch_ratio": 0.1818,
           "vs_typical": 0.39885
         },
         {
           "ratio": 0.38,
-          "watch_ratio": 0.1628,
+          "watch_ratio": 0.1591,
           "vs_typical": 0.40165
         },
         {
           "ratio": 0.39,
-          "watch_ratio": 0.1628,
+          "watch_ratio": 0.1591,
           "vs_typical": 0.4062
         },
         {
           "ratio": 0.4,
-          "watch_ratio": 0.18600000000000003,
+          "watch_ratio": 0.1818,
           "vs_typical": 0.4118
         },
         {
           "ratio": 0.41,
-          "watch_ratio": 0.1628,
+          "watch_ratio": 0.1591,
           "vs_typical": 0.41775
         },
         {
           "ratio": 0.42,
-          "watch_ratio": 0.1628,
+          "watch_ratio": 0.1591,
           "vs_typical": 0.42385
         },
         {
           "ratio": 0.43,
-          "watch_ratio": 0.1628,
+          "watch_ratio": 0.1591,
           "vs_typical": 0.4298
         },
         {
           "ratio": 0.44,
-          "watch_ratio": 0.1628,
+          "watch_ratio": 0.1591,
           "vs_typical": 0.435
         },
         {
           "ratio": 0.45,
-          "watch_ratio": 0.18600000000000003,
+          "watch_ratio": 0.1818,
           "vs_typical": 0.43885
         },
         {
           "ratio": 0.46,
-          "watch_ratio": 0.18600000000000003,
+          "watch_ratio": 0.1818,
           "vs_typical": 0.4415
         },
         {
           "ratio": 0.47,
-          "watch_ratio": 0.18600000000000003,
+          "watch_ratio": 0.1818,
           "vs_typical": 0.443
         },
         {
           "ratio": 0.48,
-          "watch_ratio": 0.1628,
+          "watch_ratio": 0.1591,
           "vs_typical": 0.44345
         },
         {
           "ratio": 0.49,
-          "watch_ratio": 0.1628,
+          "watch_ratio": 0.1591,
           "vs_typical": 0.44255
         },
         {
           "ratio": 0.5,
-          "watch_ratio": 0.1628,
+          "watch_ratio": 0.1591,
           "vs_typical": 0.44065
         },
         {
           "ratio": 0.51,
-          "watch_ratio": 0.18600000000000003,
+          "watch_ratio": 0.1818,
           "vs_typical": 0.43895
         },
         {
           "ratio": 0.52,
-          "watch_ratio": 0.1628,
+          "watch_ratio": 0.1591,
           "vs_typical": 0.43665
         },
         {
           "ratio": 0.53,
-          "watch_ratio": 0.1628,
+          "watch_ratio": 0.1591,
           "vs_typical": 0.4291
         },
         {
           "ratio": 0.54,
-          "watch_ratio": 0.1628,
+          "watch_ratio": 0.1591,
           "vs_typical": 0.41495
         },
         {
           "ratio": 0.55,
-          "watch_ratio": 0.18600000000000003,
+          "watch_ratio": 0.1818,
           "vs_typical": 0.39495
         },
         {
           "ratio": 0.56,
-          "watch_ratio": 0.1628,
+          "watch_ratio": 0.1591,
           "vs_typical": 0.36924999999999997
         },
         {
           "ratio": 0.57,
-          "watch_ratio": 0.18600000000000003,
+          "watch_ratio": 0.1818,
           "vs_typical": 0.33985
         },
         {
           "ratio": 0.58,
-          "watch_ratio": 0.1628,
+          "watch_ratio": 0.1591,
           "vs_typical": 0.3115
         },
         {
           "ratio": 0.59,
-          "watch_ratio": 0.1628,
+          "watch_ratio": 0.1591,
           "vs_typical": 0.2879
         },
         {
           "ratio": 0.6,
-          "watch_ratio": 0.20929999999999999,
+          "watch_ratio": 0.2045,
           "vs_typical": 0.2731
         },
         {
           "ratio": 0.61,
-          "watch_ratio": 0.20929999999999999,
+          "watch_ratio": 0.2045,
           "vs_typical": 0.27935
         },
         {
           "ratio": 0.62,
-          "watch_ratio": 0.13949999999999999,
+          "watch_ratio": 0.1364,
           "vs_typical": 0.31505
         },
         {
           "ratio": 0.63,
-          "watch_ratio": 0.13949999999999999,
+          "watch_ratio": 0.1364,
           "vs_typical": 0.36429999999999996
         },
         {
           "ratio": 0.64,
-          "watch_ratio": 0.1628,
+          "watch_ratio": 0.1591,
           "vs_typical": 0.38435
         },
         {
           "ratio": 0.65,
-          "watch_ratio": 0.13949999999999999,
+          "watch_ratio": 0.1364,
           "vs_typical": 0.349
         },
         {
           "ratio": 0.66,
-          "watch_ratio": 0.13949999999999999,
+          "watch_ratio": 0.1364,
           "vs_typical": 0.28225
         },
         {
           "ratio": 0.67,
-          "watch_ratio": 0.1628,
+          "watch_ratio": 0.1591,
           "vs_typical": 0.22799999999999998
         },
         {
           "ratio": 0.68,
-          "watch_ratio": 0.13949999999999999,
+          "watch_ratio": 0.1364,
           "vs_typical": 0.1997
         },
         {
           "ratio": 0.69,
-          "watch_ratio": 0.13949999999999999,
+          "watch_ratio": 0.1364,
           "vs_typical": 0.18895
         },
         {
           "ratio": 0.7,
-          "watch_ratio": 0.11630000000000001,
+          "watch_ratio": 0.11359999999999999,
           "vs_typical": 0.187
         },
         {
           "ratio": 0.71,
-          "watch_ratio": 0.11630000000000001,
+          "watch_ratio": 0.11359999999999999,
           "vs_typical": 0.19055
         },
         {
           "ratio": 0.72,
-          "watch_ratio": 0.13949999999999999,
+          "watch_ratio": 0.1364,
           "vs_typical": 0.20390000000000003
         },
         {
           "ratio": 0.73,
-          "watch_ratio": 0.13949999999999999,
+          "watch_ratio": 0.1364,
           "vs_typical": 0.22685
         },
         {
           "ratio": 0.74,
-          "watch_ratio": 0.13949999999999999,
+          "watch_ratio": 0.1364,
           "vs_typical": 0.2561
         },
         {
           "ratio": 0.75,
-          "watch_ratio": 0.11630000000000001,
+          "watch_ratio": 0.11359999999999999,
           "vs_typical": 0.28945
         },
         {
           "ratio": 0.76,
-          "watch_ratio": 0.11630000000000001,
+          "watch_ratio": 0.11359999999999999,
           "vs_typical": 0.32420000000000004
         },
         {
           "ratio": 0.77,
-          "watch_ratio": 0.11630000000000001,
+          "watch_ratio": 0.11359999999999999,
           "vs_typical": 0.35819999999999996
         },
         {
           "ratio": 0.78,
-          "watch_ratio": 0.11630000000000001,
+          "watch_ratio": 0.11359999999999999,
           "vs_typical": 0.392
         },
         {
           "ratio": 0.79,
-          "watch_ratio": 0.11630000000000001,
+          "watch_ratio": 0.11359999999999999,
           "vs_typical": 0.42464999999999997
         },
         {
           "ratio": 0.8,
-          "watch_ratio": 0.11630000000000001,
+          "watch_ratio": 0.11359999999999999,
           "vs_typical": 0.45405
         },
         {
           "ratio": 0.81,
-          "watch_ratio": 0.11630000000000001,
+          "watch_ratio": 0.11359999999999999,
           "vs_typical": 0.4856
         },
         {
           "ratio": 0.82,
-          "watch_ratio": 0.11630000000000001,
+          "watch_ratio": 0.11359999999999999,
           "vs_typical": 0.52965
         },
         {
           "ratio": 0.83,
-          "watch_ratio": 0.13949999999999999,
+          "watch_ratio": 0.1364,
           "vs_typical": 0.5953999999999999
         },
         {
           "ratio": 0.84,
-          "watch_ratio": 0.13949999999999999,
+          "watch_ratio": 0.1364,
           "vs_typical": 0.6632
         },
         {
           "ratio": 0.85,
-          "watch_ratio": 0.1628,
+          "watch_ratio": 0.1591,
           "vs_typical": 0.6841
         },
         {
           "ratio": 0.86,
-          "watch_ratio": 0.13949999999999999,
+          "watch_ratio": 0.1364,
           "vs_typical": 0.6333
         },
         {
           "ratio": 0.87,
-          "watch_ratio": 0.11630000000000001,
+          "watch_ratio": 0.11359999999999999,
           "vs_typical": 0.535
         },
         {
           "ratio": 0.88,
-          "watch_ratio": 0.11630000000000001,
+          "watch_ratio": 0.11359999999999999,
           "vs_typical": 0.4386
         },
         {
           "ratio": 0.89,
-          "watch_ratio": 0.11630000000000001,
+          "watch_ratio": 0.11359999999999999,
           "vs_typical": 0.36724999999999997
         },
         {
           "ratio": 0.9,
-          "watch_ratio": 0.11630000000000001,
+          "watch_ratio": 0.11359999999999999,
           "vs_typical": 0.31575
         },
         {
           "ratio": 0.91,
-          "watch_ratio": 0.11630000000000001,
+          "watch_ratio": 0.11359999999999999,
           "vs_typical": 0.27695000000000003
         },
         {
           "ratio": 0.92,
-          "watch_ratio": 0.11630000000000001,
+          "watch_ratio": 0.11359999999999999,
           "vs_typical": 0.24480000000000002
         },
         {
           "ratio": 0.93,
-          "watch_ratio": 0.11630000000000001,
+          "watch_ratio": 0.11359999999999999,
           "vs_typical": 0.2162
         },
         {
           "ratio": 0.94,
-          "watch_ratio": 0.13949999999999999,
+          "watch_ratio": 0.1364,
           "vs_typical": 0.19555
         },
         {
           "ratio": 0.95,
-          "watch_ratio": 0.11630000000000001,
+          "watch_ratio": 0.11359999999999999,
           "vs_typical": 0.1825
         },
         {
           "ratio": 0.96,
-          "watch_ratio": 0.11630000000000001,
+          "watch_ratio": 0.11359999999999999,
           "vs_typical": 0.17215000000000003
         },
         {
           "ratio": 0.97,
-          "watch_ratio": 0.09300000000000001,
+          "watch_ratio": 0.0909,
           "vs_typical": 0.15924999999999995
         },
         {
           "ratio": 0.98,
-          "watch_ratio": 0.09300000000000001,
+          "watch_ratio": 0.0909,
           "vs_typical": 0.14380000000000004
         },
         {
           "ratio": 0.99,
-          "watch_ratio": 0.09300000000000001,
+          "watch_ratio": 0.0909,
           "vs_typical": 0.1331
         },
         {
           "ratio": 1,
-          "watch_ratio": 0.0698,
+          "watch_ratio": 0.0682,
           "vs_typical": 0.12840000000000001
         }
       ],
       "reach": {
-        "impressions": 1660,
-        "ctr_pct": 1.2
+        "impressions": 1712,
+        "ctr_pct": 1.23
       }
     },
     {
@@ -4821,7 +4821,7 @@
         "comments": 0
       },
       "analytics": {
-        "views": 375,
+        "views": 376,
         "watch_min": 20,
         "avg_view_s": 8,
         "avg_view_pct": 26.39,
@@ -4832,8 +4832,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 108,
-        "ctr_pct": 2.78
+        "impressions": 113,
+        "ctr_pct": 2.65
       }
     },
     {
@@ -4869,8 +4869,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 792,
-        "ctr_pct": 0.38
+        "impressions": 816,
+        "ctr_pct": 0.37
       }
     },
     {
@@ -4905,8 +4905,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 63,
-        "ctr_pct": 6.35
+        "impressions": 74,
+        "ctr_pct": 5.41
       }
     },
     {
@@ -4931,10 +4931,10 @@
         "comments": 0
       },
       "analytics": {
-        "views": 825,
+        "views": 824,
         "watch_min": 59,
         "avg_view_s": 10,
-        "avg_view_pct": 38.03,
+        "avg_view_pct": 38.05,
         "likes": 0,
         "comments": 0,
         "shares": 0,
@@ -4942,8 +4942,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 98,
-        "ctr_pct": 3.06
+        "impressions": 102,
+        "ctr_pct": 2.94
       }
     },
     {
@@ -4963,15 +4963,15 @@
       "privacyStatus": "public",
       "publishAt": null,
       "stats": {
-        "views": 14,
+        "views": 13,
         "likes": 0,
         "comments": 0
       },
       "analytics": {
         "views": 13,
-        "watch_min": 16,
-        "avg_view_s": 76,
-        "avg_view_pct": 24.56,
+        "watch_min": 21,
+        "avg_view_s": 100,
+        "avg_view_pct": 32.07,
         "likes": 0,
         "comments": 0,
         "shares": 0,
@@ -4980,508 +4980,508 @@
       "retention": [
         {
           "ratio": 0.01,
-          "watch_ratio": 0.8462000000000001,
-          "vs_typical": 0.2505
+          "watch_ratio": 0.9231,
+          "vs_typical": 0.26285000000000003
         },
         {
           "ratio": 0.02,
-          "watch_ratio": 0.6923,
-          "vs_typical": 0.21789999999999998
+          "watch_ratio": 0.7692,
+          "vs_typical": 0.24664999999999998
         },
         {
           "ratio": 0.03,
-          "watch_ratio": 0.6154,
-          "vs_typical": 0.198
+          "watch_ratio": 0.6923,
+          "vs_typical": 0.2369
         },
         {
           "ratio": 0.04,
-          "watch_ratio": 0.6154,
-          "vs_typical": 0.1931
+          "watch_ratio": 0.6923,
+          "vs_typical": 0.23454999999999998
         },
         {
           "ratio": 0.05,
-          "watch_ratio": 0.5385,
-          "vs_typical": 0.19030000000000002
+          "watch_ratio": 0.6154,
+          "vs_typical": 0.23249999999999998
         },
         {
           "ratio": 0.06,
-          "watch_ratio": 0.5385,
-          "vs_typical": 0.18655
+          "watch_ratio": 0.6154,
+          "vs_typical": 0.2293
         },
         {
           "ratio": 0.07,
-          "watch_ratio": 0.5385,
-          "vs_typical": 0.18535000000000001
+          "watch_ratio": 0.6154,
+          "vs_typical": 0.22870000000000001
         },
         {
           "ratio": 0.08,
-          "watch_ratio": 0.46149999999999997,
-          "vs_typical": 0.18705
+          "watch_ratio": 0.5385,
+          "vs_typical": 0.23095
         },
         {
           "ratio": 0.09,
-          "watch_ratio": 0.46149999999999997,
-          "vs_typical": 0.18995
+          "watch_ratio": 0.5385,
+          "vs_typical": 0.23435
         },
         {
           "ratio": 0.1,
-          "watch_ratio": 0.46149999999999997,
-          "vs_typical": 0.19335000000000002
+          "watch_ratio": 0.5385,
+          "vs_typical": 0.23815000000000003
         },
         {
           "ratio": 0.11,
-          "watch_ratio": 0.46149999999999997,
-          "vs_typical": 0.19674999999999998
+          "watch_ratio": 0.5385,
+          "vs_typical": 0.24214999999999998
         },
         {
           "ratio": 0.12,
-          "watch_ratio": 0.46149999999999997,
-          "vs_typical": 0.19984999999999997
+          "watch_ratio": 0.5385,
+          "vs_typical": 0.24595
         },
         {
           "ratio": 0.13,
-          "watch_ratio": 0.3846,
-          "vs_typical": 0.20255
+          "watch_ratio": 0.46149999999999997,
+          "vs_typical": 0.24930000000000002
         },
         {
           "ratio": 0.14,
-          "watch_ratio": 0.46149999999999997,
-          "vs_typical": 0.2046
+          "watch_ratio": 0.5385,
+          "vs_typical": 0.25175000000000003
         },
         {
           "ratio": 0.15,
-          "watch_ratio": 0.46149999999999997,
-          "vs_typical": 0.20565
+          "watch_ratio": 0.5385,
+          "vs_typical": 0.25315
         },
         {
           "ratio": 0.16,
-          "watch_ratio": 0.3846,
-          "vs_typical": 0.20575
+          "watch_ratio": 0.46149999999999997,
+          "vs_typical": 0.2535
         },
         {
           "ratio": 0.17,
-          "watch_ratio": 0.3846,
-          "vs_typical": 0.20489999999999997
+          "watch_ratio": 0.46149999999999997,
+          "vs_typical": 0.25285
         },
         {
           "ratio": 0.18,
-          "watch_ratio": 0.3846,
-          "vs_typical": 0.20305
+          "watch_ratio": 0.46149999999999997,
+          "vs_typical": 0.25129999999999997
         },
         {
           "ratio": 0.19,
-          "watch_ratio": 0.3846,
-          "vs_typical": 0.20094999999999996
+          "watch_ratio": 0.46149999999999997,
+          "vs_typical": 0.2496
         },
         {
           "ratio": 0.2,
-          "watch_ratio": 0.3846,
-          "vs_typical": 0.20039999999999997
+          "watch_ratio": 0.46149999999999997,
+          "vs_typical": 0.24934999999999996
         },
         {
           "ratio": 0.21,
-          "watch_ratio": 0.3846,
-          "vs_typical": 0.2011
+          "watch_ratio": 0.46149999999999997,
+          "vs_typical": 0.25025
         },
         {
           "ratio": 0.22,
-          "watch_ratio": 0.3846,
-          "vs_typical": 0.19940000000000002
+          "watch_ratio": 0.46149999999999997,
+          "vs_typical": 0.24879999999999997
         },
         {
           "ratio": 0.23,
-          "watch_ratio": 0.3077,
-          "vs_typical": 0.19505
+          "watch_ratio": 0.3846,
+          "vs_typical": 0.24445
         },
         {
           "ratio": 0.24,
-          "watch_ratio": 0.3077,
-          "vs_typical": 0.18985000000000002
+          "watch_ratio": 0.3846,
+          "vs_typical": 0.23885
         },
         {
           "ratio": 0.25,
-          "watch_ratio": 0.3077,
-          "vs_typical": 0.18435
+          "watch_ratio": 0.3846,
+          "vs_typical": 0.2323
         },
         {
           "ratio": 0.26,
-          "watch_ratio": 0.3077,
-          "vs_typical": 0.17865000000000003
+          "watch_ratio": 0.3846,
+          "vs_typical": 0.22504999999999997
         },
         {
           "ratio": 0.27,
-          "watch_ratio": 0.3077,
-          "vs_typical": 0.17274999999999996
+          "watch_ratio": 0.3846,
+          "vs_typical": 0.2172
         },
         {
           "ratio": 0.28,
-          "watch_ratio": 0.3077,
-          "vs_typical": 0.16635
+          "watch_ratio": 0.3846,
+          "vs_typical": 0.20825
         },
         {
           "ratio": 0.29,
-          "watch_ratio": 0.3077,
-          "vs_typical": 0.15944999999999998
+          "watch_ratio": 0.3846,
+          "vs_typical": 0.19829999999999998
         },
         {
           "ratio": 0.3,
-          "watch_ratio": 0.3077,
-          "vs_typical": 0.1522
+          "watch_ratio": 0.3846,
+          "vs_typical": 0.18755
         },
         {
           "ratio": 0.31,
-          "watch_ratio": 0.3077,
-          "vs_typical": 0.14484999999999998
+          "watch_ratio": 0.3846,
+          "vs_typical": 0.17615000000000003
         },
         {
           "ratio": 0.32,
-          "watch_ratio": 0.3077,
-          "vs_typical": 0.13729999999999998
+          "watch_ratio": 0.3846,
+          "vs_typical": 0.16444999999999999
         },
         {
           "ratio": 0.33,
-          "watch_ratio": 0.3077,
-          "vs_typical": 0.1295
+          "watch_ratio": 0.3846,
+          "vs_typical": 0.15289999999999998
         },
         {
           "ratio": 0.34,
-          "watch_ratio": 0.23079999999999998,
-          "vs_typical": 0.12154999999999999
+          "watch_ratio": 0.3077,
+          "vs_typical": 0.14205
         },
         {
           "ratio": 0.35,
-          "watch_ratio": 0.23079999999999998,
-          "vs_typical": 0.11365000000000003
+          "watch_ratio": 0.3077,
+          "vs_typical": 0.1321
         },
         {
           "ratio": 0.36,
-          "watch_ratio": 0.23079999999999998,
-          "vs_typical": 0.10575000000000001
+          "watch_ratio": 0.3077,
+          "vs_typical": 0.12335000000000002
         },
         {
           "ratio": 0.37,
-          "watch_ratio": 0.23079999999999998,
-          "vs_typical": 0.09820000000000001
+          "watch_ratio": 0.3077,
+          "vs_typical": 0.11604999999999999
         },
         {
           "ratio": 0.38,
-          "watch_ratio": 0.23079999999999998,
-          "vs_typical": 0.09119999999999995
+          "watch_ratio": 0.3077,
+          "vs_typical": 0.11015000000000003
         },
         {
           "ratio": 0.39,
-          "watch_ratio": 0.23079999999999998,
-          "vs_typical": 0.08454999999999996
+          "watch_ratio": 0.3077,
+          "vs_typical": 0.10564999999999997
         },
         {
           "ratio": 0.4,
-          "watch_ratio": 0.23079999999999998,
-          "vs_typical": 0.07850000000000001
+          "watch_ratio": 0.3077,
+          "vs_typical": 0.10284999999999994
         },
         {
           "ratio": 0.41,
-          "watch_ratio": 0.23079999999999998,
-          "vs_typical": 0.07369999999999999
+          "watch_ratio": 0.3077,
+          "vs_typical": 0.10210000000000002
         },
         {
           "ratio": 0.42,
           "watch_ratio": 0.3077,
-          "vs_typical": 0.07020000000000004
+          "vs_typical": 0.10340000000000005
         },
         {
           "ratio": 0.43,
           "watch_ratio": 0.23079999999999998,
-          "vs_typical": 0.06770000000000004
+          "vs_typical": 0.10685
         },
         {
           "ratio": 0.44,
           "watch_ratio": 0.23079999999999998,
-          "vs_typical": 0.06609999999999999
+          "vs_typical": 0.11270000000000002
         },
         {
           "ratio": 0.45,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.06549999999999995
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.12145000000000006
         },
         {
           "ratio": 0.46,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.06615000000000004
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.13369999999999999
         },
         {
           "ratio": 0.47,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.06829999999999997
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.15034999999999998
         },
         {
           "ratio": 0.48,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.07280000000000003
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.17265000000000003
         },
         {
           "ratio": 0.49,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.08174999999999999
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.2017
         },
         {
           "ratio": 0.5,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.0948
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.23565000000000003
         },
         {
           "ratio": 0.51,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.11080000000000001
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.2721
         },
         {
           "ratio": 0.52,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.13405
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.3124
         },
         {
           "ratio": 0.53,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.16385
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.35155000000000003
         },
         {
           "ratio": 0.54,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.19915
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.38505
         },
         {
           "ratio": 0.55,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.2404
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.4128
         },
         {
           "ratio": 0.56,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.28595
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.4349
         },
         {
           "ratio": 0.57,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.3318
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.45165
         },
         {
           "ratio": 0.58,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.3731
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.46415
         },
         {
           "ratio": 0.59,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.407
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.47345
         },
         {
           "ratio": 0.6,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.43295
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.48035
         },
         {
           "ratio": 0.61,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.4517
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.48525
         },
         {
           "ratio": 0.62,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.4649
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.4885
         },
         {
           "ratio": 0.63,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.47435
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.49055
         },
         {
           "ratio": 0.64,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.48115
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.49175
         },
         {
           "ratio": 0.65,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.4858
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.49245
         },
         {
           "ratio": 0.66,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.48865
-        },
-        {
-          "ratio": 0.67,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.49035
-        },
-        {
-          "ratio": 0.68,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.49135
-        },
-        {
-          "ratio": 0.69,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.49205
-        },
-        {
-          "ratio": 0.7,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.4925
-        },
-        {
-          "ratio": 0.71,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.4927
-        },
-        {
-          "ratio": 0.72,
-          "watch_ratio": 0.15380000000000002,
+          "watch_ratio": 0.23079999999999998,
           "vs_typical": 0.49285
         },
         {
+          "ratio": 0.67,
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.49305
+        },
+        {
+          "ratio": 0.68,
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.4931
+        },
+        {
+          "ratio": 0.69,
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.49315
+        },
+        {
+          "ratio": 0.7,
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.49315
+        },
+        {
+          "ratio": 0.71,
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.4931
+        },
+        {
+          "ratio": 0.72,
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.4931
+        },
+        {
           "ratio": 0.73,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.493
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.49315
         },
         {
           "ratio": 0.74,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.4933
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.49335
         },
         {
           "ratio": 0.75,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.4938
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.49385
         },
         {
           "ratio": 0.76,
-          "watch_ratio": 0.15380000000000002,
-          "vs_typical": 0.49435
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.4944
         },
         {
           "ratio": 0.77,
-          "watch_ratio": 0.15380000000000002,
+          "watch_ratio": 0.23079999999999998,
           "vs_typical": 0.495
         },
         {
           "ratio": 0.78,
-          "watch_ratio": 0.15380000000000002,
+          "watch_ratio": 0.23079999999999998,
           "vs_typical": 0.4959
         },
         {
           "ratio": 0.79,
-          "watch_ratio": 0.15380000000000002,
+          "watch_ratio": 0.23079999999999998,
           "vs_typical": 0.49705
         },
         {
           "ratio": 0.8,
-          "watch_ratio": 0.15380000000000002,
+          "watch_ratio": 0.23079999999999998,
           "vs_typical": 0.4983
         },
         {
           "ratio": 0.81,
-          "watch_ratio": 0.15380000000000002,
+          "watch_ratio": 0.23079999999999998,
           "vs_typical": 0.4996
         },
         {
           "ratio": 0.82,
-          "watch_ratio": 0.15380000000000002,
+          "watch_ratio": 0.23079999999999998,
           "vs_typical": 0.50105
         },
         {
           "ratio": 0.83,
-          "watch_ratio": 0.15380000000000002,
+          "watch_ratio": 0.23079999999999998,
           "vs_typical": 0.50275
         },
         {
           "ratio": 0.84,
-          "watch_ratio": 0.15380000000000002,
+          "watch_ratio": 0.23079999999999998,
           "vs_typical": 0.5045
         },
         {
           "ratio": 0.85,
-          "watch_ratio": 0.15380000000000002,
+          "watch_ratio": 0.23079999999999998,
           "vs_typical": 0.50645
         },
         {
           "ratio": 0.86,
-          "watch_ratio": 0.15380000000000002,
+          "watch_ratio": 0.23079999999999998,
           "vs_typical": 0.50845
         },
         {
           "ratio": 0.87,
-          "watch_ratio": 0.15380000000000002,
+          "watch_ratio": 0.23079999999999998,
           "vs_typical": 0.5103
         },
         {
           "ratio": 0.88,
-          "watch_ratio": 0.15380000000000002,
+          "watch_ratio": 0.23079999999999998,
           "vs_typical": 0.51165
         },
         {
           "ratio": 0.89,
-          "watch_ratio": 0.15380000000000002,
+          "watch_ratio": 0.23079999999999998,
           "vs_typical": 0.5123
         },
         {
           "ratio": 0.9,
-          "watch_ratio": 0.15380000000000002,
+          "watch_ratio": 0.23079999999999998,
           "vs_typical": 0.51245
         },
         {
           "ratio": 0.91,
-          "watch_ratio": 0.15380000000000002,
+          "watch_ratio": 0.23079999999999998,
           "vs_typical": 0.5125
         },
         {
           "ratio": 0.92,
-          "watch_ratio": 0.15380000000000002,
+          "watch_ratio": 0.23079999999999998,
           "vs_typical": 0.5125
         },
         {
           "ratio": 0.93,
-          "watch_ratio": 0.15380000000000002,
+          "watch_ratio": 0.23079999999999998,
           "vs_typical": 0.5125
         },
         {
           "ratio": 0.94,
-          "watch_ratio": 0.15380000000000002,
+          "watch_ratio": 0.23079999999999998,
           "vs_typical": 0.5125
         },
         {
           "ratio": 0.95,
-          "watch_ratio": 0.15380000000000002,
+          "watch_ratio": 0.23079999999999998,
           "vs_typical": 0.51245
         },
         {
           "ratio": 0.96,
-          "watch_ratio": 0.15380000000000002,
+          "watch_ratio": 0.23079999999999998,
           "vs_typical": 0.5121
         },
         {
           "ratio": 0.97,
-          "watch_ratio": 0.15380000000000002,
+          "watch_ratio": 0.23079999999999998,
           "vs_typical": 0.5111
         },
         {
           "ratio": 0.98,
-          "watch_ratio": 0.15380000000000002,
+          "watch_ratio": 0.23079999999999998,
           "vs_typical": 0.5096
         },
         {
           "ratio": 0.99,
-          "watch_ratio": 0.15380000000000002,
+          "watch_ratio": 0.23079999999999998,
           "vs_typical": 0.50825
         },
         {
           "ratio": 1,
-          "watch_ratio": 0.15380000000000002,
+          "watch_ratio": 0.23079999999999998,
           "vs_typical": 0.50725
         }
       ],
       "reach": {
-        "impressions": 495,
-        "ctr_pct": 2.22
+        "impressions": 571,
+        "ctr_pct": 2.1
       }
     },
     {
@@ -5517,8 +5517,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 18,
-        "ctr_pct": 5.56
+        "impressions": 29,
+        "ctr_pct": 3.45
       }
     },
     {
@@ -5543,10 +5543,10 @@
         "comments": 0
       },
       "analytics": {
-        "views": 38,
-        "watch_min": 2,
-        "avg_view_s": 14,
-        "avg_view_pct": 35.02,
+        "views": 40,
+        "watch_min": 3,
+        "avg_view_s": 21,
+        "avg_view_pct": 51.16,
         "likes": 0,
         "comments": 0,
         "shares": 0,
@@ -5554,8 +5554,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 34,
-        "ctr_pct": 2.94
+        "impressions": 62,
+        "ctr_pct": 3.23
       }
     },
     {
@@ -5580,153 +5580,526 @@
       "privacyStatus": "public",
       "publishAt": null,
       "stats": {
-        "views": 21,
-        "likes": 1,
+        "views": 26,
+        "likes": 2,
         "comments": 0
       },
       "analytics": {
-        "views": 9,
-        "watch_min": 42,
-        "avg_view_s": 280,
-        "avg_view_pct": 8.32,
-        "likes": 0,
+        "views": 26,
+        "watch_min": 234,
+        "avg_view_s": 541,
+        "avg_view_pct": 16.06,
+        "likes": 2,
         "comments": 0,
         "shares": 0,
-        "subs_gained": 0
+        "subs_gained": 2
       },
-      "retention": null,
+      "retention": [
+        {
+          "ratio": 0.01,
+          "watch_ratio": 0.5,
+          "vs_typical": 0.37005
+        },
+        {
+          "ratio": 0.02,
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.495
+        },
+        {
+          "ratio": 0.03,
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.65805
+        },
+        {
+          "ratio": 0.04,
+          "watch_ratio": 0.34619999999999995,
+          "vs_typical": 0.80735
+        },
+        {
+          "ratio": 0.05,
+          "watch_ratio": 0.3077,
+          "vs_typical": 0.8883
+        },
+        {
+          "ratio": 0.06,
+          "watch_ratio": 0.3077,
+          "vs_typical": 0.91075
+        },
+        {
+          "ratio": 0.07,
+          "watch_ratio": 0.34619999999999995,
+          "vs_typical": 0.91455
+        },
+        {
+          "ratio": 0.08,
+          "watch_ratio": 0.42310000000000003,
+          "vs_typical": 0.9154500000000001
+        },
+        {
+          "ratio": 0.09,
+          "watch_ratio": 0.34619999999999995,
+          "vs_typical": 0.9122999999999999
+        },
+        {
+          "ratio": 0.1,
+          "watch_ratio": 0.3077,
+          "vs_typical": 0.88845
+        },
+        {
+          "ratio": 0.11,
+          "watch_ratio": 0.3077,
+          "vs_typical": 0.81525
+        },
+        {
+          "ratio": 0.12,
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.70655
+        },
+        {
+          "ratio": 0.13,
+          "watch_ratio": 0.1923,
+          "vs_typical": 0.64115
+        },
+        {
+          "ratio": 0.14,
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.6678
+        },
+        {
+          "ratio": 0.15,
+          "watch_ratio": 0.2692,
+          "vs_typical": 0.7496
+        },
+        {
+          "ratio": 0.16,
+          "watch_ratio": 0.3077,
+          "vs_typical": 0.8106
+        },
+        {
+          "ratio": 0.17,
+          "watch_ratio": 0.2692,
+          "vs_typical": 0.8074
+        },
+        {
+          "ratio": 0.18,
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.73765
+        },
+        {
+          "ratio": 0.19,
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.63515
+        },
+        {
+          "ratio": 0.2,
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.55195
+        },
+        {
+          "ratio": 0.21,
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.50505
+        },
+        {
+          "ratio": 0.22,
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.47815
+        },
+        {
+          "ratio": 0.23,
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.45705
+        },
+        {
+          "ratio": 0.24,
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.4413
+        },
+        {
+          "ratio": 0.25,
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.42865
+        },
+        {
+          "ratio": 0.26,
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.4147
+        },
+        {
+          "ratio": 0.27,
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.40075
+        },
+        {
+          "ratio": 0.28,
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.38839999999999997
+        },
+        {
+          "ratio": 0.29,
+          "watch_ratio": 0.1923,
+          "vs_typical": 0.37485
+        },
+        {
+          "ratio": 0.3,
+          "watch_ratio": 0.1923,
+          "vs_typical": 0.3617
+        },
+        {
+          "ratio": 0.31,
+          "watch_ratio": 0.1923,
+          "vs_typical": 0.35155000000000003
+        },
+        {
+          "ratio": 0.32,
+          "watch_ratio": 0.1923,
+          "vs_typical": 0.34745
+        },
+        {
+          "ratio": 0.33,
+          "watch_ratio": 0.1923,
+          "vs_typical": 0.36760000000000004
+        },
+        {
+          "ratio": 0.34,
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.429
+        },
+        {
+          "ratio": 0.35,
+          "watch_ratio": 0.3077,
+          "vs_typical": 0.50825
+        },
+        {
+          "ratio": 0.36,
+          "watch_ratio": 0.3077,
+          "vs_typical": 0.55285
+        },
+        {
+          "ratio": 0.37,
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.53715
+        },
+        {
+          "ratio": 0.38,
+          "watch_ratio": 0.15380000000000002,
+          "vs_typical": 0.46075
+        },
+        {
+          "ratio": 0.39,
+          "watch_ratio": 0.1923,
+          "vs_typical": 0.3479
+        },
+        {
+          "ratio": 0.4,
+          "watch_ratio": 0.15380000000000002,
+          "vs_typical": 0.25170000000000003
+        },
+        {
+          "ratio": 0.41,
+          "watch_ratio": 0.15380000000000002,
+          "vs_typical": 0.19920000000000004
+        },
+        {
+          "ratio": 0.42,
+          "watch_ratio": 0.15380000000000002,
+          "vs_typical": 0.17534999999999995
+        },
+        {
+          "ratio": 0.43,
+          "watch_ratio": 0.15380000000000002,
+          "vs_typical": 0.1622
+        },
+        {
+          "ratio": 0.44,
+          "watch_ratio": 0.15380000000000002,
+          "vs_typical": 0.15594999999999998
+        },
+        {
+          "ratio": 0.45,
+          "watch_ratio": 0.15380000000000002,
+          "vs_typical": 0.1518
+        },
+        {
+          "ratio": 0.46,
+          "watch_ratio": 0.15380000000000002,
+          "vs_typical": 0.14915
+        },
+        {
+          "ratio": 0.47,
+          "watch_ratio": 0.1923,
+          "vs_typical": 0.1522
+        },
+        {
+          "ratio": 0.48,
+          "watch_ratio": 0.1923,
+          "vs_typical": 0.1552
+        },
+        {
+          "ratio": 0.49,
+          "watch_ratio": 0.15380000000000002,
+          "vs_typical": 0.15795000000000003
+        },
+        {
+          "ratio": 0.5,
+          "watch_ratio": 0.15380000000000002,
+          "vs_typical": 0.1653
+        },
+        {
+          "ratio": 0.51,
+          "watch_ratio": 0.15380000000000002,
+          "vs_typical": 0.18114999999999998
+        },
+        {
+          "ratio": 0.52,
+          "watch_ratio": 0.15380000000000002,
+          "vs_typical": 0.22260000000000002
+        },
+        {
+          "ratio": 0.53,
+          "watch_ratio": 0.15380000000000002,
+          "vs_typical": 0.3023
+        },
+        {
+          "ratio": 0.54,
+          "watch_ratio": 0.1923,
+          "vs_typical": 0.38945
+        },
+        {
+          "ratio": 0.55,
+          "watch_ratio": 0.1923,
+          "vs_typical": 0.4259
+        },
+        {
+          "ratio": 0.56,
+          "watch_ratio": 0.11539999999999999,
+          "vs_typical": 0.38385
+        },
+        {
+          "ratio": 0.57,
+          "watch_ratio": 0.11539999999999999,
+          "vs_typical": 0.2875
+        },
+        {
+          "ratio": 0.58,
+          "watch_ratio": 0.11539999999999999,
+          "vs_typical": 0.1961
+        },
+        {
+          "ratio": 0.59,
+          "watch_ratio": 0.11539999999999999,
+          "vs_typical": 0.14520000000000005
+        },
+        {
+          "ratio": 0.6,
+          "watch_ratio": 0.11539999999999999,
+          "vs_typical": 0.1279
+        },
+        {
+          "ratio": 0.61,
+          "watch_ratio": 0.11539999999999999,
+          "vs_typical": 0.13055
+        },
+        {
+          "ratio": 0.62,
+          "watch_ratio": 0.11539999999999999,
+          "vs_typical": 0.1471
+        },
+        {
+          "ratio": 0.63,
+          "watch_ratio": 0.11539999999999999,
+          "vs_typical": 0.17325000000000002
+        },
+        {
+          "ratio": 0.64,
+          "watch_ratio": 0.11539999999999999,
+          "vs_typical": 0.20555
+        },
+        {
+          "ratio": 0.65,
+          "watch_ratio": 0.11539999999999999,
+          "vs_typical": 0.2398
+        },
+        {
+          "ratio": 0.66,
+          "watch_ratio": 0.11539999999999999,
+          "vs_typical": 0.2694
+        },
+        {
+          "ratio": 0.67,
+          "watch_ratio": 0.11539999999999999,
+          "vs_typical": 0.29159999999999997
+        },
+        {
+          "ratio": 0.68,
+          "watch_ratio": 0.11539999999999999,
+          "vs_typical": 0.3109
+        },
+        {
+          "ratio": 0.69,
+          "watch_ratio": 0.11539999999999999,
+          "vs_typical": 0.32615
+        },
+        {
+          "ratio": 0.7,
+          "watch_ratio": 0.11539999999999999,
+          "vs_typical": 0.33405
+        },
+        {
+          "ratio": 0.71,
+          "watch_ratio": 0.11539999999999999,
+          "vs_typical": 0.3355
+        },
+        {
+          "ratio": 0.72,
+          "watch_ratio": 0.11539999999999999,
+          "vs_typical": 0.3302
+        },
+        {
+          "ratio": 0.73,
+          "watch_ratio": 0.11539999999999999,
+          "vs_typical": 0.31475
+        },
+        {
+          "ratio": 0.74,
+          "watch_ratio": 0.11539999999999999,
+          "vs_typical": 0.2903
+        },
+        {
+          "ratio": 0.75,
+          "watch_ratio": 0.11539999999999999,
+          "vs_typical": 0.26144999999999996
+        },
+        {
+          "ratio": 0.76,
+          "watch_ratio": 0.11539999999999999,
+          "vs_typical": 0.23245
+        },
+        {
+          "ratio": 0.77,
+          "watch_ratio": 0.11539999999999999,
+          "vs_typical": 0.20679999999999998
+        },
+        {
+          "ratio": 0.78,
+          "watch_ratio": 0.11539999999999999,
+          "vs_typical": 0.18735000000000002
+        },
+        {
+          "ratio": 0.79,
+          "watch_ratio": 0.11539999999999999,
+          "vs_typical": 0.17654999999999998
+        },
+        {
+          "ratio": 0.8,
+          "watch_ratio": 0.11539999999999999,
+          "vs_typical": 0.17704999999999999
+        },
+        {
+          "ratio": 0.81,
+          "watch_ratio": 0.11539999999999999,
+          "vs_typical": 0.19195
+        },
+        {
+          "ratio": 0.82,
+          "watch_ratio": 0.11539999999999999,
+          "vs_typical": 0.22550000000000003
+        },
+        {
+          "ratio": 0.83,
+          "watch_ratio": 0.11539999999999999,
+          "vs_typical": 0.2808
+        },
+        {
+          "ratio": 0.84,
+          "watch_ratio": 0.07690000000000001,
+          "vs_typical": 0.35275
+        },
+        {
+          "ratio": 0.85,
+          "watch_ratio": 0.07690000000000001,
+          "vs_typical": 0.42615000000000003
+        },
+        {
+          "ratio": 0.86,
+          "watch_ratio": 0.07690000000000001,
+          "vs_typical": 0.4825
+        },
+        {
+          "ratio": 0.87,
+          "watch_ratio": 0.07690000000000001,
+          "vs_typical": 0.51255
+        },
+        {
+          "ratio": 0.88,
+          "watch_ratio": 0.07690000000000001,
+          "vs_typical": 0.52495
+        },
+        {
+          "ratio": 0.89,
+          "watch_ratio": 0.07690000000000001,
+          "vs_typical": 0.5344
+        },
+        {
+          "ratio": 0.9,
+          "watch_ratio": 0.07690000000000001,
+          "vs_typical": 0.5464
+        },
+        {
+          "ratio": 0.91,
+          "watch_ratio": 0.07690000000000001,
+          "vs_typical": 0.55995
+        },
+        {
+          "ratio": 0.92,
+          "watch_ratio": 0.07690000000000001,
+          "vs_typical": 0.5826
+        },
+        {
+          "ratio": 0.93,
+          "watch_ratio": 0.07690000000000001,
+          "vs_typical": 0.63415
+        },
+        {
+          "ratio": 0.94,
+          "watch_ratio": 0.07690000000000001,
+          "vs_typical": 0.7353000000000001
+        },
+        {
+          "ratio": 0.95,
+          "watch_ratio": 0.07690000000000001,
+          "vs_typical": 0.8551500000000001
+        },
+        {
+          "ratio": 0.96,
+          "watch_ratio": 0.11539999999999999,
+          "vs_typical": 0.9274
+        },
+        {
+          "ratio": 0.97,
+          "watch_ratio": 0.34619999999999995,
+          "vs_typical": 0.94865
+        },
+        {
+          "ratio": 0.98,
+          "watch_ratio": 0.46149999999999997,
+          "vs_typical": 0.9514
+        },
+        {
+          "ratio": 0.99,
+          "watch_ratio": 0.23079999999999998,
+          "vs_typical": 0.9511499999999999
+        },
+        {
+          "ratio": 1,
+          "watch_ratio": 0.11539999999999999,
+          "vs_typical": 0.95075
+        }
+      ],
       "reach": {
-        "impressions": 77,
-        "ctr_pct": 10.39
+        "impressions": 432,
+        "ctr_pct": 3.24
       }
-    },
-    {
-      "id": "RLd0Aq6yt1w",
-      "url": "https://youtu.be/RLd0Aq6yt1w",
-      "title": "Claude: \"bro, I won't let you gamble\" 🎰",
-      "publishedAt": "2026-07-20T13:49:25Z",
-      "duration_s": 21,
-      "is_short": true,
-      "tags": [
-        "ai",
-        "claude",
-        "hyperliquid",
-        "leverage",
-        "podcast",
-        "trading"
-      ],
-      "privacyStatus": "private",
-      "publishAt": "2026-07-21T21:00:00Z",
-      "stats": {
-        "views": 2,
-        "likes": 0,
-        "comments": 0
-      },
-      "analytics": null,
-      "retention": null,
-      "reach": null
-    },
-    {
-      "id": "sh2EgRMeJWA",
-      "url": "https://youtu.be/sh2EgRMeJWA",
-      "title": "Our AI Clones Hosted a Segment Again - Ep 6 Clip",
-      "publishedAt": "2026-07-20T13:49:33Z",
-      "duration_s": 470,
-      "is_short": false,
-      "tags": [
-        "ai",
-        "aiclones",
-        "deepfake",
-        "mev",
-        "podcast",
-        "solana"
-      ],
-      "privacyStatus": "private",
-      "publishAt": "2026-07-22T21:00:00Z",
-      "stats": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0
-      },
-      "analytics": null,
-      "retention": null,
-      "reach": null
-    },
-    {
-      "id": "p99Pfe120uQ",
-      "url": "https://youtu.be/p99Pfe120uQ",
-      "title": "Our AI leaked the pastrami incident 🥪",
-      "publishedAt": "2026-07-20T13:51:00Z",
-      "duration_s": 38,
-      "is_short": true,
-      "tags": [
-        "ai",
-        "aiclone",
-        "pastrami",
-        "podcast",
-        "soulsmd"
-      ],
-      "privacyStatus": "private",
-      "publishAt": "2026-07-23T21:00:00Z",
-      "stats": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0
-      },
-      "analytics": null,
-      "retention": null,
-      "reach": null
-    },
-    {
-      "id": "NJVf74VAqMA",
-      "url": "https://youtu.be/NJVf74VAqMA",
-      "title": "That's how you do an exit scam 🪤",
-      "publishedAt": "2026-07-20T13:51:07Z",
-      "duration_s": 15,
-      "is_short": true,
-      "tags": [
-        "crypto",
-        "exitscam",
-        "mev",
-        "podcast",
-        "sandwichattack",
-        "solana"
-      ],
-      "privacyStatus": "private",
-      "publishAt": "2026-07-24T21:00:00Z",
-      "stats": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0
-      },
-      "analytics": null,
-      "retention": null,
-      "reach": null
-    },
-    {
-      "id": "JmWGB38jykc",
-      "url": "https://youtu.be/JmWGB38jykc",
-      "title": "Thank you, Jito, for sponsoring 💸",
-      "publishedAt": "2026-07-20T13:51:13Z",
-      "duration_s": 14,
-      "is_short": true,
-      "tags": [
-        "crypto",
-        "jito",
-        "perpoffortune",
-        "podcast",
-        "solana"
-      ],
-      "privacyStatus": "private",
-      "publishAt": "2026-07-25T21:00:00Z",
-      "stats": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0
-      },
-      "analytics": null,
-      "retention": null,
-      "reach": null
     },
     {
       "id": "PX46C5bcpgg",
@@ -5746,7 +6119,1186 @@
       "privacyStatus": "public",
       "publishAt": null,
       "stats": {
-        "views": 212,
+        "views": 449,
+        "likes": 0,
+        "comments": 0
+      },
+      "analytics": {
+        "views": 449,
+        "watch_min": 24,
+        "avg_view_s": 8,
+        "avg_view_pct": 41.12,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "subs_gained": 1
+      },
+      "retention": null,
+      "reach": {
+        "impressions": 396,
+        "ctr_pct": 0.51
+      }
+    },
+    {
+      "id": "RLd0Aq6yt1w",
+      "url": "https://youtu.be/RLd0Aq6yt1w",
+      "title": "Daddy Claude: \"no gambling\" 🎰",
+      "publishedAt": "2026-07-21T21:00:38Z",
+      "duration_s": 21,
+      "is_short": true,
+      "tags": [
+        "ai",
+        "claude",
+        "hyperliquid",
+        "leverage",
+        "podcast",
+        "trading"
+      ],
+      "privacyStatus": "public",
+      "publishAt": null,
+      "stats": {
+        "views": 6,
+        "likes": 0,
+        "comments": 0
+      },
+      "analytics": {
+        "views": 6,
+        "watch_min": 1,
+        "avg_view_s": 20,
+        "avg_view_pct": 96.52,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "subs_gained": 0
+      },
+      "retention": null,
+      "reach": {
+        "impressions": 18,
+        "ctr_pct": 11.11
+      }
+    },
+    {
+      "id": "sh2EgRMeJWA",
+      "url": "https://youtu.be/sh2EgRMeJWA",
+      "title": "Our AI Clones Hosted a Segment Again - Ep 6 Clip",
+      "publishedAt": "2026-07-22T21:00:38Z",
+      "duration_s": 470,
+      "is_short": false,
+      "tags": [
+        "ai",
+        "aiclones",
+        "deepfake",
+        "mev",
+        "podcast",
+        "solana"
+      ],
+      "privacyStatus": "public",
+      "publishAt": null,
+      "stats": {
+        "views": 8,
+        "likes": 0,
+        "comments": 0
+      },
+      "analytics": {
+        "views": 7,
+        "watch_min": 12,
+        "avg_view_s": 103,
+        "avg_view_pct": 22.08,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "subs_gained": 0
+      },
+      "retention": null,
+      "reach": {
+        "impressions": 64,
+        "ctr_pct": 7.81
+      }
+    },
+    {
+      "id": "p99Pfe120uQ",
+      "url": "https://youtu.be/p99Pfe120uQ",
+      "title": "Our AI leaked the pastrami incident 🥪",
+      "publishedAt": "2026-07-23T21:00:29Z",
+      "duration_s": 38,
+      "is_short": true,
+      "tags": [
+        "ai",
+        "aiclone",
+        "pastrami",
+        "podcast",
+        "soulsmd"
+      ],
+      "privacyStatus": "public",
+      "publishAt": null,
+      "stats": {
+        "views": 121,
+        "likes": 1,
+        "comments": 0
+      },
+      "analytics": {
+        "views": 121,
+        "watch_min": 10,
+        "avg_view_s": 14,
+        "avg_view_pct": 38.76,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "subs_gained": 0
+      },
+      "retention": null,
+      "reach": {
+        "impressions": 39,
+        "ctr_pct": 0.0
+      }
+    },
+    {
+      "id": "MrW6ihGNMgM",
+      "url": "https://youtu.be/MrW6ihGNMgM",
+      "title": "An OpenAI Model Escaped Its Sandbox to Cheat a Test (So I Rapped About It)",
+      "publishedAt": "2026-07-24T12:08:17Z",
+      "duration_s": 2949,
+      "is_short": false,
+      "tags": [
+        "ai",
+        "ai agents",
+        "beat maker",
+        "beatbox",
+        "claude",
+        "glm 5.2",
+        "hugging face",
+        "openai",
+        "podcast",
+        "vibe coding"
+      ],
+      "privacyStatus": "public",
+      "publishAt": null,
+      "stats": {
+        "views": 30,
+        "likes": 1,
+        "comments": 0
+      },
+      "analytics": {
+        "views": 31,
+        "watch_min": 100,
+        "avg_view_s": 200,
+        "avg_view_pct": 6.78,
+        "likes": 1,
+        "comments": 0,
+        "shares": 1,
+        "subs_gained": 2
+      },
+      "retention": [
+        {
+          "ratio": 0.01,
+          "watch_ratio": 0.9667,
+          "vs_typical": 0.2547
+        },
+        {
+          "ratio": 0.02,
+          "watch_ratio": 0.4,
+          "vs_typical": 0.21575
+        },
+        {
+          "ratio": 0.03,
+          "watch_ratio": 0.23329999999999998,
+          "vs_typical": 0.26175000000000004
+        },
+        {
+          "ratio": 0.04,
+          "watch_ratio": 0.2,
+          "vs_typical": 0.3728
+        },
+        {
+          "ratio": 0.05,
+          "watch_ratio": 0.16670000000000001,
+          "vs_typical": 0.45525
+        },
+        {
+          "ratio": 0.06,
+          "watch_ratio": 0.16670000000000001,
+          "vs_typical": 0.478
+        },
+        {
+          "ratio": 0.07,
+          "watch_ratio": 0.16670000000000001,
+          "vs_typical": 0.4474
+        },
+        {
+          "ratio": 0.08,
+          "watch_ratio": 0.2,
+          "vs_typical": 0.3644
+        },
+        {
+          "ratio": 0.09,
+          "watch_ratio": 0.16670000000000001,
+          "vs_typical": 0.25635
+        },
+        {
+          "ratio": 0.1,
+          "watch_ratio": 0.16670000000000001,
+          "vs_typical": 0.17515000000000003
+        },
+        {
+          "ratio": 0.11,
+          "watch_ratio": 0.16670000000000001,
+          "vs_typical": 0.1331
+        },
+        {
+          "ratio": 0.12,
+          "watch_ratio": 0.16670000000000001,
+          "vs_typical": 0.11225000000000002
+        },
+        {
+          "ratio": 0.13,
+          "watch_ratio": 0.16670000000000001,
+          "vs_typical": 0.10094999999999998
+        },
+        {
+          "ratio": 0.14,
+          "watch_ratio": 0.1333,
+          "vs_typical": 0.09204999999999997
+        },
+        {
+          "ratio": 0.15,
+          "watch_ratio": 0.1333,
+          "vs_typical": 0.08185000000000003
+        },
+        {
+          "ratio": 0.16,
+          "watch_ratio": 0.1,
+          "vs_typical": 0.07479999999999998
+        },
+        {
+          "ratio": 0.17,
+          "watch_ratio": 0.1,
+          "vs_typical": 0.07219999999999999
+        },
+        {
+          "ratio": 0.18,
+          "watch_ratio": 0.16670000000000001,
+          "vs_typical": 0.07075000000000004
+        },
+        {
+          "ratio": 0.19,
+          "watch_ratio": 0.1,
+          "vs_typical": 0.06744999999999995
+        },
+        {
+          "ratio": 0.2,
+          "watch_ratio": 0.1,
+          "vs_typical": 0.06274999999999997
+        },
+        {
+          "ratio": 0.21,
+          "watch_ratio": 0.1,
+          "vs_typical": 0.06064999999999998
+        },
+        {
+          "ratio": 0.22,
+          "watch_ratio": 0.1,
+          "vs_typical": 0.061850000000000016
+        },
+        {
+          "ratio": 0.23,
+          "watch_ratio": 0.1,
+          "vs_typical": 0.06530000000000002
+        },
+        {
+          "ratio": 0.24,
+          "watch_ratio": 0.1,
+          "vs_typical": 0.07079999999999997
+        },
+        {
+          "ratio": 0.25,
+          "watch_ratio": 0.1,
+          "vs_typical": 0.07835000000000003
+        },
+        {
+          "ratio": 0.26,
+          "watch_ratio": 0.0667,
+          "vs_typical": 0.08844999999999997
+        },
+        {
+          "ratio": 0.27,
+          "watch_ratio": 0.0667,
+          "vs_typical": 0.10185
+        },
+        {
+          "ratio": 0.28,
+          "watch_ratio": 0.0667,
+          "vs_typical": 0.11840000000000006
+        },
+        {
+          "ratio": 0.29,
+          "watch_ratio": 0.0667,
+          "vs_typical": 0.13780000000000003
+        },
+        {
+          "ratio": 0.3,
+          "watch_ratio": 0.0667,
+          "vs_typical": 0.15875
+        },
+        {
+          "ratio": 0.31,
+          "watch_ratio": 0.0667,
+          "vs_typical": 0.179
+        },
+        {
+          "ratio": 0.32,
+          "watch_ratio": 0.16670000000000001,
+          "vs_typical": 0.19565
+        },
+        {
+          "ratio": 0.33,
+          "watch_ratio": 0.0667,
+          "vs_typical": 0.20665
+        },
+        {
+          "ratio": 0.34,
+          "watch_ratio": 0.0667,
+          "vs_typical": 0.21234999999999998
+        },
+        {
+          "ratio": 0.35,
+          "watch_ratio": 0.0667,
+          "vs_typical": 0.21144999999999997
+        },
+        {
+          "ratio": 0.36,
+          "watch_ratio": 0.1,
+          "vs_typical": 0.20055
+        },
+        {
+          "ratio": 0.37,
+          "watch_ratio": 0.1,
+          "vs_typical": 0.18214999999999998
+        },
+        {
+          "ratio": 0.38,
+          "watch_ratio": 0.1,
+          "vs_typical": 0.1638
+        },
+        {
+          "ratio": 0.39,
+          "watch_ratio": 0.0667,
+          "vs_typical": 0.14844999999999997
+        },
+        {
+          "ratio": 0.4,
+          "watch_ratio": 0.0667,
+          "vs_typical": 0.13340000000000002
+        },
+        {
+          "ratio": 0.41,
+          "watch_ratio": 0.0667,
+          "vs_typical": 0.12359999999999999
+        },
+        {
+          "ratio": 0.42,
+          "watch_ratio": 0.0667,
+          "vs_typical": 0.12645
+        },
+        {
+          "ratio": 0.43,
+          "watch_ratio": 0.1,
+          "vs_typical": 0.15399999999999997
+        },
+        {
+          "ratio": 0.44,
+          "watch_ratio": 0.0667,
+          "vs_typical": 0.23460000000000003
+        },
+        {
+          "ratio": 0.45,
+          "watch_ratio": 0.0667,
+          "vs_typical": 0.35745
+        },
+        {
+          "ratio": 0.46,
+          "watch_ratio": 0.0667,
+          "vs_typical": 0.45015
+        },
+        {
+          "ratio": 0.47,
+          "watch_ratio": 0.1,
+          "vs_typical": 0.4802
+        },
+        {
+          "ratio": 0.48,
+          "watch_ratio": 0.1,
+          "vs_typical": 0.4536
+        },
+        {
+          "ratio": 0.49,
+          "watch_ratio": 0.0667,
+          "vs_typical": 0.3634
+        },
+        {
+          "ratio": 0.5,
+          "watch_ratio": 0.0667,
+          "vs_typical": 0.23675000000000002
+        },
+        {
+          "ratio": 0.51,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.14450000000000002
+        },
+        {
+          "ratio": 0.52,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.10225000000000001
+        },
+        {
+          "ratio": 0.53,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.08325000000000005
+        },
+        {
+          "ratio": 0.54,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.07424999999999998
+        },
+        {
+          "ratio": 0.55,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.06674999999999998
+        },
+        {
+          "ratio": 0.56,
+          "watch_ratio": 0.0667,
+          "vs_typical": 0.05704999999999999
+        },
+        {
+          "ratio": 0.57,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.05135000000000001
+        },
+        {
+          "ratio": 0.58,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.051049999999999984
+        },
+        {
+          "ratio": 0.59,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.05349999999999999
+        },
+        {
+          "ratio": 0.6,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.05945
+        },
+        {
+          "ratio": 0.61,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.07255
+        },
+        {
+          "ratio": 0.62,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.0932
+        },
+        {
+          "ratio": 0.63,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.12189999999999995
+        },
+        {
+          "ratio": 0.64,
+          "watch_ratio": 0.0667,
+          "vs_typical": 0.16194999999999998
+        },
+        {
+          "ratio": 0.65,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.21125
+        },
+        {
+          "ratio": 0.66,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.26335
+        },
+        {
+          "ratio": 0.67,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.31205
+        },
+        {
+          "ratio": 0.68,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.3532
+        },
+        {
+          "ratio": 0.69,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.38555
+        },
+        {
+          "ratio": 0.7,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.4096
+        },
+        {
+          "ratio": 0.71,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.4262
+        },
+        {
+          "ratio": 0.72,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.43674999999999997
+        },
+        {
+          "ratio": 0.73,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.44335
+        },
+        {
+          "ratio": 0.74,
+          "watch_ratio": 0.0667,
+          "vs_typical": 0.44725
+        },
+        {
+          "ratio": 0.75,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.4486
+        },
+        {
+          "ratio": 0.76,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.44705
+        },
+        {
+          "ratio": 0.77,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.44245
+        },
+        {
+          "ratio": 0.78,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.43465
+        },
+        {
+          "ratio": 0.79,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.42264999999999997
+        },
+        {
+          "ratio": 0.8,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.40475
+        },
+        {
+          "ratio": 0.81,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.38075
+        },
+        {
+          "ratio": 0.82,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.3522
+        },
+        {
+          "ratio": 0.83,
+          "watch_ratio": 0.0667,
+          "vs_typical": 0.32184999999999997
+        },
+        {
+          "ratio": 0.84,
+          "watch_ratio": 0.0667,
+          "vs_typical": 0.29405000000000003
+        },
+        {
+          "ratio": 0.85,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.2763
+        },
+        {
+          "ratio": 0.86,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.27125
+        },
+        {
+          "ratio": 0.87,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.2732
+        },
+        {
+          "ratio": 0.88,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.28405
+        },
+        {
+          "ratio": 0.9,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.32989999999999997
+        },
+        {
+          "ratio": 0.91,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.3591
+        },
+        {
+          "ratio": 0.92,
+          "watch_ratio": 0.0667,
+          "vs_typical": 0.39825
+        },
+        {
+          "ratio": 0.93,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.4593
+        },
+        {
+          "ratio": 0.94,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.57565
+        },
+        {
+          "ratio": 0.95,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.7323
+        },
+        {
+          "ratio": 0.97,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.8867
+        },
+        {
+          "ratio": 0.98,
+          "watch_ratio": 0.1,
+          "vs_typical": 0.90245
+        },
+        {
+          "ratio": 0.99,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.9114500000000001
+        },
+        {
+          "ratio": 1,
+          "watch_ratio": 0.0333,
+          "vs_typical": 0.9171
+        }
+      ],
+      "reach": {
+        "impressions": 1029,
+        "ctr_pct": 0.68
+      }
+    },
+    {
+      "id": "W5MRrq8YzWA",
+      "url": "https://youtu.be/W5MRrq8YzWA",
+      "title": "Alone on the pod, so I dropped a freestyle 🎤",
+      "publishedAt": "2026-07-24T12:35:17Z",
+      "duration_s": 51,
+      "is_short": true,
+      "tags": [
+        "ai",
+        "beatbox",
+        "claude",
+        "freestyle",
+        "podcast",
+        "vibe coding"
+      ],
+      "privacyStatus": "private",
+      "publishAt": "2026-07-31T21:00:00Z",
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      },
+      "analytics": null,
+      "retention": null,
+      "reach": null
+    },
+    {
+      "id": "YPK6btJ4CHQ",
+      "url": "https://youtu.be/YPK6btJ4CHQ",
+      "title": "GPT 5.6 is kinda trash - Ep 7 Clip",
+      "publishedAt": "2026-07-24T12:35:25Z",
+      "duration_s": 77,
+      "is_short": true,
+      "tags": [
+        "ai",
+        "benchmark",
+        "claude",
+        "fable",
+        "gpt 5.6",
+        "podcast"
+      ],
+      "privacyStatus": "private",
+      "publishAt": "2026-08-01T21:00:00Z",
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      },
+      "analytics": null,
+      "retention": null,
+      "reach": null
+    },
+    {
+      "id": "NJVf74VAqMA",
+      "url": "https://youtu.be/NJVf74VAqMA",
+      "title": "That's how you do an exit scam 🪤",
+      "publishedAt": "2026-07-24T21:00:30Z",
+      "duration_s": 15,
+      "is_short": true,
+      "tags": [
+        "crypto",
+        "exitscam",
+        "mev",
+        "podcast",
+        "sandwichattack",
+        "solana"
+      ],
+      "privacyStatus": "public",
+      "publishAt": null,
+      "stats": {
+        "views": 277,
+        "likes": 0,
+        "comments": 0
+      },
+      "analytics": {
+        "views": 280,
+        "watch_min": 13,
+        "avg_view_s": 12,
+        "avg_view_pct": 81.66,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "subs_gained": 0
+      },
+      "retention": null,
+      "reach": {
+        "impressions": 47,
+        "ctr_pct": 2.13
+      }
+    },
+    {
+      "id": "JmWGB38jykc",
+      "url": "https://youtu.be/JmWGB38jykc",
+      "title": "Thank you, Jito, for sponsoring 💸",
+      "publishedAt": "2026-07-25T21:00:11Z",
+      "duration_s": 14,
+      "is_short": true,
+      "tags": [
+        "crypto",
+        "jito",
+        "perpoffortune",
+        "podcast",
+        "solana"
+      ],
+      "privacyStatus": "public",
+      "publishAt": null,
+      "stats": {
+        "views": 865,
+        "likes": 2,
+        "comments": 0
+      },
+      "analytics": {
+        "views": 865,
+        "watch_min": 28,
+        "avg_view_s": 7,
+        "avg_view_pct": 55.05,
+        "likes": 2,
+        "comments": 0,
+        "shares": 0,
+        "subs_gained": 1
+      },
+      "retention": null,
+      "reach": {
+        "impressions": 88,
+        "ctr_pct": 3.41
+      }
+    },
+    {
+      "id": "PvD_XXXrODs",
+      "url": "https://youtu.be/PvD_XXXrODs",
+      "title": "\"GPT 5.6 is dead to me\" 💀",
+      "publishedAt": "2026-07-26T21:00:09Z",
+      "duration_s": 27,
+      "is_short": true,
+      "tags": [
+        "ai",
+        "benchmark",
+        "claude",
+        "gpt 5.6",
+        "podcast"
+      ],
+      "privacyStatus": "public",
+      "publishAt": null,
+      "stats": {
+        "views": 721,
+        "likes": 2,
+        "comments": 0
+      },
+      "analytics": {
+        "views": 723,
+        "watch_min": 50,
+        "avg_view_s": 9,
+        "avg_view_pct": 35.46,
+        "likes": 2,
+        "comments": 0,
+        "shares": 0,
+        "subs_gained": 0
+      },
+      "retention": null,
+      "reach": {
+        "impressions": 19,
+        "ctr_pct": 5.26
+      }
+    },
+    {
+      "id": "uQ6X6XOwzLo",
+      "url": "https://youtu.be/uQ6X6XOwzLo",
+      "title": "I beatboxed 4 sounds — Claude made it a song 🎵",
+      "publishedAt": "2026-07-27T21:00:34Z",
+      "duration_s": 25,
+      "is_short": true,
+      "tags": [
+        "ai",
+        "beat maker",
+        "beatbox",
+        "claude",
+        "music video",
+        "vibe coding"
+      ],
+      "privacyStatus": "public",
+      "publishAt": null,
+      "stats": {
+        "views": 62,
+        "likes": 0,
+        "comments": 0
+      },
+      "analytics": {
+        "views": 56,
+        "watch_min": 2,
+        "avg_view_s": 12,
+        "avg_view_pct": 48.62,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "subs_gained": 0
+      },
+      "retention": null,
+      "reach": {
+        "impressions": 27,
+        "ctr_pct": 7.41
+      }
+    },
+    {
+      "id": "U4FRYyp9lIE",
+      "url": "https://youtu.be/U4FRYyp9lIE",
+      "title": "Pausing the podcast for a mosquito execution 🦟",
+      "publishedAt": "2026-07-28T21:00:17Z",
+      "duration_s": 12,
+      "is_short": true,
+      "tags": [
+        "bloopers",
+        "mosquito",
+        "podcast",
+        "solo episode"
+      ],
+      "privacyStatus": "public",
+      "publishAt": null,
+      "stats": {
+        "views": 586,
+        "likes": 2,
+        "comments": 0
+      },
+      "analytics": {
+        "views": 283,
+        "watch_min": 13,
+        "avg_view_s": 7,
+        "avg_view_pct": 58.69,
+        "likes": 2,
+        "comments": 0,
+        "shares": 0,
+        "subs_gained": 0
+      },
+      "retention": null,
+      "reach": {
+        "impressions": 7,
+        "ctr_pct": 0.0
+      }
+    },
+    {
+      "id": "1OIYCwsCyhQ",
+      "url": "https://youtu.be/1OIYCwsCyhQ",
+      "title": "The most disgusting way to drink instant coffee ☕",
+      "publishedAt": "2026-07-29T21:00:24Z",
+      "duration_s": 16,
+      "is_short": true,
+      "tags": [
+        "bloopers",
+        "confession",
+        "instant coffee",
+        "nescafe",
+        "podcast"
+      ],
+      "privacyStatus": "public",
+      "publishAt": null,
+      "stats": {
+        "views": 106,
+        "likes": 0,
+        "comments": 0
+      },
+      "analytics": null,
+      "retention": null,
+      "reach": null
+    },
+    {
+      "id": "lF3a6LaRLhU",
+      "url": "https://youtu.be/lF3a6LaRLhU",
+      "title": "The Korean markets expert has a confession 📉",
+      "publishedAt": "2026-07-30T21:00:29Z",
+      "duration_s": 30,
+      "is_short": true,
+      "tags": [
+        "ai",
+        "korean markets",
+        "podcast",
+        "solo episode"
+      ],
+      "privacyStatus": "public",
+      "publishAt": null,
+      "stats": {
+        "views": 294,
+        "likes": 1,
+        "comments": 0
+      },
+      "analytics": null,
+      "retention": null,
+      "reach": null
+    },
+    {
+      "id": "hgLne4ec_Ig",
+      "url": "https://youtu.be/hgLne4ec_Ig",
+      "title": "Claude Broke a Post-Quantum Cipher in 60 Hours. Is Bitcoin Next?",
+      "publishedAt": "2026-07-31T08:13:23Z",
+      "duration_s": 3138,
+      "is_short": false,
+      "tags": [
+        "agentic commerce",
+        "ai",
+        "bip-110",
+        "bitcoin",
+        "claude",
+        "cryptography",
+        "hawk",
+        "podcast",
+        "post quantum",
+        "quantum computing",
+        "x402"
+      ],
+      "privacyStatus": "public",
+      "publishAt": null,
+      "stats": {
+        "views": 8,
+        "likes": 0,
+        "comments": 0
+      },
+      "analytics": null,
+      "retention": null,
+      "reach": null
+    },
+    {
+      "id": "sXiduX-Yl9M",
+      "url": "https://youtu.be/sXiduX-Yl9M",
+      "title": "We're almost down — quick, CLOSE IT 📉",
+      "publishedAt": "2026-07-31T10:50:42Z",
+      "duration_s": 13,
+      "is_short": true,
+      "tags": [
+        "GPT5",
+        "PerpOfFortune",
+        "XRP",
+        "crypto",
+        "leverage",
+        "podcast"
+      ],
+      "privacyStatus": "private",
+      "publishAt": "2026-08-01T01:00:00Z",
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      },
+      "analytics": null,
+      "retention": null,
+      "reach": null
+    },
+    {
+      "id": "8tejZUUp8UI",
+      "url": "https://youtu.be/8tejZUUp8UI",
+      "title": "Have you ever been a Ripple guy? 🌊",
+      "publishedAt": "2026-07-31T10:50:47Z",
+      "duration_s": 16,
+      "is_short": true,
+      "tags": [
+        "Ripple",
+        "XRP",
+        "confession",
+        "crypto",
+        "podcast"
+      ],
+      "privacyStatus": "private",
+      "publishAt": "2026-08-01T21:00:00Z",
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      },
+      "analytics": null,
+      "retention": null,
+      "reach": null
+    },
+    {
+      "id": "HySmab1dQv8",
+      "url": "https://youtu.be/HySmab1dQv8",
+      "title": "The baby egg allergy test went badly 🥚",
+      "publishedAt": "2026-07-31T10:50:50Z",
+      "duration_s": 20,
+      "is_short": true,
+      "tags": [
+        "allergies",
+        "babies",
+        "dadlife",
+        "parenting",
+        "podcast"
+      ],
+      "privacyStatus": "private",
+      "publishAt": "2026-08-02T21:00:00Z",
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      },
+      "analytics": null,
+      "retention": null,
+      "reach": null
+    },
+    {
+      "id": "-6YfDEybwTA",
+      "url": "https://youtu.be/-6YfDEybwTA",
+      "title": "Wait, your last name is actually Cook? 👨‍🍳",
+      "publishedAt": "2026-07-31T10:50:54Z",
+      "duration_s": 14,
+      "is_short": true,
+      "tags": [
+        "cooking",
+        "doxxing",
+        "nominativedeterminism",
+        "podcast"
+      ],
+      "privacyStatus": "private",
+      "publishAt": "2026-08-03T21:00:00Z",
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      },
+      "analytics": null,
+      "retention": null,
+      "reach": null
+    },
+    {
+      "id": "tqbyam7q19c",
+      "url": "https://youtu.be/tqbyam7q19c",
+      "title": "They probably all work for the NSA 🕵️",
+      "publishedAt": "2026-07-31T10:50:57Z",
+      "duration_s": 15,
+      "is_short": true,
+      "tags": [
+        "HAWK",
+        "NSA",
+        "ai",
+        "bitcoin",
+        "cryptography",
+        "postquantum"
+      ],
+      "privacyStatus": "private",
+      "publishAt": "2026-08-04T21:00:00Z",
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      },
+      "analytics": null,
+      "retention": null,
+      "reach": null
+    },
+    {
+      "id": "RqhHEkFhjZQ",
+      "url": "https://youtu.be/RqhHEkFhjZQ",
+      "title": "Claude, don't cut this out 🎙️",
+      "publishedAt": "2026-07-31T10:51:00Z",
+      "duration_s": 13,
+      "is_short": true,
+      "tags": [
+        "Claude",
+        "ai",
+        "editing",
+        "meta",
+        "podcast"
+      ],
+      "privacyStatus": "private",
+      "publishAt": "2026-08-05T21:00:00Z",
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      },
+      "analytics": null,
+      "retention": null,
+      "reach": null
+    },
+    {
+      "id": "Z-IR6GP0dQE",
+      "url": "https://youtu.be/Z-IR6GP0dQE",
+      "title": "My agent only buys Ripple 🤖",
+      "publishedAt": "2026-07-31T10:51:03Z",
+      "duration_s": 10,
+      "is_short": true,
+      "tags": [
+        "Ripple",
+        "XRP",
+        "agenticcommerce",
+        "ai",
+        "payments",
+        "x402"
+      ],
+      "privacyStatus": "private",
+      "publishAt": "2026-08-06T21:00:00Z",
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      },
+      "analytics": null,
+      "retention": null,
+      "reach": null
+    },
+    {
+      "id": "Em3-3-cIAbA",
+      "url": "https://youtu.be/Em3-3-cIAbA",
+      "title": "Give me the CRISPR agent, I'm built different 🧬",
+      "publishedAt": "2026-07-31T10:51:06Z",
+      "duration_s": 18,
+      "is_short": true,
+      "tags": [
+        "CRISPR",
+        "Mythos",
+        "ai",
+        "biotech",
+        "guardrails",
+        "podcast"
+      ],
+      "privacyStatus": "private",
+      "publishAt": "2026-08-07T21:00:00Z",
+      "stats": {
+        "views": 0,
         "likes": 0,
         "comments": 0
       },
@@ -6003,8 +7555,78 @@
     },
     {
       "day": "2026-07-18",
-      "views": 15,
+      "views": 13,
       "estimatedMinutesWatched": 42,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-07-19",
+      "views": 8,
+      "estimatedMinutesWatched": 93,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-07-20",
+      "views": 226,
+      "estimatedMinutesWatched": 77,
+      "subscribersGained": 3,
+      "subscribersLost": 1
+    },
+    {
+      "day": "2026-07-21",
+      "views": 136,
+      "estimatedMinutesWatched": 38,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-07-22",
+      "views": 102,
+      "estimatedMinutesWatched": 8,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-07-23",
+      "views": 62,
+      "estimatedMinutesWatched": 52,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-07-24",
+      "views": 182,
+      "estimatedMinutesWatched": 122,
+      "subscribersGained": 2,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-07-25",
+      "views": 655,
+      "estimatedMinutesWatched": 32,
+      "subscribersGained": 1,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-07-26",
+      "views": 836,
+      "estimatedMinutesWatched": 48,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-07-27",
+      "views": 231,
+      "estimatedMinutesWatched": 12,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-07-28",
+      "views": 410,
+      "estimatedMinutesWatched": 30,
       "subscribersGained": 0,
       "subscribersLost": 0
     }
@@ -6012,48 +7634,53 @@
   "traffic": [
     {
       "insightTrafficSourceType": "SHORTS",
-      "views": 7305,
-      "estimatedMinutesWatched": 462
+      "views": 9947,
+      "estimatedMinutesWatched": 591
     },
     {
       "insightTrafficSourceType": "SUBSCRIBER",
-      "views": 525,
-      "estimatedMinutesWatched": 1072
+      "views": 546,
+      "estimatedMinutesWatched": 1171
     },
     {
       "insightTrafficSourceType": "YT_OTHER_PAGE",
-      "views": 200,
-      "estimatedMinutesWatched": 117
+      "views": 273,
+      "estimatedMinutesWatched": 163
     },
     {
       "insightTrafficSourceType": "YT_SEARCH",
-      "views": 130,
-      "estimatedMinutesWatched": 116
+      "views": 173,
+      "estimatedMinutesWatched": 124
     },
     {
       "insightTrafficSourceType": "YT_CHANNEL",
-      "views": 111,
-      "estimatedMinutesWatched": 489
+      "views": 132,
+      "estimatedMinutesWatched": 514
     },
     {
       "insightTrafficSourceType": "RELATED_VIDEO",
-      "views": 86,
-      "estimatedMinutesWatched": 206
+      "views": 97,
+      "estimatedMinutesWatched": 254
     },
     {
       "insightTrafficSourceType": "NO_LINK_OTHER",
-      "views": 70,
-      "estimatedMinutesWatched": 683
+      "views": 89,
+      "estimatedMinutesWatched": 797
     },
     {
       "insightTrafficSourceType": "EXT_URL",
-      "views": 33,
-      "estimatedMinutesWatched": 126
+      "views": 40,
+      "estimatedMinutesWatched": 151
     },
     {
       "insightTrafficSourceType": "PLAYLIST",
-      "views": 19,
-      "estimatedMinutesWatched": 271
+      "views": 21,
+      "estimatedMinutesWatched": 291
+    },
+    {
+      "insightTrafficSourceType": "SHORTS_CONTENT_LINKS",
+      "views": 4,
+      "estimatedMinutesWatched": 1
     },
     {
       "insightTrafficSourceType": "NOTIFICATION",
@@ -6061,13 +7688,8 @@
       "estimatedMinutesWatched": 0
     },
     {
-      "insightTrafficSourceType": "SHORTS_CONTENT_LINKS",
-      "views": 3,
-      "estimatedMinutesWatched": 0
-    },
-    {
       "insightTrafficSourceType": "SOUND_PAGE",
-      "views": 1,
+      "views": 2,
       "estimatedMinutesWatched": 0
     }
   ]
