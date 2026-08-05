@@ -1,0 +1,48 @@
+{
+  "show": "PERMANENT UNDERPOD",
+  "show_kicker": "PERMANENT",
+  "show_main": "UNDERPOD",
+  "accent": [255, 210, 74],
+  "source": "/Users/jcook/Personal/permanent-underpod/media/ep9/work/src/jackson_720.mp4",
+  "title_card": {
+    "bg_frame": 1035,
+    "line": "EPISODE 9   ·   Hold the Sandwich   ·   Bitcoin  ·  Stablecoins  ·  AI",
+    "dur": 4.5
+  },
+  "end_card": {
+    "bg_frame": 3697,
+    "kicker": "NEXT WEEK ON",
+    "lines": [
+      "Agentic commerce, for very specific bad reasons",
+      "Chris has been stewing all week",
+      "Does the perp climb out of the grave?"
+    ],
+    "cta": "LIKE  +  SUBSCRIBE",
+    "dur": 7
+  },
+  "lower_thirds": [
+    {"name": "intro", "kicker": "EPISODE 9", "title": "THE BOYS ARE BACK (BRACE OFF)"},
+    {"name": "perp", "kicker": "CLAUDE READ THE OUTLINE", "title": "PERP OF FORTUNE — LONG JITO"},
+    {"name": "clones", "kicker": "EVERYBODY'S FAVORITE", "title": "THE AI CLONES PODDED WITHOUT US"},
+    {"name": "jared", "kicker": "THE MARQUEE", "title": "JARED GOT JARED — A $15M MEV HEIST"},
+    {"name": "codelaw", "kicker": "THE ETERNAL DEBATE", "title": "CODE IS LAW vs LAW IS LAW"},
+    {"name": "kimi", "kicker": "OPEN WEIGHTS, OPEN QUESTIONS", "title": "KIMI K3: HYPE CHECK"},
+    {"name": "vibes", "kicker": "CONFESSION CORNER", "title": "A PARASOCIAL RELATIONSHIP WITH CLAUDE"},
+    {"name": "bakeoff", "kicker": "ONE PROBLEM, TWO MODELS", "title": "FABLE vs GPT-5.6"},
+    {"name": "costs", "kicker": "THE AI BILL", "title": "\"MORE ON AI THAN FOOD\""},
+    {"name": "atrophy", "kicker": "USE IT OR LOSE IT", "title": "IS AI MELTING OUR BRAINS?"},
+    {"name": "jito", "kicker": "SOMETHING'S HAPPENING ON SOLANA", "title": "JITO, BRIBES & THE TOLL BOOTH"},
+    {"name": "wrap", "kicker": "NEXT WEEK", "title": "CHRIS'S VERY SPECIFIC BAD REASONS"}
+  ],
+  "stats": [
+    {"name": "coldopen", "kicker": "EPISODE 9", "main": "In this pod…"},
+    {"name": "roll", "kicker": "THE ROLL", "main": "LONG JITO  ·  \"hold the sandwich\""},
+    {"name": "guard", "kicker": "FABLE'S GUARDRAILS", "main": "Claude rolled 10×  ·  filled at 5×"},
+    {"name": "heist", "kicker": "THE JARED BOT, DRAINED", "main": "$7.5–15M  ·  one standing approval at a time"},
+    {"name": "tokens", "kicker": "TYLER'S BEAR CASE", "main": "Benchmarks: gameable  ·  10× tokens per task"},
+    {"name": "bakeoff", "kicker": "THE SCOREBOARD", "main": "Fable: one-shot ✓  ·  3× the time  ·  3× the cost"},
+    {"name": "water", "kicker": "THE WATER QUESTION", "main": "Evaporative → closed loop. Lake Michigan is safe."},
+    {"name": "uber", "kicker": "RATION MATH", "main": "Uber: $200 of tokens a week"},
+    {"name": "monster", "kicker": "200 HOURS OF LEETCODE", "main": "\"A throne of white Monster\""}
+  ]
+}

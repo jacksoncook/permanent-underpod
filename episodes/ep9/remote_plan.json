@@ -1,0 +1,563 @@
+{
+ "_notes": [
+  "Ep 9 \u2014 3 platform-exported cams, identical durations, offsets 0/0/0 (validated:",
+  "  turn-gap medians all within \u00b10.5s of global; same setup as Ep 8).",
+  "NO WRENCH-ATTACK DISCOURSE EXISTS in this session (grepped merged transcript +",
+  "  per-track CSVs + phonetic near-misses; transcript coverage has zero gaps >20s).",
+  "  Jackson's 'take out wrench attack discourse' note has nothing to bite on.",
+  "REORDER: intro ends on Jackson's live toss 'is the perp of fortune going?' (186.95)",
+  "  and the Perp segment (recorded at 968+ after they tabled it) plays RIGHT THERE \u2014",
+  "  Chris's 'I was gonna say, do you want to talk about perp fortune first?' answers",
+  "  the toss. Retainer lands ~3 min in per analytics. The 176-199 deliberation",
+  "  ('we can table it') and Jackson's flub 'AI cut this out' are gone as asked.",
+  "AI-CLONES VIDEO: no insert asset exists in media/ep9, so the toss 'check out the",
+  "  sick video / and we're back' (199-219) is cut; the segment cold-opens on Chris's",
+  "  'surprisingly little personal information was revealed by our AI counterparts'.",
+  "GITHUB BIT: Jackson's on-air editor notes honored \u2014 'maybe AI just throw this back'",
+  "  moves the beat (3299.35-3389.24) back into the AI-costs segment (S8c, after the",
+  "  context-window-extender joke), and 'overlay github contributions from 2026' gets",
+  "  a REAL heatmap (gh api, 2048 contributions, gh_contrib.json) as st_commits timed",
+  "  to the ask. The meta lines 3284-3299 ('too much of a throwback / throw this back')",
+  "  do not air. GH block has NO pip (master non-monotonic there).",
+  "PERP DASHBOARD (ep9perp.mp4): anchor 2470.35 \u2014 recording ends exactly at session",
+  "  end (3708.47-1238.12). On-screen P&L +3.19 \u2192 -7.45; the spoken 'about to break",
+  "  10' / 'popped from six' (3163/3189) is the SUNK % (6%\u21929%), matching t\u2248693-719.",
+  "  Corner PiP continuous from master 2470.4 to the end across S9a..S11 (monotonic,",
+  "  verified); FULL-screen beat 3186.85-3196 at the panic. Corner crop is the",
+  "  UNREALIZED FORTUNE + chart region; full uses a 16:9 content crop (kills the",
+  "  browser pillarboxes).",
+  "COLD OPEN 73s: heist punchline ('$7.5-15M, a good day for him' / 'a pseudonymous",
+  "  version of Chris actually executed this attack') \u2192 parasocial confession \u2192",
+  "  finale tease (the sink panic + 'did Jared get wrecked again' callback).",
+  "  COLD2 ends at 1537.0 mid-Jackson-crosstalk BY DESIGN: his mic is outside the",
+  "  block's mics whitelist and cams excludes him, so the cut is inaudible+invisible;",
+  "  Tyler's own words end 1536.46 (word-level verified).",
+  "Every REAL splice boundary verified into a measured all-silent union gap",
+  "  (check_bounds.py / spans.py); contiguous chapter joins share the same master",
+  "  point so snap() moves both edges identically.",
+  "mute chris 966.2-968.05 in S4: kills his clipped 'Should we? Oh\u2014' at the MEV tail",
+  "  (his ask airs at the top of S2 instead).",
+  "TRIMS: pre-show 0-102; perp deliberation 176-199+199-220; water-cycle hedge",
+  "  2185-2221; board-game analogy 2867-2914; leetcode-value musing 2996-3011;",
+  "  GH meta 3284-3299; flashbots preamble 3483-3511.",
+  "Audio: gain_target 0.006 + volume make-up in render.json (Ep 8 lesson: 0.028",
+  "  clipped the 16-bit intermediate destructively). astats edited_raw.mov before",
+  "  final render: Flat factor MUST be 0.000.",
+  "Jackson is on speakers (no headphones on cam; whisper 'You' bleed lines) but his",
+  "  bleed stays under the adaptive VAD (0.43s false-fire in a 50s Tyler monologue);",
+  "  idle_gain 0.10 (vs 0.12) as insurance.",
+  "S11 end moved 3708.4 -> 3705.71: speech runs to the literal file end (Jackson laugh chopped by recording stop at 3708.44), snap() had no in-coverage gap and cutlist crashed; RMS envelope shows Chris's 'sponsoring.' ends 3705.10, gap 3705.3-3706.12 -> episode buttons on the Gito punchline, laugh dropped.",
+  "S2 m0 968.08 -> 1009.1 (preview loop): the 968-1002 stretch opened on a Kimi false-start non-sequitur after S1's perp toss; no union gap exists before Chris's 'let's put it up' (speech continuous 1000.4-1008.6), but 1008.64-1009.60 is clean silence and Tyler's read 'Okay, yeah, we're trying something a little bit new this time...' answers the toss directly. Saves ~41s. S5 re-opens Kimi independently ('Yeah, speaking of the Kimmy...'), verified in preview."
+ ],
+ "blocks": [
+  {
+   "id": "COLD1",
+   "m0": 522.13,
+   "m1": 549.47,
+   "mics": [
+    "chris",
+    "tyler"
+   ]
+  },
+  {
+   "id": "COLD2",
+   "m0": 1509.42,
+   "m1": 1537.0,
+   "mics": [
+    "chris",
+    "tyler"
+   ],
+   "cams": [
+    "chris",
+    "tyler"
+   ]
+  },
+  {
+   "id": "COLD3",
+   "m0": 3186.85,
+   "m1": 3205.38
+  },
+  {
+   "id": "CARD_TITLE",
+   "card": "card_title.mov"
+  },
+  {
+   "id": "S1",
+   "m0": 101.86,
+   "m1": 186.95
+  },
+  {
+   "id": "S2",
+   "m0": 1009.1,
+   "m1": 1202.5
+  },
+  {
+   "id": "S3",
+   "m0": 220.79,
+   "m1": 338.5
+  },
+  {
+   "id": "S4",
+   "m0": 338.5,
+   "m1": 968.08,
+   "mute": [
+    [
+     "chris",
+     966.2,
+     968.05
+    ]
+   ]
+  },
+  {
+   "id": "S5",
+   "m0": 1202.5,
+   "m1": 1477.5
+  },
+  {
+   "id": "S6",
+   "m0": 1477.5,
+   "m1": 1670.84
+  },
+  {
+   "id": "S7",
+   "m0": 1670.84,
+   "m1": 1906.36
+  },
+  {
+   "id": "S8a",
+   "m0": 1906.36,
+   "m1": 2185.0
+  },
+  {
+   "id": "S8b",
+   "m0": 2221.08,
+   "m1": 2421.1
+  },
+  {
+   "id": "S8c",
+   "m0": 3299.35,
+   "m1": 3389.24
+  },
+  {
+   "id": "S9a",
+   "m0": 2421.1,
+   "m1": 2867.28
+  },
+  {
+   "id": "S9b",
+   "m0": 2914.03,
+   "m1": 2996.13
+  },
+  {
+   "id": "S9c",
+   "m0": 3011.39,
+   "m1": 3186.85
+  },
+  {
+   "id": "S10a",
+   "m0": 3186.85,
+   "m1": 3284.18
+  },
+  {
+   "id": "S10b",
+   "m0": 3389.24,
+   "m1": 3483.09
+  },
+  {
+   "id": "S10c",
+   "m0": 3510.84,
+   "m1": 3624.0
+  },
+  {
+   "id": "S11",
+   "m0": 3624.0,
+   "m1": 3705.71
+  },
+  {
+   "id": "CARD_END",
+   "card": "card_end.mov"
+  }
+ ],
+ "protect": [
+  [
+   522.0,
+   550.0
+  ],
+  [
+   1009.0,
+   1047.0
+  ],
+  [
+   1509.0,
+   1538.0
+  ],
+  [
+   2028.0,
+   2048.0
+  ],
+  [
+   3186.5,
+   3206.0
+  ],
+  [
+   3690.0,
+   3705.7
+  ]
+ ],
+ "face_cx": {
+  "jackson": 630,
+  "chris": 590,
+  "tyler": 690
+ },
+ "panel_order": [
+  "jackson",
+  "chris",
+  "tyler"
+ ],
+ "params": {
+  "idle_gain": 0.1,
+  "group_thresh": 0.25,
+  "group_hold": 1.0,
+  "react_thresh": 0.6,
+  "min_shot": 3.0,
+  "gain_target": 0.006
+ },
+ "overlays": [
+  {
+   "name": "st_coldopen",
+   "block": "COLD1",
+   "rel": 0.0,
+   "dur": 12.0,
+   "kind": "st"
+  },
+  {
+   "name": "lt_intro",
+   "block": "S1",
+   "m": 108.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_perp",
+   "block": "S2",
+   "m": 1010.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_roll",
+   "block": "S2",
+   "m": 1036.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "st_guard",
+   "block": "S2",
+   "m": 1163.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "lt_clones",
+   "block": "S3",
+   "m": 224.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_jared",
+   "block": "S4",
+   "m": 345.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_heist",
+   "block": "S4",
+   "m": 529.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "lt_codelaw",
+   "block": "S4",
+   "m": 622.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_kimi",
+   "block": "S5",
+   "m": 1208.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_tokens",
+   "block": "S5",
+   "m": 1303.0,
+   "dur": 9,
+   "kind": "st"
+  },
+  {
+   "name": "lt_vibes",
+   "block": "S6",
+   "m": 1490.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_bakeoff",
+   "block": "S7",
+   "m": 1676.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_bakeoff",
+   "block": "S7",
+   "m": 1706.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "lt_costs",
+   "block": "S8a",
+   "m": 1920.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_water",
+   "block": "S8a",
+   "m": 2146.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "st_uber",
+   "block": "S8b",
+   "m": 2333.0,
+   "dur": 9,
+   "kind": "st"
+  },
+  {
+   "name": "st_commits",
+   "block": "S8c",
+   "m": 3310.0,
+   "dur": 12,
+   "kind": "st"
+  },
+  {
+   "name": "lt_atrophy",
+   "block": "S9a",
+   "m": 2431.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_monster",
+   "block": "S9b",
+   "m": 2929.0,
+   "dur": 9,
+   "kind": "st"
+  },
+  {
+   "name": "lt_jito",
+   "block": "S10a",
+   "m": 3212.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_wrap",
+   "block": "S11",
+   "m": 3630.0,
+   "dur": 6,
+   "kind": "lt"
+  }
+ ],
+ "pips": [
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep9/ep9perp.mp4",
+   "block": "COLD3",
+   "m0": 3186.85,
+   "m1": 3205.38,
+   "anchor": 2470.35,
+   "mode": "corner",
+   "crop": [
+    540,
+    230,
+    840,
+    360
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep9/ep9perp.mp4",
+   "block": "S9a",
+   "m0": 2470.4,
+   "m1": 2867.28,
+   "anchor": 2470.35,
+   "mode": "corner",
+   "crop": [
+    540,
+    230,
+    840,
+    360
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep9/ep9perp.mp4",
+   "block": "S9b",
+   "m0": 2914.03,
+   "m1": 2996.13,
+   "anchor": 2470.35,
+   "mode": "corner",
+   "crop": [
+    540,
+    230,
+    840,
+    360
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep9/ep9perp.mp4",
+   "block": "S9c",
+   "m0": 3011.39,
+   "m1": 3186.85,
+   "anchor": 2470.35,
+   "mode": "corner",
+   "crop": [
+    540,
+    230,
+    840,
+    360
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep9/ep9perp.mp4",
+   "block": "S10a",
+   "m0": 3186.85,
+   "m1": 3196.0,
+   "anchor": 2470.35,
+   "mode": "full",
+   "crop": [
+    304,
+    60,
+    1312,
+    738
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep9/ep9perp.mp4",
+   "block": "S10a",
+   "m0": 3196.0,
+   "m1": 3284.18,
+   "anchor": 2470.35,
+   "mode": "corner",
+   "crop": [
+    540,
+    230,
+    840,
+    360
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep9/ep9perp.mp4",
+   "block": "S10b",
+   "m0": 3389.24,
+   "m1": 3483.09,
+   "anchor": 2470.35,
+   "mode": "corner",
+   "crop": [
+    540,
+    230,
+    840,
+    360
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep9/ep9perp.mp4",
+   "block": "S10c",
+   "m0": 3510.84,
+   "m1": 3624.0,
+   "anchor": 2470.35,
+   "mode": "corner",
+   "crop": [
+    540,
+    230,
+    840,
+    360
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep9/ep9perp.mp4",
+   "block": "S11",
+   "m0": 3624.0,
+   "m1": 3705.6,
+   "anchor": 2470.35,
+   "mode": "corner",
+   "crop": [
+    540,
+    230,
+    840,
+    360
+   ]
+  }
+ ],
+ "sheet": [
+  {
+   "block": "COLD1",
+   "label": "Cold open"
+  },
+  {
+   "block": "CARD_TITLE",
+   "label": "Title"
+  },
+  {
+   "block": "S1",
+   "label": "The boys are back"
+  },
+  {
+   "block": "S2",
+   "label": "Perp of Fortune: hold the sandwich"
+  },
+  {
+   "block": "S3",
+   "label": "The AI clones return"
+  },
+  {
+   "block": "S4",
+   "label": "Jared got Jared \u2014 a $15M MEV heist"
+  },
+  {
+   "block": "S5",
+   "label": "Kimi K3 hype check"
+  },
+  {
+   "block": "S6",
+   "label": "Claude, GPT & parasocial feelings"
+  },
+  {
+   "block": "S7",
+   "label": "Fable vs GPT-5.6 bake-off"
+  },
+  {
+   "block": "S8a",
+   "label": "The AI bill (and the water thing)"
+  },
+  {
+   "block": "S9a",
+   "label": "Is AI melting our brains?"
+  },
+  {
+   "block": "S10a",
+   "label": "Something's happening on Solana"
+  },
+  {
+   "block": "S11",
+   "label": "Wrap: very specific bad reasons"
+  }
+ ]
+}
