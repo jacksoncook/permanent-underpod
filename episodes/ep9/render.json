@@ -1,7 +1,7 @@
 {
  "out": "/Users/jcook/Personal/permanent-underpod/media/ep9/Permanent Underpod - Ep 9 (Final Cut).mp4",
  "chain": "highpass=f=80,volume=13.1dB,afftdn=nr=18:nf=-50:tn=1,acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,treble=f=9500:width_type=q:w=0.8:g=2,loudnorm=I=-16:TP=-1.5:LRA=5",
- "target_lufs": -14.5,
+ "target_lufs": -13.6,
  "limit": 0.65,
  "logo": {
   "file": "logo.png",
@@ -16,11 +16,6 @@
   {
    "file": "sfx_whoosh.wav",
    "block": "COLD2",
-   "offset": -0.15
-  },
-  {
-   "file": "sfx_whoosh.wav",
-   "block": "COLD3",
    "offset": -0.15
   },
   {
@@ -45,11 +40,6 @@
   },
   {
    "file": "sfx_whoosh.wav",
-   "block": "S4",
-   "offset": -0.3
-  },
-  {
-   "file": "sfx_whoosh.wav",
    "block": "S5",
    "offset": -0.3
   },
@@ -59,139 +49,89 @@
    "offset": -0.3
   },
   {
-   "file": "sfx_whoosh.wav",
+   "file": "sfx_whoosh2.wav",
    "block": "S7",
    "offset": -0.3
   },
   {
    "file": "sfx_whoosh.wav",
-   "block": "S8a",
-   "offset": -0.3
-  },
-  {
-   "file": "sfx_whoosh.wav",
-   "block": "S9a",
-   "offset": -0.3
-  },
-  {
-   "file": "sfx_whoosh2.wav",
-   "block": "S10a",
-   "offset": -0.3
-  },
-  {
-   "file": "sfx_whoosh.wav",
-   "block": "S11",
+   "block": "S8",
    "offset": -0.3
   },
   {
    "file": "sfx_sting.wav",
    "block": "CARD_END",
-   "offset": 0
+   "offset": 0.0
   }
  ],
  "anim": [
   {
    "file": "wipe.mov",
-   "start": 27.15,
-   "end": 27.55,
+   "start": 37.89,
+   "end": 38.29,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 54.72,
-   "end": 55.12,
+   "start": 88.99,
+   "end": 89.39,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 73.22,
-   "end": 73.62,
+   "start": 93.49,
+   "end": 93.89,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 77.72,
-   "end": 78.12,
+   "start": 150.85,
+   "end": 151.25,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 161.42,
-   "end": 161.82,
+   "start": 315.59,
+   "end": 315.99,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 355.32,
-   "end": 355.72,
+   "start": 1554.62,
+   "end": 1555.02,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 473.02,
-   "end": 473.42,
+   "start": 2154.15,
+   "end": 2154.55,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 1100.39,
-   "end": 1100.79,
+   "start": 2430.59,
+   "end": 2430.99,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 1373.09,
-   "end": 1373.49,
+   "start": 3292.22,
+   "end": 3292.62,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 1566.62,
-   "end": 1567.02,
-   "x": 0,
-   "y": 0
-  },
-  {
-   "file": "wipe.mov",
-   "start": 1800.45,
-   "end": 1800.85,
-   "x": 0,
-   "y": 0
-  },
-  {
-   "file": "wipe.mov",
-   "start": 2363.05,
-   "end": 2363.45,
-   "x": 0,
-   "y": 0
-  },
-  {
-   "file": "wipe.mov",
-   "start": 3066.79,
-   "end": 3067.19,
-   "x": 0,
-   "y": 0
-  },
-  {
-   "file": "wipe.mov",
-   "start": 3370.19,
-   "end": 3370.59,
-   "x": 0,
-   "y": 0
-  },
-  {
-   "file": "wipe.mov",
-   "start": 3452.85,
-   "end": 3453.25,
+   "start": 3359.95,
+   "end": 3360.35,
    "x": 0,
    "y": 0
   }

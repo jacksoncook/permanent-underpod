@@ -1,8 +1,8 @@
 {
  "reference": "jackson",
  "tracks": {
-  "jackson": {"file": "/Users/jcook/Personal/permanent-underpod/media/ep9/work/src/jackson_720.mp4", "person": "jackson"},
-  "chris":   {"file": "/Users/jcook/Personal/permanent-underpod/media/ep9/work/src/chris_720.mp4",   "person": "chris"},
-  "tyler":   {"file": "/Users/jcook/Personal/permanent-underpod/media/ep9/work/src/tyler_720.mp4",   "person": "tyler"}
+  "jackson": {"person": "jackson", "file": "/Users/jcook/Personal/permanent-underpod/media/ep9/work/src/jackson_720.mp4"},
+  "chris":   {"person": "chris",   "file": "/Users/jcook/Personal/permanent-underpod/media/ep9/work/src/chris_720.mp4"},
+  "tyler":   {"person": "tyler",   "file": "/Users/jcook/Personal/permanent-underpod/media/ep9/work/src/tyler_720.mp4"}
  }
 }
