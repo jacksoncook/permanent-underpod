@@ -1,0 +1,233 @@
+{
+ "source": "/Users/jcook/Personal/permanent-underpod/media/ep9/work/edited_raw.mov",
+ "out_dir": "/Users/jcook/Personal/permanent-underpod/media/clips/ep9",
+ "logo": "/Users/jcook/Personal/permanent-underpod/brand/logo-480.png",
+ "audio_chain": "highpass=f=80,volume=13.1dB,afftdn=nr=18:nf=-50:tn=1,acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,treble=f=9500:width_type=q:w=0.8:g=2,loudnorm=I=-16:TP=-1.5:LRA=5",
+ "_note": "Ep 9. All 8 are face-crop verticals off edited_raw.mov (same timeline as the final cut). Master-time bounds were placed in check_bounds.py all-silent union gaps, word identity confirmed by micro-whisper on the speaking track, then mapped to final time via work/clips.json pieces (no clip straddles a squeeze; short4 out sits on the 2299.40/2301.15 squeeze splice). verify_clips.py on the mix is the gate; where the union scan had no gap (reaction overlap) the bound is marked 'mix-gap TBV' and verify's suggestion wins.",
+ "clips": [
+  {
+   "name": "short1-make-me-a-millionaire",
+   "start": 686.597,
+   "end": 699.51,
+   "vertical": true,
+   "face_crops": [
+    [
+     0.0,
+     407,
+     "cut"
+    ]
+   ],
+   "caption": {
+    "kicker": "THE COLDCARD HEIST",
+    "title": "MAKE ME A MILLIONAIRE"
+   },
+   "_boundary": "master 428.60-441.64; in = COLD1 gate gap 428.34-428.86 ('So somebody basically just took up Kimi K3'); out gap 441.48-441.80, micro-whisper confirms it buttons on 'Don't make any mistakes.'"
+  },
+  {
+   "name": "short2-the-runs-commit",
+   "start": 903.097,
+   "end": 931.277,
+   "vertical": true,
+   "face_crops": [
+    [
+     0.0,
+     407,
+     "cut"
+    ],
+    [
+     8.17,
+     757,
+     "cut"
+    ],
+    [
+     14.17,
+     407,
+     "cut"
+    ]
+   ],
+   "caption": {
+    "kicker": "BITCOIN'S DARKEST COMMIT",
+    "title": "FOUR LETTERS: RUNS"
+   },
+   "_boundary": "master 645.10-673.28; in gap 644.76-645.44 ('like the commit message on the commit that put in the bug'); out gap 673.08-673.48 -- word placement vs 'So sketchy' ambiguous on the union scan, verify --whisper arbitrates (mix-gap TBV)"
+  },
+  {
+   "name": "short3-rolled-dice-100-times",
+   "start": 1006.297,
+   "end": 1028.06,
+   "vertical": true,
+   "face_crops": [
+    [
+     0.0,
+     117,
+     "cut"
+    ],
+    [
+     1.75,
+     757,
+     "cut"
+    ],
+    [
+     5.47,
+     407,
+     "cut"
+    ]
+   ],
+   "caption": {
+    "kicker": "EXTREME PARANOIA",
+    "title": "ROLL DICE 100 TIMES"
+   },
+   "_boundary": "master 748.30-770.06; in verified on the mix (gap 1006.02-1006.64 final); out snapped to verify's suggestion 1028.06 (gap after 'Super tedious.')"
+  },
+  {
+   "name": "short4-punk-in-voo",
+   "start": 2291.133,
+   "end": 2323.75,
+   "vertical": true,
+   "face_crops": [
+    [
+     0.0,
+     407,
+     "cut"
+    ],
+    [
+     3.2,
+     757,
+     "cut"
+    ],
+    [
+     5.7,
+     117,
+     "cut"
+    ],
+    [
+     12.2,
+     757,
+     "cut"
+    ],
+    [
+     31.45,
+     117,
+     "cut"
+    ]
+   ],
+   "caption": {
+    "kicker": "COUNTERCULTURE IS DEAD",
+    "title": "I'M A PUNK IN VOO"
+   },
+   "_boundary": "master 2266.78-2299.40; in gap 2266.42-2267.14 ('I know, I thought it was edgy, but I'm just unk'); out is the squeeze splice at final 2323.753 inside the 2299.06-2301.52 master gap (0.7s of silence survives around it)"
+  },
+  {
+   "name": "short5-good-concussion",
+   "start": 2406.447,
+   "end": 2425.547,
+   "vertical": true,
+   "face_crops": [
+    [
+     0.0,
+     117,
+     "cut"
+    ],
+    [
+     15.82,
+     417,
+     "cut"
+    ]
+   ],
+   "caption": {
+    "kicker": "SAFETY FIRST",
+    "title": "WE'VE ALL HAD A CONCUSSION"
+   },
+   "_boundary": "master 2383.83-2402.93; in gap 2383.60-2384.06 ('Don't get a concussion'); out gap 2402.74-2403.12 after Jackson's laugh, BEFORE 'And we're negative' (which needs the dashboard PiP and stays out)"
+  },
+  {
+   "name": "short6-wife-beater-to-the-club",
+   "start": 2625.187,
+   "end": 2646.6,
+   "vertical": true,
+   "face_crops": [
+    [
+     0.0,
+     417,
+     "cut"
+    ],
+    [
+     5.58,
+     117,
+     "cut"
+    ]
+   ],
+   "caption": {
+    "kicker": "FRONTIER LABS RN",
+    "title": "WIFE BEATER TO THE CLUB"
+   },
+   "_boundary": "master 2602.56-2623.80; in gap 2602.00-2603.12 ('they just need to stop bragging'); out DESIRED after Chris's punchline ~2623.8 (mix-gap TBV -- Jackson reacts immediately on the union scan) | out moved 2646.43->2646.60 (deeper in the 2646.35-2646.82 gap) after a rendered-tail WARN: 'Hypothetically.' ends by 2646.35, the hot tail was its room decay"
+  },
+  {
+   "name": "short7-podcast-is-my-job",
+   "start": 2657.227,
+   "end": 2689.38,
+   "vertical": true,
+   "face_crops": [
+    [
+     0.0,
+     117,
+     "cut"
+    ],
+    [
+     14.79,
+     757,
+     "cut"
+    ],
+    [
+     17.54,
+     407,
+     "cut"
+    ],
+    [
+     22.04,
+     417,
+     "cut"
+    ]
+   ],
+   "caption": {
+    "kicker": "IT'S CALLED RESEARCH",
+    "title": "THIS PODCAST IS MY JOB"
+   },
+   "_boundary": "master 2634.60-2666.80; in gap 2634.36-2634.84 ('You can just not pay attention if you find it annoying'); out DESIRED after 'Transitive property, something like that.' ~2666.8 (mix-gap TBV; fallback 2669.35 risks Chris's stutter)"
+  },
+  {
+   "name": "short8-training-data-rn",
+   "start": 3208.737,
+   "end": 3228.85,
+   "vertical": true,
+   "face_crops": [
+    [
+     0.0,
+     117,
+     "cut"
+    ],
+    [
+     2.03,
+     407,
+     "cut"
+    ],
+    [
+     5.53,
+     417,
+     "cut"
+    ],
+    [
+     10.53,
+     607,
+     "cut"
+    ]
+   ],
+   "caption": {
+    "kicker": "SAY HI TO THE MODELS",
+    "title": "WE'RE TRAINING DATA RN"
+   },
+   "_boundary": "master 3186.11-3206.22; in gap 3185.94-3186.28 ('Do you guys know that we're generating training data right now?'); out in the measured 3228.62-3228.95 mix gap after 'a little Chris Colonel. We'll take that.' (first try 3227.33 cut the word 'Chris'). Tail crop key [19.53,10] from remote_face_crops pruned: 0.58s flash of Jackson whose line is cut | last crop key x 457->607 (drift compromise: face center 730->860 across the window): Chris leans right through the window (face center ~860 by 3228), the plan's static face_cx column caught half a face"
+  }
+ ]
+}

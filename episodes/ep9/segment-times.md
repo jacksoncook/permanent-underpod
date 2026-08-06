@@ -111,6 +111,33 @@ _Pending: regenerate SRT from the FINAL cut (never the raw cams — Ep 1 desync
 rule), upload via captions API after the episode is live (`trackKind` reads back
 lowercase; use `token_captions.json` / `youtube.force-ssl`)._
 
+## Clips (uploaded 2026-08-06, scheduled-private — all 9:16 face-crop shorts,
+playlist **Underpod Shorts**; both `verify_clips.py` gates green pre- and
+post-render; decision docs in `publishing/`)
+
+Scheduling follows Jackson's new rule: **a day that already has a short scheduled
+gets the new one 12 hours later.** Ep 8 shorts hold Aug 6–7 at 2 PM PT, so shorts
+1–2 land at 2 AM PT; Aug 8 carries two Ep 9 shorts (2 AM + 2 PM), 12 h apart.
+
+| Publish (PT) | clip | dur | Title | Source | URL |
+|---|---|---|---|---|---|
+| Fri Aug 7 **2 AM** | short1-make-me-a-millionaire | 0:13 | Make me a millionaire, don't make any mistakes 🤑 | 11:26 | https://youtu.be/f_mMNThNHWo |
+| Sat Aug 8 **2 AM** | short2-the-runs-commit | 0:28 | The commit message was just "runs" 💀 | 15:03 | https://youtu.be/Hp_VVzCOMs0 |
+| Sat Aug 8 2 PM | short3-rolled-dice-100-times | 0:22 | He rolled dice 100 times to protect his Bitcoin 🎲 | 16:46 | https://youtu.be/L7ebMxccoM8 |
+| Sun Aug 9 2 PM | short4-punk-in-voo | 0:33 | I'm a punk in VOO 🧷 | 38:11 | https://youtu.be/kXe5JKRQOMM |
+| Mon Aug 10 2 PM | short5-good-concussion | 0:19 | We've all had a good concussion 🚴 | 40:06 | https://youtu.be/JgfgtSu-0xM |
+| Tue Aug 11 2 PM | short6-wife-beater-to-the-club | 0:21 | AI labs are wearing wife beaters to the club 💪 | 43:45 | https://youtu.be/S6Y5_xLuylU |
+| Wed Aug 12 2 PM | short7-podcast-is-my-job | 0:32 | Hey, this podcast is my job 🎙️ | 44:17 | https://youtu.be/DgS9Bo-0EKs |
+| Thu Aug 13 2 PM | short8-training-data-rn | 0:20 | We're generating training data right now 🤖 | 53:29 | https://youtu.be/fUOH--xNPgE |
+
+_[FOR JACKSON: the first short goes live **Fri Aug 7, 2 AM PT** and the episode
+isn't published yet. Descriptions ship with "Full episode on the Permanent
+Underpod channel." — once you publish, patch every clip description to the real
+`Full episode: https://youtu.be/…` link (videos.update, cheap), then work the
+funnel checklist (related video, pinned comments with the Source timestamps
+above, end screens). Publish before Friday 2 AM PT or say the word and I'll
+push the schedule back.]_
+
 ## Edit decisions of note (details in `remote_plan.json` `_notes`)
 
 - **Wrench-attack discourse removed** (Jackson's ask): master 791.96–853.46

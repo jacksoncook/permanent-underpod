@@ -1,0 +1,63 @@
+{
+  "client_secret": "~/.config/clipify-youtube/client_secret.json",
+  "token": "~/.config/clipify-youtube/token.json",
+  "defaults": {"categoryId": "22", "privacyStatus": "private", "madeForKids": false, "playlist": "Underpod Shorts"},
+  "uploads": [
+    {
+      "file": "/Users/jcook/Personal/permanent-underpod/media/clips/ep9/short1-make-me-a-millionaire.mp4",
+      "title": "Make me a millionaire, don't make any mistakes 🤑",
+      "description": "Somebody pointed an open-weights AI at Bitcoin wallet code with one prompt — and it worked. Full episode on the Permanent Underpod channel.\n\n#shorts #bitcoin #ai #coldcard",
+      "tags": ["bitcoin", "ai", "coldcard", "crypto", "podcast"],
+      "publishAt": "2026-08-07T09:00:00Z"
+    },
+    {
+      "file": "/Users/jcook/Personal/permanent-underpod/media/clips/ep9/short2-the-runs-commit.mp4",
+      "title": "The commit message was just \"runs\" 💀",
+      "description": "Thousands of lines swapped in Bitcoin's most paranoid hardware wallet, a four-letter commit message, and a pseudonymous committer. Full episode on the Permanent Underpod channel.\n\n#shorts #bitcoin #opensource #coldcard",
+      "tags": ["bitcoin", "coldcard", "opensource", "git", "podcast"],
+      "publishAt": "2026-08-08T09:00:00Z"
+    },
+    {
+      "file": "/Users/jcook/Personal/permanent-underpod/media/clips/ep9/short3-rolled-dice-100-times.mp4",
+      "title": "He rolled dice 100 times to protect his Bitcoin 🎲",
+      "description": "Tyler's \"extreme paranoia\" seed ritual looked insane right up until it saved his coins from the Coldcard hack. Full episode on the Permanent Underpod channel.\n\n#shorts #bitcoin #selfcustody #coldcard",
+      "tags": ["bitcoin", "selfcustody", "coldcard", "hardware wallet", "podcast"],
+      "publishAt": "2026-08-08T21:00:00Z"
+    },
+    {
+      "file": "/Users/jcook/Personal/permanent-underpod/media/clips/ep9/short4-punk-in-voo.mp4",
+      "title": "I'm a punk in VOO 🧷",
+      "description": "Prediction markets got more degen than crypto, the counterculture got co-opted, and the only rebellion left is a Vanguard ETF. Full episode on the Permanent Underpod channel.\n\n#shorts #investing #counterculture",
+      "tags": ["investing", "voo", "prediction markets", "counterculture", "podcast"],
+      "publishAt": "2026-08-09T21:00:00Z"
+    },
+    {
+      "file": "/Users/jcook/Personal/permanent-underpod/media/clips/ep9/short5-good-concussion.mp4",
+      "title": "We've all had a good concussion 🚴",
+      "description": "Bike-commute safety talk turns into the most backhanded reassurance in podcast history. Full episode on the Permanent Underpod channel.\n\n#shorts #podcast #cycling",
+      "tags": ["cycling", "podcast", "comedy", "concussion"],
+      "publishAt": "2026-08-10T21:00:00Z"
+    },
+    {
+      "file": "/Users/jcook/Personal/permanent-underpod/media/clips/ep9/short6-wife-beater-to-the-club.mp4",
+      "title": "AI labs are wearing wife beaters to the club 💪",
+      "description": "The frontier-model pissing contest, summarized in one outfit. Full episode on the Permanent Underpod channel.\n\n#shorts #ai #frontiermodels",
+      "tags": ["ai", "frontier models", "llm", "podcast", "comedy"],
+      "publishAt": "2026-08-11T21:00:00Z"
+    },
+    {
+      "file": "/Users/jcook/Personal/permanent-underpod/media/clips/ep9/short7-podcast-is-my-job.mp4",
+      "title": "Hey, this podcast is my job 🎙️",
+      "description": "\"You can just not pay attention\" meets the transitive property of podcasting. Full episode on the Permanent Underpod channel.\n\n#shorts #ai #podcast",
+      "tags": ["ai", "podcast", "comedy", "model news"],
+      "publishAt": "2026-08-12T21:00:00Z"
+    },
+    {
+      "file": "/Users/jcook/Personal/permanent-underpod/media/clips/ep9/short8-training-data-rn.mp4",
+      "title": "We're generating training data right now 🤖",
+      "description": "The boys realize this episode is going straight into the next model's weights — and start angling for a good seat. Full episode on the Permanent Underpod channel.\n\n#shorts #ai #trainingdata",
+      "tags": ["ai", "training data", "llm", "podcast", "comedy"],
+      "publishAt": "2026-08-13T21:00:00Z"
+    }
+  ]
+}
