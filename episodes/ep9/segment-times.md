@@ -1,4 +1,4 @@
-# Permanent Underpod — Ep 9 — Segment Times (DRAFT — not yet published)
+# Permanent Underpod — Ep 9 — Segment Times
 
 **Final cut: 56:07 · fully-remote episode (three local cams, offsets 0/0/0 —
 platform-identical 3338.9 s exports, validated by turn-gap medians; the by-ear
@@ -11,12 +11,14 @@ invisible splice).**
 
 ## Episode video
 
-- **URL:** _pending — Jackson publishes (needs a release date/time)_
+- **URL:** https://youtu.be/84Wwl7auWqI — **LIVE 2026-08-06**
+- **Live title:** "Do Everything Right, Lose Everything: The Coldcard Catastrop" —
+  **truncated** (missing "he"); the API can't fix it while the running
+  Test & Compare experiment holds the title (`UPDATE_TITLE_NOT_ALLOWED_DURING_
+  TEST_AND_COMPARE`) — Jackson fixes the variant(s) in Studio.
+- **Description:** the draft below, shipped verbatim. No tags (house style).
+- **Captions:** `ep9-final-cut.srt` uploaded via API 2026-08-06 (only ASR existed).
 - **File:** `media/ep9/Permanent Underpod - Ep 9 (Final Cut).mp4`
-- **Working title:** The Coldcard Catastrophe
-- After publishing: patch tags via API, upload `ep9-final-cut.srt` (regenerated
-  from the FINAL cut), backfill this sheet from the live copy via `yt_fetch.py`.
-  Expect Jackson's manual upload to revoke the OAuth tokens again.
 
 ## Title (draft + alternates)
 
@@ -65,10 +67,10 @@ GLOSSARY
 🔔 Subscribe for next week: agentic commerce, finally — for very specific bad reasons.
 ```
 
-_[FOR JACKSON before publish: the prep guide called for a one-sentence on-air
-Block-adjacency disclosure on the Coldcard topic (Block co-published the
-root-cause; Bitkey unaffected). It was never said in the recording. Either add
-a line to the description disclaimers or record a pickup — your call.]_
+_[FOR JACKSON — still open post-publish: no Block-adjacency disclosure on air or
+in the live description. Proposed one-liner for the Disclaimers paragraph:
+"Jackson works at Block, which co-published the Coldcard root-cause analysis;
+Bitkey is unaffected." Confirm and I'll patch it in, or override.]_
 
 ## Chapters
 
@@ -107,9 +109,8 @@ Subscribe for next week: agentic commerce, finally — for very specific bad rea
 
 ## Captions
 
-_Pending: regenerate SRT from the FINAL cut (never the raw cams — Ep 1 desync
-rule), upload via captions API after the episode is live (`trackKind` reads back
-lowercase; use `token_captions.json` / `youtube.force-ssl`)._
+_Done 2026-08-06: `ep9-final-cut.srt` (regenerated from the FINAL cut) uploaded
+via the captions API (`token_captions.json`). Only the ASR track existed before._
 
 ## Clips (uploaded 2026-08-06, scheduled-private — all 9:16 face-crop shorts,
 playlist **Underpod Shorts**; both `verify_clips.py` gates green pre- and
@@ -135,13 +136,10 @@ _Revision 2026-08-06: short7-podcast-is-my-job cut per Jackson and deleted from
 YouTube pre-publish; short9 (Citadel deepfake) took its Aug 12 slot and short10
 (sloppy migration + the "runs" commit) extends the run to Aug 14._
 
-_[FOR JACKSON: the first short goes live **Fri Aug 7, 2 AM PT** and the episode
-isn't published yet. Descriptions ship with "Full episode on the Permanent
-Underpod channel." — once you publish, patch every clip description to the real
-`Full episode: https://youtu.be/…` link (videos.update, cheap), then work the
-funnel checklist (related video, pinned comments with the Source timestamps
-above, end screens). Publish before Friday 2 AM PT or say the word and I'll
-push the schedule back.]_
+_All 9 clip descriptions patched to `Full episode: https://youtu.be/84Wwl7auWqI`
+(2026-08-06, post-publish). Remaining funnel work is Studio-manual: related
+video on each short → the episode, pinned comment once each goes public
+(episode link + the Source timestamp above), end screens on the episode._
 
 ## Edit decisions of note (details in `remote_plan.json` `_notes`)
 
