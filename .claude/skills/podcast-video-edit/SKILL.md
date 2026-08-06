@@ -321,6 +321,9 @@ apply. Use the `remote_*.py` scripts instead of `analyze.sh`/`cut_render.py`:
    remote_sync.py <work> --validate          # turn-gap medians; sanity-check the bench numbers
    remote_sync.py <work> --claps m0 m1       # optional: verify vs counted group claps
    >>> YOU: read session.md, design blocks -> write remote_plan.json + brand.json + render.json
+3b. check_bounds.py <work> --plan remote_plan.json   # MANDATORY GATE — exit 1 blocks the edit
+   #  every block m0/m1 must sit in a measured all-silent union gap (see the
+   #  boundary rule below); fix any "ON SPEECH" boundary before proceeding
 4. graphics.py <work> brand.json
 4b. remote_motion.py <work>                  # OPTIONAL: per-host VISUAL reaction spans
    #  -> motion.json. Needed only if the plan sets params.react_thresh (see below).
@@ -335,6 +338,28 @@ apply. Use the `remote_*.py` scripts instead of `analyze.sh`/`cut_render.py`:
    # prints the "face_crops" array for one vertical short; then GATE the clips.json
    # with clipify's scripts/verify_clips.py before rendering (see the crop rule below)
 ```
+
+### THE BOUNDARY RULE (standing, from Jackson — never cut mid-word)
+
+Every splice boundary — block m0/m1, content removals, cold-open clip edges —
+must sit inside a **measured all-silent union gap across ALL tracks**, found with
+the 10 ms RMS envelope (`scripts/check_bounds.py`), NEVER a whisper timestamp.
+Whisper start/end times tile across real pauses and routinely sit ~1 s off; the
+envelope is the only arbiter. This applies without being asked, every episode:
+
+- `check_bounds.py <work> --plan remote_plan.json` is a mandatory gate (step 3b)
+  before cutlist/preview; it exits 1 and names the offending boundary.
+- Explore candidate seams with `check_bounds.py <work> --spans <m0> <m1>` — it
+  prints per-track speech spans and the all-silent gaps with midpoints; put the
+  boundary at a gap midpoint.
+- When picking between gaps, **micro-whisper the edges** (extract 3–6 s at the
+  candidate resume/exit point, whisper that chunk) to confirm which words air on
+  each side — a gap can be real yet split a stuttered restart from its sentence.
+- Surgical content removals (e.g. "cut the X discourse") get NO whoosh/wipe —
+  omit that block pair from `sfx`/`anim` so the join stays invisible; whooshes
+  are for topic transitions only. Both edges still gate through check_bounds.
+- Contiguous chapter joins share one master point, so the gate checks it once
+  and snap() moves both edges identically.
 
 What's different from the one-camera flow (all learned the hard way on Ep 5):
 
@@ -510,9 +535,12 @@ What's different from the one-camera flow (all learned the hard way on Ep 5):
 - Title/teaser quote boundaries: whisper word timings tile contiguously and DON'T mark
   real pauses, so cutting on a transcript ms lands mid-word and clips the speech. Use the
   CSV only to *locate* the line, then snap each boundary to a MEASURED silence —
+  `scripts/check_bounds.py` (per-track wavs + offsets.json) or, single-file,
   `silencedetect=noise=-42dB:d=0.12` on a window around it (or check edge RMS with
   `astats`) — landing the cut INSIDE the pause with ~0.2–0.4 s of breathing room before
   the first sound / after the last. Cut in the gap between sounds, never through one.
+  This is the standing BOUNDARY RULE (see the fully-remote section) — it applies to
+  every splice in every episode without being asked.
 - Check `input_tp` from a loudnorm measure early: far-mic recordings can hide +5 dB
   clipped transients (mic bumps) — the limiter at the end of the chain catches them.
 - Verify the final A/V sync by spot-checking a LATE segment, not just the start —
