@@ -67,10 +67,9 @@ GLOSSARY
 🔔 Subscribe for next week: agentic commerce, finally — for very specific bad reasons.
 ```
 
-_[FOR JACKSON — still open post-publish: no Block-adjacency disclosure on air or
-in the live description. Proposed one-liner for the Disclaimers paragraph:
-"Jackson works at Block, which co-published the Coldcard root-cause analysis;
-Bitkey is unaffected." Confirm and I'll patch it in, or override.]_
+_RESOLVED 2026-08-06: no Block-adjacency disclosure, per Jackson — cautious
+stance on work compliance. The generic "our opinions are our own, not our
+employers'" disclaimer is the ceiling; don't name the employer in show copy._
 
 ## Chapters
 
