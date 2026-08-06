@@ -127,8 +127,13 @@ gets the new one 12 hours later.** Ep 8 shorts hold Aug 6–7 at 2 PM PT, so sho
 | Sun Aug 9 2 PM | short4-punk-in-voo | 0:33 | I'm a punk in VOO 🧷 | 38:11 | https://youtu.be/kXe5JKRQOMM |
 | Mon Aug 10 2 PM | short5-good-concussion | 0:19 | We've all had a good concussion 🚴 | 40:06 | https://youtu.be/JgfgtSu-0xM |
 | Tue Aug 11 2 PM | short6-wife-beater-to-the-club | 0:21 | AI labs are wearing wife beaters to the club 💪 | 43:45 | https://youtu.be/S6Y5_xLuylU |
-| Wed Aug 12 2 PM | short7-podcast-is-my-job | 0:32 | Hey, this podcast is my job 🎙️ | 44:17 | https://youtu.be/DgS9Bo-0EKs |
+| Wed Aug 12 2 PM | short9-wire-for-a-billion | 0:34 | Hi, can you send me a wire for a billion dollars? 🦖 | 29:43 | https://youtu.be/G0rHfEplJ9g |
 | Thu Aug 13 2 PM | short8-training-data-rn | 0:20 | We're generating training data right now 🤖 | 53:29 | https://youtu.be/fUOH--xNPgE |
+| Fri Aug 14 2 PM | short10-sloppy-migration | 0:41 | The sloppy migration that broke Bitcoin's safest wallet 🧨 | 14:38 | https://youtu.be/F8EAzBmd6PY |
+
+_Revision 2026-08-06: short7-podcast-is-my-job cut per Jackson and deleted from
+YouTube pre-publish; short9 (Citadel deepfake) took its Aug 12 slot and short10
+(sloppy migration + the "runs" commit) extends the run to Aug 14._
 
 _[FOR JACKSON: the first short goes live **Fri Aug 7, 2 AM PT** and the episode
 isn't published yet. Descriptions ship with "Full episode on the Permanent

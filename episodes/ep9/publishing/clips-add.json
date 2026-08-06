@@ -1,0 +1,80 @@
+{
+ "source": "/Users/jcook/Personal/permanent-underpod/media/ep9/work/edited_raw.mov",
+ "out_dir": "/Users/jcook/Personal/permanent-underpod/media/clips/ep9",
+ "logo": "/Users/jcook/Personal/permanent-underpod/brand/logo-480.png",
+ "audio_chain": "highpass=f=80,volume=13.1dB,afftdn=nr=18:nf=-50:tn=1,acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,treble=f=9500:width_type=q:w=0.8:g=2,loudnorm=I=-16:TP=-1.5:LRA=5",
+ "_note": "Ep 9 additions per Jackson (2026-08-06): Citadel deepfake + sloppy-migration/suspicious-commit, both as shorts. short7-podcast-is-my-job removed from the schedule the same day. Same method as clips.json: union-gap candidates -> micro-whisper word confirm -> verify_clips mix gate arbitrates.",
+ "clips": [
+  {
+   "name": "short9-wire-for-a-billion",
+   "start": 1783.413,
+   "end": 1816.95,
+   "vertical": true,
+   "face_crops": [
+    [
+     0.0,
+     117,
+     "cut"
+    ],
+    [
+     7.25,
+     757,
+     "cut"
+    ],
+    [
+     9.62,
+     864,
+     "cut"
+    ],
+    [
+     15.62,
+     10,
+     "cut"
+    ],
+    [
+     18.87,
+     437,
+     "cut"
+    ],
+    [
+     20.62,
+     457,
+     "cut"
+    ]
+   ],
+   "caption": {
+    "kicker": "DEEPFAKES HIT FINTECH",
+    "title": "WIRE ME A BILLION DOLLARS"
+   },
+   "_boundary": "master 1592.08-1625.62; in gap 1591.92-1592.24 (opens on Chris's 'how do we speedrun it?' toss into Tyler's Ken Griffin bit); out in the measured 1816.70-1817.19 mix gap after '...in that realm, right?' and before Jackson's 'shoot it to my Coldcard' (first try cut the word 'maybe'; verify's snap 1813.08 would have dangled it)"
+  },
+  {
+   "name": "short10-sloppy-migration",
+   "start": 878.587,
+   "end": 919.597,
+   "vertical": true,
+   "face_crops": [
+    [
+     0.0,
+     407,
+     "cut"
+    ],
+    [
+     32.68,
+     757,
+     "cut"
+    ],
+    [
+     38.68,
+     407,
+     "cut"
+    ]
+   ],
+   "caption": {
+    "kicker": "HOW THE BUG GOT IN",
+    "title": "AN EXTREMELY SLOPPY MIGRATION"
+   },
+   "_boundary": "master 620.59-661.60; in gap 620.42-620.76 ('And in doing this extremely sloppy migration, this is when they ripped out the working Trezor code'); out DESIRED after 'and it was just runs.' ~661.6 (no union gap -- Jackson laughing; mix gate arbitrates, fallback 673.28 = short2's verified out)"
+  }
+ ]
+}

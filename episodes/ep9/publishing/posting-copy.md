@@ -21,8 +21,9 @@ Schedule (Jackson's rule: a day that already has a short scheduled gets the new 
 | 4 | short4-punk-in-voo | 2026-08-09T21:00:00Z | Sun Aug 9, 2 PM |
 | 5 | short5-good-concussion | 2026-08-10T21:00:00Z | Mon Aug 10, 2 PM |
 | 6 | short6-wife-beater-to-the-club | 2026-08-11T21:00:00Z | Tue Aug 11, 2 PM |
-| 7 | short7-podcast-is-my-job | 2026-08-12T21:00:00Z | Wed Aug 12, 2 PM |
+| 7 | short9-wire-for-a-billion | 2026-08-12T21:00:00Z | Wed Aug 12, 2 PM |
 | 8 | short8-training-data-rn | 2026-08-13T21:00:00Z | Thu Aug 13, 2 PM |
+| 9 | short10-sloppy-migration | 2026-08-14T21:00:00Z | Fri Aug 14, 2 PM |
 
 ---
 
@@ -56,12 +57,25 @@ Schedule (Jackson's rule: a day that already has a short scheduled gets the new 
 - Caption: The frontier-model pissing contest, summarized in one outfit. Full episode on the Permanent Underpod channel.
 - Tags:    #shorts #ai #frontiermodels
 
-**short7-podcast-is-my-job** (9:16 | 32.2s)
-- Title:   Hey, this podcast is my job 🎙️
-- Caption: "You can just not pay attention" meets the transitive property of podcasting. Full episode on the Permanent Underpod channel.
-- Tags:    #shorts #ai #podcast
-
 **short8-training-data-rn** (9:16 | 20.1s)
 - Title:   We're generating training data right now 🤖
 - Caption: The boys realize this episode is going straight into the next model's weights — and start angling for a good seat. Full episode on the Permanent Underpod channel.
 - Tags:    #shorts #ai #trainingdata
+
+**short9-wire-for-a-billion** (9:16 | 33.5s)
+- Title:   Hi, can you send me a wire for a billion dollars? 🦖
+- Caption: Deepfakes are hitting fintechs like Citadel — Tyler and Chris game out the billion-dollar Stegosaurus wire. Full episode on the Permanent Underpod channel.
+- Tags:    #shorts #ai #deepfake #fintech
+
+**short10-sloppy-migration** (9:16 | 41.0s)
+- Title:   The sloppy migration that broke Bitcoin's safest wallet 🧨
+- Caption: A license fight, a spite-driven rewrite, and a four-letter commit message — how the Coldcard bug actually got in. Full episode on the Permanent Underpod channel.
+- Tags:    #shorts #bitcoin #opensource #coldcard
+
+---
+
+2026-08-06 revision (Jackson): **short7-podcast-is-my-job CUT** — deleted from
+YouTube pre-publish (was youtu.be/DgS9Bo-0EKs, Aug 12); short9 takes its slot.
+short9 + short10 added; both gates green (short9's first out cut the word
+"maybe" — moved past "in that realm, right?"; short10's out sits in the real
+mix gap after "and it was just runs.").

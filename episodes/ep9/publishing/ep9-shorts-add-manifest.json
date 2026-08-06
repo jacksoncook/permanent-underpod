@@ -1,0 +1,21 @@
+{
+  "client_secret": "~/.config/clipify-youtube/client_secret.json",
+  "token": "~/.config/clipify-youtube/token.json",
+  "defaults": {"categoryId": "22", "privacyStatus": "private", "madeForKids": false, "playlist": "Underpod Shorts"},
+  "uploads": [
+    {
+      "file": "/Users/jcook/Personal/permanent-underpod/media/clips/ep9/short9-wire-for-a-billion.mp4",
+      "title": "Hi, can you send me a wire for a billion dollars? 🦖",
+      "description": "Deepfakes are hitting fintechs like Citadel — Tyler and Chris game out the billion-dollar Stegosaurus wire. Full episode on the Permanent Underpod channel.\n\n#shorts #ai #deepfake #fintech",
+      "tags": ["ai", "deepfake", "fintech", "citadel", "podcast"],
+      "publishAt": "2026-08-12T21:00:00Z"
+    },
+    {
+      "file": "/Users/jcook/Personal/permanent-underpod/media/clips/ep9/short10-sloppy-migration.mp4",
+      "title": "The sloppy migration that broke Bitcoin's safest wallet 🧨",
+      "description": "A license fight, a spite-driven rewrite, and a four-letter commit message — how the Coldcard bug actually got in. Full episode on the Permanent Underpod channel.\n\n#shorts #bitcoin #opensource #coldcard",
+      "tags": ["bitcoin", "coldcard", "opensource", "git", "podcast"],
+      "publishAt": "2026-08-14T21:00:00Z"
+    }
+  ]
+}
