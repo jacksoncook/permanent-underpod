@@ -41,8 +41,9 @@ production files. Not affiliated with any employer.
    retainer bit (Perp of Fortune / confession / AI bit) in the first 10 min,
    explainers ≤8 min and tied to live stakes. Rationale: `analytics/report.html`.
 2. **Edit** with `podcast-video-edit` (remote pipeline for fully-remote eps).
-   Apply its "Retention-informed edit defaults": cold open = the episode's best
-   60–90 s + tease the finale, first real segment by ~2 min, 45–55 min target.
+   Apply its "Retention-informed edit defaults": cold open ≤60 s (hard cap) of
+   the episode's best + tease the finale, first real segment by ~2 min,
+   45–55 min target.
 3. **Publish the episode FIRST** (`yt_upload.py`, scheduled-private), then backfill
    `episodes/epN/segment-times.md` from the live copy (`yt_fetch.py`).
 4. **Clip** with `clipify`: personality/one-liner picks over concepts, 10–20 s

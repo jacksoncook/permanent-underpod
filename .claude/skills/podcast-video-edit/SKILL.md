@@ -46,9 +46,13 @@ edited_raw.mov and remux with `-c:v copy` — never re-encode video for an audio
 When designing `plan.json`, these are the defaults; deviate knowingly. Evidence in
 `analytics/report.html` (refresh with the `channel-analytics` skill):
 
-- **Cold open = the episode's single best 60–90 s** (the fill landing, the
-  confession, the clone reveal) and tease the end-of-show bit ("stay for the
-  lottery tickets"). Every episode so far loses ~85% of viewers by the 5% mark.
+- **Cold open ≤60 s — HARD CAP** (Jackson, 2026-08-10; applies from Ep 10), still
+  the episode's single best moment (the fill landing, the confession, the clone
+  reveal) + tease the end-of-show bit ("stay for the lottery tickets"). Ep 9
+  proved the leak is INSIDE the teaser, not at the welcome seam: 96% still
+  watching at 0:33, −51pp by 1:07, in a 94 s cold open — the hook lands, then
+  overstays. Get to the marquee before it decays; measure success as the
+  0:30–1:45 retention loss vs Ep 6's −26.9pp benchmark.
 - **First real segment by ~2 min.** Keep welcome + check-in to ≤60 s of final-cut
   time; reorder Pico/gamer-thumb updates into mid-show palate cleansers.
 - **Front-load a retainer**: one of Perp-of-Fortune / confession / AI-bit lands in
