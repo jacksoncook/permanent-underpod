@@ -259,12 +259,19 @@ def check_crops(clip, fcs, dur, swipe_set):
           f"switches, all hard cuts")
 
 
-def check_rendered(clip, path):
-    """Post-render: the clip's own edges must be quiet relative to its body."""
+def check_rendered(clip, path, content_s=None):
+    """Post-render: the clip's own edges must be quiet relative to its body.
+    With an appended ender the sting is SUPPOSED to be loud at the file end,
+    so content_s (the spec-side content length) bounds the measured region —
+    cutting from the file end instead would wobble by the AAC decode padding
+    (~50 ms) and read the last spoken word as a hot tail."""
     if not os.path.exists(path):
         warns.append(f"{clip}: --rendered but {path} does not exist")
         return
     db, _ = envelope(path, 0.0, 3600.0)
+    if content_s and len(db) > int(round(content_s * 100)):
+        db = db[:int(round(content_s * 100))]
+        print(f"  note ender  edge check bounded to the {content_s:.2f}s content")
     if len(db) < 40:
         warns.append(f"{clip}: rendered clip too short to measure")
         return
@@ -320,7 +327,10 @@ for c in clips:
         check_crops(c["name"], c["face_crops"], dur,
                     "swipe" in c or "swipe" in SPEC)
     if DO_RENDERED:
-        check_rendered(c["name"], os.path.join(OUTDIR, c["name"] + ".mp4"))
+        e = c.get("ender", SPEC.get("ender") if c.get("vertical") else None)
+        active = e and c.get("style", "branded") != "plain"
+        check_rendered(c["name"], os.path.join(OUTDIR, c["name"] + ".mp4"),
+                       dur if active else None)
 
 print()
 for w in warns:

@@ -67,6 +67,26 @@ Use it only when the envelope shows a **falling** tail (the gate reports the tre
   and NO audio processing. This is the long-form path: e.g. pull "Contrarian
   Corner, 58:01–1:11:31" out of the final episode as its own video.
 
+## The ender (HOUSE DEFAULT for shorts — put `"ender": true` in every clips.json)
+
+A 1 s branded end card APPENDED to every branded vertical: dark card, logo pops
+to center on the sting hit (ease-out-back, peak on the transient at ~0.24 s),
+"PERMANENT UNDERPOD" wordmark + gold underline settle in. Funnel branding — the
+swipe-away moment shows the channel name, and since Shorts loop it also plays as
+the loop seam into the hook. Added 2026-08-10 after the 8/10 analytics review
+(14k shorts views → 1 sub).
+
+- Spec-level `"ender": true` (house default) or `{"duration": 1.0, "sting": path,
+  "text": "..."}`. Per-clip `"ender": false` opts out; per-clip `"ender": true`
+  forces it onto a non-vertical branded clip. Never applies to `plain`.
+- Sting: `brand/ender-sting.wav` (1 s, peak −3 dB, faded tail). CC0 alternates +
+  provenance in `media/ender-candidates/README.md`; to change the sound, replace
+  the brand wav — transient at ~0.24 s, ≤1 s, peak ≈ −3 dB.
+- The ender is appended AFTER the content: in/out bounds, face_crops, and clip
+  length guidance (10–20 s) are unchanged; reported duration grows ~1 s.
+- `verify_clips.py --rendered` knows: it bounds the edge check to the spec-side
+  content length (`note ender` line) so the sting doesn't read as a hot tail.
+
 ## Face-crop verticals (digital / fully-remote episodes)
 
 For episodes shot as per-host webcams (solo shots + split-screen panels), vertical

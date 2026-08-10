@@ -32,6 +32,16 @@ loudnorm — for clips cut from raw footage. "plain" does a clean, frame-accurat
 re-encode with NO overlays and NO audio processing — for slicing a segment out
 of an already-finished video.
 
+ender: spec-level `"ender": true` (or `{"duration": 1.0, "sting": path,
+"text": "PERMANENT UNDERPOD"}`) appends a ~1 s branded end card to every
+branded VERTICAL clip: dark card, logo pops to center on the sting hit,
+wordmark + gold underline settle in. Funnel branding for shorts — the swipe
+moment shows the channel, and on Shorts it doubles as the loop seam.
+Per-clip `"ender": false` opts out; per-clip `"ender": true` forces it on a
+non-vertical branded clip. Never applied to "plain" clips. The sting defaults
+to ender-sting.wav next to the spec logo (brand/ender-sting.wav). The ender
+is APPENDED — content length is unchanged; reported duration grows by ~1 s.
+
 All clips are frame-aligned (video_len == audio_len), h264 + aac + faststart.
 """
 import json, os, subprocess, sys
@@ -65,6 +75,82 @@ def ts(v):
     for p in str(v).split(":"):
         s = s * 60 + float(p)
     return s
+
+ENDER = SPEC.get("ender")
+
+def ender_cfg(c):
+    """Resolve the ender for one clip: dict when active, else None."""
+    e = c.get("ender")
+    if e is False or c.get("style", "branded") == "plain":
+        return None
+    base = ENDER if isinstance(ENDER, dict) else ({} if ENDER else None)
+    if e is None and (base is None or not c.get("vertical")):
+        return None
+    cfg = dict(base or {})
+    if isinstance(e, dict):
+        cfg.update(e)
+    cfg.setdefault("duration", 1.0)
+    cfg.setdefault("text", "PERMANENT UNDERPOD")
+    cfg.setdefault("sting", os.path.join(os.path.dirname(LOGO or ""), "ender-sting.wav"))
+    return cfg
+
+def ease_out_back(p):
+    c1 = 1.70158
+    return 1 + (c1 + 1) * (p - 1) ** 3 + c1 * (p - 1) ** 2
+
+def ender_frames(w, h, nf, text):
+    """Render the end-card frames once per aspect; return the frame dir."""
+    from PIL import Image, ImageDraw, ImageFont
+    dst = os.path.join(OUTDIR, f"_ender_{w}x{h}")
+    if os.path.exists(os.path.join(dst, f"f_{nf-1:03d}.png")):
+        return dst
+    os.makedirs(dst, exist_ok=True)
+    m = min(w, h)
+    logo = Image.open(LOGO).convert("RGBA")
+    lw = int(m * 0.46)
+    lh = int(logo.height * lw / logo.width)
+    fsz = int(m * 0.058)
+    font = ImageFont.truetype(BLACK_F, fsz)
+    tb = ImageDraw.Draw(Image.new("RGBA", (1, 1))).textbbox((0, 0), text, font=font)
+    tw, th = tb[2] - tb[0], tb[3] - tb[1]
+    while tw > w * 0.88:
+        fsz -= 2
+        font = ImageFont.truetype(BLACK_F, fsz)
+        tb = ImageDraw.Draw(Image.new("RGBA", (1, 1))).textbbox((0, 0), text, font=font)
+        tw, th = tb[2] - tb[0], tb[3] - tb[1]
+    bar_w, bar_h, gap = int(tw * 0.6), max(6, m // 150), int(m * 0.045)
+    block = lh + gap + th + gap + bar_h
+    top = (h - block) // 2
+    lcx, lcy = w // 2, top + lh // 2
+    ty = top + lh + gap
+    by = ty + th + gap
+    # hit lands ~frame 7 of the sting; logo pop peaks there via ease_out_back
+    for f in range(nf):
+        img = Image.new("RGBA", (w, h), (12, 12, 16, 255))
+        p = min(1.0, f / 13.0)
+        s = 0.4 + 0.6 * ease_out_back(p)
+        a = min(1.0, f / 5.0)
+        sw, sh = max(1, int(lw * s)), max(1, int(lh * s))
+        li = logo.resize((sw, sh), Image.LANCZOS)
+        if a < 1.0:
+            alpha = li.getchannel("A").point(lambda v: int(v * a))
+            li.putalpha(alpha)
+        img.alpha_composite(li, (lcx - sw // 2, lcy - sh // 2))
+        d = ImageDraw.Draw(img)
+        if f >= 6:
+            q = min(1.0, (f - 6) / 10.0)
+            qe = 1 - (1 - q) ** 3
+            d.text(((w - tw) // 2 - tb[0], ty - tb[1] + int((1 - qe) * m * 0.05)),
+                   text, font=font, fill=(255, 255, 255, int(255 * q)))
+        if f >= 10:
+            r = min(1.0, (f - 10) / 10.0)
+            re_ = 1 - (1 - r) ** 3
+            hw = int(bar_w * re_ / 2)
+            if hw > 2:
+                d.rounded_rectangle([(w // 2 - hw, by), (w // 2 + hw, by + bar_h)],
+                                    radius=bar_h // 2, fill=ACC)
+        img.convert("RGB").save(os.path.join(dst, f"f_{f:03d}.png"))
+    return dst
 
 def caption_png(kicker, title, path, big=False):
     from PIL import Image, ImageDraw, ImageFont
@@ -174,7 +260,6 @@ def build(c):
             inputs += ["-loop", "1", "-t", f"{dur:.3f}", "-i", cap_tmp]
             fg.append(f"{last}[{idx}:v]overlay={cap_pos}:eof_action=pass[v{idx}]")
             last = f"[v{idx}]"; idx += 1
-        fg.append(f"{last}null[vout]")
         # per-clip audio_chain: a batch can mix sources with different needs --
         # face-crop shorts come off the episode's edited_raw.mov (UNmastered, so
         # they want the episode chain) while a clip that needs a baked-in graphic
@@ -182,8 +267,40 @@ def build(c):
         # "anull". Applying the episode chain twice re-runs a big pre-gain into
         # the compressor/limiter; loudnorm hides it in the level but not the sound.
         chain = c.get("audio_chain", CHAIN)
-        fg.append(f"[0:a]aresample={SR}:async=1:first_pts=0,{chain},"
-                  f"aresample={SR},apad,atrim=end_sample={n*SPF}[aout]")
+        ecfg = ender_cfg(c)
+        if ecfg and (NO_LOGO or not LOGO or not os.path.exists(LOGO)
+                     or not os.path.exists(ecfg["sting"])):
+            print(f"  {c['name']}: ender skipped (logo or sting missing)")
+            ecfg = None
+        if ecfg:
+            ne = max(1, round(float(ecfg["duration"]) * FPS))
+            if vertical:
+                ew, eh = 1080, 1920
+            else:
+                p = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0",
+                                    "-show_entries", "stream=width,height",
+                                    "-of", "csv=p=0", src],
+                                   capture_output=True, text=True).stdout.strip()
+                ew, eh = (int(x) for x in p.split(","))
+            edir = ender_frames(ew, eh, ne, ecfg["text"])
+            inputs[2:2] = ["-t", f"{dur + 1.0:.3f}"]
+            c["_ender_applied"] = True
+            fg.append(f"{last}trim=end_frame={n},setpts=N/{FPS}/TB[vmain]")
+            fg.append(f"[0:a]aresample={SR}:async=1:first_pts=0,{chain},"
+                      f"aresample={SR},aformat=channel_layouts=stereo,"
+                      f"apad,atrim=end_sample={n*SPF}[amain]")
+            ei = len([x for x in inputs if x == "-i"])
+            inputs += ["-framerate", str(FPS), "-i", os.path.join(edir, "f_%03d.png"),
+                       "-i", ecfg["sting"]]
+            fg.append(f"[{ei}:v]fps={FPS},format=yuv420p,setsar=1[vend]")
+            fg.append(f"[{ei+1}:a]aresample={SR},aformat=channel_layouts=stereo,"
+                      f"apad,atrim=end_sample={ne*SPF}[aend]")
+            fg.append("[vmain][amain][vend][aend]concat=n=2:v=1:a=1[vout][aout]")
+            n += ne
+        else:
+            fg.append(f"{last}null[vout]")
+            fg.append(f"[0:a]aresample={SR}:async=1:first_pts=0,{chain},"
+                      f"aresample={SR},apad,atrim=end_sample={n*SPF}[aout]")
 
     cmd = ["ffmpeg", "-hide_banner", "-loglevel", "error", "-y"] + inputs + [
         "-filter_complex", ";".join(fg), "-map", "[vout]", "-map", "[aout]",
@@ -201,8 +318,13 @@ def build(c):
                               "format=duration", "-of", "csv=p=0", out],
                              capture_output=True, text=True).stdout.strip())
     tag = style if style == "plain" else ("9:16" if c.get("vertical") else "16:9")
+    if c.get("_ender_applied"):
+        tag += "+ender"
     print(f"  {c['name']}.mp4  {d:.1f}s  [{tag}]")
     return out
 
 made = [build(c) for c in SPEC.get("clips", [])]
+import glob, shutil
+for e in glob.glob(os.path.join(OUTDIR, "_ender_*x*")):
+    shutil.rmtree(e, ignore_errors=True)  # frames are burned in; dir is scratch
 print(f"clipified {len([m for m in made if m])}/{len(SPEC.get('clips', []))} -> {OUTDIR}")
