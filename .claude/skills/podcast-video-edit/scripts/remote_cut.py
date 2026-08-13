@@ -20,7 +20,7 @@ remote_plan.json extras used here:
                {..., "mode":"corner", "crop":[1100,550,410,130]}],
   "sheet":    [{"label":"Cold open","block":"COLD1"},{"label":"X","block":"B","m":2867.0}]
 """
-import json, os, subprocess, sys
+import hashlib, json, os, subprocess, sys
 from concurrent.futures import ThreadPoolExecutor
 
 WORK, PLAN_PATH = sys.argv[1], sys.argv[2]
@@ -34,6 +34,12 @@ SPF = SR // FPS
 IDLE_GAIN = PLAN.get('params', {}).get('idle_gain', 0.12)
 WIDTHS = {3: [426, 428, 426], 2: [640, 640], 1: [1280]}
 
+def clip_path(i, c):
+    """Cache key includes the piece spec so an edited cutlist can never reuse a stale clip."""
+    h = hashlib.md5(json.dumps(c, sort_keys=True).encode()).hexdigest()[:10]
+    return os.path.join(CLIPDIR, f"c{i:03d}_{h}.mov")
+
+
 
 def vol_expr(active):
     terms = "+".join(f"between(t,{a:.2f},{b:.2f})" for a, b in active)
@@ -43,7 +49,7 @@ def vol_expr(active):
 
 
 def render_piece(i, c):
-    out = os.path.join(CLIPDIR, f"c{i:03d}.mov")
+    out = clip_path(i, c)
     if os.path.exists(out):
         return True
     n = max(1, round((c['m1'] - c['m0']) * FPS))
@@ -94,7 +100,7 @@ def render_piece(i, c):
 
 
 def render_insert(i, c):
-    out = os.path.join(CLIPDIR, f"c{i:03d}.mov")
+    out = clip_path(i, c)
     if os.path.exists(out):
         return True
     d = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration",
@@ -121,7 +127,7 @@ with ThreadPoolExecutor(max_workers=3) as ex:
         sys.exit("some clips failed")
 
 files = [os.path.join(WORK, c['card']) if 'card' in c else
-         os.path.join(CLIPDIR, f"c{i:03d}.mov") for i, c in enumerate(CL)]
+         clip_path(i, c) for i, c in enumerate(CL)]
 
 cum = 0.0
 for c, p in zip(CL, files):

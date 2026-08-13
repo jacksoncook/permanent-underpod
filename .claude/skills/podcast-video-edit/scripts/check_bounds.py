@@ -95,7 +95,7 @@ if len(sys.argv) > 2 and sys.argv[2] == "--plan":
     plan = json.load(open(sys.argv[3]))
     bounds = []
     for b in plan.get("blocks", []):
-        if "card" in b:
+        if "m0" not in b:
             continue
         bounds += [(b["id"] + ".m0", b["m0"]), (b["id"] + ".m1", b["m1"])]
     bad = 0

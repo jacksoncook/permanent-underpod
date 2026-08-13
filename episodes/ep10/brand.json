@@ -1,0 +1,47 @@
+{
+  "show": "PERMANENT UNDERPOD",
+  "show_kicker": "PERMANENT",
+  "show_main": "UNDERPOD",
+  "accent": [255, 210, 74],
+  "source": "/Users/jcook/Personal/permanent-underpod/media/ep10/work/src/jackson_720.mp4",
+  "title_card": {
+    "bg_frame": 1690,
+    "line": "EPISODE 10   ·   Gorilla Mode   ·   Bitcoin  ·  Stablecoins  ·  AI",
+    "dur": 4.5
+  },
+  "end_card": {
+    "bg_frame": 3400,
+    "kicker": "NEXT WEEK ON",
+    "lines": [
+      "Secure enclaves, potentially",
+      "The PUMP perp rides to zero",
+      "Not financial advice. Stay safe out there."
+    ],
+    "cta": "LIKE  +  SUBSCRIBE",
+    "dur": 7
+  },
+  "lower_thirds": [
+    {"name": "intro", "kicker": "EPISODE 10 — DOUBLE DIGITS", "title": "GORILLA MODE ENGAGED"},
+    {"name": "perp", "kicker": "THE ROLL", "title": "PERP OF FORTUNE — LONG PUMP · 10×"},
+    {"name": "swarm", "kicker": "AGENTS TALKING TO AGENTS", "title": "THE SWARM"},
+    {"name": "checkin", "kicker": "WHAT DID WE BREAK THIS WEEK", "title": "BJJ SHOULDER · GAMER WRIST · TENNIS TUSSLE"},
+    {"name": "cloud", "kicker": "THE AGENTIC ECONOMY", "title": "CLOUDFLARE WALLETS, FINALLY"},
+    {"name": "bip", "kicker": "THE EPITAPH", "title": "BIP-110: IT JUST FAILED"},
+    {"name": "redteam", "kicker": "EVEN MORE BITCOIN", "title": "THE BITCOIN RED TEAM"},
+    {"name": "boltz", "kicker": "PREEMPTIVE SURRENDER", "title": "BOLTZ JUST QUIT"},
+    {"name": "eth", "kicker": "MEANWHILE ON ETHEREUM", "title": "A CONSTANT STATE OF WARFARE"},
+    {"name": "wrap", "kicker": "DOUBLE DIGITS", "title": "EPISODE 10 IN THE BOOKS"}
+  ],
+  "stats": [
+    {"name": "coldopen", "kicker": "EPISODE 10", "main": "In this pod…"},
+    {"name": "roll", "kicker": "THE ROLL", "main": "LONG PUMP · 10× — \"let's try to get liquidated in the hour\""},
+    {"name": "agents", "kicker": "THE SWARM ROSTER", "main": "THONKER · SCURRIER · SLAYER"},
+    {"name": "chatter", "kicker": "THE CHATTER", "main": "\"hold swarm · help peer · hold for exfil\""},
+    {"name": "misaligned", "kicker": "CHRIS'S FRIDAY NIGHT", "main": "\"If someone's AI is misaligned, it's mine first\""},
+    {"name": "comeback", "kicker": "MEN'S 3.5 LEAGUE", "main": "down 6-1 / 0-4 → wins it in two breakers"},
+    {"name": "bip", "kicker": "THE RECEIPT", "main": "2.53% vs 55% needed · two blocks, then silence"},
+    {"name": "swarmlord", "kicker": "THE GUI HAS A NAME", "main": "SWARMLORD — coming to a GitHub near you"},
+    {"name": "dump", "kicker": "PUMP UPDATE", "main": "−$38 · −61.6% on margin — our worst ever"},
+    {"name": "survived", "kicker": "FINAL P&L", "main": "NOT LIQUIDATED · −$36"}
+  ]
+}
