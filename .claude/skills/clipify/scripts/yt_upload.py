@@ -95,8 +95,14 @@ def get_creds(client_secret, token_path):
             print("cached token lacks required scopes — re-authorizing…")
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
-            creds.refresh(Request())
-        else:
+            # Jackson's manual Studio uploads revoke API tokens; a revoked
+            # refresh token raises RefreshError — fall through to the browser.
+            try:
+                creds.refresh(Request())
+            except Exception as e:
+                print(f"token refresh failed ({e}) — re-authorizing…")
+                creds = None
+        if not creds or not creds.valid:
             if not os.path.exists(client_secret):
                 die(f"client_secret not found: {client_secret}\nSee youtube-setup.md.")
             flow = InstalledAppFlow.from_client_secrets_file(client_secret, SCOPES)

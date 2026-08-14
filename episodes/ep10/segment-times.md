@@ -115,15 +115,17 @@ verify_clips.py passed pre-render (1 declared override: short6 out = the gorilla
 insert's hard end boundary) and `--rendered`. All 7 shorts carry the branded
 ender. NOT uploaded — fill `<EPISODE_URL>` once the episode is live.
 
-| Clip | Len | Title |
-|---|---|---|
-| short1-liquidated-in-the-hour | 19s | Our AI called us degenerate gamblers |
-| short2-job-is-to-not-think | 24s | This AI's job is to not think |
-| short3-gorilla-mode-explained | 26s | Gorilla mode, explained badly |
-| short4-justice-for-harambe | 15s | Harambe just wanted to give that baby some love |
-| short5-tennis-rage-quit | 28s | "You can have the match. It's yours." |
-| short6-copyright-a-gorilla | 30s | You can't copyright a gorilla... right? |
-| short7-let-it-ride-to-zero | 30s | Down $36 — let it ride to zero? |
+All 7 UPLOADED 2026-08-14 (scheduled-private, auto-publish daily 2 AM PT):
+
+| Publishes | Clip | Title | URL |
+|---|---|---|---|
+| 8/15 | short1-liquidated-in-the-hour | Our AI called us degenerate gamblers | https://youtu.be/UF03xFu846Y |
+| 8/16 | short7-let-it-ride-to-zero | Down $36 — let it ride to zero? | https://youtu.be/BVhW5_HZUmE |
+| 8/17 | short6-copyright-a-gorilla | You can't copyright a gorilla... right? | https://youtu.be/gKFOjf6u5L8 |
+| 8/18 | short2-job-is-to-not-think | This AI's job is to not think | https://youtu.be/S81ruF5OXAc |
+| 8/19 | short5-tennis-rage-quit | "You can have the match. It's yours." | https://youtu.be/PBSUJ4eeO1o |
+| 8/20 | short4-justice-for-harambe | Harambe just wanted to give that baby some love | https://youtu.be/bTD7YoAdFpg |
+| 8/21 | short3-gorilla-mode-explained | Gorilla mode, explained badly | https://youtu.be/pIrtFxwdq_g |
 
 Captions, hashtags and per-clip descriptions: `media/clips/ep10/posting-copy.md`;
 upload manifest: `episodes/ep10/upload-manifest.json`. Shorts → playlist
