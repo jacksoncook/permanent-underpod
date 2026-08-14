@@ -285,7 +285,7 @@ def build(c):
             edir = ender_frames(ew, eh, ne, ecfg["text"])
             inputs[2:2] = ["-t", f"{dur + 1.0:.3f}"]
             c["_ender_applied"] = True
-            fg.append(f"{last}trim=end_frame={n},setpts=N/{FPS}/TB[vmain]")
+            fg.append(f"{last}trim=end_frame={n},setpts=N/{FPS}/TB,setsar=1[vmain]")
             fg.append(f"[0:a]aresample={SR}:async=1:first_pts=0,{chain},"
                       f"aresample={SR},aformat=channel_layouts=stereo,"
                       f"apad,atrim=end_sample={n*SPF}[amain]")
@@ -313,7 +313,7 @@ def build(c):
     if cap_tmp and os.path.exists(cap_tmp):
         os.remove(cap_tmp)  # caption is burned into the mp4; PNG is scratch
     if r.returncode != 0:
-        print("FAIL", c["name"], r.stderr[-300:]); return None
+        print("FAIL", c["name"], r.stderr[-3000:]); return None
     d = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries",
                               "format=duration", "-of", "csv=p=0", out],
                              capture_output=True, text=True).stdout.strip())

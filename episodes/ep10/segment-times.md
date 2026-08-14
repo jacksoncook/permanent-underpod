@@ -109,9 +109,25 @@ captions API after the episode is live. Never the raw-recording SRT._
 
 ## Clips
 
-_Pending — cut with `clipify` after the episode publishes (verify_clips.py
-before AND after render). Follow the +12h collision rule if other shorts hold
-the 2 PM PT slots; branded ender on every short from Ep 10._
+Cut 2026-08-14 (`episodes/ep10/clips.json`, rendered to `media/clips/ep10/`).
+verify_clips.py passed pre-render (1 declared override: short6 out = the gorilla
+insert's hard end boundary) and `--rendered`. All 7 shorts carry the branded
+ender. NOT uploaded — fill `<EPISODE_URL>` once the episode is live.
+
+| Clip | Len | Title |
+|---|---|---|
+| short1-liquidated-in-the-hour | 19s | Our AI called us degenerate gamblers |
+| short2-job-is-to-not-think | 24s | This AI's job is to not think |
+| short3-gorilla-mode-explained | 26s | Gorilla mode, explained badly |
+| short4-justice-for-harambe | 15s | Harambe just wanted to give that baby some love |
+| short5-tennis-rage-quit | 28s | "You can have the match. It's yours." |
+| short6-copyright-a-gorilla | 30s | You can't copyright a gorilla... right? |
+| short7-let-it-ride-to-zero | 30s | Down $36 — let it ride to zero? |
+| pull1-agents-built-their-own-4chan | 1:42 | The Agents Built Their Own 4chan - Ep 10 Clip |
+
+Captions, hashtags and per-clip descriptions: `media/clips/ep10/posting-copy.md`.
+Shorts → playlist "Underpod Shorts"; the pull → "Underpod Clips". House stagger:
+daily 2 PM PT (21:00 UTC), +12h collision rule vs Ep 9's shorts.
 
 ## Edit decisions of note (details in `remote_plan.json` `_notes`)
 
