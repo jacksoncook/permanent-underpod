@@ -12,15 +12,16 @@ the joke).**
 
 ## Episode video
 
-- **URL:** _pending upload_
-- **Description:** draft below.
-- **Captions:** `ep10-final-cut.srt` (regenerated from the FINAL cut) — upload
-  after the episode is live.
+- **URL:** https://youtu.be/1nnRxGe2rR4 — LIVE (published by Jackson 2026-08-14,
+  manual upload). Title = draft #1; description = the paste-ready draft below,
+  verbatim (yt_fetch-verified); tags 0, per house format.
+- **Captions:** `ep10-final-cut.srt` (regenerated from the FINAL cut) — NOT yet
+  uploaded to the live video.
 - **File:** `media/ep10/Permanent Underpod - Ep 10 (Final Cut).mp4`
 
-## Title (draft + alternates)
+## Title (draft + alternates; #1 is LIVE)
 
-1. **The Agents Built Their Own 4chan: Inside the First AI Swarm Breakout**
+1. **The Agents Built Their Own 4chan: Inside the First AI Swarm Breakout** ← published
 2. "hold swarm, help peer, hold for exfil" — The Chatter That Freaked Out Black Hat
 3. Our AI Longed PUMP at 10× While the Swarms Learned to Talk
 4. Gorilla Mode: AI Swarms, Cloudflare Wallets, and a Perp That Wouldn't Die
@@ -104,8 +105,8 @@ Subscribe for next week: secure enclaves, potentially — and the PUMP perp ride
 
 ## Captions
 
-_Pending: `ep10-final-cut.srt` regenerated from the FINAL cut, upload via the
-captions API after the episode is live. Never the raw-recording SRT._
+_`ep10-final-cut.srt` (regenerated from the FINAL cut) — upload via the captions
+API to the LIVE video (https://youtu.be/1nnRxGe2rR4). Never the raw-recording SRT._
 
 ## Clips
 
@@ -123,11 +124,13 @@ ender. NOT uploaded — fill `<EPISODE_URL>` once the episode is live.
 | short5-tennis-rage-quit | 28s | "You can have the match. It's yours." |
 | short6-copyright-a-gorilla | 30s | You can't copyright a gorilla... right? |
 | short7-let-it-ride-to-zero | 30s | Down $36 — let it ride to zero? |
-| pull1-agents-built-their-own-4chan | 1:42 | The Agents Built Their Own 4chan - Ep 10 Clip |
 
 Captions, hashtags and per-clip descriptions: `media/clips/ep10/posting-copy.md`.
-Shorts → playlist "Underpod Shorts"; the pull → "Underpod Clips". House stagger:
-daily 2 PM PT (21:00 UTC), +12h collision rule vs Ep 9's shorts.
+Shorts → playlist "Underpod Shorts". House stagger: daily 2 PM PT (21:00 UTC);
+Ep 9's shorts ended 8/13, so no collision.
+
+**pull1 RETIRED before upload (Jackson, 8/14: "we don't do longs anymore") —
+file deleted, spec removed. Shorts only from Ep 10 on.**
 
 ## Edit decisions of note (details in `remote_plan.json` `_notes`)
 

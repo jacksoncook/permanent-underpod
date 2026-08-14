@@ -47,7 +47,7 @@ production files. Not affiliated with any employer.
 3. **Publish the episode FIRST** (`yt_upload.py`, scheduled-private), then backfill
    `episodes/epN/segment-times.md` from the live copy (`yt_fetch.py`).
 4. **Clip** with `clipify`: personality/one-liner picks over concepts, 10–20 s
-   verticals, long pulls titled `<Hook> - Ep N Clip` (never "Highlight -").
+   verticals. **SHORTS ONLY — long-form pulls retired (Jackson, 2026-08-14).**
    **Run `verify_clips.py` before rendering and again with `--rendered` after** —
    never skip it because the picks "look right" in the JSON.
    Upload staggered (house pattern: daily 2 PM PT = 21:00 UTC), then work the
