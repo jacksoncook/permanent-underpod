@@ -15,8 +15,8 @@ the joke).**
 - **URL:** https://youtu.be/1nnRxGe2rR4 — LIVE (published by Jackson 2026-08-14,
   manual upload). Title = draft #1; description = the paste-ready draft below,
   verbatim (yt_fetch-verified); tags 0, per house format.
-- **Captions:** `ep10-final-cut.srt` (regenerated from the FINAL cut) — NOT yet
-  uploaded to the live video.
+- **Captions:** `ep10-final-cut.srt` (regenerated from the FINAL cut) — uploaded
+  via the captions API 2026-08-14 (track kind: standard).
 - **File:** `media/ep10/Permanent Underpod - Ep 10 (Final Cut).mp4`
 
 ## Title (draft + alternates; #1 is LIVE)
@@ -105,8 +105,8 @@ Subscribe for next week: secure enclaves, potentially — and the PUMP perp ride
 
 ## Captions
 
-_`ep10-final-cut.srt` (regenerated from the FINAL cut) — upload via the captions
-API to the LIVE video (https://youtu.be/1nnRxGe2rR4). Never the raw-recording SRT._
+_`ep10-final-cut.srt` (regenerated from the FINAL cut) uploaded via the captions
+API 2026-08-14 to https://youtu.be/1nnRxGe2rR4._
 
 ## Clips
 
