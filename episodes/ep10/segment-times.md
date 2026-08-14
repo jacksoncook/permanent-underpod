@@ -125,9 +125,17 @@ ender. NOT uploaded — fill `<EPISODE_URL>` once the episode is live.
 | short6-copyright-a-gorilla | 30s | You can't copyright a gorilla... right? |
 | short7-let-it-ride-to-zero | 30s | Down $36 — let it ride to zero? |
 
-Captions, hashtags and per-clip descriptions: `media/clips/ep10/posting-copy.md`.
-Shorts → playlist "Underpod Shorts". House stagger: daily 2 PM PT (21:00 UTC);
-Ep 9's shorts ended 8/13, so no collision.
+Captions, hashtags and per-clip descriptions: `media/clips/ep10/posting-copy.md`;
+upload manifest: `episodes/ep10/upload-manifest.json`. Shorts → playlist
+"Underpod Shorts", scheduled daily **2 AM PT** (09:00 UTC) Aug 15–21 — the +12h
+collision slot, since older shorts still hold 2 PM PT the next couple days
+(Jackson, 8/14). Order: liquidated → ride-to-zero → copyright-gorilla →
+not-think → rage-quit → harambe → gorilla-mode.
+
+short6 + short7 re-cut 8/14 per Jackson: full-bleed face crops from
+`edited_raw` (rule 7), not the blurred layout — the gorilla runs full-frame
+center-cropped (baked pop-culture caption traded away), the perp board pip is
+carried by the spoken "$36" instead.
 
 **pull1 RETIRED before upload (Jackson, 8/14: "we don't do longs anymore") —
 file deleted, spec removed. Shorts only from Ep 10 on.**

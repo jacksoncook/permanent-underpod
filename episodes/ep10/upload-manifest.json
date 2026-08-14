@@ -1,0 +1,98 @@
+{
+  "client_secret": "~/.config/clipify-youtube/client_secret.json",
+  "token": "~/.config/clipify-youtube/token.json",
+  "defaults": {
+    "categoryId": "22",
+    "privacyStatus": "private",
+    "madeForKids": false,
+    "playlist": "Underpod Shorts"
+  },
+  "uploads": [
+    {
+      "file": "/Users/jcook/Personal/permanent-underpod/media/clips/ep10/short1-liquidated-in-the-hour.mp4",
+      "title": "Our AI called us degenerate gamblers",
+      "description": "We asked an AI swarm to pick our leveraged perp trade \u2014 it lectured us instead. Full episode: https://youtu.be/1nnRxGe2rR4\n\n#shorts #ai #trading",
+      "tags": [
+        "AI",
+        "agents",
+        "perp",
+        "trading",
+        "podcast"
+      ],
+      "publishAt": "2026-08-15T09:00:00Z"
+    },
+    {
+      "file": "/Users/jcook/Personal/permanent-underpod/media/clips/ep10/short7-let-it-ride-to-zero.mp4",
+      "title": "Down $36 \u2014 let it ride to zero?",
+      "description": "The AI swarm's 10\u00d7 perp pick survived the whole episode; now there's only one question left. Full episode: https://youtu.be/1nnRxGe2rR4\n\n#shorts #trading #ai",
+      "tags": [
+        "perp",
+        "trading",
+        "AI",
+        "leverage",
+        "podcast"
+      ],
+      "publishAt": "2026-08-16T09:00:00Z"
+    },
+    {
+      "file": "/Users/jcook/Personal/permanent-underpod/media/clips/ep10/short6-copyright-a-gorilla.mp4",
+      "title": "You can't copyright a gorilla... right?",
+      "description": "We needed gorilla footage, copyright law said no, so the AI made us our own gorilla. Full episode: https://youtu.be/1nnRxGe2rR4\n\n#shorts #ai #gorilla",
+      "tags": [
+        "AI video",
+        "gorilla",
+        "copyright",
+        "comedy"
+      ],
+      "publishAt": "2026-08-17T09:00:00Z"
+    },
+    {
+      "file": "/Users/jcook/Personal/permanent-underpod/media/clips/ep10/short2-job-is-to-not-think.mp4",
+      "title": "This AI's job is to not think",
+      "description": "Meet the swarm: Thonker, Scurrier, and Slayer \u2014 one of them was hired specifically to not think. Full episode: https://youtu.be/1nnRxGe2rR4\n\n#shorts #ai #agents",
+      "tags": [
+        "AI",
+        "agents",
+        "LLM",
+        "swarm",
+        "podcast"
+      ],
+      "publishAt": "2026-08-18T09:00:00Z"
+    },
+    {
+      "file": "/Users/jcook/Personal/permanent-underpod/media/clips/ep10/short5-tennis-rage-quit.mp4",
+      "title": "\"You can have the match. It's yours.\"",
+      "description": "Tales from a very serious 3.5 tennis league: the rage quit. Full episode: https://youtu.be/1nnRxGe2rR4\n\n#shorts #tennis #ragequit",
+      "tags": [
+        "tennis",
+        "rage quit",
+        "rec league",
+        "comedy"
+      ],
+      "publishAt": "2026-08-19T09:00:00Z"
+    },
+    {
+      "file": "/Users/jcook/Personal/permanent-underpod/media/clips/ep10/short4-justice-for-harambe.mp4",
+      "title": "Harambe just wanted to give that baby some love",
+      "description": "Gorillas get a bad rap and one host is ready to die on that hill. Full episode: https://youtu.be/1nnRxGe2rR4\n\n#shorts #harambe #gorilla",
+      "tags": [
+        "harambe",
+        "gorilla",
+        "comedy",
+        "podcast"
+      ],
+      "publishAt": "2026-08-20T09:00:00Z"
+    },
+    {
+      "file": "/Users/jcook/Personal/permanent-underpod/media/clips/ep10/short3-gorilla-mode-explained.mp4",
+      "title": "Gorilla mode, explained badly",
+      "description": "Jackson explains gorilla mode to the audience and also his own co-hosts. Full episode: https://youtu.be/1nnRxGe2rR4\n\n#shorts #gorillamode #podcast",
+      "tags": [
+        "gorilla mode",
+        "comedy",
+        "podcast"
+      ],
+      "publishAt": "2026-08-21T09:00:00Z"
+    }
+  ]
+}

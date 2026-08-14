@@ -154,32 +154,90 @@
     },
     {
       "name": "short6-copyright-a-gorilla",
-      "source": "/Users/jcook/Personal/permanent-underpod/media/ep10/Permanent Underpod - Ep 10 (Final Cut).mp4",
       "start": 1752.69,
       "end": 1781.33,
       "vertical": true,
-      "logo": false,
-      "audio_chain": "anull",
       "caption": {
         "kicker": "COPYRIGHT LAW",
         "title": "Who owns a gorilla?"
       },
       "verify_override": {
-        "out": "1781.333 is the hard END boundary of the gorilla video insert; envelope tail is FALLING (the insert's own audio decaying). The suggested 1781.48 would include 4 frames of the next shot (Chris)."
-      }
+        "out": "1781.333 is the hard END boundary of the gorilla video insert; envelope tail is the insert's own music decaying, not speech. Next frame is a different shot (Chris)."
+      },
+      "face_crops": [
+        [
+          0.0,
+          442,
+          "cut"
+        ],
+        [
+          6.84,
+          117,
+          "cut"
+        ],
+        [
+          10.84,
+          757,
+          "cut"
+        ],
+        [
+          13.34,
+          117,
+          "cut"
+        ],
+        [
+          18.643,
+          437,
+          "cut"
+        ]
+      ]
     },
     {
       "name": "short7-let-it-ride-to-zero",
-      "source": "/Users/jcook/Personal/permanent-underpod/media/ep10/Permanent Underpod - Ep 10 (Final Cut).mp4",
       "start": 3376.73,
       "end": 3406.0,
       "vertical": true,
-      "logo": false,
-      "audio_chain": "anull",
       "caption": {
         "kicker": "PERP OF FORTUNE",
         "title": "Let it ride to zero?"
-      }
+      },
+      "face_crops": [
+        [
+          0.0,
+          864,
+          "cut"
+        ],
+        [
+          1.5,
+          117,
+          "cut"
+        ],
+        [
+          3.75,
+          757,
+          "cut"
+        ],
+        [
+          6.25,
+          117,
+          "cut"
+        ],
+        [
+          8.5,
+          10,
+          "cut"
+        ],
+        [
+          11.75,
+          437,
+          "cut"
+        ],
+        [
+          14.75,
+          10,
+          "cut"
+        ]
+      ]
     }
   ]
 }
