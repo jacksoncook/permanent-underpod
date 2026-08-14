@@ -15,6 +15,11 @@
  "sfx": [
   {
    "file": "sfx_whoosh.wav",
+   "block": "COLD1B",
+   "offset": -0.15
+  },
+  {
+   "file": "sfx_whoosh.wav",
    "block": "COLD2",
    "offset": -0.15
   },
@@ -82,92 +87,99 @@
  "anim": [
   {
    "file": "wipe.mov",
-   "start": 41.45,
-   "end": 41.85,
+   "start": 18.79,
+   "end": 19.19,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 57.75,
-   "end": 58.15,
+   "start": 35.12,
+   "end": 35.52,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 62.25,
-   "end": 62.65,
+   "start": 51.42,
+   "end": 51.82,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 112.85,
-   "end": 113.25,
+   "start": 55.92,
+   "end": 56.32,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 362.05,
-   "end": 362.45,
+   "start": 106.52,
+   "end": 106.92,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 1297.69,
-   "end": 1298.09,
+   "start": 355.72,
+   "end": 356.12,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 1864.95,
-   "end": 1865.35,
+   "start": 1291.35,
+   "end": 1291.75,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 2076.22,
-   "end": 2076.62,
+   "start": 1858.62,
+   "end": 1859.02,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 2146.15,
-   "end": 2146.55,
+   "start": 2069.89,
+   "end": 2070.29,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 2576.35,
-   "end": 2576.75,
+   "start": 2139.82,
+   "end": 2140.22,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 3074.02,
-   "end": 3074.42,
+   "start": 2562.05,
+   "end": 2562.45,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 3364.85,
-   "end": 3365.25,
+   "start": 3059.72,
+   "end": 3060.12,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 3421.02,
-   "end": 3421.42,
+   "start": 3350.55,
+   "end": 3350.95,
+   "x": 0,
+   "y": 0
+  },
+  {
+   "file": "wipe.mov",
+   "start": 3406.72,
+   "end": 3407.12,
    "x": 0,
    "y": 0
   }

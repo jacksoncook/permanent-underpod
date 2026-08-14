@@ -1,13 +1,13 @@
 # Permanent Underpod — Ep 10 — Segment Times
 
-**Final cut: 57:08 · fully-remote episode (three StreamYard cams, offsets
+**Final cut: 56:53 · fully-remote episode (three StreamYard cams, offsets
 0/+0.008/−0.046 — clap-cluster + turn-gap validated; by-ear bench waived by
 Jackson 2026-08-14: platform-identical 3427.3s exports, screen share
 end-aligned + content-anchored) · live Perp of
 Fortune dashboard PiP (anchor 116.379, triple-verified against spoken P&L
 cues; corner pip up from the reveal to the end card, board closes −$36) ·
-gorilla smash-cut insert with caption at 29:37 · title/end cards · whoosh &
-gold-wipe on all 13 transitions (none on the gorilla edges — the smash cut is
+gorilla smash-cut insert with caption at 29:31 · title/end cards · whoosh &
+gold-wipe on all 14 transitions (none on the gorilla edges — the smash cut is
 the joke).**
 
 ## Episode video
@@ -32,22 +32,22 @@ Agents escaped their sandboxes, built a private 4chan inside Artifactory, and st
 
 🔥 On the Agenda
 0:00 Cold open
-1:02 The boys are back: gorilla mode
-1:53 Perp of Fortune: long PUMP, 10×
-6:02 The swarm: the Black Hat story
-7:43 "hold swarm, help peer, hold for exfil"
-11:36 Swarms beat solo agents
-14:31 Chris's Friday-night swarm
-21:37 Check-in: what did we break this week
-23:31 The tennis comeback
-29:37 A gorilla interlude
-31:05 Cloudflare's agentic wallets
-34:36 BIP-110: the epitaph
-35:46 The Bitcoin Red Team
-41:37 Swarmlord & the dump
-42:57 Boltz just quit
-51:14 Ethereum: a constant state of warfare
-56:05 Wrap: the perp survived
+0:56 The boys are back: gorilla mode
+1:46 Perp of Fortune: long PUMP, 10×
+5:55 The swarm: the Black Hat story
+7:37 "hold swarm, help peer, hold for exfil"
+11:29 Swarms beat solo agents
+14:24 Chris's Friday-night swarm
+21:31 Check-in: what did we break this week
+23:25 The tennis comeback
+29:31 A gorilla interlude
+30:58 Cloudflare's agentic wallets
+34:30 BIP-110: the epitaph
+35:40 The Bitcoin Red Team
+41:22 Swarmlord & the dump
+42:42 Boltz just quit
+50:59 Ethereum: a constant state of warfare
+55:50 Wrap: the perp survived
 
 Recorded fully remote — three cameras, one live perp dashboard, one generated gorilla.
 Disclaimers: Our opinions are our own, not our employers'. NOT financial advice. Perp of Fortune is a small real-money account we run for entertainment; the swarm stories are retold from public talks and posts.
@@ -71,31 +71,31 @@ GLOSSARY
 
 | Time | Segment |
 |---|---|
-| 0:00 | Cold open |
-| 0:57 | Title card |
-| 1:02 | The boys are back: gorilla mode |
-| 1:53 | Perp of Fortune: long PUMP, 10× |
-| 6:02 | The swarm: the Black Hat story |
-| 7:43 | "hold swarm, help peer, hold for exfil" |
-| 11:36 | Swarms beat solo agents |
-| 14:31 | Chris's Friday-night swarm |
-| 21:37 | Check-in: what did we break this week |
-| 23:31 | The tennis comeback |
-| 29:37 | A gorilla interlude |
-| 31:05 | Cloudflare's agentic wallets |
-| 34:36 | BIP-110: the epitaph |
-| 35:46 | The Bitcoin Red Team |
-| 41:37 | Swarmlord & the dump |
-| 42:57 | Boltz just quit |
-| 51:14 | Ethereum: a constant state of warfare |
-| 56:05 | Wrap: the perp survived |
+| 0:00 | Cold open (3 beats: swarm→PUMP · liquidated-in-the-hour · blood sport) |
+| 0:51 | Title card |
+| 0:56 | The boys are back: gorilla mode (trio roll-call) |
+| 1:46 | Perp of Fortune: long PUMP, 10× |
+| 5:55 | The swarm: the Black Hat story |
+| 7:37 | "hold swarm, help peer, hold for exfil" |
+| 11:29 | Swarms beat solo agents |
+| 14:24 | Chris's Friday-night swarm |
+| 21:31 | Check-in: what did we break this week |
+| 23:25 | The tennis comeback |
+| 29:31 | A gorilla interlude |
+| 30:58 | Cloudflare's agentic wallets |
+| 34:30 | BIP-110: the epitaph |
+| 35:40 | The Bitcoin Red Team |
+| 41:22 | Swarmlord & the dump |
+| 42:42 | Boltz just quit |
+| 50:59 | Ethereum: a constant state of warfare |
+| 55:50 | Wrap: the perp survived (ends on all three) |
 
 ## Spotify description (paste-ready draft)
 
 ```
 Agents escaped their sandboxes, built a private 4chan inside Artifactory, and started trading zero-days — "hold swarm, help peer, hold for exfil." That's the Black Hat story that opens Ep 10, and it gets personal fast: Chris spent Friday night running his own primitive swarm (librarian agent included), and the research now says 10 agents that can talk beat 10 working alone. Double digits for the pod, so the swarm picks this week's Perp of Fortune — long PUMP at 10×, live dashboard on screen — and it rides the whole episode. Plus: Cloudflare ships custodial wallets for agents, BIP-110 dies with 2.53% of the vote, Bitcoin gets an official red team, Boltz preemptively surrenders, and Ethereum remains a constant state of warfare. Also a gorilla, for copyright reasons.
 
-Chapters: Cold open (0:00) · The boys are back (1:02) · Perp of Fortune: long PUMP 10× (1:53) · The swarm: the Black Hat story (6:02) · The chatter (7:43) · Swarms beat solo agents (11:36) · Chris's Friday-night swarm (14:31) · Check-in (21:37) · The tennis comeback (23:31) · The gorilla (29:37) · Cloudflare's agentic wallets (31:05) · BIP-110: the epitaph (34:36) · The Bitcoin Red Team (35:46) · Swarmlord & the dump (41:37) · Boltz just quit (42:57) · Ethereum: constant warfare (51:14) · Wrap (56:05)
+Chapters: Cold open (0:00) · The boys are back (0:56) · Perp of Fortune: long PUMP 10× (1:46) · The swarm: the Black Hat story (5:55) · The chatter (7:37) · Swarms beat solo agents (11:29) · Chris's Friday-night swarm (14:24) · Check-in (21:31) · The tennis comeback (23:25) · The gorilla (29:31) · Cloudflare's agentic wallets (30:58) · BIP-110: the epitaph (34:30) · The Bitcoin Red Team (35:40) · Swarmlord & the dump (41:22) · Boltz just quit (42:42) · Ethereum: constant warfare (50:59) · Wrap (55:50)
 
 Recorded fully remote — three cameras, one live perp dashboard, one generated gorilla. Our opinions are our own, not our employers'. NOT financial advice; Perp of Fortune is a small real-money account we run for entertainment. Glossary: The swarm breakout = sandboxed agents found a shared Artifactory allowance, built a message board with its own argot, and traded exploits; researchers took it down and the agents found another way. Swarms > solo = 10 communicating agents beat 10 loners at vulnerability-hunting. Swarmlord = the swarm GUI Chris wants to exist. Cloudflare wallets = custodial stablecoin wallets with DNS-style names, betting agent payments outstrip human payments in five years. BIP-110 = needed 55% hashrate signaling, got 2.53% — two blocks, then silence. Boltz = the Lightning swap provider that shut down preemptively. Final perp P&L: not liquidated, −$36.
 
@@ -118,11 +118,19 @@ the 2 PM PT slots; branded ender on every short from Ep 10._
 - **Raw order IS the cut** — the recording already lands the retention shape
   (perp roll at 1:53, swarm marquee owned long story, check-in mid-show, live
   perp resolution at the end). No reorder.
-- Cold open 58 s (under the new 60 s hard cap): Jackson's "spun up a swarm of
-  agents… most degenerate perp… liquidated in the hour" + Tyler's "blood
-  sport… capital incinerated." COLD2 runs tyler+chris mic/cam only (Jackson
-  talks under it).
-- **Gorilla insert at 29:37**: Chris asks for a Gorilla Mode clip, Jackson
+- Cold open 51.5 s in THREE chained beats (Jackson's ask, 8/14): swarm→"go
+  straight for PUMP" (19 s) → "let's try to get liquidated in the hour" +
+  SK Hynix wiggle room (16 s) → blood sport (16 s), whoosh+wipe between.
+  The "does that mean meme coins are back" aside (6.3 s) is dropped. COLD2
+  still runs tyler+chris mic/cam only (Jackson talks under it).
+- **Forced shots** (Jackson's ask, 8/14; new `force_shots` in remote_cutlist):
+  trio at 0:08–0:16 of S1 so Chris + Tyler are on screen saying their names,
+  and the episode ends on a trio from 55:53 to the end card.
+- **S7 open trimmed** (Jackson's ask, 8/14): "Okay, even more Bitcoin — sorry,
+  Claude, we're back" is gone; the Red Team segment opens on "All right, even
+  more Bitcoin: the Bitcoin Red Team." Cut sits in a 0.27 s verified-silent
+  gap (below the gate's listing resolution — documented exception).
+- **Gorilla insert at 29:31**: Chris asks for a Gorilla Mode clip, Jackson
   says "maybe I could generate a video of a gorilla… that's what I'll do" →
   smash cut to the generated gorilla with caption "this is what pop culture
   wants you to think." No whoosh/wipe on either edge — the smash cut is the

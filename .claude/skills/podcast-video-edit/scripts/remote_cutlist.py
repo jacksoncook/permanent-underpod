@@ -45,6 +45,7 @@ PORDER = PLAN.get('panel_order', ['jackson', 'chris', 'tyler'])
 FACE_CX = PLAN.get('face_cx', {})
 PROTECT = [tuple(p) for p in PLAN.get('protect', [])]
 SWITCH_HOLD = 2.0
+FORCE = [(f['m0'], f['m1'], f) for f in PLAN.get('force_shots', [])]
 GROUP_HOLD = P.get('group_hold', 1.2)
 # Visual reaction shots: only active when the plan asks for it AND
 # remote_motion.py has been run, so pre-existing episodes re-cut identically.
@@ -131,6 +132,14 @@ def dominant(m, win=2.4):
     return {p: float(np.mean([person_act(p, t)
                               for t in np.arange(m - win / 2, m + win / 2, 0.05)]))
             for p in PORDER}
+
+def forced_shot(f, a, z):
+    """plan-pinned shot for a force_shots window (people default: everyone)."""
+    ppl = [p for p in PORDER if p in f.get('people', PORDER)]
+    panels = [tr for tr in (person_track(p, a, z) for p in ppl) if tr]
+    if f.get('type', 'trio') == 'solo' or len(panels) == 1:
+        return dict(type='solo', cam=panels[0], forced=True)
+    return dict(type='trio' if len(panels) >= 3 else 'duo', panels=panels, forced=True)
 
 def shot_key(sh):
     return sh['type'] + ':' + ','.join(sh.get('panels', [sh.get('cam', '')]))
@@ -246,7 +255,23 @@ def plan_block(b):
             final[-1] = (final[-1][0], z, sh)
         else:
             final.append((a, z, sh))
-    return [(a, z, sh) for a, z, sh in final if z - a >= 1.5]
+    if FORCE:
+        split = []
+        for a, z, sh in final:
+            cuts = sorted({a, z} | {min(max(e, a), z) for f0, f1, _ in FORCE for e in (f0, f1)})
+            for x0, x1 in zip(cuts, cuts[1:]):
+                if x1 - x0 < 0.05:
+                    continue
+                mid = (x0 + x1) / 2
+                f = next((ff for f0, f1, ff in FORCE if f0 <= mid < f1), None)
+                split.append((x0, x1, forced_shot(f, x0, x1) if f else sh))
+        final = []
+        for a, z, sh in split:
+            if final and abs(final[-1][1] - a) < 0.02 and shot_key(final[-1][2]) == shot_key(sh):
+                final[-1] = (final[-1][0], z, sh)
+            else:
+                final.append((a, z, sh))
+    return [(a, z, sh) for a, z, sh in final if z - a >= 1.5 or sh.get('forced')]
 
 def audio_spec(a, z, mics=None, mute=None):
     spec = []

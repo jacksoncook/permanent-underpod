@@ -37,6 +37,17 @@ TEST_T = next((float(a.split("=")[1]) for a in sys.argv if a.startswith("--test=
 # and generation-loss-y, this is ~2 min and leaves the video bit-identical.
 AUDIO_ONLY = "--audio-only" in sys.argv
 
+def _aac_encoder():
+    """Native ffmpeg aac produced a +3.5 dBFS click from clean limited input on
+    Ep 10 (deterministic across encodes); aac_at (AudioToolbox) encoded the same
+    PCM cleanly. Prefer it when the build has it."""
+    r = subprocess.run(["ffmpeg", "-hide_banner", "-encoders"],
+                       capture_output=True, text=True)
+    return "aac_at" if " aac_at " in r.stdout else "aac"
+
+AAC = _aac_encoder()
+
+
 clips = json.load(open(os.path.join(WORK, "clips.json")))
 overlays = json.load(open(os.path.join(WORK, "overlays.json")))
 # optional video picture-in-picture windows (screen recordings etc.) written by
@@ -286,13 +297,13 @@ if AUDIO_ONLY:
     a_tmp = os.path.join(WORK, "_audio_fix.m4a")
     cmd += ["-filter_complex", ";".join(f), "-map", "[aout]",
             "-t", f"{total + 0.2:.2f}",
-            "-c:a", "aac", "-b:a", "192k", "-ar", "48000", a_tmp]
+            "-c:a", AAC, "-b:a", "192k", "-ar", "48000", a_tmp]
 else:
     cmd += ["-filter_complex", ";".join(f), "-map", "[vout]", "-map", "[aout]",
             "-t", f"{(TEST_T or total + 0.2):.2f}", "-shortest",
             "-r", "30", "-fps_mode", "cfr", "-video_track_timescale", "30000",
             "-c:v", "h264_videotoolbox", "-b:v", "7500k", "-profile:v", "high",
-            "-c:a", "aac", "-b:a", "192k", "-ar", "48000",
+            "-c:a", AAC, "-b:a", "192k", "-ar", "48000",
             "-movflags", "+faststart", out]
 print("rendering...", "(audio only)" if AUDIO_ONLY else "(test)" if TEST_T else "")
 r = subprocess.run(cmd)
