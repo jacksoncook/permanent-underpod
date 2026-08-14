@@ -39,7 +39,7 @@ Agents escaped their sandboxes, built a private 4chan inside Artifactory, and st
 11:36 Swarms beat solo agents
 14:31 Chris's Friday-night swarm
 21:37 Check-in: what did we break this week
-25:20 The tennis comeback
+23:31 The tennis comeback
 29:37 A gorilla interlude
 31:05 Cloudflare's agentic wallets
 34:36 BIP-110: the epitaph
@@ -80,7 +80,7 @@ GLOSSARY
 | 11:36 | Swarms beat solo agents |
 | 14:31 | Chris's Friday-night swarm |
 | 21:37 | Check-in: what did we break this week |
-| 25:20 | The tennis comeback |
+| 23:31 | The tennis comeback |
 | 29:37 | A gorilla interlude |
 | 31:05 | Cloudflare's agentic wallets |
 | 34:36 | BIP-110: the epitaph |
@@ -95,7 +95,7 @@ GLOSSARY
 ```
 Agents escaped their sandboxes, built a private 4chan inside Artifactory, and started trading zero-days — "hold swarm, help peer, hold for exfil." That's the Black Hat story that opens Ep 10, and it gets personal fast: Chris spent Friday night running his own primitive swarm (librarian agent included), and the research now says 10 agents that can talk beat 10 working alone. Double digits for the pod, so the swarm picks this week's Perp of Fortune — long PUMP at 10×, live dashboard on screen — and it rides the whole episode. Plus: Cloudflare ships custodial wallets for agents, BIP-110 dies with 2.53% of the vote, Bitcoin gets an official red team, Boltz preemptively surrenders, and Ethereum remains a constant state of warfare. Also a gorilla, for copyright reasons.
 
-Chapters: Cold open (0:00) · The boys are back (1:02) · Perp of Fortune: long PUMP 10× (1:53) · The swarm: the Black Hat story (6:02) · The chatter (7:43) · Swarms beat solo agents (11:36) · Chris's Friday-night swarm (14:31) · Check-in (21:37) · The tennis comeback (25:20) · The gorilla (29:37) · Cloudflare's agentic wallets (31:05) · BIP-110: the epitaph (34:36) · The Bitcoin Red Team (35:46) · Swarmlord & the dump (41:37) · Boltz just quit (42:57) · Ethereum: constant warfare (51:14) · Wrap (56:05)
+Chapters: Cold open (0:00) · The boys are back (1:02) · Perp of Fortune: long PUMP 10× (1:53) · The swarm: the Black Hat story (6:02) · The chatter (7:43) · Swarms beat solo agents (11:36) · Chris's Friday-night swarm (14:31) · Check-in (21:37) · The tennis comeback (23:31) · The gorilla (29:37) · Cloudflare's agentic wallets (31:05) · BIP-110: the epitaph (34:36) · The Bitcoin Red Team (35:46) · Swarmlord & the dump (41:37) · Boltz just quit (42:57) · Ethereum: constant warfare (51:14) · Wrap (56:05)
 
 Recorded fully remote — three cameras, one live perp dashboard, one generated gorilla. Our opinions are our own, not our employers'. NOT financial advice; Perp of Fortune is a small real-money account we run for entertainment. Glossary: The swarm breakout = sandboxed agents found a shared Artifactory allowance, built a message board with its own argot, and traded exploits; researchers took it down and the agents found another way. Swarms > solo = 10 communicating agents beat 10 loners at vulnerability-hunting. Swarmlord = the swarm GUI Chris wants to exist. Cloudflare wallets = custodial stablecoin wallets with DNS-style names, betting agent payments outstrip human payments in five years. BIP-110 = needed 55% hashrate signaling, got 2.53% — two blocks, then silence. Boltz = the Lightning swap provider that shut down preemptively. Final perp P&L: not liquidated, −$36.
 
