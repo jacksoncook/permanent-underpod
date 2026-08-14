@@ -1,8 +1,9 @@
 # Permanent Underpod — Ep 10 — Segment Times
 
 **Final cut: 57:08 · fully-remote episode (three StreamYard cams, offsets
-0/+0.008/−0.046 — clap-cluster + turn-gap validated; by-ear bench BUILT at
-`media/ep10/work/sync.html`, Jackson's confirm still owed) · live Perp of
+0/+0.008/−0.046 — clap-cluster + turn-gap validated; by-ear bench waived by
+Jackson 2026-08-14: platform-identical 3427.3s exports, screen share
+end-aligned + content-anchored) · live Perp of
 Fortune dashboard PiP (anchor 116.379, triple-verified against spoken P&L
 cues; corner pip up from the reveal to the end card, board closes −$36) ·
 gorilla smash-cut insert with caption at 29:37 · title/end cards · whoosh &
