@@ -1,79 +1,64 @@
 {
-  "generatedAt": "2026-08-10",
-  "headline": "Ten days: views 11,650→17,289 (+48%), subs 23→24 (+1). The shorts machine is fully working — four clips over 700 views this cycle (Make me a millionaire 1,214; baby egg allergy 1,148; dice rolls 940; Claude don't cut this out 729), all personality one-liners, while every concept clip flopped (NSA 75, freestyle 19, CLOSE IT 15) — but it converted almost nothing: one subscriber all cycle, zero subs from either new episode. The two big experiment reads: Ep 8's first-week CTR came in at 1.78% (2.6× Ep 7's 0.68%, below Ep 6's 3.24% — launch packaging mildly positive), and Ep 9 earned the channel's biggest first-week audition ever (2,527 impressions) but converted at just 1.23% — and it spent launch-day peak hours serving a truncated title variant ('…Catastrop') locked in Test & Compare (Jackson fixed it in Studio same day), a launch-day packaging failure of exactly the kind the gate exists to prevent. Ep 9's body is the best on the channel (16.5% avg view, 13.7% held flat from 40–80%, 9.8% at the end) but its open is the worst (−60.8pp by 1:41). Fix the first 90 seconds and the packaging gate, and the format is proven.",
+  "generatedAt": "2026-08-17",
+  "headline": "Week: views 17,289→18,344 (+1,055), subs 24→25 (+1 — again). Ep 10 went live 8/14 and YouTube handed it the biggest launch-day audition in channel history (3,597 impressions in roughly the first day of reach coverage; Ep 9 needed a week to reach 2,527) — and it converted at 0.61% CTR, the worst episode CTR ever, below even solo Ep 7's 0.68%. Compounding it: the live title ('Gorilla Mode: How AI Swarms Change Everything') matches NONE of the four drafts in segment-times.md, which records draft #1 as published and yt_fetch-verified on 8/14 — so a retitle or an unlogged Test & Compare happened mid-launch, exactly the failure mode the packaging gate exists to catch. The ≤60s cold-open experiment read negative: Ep 10 lost −69.6pp by 1:42 (Ep 9: −58.7pp), so brevity alone doesn't stop the leak (n=23, noisy). The genuinely new win: the perp-rides-all-episode format produced the strongest ending on the channel — watch RISES from 8.7% to 13% at 82–97% with vs_typical 0.91+. And the funnel verdict is in: RELATED_VIDEO moved 130→150 views in a week while shorts added ~1,850 — still flat, so clip picks pivot to arc-teases on Ep 11.",
   "production": [
     {
-      "title": "Launch-day packaging gate: Ep 8 passed (mildly), Ep 9 fumbled it — a Test & Compare variant shipped with a truncated title",
-      "evidence": "Ep 8 first-week CTR (the number last review flagged as most important): 1.78% on 1,513 impressions — 2.6× Ep 7's 0.68%, still below Ep 6's 3.24%. Ep 9 drew 2,527 first-week impressions, the largest episode audition the channel has ever gotten (Ep 5: 1,712, Ep 8: 1,513), and converted at 1.23% — and per segment-times.md it went live 8/6 with the title variant 'Do Everything Right, Lose Everything: The Coldcard Catastrop' (missing 'he'), unfixable via API while Test & Compare held it. The API now returns the clean 'An AI Found the Bug. Then It Found Everyone's Bitcoin.' so a variant swap happened, but the broken variant was serving during the days that matter (95% of impressions land in the first 7 days).",
-      "recommendation": "Extend the launch gate: proofread every Test & Compare variant BEFORE publish (the truncation was an input error, not a display limit), and don't start a title experiment on launch day unless all variants are verified. Ep 10 is the next clean test — target Ep 6's 3.24%.",
-      "priority": "high",
-      "status": "partial",
-      "status_note": "Ep 8 = first clean launch test, positive. Ep 9 = gate violated by the truncated variant; Jackson fixed it in Studio same day (8/6), but it served during peak audition hours. Whether custom thumbnails were live at launch for either is still unverified."
-    },
-    {
-      "title": "Shorts→subscriber conversion is now THE channel problem: +5,639 views bought 1 subscriber",
-      "evidence": "SHORTS traffic this window: 14,275 views / 885 watch-minutes (up ~3,828 views this cycle). Channel subs: +1 in 10 days. Both new episodes report subs_gained = 0. Meanwhile SUBSCRIBER traffic produced 1,522 watch-minutes off just 579 views — a subscriber is worth ~26× the watch-time of a shorts view. RELATED_VIDEO (the wired funnel) moved 97→130 views and 254→415 watch-minutes — real but tiny against 14k shorts views. Even with the funnel wired, the 1,214-view and 1,148-view shorts converted zero measurable subs.",
-      "recommendation": "The wiring is done (Jackson runs the Ep 9 pinned comments as each short goes public); the question is now whether the funnel CAN convert at this shorts/episode affinity, or whether the shorts audience is just a different audience. Next pull: judge by RELATED_VIDEO (baseline 130 / 415) and subs. If it's still ~flat, the experiment shifts to clip choice — pull clips that tease an episode ARC (cliffhanger into the ?t= link) instead of self-contained punchlines.",
-      "priority": "high",
-      "status": "partial",
-      "status_note": "Ep 9 funnel checklist done by Jackson 8/6 (pinned comments land as each short goes public — Studio-manual, don't re-report as pending). Ep 8's batch unconfirmed. 5 Ep 9 clips still scheduled-private through 8/13."
-    },
-    {
-      "title": "The opening leak moved INSIDE the cold open — Ep 9 loses half its audience mid-teaser, before the welcome even starts",
-      "evidence": "Ep 9 opens hotter than anything prior (96.1% watching at 0:33, vs Ep 8's 74.1%) then sheds −51.0pp between 0:33 and 1:07 — entirely inside the 0:00–1:34 cold open — and another −9.8pp by 1:41. Total 0:33→1:41 loss: −60.8pp, the worst on the channel (Ep 6: −26.9pp; caveat: n=51 views, noisy). Ep 8: −38.9pp at 0:31→1:02, same shape. The seam-drop theory is dead: viewers aren't bailing at the welcome handoff, they're bailing when the teaser overstays.",
-      "recommendation": "Cap the cold open at ~60 seconds. Ep 9's ran 94s. The hook lands (96% at 0:33) — get to the marquee before it decays. Pair with the recording-side welcome trim.",
+      "title": "Ep 10 launch packaging FAILED the gate: 0.61% CTR on the biggest launch audition ever, and the serving title is undocumented",
+      "evidence": "Reach coverage through 8/15 07:00Z (≈ launch day + a few hours): 3,597 impressions at 0.61% CTR. Targets from the 8/10 review: Ep 6's 3.24%; even Ep 8's 1.78% and Ep 9's 1.23% are 2–3× better. ~95% of lifetime impressions land in the first 7 days, so this is the window that matters. Separately, the API now returns the title 'Gorilla Mode: How AI Swarms Change Everything' — not draft #1 ('The Agents Built Their Own 4chan…') which segment-times.md records as published and yt_fetch-verified 8/14, and not any of the other three drafts. Ep 9's truncated-variant fiasco started the same way.",
+      "recommendation": "Ep 10 is only 3 days into its 7-day window — a packaging fix can still run, unlike every retro-fix before it. Jackson: confirm in Studio what's actually serving (retitle? Test & Compare? which thumbnail?), pick the strongest verified title+thumbnail now, then backfill segment-times.md (house rule: it reflects the ACTUAL live copy). Going forward the gate gains a line: any post-publish title/thumbnail change gets logged in segment-times.md same day.",
       "priority": "high",
       "status": "open"
     },
     {
-      "title": "Clip selection: personality one-liners beat concept clips by 10–80×, again, with the biggest sample yet",
-      "evidence": "This cycle's shorts: Make me a millionaire 1,214 / baby egg allergy 1,148 / dice rolls 940 / Claude don't cut this out 729 / commit 'runs' 323 vs concept or solo picks: NSA 75, My agent only buys Ripple 26, freestyle 19, CLOSE IT 15. Same pattern as Ep 6/7 cycles but at 5× the volume. Views track the human moment, not the topic.",
-      "recommendation": "Already house style (personality/one-liner picks over concepts) — this is the confirmation data. When a batch needs a 9th clip, cut a second personality beat before a second concept.",
-      "priority": "med",
-      "status": "done"
+      "title": "Funnel verdict is in: still flat → pivot clip picks to arc-teases for Ep 11",
+      "evidence": "The 8/10 review set the test: judge RELATED_VIDEO against baseline 130 views / 415 watch-min. This week: 150 views / 540 watch-min (+20 / +125) while SHORTS added ~1,850 views (14,275→16,122). Subs +1 in 7 days; Ep 10 subs_gained = 0. Self-contained punchline shorts entertain but don't convert — Ep 10's batch (already cut, publishing through 8/21) is more of the same.",
+      "recommendation": "Per the 8/10 plan: for Ep 11, cut at least 2 of the shorts as ARC TEASES — a cliffhanger that only resolves in the episode, pinned comment with the ?t= link at the resolution point. Also: Ep 10's funnel checklist is OWED and 2 shorts are already public — work it today (related video, pinned comment with episode link + timestamp, end screens).",
+      "priority": "high",
+      "status": "partial",
+      "status_note": "Wiring done through Ep 9; Ep 10 checklist not yet run (shorts publishing daily 2 AM PT through 8/21). RELATED_VIDEO baseline for next pull: 150 views / 540 watch-min."
+    },
+    {
+      "title": "Cold-open cap shipped on Ep 10 — the leak didn't move; next edit-side lever is a ONE-beat open",
+      "evidence": "Ep 10 shipped the ≤60s cap (51.5s, three chained beats with whoosh+wipe between). Result: 100% watching at 0:34 → 52.2% at 1:08 → 30.4% at 1:42, a −69.6pp loss vs Ep 9's −58.7pp over the same span (caveat: n=23 measured views, each viewer ≈ 4.3pp). The drop concentrates at 0:34–1:08 — beats 2–3 of the teaser plus the title card, before the perp even starts at 1:46. Low-intent browse traffic from the huge audition likely inflates this, but two episodes running the leak is inside the teaser itself.",
+      "recommendation": "Ep 11: cut the cold open to ONE beat — the single strongest moment, ~20–25s, straight into the title card. Stop chaining teasers; each extra beat is another exit ramp. Keep the ≤60s hard cap as a ceiling, not a target.",
+      "priority": "high",
+      "status": "partial",
+      "status_note": "Cap itself: shipped and verified on Ep 10 (51.5s). The metric it was meant to fix: unmoved."
     },
     {
       "title": "Re-upload the Ep 2 clip as a new asset (carried)",
-      "evidence": "Unchanged: 8,840 lifetime impressions at 0.42% CTR, now aged out to ~0/day. The re-audition experiment hasn't been run.",
-      "recommendation": "Re-cut as a NEW upload with a hook title + thumbnail; it tests whether a fresh audition can be won with proven-demand content. Low effort, slot it behind the Ep 9 clip queue (after 8/13).",
+      "evidence": "Unchanged: 8,840 lifetime impressions at 0.42% CTR, aged out to ~0/day. Ep 9's queue finished 8/14; Ep 10's runs through 8/21, so the slot hasn't opened yet.",
+      "recommendation": "Re-cut as a NEW upload with hook title + thumbnail after 8/21 (next open daily slot, +12h collision rule). Tests whether a fresh audition can be won with proven-demand content.",
       "priority": "med",
       "status": "open"
     }
   ],
   "recording": [
     {
-      "title": "Story-driven explainers hold; debate blocks leak — the 8-minute cap is really a stakes cap",
-      "evidence": "Ep 9's Coldcard block (5:16–17:30, ~12 min, Tyler owned the device) held 19.6–21.6% almost perfectly flat from 5:36 to 16:50 — the longest flat stretch on any episode, despite breaking the 8-minute cap. Ep 8's 'who gets the dangerous model' debate (8:33–18:34) dropped −5.6pp right at 8:22 as it started and stayed low. The differentiator isn't minutes, it's a host with skin in the game telling a story vs hosts arguing an abstraction.",
-      "recommendation": "Keep the cap for abstract/debate segments, but a personal-stakes narrative can run 12+ minutes. Slate rule: every explainer needs an owner with a story ('Tyler owned the exact device'), or it gets capped at 8 and paired with a live bit.",
+      "title": "Stakes that ride the whole episode produce the channel's best ending — make the live-resolution finale a format staple",
+      "evidence": "Ep 10's perp (long PUMP 10×) opened at 1:46, rode as a corner pip all episode, resolved at the wrap. The back fifth is the strongest ending ever recorded: watch RISES 8.7%→13.0% from 77% to 82% and holds 13% through 97% (46:39–55:11, Boltz → Ethereum → wrap), with vs_typical 0.91–0.92 — triple the mid-show relative performance. Ep 9's best-on-channel body ended at 9.8%. Survivors don't drift off; they stay for the resolution.",
+      "recommendation": "Every episode carries one live, unresolved stake introduced in the first 5 minutes and resolved in the wrap (Perp of Fortune already is this — keep it, and tease the resolution in the cold open). This also confirms the 8/10 finding: end on the live/personal beat, never park a standing topic in the last 20%.",
       "priority": "high"
     },
     {
-      "title": "Ep 8's final block bled out — don't park agentic commerce (or any standing topic) in the last 20%",
-      "evidence": "Ep 8 at 80–83% (41:50–43:24, inside 'Agentic commerce, finally' 38:47 + 'standards war' 45:38): vs_typical collapses to 0.07–0.05 and watch drops −7.4pp — the worst relative performance of any segment on either new episode. Contrast Ep 9's final stretch (frontier pissing contest → book-scanning → distillation): 13.7% held flat from 39:17 to 44:54 and 9.8% still present at the end.",
-      "recommendation": "Agentic commerce is on every slate (standing topic) — schedule it mid-show where Ep 9 put its strongest material, and end on the live/personal beat instead.",
-      "priority": "med"
-    },
-    {
-      "title": "Check-in placement fix VERIFIED on Ep 8 — keep it mid-show",
-      "evidence": "Last review's test: Ep 8 moved check-in to 18:34. Result: no crater — retention actually rises through that region (13.0% at 15:41 → 14.8% at 20:55), and the old 1:50–2:27 danger zone shows only the baseline opening decay (−5.6pp), no distinct check-in cliff like Ep 5's −9.1pp.",
-      "recommendation": "Locked in: check-in lives mid-show as a palate cleanser, never in the top 10 minutes. This item retires next review if Ep 9/10 don't contradict it.",
-      "priority": "med"
+      "title": "Story explainers hold, but only to the payoff — Chris's Friday-night swarm leaked its back half",
+      "evidence": "Ep 10's Black Hat swarm story (5:55–14:24) held and even climbed (13.0% at 9:40 → 21.7–26.1% around 10:48–11:22 as replays/chapter entries land). Then 'Chris's Friday-night swarm' (14:24–21:31, ~7 min): watch halves 17.4%→8.7% across 14:47–15:55 and vs_typical craters 0.55→0.21 by 18:12 — the last leak of the episode; the curve never drops again after it. This refines the 8/10 rule: an owner-with-a-story earns the long block (Ep 9's Coldcard, Ep 10's Black Hat story), but a personal PROJECT retelling decays once the demo's punchline lands (n=23 caveat applies).",
+      "recommendation": "Personal-project segments end at the payoff: land the punchline, tease what's next, move on — ~4 min, not 7. Owner-story explainers keep the 12-min license.",
+      "priority": "high"
     },
     {
       "title": "Don't ship a solo episode as the main feed item (standing)",
-      "evidence": "Unchanged since 7/31: Ep 7 (solo) remains worst on every axis — 0.68% CTR, 6.8% avg view, −56.7pp opening. No new solo episodes since; the two full-panel episodes since both beat it on every measure.",
+      "evidence": "Unchanged since 7/31: Ep 7 (solo) remains worst on every axis except Ep 10's launch CTR — 0.68% CTR, 6.8% avg view, −56.7pp opening. All full-panel episodes since beat it on avg view %.",
       "recommendation": "When hosts are out, ship a clip package or bring a guest.",
       "priority": "med"
     }
   ],
   "experiments": [
-    "[prod] RESULT — Ep 8 first-week CTR (last review's headline number): 1.78% on 1,513 impressions. 2.6× Ep 7's 0.68%, below Ep 6's 3.24%. Launch-day packaging: mildly positive, not yet at target.",
-    "[rec] NOT RUN — 'Ep 9 cuts the teaser straight into segment 1 with no welcome block': Ep 9 shipped with a 94s cold open + welcome at 1:34. And the curve says the leak is inside the teaser itself (−51pp at 0:33–1:07), not at the welcome seam. Superseded by: Ep 10 caps the cold open at ≤60s.",
-    "[rec] RESULT — Ep 8 check-in at 18:34: VERIFIED, no crater (13.0→14.8% rising through it), old 1:50–2:27 danger zone clean. Locked in.",
-    "[prod] RESULT — personality vs concept clips at 5× volume: one-liners 729–1,214 views, concepts 15–75. House style confirmed; no further test needed.",
-    "[prod] RESOLVED — Ep 9 truncated title: Jackson fixed the variants in Studio 8/6 (API now shows the clean 'An AI Found the Bug…' title). Still record which Test & Compare variant wins when the test concludes; variant proofreading is now part of the launch gate.",
-    "[prod] CARRIED — shorts→episode funnel: Ep 9 checklist done (Jackson, 8/6); judge RELATED_VIDEO next pull against baseline 130 views / 415 watch-minutes. If flat, pivot to arc-tease clip picks.",
-    "[prod] CARRIED — re-upload the Ep 2 clip as a new asset with hook packaging; slot after the Ep 9 clip queue finishes 8/13.",
-    "[rec] NEW — Ep 10: does a ≤60s cold open cut the 0:30–1:45 loss below Ep 6's −26.9pp benchmark? Ep 9's 96% at 0:33 proves the hook works; the test is whether brevity keeps them."
+    "[rec] RESULT — Ep 10 ≤60s cold open: NEGATIVE. −69.6pp by 1:42 vs Ep 9's −58.7pp (n=23, noisy — treat as 'no improvement', not 'worse'). The cap alone doesn't fix the open; superseded by: Ep 11 runs a ONE-beat ~20–25s cold open.",
+    "[prod] RESULT — Ep 10 launch CTR (the clean packaging test): 0.61% on 3,597 launch-day impressions — worst ever, vs the 3.24% target. Confounded by an undocumented mid-launch title change; Jackson to confirm what served. Packaging fix still runnable through ~8/21 (day 7).",
+    "[prod] RESULT — shorts→episode funnel after full wiring: RELATED_VIDEO 130→150 views / 415→540 watch-min in a week vs +1,850 shorts views. FLAT. Pivot per plan: Ep 11 cuts ≥2 arc-tease shorts (cliffhanger + ?t= resolution link) alongside the personality picks.",
+    "[rec] NEW — live-stakes finale: Ep 10's episode-long perp produced watch RISING into the wrap (8.7%→13%, vs_typical 0.91+). Formalize on Ep 11: one unresolved stake opened in the first 5 min, resolved in the wrap, teased in the cold open. Judge by whether the 80–100% region holds ≥ Ep 10's 13%.",
+    "[prod] CARRIED — re-upload the Ep 2 clip with hook packaging; slot opens after the Ep 10 queue finishes 8/21.",
+    "RETIRED (done two reviews running, git history keeps them): personality-over-concept clip picks (confirmed again: Down $36 at 202 views day one vs degenerate-gamblers 24); check-in mid-show (Ep 10's check-in at 21:31–23:25 ran flat at 8.7%, no crater — third consecutive clean read)."
   ]
 }

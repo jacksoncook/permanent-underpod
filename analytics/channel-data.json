@@ -1,16 +1,16 @@
 {
-  "pulledAt": "2026-08-10T06:44:31-04:00",
+  "pulledAt": "2026-08-17T04:07:10-04:00",
   "range": {
     "start": "2026-06-13",
-    "end": "2026-08-10"
+    "end": "2026-08-17"
   },
   "channel": {
     "id": "UCmZ_tUPnopsFJS615b-NtbA",
     "title": "Permanent Underpod - Podcast",
     "publishedAt": "2026-06-13T00:35:48.733144Z",
-    "subscribers": 24,
-    "totalViews": 17289,
-    "videoCount": 63
+    "subscribers": 25,
+    "totalViews": 18344,
+    "videoCount": 71
   },
   "videos": [
     {
@@ -541,8 +541,8 @@
         }
       ],
       "reach": {
-        "impressions": 756,
-        "ctr_pct": 2.38
+        "impressions": 729,
+        "ctr_pct": 2.06
       }
     },
     {
@@ -572,8 +572,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 28,
-        "ctr_pct": 7.14
+        "impressions": 29,
+        "ctr_pct": 6.9
       }
     },
     {
@@ -603,8 +603,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 205,
-        "ctr_pct": 3.41
+        "impressions": 191,
+        "ctr_pct": 2.62
       }
     },
     {
@@ -634,7 +634,7 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 21,
+        "impressions": 20,
         "ctr_pct": 0.0
       }
     },
@@ -649,15 +649,15 @@
       "privacyStatus": "public",
       "publishAt": null,
       "stats": {
-        "views": 1292,
+        "views": 1295,
         "likes": 5,
         "comments": 0
       },
       "analytics": {
-        "views": 1291,
-        "watch_min": 66,
+        "views": 1295,
+        "watch_min": 67,
         "avg_view_s": 8,
-        "avg_view_pct": 78.64,
+        "avg_view_pct": 79.08,
         "likes": 5,
         "comments": 0,
         "shares": 0,
@@ -665,8 +665,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 135,
-        "ctr_pct": 8.89
+        "impressions": 154,
+        "ctr_pct": 6.49
       }
     },
     {
@@ -1197,8 +1197,8 @@
         }
       ],
       "reach": {
-        "impressions": 1721,
-        "ctr_pct": 2.38
+        "impressions": 1230,
+        "ctr_pct": 2.11
       }
     },
     {
@@ -1228,8 +1228,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 545,
-        "ctr_pct": 0.18
+        "impressions": 385,
+        "ctr_pct": 0.26
       }
     },
     {
@@ -1259,7 +1259,7 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 31,
+        "impressions": 28,
         "ctr_pct": 0.0
       }
     },
@@ -1791,7 +1791,7 @@
         }
       ],
       "reach": {
-        "impressions": 8845,
+        "impressions": 8799,
         "ctr_pct": 0.42
       }
     },
@@ -1822,8 +1822,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 132,
-        "ctr_pct": 0.76
+        "impressions": 130,
+        "ctr_pct": 0.77
       }
     },
     {
@@ -1853,8 +1853,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 118,
-        "ctr_pct": 1.69
+        "impressions": 110,
+        "ctr_pct": 1.82
       }
     },
     {
@@ -1884,8 +1884,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 54,
-        "ctr_pct": 5.56
+        "impressions": 50,
+        "ctr_pct": 6.0
       }
     },
     {
@@ -2416,8 +2416,8 @@
         }
       ],
       "reach": {
-        "impressions": 6246,
-        "ctr_pct": 3.44
+        "impressions": 1166,
+        "ctr_pct": 3.6
       }
     },
     {
@@ -2447,7 +2447,7 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 28,
+        "impressions": 25,
         "ctr_pct": 0.0
       }
     },
@@ -2478,8 +2478,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 43,
-        "ctr_pct": 4.65
+        "impressions": 36,
+        "ctr_pct": 2.78
       }
     },
     {
@@ -2875,8 +2875,8 @@
         }
       ],
       "reach": {
-        "impressions": 1247,
-        "ctr_pct": 1.28
+        "impressions": 805,
+        "ctr_pct": 0.75
       }
     },
     {
@@ -2906,8 +2906,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 49,
-        "ctr_pct": 4.08
+        "impressions": 38,
+        "ctr_pct": 0.0
       }
     },
     {
@@ -2937,7 +2937,7 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 103,
+        "impressions": 76,
         "ctr_pct": 0.0
       }
     },
@@ -2968,8 +2968,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 118,
-        "ctr_pct": 2.54
+        "impressions": 95,
+        "ctr_pct": 2.11
       }
     },
     {
@@ -2999,8 +2999,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 59,
-        "ctr_pct": 6.78
+        "impressions": 55,
+        "ctr_pct": 5.45
       }
     },
     {
@@ -3531,8 +3531,8 @@
         }
       ],
       "reach": {
-        "impressions": 2377,
-        "ctr_pct": 2.9
+        "impressions": 2372,
+        "ctr_pct": 2.87
       }
     },
     {
@@ -3569,8 +3569,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 89,
-        "ctr_pct": 1.12
+        "impressions": 93,
+        "ctr_pct": 1.08
       }
     },
     {
@@ -4109,8 +4109,8 @@
         }
       ],
       "reach": {
-        "impressions": 3875,
-        "ctr_pct": 1.94
+        "impressions": 3877,
+        "ctr_pct": 1.93
       }
     },
     {
@@ -4147,8 +4147,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 74,
-        "ctr_pct": 1.35
+        "impressions": 77,
+        "ctr_pct": 1.3
       }
     },
     {
@@ -4186,8 +4186,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 48,
-        "ctr_pct": 4.17
+        "impressions": 56,
+        "ctr_pct": 3.57
       }
     },
     {
@@ -4225,7 +4225,7 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 404,
+        "impressions": 406,
         "ctr_pct": 0.74
       }
     },
@@ -4263,8 +4263,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 61,
-        "ctr_pct": 1.64
+        "impressions": 74,
+        "ctr_pct": 1.35
       }
     },
     {
@@ -4795,8 +4795,8 @@
         }
       ],
       "reach": {
-        "impressions": 1739,
-        "ctr_pct": 1.21
+        "impressions": 1751,
+        "ctr_pct": 1.2
       }
     },
     {
@@ -4832,8 +4832,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 115,
-        "ctr_pct": 2.61
+        "impressions": 122,
+        "ctr_pct": 2.46
       }
     },
     {
@@ -4869,7 +4869,7 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 829,
+        "impressions": 834,
         "ctr_pct": 0.48
       }
     },
@@ -4905,8 +4905,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 76,
-        "ctr_pct": 5.26
+        "impressions": 81,
+        "ctr_pct": 4.94
       }
     },
     {
@@ -4942,8 +4942,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 104,
-        "ctr_pct": 2.88
+        "impressions": 106,
+        "ctr_pct": 2.83
       }
     },
     {
@@ -5480,8 +5480,8 @@
         }
       ],
       "reach": {
-        "impressions": 584,
-        "ctr_pct": 2.05
+        "impressions": 591,
+        "ctr_pct": 2.03
       }
     },
     {
@@ -5517,8 +5517,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 32,
-        "ctr_pct": 3.12
+        "impressions": 30,
+        "ctr_pct": 3.33
       }
     },
     {
@@ -5554,8 +5554,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 68,
-        "ctr_pct": 2.94
+        "impressions": 67,
+        "ctr_pct": 2.99
       }
     },
     {
@@ -5585,10 +5585,10 @@
         "comments": 0
       },
       "analytics": {
-        "views": 31,
-        "watch_min": 297,
-        "avg_view_s": 575,
-        "avg_view_pct": 17.08,
+        "views": 32,
+        "watch_min": 298,
+        "avg_view_s": 558,
+        "avg_view_pct": 16.57,
         "likes": 3,
         "comments": 0,
         "shares": 0,
@@ -5597,508 +5597,508 @@
       "retention": [
         {
           "ratio": 0.01,
-          "watch_ratio": 0.5484,
-          "vs_typical": 0.36185
+          "watch_ratio": 0.5625,
+          "vs_typical": 0.3563
         },
         {
           "ratio": 0.02,
-          "watch_ratio": 0.2581,
-          "vs_typical": 0.4698
+          "watch_ratio": 0.25,
+          "vs_typical": 0.45645
         },
         {
           "ratio": 0.03,
-          "watch_ratio": 0.2581,
-          "vs_typical": 0.6149
+          "watch_ratio": 0.25,
+          "vs_typical": 0.5963499999999999
         },
         {
           "ratio": 0.04,
-          "watch_ratio": 0.35479999999999995,
-          "vs_typical": 0.76425
+          "watch_ratio": 0.34380000000000005,
+          "vs_typical": 0.74515
         },
         {
           "ratio": 0.05,
-          "watch_ratio": 0.3226,
-          "vs_typical": 0.8584
+          "watch_ratio": 0.3125,
+          "vs_typical": 0.8406
         },
         {
           "ratio": 0.06,
-          "watch_ratio": 0.3226,
-          "vs_typical": 0.8886499999999999
+          "watch_ratio": 0.3125,
+          "vs_typical": 0.87185
         },
         {
           "ratio": 0.07,
-          "watch_ratio": 0.35479999999999995,
-          "vs_typical": 0.8925000000000001
+          "watch_ratio": 0.34380000000000005,
+          "vs_typical": 0.87635
         },
         {
           "ratio": 0.08,
-          "watch_ratio": 0.4194,
-          "vs_typical": 0.89085
+          "watch_ratio": 0.40630000000000005,
+          "vs_typical": 0.8754
         },
         {
           "ratio": 0.09,
-          "watch_ratio": 0.35479999999999995,
-          "vs_typical": 0.8826
+          "watch_ratio": 0.34380000000000005,
+          "vs_typical": 0.8677
         },
         {
           "ratio": 0.1,
-          "watch_ratio": 0.3226,
-          "vs_typical": 0.84645
+          "watch_ratio": 0.3125,
+          "vs_typical": 0.8319
         },
         {
           "ratio": 0.11,
-          "watch_ratio": 0.3226,
-          "vs_typical": 0.75695
+          "watch_ratio": 0.3125,
+          "vs_typical": 0.7428
         },
         {
           "ratio": 0.12,
-          "watch_ratio": 0.2581,
-          "vs_typical": 0.642
+          "watch_ratio": 0.25,
+          "vs_typical": 0.6287
         },
         {
           "ratio": 0.13,
-          "watch_ratio": 0.22579999999999997,
-          "vs_typical": 0.5773
+          "watch_ratio": 0.2188,
+          "vs_typical": 0.5652
         },
         {
           "ratio": 0.14,
-          "watch_ratio": 0.22579999999999997,
-          "vs_typical": 0.5977
+          "watch_ratio": 0.2188,
+          "vs_typical": 0.5868
         },
         {
           "ratio": 0.15,
-          "watch_ratio": 0.2581,
-          "vs_typical": 0.6698
+          "watch_ratio": 0.25,
+          "vs_typical": 0.66015
         },
         {
           "ratio": 0.16,
-          "watch_ratio": 0.2903,
-          "vs_typical": 0.72665
+          "watch_ratio": 0.2813,
+          "vs_typical": 0.71835
         },
         {
           "ratio": 0.17,
-          "watch_ratio": 0.2903,
-          "vs_typical": 0.72285
+          "watch_ratio": 0.2813,
+          "vs_typical": 0.716
         },
         {
           "ratio": 0.18,
-          "watch_ratio": 0.22579999999999997,
-          "vs_typical": 0.65615
+          "watch_ratio": 0.2188,
+          "vs_typical": 0.65055
         },
         {
           "ratio": 0.19,
-          "watch_ratio": 0.22579999999999997,
-          "vs_typical": 0.5640000000000001
+          "watch_ratio": 0.2188,
+          "vs_typical": 0.5594
         },
         {
           "ratio": 0.2,
-          "watch_ratio": 0.22579999999999997,
-          "vs_typical": 0.49445
+          "watch_ratio": 0.2188,
+          "vs_typical": 0.4908
         },
         {
           "ratio": 0.21,
-          "watch_ratio": 0.22579999999999997,
-          "vs_typical": 0.45785
+          "watch_ratio": 0.2188,
+          "vs_typical": 0.4551
         },
         {
           "ratio": 0.22,
-          "watch_ratio": 0.22579999999999997,
-          "vs_typical": 0.43825000000000003
+          "watch_ratio": 0.2188,
+          "vs_typical": 0.43625
         },
         {
           "ratio": 0.23,
-          "watch_ratio": 0.22579999999999997,
-          "vs_typical": 0.42415
+          "watch_ratio": 0.2188,
+          "vs_typical": 0.42275
         },
         {
           "ratio": 0.24,
-          "watch_ratio": 0.22579999999999997,
-          "vs_typical": 0.4157
+          "watch_ratio": 0.2188,
+          "vs_typical": 0.41475
         },
         {
           "ratio": 0.25,
-          "watch_ratio": 0.22579999999999997,
-          "vs_typical": 0.41005
+          "watch_ratio": 0.2188,
+          "vs_typical": 0.4094
         },
         {
           "ratio": 0.26,
-          "watch_ratio": 0.22579999999999997,
-          "vs_typical": 0.4028
+          "watch_ratio": 0.2188,
+          "vs_typical": 0.4024
         },
         {
           "ratio": 0.27,
-          "watch_ratio": 0.22579999999999997,
-          "vs_typical": 0.3964
+          "watch_ratio": 0.2188,
+          "vs_typical": 0.39615
         },
         {
           "ratio": 0.28,
-          "watch_ratio": 0.22579999999999997,
-          "vs_typical": 0.3919
+          "watch_ratio": 0.2188,
+          "vs_typical": 0.39175
         },
         {
           "ratio": 0.29,
-          "watch_ratio": 0.1935,
-          "vs_typical": 0.3852
+          "watch_ratio": 0.1875,
+          "vs_typical": 0.38505
         },
         {
           "ratio": 0.3,
-          "watch_ratio": 0.22579999999999997,
-          "vs_typical": 0.3777
+          "watch_ratio": 0.2188,
+          "vs_typical": 0.3776
         },
         {
           "ratio": 0.31,
-          "watch_ratio": 0.1935,
-          "vs_typical": 0.37205
+          "watch_ratio": 0.1875,
+          "vs_typical": 0.372
         },
         {
           "ratio": 0.32,
-          "watch_ratio": 0.1935,
-          "vs_typical": 0.36995
+          "watch_ratio": 0.1875,
+          "vs_typical": 0.3699
         },
         {
           "ratio": 0.33,
-          "watch_ratio": 0.1935,
+          "watch_ratio": 0.1875,
           "vs_typical": 0.38634999999999997
         },
         {
           "ratio": 0.34,
-          "watch_ratio": 0.22579999999999997,
+          "watch_ratio": 0.2188,
           "vs_typical": 0.43955
         },
         {
           "ratio": 0.35,
-          "watch_ratio": 0.2903,
+          "watch_ratio": 0.2813,
           "vs_typical": 0.5144
         },
         {
           "ratio": 0.36,
-          "watch_ratio": 0.2903,
+          "watch_ratio": 0.2813,
           "vs_typical": 0.56025
         },
         {
           "ratio": 0.37,
-          "watch_ratio": 0.22579999999999997,
+          "watch_ratio": 0.2188,
           "vs_typical": 0.5448
         },
         {
           "ratio": 0.38,
-          "watch_ratio": 0.1613,
+          "watch_ratio": 0.1563,
           "vs_typical": 0.46785
         },
         {
           "ratio": 0.39,
-          "watch_ratio": 0.1935,
+          "watch_ratio": 0.1875,
           "vs_typical": 0.36119999999999997
         },
         {
           "ratio": 0.4,
-          "watch_ratio": 0.1613,
+          "watch_ratio": 0.1563,
           "vs_typical": 0.27664999999999995
         },
         {
           "ratio": 0.41,
-          "watch_ratio": 0.1613,
+          "watch_ratio": 0.1563,
           "vs_typical": 0.23275
         },
         {
           "ratio": 0.42,
-          "watch_ratio": 0.1613,
+          "watch_ratio": 0.1563,
           "vs_typical": 0.21305000000000002
         },
         {
           "ratio": 0.43,
-          "watch_ratio": 0.1613,
+          "watch_ratio": 0.1563,
           "vs_typical": 0.20245000000000002
         },
         {
           "ratio": 0.44,
-          "watch_ratio": 0.1613,
+          "watch_ratio": 0.1563,
           "vs_typical": 0.1985
         },
         {
           "ratio": 0.45,
-          "watch_ratio": 0.1613,
+          "watch_ratio": 0.1563,
           "vs_typical": 0.1966
         },
         {
           "ratio": 0.46,
-          "watch_ratio": 0.1613,
+          "watch_ratio": 0.1563,
           "vs_typical": 0.19615
         },
         {
           "ratio": 0.47,
-          "watch_ratio": 0.1935,
+          "watch_ratio": 0.1875,
           "vs_typical": 0.2012
         },
         {
           "ratio": 0.48,
-          "watch_ratio": 0.1935,
+          "watch_ratio": 0.1875,
           "vs_typical": 0.20525
         },
         {
           "ratio": 0.49,
-          "watch_ratio": 0.1613,
+          "watch_ratio": 0.1563,
           "vs_typical": 0.20745000000000002
         },
         {
           "ratio": 0.5,
-          "watch_ratio": 0.1613,
+          "watch_ratio": 0.1563,
           "vs_typical": 0.21265
         },
         {
           "ratio": 0.51,
-          "watch_ratio": 0.1613,
+          "watch_ratio": 0.1563,
           "vs_typical": 0.22449999999999998
         },
         {
           "ratio": 0.52,
-          "watch_ratio": 0.1613,
+          "watch_ratio": 0.1563,
           "vs_typical": 0.2555
         },
         {
           "ratio": 0.53,
-          "watch_ratio": 0.1613,
+          "watch_ratio": 0.1563,
           "vs_typical": 0.31899999999999995
         },
         {
           "ratio": 0.54,
-          "watch_ratio": 0.1935,
+          "watch_ratio": 0.1875,
           "vs_typical": 0.39445
         },
         {
           "ratio": 0.55,
-          "watch_ratio": 0.1935,
+          "watch_ratio": 0.1875,
           "vs_typical": 0.42695
         },
         {
           "ratio": 0.56,
-          "watch_ratio": 0.129,
+          "watch_ratio": 0.125,
           "vs_typical": 0.387
         },
         {
           "ratio": 0.57,
-          "watch_ratio": 0.129,
+          "watch_ratio": 0.125,
           "vs_typical": 0.30205
         },
         {
           "ratio": 0.58,
-          "watch_ratio": 0.129,
+          "watch_ratio": 0.125,
           "vs_typical": 0.22820000000000001
         },
         {
           "ratio": 0.59,
-          "watch_ratio": 0.129,
+          "watch_ratio": 0.125,
           "vs_typical": 0.19069999999999998
         },
         {
           "ratio": 0.6,
-          "watch_ratio": 0.129,
+          "watch_ratio": 0.125,
           "vs_typical": 0.18164999999999998
         },
         {
           "ratio": 0.61,
-          "watch_ratio": 0.129,
+          "watch_ratio": 0.125,
           "vs_typical": 0.19120000000000004
         },
         {
           "ratio": 0.62,
-          "watch_ratio": 0.129,
+          "watch_ratio": 0.125,
           "vs_typical": 0.21350000000000002
         },
         {
           "ratio": 0.63,
-          "watch_ratio": 0.129,
+          "watch_ratio": 0.125,
           "vs_typical": 0.24305
         },
         {
           "ratio": 0.64,
-          "watch_ratio": 0.129,
+          "watch_ratio": 0.125,
           "vs_typical": 0.27554999999999996
         },
         {
           "ratio": 0.65,
-          "watch_ratio": 0.129,
+          "watch_ratio": 0.125,
           "vs_typical": 0.30684999999999996
         },
         {
           "ratio": 0.66,
-          "watch_ratio": 0.129,
+          "watch_ratio": 0.125,
           "vs_typical": 0.3307
         },
         {
           "ratio": 0.67,
-          "watch_ratio": 0.129,
+          "watch_ratio": 0.125,
           "vs_typical": 0.3454
         },
         {
           "ratio": 0.68,
-          "watch_ratio": 0.129,
+          "watch_ratio": 0.125,
           "vs_typical": 0.35714999999999997
         },
         {
           "ratio": 0.69,
-          "watch_ratio": 0.129,
+          "watch_ratio": 0.125,
           "vs_typical": 0.3671
         },
         {
           "ratio": 0.7,
-          "watch_ratio": 0.129,
+          "watch_ratio": 0.125,
           "vs_typical": 0.37275
         },
         {
           "ratio": 0.71,
-          "watch_ratio": 0.129,
+          "watch_ratio": 0.125,
           "vs_typical": 0.37495
         },
         {
           "ratio": 0.72,
-          "watch_ratio": 0.129,
+          "watch_ratio": 0.125,
           "vs_typical": 0.37345
         },
         {
           "ratio": 0.73,
-          "watch_ratio": 0.129,
+          "watch_ratio": 0.125,
           "vs_typical": 0.36475
         },
         {
           "ratio": 0.74,
-          "watch_ratio": 0.129,
+          "watch_ratio": 0.125,
           "vs_typical": 0.349
         },
         {
           "ratio": 0.75,
-          "watch_ratio": 0.129,
+          "watch_ratio": 0.125,
           "vs_typical": 0.32894999999999996
         },
         {
           "ratio": 0.76,
-          "watch_ratio": 0.129,
+          "watch_ratio": 0.125,
           "vs_typical": 0.30684999999999996
         },
         {
           "ratio": 0.77,
-          "watch_ratio": 0.129,
+          "watch_ratio": 0.125,
           "vs_typical": 0.28535
         },
         {
           "ratio": 0.78,
-          "watch_ratio": 0.129,
+          "watch_ratio": 0.125,
           "vs_typical": 0.2682
         },
         {
           "ratio": 0.79,
-          "watch_ratio": 0.129,
+          "watch_ratio": 0.125,
           "vs_typical": 0.25895
         },
         {
           "ratio": 0.8,
-          "watch_ratio": 0.129,
+          "watch_ratio": 0.125,
           "vs_typical": 0.26015
         },
         {
           "ratio": 0.81,
-          "watch_ratio": 0.129,
+          "watch_ratio": 0.125,
           "vs_typical": 0.2743
         },
         {
           "ratio": 0.82,
-          "watch_ratio": 0.129,
+          "watch_ratio": 0.125,
           "vs_typical": 0.30295000000000005
         },
         {
           "ratio": 0.83,
-          "watch_ratio": 0.129,
+          "watch_ratio": 0.125,
           "vs_typical": 0.34425
         },
         {
           "ratio": 0.84,
-          "watch_ratio": 0.0968,
+          "watch_ratio": 0.09380000000000001,
           "vs_typical": 0.39335
         },
         {
           "ratio": 0.85,
-          "watch_ratio": 0.0968,
+          "watch_ratio": 0.09380000000000001,
           "vs_typical": 0.4442
         },
         {
           "ratio": 0.86,
-          "watch_ratio": 0.0968,
+          "watch_ratio": 0.09380000000000001,
           "vs_typical": 0.48615
         },
         {
           "ratio": 0.87,
-          "watch_ratio": 0.0968,
+          "watch_ratio": 0.09380000000000001,
           "vs_typical": 0.51075
         },
         {
           "ratio": 0.88,
-          "watch_ratio": 0.0968,
+          "watch_ratio": 0.09380000000000001,
           "vs_typical": 0.52315
         },
         {
           "ratio": 0.89,
-          "watch_ratio": 0.0968,
+          "watch_ratio": 0.09380000000000001,
           "vs_typical": 0.5333
         },
         {
           "ratio": 0.9,
-          "watch_ratio": 0.0968,
+          "watch_ratio": 0.09380000000000001,
           "vs_typical": 0.5452
         },
         {
           "ratio": 0.91,
-          "watch_ratio": 0.0968,
+          "watch_ratio": 0.09380000000000001,
           "vs_typical": 0.55725
         },
         {
           "ratio": 0.92,
-          "watch_ratio": 0.0968,
+          "watch_ratio": 0.09380000000000001,
           "vs_typical": 0.5763
         },
         {
           "ratio": 0.93,
-          "watch_ratio": 0.0968,
+          "watch_ratio": 0.09380000000000001,
           "vs_typical": 0.62015
         },
         {
           "ratio": 0.94,
-          "watch_ratio": 0.0968,
+          "watch_ratio": 0.09380000000000001,
           "vs_typical": 0.7126
         },
         {
           "ratio": 0.95,
-          "watch_ratio": 0.0968,
+          "watch_ratio": 0.09380000000000001,
           "vs_typical": 0.8344
         },
         {
           "ratio": 0.96,
-          "watch_ratio": 0.129,
+          "watch_ratio": 0.125,
           "vs_typical": 0.9177500000000001
         },
         {
           "ratio": 0.97,
-          "watch_ratio": 0.3226,
+          "watch_ratio": 0.3125,
           "vs_typical": 0.94615
         },
         {
           "ratio": 0.98,
-          "watch_ratio": 0.4194,
+          "watch_ratio": 0.40630000000000005,
           "vs_typical": 0.95055
         },
         {
           "ratio": 0.99,
-          "watch_ratio": 0.22579999999999997,
+          "watch_ratio": 0.2188,
           "vs_typical": 0.9504999999999999
         },
         {
           "ratio": 1,
-          "watch_ratio": 0.129,
+          "watch_ratio": 0.125,
           "vs_typical": 0.95025
         }
       ],
       "reach": {
-        "impressions": 566,
-        "ctr_pct": 3.18
+        "impressions": 608,
+        "ctr_pct": 2.96
       }
     },
     {
@@ -6135,8 +6135,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 401,
-        "ctr_pct": 0.5
+        "impressions": 411,
+        "ctr_pct": 0.49
       }
     },
     {
@@ -6173,8 +6173,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 21,
-        "ctr_pct": 9.52
+        "impressions": 26,
+        "ctr_pct": 7.69
       }
     },
     {
@@ -6712,8 +6712,8 @@
         }
       ],
       "reach": {
-        "impressions": 110,
-        "ctr_pct": 7.27
+        "impressions": 123,
+        "ctr_pct": 6.5
       }
     },
     {
@@ -6749,7 +6749,7 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 45,
+        "impressions": 50,
         "ctr_pct": 0.0
       }
     },
@@ -6775,15 +6775,15 @@
       "privacyStatus": "public",
       "publishAt": null,
       "stats": {
-        "views": 34,
+        "views": 35,
         "likes": 1,
         "comments": 0
       },
       "analytics": {
-        "views": 33,
-        "watch_min": 99,
-        "avg_view_s": 180,
-        "avg_view_pct": 6.12,
+        "views": 35,
+        "watch_min": 100,
+        "avg_view_s": 171,
+        "avg_view_pct": 5.83,
         "likes": 1,
         "comments": 0,
         "shares": 1,
@@ -6793,497 +6793,497 @@
         {
           "ratio": 0.01,
           "watch_ratio": 1,
-          "vs_typical": 0.2993
+          "vs_typical": 0.2924
         },
         {
           "ratio": 0.02,
-          "watch_ratio": 0.3333,
-          "vs_typical": 0.25185
+          "watch_ratio": 0.3429,
+          "vs_typical": 0.24105
         },
         {
           "ratio": 0.03,
-          "watch_ratio": 0.1818,
-          "vs_typical": 0.28254999999999997
+          "watch_ratio": 0.2,
+          "vs_typical": 0.26855
         },
         {
           "ratio": 0.04,
-          "watch_ratio": 0.1818,
-          "vs_typical": 0.3745
+          "watch_ratio": 0.1714,
+          "vs_typical": 0.36035
         },
         {
           "ratio": 0.05,
-          "watch_ratio": 0.1515,
-          "vs_typical": 0.4459
+          "watch_ratio": 0.1429,
+          "vs_typical": 0.4336
         },
         {
           "ratio": 0.06,
-          "watch_ratio": 0.1515,
-          "vs_typical": 0.46625
+          "watch_ratio": 0.1429,
+          "vs_typical": 0.455
         },
         {
           "ratio": 0.07,
-          "watch_ratio": 0.1515,
-          "vs_typical": 0.43565
+          "watch_ratio": 0.1429,
+          "vs_typical": 0.42425
         },
         {
           "ratio": 0.08,
-          "watch_ratio": 0.1818,
-          "vs_typical": 0.35335
+          "watch_ratio": 0.1714,
+          "vs_typical": 0.34235
         },
         {
           "ratio": 0.09,
-          "watch_ratio": 0.1515,
-          "vs_typical": 0.24730000000000002
+          "watch_ratio": 0.1429,
+          "vs_typical": 0.23835
         },
         {
           "ratio": 0.1,
-          "watch_ratio": 0.1515,
-          "vs_typical": 0.1683
+          "watch_ratio": 0.1429,
+          "vs_typical": 0.1617
         },
         {
           "ratio": 0.11,
-          "watch_ratio": 0.1515,
-          "vs_typical": 0.12755000000000005
+          "watch_ratio": 0.1429,
+          "vs_typical": 0.12219999999999998
         },
         {
           "ratio": 0.12,
-          "watch_ratio": 0.1515,
-          "vs_typical": 0.10729999999999995
+          "watch_ratio": 0.1429,
+          "vs_typical": 0.10235
         },
         {
           "ratio": 0.13,
-          "watch_ratio": 0.1515,
-          "vs_typical": 0.09649999999999997
+          "watch_ratio": 0.1429,
+          "vs_typical": 0.09179999999999999
         },
         {
           "ratio": 0.14,
-          "watch_ratio": 0.12119999999999999,
-          "vs_typical": 0.08805000000000002
+          "watch_ratio": 0.1143,
+          "vs_typical": 0.08360000000000001
         },
         {
           "ratio": 0.15,
-          "watch_ratio": 0.12119999999999999,
-          "vs_typical": 0.07829999999999998
+          "watch_ratio": 0.1143,
+          "vs_typical": 0.07409999999999994
         },
         {
           "ratio": 0.16,
-          "watch_ratio": 0.0909,
-          "vs_typical": 0.07179999999999997
+          "watch_ratio": 0.0857,
+          "vs_typical": 0.06799999999999995
         },
         {
           "ratio": 0.17,
-          "watch_ratio": 0.0909,
-          "vs_typical": 0.06965000000000005
+          "watch_ratio": 0.0857,
+          "vs_typical": 0.06630000000000003
         },
         {
           "ratio": 0.18,
-          "watch_ratio": 0.1515,
-          "vs_typical": 0.06865000000000004
+          "watch_ratio": 0.1429,
+          "vs_typical": 0.06569999999999998
         },
         {
           "ratio": 0.19,
-          "watch_ratio": 0.0909,
-          "vs_typical": 0.06579999999999997
+          "watch_ratio": 0.0857,
+          "vs_typical": 0.06325000000000003
         },
         {
           "ratio": 0.2,
-          "watch_ratio": 0.0909,
-          "vs_typical": 0.061450000000000005
+          "watch_ratio": 0.0857,
+          "vs_typical": 0.05930000000000002
         },
         {
           "ratio": 0.21,
-          "watch_ratio": 0.0909,
-          "vs_typical": 0.059650000000000036
+          "watch_ratio": 0.0857,
+          "vs_typical": 0.05790000000000001
         },
         {
           "ratio": 0.22,
-          "watch_ratio": 0.0909,
-          "vs_typical": 0.06104999999999999
+          "watch_ratio": 0.0857,
+          "vs_typical": 0.059650000000000036
         },
         {
           "ratio": 0.23,
-          "watch_ratio": 0.0909,
-          "vs_typical": 0.06459999999999999
+          "watch_ratio": 0.0857,
+          "vs_typical": 0.06329999999999997
         },
         {
           "ratio": 0.24,
-          "watch_ratio": 0.0909,
-          "vs_typical": 0.07024999999999998
+          "watch_ratio": 0.0857,
+          "vs_typical": 0.06909999999999994
         },
         {
           "ratio": 0.25,
-          "watch_ratio": 0.0909,
-          "vs_typical": 0.07795000000000002
+          "watch_ratio": 0.0857,
+          "vs_typical": 0.07705000000000001
         },
         {
           "ratio": 0.26,
-          "watch_ratio": 0.060599999999999994,
-          "vs_typical": 0.0882
+          "watch_ratio": 0.0571,
+          "vs_typical": 0.08744999999999997
         },
         {
           "ratio": 0.27,
-          "watch_ratio": 0.060599999999999994,
-          "vs_typical": 0.10165000000000002
+          "watch_ratio": 0.0571,
+          "vs_typical": 0.10104999999999997
         },
         {
           "ratio": 0.28,
-          "watch_ratio": 0.060599999999999994,
-          "vs_typical": 0.11825000000000002
+          "watch_ratio": 0.0571,
+          "vs_typical": 0.11774999999999997
         },
         {
           "ratio": 0.29,
-          "watch_ratio": 0.060599999999999994,
-          "vs_typical": 0.13770000000000004
+          "watch_ratio": 0.0571,
+          "vs_typical": 0.13734999999999997
         },
         {
           "ratio": 0.3,
-          "watch_ratio": 0.060599999999999994,
-          "vs_typical": 0.15869999999999995
+          "watch_ratio": 0.0571,
+          "vs_typical": 0.15844999999999998
         },
         {
           "ratio": 0.31,
-          "watch_ratio": 0.060599999999999994,
-          "vs_typical": 0.17895000000000005
+          "watch_ratio": 0.0571,
+          "vs_typical": 0.17875000000000002
         },
         {
           "ratio": 0.32,
-          "watch_ratio": 0.1515,
-          "vs_typical": 0.1956
+          "watch_ratio": 0.1429,
+          "vs_typical": 0.1955
         },
         {
           "ratio": 0.33,
-          "watch_ratio": 0.060599999999999994,
-          "vs_typical": 0.20665
+          "watch_ratio": 0.0571,
+          "vs_typical": 0.20655
         },
         {
           "ratio": 0.34,
-          "watch_ratio": 0.060599999999999994,
-          "vs_typical": 0.2123
+          "watch_ratio": 0.0571,
+          "vs_typical": 0.21225
         },
         {
           "ratio": 0.35,
-          "watch_ratio": 0.060599999999999994,
-          "vs_typical": 0.21144999999999997
+          "watch_ratio": 0.0571,
+          "vs_typical": 0.21140000000000003
         },
         {
           "ratio": 0.36,
-          "watch_ratio": 0.0909,
-          "vs_typical": 0.20055
+          "watch_ratio": 0.0857,
+          "vs_typical": 0.2005
         },
         {
           "ratio": 0.37,
-          "watch_ratio": 0.0909,
-          "vs_typical": 0.18214999999999998
+          "watch_ratio": 0.0857,
+          "vs_typical": 0.18209999999999998
         },
         {
           "ratio": 0.38,
-          "watch_ratio": 0.0909,
+          "watch_ratio": 0.0857,
           "vs_typical": 0.1638
         },
         {
           "ratio": 0.39,
-          "watch_ratio": 0.060599999999999994,
+          "watch_ratio": 0.0571,
           "vs_typical": 0.14844999999999997
         },
         {
           "ratio": 0.4,
-          "watch_ratio": 0.060599999999999994,
+          "watch_ratio": 0.0571,
           "vs_typical": 0.13340000000000002
         },
         {
           "ratio": 0.41,
-          "watch_ratio": 0.060599999999999994,
+          "watch_ratio": 0.0571,
           "vs_typical": 0.12359999999999999
         },
         {
           "ratio": 0.42,
-          "watch_ratio": 0.060599999999999994,
+          "watch_ratio": 0.0571,
           "vs_typical": 0.12645
         },
         {
           "ratio": 0.43,
-          "watch_ratio": 0.0909,
+          "watch_ratio": 0.0857,
           "vs_typical": 0.15399999999999997
         },
         {
           "ratio": 0.44,
-          "watch_ratio": 0.060599999999999994,
+          "watch_ratio": 0.0571,
           "vs_typical": 0.23460000000000003
         },
         {
           "ratio": 0.45,
-          "watch_ratio": 0.060599999999999994,
+          "watch_ratio": 0.0571,
           "vs_typical": 0.35745
         },
         {
           "ratio": 0.46,
-          "watch_ratio": 0.060599999999999994,
+          "watch_ratio": 0.0571,
           "vs_typical": 0.45015
         },
         {
           "ratio": 0.47,
-          "watch_ratio": 0.0909,
+          "watch_ratio": 0.0857,
           "vs_typical": 0.4802
         },
         {
           "ratio": 0.48,
-          "watch_ratio": 0.0909,
+          "watch_ratio": 0.0857,
           "vs_typical": 0.4536
         },
         {
           "ratio": 0.49,
-          "watch_ratio": 0.060599999999999994,
+          "watch_ratio": 0.0571,
           "vs_typical": 0.3634
         },
         {
           "ratio": 0.5,
-          "watch_ratio": 0.060599999999999994,
+          "watch_ratio": 0.0571,
           "vs_typical": 0.23675000000000002
         },
         {
           "ratio": 0.51,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.14450000000000002
         },
         {
           "ratio": 0.52,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.10225000000000001
         },
         {
           "ratio": 0.53,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.08325000000000005
         },
         {
           "ratio": 0.54,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.07424999999999998
         },
         {
           "ratio": 0.55,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.06674999999999998
         },
         {
           "ratio": 0.56,
-          "watch_ratio": 0.060599999999999994,
+          "watch_ratio": 0.0571,
           "vs_typical": 0.05704999999999999
         },
         {
           "ratio": 0.57,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.05135000000000001
         },
         {
           "ratio": 0.58,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.051049999999999984
         },
         {
           "ratio": 0.59,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.05349999999999999
         },
         {
           "ratio": 0.6,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.05945
         },
         {
           "ratio": 0.61,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.07255
         },
         {
           "ratio": 0.62,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.0932
         },
         {
           "ratio": 0.63,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.12189999999999995
         },
         {
           "ratio": 0.64,
-          "watch_ratio": 0.060599999999999994,
+          "watch_ratio": 0.0571,
           "vs_typical": 0.16194999999999998
         },
         {
           "ratio": 0.65,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.21125
         },
         {
           "ratio": 0.66,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.26335
         },
         {
           "ratio": 0.67,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.31205
         },
         {
           "ratio": 0.68,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.3532
         },
         {
           "ratio": 0.69,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.38555
         },
         {
           "ratio": 0.7,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.4096
         },
         {
           "ratio": 0.71,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.4262
         },
         {
           "ratio": 0.72,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.43674999999999997
         },
         {
           "ratio": 0.73,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.44335
         },
         {
           "ratio": 0.74,
-          "watch_ratio": 0.060599999999999994,
+          "watch_ratio": 0.0571,
           "vs_typical": 0.44725
         },
         {
           "ratio": 0.75,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.4486
         },
         {
           "ratio": 0.76,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.44705
         },
         {
           "ratio": 0.77,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.44245
         },
         {
           "ratio": 0.78,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.43465
         },
         {
           "ratio": 0.79,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.42264999999999997
         },
         {
           "ratio": 0.8,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.40475
         },
         {
           "ratio": 0.81,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.38075
         },
         {
           "ratio": 0.82,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.3522
         },
         {
           "ratio": 0.83,
-          "watch_ratio": 0.060599999999999994,
+          "watch_ratio": 0.0571,
           "vs_typical": 0.32184999999999997
         },
         {
           "ratio": 0.84,
-          "watch_ratio": 0.060599999999999994,
+          "watch_ratio": 0.0571,
           "vs_typical": 0.29405000000000003
         },
         {
           "ratio": 0.85,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.2763
         },
         {
           "ratio": 0.86,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.27125
         },
         {
           "ratio": 0.87,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.2732
         },
         {
           "ratio": 0.88,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.28405
         },
         {
           "ratio": 0.9,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.32989999999999997
         },
         {
           "ratio": 0.91,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.3591
         },
         {
           "ratio": 0.92,
-          "watch_ratio": 0.060599999999999994,
+          "watch_ratio": 0.0571,
           "vs_typical": 0.39825
         },
         {
           "ratio": 0.93,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.4593
         },
         {
           "ratio": 0.94,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.57565
         },
         {
           "ratio": 0.95,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.7323
         },
         {
           "ratio": 0.97,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.8867
         },
         {
           "ratio": 0.98,
-          "watch_ratio": 0.0909,
+          "watch_ratio": 0.0857,
           "vs_typical": 0.90245
         },
         {
           "ratio": 0.99,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.9114500000000001
         },
         {
           "ratio": 1,
-          "watch_ratio": 0.030299999999999997,
+          "watch_ratio": 0.0286,
           "vs_typical": 0.9171
         }
       ],
       "reach": {
-        "impressions": 1099,
-        "ctr_pct": 0.64
+        "impressions": 1146,
+        "ctr_pct": 0.61
       }
     },
     {
@@ -7320,8 +7320,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 51,
-        "ctr_pct": 1.96
+        "impressions": 61,
+        "ctr_pct": 1.64
       }
     },
     {
@@ -7357,8 +7357,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 130,
-        "ctr_pct": 2.31
+        "impressions": 143,
+        "ctr_pct": 2.1
       }
     },
     {
@@ -7394,8 +7394,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 22,
-        "ctr_pct": 4.55
+        "impressions": 31,
+        "ctr_pct": 3.23
       }
     },
     {
@@ -7432,8 +7432,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 36,
-        "ctr_pct": 5.56
+        "impressions": 44,
+        "ctr_pct": 4.55
       }
     },
     {
@@ -7468,8 +7468,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 27,
-        "ctr_pct": 3.7
+        "impressions": 38,
+        "ctr_pct": 2.63
       }
     },
     {
@@ -7494,10 +7494,10 @@
         "comments": 0
       },
       "analytics": {
-        "views": 106,
+        "views": 108,
         "watch_min": 4,
-        "avg_view_s": 6,
-        "avg_view_pct": 40.34,
+        "avg_view_s": 7,
+        "avg_view_pct": 43.92,
         "likes": 0,
         "comments": 0,
         "shares": 0,
@@ -7505,8 +7505,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 35,
-        "ctr_pct": 2.86
+        "impressions": 41,
+        "ctr_pct": 2.44
       }
     },
     {
@@ -7530,10 +7530,10 @@
         "comments": 0
       },
       "analytics": {
-        "views": 295,
-        "watch_min": 21,
+        "views": 297,
+        "watch_min": 22,
         "avg_view_s": 10,
-        "avg_view_pct": 33.55,
+        "avg_view_pct": 34.39,
         "likes": 1,
         "comments": 0,
         "shares": 0,
@@ -7541,8 +7541,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 57,
-        "ctr_pct": 1.75
+        "impressions": 66,
+        "ctr_pct": 1.52
       }
     },
     {
@@ -7568,15 +7568,15 @@
       "privacyStatus": "public",
       "publishAt": null,
       "stats": {
-        "views": 54,
+        "views": 58,
         "likes": 1,
         "comments": 0
       },
       "analytics": {
-        "views": 54,
-        "watch_min": 346,
-        "avg_view_s": 384,
-        "avg_view_pct": 12.25,
+        "views": 57,
+        "watch_min": 351,
+        "avg_view_s": 369,
+        "avg_view_pct": 11.78,
         "likes": 1,
         "comments": 0,
         "shares": 2,
@@ -7585,508 +7585,508 @@
       "retention": [
         {
           "ratio": 0.01,
-          "watch_ratio": 0.7406999999999999,
-          "vs_typical": 0.27385000000000004
+          "watch_ratio": 0.7544,
+          "vs_typical": 0.27035
         },
         {
           "ratio": 0.02,
-          "watch_ratio": 0.3519,
-          "vs_typical": 0.24024999999999996
+          "watch_ratio": 0.35090000000000005,
+          "vs_typical": 0.23195
         },
         {
           "ratio": 0.03,
-          "watch_ratio": 0.2778,
-          "vs_typical": 0.22835
+          "watch_ratio": 0.2807,
+          "vs_typical": 0.21665
         },
         {
           "ratio": 0.04,
-          "watch_ratio": 0.22219999999999998,
-          "vs_typical": 0.2571
+          "watch_ratio": 0.2281,
+          "vs_typical": 0.24295
         },
         {
           "ratio": 0.05,
-          "watch_ratio": 0.22219999999999998,
-          "vs_typical": 0.32865
+          "watch_ratio": 0.2281,
+          "vs_typical": 0.3107
         },
         {
           "ratio": 0.06,
-          "watch_ratio": 0.22219999999999998,
-          "vs_typical": 0.43215
+          "watch_ratio": 0.2281,
+          "vs_typical": 0.4096
         },
         {
           "ratio": 0.07,
-          "watch_ratio": 0.2407,
-          "vs_typical": 0.53235
+          "watch_ratio": 0.24559999999999998,
+          "vs_typical": 0.50755
         },
         {
           "ratio": 0.08,
-          "watch_ratio": 0.2593,
-          "vs_typical": 0.5943
+          "watch_ratio": 0.2632,
+          "vs_typical": 0.5695
         },
         {
           "ratio": 0.09,
-          "watch_ratio": 0.22219999999999998,
-          "vs_typical": 0.6173
+          "watch_ratio": 0.2281,
+          "vs_typical": 0.5921000000000001
         },
         {
           "ratio": 0.1,
-          "watch_ratio": 0.22219999999999998,
-          "vs_typical": 0.61915
+          "watch_ratio": 0.2281,
+          "vs_typical": 0.5923499999999999
         },
         {
           "ratio": 0.11,
-          "watch_ratio": 0.22219999999999998,
-          "vs_typical": 0.6124
+          "watch_ratio": 0.21050000000000002,
+          "vs_typical": 0.5831
         },
         {
           "ratio": 0.12,
-          "watch_ratio": 0.20370000000000002,
-          "vs_typical": 0.60305
+          "watch_ratio": 0.193,
+          "vs_typical": 0.57135
         },
         {
           "ratio": 0.13,
-          "watch_ratio": 0.16670000000000001,
-          "vs_typical": 0.59475
+          "watch_ratio": 0.15789999999999998,
+          "vs_typical": 0.5613
         },
         {
           "ratio": 0.14,
-          "watch_ratio": 0.20370000000000002,
-          "vs_typical": 0.5829
+          "watch_ratio": 0.193,
+          "vs_typical": 0.54785
         },
         {
           "ratio": 0.15,
-          "watch_ratio": 0.20370000000000002,
-          "vs_typical": 0.54945
+          "watch_ratio": 0.21050000000000002,
+          "vs_typical": 0.513
         },
         {
           "ratio": 0.16,
-          "watch_ratio": 0.1481,
-          "vs_typical": 0.48435
+          "watch_ratio": 0.1404,
+          "vs_typical": 0.4475
         },
         {
           "ratio": 0.17,
-          "watch_ratio": 0.1852,
-          "vs_typical": 0.41265
+          "watch_ratio": 0.1754,
+          "vs_typical": 0.37675000000000003
         },
         {
           "ratio": 0.18,
-          "watch_ratio": 0.20370000000000002,
-          "vs_typical": 0.37315
+          "watch_ratio": 0.193,
+          "vs_typical": 0.33865
         },
         {
           "ratio": 0.19,
-          "watch_ratio": 0.16670000000000001,
-          "vs_typical": 0.3825
+          "watch_ratio": 0.15789999999999998,
+          "vs_typical": 0.34945000000000004
         },
         {
           "ratio": 0.2,
-          "watch_ratio": 0.20370000000000002,
-          "vs_typical": 0.44684999999999997
+          "watch_ratio": 0.193,
+          "vs_typical": 0.4159
         },
         {
           "ratio": 0.21,
-          "watch_ratio": 0.20370000000000002,
-          "vs_typical": 0.5518
+          "watch_ratio": 0.193,
+          "vs_typical": 0.52415
         },
         {
           "ratio": 0.22,
-          "watch_ratio": 0.1852,
-          "vs_typical": 0.64785
+          "watch_ratio": 0.1754,
+          "vs_typical": 0.62445
         },
         {
           "ratio": 0.23,
-          "watch_ratio": 0.1852,
-          "vs_typical": 0.7035
+          "watch_ratio": 0.1754,
+          "vs_typical": 0.68465
         },
         {
           "ratio": 0.24,
-          "watch_ratio": 0.20370000000000002,
-          "vs_typical": 0.72695
+          "watch_ratio": 0.193,
+          "vs_typical": 0.71245
         },
         {
           "ratio": 0.25,
-          "watch_ratio": 0.1852,
-          "vs_typical": 0.7363500000000001
+          "watch_ratio": 0.1754,
+          "vs_typical": 0.72585
         },
         {
           "ratio": 0.26,
-          "watch_ratio": 0.16670000000000001,
-          "vs_typical": 0.73885
+          "watch_ratio": 0.15789999999999998,
+          "vs_typical": 0.732
         },
         {
           "ratio": 0.27,
-          "watch_ratio": 0.16670000000000001,
-          "vs_typical": 0.72835
+          "watch_ratio": 0.15789999999999998,
+          "vs_typical": 0.7242999999999999
         },
         {
           "ratio": 0.28,
-          "watch_ratio": 0.16670000000000001,
-          "vs_typical": 0.6908
+          "watch_ratio": 0.15789999999999998,
+          "vs_typical": 0.68885
         },
         {
           "ratio": 0.29,
-          "watch_ratio": 0.12960000000000002,
-          "vs_typical": 0.616
+          "watch_ratio": 0.12279999999999999,
+          "vs_typical": 0.61565
         },
         {
           "ratio": 0.3,
-          "watch_ratio": 0.12960000000000002,
-          "vs_typical": 0.526
+          "watch_ratio": 0.12279999999999999,
+          "vs_typical": 0.5271
         },
         {
           "ratio": 0.31,
-          "watch_ratio": 0.12960000000000002,
-          "vs_typical": 0.4627
+          "watch_ratio": 0.1404,
+          "vs_typical": 0.46485
         },
         {
           "ratio": 0.32,
-          "watch_ratio": 0.1481,
-          "vs_typical": 0.43165
+          "watch_ratio": 0.1404,
+          "vs_typical": 0.4343
         },
         {
           "ratio": 0.33,
-          "watch_ratio": 0.1481,
-          "vs_typical": 0.4108
+          "watch_ratio": 0.1404,
+          "vs_typical": 0.41359999999999997
         },
         {
           "ratio": 0.34,
-          "watch_ratio": 0.1481,
-          "vs_typical": 0.3865
+          "watch_ratio": 0.1404,
+          "vs_typical": 0.3892
         },
         {
           "ratio": 0.35,
-          "watch_ratio": 0.1481,
-          "vs_typical": 0.3618
+          "watch_ratio": 0.1404,
+          "vs_typical": 0.3644
         },
         {
           "ratio": 0.36,
-          "watch_ratio": 0.1852,
-          "vs_typical": 0.33735
+          "watch_ratio": 0.1754,
+          "vs_typical": 0.3399
         },
         {
           "ratio": 0.37,
-          "watch_ratio": 0.16670000000000001,
-          "vs_typical": 0.31055
+          "watch_ratio": 0.15789999999999998,
+          "vs_typical": 0.31315000000000004
         },
         {
           "ratio": 0.38,
-          "watch_ratio": 0.16670000000000001,
-          "vs_typical": 0.29255
+          "watch_ratio": 0.15789999999999998,
+          "vs_typical": 0.29485
         },
         {
           "ratio": 0.39,
-          "watch_ratio": 0.16670000000000001,
-          "vs_typical": 0.29864999999999997
+          "watch_ratio": 0.15789999999999998,
+          "vs_typical": 0.30010000000000003
         },
         {
           "ratio": 0.4,
-          "watch_ratio": 0.1481,
-          "vs_typical": 0.3227
+          "watch_ratio": 0.1404,
+          "vs_typical": 0.323
         },
         {
           "ratio": 0.41,
-          "watch_ratio": 0.16670000000000001,
-          "vs_typical": 0.32620000000000005
+          "watch_ratio": 0.15789999999999998,
+          "vs_typical": 0.32575
         },
         {
           "ratio": 0.42,
-          "watch_ratio": 0.1481,
-          "vs_typical": 0.28390000000000004
+          "watch_ratio": 0.1404,
+          "vs_typical": 0.2833
         },
         {
           "ratio": 0.43,
-          "watch_ratio": 0.1481,
-          "vs_typical": 0.22504999999999997
+          "watch_ratio": 0.1404,
+          "vs_typical": 0.22465000000000002
         },
         {
           "ratio": 0.44,
-          "watch_ratio": 0.12960000000000002,
-          "vs_typical": 0.20815
+          "watch_ratio": 0.1404,
+          "vs_typical": 0.2077
         },
         {
           "ratio": 0.45,
-          "watch_ratio": 0.11109999999999999,
-          "vs_typical": 0.26225
+          "watch_ratio": 0.10529999999999999,
+          "vs_typical": 0.26139999999999997
         },
         {
           "ratio": 0.46,
-          "watch_ratio": 0.11109999999999999,
-          "vs_typical": 0.35565
+          "watch_ratio": 0.10529999999999999,
+          "vs_typical": 0.35455000000000003
         },
         {
           "ratio": 0.47,
-          "watch_ratio": 0.12960000000000002,
-          "vs_typical": 0.42695
+          "watch_ratio": 0.12279999999999999,
+          "vs_typical": 0.42605
         },
         {
           "ratio": 0.48,
-          "watch_ratio": 0.11109999999999999,
-          "vs_typical": 0.4563
+          "watch_ratio": 0.10529999999999999,
+          "vs_typical": 0.45565
         },
         {
           "ratio": 0.49,
-          "watch_ratio": 0.0926,
-          "vs_typical": 0.46725
+          "watch_ratio": 0.0877,
+          "vs_typical": 0.46695
         },
         {
           "ratio": 0.5,
-          "watch_ratio": 0.0926,
-          "vs_typical": 0.4865
+          "watch_ratio": 0.0877,
+          "vs_typical": 0.48705
         },
         {
           "ratio": 0.51,
-          "watch_ratio": 0.11109999999999999,
-          "vs_typical": 0.5192
+          "watch_ratio": 0.10529999999999999,
+          "vs_typical": 0.5214
         },
         {
           "ratio": 0.52,
-          "watch_ratio": 0.11109999999999999,
-          "vs_typical": 0.5543
+          "watch_ratio": 0.10529999999999999,
+          "vs_typical": 0.55915
         },
         {
           "ratio": 0.53,
-          "watch_ratio": 0.11109999999999999,
-          "vs_typical": 0.57875
+          "watch_ratio": 0.10529999999999999,
+          "vs_typical": 0.58735
         },
         {
           "ratio": 0.54,
-          "watch_ratio": 0.11109999999999999,
-          "vs_typical": 0.57735
+          "watch_ratio": 0.10529999999999999,
+          "vs_typical": 0.58945
         },
         {
           "ratio": 0.55,
-          "watch_ratio": 0.0926,
-          "vs_typical": 0.5513
+          "watch_ratio": 0.0877,
+          "vs_typical": 0.56445
         },
         {
           "ratio": 0.56,
-          "watch_ratio": 0.0926,
-          "vs_typical": 0.53125
+          "watch_ratio": 0.0877,
+          "vs_typical": 0.54155
         },
         {
           "ratio": 0.57,
-          "watch_ratio": 0.0741,
-          "vs_typical": 0.531
+          "watch_ratio": 0.0702,
+          "vs_typical": 0.5369
         },
         {
           "ratio": 0.58,
-          "watch_ratio": 0.0741,
-          "vs_typical": 0.54115
+          "watch_ratio": 0.0702,
+          "vs_typical": 0.54385
         },
         {
           "ratio": 0.59,
-          "watch_ratio": 0.0741,
-          "vs_typical": 0.5617
+          "watch_ratio": 0.0877,
+          "vs_typical": 0.56235
         },
         {
           "ratio": 0.6,
-          "watch_ratio": 0.12960000000000002,
-          "vs_typical": 0.6076
+          "watch_ratio": 0.12279999999999999,
+          "vs_typical": 0.60665
         },
         {
           "ratio": 0.61,
-          "watch_ratio": 0.0926,
-          "vs_typical": 0.6948
+          "watch_ratio": 0.0877,
+          "vs_typical": 0.6925
         },
         {
           "ratio": 0.62,
-          "watch_ratio": 0.0741,
-          "vs_typical": 0.80015
+          "watch_ratio": 0.0702,
+          "vs_typical": 0.7973
         },
         {
           "ratio": 0.63,
-          "watch_ratio": 0.12960000000000002,
-          "vs_typical": 0.8642000000000001
+          "watch_ratio": 0.12279999999999999,
+          "vs_typical": 0.8613500000000001
         },
         {
           "ratio": 0.64,
-          "watch_ratio": 0.1481,
-          "vs_typical": 0.85305
+          "watch_ratio": 0.1404,
+          "vs_typical": 0.84995
         },
         {
           "ratio": 0.65,
-          "watch_ratio": 0.12960000000000002,
-          "vs_typical": 0.7686999999999999
+          "watch_ratio": 0.12279999999999999,
+          "vs_typical": 0.7655000000000001
         },
         {
           "ratio": 0.66,
-          "watch_ratio": 0.12960000000000002,
-          "vs_typical": 0.65305
+          "watch_ratio": 0.12279999999999999,
+          "vs_typical": 0.6508
         },
         {
           "ratio": 0.67,
-          "watch_ratio": 0.12960000000000002,
-          "vs_typical": 0.56855
+          "watch_ratio": 0.1404,
+          "vs_typical": 0.56745
         },
         {
           "ratio": 0.68,
-          "watch_ratio": 0.11109999999999999,
-          "vs_typical": 0.5281
+          "watch_ratio": 0.10529999999999999,
+          "vs_typical": 0.52745
         },
         {
           "ratio": 0.69,
-          "watch_ratio": 0.11109999999999999,
-          "vs_typical": 0.5096
+          "watch_ratio": 0.10529999999999999,
+          "vs_typical": 0.50855
         },
         {
           "ratio": 0.7,
-          "watch_ratio": 0.11109999999999999,
-          "vs_typical": 0.4997
+          "watch_ratio": 0.10529999999999999,
+          "vs_typical": 0.497
         },
         {
           "ratio": 0.71,
-          "watch_ratio": 0.11109999999999999,
-          "vs_typical": 0.491
+          "watch_ratio": 0.10529999999999999,
+          "vs_typical": 0.48575
         },
         {
           "ratio": 0.72,
-          "watch_ratio": 0.11109999999999999,
-          "vs_typical": 0.4775
+          "watch_ratio": 0.10529999999999999,
+          "vs_typical": 0.46855
         },
         {
           "ratio": 0.73,
-          "watch_ratio": 0.11109999999999999,
-          "vs_typical": 0.45285
+          "watch_ratio": 0.10529999999999999,
+          "vs_typical": 0.43765
         },
         {
           "ratio": 0.74,
-          "watch_ratio": 0.11109999999999999,
-          "vs_typical": 0.4074
+          "watch_ratio": 0.10529999999999999,
+          "vs_typical": 0.3849
         },
         {
           "ratio": 0.75,
-          "watch_ratio": 0.12960000000000002,
-          "vs_typical": 0.33685
+          "watch_ratio": 0.12279999999999999,
+          "vs_typical": 0.3103
         },
         {
           "ratio": 0.76,
-          "watch_ratio": 0.12960000000000002,
-          "vs_typical": 0.254
+          "watch_ratio": 0.12279999999999999,
+          "vs_typical": 0.22920000000000001
         },
         {
           "ratio": 0.77,
-          "watch_ratio": 0.12960000000000002,
-          "vs_typical": 0.17924999999999996
+          "watch_ratio": 0.12279999999999999,
+          "vs_typical": 0.16060000000000002
         },
         {
           "ratio": 0.78,
-          "watch_ratio": 0.12960000000000002,
-          "vs_typical": 0.12520000000000003
+          "watch_ratio": 0.12279999999999999,
+          "vs_typical": 0.11340000000000006
         },
         {
           "ratio": 0.79,
-          "watch_ratio": 0.12960000000000002,
-          "vs_typical": 0.09215000000000001
+          "watch_ratio": 0.12279999999999999,
+          "vs_typical": 0.08545000000000003
         },
         {
           "ratio": 0.8,
-          "watch_ratio": 0.12960000000000002,
-          "vs_typical": 0.07200000000000001
+          "watch_ratio": 0.12279999999999999,
+          "vs_typical": 0.06825000000000003
         },
         {
           "ratio": 0.81,
-          "watch_ratio": 0.12960000000000002,
-          "vs_typical": 0.05920000000000003
+          "watch_ratio": 0.12279999999999999,
+          "vs_typical": 0.05704999999999999
         },
         {
           "ratio": 0.82,
-          "watch_ratio": 0.1481,
-          "vs_typical": 0.05119999999999997
+          "watch_ratio": 0.1404,
+          "vs_typical": 0.0499
         },
         {
           "ratio": 0.83,
-          "watch_ratio": 0.0741,
-          "vs_typical": 0.0464
+          "watch_ratio": 0.0702,
+          "vs_typical": 0.045499999999999985
         },
         {
           "ratio": 0.84,
-          "watch_ratio": 0.0741,
-          "vs_typical": 0.04435
+          "watch_ratio": 0.0702,
+          "vs_typical": 0.04365000000000002
         },
         {
           "ratio": 0.85,
-          "watch_ratio": 0.0741,
-          "vs_typical": 0.04475000000000001
+          "watch_ratio": 0.0702,
+          "vs_typical": 0.044249999999999956
         },
         {
           "ratio": 0.86,
-          "watch_ratio": 0.0741,
-          "vs_typical": 0.04710000000000003
+          "watch_ratio": 0.0702,
+          "vs_typical": 0.04680000000000001
         },
         {
           "ratio": 0.87,
-          "watch_ratio": 0.0741,
-          "vs_typical": 0.05099999999999999
+          "watch_ratio": 0.0702,
+          "vs_typical": 0.050799999999999956
         },
         {
           "ratio": 0.88,
-          "watch_ratio": 0.0741,
-          "vs_typical": 0.05615000000000003
+          "watch_ratio": 0.0702,
+          "vs_typical": 0.055999999999999994
         },
         {
           "ratio": 0.89,
-          "watch_ratio": 0.0741,
-          "vs_typical": 0.06295
+          "watch_ratio": 0.0702,
+          "vs_typical": 0.06284999999999996
         },
         {
           "ratio": 0.9,
-          "watch_ratio": 0.0741,
-          "vs_typical": 0.07234999999999997
+          "watch_ratio": 0.0702,
+          "vs_typical": 0.07225000000000004
         },
         {
           "ratio": 0.91,
-          "watch_ratio": 0.0926,
-          "vs_typical": 0.08445000000000003
+          "watch_ratio": 0.0877,
+          "vs_typical": 0.08435000000000004
         },
         {
           "ratio": 0.92,
-          "watch_ratio": 0.11109999999999999,
-          "vs_typical": 0.09944999999999998
+          "watch_ratio": 0.10529999999999999,
+          "vs_typical": 0.09939999999999999
         },
         {
           "ratio": 0.93,
-          "watch_ratio": 0.0926,
-          "vs_typical": 0.11840000000000006
+          "watch_ratio": 0.0877,
+          "vs_typical": 0.11835000000000001
         },
         {
           "ratio": 0.94,
-          "watch_ratio": 0.0556,
+          "watch_ratio": 0.0526,
           "vs_typical": 0.13990000000000002
         },
         {
           "ratio": 0.95,
-          "watch_ratio": 0.0556,
-          "vs_typical": 0.15895000000000004
+          "watch_ratio": 0.0526,
+          "vs_typical": 0.15889999999999999
         },
         {
           "ratio": 0.96,
-          "watch_ratio": 0.0556,
-          "vs_typical": 0.17424999999999996
+          "watch_ratio": 0.0526,
+          "vs_typical": 0.17420000000000002
         },
         {
           "ratio": 0.97,
-          "watch_ratio": 0.0556,
+          "watch_ratio": 0.0526,
           "vs_typical": 0.1874
         },
         {
           "ratio": 0.98,
-          "watch_ratio": 0.0556,
+          "watch_ratio": 0.0526,
           "vs_typical": 0.19879999999999998
         },
         {
           "ratio": 0.99,
-          "watch_ratio": 0.0556,
+          "watch_ratio": 0.0526,
           "vs_typical": 0.2081
         },
         {
           "ratio": 1,
-          "watch_ratio": 0.0556,
+          "watch_ratio": 0.0526,
           "vs_typical": 0.2142
         }
       ],
       "reach": {
-        "impressions": 1513,
-        "ctr_pct": 1.78
+        "impressions": 1672,
+        "ctr_pct": 1.67
       }
     },
     {
@@ -8123,7 +8123,7 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 58,
+        "impressions": 68,
         "ctr_pct": 0.0
       }
     },
@@ -8161,7 +8161,7 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 49,
+        "impressions": 55,
         "ctr_pct": 0.0
       }
     },
@@ -8187,10 +8187,10 @@
         "comments": 0
       },
       "analytics": {
-        "views": 169,
+        "views": 171,
         "watch_min": 8,
         "avg_view_s": 8,
-        "avg_view_pct": 51.35000000000001,
+        "avg_view_pct": 53.76,
         "likes": 0,
         "comments": 0,
         "shares": 0,
@@ -8198,8 +8198,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 30,
-        "ctr_pct": 6.67
+        "impressions": 40,
+        "ctr_pct": 5.0
       }
     },
     {
@@ -8235,8 +8235,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 94,
-        "ctr_pct": 1.06
+        "impressions": 121,
+        "ctr_pct": 0.83
       }
     },
     {
@@ -8255,15 +8255,15 @@
       "privacyStatus": "public",
       "publishAt": null,
       "stats": {
-        "views": 265,
+        "views": 268,
         "likes": 0,
         "comments": 0
       },
       "analytics": {
-        "views": 261,
-        "watch_min": 13,
-        "avg_view_s": 7,
-        "avg_view_pct": 51.629999999999995,
+        "views": 268,
+        "watch_min": 14,
+        "avg_view_s": 8,
+        "avg_view_pct": 53.849999999999994,
         "likes": 0,
         "comments": 0,
         "shares": 0,
@@ -8271,8 +8271,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 57,
-        "ctr_pct": 8.77
+        "impressions": 109,
+        "ctr_pct": 7.34
       }
     },
     {
@@ -8293,12 +8293,12 @@
       "privacyStatus": "public",
       "publishAt": null,
       "stats": {
-        "views": 75,
+        "views": 76,
         "likes": 0,
         "comments": 0
       },
       "analytics": {
-        "views": 75,
+        "views": 76,
         "watch_min": 4,
         "avg_view_s": 11,
         "avg_view_pct": 77.07,
@@ -8309,7 +8309,7 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 34,
+        "impressions": 60,
         "ctr_pct": 0.0
       }
     },
@@ -8330,13 +8330,13 @@
       "privacyStatus": "public",
       "publishAt": null,
       "stats": {
-        "views": 729,
+        "views": 728,
         "likes": 1,
         "comments": 0
       },
       "analytics": {
-        "views": 758,
-        "watch_min": 72,
+        "views": 729,
+        "watch_min": 71,
         "avg_view_s": 19,
         "avg_view_pct": 146.56,
         "likes": 1,
@@ -8346,8 +8346,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 28,
-        "ctr_pct": 7.14
+        "impressions": 44,
+        "ctr_pct": 4.55
       }
     },
     {
@@ -8361,16 +8361,16 @@
       "privacyStatus": "public",
       "publishAt": null,
       "stats": {
-        "views": 64,
-        "likes": 2,
+        "views": 77,
+        "likes": 3,
         "comments": 0
       },
       "analytics": {
-        "views": 51,
-        "watch_min": 472,
-        "avg_view_s": 556,
-        "avg_view_pct": 16.52,
-        "likes": 2,
+        "views": 76,
+        "watch_min": 781,
+        "avg_view_s": 625,
+        "avg_view_pct": 18.56,
+        "likes": 3,
         "comments": 0,
         "shares": 0,
         "subs_gained": 0
@@ -8378,633 +8378,509 @@
       "retention": [
         {
           "ratio": 0.01,
-          "watch_ratio": 0.9608,
-          "vs_typical": 0.4252
+          "watch_ratio": 0.96,
+          "vs_typical": 0.40445
         },
         {
           "ratio": 0.02,
-          "watch_ratio": 0.451,
-          "vs_typical": 0.42235
+          "watch_ratio": 0.4533,
+          "vs_typical": 0.40375
         },
         {
           "ratio": 0.03,
-          "watch_ratio": 0.3529,
-          "vs_typical": 0.4296
+          "watch_ratio": 0.37329999999999997,
+          "vs_typical": 0.407
         },
         {
           "ratio": 0.04,
-          "watch_ratio": 0.31370000000000003,
-          "vs_typical": 0.42315
+          "watch_ratio": 0.3333,
+          "vs_typical": 0.40185
         },
         {
           "ratio": 0.05,
-          "watch_ratio": 0.27449999999999997,
-          "vs_typical": 0.39585000000000004
+          "watch_ratio": 0.30670000000000003,
+          "vs_typical": 0.38605
         },
         {
           "ratio": 0.06,
-          "watch_ratio": 0.25489999999999996,
-          "vs_typical": 0.36995
+          "watch_ratio": 0.2667,
+          "vs_typical": 0.37205
         },
         {
           "ratio": 0.07,
-          "watch_ratio": 0.2353,
-          "vs_typical": 0.35585
+          "watch_ratio": 0.2667,
+          "vs_typical": 0.36505
         },
         {
           "ratio": 0.08,
-          "watch_ratio": 0.1961,
-          "vs_typical": 0.3528
+          "watch_ratio": 0.25329999999999997,
+          "vs_typical": 0.36429999999999996
         },
         {
           "ratio": 0.09,
-          "watch_ratio": 0.2157,
-          "vs_typical": 0.3715
+          "watch_ratio": 0.25329999999999997,
+          "vs_typical": 0.37565
         },
         {
           "ratio": 0.1,
-          "watch_ratio": 0.2157,
-          "vs_typical": 0.41795
+          "watch_ratio": 0.25329999999999997,
+          "vs_typical": 0.40315
         },
         {
           "ratio": 0.11,
-          "watch_ratio": 0.25489999999999996,
-          "vs_typical": 0.4659
+          "watch_ratio": 0.28,
+          "vs_typical": 0.43315000000000003
         },
         {
           "ratio": 0.12,
-          "watch_ratio": 0.2353,
-          "vs_typical": 0.476
+          "watch_ratio": 0.28,
+          "vs_typical": 0.44245
         },
         {
           "ratio": 0.13,
-          "watch_ratio": 0.2157,
-          "vs_typical": 0.4424
+          "watch_ratio": 0.25329999999999997,
+          "vs_typical": 0.428
         },
         {
           "ratio": 0.14,
-          "watch_ratio": 0.1961,
-          "vs_typical": 0.39905
+          "watch_ratio": 0.2267,
+          "vs_typical": 0.40965
         },
         {
           "ratio": 0.15,
-          "watch_ratio": 0.1961,
-          "vs_typical": 0.3764
+          "watch_ratio": 0.24,
+          "vs_typical": 0.40205
         },
         {
           "ratio": 0.16,
-          "watch_ratio": 0.2157,
-          "vs_typical": 0.37505
+          "watch_ratio": 0.24,
+          "vs_typical": 0.40485
         },
         {
           "ratio": 0.17,
-          "watch_ratio": 0.2157,
-          "vs_typical": 0.38405
+          "watch_ratio": 0.24,
+          "vs_typical": 0.41325
         },
         {
           "ratio": 0.18,
-          "watch_ratio": 0.2157,
-          "vs_typical": 0.39855
+          "watch_ratio": 0.24,
+          "vs_typical": 0.4273
         },
         {
           "ratio": 0.19,
-          "watch_ratio": 0.1961,
-          "vs_typical": 0.421
+          "watch_ratio": 0.2267,
+          "vs_typical": 0.44825
         },
         {
           "ratio": 0.2,
-          "watch_ratio": 0.1961,
-          "vs_typical": 0.4496
+          "watch_ratio": 0.2267,
+          "vs_typical": 0.4747
         },
         {
           "ratio": 0.21,
-          "watch_ratio": 0.1961,
-          "vs_typical": 0.4802
+          "watch_ratio": 0.24,
+          "vs_typical": 0.50405
         },
         {
           "ratio": 0.22,
-          "watch_ratio": 0.1961,
-          "vs_typical": 0.52285
+          "watch_ratio": 0.2267,
+          "vs_typical": 0.53895
         },
         {
           "ratio": 0.23,
-          "watch_ratio": 0.2157,
-          "vs_typical": 0.59775
+          "watch_ratio": 0.24,
+          "vs_typical": 0.5924
         },
         {
           "ratio": 0.24,
-          "watch_ratio": 0.2157,
-          "vs_typical": 0.70185
+          "watch_ratio": 0.24,
+          "vs_typical": 0.6719999999999999
         },
         {
           "ratio": 0.25,
-          "watch_ratio": 0.2353,
-          "vs_typical": 0.79025
+          "watch_ratio": 0.25329999999999997,
+          "vs_typical": 0.7544500000000001
         },
         {
           "ratio": 0.26,
-          "watch_ratio": 0.2353,
-          "vs_typical": 0.8292999999999999
+          "watch_ratio": 0.25329999999999997,
+          "vs_typical": 0.8013
         },
         {
           "ratio": 0.27,
-          "watch_ratio": 0.2157,
-          "vs_typical": 0.81785
+          "watch_ratio": 0.24,
+          "vs_typical": 0.7951
         },
         {
           "ratio": 0.28,
-          "watch_ratio": 0.2157,
-          "vs_typical": 0.7584
+          "watch_ratio": 0.24,
+          "vs_typical": 0.7411
         },
         {
           "ratio": 0.29,
-          "watch_ratio": 0.1961,
-          "vs_typical": 0.65905
+          "watch_ratio": 0.2267,
+          "vs_typical": 0.6638
         },
         {
           "ratio": 0.3,
-          "watch_ratio": 0.1961,
-          "vs_typical": 0.55565
+          "watch_ratio": 0.24,
+          "vs_typical": 0.5982000000000001
         },
         {
           "ratio": 0.31,
-          "watch_ratio": 0.1961,
-          "vs_typical": 0.48585
+          "watch_ratio": 0.25329999999999997,
+          "vs_typical": 0.55875
         },
         {
           "ratio": 0.32,
-          "watch_ratio": 0.1961,
-          "vs_typical": 0.44945
+          "watch_ratio": 0.24,
+          "vs_typical": 0.53605
         },
         {
           "ratio": 0.33,
-          "watch_ratio": 0.1961,
-          "vs_typical": 0.4282
+          "watch_ratio": 0.24,
+          "vs_typical": 0.5191
         },
         {
           "ratio": 0.34,
-          "watch_ratio": 0.1765,
-          "vs_typical": 0.41164999999999996
+          "watch_ratio": 0.2267,
+          "vs_typical": 0.50455
         },
         {
           "ratio": 0.35,
-          "watch_ratio": 0.1765,
-          "vs_typical": 0.4006
+          "watch_ratio": 0.2267,
+          "vs_typical": 0.49205
         },
         {
           "ratio": 0.36,
-          "watch_ratio": 0.1765,
-          "vs_typical": 0.3919
+          "watch_ratio": 0.2267,
+          "vs_typical": 0.47685
         },
         {
           "ratio": 0.37,
-          "watch_ratio": 0.1765,
-          "vs_typical": 0.3799
+          "watch_ratio": 0.2267,
+          "vs_typical": 0.4552
         },
         {
           "ratio": 0.38,
-          "watch_ratio": 0.1765,
-          "vs_typical": 0.36605
+          "watch_ratio": 0.2267,
+          "vs_typical": 0.43025
         },
         {
           "ratio": 0.39,
-          "watch_ratio": 0.1765,
-          "vs_typical": 0.3543
+          "watch_ratio": 0.24,
+          "vs_typical": 0.4037
         },
         {
           "ratio": 0.4,
-          "watch_ratio": 0.1765,
-          "vs_typical": 0.34175
+          "watch_ratio": 0.24,
+          "vs_typical": 0.3713
         },
         {
           "ratio": 0.41,
-          "watch_ratio": 0.2157,
-          "vs_typical": 0.32615
+          "watch_ratio": 0.2667,
+          "vs_typical": 0.33194999999999997
         },
         {
           "ratio": 0.42,
-          "watch_ratio": 0.1765,
-          "vs_typical": 0.31074999999999997
+          "watch_ratio": 0.2267,
+          "vs_typical": 0.29085
         },
         {
           "ratio": 0.43,
-          "watch_ratio": 0.1765,
-          "vs_typical": 0.29615
+          "watch_ratio": 0.2267,
+          "vs_typical": 0.25115
         },
         {
           "ratio": 0.44,
-          "watch_ratio": 0.1765,
-          "vs_typical": 0.2813
+          "watch_ratio": 0.2267,
+          "vs_typical": 0.2141
         },
         {
           "ratio": 0.45,
-          "watch_ratio": 0.1765,
-          "vs_typical": 0.26635
+          "watch_ratio": 0.2267,
+          "vs_typical": 0.18109999999999998
         },
         {
           "ratio": 0.46,
-          "watch_ratio": 0.1765,
-          "vs_typical": 0.25215
+          "watch_ratio": 0.2267,
+          "vs_typical": 0.15275
         },
         {
           "ratio": 0.47,
-          "watch_ratio": 0.1765,
-          "vs_typical": 0.2393
+          "watch_ratio": 0.2267,
+          "vs_typical": 0.12939999999999996
         },
         {
           "ratio": 0.48,
-          "watch_ratio": 0.1765,
-          "vs_typical": 0.22804999999999997
+          "watch_ratio": 0.2133,
+          "vs_typical": 0.11080000000000001
         },
         {
           "ratio": 0.49,
-          "watch_ratio": 0.15689999999999998,
-          "vs_typical": 0.21800000000000003
+          "watch_ratio": 0.2,
+          "vs_typical": 0.09590000000000004
         },
         {
           "ratio": 0.5,
-          "watch_ratio": 0.1373,
-          "vs_typical": 0.20784999999999998
+          "watch_ratio": 0.1867,
+          "vs_typical": 0.08224999999999999
         },
         {
           "ratio": 0.51,
-          "watch_ratio": 0.15689999999999998,
-          "vs_typical": 0.198
+          "watch_ratio": 0.17329999999999998,
+          "vs_typical": 0.06924999999999998
         },
         {
           "ratio": 0.52,
-          "watch_ratio": 0.15689999999999998,
-          "vs_typical": 0.19230000000000003
+          "watch_ratio": 0.1867,
+          "vs_typical": 0.05994999999999995
         },
         {
           "ratio": 0.53,
-          "watch_ratio": 0.15689999999999998,
-          "vs_typical": 0.19105
+          "watch_ratio": 0.1867,
+          "vs_typical": 0.05445
         },
         {
           "ratio": 0.54,
-          "watch_ratio": 0.15689999999999998,
-          "vs_typical": 0.19239999999999996
+          "watch_ratio": 0.1867,
+          "vs_typical": 0.05125000000000002
         },
         {
           "ratio": 0.55,
-          "watch_ratio": 0.15689999999999998,
-          "vs_typical": 0.19565
+          "watch_ratio": 0.1867,
+          "vs_typical": 0.049699999999999966
         },
         {
           "ratio": 0.56,
-          "watch_ratio": 0.15689999999999998,
-          "vs_typical": 0.2007
+          "watch_ratio": 0.1867,
+          "vs_typical": 0.04914999999999997
         },
         {
           "ratio": 0.57,
-          "watch_ratio": 0.15689999999999998,
-          "vs_typical": 0.20789999999999997
+          "watch_ratio": 0.1867,
+          "vs_typical": 0.04960000000000003
         },
         {
           "ratio": 0.58,
-          "watch_ratio": 0.15689999999999998,
-          "vs_typical": 0.21735
+          "watch_ratio": 0.16,
+          "vs_typical": 0.05149999999999999
         },
         {
           "ratio": 0.59,
-          "watch_ratio": 0.1373,
-          "vs_typical": 0.22925
+          "watch_ratio": 0.1467,
+          "vs_typical": 0.05545
         },
         {
           "ratio": 0.6,
-          "watch_ratio": 0.1373,
-          "vs_typical": 0.24380000000000002
+          "watch_ratio": 0.1467,
+          "vs_typical": 0.06109999999999999
         },
         {
           "ratio": 0.61,
-          "watch_ratio": 0.1373,
-          "vs_typical": 0.2611
+          "watch_ratio": 0.1333,
+          "vs_typical": 0.06835000000000002
         },
         {
           "ratio": 0.62,
-          "watch_ratio": 0.1373,
-          "vs_typical": 0.28075
+          "watch_ratio": 0.1467,
+          "vs_typical": 0.07840000000000003
         },
         {
           "ratio": 0.63,
-          "watch_ratio": 0.1373,
-          "vs_typical": 0.30179999999999996
+          "watch_ratio": 0.1333,
+          "vs_typical": 0.09250000000000003
         },
         {
           "ratio": 0.64,
-          "watch_ratio": 0.1373,
-          "vs_typical": 0.3233
+          "watch_ratio": 0.1467,
+          "vs_typical": 0.11119999999999997
         },
         {
           "ratio": 0.65,
-          "watch_ratio": 0.1373,
-          "vs_typical": 0.34425
+          "watch_ratio": 0.1467,
+          "vs_typical": 0.13534999999999997
         },
         {
           "ratio": 0.66,
-          "watch_ratio": 0.1373,
-          "vs_typical": 0.36355000000000004
+          "watch_ratio": 0.1467,
+          "vs_typical": 0.16545000000000004
         },
         {
           "ratio": 0.67,
-          "watch_ratio": 0.1373,
-          "vs_typical": 0.3806
+          "watch_ratio": 0.1333,
+          "vs_typical": 0.20105
         },
         {
           "ratio": 0.68,
-          "watch_ratio": 0.1373,
-          "vs_typical": 0.395
+          "watch_ratio": 0.1333,
+          "vs_typical": 0.2405
         },
         {
           "ratio": 0.69,
-          "watch_ratio": 0.1373,
-          "vs_typical": 0.40695000000000003
+          "watch_ratio": 0.1333,
+          "vs_typical": 0.28090000000000004
         },
         {
           "ratio": 0.7,
-          "watch_ratio": 0.1373,
-          "vs_typical": 0.4173
+          "watch_ratio": 0.1333,
+          "vs_typical": 0.31905
         },
         {
           "ratio": 0.71,
-          "watch_ratio": 0.1373,
-          "vs_typical": 0.4276
+          "watch_ratio": 0.1333,
+          "vs_typical": 0.35355000000000003
         },
         {
           "ratio": 0.72,
-          "watch_ratio": 0.1373,
-          "vs_typical": 0.43765
+          "watch_ratio": 0.1333,
+          "vs_typical": 0.38255
         },
         {
           "ratio": 0.73,
-          "watch_ratio": 0.1373,
-          "vs_typical": 0.444
+          "watch_ratio": 0.1333,
+          "vs_typical": 0.40275
         },
         {
           "ratio": 0.74,
-          "watch_ratio": 0.1373,
-          "vs_typical": 0.44645
+          "watch_ratio": 0.1333,
+          "vs_typical": 0.41525
         },
         {
           "ratio": 0.75,
-          "watch_ratio": 0.1373,
-          "vs_typical": 0.44684999999999997
+          "watch_ratio": 0.1467,
+          "vs_typical": 0.42264999999999997
         },
         {
           "ratio": 0.76,
-          "watch_ratio": 0.1373,
-          "vs_typical": 0.4457
+          "watch_ratio": 0.1333,
+          "vs_typical": 0.4262
         },
         {
           "ratio": 0.77,
-          "watch_ratio": 0.1373,
-          "vs_typical": 0.44275
+          "watch_ratio": 0.1467,
+          "vs_typical": 0.4264
         },
         {
           "ratio": 0.78,
-          "watch_ratio": 0.1373,
-          "vs_typical": 0.4375
+          "watch_ratio": 0.1467,
+          "vs_typical": 0.4235
         },
         {
           "ratio": 0.79,
-          "watch_ratio": 0.1373,
-          "vs_typical": 0.42965
+          "watch_ratio": 0.1333,
+          "vs_typical": 0.41785
         },
         {
           "ratio": 0.8,
-          "watch_ratio": 0.1373,
-          "vs_typical": 0.41905
+          "watch_ratio": 0.1333,
+          "vs_typical": 0.4096
         },
         {
           "ratio": 0.81,
-          "watch_ratio": 0.1373,
-          "vs_typical": 0.4057
+          "watch_ratio": 0.1333,
+          "vs_typical": 0.39875
         },
         {
           "ratio": 0.82,
-          "watch_ratio": 0.1373,
-          "vs_typical": 0.38939999999999997
+          "watch_ratio": 0.1333,
+          "vs_typical": 0.38555
         },
         {
           "ratio": 0.83,
-          "watch_ratio": 0.1373,
-          "vs_typical": 0.37024999999999997
+          "watch_ratio": 0.1333,
+          "vs_typical": 0.37035
         },
         {
           "ratio": 0.84,
-          "watch_ratio": 0.1373,
-          "vs_typical": 0.34855
+          "watch_ratio": 0.1333,
+          "vs_typical": 0.35350000000000004
         },
         {
           "ratio": 0.85,
-          "watch_ratio": 0.15689999999999998,
-          "vs_typical": 0.32565
+          "watch_ratio": 0.16,
+          "vs_typical": 0.33565
         },
         {
           "ratio": 0.86,
-          "watch_ratio": 0.15689999999999998,
-          "vs_typical": 0.30355
+          "watch_ratio": 0.1467,
+          "vs_typical": 0.318
         },
         {
           "ratio": 0.87,
-          "watch_ratio": 0.1373,
-          "vs_typical": 0.2844
+          "watch_ratio": 0.1333,
+          "vs_typical": 0.3016
         },
         {
           "ratio": 0.88,
-          "watch_ratio": 0.1373,
-          "vs_typical": 0.26954999999999996
+          "watch_ratio": 0.1333,
+          "vs_typical": 0.28755
         },
         {
           "ratio": 0.89,
-          "watch_ratio": 0.1176,
-          "vs_typical": 0.2601
+          "watch_ratio": 0.12,
+          "vs_typical": 0.2771
         },
         {
           "ratio": 0.9,
-          "watch_ratio": 0.1176,
-          "vs_typical": 0.25715
+          "watch_ratio": 0.12,
+          "vs_typical": 0.27165
         },
         {
           "ratio": 0.91,
-          "watch_ratio": 0.1176,
-          "vs_typical": 0.25945
+          "watch_ratio": 0.12,
+          "vs_typical": 0.2701
         },
         {
           "ratio": 0.92,
-          "watch_ratio": 0.1176,
-          "vs_typical": 0.26239999999999997
+          "watch_ratio": 0.12,
+          "vs_typical": 0.2681
         },
         {
           "ratio": 0.93,
-          "watch_ratio": 0.1176,
-          "vs_typical": 0.26485000000000003
+          "watch_ratio": 0.12,
+          "vs_typical": 0.2652
         },
         {
           "ratio": 0.94,
-          "watch_ratio": 0.1176,
-          "vs_typical": 0.26765
+          "watch_ratio": 0.12,
+          "vs_typical": 0.2625
         },
         {
           "ratio": 0.95,
-          "watch_ratio": 0.1176,
-          "vs_typical": 0.27065
+          "watch_ratio": 0.12,
+          "vs_typical": 0.26
         },
         {
           "ratio": 0.96,
-          "watch_ratio": 0.1176,
-          "vs_typical": 0.2735
+          "watch_ratio": 0.12,
+          "vs_typical": 0.25745
         },
         {
           "ratio": 0.97,
-          "watch_ratio": 0.1176,
-          "vs_typical": 0.27585000000000004
+          "watch_ratio": 0.12,
+          "vs_typical": 0.25465
         },
         {
           "ratio": 0.98,
-          "watch_ratio": 0.1176,
-          "vs_typical": 0.27765
+          "watch_ratio": 0.12,
+          "vs_typical": 0.25195
         },
         {
           "ratio": 0.99,
-          "watch_ratio": 0.098,
-          "vs_typical": 0.27895000000000003
+          "watch_ratio": 0.1067,
+          "vs_typical": 0.2495
         },
         {
           "ratio": 1,
-          "watch_ratio": 0.098,
-          "vs_typical": 0.27975000000000005
+          "watch_ratio": 0.0933,
+          "vs_typical": 0.24769999999999998
         }
       ],
       "reach": {
-        "impressions": 2527,
-        "ctr_pct": 1.23
+        "impressions": 4176,
+        "ctr_pct": 1.03
       }
-    },
-    {
-      "id": "JgfgtSu-0xM",
-      "url": "https://youtu.be/JgfgtSu-0xM",
-      "title": "We've all had a good concussion 🚴",
-      "publishedAt": "2026-08-06T09:20:29Z",
-      "duration_s": 20,
-      "is_short": true,
-      "tags": [
-        "comedy",
-        "concussion",
-        "cycling",
-        "podcast"
-      ],
-      "privacyStatus": "private",
-      "publishAt": "2026-08-10T21:00:00Z",
-      "stats": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0
-      },
-      "analytics": null,
-      "retention": null,
-      "reach": null
-    },
-    {
-      "id": "S6Y5_xLuylU",
-      "url": "https://youtu.be/S6Y5_xLuylU",
-      "title": "AI labs are wearing wife beaters to the club 💪",
-      "publishedAt": "2026-08-06T09:20:33Z",
-      "duration_s": 22,
-      "is_short": true,
-      "tags": [
-        "ai",
-        "comedy",
-        "frontier models",
-        "llm",
-        "podcast"
-      ],
-      "privacyStatus": "private",
-      "publishAt": "2026-08-11T21:00:00Z",
-      "stats": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0
-      },
-      "analytics": null,
-      "retention": null,
-      "reach": null
-    },
-    {
-      "id": "fUOH--xNPgE",
-      "url": "https://youtu.be/fUOH--xNPgE",
-      "title": "We're generating training data right now 🤖",
-      "publishedAt": "2026-08-06T09:20:41Z",
-      "duration_s": 21,
-      "is_short": true,
-      "tags": [
-        "ai",
-        "comedy",
-        "llm",
-        "podcast",
-        "training data"
-      ],
-      "privacyStatus": "private",
-      "publishAt": "2026-08-13T21:00:00Z",
-      "stats": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0
-      },
-      "analytics": null,
-      "retention": null,
-      "reach": null
-    },
-    {
-      "id": "G0rHfEplJ9g",
-      "url": "https://youtu.be/G0rHfEplJ9g",
-      "title": "Hi, can you send me a wire for a billion dollars? 🦖",
-      "publishedAt": "2026-08-06T09:32:29Z",
-      "duration_s": 34,
-      "is_short": true,
-      "tags": [
-        "ai",
-        "citadel",
-        "deepfake",
-        "fintech",
-        "podcast"
-      ],
-      "privacyStatus": "private",
-      "publishAt": "2026-08-12T21:00:00Z",
-      "stats": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0
-      },
-      "analytics": null,
-      "retention": null,
-      "reach": null
-    },
-    {
-      "id": "F8EAzBmd6PY",
-      "url": "https://youtu.be/F8EAzBmd6PY",
-      "title": "The sloppy migration that broke Bitcoin's safest wallet 🧨",
-      "publishedAt": "2026-08-06T09:32:35Z",
-      "duration_s": 42,
-      "is_short": true,
-      "tags": [
-        "bitcoin",
-        "coldcard",
-        "git",
-        "opensource",
-        "podcast"
-      ],
-      "privacyStatus": "private",
-      "publishAt": "2026-08-14T21:00:00Z",
-      "stats": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0
-      },
-      "analytics": null,
-      "retention": null,
-      "reach": null
     },
     {
       "id": "LqwTSrZsxPA",
@@ -9031,8 +8907,8 @@
       "analytics": {
         "views": 26,
         "watch_min": 1,
-        "avg_view_s": 5,
-        "avg_view_pct": 56.96,
+        "avg_view_s": 6,
+        "avg_view_pct": 63.1,
         "likes": 0,
         "comments": 0,
         "shares": 0,
@@ -9040,7 +8916,7 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 13,
+        "impressions": 24,
         "ctr_pct": 0.0
       }
     },
@@ -9066,10 +8942,10 @@
         "comments": 0
       },
       "analytics": {
-        "views": 1212,
+        "views": 1214,
         "watch_min": 80,
         "avg_view_s": 10,
-        "avg_view_pct": 84.44,
+        "avg_view_pct": 84.53,
         "likes": 3,
         "comments": 0,
         "shares": 2,
@@ -9077,8 +8953,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 12,
-        "ctr_pct": 8.33
+        "impressions": 33,
+        "ctr_pct": 3.03
       }
     },
     {
@@ -9099,15 +8975,15 @@
       "privacyStatus": "public",
       "publishAt": null,
       "stats": {
-        "views": 205,
+        "views": 207,
         "likes": 0,
         "comments": 0
       },
       "analytics": {
-        "views": 166,
-        "watch_min": 9,
-        "avg_view_s": 12,
-        "avg_view_pct": 63.35999999999999,
+        "views": 207,
+        "watch_min": 11,
+        "avg_view_s": 11,
+        "avg_view_pct": 60.17,
         "likes": 0,
         "comments": 0,
         "shares": 0,
@@ -9115,8 +8991,8 @@
       },
       "retention": null,
       "reach": {
-        "impressions": 11,
-        "ctr_pct": 18.18
+        "impressions": 29,
+        "ctr_pct": 6.9
       }
     },
     {
@@ -9136,15 +9012,24 @@
       "privacyStatus": "public",
       "publishAt": null,
       "stats": {
-        "views": 323,
+        "views": 325,
         "likes": 1,
         "comments": 0
       },
-      "analytics": null,
+      "analytics": {
+        "views": 326,
+        "watch_min": 29,
+        "avg_view_s": 14,
+        "avg_view_pct": 48.3,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "subs_gained": 0
+      },
       "retention": null,
       "reach": {
-        "impressions": 8,
-        "ctr_pct": 12.5
+        "impressions": 26,
+        "ctr_pct": 3.85
       }
     },
     {
@@ -9164,15 +9049,24 @@
       "privacyStatus": "public",
       "publishAt": null,
       "stats": {
-        "views": 940,
-        "likes": 0,
+        "views": 969,
+        "likes": 1,
         "comments": 0
       },
-      "analytics": null,
+      "analytics": {
+        "views": 966,
+        "watch_min": 99,
+        "avg_view_s": 15,
+        "avg_view_pct": 72.39,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "subs_gained": 0
+      },
       "retention": null,
       "reach": {
-        "impressions": 65,
-        "ctr_pct": 7.69
+        "impressions": 364,
+        "ctr_pct": 4.95
       }
     },
     {
@@ -9192,20 +9086,912 @@
       "privacyStatus": "public",
       "publishAt": null,
       "stats": {
-        "views": 131,
+        "views": 140,
+        "likes": 0,
+        "comments": 0
+      },
+      "analytics": {
+        "views": 140,
+        "watch_min": 10,
+        "avg_view_s": 13,
+        "avg_view_pct": 41.09,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "subs_gained": 0
+      },
+      "retention": null,
+      "reach": {
+        "impressions": 40,
+        "ctr_pct": 15.0
+      }
+    },
+    {
+      "id": "JgfgtSu-0xM",
+      "url": "https://youtu.be/JgfgtSu-0xM",
+      "title": "We've all had a good concussion 🚴",
+      "publishedAt": "2026-08-10T21:00:15Z",
+      "duration_s": 20,
+      "is_short": true,
+      "tags": [
+        "comedy",
+        "concussion",
+        "cycling",
+        "podcast"
+      ],
+      "privacyStatus": "public",
+      "publishAt": null,
+      "stats": {
+        "views": 119,
+        "likes": 1,
+        "comments": 0
+      },
+      "analytics": {
+        "views": 119,
+        "watch_min": 6,
+        "avg_view_s": 11,
+        "avg_view_pct": 55.86,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "subs_gained": 0
+      },
+      "retention": null,
+      "reach": {
+        "impressions": 29,
+        "ctr_pct": 6.9
+      }
+    },
+    {
+      "id": "S6Y5_xLuylU",
+      "url": "https://youtu.be/S6Y5_xLuylU",
+      "title": "AI labs are wearing wife beaters to the club 💪",
+      "publishedAt": "2026-08-11T21:00:17Z",
+      "duration_s": 22,
+      "is_short": true,
+      "tags": [
+        "ai",
+        "comedy",
+        "frontier models",
+        "llm",
+        "podcast"
+      ],
+      "privacyStatus": "public",
+      "publishAt": null,
+      "stats": {
+        "views": 177,
+        "likes": 1,
+        "comments": 0
+      },
+      "analytics": {
+        "views": 177,
+        "watch_min": 10,
+        "avg_view_s": 9,
+        "avg_view_pct": 41.36,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "subs_gained": 1
+      },
+      "retention": null,
+      "reach": {
+        "impressions": 24,
+        "ctr_pct": 4.17
+      }
+    },
+    {
+      "id": "G0rHfEplJ9g",
+      "url": "https://youtu.be/G0rHfEplJ9g",
+      "title": "Hi, can you send me a wire for a billion dollars? 🦖",
+      "publishedAt": "2026-08-12T21:00:36Z",
+      "duration_s": 34,
+      "is_short": true,
+      "tags": [
+        "ai",
+        "citadel",
+        "deepfake",
+        "fintech",
+        "podcast"
+      ],
+      "privacyStatus": "public",
+      "publishAt": null,
+      "stats": {
+        "views": 30,
+        "likes": 0,
+        "comments": 0
+      },
+      "analytics": {
+        "views": 28,
+        "watch_min": 3,
+        "avg_view_s": 13,
+        "avg_view_pct": 39.79,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "subs_gained": 0
+      },
+      "retention": null,
+      "reach": {
+        "impressions": 20,
+        "ctr_pct": 10.0
+      }
+    },
+    {
+      "id": "fUOH--xNPgE",
+      "url": "https://youtu.be/fUOH--xNPgE",
+      "title": "We're generating training data right now 🤖",
+      "publishedAt": "2026-08-13T21:00:24Z",
+      "duration_s": 21,
+      "is_short": true,
+      "tags": [
+        "ai",
+        "comedy",
+        "llm",
+        "podcast",
+        "training data"
+      ],
+      "privacyStatus": "public",
+      "publishAt": null,
+      "stats": {
+        "views": 211,
+        "likes": 0,
+        "comments": 0
+      },
+      "analytics": {
+        "views": 209,
+        "watch_min": 14,
+        "avg_view_s": 9,
+        "avg_view_pct": 44.09,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "subs_gained": 0
+      },
+      "retention": null,
+      "reach": {
+        "impressions": 11,
+        "ctr_pct": 0.0
+      }
+    },
+    {
+      "id": "1nnRxGe2rR4",
+      "url": "https://youtu.be/1nnRxGe2rR4",
+      "title": "Gorilla Mode: How AI Swarms Change Everything",
+      "publishedAt": "2026-08-14T07:35:54Z",
+      "duration_s": 3414,
+      "is_short": false,
+      "tags": [],
+      "privacyStatus": "public",
+      "publishAt": null,
+      "stats": {
+        "views": 46,
+        "likes": 2,
+        "comments": 0
+      },
+      "analytics": {
+        "views": 23,
+        "watch_min": 156,
+        "avg_view_s": 408,
+        "avg_view_pct": 11.96,
+        "likes": 2,
+        "comments": 0,
+        "shares": 0,
+        "subs_gained": 0
+      },
+      "retention": [
+        {
+          "ratio": 0.01,
+          "watch_ratio": 1,
+          "vs_typical": 0.40115
+        },
+        {
+          "ratio": 0.02,
+          "watch_ratio": 0.5217,
+          "vs_typical": 0.316
+        },
+        {
+          "ratio": 0.03,
+          "watch_ratio": 0.3043,
+          "vs_typical": 0.24285
+        },
+        {
+          "ratio": 0.04,
+          "watch_ratio": 0.2609,
+          "vs_typical": 0.19615
+        },
+        {
+          "ratio": 0.05,
+          "watch_ratio": 0.1739,
+          "vs_typical": 0.16575
+        },
+        {
+          "ratio": 0.06,
+          "watch_ratio": 0.1739,
+          "vs_typical": 0.1461
+        },
+        {
+          "ratio": 0.07,
+          "watch_ratio": 0.1304,
+          "vs_typical": 0.1325
+        },
+        {
+          "ratio": 0.08,
+          "watch_ratio": 0.1304,
+          "vs_typical": 0.12475000000000003
+        },
+        {
+          "ratio": 0.09,
+          "watch_ratio": 0.1304,
+          "vs_typical": 0.12340000000000001
+        },
+        {
+          "ratio": 0.1,
+          "watch_ratio": 0.1304,
+          "vs_typical": 0.12784999999999996
+        },
+        {
+          "ratio": 0.11,
+          "watch_ratio": 0.1304,
+          "vs_typical": 0.13994999999999996
+        },
+        {
+          "ratio": 0.12,
+          "watch_ratio": 0.1739,
+          "vs_typical": 0.16165000000000002
+        },
+        {
+          "ratio": 0.13,
+          "watch_ratio": 0.1304,
+          "vs_typical": 0.19924999999999998
+        },
+        {
+          "ratio": 0.14,
+          "watch_ratio": 0.1304,
+          "vs_typical": 0.27765
+        },
+        {
+          "ratio": 0.15,
+          "watch_ratio": 0.1304,
+          "vs_typical": 0.4031
+        },
+        {
+          "ratio": 0.16,
+          "watch_ratio": 0.1304,
+          "vs_typical": 0.52075
+        },
+        {
+          "ratio": 0.17,
+          "watch_ratio": 0.1739,
+          "vs_typical": 0.5826
+        },
+        {
+          "ratio": 0.18,
+          "watch_ratio": 0.1739,
+          "vs_typical": 0.6016
+        },
+        {
+          "ratio": 0.19,
+          "watch_ratio": 0.21739999999999998,
+          "vs_typical": 0.6047
+        },
+        {
+          "ratio": 0.2,
+          "watch_ratio": 0.2609,
+          "vs_typical": 0.6021
+        },
+        {
+          "ratio": 0.21,
+          "watch_ratio": 0.1739,
+          "vs_typical": 0.59605
+        },
+        {
+          "ratio": 0.22,
+          "watch_ratio": 0.21739999999999998,
+          "vs_typical": 0.58795
+        },
+        {
+          "ratio": 0.23,
+          "watch_ratio": 0.21739999999999998,
+          "vs_typical": 0.57925
+        },
+        {
+          "ratio": 0.24,
+          "watch_ratio": 0.1304,
+          "vs_typical": 0.5714
+        },
+        {
+          "ratio": 0.25,
+          "watch_ratio": 0.1304,
+          "vs_typical": 0.56485
+        },
+        {
+          "ratio": 0.26,
+          "watch_ratio": 0.1739,
+          "vs_typical": 0.55405
+        },
+        {
+          "ratio": 0.27,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.5139
+        },
+        {
+          "ratio": 0.28,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.41759999999999997
+        },
+        {
+          "ratio": 0.29,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.29985
+        },
+        {
+          "ratio": 0.3,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.2278
+        },
+        {
+          "ratio": 0.31,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.20739999999999997
+        },
+        {
+          "ratio": 0.32,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.2132
+        },
+        {
+          "ratio": 0.33,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.23435
+        },
+        {
+          "ratio": 0.34,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.26585000000000003
+        },
+        {
+          "ratio": 0.35,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.2993
+        },
+        {
+          "ratio": 0.36,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.33045
+        },
+        {
+          "ratio": 0.37,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.362
+        },
+        {
+          "ratio": 0.38,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.39015
+        },
+        {
+          "ratio": 0.39,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.41075
+        },
+        {
+          "ratio": 0.4,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.4265
+        },
+        {
+          "ratio": 0.41,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.4389
+        },
+        {
+          "ratio": 0.42,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.44784999999999997
+        },
+        {
+          "ratio": 0.43,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.4543
+        },
+        {
+          "ratio": 0.44,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.45894999999999997
+        },
+        {
+          "ratio": 0.45,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.46194999999999997
+        },
+        {
+          "ratio": 0.46,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.46355
+        },
+        {
+          "ratio": 0.47,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.4643
+        },
+        {
+          "ratio": 0.48,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.4646
+        },
+        {
+          "ratio": 0.49,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.46415
+        },
+        {
+          "ratio": 0.5,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.46115
+        },
+        {
+          "ratio": 0.51,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.456
+        },
+        {
+          "ratio": 0.52,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.4527
+        },
+        {
+          "ratio": 0.53,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.4517
+        },
+        {
+          "ratio": 0.54,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.45135000000000003
+        },
+        {
+          "ratio": 0.55,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.45105
+        },
+        {
+          "ratio": 0.56,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.45075
+        },
+        {
+          "ratio": 0.57,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.45045
+        },
+        {
+          "ratio": 0.58,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.45015
+        },
+        {
+          "ratio": 0.59,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.45005
+        },
+        {
+          "ratio": 0.6,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.4501
+        },
+        {
+          "ratio": 0.61,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.4502
+        },
+        {
+          "ratio": 0.62,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.45015
+        },
+        {
+          "ratio": 0.63,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.45005
+        },
+        {
+          "ratio": 0.64,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.4499
+        },
+        {
+          "ratio": 0.65,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.44975
+        },
+        {
+          "ratio": 0.66,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.4495
+        },
+        {
+          "ratio": 0.67,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.4494
+        },
+        {
+          "ratio": 0.68,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.4504
+        },
+        {
+          "ratio": 0.69,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.45585
+        },
+        {
+          "ratio": 0.7,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.4653
+        },
+        {
+          "ratio": 0.71,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.4722
+        },
+        {
+          "ratio": 0.72,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.47895
+        },
+        {
+          "ratio": 0.73,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.4884
+        },
+        {
+          "ratio": 0.74,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.4956
+        },
+        {
+          "ratio": 0.75,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.50355
+        },
+        {
+          "ratio": 0.76,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.5163
+        },
+        {
+          "ratio": 0.77,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.53585
+        },
+        {
+          "ratio": 0.78,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.57935
+        },
+        {
+          "ratio": 0.79,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.6728000000000001
+        },
+        {
+          "ratio": 0.8,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.79735
+        },
+        {
+          "ratio": 0.81,
+          "watch_ratio": 0.087,
+          "vs_typical": 0.8833
+        },
+        {
+          "ratio": 0.82,
+          "watch_ratio": 0.1304,
+          "vs_typical": 0.91345
+        },
+        {
+          "ratio": 0.83,
+          "watch_ratio": 0.1304,
+          "vs_typical": 0.9195
+        },
+        {
+          "ratio": 0.84,
+          "watch_ratio": 0.1304,
+          "vs_typical": 0.9212
+        },
+        {
+          "ratio": 0.85,
+          "watch_ratio": 0.1304,
+          "vs_typical": 0.92235
+        },
+        {
+          "ratio": 0.86,
+          "watch_ratio": 0.1739,
+          "vs_typical": 0.92325
+        },
+        {
+          "ratio": 0.87,
+          "watch_ratio": 0.1304,
+          "vs_typical": 0.92405
+        },
+        {
+          "ratio": 0.88,
+          "watch_ratio": 0.1304,
+          "vs_typical": 0.92475
+        },
+        {
+          "ratio": 0.89,
+          "watch_ratio": 0.1304,
+          "vs_typical": 0.9252499999999999
+        },
+        {
+          "ratio": 0.9,
+          "watch_ratio": 0.1304,
+          "vs_typical": 0.92555
+        },
+        {
+          "ratio": 0.91,
+          "watch_ratio": 0.1304,
+          "vs_typical": 0.9253499999999999
+        },
+        {
+          "ratio": 0.92,
+          "watch_ratio": 0.1304,
+          "vs_typical": 0.92455
+        },
+        {
+          "ratio": 0.93,
+          "watch_ratio": 0.1304,
+          "vs_typical": 0.92345
+        },
+        {
+          "ratio": 0.94,
+          "watch_ratio": 0.1304,
+          "vs_typical": 0.92215
+        },
+        {
+          "ratio": 0.95,
+          "watch_ratio": 0.1304,
+          "vs_typical": 0.92055
+        },
+        {
+          "ratio": 0.96,
+          "watch_ratio": 0.1304,
+          "vs_typical": 0.91875
+        },
+        {
+          "ratio": 0.97,
+          "watch_ratio": 0.1304,
+          "vs_typical": 0.91665
+        },
+        {
+          "ratio": 0.98,
+          "watch_ratio": 0.1304,
+          "vs_typical": 0.91435
+        },
+        {
+          "ratio": 0.99,
+          "watch_ratio": 0.1304,
+          "vs_typical": 0.9122
+        },
+        {
+          "ratio": 1,
+          "watch_ratio": 0.1304,
+          "vs_typical": 0.9106000000000001
+        }
+      ],
+      "reach": {
+        "impressions": 3597,
+        "ctr_pct": 0.61
+      }
+    },
+    {
+      "id": "gKFOjf6u5L8",
+      "url": "https://youtu.be/gKFOjf6u5L8",
+      "title": "You can't copyright a gorilla... right?",
+      "publishedAt": "2026-08-14T08:14:42Z",
+      "duration_s": 30,
+      "is_short": true,
+      "tags": [
+        "AI video",
+        "comedy",
+        "copyright",
+        "gorilla"
+      ],
+      "privacyStatus": "private",
+      "publishAt": "2026-08-17T09:00:00Z",
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      },
+      "analytics": null,
+      "retention": null,
+      "reach": null
+    },
+    {
+      "id": "S81ruF5OXAc",
+      "url": "https://youtu.be/S81ruF5OXAc",
+      "title": "This AI's job is to not think",
+      "publishedAt": "2026-08-14T08:14:46Z",
+      "duration_s": 24,
+      "is_short": true,
+      "tags": [
+        "AI",
+        "LLM",
+        "agents",
+        "podcast",
+        "swarm"
+      ],
+      "privacyStatus": "private",
+      "publishAt": "2026-08-18T09:00:00Z",
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      },
+      "analytics": null,
+      "retention": null,
+      "reach": null
+    },
+    {
+      "id": "PBSUJ4eeO1o",
+      "url": "https://youtu.be/PBSUJ4eeO1o",
+      "title": "\"You can have the match. It's yours.\"",
+      "publishedAt": "2026-08-14T08:14:50Z",
+      "duration_s": 29,
+      "is_short": true,
+      "tags": [
+        "comedy",
+        "rage quit",
+        "rec league",
+        "tennis"
+      ],
+      "privacyStatus": "private",
+      "publishAt": "2026-08-19T09:00:00Z",
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      },
+      "analytics": null,
+      "retention": null,
+      "reach": null
+    },
+    {
+      "id": "bTD7YoAdFpg",
+      "url": "https://youtu.be/bTD7YoAdFpg",
+      "title": "Harambe just wanted to give that baby some love",
+      "publishedAt": "2026-08-14T08:14:55Z",
+      "duration_s": 16,
+      "is_short": true,
+      "tags": [
+        "comedy",
+        "gorilla",
+        "harambe",
+        "podcast"
+      ],
+      "privacyStatus": "private",
+      "publishAt": "2026-08-20T09:00:00Z",
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      },
+      "analytics": null,
+      "retention": null,
+      "reach": null
+    },
+    {
+      "id": "pIrtFxwdq_g",
+      "url": "https://youtu.be/pIrtFxwdq_g",
+      "title": "Gorilla mode, explained badly",
+      "publishedAt": "2026-08-14T08:14:58Z",
+      "duration_s": 26,
+      "is_short": true,
+      "tags": [
+        "comedy",
+        "gorilla mode",
+        "podcast"
+      ],
+      "privacyStatus": "private",
+      "publishAt": "2026-08-21T09:00:00Z",
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      },
+      "analytics": null,
+      "retention": null,
+      "reach": null
+    },
+    {
+      "id": "F8EAzBmd6PY",
+      "url": "https://youtu.be/F8EAzBmd6PY",
+      "title": "The sloppy migration that broke Bitcoin's safest wallet 🧨",
+      "publishedAt": "2026-08-14T21:00:27Z",
+      "duration_s": 42,
+      "is_short": true,
+      "tags": [
+        "bitcoin",
+        "coldcard",
+        "git",
+        "opensource",
+        "podcast"
+      ],
+      "privacyStatus": "public",
+      "publishAt": null,
+      "stats": {
+        "views": 6,
         "likes": 0,
         "comments": 0
       },
       "analytics": {
         "views": 1,
         "watch_min": 0,
-        "avg_view_s": 32,
-        "avg_view_pct": 98.97,
+        "avg_view_s": 0,
+        "avg_view_pct": 0,
         "likes": 0,
         "comments": 0,
         "shares": 0,
         "subs_gained": 0
       },
+      "retention": null,
+      "reach": {
+        "impressions": 93,
+        "ctr_pct": 0.0
+      }
+    },
+    {
+      "id": "UF03xFu846Y",
+      "url": "https://youtu.be/UF03xFu846Y",
+      "title": "Our AI called us degenerate gamblers",
+      "publishedAt": "2026-08-15T09:00:05Z",
+      "duration_s": 20,
+      "is_short": true,
+      "tags": [
+        "AI",
+        "agents",
+        "perp",
+        "podcast",
+        "trading"
+      ],
+      "privacyStatus": "public",
+      "publishAt": null,
+      "stats": {
+        "views": 24,
+        "likes": 0,
+        "comments": 0
+      },
+      "analytics": null,
+      "retention": null,
+      "reach": {
+        "impressions": 10,
+        "ctr_pct": 0.0
+      }
+    },
+    {
+      "id": "BVhW5_HZUmE",
+      "url": "https://youtu.be/BVhW5_HZUmE",
+      "title": "Down $36 — let it ride to zero?",
+      "publishedAt": "2026-08-16T09:00:10Z",
+      "duration_s": 31,
+      "is_short": true,
+      "tags": [
+        "AI",
+        "leverage",
+        "perp",
+        "podcast",
+        "trading"
+      ],
+      "privacyStatus": "public",
+      "publishAt": null,
+      "stats": {
+        "views": 202,
+        "likes": 0,
+        "comments": 0
+      },
+      "analytics": null,
       "retention": null,
       "reach": null
     }
@@ -9325,7 +10111,7 @@
     },
     {
       "day": "2026-06-29",
-      "views": 283,
+      "views": 282,
       "estimatedMinutesWatched": 231,
       "subscribersGained": 0,
       "subscribersLost": 0
@@ -9591,64 +10377,113 @@
     },
     {
       "day": "2026-08-06",
-      "views": 348,
+      "views": 341,
       "estimatedMinutesWatched": 437,
       "subscribersGained": 0,
       "subscribersLost": 0
     },
     {
       "day": "2026-08-07",
-      "views": 1404,
+      "views": 1401,
       "estimatedMinutesWatched": 184,
       "subscribersGained": 0,
       "subscribersLost": 0
+    },
+    {
+      "day": "2026-08-08",
+      "views": 1239,
+      "estimatedMinutesWatched": 202,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-08-09",
+      "views": 236,
+      "estimatedMinutesWatched": 141,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-08-10",
+      "views": 148,
+      "estimatedMinutesWatched": 47,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-08-11",
+      "views": 181,
+      "estimatedMinutesWatched": 15,
+      "subscribersGained": 1,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-08-12",
+      "views": 25,
+      "estimatedMinutesWatched": 35,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-08-13",
+      "views": 227,
+      "estimatedMinutesWatched": 51,
+      "subscribersGained": 0,
+      "subscribersLost": 0
+    },
+    {
+      "day": "2026-08-14",
+      "views": 34,
+      "estimatedMinutesWatched": 157,
+      "subscribersGained": 1,
+      "subscribersLost": 1
     }
   ],
   "traffic": [
     {
       "insightTrafficSourceType": "SHORTS",
-      "views": 14275,
-      "estimatedMinutesWatched": 885
+      "views": 16122,
+      "estimatedMinutesWatched": 1033
     },
     {
       "insightTrafficSourceType": "SUBSCRIBER",
-      "views": 579,
-      "estimatedMinutesWatched": 1522
+      "views": 622,
+      "estimatedMinutesWatched": 1668
     },
     {
       "insightTrafficSourceType": "YT_OTHER_PAGE",
-      "views": 405,
-      "estimatedMinutesWatched": 206
+      "views": 473,
+      "estimatedMinutesWatched": 219
     },
     {
       "insightTrafficSourceType": "YT_SEARCH",
-      "views": 259,
-      "estimatedMinutesWatched": 316
+      "views": 336,
+      "estimatedMinutesWatched": 346
     },
     {
       "insightTrafficSourceType": "YT_CHANNEL",
-      "views": 153,
-      "estimatedMinutesWatched": 576
+      "views": 161,
+      "estimatedMinutesWatched": 637
     },
     {
       "insightTrafficSourceType": "RELATED_VIDEO",
-      "views": 130,
-      "estimatedMinutesWatched": 415
+      "views": 150,
+      "estimatedMinutesWatched": 540
     },
     {
       "insightTrafficSourceType": "NO_LINK_OTHER",
-      "views": 102,
-      "estimatedMinutesWatched": 803
+      "views": 107,
+      "estimatedMinutesWatched": 897
     },
     {
       "insightTrafficSourceType": "EXT_URL",
-      "views": 64,
-      "estimatedMinutesWatched": 173
+      "views": 65,
+      "estimatedMinutesWatched": 174
     },
     {
       "insightTrafficSourceType": "PLAYLIST",
-      "views": 26,
-      "estimatedMinutesWatched": 361
+      "views": 31,
+      "estimatedMinutesWatched": 395
     },
     {
       "insightTrafficSourceType": "NOTIFICATION",
