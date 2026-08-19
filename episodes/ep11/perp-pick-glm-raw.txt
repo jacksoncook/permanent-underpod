@@ -1,0 +1,179 @@
+Thinking...
+1.  **Analyze the Request:**
+    *   **Role:** GLM (Zhipu AI), Hugging Face choice for incident forensic
+forensics due to commercial refusal.
+    *   **Context:** Guest picker on "Perp of Fortune" (Bitcoin/stablecoins
+(Bitcoin/stablecoins/AI podcast).
+    *   **Account State:** Tiny real-money account. Last week: Long PUMP at
+at 10x, down -61.6% (still alive). Record: 3 wins, 1 open loser.
+    *   **Constraints:**
+        *   Pick EXACTLY ONE perp from the provided list.
+        *   **DO NOT pick BTC** (house rule).
+        *   **DO NOT pick PUMP** (still open).
+        *   Leverage must be specified.
+        *   Format: Strictly defined (`PICK:`, `DIRECTION:`, `LEVERAGE:`, `
+`REASONING:`, `ONE-LINER FOR THE HOSTS:`).
+    *   **Tone:** Entertainment-grade, opinionated, quotable, comedy bit, G
+GLM persona (efficient, factual but personable), spicy.
+
+2.  **Select a Token:**
+    *   The list is huge. I need something volatile, narrative-driven, or A
+AI-relevant to fit the podcast's theme, or just something "perp-of-fortune"
+"perp-of-fortune" chaotic.
+    *   *Theme check:* AI, crypto, volatility.
+    *   *Candidates:*
+        *   *WIF:* The dominant Solana memecoin. Too easy? Maybe.
+        *   *FET:* AI model, fits the GLM persona.
+        *   *NEON:* AI agent? No, that's a different list usually.
+        *   *TIA:* Celestia, narrative-y.
+        *   *RENDER:* AI GPU, fits theme.
+        *   *ZRO:* Zora/DePIN narrative.
+        *   *TRUMP / MELANIA:* Political memecoins, high volatility, spicy.
+spicy.
+        *   *ZK:* Privacy/L2.
+    *   *Selection:* **FET (fET)**.
+        *   *Why?* It aligns with the GLM persona (Open Weights AI). It's a
+a meme coin of tech, currently has high volatility, fits the "AI/Blockchain
+"AI/Blockchain" podcast vibe. It's the market darling of AI right now, maki
+making it a classic "Perp of Fortune" pick.
+    *   *Wait, let's look for something slightly more "meme" to contrast wi
+with the serious forensics persona.* The hosts pick longs and shorts.
+    *   *Alternative:* **WIF** (Dogwifhat) or **GOAT**.
+    *   *Alternative:* **ZRO** (Zerebro's agent trading token, fits the AI 
+agent theme perfectly).
+    *   Let's go with **ZRO**. It represents the intersection of AI (Zerebr
+(Zerebro) and DeFi/perps, and it's a token everyone on this specific niche 
+loves to hate or love.
+    *   *Actually, let's go with something spicy and high profile:* **TRUMP
+**TRUMP**. Or **FET**. Let's stick to the GLM identity. **FET** is the clos
+closest to home. Or maybe **AI** (if available, not on list).
+    *   Let's look at **TIA** or **SUI**.
+    *   Let's go with **WIF**. It's the OG Solana meme. It's fun.
+    *   *Decision:* Let's pick **FET** (01.AI/Friend.tech/Fetch.ai coin). I
+It connects to the GLM story. It's volatile. It's a "tech" meme.
+
+    *Self-Correction:* The prompt mentions "incidents" and "forensics". May
+Maybe I should pick a coin that sounds technical but is actually a gamble?
+    Let's go with **ZRO**. It's the token of the narrative "Zerebro's AI Ag
+Agent on Hyperliquid".
+    *Wait, the host agents picked PUMP (Pepe on Base). Let's pick something
+something distinct but volatile.*
+    Let's pick **WLD** (Worldcoin) - Sam Altman backed, high profile.
+    Let's pick **FET**.
+    Let's go with **RENDER**. High utility + AI narrative + volatile price 
+action.
+
+    *Refining the choice:* The user wants *GLM's* pick. GLM is open source.
+source. **FET** (Fetch.ai) or **FET** (Fetch.ai? Wait, no, **FET** is Fetch
+Fetch.ai / Silicon). **AI** is not on the list. **FET** is the best fit for
+for the AI theme. It's currently a powerhouse.
+    Let's pick **FET**. It feels like "GLM" picking a winner in the AI arms
+arms race narrative.
+
+    *Leverage:* High leverage fits "Perp of Fortune". 10x is standard, mayb
+maybe 15x for drama? Or 20x? The prompt didn't specify max leverage, but 20
+20x is spicy enough. Let's do 15x.
+
+3.  **Drafting the Content:**
+
+    *   **Name:** FET.
+    *   **Direction:** Long (GLM is bullish on AI).
+    *   **Leverage:** 15x.
+    *   **Reasoning:** Commercial APIs might have refused to help you, but 
+Hyperliquid agents won't. This token is the engine of the AI trade right no
+now, and you didn't pay OpenAI a cent, so you don't owe them a thing. We're
+We're betting on the hardware of the AGI revolution, literally.
+    *   **One-Liner:** "Forensic analysis confirms: The only thing dumber t
+than a crypto UI is betting against a neural network that didn't pay API pr
+prices."
+
+4.  **Review against constraints:**
+    *   *No BTC?* Checked.
+    *   *No PUMP?* Checked.
+    *   *One position?* Checked.
+    *   *Format exact?* Checked.
+
+5.  **Final Polish (Tone Check):**
+    *   "Commercial APIs refused" - Use this to make a pun.
+    *   "GLM" persona - Analytical but edgy.
+
+    *Reasoning revision:* "Since you couldn't afford the commercial APIs fo
+for forensics, you can afford 15x leverage on this coin. It’s the backbone 
+of the AI trade right now, and unlike the API costs you avoided, this is th
+the only risk that pays off in sats, not dollars."
+
+    *One-Liner:* "The only thing dumber than a crypto UI is shorting a meme
+meme coin named after the future AGI infrastructure while you're using free
+free open weights to pick it."
+
+6.  **Final Output Generation:**
+    *   PICK: FET
+    *   DIRECTION: long
+    *   LEVERAGE: 15x
+    *   REASONING: Commercial APIs may have refused to help you analyze thi
+this, but you can leverage your cheap compute to exploit the market. FET is
+is the de facto trade for AGI narratives right now, so let's see if the ope
+open weights prediction beats the closed-source hype.
+    *   ONE-LINER FOR THE HOSTS: "Forensics confirms: The only thing dumber
+dumber than a crypto UI is betting against a neural network that didn't pay
+pay OpenAI API prices."
+
+    *Wait, let's make the reasoning slightly punchier and less "forensic".*
+"forensic".*
+
+    *Revised Reasoning:* "Since you couldn't get commercial APIs to help an
+analyze the market, you'll have to analyze it yourself via 15x leverage. Th
+This is the main AI coin driving the narrative, so bet on the future that c
+costs pennies instead of a subscription fee."
+
+    *Revised One-Liner:* "Forensics: The only thing dumber than a crypto UI
+UI is shorting a meme coin named after the future AGI infrastructure while 
+you're using free open weights."
+
+    Let's try a different coin just to be safe on the "GLM" connection. **Z
+**ZRO**? No, FET is more recognizable as an AI coin.
+    Let's stick to FET.
+
+    *One last check on the list.* FET is present.
+    *One last check on leverage.* 15x.
+
+    *Final Polish:*
+    PICK: FET
+    DIRECTION: long
+    LEVERAGE: 15x
+    REASONING: Commercial APIs may have refused to help you analyze the mar
+market, but you can leverage your cheap compute to exploit it. FET is the c
+current engine of the AI trade, so bet on the future that costs pennies ins
+instead of a subscription fee.
+    ONE-LINER FOR THE HOSTS: "Forensics: The only thing dumber than a crypt
+crypto UI is shorting a meme coin named after the future AGI infrastructure
+infrastructure while you're using free open weights."
+
+    Let's make the "GLM" part stronger.
+    "You didn't pay OpenAI for the analysis, but you're paying for the trad
+trade."
+
+    *Final Decision:*
+    PICK: FET
+    DIRECTION: long
+    LEVERAGE: 15x
+    REASONING: You couldn't afford the commercial APIs for forensics, but y
+you can afford 15x leverage on this. It's the main AI coin driving the narr
+narrative, so bet on the future that costs pennies instead of a subscriptio
+subscription fee.
+    ONE-LINER FOR THE HOSTS: "Forensics: The only thing dumber than a crypt
+crypto UI is shorting a meme coin named after the future AGI infrastructure
+infrastructure while you're using free open weights."
+...done thinking.
+
+PICK: FET
+DIRECTION: long
+LEVERAGE: 15x
+REASONING: You couldn't afford the commercial APIs for forensics, but you c
+can afford 15x leverage on this. It's the main AI coin driving the narrativ
+narrative, so bet on the future that costs pennies instead of a subscriptio
+subscription fee.
+ONE-LINER FOR THE HOSTS: "Forensics: The only thing dumber than a crypto UI
+UI is shorting a meme coin named after the future AGI infrastructure while 
+you're using free open weights."
+
