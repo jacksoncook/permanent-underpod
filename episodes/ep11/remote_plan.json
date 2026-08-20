@@ -30,7 +30,7 @@
   "  @ t2793 agree (roll ~281s before screen start). Screen starts master 202.2 so the pip",
   "  cannot exist before the reveal. Full-mode beat 204.0-215.5 ('no 10x?' / 'must be",
   "  volatile, exactly what we want'), corner from 215.5 to the end card (house rule).",
-  "  Corner crop [488,180,720,380] = big number + margin % + entry line + liquidation line.",
+  "  Corner crop [952, 413, 482, 165] = big number + margin % + entry line + liquidation line.",
   "NOTE THE BOARD SAYS 5x (guide's pick-of-record said 10x; Chris was 'very explicit' it",
   "  rolled 5x \u2014 the on-air banter covers it, no fix needed).",
   "DISCLAIMER: FOURTH episode with no spoken 'not financial advice' (closest: Jackson 2740",
@@ -373,10 +373,10 @@
    "anchor": 202.215,
    "mode": "corner",
    "crop": [
-    488,
-    180,
-    720,
-    380
+    952,
+    413,
+    482,
+    165
    ]
   },
   {
@@ -387,10 +387,10 @@
    "anchor": 202.215,
    "mode": "corner",
    "crop": [
-    488,
-    180,
-    720,
-    380
+    952,
+    413,
+    482,
+    165
    ]
   },
   {
@@ -401,10 +401,10 @@
    "anchor": 202.215,
    "mode": "corner",
    "crop": [
-    488,
-    180,
-    720,
-    380
+    952,
+    413,
+    482,
+    165
    ]
   },
   {
@@ -415,10 +415,10 @@
    "anchor": 202.215,
    "mode": "corner",
    "crop": [
-    488,
-    180,
-    720,
-    380
+    952,
+    413,
+    482,
+    165
    ]
   },
   {
@@ -429,10 +429,10 @@
    "anchor": 202.215,
    "mode": "corner",
    "crop": [
-    488,
-    180,
-    720,
-    380
+    952,
+    413,
+    482,
+    165
    ]
   },
   {
@@ -443,10 +443,10 @@
    "anchor": 202.215,
    "mode": "corner",
    "crop": [
-    488,
-    180,
-    720,
-    380
+    952,
+    413,
+    482,
+    165
    ]
   },
   {
@@ -457,10 +457,10 @@
    "anchor": 202.215,
    "mode": "corner",
    "crop": [
-    488,
-    180,
-    720,
-    380
+    952,
+    413,
+    482,
+    165
    ]
   },
   {
@@ -471,10 +471,10 @@
    "anchor": 202.215,
    "mode": "corner",
    "crop": [
-    488,
-    180,
-    720,
-    380
+    952,
+    413,
+    482,
+    165
    ]
   },
   {
@@ -485,10 +485,10 @@
    "anchor": 202.215,
    "mode": "corner",
    "crop": [
-    488,
-    180,
-    720,
-    380
+    952,
+    413,
+    482,
+    165
    ]
   },
   {
@@ -499,10 +499,10 @@
    "anchor": 202.215,
    "mode": "corner",
    "crop": [
-    488,
-    180,
-    720,
-    380
+    952,
+    413,
+    482,
+    165
    ]
   }
  ],
