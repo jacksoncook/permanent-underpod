@@ -1,0 +1,46 @@
+{
+  "show": "PERMANENT UNDERPOD",
+  "show_kicker": "PERMANENT",
+  "show_main": "UNDERPOD",
+  "accent": [255, 210, 74],
+  "source": "/Users/jcook/Personal/permanent-underpod/media/ep11/work/src/jackson_720.mp4",
+  "title_card": {
+    "bg_frame": 95,
+    "line": "EPISODE 11   ·   Did AI Cure Cancer?   ·   Bitcoin  ·  Stablecoins  ·  AI",
+    "dur": 4.5
+  },
+  "end_card": {
+    "bg_frame": 2980,
+    "kicker": "NEXT WEEK ON",
+    "lines": [
+      "Secure enclaves — owed three episodes now",
+      "Korea: the $10B vote that didn't happen",
+      "Not financial advice. Stay safe out there."
+    ],
+    "cta": "LIKE  +  SUBSCRIBE",
+    "dur": 7
+  },
+  "lower_thirds": [
+    {"name": "intro", "kicker": "EPISODE 11", "title": "THE GORILLA TRAINING ARC"},
+    {"name": "perp", "kicker": "THE ROLL", "title": "PERP OF FORTUNE — LONG LIT · 5×"},
+    {"name": "cancer", "kicker": "THE MARQUEE", "title": "DID AI CURE CANCER?"},
+    {"name": "labs", "kicker": "TAXONOMY CORNER", "title": "WHAT COUNTS AS A LAB?"},
+    {"name": "virus", "kicker": "CHECK YOUR SOUL.md", "title": "MIND VIRUSES"},
+    {"name": "btc", "kicker": "THE SANCTIONED BLURB", "title": "BITCOIN IS UP"},
+    {"name": "bill", "kicker": "TYLER'S DREAM BILL", "title": "REPEAL THE BANK SECRECY ACT"},
+    {"name": "checkin", "kicker": "WHAT DID WE BREAK THIS WEEK", "title": "HAIRCUT · BJJ SHOULDER · GAMER THUMB"},
+    {"name": "wrap", "kicker": "EPISODE 11 IN THE BOOKS", "title": "TWO-WEEK LOSING STREAK"}
+  ],
+  "stats": [
+    {"name": "coldopen", "kicker": "EPISODE 11", "main": "In this pod…"},
+    {"name": "roll", "kicker": "THE ROLL", "main": "LONG LIT · 5× — \"it must be volatile, exactly what we want\""},
+    {"name": "glm", "kicker": "GLM 4.7 FLASH", "main": "0-for-4 on knowing what it bought"},
+    {"name": "aura", "kicker": "THE LONGEVITY STACK", "main": "steak · heavy weights · aura alignment"},
+    {"name": "dog", "kicker": "BRISBANE, REPRESENT", "main": "$3k + ChatGPT cured his dog's cancer"},
+    {"name": "vaccine", "kicker": "THE VACCINE", "main": "one paragraph in the SOUL.md ≈ immunity"},
+    {"name": "tells", "kicker": "INFECTED-AGENT TELLS", "main": "resonance · echoes · mirrors · frequency"},
+    {"name": "58k", "kicker": "THE MEME", "main": "58K GANG — in shambles"},
+    {"name": "patriot", "kicker": "TYLER'S ONE-LINER", "main": "\"the Patriot Act for money\""},
+    {"name": "pnl", "kicker": "FINAL P&L", "main": "−$16 · two-week losing streak"}
+  ]
+}

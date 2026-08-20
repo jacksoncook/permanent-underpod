@@ -1,0 +1,555 @@
+{
+ "_notes": [
+  "Ep 11 \u2014 DID AI CURE CANCER? StreamYard per-host tracks, offsets = filename deltas",
+  "  (jackson 0 / chris +0.003 / tyler -0.051); turn-gap medians -0.11/-0.51/+0.86 vs the",
+  "  -1.92 whisper-inflation baseline, in family with Ep 10. BY-EAR BENCH BUILT (sync.html)",
+  "  \u2014 Jackson to confirm (Ep 10 waiver was a one-off, prep guide says re-check).",
+  "BLEEP: Tyler's last name in the roll call is bleeped AT SOURCE (tyler_720.mp4 file time",
+  "  12.16-12.46, word envelope 12.22-12.37, 'going' resumes 12.47; 1kHz sine at speech level",
+  "  -19 dB RMS). Every downstream cut/clip inherits it. tyler_16k.wav regenerated to match.",
+  "  Unbleeped original kept at src/tyler_720_unbleeped.mp4.",
+  "RAW ORDER IS THE CUT (like Ep 10): perp at ~1.5 min, cancer marquee at ~5 min, check-in",
+  "  late, live P&L resolution at the wrap. Enclaves/eCash/RedTeam/agentic-commerce never",
+  "  got recorded \u2014 carry to Ep 12 (end card sells enclaves a THIRD time).",
+  "COLD OPEN ~49s, 3 beats: COLD1 105.63-130.0 (mics/cams jackson \u2014 Chris interrupts under the laugh; documented whitelist exception)",
+  "  sticky make my money go red dippy dippy / send me to the moon'; COLD2 449.5-464.5 Tyler",
+  "  'cancer was already solved: steak, weights, auras aligned' + Chris 'aura thing instead",
+  "  of mRNA vaccines'; COLD3 2250.5-2261.0 Chris 'from curing cancer to moving your bonk",
+  "  onto a centralized exchange \u2014 the future of finance' (mics/cams chris+tyler: Jackson",
+  "  talks under it at 2253).",
+  "SURGICAL CUTS (no whoosh/wipe, envelope-gated): 537.47->585.65 burrito-sizing",
+  "  digression (S3A|S3B \u2014 keeps the two-steaks/gram-scale joke + the laugh, resumes on",
+  "  'I was just trying to fend off the cancer'), 1755.8->1773.0 who-describes-the-paper",
+  "  handoff mush (S5A|S5B), 1012.53->1036.16 'back to Chris's amazing transition / Oh",
+  "  Tyler' mush (masked by the S3|S4 whoosh seam; S4 opens on Tyler's 'crypto companies",
+  "  are like something-labs' line). The Bell-Labs cut was DROPPED: Tyler has a real",
+  "  answer at 1122-1132 ('invented a lot they didn't monetize... purely research').",
+  "PERP DASHBOARD (Chris screen share, custom Perp-of-Fortune board, 1920x1080): anchor",
+  "  202.215 = filename offset 202.545 - jackson 0.330. TRIPLE-verified: screen t2793 shows",
+  "  -$15.91 vs Jackson 'we're $16 down' @ master 2949; TIME AFLOAT 5m9s @ t30 and 51m15s",
+  "  @ t2793 agree (roll ~281s before screen start). Screen starts master 202.2 so the pip",
+  "  cannot exist before the reveal. Full-mode beat 204.0-215.5 ('no 10x?' / 'must be",
+  "  volatile, exactly what we want'), corner from 215.5 to the end card (house rule).",
+  "  Corner crop [488,180,720,380] = big number + margin % + entry line + liquidation line.",
+  "NOTE THE BOARD SAYS 5x (guide's pick-of-record said 10x; Chris was 'very explicit' it",
+  "  rolled 5x \u2014 the on-air banter covers it, no fix needed).",
+  "DISCLAIMER: FOURTH episode with no spoken 'not financial advice' (closest: Jackson 2740",
+  "  'we're not lawyers... opinions our own... not a political podcast'). End card carries",
+  "  it again. FLAGGED to Jackson.",
+  "KEPT (flag to Jackson): Tyler 2168-2202 Trump-popularity jab ('start a war... $5 gas') \u2014",
+  "  spicy but his 2749 'when I was making fun of the president earlier' callback depends on",
+  "  it, and Jackson's own 2740 disclaimer lands right after. Mute-able on request.",
+  "KEPT: Tyler price mentions ('back above 70,000', '58k gang') \u2014 this IS the sanctioned",
+  "  bitcoin-is-up blurb (Jackson 8/20 one-week exception, drivers only).",
+  "Jackson's mic clean during others' monologues (-70 dB floor; no speaker bleed) \u2014",
+  "  standard idle_gain. face_cx from src frames @600s: jackson 615, chris 740, tyler 730.",
+  "FORCE_SHOTS: trio 0.9-15.8 roll call (the bleep lands on-screen with all three up),",
+  "  trio 2965.0-2991.5 farewells ('see if Chris has been deported').",
+  "All boundaries RMS-envelope gated via check_bounds.py before cutlist."
+ ],
+ "blocks": [
+  {
+   "id": "COLD1",
+   "m0": 105.63,
+   "m1": 130.0,
+   "mics": [
+    "jackson"
+   ],
+   "cams": [
+    "jackson"
+   ]
+  },
+  {
+   "id": "COLD2",
+   "m0": 449.5,
+   "m1": 463.92
+  },
+  {
+   "id": "COLD3",
+   "m0": 2250.1,
+   "m1": 2260.49,
+   "mics": [
+    "chris",
+    "tyler"
+   ],
+   "cams": [
+    "chris",
+    "tyler"
+   ]
+  },
+  {
+   "id": "CARD_TITLE",
+   "card": "card_title.mov"
+  },
+  {
+   "id": "S1",
+   "m0": 0.9,
+   "m1": 90.3
+  },
+  {
+   "id": "S2",
+   "m0": 90.3,
+   "m1": 287.5
+  },
+  {
+   "id": "S3A",
+   "m0": 287.5,
+   "m1": 537.47
+  },
+  {
+   "id": "S3B",
+   "m0": 585.65,
+   "m1": 1012.53
+  },
+  {
+   "id": "S4",
+   "m0": 1036.16,
+   "m1": 1262.9
+  },
+  {
+   "id": "S5A",
+   "m0": 1262.9,
+   "m1": 1755.8
+  },
+  {
+   "id": "S5B",
+   "m0": 1773.0,
+   "m1": 1849.14
+  },
+  {
+   "id": "S6",
+   "m0": 1849.14,
+   "m1": 2268.96
+  },
+  {
+   "id": "S7",
+   "m0": 2268.96,
+   "m1": 2796.28
+  },
+  {
+   "id": "S8",
+   "m0": 2796.28,
+   "m1": 2947.58
+  },
+  {
+   "id": "S9",
+   "m0": 2947.58,
+   "m1": 2992.52
+  },
+  {
+   "id": "CARD_END",
+   "card": "card_end.mov"
+  }
+ ],
+ "protect": [
+  [
+   104.0,
+   129.0
+  ],
+  [
+   11.5,
+   13.0
+  ],
+  [
+   147.0,
+   235.0
+  ],
+  [
+   252.0,
+   285.0
+  ],
+  [
+   449.0,
+   466.0
+  ],
+  [
+   649.0,
+   686.0
+  ],
+  [
+   1848.0,
+   1856.0
+  ],
+  [
+   2250.0,
+   2262.0
+  ],
+  [
+   2469.0,
+   2477.0
+  ],
+  [
+   2949.0,
+   2992.0
+  ],
+  [
+   519.0,
+   538.0
+  ],
+  [
+   1122.0,
+   1133.0
+  ]
+ ],
+ "force_shots": [
+  {
+   "m0": 0.9,
+   "m1": 15.8,
+   "type": "trio"
+  },
+  {
+   "m0": 2965.0,
+   "m1": 2991.5,
+   "type": "trio"
+  }
+ ],
+ "face_cx": {
+  "jackson": 615,
+  "chris": 740,
+  "tyler": 730
+ },
+ "panel_order": [
+  "jackson",
+  "chris",
+  "tyler"
+ ],
+ "params": {
+  "idle_gain": 0.12,
+  "group_thresh": 0.25,
+  "group_hold": 1.0,
+  "react_thresh": 0.6,
+  "min_shot": 3.0,
+  "gain_target": 0.006
+ },
+ "overlays": [
+  {
+   "name": "st_coldopen",
+   "block": "COLD1",
+   "rel": 0.0,
+   "dur": 8.0,
+   "kind": "st"
+  },
+  {
+   "name": "lt_intro",
+   "block": "S1",
+   "m": 2.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_perp",
+   "block": "S2",
+   "m": 93.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_roll",
+   "block": "S2",
+   "m": 218.5,
+   "dur": 9,
+   "kind": "st"
+  },
+  {
+   "name": "st_glm",
+   "block": "S2",
+   "m": 253.0,
+   "dur": 9,
+   "kind": "st"
+  },
+  {
+   "name": "lt_cancer",
+   "block": "S3A",
+   "m": 290.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_aura",
+   "block": "S3A",
+   "m": 452.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_dog",
+   "block": "S3B",
+   "m": 655.0,
+   "dur": 9,
+   "kind": "st"
+  },
+  {
+   "name": "lt_labs",
+   "block": "S4",
+   "m": 1040.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_virus",
+   "block": "S5A",
+   "m": 1264.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_vaccine",
+   "block": "S5A",
+   "m": 1555.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_tells",
+   "block": "S5A",
+   "m": 1584.0,
+   "dur": 9,
+   "kind": "st"
+  },
+  {
+   "name": "lt_btc",
+   "block": "S6",
+   "m": 1899.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_58k",
+   "block": "S6",
+   "m": 1919.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_bill",
+   "block": "S7",
+   "m": 2271.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_patriot",
+   "block": "S7",
+   "m": 2469.8,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_checkin",
+   "block": "S8",
+   "m": 2799.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_wrap",
+   "block": "S9",
+   "m": 2947.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_pnl",
+   "block": "S9",
+   "m": 2955.0,
+   "dur": 8,
+   "kind": "st"
+  }
+ ],
+ "pips": [
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep11/Untitled_recording-Chris-screen-00h_03m_22s_545ms-StreamYard.mp4",
+   "block": "S2",
+   "m0": 204.0,
+   "m1": 215.5,
+   "anchor": 202.215,
+   "mode": "full"
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep11/Untitled_recording-Chris-screen-00h_03m_22s_545ms-StreamYard.mp4",
+   "block": "S2",
+   "m0": 215.5,
+   "m1": 287.5,
+   "anchor": 202.215,
+   "mode": "corner",
+   "crop": [
+    488,
+    180,
+    720,
+    380
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep11/Untitled_recording-Chris-screen-00h_03m_22s_545ms-StreamYard.mp4",
+   "block": "S3A",
+   "m0": 287.5,
+   "m1": 537.47,
+   "anchor": 202.215,
+   "mode": "corner",
+   "crop": [
+    488,
+    180,
+    720,
+    380
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep11/Untitled_recording-Chris-screen-00h_03m_22s_545ms-StreamYard.mp4",
+   "block": "S3B",
+   "m0": 585.65,
+   "m1": 1012.53,
+   "anchor": 202.215,
+   "mode": "corner",
+   "crop": [
+    488,
+    180,
+    720,
+    380
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep11/Untitled_recording-Chris-screen-00h_03m_22s_545ms-StreamYard.mp4",
+   "block": "S4",
+   "m0": 1036.16,
+   "m1": 1262.9,
+   "anchor": 202.215,
+   "mode": "corner",
+   "crop": [
+    488,
+    180,
+    720,
+    380
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep11/Untitled_recording-Chris-screen-00h_03m_22s_545ms-StreamYard.mp4",
+   "block": "S5A",
+   "m0": 1262.9,
+   "m1": 1755.8,
+   "anchor": 202.215,
+   "mode": "corner",
+   "crop": [
+    488,
+    180,
+    720,
+    380
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep11/Untitled_recording-Chris-screen-00h_03m_22s_545ms-StreamYard.mp4",
+   "block": "S5B",
+   "m0": 1773.0,
+   "m1": 1849.14,
+   "anchor": 202.215,
+   "mode": "corner",
+   "crop": [
+    488,
+    180,
+    720,
+    380
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep11/Untitled_recording-Chris-screen-00h_03m_22s_545ms-StreamYard.mp4",
+   "block": "S6",
+   "m0": 1849.14,
+   "m1": 2268.96,
+   "anchor": 202.215,
+   "mode": "corner",
+   "crop": [
+    488,
+    180,
+    720,
+    380
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep11/Untitled_recording-Chris-screen-00h_03m_22s_545ms-StreamYard.mp4",
+   "block": "S7",
+   "m0": 2268.96,
+   "m1": 2796.28,
+   "anchor": 202.215,
+   "mode": "corner",
+   "crop": [
+    488,
+    180,
+    720,
+    380
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep11/Untitled_recording-Chris-screen-00h_03m_22s_545ms-StreamYard.mp4",
+   "block": "S8",
+   "m0": 2796.28,
+   "m1": 2947.58,
+   "anchor": 202.215,
+   "mode": "corner",
+   "crop": [
+    488,
+    180,
+    720,
+    380
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep11/Untitled_recording-Chris-screen-00h_03m_22s_545ms-StreamYard.mp4",
+   "block": "S9",
+   "m0": 2947.58,
+   "m1": 2991.5,
+   "anchor": 202.215,
+   "mode": "corner",
+   "crop": [
+    488,
+    180,
+    720,
+    380
+   ]
+  }
+ ],
+ "sheet": [
+  {
+   "block": "COLD1",
+   "label": "Cold open"
+  },
+  {
+   "block": "CARD_TITLE",
+   "label": "Title"
+  },
+  {
+   "block": "S1",
+   "label": "The boys are back: the gorilla training arc"
+  },
+  {
+   "block": "S2",
+   "label": "Perp of Fortune: GLM longs LIT (it doesn't know what LIT is)"
+  },
+  {
+   "block": "S3A",
+   "label": "Did AI cure cancer?"
+  },
+  {
+   "block": "S4",
+   "label": "What counts as a lab?"
+  },
+  {
+   "block": "S5A",
+   "label": "Mind viruses: check your SOUL.md"
+  },
+  {
+   "block": "S6",
+   "label": "Bitcoin is up: 58k gang in shambles"
+  },
+  {
+   "block": "S7",
+   "label": "Tyler's dream bill: repeal the Bank Secrecy Act"
+  },
+  {
+   "block": "S8",
+   "label": "Check-in: haircut, shoulder, gamer thumb"
+  },
+  {
+   "block": "S9",
+   "label": "Wrap: two-week losing streak"
+  }
+ ]
+}
