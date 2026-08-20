@@ -32,10 +32,18 @@ Verified at pick time (2026-08-20): LIT +16.5% 24h, funding +0.0013%/hr, OI
 ~$103M, vol ~$72M — its cited numbers are real, though it bought a top gainer
 during a marketwide rip (Topic N). Round 0 of this run it tried to pick "RNDR" —
 a ticker that does not exist on Hyperliquid (it's RENDER) — then read the data
-and switched. **GLM says LIT is Lit Protocol — verify on air; it has never once
-known what it was buying.** Transcript: `perp-pick-glm-v3-raw.json`; harness:
-`perp_research.py` (v1/v2) — the guide-reading variant adds the prep guide to the
-system prompt.
+and switched.
+
+**RESOLVED — what LIT actually is: Lighter**, a ZK-rollup perp DEX on Ethereum
+and Hyperliquid's main rival ("next Hyperliquid" is the whole narrative). NOT
+Lit Protocol, which is what GLM's entire thesis is about. 0-for-4 on knowing
+what it bought — and accidentally the best pick yet: **the AI longed
+Hyperliquid's competitor, on Hyperliquid, for reasons that belong to a
+different project.** Do the reveal on air: read its key-custody thesis, then
+tell it what Lighter is. Known fuse (structural, not chart talk): 75% of LIT
+supply starts unlocking late Dec 2026; monthly volume −83% from the Dec
+farming peak. Transcript: `perp-pick-glm-v3-raw.json`; harness:
+`perp_research_v3.py` (v1/v2 in `perp_research.py`).
 
 ## Run 3 (superseded): researched pick, no guide
 
