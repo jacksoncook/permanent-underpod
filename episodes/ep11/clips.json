@@ -1,0 +1,197 @@
+{
+ "source": "/Users/jcook/Personal/permanent-underpod/media/ep11/work/edited_raw.mov",
+ "out_dir": "/Users/jcook/Personal/permanent-underpod/media/clips/ep11",
+ "logo": "/Users/jcook/Personal/permanent-underpod/media/ep11/work/logo.png",
+ "audio_chain": "highpass=f=80,volume=13.1dB,afftdn=nr=18:nf=-50:tn=1,acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,treble=f=9500:width_type=q:w=0.8:g=2,loudnorm=I=-16:TP=-1.5:LRA=5",
+ "ender": true,
+ "clips": [
+  {
+   "name": "short1-licky-licky",
+   "start": 163.14,
+   "end": 180.46,
+   "vertical": true,
+   "caption": {
+    "kicker": "THE PROMPT",
+    "title": "licky licky icky sticky"
+   },
+   "face_crops": [
+    [
+     0.0,
+     412
+    ],
+    [
+     12.49,
+     117
+    ]
+   ]
+  },
+  {
+   "name": "short2-lithium",
+   "start": 280.35,
+   "end": 302.69,
+   "vertical": true,
+   "caption": {
+    "kicker": "PERP OF FORTUNE",
+    "title": "3 AIs, 0 knew the coin"
+   },
+   "face_crops": [
+    [
+     0.0,
+     117
+    ],
+    [
+     7.78,
+     412
+    ],
+    [
+     11.28,
+     117
+    ],
+    [
+     13.28,
+     757
+    ]
+   ]
+  },
+  {
+   "name": "short3-aura-cancer",
+   "start": 502.35,
+   "end": 516.77,
+   "vertical": true,
+   "caption": {
+    "kicker": "CANCER, SOLVED",
+    "title": "steak, weights, aura"
+   },
+   "face_crops": [
+    [
+     0.0,
+     117
+    ],
+    [
+     2.45,
+     757
+    ],
+    [
+     10.45,
+     117
+    ],
+    [
+     13.2,
+     757
+    ]
+   ]
+  },
+  {
+   "name": "short4-dog-vaccine",
+   "start": 648.16,
+   "end": 670.66,
+   "vertical": true,
+   "caption": {
+    "kicker": "BRISBANE LEGEND",
+    "title": "$3k ChatGPT dog vaccine"
+   },
+   "face_crops": [
+    [
+     0.0,
+     537
+    ],
+    [
+     9.84,
+     117
+    ]
+   ]
+  },
+  {
+   "name": "short5-banks-should-spy",
+   "start": 2340.84,
+   "end": 2353.88,
+   "vertical": true,
+   "caption": {
+    "kicker": "TYLER'S RENAME",
+    "title": "banks should spy act"
+   },
+   "face_crops": [
+    [
+     0.0,
+     10
+    ],
+    [
+     2.39,
+     527
+    ],
+    [
+     10.89,
+     757
+    ]
+   ]
+  },
+  {
+   "name": "short6-coyote-parenting",
+   "start": 2780.79,
+   "end": 2801.06,
+   "vertical": true,
+   "caption": {
+    "kicker": "PARENTING TIPS",
+    "title": "coyotes raise my daughter"
+   },
+   "face_crops": [
+    [
+     0.0,
+     10
+    ],
+    [
+     1.78,
+     117
+    ],
+    [
+     4.28,
+     757
+    ],
+    [
+     6.78,
+     10
+    ],
+    [
+     10.28,
+     757
+    ],
+    [
+     13.03,
+     117
+    ],
+    [
+     14.28,
+     864
+    ],
+    [
+     16.78,
+     10
+    ]
+   ]
+  },
+  {
+   "name": "short7-please-dont-deport",
+   "start": 2930.6,
+   "end": 2958.3,
+   "vertical": true,
+   "caption": {
+    "kicker": "CLOSING REMARKS",
+    "title": "please don't kick me out"
+   },
+   "face_crops": [
+    [
+     0.0,
+     10
+    ],
+    [
+     6.5,
+     437
+    ],
+    [
+     19.75,
+     10
+    ]
+   ]
+  }
+ ]
+}

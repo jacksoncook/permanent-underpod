@@ -1,6 +1,8 @@
 # Permanent Underpod — Ep 11 — Segment Times
 
-**Final cut: 49:19 · fully-remote episode (three StreamYard cams, offsets
+**Final cut: 49:25 (v2 — v1 49:19 truncated the outro sentence at a mid-breath
+S9 boundary; S9 extended to source 2997.6 so "…has been deported and we'll see
+you guys next week" completes) · fully-remote episode (three StreamYard cams, offsets
 0/+0.003/−0.051 — StreamYard filename deltas, turn-gap validated; by-ear bench
 at `media/ep11/work/sync.html` PENDING Jackson's confirmation) · Tyler's last
 name BLEEPED at source (roll call, ~1:05 of final cut — 1 kHz tone at speech
@@ -11,7 +13,10 @@ whoosh & gold-wipe on all 13 transitions (none on the 3 surgical cuts).**
 
 ## Episode video
 
-- **URL:** NOT UPLOADED — staging complete, needs Jackson's publish time.
+- **URL:** https://youtu.be/yooe89JxPo4 — LIVE (published by Jackson 2026-08-20,
+  manual upload; title = draft #1, description = the draft below verbatim,
+  yt_fetch-verified, tags 0). **⚠️ The live copy is v1 with the truncated
+  ending — Jackson to decide: delete + re-upload v2, or leave.**
 - **Captions:** `ep11-final-cut.srt` (regenerated from the FINAL cut) — ready,
   upload with the episode.
 - **File:** `media/ep11/Permanent Underpod - Ep 11 (Final Cut).mp4`
@@ -97,9 +102,22 @@ Upload via the captions API with the episode._
 
 ## Clips
 
-Not cut yet. Shorts only (house rule since Ep 10); run `verify_clips.py` before
-rendering and `--rendered` after; branded ender on every short; schedule against
-the REAL queue end (Ep 10 misfire).
+Cut 2026-08-21 (`episodes/ep11/clips.json`, rendered to `media/clips/ep11/`).
+7 face-crop verticals off `edited_raw.mov` (v2 timeline), episode audio chain,
+branded ender on all. `verify_clips.py` passed pre-render (0 fail / 0 warn) and
+`--rendered` (1 accepted warn: short2's tail is the word-complete decay of
+"infrastructure", listened and verified). NOT uploaded — schedule + episode-URL
+decision pending Jackson. Posting copy: `media/clips/ep11/posting-copy.md`.
+
+| Clip | Len | Title |
+|---|---|---|
+| short1-licky-licky | 18.3s | The prompt was "licky licky icky sticky" |
+| short2-lithium | 23.3s | Three AIs, zero knew what we bought |
+| short3-aura-cancer | 15.4s | Cancer was already solved: steak + aura |
+| short4-dog-vaccine | 23.5s | He cured his dog's cancer with ChatGPT + $3k |
+| short5-banks-should-spy | 14.0s | The "Banks Should Spy on You" Act |
+| short6-coyote-parenting | 21.3s | I let coyotes raise my daughter |
+| short7-please-dont-deport | 28.7s | Please don't deport me, Brian |
 
 ## Edit decisions of note (details in `remote_plan.json` `_notes`)
 

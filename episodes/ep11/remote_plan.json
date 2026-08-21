@@ -134,7 +134,7 @@
   {
    "id": "S9",
    "m0": 2947.58,
-   "m1": 2992.52
+   "m1": 2996.0
   },
   {
    "id": "CARD_END",
@@ -199,7 +199,7 @@
   },
   {
    "m0": 2965.0,
-   "m1": 2991.5,
+   "m1": 2997.6,
    "type": "trio"
   }
  ],
@@ -495,7 +495,7 @@
    "file": "/Users/jcook/Personal/permanent-underpod/media/ep11/Untitled_recording-Chris-screen-00h_03m_22s_545ms-StreamYard.mp4",
    "block": "S9",
    "m0": 2947.58,
-   "m1": 2991.5,
+   "m1": 2997.55,
    "anchor": 202.215,
    "mode": "corner",
    "crop": [

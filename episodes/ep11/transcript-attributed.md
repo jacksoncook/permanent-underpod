@@ -334,7 +334,7 @@
 
 **Chris** (00:48:58): I love this country. Please don't kick me out. Please, please, please, please, please. That's it. That's my, that's my closing remarks.
 
-**Jackson** (00:49:07): Well, we'll check in next time next week and see if Chris
+**Jackson** (00:49:07): Well, we'll check in next time next week and see if Chris has been deported
 
-**Insert** (00:49:19): [BLANK_AUDIO]
+**Insert** (00:49:13): and we'll see you guys next week.
 
