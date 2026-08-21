@@ -98,7 +98,9 @@ Subscribe for next week: secure enclaves (owed three episodes now), Korea's $10B
 ## Captions
 
 _`ep11-final-cut.srt` regenerated from the FINAL cut (never the raw recording).
-Upload via the captions API with the episode._
+Uploaded 2026-08-21 via the captions API — the **v1** SRT
+(`media/ep11/work/ep11-final-cut-v1-live.srt`, 470 cues), since the live copy is
+v1. The repo SRT is v2-based; if the episode is ever re-uploaded as v2, use it._
 
 ## Clips
 
@@ -106,18 +108,19 @@ Cut 2026-08-21 (`episodes/ep11/clips.json`, rendered to `media/clips/ep11/`).
 7 face-crop verticals off `edited_raw.mov` (v2 timeline), episode audio chain,
 branded ender on all. `verify_clips.py` passed pre-render (0 fail / 0 warn) and
 `--rendered` (1 accepted warn: short2's tail is the word-complete decay of
-"infrastructure", listened and verified). NOT uploaded — schedule + episode-URL
-decision pending Jackson. Posting copy: `media/clips/ep11/posting-copy.md`.
+"infrastructure", listened and verified). Uploaded 2026-08-21, scheduled-private,
+daily 2 PM PT (21:00 UTC), playlist Underpod Shorts. Posting copy:
+`media/clips/ep11/posting-copy.md`.
 
-| Clip | Len | Title |
-|---|---|---|
-| short1-licky-licky | 18.3s | The prompt was "licky licky icky sticky" |
-| short2-lithium | 23.3s | Three AIs, zero knew what we bought |
-| short3-aura-cancer | 15.4s | Cancer was already solved: steak + aura |
-| short4-dog-vaccine | 23.5s | He cured his dog's cancer with ChatGPT + $3k |
-| short5-banks-should-spy | 14.0s | The "Banks Should Spy on You" Act |
-| short6-coyote-parenting | 21.3s | I let coyotes raise my daughter |
-| short7-please-dont-deport | 28.7s | Please don't deport me, Brian |
+| Clip | Len | Title | Publishes | URL |
+|---|---|---|---|---|
+| short1-licky-licky | 18.3s | The prompt was "licky licky icky sticky" | 8/22 | https://youtu.be/34dEnddNdP4 |
+| short4-dog-vaccine | 23.5s | He cured his dog's cancer with ChatGPT + $3k | 8/23 | https://youtu.be/UOFKumN9HR0 |
+| short6-coyote-parenting | 21.3s | I let coyotes raise my daughter | 8/24 | https://youtu.be/YyXx3Hyi_sE |
+| short3-aura-cancer | 15.4s | Cancer was already solved: steak + aura | 8/25 | https://youtu.be/MfdlmCARA_A |
+| short7-please-dont-deport | 28.7s | Please don't deport me, Brian | 8/26 | https://youtu.be/sRBPZTq_yHA |
+| short2-lithium | 23.3s | Three AIs, zero knew what we bought | 8/27 | https://youtu.be/24HIm9KDZkQ |
+| short5-banks-should-spy | 14.0s | The "Banks Should Spy on You" Act | 8/28 | https://youtu.be/WH8UD209ha4 |
 
 ## Edit decisions of note (details in `remote_plan.json` `_notes`)
 
