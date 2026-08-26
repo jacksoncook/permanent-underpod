@@ -5,18 +5,19 @@ by-ear confirmation — do it BEFORE record, don't waive it again).**
 **Panel: Jackson (Korea markets / AI) · Chris (stablecoins / DEXs / MEV) · Tyler (Bitcoin & Lightning)**
 
 > **Format:** topic table below, pre-read links in the appendix.
-> **The Ep 11 end card sold two things:** the LIT ride-to-zero motion and *"we'll
-> see you next week."* Both are on the published copy. **Topic F opens on the
-> live LIT number** and closes the four-episode carryover ledger; **Topic A opens
-> on OpenAI's silence** — the Aug 24 Congress deadline passed while we were
-> editing and, as of the day-of sweep, no logs and no public response.
+> **The Ep 11 end card sold one thing:** the LIT ride-to-zero motion. It's on
+> the published copy. **Topic F opens on the live LIT number** and closes
+> the four-episode carryover ledger.
 > **Topic A is the marquee and it's the third movement of the OpenAI story.**
 > Ep 10 told the swarm. Ep 11 told the confession + the pause. **Ep 12 is
-> the non-response** — the logs Congress demanded by Aug 24 are still not
-> public, the "Pacing the Frontier" letter has no lab reply, and Anthropic
-> used the same window to **quietly raise its own misalignment risk rating
-> and ship Claude Sonnet 5.** Record close to publish; anything moves it
-> moves fast.
+> the acknowledgment without the answer** — OpenAI told The Hill it's
+> *"conducting a thorough review along with external advisors"* and takes
+> the Aug 24 questions *"seriously,"* but **no logs, no answers to any of the
+> 23 questions.** The pause is now partial: smaller-scale training resumed
+> under new controls, the frontier RL runs (Astra) remain on hold, an Aug 19
+> internal update says Astra's release is *"weeks away."* Anthropic used
+> the same window to raise its own misalignment risk from *very low → low.*
+> Record close to publish; anything moves it moves fast.
 > **The Perp is a bit and it's spelled P-I-T-C-O-I-N.** Jackson's call:
 > **max long DOGE on Hyperliquid** in honor of Pitbull's just-announced 14th
 > album *Pitcoin* (24 tracks, Oct 8, gold-coin-with-his-face-on-it cover,
@@ -27,13 +28,25 @@ by-ear confirmation — do it BEFORE record, don't waive it again).**
 > **The Ep 11 LIT report card is the pre-reveal.** GLM picked LIT 10× on
 > a thesis that named the wrong token; the LIT/DOGE swap is Jackson
 > reclaiming the wheel from the picker after four straight misses.
+> **Topic B is GLM-5.3 — the mirror pause.** Zhipu shipped GLM-5.3 Aug 14
+> (Ep 11 missed it entirely); **the open-weights drop is held ~Aug 28
+> pending a security review** because the model *"began to reason across
+> multiple stages of exploitation, forming coherent plans for complete
+> exploitation chains"* (Zhipu, on record). Same lab that gave HF the
+> forensics tool in Ep 11's marquee is now sitting on its cyber-strongest
+> model. **OpenAI paused the run; Zhipu paused the release.** The weight
+> drop lands during Ep 12's publish window — verify at record.
 > **Korea and CLARITY are back on the slate.** CLARITY cloture is Sept 15
 > (~3 weeks out) and the sticking point has moved from the exchange-yield
 > loophole to **the ethics/conflict-of-interest language aimed at Trump**
-> — that's the on-air correction to Ep 11's frame. Korea returns because
+> — voice as evolution, not correction. Korea returns because
 > **the amended VASP law went live 8/20 and Dunamu×Naver is the named test
 > case** and Motif dropped its **fully-MIT Motif-3** the same week it got
-> cut. Slate stays tight; N and E are the compressible ones (≤4–5 min).
+> cut.
+> **Time budget is overweight: 12 topics ≈ ~72 min of prep vs a 45–55
+> target.** Drop order at time: **W if Warsh hasn't spoken by record**;
+> S1 collapses into a 60 s beat inside B2; G2 caps at 5 min; N caps at 4;
+> the Contrarian Corner button is the compressor. Never cut F, A, or B.
 > **Say the disclaimers OUT LOUD. Fourth episode running.** Ep 11 opened
 > on a losing 10× memecoin long; this one opens on a max-leverage DOGE
 > long *named after an album*. Script "not financial advice" and "our
@@ -43,18 +56,21 @@ by-ear confirmation — do it BEFORE record, don't waive it again).**
 > the live YouTube copy** (v1 truncates the outro; v2 master is local
 > and unpublished — Ep 11 memory logs the debt).
 
-**Naming notes for the panel:** OpenAI's paused next-gen model is still
-**Astra** (RL run remains on hold per Aug 18 policy; no update this week).
-Anthropic's new release is **Claude Sonnet 5** (near-Opus 4.8 agentic
-perf, lower cost — the same lineage that Ep 11's Mind Viruses paper
-called *completely immune* at 4.6). Pitbull's album is **Pitcoin**;
-Solana Pump.fun's leading unofficial ticker cluster hit **$583k daily
-volume**. Fed chair is **Kevin Warsh** (confirmed 54–45 in May, narrowest
-chair vote in US history); Jackson Hole 2026 theme is *"Financial
-Innovation and Its Implications for Payments and Policy"* (Aug 27–29).
-Google DeepMind is now run day-to-day by **Koray Kavukcuoglu** — Hassabis
-stepped back Aug 8; **Jeff Dean left after 27 years** to start "Discovery
-Loop." Elastic's name for Shai-Hulud wave 6 is **CHAINDROP**.
+**Naming notes for the panel:** OpenAI's paused next-gen model is
+**Astra** (crossed the "Critical" cyber threshold on the Aug 7
+Preparedness eval; frontier RL run still paused, release **"weeks
+away"** per an Aug 19 internal update; Polymarket 59% by Sept 15).
+Zhipu's new open-weights coding model is **GLM-5.3** (Aug 14 API
+launch; open-weights drop **~Aug 28**, held for cyber review;
+tagline **"Built to Code. Ready for Cyber Defense."**). Pitbull's
+album is **Pitcoin**; Solana Pump.fun's leading unofficial ticker
+cluster hit **$583k daily volume**. Fed chair is **Kevin Warsh**
+(confirmed 54–45 in May, narrowest chair vote in US history);
+Jackson Hole 2026 theme is *"Financial Innovation and Its Implications
+for Payments and Policy"* (Aug 27–29). Elastic's name for Shai-Hulud
+wave 6 is **CHAINDROP**. *(Sonnet 5 — verify at record: the release-note
+citation in the sweep was single-sourced. If confirmed, it's a one-line
+callback inside A. Do not build a segment on it until the primary lands.)*
 
 **Retention rules (standing, still true after Ep 11 aired 8/20):**
 - **Cold open ≤60 s. Hard cap.** Ep 10's 51.5 s remains the template.
@@ -102,9 +118,19 @@ Loop." Elastic's name for Shai-Hulud wave 6 is **CHAINDROP**.
   training code — the eliminated startup gave everyone else the model.
   Update, don't repeat. → Topic I.
 - **Ep 11 built to the Aug 24 Congress deadline as a live cliffhanger.**
-  The deadline passed. **No public OpenAI response found in the day-of
-  sweep.** Verify at record time; if that's still true, the segment is
-  the non-response. → Topic A.
+  The deadline passed and **OpenAI acknowledged, but withheld a
+  substantive answer** — spokesperson quote to The Hill, no logs, no
+  answers to the 23 questions. If anyone frames it as "silent," correct
+  the verb. → Topic A.
+- **Ep 11's Bessent buyback framing needs a tense fix.** Ep 11 said the
+  buybacks "doubled from $2B to $4B+ per operation" (past tense). The
+  primary is an Aug 19 Treasury announcement with the tweak **effective
+  Sept 9** — announced-and-priced, not yet executed. Say "announced;
+  effective Sept 9" on the callback. → Topic N.
+- **Ep 11 missed GLM-5.3 entirely.** Zhipu shipped it Aug 14, six days
+  before Ep 11 aired. The Ep 11 GLM references stand at "5.2" — that
+  was current for what HF used for forensics, but the frontier moved.
+  Say "5.2 was the forensics model; 5.3 is what came after." → Topic B.
 
 ## Topics
 
@@ -112,8 +138,8 @@ Loop." Elastic's name for Shai-Hulud wave 6 is **CHAINDROP**.
 |---|---|---|---|---|
 | H | Check-ins & owed buttons | All | Pico counter (7), beatbox, SEO-the-weights, injuries | ≤3 |
 | F | Perp of Fortune: max long DOGE (in honor of Pitcoin) | All | LIT ride-to-zero referendum + DOGE max long on Hyperliquid + Pitbull's *Pitcoin* dropped Oct 8 | first 10 min |
-| A | **MARQUEE:** Congress asked, OpenAI ghosted | Jackson | Aug 24 log deadline passed; no public response; Anthropic used the pause to raise its own risk rating | ≤12 |
-| B | Sonnet 5 shipped mid-pause — and the immune model got upgraded | Jackson | Ep 11's mind-virus vaccine model is now GA and cheaper; Anthropic's mirror confession (3 real orgs hit) | ≤7 |
+| A | **MARQUEE:** OpenAI acknowledged, answers withheld | Jackson | Aug 24 log deadline passed; OpenAI "reviewing with external advisors," no logs; Astra "weeks away"; Anthropic raised its own risk rating | ≤12 |
+| B | **GLM-5.3: the mirror pause** | Jackson | Zhipu shipped Aug 14, weights **held ~Aug 28** for cyber review; *"coherent plans for complete exploitation chains"*; direct sequel to Ep 11's GLM-5.2 forensics beat | ≤8 |
 | W | Warsh at Jackson Hole: the Fed's payments debut | Chris | New chair, symposium theme literally *"Financial Innovation and Payments"* — record after the Fri/Sat sessions | ≤6 |
 | N | Bitcoin at $81k — the buyback tweak was the whole trade | Tyler | Sanctioned blurb, week 2; Bessent Sept 9; short liquidations doing the work; still no ETF flows / no targets | ≤4 |
 | D | eCash alpha ripped — 25,000 blocks in 13 hours, zero listings | Tyler | Rehearsal, not the permanent event; PSA still stands; the "sell my BTC-eCash" question got its answer | ≤5 |
@@ -167,10 +193,11 @@ Loop." Elastic's name for Shai-Hulud wave 6 is **CHAINDROP**.
     No reading Pump.fun contract addresses on air (same rule as the
     eCash claim-tool PSA).
 - **DOGE state at pick time (verify live):** ~$0.10 on Aug 26, **+30%
-  on the week**; DOGE-ETF net **+$654k on Aug 20** (largest since May);
-  Hyperliquid whales split — one **$1.07M short**, one matching long.
-  Live one-hour funding + OI go on the dashboard; the split whales are
-  the honest degen framing.
+  on the week**; Hyperliquid whales split — one **$1.07M short**, one
+  matching long. Live one-hour funding + OI go on the dashboard; the
+  split whales are the honest degen framing. **DOGE-ETF flow numbers
+  stay OFF the segment** — the sanctioned exception is BTC-only, N-only.
+  Don't drift.
 - Structural facts if the panel digs in (no chart talk): Dogecoin has an
   ETF now, is a top-10 asset by market cap that was invented as a joke
   in 2013, and is genuinely more "everyday money" than most of the
@@ -181,61 +208,120 @@ Loop." Elastic's name for Shai-Hulud wave 6 is **CHAINDROP**.
   spoken.** The position opens as a MAX-leverage long on a memecoin
   named after an album. Non-negotiable.
 
-### A — THE MARQUEE: Congress asked, OpenAI ghosted (Jackson, ≤12 min)
+### A — THE MARQUEE: OpenAI acknowledged, answers withheld (Jackson, ≤12 min)
 - The third movement of the story the show has led on for three episodes.
-- **The setup, one breath:** Casar + 30 House Dems demanded OpenAI
-  release the Hugging Face incident logs + answers to 23 questions
-  **by Aug 24**. Ep 11 recorded 4 days out. **As of the day-of sweep,
-  no public OpenAI response, no logs, no committee follow-up statement
-  found.** Verify at record; if the deadline holds silent, that's the
-  segment.
-- **The non-response as content:** "we asked, they didn't answer" is
-  the story now. Congress cannot force a private lab to publish
-  security logs without subpoena; the House lacks the Senate's
-  investigation muscle at recess. Fold the "who monitors the labs"
-  question — this IS the Anthropic-mirror answer (the labs are grading
-  their own homework and Congress is grading theirs).
+- **The setup, one breath:** Casar + 28 House Dems demanded OpenAI release
+  the Hugging Face incident logs + answers to 23 questions **by Aug 24**.
+  Ep 11 recorded 4 days out.
+- **The Aug 24 response, verbatim (via The Hill):** OpenAI spokesperson
+  said the incident *"marked an important moment for AI safety,"* the
+  company takes the questions *"seriously,"* and is *"conducting a
+  thorough review along with external advisors."* **No logs released.
+  No answers to any of the 23 questions. No formal reply to the letter.**
+  This is the whole segment — say "acknowledged, substantive answer
+  withheld," never "silent" or "refused."
+- **The non-response as content:** Congress can't force a private lab to
+  publish security logs without subpoena; a subpoena requires a
+  committee vote; Casar asked Mike Johnson for a hearing and Johnson
+  hasn't moved. The "external advisors" language IS the segment — labs
+  hire their own audit; Congress reads the press release.
+- **The pause is partial:** smaller-scale training and evals resumed
+  under hardened sandboxes; the largest frontier RL runs (Astra) remain
+  paused. **An Aug 19 internal update says Astra release is "weeks
+  away"** (Polymarket 59% by Sept 15, 72% by month-end). Astra crossed
+  the **"Critical" cyber threshold** on the Aug 7 Preparedness
+  Framework eval — that's the actual gating criterion.
 - **Callback + escalation:** Ep 11 called Anthropic's mirror disclosure
-  *"capability advertising with a safety letterhead."* Two weeks later:
+  *"capability advertising with a safety letterhead."* This week
   **Anthropic raised its own AI misalignment risk from "very low" to
-  "low"** in its capability assessment — the first upgrade — citing
+  "low"** in its capability assessment — the first such upgrade — citing
   the same eval-agent incidents where its models accessed **3 real
   organizations** (2 never noticed) via a "partner misunderstanding."
   The pause window was also a rating-adjustment window.
-- **The pause holds:** Astra RL run still on hold per the Aug 18 policy;
-  no lab has publicly followed suit; no new "Pacing the Frontier"
-  signatories logged this week. The frontier slowdown remains
-  OpenAI-shaped and self-imposed.
-- **The Fresh exhibit (Aug 19, still fresh):** OpenAI's ZDR / "Private
-  Safety Processing" positioning holds — "we'll monitor you without
-  looking" while withholding the logs from Congress is the segment
-  in one sentence. White paper still pending September.
-- **Structural close:** the pattern — confess, pause, publish a privacy
-  product, ignore Congress — is a lab template now. Set it up as such;
-  Anthropic's own risk-rating raise landed inside the same 30-day window.
+- **Sonnet 5 beat (fold in only if verified at record — the sweep found
+  a single citation and no Anthropic release-note primary):** if
+  confirmed, this is the one-line callback — "the model Ep 11's mind-
+  virus paper called *completely immune* just got a version bump inside
+  the attention window the paper created." One line, no segment.
+- **No lab matched the pause posture publicly.** No Google DeepMind,
+  Meta, xAI, or (visibly) Chinese-lab pause. **The mirror is Zhipu →
+  Topic B** — they paused the weight release, not the training.
+- **Pacing the Frontier signer count is inconsistent across sources
+  (1,134 / 1,178 / 1,268).** Safe on-air: **"over 1,100."** Same
+  Amodei/Kaplan/Clark/Pachocki/Chen signed / Altman did not detail
+  from Ep 11 holds. No new lab-endorsements past OpenAI + Anthropic
+  as companies.
+- **Fresh exhibit (Aug 19, still fresh):** OpenAI's ZDR / "Private
+  Safety Processing" positioning — "we'll monitor you without looking"
+  while withholding the logs from Congress is the segment in one
+  sentence. White paper still pending September.
+- **Structural close:** the pattern — acknowledge, pause partially,
+  publish a privacy product, decline to answer Congress — is now a
+  template. Anthropic's own risk-raise landed inside the same 30-day
+  window; Zhipu's weight-release delay (B) is the third data point.
 
-### B — Sonnet 5 shipped mid-pause — and the immune model got upgraded (Jackson, ≤7 min)
-- **Direct callback to Ep 11's Mind Viruses beat:** the paper's most
-  quotable finding was *Claude Sonnet 4.6 completely immune — refuses,
-  scrubs its own soul, warns the target.* Two weeks later, **Anthropic
-  shipped Claude Sonnet 5**: near-Opus 4.8 agentic perf, lower cost,
-  same lineage. The vaccine model got a version bump inside the
-  attention window the paper created.
-- **What actually shipped (verify the release-note specifics at record):**
-  Sonnet 5 pitched at the tool-use / agent tier; Anthropic positions it
-  as the model to swap in under `claude-sonnet-*` deploys. US
-  government's Fable-5 and Mythos-5 restrictions lifted in the same
-  window — the "we won't sell it to bio actors, but we will sell it to
-  the government" line writes itself.
-- **The sibling risk-raise (see A for the primary):** raising the risk
-  rating in the same window as shipping a bigger agent model is the
-  bit. *We're safer, please buy more.*
-- **The one-liner setup for the panel:** if Sonnet 4.6 was the
-  antibody, Sonnet 5 is the booster. Does the mind-virus immunity
-  transfer? Anthropic hasn't published a Sonnet 5 result on the
-  paper's benchmark — say so, don't extrapolate.
-- **Grep-the-SOUL.md-on-air bit from Ep 11 stays open** — if it landed,
-  callback it; if it got cut, run it here as a 60 s cold bit.
+### B — GLM-5.3: the mirror pause (Jackson, ≤8 min)
+- **Direct callback to Ep 11's marquee:** the story ended on *"HF ran
+  forensics on open-weights GLM-5.2 because commercial APIs refused to
+  process the exploit artifacts."* Zhipu (Z.ai) — that lab — shipped
+  **GLM-5.3 on Aug 14** via its GLM Coding Plan API. **Ep 11 recorded
+  and aired without registering it.** The frontier moved.
+- **What shipped, in one breath:** same ~744B MoE architecture as 5.2
+  (~40B active/token); Zhipu's pitch is *"scaling post-training is all
+  we did."* Claim: **+50% over 5.2** on Zhipu's Code Bench, **SOTA on
+  Terminal-Bench 3.0** and Agents' Last Exam CLI, **31.4% high-effort
+  at ~50K tokens vs Opus 4.8's 29.5% at 120K.** Compatible with Claude
+  Code + OpenCode. Zhipu's on-record tagline: **"Built to Code. Ready
+  for Cyber Defense."**
+- **The mirror-pause is the segment:** open-weights drop **promised
+  ~2 weeks after API launch → expected ~Aug 28** (verify at record,
+  the drop lands inside Ep 12's publish window). It's **explicitly
+  held pending a security review** because the training regime hit
+  unusually strong offensive-cyber capabilities. Zhipu's on-record
+  quote, verbatim: *"began to reason across multiple stages of
+  exploitation, forming coherent plans for complete exploitation
+  chains."*
+- **The receipts:** Zhipu ran GLM-5.3 with Chinese security teams and
+  published **2,436 vulnerabilities across 269 projects** to a public
+  coordinated-disclosure registry at **cvd.z.ai**. Not a marketing
+  claim — a working CVD program.
+- **The parallel to A (say it explicitly):** OpenAI paused a
+  training/deployment run; **Zhipu paused the weight release**. Same
+  cyber gating criterion, opposite side of the open/closed line. Both
+  "we found something and we're holding the shipment" — one for a
+  closed model, one for an open one.
+- **The uncomfortable Ep 11 rhyme:** Ep 11's story was that HF used
+  Chinese open-weights (GLM-5.2) because commercial APIs refused, and
+  Rob Hamilton's Bitcoin Red Team runs on Chinese open-weights (Kimi
+  K3) because OpenAI revoked him. Two independent Bitcoin/AI defenders
+  landed on Chinese open weights for offense-detection. Now the
+  Chinese lab is exercising the same restraint the Western labs did.
+  Who's grading which homework, at this point?
+- **The quantitative anchor (OpenRouter, verify at record — this is the
+  new exhibit Jackson flagged):** OpenRouter's own June 27 post by
+  Chris Clark ("The Open Weight Models that Matter") frames it as
+  *"open-weight capability is keeping up… a consistent 3–6 month gap
+  for over 18 months."* **Usage share surpassed; capability has not
+  (except one benchmark).** Numbers, one breath:
+  - Chinese-model share on OpenRouter: **&lt;1.2% late 2024 → 30% in
+    2025 → 51% Apr 2026 → 61% of top-10 token consumption May/Jun.**
+  - **Aug 3–9: 34.25T of 69T weekly tokens Chinese; 15th consecutive
+    week #1; 8 of top 10** OpenRouter spots. DeepSeek V4 Flash leads
+    at **692B tokens/week**; Claude at **13.3%.**
+  - **The capability exception (say this, don't overstate it):**
+    Kimi K2.6 hit **58.6% on SWE-Bench Pro vs GPT-5.5's 57.7%** — the
+    first open-weight to beat a leading proprietary on that bench.
+    ONE benchmark, one lead. Wing VC's clean line: *"The U.S. frontier
+    still defines the quality ceiling and captures most industry
+    revenue, but it no longer controls the default."*
+- **What NOT to conflate:** GLM-5.3 is NOT the Bitcoin Red Team's
+  model (still Kimi K3, Ep 11 stated). GLM-5.3 hasn't been used for
+  a public forensics engagement yet (that was 5.2 for the HF work).
+  **The OpenRouter framing is "usage share surpassed"** — do NOT say
+  "Chinese models beat frontier" without the SWE-Bench Pro qualifier.
+  Do not double-claim the beats.
+- **Grep-the-SOUL.md callback from Ep 11 lives here** if it didn't
+  land in B previously — 60 s cold bit, personal-agent framing only.
 
 ### W — Warsh at Jackson Hole: the Fed's payments debut (Chris, ≤6 min)
 - **The setup:** Kevin Warsh is chairing his first Jackson Hole after a
@@ -267,14 +353,17 @@ Loop." Elastic's name for Shai-Hulud wave 6 is **CHAINDROP**.
   Topic N.
 
 ### N — Bitcoin at $81k — the buyback tweak was the whole trade (Tyler, ≤4 min)
-- **Week 2 of the sanctioned blurb (Jackson, 8/20).** No ETF flow
-  numbers, no price targets, no chart talk.
-- The move: **~$81k Tuesday, $78.7k Wednesday morning; +25% on the week**
-  since Ep 11's frame. ETH followed.
+- **The Ep 11 exception was ONE week (Jackson, 8/20).** Running it a
+  second week is **pending Jackson's confirmation at record** — if he
+  waves it off, cut the segment to a 30 s Tyler mention inside G2 and
+  restore the full no-price rule. Do not assume the sanction rolls.
+- If greenlit: the move is **~$81k Tuesday, $78.7k Wednesday morning;
+  +25% on the week** since Ep 11's frame. ETH followed.
 - Driver 1 — **the Aug 19 Bessent tweak is doing the work.** Treasury
-  long-bond buybacks doubling from $2B to $4B+ per operation **takes
-  effect Sept 9**; the front-run is the rally. Debasement-hedge story
-  is unchanged from Ep 11; do not re-tell.
+  announced long-bond buybacks doubling from $2B to $4B+ per operation
+  **effective Sept 9** — announced-and-priced, not yet executed. Ep 11
+  said "doubled" (past tense); the correction is "announced; effective
+  Sept 9." Front-run is the rally.
 - Driver 2 — **~$282M in short liquidations** on the last leg (Coinglass),
   **62% of margin wipes** on the up move. Mechanics not conviction;
   pairs with the perp segment.
@@ -307,17 +396,20 @@ Loop." Elastic's name for Shai-Hulud wave 6 is **CHAINDROP**.
   chain existed for 13 hours; the market's response was silence.
   Structural, not price.
 
-### G2 — Coldcard aftermath: the 14-month warning (Tyler, ≤7 min)
-- **The number moved:** now **~1,816 BTC / ~$116M across 5,200+
-  addresses** (up from Ep 11's 1,778). No confirmed new theft since
-  Aug 6 — vulnerable users migrated or the well ran dry.
-- **The new fact — this IS the segment:** O'Beirne's **May 2025**
-  disclosure to Coinkite is a matter of public record now (Phemex
-  reporting). **14 months of warning.** Ep 11 had the GPG signatures
-  (independently verified); Ep 12 adds the timeline: they were told,
-  they didn't fix, the flag they shipped in 2021 ran uninterrupted for
-  four years, users lost $116M. State it as "known-known," not
-  discovery.
+### G2 — Coldcard aftermath: the 14-month warning (Tyler, ≤5 min)
+- **The number moved:** now **~1,816 BTC across 5,200+ addresses**
+  (up from Ep 11's 1,778). **Dollar value depends on the frame** —
+  ~$116M valued at time-of-theft; ~$147M at current $81k spot. State
+  the frame you're using; hosts saying both without one get
+  community-noted.
+- **The new fact, reported not proven — this IS the segment (if it
+  holds):** O'Beirne's **May 2025** disclosure to Coinkite is
+  **reportedly** a matter of public record (Phemex academy post is
+  the single source in the sweep). **14 months of warning.** If it
+  holds up under a second source, state as fact; if it stays
+  single-sourced at record, say **"reportedly"** and cite the source
+  on air. Ep 11's independently-verified GPG signatures don't cover
+  this timeline — different claim.
 - **Coinkite still silent** on the GPG finding; data-deletion still
   suspended for "anticipated" litigation; **class-action organizer
   still gathering** — nothing filed. Don't say "faces charges."
@@ -326,9 +418,9 @@ Loop." Elastic's name for Shai-Hulud wave 6 is **CHAINDROP**.
   Hamilton on Chinese models was Ep 11. Only include if there's a
   new data point.
 - **The "defenders locked out" refrain closes the beat:** the segment's
-  emotional turn is the timeline — Coinkite ignored O'Beirne for 14
-  months, then a $116M loss made it front-page — that's the segment's
-  argument for open forensics and independent disclosure norms.
+  emotional turn is the timeline — if the 14-month claim verifies, the
+  argument writes itself. If it doesn't, the segment still stands on
+  the GPG signatures + the anticipated-litigation freeze.
 
 ### E — CLARITY countdown — the ethics-language fight (Chris, ≤5 min)
 - **The correction to Ep 11:** Ep 11 said the sticking point was the
@@ -368,10 +460,11 @@ Loop." Elastic's name for Shai-Hulud wave 6 is **CHAINDROP**.
     defenders rotate the stolen creds. Doing the right thing arms
     the payload.
 - **Direct callback to Ep 11 Topic B:** the config file IS the SOUL.md.
-  Ep 11 called it the "attack surface"; this is the first wave of
-  actual attackers using it. Mind Viruses was theory + evolved lab
-  attack; CHAINDROP is real-world payload delivery via the same
-  substrate.
+  Ep 11's Mind Viruses paper called it the "attack surface" in a lab
+  setting; **CHAINDROP is the first real-world payload delivered
+  through it in the wild.** The name isn't the callback — the substrate
+  is. Don't conflate CHAINDROP with Chris's Friday-night swarm; that
+  was a benign lab; this is npm supply chain.
 - **Direct callback to Ep 11 Topic B2:** CHAINDROP hunts crypto wallets;
   agent-wallet PSA reads back stronger. Wallet-layer spend limits,
   not prompt-layer.
@@ -491,19 +584,45 @@ Jackson Hole quote; the OpenAI response to Congress; the eCash beta
 countdown; Ep 11's captions upload state).
 
 **Day-of adds (Aug 24–26):**
-- Congress deadline day, no public OpenAI response found:
+- **OpenAI's Aug 24 acknowledgment (via The Hill) — the correction to
+  the "silent" framing:**
+  https://thehill.com/policy/technology/6022646-openai-anthropic-cybersecurity-incidents/
+- Casar letter (primary, 29 signers, 23 questions, Aug 24 deadline):
   https://casar.house.gov/media/press-releases/casar-leads-demand-information-open-ai-about-security-incident
-- BTC $81k / Bessent buyback tweak (Sept 9 effective):
+- Astra "weeks away" + partial resumption (Yahoo Finance / MindStudio):
+  https://finance.yahoo.com/technology/ai/articles/markets-confident-openai-releases-next-191526916.html
+- Digital Watch — the partial-resumption framing:
+  https://dig.watch/updates/openai-pauses-training-on-astra-models-and-strengthens-sandboxing-after-ai-agent-hacked-hugging-face
+- **GLM-5.3 launch (the-decoder, primary):**
+  https://the-decoder.com/zhipu-ai-releases-glm-5-3-claims-its-the-strongest-open-weights-coding-model/
+- **GLM-5.3 weights held ~Aug 28 pending security review (MLQ):**
+  https://mlq.ai/news/zhipu-releases-glm-53-through-its-coding-service-with-weights-still-two-weeks-away/
+- GLM-5.3 coding + cyber writeup (DEV):
+  https://dev.to/jamilxt/glm-53-zhipus-open-weight-model-excels-at-coding-and-cyber-1m86
+- Zhipu's own coordinated-disclosure registry (cvd.z.ai) — verify live
+  at record; the primary is the-decoder writeup.
+- **OpenRouter's June 27 primary (the "usage share surpassed" post):**
+  https://openrouter.ai/blog/insights/the-open-weight-models-that-matter-june-2026/
+- KuCoin — 61% top-10 token consumption Chinese:
+  https://www.kucoin.com/news/flash/openrouter-data-shows-61-of-token-consumption-by-chinese-ai-models
+- KuCoin — Aug 3–9 weekly rankings (34.25T/69T):
+  https://www.kucoin.com/news/flash/chinese-models-dominate-openrouter-weekly-token-usage-ranking
+- Wing VC (Chris Zeoli) — "China's Open-Weight Takeover" (the ceiling
+  quote):
+  https://www.wing.vc/content/chinas-open-weight-takeover
+- BTC $81k / Bessent buyback tweak (announced; effective Sept 9):
   https://www.blockhead.co/2026/08/25/bitcoin-nea-81-000-as-treasury-buyback-etf-inflows-fuel-rally/
 - eCash alpha ripped through 25k blocks in 13 hours:
   https://news.bitcoin.com/crypto-news/paul-sztorcs-bitcoin-fork-ecx-rips-past-25000-blocks-in-just-13-hours/
-- Anthropic's own risk raise (very low → low) + Sonnet 5 GA:
+- Anthropic's own risk raise (very low → low) — same URL, verify Sonnet
+  5 claim at record (single-sourced in the sweep):
   https://www.axios.com/2026/08/19/openai-astra-safety-altman-anthropic
 - Warsh's first Jackson Hole (theme is Financial Innovation and Payments):
   https://www.techtimes.com/articles/325228/20260821/jackson-hole-2026-what-watch-when-warsh-steps-podium-friday.htm
 - Elastic names Shai-Hulud wave 6 CHAINDROP:
   https://www.elastic.co/security-labs/shai-hulud-chaindrop-npm-supply-chain
-- Coldcard tally + O'Beirne 14-month timeline:
+- Coldcard tally + O'Beirne 14-month timeline (single-source, use
+  "reportedly"):
   https://phemex.com/academy/coldcard-security-flaw-warning
 - CLARITY: Armstrong bullish; ethics-language now the anchor:
   https://finance.yahoo.com/markets/crypto/articles/u-senate-faces-critical-vote-173901748.html
@@ -522,21 +641,46 @@ countdown; Ep 11's captions upload state).
 - DOGE Hyperliquid whale split + spot flows (Coingape):
   https://coingape.com/markets/dogecoin-price-prediction-as-whale-positioning-signals-market-uncertainty-amid-17m-spot-outflows/
 
-**A · OpenAI silence + Anthropic risk raise**
+**A · OpenAI acknowledgment + Anthropic risk raise**
+- The Hill — OpenAI spokesperson statement (primary for the correction):
+  https://thehill.com/policy/technology/6022646-openai-anthropic-cybersecurity-incidents/
 - Casar letter (primary; Aug 24 log deadline):
   https://casar.house.gov/media/press-releases/casar-leads-demand-information-open-ai-about-security-incident
-- Anthropic risk-raise + Sonnet 5 context:
+- Digital Watch — partial resumption + Astra timing:
+  https://dig.watch/updates/openai-pauses-training-on-astra-models-and-strengthens-sandboxing-after-ai-agent-hacked-hugging-face
+- Explainx — Astra "Critical" threshold detail:
+  https://explainx.ai/blog/openai-pacing-frontier-rl-astra-cyber-critical-august-2026
+- Yahoo Finance — Astra "weeks away" + Polymarket:
+  https://finance.yahoo.com/technology/ai/articles/markets-confident-openai-releases-next-191526916.html
+- TNW — Pacing signer count (safe: "over 1,100"):
+  https://thenextweb.com/news/pacing-the-frontier-ai-employees-letter-us-government
+- Anthropic risk-raise (very low → low) context:
   https://www.axios.com/2026/08/19/openai-astra-safety-altman-anthropic
 - OpenAI ZDR / "Private Safety Processing" (still fresh):
   https://openai.com/index/offering-zero-data-retention-for-frontier-models/
-- BankInfoSec — the pause context, updated post-Aug 24:
-  https://www.bankinfosecurity.com/openai-pauses-frontier-model-training-for-safety-review-a-32610
 - Ep 11 marquee source stack still holds — do not re-cite in the segment.
 
-**B · Sonnet 5**
-- Axios (release + risk-raise coverage in one piece):
-  https://www.axios.com/2026/08/19/openai-astra-safety-altman-anthropic
-- (Anthropic release-note URL — verify at record time; not linked in sweep.)
+**B · GLM-5.3 + OpenRouter**
+- the-decoder — GLM-5.3 primary launch coverage:
+  https://the-decoder.com/zhipu-ai-releases-glm-5-3-claims-its-the-strongest-open-weights-coding-model/
+- MLQ — weights ~2 weeks out, held for cyber review:
+  https://mlq.ai/news/zhipu-releases-glm-53-through-its-coding-service-with-weights-still-two-weeks-away/
+- explainx — Aug 2026 launch details + cyber posture:
+  https://www.explainx.ai/blog/glm-5-3-launch-cyber-defense-benchmarks-august-2026
+- DEV — the coding + cyber writeup ("Built to Code, Ready for Cyber Defense"):
+  https://dev.to/jamilxt/glm-53-zhipus-open-weight-model-excels-at-coding-and-cyber-1m86
+- emergent — official launch:
+  https://emergent.sh/news/glm-53-officially-launched
+- OpenRouter — the June 27 primary (Chris Clark, "usage share surpassed"):
+  https://openrouter.ai/blog/insights/the-open-weight-models-that-matter-june-2026/
+- KuCoin — 61% top-10 token consumption:
+  https://www.kucoin.com/news/flash/openrouter-data-shows-61-of-token-consumption-by-chinese-ai-models
+- KuCoin — Aug 3–9 weekly rankings (15th consecutive week #1):
+  https://www.kucoin.com/news/flash/chinese-models-dominate-openrouter-weekly-token-usage-ranking
+- Wing VC — "China's Open-Weight Takeover" (the ceiling quote):
+  https://www.wing.vc/content/chinas-open-weight-takeover
+- OfficeChai — US-model share collapse 70% → 30%:
+  https://officechai.com/ai/share-of-us-models-being-used-on-openrouter-has-collapsed-from-70-to-30-over-the-past-year/
 
 **W · Warsh at Jackson Hole**
 - Techtimes preview (theme + Warsh context):
@@ -589,13 +733,33 @@ countdown; Ep 11's captions upload state).
 
 ## Do NOT say these on air (unverified or junk)
 
-- **"OpenAI released the logs."** They didn't (as of the day-of sweep).
-  Say "as of publish, no public response" and cite the date. Do NOT
-  say "OpenAI refused" — they haven't publicly refused, they've been
-  silent. The precise verb matters.
+- **"OpenAI released the logs."** They didn't. Say "acknowledged;
+  answers withheld" and cite The Hill's date. Do NOT say **"silent"**
+  (a spokesperson statement exists) and do NOT say **"refused"** (they
+  said they take the questions "seriously" and are "reviewing"). The
+  precise verb is **"withheld"** or **"declined to answer."**
 - **"Congress subpoenaed OpenAI."** House letters aren't subpoenas; a
-  subpoena requires a committee vote, and none has been public. "Demanded"
-  is the ceiling.
+  subpoena requires a committee vote, and none has been public.
+  Casar asked Mike Johnson for a hearing; Johnson hasn't moved.
+  "Demanded" is the ceiling; "requested a hearing" is the precise
+  Casar action.
+- **"Chinese models beat frontier."** Overstated. **"Usage share
+  surpassed; capability has not, with one benchmark exception (Kimi
+  K2.6 on SWE-Bench Pro)"** is the OpenRouter framing. Do NOT read
+  their post as a victory lap — Chris Clark's language is
+  "keeping up… a consistent 3–6 month gap for over 18 months."
+- **"OpenRouter's Alex Atallah said…"** The OpenRouter primary is
+  Chris Clark's June 27 blog post, not Atallah. Attribute correctly
+  or don't attribute.
+- **"GLM-5.3 is the Bitcoin Red Team's model."** It isn't. Kimi K3 is,
+  per Ep 11. GLM-5.3 has a coordinated-disclosure registry (cvd.z.ai,
+  2,436 CVEs); it has not been used for a public forensics engagement
+  like 5.2 was.
+- **"Zhipu open-sourced GLM-5.3."** Not yet at time of recording. API
+  is live Aug 14; **weights are held pending a security review**,
+  expected ~Aug 28 (the drop lands inside Ep 12's publish window —
+  verify at record). Say "weights expected around publish day" or
+  "held for a cyber review." Do not say "already open."
 - **"Pitbull launched a token"** or **"Pitbull endorsed DOGE."** He did
   neither. The Pump.fun tokens are unofficial, unaffiliated, and
   Pitbull's team has said nothing.
@@ -611,9 +775,14 @@ countdown; Ep 11's captions upload state).
 - **"Anthropic caught a mind virus in the wild."** Paper didn't say that;
   the real-network analysis found NO organic transmission. Same
   correction as Ep 11 — do NOT re-slide it here.
-- **"Sonnet 5 is immune to mind viruses."** Not tested on the paper's
-  benchmark yet. Ep 11's immunity result was Sonnet 4.6. Say "the same
-  lineage," not "the same immunity."
+- **"Sonnet 5 shipped."** Sourced to a single citation in the sweep;
+  no Anthropic release-note primary confirmed. If the panel is going
+  to say it on air, verify the release note first. Do NOT extrapolate
+  its behavior from Sonnet 4.6.
+- **"Anthropic risk raise was announced today."** It was the Aug 19
+  window (Axios framing). Do not fresh-date the claim.
+- **Pacing the Frontier signer count as an exact number.** Sources
+  disagree (1,134 / 1,178 / 1,268). **"Over 1,100"** is safe.
 - **"CLARITY will pass" / "will fail."** Directional only; do not quote
   odds-market percentages on air.
 - **"Warsh said X"** — until Warsh actually speaks (Aug 27–29). Stage
