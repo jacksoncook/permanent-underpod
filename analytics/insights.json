@@ -1,64 +1,74 @@
 {
-  "generatedAt": "2026-08-17",
-  "headline": "Week: views 17,289→18,344 (+1,055), subs 24→25 (+1 — again). Ep 10 went live 8/14 and YouTube handed it the biggest launch-day audition in channel history (3,597 impressions in roughly the first day of reach coverage; Ep 9 needed a week to reach 2,527) — and it converted at 0.61% CTR, the worst episode CTR ever, below even solo Ep 7's 0.68%. Compounding it: the live title ('Gorilla Mode: How AI Swarms Change Everything') matches NONE of the four drafts in segment-times.md, which records draft #1 as published and yt_fetch-verified on 8/14 — so a retitle or an unlogged Test & Compare happened mid-launch, exactly the failure mode the packaging gate exists to catch. The ≤60s cold-open experiment read negative: Ep 10 lost −69.6pp by 1:42 (Ep 9: −58.7pp), so brevity alone doesn't stop the leak (n=23, noisy). The genuinely new win: the perp-rides-all-episode format produced the strongest ending on the channel — watch RISES from 8.7% to 13% at 82–97% with vs_typical 0.91+. And the funnel verdict is in: RELATED_VIDEO moved 130→150 views in a week while shorts added ~1,850 — still flat, so clip picks pivot to arc-teases on Ep 11.",
+  "headline": "Shorts collapsed 8× in 3 weeks: views/short went from ~566 (Aug 2–7) to ~70 (Aug 20–24) and total daily channel views crashed from 1,401 (Aug 7) to 64 (Aug 24) — a ~22× drop. Impressions per short fell ~60% and the algorithm stopped pushing Ep 11's long-form: 1,090 impressions at 6 days in vs Ep 10's 5,908 (5.4× less push). SHORTS drove 87% of channel views for the last 73 days (16,842 of ~19,391); when the shorts feed died, the channel died. The single biggest lever is the funnel: SHORTS_CONTENT_LINKS shows 5 lifetime views — the pinned-comment + related-video + end-screen wiring has been unrun for 4+ episodes and Aug 20–25's best-AVD shorts (100–158% replay) got 2–43 impressions each. Fix the funnel first, then match the hook pool back to what actually landed (money/greed/gambling, not earnest explainers).",
   "production": [
     {
-      "title": "Ep 10 launch packaging FAILED the gate — and the channel-wide CTR pattern is now legible: word count and clutter kill, big faces and one idea win",
-      "evidence": "Daily reach series (rebuilt 8/17 from the Reporting CSVs): 8/14 = 3,011 impressions @ 0.60% (mostly the original packaging; Jackson salvage-swapped title+thumbnail at ~700 imps), 8/15 = 586 @ 0.68% (fully the new packaging) — the swap moved conversion +0.08pp and the audition collapsed −80% day-over-day. Thumbnail audit across all 11 episodes maps CTR to composition almost monotonically: Ep 3 3.60% and Ep 6 2.96% = zero text, hosts' faces huge or one focal object; Ep 8 1.67% = one word + big faces; Ep 9 1.03% = FOUR text fragments ('10x Long SK hynix') selling the perp while the TITLE sells the Coldcard story — incoherent pairing; Ep 7 0.61% = 'CHEATER' stamped over the subjects; Ep 10 0.61% = five words of jagged lettering + ~30 elements, hosts' faces tiny. At 168px browse size (shrink test) the winners stay readable, Ep 9/10 turn to mush.",
-      "recommendation": "Ep 10 fix (window open through ~8/21): re-generate the thumbnail on the Ep 6 formula — same oil-paint brand style, three hosts' faces at ≥1/3 frame height, ONE gorilla element, ≤1 word — and retitle to the proven first-person-stakes genre (Ep 3's 'We Let Claude Gamble Our Money at 20x Leverage' is the 3.60% record; the Down $36 perp short did 202 views on day one). Gate additions: shrink test at 168px before publish, ≤1 word on the art, and title+thumbnail must tell ONE story between them.",
+      "title": "The shorts funnel is dead — SHORTS_CONTENT_LINKS = 5 lifetime views; wire it for every Ep 11 short before shifting anything else",
+      "evidence": "Traffic-source lifetime: SHORTS feed 16,842 views (87% of channel) vs SHORTS_CONTENT_LINKS 5 views (0.026%). Aug 20–24 shorts with 100–158% AVD (Harambe 158%, Dog cancer $3k 142%, Ride to zero 291% earlier) each got 2–61 impressions — the algorithm found the retention winners and there's still no click path to long-form. The funnel checklist has been logged as owed in memory since Ep 7 (four episodes running). Ep 11 shorts publishing daily 8/22–8/28.",
+      "recommendation": "Block 30 min today: on each of the 6 already-live Ep 11 shorts + the 3 scheduled 8/26–28, (1) pin comment with episode URL + timestamped moment (`youtu.be/yooe89JxPo4?t=NNN`), (2) set a related-video override to Ep 11, (3) confirm end-screen CTAs point to Ep 11 or the channel. Do it live in Studio, then set a durable rule: uploader script prints a funnel checklist per Ep, and it doesn't get closed until every short in the batch is wired.",
+      "priority": "high",
+      "status": "open",
+      "status_note": "same fix has been open since Ep 7 memory; the data now shows it as the top-return lever this week"
+    },
+    {
+      "title": "Hook pool drifted from money/greed to earnest explainers — match what actually landed",
+      "evidence": "Aug 2–7 winners (4-digit views): 'Make me a millionaire' 1,214v · 'The baby egg allergy test' 1,148v · 'He rolled dice 100 times to protect his Bitcoin' 987v · 'Thank you Jito for sponsoring' 865v · 'Claude don't cut this out' 728v. Aug 20–25 shorts topped out at 175v ('Gorilla mode, explained badly'), median 36v. The Aug 2–7 winners are money-lever, gambling, degen-behavior one-liners; the Aug 20–25 pool is 'sloppy migration explainer,' 'AI safety,' 'cured his dog's cancer' — earnest and topical. AVD is fine on both windows (~50–150%); the difference is hook shape, not delivery.",
+      "recommendation": "For Ep 12 clip picks: bias 4-of-7 shorts to money/greed/gambling hooks — DOGE max long, the LIT report card ('the AI longed Hyperliquid's competitor ON Hyperliquid'), the perp P&L one-liners, the apology-trial/100× wallet-funding bits. Save earnest/explainer picks (GLM-5.3, mind-viruses, Coldcard 14-month) for the 3 slots where the writing IS the punchline.",
       "priority": "high",
       "status": "open"
     },
     {
-      "title": "Funnel verdict is in: still flat → pivot clip picks to arc-teases for Ep 11",
-      "evidence": "The 8/10 review set the test: judge RELATED_VIDEO against baseline 130 views / 415 watch-min. This week: 150 views / 540 watch-min (+20 / +125) while SHORTS added ~1,850 views (14,275→16,122). Subs +1 in 7 days; Ep 10 subs_gained = 0. Self-contained punchline shorts entertain but don't convert — Ep 10's batch (already cut, publishing through 8/21) is more of the same.",
-      "recommendation": "Per the 8/10 plan: for Ep 11, cut at least 2 of the shorts as ARC TEASES — a cliffhanger that only resolves in the episode, pinned comment with the ?t= link at the resolution point. Also: Ep 10's funnel checklist is OWED and 2 shorts are already public — work it today (related video, pinned comment with episode link + timestamp, end screens).",
+      "title": "Ep 11 lost the algorithm push — 1,090 impressions at 6 days vs Ep 10's 5,908; the retro-fix window is closing",
+      "evidence": "Ep 10 (8/14): 5,908 impressions, 0.49% CTR (worst-ever launch, per Ep 10 memory; degraded further from initial 0.61%). Ep 11 (8/20, 6 days old at pull): 1,090 impressions, 1.56% CTR. Ep 11's CTR is 3× Ep 10's but on 5.4× less impressions — YouTube is not pushing the video. Historical anchor: ~95% of a video's lifetime impressions arrive in the first 7 days (memory: analytics-measurement-traps).",
+      "recommendation": "Same-day: re-shrink-test Ep 11 thumbnail on the mobile feed (memory says it passed initially, but the 1,090-imp trajectory suggests it isn't converting the tiny push it got). Consider a title A/B: current 'Did AI Just Cure Cancer? The $3,000 Dog Vaccine Story' vs a punchier draft (segment-times.md has 4 alternates). Do not retitle mid-flight without a segment-times.md log line (Ep 10 did this and it made the packaging debug impossible).",
       "priority": "high",
-      "status": "partial",
-      "status_note": "Wiring done through Ep 9; Ep 10 checklist not yet run (shorts publishing daily 2 AM PT through 8/21). RELATED_VIDEO baseline for next pull: 150 views / 540 watch-min."
+      "status": "open"
     },
     {
-      "title": "Cold-open cap shipped on Ep 10 — the leak didn't move; next edit-side lever is a ONE-beat open",
-      "evidence": "Ep 10 shipped the ≤60s cap (51.5s, three chained beats with whoosh+wipe between). Result: 100% watching at 0:34 → 52.2% at 1:08 → 30.4% at 1:42, a −69.6pp loss vs Ep 9's −58.7pp over the same span (caveat: n=23 measured views, each viewer ≈ 4.3pp). The drop concentrates at 0:34–1:08 — beats 2–3 of the teaser plus the title card, before the perp even starts at 1:46. Low-intent browse traffic from the huge audition likely inflates this, but two episodes running the leak is inside the teaser itself.",
-      "recommendation": "Ep 11: cut the cold open to ONE beat — the single strongest moment, ~20–25s, straight into the title card. Stop chaining teasers; each extra beat is another exit ramp. Keep the ≤60s hard cap as a ceiling, not a target.",
-      "priority": "high",
-      "status": "partial",
-      "status_note": "Cap itself: shipped and verified on Ep 10 (51.5s). The metric it was meant to fix: unmoved."
+      "title": "Shorts scheduled 8/26–28 will ride the collapse — consider swapping ordering or rescheduling as a burst",
+      "evidence": "Scheduled: 8/26 'Please don't deport me, Brian' · 8/27 'Three AIs, zero knew what we bought' · 8/28 'The Banks Should Spy on You Act.' Median Aug 20–25 short landed 36 views on 33 impressions. The three scheduled titles are (a) a callback-heavy joke that needs prior context, (b) an explainer, (c) an earnest news framing. None are money/greed/gambling hooks.",
+      "recommendation": "Either (a) resequence: put 'Three AIs, zero knew what we bought' first — it's the closest to a money-lever hook — and hold Brian for a moment with prior-context lift; (b) burst-publish all three within 6 h on the same day (see if the algorithm re-engages on volume) as an explicit experiment. Log the choice.",
+      "priority": "med",
+      "status": "open"
     },
     {
-      "title": "Re-upload the Ep 2 clip as a new asset (carried)",
-      "evidence": "Unchanged: 8,840 lifetime impressions at 0.42% CTR, aged out to ~0/day. Ep 9's queue finished 8/14; Ep 10's runs through 8/21, so the slot hasn't opened yet.",
-      "recommendation": "Re-cut as a NEW upload with hook title + thumbnail after 8/21 (next open daily slot, +12h collision rule). Tests whether a fresh audition can be won with proven-demand content.",
+      "title": "Channel is losing subs — net −1 over 30 days (3 gained, 4 lost); 3 lost in a single day (8/19)",
+      "evidence": "Daily sub deltas over the pull window: gained on 8/4 (+1), 8/11 (+1), 8/14 (+1); lost on 8/14 (−1), 8/19 (−3). Net −1 over 30 days. The 8/19 spike coincides with the day before Ep 11 dropped — subs bailed on Ep 10's aftermath (which had the worst-ever CTR + undocumented retitle). Sub gains from shorts: essentially zero across the entire 30-day window despite ~7,000 shorts views.",
+      "recommendation": "Investigate whether the branded ender added in Ep 10 is landing (channel-name visible? sub CTA readable?). If not, the ender is a UI change with no measurable conversion — worth iterating. Also: pinned-comment fix from item #1 above is the same lever (shorts viewers with no click path never become subs).",
       "priority": "med",
       "status": "open"
     }
   ],
   "recording": [
     {
-      "title": "Stakes that ride the whole episode produce the channel's best ending — make the live-resolution finale a format staple",
-      "evidence": "Ep 10's perp (long PUMP 10×) opened at 1:46, rode as a corner pip all episode, resolved at the wrap. The back fifth is the strongest ending ever recorded: watch RISES 8.7%→13.0% from 77% to 82% and holds 13% through 97% (46:39–55:11, Boltz → Ethereum → wrap), with vs_typical 0.91–0.92 — triple the mid-show relative performance. Ep 9's best-on-channel body ended at 9.8%. Survivors don't drift off; they stay for the resolution.",
-      "recommendation": "Every episode carries one live, unresolved stake introduced in the first 5 minutes and resolved in the wrap (Perp of Fortune already is this — keep it, and tease the resolution in the cold open). This also confirms the 8/10 finding: end on the live/personal beat, never park a standing topic in the last 20%.",
+      "title": "Ep 11 cold open didn't hold — 30% at 5%, drops to 13% at end; vs_typical 0.19–0.34 (well below channel-genre norm)",
+      "evidence": "Retention @ 5%: 30% (vs_typical 0.19) · 10%: 23% (vs_typical 0.34) · 15–20%: 20% (vs_typical 0.27–0.31) · 30–50%: 16.7% (vs_typical 0.50–0.72) · 75–100%: 13% (vs_typical 0.44–0.53). The 5–10% window (roughly 2:30–5:00 of the 49:25 cut) is where the leak concentrates — that's post-cold-open, into the check-in / first real segment. vs_typical <0.35 in the first 20% means viewers who WOULD normally hold on a similar video are still bailing on this one.",
+      "recommendation": "The cold open ≤60s rule is holding structurally; the failure is that the tease at :51 doesn't fund what starts at 2:30. Two record-side fixes for Ep 12: (a) after the ≤60s cold open, don't drop back into H (check-ins) — bank the perp reveal + a tease of the marquee (A) BEFORE H. Check-ins at :51 is a decel that vs_typical proves is worse than genre norm. (b) The tease itself needs a stakes line — Ep 11's cold open was strong on hook but light on 'here's what you'll know by the end'; try one sentence of finale-promise.",
       "priority": "high"
     },
     {
-      "title": "Story explainers hold, but only to the payoff — Chris's Friday-night swarm leaked its back half",
-      "evidence": "Ep 10's Black Hat swarm story (5:55–14:24) held and even climbed (13.0% at 9:40 → 21.7–26.1% around 10:48–11:22 as replays/chapter entries land). Then 'Chris's Friday-night swarm' (14:24–21:31, ~7 min): watch halves 17.4%→8.7% across 14:47–15:55 and vs_typical craters 0.55→0.21 by 18:12 — the last leak of the episode; the curve never drops again after it. This refines the 8/10 rule: an owner-with-a-story earns the long block (Ep 9's Coldcard, Ep 10's Black Hat story), but a personal PROJECT retelling decays once the demo's punchline lands (n=23 caveat applies).",
-      "recommendation": "Personal-project segments end at the payoff: land the punchline, tease what's next, move on — ~4 min, not 7. Owner-story explainers keep the 12-min license.",
+      "title": "Shorts drive 87% of views but 0 subs — hosts need to name the show + say 'subscribe' inside the short",
+      "evidence": "SHORTS traffic source: 16,842 views (87% of channel lifetime). Subs gained in the 30-day window with shorts running daily: 3 (net −1). Comparing to earlier eras — the 7/20 short 'The AI's trade broke $10 live mid-show' drove +1 sub on 449 views; recent shorts drove +1 sub across ~7,000 shorts views in the last week. The branded ender added in Ep 10 is visible but no on-mic CTA runs inside the shorts themselves.",
+      "recommendation": "In every Ep 12 recording, land ONE line per segment that would clip as a self-contained short AND identifies the show. E.g. 'On Permanent Underpod this week, our AI longed Hyperliquid's rival ON Hyperliquid.' Names the show inside the clippable moment — no post-edit CTA needed. This is a discipline change more than a script change: hosts already do the moments, they just don't brand them.",
       "priority": "high"
     },
     {
-      "title": "Don't ship a solo episode as the main feed item (standing)",
-      "evidence": "Unchanged since 7/31: Ep 7 (solo) remains worst on every axis except Ep 10's launch CTR — 0.68% CTR, 6.8% avg view, −56.7pp opening. All full-panel episodes since beat it on avg view %.",
-      "recommendation": "When hosts are out, ship a clip package or bring a guest.",
+      "title": "The money/greed/gambling hook pool is where subs get earned — build more of it into the show, not just the perp segment",
+      "evidence": "The 4-digit shorts of the Aug 2–7 peak all came from money/degen moments: 'Make me a millionaire' (Ep 8 perp), 'CRISPR agent, built different' (Ep 8 T-shirt bit), 'dice 100 times to protect Bitcoin' (Ep 8 Coldcard), 'Sandwich bot' (Ep 6 finale). Those hooks are Chris's + Tyler's segments as much as Jackson's perp — they emerged when EACH segment had a money-lever punchline. Aug 14–25 shorts are all explainer-flavored; the show got structurally more earnest between Ep 9 and Ep 11.",
+      "recommendation": "Standing recording note: in every non-perp segment, land at least one 'the number that shocks' or 'the trade that broke' or 'the greed that failed' one-liner. GLM-5.3 has one built-in ('coherent plans for complete exploitation chains'); the Coldcard 14-month warning has one ('14 months ignored, $116M gone'). Don't leave them to the edit — name them on mic.",
+      "priority": "med"
+    },
+    {
+      "title": "The perp-rides-all-episode format keeps validating; keep it structural for Ep 12",
+      "evidence": "Ep 10 memory notes 'best-ever ending validates perp-rides-all-episode'; Ep 11 board closed −$16 (from Ep 10's −$36) — the arc holds. Ep 11's retention at ratio 1.0 is 13.3% with vs_typical 0.53 (BEST vs_typical marker on the whole curve, alongside the 60% mark's 0.17). The finale over-indexes vs channel norms because there's a promised reveal.",
+      "recommendation": "Ep 12's F (DOGE max long, Pitcoin bit) already opens the pip and rides to a live close on the end card. Keep that structural. If Warsh's Jackson Hole quote (Topic W) lands late enough to be the second finale beat, thread the perp reveal INTO Warsh — not before or after — to double-anchor the last 3 minutes.",
       "priority": "med"
     }
   ],
   "experiments": [
-    "[rec] RESULT — Ep 10 ≤60s cold open: NEGATIVE. −69.6pp by 1:42 vs Ep 9's −58.7pp (n=23, noisy — treat as 'no improvement', not 'worse'). The cap alone doesn't fix the open; superseded by: Ep 11 runs a ONE-beat ~20–25s cold open.",
-    "[prod] RESULT — Ep 10 launch CTR (the clean packaging test): 0.61% on 3,597 launch-day impressions — worst ever, vs the 3.24% target. Confounded by an undocumented mid-launch title change; Jackson to confirm what served. Packaging fix still runnable through ~8/21 (day 7).",
-    "[prod] RESULT — shorts→episode funnel after full wiring: RELATED_VIDEO 130→150 views / 415→540 watch-min in a week vs +1,850 shorts views. FLAT. Pivot per plan: Ep 11 cuts ≥2 arc-tease shorts (cliffhanger + ?t= resolution link) alongside the personality picks.",
-    "[rec] NEW — live-stakes finale: Ep 10's episode-long perp produced watch RISING into the wrap (8.7%→13%, vs_typical 0.91+). Formalize on Ep 11: one unresolved stake opened in the first 5 min, resolved in the wrap, teased in the cold open. Judge by whether the 80–100% region holds ≥ Ep 10's 13%.",
-    "[prod] CARRIED — re-upload the Ep 2 clip with hook packaging; slot opens after the Ep 10 queue finishes 8/21.",
-    "RETIRED (done two reviews running, git history keeps them): personality-over-concept clip picks (confirmed again: Down $36 at 202 views day one vs degenerate-gamblers 24); check-in mid-show (Ep 10's check-in at 21:31–23:25 ran flat at 8.7%, no crater — third consecutive clean read)."
+    "[prod] Ep 12 shorts publishing: split-test daily-at-21:00 UTC (current pattern) vs a 3-in-6-hours burst on one day. Compare views + impressions + funnel-click deltas.",
+    "[prod] Ep 11 title A/B via Test & Compare: current 'Did AI Just Cure Cancer? The $3,000 Dog Vaccine Story' vs 'His Dog Got Cancer. ChatGPT and $3k Fixed It.' (draft #2 in segment-times.md). Log which won in insights next week.",
+    "[prod] Manual funnel checklist: for the 6 live Ep 11 shorts + 3 scheduled, wire pinned comment + related-video override + end screen. Measure delta in SHORTS_CONTENT_LINKS traffic-source views week over week.",
+    "[rec] Cold-open experiment for Ep 12: tease finale in the ≤60s open with one explicit stakes line ('by the end of this we'll know if our AI longed the wrong Chinese lab'). Measure retention @ 5% and 10% vs Ep 11.",
+    "[rec] Show-name inside every clippable moment: at least one line per segment names Permanent Underpod. Measure shorts→subs conversion vs the 30-day baseline of ~0.04%."
   ]
 }
