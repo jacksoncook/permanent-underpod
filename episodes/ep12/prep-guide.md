@@ -36,17 +36,40 @@ by-ear confirmation — do it BEFORE record, don't waive it again).**
 > forensics tool in Ep 11's marquee is now sitting on its cyber-strongest
 > model. **OpenAI paused the run; Zhipu paused the release.** The weight
 > drop lands during Ep 12's publish window — verify at record.
-> **Korea and CLARITY are back on the slate.** CLARITY cloture is Sept 15
-> (~3 weeks out) and the sticking point has moved from the exchange-yield
-> loophole to **the ethics/conflict-of-interest language aimed at Trump**
-> — voice as evolution, not correction. Korea returns because
-> **the amended VASP law went live 8/20 and Dunamu×Naver is the named test
-> case** and Motif dropped its **fully-MIT Motif-3** the same week it got
-> cut.
-> **Time budget is overweight: 12 topics ≈ ~72 min of prep vs a 45–55
-> target.** Drop order at time: **W if Warsh hasn't spoken by record**;
-> S1 collapses into a 60 s beat inside B2; G2 caps at 5 min; N caps at 4;
-> the Contrarian Corner button is the compressor. Never cut F, A, or B.
+> **Topic X is the same lab's OTHER model, and it topped OpenRouter.**
+> **Ox Alpha appeared on OpenRouter, OpenCode, Cline and Nous Research
+> as a "Stealth" model on Aug 20** — same day Ep 11 aired. **On Aug 26
+> Zhipu unmasked it as GLM-5.3-Flash** and confirmed it was *"running
+> entirely on Chinese AI chips"* (vendor undisclosed — Ascend 910B
+> credible from prior GLM-5 precedent, not proven for the Flash SKU).
+> In six days it **ate ~42T tokens on OpenRouter and pushed DeepSeek
+> off #1.** MIT-licensed, weights on HF. Same lab, same week: **weights
+> held for the big model, weights already out for the Flash.** That's
+> the segment.
+> **Topic B2 opens on EURR.** Revolut launched **EURR** on **Aug 26**
+> (Denmark, Poland, Portugal first; EEA-wide later 2026); **issuer is
+> Stripe's Bridge** — same rails Stripe uses for x402 machine payments
+> and Stripe Link Agents. Revolut's own messaging does NOT cite agents;
+> **the tie IS the issuer.** Every retail EURR balance is an agent-payable
+> balance from day one. Reroutes the whole B2 from Rain-Alliance-week-2
+> to the first bank-adjacent EUR stablecoin sitting on agentic rails by
+> default.
+> **Korea returns.** VASP law live 8/20, Dunamu×Naver named as the
+> first test case, Motif dropped its **fully-MIT Motif-3** the same
+> week it got cut from sovereign AI.
+> **Warsh and CLARITY are DROPPED from the slate this week (Jackson,
+> 8/27).** Ox Alpha + EURR both landed inside the last 48h and both
+> tie directly to Ep 11's arc; Warsh + CLARITY were speculative fillers
+> and neither news window justifies the 11 min. Rules: Warsh
+> parked (bench W) — resurface next week only if Fed principals actually
+> said something quotable. CLARITY parked (bench E) — Sept 15 cloture
+> is the natural Ep 13 peg.
+> **Time budget after the reshuffle: 11 topics ≈ ~64 min of prep vs
+> a 45–55 target.** Drop order at time: **S1 collapses into a 60 s
+> beat inside B2** (CHAINDROP is agent-payments now anyway); **N to
+> 3 min or cut** if Jackson doesn't renew the price-talk sanction;
+> **G2 to 4 min**; Contrarian Corner is the compressor button — cut
+> to nothing if we're over. Never cut F, A, B, X, or B2.
 > **Say the disclaimers OUT LOUD. Fourth episode running.** Ep 11 opened
 > on a losing 10× memecoin long; this one opens on a max-leverage DOGE
 > long *named after an album*. Script "not financial advice" and "our
@@ -60,17 +83,21 @@ by-ear confirmation — do it BEFORE record, don't waive it again).**
 **Astra** (crossed the "Critical" cyber threshold on the Aug 7
 Preparedness eval; frontier RL run still paused, release **"weeks
 away"** per an Aug 19 internal update; Polymarket 59% by Sept 15).
-Zhipu's new open-weights coding model is **GLM-5.3** (Aug 14 API
+Zhipu's Aug 14 open-weights coding model is **GLM-5.3** (Aug 14 API
 launch; open-weights drop **~Aug 28**, held for cyber review;
-tagline **"Built to Code. Ready for Cyber Defense."**). Pitbull's
-album is **Pitcoin**; Solana Pump.fun's leading unofficial ticker
-cluster hit **$583k daily volume**. Fed chair is **Kevin Warsh**
-(confirmed 54–45 in May, narrowest chair vote in US history);
-Jackson Hole 2026 theme is *"Financial Innovation and Its Implications
-for Payments and Policy"* (Aug 27–29). Elastic's name for Shai-Hulud
-wave 6 is **CHAINDROP**. *(Sonnet 5 — verify at record: the release-note
-citation in the sweep was single-sourced. If confirmed, it's a one-line
-callback inside A. Do not build a segment on it until the primary lands.)*
+tagline **"Built to Code. Ready for Cyber Defense."**). Zhipu's OTHER
+model this week is **GLM-5.3-Flash**, stealth-launched under the
+codename **Ox Alpha** (320B total / 18B active MoE, 1M context, MIT
+license; unmasked Aug 26; Zhipu's line: *"running entirely on Chinese
+AI chips"*). Prior stealth precedent from the same lab was **Pony
+Alpha = GLM-5**. Revolut's Euro stablecoin is **EURR** (Aug 26; issuer
+is **Bridge Building**, a MiCA-registered CASP that **Stripe bought
+for $1.1B**). Pitbull's album is **Pitcoin**; Solana Pump.fun's leading
+unofficial ticker cluster hit **$583k daily volume**. Elastic's name
+for Shai-Hulud wave 6 is **CHAINDROP**. *(Sonnet 5 — verify at record:
+the release-note citation in the sweep was single-sourced. If confirmed,
+it's a one-line callback inside A. Do not build a segment on it until
+the primary lands.)*
 
 **Retention rules (standing, still true after Ep 11 aired 8/20):**
 - **Cold open ≤60 s. Hard cap.** Ep 10's 51.5 s remains the template.
@@ -95,8 +122,8 @@ callback inside A. Do not build a segment on it until the primary lands.)*
 - **Korea returns after three weeks parked.** VASP law live 8/20, Motif
   eliminated + MIT release, Dunamu×Naver share-exchange pushed to Dec 31.
   → **Topic I.**
-- **CLARITY returns.** Sept 15 cloture ~3 weeks out; the fight moved from
-  yield to ethics language. → **Topic E.**
+- **CLARITY parked (Jackson, 8/27).** Sept 15 cloture is the natural
+  Ep 13 peg; not a Ep 12 topic. → **bench E.**
 - **Contrarian Corner — SEVEN episodes owed.** Compound interest is now
   the bit. → **Topic G.**
 - **Pico's GoFundMe — SEVEN episodes late.** Beatbox tool alive-or-dead;
@@ -109,10 +136,6 @@ callback inside A. Do not build a segment on it until the primary lands.)*
   version) · "Battering RAM" · Tyler's Bitcoin-is-up sanctioned blurb.
 
 **Corrections to make on air (things the show got wrong or that went stale):**
-- **Ep 11 said CLARITY's fight is the exchange-yield loophole.** That was
-  true 8/20; by 8/25 the anchor moved to the **ethics / no-profiting-from-
-  crypto language aimed at Trump** (Armstrong on record predicting
-  passage). Voice it as evolution, not correction. → Topic E.
 - **Ep 11 aired the sovereign-AI beat as "Motif eliminated."** True. What's
   new: Motif shipped **Motif-3 fully MIT** anyway, with weights AND
   training code — the eliminated startup gave everyone else the model.
@@ -131,6 +154,11 @@ callback inside A. Do not build a segment on it until the primary lands.)*
   before Ep 11 aired. The Ep 11 GLM references stand at "5.2" — that
   was current for what HF used for forensics, but the frontier moved.
   Say "5.2 was the forensics model; 5.3 is what came after." → Topic B.
+- **Ep 11 also missed GLM-5.3-Flash — which quietly appeared on
+  OpenRouter as "Ox Alpha" the same day Ep 11 aired (Aug 20).** Ep 11
+  went out talking about GLM-5.2 while Zhipu was ALREADY topping
+  OpenRouter with the next-next model — MIT weights, Chinese chips.
+  Say what we didn't see. → Topic X.
 
 ## Topics
 
@@ -139,15 +167,14 @@ callback inside A. Do not build a segment on it until the primary lands.)*
 | H | Check-ins & owed buttons | All | Pico counter (7), beatbox, SEO-the-weights, injuries | ≤3 |
 | F | Perp of Fortune: max long DOGE (in honor of Pitcoin) | All | LIT ride-to-zero referendum + DOGE max long on Hyperliquid + Pitbull's *Pitcoin* dropped Oct 8 | first 10 min |
 | A | **MARQUEE:** OpenAI acknowledged, answers withheld | Jackson | Aug 24 log deadline passed; OpenAI "reviewing with external advisors," no logs; Astra "weeks away"; Anthropic raised its own risk rating | ≤12 |
-| B | **GLM-5.3: the mirror pause** | Jackson | Zhipu shipped Aug 14, weights **held ~Aug 28** for cyber review; *"coherent plans for complete exploitation chains"*; direct sequel to Ep 11's GLM-5.2 forensics beat | ≤8 |
-| W | Warsh at Jackson Hole: the Fed's payments debut | Chris | New chair, symposium theme literally *"Financial Innovation and Payments"* — record after the Fri/Sat sessions | ≤6 |
-| N | Bitcoin at $81k — the buyback tweak was the whole trade | Tyler | Sanctioned blurb, week 2; Bessent Sept 9; short liquidations doing the work; still no ETF flows / no targets | ≤4 |
+| B | **GLM-5.3: the mirror pause** | Jackson | Zhipu shipped Aug 14, weights **held ~Aug 28** for cyber review; *"coherent plans for complete exploitation chains"*; direct sequel to Ep 11's GLM-5.2 forensics beat | ≤7 |
+| X | **Ox Alpha: the stealth model that ate OpenRouter on Chinese chips** | Jackson | Zhipu's SECOND model this week — stealth-launched Aug 20 as "Ox Alpha," unmasked Aug 26 as **GLM-5.3-Flash**, ate ~42T tokens in 6 days, pushed DeepSeek off #1, Zhipu says *"running entirely on Chinese AI chips."* MIT-licensed, weights already out | ≤8 |
+| B2 | **EURR: Stripe's Bridge just put an agent-payable Euro in 80M wallets** | Chris | Revolut launched EURR Aug 26; **issuer is Stripe's Bridge — the same rails as x402**; every retail balance is agent-payable by default; the agentic-commerce coalition math a week later | ≤7 |
+| N | Bitcoin at $81k — the buyback tweak was the whole trade | Tyler | Sanctioned blurb, week 2 (Jackson to greenlight at record); Bessent Sept 9; short liquidations doing the work; still no ETF flows / no targets | ≤4 |
 | D | eCash alpha ripped — 25,000 blocks in 13 hours, zero listings | Tyler | Rehearsal, not the permanent event; PSA still stands; the "sell my BTC-eCash" question got its answer | ≤5 |
-| G2 | Coldcard: the 14-month warning | Tyler | 1,816 BTC / $116M now; O'Beirne's May 2025 disclosure = 14 months of ignored heads-up; class-action still gathering | ≤7 |
-| E | CLARITY countdown — the ethics-language fight | Chris | 3 weeks to cloture; Armstrong bullish; the sticking point moved from yield to Trump's conflicts | ≤5 |
+| G2 | Coldcard: the 14-month warning | Tyler | 1,816 BTC / $116M-$147M; O'Beirne's May 2025 disclosure = 14 months of *reportedly*-ignored heads-up; class-action still gathering | ≤5 |
 | S1 | Shai-Hulud wave 6 has a name — CHAINDROP | Jackson | keyv (1.3B mo installs), 2,225 versions, Ethereum-contract C2, credential-rotation trap; the agent-config attack surface | ≤6 |
 | I | Korea: the eliminated startup MIT-licensed the model anyway | Jackson | Motif-3 open + VASP screening live + Dunamu×Naver named as test case + FTC blowing past its 120-day max | ≤6 |
-| B2 | Agentic commerce weekly | Chris | LIT-was-Lighter callback; CHAINDROP-in-config = agent-wallet PSA; the coalition math a week later | ≤6 |
 | G | Contrarian Corner | Chris | SEVEN owed. Compound interest is the bit. Pick one, commit | — |
 
 ### H — Check-ins & owed buttons (All, ≤3 min)
@@ -323,34 +350,57 @@ callback inside A. Do not build a segment on it until the primary lands.)*
 - **Grep-the-SOUL.md callback from Ep 11 lives here** if it didn't
   land in B previously — 60 s cold bit, personal-agent framing only.
 
-### W — Warsh at Jackson Hole: the Fed's payments debut (Chris, ≤6 min)
-- **The setup:** Kevin Warsh is chairing his first Jackson Hole after a
-  54–45 confirmation in May — the narrowest chair vote in US history.
-  Symposium runs **Aug 27–29, 2026**; theme is **"Financial Innovation
-  and Its Implications for Payments and Policy."** The Fed's own
-  program title is a stablecoins-adjacent tell.
-- **The record-timing note:** if the panel records Fri Aug 28 or later,
-  Warsh has already spoken and the segment opens on the quote. If
-  recording lands earlier in the week, **stage this as "here's what to
-  watch"** and update in edit. Either way: any Fed principal name-checking
-  **stablecoins, x402, or CBDC** on record is the segment.
-- **What to watch, in one line each:**
-  - Does Warsh distinguish payment-stablecoins from the CBDC pipeline
-    Trump killed? (First reelected-Fed public read.)
-  - Does the framework mention agent-driven payments (x402 by name is
-    unlikely; "programmable" or "autonomous" is possible)?
-  - Does Warsh use the phrase "financial stability" alongside dollar-
-    stablecoins — that's the tell for tightening posture even under
-    a friendly administration.
-- **Peg to the show's beats:** N (buyback tweak effective Sept 9 is a
-  Warsh-adjacent Bessent action; the Fed didn't do it — Treasury did —
-  but the two run coupled now); E (CLARITY finalizes the stablecoin
-  regulator split — banks vs OCC vs states; Warsh's inflation posture
-  shapes the deposit-flight math); B2 (any Fed nod to "programmable
-  money" is a Chris beat).
-- **Discipline rule:** no rate talk, no dot-plot commentary, no calls.
-  Structural read of the payments framing only. Same guardrails as
-  Topic N.
+### X — Ox Alpha: the stealth model that ate OpenRouter on Chinese chips (Jackson, ≤8 min)
+- **Direct callback to Topic B:** Zhipu had ONE big story this week
+  already (GLM-5.3, weights held for cyber review). It turns out they
+  had TWO. And the second one is the more consequential.
+- **The stealth-launch, one breath:** **Aug 20 (same day Ep 11 aired)**,
+  a model called **"Ox Alpha"** appeared under the generic "Stealth"
+  provider label on **OpenRouter, OpenCode, Cline and Nous Research** —
+  free preview, no attribution. **Aug 26, Zhipu unmasked it as
+  GLM-5.3-Flash** and posted the weights on Hugging Face. MIT license.
+- **What it is:** **320B total / 18B active MoE**, **1M-token context**,
+  natively multimodal, hybrid sparse+linear attention, 45 layers vs
+  GLM-5.3's 92. Not GLM-5.3 with a code name — a **separate Flash SKU**.
+  Post-preview pricing: $0.15/M in, $0.50/M out.
+- **The six-day OpenRouter run — this IS the segment:** ate **~42T
+  tokens on OpenRouter in six days** and **pushed DeepSeek off #1** by
+  usage. Serving capacity during the free preview: **~100 trillion
+  tokens per day.** Community DeepSWE trial (n=10, preliminary): **80%
+  pass rate vs Fable 5's 65% and GPT-5.6-Sol's 52%.** Zhipu's own
+  DeepSWE score: **63.4%.** Trails GPT-5.6 Terra + Opus 4.8 on frontier
+  reasoning; wins on the OpenRouter workload. Stripe's Patrick Collison
+  during the stealth phase: *"very impressive."*
+- **The chip claim, careful with the verb:** Zhipu's on-record line is
+  **"running entirely on Chinese AI chips."** They did **NOT name the
+  vendor.** Prior precedent: **GLM-5 (Feb 2026) was trained on 100k
+  Huawei Ascend 910B chips** per Zhipu's own disclosure. That's the
+  credible pointer, not confirmation for the Flash SKU. Say
+  **"reportedly Ascend, not confirmed"** or just **"Chinese chips,
+  vendor undisclosed."**
+- **Z.ai HK shares +8% Thursday** on the unmask. Market read: not
+  "impressive model" but "impressive supply chain."
+- **The forensic-ID bit (say it, it's the fun part):** before the
+  reveal, the community pinned it as Zhipu using three convergent
+  signals — **tokenizer fingerprinting matched GLM-5.3 with a constant
+  75-token offset**, video-encoding matched **GLM-5V-Turbo**, and a
+  **malformed request triggered a Java stack trace naming Zhipu's
+  internal API package.** Same lab as Topic B, caught by its own
+  logging.
+- **Prior stealth precedent:** the same lab did this before. **"Pony
+  Alpha" on OpenRouter was GLM-5 in disguise** in Feb. Same playbook,
+  tighter turnaround, MIT weights this time.
+- **The uncomfortable Topic B rhyme:** Zhipu held GLM-5.3's weights
+  because it was too cyber-strong to open. It **simultaneously
+  MIT-licensed a smaller sibling and topped OpenRouter with it.**
+  Weights held for the big model, weights already out for the Flash.
+  Same lab, same week, opposite call. That's the segment's argument —
+  "responsible open-weights release" is a portfolio decision, not a
+  posture.
+- **The A-callback:** OpenAI acknowledged, no logs (Topic A); Zhipu
+  acknowledged, weights held on one SKU, weights released on the
+  other, running on Chinese chips. Two labs, two governance patterns.
+  Say them side by side.
 
 ### N — Bitcoin at $81k — the buyback tweak was the whole trade (Tyler, ≤4 min)
 - **The Ep 11 exception was ONE week (Jackson, 8/20).** Running it a
@@ -369,7 +419,7 @@ callback inside A. Do not build a segment on it until the primary lands.)*
   pairs with the perp segment.
 - Driver 3 — Washington posture holds: Trump's Aug 19 crypto-execs
   meeting continues to age well; Reg Crypto safe harbor still on the
-  board; CLARITY still Sept 15 (see E).
+  board; CLARITY cloture still Sept 15 (parked to Ep 13).
 - **House lines INSIDE the exception:** NO ETF-flow numbers, NO price
   targets, no chart talk. Same lines as Ep 11. Fourth episode running
   the discipline — do NOT let it bleed into the perp or the mining
@@ -421,28 +471,6 @@ callback inside A. Do not build a segment on it until the primary lands.)*
   emotional turn is the timeline — if the 14-month claim verifies, the
   argument writes itself. If it doesn't, the segment still stands on
   the GPG signatures + the anticipated-litigation freeze.
-
-### E — CLARITY countdown — the ethics-language fight (Chris, ≤5 min)
-- **The correction to Ep 11:** Ep 11 said the sticking point was the
-  exchange-yield loophole. That was true. **By 8/25 the anchor moved**
-  to the **ethics / conflict-of-interest language aimed at Trump**
-  (Coinbase's Armstrong on record Aug 21 predicting passage). Voice as
-  evolution, not correction. Yield is now the second-order fight.
-- **Cloture unchanged: 2:15 pm ET, Sept 15, needs 60.** ~3 weeks out.
-- **The whip math:** Ep 11 had "as many as five Republican holdouts"
-  (Rounds, Lankford on record); the ethics-language fight is a
-  Democrat-side objection, so the Republican five may fold if the
-  language stays out. The intersection is the segment: yield-fight
-  Republicans + ethics-fight Democrats = a bill threading a
-  needle in 3 weeks.
-- **Structural sidebars, one breath each:**
-  - GENIUS Act — nothing final; Treasury missed its Jul 18 deadline;
-    Aug 17 NPRM is a proposal not a rule; Jan 18, 2027 effective.
-    One breath, move on. Same rule as Ep 11.
-  - Coinbase–Circle auto-renewal on the 3-yr anniversary (Ep 11 backup)
-    still holds — no post-renewal fight yet.
-- **Discipline:** no odds-trader numbers on air (Ep 11 had "~30%
-  passage"); the fight is directional, not a percent.
 
 ### S1 — Shai-Hulud wave 6 has a name: CHAINDROP (Jackson, ≤6 min)
 - **The upgrade from Ep 11's backup:** Elastic dubbed the sixth wave
@@ -501,31 +529,49 @@ callback inside A. Do not build a segment on it until the primary lands.)*
   open threads is enough.
 - Structural only, no premium/price talk.
 
-### B2 — Agentic commerce weekly (Chris, ≤6 min, MID-SHOW — hard rule)
-- **The LIT-was-Lighter callback is the opener** — GLM built a wallet-
-  narrative thesis around Lit Protocol's key-management story, then
-  bought a Hyperliquid rival. The wallet-narrative demand is real;
-  the agent picker got the ticker wrong. Segue: what IS the actual
-  agent-wallet install this week?
-- **Peg: CHAINDROP is a payments attack now (see S1).** Wallet-layer
-  spend limits are the actual defense; prompt-layer is a suggestion.
-  MetaMask's TEE server-wallet mode is the direct install — pair with
-  Ep 11 Topic K enclaves beat.
-- **The coalition math, week 2:** Rain's **Agentic Payments Alliance**
-  (25+ members incl. Visa, Mastercard, Circle, Solana Foundation) is
-  a week old; verify at record whether any new members joined and
-  whether the standards timeline is public. The "Visa and Mastercard
-  are in every coalition" line from Ep 11 still holds; escalate if
-  a third alliance surfaced this week.
+### B2 — EURR: Stripe's Bridge just put an agent-payable Euro in 80M wallets (Chris, ≤7 min, MID-SHOW — hard rule)
+- **The opener, one breath:** **Revolut launched EURR on Aug 26**,
+  Denmark/Poland/Portugal first, EEA-wide later 2026. Redeemable 1:1.
+  Chains: **Ethereum + Polygon.** **80M+ Revolut customers.**
+- **The tell, and the whole segment:** **Revolut is not the issuer —
+  Bridge Building is,** a MiCA-registered CASP **Stripe bought for
+  $1.1B**. Bridge is the exact stablecoin infrastructure Stripe uses
+  for **x402 machine payments** (USDC on Base/Solana/Tempo) and
+  **Stripe Link Agents** (Claude + OpenAI wallet approvals shipped
+  Apr 29). **Every retail EURR balance is an agent-payable balance
+  from day one — no separate onboarding, no separate wallet, no
+  separate approval flow.** Revolut's own messaging does NOT cite
+  agentic commerce; **the tie is the issuer**, not the marketing.
+- **The pull-quote for the panel:** *"Revolut launched a Euro
+  stablecoin. But the issuer is Stripe's Bridge — the same rails as
+  x402. Every retail EURR balance is technically an agent-payable
+  balance from day one."*
+- **The competitive read:** USDT is exiting Europe under MiCA. Circle's
+  EURC and Societe Generale's EURCV have had 18 months to grab the
+  vacuum and haven't. Revolut walks in with **80M distribution + a
+  bank charter + Stripe's rails.** Not a stablecoin launch — a
+  distribution launch.
+- **Revolut is NOT in Rain's Agentic Payments Alliance** (Ep 11 list:
+  25+ members incl. Visa, Mastercard, Circle, Solana Foundation,
+  Fireblocks). They didn't need to join. **The Alliance is defining
+  the standard; Stripe is shipping the market.** Say exactly that.
+- **The LIT-was-Lighter callback:** GLM's wallet-narrative thesis
+  ("agents need a place to keep their loot") was directionally right;
+  the ticker was wrong. EURR is what the correct install looks like —
+  the wallet already exists; it's your Revolut app; the agent-payability
+  is the plumbing you can't see.
+- **CHAINDROP peg from S1:** with 80M new agent-payable balances, the
+  agent-config attack surface (S1) just got a lot more valuable.
+  Wallet-layer spend limits, not prompt-layer. MetaMask's TEE
+  server-wallet mode is the direct install — pair the beats.
 - **Honest x402 numbers hold from Ep 11** (93% settlement crash,
-  $1+ at 95% of volume) — do not re-tell; escalate only if new
-  Chainalysis / dune board dropped this week.
-- **Asia beat (Jackson, 60 s):** Alipay AHA + Kakao's marketplace win
-  are last week's news; only include if there's a fresh Japan / Korea
-  agent-payments announcement (verify at record).
-- **The one-line risk framing:** every payments story this week reads
-  as *"the wallet, not the prompt, is the trust boundary."* Say
-  exactly that.
+  $1+ at 95% of volume); escalate only if new Chainalysis / dune
+  board dropped this week.
+- **Asia beat (Jackson, 30 s):** Alipay AHA + Kakao's marketplace
+  win are last week's; include only if a fresh Japan/Korea
+  agent-payments announcement lands.
+- **The one-line risk framing:** *"the wallet, not the prompt, is the
+  trust boundary — and this week the wallet got 80M new users."*
 
 ### G — Contrarian Corner (Chris, SEVEN episodes owed)
 - Read the tally out loud; compound interest is the bit. Pick ONE,
@@ -550,6 +596,8 @@ callback inside A. Do not build a segment on it until the primary lands.)*
 
 | # | Topic | Lead | The hook / angle |
 |---|---|---|---|
+| W | **Warsh at Jackson Hole — parked (Jackson, 8/27)** | Chris | Kevin Warsh's first Jackson Hole ran Aug 27–29 (theme: *"Financial Innovation and Its Implications for Payments and Policy"*). Parked because it was a "here's what to watch" filler when we drafted; **only resurface next week if a Fed principal actually name-checked stablecoins, x402, or CBDC on record.** No podium quote = no topic. Ep 13 hook: any post-symposium comm nudged by the payments framing. |
+| E | **CLARITY countdown — parked (Jackson, 8/27)** | Chris | Cloture 2:15 pm ET **Sept 15** (needs 60). Ethics-language fight (Trump-conflict) has displaced the exchange-yield fight as the anchor holdout, per Coinbase's Armstrong Aug 21. Natural **Ep 13 marquee** since it's 1–2 weeks pre-vote. Do NOT quote odds trackers on air; whip math + ethics-vs-yield split is the segment. |
 | K3 | **The miner is now the landlord — week 3** | Tyler | HIVE $350M GPU-cloud contract landed; TeraWulf raise and Riot Rockdale still "reportedly" Anthropic; hashrate still down ~21% from peak; sector has announced **>$70B** of AI/HPC over the cycle. Ep 11 backup — carries un-aired to Ep 13 unless a new lease anchor drops. |
 | R2 | **The Suno precedent — AI copyright's first substantive loss** | Jackson | Munich Regional Court ruled Suno breached German + US copyright training on GEMA repertoire (**July 2026**) — the first substantive AI-music ruling on the record. Round Hill's $1B suits (Aug 17, Ep 11 backup) now filed into a landscape WITH precedent. Anthropic's 4th active copyright case. **The angle:** the settle-early era may be over. |
 | R3 | **DeepMind's leadership musical chairs** | Jackson | **Hassabis stepped back from day-to-day Aug 8**; Koray Kavukcuoglu now runs ops. **Jeff Dean left Google after 27 years** (Aug 12) to start "Discovery Loop." One founder walked out; another walked back. Two Google-scale losses in the same week the OpenAI story dominated. Ep 13 candidate — needs a fresh peg to lead. |
@@ -579,9 +627,9 @@ callback inside A. Do not build a segment on it until the primary lands.)*
 
 Optional prep; skim what's relevant to the segment you're leading. **Dates
 verified as of Aug 26, 2026** (day-of sweep done) — re-check anything
-time-sensitive at record time (the live LIT + DOGE dashboard; Warsh's
-Jackson Hole quote; the OpenAI response to Congress; the eCash beta
-countdown; Ep 11's captions upload state).
+time-sensitive at record time (the live LIT + DOGE dashboard; the
+OpenAI response to Congress; the GLM-5.3 weights drop, expected
+~Aug 28; the eCash beta countdown; Ep 11's captions upload state).
 
 **Day-of adds (Aug 24–26):**
 - **OpenAI's Aug 24 acknowledgment (via The Hill) — the correction to
@@ -617,14 +665,21 @@ countdown; Ep 11's captions upload state).
 - Anthropic's own risk raise (very low → low) — same URL, verify Sonnet
   5 claim at record (single-sourced in the sweep):
   https://www.axios.com/2026/08/19/openai-astra-safety-altman-anthropic
-- Warsh's first Jackson Hole (theme is Financial Innovation and Payments):
-  https://www.techtimes.com/articles/325228/20260821/jackson-hole-2026-what-watch-when-warsh-steps-podium-friday.htm
+- **Ox Alpha unmasked as GLM-5.3-Flash on Chinese chips (CNBC):**
+  https://www.cnbc.com/2026/08/27/zai-shares-surge-new-ai-model-using-chinese-chips.html
+- **Ox Alpha primary (Bloomberg):**
+  https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek
+- **Revolut EURR launched Aug 26 — Bridge is the issuer (Ledger
+  Insights primary):**
+  https://www.ledgerinsights.com/revolut-launches-eurr-stablecoin-with-bridge/
+- Revolut EURR (Bloomberg):
+  https://www.bloomberg.com/news/articles/2026-08-26/revolut-joins-global-stablecoin-race-with-euro-backed-token
 - Elastic names Shai-Hulud wave 6 CHAINDROP:
   https://www.elastic.co/security-labs/shai-hulud-chaindrop-npm-supply-chain
 - Coldcard tally + O'Beirne 14-month timeline (single-source, use
   "reportedly"):
   https://phemex.com/academy/coldcard-security-flaw-warning
-- CLARITY: Armstrong bullish; ethics-language now the anchor:
+- CLARITY (parked to Ep 13; Armstrong bullish, ethics-language anchor):
   https://finance.yahoo.com/markets/crypto/articles/u-senate-faces-critical-vote-173901748.html
 
 **F · Pitbull "Pitcoin" + DOGE**
@@ -682,10 +737,25 @@ countdown; Ep 11's captions upload state).
 - OfficeChai — US-model share collapse 70% → 30%:
   https://officechai.com/ai/share-of-us-models-being-used-on-openrouter-has-collapsed-from-70-to-30-over-the-past-year/
 
-**W · Warsh at Jackson Hole**
-- Techtimes preview (theme + Warsh context):
-  https://www.techtimes.com/articles/325228/20260821/jackson-hole-2026-what-watch-when-warsh-steps-podium-friday.htm
-- Fed program page — verify live for the released papers and speaker order.
+**X · Ox Alpha / GLM-5.3-Flash**
+- **CNBC — Z.ai shares +8% on Chinese-chip reveal (primary chip-claim
+  source):**
+  https://www.cnbc.com/2026/08/27/zai-shares-surge-new-ai-model-using-chinese-chips.html
+- **Bloomberg — Z.ai made Ox Alpha, rivaling DeepSeek:**
+  https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek
+- WCCFTech — Zhipu unmasks Ox Alpha as GLM-5.3-Flash, 100T tokens/day
+  on Chinese GPUs:
+  https://wccftech.com/zhipu-z-ai-unmasks-the-mystery-ox-alpha-model-as-glm-5-3-flash-revealing-that-it-was-run-entirely-on-chinese-gpus-while-serving-100-trillion-tokens-day/
+- AI Market Watch — the forensic-ID story (tokenizer / video-encoding /
+  Java stack trace):
+  https://www.ai-market-watch.com/news/anonymous-coding-model-ox-alpha-launches-free-on-openrouter-with-1m-token-contex-0co3l6
+- tosea.ai — GLM-5.3-Flash architecture + timeline + benchmarks:
+  https://tosea.ai/blog/glm-5-3-flash-complete-guide
+- KOCPC — the six-day rise on OpenRouter (42T tokens):
+  https://en.kocpc.com.tw/archives/24830
+- Winbuzzer (Feb 2026 — prior Ascend 100k-chip precedent for GLM-5,
+  the credible-but-unverified vendor pointer for the Flash SKU):
+  https://winbuzzer.com/2026/02/10/chinese-ai-firm-zhipu-trains-major-model-huawei-chips-xcxwbn/
 
 **N · BTC at $81k**
 - Blockhead (buyback tweak + short liquidations):
@@ -704,10 +774,24 @@ countdown; Ep 11's captions upload state).
   https://phemex.com/academy/coldcard-security-flaw-warning
 - Ep 11 G2 sources still stand.
 
-**E · CLARITY**
-- Yahoo/Fool — the ethics-language pivot + Armstrong on record:
-  https://finance.yahoo.com/markets/crypto/articles/u-senate-faces-critical-vote-173901748.html
-- Ep 11 E source stack still holds.
+**B2 · EURR + agentic commerce**
+- **Bloomberg — Revolut joins global stablecoin race (Aug 26,
+  primary):**
+  https://www.bloomberg.com/news/articles/2026-08-26/revolut-joins-global-stablecoin-race-with-euro-backed-token
+- **Ledger Insights — the Bridge-is-the-issuer detail (the whole
+  segment):**
+  https://www.ledgerinsights.com/revolut-launches-eurr-stablecoin-with-bridge/
+- CoinDesk — Revolut begins rolling out EURR:
+  https://www.coindesk.com/business/2026/08/26/euro-stablecoins-get-a-mainstream-push-as-revolut-begins-rolling-out-eurr-in-europe
+- Genfinity — 80M-customers + USDT-exits-Europe framing:
+  https://genfinity.io/2026/08/26/revolut-eurr-euro-stablecoin-launch-mica/
+- **Stripe docs — x402 on Base/Solana/Tempo (the exact rails EURR sits
+  on):**
+  https://docs.stripe.com/payments/machine/x402
+- Polygon — Agentic Payments track on x402 (same chain EURR ships on):
+  https://polygon.technology/payments/agentic-payments
+- Rain Agentic Payments Alliance (Ep 11 primary, still relevant):
+  https://www.prnewswire.com/news-releases/rain-launches-the-agentic-payments-alliance-to-guide-the-future-of-agent-driven-commerce-302853532.html
 
 **S1 · CHAINDROP**
 - Elastic Security Labs (primary):
@@ -785,9 +869,26 @@ countdown; Ep 11's captions upload state).
   disagree (1,134 / 1,178 / 1,268). **"Over 1,100"** is safe.
 - **"CLARITY will pass" / "will fail."** Directional only; do not quote
   odds-market percentages on air.
-- **"Warsh said X"** — until Warsh actually speaks (Aug 27–29). Stage
-  the segment as "here's what to watch" if recording lands before
-  Friday. If quoting, quote verbatim from a primary transcript.
+- **"Ox Alpha ran on Huawei Ascend."** Zhipu said *"Chinese AI chips."*
+  They did NOT name the vendor. The Ascend link is credible from
+  GLM-5's Feb 2026 precedent (100k Ascend 910B) — **credible, not
+  confirmed for the Flash SKU.** Say **"reportedly Ascend"** or
+  **"Chinese chips, vendor undisclosed."**
+- **"Ox Alpha beat GPT-5.6 / Opus 4.8."** On ONE preliminary community
+  DeepSWE trial (n=10). It **trails GPT-5.6 Terra + Opus 4.8 on
+  frontier reasoning per its own benchmarks.** Say "topped OpenRouter
+  by usage" (that's true) — do not say "beat frontier on capability."
+- **"Ox Alpha and GLM-5.3 are the same model."** They're the same
+  family, different SKUs. **GLM-5.3 = 92-layer, weights held; GLM-5.3-
+  Flash (Ox Alpha) = 45-layer, 320B/18B MoE, weights out.** Say
+  "sibling" or "Flash SKU," not "same model."
+- **"Revolut is issuing EURR."** They're distributing it. **Bridge
+  Building is the issuer** (Stripe-owned, MiCA CASP). Get the verb
+  right — it's the whole point of the B2 segment.
+- **"Revolut said EURR is for AI agents."** They didn't. **Revolut's
+  own messaging does NOT cite agentic commerce**; the tie is the
+  issuer's rails (Stripe's x402), not Revolut's marketing. Say "the
+  tie is structural, not stated."
 - **"Motif is dead."** Motif got cut from sovereign-AI; the CEO said
   commercialize anyway; Motif-3 shipped MIT. "Eliminated from the
   program" is precise; "dead" is wrong.
@@ -808,7 +909,7 @@ countdown; Ep 11's captions upload state).
 - **No employer naming, ever** (standing, 8/6). Same bites as Ep 11 this
   week: the *Defenders Need the Frontier* letter's signatories include
   the employer — cite as "70+ Bitcoin companies," never read the roster.
-  Same rule for any Warsh-adjacent stablecoins beat (Circle, Anchorage,
+  Same rule for the EURR / Bridge / Stripe beat (Circle, Anchorage,
   BNY are fine to name; keep employer-specific angles generic).
 - **Say "not financial advice" and "our opinions are our own" OUT LOUD.**
   Fourth consecutive episode with the discipline; the position this week
@@ -843,5 +944,10 @@ countdown; Ep 11's captions upload state).
 - **tl;dv's 181,874 queryable meetings** — the enraged 5-min riff is
   still unused.
 - **The Ep 10 milestone / "grade the tape" salvage** — bench M2, still owed.
-- **Any Warsh quote leak from the Wednesday academic sessions** — verify
-  the primary feed if it drops before recording.
+- **Any Warsh quote from Jackson Hole Aug 27–29** — parked to bench W;
+  resurface only if a Fed principal name-checked stablecoins / x402 /
+  CBDC on record. No podium quote = no topic.
+- **Ox Alpha post-preview pricing behavior** — $0.15/M in / $0.50/M
+  out kicked in ~Aug 27; watch the OpenRouter usage curve for the
+  post-free-tier drop-off. Ep 13 candidate if the position holds.
+- **CLARITY Sept 15 cloture** — parked to bench E; natural Ep 13 marquee.
