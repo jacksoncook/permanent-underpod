@@ -178,9 +178,10 @@ def plan_block(b):
                    if p == spk or p in hot or react_frac(p, t) >= REACT_TH]
         if len(hot) >= 2:
             return dict(type='trio' if len(hot) >= 3 else 'duo',
-                        panels=[person_track(p, t - 1, t + 1) for p in PORDER if p in hot])
+                        panels=[person_track(p, max(a, t - 1), min(z, t + 1))
+                                for p in PORDER if p in hot])
         p = max(hot or avail, key=lambda q: sc[q]) if (hot or avail) else PORDER[0]
-        return dict(type='solo', cam=person_track(p, t - 1, t + 1) or
+        return dict(type='solo', cam=person_track(p, max(a, t - 1), min(z, t + 1)) or
                     next(iter(FILES)))
 
     pieces = []
