@@ -91,7 +91,13 @@ def ender_cfg(c):
         cfg.update(e)
     cfg.setdefault("duration", 1.0)
     cfg.setdefault("text", "PERMANENT UNDERPOD")
-    cfg.setdefault("sting", os.path.join(os.path.dirname(LOGO or ""), "ender-sting.wav"))
+    if "sting" not in cfg:
+        candidates = [
+            os.path.join(os.path.dirname(LOGO or ""), "ender-sting.wav"),
+            os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                          "..", "..", "..", "..", "brand", "ender-sting.wav")),
+        ]
+        cfg["sting"] = next((p for p in candidates if os.path.exists(p)), candidates[0])
     return cfg
 
 def ease_out_back(p):
