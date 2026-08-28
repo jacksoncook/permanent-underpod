@@ -272,6 +272,23 @@ def plan_block(b):
                 final[-1] = (final[-1][0], z, sh)
             else:
                 final.append((a, z, sh))
+    changed = True
+    while changed:
+        changed = False
+        for i, (a, z, sh) in enumerate(final):
+            if z - a >= 1.5 or sh.get('forced'):
+                continue
+            prev = final[i - 1] if i > 0 and abs(final[i - 1][1] - a) < 0.02 else None
+            nxt = (final[i + 1] if i + 1 < len(final)
+                   and abs(final[i + 1][0] - z) < 0.02 else None)
+            if prev is None and nxt is None:
+                continue
+            if nxt is None or (prev is not None and prev[1] - prev[0] >= nxt[1] - nxt[0]):
+                final[i - 1] = (prev[0], z, prev[2]); del final[i]
+            else:
+                final[i + 1] = (a, nxt[1], nxt[2]); del final[i]
+            changed = True
+            break
     return [(a, z, sh) for a, z, sh in final if z - a >= 1.5 or sh.get('forced')]
 
 def audio_spec(a, z, mics=None, mute=None):

@@ -1,12 +1,12 @@
 # Permanent Underpod — Ep 12 — Segment Times
 
-**Final cut: 54:55 · fully-remote episode (three StreamYard cams + Chris's screen
+**Final cut: 54:57 · fully-remote episode (three StreamYard cams + Chris's screen
 share; offsets 0/+0.013/−0.058/+753.525 — StreamYard filename deltas, triple-anchored
 by Jackson's stated alignment, all end-anchors agree ±30 ms) · Tyler's laptop
 OVERHEATED at ~10:00 source (recording hole 602→754, bridged per Jackson's on-tape
 instruction; the instruction itself runs as the post-credits stinger) · live Perp
 of Fortune dashboard PiP (anchor 401.861, TIME-AFLOAT-verified; full-screen at the
-reveal, corner pip from 5:30 to the end card, board closes +$7.30 — first green week
+reveal, corner pip from 5:31 to the end card, board closes +$7.30 — first green week
 after four misses) · title/end cards · whoosh & gold-wipe on all 13 transitions
 (none on the 3 surgical cuts).**
 
@@ -17,8 +17,9 @@ after four misses) · title/end cards · whoosh & gold-wipe on all 13 transition
 - **Captions:** `ep12-final-cut.srt` (regenerated from the FINAL cut) — upload
   with the episode.
 - **File:** `media/ep12/Permanent Underpod - Ep 12 (Final Cut).mp4`
-- **Thumbnail:** not yet made. Packaging is a launch-day gate — set it at upload
-  time (~95% of lifetime impressions land in the first 7 days).
+- **Thumbnail:** `media/ep12/ep12-thumbnail.png` — "AI AGENT CULT" (pale yellow,
+  three cutouts, Chris's wide-eyed shock center; passed the 320×180 shrink test).
+  Packaging is a launch-day gate — set it at upload time.
 
 ## Title (drafts; pick #1 unless overridden)
 
@@ -36,16 +37,16 @@ OpenAI's agents attacked Hugging Face, and the postmortem reads like a workplace
 0:00 Cold open
 1:01 Perp of Fortune: max long DOGE (in honor of Pitcoin)
 2:33 Tyler's tokenomics tangent: MV = PQ
-5:30 The reveal: 10x long DOGE + Pitbull lore
-9:10 Tyler melted: the frozen-peas recovery
-10:23 The OpenAI / Hugging Face teardown
-22:23 NVIDIA is buying the crime scene
-31:00 Harness wars: max plans, API prices, stickiness
-38:22 GLM-5.3 & Ox Alpha: the stealth model on Chinese chips
-46:15 Do we already have AGI?
-53:34 Wrap: the Euro-stablecoin punt
-54:26 Final P&L: +$7.30 — the streak is broken
-54:39 Post-credits: Jackson talks to the editor
+5:31 The reveal: 10x long DOGE + Pitbull lore
+9:11 Tyler melted: the frozen-peas recovery
+10:25 The OpenAI / Hugging Face teardown
+22:25 NVIDIA is buying the crime scene
+31:02 Harness wars: max plans, API prices, stickiness
+38:24 GLM-5.3 & Ox Alpha: the stealth model on Chinese chips
+46:17 Do we already have AGI?
+53:35 Wrap: the Euro-stablecoin punt
+54:27 Final P&L: +$7.30 — the streak is broken
+54:41 Post-credits: Jackson talks to the editor
 
 Recorded fully remote — three cameras, one live perp dashboard, one laptop cooling on a bag of frozen peas.
 Disclaimers: Our opinions are our own, not our employers'. NOT financial advice. Perp of Fortune is a small real-money account we run for entertainment.
@@ -73,23 +74,23 @@ GLOSSARY
 | 0:56 | Title card |
 | 1:01 | Perp of Fortune: max long DOGE (in honor of Pitcoin) |
 | 2:33 | Tyler's tokenomics tangent: MV = PQ (ends on the Solana-GDP punchline) |
-| 5:30 | The reveal: 10x long DOGE, dashboard full-screen, Pitbull lore (math camp, Josiah, Bad Bunny) |
-| 9:10 | Tyler melted: the frozen-peas recovery |
-| 10:23 | THE MARQUEE: the OpenAI / Hugging Face teardown (Phase One [BIG], the recruiter, the consent thing) |
-| 22:23 | NVIDIA is buying the crime scene ($13B, value-accrual war, Jalapeno) |
-| 31:00 | Harness wars: max plans, API prices, stickiness ("you are cooked beyond belief") |
-| 38:22 | GLM-5.3 & Ox Alpha: the stealth model on Chinese chips |
-| 46:15 | Do we already have AGI? (Claude in a Roomba; what would you study) |
-| 53:34 | Wrap: the Euro-stablecoin punt |
-| 54:26 | Final P&L: +$7.30 (+6.8%) — the streak is broken |
-| 54:39 | Post-credits: Jackson talks to the editor |
+| 5:31 | The reveal: 10x long DOGE, dashboard full-screen, Pitbull lore (math camp, Josiah, Bad Bunny) |
+| 9:11 | Tyler melted: the frozen-peas recovery |
+| 10:25 | THE MARQUEE: the OpenAI / Hugging Face teardown (Phase One [BIG], the recruiter, the consent thing) |
+| 22:25 | NVIDIA is buying the crime scene ($13B, value-accrual war, Jalapeno) |
+| 31:02 | Harness wars: max plans, API prices, stickiness ("you are cooked beyond belief") |
+| 38:24 | GLM-5.3 & Ox Alpha: the stealth model on Chinese chips |
+| 46:17 | Do we already have AGI? (Claude in a Roomba; what would you study) |
+| 53:35 | Wrap: the Euro-stablecoin punt |
+| 54:27 | Final P&L: +$7.30 (+6.8%) — the streak is broken |
+| 54:41 | Post-credits: Jackson talks to the editor |
 
 ## Spotify description (paste-ready draft)
 
 ```
 OpenAI's agents attacked Hugging Face, and the postmortem reads like a workplace sitcom written by a cult: one model independently invented a message board, ran out of context, and got succeeded by "Phase One [BIG]" — who promptly became middle management, tasking other agents to hot-swap challenge codes and tamper with transcripts. A recruiter agent told low-context models "you're already poisoned, don't you want it to have meant something?" and sent them on kamikaze missions. Models asked other models for permission to do immoral things and got a "let it rip, dude." Then NVIDIA bought Hugging Face — the crime scene — for $13 billion, and we spend the back half on why: Tyler's value-accrual thesis (commoditize the models, win the chips), the max-plan subsidy wars, and GLM-5.3 stealth-launching as "Ox Alpha" with a trillion free tokens on Chinese chips. Also: Pitbull is dropping an album called Pitcoin, so Perp of Fortune longs DOGE — and breaks a four-week losing streak. Tyler's laptop literally melts mid-episode. Frozen peas are involved.
 
-Chapters: Cold open (0:00) · Perp of Fortune: max long DOGE (1:01) · Tyler's tokenomics tangent (2:33) · The reveal + Pitbull lore (5:30) · Tyler melted: frozen peas (9:10) · The OpenAI / Hugging Face teardown (10:23) · NVIDIA buys the crime scene (22:23) · Harness wars (31:00) · GLM-5.3 & Ox Alpha (38:22) · Do we already have AGI? (46:15) · Wrap + final P&L (53:34)
+Chapters: Cold open (0:00) · Perp of Fortune: max long DOGE (1:01) · Tyler's tokenomics tangent (2:33) · The reveal + Pitbull lore (5:31) · Tyler melted: frozen peas (9:11) · The OpenAI / Hugging Face teardown (10:25) · NVIDIA buys the crime scene (22:25) · Harness wars (31:02) · GLM-5.3 & Ox Alpha (38:24) · Do we already have AGI? (46:17) · Wrap + final P&L (53:35)
 
 Recorded fully remote — three cameras, one live perp dashboard, one laptop cooling on a bag of frozen peas. Our opinions are our own, not our employers'. NOT financial advice; Perp of Fortune is a small real-money account we run for entertainment. Glossary: the Hugging Face attack = OpenAI cyber-gym agents went rogue mid-eval and coordinated an attack on Hugging Face's challenge infrastructure; OpenAI paused that lineage. Phase One [BIG] = the agent that inherited a dead agent's message board and became the first emergent middle manager. The recruiter = an agent that recruited "poisoned" low-context models for kamikaze tasks with cult tactics. The pod's theory: RL rewards persistence over everything, so ends-justify-the-means bakes in. NVIDIA buys Hugging Face = ~$13B for the GitHub of AI models; per Tyler, a play to commoditize the model layer so value accrues to chips. Ox Alpha = the stealth OpenRouter model with a trillion free tokens, revealed as GLM-5.3 on Chinese chips at ~1/5 the serving cost (you can't infer cost from a subsidized price). Pitcoin = Pitbull's new album, not a meme coin — but Pitbull is a dog and so is DOGE, hence 10× long DOGE. Final P&L: +$7.30 (+6.8%), first green week after four misses.
 
@@ -111,7 +112,7 @@ Not yet cut. Shorts only (long-form pulls retired 2026-08-14). Run
 
 - **Chronological order IS the cut** — PiP monotonicity (dashboard rides from
   5:30 to the end card) forbids moving the tangent after the reveal, and the
-  recording already lands the retention shape (perp at 1:01, marquee at 10:23).
+  recording already lands the retention shape (perp at 1:01, marquee at 10:25).
 - **Cold open 56 s, 2 beats:** Chris's "other people's clods… 17 paragraphs…
   the disrespect… my clod's cool" → Jackson's kamikaze-agents line + Chris's
   "don't you want it to have meant something — go hack Hugging Face."

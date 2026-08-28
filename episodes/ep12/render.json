@@ -28,15 +28,15 @@
   {"file": "wipe.mov", "start": 30.02, "end": 30.42, "x": 0, "y": 0},
   {"file": "wipe.mov", "start": 56.153, "end": 56.553, "x": 0, "y": 0},
   {"file": "wipe.mov", "start": 60.653, "end": 61.053, "x": 0, "y": 0},
-  {"file": "wipe.mov", "start": 152.553, "end": 152.953, "x": 0, "y": 0},
-  {"file": "wipe.mov", "start": 549.987, "end": 550.387, "x": 0, "y": 0},
-  {"file": "wipe.mov", "start": 622.687, "end": 623.087, "x": 0, "y": 0},
-  {"file": "wipe.mov", "start": 1342.72, "end": 1343.12, "x": 0, "y": 0},
-  {"file": "wipe.mov", "start": 1859.887, "end": 1860.287, "x": 0, "y": 0},
-  {"file": "wipe.mov", "start": 2302.12, "end": 2302.52, "x": 0, "y": 0},
-  {"file": "wipe.mov", "start": 2775.053, "end": 2775.453, "x": 0, "y": 0},
-  {"file": "wipe.mov", "start": 3213.587, "end": 3213.987, "x": 0, "y": 0},
-  {"file": "wipe.mov", "start": 3278.82, "end": 3279.22, "x": 0, "y": 0},
-  {"file": "wipe.mov", "start": 3288.02, "end": 3288.42, "x": 0, "y": 0}
+  {"file": "wipe.mov", "start": 153.02, "end": 153.42, "x": 0, "y": 0},
+  {"file": "wipe.mov", "start": 550.453, "end": 550.853, "x": 0, "y": 0},
+  {"file": "wipe.mov", "start": 624.353, "end": 624.753, "x": 0, "y": 0},
+  {"file": "wipe.mov", "start": 1344.387, "end": 1344.787, "x": 0, "y": 0},
+  {"file": "wipe.mov", "start": 1861.553, "end": 1861.953, "x": 0, "y": 0},
+  {"file": "wipe.mov", "start": 2303.787, "end": 2304.187, "x": 0, "y": 0},
+  {"file": "wipe.mov", "start": 2776.72, "end": 2777.12, "x": 0, "y": 0},
+  {"file": "wipe.mov", "start": 3215.253, "end": 3215.653, "x": 0, "y": 0},
+  {"file": "wipe.mov", "start": 3281.153, "end": 3281.553, "x": 0, "y": 0},
+  {"file": "wipe.mov", "start": 3290.353, "end": 3290.753, "x": 0, "y": 0}
  ]
 }
