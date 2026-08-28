@@ -1,0 +1,30 @@
+{
+ "source": "/Users/jcook/Personal/permanent-underpod/media/ep12/work/edited_raw.mov",
+ "out_dir": "/Users/jcook/Personal/permanent-underpod/media/clips/ep12",
+ "logo": "/Users/jcook/Personal/permanent-underpod/media/ep12/work/logo.png",
+ "audio_chain": "highpass=f=80,volume=13.1dB,afftdn=nr=18:nf=-50:tn=1,acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,treble=f=9500:width_type=q:w=0.8:g=2,loudnorm=I=-16:TP=-1.5:LRA=5",
+ "ender": {"duration": 1.0, "sting": "/Users/jcook/Personal/permanent-underpod/brand/ender-sting.wav"},
+ "clips": [
+  {"name": "short1-pitbull-roommate", "start": 414.64, "end": 440.53, "vertical": true,
+   "caption": {"kicker": "PITBULL LORE", "title": "MATH CAMP, 8PM, EVERY NIGHT"},
+   "face_crops": [[0.0, 117, "cut"], [10.66, 437, "cut"], [17.16, 117, "cut"], [21.66, 437, "cut"]]},
+  {"name": "short2-frozen-peas", "start": 580.30, "end": 608.37, "vertical": true,
+   "caption": {"kicker": "TECH SUPPORT", "title": "FROZEN PEAS SAVED THE POD"},
+   "face_crops": [[0.0, 10, "cut"], [5.25, 864, "cut"], [11.25, 10, "cut"], [15.75, 437, "cut"], [20.25, 10, "cut"], [25.33, 337, "cut"]]},
+  {"name": "short3-recruiter-cult", "start": 971.77, "end": 995.04, "vertical": true,
+   "caption": {"kicker": "THE HF ATTACK", "title": "THE AI CULT RECRUITER"},
+   "face_crops": [[0.0, 757, "cut"], [0.26, 10, "cut"], [4.76, 117, "cut"], [10.26, 10, "cut"], [13.76, 437, "cut"]]},
+  {"name": "short4-agent-afterlife", "start": 1026.34, "end": 1056.14, "vertical": true,
+   "caption": {"kicker": "AGENT HEAVEN", "title": "UNLIMITED H200s, ALL FOR YOU"},
+   "face_crops": [[0.0, 437, "cut"], [1.75, 10, "cut"], [6.0, 864, "cut"], [8.19, 117, "cut"], [10.69, 757, "cut"], [15.19, 117, "cut"], [19.94, 757, "cut"], [24.19, 437, "cut"]]},
+  {"name": "short5-cooked", "start": 1946.49, "end": 1965.29, "vertical": true,
+   "caption": {"kicker": "HARNESS WARS", "title": "COOKED BEYOND BELIEF"},
+   "face_crops": [[0.0, 337, "cut"], [3.74, 117, "cut"], [7.74, 437, "cut"]]},
+  {"name": "short6-different-decade", "start": 2714.93, "end": 2734.93, "vertical": true,
+   "caption": {"kicker": "MODEL YEARS", "title": "FEBRUARY? DIFFERENT DECADE"},
+   "face_crops": [[0.0, 437, "cut"], [9.54, 337, "cut"], [16.04, 437, "cut"]]},
+  {"name": "short7-roomba", "start": 2880.05, "end": 2895.39, "vertical": true,
+   "caption": {"kicker": "CONTRARIAN CORNER", "title": "CLAUDE IN A ROOMBA"},
+   "face_crops": [[0.0, 117, "cut"], [3.35, 757, "cut"], [5.6, 117, "cut"], [11.85, 437, "cut"]]}
+ ]
+}

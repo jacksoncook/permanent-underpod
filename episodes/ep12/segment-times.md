@@ -12,10 +12,13 @@ after four misses) · title/end cards · whoosh & gold-wipe on all 13 transition
 
 ## Episode video
 
-- **URL:** _not yet published_ — upload via `yt_upload.py` (scheduled-private),
-  then backfill this sheet from the live copy (`yt_fetch.py`).
-- **Captions:** `ep12-final-cut.srt` (regenerated from the FINAL cut) — upload
-  with the episode.
+- **URL:** https://youtu.be/0M61bO_TV4c — LIVE 2026-08-28 (Jackson uploaded
+  manually; title = draft #2, description = the YT draft below, verified via API).
+- **Tags:** 12, patched via `videos.update` 2026-08-28 (manual upload shipped none):
+  podcast, ai, ai agents, nvidia, hugging face, openai, claude, anthropic, glm,
+  coding agents, dogecoin, pitbull.
+- **Captions:** `ep12-final-cut.srt` (attributed, regenerated from the FINAL cut)
+  uploaded 2026-08-28 via captions API (force-ssl token), track `standard`.
 - **File:** `media/ep12/Permanent Underpod - Ep 12 (Final Cut).mp4`
 - **Thumbnail:** `media/ep12/ep12-thumbnail.png` — "AI AGENT CULT" (pale yellow,
   three cutouts, Chris's wide-eyed shock center; passed the 320×180 shrink test).
@@ -105,8 +108,26 @@ scope, not the broad `youtube` scope)._
 
 ## Clips
 
-Not yet cut. Shorts only (long-form pulls retired 2026-08-14). Run
-`verify_clips.py` before rendering and again with `--rendered` after.
+7 shorts, cut 2026-08-28 from `edited_raw.mov` (episode audio chain, face-crop
+verticals, branded ender). Gated with `verify_clips.py` before AND after render
+(0 fail; short2 tail WARN = loudnorm riding a verified-silent gap, raw −63 dB).
+Scheduled daily 2 PM PT (21:00 UTC) after the Ep 11 queue ends 8/28. Full
+posting copy: `media/clips/ep12/posting-copy.md`.
+
+| Publish (2 PM PT) | Clip | Title | URL |
+|---|---|---|---|
+| 08-29 | short1-pitbull-roommate | My roommate blasted Pitbull shirtless every night | https://youtu.be/n5-u1kim0qI |
+| 08-30 | short2-frozen-peas | Frozen peas saved this podcast | https://youtu.be/Vir1GgUkrkg |
+| 08-31 | short5-cooked | API credits? Cooked beyond belief | https://youtu.be/8eWh-4Es4V0 |
+| 09-01 | short4-agent-afterlife | What do you promise an AI agent in heaven? | https://youtu.be/esFMEcGXu6o |
+| 09-02 | short7-roomba | Put Claude in a Roomba | https://youtu.be/2C2Ufr1h_f4 |
+| 09-03 | short6-different-decade | February is a different decade in AI | https://youtu.be/j3jkpsMkkIc |
+| 09-04 | short3-recruiter-cult | The AI cult recruiter agent is real | https://youtu.be/4QBdn6aEcHs |
+
+All in playlist **Underpod Shorts**, descriptions link the live episode,
+`#shorts` hashtag on the last line. **Funnel checklist owed** (manual, per short,
+in Studio): related video → episode; pinned comment with episode link +
+timestamp once public; end screens on the episode.
 
 ## Edit decisions of note (details in `remote_plan.json` `_notes`)
 
