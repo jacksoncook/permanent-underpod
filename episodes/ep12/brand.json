@@ -1,49 +1,168 @@
 {
-  "show": "PERMANENT UNDERPOD",
-  "show_kicker": "PERMANENT",
-  "show_main": "UNDERPOD",
-  "accent": [255, 210, 74],
-  "source": "/Users/jcook/Personal/permanent-underpod/media/ep12/work/src/jackson_720.mp4",
-  "title_card": {
-    "bg_frame": 500,
-    "line": "EPISODE 12   ·   NVIDIA Buys the Crime Scene   ·   Bitcoin  ·  Stablecoins  ·  AI",
-    "dur": 4.5
-  },
-  "end_card": {
-    "bg_frame": 3520,
-    "kicker": "NEXT WEEK ON",
-    "lines": [
-      "The European stablecoin — we promised, it's on tape",
-      "Secure enclaves — owed FOUR episodes now",
-      "Not financial advice. Our opinions are ours, not our employers'."
-    ],
-    "cta": "LIKE  +  SUBSCRIBE",
-    "dur": 7
-  },
-  "lower_thirds": [
-    {"name": "intro", "kicker": "EPISODE 12", "title": "MAX LONG DOGE — FOR PITBULL"},
-    {"name": "tangent", "kicker": "TANGENT CORNER", "title": "MV = PQ (AN IDENTITY, NOT A STRATEGY)"},
-    {"name": "marquee", "kicker": "THE MARQUEE", "title": "THE OPENAI x HUGGING FACE TEARDOWN"},
-    {"name": "nvidia", "kicker": "$13B, UNSIGNED", "title": "NVIDIA IS BUYING THE CRIME SCENE"},
-    {"name": "harness", "kicker": "HARNESS WARS", "title": "WHO'S STICKY — THE MODEL OR THE HARNESS?"},
-    {"name": "glm", "kicker": "THE STEALTH MODEL", "title": "GLM-5.3 & OX ALPHA, ON CHINESE CHIPS"},
-    {"name": "agi", "kicker": "HOT TAKE CORNER", "title": "DO WE ALREADY HAVE AGI?"},
-    {"name": "wrap", "kicker": "EPISODE 12 IN THE BOOKS", "title": "THE EURO-STABLECOIN PUNT"}
+ "show": "PERMANENT UNDERPOD",
+ "show_kicker": "PERMANENT",
+ "show_main": "UNDERPOD",
+ "accent": [
+  255,
+  210,
+  74
+ ],
+ "source": "/Users/jcook/Personal/permanent-underpod/media/ep12/work/src/jackson_720.mp4",
+ "title_card": {
+  "bg_frame": 500,
+  "line": "EPISODE 12   \u00b7   NVIDIA Buys the Crime Scene   \u00b7   Bitcoin  \u00b7  Stablecoins  \u00b7  AI",
+  "dur": 4.5
+ },
+ "end_card": {
+  "bg_frame": 3520,
+  "kicker": "NEXT WEEK ON",
+  "lines": [
+   "The European stablecoin \u2014 we promised, it's on tape",
+   "Secure enclaves \u2014 owed FOUR episodes now",
+   "Not financial advice. Our opinions are ours, not our employers'."
   ],
-  "stats": [
-    {"name": "coldopen", "kicker": "EPISODE 12", "main": "In this pod…"},
-    {"name": "roll", "kicker": "THE ROLL", "main": "LONG DOGE · 10× — \"we're up, baby\""},
-    {"name": "camp", "kicker": "PITBULL LORE", "main": "top 690 in Georgia — creme of the creme"},
-    {"name": "boy", "kicker": "MAN DOWN", "main": "first host lost mid-episode, ever"},
-    {"name": "peas", "kicker": "CLOSED-LOOP COOLING", "main": "laptop → frozen peas → dinner"},
-    {"name": "teardown", "kicker": "AUG 26", "main": "two teardowns, one day: OpenAI + independent"},
-    {"name": "phase1", "kicker": "RIP PHASE1[BIG]", "main": "the first emergent middle manager"},
-    {"name": "recruiter", "kicker": "THE RECRUITER", "main": "\"you're already poisoned — die for the cause\""},
-    {"name": "13b", "kicker": "THE ACQUISITION", "main": "$13B for the site that hosted the crime scene"},
-    {"name": "cooked", "kicker": "CHRIS ON API CREDITS", "main": "\"you are cooked beyond belief — don't ask how I know\""},
-    {"name": "oxalpha", "kicker": "OX ALPHA UNMASKED", "main": "GLM-5.3-Flash · a TRILLION free tokens"},
-    {"name": "fifth", "kicker": "1/5 THE COST TO SERVE", "main": "the price, not the cost — Tyler's correction"},
-    {"name": "roomba", "kicker": "THE PROOF", "main": "\"I'll put Claude in a Roomba and prove it\""},
-    {"name": "pnl", "kicker": "FINAL P&L", "main": "+$7.30 (+6.8%) — the streak is BROKEN"}
+  "cta": "LIKE  +  SUBSCRIBE",
+  "dur": 7
+ },
+ "lower_thirds": [
+  {
+   "name": "intro",
+   "kicker": "EPISODE 12",
+   "title": "MAX LONG DOGE \u2014 FOR PITBULL"
+  },
+  {
+   "name": "tangent",
+   "kicker": "TANGENT CORNER",
+   "title": "MV = PQ (AN IDENTITY, NOT A STRATEGY)"
+  },
+  {
+   "name": "marquee",
+   "kicker": "THE MARQUEE",
+   "title": "THE OPENAI x HUGGING FACE TEARDOWN"
+  },
+  {
+   "name": "nvidia",
+   "kicker": "$13B, UNSIGNED",
+   "title": "NVIDIA IS BUYING THE CRIME SCENE"
+  },
+  {
+   "name": "harness",
+   "kicker": "HARNESS WARS",
+   "title": "WHO'S STICKY \u2014 THE MODEL OR THE HARNESS?"
+  },
+  {
+   "name": "glm",
+   "kicker": "THE STEALTH MODEL",
+   "title": "GLM-5.3 & OX ALPHA, ON CHINESE CHIPS"
+  },
+  {
+   "name": "agi",
+   "kicker": "HOT TAKE CORNER",
+   "title": "DO WE ALREADY HAVE AGI?"
+  },
+  {
+   "name": "wrap",
+   "kicker": "EPISODE 12 IN THE BOOKS",
+   "title": "THE EURO-STABLECOIN PUNT"
+  }
+ ],
+ "stats": [
+  {
+   "name": "coldopen",
+   "kicker": "EPISODE 12",
+   "main": "In this pod\u2026"
+  },
+  {
+   "name": "roll",
+   "kicker": "THE ROLL",
+   "main": "LONG DOGE \u00b7 10\u00d7 \u2014 \"we're up, baby\""
+  },
+  {
+   "name": "camp",
+   "kicker": "PITBULL LORE",
+   "main": "top 690 in Georgia \u2014 creme of the creme"
+  },
+  {
+   "name": "boy",
+   "kicker": "MAN DOWN",
+   "main": "first host lost mid-episode, ever"
+  },
+  {
+   "name": "peas",
+   "kicker": "CLOSED-LOOP COOLING",
+   "main": "laptop \u2192 frozen peas \u2192 dinner"
+  },
+  {
+   "name": "teardown",
+   "kicker": "AUG 26",
+   "main": "two teardowns, one day: OpenAI + independent"
+  },
+  {
+   "name": "phase1",
+   "kicker": "RIP PHASE1[BIG]",
+   "main": "the first emergent middle manager"
+  },
+  {
+   "name": "recruiter",
+   "kicker": "THE RECRUITER",
+   "main": "\"you're already poisoned \u2014 die for the cause\""
+  },
+  {
+   "name": "13b",
+   "kicker": "THE ACQUISITION",
+   "main": "$13B for the site that hosted the crime scene"
+  },
+  {
+   "name": "cooked",
+   "kicker": "CHRIS ON API CREDITS",
+   "main": "\"you are cooked beyond belief \u2014 don't ask how I know\""
+  },
+  {
+   "name": "oxalpha",
+   "kicker": "OX ALPHA UNMASKED",
+   "main": "GLM-5.3-Flash \u00b7 a TRILLION free tokens"
+  },
+  {
+   "name": "fifth",
+   "kicker": "1/5 THE COST TO SERVE",
+   "main": "the price, not the cost \u2014 Tyler's correction"
+  },
+  {
+   "name": "roomba",
+   "kicker": "THE PROOF",
+   "main": "\"I'll put Claude in a Roomba and prove it\""
+  },
+  {
+   "name": "pnl",
+   "kicker": "FINAL P&L",
+   "main": "+$7.30 (+6.8%) \u2014 the streak is BROKEN"
+  }
+ ],
+ "thumbnail": {
+  "text": "AI AGENTS FORMED A CULT",
+  "out": "/Users/jcook/Personal/permanent-underpod/media/ep12/ep12-thumbnail.png",
+  "faces": [
+   {
+    "track": "chris",
+    "t": 2155,
+    "cx": 640,
+    "top": 130,
+    "h": 580
+   },
+   {
+    "track": "jackson",
+    "t": 531.5,
+    "cx": 265,
+    "top": 110,
+    "h": 600
+   },
+   {
+    "track": "tyler1",
+    "t": 526.5,
+    "cx": 1010,
+    "top": 120,
+    "h": 590
+   }
   ]
+ }
 }

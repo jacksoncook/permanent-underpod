@@ -28,6 +28,11 @@ The mechanical work is automated; your job is the three JSON decision documents.
 4. python3 scripts/cut_render.py <workdir> plan.json # clips -> concat -> edited_raw.mov + overlays.json + sheet.md
 5. python3 scripts/final_render.py <workdir> render.json --test=75   # ALWAYS test-render the head first
    # verify frames of test_head.mp4 (title card, lower third, logo bug), then run without --test
+6. <workdir>/.venv/bin/python scripts/thumbnail.py <workdir> brand.json   # episode thumbnail — MANDATORY
+   # (packaging is a launch-day gate). Driven by brand.json "thumbnail": you pick 3 expressive
+   # frames (extract a candidate contact sheet and LOOK — shock/laugh beats neutral) + an
+   # ALL-CAPS hook (~18-28 chars, complements the title, doesn't repeat it). Cutouts via macOS
+   # Vision (scripts/cutout.swift, auto-compiled). ALWAYS eyeball the 320x180 shrink-test it writes.
 ```
 
 The LLM judgment lives in: segment order + boundaries (from the transcript), teaser
@@ -338,6 +343,8 @@ apply. Use the `remote_*.py` scripts instead of `analyze.sh`/`cut_render.py`:
 8. final_render.py <work> render.json --test=75   # picks up pip.json automatically
 9. remote_attribute.py <work> <final.srt> episodes/epN/transcript-attributed
    # person-attributed SRT+MD for the FINAL cut (deliverable, like the plain SRT)
+9b. thumbnail.py <work> brand.json           # episode thumbnail — MANDATORY (see step 6
+   # of the single-cam pipeline for the picking rules; "track" = sources.json track name)
 10. remote_face_crops.py <work> <final_start> <final_end>   # per-clip, for clipify
    # prints the "face_crops" array for one vertical short; then GATE the clips.json
    # with clipify's scripts/verify_clips.py before rendering (see the crop rule below)
