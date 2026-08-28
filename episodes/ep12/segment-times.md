@@ -110,18 +110,17 @@ scope, not the broad `youtube` scope)._
 
 7 shorts, cut 2026-08-28 from `edited_raw.mov` (episode audio chain, face-crop
 verticals, branded ender). Gated with `verify_clips.py` before AND after render
-(0 fail). short2 + short5 re-cut same day on Jackson's review (Tyler leads the
-peas story and finishes "cooks your peas into dinner"; Chris leads "cooked" —
-Tyler's macro-trend lead cut) — old video ids deleted, NEW urls below. short2's
-in-point carries a declared `verify_override` (no −55 dB gap exists; flat −31 dB
-ambience trough, word-level whisper verified). Scheduled daily 2 PM PT
+(0 fail). short2 + short5 re-cut same day on Jackson's review (short2 v3 opens on
+Tyler's "put my laptop on a…" and finishes "cooks your peas into dinner";
+short5 opens on Chris — Tyler's macro-trend lead cut) — old video ids deleted,
+NEW urls below. Final gate: 0 fail / 0 warn, no overrides. Scheduled daily 2 PM PT
 (21:00 UTC) after the Ep 11 queue ends 8/28. Full posting copy:
 `media/clips/ep12/posting-copy.md`.
 
 | Publish (2 PM PT) | Clip | Title | URL |
 |---|---|---|---|
 | 08-29 | short1-pitbull-roommate | My roommate blasted Pitbull shirtless every night | https://youtu.be/n5-u1kim0qI |
-| 08-30 | short2-frozen-peas | Frozen peas saved this podcast | https://youtu.be/xXrxEJIFT9I |
+| 08-30 | short2-frozen-peas | Frozen peas saved this podcast | https://youtu.be/h0TGLHyoC8E |
 | 08-31 | short5-cooked | API credits? Cooked beyond belief | https://youtu.be/h6ftF6tkO54 |
 | 09-01 | short4-agent-afterlife | What do you promise an AI agent in heaven? | https://youtu.be/esFMEcGXu6o |
 | 09-02 | short7-roomba | Put Claude in a Roomba | https://youtu.be/2C2Ufr1h_f4 |
