@@ -247,8 +247,9 @@ if AUDIO_ONLY:
     pass                                     # no video graph at all
 elif logo:
     hide = "*".join(
-        f"not(between(t,{blk_start(b):.2f},{blk_start(b)+next(c['dur'] for c in clips if c['block']==b):.2f}))"
-        for b in logo.get("hide_during", []))
+        [f"not(between(t,{blk_start(b):.2f},{blk_start(b)+next(c['dur'] for c in clips if c['block']==b):.2f}))"
+         for b in logo.get("hide_during", [])]
+        + [f"not(between(t,{a['start']},{a['end']}))" for a in anims if a.get("hide_logo")])
     f.append(f"[{i_logo}:v]format=rgba,scale={logo.get('width',170)}:-1,"
              f"colorchannelmixer=aa={logo.get('alpha',0.8)}[bug]")
     f.append(f"{cur}[bug]overlay=x=36:y=28:eof_action=pass"

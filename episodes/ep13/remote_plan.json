@@ -16,10 +16,9 @@
   "  right after 'no reviews, no money' and before 'if the definition of AGI is can it make me",
   "  money… the answer is no today'. ending.mov ('up six percent, shout out to Solana') runs",
   "  after 'Peace.' as the final beat before the end card.",
-  "SPAGHETTI card: Jackson on tape at 1000 'I might insert one [Will Smith spaghetti video] that",
   "  I make with Gemini right after that' — no clip was provided, so a 3 s editor's card covers",
-  "  the promise instead of leaving it dangling (liberty per Jackson's 'take liberties').",
   "ON-TAPE EDIT INSTRUCTIONS OBEYED: 341 'Cut the cough, Claude' (337.13->344.08 drops the cough",
+  "SPAGHETTI insert: Jackson on tape at 1000 'I might insert one [Will Smith spaghetti video] that I make with Gemini right after that' — media/ep13/generate_a_video_of_this_dude.mp4 (10 s, Gemini-Chris eating spaghetti) slots in at the 1007.48 gap. (v1 shipped an editor's card because the file arrived after the render.)",
   "  + the instruction); 1022 'Claude cut this by the way' (1007.48->1029.41 drops the 'is there",
   "  anything else on the paper' deliberation); 1891 'AI cut that segment where I was just",
   "  wondering what we talked about' (1869.82->1895.55).",
@@ -39,7 +38,8 @@
   "  employer names in kept spans. No BTC price/ETF talk.",
   "face_cx from src frames: jackson 660, chris 715. All boundaries RMS-envelope gated via",
   "  check_bounds.py; every cut edge micro-whispered.",
-  "DEAD AIR: two-host episode has almost no >=2 s silences (9 gaps, 0.3 min), so the cutter runs tighter here: dead_air_min 1.4 / keep 0.5 / net 0.8 (new remote_cutlist.py params, defaults unchanged) — 28 pauses, ~0.7 min removed."
+  "DEAD AIR: two-host episode has almost no >=2 s silences (9 gaps, 0.3 min), so the cutter runs tighter here: dead_air_min 1.4 / keep 0.5 / net 0.8 (new remote_cutlist.py params, defaults unchanged) — 28 pauses, ~0.7 min removed.",
+  "LEVELS OF AGI DOC OVERLAY (Jackson's aiLevels.png): five document-over-video windows in S4/S6 (final 479.7-497.7 ChatGPT=Emerging AGI; 508.7-528.7 Level 2; 566.7-587.7 Level 5 -> Level 4; 626.7-668.7 AlphaFold -> Exceptional AGI not yet -> Level 3; 2094.8-2102.5 'expert AGI' callback) built by episodes/ep13/build_levels.py, scheduled as render.json anim with hide_logo. Replaced the st_levels/st_level4/st_narrow callouts, which would have sat under the scrim."
  ],
  "blocks": [
   {
@@ -78,7 +78,8 @@
   },
   {
    "id": "SPAGHETTI",
-   "card": "card_spaghetti.mov"
+   "insert": "/Users/jcook/Personal/permanent-underpod/media/ep13/generate_a_video_of_this_dude.mp4",
+   "attr": "Gemini"
   },
   {
    "id": "S5",
@@ -251,27 +252,6 @@
    "m": 288.3,
    "dur": 6,
    "kind": "lt"
-  },
-  {
-   "name": "st_levels",
-   "block": "S4",
-   "m": 438.0,
-   "dur": 8,
-   "kind": "st"
-  },
-  {
-   "name": "st_level4",
-   "block": "S4",
-   "m": 528.0,
-   "dur": 8,
-   "kind": "st"
-  },
-  {
-   "name": "st_narrow",
-   "block": "S4",
-   "m": 590.0,
-   "dur": 8,
-   "kind": "st"
   },
   {
    "name": "st_lawyers",
@@ -600,7 +580,7 @@
   },
   {
    "block": "SPAGHETTI",
-   "label": "The Will Smith spaghetti insert"
+   "label": "The Will Smith spaghetti video (Gemini-Chris edition)"
   },
   {
    "block": "S5",

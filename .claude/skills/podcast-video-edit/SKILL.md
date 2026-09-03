@@ -267,6 +267,8 @@ the user noticed. Enumerate the transition block list ONCE and write both arrays
   alpha, 12 frames @ 30 fps) peaks at only ~12.6% screen coverage around t≈0.18 — it is
   a decorative gold accent bar, NOT a masking transition, so line its peak up with the
   splice or it just looks like a stray graphic.
+- `anim` entries also carry document-style overlays (a dimmed frame + a paper table, Ep 13's
+  `levels_*.mov`); give those `"hide_logo": true` so the corner bug drops out for the window.
 - Verify by counting, not by eye: `len(anim) == len(sfx) == len(transition blocks)`, then
   spot-check frames at 2–3 `anim` start times in the finished mp4.
 

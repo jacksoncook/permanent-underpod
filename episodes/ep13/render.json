@@ -9,8 +9,7 @@
   "alpha": 0.8,
   "hide_during": [
    "CARD_TITLE",
-   "CARD_END",
-   "SPAGHETTI"
+   "CARD_END"
   ]
  },
  "sfx": [
@@ -135,43 +134,43 @@
   },
   {
    "file": "wipe.mov",
-   "start": 1051.42,
-   "end": 1051.82,
+   "start": 1058.02,
+   "end": 1058.42,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 1874.62,
-   "end": 1875.02,
+   "start": 1881.22,
+   "end": 1881.62,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 2096.253,
-   "end": 2096.653,
+   "start": 2102.853,
+   "end": 2103.253,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 2464.22,
-   "end": 2464.62,
+   "start": 2470.82,
+   "end": 2471.22,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 2676.82,
-   "end": 2677.22,
+   "start": 2683.42,
+   "end": 2683.82,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 3176.353,
-   "end": 3176.753,
+   "start": 3182.953,
+   "end": 3183.353,
    "x": 0,
    "y": 0
   },
@@ -184,10 +183,50 @@
   },
   {
    "file": "likesub.mov",
-   "start": 3118.303,
-   "end": 3124.303,
+   "start": 3124.903,
+   "end": 3130.903,
    "x": 0,
    "y": 0
+  },
+  {
+   "file": "levels_W1.mov",
+   "start": 479.68,
+   "end": 497.68,
+   "x": 0,
+   "y": 0,
+   "hide_logo": true
+  },
+  {
+   "file": "levels_W2.mov",
+   "start": 508.68,
+   "end": 528.68,
+   "x": 0,
+   "y": 0,
+   "hide_logo": true
+  },
+  {
+   "file": "levels_W3.mov",
+   "start": 566.66,
+   "end": 587.66,
+   "x": 0,
+   "y": 0,
+   "hide_logo": true
+  },
+  {
+   "file": "levels_W4.mov",
+   "start": 626.66,
+   "end": 668.66,
+   "x": 0,
+   "y": 0,
+   "hide_logo": true
+  },
+  {
+   "file": "levels_W5.mov",
+   "start": 2094.83,
+   "end": 2102.5,
+   "x": 0,
+   "y": 0,
+   "hide_logo": true
   }
  ]
 }

@@ -703,1509 +703,1337 @@ Jackson: a video Bill Smith eating spaghetti better than 25% of skilled humans t
 Jackson: videos are so good I might insert one money that I make with Jim and I like
 
 177
-00:17:24,160 --> 00:17:34,080
-Insert: right after that yeah for sure I guess like the the difference between the
+00:17:24,160 --> 00:17:40,680
+Gemini: right after that yeah I guess like the difference between this
 
 178
-00:17:34,080 --> 00:17:39,040
-Chris: systems being argumentative and autonomous right it's like the difference
+00:17:40,680 --> 00:17:45,360
+Chris: systems being argumentative and autonomous right it's like the
 
 179
-00:17:39,040 --> 00:17:45,000
-Chris: between needing you know the system makes you like a like a super skilled
+00:17:45,360 --> 00:17:51,400
+Chris: difference between needing you know the system makes you like a like a super
 
 180
-00:17:45,000 --> 00:17:49,840
-Chris: knowledge worker versus like the the system is operating on its own I mean
+00:17:51,400 --> 00:17:55,440
+Chris: skilled knowledge worker versus like the the system is operating on its own I
 
 181
-00:17:49,840 --> 00:17:56,440
-Chris: like where where are we on that line because I kind of I kind of like today
+00:17:55,440 --> 00:18:02,720
+Chris: mean like where where are we on that line because I kind of I kind of like
 
 182
-00:17:56,440 --> 00:18:03,080
-Chris: will feel like I want to give fable 5.1 the reins completely and see what
+00:18:02,720 --> 00:18:09,560
+Chris: today will feel like I want to give fable 5.1 the rains completely and see
 
 183
-00:18:03,080 --> 00:18:08,960
-Chris: happens I'm like I'm not I I don't know I'm getting more and more confident quick
+00:18:09,560 --> 00:18:13,800
+Chris: what happens I'm like I'm not I I don't know I'm getting more and more
 
 184
-00:18:08,960 --> 00:18:14,400
-Jackson: anecdote I did try something new yesterday where I was making a change to
+00:18:13,800 --> 00:18:20,200
+Jackson: confident quick anecdote I did try something new yesterday where I was
 
 185
-00:18:14,400 --> 00:18:20,760
-Jackson: a web page and I was like make the change and give me a video of before and
+00:18:20,200 --> 00:18:26,080
+Jackson: making a change to a web page and I was like make the change and give me a video
 
 186
-00:18:20,760 --> 00:18:25,760
-Jackson: after and I did like that's all I said and it produced the videos it didn't even
+00:18:26,080 --> 00:18:31,240
+Jackson: of before and after and I did like that's all I said and it produced the
 
 187
-00:18:25,760 --> 00:18:29,840
-Jackson: oh I was like playing on my computer I never saw the screens open so it was
+00:18:31,240 --> 00:18:35,080
+Jackson: videos it didn't even oh I was like playing on my computer I never saw the
 
 188
-00:18:29,840 --> 00:18:34,480
-Jackson: like rendering them you know on its own oh my god recording like this rendering
+00:18:35,080 --> 00:18:39,600
+Jackson: screens open so it was like rendering them you know on its own oh my god
 
 189
-00:18:34,480 --> 00:18:41,520
-Jackson: yeah yeah I'm still trying to verify stuff but I'm trying to like do the
+00:18:39,600 --> 00:18:46,480
+Jackson: recording like this rendering yeah so I'm still trying to verify stuff but I'm
 
 190
-00:18:41,520 --> 00:18:47,600
-Chris: least to verify stuff a friend of mine also reached out to me about grok bot
+00:18:46,480 --> 00:18:52,560
+Jackson: trying to like do the least to verify stuff a friend of mine also reached out
 
 191
-00:18:47,600 --> 00:18:52,360
-Chris: and when he did I was like very skeptical but basically like the premise
+00:18:52,560 --> 00:18:58,040
+Chris: to me about grok bot and when he did I was like very skeptical but basically
 
 192
-00:18:52,360 --> 00:18:55,840
-Chris: of it like the screenshot he showed me is that like each agent gets its own VM
+00:18:58,040 --> 00:19:01,000
+Chris: like the premise of it like the screenshot he showed me is that like each
 
 193
-00:18:55,840 --> 00:19:00,400
-Chris: with like a screen and can like interact with the user interface itself to like
+00:19:01,000 --> 00:19:05,720
+Chris: agent gets its own VM with like a screen and can like interact with the user
 
 194
-00:19:00,400 --> 00:19:07,280
-Chris: achieve tasks he told me he was doing it to using it to order groceries which is
+00:19:05,720 --> 00:19:11,000
+Chris: interface itself to like achieve tasks he told me he was doing it to using it
 
 195
-00:19:07,280 --> 00:19:13,120
-Chris: like I think a callback to last episode of the episode before but yeah I think
+00:19:11,000 --> 00:19:16,040
+Chris: to order groceries which is like I think a call back to last episode of the
 
 196
-00:19:13,120 --> 00:19:17,920
-Chris: like that's I think to me that's getting closer to autonomous for sure and just
+00:19:16,040 --> 00:19:21,640
+Chris: episode before but yeah I think like that's I think to me that's getting
 
 197
-00:19:17,920 --> 00:19:22,360
-Chris: like having the AI adopt your rails rather than you know creating MCPs and
+00:19:21,640 --> 00:19:26,720
+Chris: closer to autonomous for sure and just like having the AI adopt your rails
 
 198
-00:19:22,360 --> 00:19:29,960
-Jackson: yeah yeah I think the MCP thing we're like we're just under estimating the
+00:19:26,720 --> 00:19:34,520
+Jackson: rather than you know trading MCPs and yeah yeah I think the MCP thing we like
 
 199
-00:19:29,960 --> 00:19:34,760
-Jackson: pace of progress and that was a huge huge waste of time actually yeah quick
+00:19:34,520 --> 00:19:39,800
+Jackson: we're just under estimating the pace of progress and that was a huge huge waste
 
 200
-00:19:34,760 --> 00:19:39,800
-Jackson: post-mortem on MCPs waste of time Wow you're declaring a debt that's crazy
+00:19:39,800 --> 00:19:45,680
+Jackson: actually yeah quick postmortem on MCPs waste of time Wow you're declaring a debt
 
 201
-00:19:39,800 --> 00:19:45,840
-Chris: post-mortem okay damn waste of time yeah I I don't disagree I don't disagree I
+00:19:45,680 --> 00:19:51,840
+Chris: that's crazy postmortem okay damn waste of time yeah I I don't disagree I don't
 
 202
-00:19:45,840 --> 00:19:51,680
-Jackson: made one I made one to try to like impress you know do good at my job they
+00:19:51,840 --> 00:19:57,560
+Jackson: disagree I made one I made one to try to like impress you know do good at my job
 
 203
-00:19:51,680 --> 00:19:56,880
-Jackson: loved it and it was a waste of time I wasted my time I used one that I built
+00:19:57,560 --> 00:20:03,440
+Jackson: they loved it and it was a waste of time I wasted my time I use one that I built
 
 204
-00:19:56,880 --> 00:20:01,920
+00:20:03,440 --> 00:20:08,560
 Chris: every day but realistically it could have just been I think like the the
 
 205
-00:20:01,920 --> 00:20:06,960
+00:20:08,560 --> 00:20:13,560
 Chris: value in it was like creating a program that the LLM can use safely not like the
 
 206
-00:20:06,960 --> 00:20:13,080
+00:20:13,560 --> 00:20:19,680
 Jackson: actual MCP interface you know are you talking about the money thing that you
 
 207
-00:20:13,080 --> 00:20:19,560
-Chris: made yes what is that sigil the the signer the crypto signer sigil yeah it
+00:20:19,680 --> 00:20:26,320
+Chris: made yes what is a sigil the the sign out of crypto sign on sigil yeah it almost
 
 208
-00:20:19,560 --> 00:20:24,820
-Jackson: almost feels like it's just its own it should either be its own service so what
+00:20:26,320 --> 00:20:31,580
+Jackson: feels like it's just its own it should either be its own service so what Chris
 
 209
-00:20:24,820 --> 00:20:29,560
-Jackson: Chris is talking about it's like like agentic budget I believe and like a way
+00:20:31,580 --> 00:20:36,160
+Jackson: is talking about is like like a agentic budget I believe and like a way to
 
 210
-00:20:29,560 --> 00:20:34,120
-Jackson: to agentically spend some amount of money yeah like that sounds like it
+00:20:36,160 --> 00:20:40,880
+Jackson: agentically spend some amount of money and like that sounds like it should
 
 211
-00:20:34,120 --> 00:20:38,440
-Jackson: should either be it like its own little service actually it just sounds like it
+00:20:40,880 --> 00:20:45,120
+Jackson: either be it like its own little service actually it just sounds like it should
 
 212
-00:20:38,440 --> 00:20:41,200
-Jackson: should be its own little service not even if literally you want it that's the
+00:20:45,120 --> 00:20:47,960
+Jackson: be its own little service not even a literally you want it that's the thing
 
 213
-00:20:41,200 --> 00:20:44,520
-Chris: thing it it literally is it's like a separate process on your machine that
+00:20:47,960 --> 00:20:51,680
+Chris: it it literally is it's like a separate process on your machine that holds your
 
 214
-00:20:44,520 --> 00:20:48,760
-Chris: holds your crypto keys so you can like spend stablecoins or whatever like it
+00:20:51,680 --> 00:20:56,020
+Chris: crypto keys so you can like spend stable coins or whatever like it already is so
 
 215
-00:20:48,760 --> 00:20:53,200
-Chris: already is so I don't know like the MCP is just like that thin interface that
+00:20:56,020 --> 00:21:00,440
+Chris: I don't know like the MCP is just like that thin interface that allows the
 
 216
-00:20:53,200 --> 00:20:58,320
-Chris: allows the language model like pushes it into the prompt but if it's just a
+00:21:00,440 --> 00:21:05,520
+Chris: language model like pushes it into the prompt but if it's just a service with
 
 217
-00:20:58,320 --> 00:21:04,320
-Jackson: service with API's the today they will 5.6 to figure it out it wouldn't be like
+00:21:05,520 --> 00:21:10,720
+Jackson: API's the today they will five points like to figure it out it wouldn't be
 
 218
-00:21:04,320 --> 00:21:08,680
-Chris: I need this MCP yeah that's what I'm saying like oh that bit that bit is
+00:21:10,720 --> 00:21:15,280
+Chris: like I need this MCP yeah that's what I'm saying like that bit that bit is
 
 219
-00:21:08,680 --> 00:21:15,600
+00:21:15,280 --> 00:21:22,200
 Chris: totally like it can get in there and work it out so yeah yeah so MCPs are
 
 220
-00:21:15,600 --> 00:21:23,480
-Jackson: dead maybe skills continue do you skills a lot yeah I use skill I mean I make
+00:21:22,200 --> 00:21:30,340
+Jackson: dead maybe skills continue do you skills look yeah I use skill I mean I make them
 
 221
-00:21:23,480 --> 00:21:28,040
-Jackson: them because I don't want to repeat myself basically it's kind of like
+00:21:30,340 --> 00:21:35,200
+Jackson: because I don't want to repeat myself basically it's kind of like getting the
 
 222
-00:21:28,040 --> 00:21:31,920
-Jackson: getting the AI to write the prompts that you've just given it so you don't have
+00:21:35,200 --> 00:21:38,920
+Jackson: AI to write the prompts that you've just given it so you don't have to give them
 
 223
-00:21:31,920 --> 00:21:39,200
-Jackson: to give them again and like as I've mentioned before I I edit the podcast
+00:21:38,920 --> 00:21:48,080
+Jackson: again and like as I've mentioned before I I edit the podcast with with AI so I
 
 224
-00:21:39,200 --> 00:21:45,420
-Jackson: with with AI so I have like a AI edit skill I have like a tennis video edit
+00:21:48,080 --> 00:21:54,200
+Jackson: have like an AI edit skill I have like a tennis video edit skill just things
 
 225
-00:21:45,420 --> 00:21:50,920
-Jackson: skill just things that like permit me from having to repeat myself basically
+00:21:54,200 --> 00:21:58,320
+Jackson: that like permit me from having to repeat myself basically so skills live
 
 226
-00:21:50,920 --> 00:21:56,640
-Jackson: so skills live on skills live on Chris the skills live on yes but I don't know
+00:21:58,320 --> 00:22:04,440
+Jackson: on skills live on Chris the skills live on yes but I don't know what my guys
 
 227
-00:21:56,640 --> 00:22:00,960
-Chris: what my guys skills are I just like sometimes we'll be like hey never do
+00:22:04,440 --> 00:22:08,560
+Chris: skills are I just like sometimes we'll be like hey never do this ever again or
 
 228
-00:22:00,960 --> 00:22:04,200
-Chris: this ever again or I'm gonna freak out and I think it writes a skill but I
+00:22:08,560 --> 00:22:13,560
+Chris: I'm gonna freak out and then I think it writes a skill but I don't know I think
 
 229
-00:22:04,200 --> 00:22:10,080
-Jackson: don't know I think that's what it writes to like it's setting file so it's got
+00:22:13,560 --> 00:22:17,600
+Jackson: that's when it writes to like its settings file so it's got like because I
 
 230
-00:22:10,080 --> 00:22:15,640
-Jackson: like a because I get kind of into them because if it doesn't update the right
+00:22:17,600 --> 00:22:22,960
+Jackson: get kind of into them because if it doesn't update the right thing sometimes
 
 231
-00:22:15,640 --> 00:22:19,960
-Jackson: thing sometimes it doesn't update the right thing it won't listen to you so
+00:22:22,960 --> 00:22:27,000
+Jackson: it doesn't update the right thing it won't listen to you so you have to like
 
 232
-00:22:19,960 --> 00:22:22,880
-Jackson: you have to like make sure it's like okay did you write this to our settings
+00:22:27,000 --> 00:22:31,000
+Jackson: make sure it's like okay did you write this to our settings or you know I'm
 
 233
-00:22:22,880 --> 00:22:27,680
-Jackson: or you know I'm like when will you see this like on boot you know I'm like just
+00:22:31,000 --> 00:22:34,840
+Jackson: like when will you see this like on boot you know I'm like just checking it I'm
 
 234
-00:22:27,680 --> 00:22:32,820
-Jackson: checking in like don't don't yeah I'm with you yeah I'm with you it does that
+00:22:34,840 --> 00:22:39,640
+Jackson: like don't don't yeah normally I'm with you yeah I'm with you it does that to me
 
 235
-00:22:32,820 --> 00:22:38,560
-Chris: to me too but I construct that as like oppositional defiant disorder like the
+00:22:39,640 --> 00:22:45,160
+Chris: too but I construct that as like oppositional defiant disorder like the
 
 236
-00:22:38,560 --> 00:22:42,760
+00:22:45,160 --> 00:22:49,360
 Chris: LLM has an inner world and it doesn't like me but maybe it's just confidence
 
 237
-00:22:42,760 --> 00:22:50,440
+00:22:49,360 --> 00:22:57,040
 Jackson: I don't know so we've read the epitaph on MCPs we say that skills live on but
 
 238
-00:22:50,440 --> 00:22:54,000
+00:22:57,040 --> 00:23:00,600
 Jackson: then again maybe we shouldn't even use skills you should get them to write
 
 239
-00:22:54,000 --> 00:22:57,480
-Jackson: their own skills I guess they are writing the own skills anyways what was
+00:23:00,600 --> 00:23:04,160
+Jackson: their own skills I guess they are right in the own skills anyways what was the
 
 240
-00:22:57,480 --> 00:23:03,880
-Jackson: the last time you opened a text editor let's be on to write like cuz I
+00:23:04,160 --> 00:23:11,160
+Jackson: last time you opened a text editor let's be on to write like cuz I sometimes I
 
 241
-00:23:03,880 --> 00:23:09,600
-Chris: sometimes I write like a doc or like a blog post that's the only time like to
+00:23:11,160 --> 00:23:18,160
+Chris: write like a doc or like a blog post that's the only time like to use LaTeX
 
 242
-00:23:09,600 --> 00:23:16,000
-Chris: use LaTeX yeah I don't even know if I could type anymore I've been doing the
+00:23:18,160 --> 00:23:22,960
+Jackson: yeah I don't even know if I could type anymore I've been doing the whisper a
 
 243
-00:23:16,000 --> 00:23:22,560
-Chris: whisper a lot too oh my gosh you're completely you're completely out of the
+00:23:22,960 --> 00:23:30,200
+Chris: lot too oh my gosh you're completely you're completely out of the crazy yeah
 
 244
-00:23:22,560 --> 00:23:26,120
-Jackson: crazy yeah I've been getting kind of scared I've been like what I've
+00:23:30,200 --> 00:23:33,360
+Jackson: I've been getting kind of scared I've been like what I've mentioned before on
 
 245
-00:23:26,120 --> 00:23:30,120
-Jackson: mentioned before in the pod I've been trying to decrease my span and I'm like
+00:23:33,360 --> 00:23:38,880
+Jackson: the part I've been trying to decrease my span and I'm like okay I mean people
 
 246
-00:23:30,120 --> 00:23:35,800
-Jackson: okay I mean people have warned me that my skills might atrophy and I'm like okay
+00:23:38,880 --> 00:23:45,360
+Jackson: have warned me that my skills might atrophy and I'm like okay how do I how
 
 247
-00:23:35,800 --> 00:23:44,480
-Jackson: how do I how do I write a code have you been open to lead code in the last six
+00:23:45,360 --> 00:23:53,100
+Jackson: do I write a code have you been to leak code in the last six months I don't know
 
 248
-00:23:44,480 --> 00:23:49,720
-Jackson: months I don't know I don't think I've just loved my job so much basically I
+00:23:53,100 --> 00:23:57,720
+Jackson: I don't think I just love my job so much basically I love the AI the way it's
 
 249
-00:23:49,720 --> 00:23:54,880
-Jackson: love the AI the way it's changed our jobs me oh me too but I'm like you I'm
+00:23:57,720 --> 00:24:04,040
+Chris: changed our job me oh me too but I'm like you I'm like concerned about whether
 
 250
-00:23:54,880 --> 00:24:00,040
-Chris: like concerned about whether like my prefrontal cortex is atrophying into
+00:24:04,040 --> 00:24:10,400
+Chris: like my prefrontal cortex is atrophying into like a prune I think it comes back
 
 251
-00:24:00,040 --> 00:24:07,320
-Chris: like a prune I think it comes back like the lead code easy's you can get that
+00:24:10,400 --> 00:24:16,280
+Chris: like the elite code easy's you can get there but I'm scared that like next year
 
 252
-00:24:07,320 --> 00:24:12,320
-Chris: but I'm scared that like next year it won't be so easy you know what I mean
+00:24:16,280 --> 00:24:21,600
+Chris: it won't be so easy you know what I mean like eventually that's gonna go away so
 
 253
-00:24:12,320 --> 00:24:17,920
-Jackson: like eventually that's gonna go away so possibly I've always I've had a good I
+00:24:21,600 --> 00:24:27,280
+Jackson: possibly I've always I've had a good I'm very lucky that I've always remembered
 
 254
-00:24:17,920 --> 00:24:22,800
-Jackson: thought I'm very lucky that I've always remembered Lee could very well so I hope
+00:24:27,280 --> 00:24:31,800
+Jackson: leakhead very well so I hope that it continues that way but it has been like
 
 255
-00:24:22,800 --> 00:24:26,760
-Jackson: that it continues that way but it has been like a year so we'll see and I am
+00:24:31,800 --> 00:24:36,840
+Jackson: a year so we'll see and I am good ago you know yeah yeah but ball is never
 
 256
-00:24:26,760 --> 00:24:37,440
-Jackson: gonna go you know yeah yeah but bullets never quit so you're good okay so this
+00:24:36,840 --> 00:24:48,400
+Jackson: quit so you're good okay so this was going to be a like a hot take not even a
 
 257
-00:24:37,440 --> 00:24:43,440
-Jackson: was going to be a like a hot take not even a contrarian take but a hot take
+00:24:48,400 --> 00:24:53,160
+Jackson: contrarian take but a hot take that well I don't want to say it cuz AI said not
 
 258
-00:24:43,440 --> 00:24:48,960
-Jackson: that well I don't want to say it cuz AI said not to my AI advisor told me not to
+00:24:53,160 --> 00:24:58,160
+Jackson: to my AI advisor told me not to say what I wanted to say so instead I'm going to
 
 259
-00:24:48,960 --> 00:24:56,640
-Jackson: say what I wanted to say so instead I'm going to say the AI is harmful for some
+00:24:58,160 --> 00:25:07,920
+Jackson: say the AI is harmful for some people we call them what do we call it the other
 
 260
-00:24:56,640 --> 00:25:05,560
-Jackson: people we call them what do we call it the other side right like people who are
+00:25:07,920 --> 00:25:12,680
+Jackson: side right like people who are particularly
 
 261
-00:25:05,560 --> 00:25:15,480
-Jackson: particularly suggestible or I don't want to use my own words here but maybe like
+00:25:12,680 --> 00:25:24,800
+Jackson: suggestible but maybe like people with less opportunity people maybe who who
 
 262
-00:25:15,480 --> 00:25:19,200
-Jackson: people with less opportunity people maybe who who didn't get as much
+00:25:24,800 --> 00:25:29,880
+Jackson: didn't get as much education when they were younger or people who like aren't as
 
 263
-00:25:19,200 --> 00:25:26,520
-Jackson: education when they were younger or people who like aren't as good like
+00:25:29,880 --> 00:25:38,200
+Jackson: good like didn't learn how to read and stuff like that like early on yeah yeah
 
 264
-00:25:26,520 --> 00:25:33,160
-Jackson: learn how to read and stuff like that like early on yeah yeah I agree with
+00:25:38,200 --> 00:25:44,720
+Chris: I agree with that I think so much of being able to use the AI is being able
 
 265
-00:25:33,160 --> 00:25:38,960
-Chris: that I think so much of being able to use the AI is being able to like detect
+00:25:44,720 --> 00:25:50,040
+Chris: to like detect the bullshit like when the AI is either like being
 
 266
-00:25:38,960 --> 00:25:45,960
-Chris: the bullshit like when the AI is either like being sycophantic or is just wrong
+00:25:50,040 --> 00:25:55,120
+Chris: sycophantic or is just wrong and like being able to press in the in the right
 
 267
-00:25:45,960 --> 00:25:53,120
-Chris: and like being able to press in the in the right places and like yeah it like
+00:25:55,120 --> 00:26:02,680
+Chris: places and like yeah it like for me that skill comes from like having like read a
 
 268
-00:25:53,120 --> 00:25:58,680
-Chris: for me that skill comes from like having like read a lot of papers and like you
+00:26:02,680 --> 00:26:07,160
+Chris: lot of papers and like you know you know working in like a technical field where
 
 269
-00:25:58,680 --> 00:26:02,760
-Chris: know working in like a technical field where like if something is wrong like you
+00:26:07,160 --> 00:26:13,560
+Chris: like if something is wrong, like you get fired in like in this very like specific vertical of
 
 270
-00:26:02,760 --> 00:26:07,640
-Chris: get fired in in like in this very like specific vertical of like computer
+00:26:13,560 --> 00:26:21,240
+Chris: like computer science or like programming. Yeah, and like I can totally see how like if you just
 
 271
-00:26:07,640 --> 00:26:14,560
-Chris: science or like programming yeah and like I can totally see how like if you
+00:26:21,240 --> 00:26:26,680
+Chris: kind of like don't care or like haven't, you know, aren't like reading deep mind papers for fun,
 
 272
-00:26:14,560 --> 00:26:18,760
-Chris: just kind of like don't care or like haven't you know aren't like reading deep
+00:26:26,680 --> 00:26:31,720
+Chris: like you probably like you don't know what you don't know what you're what you don't know when
 
 273
-00:26:18,760 --> 00:26:23,280
-Chris: mind papers for fun like you probably like you don't know what you don't know
+00:26:31,720 --> 00:26:38,520
+Jackson: you're when you're talking to it for sure. Exactly. I mean, basically, the question is
 
 274
-00:26:23,280 --> 00:26:26,800
-Chris: what you're what you don't know when you're when you're talking to it for
+00:26:38,520 --> 00:26:46,120
+Jackson: imagine somebody who has like the most like the ideas that you think are maybe like the most
 
 275
-00:26:26,800 --> 00:26:34,440
-Jackson: sure exactly I mean basically the question is imagine somebody who has like
+00:26:46,120 --> 00:26:51,960
+Jackson: harmful either to themselves or to the world around them. Imagine that person and then imagine
 
 276
-00:26:34,440 --> 00:26:40,640
-Jackson: the most like the ideas that you think are maybe like the most harmful either to
+00:26:51,960 --> 00:26:58,200
+Jackson: that that person is talking to like this super intelligent entity and it's like telling them
 
 277
-00:26:40,640 --> 00:26:45,640
-Jackson: themselves or to the world around them imagine that person and then imagine that
+00:26:58,200 --> 00:27:03,960
+Chris: you're right. You're right. Yeah. Yeah. I mean, that was for right. Like that was the whole
 
 278
-00:26:45,640 --> 00:26:50,700
-Jackson: that person is talking to like this in super intelligent entity and it's like
+00:27:03,960 --> 00:27:09,320
+Chris: controversy for it was it was like agreeing with every everything everyone said. Oh,
 
 279
-00:26:50,700 --> 00:26:56,800
-Jackson: telling them you're right you're right yeah yeah I mean that was for right like
+00:27:09,320 --> 00:27:15,560
+Chris: what's the what's the controversy? So like GPT for came out and my understanding is it was the
 
 280
-00:26:56,800 --> 00:27:00,480
-Chris: that was the whole controversy of for it was it was like agreeing with every
+00:27:15,560 --> 00:27:22,280
+Chris: way it was trained was like heavily on user RLHF. So like whenever you hit the little like button
 
 281
-00:27:00,480 --> 00:27:06,760
-Chris: everything everyone said oh what's the what's the controversy so like GPT for
+00:27:22,280 --> 00:27:28,520
+Chris: on the chat GPT prompt, you know, they would use that to reinforcement learning train. And I think
 
 282
-00:27:06,760 --> 00:27:10,640
-Chris: came out and my understanding is it was the way it was trained was like heavily
+00:27:28,520 --> 00:27:35,400
+Chris: they just over trained this one on like response upvote or downvote. And it was just it just became
 
 283
-00:27:10,640 --> 00:27:16,600
-Chris: on user RLHF so like whenever you hit the little like button on the chat GPT
+00:27:35,400 --> 00:27:41,000
+Chris: insanely sycophantic, like people would be like, I've discovered a new form of matter. And GPT for
 
 284
-00:27:16,600 --> 00:27:21,880
-Chris: prompt they you know they would use that to reinforcement learning train and I
+00:27:41,000 --> 00:27:47,560
+Chris: would just be like, yes, you have and also you're a genius. Email Stanford immediately. Yeah.
 
 285
-00:27:21,880 --> 00:27:28,000
-Chris: think they just over trained this one on like response upvote or downvote and it
+00:27:49,960 --> 00:27:56,040
+Chris: So so yeah, I think like that is that's definitely one big failure case of llms.
 
 286
-00:27:28,000 --> 00:27:31,080
-Chris: was just it just became insanely sycophantic like people would be like
+00:27:57,240 --> 00:28:01,320
+Jackson: That's crazy. Something that that I learned when I was like researching this
 
 287
-00:27:31,080 --> 00:27:35,520
-Chris: I've discovered a new form of matter and GPT for would just be like yes you have
+00:28:01,320 --> 00:28:11,480
+Jackson: segment to you is that like the llms are really persuasive. And it's it's actually not dependent
 
 288
-00:27:35,520 --> 00:27:44,680
-Chris: and also your achievement email Stanford immediately yeah so yeah I think like
+00:28:11,480 --> 00:28:18,920
+Jackson: on who is not dependent on like your educational background. It's like generally way more
 
 289
-00:27:44,680 --> 00:27:51,200
-Chris: that is that's definitely one big failure case about llms that's crazy
+00:28:18,920 --> 00:28:24,920
+Jackson: persuasive than a human. Yeah. Have you have you heard? I didn't know AI. Have you heard AI
 
 290
-00:27:51,200 --> 00:27:56,520
-Jackson: something that that I learned when I was like researching this segment to you is
+00:28:24,920 --> 00:28:32,120
+Jackson: psychosis is a ton. Of course. Yeah. Yeah. But I think how the I like it. Yeah, me too. And it's
 
 291
-00:27:56,520 --> 00:28:05,000
-Jackson: that like the llms are really persuasive and it's it's actually not dependent on
+00:28:32,120 --> 00:28:36,760
+Chris: like it's you never know who it's gonna be. It's crazy. Some people just like hits them.
 
 292
-00:28:05,000 --> 00:28:10,720
-Jackson: who is not dependent on like your educational background it's yeah like
+00:28:37,560 --> 00:28:45,480
+Jackson: It overlaps heavily with your friends that tried ayahuasca once and now do ayahuasca a lot.
 
 293
-00:28:10,720 --> 00:28:16,440
-Jackson: generally it's way more persuasive than a human yeah have you have you heard I
+00:28:48,840 --> 00:28:51,960
+Jackson: That's all I'm gonna say. Actually, I have probably way too many friends that fall into
 
 294
-00:28:16,440 --> 00:28:22,840
-Chris: didn't know ais have you heard AI psychosis is a ton of course yeah but I
+00:28:51,960 --> 00:28:57,640
+Chris: that category. And I'm not sure why. Okay. Yeah. I mean, this might be an interesting decade for
 
 295
-00:28:22,840 --> 00:28:27,080
-Jackson: think happy I like it yeah me too and it's like it's you never know who it's
+00:28:57,640 --> 00:29:03,000
+Chris: you. I'm surprised. I'm surprised. I personally haven't been hit maybe like because I'm very
 
 296
-00:28:27,080 --> 00:28:32,600
-Jackson: gonna be it's crazy some people just like hits them it overlaps heavily with
+00:29:03,000 --> 00:29:12,280
+Chris: skeptical in general. But like I see like a lot of really like smart people in like positions
 
 297
-00:28:32,600 --> 00:28:42,640
-Jackson: your friends that tried ayahuasca once and now do ayahuasca a lot that's all
+00:29:12,280 --> 00:29:20,120
+Jackson: of authority who definitely get clipped. Get clip we're saying are experiencing but the psychosis
 
 298
-00:28:42,640 --> 00:28:45,560
-Jackson: I'm gonna say actually I have probably way too many friends that fall into that
+00:29:20,120 --> 00:29:25,000
+Chris: of the AI. Yeah, exactly. Oh, they like that they have dalliances with it at least.
 
 299
-00:28:45,560 --> 00:28:50,600
-Chris: category and I'm not sure why okay yeah I mean this might be an interesting
+00:29:26,360 --> 00:29:29,880
+Jackson: Maybe we should define a psycho psychosis. Chris, could you please?
 
 300
-00:28:50,600 --> 00:28:55,000
-Chris: decade for you I'm surprised I'm surprised I personally haven't been hit
+00:29:31,240 --> 00:29:39,880
+Chris: I as a resident psychologist. Yeah, that is my background unironically. But I think AI
 
 301
-00:28:55,000 --> 00:29:00,520
-Chris: maybe like because I'm very skeptical in general but like I see like a lot of
+00:29:39,880 --> 00:29:47,640
+Chris: psychosis is when you're like in a state of like a reality like you're not engaging with reality
 
 302
-00:29:00,520 --> 00:29:08,200
-Chris: really like smart people in like positions of authority who definitely
+00:29:47,640 --> 00:29:54,280
+Chris: correctly because of some conversation that you've had or having with an AI, right? Like
 
 303
-00:29:08,200 --> 00:29:14,000
-Jackson: get clipped get clip we're saying are experiencing but the psychosis of the AI
+00:29:54,920 --> 00:29:58,680
+Chris: anything that pulls you out of the frame of reference that is like,
 
 304
-00:29:14,000 --> 00:29:20,160
-Chris: yeah exactly or they like that they have dalliances with it at least oh maybe we
+00:30:00,040 --> 00:30:03,000
+Chris: you know, base tangible reality, I would say is AI psychosis.
 
 305
-00:29:20,160 --> 00:29:26,440
-Jackson: should define AI psychosis Chris could you please I as a resident psychologist
+00:30:03,720 --> 00:30:10,680
+Jackson: So basically, it's like, maybe I had an idea. And then I went and talked to AI about it. And it was
 
 306
-00:29:26,440 --> 00:29:34,400
-Chris: yeah that is my background on ironically but I think AI psychosis is when you're
+00:30:10,680 --> 00:30:16,520
+Jackson: like that idea is real. So then I like bought more into the idea. But the idea has nothing to do with
 
 307
-00:29:34,400 --> 00:29:41,040
-Chris: like in a state of like a reality like you're not engaging with reality
+00:30:16,520 --> 00:30:23,640
+Jackson: reality. And I keep feeding into the cycle of building this artificial reality in my mind with
 
 308
-00:29:41,040 --> 00:29:46,880
-Chris: correctly because of some conversation that you've had or are having with an AI
+00:30:23,640 --> 00:30:28,760
+Chris: the AI. Yeah, I think you're right. I think now that you're saying that I'm like, I think it's
 
 309
-00:29:46,880 --> 00:29:52,760
-Chris: right like anything that pulls you out of the frame of reference that is like
+00:30:28,760 --> 00:30:33,720
+Chris: okay to have a wrong idea. I think that's like totally normal. I think where it gets pathological
 
 310
-00:29:52,760 --> 00:29:58,040
-Chris: you know base tangible reality I would say is AI psychosis so basically it's
+00:30:33,720 --> 00:30:40,280
+Chris: is the cycle of like, you're cuz you don't ever experience cognitive dissonance where you get
 
 311
-00:29:58,040 --> 00:30:04,160
-Jackson: like maybe I had an idea and then I went and talked to AI about it and it was
+00:30:40,280 --> 00:30:44,600
+Chris: corrected, you're like, Oh, I'm wrong. And then like, either I have to be wrong or the world is
 
 312
-00:30:04,160 --> 00:30:09,040
-Jackson: like that idea is real so then I like bought more into the idea but the idea
+00:30:44,600 --> 00:30:51,400
+Chris: wrong. You get to keep doubling down like, like, and like never never correcting your priors because
 
 313
-00:30:09,040 --> 00:30:12,960
-Jackson: has nothing to do with reality and I keep feeding into the cycle of building
+00:30:51,400 --> 00:30:59,720
+Chris: the AI is like a cult member, right? It's like always backing you up. Yeah. Yeah. Luckily for me,
 
 314
-00:30:12,960 --> 00:30:19,280
-Jackson: this artificial reality in my mind with the AI I think yeah I think you're right
+00:31:00,760 --> 00:31:06,120
+Jackson: I'm wrong every time I talk to a human. So I just choose to talk to AI exclusively.
 
 315
-00:30:19,280 --> 00:30:22,960
-Chris: I think now that you're saying that I'm like I think it's okay to have a wrong
+00:31:06,840 --> 00:31:11,960
+Chris: Yeah, hell yeah. Yeah. But like, but I mean, like, I feel like if you have a good internal
 
 316
-00:30:22,960 --> 00:30:27,280
-Chris: idea I think that's like totally normal you think where it gets pathological is
+00:31:11,960 --> 00:31:17,880
+Chris: mechanism for like being able to be wrong, that's like the first step to not getting AI psychosis.
 
 317
-00:30:27,280 --> 00:30:33,200
-Chris: the the cycle of like your cuz you don't ever experience cognitive dissonance
+00:31:21,880 --> 00:31:27,800
+Jackson: All right. And then the last thing, something that I learned, which was interesting is
 
 318
-00:30:33,200 --> 00:30:36,920
-Chris: where you get corrected you're like oh I'm wrong and then like either I have to
+00:31:27,800 --> 00:31:37,320
+Jackson: that apparently AI raises the bottom more than it raises the top. And this is something that I'm
 
 319
-00:30:36,920 --> 00:30:43,240
-Chris: be wrong or the world is wrong you get to keep doubling down like like and like
+00:31:37,320 --> 00:31:47,160
+Jackson: kind of skeptical about, at least in our field. But like maybe you can like imagine that people who
 
 320
-00:30:43,240 --> 00:30:47,240
-Chris: never never correcting your priors cuz the AI is like a cult member right it's
+00:31:48,120 --> 00:31:53,560
+Jackson: couldn't write code before, but had our job and somehow we're getting the jobs can now like
 
 321
-00:30:47,240 --> 00:30:55,040
-Jackson: like always backing you up yeah yeah well luckily for me I'm I'm wrong every
+00:31:53,560 --> 00:32:00,280
+Jackson: passively write code and stay alive is like, or it's like stay in the job without getting fired.
 
 322
-00:30:55,040 --> 00:31:01,200
-Jackson: time I talk to a human so I just choose to talk to AI exclusively yeah hell yeah
+00:32:03,000 --> 00:32:09,160
+Jackson: So pardon me to the numbers, the numbers that I saw where AI lifts novices, 34%
 
 323
-00:31:01,200 --> 00:31:05,480
-Chris: yeah but like but I mean like I feel like do you have a good internal
+00:32:10,200 --> 00:32:19,320
+Jackson: experts zero. Obviously, that isn't true for our job, because now Chris and I can like parallelize
 
 324
-00:31:05,480 --> 00:31:10,320
-Chris: mechanism for like being able to be wrong that's like the first step to not
+00:32:19,320 --> 00:32:29,160
+Jackson: our expertise across multiple like product spaces and build like way faster. So maybe this is this
 
 325
-00:31:10,320 --> 00:31:19,920
-Jackson: getting AI psychosis and then the last thing something that I learned which was
+00:32:29,160 --> 00:32:35,080
+Jackson: was like an experiment on a different job. But you can imagine like, you've had co workers that did
 
 326
-00:31:19,920 --> 00:31:28,800
-Jackson: interesting is that apparently AI raises the bottom more than it raises the top
+00:32:35,080 --> 00:32:41,720
+Jackson: like two pull requests in a year, like two pieces of work. They can do more now. Yeah,
 
 327
-00:31:28,800 --> 00:31:33,080
-Jackson: and this is something that I'm kind of skeptical about at least at least in our
+00:32:41,720 --> 00:32:45,240
+Chris: no, I'm kind of kidding. That's not me. Yeah, what do you make of this?
 
 328
-00:31:33,080 --> 00:31:42,120
-Jackson: field but like maybe you can like imagine that people who couldn't write
+00:32:47,560 --> 00:32:53,880
+Chris: Yeah, I don't agree at all. I think I like one thing that I wonder about this paper is like,
 
 329
-00:31:42,120 --> 00:31:46,980
-Jackson: code before but had our job and somehow we're getting the jobs can now like
+00:32:53,880 --> 00:32:57,720
+Chris: what was the time horizon they're measuring? Because like one thing I've noticed is that,
 
 330
-00:31:46,980 --> 00:31:52,920
-Jackson: passively write code and stay alive is like first like stay in the job without
+00:32:59,720 --> 00:33:06,520
+Chris: at least in our field, now, like anyone can code. But sometimes with code, the problems become,
 
 331
-00:31:52,920 --> 00:32:00,840
-Jackson: getting fired so pardon me to the numbers the numbers that I saw where AI
+00:33:07,560 --> 00:33:11,960
+Chris: you don't understand what the problems of this at a system level are until like six months down the
 
 332
-00:32:00,840 --> 00:32:09,400
-Jackson: list novices 34% experts zero obviously that isn't true for our job because now
+00:33:11,960 --> 00:33:18,280
+Chris: line, where you have to change something and then like there's a cascading failure. But in terms of
 
 333
-00:32:09,400 --> 00:32:17,400
-Jackson: Chris and I can like parallelize our expertise across multiple like product
+00:33:18,280 --> 00:33:24,520
+Chris: like actually like being able to code like 100%, it's like it's better for novices who haven't had
 
 334
-00:32:17,400 --> 00:32:23,600
-Jackson: spaces and build like way faster so maybe this is this was like an experiment
+00:33:24,520 --> 00:33:32,840
+Chris: the time to develop that skill yet. But yeah, interesting. I will say the other thing is my
 
 335
-00:32:23,600 --> 00:32:28,720
-Jackson: on a different job but you can imagine like you've had co-workers that did like
+00:33:32,840 --> 00:33:39,400
+Chris: experience has been that people who are already quite like highly advanced at the job, are now
 
 336
-00:32:28,720 --> 00:32:33,800
-Jackson: to pull requests in a year like two pieces of work they could do more now
+00:33:39,400 --> 00:33:45,480
+Chris: able to go like crazy mode like that, like you can, yeah, they're like you're like, like you're
 
 337
-00:32:33,800 --> 00:32:41,680
-Chris: yeah I'm kind of kidding that's not me yeah what do you make of this yeah I
+00:33:45,480 --> 00:33:52,120
+Chris: saying you can scale yourself way more. So yeah, I don't know. I don't know about this paper.
 
 338
-00:32:41,680 --> 00:32:47,160
-Chris: don't agree at all I think I like one thing that I wonder about this paper is
+00:33:54,520 --> 00:34:02,360
+Jackson: I guess we need to look deeper into this. This was Brin Jolfson's call center study. So maybe it
 
 339
-00:32:47,160 --> 00:32:50,240
-Chris: like what was the time horizon they're measuring because like one thing I've
+00:34:02,360 --> 00:34:08,840
+Jackson: was call center related. And I feel like the ceiling for operating like being on a call like
 
 340
-00:32:50,240 --> 00:32:57,640
-Chris: noticed is that at least in our field now like anyone can code but sometimes
+00:34:10,120 --> 00:34:15,640
+Jackson: there's a throughput, you can only be on. Okay, maybe you can be on multiple calls. But I mean,
 
 341
-00:32:57,640 --> 00:33:03,400
-Chris: with code the problems become you don't understand what the problems of this at
+00:34:15,640 --> 00:34:19,160
+Jackson: really, your brain's kind of single threaded. So you can probably only be on like one call
 
 342
-00:33:03,400 --> 00:33:06,840
-Chris: a system level are until like six months down the line where you have to change
+00:34:19,720 --> 00:34:25,560
+Jackson: and do it well at the time. So the ceiling, the skill ceiling is, it's like bounded.
 
 343
-00:33:06,840 --> 00:33:11,920
-Chris: something and then like there's a cascading failure but in terms of like
+00:34:26,520 --> 00:34:31,480
+Chris: Totally, I think there's a difference between like mechanical skill and like abstract reasoning
 
 344
-00:33:11,920 --> 00:33:16,040
-Chris: actually like being able to code like a hundred percent it like it's better for
+00:34:31,480 --> 00:34:36,120
+Chris: skill as well. And I'm not sure if these become different things in the near future.
 
 345
-00:33:16,040 --> 00:33:22,080
-Chris: novices who haven't had the time to develop that skill yet but yeah
+00:34:37,480 --> 00:34:43,080
+Chris: Like the mechanical skill of lead coding feels like tedious and like that, like I can definitely
 
 346
-00:33:22,080 --> 00:33:27,560
-Chris: interesting I will say the other thing is my experience has been that people
+00:34:43,080 --> 00:34:49,000
+Chris: do it better. Although, you know, it's like getting up the curve with abstract reasoning as well. So
 
 347
-00:33:27,560 --> 00:33:34,960
-Chris: who are already quite like highly advanced at the job are now able to go
+00:34:49,800 --> 00:34:54,920
+Jackson: maybe it doesn't matter. Yeah, I mean, you're saying that it's better than what 90% of humans
 
 348
-00:33:34,960 --> 00:33:39,200
-Chris: like crazy mode like that like you can yeah they're like you like you're saying
+00:34:55,480 --> 00:35:01,240
+Jackson: and everything. That was our claim that it's, we've got expert AGI. So I take it all back,
 
 349
-00:33:39,200 --> 00:33:45,320
-Chris: you can scale yourself way more so yeah I don't know I don't know about this
+00:35:01,240 --> 00:35:08,680
+Jackson: I take it all back. As you know, last week we talked about GLM 5.3 being released.
 
 350
-00:33:45,320 --> 00:33:54,080
-Jackson: paper I guess we need to look deeper into this this was Bryn Jolfson's call
+00:35:09,800 --> 00:35:18,680
+Jackson: And as you may or may not know, Astra, Astra is starting to be released as well. But Astra,
 
 351
-00:33:54,080 --> 00:33:59,400
-Jackson: center study so maybe it was called center related and I feel like the
+00:35:18,680 --> 00:35:23,000
+Jackson: which is a model from OpenAI, you know, Sam Maltman, we were talking about him.
 
 352
-00:33:59,400 --> 00:34:04,920
-Jackson: ceiling for operating like being on a call like there is a throughput you can
+00:35:23,800 --> 00:35:30,760
+Jackson: So it's like a US regulated company. And then we've got GLM 5.3, which is an open source model,
 
 353
-00:34:04,920 --> 00:34:09,720
-Jackson: only be on okay maybe you can be on multiple calls but I mean really your
+00:35:30,760 --> 00:35:39,800
+Jackson: its weights are open ish. And this is from a Chinese company, their release strategies have been,
 
 354
-00:34:09,720 --> 00:34:12,560
-Jackson: brain's kind of single-threaded so you could probably only be on like one call
+00:35:40,760 --> 00:35:47,960
+Jackson: you know, are being are totally different, where OpenAI is releasing Astra to the United States
 
 355
-00:34:12,560 --> 00:34:18,440
-Jackson: and do it well at a time so the ceiling the skill ceiling is it's like
+00:35:47,960 --> 00:35:55,400
+Jackson: government, and critical infrastructure within the United States and maybe elsewhere, I'm not sure
 
 356
-00:34:18,440 --> 00:34:24,360
-Chris: bound totally I think there's a difference between like mechanical skill
+00:35:55,400 --> 00:36:03,720
+Jackson: first. Whereas GLM 5.3 was released, like fully openly, and then the weights have been released,
 
 357
-00:34:24,360 --> 00:34:27,880
-Chris: and like abstract reasoning skill as well and I'm not sure if these become
+00:36:04,840 --> 00:36:11,720
+Jackson: except the company that made GLM 5.3 runs a security audit, if you're going to serve their
 
 358
-00:34:27,880 --> 00:34:32,680
-Chris: different things in the near future like the mechanical skill of lead coding
+00:36:11,720 --> 00:36:18,760
+Jackson: model. And if you make more than $10 million a year, which just seems like totally random.
 
 359
-00:34:32,680 --> 00:34:39,680
-Chris: feels like tedious and like that like a I can definitely do it better although
+00:36:19,320 --> 00:36:27,000
+Jackson: So I can download GLM 5.3 and run it. And it's cool. But if I want to sell it to people and I
 
 360
-00:34:39,680 --> 00:34:42,440
-Chris: and you know it's like getting up the curve with abstract reasoning as well so
+00:36:27,000 --> 00:36:33,880
+Jackson: make sorry, more than $10 billion per year, selling model hosting, they have to do a security audit
 
 361
-00:34:42,440 --> 00:34:47,160
-Jackson: maybe it doesn't matter yeah I mean you're saying that it's better than what
+00:36:33,880 --> 00:36:42,920
+Jackson: of me, I don't know. What is that? I mean, I guess it's not feasible for somebody to run GLM 5.3
 
 362
-00:34:47,160 --> 00:34:53,780
-Jackson: 90% of humans at everything that was our claim that it's we've got expert AGI so
+00:36:42,920 --> 00:36:53,320
+Jackson: locally in reality. Yeah, so maybe the onus yet. Yeah, yet. But the onus of like enforcing
 
 363
-00:34:53,780 --> 00:35:00,440
-Jackson: I take it all back I take it all back as you know last week we talked about GLM
+00:36:53,320 --> 00:37:00,120
+Jackson: non naughty things is on the model poster. For example, open router, like does open router,
 
 364
-00:35:00,440 --> 00:35:08,280
-Jackson: 5.3 being released and as you may or may not know Astra Astra is starting to be
+00:37:00,120 --> 00:37:06,120
+Jackson: they must they must have some sort of like fraud detection, where if I'm trying to use 5.3 GLM
 
 365
-00:35:08,280 --> 00:35:14,960
-Jackson: released as well but Astra which is a model from open AI you know Sam
+00:37:06,760 --> 00:37:11,080
+Jackson: through their API's for something naughty, they'll stop me. Chris, have you tried?
 
 366
-00:35:14,960 --> 00:35:20,160
-Jackson: Altman we were talking about him so it's like a US regulated company and then
+00:37:11,960 --> 00:37:17,080
+Chris: Yeah, so I understand that open router has a lot of ZDR options, so like zero data retention
 
 367
-00:35:20,160 --> 00:35:27,100
-Jackson: we've got GLM 5.3 which is an open source model its weights are open ish
+00:37:17,080 --> 00:37:23,400
+Chris: options. So I imagine they can't do that for the GLM class of model then because like so are they
 
 368
-00:35:27,100 --> 00:35:34,520
-Jackson: and this is from a Chinese company their release strategies have been you know
+00:37:23,400 --> 00:37:30,280
+Chris: saying that like, GLM is so powerful, like fable that we need to make sure that people aren't using
 
 369
-00:35:34,520 --> 00:35:41,160
-Jackson: are being are totally different where open AI is releasing Astra to the United
+00:37:30,280 --> 00:37:36,680
+Chris: it for evil or like, is it like, like maybe it's a distillation play? I don't I think I don't really
 
 370
-00:35:41,160 --> 00:35:47,000
-Jackson: States government and critical infrastructure within the United States
+00:37:36,680 --> 00:37:46,040
+Jackson: understand this one at all. That's crazy. Well, yeah. Okay, I mean, I'm gonna restate my understanding.
 
 371
-00:35:47,000 --> 00:35:54,360
-Jackson: and maybe elsewhere I'm not sure first whereas GLM 5.3 was released like fully
+00:37:46,040 --> 00:37:53,160
+Jackson: So basically, if you try to use fable to audit your smart contracts, Claude kicks you back down
 
 372
-00:35:54,360 --> 00:36:00,600
-Jackson: openly and then the weights have been released except the company that made
+00:37:53,160 --> 00:38:00,200
+Jackson: into Opus. Yeah. But what if I try to use GLM 5.3 through open router to audit smart contracts,
 
 373
-00:36:00,600 --> 00:36:06,560
-Jackson: GLM 5.3 runs a security audit if you're going to serve their model and if you
+00:38:00,200 --> 00:38:06,200
+Jackson: and open router is a United States regulated company, that is their responsibility to prevent
 
 374
-00:36:06,560 --> 00:36:11,440
-Jackson: make more than ten million dollars a year oh which just seems like totally
+00:38:06,200 --> 00:38:15,000
+Jackson: me from doing naughty things. So I guess this like Chinese security audit enforced by the company
 
 375
-00:36:11,440 --> 00:36:18,800
-Jackson: random oh so I can download GLM 5.3 and run it and it's cool but if I want to
+00:38:15,000 --> 00:38:22,280
+Jackson: that makes GLM 5.3 is like they want to make sure that you're going to watch for these things.
 
 376
-00:36:18,800 --> 00:36:22,840
-Jackson: sell it to people and I make sorry more than ten billion dollars per year
+00:38:22,280 --> 00:38:27,480
+Jackson: That's the way I understood it. Does that make sense? Yeah, totally. I just I wonder if that's
 
 377
-00:36:22,840 --> 00:36:30,240
-Jackson: selling model hosting they have to do a security audit of me I don't know what
+00:38:27,480 --> 00:38:36,360
+Chris: true. Like that seems so weird. It seems because like you said, the models are open weight,
 
 378
-00:36:30,240 --> 00:36:37,040
-Jackson: is that I mean I guess it's not feasible for somebody to run GLM 5.3 locally in
+00:38:36,360 --> 00:38:45,560
+Chris: right? So like I could buy, you know, 50 H200s, however many unnecessary and run it and
 
 379
-00:36:37,040 --> 00:36:47,000
-Jackson: reality yeah so maybe the onus yet yeah yet but the onus of like enforcing non
+00:38:47,960 --> 00:38:54,920
+Chris: DDoS anthropic or whatever. Yeah, that's a big yeah, not a lot of people have that much money
 
 380
-00:36:47,000 --> 00:36:53,080
-Jackson: naughty things is on the model poster for example open router like does open
+00:38:54,920 --> 00:39:02,120
+Chris: or space or know how totally totally and GPUs are controlled as well. So oh, really? The export
 
 381
-00:36:53,080 --> 00:36:57,480
-Jackson: router they must they must have some sort of like fraud detection where if
+00:39:02,120 --> 00:39:08,840
+Chris: control the least I don't know how it is getting them inside the US. And what was what's the program
 
 382
-00:36:57,480 --> 00:37:03,040
-Jackson: I'm trying to use 5.3 GLM through their APIs for something naughty they'll stop
+00:39:08,840 --> 00:39:18,040
+Jackson: for accessing mythos by the way, the program like a glass wing glass wing. Yeah. Yeah. So open AI
 
 383
-00:37:03,040 --> 00:37:08,040
-Chris: me Chris have you tried yeah so I understand that open router has a lot of
+00:39:18,040 --> 00:39:25,320
+Jackson: came up with their own sick name called daybreak blue, which kind of seems in the like in the realm
 
 384
-00:37:08,040 --> 00:37:13,840
-Chris: ZDR options so like zero data retention options so I imagine they can't do that
+00:39:25,320 --> 00:39:32,600
+Jackson: of glass wing, because you look up at the glass wing and you see daybreak blue in the sky. So yeah,
 
 385
-00:37:13,840 --> 00:37:18,800
-Chris: for the GLM class of model then because like so are they saying that like GLM is
+00:39:32,600 --> 00:39:37,560
+Chris: they're competing with some sick names. They're in dialogue. The next one's gonna be crazy, dude.
 
 386
-00:37:18,800 --> 00:37:23,960
-Chris: so powerful like fable that we need to make sure that people aren't using it for
+00:39:37,560 --> 00:39:43,160
+Chris: It's gonna be like mega ultra. Like they have max and ultra in the wrong slots as well. Like words
 
 387
-00:37:23,960 --> 00:37:29,560
-Chris: evil or like is it like like maybe it's a distillation play I don't I think I
+00:39:43,160 --> 00:39:48,440
+Chris: don't mean anything to these people. Well, they can maybe they think it's max. And then they're
 
 388
-00:37:29,560 --> 00:37:37,600
-Jackson: don't really understand this one at all that's crazy well yeah okay I mean I'm
+00:39:48,440 --> 00:39:52,600
+Jackson: like, Oh, no, there's more. Yeah, there's like, there's another tier. Like what will we call it?
 
 389
-00:37:37,600 --> 00:37:42,240
-Jackson: gonna restate my understanding so basically if you try to use fable to
+00:39:56,360 --> 00:40:00,760
+Jackson: I need to take a step back and start naming the models like something bad that they accept them
 
 390
-00:37:42,240 --> 00:37:49,800
-Jackson: audit your smart contracts Claude kicks you back down into Opus yeah but what if
+00:40:00,760 --> 00:40:08,520
+Chris: to keep improving 100%. I will say that that is justified probably with GLM 5.3. Like it is
 
 391
-00:37:49,800 --> 00:37:54,240
-Jackson: I try to use GLM 5.3 through open router to audit smart contracts and open router
+00:40:08,520 --> 00:40:17,320
+Chris: genuinely like a bit below a frontier model, but I think, you know, they only get better from here
 
 392
-00:37:54,240 --> 00:37:59,200
-Jackson: is a United States regulated company then it is their responsibility to
+00:40:17,320 --> 00:40:21,720
+Chris: and the open weight models, it seems like they're going to be consistently six, six months behind
 
 393
-00:37:59,200 --> 00:38:06,120
-Jackson: prevent me from doing naughty things so I I guess this like Chinese security
+00:40:21,720 --> 00:40:27,400
+Chris: the frontier labs at the worst. So yeah, I just don't, I don't know if like security audits is
 
 394
-00:38:06,120 --> 00:38:13,480
-Jackson: audit enforced by the company that makes GLM 5.3 is like they want to make sure
+00:40:27,400 --> 00:40:38,680
+Jackson: a viable strategy anymore. Yeah, I agree. It's, it's weird. The, the staggered release from open
 
 395
-00:38:13,480 --> 00:38:16,880
-Jackson: that you're going to watch for these things that's the way I understood it
+00:40:38,680 --> 00:40:47,720
+Jackson: AIs is basically like accelerating what we talked about, which is harden the systems that are most
 
 396
-00:38:16,880 --> 00:38:22,120
-Chris: does that make sense yeah totally I just I wonder if that's true like that
+00:40:47,720 --> 00:40:54,040
+Jackson: important or harden the systems that have access. So they're saying, Hey, here's this model, harden
 
 397
-00:38:22,120 --> 00:38:28,880
-Chris: seems so that seems so weird it seems because like you said the the models are
+00:40:54,040 --> 00:41:00,280
+Jackson: them, harden your systems, because we're going to release it to make money. So I think that will be
 
 398
-00:38:28,880 --> 00:38:36,280
-Chris: open weight right so like I could buy you know 50 H200s however many
+00:41:00,280 --> 00:41:04,280
+Jackson: a common process moving forward. It's already happening with, you know, half of the myth is
 
 399
-00:38:36,280 --> 00:38:45,840
-Chris: unnecessary and and run it and DDoS anthropic or whatever so yeah yeah that's
+00:41:04,280 --> 00:41:10,200
+Jackson: now it's happening with GPT. So that's the standard for frontier models today. For sure.
 
 400
-00:38:45,840 --> 00:38:49,880
-Jackson: a big yeah yeah not a lot of people have that much money or space or no how
+00:41:11,400 --> 00:41:16,680
+Jackson: Would you like to talk about European stable coin thing that we didn't talk about last week?
 
 401
-00:38:49,880 --> 00:38:55,880
-Chris: totally totally and GPUs are controlled as well so oh really the export control
+00:41:17,720 --> 00:41:19,480
+Chris: Yeah, we did talk about it. I said that it sucks.
 
 402
-00:38:55,880 --> 00:39:01,360
-Chris: the least I don't know how it is getting them inside the US and what was what's
+00:41:22,040 --> 00:41:29,080
+Chris: Okay. Yeah, I just don't see, I don't, I don't, I don't see the purpose. I don't see it working.
 
 403
-00:39:01,360 --> 00:39:08,880
-Jackson: the program for accessing mythos by the way the program like a glass wing glass
+00:41:29,080 --> 00:41:33,720
+Chris: I just, it's, it's, I think this particular one was launched by Revolut and Revolut's like
 
 404
-00:39:08,880 --> 00:39:13,880
-Jackson: wing yeah last way yeah so opening I came up with their own sick name called
+00:41:33,720 --> 00:41:39,080
+Chris: a very forward thinking company and they, they really like, they offered crypto before it was
 
 405
-00:39:13,880 --> 00:39:20,320
-Jackson: daybreak blue which kind of seems in the like in the realm of glass wing because
+00:41:39,080 --> 00:41:47,400
+Chris: cool for sure. Like probably 2021. So they're like super forward thinking that they try to,
 
 406
-00:39:20,320 --> 00:39:26,040
-Jackson: you look up at the glass wing and you see daybreak blue in the sky so yeah
+00:41:47,400 --> 00:41:51,400
+Chris: they definitely are in the business of giving people access to alternative assets.
 
 407
-00:39:26,040 --> 00:39:30,240
-Chris: they're competing with some sick names they're in dialogue the next one's gonna
+00:41:52,840 --> 00:41:56,840
+Chris: I think I can kind of see where they're coming from with this. Like maybe it's an FX play,
 
 408
-00:39:30,240 --> 00:39:34,440
-Chris: be crazy dude it's gonna be like mega ultra like they have the max and ultra
+00:41:56,840 --> 00:42:02,040
+Chris: the Euro stable coin, but in terms of like the things we think about doing with a stable coin
 
 409
-00:39:34,440 --> 00:39:39,960
-Chris: in the wrong slots as well like words don't mean anything to these people well
+00:42:02,040 --> 00:42:08,280
+Chris: today, which is like lending and borrowing cross border remittances and like having this
 
 410
-00:39:39,960 --> 00:39:43,840
-Jackson: they can baby they think it's max and they're like oh no there's more yeah
+00:42:08,280 --> 00:42:14,360
+Chris: deep pool of liquidity that you can tap into to do various things. I think it's hard for me to
 
 411
-00:39:43,840 --> 00:39:50,520
-Jackson: there's like there's another tier like what will we call it I need to take a
+00:42:14,360 --> 00:42:19,640
+Chris: see it. I think it's at like 400 or 300 billion in issuance, sorry, 300 million in issuance
 
 412
-00:39:50,520 --> 00:39:54,520
-Jackson: setback and start naming the models like something bad if they expect them to keep
+00:42:19,640 --> 00:42:25,880
+Chris: currently. So it's like a very, very small, small amount. I guess like we'll watch it and see where
 
 413
-00:39:54,520 --> 00:40:01,920
-Chris: improving 100% I will say that that is justified probably with GLM 5.3 like it
+00:42:25,880 --> 00:42:35,880
+Jackson: it goes, but yeah. So the way you see stable coin end game is like one, there will be one stable
 
 414
-00:40:01,920 --> 00:40:09,720
-Chris: is genuinely like a bit below a frontier model but I think you know they only get
+00:42:35,880 --> 00:42:40,760
+Jackson: coin. Is that what you're saying? So it's like Euro is too late to the game. They're not going
 
 415
-00:40:09,720 --> 00:40:13,320
-Chris: better from here and the open weight models it seems like they're going to be
+00:42:40,760 --> 00:42:47,320
+Chris: to make it. I don't see why you would necessarily want a Euro over a US dollar. I think that's the
 
 416
-00:40:13,320 --> 00:40:19,080
-Chris: consistently six six months behind the frontier labs at the worst so yeah I
+00:42:47,320 --> 00:42:56,680
+Chris: thing that I'm curious about. That might not be true in the near future, but yeah, I think it's,
 
 417
-00:40:19,080 --> 00:40:25,000
-Chris: just don't I don't know if like security audits is a viable strategy anymore yeah
+00:42:56,680 --> 00:43:02,440
+Chris: yeah, it's two things. One, like it's not a fully featured thing yet. Like they don't have like good
 
 418
-00:40:25,000 --> 00:40:34,360
-Jackson: I agree it's it's weird the the staggered release from open AI's is
+00:43:02,440 --> 00:43:09,080
+Chris: lending liquidity. They don't have good FX yet. So they're catching up. But two is like
 
 419
-00:40:34,360 --> 00:40:40,560
-Jackson: basically like accelerating what we talked about which is harden the systems
+00:43:13,400 --> 00:43:19,960
+Chris: the US dollar is like very much an international currency and the Euro is less so like they call
 
 420
-00:40:40,560 --> 00:40:45,100
-Jackson: that are most important or harden the systems that have access so they're
+00:43:19,960 --> 00:43:29,960
+Jackson: it the Euro dollar, not the Euro Euro. So I see. What about like how some people might hold some
 
 421
-00:40:45,100 --> 00:40:49,300
-Jackson: saying hey here's this model harden them harden your systems because we're
+00:43:29,960 --> 00:43:38,760
+Jackson: Euros and some US dollars to like hedge against like exchange rate fluctuations. I don't know if
 
 422
-00:40:49,300 --> 00:40:54,320
-Jackson: gonna release it to make money so I think that will be a common process
+00:43:40,120 --> 00:43:47,800
+Jackson: physical or digital non stable coin money goes away. Maybe this does have a place. I don't know.
 
 423
-00:40:54,320 --> 00:40:57,920
-Jackson: moving forward it's already happening with you know happen with mythos now
+00:43:47,800 --> 00:43:54,200
+Chris: What do you think? Yeah, I agree. It definitely has a place 100%. I just don't know that it's like
 
 424
-00:40:57,920 --> 00:41:03,400
-Jackson: it's happening with GPT so that's the standard for frontier models today for
+00:43:54,200 --> 00:44:03,080
+Chris: as big a news as people are making it out to be. Like if the us live on lay in or whoever,
 
 425
-00:41:03,400 --> 00:41:09,160
-Jackson: sure would you like to talk about European stablecoin thing that we didn't
+00:44:03,640 --> 00:44:08,040
+Chris: whatever UN official, sorry, EU official is like responsible for the money comes out and says,
 
 426
-00:41:09,160 --> 00:41:18,200
-Chris: talk about sweet yeah we did talk about it I said that it sucks okay yeah I just
+00:44:08,040 --> 00:44:16,280
+Chris: yeah, we're going to tokenize various European countries bonds into stable coins and like push
 
 427
-00:41:18,200 --> 00:41:22,960
-Chris: don't see I don't I don't I don't see the purpose I don't see it working I just
+00:44:16,280 --> 00:44:21,480
+Chris: it out that way and put like the whole state apparatus behind it. Then maybe, but that's,
 
 428
-00:41:22,960 --> 00:41:27,120
-Chris: it's it's I think this particular one was launched by Revolut and Revolut's
+00:44:21,480 --> 00:44:27,960
+Jackson: that's not what I'm seeing here. Not yet. So all right. We're in European stable coin stays
 
 429
-00:41:27,120 --> 00:41:31,120
-Chris: like a very forward-thinking company and they they really like they offered
+00:44:28,520 --> 00:44:36,280
+Jackson: in the toilet. Not useful. No, no, no. Yeah. Yeah. We'll flush it for now. And we'll go dig
 
 430
-00:41:31,120 --> 00:41:38,480
-Chris: crypto before it was cool for sure like probably 2021 so that they're like super
+00:44:36,280 --> 00:44:47,160
+Jackson: around in the sewers if we ever need it. Okay. So we talked about Hey, Fable, make me a million
 
 431
-00:41:38,480 --> 00:41:42,760
-Chris: forward-thinking they they try to they definitely are in the business of giving
+00:44:47,160 --> 00:44:55,240
+Jackson: dollars. And we teased maybe on the first podcast that I ran that and I launched an iPhone application.
 
 432
-00:41:42,760 --> 00:41:47,720
-Chris: people access to alternative assets I think I can kind of see where they're
+00:44:57,160 --> 00:45:02,120
+Jackson: I didn't want to say what I built because I hadn't launched it and I didn't want our listeners to
 
 433
-00:41:47,720 --> 00:41:52,160
-Chris: coming from with this like maybe it's an FX play the euro stablecoin but in terms
+00:45:02,120 --> 00:45:08,840
+Jackson: front run me in this business. Yeah. But it's been about three months since that happened. And
 
 434
-00:41:52,160 --> 00:41:56,520
-Chris: of like the things we think about doing with a stable coin today which is like
+00:45:08,840 --> 00:45:14,440
+Jackson: I've launched the app like two months ago, I think. So I'll do a recap of how that went.
 
 435
-00:41:56,520 --> 00:42:01,960
-Chris: lending and borrowing cross-border remittances and like having this deep
+00:45:14,440 --> 00:45:21,320
+Jackson: Are you ready? Yeah, let's go. Yeah, I'm ready. I'm ready. So basically, when I told Claude,
 
 436
-00:42:01,960 --> 00:42:07,240
-Chris: pool of liquidity that you can tap into to do various things I think I'm it's
+00:45:21,320 --> 00:45:25,800
+Jackson: make me a million dollars, do research, it started like searching the internet. How do people make
 
 437
-00:42:07,240 --> 00:42:11,920
-Chris: hard for me to see it I think it's at like 400 or 300 billion in issuance sorry
+00:45:25,800 --> 00:45:31,400
+Jackson: money with that? And then like, then it started researching the app store. It's like what apps
 
 438
-00:42:11,920 --> 00:42:17,360
-Chris: 300 million in issuance currently so it's like a very very small small amount
+00:45:31,400 --> 00:45:42,120
+Jackson: already exist in which like hobbies or like app utilities have apps that have low scores,
 
 439
-00:42:17,360 --> 00:42:22,080
-Chris: I guess like we'll watch it and see where it goes but yeah so the way you
+00:45:42,760 --> 00:45:47,480
+Jackson: low ratings, and then like look through their reviews and what are the issues.
 
 440
-00:42:22,080 --> 00:42:30,000
-Jackson: see stablecoin in game is like one there will be one stablecoin is that what
+00:45:48,200 --> 00:45:54,520
+Jackson: So it did this. They did all this. And we identified that 12 million households in the
 
 441
-00:42:30,000 --> 00:42:34,320
-Jackson: you're saying so it's like euro is too late to the game they're not going to
+00:45:54,520 --> 00:45:58,840
+Jackson: United States, I don't know if I believe that number, but I've seen it on in numerous places,
 
 442
-00:42:34,320 --> 00:42:39,400
-Chris: make it I don't see why you would necessarily want a euro over a US
+00:45:59,560 --> 00:46:04,680
+Jackson: have chickens that produce eggs. So I made an iPhone app for counting your chicken's eggs
 
 443
-00:42:39,400 --> 00:42:44,680
-Chris: dollar I think that's the thing that I'm curious about that might not be true in
+00:46:05,960 --> 00:46:12,520
+Chris: before they hatch. They're for eating, I think they're eating a egg. Yeah. Yeah. So you're
 
 444
-00:42:44,680 --> 00:42:52,000
-Chris: the near future but yeah I think it's yes two things one like it's not a fully
+00:46:12,520 --> 00:46:16,520
+Chris: counting chickens eggs before they hatch. Got it. I'm here. I'm here for it. I think they would
 
 445
-00:42:52,000 --> 00:42:57,120
-Chris: featured thing yet like they don't have like good lending liquidity they don't
+00:46:16,520 --> 00:46:26,760
+Jackson: never have. And yeah, so look, the quick rundown is fabled to stop has not made me any money.
 
 446
-00:42:57,120 --> 00:43:06,080
-Chris: have good FX yet so that they're catching up but two is like like above
+00:46:26,760 --> 00:46:32,200
+Jackson: 11 people have downloaded the app, including my girlfriend. So and I don't know if they're
 
 447
-00:43:06,080 --> 00:43:11,880
-Chris: the US dollar is like very very much an international currency and the the euro
+00:46:32,200 --> 00:46:42,280
+Insert: using it, no reviews, no money. Wowzers, six, six dollars. So if the definition for is,
 
 448
-00:43:11,880 --> 00:43:18,360
-Chris: is less so like they call it the euro dollar not the euro euro so I see what
+00:46:42,280 --> 00:46:47,560
+Jackson: do we have AGI is can it make me money with no effort? The answer is now today.
 
 449
-00:43:18,360 --> 00:43:26,240
-Jackson: about like how some people might hold some euros and some US dollars to like
+00:46:48,920 --> 00:46:54,040
+Chris: I feel like this is I think this is like an amazing case study. And I feel like this is
 
 450
-00:43:26,240 --> 00:43:34,120
-Jackson: hedge against like exchange rate fluctuations I don't know if if physical
+00:46:54,040 --> 00:46:57,960
+Chris: kind of the thing that everyone is freaking out about right now. And it's that like,
 
 451
-00:43:34,120 --> 00:43:40,720
-Jackson: or digital non stablecoin money goes away maybe this does have a place I
+00:46:57,960 --> 00:47:03,080
+Chris: now that the being able to build something has been commoditized, everyone's like,
 
 452
-00:43:40,720 --> 00:43:46,000
-Chris: don't know what do you think yeah I agree it definitely has a place 100% I
+00:47:03,080 --> 00:47:08,280
+Chris: how do we get distribution? Like who has distribution? And how do we use our distribution
 
 453
-00:43:46,000 --> 00:43:51,240
-Chris: just don't know that it's like as big a news as people are making it out to be
+00:47:08,280 --> 00:47:14,200
+Chris: to gain advantage of other people? And I don't think anyone knows the answer yet.
 
 454
-00:43:51,240 --> 00:43:59,080
-Chris: like if if the slow bond layin or whoever whatever UN official sorry EU
+00:47:15,480 --> 00:47:19,000
+Chris: But I actually I definitely feels like a different world that we're coming into.
 
 455
-00:43:59,080 --> 00:44:01,920
-Chris: official is like responsible for the money comes out and says yeah we're
+00:47:19,960 --> 00:47:27,160
+Jackson: Yeah, yeah, the barrier for building is so so low. I don't know how long it would have taken
 
 456
-00:44:01,920 --> 00:44:08,240
-Chris: going to tokenize various European countries bonds into stablecoins and
+00:47:27,160 --> 00:47:35,800
+Jackson: me to build the iPhone app on my own. I guess if I didn't have a job, maybe like a week or two.
 
 457
-00:44:08,240 --> 00:44:13,200
-Chris: like push it out that way and put like the whole state apparatus behind it then
+00:47:36,760 --> 00:47:40,360
+Chris: Yeah. But you're an engineer with a decade of experience.
 
 458
-00:44:13,200 --> 00:44:19,480
-Chris: maybe but that's not what I'm seeing here not yet so all right you're in
+00:47:41,880 --> 00:47:46,200
+Jackson: I'm not that old, dude. I'm an engineer with six years of professional experience, I think.
 
 459
-00:44:19,480 --> 00:44:27,720
-Jackson: Europeans stablecoin stays in the toilet not useful not now no yeah yeah we'll
+00:47:46,200 --> 00:47:51,560
+Chris: Something like that, right? Yeah. So but you're like, you're like, you have a university degree
 
 460
-00:44:27,720 --> 00:44:37,800
-Jackson: flush it for now we'll go dig around in the sewers if we ever need it okay so we
+00:47:51,560 --> 00:47:56,760
+Chris: that is very related to this. And you have six years of experience at like,
 
 461
-00:44:37,800 --> 00:44:43,880
-Jackson: talked about hey fable make me a million dollars and we teased maybe on the first
+00:47:58,120 --> 00:48:05,480
+Chris: like, great companies, right? So it's like, that, that, like, that used to be the gate in order to
 
 462
-00:44:43,880 --> 00:44:51,240
-Jackson: podcast that I ran that and I launched an iPhone application I didn't want to
+00:48:05,480 --> 00:48:11,080
+Chris: be able to do something like this. And now it's like, any anyone can have a go.
 
 463
-00:44:51,240 --> 00:44:54,920
-Jackson: say what I had built because I hadn't launched it and I didn't want our
+00:48:12,600 --> 00:48:15,800
+Jackson: That's true. And it was a gate too much of a gate for me to do it.
 
 464
-00:44:54,920 --> 00:45:00,480
-Jackson: listeners to front run me in this business yeah but it's been about three
+00:48:17,080 --> 00:48:23,160
+Chris: Yeah, yeah, me too. Yeah, I've like, I wasn't building a chicken egg app for sure before.
 
 465
-00:45:00,480 --> 00:45:03,880
-Jackson: months since that happened and I've launched the app like two months ago I
+00:48:24,120 --> 00:48:26,680
+Chris: But like, yeah, a lot of things I wasn't doing that I am now.
 
 466
-00:45:03,880 --> 00:45:09,640
-Jackson: think so I'll do a recap of how that went are you ready yeah let's go yeah I'm
+00:48:28,280 --> 00:48:34,040
+Jackson: Yeah, yeah, same here. So now I've got my, my girlfriend researching how to do marketing,
 
 467
-00:45:09,640 --> 00:45:16,520
-Jackson: ready I'm ready so basically when I told Claude make me a million dollars do
+00:48:34,040 --> 00:48:42,360
+Jackson: we're reaching out to influencers, like the habit chicken distribution, chicken influencer.
 
 468
-00:45:16,520 --> 00:45:19,840
-Jackson: research it started like searching there and how do people make money with apps
+00:48:42,360 --> 00:48:48,120
+Jackson: I'll toss you a hud there. I'll toss you a hud there. Yeah, dude. If you show my chicken
 
 469
-00:45:19,840 --> 00:45:24,480
-Jackson: and then like then it started researching the app store it's like what
+00:48:48,120 --> 00:48:53,400
+Jackson: app, take a video of you with a chicken egg app, and you're picking up an egg and pressing the plus
 
 470
-00:45:24,480 --> 00:45:34,520
-Jackson: apps already exist in which like hobbies are like at utilities have apps that have
+00:48:53,400 --> 00:49:00,600
+Jackson: button. Is there a chick talk like chicken, tick tock, tick tock. There probably is I didn't
 
 471
-00:45:34,520 --> 00:45:40,160
-Jackson: low scores low ratings and then like look through their reviews and what are
+00:49:00,600 --> 00:49:07,320
+Jackson: actually tried to do marketing in my own. And like there's a website called backyard chickens,
 
 472
-00:45:40,160 --> 00:45:47,360
-Jackson: the issues so it did this they did all this and we identified that 12 million
+00:49:07,320 --> 00:49:10,840
+Jackson: where you like post pictures of your chickens and talk about chicken problems.
 
 473
-00:45:47,360 --> 00:45:50,320
-Jackson: households in the United States I don't know if I believe that number but I've
+00:49:11,560 --> 00:49:18,040
+Jackson: There's like, apparently, like, I learned a lot about chickens. And apparently, I like a
 
 474
-00:45:50,320 --> 00:45:56,160
-Jackson: seen it on in numerous places have chickens that produce eggs so I made an
+00:49:18,040 --> 00:49:21,800
+Jackson: female chicken get pissed off. And like, they don't want you to touch their eggs.
 
 475
-00:45:56,160 --> 00:46:03,440
-Jackson: iPhone app for counting your chickens eggs before they hatch they're for
+00:49:22,600 --> 00:49:30,040
+Jackson: Okay, got a word for that. I can't remember right now, angry female chicken name. I think
 
 476
-00:46:03,440 --> 00:46:06,920
-Jackson: eating I think they're eating a yeah yeah so you're counting chickens eggs
+00:49:30,040 --> 00:49:37,560
+Jackson: they call it brooding. Actually, I can't get a brooding. Yeah. Anyways, I tried to post on there.
 
 477
-00:46:06,920 --> 00:46:10,160
-Chris: before they hatch got it I'm here I'm here for it I think they would never
+00:49:37,560 --> 00:49:41,160
+Jackson: And like, I was reading through the forums and like, so many people have already done that.
 
 478
-00:46:10,160 --> 00:46:19,520
-Jackson: have and yeah so look the quick rundown is fabled to stop has not made me any
+00:49:41,160 --> 00:49:45,000
+Jackson: And they just blocked my face. There's like, Reddit, backyard chickens.
 
 479
-00:46:19,520 --> 00:46:25,120
-Jackson: money eleven people have downloaded the app including my girlfriend so and I
+00:49:45,640 --> 00:49:50,920
+Jackson: They don't want me. So I'm gonna try to go organic. I've been like, calling my dad like,
 
 480
-00:46:25,120 --> 00:46:32,320
-Insert: don't know if they're using it no reviews no money Wowzers six six dollars
+00:49:50,920 --> 00:49:54,920
+Jackson: and I'm from Georgia in the United States. I'm like, you know, anybody that has chickens? And
 
 481
-00:46:32,320 --> 00:46:38,760
-Insert: so if the definition for is do we have AGI is can it make me money with no
+00:49:54,920 --> 00:49:59,160
+Jackson: he's like, No, and I'm like, everyone thinks Georgia is a farmland. And you have no chickens
 
 482
-00:46:38,760 --> 00:46:44,600
-Chris: effort the answer is now today I I feel like this is I think this is like an
+00:49:59,160 --> 00:50:06,200
+Chris: for me, dude. Yeah, you don't even know a chicken. It's crazy. But yeah, I think this is really
 
 483
-00:46:44,600 --> 00:46:48,880
-Chris: amazing case study and I feel like this is kind of the thing that everyone is
+00:50:06,200 --> 00:50:11,400
+Chris: interesting, man. I think like, this is the new paradigm that we're moving into a distribution
 
 484
-00:46:48,880 --> 00:46:53,640
-Chris: freaking out about right now and it's that like now that the being able to
+00:50:11,400 --> 00:50:15,960
+Chris: where that really, really matters. And it's like, not a game that I've ever played before. So I'm
 
 485
-00:46:53,640 --> 00:46:57,520
-Chris: build something has been commoditized everyone's like how do we get
+00:50:15,960 --> 00:50:20,440
+Chris: like a little bit nervous. But I'm like, excited to see how it goes. Are you trying at all? Have
 
 486
-00:46:57,520 --> 00:47:02,000
-Chris: distribution like who has distribution and how do we use our distribution to
+00:50:20,440 --> 00:50:26,760
+Jackson: you tried any distribution of your own trying to sell sigil? I mean, no, I'm trying to distribute
 
 487
-00:47:02,000 --> 00:47:08,160
-Chris: gain advantage of other people and I don't think anyone knows the answer yet
+00:50:26,760 --> 00:50:32,440
+Chris: myself. Like I have a blog, I think I'm going to try to self publish a paper at some point.
 
 488
-00:47:08,160 --> 00:47:12,640
-Chris: but I actually I definitely feels like a different world that we're coming into
+00:50:34,040 --> 00:50:38,920
+Chris: Which is again, like another thing that I just wouldn't have had time to do before. Like the
 
 489
-00:47:12,640 --> 00:47:20,200
-Jackson: yeah yeah the barrier for building is so so low I don't know how long it would
+00:50:38,920 --> 00:50:47,000
+Chris: setup and like the data harvesting was always like the annoying part. So yeah, I guess like,
 
 490
-00:47:20,200 --> 00:47:27,560
-Jackson: have taken me to build the iPhone app on man I guess if I didn't have a job maybe
+00:50:47,000 --> 00:50:52,440
+Chris: you know, in that sense, I feel like that's a form of distribution. But I haven't like tried
 
 491
-00:47:27,560 --> 00:47:35,560
-Chris: like a week or two yeah but you're an engineer with a decade of experience I'm
+00:50:52,440 --> 00:50:59,800
+Chris: to distribute a software product yet, or like a proper product. Yeah, I wouldn't I wouldn't even
 
 492
-00:47:35,560 --> 00:47:39,440
-Jackson: not that old dude I'm an engineer with six years of professional experience I
+00:50:59,800 --> 00:51:05,640
+Jackson: know where to begin. So well, I'll keep you guys updated. If anything happens with the egg app,
 
 493
-00:47:39,440 --> 00:47:43,880
-Chris: think something like that right yeah so but you're like you're a like you have a
+00:51:05,640 --> 00:51:12,200
+Jackson: my girlfriend made her own like seven apps. Amazing. And she's publishing them. And
 
 494
-00:47:43,880 --> 00:47:49,360
-Chris: university degree that is very related to this and you have six years of
+00:51:12,200 --> 00:51:19,720
+Jackson: I've got another one that is not AI idea. It's my idea. And wrapping up testing today. So
 
 495
-00:47:49,360 --> 00:47:56,960
-Chris: experience at like like great companies right so it's like that that like that
+00:51:20,840 --> 00:51:25,160
+Jackson: we can't let you have to download it. Yeah, no, we don't tell ideas until there are a lot. No,
 
 496
-00:47:56,960 --> 00:48:00,920
-Chris: used to be the gate in order to be able to do something like this and now it's
+00:51:25,160 --> 00:51:30,040
+Chris: see, I went into the ideas guy time like we're back, we have to like hide our ideas,
 
 497
-00:48:00,920 --> 00:48:08,680
-Jackson: like any anyone can have a go that's true and it was a gate too much of a gate for
+00:51:30,040 --> 00:51:37,720
+Jackson: hide our distribution 100%. Yeah, I don't know if I've ever been idea guy. I don't like work that
 
 498
-00:48:08,680 --> 00:48:15,040
-Jackson: me to do it yeah yeah I've like I wasn't building a
+00:51:37,720 --> 00:51:47,560
+Jackson: much. But we're all pivoting. We're all pivoting. Yeah. To close out the segment, if you have
 
 499
-00:48:15,040 --> 00:48:19,600
-Chris: chicken egg out for sure before but like yeah a lot of things I wasn't doing that
+00:51:47,560 --> 00:51:56,840
+Jackson: chickens or geese, or duck, yeah, and they eat them. Yeah, or you know somebody have them email
 
 500
-00:48:19,600 --> 00:48:26,280
-Jackson: I am now yeah yeah same here so now I've got my my girlfriend researching how to
+00:51:56,840 --> 00:52:02,360
+Jackson: me at Jackson rocks, number one at Yahoo.com. And I'll send them a link. I'll give them a free
 
 501
-00:48:26,280 --> 00:48:32,720
-Jackson: do marketing we're reaching out to influencers like the habit chicken
+00:52:02,360 --> 00:52:08,680
+Chris: subscription. They don't have to post a comment on the video, the chicken comment and like and
 
 502
-00:48:32,720 --> 00:48:39,080
-Jackson: it's the district you had chicken in so that's it I'll toss you a hud there I'll
+00:52:08,680 --> 00:52:14,520
+Jackson: subscribe and hit the bell button also. Oh, yeah, I need to start saying that or wait way earlier,
 
 503
-00:48:39,080 --> 00:48:42,880
-Jackson: toss you a hud yeah yeah dude if you show my chicken I take a video of you
+00:52:14,520 --> 00:52:21,240
+Jackson: like and subscribe, like and subscribe. No one's liking and leave a comment, say something offensive
 
 504
-00:48:42,880 --> 00:48:47,920
-Jackson: with a chicken egg and you're picking up an egg and pressing the plus button is
+00:52:21,240 --> 00:52:27,560
+Chris: offend us. No, say something nice. Don't do that. No, I read that offensive comments are great for
 
 505
-00:48:47,920 --> 00:48:53,440
-Chris: there a chick talk like chicken tick-tock tick-tock there probably is I
+00:52:27,560 --> 00:52:34,680
+Jackson: the channel. Oh, okay, then do do that. That's cool. Yeah. Yeah, do do us. And we hope to have
 
 506
-00:48:53,440 --> 00:48:59,800
-Jackson: didn't actually try to do marketing in my own and like there's a website called
+00:52:34,680 --> 00:52:41,160
+Jackson: Chris or not Chris Tyler back next week. Chris, Chris would never abandon us ever the last time
 
 507
-00:48:59,800 --> 00:49:03,400
-Jackson: backyard chickens where you like post pictures of your chickens and talk about
+00:52:41,160 --> 00:52:46,600
+Chris: you abandoned the pot. Yeah, Tyler's off saving the world. So make sense. That's true. He's he's
 
 508
-00:49:03,400 --> 00:49:09,080
-Jackson: chicken problems there's like apparently like I learned a lot about
+00:52:46,600 --> 00:52:52,840
+Jackson: more important than us. All we have to do is talk on the tour computers. I'm just a humble chicken
 
 509
-00:49:09,080 --> 00:49:13,760
-Jackson: chickens and apparently I like a female chicken get pissed off and like they
+00:52:52,840 --> 00:53:00,840
+Jackson: appreciator. All right, me as well. All right, that closes out the week. Thank you, everybody.
 
 510
-00:49:13,760 --> 00:49:19,120
-Jackson: don't want you to touch their eggs okay I've got a word for that I can't
-
-511
-00:49:19,120 --> 00:49:23,920
-Jackson: remember it right now angry female chicken name I think they call it
-
-512
-00:49:23,920 --> 00:49:30,600
-Jackson: brooding actually came dead everything yeah anyways I tried to post on there
-
-513
-00:49:30,600 --> 00:49:33,720
-Jackson: and like I was reading through the forums and like so many people have
-
-514
-00:49:33,720 --> 00:49:37,960
-Jackson: already done that and they just blocked my face there's like reddit backyard
-
-515
-00:49:37,960 --> 00:49:43,040
-Jackson: chickens they don't want me so I'm gonna try to go organic I've been like
-
-516
-00:49:43,040 --> 00:49:47,120
-Jackson: calling my dad like and I'm from Georgia in the United States I'm like you know
-
-517
-00:49:47,120 --> 00:49:50,840
-Jackson: anybody that has chickens he's like no I don't like everyone thinks George is a
-
-518
-00:49:50,840 --> 00:49:54,760
-Jackson: farm land and you have no chickens for me dude yeah you don't even know a
-
-519
-00:49:54,760 --> 00:50:01,080
-Chris: chicken it's crazy but yeah I think this is really interesting man I think like
-
-520
-00:50:01,080 --> 00:50:05,240
-Chris: this is the new paradigm that we're moving into of distribution where that
-
-521
-00:50:05,240 --> 00:50:09,360
-Chris: really really matters and it's like not a game that I've ever played before so
-
-522
-00:50:09,360 --> 00:50:13,120
-Chris: I'm like a little bit nervous but I'm like excited to see how it goes are you
-
-523
-00:50:13,120 --> 00:50:16,480
-Jackson: trying at all have you tried any distribution of your own try to sell
-
-524
-00:50:16,480 --> 00:50:23,080
-Chris: schedule I mean no I'm trying to distribute myself like I have a blog I
-
-525
-00:50:23,080 --> 00:50:28,400
-Chris: think I'm gonna try to self-publish a paper at some point which is again like
-
-526
-00:50:28,400 --> 00:50:32,880
-Chris: another thing that I just wouldn't have had time to do before like the setup and
-
-527
-00:50:32,880 --> 00:50:40,320
-Chris: like the data harvesting was always like the annoying part so so yeah I guess like
-
-528
-00:50:40,320 --> 00:50:44,640
-Chris: you know in that sense I feel like that's a form of distribution but I
-
-529
-00:50:44,640 --> 00:50:49,520
-Chris: haven't like tried to distribute a software product yet or like a proper
-
-530
-00:50:49,520 --> 00:50:56,480
-Chris: product yeah I wouldn't I wouldn't even know where to begin so well I'll keep
-
-531
-00:50:56,480 --> 00:51:00,120
-Jackson: you guys updated if anything happens with the egg app my girlfriend made her
-
-532
-00:51:00,120 --> 00:51:06,600
-Jackson: own like seven apps amazing and she's publishing them and I've got another one
-
-533
-00:51:06,600 --> 00:51:14,700
-Jackson: that it's not AI idea it's my idea and wrapping up testing today so we can't
-
-534
-00:51:14,700 --> 00:51:18,440
-Jackson: let them have to download it yeah no we don't tell ideas until they're a lot no
-
-535
-00:51:18,440 --> 00:51:23,720
-Chris: sit I wins the ideas guy time like we're back we have to like hide out ideas hide
-
-536
-00:51:23,720 --> 00:51:30,680
-Jackson: out distribution 100% yeah I don't know if I've ever been idea guy I don't like
-
-537
-00:51:30,680 --> 00:51:39,320
-Chris: work that much but we're all pivoting we're all pivoting yeah to close out the
-
-538
-00:51:39,320 --> 00:51:46,280
-Jackson: segment if you have chickens or geese or duck yeah and they know someone yeah
-
-539
-00:51:46,280 --> 00:51:52,360
-Jackson: yeah or you know somebody have them email me at Jackson rocks number one at
-
-540
-00:51:52,360 --> 00:51:57,480
-Jackson: Yahoo calm and I'll send them a link I'll give them a free subscription they
-
-541
-00:51:57,480 --> 00:52:02,180
-Chris: don't have to pay post a comment on the video the chicken comment and like and
-
-542
-00:52:02,180 --> 00:52:06,920
-Jackson: subscribe and hit the bell button also oh yeah I need to start saying that or
-
-543
-00:52:06,920 --> 00:52:12,560
-Jackson: wait way earlier like and subscribe like and subscribe no one's liking and leave
-
-544
-00:52:12,560 --> 00:52:18,200
-Jackson: a comment say something offensive offend us no say something nice don't do that
-
-545
-00:52:18,200 --> 00:52:23,360
-Chris: I read that the offensive comments are great for the channel oh okay then do do
-
-546
-00:52:23,360 --> 00:52:29,480
-Jackson: that that's cool yeah yeah do do us and we hope that Chris or not Chris Tyler
-
-547
-00:52:29,480 --> 00:52:33,400
-Jackson: back next week Chris Chris would never abandon us
-
-548
-00:52:33,400 --> 00:52:36,800
-Jackson: except for the last time are you abandoned the pot yeah Tyler's off
-
-549
-00:52:36,800 --> 00:52:41,160
-Jackson: saving the world so makes sense that's sure he's he's more important than us all
-
-550
-00:52:41,160 --> 00:52:46,320
-Jackson: we have to do is talk on the tour computers I'm just a humble chicken
-
-551
-00:52:46,320 --> 00:52:53,320
-Jackson: appreciate it that's right me as well all right that closes out the week thank
-
-552
-00:52:53,320 --> 00:53:01,760
-Insert: you everybody peace is up 6% shout out to soul
-
-553
-00:53:01,760 --> 00:53:04,840
-Insert: la
+00:53:00,840 --> 00:53:14,280
+Insert: Peace is up 6% shout out to soul line.
