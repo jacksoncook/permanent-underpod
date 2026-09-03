@@ -1,0 +1,72 @@
+{
+ "show": "PERMANENT UNDERPOD",
+ "show_kicker": "PERMANENT",
+ "show_main": "UNDERPOD",
+ "accent": [255, 210, 74],
+ "source": "/Users/jcook/Personal/permanent-underpod/media/ep13/work/src/jackson_720.mp4",
+ "title_card": {
+  "bg_frame": 550,
+  "line": "EPISODE 13   ·   We Found the Definition of AGI   ·   Bitcoin  ·  Stablecoins  ·  AI",
+  "dur": 4.5
+ },
+ "end_card": {
+  "bg_frame": 3236,
+  "kicker": "NEXT WEEK ON",
+  "lines": [
+   "Tyler returns — CLARITY hits the Senate floor Sept 15",
+   "Secure enclaves — owed FIVE episodes now",
+   "Not financial advice. Our opinions are ours, not our employers'."
+  ],
+  "cta": "LIKE  +  SUBSCRIBE",
+  "dur": 7
+ },
+ "lower_thirds": [
+  {"name": "intro", "kicker": "EPISODE 13", "title": "GOBLIN MODE (TYLER'S OUT)"},
+  {"name": "perp", "kicker": "PERP OF FORTUNE", "title": "QWEN3 SAYS: LONG SOL, 10×"},
+  {"name": "fable", "kicker": "QUICK TAKE", "title": "FABLE 5.1 — CAN YOU EVEN TELL?"},
+  {"name": "marquee", "kicker": "THE MARQUEE", "title": "WE FOUND THE DEFINITION OF AGI"},
+  {"name": "autonomy", "kicker": "AUGMENTATIVE vs AUTONOMOUS", "title": "MCPs ARE DEAD. SKILLS LIVE ON."},
+  {"name": "hurts", "kicker": "THE OTHER HALF OF THE CURVE", "title": "WHO AI HURTS FIRST"},
+  {"name": "novice", "kicker": "THE LAST THING", "title": "AI LIFTS NOVICES 34%, EXPERTS 0%"},
+  {"name": "release", "kicker": "TWO LABS, TWO PHILOSOPHIES", "title": "ASTRA vs GLM-5.3"},
+  {"name": "eurr", "kicker": "THE SEGMENT WE PROMISED", "title": "THE EURO STABLECOIN"},
+  {"name": "egg", "kicker": "\"FABLE, MAKE ME A MILLION DOLLARS\"", "title": "THE CHICKEN EGG APP"},
+  {"name": "wrap", "kicker": "EPISODE 13 IN THE BOOKS", "title": "LIKE, SUBSCRIBE, EMAIL THE CHICKEN GUY"}
+ ],
+ "stats": [
+  {"name": "coldopen", "kicker": "EPISODE 13", "main": "In this pod…"},
+  {"name": "roll", "kicker": "THE ROLL", "main": "LONG SOL · 10× — \"FTX holds 10% of Solana\""},
+  {"name": "hype", "kicker": "CHRIS'S FABLE PICK", "main": "short HYPE — \"like 30 cents\""},
+  {"name": "nodiff", "kicker": "FABLE 5.1", "main": "\"I've noticed absolutely no difference\""},
+  {"name": "tenth", "kicker": "THE BOARD", "main": "+$0.10 — \"we're up 10%… not 10%… 0.1%\""},
+  {"name": "levels", "kicker": "LEVELS OF AGI · DEEPMIND, 2023", "main": "ChatGPT = Level 1, \"Emerging AGI\""},
+  {"name": "level4", "kicker": "CHRIS'S GRADE", "main": "Level 4 — 99th percentile of skilled adults"},
+  {"name": "narrow", "kicker": "NARROW ≠ GENERAL", "main": "AlphaFold folds proteins. Fable writes code."},
+  {"name": "lawyers", "kicker": "SHOTS FIRED", "main": "\"we're gonna have no listeners left\""},
+  {"name": "million", "kicker": "THE AGI TEST", "main": "\"$100K → $1M, and it works\""},
+  {"name": "mcp", "kicker": "POSTMORTEM", "main": "MCPs: \"a waste of time\""},
+  {"name": "skills", "kicker": "VERDICT", "main": "skills live on"},
+  {"name": "editor", "kicker": "ATROPHY WATCH", "main": "\"when was the last time you opened a text editor?\""},
+  {"name": "sycophant", "kicker": "THE SYCOPHANCY ERA", "main": "\"you're a genius — email Stanford immediately\""},
+  {"name": "ayahuasca", "kicker": "AI PSYCHOSIS", "main": "overlaps heavily with the ayahuasca friends"},
+  {"name": "callcenter", "kicker": "THE SOURCE", "main": "Brynjolfsson's call-center study"},
+  {"name": "astra", "kicker": "ASTRA (OPENAI)", "main": "government + critical infrastructure first"},
+  {"name": "glm", "kicker": "GLM-5.3 (OPEN-ISH)", "main": "security audit if you serve it at >$10M/yr"},
+  {"name": "daybreak", "kicker": "DAYBREAK BLUE", "main": "\"competing with some sick names\""},
+  {"name": "issuance", "kicker": "EURO STABLECOIN", "main": "~€300M issued — \"very, very small\""},
+  {"name": "flush", "kicker": "VERDICT", "main": "flushed — \"we'll dig around in the sewers\""},
+  {"name": "12m", "kicker": "THE RESEARCH", "main": "12M US households have egg-laying chickens"},
+  {"name": "eleven", "kicker": "THE NUMBERS", "main": "11 downloads (incl. girlfriend) · $0"},
+  {"name": "distribution", "kicker": "THE NEW GAME", "main": "building is commoditized — distribution isn't"},
+  {"name": "brooding", "kicker": "CHICKEN FACTS", "main": "brooding: do NOT touch her eggs"},
+  {"name": "pnl", "kicker": "FINAL P&L", "main": "+$6.71 (+6.3%) — two green weeks in a row"}
+ ],
+ "thumbnail": {
+  "text": "GOOGLE DEFINED AGI",
+  "out": "/Users/jcook/Personal/permanent-underpod/media/ep13/ep13-thumbnail.png",
+  "faces": [
+   {"track": "jackson", "t": 2833, "cx": 380, "top": 110, "h": 600},
+   {"track": "chris", "t": 1645, "cx": 900, "top": 120, "h": 590}
+  ]
+ }
+}

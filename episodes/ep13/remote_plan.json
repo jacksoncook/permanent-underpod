@@ -1,0 +1,645 @@
+{
+ "_notes": [
+  "Ep 13 — WE FOUND THE DEFINITION OF AGI. Two hosts only (Tyler out) — duo halves, never thirds.",
+  "StreamYard per-host tracks; offsets = filename deltas (jackson 0 / chris -0.021). Turn-gap",
+  "  medians -2.02/-2.88 (delta ±0.44, under the 0.6 flag) — in family with Ep 11/12. By-ear",
+  "  bench NOT run (Jackson stepped away) — pending his confirmation, same as Ep 12.",
+  "PERP DASHBOARD (Chris screen share, 1920x1080, LONG SOL 10x, $1,000 wager): anchored to the",
+  "  END of the recordings per Jackson ('lines up with the end of the other videos'):",
+  "  anchor = 3245.667 - 3023.381 = 222.286 (filename delta 222.176 agrees to 0.11 s).",
+  "  Verified: TIME AFLOAT 0m18s @ screen t12 => roll opened master ~216; board reads +$0.10 at",
+  "  master 243 when Jackson says 'we're up 10%… not 10%… 0.1%'. Full-mode beat 243.9-256, corner",
+  "  [700,170,480,190] (UNREALIZED FORTUNE + % line) from 256 to the ENDING insert (house rule).",
+  "  FINAL P&L +$6.71 (+6.3%) — second green week in a row.",
+  "INSERTS (Jackson's pre-shot reaction clips): whenItHits6.mov ('Wowzers. Six. Six dollars.')",
+  "  requested at screen 43:50 = master 2852.3; nearest sentence-end gap is 2856.67 (board +$6.40),",
+  "  right after 'no reviews, no money' and before 'if the definition of AGI is can it make me",
+  "  money… the answer is no today'. ending.mov ('up six percent, shout out to Solana') runs",
+  "  after 'Peace.' as the final beat before the end card.",
+  "SPAGHETTI card: Jackson on tape at 1000 'I might insert one [Will Smith spaghetti video] that",
+  "  I make with Gemini right after that' — no clip was provided, so a 3 s editor's card covers",
+  "  the promise instead of leaving it dangling (liberty per Jackson's 'take liberties').",
+  "ON-TAPE EDIT INSTRUCTIONS OBEYED: 341 'Cut the cough, Claude' (337.13->344.08 drops the cough",
+  "  + the instruction); 1022 'Claude cut this by the way' (1007.48->1029.41 drops the 'is there",
+  "  anything else on the paper' deliberation); 1891 'AI cut that segment where I was just",
+  "  wondering what we talked about' (1869.82->1895.55).",
+  "TOPIC-CHOOSING / VERBAL-TRANSITION CUTS: 187.21->194.39 'let me queue up / I'll share';",
+  "  2121.22->2132.93 'now we will transition to another topic, this one is interesting kind of';",
+  "  2508.51->2518.79 'we are done with that, now we will talk about, I don't know, something",
+  "  else' (kept the 'would you like to talk about the Euro stablecoin' / 'I said that it sucks'",
+  "  setup, MUTED Chris's overlapping 'what should we talk about?'); 2733.10->2745.41 'OK let's",
+  "  see, last thing, last topic, I will share'. Tail 3241.83 drops 'oh, I pressed the wrong button'.",
+  "COLD OPEN 56 s, 2 beats: COLD1 547-570 Chris 'how many people do you know who are a better",
+  "  programmer than Fable?' / 'I know zero' / 'we're already at a level four'. COLD2 2823-2857",
+  "  the chicken-egg app reveal through '11 downloads including my girlfriend… no reviews, no",
+  "  money' — teases the finale.",
+  "S3/S4 marquee has NO whoosh boundary: 'let's crack into the topic of the week' sits in",
+  "  continuous speech (no all-silent gap 276-294); lower third + sheet row at 288.3 instead.",
+  "DISCLAIMER: SIXTH episode with no spoken 'not financial advice' — end card carries it. No",
+  "  employer names in kept spans. No BTC price/ETF talk.",
+  "face_cx from src frames: jackson 660, chris 715. All boundaries RMS-envelope gated via",
+  "  check_bounds.py; every cut edge micro-whispered.",
+  "DEAD AIR: two-host episode has almost no >=2 s silences (9 gaps, 0.3 min), so the cutter runs tighter here: dead_air_min 1.4 / keep 0.5 / net 0.8 (new remote_cutlist.py params, defaults unchanged) — 28 pauses, ~0.7 min removed."
+ ],
+ "blocks": [
+  {
+   "id": "COLD1",
+   "m0": 547.16,
+   "m1": 570.13
+  },
+  {
+   "id": "COLD2",
+   "m0": 2823.26,
+   "m1": 2856.67
+  },
+  {
+   "id": "CARD_TITLE",
+   "card": "card_title.mov"
+  },
+  {
+   "id": "S1",
+   "m0": 0.97,
+   "m1": 96.67
+  },
+  {
+   "id": "S2",
+   "m0": 96.67,
+   "m1": 187.21
+  },
+  {
+   "id": "S3",
+   "m0": 194.39,
+   "m1": 337.13
+  },
+  {
+   "id": "S4",
+   "m0": 344.08,
+   "m1": 1007.48
+  },
+  {
+   "id": "SPAGHETTI",
+   "card": "card_spaghetti.mov"
+  },
+  {
+   "id": "S5",
+   "m0": 1029.41,
+   "m1": 1869.82
+  },
+  {
+   "id": "S6",
+   "m0": 1895.55,
+   "m1": 2121.22
+  },
+  {
+   "id": "S7",
+   "m0": 2132.93,
+   "m1": 2508.51
+  },
+  {
+   "id": "S8",
+   "m0": 2518.79,
+   "m1": 2733.1,
+   "mute": [
+    [
+     "chris",
+     2519.0,
+     2520.7
+    ]
+   ]
+  },
+  {
+   "id": "S9A",
+   "m0": 2745.41,
+   "m1": 2856.67
+  },
+  {
+   "id": "HITS6",
+   "insert": "/Users/jcook/Personal/permanent-underpod/media/ep13/whenItHits6.mov"
+  },
+  {
+   "id": "S9B",
+   "m0": 2856.67,
+   "m1": 3241.83
+  },
+  {
+   "id": "ENDING",
+   "insert": "/Users/jcook/Personal/permanent-underpod/media/ep13/ending.mov"
+  },
+  {
+   "id": "CARD_END",
+   "card": "card_end.mov"
+  }
+ ],
+ "protect": [
+  [
+   0.97,
+   17.0
+  ],
+  [
+   242.0,
+   262.0
+  ],
+  [
+   547.0,
+   571.0
+  ],
+  [
+   2823.0,
+   2857.0
+  ],
+  [
+   3163.0,
+   3242.0
+  ]
+ ],
+ "force_shots": [
+  {
+   "m0": 0.97,
+   "m1": 16.5,
+   "type": "duo"
+  },
+  {
+   "m0": 547.16,
+   "m1": 570.13,
+   "type": "duo"
+  },
+  {
+   "m0": 3163.6,
+   "m1": 3241.83,
+   "type": "duo"
+  }
+ ],
+ "face_cx": {
+  "jackson": 660,
+  "chris": 715
+ },
+ "panel_order": [
+  "jackson",
+  "chris"
+ ],
+ "params": {
+  "idle_gain": 0.12,
+  "group_thresh": 0.25,
+  "group_hold": 1.0,
+  "react_thresh": 0.6,
+  "min_shot": 3.0,
+  "gain_target": 0.006,
+  "dead_air_min": 1.4,
+  "dead_air_keep": 0.5,
+  "dead_air_net": 0.8
+ },
+ "overlays": [
+  {
+   "name": "st_coldopen",
+   "block": "COLD1",
+   "rel": 0.0,
+   "dur": 8.0,
+   "kind": "st"
+  },
+  {
+   "name": "lt_intro",
+   "block": "S1",
+   "m": 3.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_perp",
+   "block": "S2",
+   "m": 97.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_roll",
+   "block": "S2",
+   "m": 108.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_hype",
+   "block": "S2",
+   "m": 157.5,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_fable",
+   "block": "S3",
+   "m": 199.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_nodiff",
+   "block": "S3",
+   "m": 221.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_tenth",
+   "block": "S3",
+   "m": 257.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "lt_marquee",
+   "block": "S3",
+   "m": 288.3,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_levels",
+   "block": "S4",
+   "m": 438.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_level4",
+   "block": "S4",
+   "m": 528.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_narrow",
+   "block": "S4",
+   "m": 590.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_lawyers",
+   "block": "S4",
+   "m": 686.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_million",
+   "block": "S4",
+   "m": 891.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_autonomy",
+   "block": "S5",
+   "m": 1033.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_mcp",
+   "block": "S5",
+   "m": 1157.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_skills",
+   "block": "S5",
+   "m": 1298.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_editor",
+   "block": "S5",
+   "m": 1364.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_hurts",
+   "block": "S5",
+   "m": 1461.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_sycophant",
+   "block": "S5",
+   "m": 1645.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_ayahuasca",
+   "block": "S5",
+   "m": 1704.5,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_novice",
+   "block": "S6",
+   "m": 1896.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_callcenter",
+   "block": "S6",
+   "m": 2056.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_release",
+   "block": "S7",
+   "m": 2134.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_astra",
+   "block": "S7",
+   "m": 2175.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_glm",
+   "block": "S7",
+   "m": 2194.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_daybreak",
+   "block": "S7",
+   "m": 2396.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_eurr",
+   "block": "S8",
+   "m": 2519.3,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_issuance",
+   "block": "S8",
+   "m": 2583.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_flush",
+   "block": "S8",
+   "m": 2721.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_egg",
+   "block": "S9A",
+   "m": 2746.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_12m",
+   "block": "S9A",
+   "m": 2811.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_eleven",
+   "block": "S9A",
+   "m": 2848.5,
+   "dur": 7.5,
+   "kind": "st"
+  },
+  {
+   "name": "st_distribution",
+   "block": "S9B",
+   "m": 2875.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_brooding",
+   "block": "S9B",
+   "m": 3025.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_wrap",
+   "block": "S9B",
+   "m": 3164.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_pnl",
+   "block": "ENDING",
+   "rel": 0.3,
+   "dur": 7.3,
+   "kind": "st"
+  }
+ ],
+ "pips": [
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep13/Untitled_recording-Chris-screen-00h_03m_42s_566ms-StreamYard.mp4",
+   "block": "S3",
+   "m0": 243.9,
+   "m1": 256.0,
+   "anchor": 222.286,
+   "mode": "full"
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep13/Untitled_recording-Chris-screen-00h_03m_42s_566ms-StreamYard.mp4",
+   "block": "S3",
+   "m0": 256.0,
+   "m1": 337.13,
+   "anchor": 222.286,
+   "mode": "corner",
+   "crop": [
+    700,
+    170,
+    480,
+    190
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep13/Untitled_recording-Chris-screen-00h_03m_42s_566ms-StreamYard.mp4",
+   "block": "S4",
+   "m0": 344.08,
+   "m1": 1007.48,
+   "anchor": 222.286,
+   "mode": "corner",
+   "crop": [
+    700,
+    170,
+    480,
+    190
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep13/Untitled_recording-Chris-screen-00h_03m_42s_566ms-StreamYard.mp4",
+   "block": "S5",
+   "m0": 1029.41,
+   "m1": 1869.82,
+   "anchor": 222.286,
+   "mode": "corner",
+   "crop": [
+    700,
+    170,
+    480,
+    190
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep13/Untitled_recording-Chris-screen-00h_03m_42s_566ms-StreamYard.mp4",
+   "block": "S6",
+   "m0": 1895.55,
+   "m1": 2121.22,
+   "anchor": 222.286,
+   "mode": "corner",
+   "crop": [
+    700,
+    170,
+    480,
+    190
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep13/Untitled_recording-Chris-screen-00h_03m_42s_566ms-StreamYard.mp4",
+   "block": "S7",
+   "m0": 2132.93,
+   "m1": 2508.51,
+   "anchor": 222.286,
+   "mode": "corner",
+   "crop": [
+    700,
+    170,
+    480,
+    190
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep13/Untitled_recording-Chris-screen-00h_03m_42s_566ms-StreamYard.mp4",
+   "block": "S8",
+   "m0": 2518.79,
+   "m1": 2733.1,
+   "anchor": 222.286,
+   "mode": "corner",
+   "crop": [
+    700,
+    170,
+    480,
+    190
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep13/Untitled_recording-Chris-screen-00h_03m_42s_566ms-StreamYard.mp4",
+   "block": "S9A",
+   "m0": 2745.41,
+   "m1": 2856.67,
+   "anchor": 222.286,
+   "mode": "corner",
+   "crop": [
+    700,
+    170,
+    480,
+    190
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep13/Untitled_recording-Chris-screen-00h_03m_42s_566ms-StreamYard.mp4",
+   "block": "S9B",
+   "m0": 2856.67,
+   "m1": 3241.83,
+   "anchor": 222.286,
+   "mode": "corner",
+   "crop": [
+    700,
+    170,
+    480,
+    190
+   ]
+  }
+ ],
+ "sheet": [
+  {
+   "block": "COLD1",
+   "label": "Cold open"
+  },
+  {
+   "block": "CARD_TITLE",
+   "label": "Title"
+  },
+  {
+   "block": "S1",
+   "label": "Goblin mode: Tyler's out"
+  },
+  {
+   "block": "S2",
+   "label": "Perp of Fortune: Qwen3 says long SOL, 10×"
+  },
+  {
+   "block": "S3",
+   "m": 199.1,
+   "label": "Quick take: Fable 5.1 (and the board)"
+  },
+  {
+   "block": "S3",
+   "m": 288.3,
+   "label": "THE MARQUEE: we found the definition of AGI"
+  },
+  {
+   "block": "SPAGHETTI",
+   "label": "The Will Smith spaghetti insert"
+  },
+  {
+   "block": "S5",
+   "m": 1032.5,
+   "label": "Augmentative vs autonomous: MCPs are dead, skills live on"
+  },
+  {
+   "block": "S5",
+   "m": 1460.0,
+   "label": "Who AI hurts first: sycophancy and AI psychosis"
+  },
+  {
+   "block": "S6",
+   "label": "AI lifts novices 34%, experts 0%"
+  },
+  {
+   "block": "S7",
+   "label": "Two labs, two release philosophies: Astra vs GLM-5.3"
+  },
+  {
+   "block": "S8",
+   "label": "The Euro stablecoin (we promised): \"I said that it sucks\""
+  },
+  {
+   "block": "S9A",
+   "label": "Fable, make me a million dollars: the chicken egg app"
+  },
+  {
+   "block": "HITS6",
+   "label": "When it hits $6"
+  },
+  {
+   "block": "S9B",
+   "m": 3163.6,
+   "label": "Wrap: like, subscribe, email the chicken guy"
+  },
+  {
+   "block": "ENDING",
+   "label": "Final P&L: +$6.71 (+6.3%)"
+  }
+ ]
+}

@@ -454,6 +454,12 @@ What's different from the one-camera flow (all learned the hard way on Ep 5):
   Both the script and the `react_thresh` param are opt-in, so older episodes re-cut
   identically; the cutlist hard-errors if `react_thresh` is set but `motion.json` is
   missing, rather than silently ignoring the request.
+- **Dead-air tightness is a plan param, not a constant.** The cutter drops union-silent
+  runs ≥ `params.dead_air_min` (default 2.0 s), leaves `dead_air_keep` (0.7 s) of breath,
+  and only splices when the net removal ≥ `dead_air_net` (1.0 s). A two-host episode
+  barely produces 2 s silences (Ep 13: 9 gaps, 0.3 min), so when the ask is "cut every
+  long um" go 1.4 / 0.5 / 0.8 — Ep 13 got 28 pauses, ~0.7 min. Measure the gap
+  histogram first; defaults are untouched so older episodes re-cut identically.
 - **Recording-gap coverage:** restarts leave per-host holes (no cam AND no mic). The
   planner refuses shots without coverage; anything said in a hole is simply LOST —
   check session.md around gaps and plan blocks so a gap never lands mid-keeper.

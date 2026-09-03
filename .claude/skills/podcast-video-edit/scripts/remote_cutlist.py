@@ -25,6 +25,7 @@ remote_plan.json (LLM judgment lives here):
   "face_cx": {"jackson": 620, "chris": 600, "tyler": 660},   # panel crop centers
   "panel_order": ["jackson", "chris", "tyler"],
   "params": {"idle_gain": 0.12, "group_thresh": 0.48, "min_shot": 3.5,
+             "dead_air_min": 2.0, "dead_air_keep": 0.7, "dead_air_net": 1.0,
              "gain_target": 0.028}   # 0.028 ~ -31 dBFS speech RMS per track:
 }                                    # 3 mics sum + crest => peaks ~-8 dBFS.
                                      # 0.055 CLIPPED on Ep 5 — don't raise it.
@@ -41,6 +42,9 @@ IDLE_GAIN = P.get('idle_gain', 0.12)
 GROUP_TH = P.get('group_thresh', 0.48)
 MIN_SHOT = P.get('min_shot', 3.5)
 GAIN_TGT = P.get('gain_target', 0.028)
+DEAD_MIN = P.get('dead_air_min', 2.0)     # union-silent run length that counts as dead air
+DEAD_KEEP = P.get('dead_air_keep', 0.7)   # breath left in place of each removed pause
+DEAD_NET = P.get('dead_air_net', 1.0)     # minimum net removal worth a splice
 PORDER = PLAN.get('panel_order', ['jackson', 'chris', 'tyler'])
 FACE_CX = PLAN.get('face_cx', {})
 PROTECT = [tuple(p) for p in PLAN.get('protect', [])]
@@ -153,9 +157,9 @@ def plan_block(b):
         t = grid[i]
         if v and s is None: s = t
         if (not v or i == len(silent) - 1) and s is not None:
-            if t - s >= 2.0 and not any(p0 < t and p1 > s for p0, p1 in PROTECT):
-                rs, re_ = s + 0.35, t - 0.35
-                if re_ - rs >= 1.0:
+            if t - s >= DEAD_MIN and not any(p0 < t and p1 > s for p0, p1 in PROTECT):
+                rs, re_ = s + DEAD_KEEP / 2, t - DEAD_KEEP / 2
+                if re_ - rs >= DEAD_NET:
                     if rs > cur: keeps.append((cur, rs))
                     cur = re_
             s = None
