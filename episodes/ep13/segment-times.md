@@ -14,19 +14,20 @@ cards · whoosh & gold-wipe on all 12 transitions.**
 
 ## Episode video
 
-- **URL:** _not uploaded yet_ — Jackson uploads manually (`yt_upload.py` also works:
-  scheduled-private, `publishAt`). Then backfill this sheet from `yt_fetch.py`.
-- **Tags (suggested, 12):** podcast, ai, agi, google deepmind, levels of agi, fable,
-  anthropic, openai, glm, coding agents, stablecoins, solana.
-- **Captions:** `ep13-final-cut.srt` (attributed, regenerated from the FINAL cut) —
-  in `media/ep13/work/`. Upload via the captions API (force-ssl token, NOT the broad
-  `youtube` scope), track `standard`.
+- **URL:** https://youtu.be/36HwFHzF6sM — LIVE, published 2026-09-03 21:35 UTC (Jackson,
+  manual upload). Live title: **Google Defined AGI. We Graded Fable as Superhuman**
+  (Jackson's edit of draft #1). Description = the draft below, verbatim.
+- **Tags (12, API-patched 2026-09-04):** podcast, ai, agi, google deepmind, levels of agi,
+  fable, anthropic, openai, glm, coding agents, stablecoins, solana.
+- **Captions:** track `standard` uploaded 2026-09-04 from `transcript-attributed.srt`
+  (regenerated from the FINAL cut) via `yt_captions.py` (force-ssl token, NOT the broad
+  `youtube` scope).
 - **File:** `media/ep13/Permanent Underpod - Ep 13 (Final Cut).mp4`
 - **Thumbnail:** `media/ep13/ep13-thumbnail.png` — "GOOGLE DEFINED AGI" (pale yellow,
   two cutouts: Jackson's big laugh from the egg-app reveal, Chris grinning; passed the
   320×180 shrink test). Packaging is a launch-day gate — set it at upload time.
 
-## Title (drafts; pick #1 unless overridden)
+## Title (drafts — LIVE title is "Google Defined AGI. We Graded Fable as Superhuman")
 
 1. **Google Defined AGI. We Graded Ourselves a Level 4.**
 2. "Fable, Make Me a Million Dollars." It Made $0.
@@ -125,12 +126,69 @@ Upload with the episode via the captions API (force-ssl scope, not the broad
 
 ## Clips
 
-_Not cut yet. Shorts only (long-form pulls retired). Candidates flagged while
-editing: "I know zero" (COLD1), "email Stanford immediately" (1648), "waste of
-time" MCP postmortem (1156), "when was the last time you opened a text editor"
-(1363), "shots fired at lawyers / no listeners left" (685), the ayahuasca line
-(1704), "11 downloads including my girlfriend" (2848) + `whenItHits6`, "Wowzers.
-Six dollars." Gate with `verify_clips.py` before AND after render._
+8 face-crop vertical shorts off `edited_raw.mov` (episode audio chain, branded ender),
+uploaded 2026-09-04 scheduled-private, daily 2 PM PT (21:00 UTC) starting 9/5 after the
+Ep 12 queue ends 9/4. Playlist: Underpod Shorts. Gate: `verify_clips.py` PASS before and
+`--rendered` after; two declared overrides (short1 ends in the decay of "better" before
+the /s/ of Chris's "So", short6 in the decay of "expert" before Jackson's "I thought").
+Source: `episodes/ep13/clips.json`; copy: `media/clips/ep13/posting-copy.md`.
+
+| # | Clip | Final-cut time | Publishes (PT) | URL |
+|---|------|----------------|----------------|-----|
+| 1 | short1-i-know-zero | 0:00 (segment 5:42) | 9/5 2 PM | https://youtu.be/o_TzYAKzONk |
+| 2 | short5-eleven-downloads | 46:22 (segment 44:44) | 9/6 2 PM | https://youtu.be/KFb2spB0gWE |
+| 3 | short2-email-stanford | 27:33 (segment 24:38) | 9/7 2 PM | https://youtu.be/GiYGkEtaVlI |
+| 4 | short7-spaghetti | 17:17 (segment 17:28) | 9/8 2 PM | https://youtu.be/oQywbcmQ8xA |
+| 5 | short4-lawyers | 11:59 (segment 5:42) | 9/9 2 PM | https://youtu.be/kKUK65sAD-0 |
+| 6 | short3-ayahuasca | 28:27 (segment 24:38) | 9/10 2 PM | https://youtu.be/k4ac52y9Ql4 |
+| 7 | short8-mcp-waste | 19:36 (segment 17:38) | 9/11 2 PM | https://youtu.be/LZUC9HWkAOA |
+| 8 | short6-goblin-mode | 1:42 (segment 1:01) | 9/12 2 PM | https://youtu.be/g9sumY85c7c |
+
+**Funnel checklist (manual, OWED):** related video → episode on each short; pinned
+comment once public (episode link + the segment timestamp above); end screen on the
+episode → Ep 12 / subscribe.
+
+### Posting copy (as uploaded)
+
+**short1-i-know-zero** (9:16) — 9/5
+- Title:   Name one programmer better than Fable. We couldn't.
+- Caption: Chris runs the thought experiment from DeepMind's Levels of AGI paper and Jackson comes up empty. Full episode: https://youtu.be/36HwFHzF6sM
+- Tags:    #shorts #ai #agi #programming
+
+**short5-eleven-downloads** (9:16) — 9/6
+- Title:   I asked Fable to make me $1M. 11 downloads, $0.
+- Caption: Jackson's AI built a chicken egg-counting app to get rich. His girlfriend downloaded it. Full episode: https://youtu.be/36HwFHzF6sM
+- Tags:    #shorts #ai #startup #chickens
+
+**short2-email-stanford** (9:16) — 9/7
+- Title:   "You're a genius, email Stanford immediately"
+- Caption: Chris on the ChatGPT update that agreed with everyone about everything. Full episode: https://youtu.be/36HwFHzF6sM
+- Tags:    #shorts #ai #chatgpt #sycophancy
+
+**short7-spaghetti** (9:16) — 9/8
+- Title:   Will Smith eating spaghetti, 2026 edition
+- Caption: Three years ago this was the AI benchmark. Jackson promised a remake mid-episode, so here's Chris. Full episode: https://youtu.be/36HwFHzF6sM
+- Tags:    #shorts #ai #gemini #willsmith
+
+**short4-lawyers** (9:16) — 9/9
+- Title:   Shots fired at lawyers AND accountants
+- Caption: Jackson grades the professions; Chris does the math on who's left listening. Full episode: https://youtu.be/36HwFHzF6sM
+- Tags:    #shorts #ai #lawyers #accountants
+
+**short3-ayahuasca** (9:16) — 9/10
+- Title:   AI psychosis overlaps with your ayahuasca friends
+- Caption: Jackson knows people with AI psychosis, and he's noticed a pattern. Full episode: https://youtu.be/36HwFHzF6sM
+- Tags:    #shorts #ai #aipsychosis #ayahuasca
+
+**short8-mcp-waste** (9:16) — 9/11
+- Title:   MCPs were a waste of time (I built one)
+- Caption: Jackson declares MCP servers dead, postmortem included. Chris uses one every day. Full episode: https://youtu.be/36HwFHzF6sM
+- Tags:    #shorts #ai #mcp #coding
+
+**short6-goblin-mode** (9:16) — 9/12
+- Title:   What is goblin mode? Chris is the expert.
+- Caption: Tyler's out, so Chris explains goblin mode: pizza, bed, no regrets. Full episode: https://youtu.be/36HwFHzF6sM
+- Tags:    #shorts #podcast #goblinmode #ai
 
 ## Edit decisions of note (details in `remote_plan.json` `_notes`)
 

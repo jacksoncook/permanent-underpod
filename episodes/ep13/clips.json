@@ -1,0 +1,211 @@
+{
+ "source": "/Users/jcook/Personal/permanent-underpod/media/ep13/work/edited_raw.mov",
+ "out_dir": "/Users/jcook/Personal/permanent-underpod/media/clips/ep13",
+ "logo": "/Users/jcook/Personal/permanent-underpod/media/ep13/work/logo.png",
+ "audio_chain": "highpass=f=80,volume=13.1dB,afftdn=nr=18:nf=-50:tn=1,acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,treble=f=9500:width_type=q:w=0.8:g=2,loudnorm=I=-16:TP=-1.5:LRA=5",
+ "ender": true,
+ "clips": [
+  {
+   "name": "short1-i-know-zero",
+   "start": 0.4,
+   "end": 15.74,
+   "vertical": true,
+   "caption": {
+    "kicker": "LEVELS OF AGI",
+    "title": "BETTER CODER THAN FABLE?"
+   },
+   "face_crops": [
+    [
+     0.0,
+     757
+    ],
+    [
+     3.1,
+     117
+    ],
+    [
+     6.8,
+     757
+    ]
+   ],
+   "verify_override": {
+    "out": "no gap exists: 'better' decays to its floor at 15.72-15.75 (speech band -47/-53 dB, 4-8 kHz band -70 dB); the /s/ of Chris's 'So' starts 15.75 (4-8 kHz jumps to -37 dB) and the vowel at 15.84. The 15.35-15.43 dip is the /t/ closure inside 'bet-ter'."
+   }
+  },
+  {
+   "name": "short2-email-stanford",
+   "start": 1653.87,
+   "end": 1666.24,
+   "vertical": true,
+   "caption": {
+    "kicker": "THE SYCOPHANCY ERA",
+    "title": "\"EMAIL STANFORD IMMEDIATELY\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     512
+    ],
+    [
+     8.1,
+     757
+    ],
+    [
+     10.35,
+     117
+    ]
+   ]
+  },
+  {
+   "name": "short3-ayahuasca",
+   "start": 1707.08,
+   "end": 1728.27,
+   "vertical": true,
+   "caption": {
+    "kicker": "AI PSYCHOSIS",
+    "title": "THE AYAHUASCA OVERLAP"
+   },
+   "face_crops": [
+    [
+     0.0,
+     117
+    ],
+    [
+     13.39,
+     457
+    ],
+    [
+     17.89,
+     117
+    ]
+   ]
+  },
+  {
+   "name": "short4-lawyers",
+   "start": 719.66,
+   "end": 733.33,
+   "vertical": true,
+   "caption": {
+    "kicker": "SHOTS FIRED",
+    "title": "NO LISTENERS LEFT"
+   },
+   "face_crops": [
+    [
+     0.0,
+     457
+    ],
+    [
+     10.37,
+     757
+    ]
+   ]
+  },
+  {
+   "name": "short5-eleven-downloads",
+   "start": 2782.44,
+   "end": 2799.37,
+   "vertical": true,
+   "caption": {
+    "kicker": "\"FABLE, MAKE ME $1M\"",
+    "title": "11 DOWNLOADS. $0."
+   },
+   "face_crops": [
+    [
+     0.0,
+     117
+    ],
+    [
+     7.66,
+     457
+    ],
+    [
+     12.43,
+     470
+    ]
+   ]
+  },
+  {
+   "name": "short6-goblin-mode",
+   "start": 102.35,
+   "end": 124.85,
+   "vertical": true,
+   "caption": {
+    "kicker": "CHECK-IN",
+    "title": "WHAT IS GOBLIN MODE?"
+   },
+   "face_crops": [
+    [
+     0.0,
+     117
+    ],
+    [
+     5.92,
+     757
+    ],
+    [
+     7.52,
+     512
+    ]
+   ],
+   "verify_override": {
+    "out": "no gap exists: 'expert' decays 124.77-124.86 (envelope -45 to -55 dB, falling); Jackson's 'thought' onset 124.87. Word-level whisper: expert 124.42-124.76."
+   }
+  },
+  {
+   "name": "short7-spaghetti",
+   "start": 1037.54,
+   "end": 1058.2,
+   "vertical": true,
+   "caption": {
+    "kicker": "EMERGING AGI, 2023",
+    "title": "WILL SMITH EATING SPAGHETTI"
+   },
+   "face_crops": [
+    [
+     0.0,
+     117
+    ],
+    [
+     10.66,
+     437
+    ]
+   ]
+  },
+  {
+   "name": "short8-mcp-waste",
+   "start": 1176.89,
+   "end": 1202.12,
+   "vertical": true,
+   "caption": {
+    "kicker": "POSTMORTEM",
+    "title": "MCPs: A WASTE OF TIME"
+   },
+   "face_crops": [
+    [
+     0.0,
+     457
+    ],
+    [
+     5.94,
+     117
+    ],
+    [
+     10.44,
+     757
+    ],
+    [
+     12.94,
+     512
+    ],
+    [
+     16.44,
+     457
+    ],
+    [
+     20.94,
+     117
+    ]
+   ]
+  }
+ ]
+}

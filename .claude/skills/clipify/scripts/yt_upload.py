@@ -37,10 +37,14 @@ verify the channel by phone in YouTube Studio. Scheduled publish won't fire unti
 """
 import json, os, sys, time
 
-# The broad `youtube` scope covers uploads AND playlist management (adding each
-# clip to a playlist). Older tokens minted with only `youtube.upload` are
-# detected in get_creds and trigger a one-time re-auth.
-SCOPES = ["https://www.googleapis.com/auth/youtube"]
+# `youtube.force-ssl` is a strict superset of the broad `youtube` scope (uploads,
+# playlists, videos.update) and additionally covers captions, so one token serves
+# yt_upload.py, the tags patch and yt_captions.py. A cached token minted under
+# the older broad `youtube` scope is still accepted; `youtube.upload`-only tokens
+# are detected in get_creds and trigger a one-time re-auth.
+SCOPES = ["https://www.googleapis.com/auth/youtube.force-ssl"]
+ACCEPTED_SCOPES = [{"https://www.googleapis.com/auth/youtube.force-ssl"},
+                   {"https://www.googleapis.com/auth/youtube"}]
 RETRIABLE = {500, 502, 503, 504}
 
 
@@ -89,8 +93,8 @@ def get_creds(client_secret, token_path):
         # the GRANTED scopes from the token file itself: from_authorized_user_file
         # overwrites .scopes with whatever we request, so it can't be used to check.
         granted = set(json.load(open(token_path)).get("scopes") or [])
-        if set(SCOPES) <= granted:
-            creds = Credentials.from_authorized_user_file(token_path, SCOPES)
+        if any(req <= granted for req in ACCEPTED_SCOPES):
+            creds = Credentials.from_authorized_user_file(token_path, sorted(granted))
         else:
             print("cached token lacks required scopes — re-authorizing…")
     if not creds or not creds.valid:

@@ -306,6 +306,19 @@ to backfill each episode's `segment-times.md` from the *actual published* copy i
 of drafts: `~/.config/clipify-youtube/.venv/bin/python scripts/yt_fetch.py` → writes
 `channel_dump.json`. (YouTube only returns a video's real `tags` to the channel owner.)
 
+**Captions (`scripts/yt_captions.py`).** Uploads the SRT regenerated from the FINAL
+cut as a caption track (default name `standard`, replaces a same-name track):
+`~/.config/clipify-youtube/.venv/bin/python scripts/yt_captions.py <videoId> <file.srt>
+[--name standard] [--lang en] [--dry-run]`. Captions need the `youtube.force-ssl`
+scope — the broad `youtube` scope 403s every captions method.
+
+**One token for everything.** `youtube.force-ssl` is a superset of the broad `youtube`
+scope, so `yt_upload.py` requests it (and still accepts an older broad-scope token).
+Point manifests at `~/.config/clipify-youtube/token_captions.json` and uploads,
+playlist inserts, `videos.update` tag patches and captions all share it. Jackson's
+manual Studio uploads revoke tokens (five times so far) — probe each token file
+individually before re-authing; on the browser screen pick the brand channel.
+
 ## Notes / gotchas
 
 - **A/V sync:** clips are frame-aligned the same way `podcast-video-edit` cuts —
