@@ -87,6 +87,16 @@ No re-auth needed: the OAuth app is published (verified 2026-07-11), so tokens
 refresh headlessly.
 
 ## Gotchas
+- **Related-video, pinned comments, and end screens are manual Studio steps the API
+  can't set or read — Jackson reliably does them.** `SHORTS_CONTENT_LINKS` staying
+  near-zero is a CLICK-THROUGH problem (viewers aren't clicking the related video),
+  NOT proof the link is unwired. Never write "funnel checklist owed / not run /
+  still pending" in insights.json from traffic-source numbers alone — that's an
+  assumption, not evidence, and it keeps getting corrected (2026-07-21 and again
+  2026-09-09). If low `SHORTS_CONTENT_LINKS` is worth flagging, frame it as a
+  click-through-rate finding ("viewers aren't taking the related-video link") and
+  ask Jackson to confirm Studio state before calling anything "not wired" or
+  "skipped."
 - **Scheduled/private videos** appear in the table (flagged) but have ~no analytics
   yet — don't read their zeros as failure.
 - **Retention needs views**: low-view videos may return no curve (script skips
