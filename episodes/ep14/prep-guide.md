@@ -69,8 +69,15 @@
 > **K: the model we praised for three weeks is now on an FBI list.**
 > Sept 8 joint NSA/CISA/FBI advisory names Z.AI (GLM) among six Chinese
 > labs running "industrial-scale" distillation of Claude/GPT/Gemini/Grok.
-> → **Topic K.** **I: the fruit fly** — a March story that resurfaced this
-> week; the substance is thinner than the meme. → **Topic I, ≤4 min.**
+> → **Topic K.** **I: the fly brain is open source and it's in every
+> sandbox.** Sept 3: Google + Janelia released the complete MALE fruit fly
+> CNS connectome (166K neurons, 125M synapses, CC-BY, pip-installable).
+> Within two days a Georgia Tech master's student had it driving a mob in
+> Minecraft with GPT-6 Astra's help; by the weekend it was playing Doom,
+> Mario 64, and Beat Saber, and someone was building it "fruit fly
+> heaven." Eon needed a company and MuJoCo in March; this took one grad
+> student, one AI, and a gaming PC. The meme is the point; the caveat is
+> that the game wiring is human-designed. → **Topic I, ≤5 min.**
 > **Perp of Fortune: TWO green weeks (+$7.30, +$6.71).** Proposal (Jackson
 > to confirm/override): **the AGI perp-off** — Astra picks the real trade
 > (it declared the AGI era; make it earn it), Fable's pick runs as the
@@ -80,7 +87,7 @@
 > reportedly launches Sept 14 — three days after record, still no SpaceX
 > manifest ⚠.
 > **Time budget: 11 topics ≈ ~80 min of prep vs the 45–55 target.** Drop
-> order: **I to a 90-s beat inside A2** · **K to 2 min inside A** · **E to
+> order: **I to a 2-min beat after A** · **K to 2 min inside A** · **E to
 > 3 min** (pre-game only; the vote is after publish) · **G to 4** · **B
 > folds into A2** as the Sept-8 split screen if the clock's tight. **Never
 > cut F, A, A2, C, D+T.**
@@ -124,9 +131,15 @@ agents"); security layers are **Muse Secure VM** + **Sentinel**; the
 promised fix is **Muse Confidential VM**. The advisory is **AA26-251A**.
 The paper is **Thorgeirsson, Weidmann & Su, ETH Zurich, CHI '26**; tests
 are **SCS1** (CS), **ICAR16** (cognitive), an essay (writing); the agent
-was **Claude Sonnet 4**. The fly company is **Eon Systems** (CEO Michael
-Andregg, co-founder Alex Wissner-Gross); the connectome is **FlyWire**;
-the body sim is **NeuroMechFly v2** in **MuJoCo**.
+was **Claude Sonnet 4**. The fly release is the **male CNS connectome**
+(neuPrint `male-cns:v1.0`; Berg et al., *Cell*, Sept 3) from **HHMI
+Janelia + Google Research + Cambridge** — distinct from **FlyWire** (the
+2024 FEMALE brain Eon Systems used in March). The Minecraft mod is
+**NeuroCraft Fly** by **Evan Sinclair Smith** (Georgia Tech master's
+student); the separate MIT-licensed repo is **fly-brain-minecraft**; Doom
+is **Alex Wormuth**; Beat Saber is **Lyra Bubbles**; "fruit fly heaven" is
+**Macroblock**. The neuron model everyone runs is **Shiu et al., Nature
+2024** (leaky integrate-and-fire).
 
 **Retention rules (standing + 9/9 revisions):**
 - **Cold open ≤60 s. Hard cap.** Three candidates, pick one: (1) the
@@ -225,7 +238,7 @@ the body sim is **NeuroMechFly v2** in **MuJoCo**.
 | E | CLARITY T-4 + the week the issuers flexed | Chris | Sept 15 2:15 pm cloture; 53 GOP → ~7 Dems; the seven-Dem bloc; three open fights (ethics, DeFi liability, stablecoin yield); Polymarket 82% → 16% ⚠; House cut Sept 21/28 weeks. Circle×Tazapay $400M; USBDC on Stellar (freeze + clawback tested); Tether sued over a pre-warrant freeze; Qivalis 37-bank euro coin | ≤5 |
 | G | **Who's good at vibe coding? Not the people who use ChatGPT most.** | Jackson | CHI '26, N=100, Claude Sonnet 4: CS knowledge predicts success even controlling for IQ (partial r=.28); writing drops to p=.066 once IQ is controlled; CS ≈ 2× writing's unique variance; **LLM-usage frequency r=−.26 with performance** and −.28 with writing; callback to Ep 13's novices-34% fight | ≤6 |
 | K | The model we praised is on an FBI list | Jackson | AA26-251A names Z.AI among six labs distilling Claude/GPT/Gemini/Grok "since late 2024," "core, not supplement"; guidance: silently serve downgraded models; Ox Alpha promo ended Sept 9 (bench C3 — no post-paywall data yet ⚠); DeepSeek V4.1 Flash routes V4 Pro to Flash Sept 14 | ≤4 |
-| I | The fruit fly meme, six months late | All | Eon Systems (March 7): FlyWire connectome + Shiu's Nature 2024 model + NeuroMechFly body; "walks, grooms, feeds"; LessWrong: "the fly-like behavior is a product of the body model, not the brain"; mouse in ~2 yrs; ⚠ Jackson: what surfaced it this week? | ≤4 |
+| I | **The fly brain is open source and it's in every sandbox** | Jackson | Sept 3: Google/Janelia male CNS connectome, 166K neurons / 125M synapses, CC-BY, `pip install`; Sept 4–5: Georgia Tech grad student ships NeuroCraft Fly in Minecraft with GPT-6 Astra in two days; Doom (dopamine cells as damage), Mario 64, Beat Saber (later admitted: replayed a recording), "fruit fly heaven"; Eon needed a company + MuJoCo in March; the wiring to the game is human-designed — "not evidence of consciousness" | ≤5 |
 | G2 | Contrarian Corner (optional — tally is zero) | Chris | Angle bank below | — |
 
 ### H — Check-ins & owed buttons (All, ≤2 min, SPLIT)
@@ -727,44 +740,77 @@ the body sim is **NeuroMechFly v2** in **MuJoCo**.
 - **Arguable claim candidate:** "The model we praised for three weeks is
   on an FBI list."
 
-### I — The fruit fly meme, six months late (All, ≤4 min)
-- **⚠ Peg check first — Jackson, what surfaced it this week?** The
-  underlying event is **March 7**: Eon Systems (SF; CEO Michael Andregg,
-  co-founder Alex Wissner-Gross; advisors Robin Hanson, George Church,
-  Stephen Wolfram) posted a video of a simulated fly walking, grooming,
-  and drinking, captioned "We've uploaded a fruit fly." Nothing new from
-  Eon is indexed for September; it's riding the AGI-week discourse. Say
-  "back in March" or the community notes write themselves.
-- **What it actually is:** the **FlyWire** connectome (~125–140K neurons,
-  ~50M synapses, one female fly) + **Philip Shiu's 2024 Nature model**
-  (leaky integrate-and-fire neurons, ML-predicted neurotransmitters,
-  95% accurate at predicting motor responses to stimuli — runs on a
-  laptop) + the **NeuroMechFly v2** body in **MuJoCo**. Eon's claim: 91%
-  behavioral accuracy "out of the gate," no hand-coded behaviors. Code
-  for the brain model is on GitHub; the body-coupling isn't released; no
-  paper.
-- **The skeptics' layer (LessWrong, "No, we haven't uploaded a fly yet,"
-  Mar 19):** the brain model has no ventral nerve cord (~15K neurons that
-  actually coordinate walking); hand-picked descending neurons feed
-  high-level commands into **pre-trained motor controllers inside the
-  body sim** — "**the fly-like behavior the viewer sees is a product of
-  the body model, not the brain**"; "you could replace the connectome
-  with a simple rule-based script… and the video would look much the
-  same"; "when the vocabulary of breakthroughs is spent on incremental
-  demos, the actual breakthroughs are cheapened." Also missing:
-  neuromodulation, hormones, non-synaptic signaling. Eon itself calls it
-  "an integration effort" and "very much a work-in-progress." The
-  Register: "huge if true… the papers behind it look solid."
-- **The meme:** "well, I guess their computer has a bug in it now." The
-  extrapolation posts (fly 140K → human 86B, "we've gotten very good at
-  scaling") are the hype exhibit. Mouse (70M neurons) in ~2 years is the
-  stated next step; a mouse connectome would cost hundreds of millions.
-- **The pod's angle (90 s):** same week, the machine that can't really
-  walk a fly went viral while the machine that finished a 90-year math
-  problem got a credit fight. Which one is the "digital mind" story? Ties
-  to bench M (AI clones of the hosts — the pipeline is staged).
-- **Arguable claim candidate:** "The uploaded fly can't walk. The body
-  sim does it for it."
+### I — The fly brain is open source and it's in every sandbox (Jackson, ≤5 min)
+- **The release (Sept 3, same day as Astra):** HHMI Janelia + Google
+  Research + the Cambridge connectomics group published the complete
+  central nervous system of an adult MALE fruit fly — brain AND nerve
+  cord — **166K+ neurons, 125M synapses**, in *Cell* ("Sexual dimorphism
+  in the complete connectome of the Drosophila male central nervous
+  system"). Ten-year project; AI stitched millions of 2D EM slices into
+  3D. **Fully open: CC-BY, browsable in Neuroglancer, and pullable with a
+  token + `pip install` + a few lines of code.** A brain is now a file.
+  Complements FlyWire (the 2024 female brain Eon used); the paper's own
+  hook is the courtship/aggression circuits that differ by sex.
+- **Then the internet did what it does (Sept 4–9):**
+  - **NeuroCraft Fly — Minecraft.** Evan Sinclair Smith, **Georgia Tech
+    master's student** (Jackson's school — say it), had the connectome
+    driving a fly mob **within two days, "completed with the help of GPT-6
+    Astra."** 166,700 simulated neurons; food, light, nearby creatures
+    and attacks become sensory input; activity in chosen descending-neuron
+    groups picks flying/grooming/feeding/escaping. 36kr's framing: Eon
+    needed "a full-time company plus a lab-level physics engine" in
+    March; this took "one graduate student, one AI, and a computer that
+    can run Minecraft."
+  - **fly-brain-minecraft (MIT, GitHub).** A separate Fabric mod: every
+    one of 176,422 neurons is a leaky integrate-and-fire unit per Shiu
+    2024; real photoreceptors, olfactory/gustatory receptors, Johnston's
+    organ and bristles get driven by the game world; real descending and
+    motor neurons are decoded into movement via a priority ladder (escape
+    > landing > backward > forward). Eight cores keeps one fly real-time;
+    each fly runs its own brain on its own thread.
+  - **Doom** (Alex Wormuth): each frame stimulates sensory neurons,
+    activity maps to controls, **taking damage stimulates two PPL101
+    dopamine cells as reinforcement.** Livestream shows health, ammo,
+    kills, spike rasters.
+  - **Mario 64, "YMCA" poses on command, Bad Apple rendered on the
+    connectome, Beat Saber** (Lyra Bubbles, Sept 9 — who later admitted
+    the clip was the network **trained to reproduce a recorded
+    sequence**, not gameplay). An X trending topic.
+  - **"Fruit fly heaven"** (Macroblock): "Everyone is doing terrible
+    things to this poor fruit fly… so I'm building a sim where it just
+    gets to fly around forever" — grass, trees, unlimited fruit. The
+    ethics-of-the-sim discourse started within a week.
+  - Precedent: Aug 19, YouTuber ro0oney1 put the FEMALE FlyWire model
+    into Minecraft spiders and bees; Eon Systems' March demo (FlyWire +
+    NeuroMechFly body in MuJoCo, "we've uploaded a fruit fly") is the
+    original — and Eon's own repos (`fly-brain`, Brian2/PyTorch/NEST GPU)
+    have been public for months.
+- **Why it's OUR segment, not a science segment:** it's the week's
+  cleanest **"open weights" story with an actual brain** — a CC-BY
+  dataset dropped and within 48 h a grad student with Astra shipped what
+  a funded company demoed in March. Set it next to K (governments telling
+  labs to secretly serve downgraded models to protect closed weights) and
+  A (Astra used to build the thing). Also the on-ramp to bench M (AI
+  clones of the hosts).
+- **The honest layer (say it or get community-noted):** the connectome is
+  wiring, not a running brain. **The developers decide how game pixels
+  become sensory spikes and which neurons count as "move left."** Smith:
+  "It's an interactive way to explore a connectome, not evidence of
+  consciousness or a complete recreation of a living fly." The MIT repo's
+  own README: absolute firing rates "should not be trusted," no
+  neuromodulation/neuropeptides/gap junctions, connections under five
+  synapses dropped, the motion pathway "stays silent" so looming is
+  injected by hand, and **walking toward food is a reflex layer, not the
+  connectome.** LessWrong's March critique of Eon still applies: the
+  behavior you see is mostly the body/controller, not the brain. And
+  TheGamer's worry: unknown how much of this is vibe-coded slop that
+  nobody can review — which lands right after G.
+- **The meme:** "well, I guess their computer has a bug in it now." Mouse
+  (70M neurons) is Eon's stated ~2-year target; human (86B) is a
+  slide, not a plan.
+- **Arguable claim candidates:** "A brain is a pip install now." / "The
+  fly isn't playing Doom. The grad student is, through it." / "Open
+  weights, but for a nervous system."
 
 ### G2 — Contrarian Corner (Chris, optional — tally is ZERO)
 Angle bank (pick one only if the clock allows):
@@ -955,14 +1001,25 @@ the SOL perp state.
 - DeepSeek V4.1 Flash: https://www.deepseek.com/en/news/deepseek-v4-1-flash/
   · TechNode (V4 Pro routing Sept 14): https://technode.com/2026/09/10/deepseek-formally-launches-v4-1-flash-routes-v4-pro-requests-to-flash/
 
-**I · The fly**
-- Eon primary: https://eon.systems/updates/weve-uploaded-a-fruit-fly
+**I · The fly brain**
+- Google Research primary (Sept 3): https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/
+  · Janelia dataset page: https://www.janelia.org/project-team/flyem/male-cns-connectome
+  · *Cell* paper: https://doi.org/10.1016/j.cell.2026.08.015
+  · GEN "now open-source": https://www.genengnews.com/topics/translational-medicine/complete-connectome-of-fruit-fly-central-nervous-system-now-open-source/
+- 36kr (Georgia Tech student, "two days with GPT-6", pip + token): https://eu.36kr.com/en/p/3971642393686535
+- IBTimes UK (NeuroCraft Fly, Beat Saber, heaven): https://www.ibtimes.co.uk/fruit-fly-neural-network-gaming-experiments-1819013
+- Dexerto (Beat Saber admission, "fruit fly heaven" quote): https://www.dexerto.com/gaming/googles-digital-fly-brain-gets-its-own-heaven-after-going-through-beat-saber-hell-3407304/
+- TheGamer (Doom wiring, dopamine cells, vibe-code worry): https://www.thegamer.com/fly-brain-playing-doom-minecraft-mario-64/
+  · HotHardware: https://hothardware.com/news/google-mapped-a-fruit-fly-brain-so-engineers-taught-it-to-play-doom
+- fly-brain-minecraft README (MIT; the caveats list): https://github.com/blendi-remade/fly-brain-minecraft/blob/main/README.md
+- X trending: Beat Saber/Minecraft https://x.com/i/trending/2097023022557438015
+  · Bad Apple on the connectome https://x.com/i/trending/2096299791063880138
+- Aug 19 precedent (FlyWire in Minecraft spiders/bees): https://ixbt.games/en/news/2026/08/19/bloger-zagruzil-soznanie-muxi-v-minecraft-on-pomestil-ego-v-telo-pauka-i-pcely.html
+- Eon Systems (March; the original): https://eon.systems/updates/weve-uploaded-a-fruit-fly
   · technical follow-up: https://eon.systems/updates/embodied-brain-emulation
-- The Register: https://www.theregister.com/2026/03/16/digital_fruit_fly_brain_model/
-- LessWrong skeptic (the quotable one): https://www.lesswrong.com/posts/ybwcxBRrsKavJB9Wz/no-we-haven-t-uploaded-a-fly-yet
-- The Decoder: https://the-decoder.com/startup-claims-first-full-brain-emulation-of-a-fruit-fly-in-a-simulated-body/
-- Berkeley on the Shiu 2024 model: https://vcresearch.berkeley.edu/news/researchers-simulate-fly-brain-laptop-human-brain-next
-- Marginal Revolution: https://marginalrevolution.com/marginalrevolution/2026/03/a-fly-has-been-uploaded.html
+  · repos: https://github.com/eonsystemspbc/fly-brain
+- LessWrong skeptic (still the quotable critique): https://www.lesswrong.com/posts/ybwcxBRrsKavJB9Wz/no-we-haven-t-uploaded-a-fly-yet
+- Berkeley on the Shiu 2024 model everyone runs: https://vcresearch.berkeley.edu/news/researchers-simulate-fly-brain-laptop-human-brain-next
 - The meme: https://filezip.substack.com/p/well-i-guess-their-computer-has-a
 
 **F / H · Perp + buttons**
@@ -1054,11 +1111,22 @@ the SOL perp state.
 - **"Z.AI stole Claude."** The advisory never uses theft/illegal/
   copyright; it says distillation is legitimate and objects to scale and
   intent. "Accused of industrial-scale distillation."
-- **"They uploaded a fruit fly."** Eon's own tagline; Eon itself calls it
-  an integration effort and a work in progress; the behaviors come
-  largely from the body model's pre-trained controllers. "Simulated a
-  fly brain driving a virtual body" is the ceiling — and say "in March."
-- **"A human upload is next."** Mouse in ~2 years is the stated plan;
+- **"Google uploaded a fruit fly" / "the fly brain plays Doom."** Google
+  released a WIRING DIAGRAM (male CNS connectome, Sept 3). Hobbyists run
+  a simplified neuron model over it and **hand-design** how game pixels
+  become sensory spikes and which neurons mean "move." Smith: "not
+  evidence of consciousness or a complete recreation of a living fly."
+  Ceiling: "a simulated fly nervous system wired into Doom by a
+  developer."
+- **"The fly brain plays Beat Saber."** The creator admitted the clip was
+  the network trained to replay a recorded sequence.
+- **"Google's fly brain" = Eon's.** Different datasets: Google/Janelia's
+  is the MALE CNS (166K neurons, brain + nerve cord, Sept 3); Eon's March
+  demo used FlyWire's FEMALE brain (~140K). Don't merge them.
+- **"They uploaded a fruit fly" (Eon, March).** Eon itself calls it an
+  integration effort and a work in progress; the behaviors come largely
+  from the body model's pre-trained controllers.
+- **"A human upload is next."** Mouse in ~2 years is Eon's stated plan;
   human is aspiration.
 - **The DOGE-1 Sept 14 date** without the "no SpaceX manifest" caveat.
 - **"NVIDIA is still negotiating with Hugging Face."** Stale. Signed Sept
@@ -1113,7 +1181,7 @@ the SOL perp state.
 - **Ep 14 clip picks** (post-edit): 3 provocation / 2 meme-or-physical /
   ≤2 money / 0 explainer. Candidates already in this doc: the 🙁, the
   spaghetti vortex, "the more you use ChatGPT the worse you vibe code,"
-  "OpenAI declared AGI on a Wednesday," "the fly can't walk."
+  "OpenAI declared AGI on a Wednesday," "a brain is a pip install now."
 - **Ep 14 edit experiments:** no hard title card; check-in after the
   first payoff; perp reveal ≤90 s; measure the 10% mark vs 15.2%.
 - **Core Lightning disclosure — Sept 11 (record day).** If it lands
