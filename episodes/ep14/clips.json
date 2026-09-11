@@ -6,34 +6,34 @@
  "ender": true,
  "clips": [
   {
-   "name": "short1-lamest-perp",
-   "start": 742.2,
-   "end": 758.2,
+   "name": "short9-wikipedia-swarm",
+   "start": 512.05,
+   "end": 536.3,
    "vertical": true,
    "caption": {
-    "kicker": "PERP OF FORTUNE",
-    "title": "LAMEST PERP EVER"
+    "kicker": "AI SWARM FOUND ON WIKIPEDIA",
+    "title": "\"TAKING BACK THEIR LAND\""
    },
    "face_crops": [
     [
      0.0,
-     437
+     512
     ],
     [
-     6.93,
-     10
-    ],
-    [
-     10.43,
-     757
-    ],
-    [
-     12.18,
+     6.55,
      117
     ],
     [
-     14.18,
-     757
+     11.05,
+     437
+    ],
+    [
+     15.05,
+     117
+    ],
+    [
+     22.55,
+     437
     ]
    ]
   },
@@ -113,7 +113,7 @@
    "end": 2085.5,
    "vertical": true,
    "caption": {
-    "kicker": "PERP OF FORTUNE",
+    "kicker": "WE LET AN AI TRADE OUR MONEY",
     "title": "STUCK AT -$0.43 ALL EPISODE"
    },
    "face_crops": [

@@ -13,7 +13,8 @@ whoosh & gold wipe on all 12 topic transitions.**
 
 ## Episode video
 
-- **URL:** _not yet uploaded_ — publish scheduled-private via `yt_upload.py`, then backfill.
+- **URL:** https://youtu.be/7E2oCrI6-Y4 — published by Jackson from Studio 2026-09-11 07:20 UTC as **"Astra Might Be AGI"** (description = the sheet's YouTube description below).
+- **Tags (15, API-patched 2026-09-11):** podcast, bitcoin, ai, astra, openai, agi, liquid, blockstream, sidechain, white hat, navier-stokes, millennium prize, fruit fly, connectome, perp of fortune.
 - **File:** `media/ep14/Permanent Underpod - Ep 14 (Final Cut).mp4`
 - **Thumbnail:** `media/ep14/ep14-thumbnail.png` — "$300M LIQUID HACK" (pale yellow, three
   astounded/reacting cutouts: Jackson's wide-eyed lean-in at "Whoa" (the tabs moment),
@@ -26,8 +27,8 @@ whoosh & gold wipe on all 12 topic transitions.**
 - **Sync check:** final audio cross-correlated against each source track at 12:06, 18:20,
   49:25 and 54:11 — lag −3 to −36 ms, identical early and late (no drift). A/V stream
   durations match to 8 ms.
-- **Captions:** upload `episodes/ep14/transcript-attributed.srt` (regenerated from the
-  FINAL cut) via `yt_captions.py` with the force-ssl token.
+- **Captions:** `episodes/ep14/transcript-attributed.srt` (from the FINAL cut) uploaded 2026-09-11 as the
+  `standard` track via `yt_captions.py` (force-ssl token).
 
 ## Title (drafts)
 
@@ -167,22 +168,24 @@ Eight 9:16 shorts, cut 2026-09-11 (`episodes/ep14/clips.json`; files in `media/c
 copy in `media/clips/ep14/posting-copy.md`). Face-crop verticals off `edited_raw.mov` with the
 episode chain + branded ender; short4 comes off the FINAL mp4 for the baked fly insert. Gate:
 `verify_clips.py` 8/8 pre-render and `--rendered`. Playlist Underpod Shorts, daily 2 PM PT
-(21:00 UTC) from 2026-09-13 (Ep 13 queue ends 9/12). NOT uploaded — waiting on the episode URL.
+(21:00 UTC) from 2026-09-13 (Ep 13 queue ends 9/12). Uploaded 2026-09-11 (scheduled-private). Episode live 2026-09-11: https://youtu.be/7E2oCrI6-Y4.
+Funnel checklist (related video, pinned comments, end screen) still manual and owed.
 
 | # | clip | final in–out | len | title |
 |---|------|--------------|-----|-------|
-| 1 | short1-lamest-perp | 12:22.2–12:38.2 | 16.0 s | The lamest Perp of Fortune we've ever had |
-| 2 | short4-gavin-trades-bitcoin | 32:37.6–32:46.7 | 9.1 s | We gave a fruit fly brain $100 to trade Bitcoin |
-| 3 | short2-top-guy | 4:38.8–4:58.7 | 19.9 s | "Astra is my top guy." Good for a week or two. |
-| 4 | short3-infinite-pain | 29:53.0–30:14.9 | 21.9 s | You parallel parked wrong. Infinite pain. |
-| 5 | short6-shirtless | 26:24.6–26:50.5 | 25.9 s | Have I seen you shirtless or not? |
-| 6 | short7-seventeen-proxies | 51:22.2–51:40.6 | 18.4 s | "I'm behind 17 proxies, good luck" |
-| 7 | short5-bitcoin-stablecoin | 34:17.1–34:45.5 | 28.4 s | Bitcoin is a stablecoin right now |
-| 8 | short8-egg-app | 9:08.0–9:35.3 | 27.3 s | 11 to 15 downloads. Girlfriend is now CMO. |
+| 1 | short9-wikipedia-swarm (https://youtu.be/J4RdzlIp1mA) | 8:32.1–8:56.3 | 24.3 s | AI agents found squatting on a Wikipedia page |
+| 2 | short4-gavin-trades-bitcoin (https://youtu.be/YvlPZjMnKfs) | 32:37.6–32:46.7 | 9.1 s | We gave a fruit fly brain $100 to trade Bitcoin |
+| 3 | short2-top-guy (https://youtu.be/b8V9mpMRaGQ) | 4:38.8–4:58.7 | 19.9 s | "Astra is my top guy." Good for a week or two. |
+| 4 | short3-infinite-pain (https://youtu.be/SkPyihrClNU) | 29:53.0–30:14.9 | 21.9 s | You parallel parked wrong. Infinite pain. |
+| 5 | short6-shirtless (https://youtu.be/BVNb-RDnhT4) | 26:24.6–26:50.5 | 25.9 s | Have I seen you shirtless or not? |
+| 6 | short7-seventeen-proxies (https://youtu.be/iSTufYk7tFE) | 51:22.2–51:40.6 | 18.4 s | "I'm behind 17 proxies, good luck" |
+| 7 | short5-bitcoin-stablecoin (https://youtu.be/4KhkrnmcaTE) | 34:17.1–34:45.5 | 28.4 s | Bitcoin is a stablecoin right now |
+| 8 | short8-egg-app (https://youtu.be/Dkfj7QioSH0) | 9:08.0–9:35.3 | 27.3 s | 11 to 15 downloads. Girlfriend is now CMO. |
 
 Captions and hashtags per clip are in `posting-copy.md`; every caption ends "Full episode: <URL>"
 and the description's last line carries `#shorts` + 3 topical tags. Bench (not cut): "Excellent
-point, Chris" (30:35), the Wikipedia swarm "taking back their land" (8:32), the white hat fee (46:10).
+point, Chris" (30:35), the white hat fee (46:10). Dropped short1-lamest-perp (12:22): Perp-of-Fortune jargon fails the
+stand-alone test (Jackson, 9/11). short5's kicker recaptioned "WE LET AN AI TRADE OUR MONEY" for the same reason.
 
 ## Edit decisions of note
 
