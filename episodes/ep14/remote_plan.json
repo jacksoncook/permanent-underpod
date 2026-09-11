@@ -52,11 +52,6 @@
    "m1": 41.21
   },
   {
-   "id": "PERP",
-   "m0": 733.83,
-   "m1": 988.68
-  },
-  {
    "id": "MARQ_A",
    "m0": 41.21,
    "m1": 480.13
@@ -64,22 +59,12 @@
   {
    "id": "MARQ_B",
    "m0": 548.58,
-   "m1": 723.13
+   "m1": 733.83
   },
   {
-   "id": "LIQ_A",
-   "m0": 2496.66,
-   "m1": 3158.46
-  },
-  {
-   "id": "LIQ_B",
-   "m0": 3228.98,
-   "m1": 3559.8
-  },
-  {
-   "id": "CHECKIN",
-   "m0": 3559.8,
-   "m1": 3670.22
+   "id": "PERP",
+   "m0": 733.83,
+   "m1": 988.68
   },
   {
    "id": "NS_A",
@@ -97,6 +82,11 @@
    "m1": 1810.16
   },
   {
+   "id": "CHECKIN",
+   "m0": 3559.8,
+   "m1": 3670.22
+  },
+  {
    "id": "FLY",
    "m0": 1810.16,
    "m1": 2227.92
@@ -105,6 +95,16 @@
    "id": "FLY2",
    "m0": 2285.65,
    "m1": 2496.66
+  },
+  {
+   "id": "LIQ_A",
+   "m0": 2496.66,
+   "m1": 3158.46
+  },
+  {
+   "id": "LIQ_B",
+   "m0": 3228.98,
+   "m1": 3525.03
   },
   {
    "id": "OUTRO",
@@ -551,10 +551,6 @@
    "label": "Tyler's back, no fruit flies on deck"
   },
   {
-   "block": "PERP",
-   "label": "Perp of Fortune: Astra says long BTC, 2\u00d7 (confidence: low)"
-  },
-  {
    "block": "MARQ_A",
    "label": "The marquee: Astra is live \u2014 is it amazing?"
   },
@@ -574,21 +570,16 @@
    "label": "Egg app update: 11 \u2192 15 downloads"
   },
   {
-   "block": "LIQ_A",
-   "label": "White hats drained Liquid (~$300M of BTC)"
-  },
-  {
-   "block": "LIQ_A",
-   "m": 3136.0,
-   "label": "White hat fee, FBI, North Korea, laundering"
-  },
-  {
-   "block": "CHECKIN",
-   "label": "Non-tech check-in: new mic, tank tops, shoulders"
+   "block": "PERP",
+   "label": "Perp of Fortune: Astra says long BTC, 2\u00d7 (confidence: low)"
   },
   {
    "block": "NS_A",
    "label": "Navier-Stokes fell: verifiable domains"
+  },
+  {
+   "block": "CHECKIN",
+   "label": "Non-tech check-in: new mic, tank tops, shoulders"
   },
   {
    "block": "FLY",
@@ -607,6 +598,15 @@
    "block": "FLY2",
    "m": 2305.0,
    "label": "Ethics of cloning connectomes (and Pantheon)"
+  },
+  {
+   "block": "LIQ_A",
+   "label": "White hats drained Liquid (~$300M of BTC)"
+  },
+  {
+   "block": "LIQ_A",
+   "m": 3136.0,
+   "label": "White hat fee, FBI, North Korea, laundering"
   },
   {
    "block": "OUTRO",

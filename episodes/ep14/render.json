@@ -39,22 +39,12 @@
   },
   {
    "file": "sfx_whoosh.wav",
-   "block": "PERP",
-   "offset": -0.3
-  },
-  {
-   "file": "sfx_whoosh.wav",
    "block": "MARQ_A",
    "offset": -0.3
   },
   {
    "file": "sfx_whoosh.wav",
-   "block": "LIQ_A",
-   "offset": -0.3
-  },
-  {
-   "file": "sfx_whoosh.wav",
-   "block": "CHECKIN",
+   "block": "PERP",
    "offset": -0.3
   },
   {
@@ -64,7 +54,17 @@
   },
   {
    "file": "sfx_whoosh.wav",
+   "block": "CHECKIN",
+   "offset": -0.3
+  },
+  {
+   "file": "sfx_whoosh.wav",
    "block": "FLY",
+   "offset": -0.3
+  },
+  {
+   "file": "sfx_whoosh.wav",
+   "block": "LIQ_A",
    "offset": -0.3
   },
   {
@@ -79,7 +79,7 @@
   },
   {
    "file": "sfx_likesub.wav",
-   "block": "PERP",
+   "block": "MARQ_A",
    "offset": 26.5
   },
   {
@@ -133,43 +133,43 @@
   },
   {
    "file": "wipe.mov",
-   "start": 335.387,
-   "end": 335.787,
+   "start": 699.853,
+   "end": 700.253,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 943.653,
-   "end": 944.053,
+   "start": 953.42,
+   "end": 953.82,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 1936.253,
-   "end": 1936.653,
+   "start": 1553.62,
+   "end": 1554.02,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 2046.687,
-   "end": 2047.087,
+   "start": 1664.053,
+   "end": 1664.453,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 2646.887,
-   "end": 2647.287,
+   "start": 2291.853,
+   "end": 2292.253,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 3274.687,
-   "end": 3275.087,
+   "start": 3249.72,
+   "end": 3250.12,
    "x": 0,
    "y": 0
   },
@@ -182,8 +182,8 @@
   },
   {
    "file": "likesub.mov",
-   "start": 2024.153,
-   "end": 2030.153,
+   "start": 1641.52,
+   "end": 1647.52,
    "x": 0,
    "y": 0
   }
