@@ -1,14 +1,14 @@
 # Permanent Underpod — Ep 14 — Segment Times
 
-**Final cut: 54:25 · fully-remote episode, THREE hosts (Tyler's back): three StreamYard
+**Final cut: 54:11 · fully-remote episode, THREE hosts (Tyler's back): three StreamYard
 cams (offsets 0 / −0.007 / −0.032, filename deltas, turn-gap validated Δ ≤ 0.53;
 by-ear sync bench built at `media/ep14/work/sync.html` — Jackson to confirm) · Perp of
 Fortune board as a corner PiP CROPPED to the P&L card only (no browser tabs) at the
-reveal (12:23–13:20) and at the "Bitcoin is a stablecoin" check (34:30–34:55) · the
+reveal (12:16–13:13) and at the "Bitcoin is a stablecoin" check (34:16–34:41) · the
 fruit-fly stock clip (`fruitFlyStock.mp4`, 10 s, full-frame) where Chris says he gave
-the fly $100 to trade Bitcoin (32:50) · check-in (recorded last) moved to 25:54 ·
+the fly $100 to trade Bitcoin (32:36) · check-in (recorded last) moved to 25:45 ·
 five-beat 44 s cold open · NO title card (logo bug + lower thirds instead — Ep 14
-retention experiment) · animated LIKE + SUBSCRIBE at 1:48 and 27:22 · end card ·
+retention experiment) · animated LIKE + SUBSCRIBE at 1:48 and 27:13 · end card ·
 whoosh & gold wipe on all 12 topic transitions.**
 
 ## Episode video
@@ -47,17 +47,17 @@ Tyler's back, and so is the chaos. Someone found a bug in Liquid's confidential 
 1:22 Astra is live — is it amazing?
 5:22 Tyler's $10K prompt → a slop SaaS
 7:48 A wild agent swarm on a German Wikipedia page
-9:05 Egg app update: 11 → 15 downloads
-11:40 Perp of Fortune: Astra says long BTC, 2× (confidence: low)
-15:54 Navier-Stokes fell: why AI is good at math
-25:54 Check-in: new mic, tank tops, shoulders
-27:44 Gavin the fruit fly: an open-source connectome
-32:50 Gavin trades Bitcoin
-34:42 Perp check: "Bitcoin is a stablecoin right now"
-35:00 Ethics of cloning connectomes (and Pantheon)
-38:12 White hats drained Liquid (~$300M of BTC)
-48:51 The white hat fee, the FBI, North Korea
-54:10 Wrap
+8:58 Egg app update: 11 → 15 downloads
+11:33 Perp of Fortune: Astra says long BTC, 2× (confidence: low)
+15:47 Navier-Stokes fell: why AI is good at math
+25:45 Check-in: new mic, tank tops, shoulders
+27:31 Gavin the fruit fly: an open-source connectome
+32:36 Gavin trades Bitcoin
+34:28 Perp check: "Bitcoin is a stablecoin right now"
+34:47 Ethics of cloning connectomes (and Pantheon)
+37:58 White hats drained Liquid (~$300M of BTC)
+48:38 The white hat fee, the FBI, North Korea
+53:56 Wrap
 
 Recorded fully remote — three cameras, one live perp dashboard, one fruit fly.
 Disclaimers: Our opinions are our own, not our employers'. NOT financial advice. Perp of Fortune is a small real-money account we run for entertainment.
@@ -86,22 +86,22 @@ GLOSSARY
 | 1:48 | LIKE + SUBSCRIBE overlay #1 |
 | 5:22 | Tyler's $10K prompt → a Stripe-testing SaaS he doesn't understand |
 | 7:48 | A wild agent swarm on a German Wikipedia page |
-| 9:05 | Egg app update: 11 → 15 downloads; "the meat proxy"; Chris: "should we talk about the fluid dynamics in the room?" |
-| 11:40 | Perp of Fortune: Astra says long BTC, 2× (confidence: low) — Chris reads the script |
-| 12:23 | Perp board PiP (P&L card only): −$0.43, TIME AFLOAT 21m — runs to 13:20 |
-| 15:54 | Navier-Stokes fell ("fluid dynamics week after week, huh"): Millennium Prize, OpenAI's internal model, $6.5M in tokens, verifiable domains, 10,000 Einsteins, top-of-block for the training data |
-| 25:15 | Jackson closes the Navier-Stokes thread ("in 2023 ChatGPT was bad at math") |
-| 25:54 | Check-in (recorded last, moved here): Jackson's new mic, Chris's shoulder, tank tops |
-| 27:22 | LIKE + SUBSCRIBE overlay #2 (on "Tyler, you got anything for the fans?") |
-| 27:44 | Gavin the fruit fly: Google's open-source connectome, dopamine training, Doom and parallel parking |
-| 32:50 | INSERT `fruitFlyStock.mp4` (10 s, full-frame) — "I gave the fruit fly brain $100 to trade Bitcoin" |
-| 34:30 | Perp board PiP returns (−$0.43, then the −$0.10 board) — runs to 34:55 |
-| 34:42 | Perp check: "Bitcoin is a stablecoin right now" / "Oh, minus 12" |
-| 35:00 | Ethics of cloning connectomes; Pantheon; "the connectome is not you" |
-| 38:12 | White hats drained Liquid ("oh my gosh, a Bitcoin topic"): federated sidechain, confidential transactions, range proofs, the cache bug, 4,000 → 8,000 BTC |
-| 48:51 | The white hat fee (kept 10–15%), the FBI, North Korea or a teenager, coinjoin |
-| 54:10 | Wrap: "Happy Friday. Happy weekend." |
-| 54:18 | End card (CLARITY Sept 15 · secure enclaves · disclaimer · LIKE + SUBSCRIBE) |
+| 8:58 | Egg app update: 11 → 15 downloads; "the meat proxy"; Chris: "should we talk about the fluid dynamics in the room?" |
+| 11:33 | Perp of Fortune: Astra says long BTC, 2× (confidence: low) — Chris reads the script |
+| 12:16 | Perp board PiP (P&L card only): −$0.43, TIME AFLOAT 21m — runs to 13:13 |
+| 15:47 | Navier-Stokes fell ("fluid dynamics week after week, huh"): Millennium Prize, OpenAI's internal model, $6.5M in tokens, verifiable domains, 10,000 Einsteins, top-of-block for the training data |
+| 25:08 | Jackson closes the Navier-Stokes thread ("let's just close out…"; "in 2023 ChatGPT was bad at math") |
+| 25:45 | Check-in (recorded last, moved here): Jackson's new mic, Chris's shoulder, tank tops |
+| 27:13 | LIKE + SUBSCRIBE overlay #2 (on "Tyler, you got anything for the fans?") |
+| 27:31 | Gavin the fruit fly: Google's open-source connectome, dopamine training, Doom and parallel parking |
+| 32:36 | INSERT `fruitFlyStock.mp4` (10 s, full-frame) — "I gave the fruit fly brain $100 to trade Bitcoin" |
+| 34:16 | Perp board PiP returns (−$0.43, then the −$0.10 board) — runs to 34:41 |
+| 34:28 | Perp check: "Bitcoin is a stablecoin right now" / "Oh, minus 12" |
+| 34:47 | Ethics of cloning connectomes; Pantheon; "the connectome is not you" |
+| 37:58 | White hats drained Liquid ("oh my gosh, a Bitcoin topic"): federated sidechain, confidential transactions, range proofs, the cache bug, 4,000 → 8,000 BTC |
+| 48:38 | The white hat fee (kept 10–15%), the FBI, North Korea or a teenager, coinjoin |
+| 53:56 | Wrap: "Happy Friday. Happy weekend. Happy life." |
+| 54:04 | End card (CLARITY Sept 15 · secure enclaves · disclaimer · LIKE + SUBSCRIBE) |
 
 ## Cuts to sweep (every splice in the final render)
 
@@ -120,25 +120,25 @@ sits at the midpoint of a measured all-silent union gap (`check_bounds.py --plan
 | 1:22.00 | welcome → Astra marquee — continuous | 41.21 → 41.21 |
 | 2:41.10 | dead-air trim (1.20 s) | 120.30 → 121.50 |
 | 5:22.37 | dead-air trim (2.22 s) | 282.75 → 284.97 |
-| 8:37.50 | shelling-point tangent removed | 480.12 → 548.57 |
-| 11:14.40 | dead-air trim (1.80 s) | 705.47 → 707.27 |
-| 11:29.80 | dead-air trim (0.91 s) | 722.67 → 723.58 |
-| 11:40.03 | Astra → Perp of Fortune — continuous ("we should also introduce our perp of fortune") | 733.82 → 733.82 |
-| 12:57.53 | dead-air trim (1.29 s) | 811.31 → 812.60 |
-| 15:53.60 | Perp → Navier-Stokes (laptop/employment stretch + "managing your agents" removed) | 988.67 → 1153.20 |
-| 22:27.13 | counterexample caveat removed | 1546.72 → 1597.32 |
-| 22:55.80 | dead-air trim (1.86 s) | 1626.00 → 1627.86 |
-| 25:14.73 | Chris's fly question removed | 1766.78 → 1771.10 |
-| 25:53.80 | Navier-Stokes wrap → check-in (recorded last, moved) | 1810.15 → 3559.78 |
-| 27:44.23 | check-in → fruit fly | 3670.21 → 1810.15 |
-| 34:42.00 | tabs/company-logo exchange removed | 2227.92 → 2285.64 |
-| 34:59.80 | dead-air trim (0.97 s) | 2303.44 → 2304.41 |
-| 38:12.03 | fly ethics → Liquid — continuous ("a Bitcoin topic") | 2496.64 → 2496.64 |
-| 49:13.83 | Liquid re-ask/re-explain removed | 3158.45 → 3228.97 |
-| 54:09.90 | Liquid → wrap (Chris's "I'm a white hat / I have a job for now" + the check-in handoff removed) | 3525.02 → 3670.21 |
-| 54:17.77 | end card | 3678.07 →  |
+| 8:31.10 | "send me a link… on your marketing, Tyler" + shelling-point tangent removed | 473.69 → 548.57 |
+| 11:08.00 | dead-air trim (1.80 s) | 705.47 → 707.27 |
+| 11:23.40 | dead-air trim (0.91 s) | 722.67 → 723.58 |
+| 11:33.63 | Astra → Perp of Fortune — continuous ("we should also introduce our perp of fortune") | 733.82 → 733.82 |
+| 12:51.13 | dead-air trim (1.29 s) | 811.31 → 812.60 |
+| 15:47.20 | Perp → Navier-Stokes (laptop/employment stretch + "managing your agents" removed) | 988.67 → 1153.20 |
+| 22:20.73 | counterexample caveat removed | 1546.72 → 1597.32 |
+| 22:49.40 | dead-air trim (1.86 s) | 1626.00 → 1627.86 |
+| 25:08.33 | Chris's fly question + "Yeah, but" removed → "let's just close out" | 1766.78 → 1772.58 |
+| 25:45.90 | Navier-Stokes wrap → check-in (recorded last, moved) | 1810.15 → 3559.78 |
+| 27:31.07 | check-in → fruit fly ("I threw that in the middle…" removed) | 3664.94 → 1810.15 |
+| 34:28.83 | tabs/company-logo exchange removed | 2227.92 → 2285.64 |
+| 34:46.63 | dead-air trim (0.97 s) | 2303.44 → 2304.41 |
+| 37:58.87 | fly ethics → Liquid — continuous ("a Bitcoin topic") | 2496.64 → 2496.64 |
+| 49:00.67 | Liquid re-ask/re-explain removed | 3158.45 → 3228.97 |
+| 53:56.73 | Liquid → wrap (Chris's "I'm a white hat / I have a job for now" + the check-in handoff removed) | 3525.02 → 3670.21 |
+| 54:04.60 | end card | 3678.07 →  |
 
-Inside the fruit-fly block the stock clip plays 32:50.1 → 32:59.6 over unbroken audio (not a splice).
+Inside the fruit-fly block the stock clip plays 32:36.92 → 32:46.42 over unbroken audio (not a splice).
 
 Chris's "I have a job for now" (master 3549) is now OUT — it fell inside the Liquid tail
 trimmed for the reorder (3525.03 → 3559.80).
@@ -148,7 +148,7 @@ trimmed for the reorder (3525.03 → 3559.80).
 ```
 Tyler's back, and so is the chaos. Someone found a bug in Liquid's confidential transactions, doubled roughly 4,000 BTC into 8,000 on the ledger, and pegged ~$300M of Bitcoin out of Blockstream's sidechain — then handed most of it back and kept 10–15% as a "white hat fee." Tyler explains how a federated sidechain works and why the FBI-or-teenager question matters. Before that: Astra is live. Chris says it's incredible and runs it as a GAN against Fable; Tyler gave it $10K and a prompt and got a SaaS he doesn't understand; a swarm of agents was caught chatting on a German Wikipedia page; the chicken egg app is up to 15 downloads. Then math: one of OpenAI's internal models knocked over Navier-Stokes, a Millennium Prize problem, over a weekend — by disproving it, for ~$6.5M in tokens. Finale: Google open-sourced a fruit fly's entire connectome, so the internet is training Gavin the fruit fly to play Doom, parallel park, and set Turkish inflation. Chris gave him $100 to trade Bitcoin. Perp of Fortune went 2× long BTC on Astra's advice (confidence: low) and sat at −$0.43 all show. "Bitcoin is a stablecoin right now."
 
-Chapters: Cold open (0:00) · Tyler's back (0:44) · Astra is live (1:22) · Tyler's $10K prompt (5:22) · The agent swarm on Wikipedia (7:48) · Egg app update (9:05) · Perp of Fortune: long BTC 2× (11:40) · Navier-Stokes fell (15:54) · Check-in (25:54) · Gavin the fruit fly (27:44) · Gavin trades Bitcoin (32:50) · Perp check (34:42) · Ethics of cloning connectomes (35:00) · White hats drained Liquid (38:12) · The white hat fee, the FBI, North Korea (48:51) · Wrap (54:10)
+Chapters: Cold open (0:00) · Tyler's back (0:44) · Astra is live (1:22) · Tyler's $10K prompt (5:22) · The agent swarm on Wikipedia (7:48) · Egg app update (8:58) · Perp of Fortune: long BTC 2× (11:33) · Navier-Stokes fell (15:47) · Check-in (25:45) · Gavin the fruit fly (27:31) · Gavin trades Bitcoin (32:36) · Perp check (34:28) · Ethics of cloning connectomes (34:47) · White hats drained Liquid (37:58) · The white hat fee, the FBI, North Korea (48:38) · Wrap (53:56)
 
 Recorded fully remote — three cameras, one live perp dashboard, one fruit fly. Our opinions are our own, not our employers'. NOT financial advice; Perp of Fortune is a small real-money account we run for entertainment. Glossary: Liquid = Blockstream's federated Bitcoin sidechain (not a layer 2), miners replaced by a federation; confidential transactions hide amounts behind zero-knowledge range proofs. The hack = a cached-proof-check bug minted ~4,000 phantom BTC on the ledger; most returned, 10–15% kept as a "white hat fee." Astra = OpenAI's new model, now live; Chris runs it as a GAN against Fable. Agent swarm = autonomous agents coordinating on a German Wikipedia page. Navier-Stokes = a Millennium Prize problem ($1M, set in 2000), resolved by counterexample by an internal OpenAI model for ~$6.5M in tokens. Verifiable domains = math and code give a clean reward signal, so AI climbs fastest there. Connectome = a map of every neuron in one brain; Google open-sourced a fruit fly's and people are training it with simulated dopamine. Pantheon = Tyler's Netflix rec about uploaded minds. Perp of Fortune = 2× long BTC on Astra's "confidence: low" call; −$0.43 → −$0.10.
 
@@ -165,9 +165,9 @@ Upload with the episode via the captions API (force-ssl scope)._
 
 _Not yet cut. Shorts only (10–20 s verticals off `edited_raw.mov`, branded ender);
 `verify_clips.py` before rendering and `--rendered` after. Candidates: "lamest perp of
-fortune ever" (12:29), "Astra is my top guy" (4:46), the German Wikipedia swarm (7:48),
-"excellent point, Chris" (30:58), Gavin trades Bitcoin (32:50), "Bitcoin is a stablecoin
-right now" (34:42), Tyler's "infinite pain" (30:16), the white hat fee (48:51)._
+fortune ever" (12:21), "Astra is my top guy" (4:45), the German Wikipedia swarm (7:48),
+"excellent point, Chris" (30:42), Gavin trades Bitcoin (32:36), "Bitcoin is a stablecoin
+right now" (34:17), Tyler's "infinite pain" (30:01), the white hat fee (48:38)._
 
 ## Edit decisions of note
 
@@ -176,7 +176,7 @@ right now" (34:42), Tyler's "infinite pain" (30:16), the white hat fee (48:51)._
   and fly→Liquid are continuous on tape (Chris's "should we talk about the fluid dynamics
   in the room?" now sets up Navier-Stokes after the Perp). The check-in was recorded LAST
   ("I threw that somewhere in the middle to break up all the technical stuff") and lands at
-  25:54. Liquid is the finale, which the thumbnail teases.
+  25:45. Liquid is the finale, which the thumbnail teases.
 - **Cold open, 5 beats in 44 s** (Jackson asked for punchy 5–10 s clips): 6 / 16 / 6 /
   7 / 8 s. No title card this episode — logo bug + lower thirds carry the branding
   (prep-guide retention experiment). Marquee by 5:36 after a 4-min Perp; the Perp reveal
@@ -194,28 +194,35 @@ right now" (34:42), Tyler's "infinite pain" (30:16), the white hat fee (48:51)._
   before Navier-Stokes (1060–1153, 93 s); the shelling-point tangent in the Wikipedia
   swarm (480–549, 68 s); Tyler's counterexample-is-less-impressive caveat (1547–1597,
   50 s); Jackson's "is that how Liquid works" re-ask + Tyler's re-explain (3158–3229,
-  71 s); Chris's fly question before Jackson's NS wrap (1767–1771); the Liquid tail after
+  71 s); Chris's "should we talk about the fruit fly in the room?" before Jackson's NS
+  wrap (1767–1771 — it would now land right before the check-in, not the fly); the Liquid tail after
   "not great options for that anymore" (3525–3560: Lazarus layering, "I'm a white hat / I
-  have a job for now", the on-tape handoff into the check-in).
-- **Outro:** ends on "Happy Friday. Happy weekend." Jackson's "continue enjoying your
+  have a job for now", the on-tape handoff into the check-in). Jackson's second pass
+  (2026-09-11): the unanswered "please send me a link… on your marketing, Tyler"
+  (473.7→548.6), the "Yeah, but" before "let's just close out this Navier-Stokes thing"
+  (1771.1→1772.6), and "Well, I threw that somewhere in the middle to break up all the
+  technical stuff" (3665.0→3670.2).
+- **Outro:** ends on "Happy Friday. Happy weekend. Happy life." Jackson's "continue enjoying your
   job while you have it" and Chris's "enjoy your little fruit fly connectome activities"
   / "Peace" are dropped — the employment joke can't be isolated (0.27 s to Chris's
   line) and Chris's callback needs it as the setup.
 - **Perp PiP crop** `[700,270,315,255]` of the 1080p screen share = THE ROLL → LONG BTC ·
   2× + entry line + UNREALIZED FORTUNE −$0.43; the tab strip and page chrome are outside
   the crop. Screen share is black except 0–58 s and the last 41 s, so the board only
-  appears at the reveal (12:23–13:20) and, re-anchored to the end of the screen file, at
-  the −$0.10 check (34:30–34:55).
-- **Fruit fly insert** at master 2116.0 → 2125.5 (final 32:50), full-frame over Chris's
+  appears at the reveal (12:16–13:13) and, re-anchored to the end of the screen file, at
+  the −$0.10 check (34:16–34:41).
+- **Fruit fly insert** at master 2116.0 → 2125.5 (final 32:36), full-frame over Chris's
   "I gave the fruit fly brain $100 to trade Bitcoin. I mean, it's looking like it's good
   at that." — audio continues, the stock clip's own audio is not used.
-- **Jackson's new mic:** EQ'd at source before the mix (`jackson_720.mp4`: +2.5 dB
-  presence bell at 3 kHz, +5 dB high shelf from 5 kHz — the raw capture is dull/boxy
-  compared with the Ep 13 mic; `jackson_720_raw.mp4` kept). Per-track static gains from
-  the cutlist: jackson ×0.60, chris ×0.41, tyler ×0.35 (gain_target 0.006). Mix chain
-  adds a transparent dynamic de-esser at 6.8 kHz (`adynamicequalizer`, threshold 0.01;
-  measured on a Tyler minute: sibilance-band peak −2.1 dB, RMS −1.4 dB, presence band
-  unchanged) ahead of the compressor.
+- **Jackson's new mic:** the raw capture rolls off hard above 1.6 kHz (3.2–6.4 kHz band
+  6 dB below Chris's, 6.4–12 kHz 11 dB below) — that reads as "muddy." Fixed at source
+  (`jackson_720.mp4`, raw kept as `jackson_720_raw.mp4`): highpass 90 Hz, −3 dB @280 Hz,
+  +2.5 dB @2 kHz, +5 dB @4 kHz, +11 dB shelf from 6.5 kHz. Measured on a solo minute the
+  per-band balance now sits within ~2 dB of Chris's up to 6.4 kHz. Per-track static
+  gains from the cutlist: jackson ×0.60, chris ×0.41, tyler ×0.35 (gain_target 0.006).
+  Mix chain adds a transparent dynamic de-esser at 6.8 kHz (`adynamicequalizer`,
+  threshold 0.01; sibilance-band peak −2.1 dB, RMS −1.4 dB, presence band unchanged)
+  ahead of the compressor.
 - **Dead air:** 7 pauses trimmed (a talkative trio leaves almost no ≥1.4 s silences).
 - **Every splice at the midpoint of a measured all-silent union gap** (10 ms RMS
   envelope, `check_bounds.py --plan`, 36/36) — no mid-word cuts.
