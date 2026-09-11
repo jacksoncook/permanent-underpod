@@ -163,11 +163,26 @@ Upload with the episode via the captions API (force-ssl scope)._
 
 ## Clips
 
-_Not yet cut. Shorts only (10–20 s verticals off `edited_raw.mov`, branded ender);
-`verify_clips.py` before rendering and `--rendered` after. Candidates: "lamest perp of
-fortune ever" (12:21), "Astra is my top guy" (4:45), the German Wikipedia swarm (7:48),
-"excellent point, Chris" (30:42), Gavin trades Bitcoin (32:36), "Bitcoin is a stablecoin
-right now" (34:17), Tyler's "infinite pain" (30:01), the white hat fee (48:38)._
+Eight 9:16 shorts, cut 2026-09-11 (`episodes/ep14/clips.json`; files in `media/clips/ep14/`;
+copy in `media/clips/ep14/posting-copy.md`). Face-crop verticals off `edited_raw.mov` with the
+episode chain + branded ender; short4 comes off the FINAL mp4 for the baked fly insert. Gate:
+`verify_clips.py` 8/8 pre-render and `--rendered`. Playlist Underpod Shorts, daily 2 PM PT
+(21:00 UTC) from 2026-09-13 (Ep 13 queue ends 9/12). NOT uploaded — waiting on the episode URL.
+
+| # | clip | final in–out | len | title |
+|---|------|--------------|-----|-------|
+| 1 | short1-lamest-perp | 12:22.2–12:38.2 | 16.0 s | The lamest Perp of Fortune we've ever had |
+| 2 | short4-gavin-trades-bitcoin | 32:37.6–32:46.7 | 9.1 s | We gave a fruit fly brain $100 to trade Bitcoin |
+| 3 | short2-top-guy | 4:38.8–4:58.7 | 19.9 s | "Astra is my top guy." Good for a week or two. |
+| 4 | short3-infinite-pain | 29:53.0–30:14.9 | 21.9 s | You parallel parked wrong. Infinite pain. |
+| 5 | short6-shirtless | 26:24.6–26:50.5 | 25.9 s | Have I seen you shirtless or not? |
+| 6 | short7-seventeen-proxies | 51:22.2–51:40.6 | 18.4 s | "I'm behind 17 proxies, good luck" |
+| 7 | short5-bitcoin-stablecoin | 34:17.1–34:45.5 | 28.4 s | Bitcoin is a stablecoin right now |
+| 8 | short8-egg-app | 9:08.0–9:35.3 | 27.3 s | 11 to 15 downloads. Girlfriend is now CMO. |
+
+Captions and hashtags per clip are in `posting-copy.md`; every caption ends "Full episode: <URL>"
+and the description's last line carries `#shorts` + 3 topical tags. Bench (not cut): "Excellent
+point, Chris" (30:35), the Wikipedia swarm "taking back their land" (8:32), the white hat fee (46:10).
 
 ## Edit decisions of note
 

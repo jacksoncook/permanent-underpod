@@ -1,0 +1,223 @@
+{
+ "source": "/Users/jcook/Personal/permanent-underpod/media/ep14/work/edited_raw.mov",
+ "out_dir": "/Users/jcook/Personal/permanent-underpod/media/clips/ep14",
+ "logo": "/Users/jcook/Personal/permanent-underpod/media/ep14/work/logo.png",
+ "audio_chain": "highpass=f=80,afftdn=nr=18:nf=-50:tn=1,volume=6dB,adynamicequalizer=dfrequency=6800:dqfactor=2.5:tfrequency=6800:tqfactor=2.5:mode=cutabove:threshold=0.01:ratio=4:range=8:attack=2:release=40,acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,treble=f=9500:width_type=q:w=0.8:g=2,loudnorm=I=-16:TP=-1.5:LRA=5",
+ "ender": true,
+ "clips": [
+  {
+   "name": "short1-lamest-perp",
+   "start": 742.2,
+   "end": 758.2,
+   "vertical": true,
+   "caption": {
+    "kicker": "PERP OF FORTUNE",
+    "title": "LAMEST PERP EVER"
+   },
+   "face_crops": [
+    [
+     0.0,
+     437
+    ],
+    [
+     6.93,
+     10
+    ],
+    [
+     10.43,
+     757
+    ],
+    [
+     12.18,
+     117
+    ],
+    [
+     14.18,
+     757
+    ]
+   ]
+  },
+  {
+   "name": "short2-top-guy",
+   "start": 278.82,
+   "end": 298.7,
+   "vertical": true,
+   "caption": {
+    "kicker": "ASTRA IS LIVE",
+    "title": "\"HE'S MY TOP GUY\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     437
+    ],
+    [
+     2.78,
+     117
+    ],
+    [
+     8.78,
+     462
+    ]
+   ]
+  },
+  {
+   "name": "short3-infinite-pain",
+   "start": 1792.98,
+   "end": 1814.9,
+   "vertical": true,
+   "caption": {
+    "kicker": "FRUIT FLY CONNECTOME",
+    "title": "\"INFINITE PAIN\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     437
+    ],
+    [
+     4.59,
+     117
+    ],
+    [
+     8.34,
+     757
+    ],
+    [
+     14.09,
+     117
+    ]
+   ]
+  },
+  {
+   "name": "short4-gavin-trades-bitcoin",
+   "source": "/Users/jcook/Personal/permanent-underpod/media/ep14/Permanent Underpod - Ep 14 (Final Cut).mp4",
+   "audio_chain": "anull",
+   "start": 1957.58,
+   "end": 1966.7,
+   "vertical": true,
+   "caption": {
+    "kicker": "GAVIN THE FRUIT FLY",
+    "title": "$100 TO TRADE BITCOIN"
+   },
+   "face_crops": [
+    [
+     0.0,
+     437
+    ]
+   ]
+  },
+  {
+   "name": "short5-bitcoin-stablecoin",
+   "start": 2057.05,
+   "end": 2085.5,
+   "vertical": true,
+   "caption": {
+    "kicker": "PERP OF FORTUNE",
+    "title": "STUCK AT -$0.43 ALL EPISODE"
+   },
+   "face_crops": [
+    [
+     0.0,
+     10
+    ],
+    [
+     4.0,
+     437
+    ],
+    [
+     7.02,
+     757
+    ],
+    [
+     13.78,
+     117
+    ],
+    [
+     15.78,
+     437
+    ],
+    [
+     23.28,
+     10
+    ]
+   ]
+  },
+  {
+   "name": "short6-shirtless",
+   "start": 1584.58,
+   "end": 1610.48,
+   "vertical": true,
+   "caption": {
+    "kicker": "CHECK-IN",
+    "title": "HAVE I SEEN YOU SHIRTLESS?"
+   },
+   "face_crops": [
+    [
+     0.0,
+     437
+    ],
+    [
+     3.32,
+     117
+    ],
+    [
+     7.57,
+     757
+    ],
+    [
+     25.32,
+     864
+    ]
+   ]
+  },
+  {
+   "name": "short7-seventeen-proxies",
+   "start": 3082.21,
+   "end": 3100.6,
+   "vertical": true,
+   "caption": {
+    "kicker": "$300M LIQUID HACK",
+    "title": "\"I'M BEHIND 17 PROXIES\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     117
+    ],
+    [
+     9.96,
+     462
+    ]
+   ]
+  },
+  {
+   "name": "short8-egg-app",
+   "start": 548.0,
+   "end": 575.33,
+   "vertical": true,
+   "caption": {
+    "kicker": "EGG APP UPDATE",
+    "title": "11 TO 15 DOWNLOADS"
+   },
+   "face_crops": [
+    [
+     0.0,
+     437
+    ],
+    [
+     4.6,
+     117
+    ],
+    [
+     8.6,
+     437
+    ],
+    [
+     20.1,
+     117
+    ]
+   ]
+  }
+ ]
+}
