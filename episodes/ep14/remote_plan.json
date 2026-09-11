@@ -1,0 +1,616 @@
+{
+ "blocks": [
+  {
+   "id": "COLD_A",
+   "m0": 245.57,
+   "m1": 251.62,
+   "cam": "chris",
+   "mics": [
+    "chris"
+   ]
+  },
+  {
+   "id": "COLD_T",
+   "m0": 782.08,
+   "m1": 798.39,
+   "cam": "tyler",
+   "mics": [
+    "tyler",
+    "jackson"
+   ]
+  },
+  {
+   "id": "COLD_C",
+   "m0": 887.75,
+   "m1": 893.61,
+   "cam": "chris",
+   "mics": [
+    "chris"
+   ]
+  },
+  {
+   "id": "COLD_D",
+   "m0": 1994.06,
+   "m1": 2001.41,
+   "cam": "jackson",
+   "mics": [
+    "jackson"
+   ]
+  },
+  {
+   "id": "COLD_F",
+   "m0": 2972.44,
+   "m1": 2980.68,
+   "cam": "tyler",
+   "mics": [
+    "tyler"
+   ]
+  },
+  {
+   "id": "INTRO",
+   "m0": 3.05,
+   "m1": 41.21
+  },
+  {
+   "id": "PERP",
+   "m0": 733.83,
+   "m1": 988.68
+  },
+  {
+   "id": "MARQ_A",
+   "m0": 41.21,
+   "m1": 480.13
+  },
+  {
+   "id": "MARQ_B",
+   "m0": 548.58,
+   "m1": 723.13
+  },
+  {
+   "id": "LIQ_A",
+   "m0": 2496.66,
+   "m1": 3158.46
+  },
+  {
+   "id": "LIQ_B",
+   "m0": 3228.98,
+   "m1": 3559.8
+  },
+  {
+   "id": "CHECKIN",
+   "m0": 3559.8,
+   "m1": 3670.22
+  },
+  {
+   "id": "NS_A",
+   "m0": 1153.21,
+   "m1": 1546.73
+  },
+  {
+   "id": "NS_B",
+   "m0": 1597.33,
+   "m1": 1766.79
+  },
+  {
+   "id": "NS2",
+   "m0": 1771.11,
+   "m1": 1810.16
+  },
+  {
+   "id": "FLY",
+   "m0": 1810.16,
+   "m1": 2227.92
+  },
+  {
+   "id": "FLY2",
+   "m0": 2285.65,
+   "m1": 2496.66
+  },
+  {
+   "id": "OUTRO",
+   "m0": 3670.22,
+   "m1": 3678.08
+  },
+  {
+   "id": "CARD_END",
+   "card": "card_end.mov"
+  }
+ ],
+ "protect": [
+  [
+   3.05,
+   17.0
+  ],
+  [
+   245.5,
+   251.7
+  ],
+  [
+   782.0,
+   798.5
+  ],
+  [
+   887.7,
+   893.7
+  ],
+  [
+   1994.0,
+   2001.5
+  ],
+  [
+   2972.4,
+   2980.7
+  ],
+  [
+   765.0,
+   800.0
+  ],
+  [
+   2114.0,
+   2127.0
+  ],
+  [
+   2215.0,
+   2228.0
+  ],
+  [
+   2285.6,
+   2299.0
+  ]
+ ],
+ "force_shots": [
+  {
+   "m0": 3.05,
+   "m1": 16.5,
+   "type": "trio"
+  }
+ ],
+ "face_cx": {
+  "jackson": 640,
+  "chris": 665,
+  "tyler": 715
+ },
+ "panel_order": [
+  "jackson",
+  "chris",
+  "tyler"
+ ],
+ "params": {
+  "idle_gain": 0.12,
+  "group_thresh": 0.25,
+  "group_hold": 1.0,
+  "react_thresh": 0.6,
+  "min_shot": 3.0,
+  "gain_target": 0.006,
+  "dead_air_min": 1.4,
+  "dead_air_keep": 0.5,
+  "dead_air_net": 0.8
+ },
+ "pips": [
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep14/raw/Untitled_recording-Chris-screen-00h_12m_57s_393ms-StreamYard.mp4",
+   "block": "PERP",
+   "m0": 777.06,
+   "m1": 834.9,
+   "anchor": 777.055,
+   "mode": "corner",
+   "crop": [
+    700,
+    270,
+    315,
+    255
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep14/raw/fruitFlyStock.mp4",
+   "block": "FLY",
+   "m0": 2116.0,
+   "m1": 2125.5,
+   "anchor": 2116.0,
+   "mode": "full"
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep14/raw/Untitled_recording-Chris-screen-00h_12m_57s_393ms-StreamYard.mp4",
+   "block": "FLY",
+   "m0": 2215.8,
+   "m1": 2227.92,
+   "anchor": 777.055,
+   "mode": "corner",
+   "crop": [
+    700,
+    270,
+    315,
+    255
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep14/raw/Untitled_recording-Chris-screen-00h_12m_57s_393ms-StreamYard.mp4",
+   "block": "FLY2",
+   "m0": 2286.0,
+   "m1": 2298.4,
+   "anchor": 819.1,
+   "mode": "corner",
+   "crop": [
+    700,
+    270,
+    315,
+    255
+   ]
+  }
+ ],
+ "overlays": [
+  {
+   "name": "st_coldopen",
+   "block": "COLD_A",
+   "rel": 0.0,
+   "dur": 8.0,
+   "kind": "st"
+  },
+  {
+   "name": "lt_intro",
+   "block": "INTRO",
+   "m": 4.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_perp",
+   "block": "PERP",
+   "m": 735.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_roll",
+   "block": "PERP",
+   "m": 767.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_stakes",
+   "block": "PERP",
+   "m": 843.7,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_grave",
+   "block": "PERP",
+   "m": 877.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_thumb",
+   "block": "PERP",
+   "m": 918.5,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_editor",
+   "block": "PERP",
+   "m": 981.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "lt_marquee",
+   "block": "MARQ_A",
+   "m": 42.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_gan",
+   "block": "MARQ_A",
+   "m": 130.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_topguy",
+   "block": "MARQ_A",
+   "m": 247.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_saas",
+   "block": "MARQ_A",
+   "m": 348.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_swarm",
+   "block": "MARQ_A",
+   "m": 438.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_eggs",
+   "block": "MARQ_B",
+   "m": 590.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_meat",
+   "block": "MARQ_B",
+   "m": 662.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_liquid",
+   "block": "LIQ_A",
+   "m": 2497.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_300m",
+   "block": "LIQ_A",
+   "m": 2514.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_sidechain",
+   "block": "LIQ_A",
+   "m": 2552.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_ct",
+   "block": "LIQ_A",
+   "m": 2598.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_range",
+   "block": "LIQ_A",
+   "m": 2733.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_cache",
+   "block": "LIQ_A",
+   "m": 2769.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_inflate",
+   "block": "LIQ_A",
+   "m": 2879.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_fee",
+   "block": "LIQ_A",
+   "m": 2987.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_nk",
+   "block": "LIQ_B",
+   "m": 3405.6,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_checkin",
+   "block": "CHECKIN",
+   "m": 3560.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_mic",
+   "block": "CHECKIN",
+   "m": 3575.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_tank",
+   "block": "CHECKIN",
+   "m": 3600.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "lt_ns",
+   "block": "NS_A",
+   "m": 1154.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_millennium",
+   "block": "NS_A",
+   "m": 1224.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_verifiable",
+   "block": "NS_A",
+   "m": 1342.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_6m",
+   "block": "NS_A",
+   "m": 1449.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_einsteins",
+   "block": "NS_B",
+   "m": 1653.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_topblock",
+   "block": "NS_B",
+   "m": 1716.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_fly",
+   "block": "FLY",
+   "m": 1820.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_neurons",
+   "block": "FLY",
+   "m": 1834.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_dopamine",
+   "block": "FLY",
+   "m": 1926.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_fourth",
+   "block": "FLY",
+   "m": 2003.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_banana",
+   "block": "FLY",
+   "m": 2066.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_resume",
+   "block": "FLY",
+   "m": 2126.5,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_stable",
+   "block": "FLY2",
+   "m": 2299.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_ethics",
+   "block": "FLY2",
+   "m": 2312.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_pantheon",
+   "block": "FLY2",
+   "m": 2393.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_wrap",
+   "block": "OUTRO",
+   "m": 3670.5,
+   "dur": 6,
+   "kind": "lt"
+  }
+ ],
+ "sheet": [
+  {
+   "block": "COLD_A",
+   "label": "Cold open"
+  },
+  {
+   "block": "INTRO",
+   "label": "Tyler's back, no fruit flies on deck"
+  },
+  {
+   "block": "PERP",
+   "label": "Perp of Fortune: Astra says long BTC, 2\u00d7 (confidence: low)"
+  },
+  {
+   "block": "MARQ_A",
+   "label": "The marquee: Astra is live \u2014 is it amazing?"
+  },
+  {
+   "block": "MARQ_A",
+   "m": 285.0,
+   "label": "Tyler's $10K prompt \u2192 a slop SaaS"
+  },
+  {
+   "block": "MARQ_A",
+   "m": 431.0,
+   "label": "A wild agent swarm on a German Wikipedia page"
+  },
+  {
+   "block": "MARQ_B",
+   "m": 576.0,
+   "label": "Egg app update: 11 \u2192 15 downloads"
+  },
+  {
+   "block": "LIQ_A",
+   "label": "White hats drained Liquid (~$300M of BTC)"
+  },
+  {
+   "block": "LIQ_A",
+   "m": 3136.0,
+   "label": "White hat fee, FBI, North Korea, laundering"
+  },
+  {
+   "block": "CHECKIN",
+   "label": "Non-tech check-in: new mic, tank tops, shoulders"
+  },
+  {
+   "block": "NS_A",
+   "label": "Navier-Stokes fell: verifiable domains"
+  },
+  {
+   "block": "FLY",
+   "label": "Gavin the fruit fly: an open-source connectome"
+  },
+  {
+   "block": "FLY",
+   "m": 2116.0,
+   "label": "Gavin trades Bitcoin"
+  },
+  {
+   "block": "FLY2",
+   "label": "Perp check: 'Bitcoin is a stablecoin right now'"
+  },
+  {
+   "block": "FLY2",
+   "m": 2305.0,
+   "label": "Ethics of cloning connectomes (and Pantheon)"
+  },
+  {
+   "block": "OUTRO",
+   "label": "Wrap"
+  }
+ ]
+}

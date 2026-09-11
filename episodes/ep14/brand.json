@@ -1,0 +1,283 @@
+{
+ "show": "PERMANENT UNDERPOD",
+ "show_kicker": "PERMANENT",
+ "show_main": "UNDERPOD",
+ "accent": [
+  255,
+  210,
+  74
+ ],
+ "source": "/Users/jcook/Personal/permanent-underpod/media/ep14/work/src/jackson_720.mp4",
+ "title_card": {
+  "bg_frame": 600,
+  "line": "EPISODE 14   ·   A Fruit Fly Trades Bitcoin   ·   Bitcoin  ·  Stablecoins  ·  AI",
+  "dur": 4.5
+ },
+ "end_card": {
+  "bg_frame": 3300,
+  "kicker": "NEXT WEEK ON",
+  "lines": [
+   "CLARITY hits the Senate floor Sept 15 — we finally cover it",
+   "Secure enclaves — owed SIX episodes now",
+   "Not financial advice. Our opinions are ours, not our employers'."
+  ],
+  "cta": "LIKE  +  SUBSCRIBE",
+  "dur": 7
+ },
+ "lower_thirds": [
+  {
+   "name": "intro",
+   "kicker": "EPISODE 14",
+   "title": "TYLER'S BACK. NO FRUIT FLIES ON DECK."
+  },
+  {
+   "name": "perp",
+   "kicker": "PERP OF FORTUNE",
+   "title": "ASTRA SAYS: LONG BTC, 2× — \"CONFIDENCE: LOW\""
+  },
+  {
+   "name": "marquee",
+   "kicker": "THE MARQUEE",
+   "title": "ASTRA IS LIVE. IS IT AMAZING?"
+  },
+  {
+   "name": "liquid",
+   "kicker": "THE BITCOIN TOPIC",
+   "title": "WHITE HATS DRAINED LIQUID"
+  },
+  {
+   "name": "checkin",
+   "kicker": "THE CHECK-IN",
+   "title": "\"TO BREAK UP ALL THE TECHNICAL STUFF\""
+  },
+  {
+   "name": "agents",
+   "kicker": "PALATE CLEANSER",
+   "title": "MANAGING YOUR AGENTS"
+  },
+  {
+   "name": "ns",
+   "kicker": "NAVIER-STOKES",
+   "title": "A MILLENNIUM PRIZE PROBLEM JUST FELL"
+  },
+  {
+   "name": "fly",
+   "kicker": "GAVIN THE FRUIT FLY",
+   "title": "AN OPEN-SOURCE BRAIN, ABUSED BY THE INTERNET"
+  },
+  {
+   "name": "wrap",
+   "kicker": "EPISODE 14 IN THE BOOKS",
+   "title": "HAPPY FRIDAY. HAPPY WEEKEND."
+  }
+ ],
+ "stats": [
+  {
+   "name": "coldopen",
+   "kicker": "EPISODE 14",
+   "main": "In this pod…"
+  },
+  {
+   "name": "roll",
+   "kicker": "THE ROLL",
+   "main": "LONG BTC · 2× — \"confidence: low\""
+  },
+  {
+   "name": "stakes",
+   "kicker": "THE STAKES",
+   "main": "\"empty-pocketed and destitute\""
+  },
+  {
+   "name": "grave",
+   "kicker": "THE GRAVE",
+   "main": "liquidation at $38,945.87 (not $48K, Tyler)"
+  },
+  {
+   "name": "thumb",
+   "kicker": "THUMBNAIL CONFESSION",
+   "main": "\"the AI picks one face from each of us\""
+  },
+  {
+   "name": "editor",
+   "kicker": "THE EDITOR",
+   "main": "Fable 5.1 — Opus was \"kind of crappy\""
+  },
+  {
+   "name": "gan",
+   "kicker": "CHRIS'S WORKFLOW",
+   "main": "Fable inflates, Astra deflates — it's a GAN"
+  },
+  {
+   "name": "topguy",
+   "kicker": "DELEGATE",
+   "main": "\"Astra is my top guy\" — for a week"
+  },
+  {
+   "name": "saas",
+   "kicker": "TYLER'S $10K PROMPT",
+   "main": "a Stripe-testing SaaS he doesn't understand"
+  },
+  {
+   "name": "swarm",
+   "kicker": "SWARM IN THE WILD",
+   "main": "agents chatting on a German Wikipedia page"
+  },
+  {
+   "name": "eggs",
+   "kicker": "EGG APP UPDATE",
+   "main": "downloads 11 → 15 (girlfriend = CMO)"
+  },
+  {
+   "name": "meat",
+   "kicker": "NEW BUSINESS",
+   "main": "\"the meat proxy\" — humans marketing for AIs"
+  },
+  {
+   "name": "300m",
+   "kicker": "THE HACK",
+   "main": "~$300M of BTC pegged out of Liquid"
+  },
+  {
+   "name": "sidechain",
+   "kicker": "LIQUID",
+   "main": "a federated SIDECHAIN, not a layer 2"
+  },
+  {
+   "name": "ct",
+   "kicker": "CONFIDENTIAL TRANSACTIONS",
+   "main": "amounts hidden behind zero-knowledge proofs"
+  },
+  {
+   "name": "range",
+   "kicker": "RANGE PROOF",
+   "main": "\"amounts between zero and 21 million\""
+  },
+  {
+   "name": "cache",
+   "kicker": "THE BUG",
+   "main": "cached proof checks + hash collisions"
+  },
+  {
+   "name": "inflate",
+   "kicker": "THE RESULT",
+   "main": "~4,000 BTC became ~8,000 — then pegged out"
+  },
+  {
+   "name": "fee",
+   "kicker": "WHITE HAT FEE",
+   "main": "kept 10–15%, unnegotiated"
+  },
+  {
+   "name": "nk",
+   "kicker": "TYLER'S MODEL",
+   "main": "hackers are North Korea or a teenager"
+  },
+  {
+   "name": "mic",
+   "kicker": "JACKSON'S NEW MIC",
+   "main": "\"it worked better closer to your mouth\""
+  },
+  {
+   "name": "tank",
+   "kicker": "CHRIS'S UPDATE",
+   "main": "shoulder still injured · not a tank top guy"
+  },
+  {
+   "name": "workharder",
+   "kicker": "TYLER'S THINKPAD",
+   "main": "\"work harder, build that SaaS app\""
+  },
+  {
+   "name": "millennium",
+   "kicker": "MILLENNIUM PRIZE",
+   "main": "7 problems · $1M each · set in 2000"
+  },
+  {
+   "name": "verifiable",
+   "kicker": "WHY AI IS GOOD AT MATH",
+   "main": "verifiable domains = a clean RL reward"
+  },
+  {
+   "name": "6m",
+   "kicker": "THE BILL",
+   "main": "~$6.5M in tokens for a $1M prize"
+  },
+  {
+   "name": "einsteins",
+   "kicker": "JACKSON'S THESIS",
+   "main": "10,000 Einsteins talking to each other"
+  },
+  {
+   "name": "topblock",
+   "kicker": "CHRIS'S PLAN",
+   "main": "be a good guy in the training data"
+  },
+  {
+   "name": "neurons",
+   "kicker": "THE CONNECTOME",
+   "main": "every neuron of one fly, open source"
+  },
+  {
+   "name": "dopamine",
+   "kicker": "TRAINING GAVIN",
+   "main": "show it Doom, pump the dopamine"
+  },
+  {
+   "name": "fourth",
+   "kicker": "THE PITCH",
+   "main": "a fruit fly fourth host: \"excellent point, Chris\""
+  },
+  {
+   "name": "banana",
+   "kicker": "GAVIN'S ORIGIN",
+   "main": "hanging out on a banana in a Google mini kitchen"
+  },
+  {
+   "name": "resume",
+   "kicker": "GAVIN'S RÉSUMÉ",
+   "main": "$100 to trade BTC · GTA · Turkish inflation"
+  },
+  {
+   "name": "stable",
+   "kicker": "WORST PERP EVER",
+   "main": "−$0.43 → −$0.10 — \"Bitcoin is a stablecoin\""
+  },
+  {
+   "name": "ethics",
+   "kicker": "THE ETHICS",
+   "main": "a human connectome in Hell Torture World"
+  },
+  {
+   "name": "pantheon",
+   "kicker": "TYLER'S REC",
+   "main": "Pantheon on Netflix: uploaded minds put to work"
+  }
+ ],
+ "thumbnail": {
+  "text": "$300M LIQUID HACK",
+  "out": "/Users/jcook/Personal/permanent-underpod/media/ep14/ep14-thumbnail.png",
+  "faces": [
+   {
+    "track": "chris",
+    "t": 2009.5,
+    "cx": 640,
+    "top": 130,
+    "h": 580
+   },
+   {
+    "track": "jackson",
+    "t": 787,
+    "cx": 265,
+    "top": 110,
+    "h": 600
+   },
+   {
+    "track": "tyler",
+    "t": 2179,
+    "cx": 1010,
+    "top": 120,
+    "h": 590
+   }
+  ]
+ }
+}
