@@ -106,14 +106,23 @@ easing is fine" is wrong — they're both in the SOURCE, never both in the CROP.
 no seam to cross. This is **enforced, not advised**: `verify_clips.py` FAILs any
 swipe of ≥40 px (plus out-of-range x, unordered keys, a first key not at t=0, and a
 switch inside the last 0.5 s — Ep 8's short3 had a key 0.17 s from the end, i.e. a
-5-frame flash of another person), and `clipify.py` hard-exits on the same two rather
-than render them.
+5-frame flash of another person, and two switches < 0.5 s apart), and `clipify.py`
+hard-exits on the same two rather than render them. With `--rendered` it also measures
+every switch in the mp4: two hard cuts within ±4 frames of a key = the crop moved on a
+different frame than the source's own layout cut, and the frame between shows the
+seam (Ep 14 short2 shipped two of these one-frame flashes; `clipify.py` now fires
+keys on the NEAREST frame, since `fps=30` places source frames that way).
 
 Generate the schedule from the episode workdir (shot layout + VAD pick the
 active speaker; solo shots crop around the face, splits crop the speaking panel).
-Schedules switch EXACTLY at shot-layout boundaries — hysteresis only applies to
-speaker changes within a constant layout (a lagged switch across a layout cut
-parks the crop on the seam between panels and shows "no one"):
+Schedules switch EXACTLY at shot-layout boundaries (a lagged switch across a
+layout cut parks the crop on the seam between panels and shows "no one"). Within a
+layout the switch is decided with LOOKAHEAD: it fires at the new speaker's onset
+and only if they then hold the shot for `params.face_min_shot` s of actual talk
+(remote_plan.json, default 1.0; the VAD smears every transient to ~0.4 s so
+anything under ~0.6 filters nothing). The current speaker is sticky while talking.
+This is the Ep 14 flicker fix — a grunt on the other mic used to flip the crop and
+flip it back. `--debug` dumps every speaker run with its talk time:
 
 ```bash
 python3 ../podcast-video-edit/scripts/remote_face_crops.py <workdir> <final_start> <final_end>

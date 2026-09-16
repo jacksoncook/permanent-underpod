@@ -383,6 +383,13 @@ What's different from the one-camera flow (all learned the hard way on Ep 5):
   and reads as the shot swinging off someone and *boomeranging* back. Ep 8 shipped 8
   clips like that. Both this and clip in/out truncation are now enforced by
   `clipify/scripts/verify_clips.py`; run it before every clip render.
+- **Speaker switches inside a layout need a real shot behind them (Ep 14 flicker).**
+  `remote_face_crops.py` builds the schedule with lookahead: a switch fires at the new
+  speaker's onset only if they then talk for ≥ `params.face_min_shot` s (default 1.0;
+  the VAD smear alone is ~0.4 s, so don't go below ~0.6), and the current speaker is
+  sticky while talking. Layout keys are frame-exact and `clipify.py` fires them on the
+  nearest frame — a key rounded past the source cut put one frame of the new layout
+  under the old crop. `verify_clips.py --rendered` now measures that.
 
 - **Sync ground truth is the HUMAN, not metadata (Ep 5's hardest lesson) — the
   bench is a STANDARD step now, not a fallback.** `com.apple.quicktime.creationdate`
@@ -438,7 +445,8 @@ What's different from the one-camera flow (all learned the hard way on Ep 5):
   side-by-side column crops: duo 640+640, trio 426+428+426 — widths must be EVEN or
   yuv420p silently rounds an odd crop down and hstack yields 1278px (720p sources crop
   natively — no scaling, stays sharp). Fixed left-to-right panel order per episode; face-center
-  x per host in `face_cx`. A churn-killer pass absorbs sub-3.5 s shots.
+  x per host in `face_cx`. A churn-killer pass absorbs sub-3.5 s shots. (Shorts'
+  face-crop switches have their own floor, `params.face_min_shot`, default 1.0 s.)
 - **VAD alone can't see a reaction — run `remote_motion.py` for the good split-screens.**
   `group_thresh` only fires on people making NOISE, so a silent laugh, a hard nod, a
   hands-in-the-air face is invisible and the cut stays a lonely solo. `remote_motion.py`

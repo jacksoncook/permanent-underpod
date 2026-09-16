@@ -49,6 +49,11 @@ import json, os, subprocess, sys
 SPEC = json.load(open(sys.argv[1]))
 NO_LOGO = "--no-logo" in sys.argv
 FPS, SR, SPF = 30, 48000, 1600  # 1600 = 48000/30 samples per video frame
+# fps=30 (round=near) puts each source frame on the NEAREST output frame, so a key
+# must fire on the frame nearest its time, not the first frame at or after it: a
+# key rounded up past the source cut lands one frame late and that frame shows the
+# new layout under the old crop (Ep 14 short2, t=8.78: wall + half a face).
+HALF_FRAME = 0.5 / FPS
 ACC, WHITE = (255, 210, 74, 255), (255, 255, 255, 255)
 
 OUTDIR = SPEC.get("out_dir", os.path.join(os.getcwd(), "clips"))
@@ -239,7 +244,7 @@ def build(c):
                     p = f"clip((t-{t_i:.3f})/{SWIPE_S:.2f},0,1)"
                     expr += f"+{dx}*(st(0,{p})*ld(0)*(3-2*ld(0)))"
                 else:
-                    expr += f"+{dx}*gte(t,{t_i:.3f})"
+                    expr += f"+{dx}*gte(t,{t_i - HALF_FRAME:.4f})"
             fg.append("[0:v]fps=30,format=yuv420p,"
                       f"crop=w=406:h=720:x='{expr}':y=0,"
                       "scale=1080:1920,setsar=1[base]")

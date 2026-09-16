@@ -5,6 +5,11 @@ defects that shipped on Ep 8 and were found by a human watching, not by tooling:
   1. a `face_crops` key that GLIDES between panels -> the "boomerang" artifact
   2. an in/out point that lands mid-word -> a clip that cuts someone off
 
+plus the Ep 14 flicker, in both of its forms:
+  3. two crop switches closer than MIN_SWITCH_GAP -> a shot too short to read
+  4. (--rendered) a crop key that fires a frame off the source's own layout cut
+     -> one frame of the new layout under the old crop (wall + half a face)
+
 usage:
   <venv>/bin/python verify_clips.py <clips.json> [options]      # needs numpy + ffmpeg
     --clip NAME       only this clip (repeatable)
@@ -70,6 +75,9 @@ FPS, CW, FRAME_W = 30, 406, 1280
 X_MAX = FRAME_W - CW                 # 874
 SEAM_DX = 40                         # a move bigger than this leaves the panel
 TRAIL_GUARD = 0.5                    # no crop switch in the last 0.5 s
+MIN_SWITCH_GAP = 0.5                 # two crop switches closer than this = flicker
+FLASH_WIN = 4                        # frames around a key in which the cut must land once
+CUT_DIFF = 20.0                      # mean |Y diff| vs previous frame: cuts 27-90, motion <17
 MIN_QUIET = 8                        # frames (10 ms each) => 80 ms
 WIN = 2.5                            # analysis half-window around a boundary
 RENDER_EDGE_DB = 8.0                 # edge must sit this far below the clip body
@@ -225,7 +233,8 @@ def check_crops(clip, fcs, dur, swipe_set):
         fails.append(f"{clip}: first face_crops key is at t={fcs[0][0]}, must be 0.0 "
                      f"(clipify uses key 0's x as the base, so a late first key "
                      f"silently shifts the whole schedule)")
-    prev_t, prev_x = -1.0, None
+    prev_t, prev_x, prev_switch_t = -1.0, None, 0.0
+    n_fail0 = len(fails)
     for k in fcs:
         t, x = float(k[0]), int(k[1])
         mode = (k[2] if len(k) > 2 else "cut").lower()
@@ -253,10 +262,19 @@ def check_crops(clip, fcs, dur, swipe_set):
                 f"another shot reads as a flash at the out point, not a cut")
         if prev_x is not None and dx == 0:
             warns.append(f"{clip}: face_crops key at t={t} repeats x={x} (no-op)")
+        if dx and t - prev_switch_t < MIN_SWITCH_GAP:
+            fails.append(
+                f"{clip}: face_crops shot from t={prev_switch_t} to t={t} lasts only "
+                f"{t-prev_switch_t:.2f}s (< {MIN_SWITCH_GAP}s) — {round((t-prev_switch_t)*FPS)} "
+                f"frames reads as a flicker, not a cut. Drop a key, or if it is a source "
+                f"layout cut at the head, move the in point to >= start+{t}; "
+                f"remote_face_crops.py enforces face_min_shot for speaker switches")
+        if dx:
+            prev_switch_t = t
         prev_t, prev_x = t, x
-    print(f"  ok   crops  {len(fcs)} keys, "
+    print(f"  {'FAIL' if len(fails) > n_fail0 else 'ok  '} crops  {len(fcs)} keys, "
           f"{sum(1 for i,k in enumerate(fcs) if i and int(k[1])!=int(fcs[i-1][1]))} "
-          f"switches, all hard cuts")
+          f"switches")
 
 
 def check_rendered(clip, path, content_s=None):
@@ -289,6 +307,58 @@ def check_rendered(clip, path, content_s=None):
     print(f"  {'WARN' if hot else 'ok  '} render head {body-head:+.1f} dB / "
           f"tail {body-tail:+.1f} dB vs body {body:.0f}"
           + (f"  ({'/'.join(hot)} hot)" if hot else ""))
+
+
+def hard_cut_frames(path, content_s):
+    """Frame indices whose mean absolute luma difference from the previous frame
+    exceeds CUT_DIFF, within the content. Measured directly (tblend difference on a
+    192 px gray downscale) — NOT ffmpeg's `scene` score, which is the CHANGE in frame
+    difference and so reads the second edge of a one-frame flash as ~0."""
+    p = subprocess.run(
+        ["ffmpeg", "-v", "info", "-t", f"{content_s:.3f}", "-i", path, "-an",
+         "-vf", "scale=192:-2,format=gray,tblend=all_mode=difference,signalstats,"
+                "metadata=print:key=lavfi.signalstats.YAVG:file=-",
+         "-f", "null", "-"],
+        capture_output=True, text=True)
+    out, t = [], None
+    for line in p.stdout.splitlines():
+        i = line.find("pts_time:")
+        if i >= 0:
+            t = float(line[i + 9:].split()[0])
+        elif "YAVG=" in line and t is not None and float(line.split("=")[-1]) > CUT_DIFF:
+            out.append(int(round(t * FPS)))
+    return out
+
+
+def check_rendered_crops(clip, path, fcs, content_s):
+    """Post-render: every crop switch must land as exactly ONE hard cut. Two cuts
+    within FLASH_WIN frames of a key means the crop moved on a different frame than
+    the source's own layout cut — the frame between shows the new layout under the
+    old crop (Ep 14 short2: two such flashes, 2.78 and 8.78, wall + half a face).
+    Zero cuts is only a note: a same-person layout switch is visually a no-op."""
+    if not os.path.exists(path):
+        return
+    cuts = hard_cut_frames(path, content_s)
+    flashes = 0
+    for i in range(1, len(fcs)):
+        if int(fcs[i][1]) == int(fcs[i - 1][1]):
+            continue
+        t = float(fcs[i][0])
+        k = int(round(t * FPS))
+        near = sorted({f for f in cuts if abs(f - k) <= FLASH_WIN})
+        if len(near) >= 2:
+            flashes += 1
+            fails.append(
+                f"{clip}: rendered crop switch at t={t} shows {len(near)} hard cuts at "
+                f"frames {near} ({(near[-1]-near[0])} frame(s) apart) — the crop and the "
+                f"source layout cut landed on different frames; the frame(s) between "
+                f"show the seam. Re-render with the current clipify.py (nearest-frame "
+                f"keys) or move the key onto the source cut")
+        elif not near:
+            print(f"  note crops  switch at t={t} left no frame diff > {CUT_DIFF:.0f} "
+                  f"— normal for a same-person layout switch")
+    print(f"  {'FAIL' if flashes else 'ok  '} render crops {len(cuts)} hard cut(s) in "
+          f"{content_s:.2f}s, {flashes} seam flash(es)")
 
 
 # ---------------------------------------------------------------- main
@@ -331,6 +401,9 @@ for c in clips:
         active = e and c.get("style", "branded") != "plain"
         check_rendered(c["name"], os.path.join(OUTDIR, c["name"] + ".mp4"),
                        dur if active else None)
+        if c.get("face_crops"):
+            check_rendered_crops(c["name"], os.path.join(OUTDIR, c["name"] + ".mp4"),
+                                 c["face_crops"], dur)
 
 print()
 for w in warns:
