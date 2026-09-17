@@ -72,7 +72,7 @@ production files. Not affiliated with any employer.
   SKILL.md → Gotchas). Always verify sync at a LATE point, not just total duration.
 - **Secrets** live in `~/.config/clipify-youtube/` (client_secret.json, tokens) — NEVER
   commit them; `.gitignore` guards `client_secret*.json` / `token.json` / `*.results.json`.
-- **Commits:** solo repo, direct to `main`.
+- **Commits:** solo repo, direct to `main`. Commit and push completed changes by default; Jackson should not need to ask separately.
 
 ## New machine
 `git clone` → `bash setup.sh` (ffmpeg + whisper-cpp + model + Pillow) → copy `media/`
