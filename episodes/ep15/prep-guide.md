@@ -31,6 +31,7 @@
 
 ### H + F — Check-ins and Perp of Fortune
 
+- Pick an opener from the [five reusable Perp of Fortune intros](../../perp-of-fortune-intros.md).
 - One callback each: Tyler's Stripe-checkout SaaS has a paying customer? Jackson's egg-app distribution? Chris's fruit-fly trading experiment?
 - Ep 14's published sheet records a **2× BTC long**, with an intrashow mark near **−$0.10**. That isn't a closing result. Pull the actual position, fees, funding, and realized/unrealized P&L before recording. [Ep 14 published record](../ep14/segment-times.md)
 - Read the usual disclosure before the bit: entertainment, not financial advice; personal views, not employers'. Reveal the position before explaining the model's thesis.
