@@ -19,10 +19,11 @@ SUBSCRIBE at 5:47 and 27:45 · end card · whoosh + gold wipe on all 10 topic tr
   need to get with the times" center, Tyler laughing at the Neuromancer spoiler right;
   passed the 320×180 shrink test). Alternate kept: `ep15-thumbnail-v1-free-money-glitch.png`
   (retired when the title took "Infinite Money Glitch", so the hook doesn't repeat it).
-- **Loudness:** _fill after render_ (chain in `render.json`: Ep 14 front-end with the
-  6.8 kHz dynamic de-esser, target_lufs −11.8 / limit 0.7).
-- **Sync check:** _fill after render_ (cross-correlate final audio vs each source track at
-  an early and a LATE point).
+- **Loudness:** delivered −15.7 LUFS integrated, −2.6 dBTP, LRA 4.0 (chain in `render.json`:
+  Ep 14 front-end with the 6.8 kHz dynamic de-esser, target_lufs −11.8 / limit 0.7).
+- **Sync check:** final audio cross-correlated against each source track at 1:23, 19:26,
+  23:37, 37:35, 49:32 and 60:01 — lag a constant 35 ms at every point, early and late (no
+  drift; Ep 14 measured −3 to −36 ms the same way). A/V stream durations match to 3 ms.
 - **Captions:** `episodes/ep15/transcript-attributed.srt` — regenerated from the FINAL cut.
   Upload as the `standard` track via `yt_captions.py` (force-ssl token).
 
