@@ -48,6 +48,27 @@ DEAD_NET = P.get('dead_air_net', 1.0)     # minimum net removal worth a splice
 PORDER = PLAN.get('panel_order', ['jackson', 'chris', 'tyler'])
 FACE_CX = PLAN.get('face_cx', {})
 PROTECT = [tuple(p) for p in PLAN.get('protect', [])]
+# Trusted SOLO passages per person (master secs) for the level estimator. Without
+# them the median "speech" frame of a track that hears the other hosts (speaker
+# bleed, echo-cancel residue) is the bleed, not the voice, and that person gets
+# equalized ~9 dB hot (Ep 15, Jackson).
+GAIN_SPANS = PLAN.get('gain_spans', {})
+
+
+def span_rms(path, spans):
+    """Power-mean RMS (linear) of the MIXED source file over trusted solo spans —
+    measured at full rate on the file remote_cut.py actually mixes, so a track
+    EQ'd at source is judged as it will sound, not by its 16 kHz VAD envelope."""
+    import subprocess
+    pw = []
+    for t0, t1 in spans:
+        r = subprocess.run(["ffmpeg", "-hide_banner", "-ss", f"{t0:.2f}", "-t", f"{t1 - t0:.2f}",
+                            "-i", path, "-map", "0:a",
+                            "-af", "astats=measure_overall=RMS_level:measure_perchannel=none",
+                            "-f", "null", "-"], capture_output=True, text=True)
+        db = float(next(l.split()[-1] for l in r.stderr.splitlines() if "RMS level" in l))
+        pw.append(10 ** (db / 10))
+    return float(np.sqrt(np.mean(pw)))
 SWITCH_HOLD = 2.0
 FORCE = [(f['m0'], f['m1'], f) for f in PLAN.get('force_shots', [])]
 GROUP_HOLD = P.get('group_hold', 1.2)
@@ -79,14 +100,19 @@ for nm in FILES:
     e = np.sqrt(np.mean(x[:n * HOP].reshape(n, HOP) ** 2, axis=1))
     thr = max(np.percentile(e, 10) * 6, 0.004)
     VAD[nm] = (np.convolve((e > thr).astype(np.float32), np.ones(41), 'same') > 0)
-    sp = e[VAD[nm][:len(e)]]
-    rms = float(np.median(sp)) if len(sp) else 0.02
+    spans = GAIN_SPANS.get(PERSON[nm], GAIN_SPANS.get(nm))
+    if spans:
+        rms = span_rms(FILES[nm], [(m0 - OFF[nm], m1 - OFF[nm]) for m0, m1 in spans])
+    else:
+        sp = e[VAD[nm][:len(e)]]
+        rms = float(np.median(sp)) if len(sp) else 0.02
     # Floor must stay well below any sane GAIN_TGT/rms or the clamp BINDS and
     # silently destroys the per-speaker equalization this function exists for
     # (Ep 8 at gain_target 0.006: chris 0.36 and tyler 0.39 both pinned to the
     # old 0.5 floor, leaving them ~1-3 dB hot relative to jackson).
     GAIN[nm] = float(np.clip(GAIN_TGT / rms, 0.05, 5.0))
-    print(f"{nm}: dur={DUR[nm]:.1f} speech_rms={rms:.4f} gain=x{GAIN[nm]:.2f}")
+    print(f"{nm}: dur={DUR[nm]:.1f} vad={VAD[nm].mean():.2f} speech_rms={rms:.4f} gain=x{GAIN[nm]:.2f}"
+          + (" (gain_spans)" if spans else ""))
 
 def covers(nm, m0, m1, slack=0.05):
     return OFF[nm] - slack <= m0 and m1 <= OFF[nm] + DUR[nm] + slack

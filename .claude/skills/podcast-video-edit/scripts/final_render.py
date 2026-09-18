@@ -51,7 +51,7 @@ AAC = _aac_encoder()
 clips = json.load(open(os.path.join(WORK, "clips.json")))
 overlays = json.load(open(os.path.join(WORK, "overlays.json")))
 # optional video picture-in-picture windows (screen recordings etc.) written by
-# remote_cut.py: [{file, mode: corner|full, crop:[w,h,x,y]|null, t0, start, end}]
+# remote_cut.py: [{file, mode: corner|full|side, crop:[w,h,x,y]|null, t0, start, end}]
 pfile = os.path.join(WORK, "pip.json")
 pips = json.load(open(pfile)) if os.path.exists(pfile) else []
 raw = os.path.join(WORK, "edited_raw.mov")
@@ -141,11 +141,18 @@ aux_idx = []
 for a in auxes:
     cmd += ["-i", os.path.join(WORK, a["file"])]
     aux_idx.append(i_next); i_next += 1
-pip_idx = []
+pip_idx, side_idx = [], []
 for p in pips:
-    cmd += ["-ss", f"{max(0, p['t0']):.2f}", "-t", f"{p['end']-p['start']+1.0:.2f}",
-            "-i", p["file"]]
+    span = f"{p['end']-p['start']+1.0:.2f}"
+    cmd += ["-ss", f"{max(0, p['t0']):.2f}", "-t", span, "-i", p["file"]]
     pip_idx.append(i_next); i_next += 1
+    # "side" re-reads the hosts window from edited_raw as its own finite input so
+    # the blurred-backdrop composite never has to split/buffer the main stream
+    if p["mode"] == "side":
+        cmd += ["-ss", f"{p['start']:.2f}", "-t", span, "-i", raw]
+        side_idx.append(i_next); i_next += 1
+    else:
+        side_idx.append(None)
 
 f = []
 # --- creative reframes: punch-ins / slow pushes, applied UNDER the overlays ---
@@ -218,17 +225,36 @@ if reframes:
 
 # PiP video windows composite UNDER lower thirds / logo. setpts shifts the
 # trimmed input to its window; eof_action=pass + finite input -t keep it safe.
-for k, (i, p) in enumerate(zip(pip_idx, pips)):
+# "side" = hosts shrunk to the left over a blurred/dimmed copy of themselves, the
+# (vertical) clip full-height on the right — for a tall phone/photo share that a
+# 430px corner window would render illegible.
+SIDE_HOSTS = (800, 450, 36, 214)
+SIDE_CLIP_H, SIDE_CLIP_X, SIDE_CLIP_Y = 672, 875, 24
+for k, (i, j, p) in enumerate(zip(pip_idx, side_idx, pips)):
+    shift = f"fps=30,setpts=PTS-STARTPTS+{p['start']:.2f}/TB"
+    win = f"enable='between(t,{p['start']},{p['end']})'"
+    if p["mode"] == "side":
+        cw, ch, cx0, cy0 = p["crop"]
+        hw, hh, hx, hy = SIDE_HOSTS
+        f.append(f"[{j}:v]{shift},split[sb{k}][sh{k}]")
+        f.append(f"[sb{k}]boxblur=24:2,eq=brightness=-0.22:saturation=0.55[bg{k}]")
+        f.append(f"[sh{k}]scale={hw}:{hh}[hs{k}]")
+        f.append(f"[bg{k}][hs{k}]overlay=x={hx}:y={hy}:eof_action=pass[hb{k}]")
+        f.append(f"[{i}:v]{shift},crop={cw}:{ch}:{cx0}:{cy0},scale=-2:{SIDE_CLIP_H},"
+                 f"format=yuv420p[pp{k}]")
+        f.append(f"[hb{k}][pp{k}]overlay=x={SIDE_CLIP_X}:y={SIDE_CLIP_Y}:eof_action=pass,"
+                 f"format=yuv420p[sc{k}]")
+        f.append(f"{cur}[sc{k}]overlay=x=0:y=0:eof_action=pass:{win}[vp{k}]")
+        cur = f"[vp{k}]"
+        continue
     if p["mode"] == "full":
         proc, pos = "scale=1280:720", "x=0:y=0"
     else:
         cw, ch, cx0, cy0 = p.get("crop") or [1100, 550, 410, 130]
         proc = f"crop={cw}:{ch}:{cx0}:{cy0},scale=430:-2"
         pos = "x=W-w-30:y=24"
-    f.append(f"[{i}:v]fps=30,setpts=PTS-STARTPTS+{p['start']:.2f}/TB,{proc},"
-             f"format=yuv420p[pp{k}]")
-    f.append(f"{cur}[pp{k}]overlay={pos}:eof_action=pass"
-             f":enable='between(t,{p['start']},{p['end']})'[vp{k}]")
+    f.append(f"[{i}:v]{shift},{proc},format=yuv420p[pp{k}]")
+    f.append(f"{cur}[pp{k}]overlay={pos}:eof_action=pass:{win}[vp{k}]")
     cur = f"[vp{k}]"
 for k, o in enumerate(overlays):
     pos = {"lt": "x=60:y=H-h-46", "st2": "x=W-w-50:y=H-h-46"}.get(o["kind"], "x=W-w-50:y=64")

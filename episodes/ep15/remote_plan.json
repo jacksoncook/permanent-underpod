@@ -1,0 +1,860 @@
+{
+ "blocks": [
+  {
+   "id": "COLD_A",
+   "m0": 212.3,
+   "m1": 224.08
+  },
+  {
+   "id": "COLD_B",
+   "m0": 1146.9,
+   "m1": 1167.12
+  },
+  {
+   "id": "COLD_C",
+   "m0": 3272.94,
+   "m1": 3280.42,
+   "cam": "chris",
+   "mics": [
+    "chris"
+   ]
+  },
+  {
+   "id": "INTRO",
+   "m0": 2.45,
+   "m1": 43.94
+  },
+  {
+   "id": "PERP",
+   "m0": 63.16,
+   "m1": 301.94
+  },
+  {
+   "id": "PACE_A",
+   "m0": 301.94,
+   "m1": 496.71
+  },
+  {
+   "id": "PACE_A2",
+   "m0": 521.98,
+   "m1": 1130.46
+  },
+  {
+   "id": "PACE_B",
+   "m0": 1146.9,
+   "m1": 1376.27
+  },
+  {
+   "id": "EREBOR",
+   "m0": 1376.27,
+   "m1": 1914.04
+  },
+  {
+   "id": "LIQUID",
+   "m0": 1914.04,
+   "m1": 2202.89
+  },
+  {
+   "id": "ANTH",
+   "m0": 2202.89,
+   "m1": 2749.11
+  },
+  {
+   "id": "JAPAN",
+   "m0": 2862.23,
+   "m1": 2990.84
+  },
+  {
+   "id": "MUSE",
+   "m0": 2990.84,
+   "m1": 3323.75
+  },
+  {
+   "id": "MUSE2",
+   "m0": 3364.14,
+   "m1": 3846.37
+  },
+  {
+   "id": "CARD_END",
+   "card": "card_end.mov"
+  }
+ ],
+ "protect": [
+  [
+   2.45,
+   17.0
+  ],
+  [
+   212.3,
+   224.1
+  ],
+  [
+   1146.9,
+   1167.2
+  ],
+  [
+   3272.9,
+   3280.5
+  ],
+  [
+   205.0,
+   230.0
+  ],
+  [
+   1146.9,
+   1162.0
+  ],
+  [
+   3836.0,
+   3846.4
+  ]
+ ],
+ "force_shots": [
+  {
+   "m0": 2.45,
+   "m1": 16.5,
+   "type": "trio"
+  }
+ ],
+ "face_cx": {
+  "jackson": 660,
+  "chris": 550,
+  "tyler": 640
+ },
+ "panel_order": [
+  "jackson",
+  "chris",
+  "tyler"
+ ],
+ "params": {
+  "idle_gain": 0.12,
+  "group_thresh": 0.25,
+  "group_hold": 1.0,
+  "react_thresh": 0.6,
+  "min_shot": 3.0,
+  "gain_target": 0.028,
+  "dead_air_min": 1.4,
+  "dead_air_keep": 0.5,
+  "dead_air_net": 0.8
+ },
+ "pips": [
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep15/raw/Untitled_recording-Chris-screen-00h_03m_35s_094ms-StreamYard.mp4",
+   "block": "COLD_A",
+   "m0": 215.1,
+   "m1": 224.08,
+   "anchor": 215.094,
+   "mode": "corner",
+   "crop": [
+    510,
+    212,
+    490,
+    118
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep15/raw/Untitled_recording-Chris-screen-00h_19m_10s_076ms-StreamYard.mp4",
+   "block": "COLD_B",
+   "m0": 1150.08,
+   "m1": 1167.12,
+   "anchor": 1150.076,
+   "mode": "side",
+   "crop": [
+    288,
+    508,
+    816,
+    285
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep15/raw/Untitled_recording-Chris-screen-00h_03m_35s_094ms-StreamYard.mp4",
+   "block": "PERP",
+   "m0": 215.1,
+   "m1": 273.1,
+   "anchor": 215.094,
+   "mode": "corner",
+   "crop": [
+    510,
+    212,
+    490,
+    118
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep15/raw/Untitled_recording-Chris-screen-00h_03m_35s_094ms-StreamYard.mp4",
+   "block": "PACE_A",
+   "m0": 388.2,
+   "m1": 496.71,
+   "anchor": 215.094,
+   "mode": "corner",
+   "crop": [
+    510,
+    212,
+    490,
+    118
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep15/raw/Untitled_recording-Chris-screen-00h_03m_35s_094ms-StreamYard.mp4",
+   "block": "PACE_A2",
+   "m0": 521.98,
+   "m1": 1130.46,
+   "anchor": 215.094,
+   "mode": "corner",
+   "crop": [
+    510,
+    212,
+    490,
+    118
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep15/raw/Untitled_recording-Chris-screen-00h_19m_10s_076ms-StreamYard.mp4",
+   "block": "PACE_B",
+   "m0": 1150.08,
+   "m1": 1299.79,
+   "anchor": 1150.076,
+   "mode": "side",
+   "crop": [
+    288,
+    508,
+    816,
+    285
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep15/raw/Untitled_recording-Chris-screen-00h_21m_53s_488ms-StreamYard.mp4",
+   "block": "PACE_B",
+   "m0": 1333.2,
+   "m1": 1376.27,
+   "anchor": 1313.488,
+   "mode": "corner",
+   "crop": [
+    510,
+    212,
+    490,
+    118
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep15/raw/Untitled_recording-Chris-screen-00h_21m_53s_488ms-StreamYard.mp4",
+   "block": "EREBOR",
+   "m0": 1376.27,
+   "m1": 1914.04,
+   "anchor": 1313.488,
+   "mode": "corner",
+   "crop": [
+    510,
+    212,
+    490,
+    118
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep15/raw/Untitled_recording-Chris-screen-00h_21m_53s_488ms-StreamYard.mp4",
+   "block": "LIQUID",
+   "m0": 1914.04,
+   "m1": 2202.89,
+   "anchor": 1313.488,
+   "mode": "corner",
+   "crop": [
+    510,
+    212,
+    490,
+    118
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep15/raw/Untitled_recording-Chris-screen-00h_21m_53s_488ms-StreamYard.mp4",
+   "block": "ANTH",
+   "m0": 2202.89,
+   "m1": 2749.11,
+   "anchor": 1313.488,
+   "mode": "corner",
+   "crop": [
+    510,
+    212,
+    490,
+    118
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep15/raw/Untitled_recording-Chris-screen-00h_21m_53s_488ms-StreamYard.mp4",
+   "block": "JAPAN",
+   "m0": 2862.23,
+   "m1": 2990.84,
+   "anchor": 1313.488,
+   "mode": "corner",
+   "crop": [
+    510,
+    212,
+    490,
+    118
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep15/raw/Untitled_recording-Chris-screen-00h_21m_53s_488ms-StreamYard.mp4",
+   "block": "MUSE",
+   "m0": 2990.84,
+   "m1": 3323.75,
+   "anchor": 1313.488,
+   "mode": "corner",
+   "crop": [
+    510,
+    212,
+    490,
+    118
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep15/raw/Untitled_recording-Chris-screen-00h_21m_53s_488ms-StreamYard.mp4",
+   "block": "MUSE2",
+   "m0": 3364.14,
+   "m1": 3846.37,
+   "anchor": 1313.488,
+   "mode": "corner",
+   "crop": [
+    510,
+    212,
+    490,
+    118
+   ]
+  }
+ ],
+ "overlays": [
+  {
+   "name": "st_coldopen",
+   "block": "COLD_A",
+   "rel": 0.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_intro",
+   "block": "INTRO",
+   "m": 4.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_perp",
+   "block": "PERP",
+   "m": 64.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_thesis",
+   "block": "PERP",
+   "m": 175.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_rekt",
+   "block": "PERP",
+   "m": 226.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_25x",
+   "block": "PERP",
+   "m": 240.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_shibuya",
+   "block": "PERP",
+   "m": 279.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_pace",
+   "block": "PACE_A",
+   "m": 303.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_dario",
+   "block": "PACE_A",
+   "m": 318.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_eyes",
+   "block": "PACE_A",
+   "m": 366.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_tiers",
+   "block": "PACE_A",
+   "m": 462.0,
+   "dur": 9,
+   "kind": "st"
+  },
+  {
+   "name": "st_trump",
+   "block": "PACE_A2",
+   "m": 602.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_church",
+   "block": "PACE_A2",
+   "m": 789.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_occam",
+   "block": "PACE_A2",
+   "m": 883.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_dilemma",
+   "block": "PACE_A2",
+   "m": 971.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_rug",
+   "block": "PACE_A2",
+   "m": 1006.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_hotdog",
+   "block": "PACE_A2",
+   "m": 1070.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "lt_cousin",
+   "block": "PACE_B",
+   "m": 1168.0,
+   "dur": 7,
+   "kind": "lt"
+  },
+  {
+   "name": "st_xrisk",
+   "block": "PACE_B",
+   "m": 1313.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_erebor",
+   "block": "EREBOR",
+   "m": 1378.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_desk",
+   "block": "EREBOR",
+   "m": 1429.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_wintermute",
+   "block": "EREBOR",
+   "m": 1517.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_print",
+   "block": "EREBOR",
+   "m": 1539.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_figs",
+   "block": "EREBOR",
+   "m": 1554.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_consult",
+   "block": "EREBOR",
+   "m": 1703.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_wifebeater",
+   "block": "EREBOR",
+   "m": 1743.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_freakout",
+   "block": "EREBOR",
+   "m": 1866.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_liquid",
+   "block": "LIQUID",
+   "m": 1919.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_vibes",
+   "block": "LIQUID",
+   "m": 1979.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_socialize",
+   "block": "LIQUID",
+   "m": 2075.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_bitfinex",
+   "block": "LIQUID",
+   "m": 2118.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_anth",
+   "block": "ANTH",
+   "m": 2213.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_route",
+   "block": "ANTH",
+   "m": 2286.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_why",
+   "block": "ANTH",
+   "m": 2310.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_russia",
+   "block": "ANTH",
+   "m": 2385.0,
+   "dur": 9,
+   "kind": "st"
+  },
+  {
+   "name": "st_spy",
+   "block": "ANTH",
+   "m": 2441.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_worst",
+   "block": "ANTH",
+   "m": 2526.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_mystery",
+   "block": "ANTH",
+   "m": 2610.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_zdr",
+   "block": "ANTH",
+   "m": 2681.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_japan",
+   "block": "JAPAN",
+   "m": 2863.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_anime",
+   "block": "JAPAN",
+   "m": 2890.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_beatles",
+   "block": "JAPAN",
+   "m": 2955.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_muse",
+   "block": "MUSE",
+   "m": 2992.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_nb",
+   "block": "MUSE",
+   "m": 3049.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_kimono",
+   "block": "MUSE",
+   "m": 3107.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_intern",
+   "block": "MUSE",
+   "m": 3133.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_moxie",
+   "block": "MUSE",
+   "m": 3154.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_vm",
+   "block": "MUSE",
+   "m": 3176.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_attest",
+   "block": "MUSE2",
+   "m": 3377.0,
+   "dur": 9,
+   "kind": "st"
+  },
+  {
+   "name": "st_zkp",
+   "block": "MUSE2",
+   "m": 3409.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_surveil",
+   "block": "MUSE2",
+   "m": 3481.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_link",
+   "block": "MUSE2",
+   "m": 3591.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_aggregator",
+   "block": "MUSE2",
+   "m": 3716.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_gift",
+   "block": "MUSE2",
+   "m": 3781.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "lt_wrap",
+   "block": "MUSE2",
+   "m": 3800.5,
+   "dur": 6,
+   "kind": "lt"
+  }
+ ],
+ "sheet": [
+  {
+   "block": "COLD_A",
+   "label": "Cold open"
+  },
+  {
+   "block": "INTRO",
+   "label": "Chris is wearing a white shirt"
+  },
+  {
+   "block": "PERP",
+   "label": "Perp of Fortune: Fable longs the yen at 25\u00d7"
+  },
+  {
+   "block": "PERP",
+   "m": 214.5,
+   "label": "The board: \u2212, ten minutes in \u2014 'R-E-K-T'"
+  },
+  {
+   "block": "PACE_A",
+   "label": "The marquee: why do the labs want to slow down?"
+  },
+  {
+   "block": "PACE_A2",
+   "m": 588.0,
+   "label": "Trump vs the EAs"
+  },
+  {
+   "block": "PACE_A2",
+   "m": 773.0,
+   "label": "The Church of Phase One Big"
+  },
+  {
+   "block": "PACE_A2",
+   "m": 828.0,
+   "label": "Tyler: take them at face value"
+  },
+  {
+   "block": "PACE_A2",
+   "m": 997.0,
+   "label": "'3/3 in the bio? They'll rug you.'"
+  },
+  {
+   "block": "PACE_B",
+   "m": 1148.0,
+   "label": "Chris's doomer cousin: the viral ex-Anthropic researcher"
+  },
+  {
+   "block": "EREBOR",
+   "label": "The infinite money glitch: Erebor's free conversions met Wintermute"
+  },
+  {
+   "block": "EREBOR",
+   "m": 1696.0,
+   "label": "The Underpod executive consultancy"
+  },
+  {
+   "block": "LIQUID",
+   "label": "Liquid update: Blockstream wants the last 15% back"
+  },
+  {
+   "block": "ANTH",
+   "label": "Anthropic's threat report: DeepSeek routed users to Claude"
+  },
+  {
+   "block": "ANTH",
+   "m": 2667.0,
+   "label": "OpenRouter's zero-data-retention toggle"
+  },
+  {
+   "block": "JAPAN",
+   "label": "Perp check: \u2212$13.50, the yen in shambles; the Shibuya tour"
+  },
+  {
+   "block": "MUSE",
+   "label": "Muse + secure enclaves: Chris let Meta buy his shoes"
+  },
+  {
+   "block": "MUSE2",
+   "m": 3370.0,
+   "label": "What an attestation actually proves"
+  },
+  {
+   "block": "MUSE2",
+   "m": 3577.0,
+   "label": "The payments story: Stripe Link"
+  },
+  {
+   "block": "MUSE2",
+   "m": 3799.0,
+   "label": "Wrap: the yen came back"
+  }
+ ],
+ "gain_spans": {
+  "jackson": [
+   [
+    64.8,
+    80.6
+   ],
+   [
+    1377.5,
+    1392.0
+   ],
+   [
+    2204.3,
+    2235.4
+   ],
+   [
+    3800.4,
+    3822.0
+   ]
+  ],
+  "chris": [
+   [
+    148.2,
+    206.5
+   ],
+   [
+    1409.2,
+    1431.0
+   ],
+   [
+    1443.4,
+    1465.0
+   ],
+   [
+    3125.8,
+    3170.0
+   ]
+  ],
+  "tyler": [
+   [
+    431.7,
+    461.0
+   ],
+   [
+    882.1,
+    927.0
+   ],
+   [
+    1192.6,
+    1244.0
+   ],
+   [
+    2290.9,
+    2340.0
+   ]
+  ]
+ }
+}

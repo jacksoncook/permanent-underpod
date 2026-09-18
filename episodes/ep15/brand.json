@@ -1,0 +1,333 @@
+{
+ "show": "PERMANENT UNDERPOD",
+ "show_kicker": "PERMANENT",
+ "show_main": "UNDERPOD",
+ "accent": [
+  255,
+  210,
+  74
+ ],
+ "source": "/Users/jcook/Personal/permanent-underpod/media/ep15/work/src/jackson_720.mp4",
+ "title_card": {
+  "bg_frame": 600,
+  "line": "EPISODE 15   \u00b7   Fable Shorts the Yen   \u00b7   Bitcoin  \u00b7  Stablecoins  \u00b7  AI",
+  "dur": 4.5
+ },
+ "end_card": {
+  "bg_frame": 3300,
+  "kicker": "NEXT WEEK ON",
+  "lines": [
+   "Which stablecoin rail wins when every chain is cheap?",
+   "Fedimint: do federations earn their trust? \u00b7 Bitcoin-backed loans",
+   "Not financial advice. Our opinions are ours, not our employers'."
+  ],
+  "cta": "LIKE  +  SUBSCRIBE",
+  "dur": 7
+ },
+ "lower_thirds": [
+  {
+   "name": "intro",
+   "kicker": "EPISODE 15",
+   "title": "CHRIS IS WEARING A WHITE SHIRT"
+  },
+  {
+   "name": "perp",
+   "kicker": "PERP OF FORTUNE",
+   "title": "FABLE 5.1 SAYS: LONG THE YEN, 25\u00d7"
+  },
+  {
+   "name": "pace",
+   "kicker": "THE MARQUEE",
+   "title": "WHY DO THE LABS WANT TO SLOW DOWN NOW?"
+  },
+  {
+   "name": "cousin",
+   "kicker": "CHRIS'S COUSIN?",
+   "title": "THE EX-ANTHROPIC RESEARCHER WHO WENT VIRAL"
+  },
+  {
+   "name": "erebor",
+   "kicker": "THE INFINITE MONEY GLITCH",
+   "title": "EREBOR'S FREE CONVERSIONS MET WINTERMUTE"
+  },
+  {
+   "name": "liquid",
+   "kicker": "LIQUID UPDATE",
+   "title": "BLOCKSTREAM WANTS THE LAST 15% BACK"
+  },
+  {
+   "name": "anth",
+   "kicker": "THREAT INTELLIGENCE",
+   "title": "DEEPSEEK AND MOONSHOT ROUTED USERS TO CLAUDE"
+  },
+  {
+   "name": "japan",
+   "kicker": "PERP CHECK",
+   "title": "\u2212$13.50 \u2014 \"THE JAPANESE YEN IN SHAMBLES\""
+  },
+  {
+   "name": "muse",
+   "kicker": "MUSE + SECURE ENCLAVES",
+   "title": "CHRIS LET META'S AGENT BUY HIS SHOES"
+  },
+  {
+   "name": "wrap",
+   "kicker": "EPISODE 15 IN THE BOOKS",
+   "title": "THE YEN CAME BACK: \u2212$13 \u2192 \u2212$11"
+  }
+ ],
+ "stats": [
+  {
+   "name": "coldopen",
+   "kicker": "EPISODE 15",
+   "main": "In this pod\u2026"
+  },
+  {
+   "name": "thesis",
+   "kicker": "THE THESIS",
+   "main": "Fed hiked \u00b7 BoJ hikes tomorrow \u00b7 carry trade unwinds"
+  },
+  {
+   "name": "rekt",
+   "kicker": "THE BOARD",
+   "main": "\u2212$10 ten minutes in \u2014 \"R-E-K-T\""
+  },
+  {
+   "name": "25x",
+   "kicker": "MAX LEVERAGE",
+   "main": "Chris asked for 50\u00d7; Fable talked it down to 25\u00d7"
+  },
+  {
+   "name": "shibuya",
+   "kicker": "THE PIVOT",
+   "main": "\"Live from Shibuya \u2014 we have to do it\""
+  },
+  {
+   "name": "dario",
+   "kicker": "PACE THE FRONTIER",
+   "main": "Dario's essay \u00b7 Altman: \"preach\" \u00b7 Musk: \"for real\""
+  },
+  {
+   "name": "eyes",
+   "kicker": "CHRIS READ IT",
+   "main": "\"with my eyes, and I regret it\""
+  },
+  {
+   "name": "tiers",
+   "kicker": "THE THREE TIERS",
+   "main": "embedded auditors \u2192 US labs pace \u2192 slow China"
+  },
+  {
+   "name": "trump",
+   "kicker": "TRUTH SOCIAL",
+   "main": "\"Trump knows about the EAs now. Crazy timeline.\""
+  },
+  {
+   "name": "church",
+   "kicker": "NEW RELIGION",
+   "main": "the Church of Phase One Big \u2014 tax-free pod"
+  },
+  {
+   "name": "occam",
+   "kicker": "TYLER'S TAKE",
+   "main": "Occam's razor: deca-billionaires aren't lying for a buck"
+  },
+  {
+   "name": "dilemma",
+   "kicker": "CHRIS'S TAKE",
+   "main": "a prisoner's dilemma \u2014 don't rely on altruism"
+  },
+  {
+   "name": "rug",
+   "kicker": "CRYPTO LESSON",
+   "main": "\"3/3 in the bio? They will rug you.\""
+  },
+  {
+   "name": "hotdog",
+   "kicker": "THE RATIONALISTS",
+   "main": "called it when AI did \"hot dog / not hot dog\""
+  },
+  {
+   "name": "xrisk",
+   "kicker": "CHRIS",
+   "main": "\"not an X-risk denier \u2014 an X-risk minimizer\""
+  },
+  {
+   "name": "desk",
+   "kicker": "THE DESK",
+   "main": "redeem 1 USDT \u2192 $1, minus a fee \u2014 if you have access"
+  },
+  {
+   "name": "wintermute",
+   "kicker": "WINTERMUTE",
+   "main": "named after the AI in Neuromancer"
+  },
+  {
+   "name": "print",
+   "kicker": "THE TRADE",
+   "main": "buy USDT at $0.9999 \u00b7 redeem at $1.00 \u00b7 repeat"
+  },
+  {
+   "name": "figs",
+   "kicker": "CHRIS'S GUESS",
+   "main": "\"quite a bag \u2014 probably eight figs\""
+  },
+  {
+   "name": "consult",
+   "kicker": "NEW BUSINESS",
+   "main": "the Underpod executive training consultancy"
+  },
+  {
+   "name": "wifebeater",
+   "kicker": "JACKSON'S COURSE",
+   "main": "wear a wife beater to work, don't get fired"
+  },
+  {
+   "name": "freakout",
+   "kicker": "COUNTERPARTY RISK",
+   "main": "\"the second I see Wintermute anywhere, I freak out\""
+  },
+  {
+   "name": "vibes",
+   "kicker": "BITCOIN TWITTER",
+   "main": "\"you're stupid, you deserved it\" \u2014 vibes: putrid"
+  },
+  {
+   "name": "socialize",
+   "kicker": "THE QUESTION",
+   "main": "do they socialize the losses? (hello, bank run)"
+  },
+  {
+   "name": "bitfinex",
+   "kicker": "PRECEDENT",
+   "main": "Bitfinex 2016: a recovery token that paid out in full"
+  },
+  {
+   "name": "route",
+   "kicker": "THE ALLEGATION",
+   "main": "DeepSeek & Kimi APIs quietly proxied to Claude"
+  },
+  {
+   "name": "why",
+   "kicker": "WHY",
+   "main": "real prompts + frontier answers = training data"
+  },
+  {
+   "name": "russia",
+   "kicker": "THE PUNCHLINE",
+   "main": "Russian intel \u2192 Chinese servers \u2192 an American lab"
+  },
+  {
+   "name": "spy",
+   "kicker": "RELUCTANT SPY",
+   "main": "Beijing was mad the queries went to America"
+  },
+  {
+   "name": "worst",
+   "kicker": "TYLER'S RULE",
+   "main": "\"DeepSeek for privacy\" is the worst option possible"
+  },
+  {
+   "name": "mystery",
+   "kicker": "FREE TRIALS",
+   "main": "\"share my whole life with this mystery entity\""
+  },
+  {
+   "name": "zdr",
+   "kicker": "OPENROUTER",
+   "main": "ZDR = zero data retention \u2014 a promise, not a proof"
+  },
+  {
+   "name": "anime",
+   "kicker": "JACKSON'S CONFESSION",
+   "main": "thinks about Japan every other day (anime)"
+  },
+  {
+   "name": "beatles",
+   "kicker": "THE VISION",
+   "main": "Beatles at Shea, but it's the Underpod in Shibuya"
+  },
+  {
+   "name": "nb",
+   "kicker": "FIELD TEST",
+   "main": "bought New Balances with Muse an hour ago"
+  },
+  {
+   "name": "kimono",
+   "kicker": "TYLER",
+   "main": "\"I'm not ready to go full open kimono\""
+  },
+  {
+   "name": "intern",
+   "kicker": "CHRIS'S BET",
+   "main": "a 16-year-old intern over Mark Zuckerberg"
+  },
+  {
+   "name": "moxie",
+   "kicker": "THE PITCH",
+   "main": "Meta hired Moxie Marlinspike (Signal)"
+  },
+  {
+   "name": "vm",
+   "kicker": "WHAT SHIPPED",
+   "main": "a VM in a container \u2014 the private version \"later\""
+  },
+  {
+   "name": "attest",
+   "kicker": "SECURE ENCLAVES",
+   "main": "attestation proves WHAT runs \u2014 if you can read it"
+  },
+  {
+   "name": "zkp",
+   "kicker": "TYLER'S PITCH",
+   "main": "\"a ZKP over closed-source software in your enclave\""
+  },
+  {
+   "name": "surveil",
+   "kicker": "CHRIS",
+   "main": "language models = infinite surveillance capability"
+  },
+  {
+   "name": "link",
+   "kicker": "PAYMENTS",
+   "main": "Stripe Link: saved card, or a single-use virtual card"
+  },
+  {
+   "name": "aggregator",
+   "kicker": "THE PLAY",
+   "main": "own the consumer \u00b7 aggregate agentic buyers \u00b7 rev share"
+  },
+  {
+   "name": "gift",
+   "kicker": "TYLER",
+   "main": "\"it feels like a gift \u2014 thanks, guy\""
+  }
+ ],
+ "thumbnail": {
+  "text": "AI TRADED OUR MONEY",
+  "out": "/Users/jcook/Personal/permanent-underpod/media/ep15/ep15-thumbnail.png",
+  "faces": [
+   {
+    "track": "jackson",
+    "t": 3790.3,
+    "cx": 640,
+    "top": 100,
+    "h": 620
+   },
+   {
+    "track": "tyler",
+    "t": 1500.9,
+    "cx": 1010,
+    "top": 120,
+    "h": 590
+   },
+   {
+    "track": "chris",
+    "t": 1170.6,
+    "cx": 250,
+    "top": 140,
+    "h": 570
+   }
+  ]
+ }
+}

@@ -232,7 +232,7 @@ for p in PLAN.get('pips', []):
                          start=round(fstart, 2), end=round(fstart + (z - a), 2)))
 pips.sort(key=lambda x: x['start'])
 # merge windows contiguous in BOTH final and source time (one input per run),
-# then hide the PiP while any overlay is up (+0.3s margin), advancing t0 so the
+# then hide corner/full PiPs while any overlay is up (+0.3s margin), advancing t0 so the
 # dashboard resumes at the right source moment
 merged = []
 for p in pips:
@@ -246,7 +246,9 @@ cut_wins = [(o['start'] - 0.3, o['end'] + 0.3) for o in omap]
 final_pips = []
 for p in merged:
     segs = [(p['start'], p['end'], p['t0'])]
-    for a, b in cut_wins:
+    # a side-by-side window owns the whole frame; lower thirds sit over its
+    # backdrop instead of interrupting it
+    for a, b in ([] if p['mode'] == 'side' else cut_wins):
         nx = []
         for s, e, t0 in segs:
             if b <= s or a >= e:

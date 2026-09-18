@@ -496,6 +496,15 @@ What's different from the one-camera flow (all learned the hard way on Ep 5):
   timeline must stay). And DON'T trust whisper line timestamps for short excerpt
   blocks: starts tile backwards over silence by 10+ s (Ep 5's cold-open teaser cut a
   SILENT window because of this) — locate the utterance with an energy scan first.
+- **Per-track leveling — give it `gain_spans`.** The default estimator (median of the
+  frames a crude VAD calls speech, per track) is fooled by any track that hears the other
+  hosts (speaker bleed, echo-cancel residue): the median "speech" frame is the bleed, so
+  that host is equalized HOT (Ep 15: Jackson +9 dB over Chris/Tyler, sources identical).
+  Author `"gain_spans": {"jackson": [[m0,m1],...], ...}` — 3–4 trusted SOLO passages per
+  host in master seconds — and the cutlist measures RMS at 48 kHz on the files it actually
+  mixes; `gain_target` is then a plain RMS (0.028 ≈ −31 dBFS). Then VERIFY on held-out
+  solo passages in edited_raw (all hosts within ~2 dB) and run the per-second clip scan
+  (numpy over a 48 kHz s16 dump: zero samples at ±32767) before rendering.
 - **Screen-recording PiP** (`pips` in remote_plan.json): map dashboard/screen replays
   by wall-clock anchor (`video_t = master − anchor`); verify the anchor by matching an
   on-screen value to a spoken line ("we're up $1.92"). `mode: full` for a beat, then
@@ -508,6 +517,13 @@ What's different from the one-camera flow (all learned the hard way on Ep 5):
   reorder. Author it as one `corner` window per block covering the whole tail —
   `remote_cut.py` merges contiguous windows and punches the by-design ~6.6 s holes
   where a lower third is up (it hides the PiP ±0.3 s around any overlay).
+  **`mode: side`** (Ep 15) is for a TALL share — a phone/vertical clip inside a 1080p
+  screen recording — that a 430 px corner window renders illegible: hosts shrink to
+  800×450 under the logo over a blurred/dimmed copy of themselves, the `crop` scales to
+  672 px tall on the right. Side windows are not hole-punched (lower thirds sit over the
+  backdrop), so keep stat callouts (top-right) out of the window; the renderer re-reads
+  the hosts span from edited_raw.mov as its own finite input rather than splitting the
+  main stream.
 - **AI/insert segments** (`insert` blocks) are conformed to house format (30 fps,
   1280×720, mono PCM pinned to frames×1600 samples) and take the same audio chain as
   speech — no separate leveling needed.
