@@ -11,8 +11,13 @@ SUBSCRIBE at 5:47 and 27:45 · end card · whoosh + gold wipe on all 10 topic tr
 
 ## Episode video
 
-- **URL:** _not yet published_ — upload with `yt_upload.py` (scheduled-private), then backfill
-  this sheet from `yt_fetch.py`.
+- **URL:** https://youtu.be/-DEI0oQM2Ys — published 2026-09-18 06:51 UTC (Jackson, manual Studio
+  upload; `yt_fetch.py` 9/19).
+- **Live title:** "They Found an Infinite Money Glitch at a Bank" — chosen at upload 9/18 over
+  draft #1 below. Log any later retitle here with the date (CTR comparisons need it).
+- **Live description:** the YouTube draft below, as written.
+- **Tags:** none at publish (9/19). Patch 15 topical tags via `videos.update` once the force-ssl
+  token is re-authed — the manual upload revoked it (house pattern).
 - **File:** `media/ep15/Permanent Underpod - Ep 15 (Final Cut).mp4`
 - **Thumbnail:** `media/ep15/ep15-thumbnail.png` — "AI TRADED OUR MONEY" (pale yellow; Chris's
   big grin at "can you make that face?" front-left, Jackson's hand-on-head "Geez Louise, I
@@ -25,7 +30,8 @@ SUBSCRIBE at 5:47 and 27:45 · end card · whoosh + gold wipe on all 10 topic tr
   23:37, 37:35, 49:32 and 60:01 — lag a constant 35 ms at every point, early and late (no
   drift; Ep 14 measured −3 to −36 ms the same way). A/V stream durations match to 3 ms.
 - **Captions:** `episodes/ep15/transcript-attributed.srt` — regenerated from the FINAL cut.
-  Upload as the `standard` track via `yt_captions.py` (force-ssl token).
+  NOT uploaded as of 9/19: `yt_captions.py` stalled on the browser OAuth flow (token revoked by
+  the manual upload). Re-auth on the brand channel, then upload as the `standard` track.
 
 ## Title (drafts)
 
