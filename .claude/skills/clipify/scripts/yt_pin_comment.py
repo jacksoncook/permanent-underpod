@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Post the funnel comment (episode link + timestamp) on each short once it is public.
 
-usage: yt_pin_comment.py <queue.json> [--dry-run]
+usage: yt_pin_comment.py <queue.json> [<queue.json> ...] [--dry-run]
 
 queue.json: {"token": "~/.config/clipify-youtube/token_captions.json",
              "items": [{"videoId": "...", "text": "Full episode: https://youtu.be/<ep>?t=238 ..."}]}
@@ -17,9 +17,12 @@ SCOPES = ["https://www.googleapis.com/auth/youtube.force-ssl"]
 
 
 def main():
-    args = [a for a in sys.argv[1:] if a != "--dry-run"]
     dry = "--dry-run" in sys.argv
-    qpath = args[0]
+    for qpath in [a for a in sys.argv[1:] if a != "--dry-run"]:
+        run(qpath, dry)
+
+
+def run(qpath, dry):
     q = json.load(open(qpath))
     done_path = qpath + ".done.json"
     done = json.load(open(done_path)) if os.path.exists(done_path) else {}
@@ -36,7 +39,7 @@ def main():
     stamp = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%MZ")
     pending = [it for it in q["items"] if it["videoId"] not in done]
     if not pending:
-        print(f"{stamp} nothing pending"); return
+        print(f"{stamp} {os.path.basename(os.path.dirname(qpath))}: nothing pending"); return
     status = {v["id"]: v["status"]["privacyStatus"] for v in
               yt.videos().list(part="status", id=",".join(i["videoId"] for i in pending)).execute()["items"]}
     for it in pending:
