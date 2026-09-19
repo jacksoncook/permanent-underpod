@@ -195,20 +195,20 @@ blurred-fill frame. Gate: `verify_clips.py` 9/9 pre-render (--whisper) and `--re
 every rendered head and tail (caught two the envelope passed: the rug short's stray opening syllable
 and the infinite-money short ending on a dangling "They haven't released any figures"). Two declared
 overrides: short5 out on the 60 ms trough after "did"; short9 out on the layout cut at 3597.33.
-Playlist Underpod Shorts, proposed daily 2 PM PT (21:00 UTC) from 2026-09-21 (Ep 14 queue ends 9/20).
-Not uploaded yet. Funnel checklist (related video, pinned comments, end screen) manual and owed.
+Playlist Underpod Shorts. Uploaded 2026-09-19 (scheduled-private): daily from 9/19; the two overlapping
+Ep 14's queue go 4 h after it (6 PM PT = 01:00 UTC next day), then daily 2 PM PT (21:00 UTC) 9/21–9/27. Funnel checklist (related video, pinned comments, end screen) manual and owed.
 
 | # | clip | final in–out | len | title | date |
 |---|------|--------------|-----|-------|------|
-| 1 | short1-rekt-25x | 3:58.8–4:22.3 | 23.5 s | We let an AI go 25× long the yen. R-E-K-T. | 09-21 |
-| 2 | short2-chris-cousin | 18:49.3–19:22.3 | 33.0 s | Tyler found Chris's cousin on CBS News | 09-22 |
-| 3 | short9-facebook-bought-my-shoes | 59:24.6–59:57.3 | 32.7 s | "I let Facebook buy my shoes, dude" | 09-23 |
-| 4 | short5-infinite-money-glitch | 24:47.8–25:21.1 | 33.3 s | The infinite money glitch: buy at 99.99¢, redeem at $1 | 09-24 |
-| 5 | short7-lunch-stolen | 30:36.7–30:53.9 | 17.2 s | When Wintermute shows up, I freak out | 09-25 |
-| 6 | short4-rug-you | 16:28.9–16:53.3 | 24.4 s | 3/3 in the bio? They're going to rug you | 09-26 |
-| 7 | short6-wife-beater | 28:16.3–28:42.9 | 26.6 s | How to wear a wife beater to work and not get fired | 09-27 |
-| 8 | short8-reluctant-spy | 39:56.9–40:21.1 | 24.2 s | Chinese AI labs got caught routing queries to Claude | 09-28 |
-| 9 | short3-read-it-with-my-eyes | 6:08.1–6:23.3 | 15.2 s | "I read it with my eyes and I regret it" | 09-29 |
+| 1 | short1-rekt-25x (https://youtu.be/A2jcw1XNlR4) | 3:58.8–4:22.3 | 23.5 s | We let an AI go 25× long the yen. R-E-K-T. | 09-20 01:00Z |
+| 2 | short2-chris-cousin (https://youtu.be/VUiTscQhRZk) | 18:49.3–19:22.3 | 33.0 s | Tyler found Chris's cousin on CBS News | 09-21 01:00Z |
+| 3 | short9-facebook-bought-my-shoes (https://youtu.be/G8ls3m6wjDo) | 59:24.6–59:57.3 | 32.7 s | "I let Facebook buy my shoes, dude" | 09-21 21:00Z |
+| 4 | short5-infinite-money-glitch (https://youtu.be/JXs8wdan1ik) | 24:47.8–25:21.1 | 33.3 s | The infinite money glitch: buy at 99.99¢, redeem at $1 | 09-22 21:00Z |
+| 5 | short7-lunch-stolen (https://youtu.be/Zbv-DA9NYqE) | 30:36.7–30:53.9 | 17.2 s | When Wintermute shows up, I freak out | 09-23 21:00Z |
+| 6 | short4-rug-you (https://youtu.be/6rNr3vYgHFY) | 16:28.9–16:53.3 | 24.4 s | 3/3 in the bio? They're going to rug you | 09-24 21:00Z |
+| 7 | short6-wife-beater (https://youtu.be/L2YTUbtdNJY) | 28:16.3–28:42.9 | 26.6 s | How to wear a wife beater to work and not get fired | 09-25 21:00Z |
+| 8 | short8-reluctant-spy (https://youtu.be/IsypDtdW1EU) | 39:56.9–40:21.1 | 24.2 s | Chinese AI labs got caught routing queries to Claude | 09-26 21:00Z |
+| 9 | short3-read-it-with-my-eyes (https://youtu.be/fGLwdTLbz1E) | 6:08.1–6:23.3 | 15.2 s | "I read it with my eyes and I regret it" | 09-27 21:00Z |
 
 Bench (not cut): the Church of Phase One Big (12:43, house jargon), "I left my kimono in Berkeley"
 (49:15), "what they shipped was a VM" (50:00, explainer class), the −$13.50 perp check with
