@@ -16,8 +16,9 @@ SUBSCRIBE at 5:47 and 27:45 · end card · whoosh + gold wipe on all 10 topic tr
 - **Live title:** "They Found an Infinite Money Glitch at a Bank" — chosen at upload 9/18 over
   draft #1 below. Log any later retitle here with the date (CTR comparisons need it).
 - **Live description:** the YouTube draft below, as written.
-- **Tags:** none at publish (9/19). Patch 15 topical tags via `videos.update` once the force-ssl
-  token is re-authed — the manual upload revoked it (house pattern).
+- **Tags (15, API-patched 2026-09-19):** podcast, bitcoin, ai, infinite money glitch, wintermute, erebor,
+  stablecoin, tether, yen carry trade, perp of fortune, anthropic, liquid, blockstream, secure enclave,
+  agentic commerce. (0 at publish — the manual upload revoked the force-ssl token; re-authed 9/19.)
 - **File:** `media/ep15/Permanent Underpod - Ep 15 (Final Cut).mp4`
 - **Thumbnail:** `media/ep15/ep15-thumbnail.png` — "AI TRADED OUR MONEY" (pale yellow; Chris's
   big grin at "can you make that face?" front-left, Jackson's hand-on-head "Geez Louise, I
@@ -29,9 +30,8 @@ SUBSCRIBE at 5:47 and 27:45 · end card · whoosh + gold wipe on all 10 topic tr
 - **Sync check:** final audio cross-correlated against each source track at 1:23, 19:26,
   23:37, 37:35, 49:32 and 60:01 — lag a constant 35 ms at every point, early and late (no
   drift; Ep 14 measured −3 to −36 ms the same way). A/V stream durations match to 3 ms.
-- **Captions:** `episodes/ep15/transcript-attributed.srt` — regenerated from the FINAL cut.
-  NOT uploaded as of 9/19: `yt_captions.py` stalled on the browser OAuth flow (token revoked by
-  the manual upload). Re-auth on the brand channel, then upload as the `standard` track.
+- **Captions:** `episodes/ep15/transcript-attributed.srt` — regenerated from the FINAL cut; uploaded
+  2026-09-19 as the `standard` track (serving) after the force-ssl re-auth.
 
 ## Title (drafts)
 
@@ -183,7 +183,7 @@ Subscribe for next week: does the yen finish the job, Perp of Fortune week three
 ## Captions
 
 _`transcript-attributed.srt` regenerated from the FINAL cut (never the raw recording) in
-`episodes/ep15/`. Upload with the episode via the captions API (force-ssl scope)._
+`episodes/ep15/`. Uploaded 2026-09-19 as the `standard` track via `yt_captions.py`; serving._
 
 ## Clips
 

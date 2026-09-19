@@ -70,10 +70,10 @@
 <div class="cards">
         <div class="card">
           <div class="card-head"><span class="prio" style="background:#ff6b6b">HIGH</span>
-          <h3>Ep 15 launched with 0 tags and no captions — token revoked by the manual upload; patch today (launch-week gate)</h3><span class="chip" style="border-color:#ff6b6b;color:#ff6b6b">○ OPEN</span></div>
+          <h3>Ep 15 launched with 0 tags and no captions (token revoked by the manual upload) — both patched 9/19, day 2 of the launch window</h3><span class="chip" style="border-color:#7bd88f;color:#7bd88f">✓ ADDRESSED</span></div>
           <p class="evidence"><b>Evidence:</b> yt_fetch 9/19: -DEI0oQM2Ys &#x27;They Found an Infinite Money Glitch at a Bank&#x27;, publishedAt 2026-09-18T06:51Z, tags []. yt_captions.py hung on the OAuth browser flow (token_captions.json last refreshed 9/11; Jackson&#x27;s Studio uploads have revoked tokens 7/18, 7/20, 7/31, 8/20, 9/4). Ep 14 shipped 15 tags + captions on launch day and Ep 13/12 the day after. ~95% of lifetime impressions land in week one, so metadata fixes after ~9/25 are unrunnable.</p>
-          <p class="rec"><b>Do:</b> Jackson: run `! ~/.config/clipify-youtube/.venv/bin/python .claude/skills/clipify/scripts/yt_captions.py -DEI0oQM2Ys episodes/ep15/transcript-attributed.srt` and pick the brand channel; then the agent patches the 15 tags via videos.update and backfills segment-times.md. Longer-term: upload episodes through yt_upload.py (scheduled-private) so the token survives and tags/captions ride along.</p>
-          
+          <p class="rec"><b>Do:</b> Done 9/19 after Jackson re-authed the force-ssl token: standard caption track serving, 15 tags live. Longer-term: upload episodes through yt_upload.py (scheduled-private) so the token survives and tags/captions ride along on launch day.</p>
+          <p class="status-note">closed 9/19: captions serving 08:20 UTC, tags verified on read-back via two tokens.</p>
         </div>
 
         <div class="card">
