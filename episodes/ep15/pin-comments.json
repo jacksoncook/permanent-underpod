@@ -1,0 +1,41 @@
+{
+ "token": "~/.config/clipify-youtube/token_captions.json",
+ "items": [
+  {
+   "videoId": "A2jcw1XNlR4",
+   "text": "Full episode: https://youtu.be/-DEI0oQM2Ys?t=238 — this bit is at 3:58 (Chris asks for max leverage and Claude says 25×)."
+  },
+  {
+   "videoId": "VUiTscQhRZk",
+   "text": "Full episode: https://youtu.be/-DEI0oQM2Ys?t=1129 — this bit is at 18:49 (the CBS clip lands and Tyler finds Chris's cousin)."
+  },
+  {
+   "videoId": "G8ls3m6wjDo",
+   "text": "Full episode: https://youtu.be/-DEI0oQM2Ys?t=3564 — this bit is at 59:24 (the agentic-commerce close)."
+  },
+  {
+   "videoId": "JXs8wdan1ik",
+   "text": "Full episode: https://youtu.be/-DEI0oQM2Ys?t=1487 — this bit is at 24:47 (the infinite money glitch segment starts at 22:30)."
+  },
+  {
+   "videoId": "Zbv-DA9NYqE",
+   "text": "Full episode: https://youtu.be/-DEI0oQM2Ys?t=1836 — this bit is at 30:36 (Chris on Wintermute as your counterparty)."
+  },
+  {
+   "videoId": "6rNr3vYgHFY",
+   "text": "Full episode: https://youtu.be/-DEI0oQM2Ys?t=988 — this bit is at 16:28 (Tyler's 3/3 rule)."
+  },
+  {
+   "videoId": "L2YTUbtdNJY",
+   "text": "Full episode: https://youtu.be/-DEI0oQM2Ys?t=1696 — this bit is at 28:16 (the Underpod executive consultancy)."
+  },
+  {
+   "videoId": "IsypDtdW1EU",
+   "text": "Full episode: https://youtu.be/-DEI0oQM2Ys?t=2396 — this bit is at 39:56 (Anthropic's threat report and the reluctant spy)."
+  },
+  {
+   "videoId": "fGLwdTLbz1E",
+   "text": "Full episode: https://youtu.be/-DEI0oQM2Ys?t=368 — this bit is at 6:08 (who read the Dario essay)."
+  }
+ ]
+}

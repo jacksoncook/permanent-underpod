@@ -1,0 +1,37 @@
+{
+ "token": "~/.config/clipify-youtube/token_captions.json",
+ "items": [
+  {
+   "videoId": "J4RdzlIp1mA",
+   "text": "Full episode: https://youtu.be/7E2oCrI6-Y4?t=512 — this bit is at 8:32 (the Wikipedia agent swarm)."
+  },
+  {
+   "videoId": "YvlPZjMnKfs",
+   "text": "Full episode: https://youtu.be/7E2oCrI6-Y4?t=1957 — this bit is at 32:37 (Gavin the fruit fly trades Bitcoin)."
+  },
+  {
+   "videoId": "b8V9mpMRaGQ",
+   "text": "Full episode: https://youtu.be/7E2oCrI6-Y4?t=278 — this bit is at 4:38 (Astra goes live)."
+  },
+  {
+   "videoId": "SkPyihrClNU",
+   "text": "Full episode: https://youtu.be/7E2oCrI6-Y4?t=1793 — this bit is at 29:53 (training a simulated fruit fly)."
+  },
+  {
+   "videoId": "BVNb-RDnhT4",
+   "text": "Full episode: https://youtu.be/7E2oCrI6-Y4?t=1584 — this bit is at 26:24 (the check-in)."
+  },
+  {
+   "videoId": "iSTufYk7tFE",
+   "text": "Full episode: https://youtu.be/7E2oCrI6-Y4?t=3082 — this bit is at 51:22 (the white-hat fee debate)."
+  },
+  {
+   "videoId": "4KhkrnmcaTE",
+   "text": "Full episode: https://youtu.be/7E2oCrI6-Y4?t=2057 — this bit is at 34:17 (the perp check)."
+  },
+  {
+   "videoId": "Dkfj7QioSH0",
+   "text": "Full episode: https://youtu.be/7E2oCrI6-Y4?t=548 — this bit is at 9:08 (the egg app)."
+  }
+ ]
+}

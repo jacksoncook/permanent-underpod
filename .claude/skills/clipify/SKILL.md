@@ -315,6 +315,14 @@ to backfill each episode's `segment-times.md` from the *actual published* copy i
 of drafts: `~/.config/clipify-youtube/.venv/bin/python scripts/yt_fetch.py` → writes
 `channel_dump.json`. (YouTube only returns a video's real `tags` to the channel owner.)
 
+**Funnel comments (`scripts/yt_pin_comment.py`).** The API cannot pin, but it can post the
+comment as the channel; private/scheduled videos 403, so it has to run AFTER each publish slot.
+Build `<out_dir>/pin-comments.json` (`{"items":[{"videoId","text":"Full episode: <ep>?t=NNN — this
+bit is at m:ss (…)."}]}`) and schedule it with a LaunchAgent (`crontab` hangs on macOS TCC):
+`~/Library/LaunchAgents/com.jcook.underpod.pin-comments.plist` runs it at 17:10 and 21:10 ET (10 min
+after the 21:00Z / 01:00Z slots). Idempotent (`.done.json` + skips videos that already carry a channel
+comment with the episode link). Jackson pins in Studio afterwards; the related-video button is his too.
+
 **Captions (`scripts/yt_captions.py`).** Uploads the SRT regenerated from the FINAL
 cut as a caption track (default name `standard`, replaces a same-name track):
 `~/.config/clipify-youtube/.venv/bin/python scripts/yt_captions.py <videoId> <file.srt>
