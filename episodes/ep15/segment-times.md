@@ -187,14 +187,32 @@ _`transcript-attributed.srt` regenerated from the FINAL cut (never the raw recor
 
 ## Clips
 
-_Not yet cut. Shorts-only (long-form pulls retired). Bench from this edit, all personality
-picks: "R-E-K-T, it did let us go 25×" (3:53); "I read it with my eyes and I regret it"
-(6:00); the Church of Phase One Big (12:43); "3/3 in the bio? They'll rug you" (16:27);
-"Wintermute… should tell you where this is going" + "could never finish that book" (24:50);
-wife beater to work (28:45); "the second I see Wintermute anywhere, I freak out" (30:30);
-"Reluctant spy" (40:00); "I left my kimono in Berkeley" (49:15); "what they shipped was
-a VM" (50:00); "I let Facebook buy my shoes, dude" / "thanks, guy" (58:20). Run
-`verify_clips.py` before rendering and again with `--rendered`._
+Nine 9:16 shorts, cut 2026-09-19 (`episodes/ep15/clips.json`; files in `media/clips/ep15/`; copy in
+`media/clips/ep15/posting-copy.md`). Eight are face-crop verticals off `edited_raw.mov` with the episode
+chain + branded ender; short2 is a custom vertical stack (Chris's cam over the CBS clip, both from native
+sources, mastered audio from the final) because the side-by-side composite reads too small in a
+blurred-fill frame. Gate: `verify_clips.py` 9/9 pre-render (--whisper) and `--rendered`, plus whisper on
+every rendered head and tail (caught two the envelope passed: the rug short's stray opening syllable
+and the infinite-money short ending on a dangling "They haven't released any figures"). Two declared
+overrides: short5 out on the 60 ms trough after "did"; short9 out on the layout cut at 3597.33.
+Playlist Underpod Shorts, proposed daily 2 PM PT (21:00 UTC) from 2026-09-21 (Ep 14 queue ends 9/20).
+Not uploaded yet. Funnel checklist (related video, pinned comments, end screen) manual and owed.
+
+| # | clip | final in–out | len | title | date |
+|---|------|--------------|-----|-------|------|
+| 1 | short1-rekt-25x | 3:58.8–4:22.3 | 23.5 s | We let an AI go 25× long the yen. R-E-K-T. | 09-21 |
+| 2 | short2-chris-cousin | 18:49.3–19:22.3 | 33.0 s | Tyler found Chris's cousin on CBS News | 09-22 |
+| 3 | short9-facebook-bought-my-shoes | 59:24.6–59:57.3 | 32.7 s | "I let Facebook buy my shoes, dude" | 09-23 |
+| 4 | short5-infinite-money-glitch | 24:47.8–25:21.1 | 33.3 s | The infinite money glitch: buy at 99.99¢, redeem at $1 | 09-24 |
+| 5 | short7-lunch-stolen | 30:36.7–30:53.9 | 17.2 s | When Wintermute shows up, I freak out | 09-25 |
+| 6 | short4-rug-you | 16:28.9–16:53.3 | 24.4 s | 3/3 in the bio? They're going to rug you | 09-26 |
+| 7 | short6-wife-beater | 28:16.3–28:42.9 | 26.6 s | How to wear a wife beater to work and not get fired | 09-27 |
+| 8 | short8-reluctant-spy | 39:56.9–40:21.1 | 24.2 s | Chinese AI labs got caught routing queries to Claude | 09-28 |
+| 9 | short3-read-it-with-my-eyes | 6:08.1–6:23.3 | 15.2 s | "I read it with my eyes and I regret it" | 09-29 |
+
+Bench (not cut): the Church of Phase One Big (12:43, house jargon), "I left my kimono in Berkeley"
+(49:15), "what they shipped was a VM" (50:00, explainer class), the −$13.50 perp check with
+"family chickies cheaper than ever" (45:09).
 
 ## Edit decisions of note
 

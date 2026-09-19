@@ -1,0 +1,337 @@
+{
+ "source": "/Users/jcook/Personal/permanent-underpod/media/ep15/work/edited_raw.mov",
+ "out_dir": "/Users/jcook/Personal/permanent-underpod/media/clips/ep15",
+ "logo": "/Users/jcook/Personal/permanent-underpod/media/ep15/work/logo.png",
+ "audio_chain": "highpass=f=80,afftdn=nr=18:nf=-50:tn=1,volume=6dB,adynamicequalizer=dfrequency=6800:dqfactor=2.5:tfrequency=6800:tqfactor=2.5:mode=cutabove:threshold=0.01:ratio=4:range=8:attack=2:release=40,acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,treble=f=9500:width_type=q:w=0.8:g=2,loudnorm=I=-16:TP=-1.5:LRA=5",
+ "ender": true,
+ "clips": [
+  {
+   "name": "short1-rekt-25x",
+   "start": 238.76,
+   "end": 262.3,
+   "vertical": true,
+   "caption": {
+    "kicker": "AN AI TRADED OUR MONEY",
+    "title": "\"CLAUDE TALKED IT DOWN TO 25×\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     10,
+     "cut"
+    ],
+    [
+     3.08,
+     437,
+     "cut"
+    ],
+    [
+     7.79,
+     864,
+     "cut"
+    ],
+    [
+     14.86,
+     437,
+     "cut"
+    ],
+    [
+     18.44,
+     347,
+     "cut"
+    ]
+   ]
+  },
+  {
+   "name": "short2-chris-cousin",
+   "source": "/Users/jcook/Personal/permanent-underpod/media/ep15/work/cousin_stack_src.mp4",
+   "audio_chain": "anull",
+   "start": 0.0,
+   "end": 32.99,
+   "vertical": true,
+   "caption": {
+    "kicker": "CHRIS'S COUSIN?",
+    "title": "\"THE WRONG SIDE OF THE FAMILY\""
+   },
+   "verify_override": {
+    "in": "pre-stacked source; the in point 1129.31 was verified on the final cut (0.19s room in a 0.53s gap)",
+    "out": "pre-stacked source; the out point 1162.30 was verified on the final cut (0.19s room in a 0.53s gap)"
+   }
+  },
+  {
+   "name": "short3-read-it-with-my-eyes",
+   "start": 368.1,
+   "end": 383.31,
+   "vertical": true,
+   "caption": {
+    "kicker": "WHO READ THE DARIO ESSAY?",
+    "title": "\"I READ IT WITH MY EYES\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     347,
+     "cut"
+    ],
+    [
+     5.933,
+     757,
+     "cut"
+    ]
+   ]
+  },
+  {
+   "name": "short4-rug-you",
+   "start": 988.86,
+   "end": 1013.3,
+   "vertical": true,
+   "caption": {
+    "kicker": "3/3 IN THE BIO?",
+    "title": "\"THEY'RE GOING TO RUG YOU\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     757,
+     "cut"
+    ],
+    [
+     0.973,
+     437,
+     "cut"
+    ],
+    [
+     2.243,
+     864,
+     "cut"
+    ],
+    [
+     10.473,
+     757,
+     "cut"
+    ],
+    [
+     22.413,
+     117,
+     "cut"
+    ]
+   ]
+  },
+  {
+   "name": "short5-infinite-money-glitch",
+   "start": 1487.8,
+   "end": 1521.06,
+   "vertical": true,
+   "caption": {
+    "kicker": "THE INFINITE MONEY GLITCH",
+    "title": "BUY AT 99.99¢, REDEEM AT $1"
+   },
+   "face_crops": [
+    [
+     0.0,
+     117,
+     "cut"
+    ],
+    [
+     2.7,
+     347,
+     "cut"
+    ],
+    [
+     6.7,
+     117,
+     "cut"
+    ],
+    [
+     19.7,
+     10,
+     "cut"
+    ],
+    [
+     23.2,
+     347,
+     "cut"
+    ]
+   ],
+   "verify_override": {
+    "out": "no 80 ms gap exists: 'did' energy ends 1521.00 (falling -20 to -79 dB), 'They haven't released any figures' starts 1521.08; the 60 ms trough at -79 dB is the only clean end before a dangling sentence"
+   }
+  },
+  {
+   "name": "short6-wife-beater",
+   "start": 1696.3,
+   "end": 1722.9,
+   "vertical": true,
+   "caption": {
+    "kicker": "THE UNDERPOD CONSULTANCY",
+    "title": "\"WEAR A WIFE BEATER TO WORK\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     757,
+     "cut"
+    ],
+    [
+     2.2,
+     457,
+     "cut"
+    ],
+    [
+     7.7,
+     117,
+     "cut"
+    ],
+    [
+     14.2,
+     10,
+     "cut"
+    ],
+    [
+     17.7,
+     117,
+     "cut"
+    ],
+    [
+     25.7,
+     10,
+     "cut"
+    ]
+   ]
+  },
+  {
+   "name": "short7-lunch-stolen",
+   "start": 1836.66,
+   "end": 1853.9,
+   "vertical": true,
+   "caption": {
+    "kicker": "WHEN WINTERMUTE SHOWS UP",
+    "title": "\"I JUST GOT MY LUNCH STOLEN\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     347,
+     "cut"
+    ],
+    [
+     12.34,
+     117,
+     "cut"
+    ],
+    [
+     14.47,
+     757,
+     "cut"
+    ]
+   ]
+  },
+  {
+   "name": "short8-reluctant-spy",
+   "start": 2396.92,
+   "end": 2421.09,
+   "vertical": true,
+   "caption": {
+    "kicker": "CHINA'S QUERIES WENT TO CLAUDE",
+    "title": "\"THE RELUCTANT SPY\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     437,
+     "cut"
+    ],
+    [
+     7.58,
+     757,
+     "cut"
+    ],
+    [
+     12.08,
+     10,
+     "cut"
+    ],
+    [
+     13.76,
+     437,
+     "cut"
+    ],
+    [
+     15.25,
+     864,
+     "cut"
+    ],
+    [
+     16.65,
+     10,
+     "cut"
+    ],
+    [
+     19.08,
+     117,
+     "cut"
+    ]
+   ]
+  },
+  {
+   "name": "short9-facebook-bought-my-shoes",
+   "start": 3564.6,
+   "end": 3597.33,
+   "vertical": true,
+   "caption": {
+    "kicker": "AI AGENTS SHOPPING FOR YOU",
+    "title": "\"I LET FACEBOOK BUY MY SHOES\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     117,
+     "cut"
+    ],
+    [
+     1.63,
+     757,
+     "cut"
+    ],
+    [
+     8.273,
+     117,
+     "cut"
+    ],
+    [
+     13.233,
+     864,
+     "cut"
+    ],
+    [
+     14.673,
+     10,
+     "cut"
+    ],
+    [
+     16.823,
+     864,
+     "cut"
+    ],
+    [
+     22.213,
+     437,
+     "cut"
+    ],
+    [
+     24.733,
+     117,
+     "cut"
+    ],
+    [
+     29.633,
+     757,
+     "cut"
+    ]
+   ],
+   "verify_override": {
+    "out": "falling tail at -54 dB (word energy ended 3597.20, real gap 3597.35-3597.60); the source layout cuts at 3597.33 so the out must sit on it"
+   }
+  }
+ ]
+}
