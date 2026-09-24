@@ -1,13 +1,15 @@
 # Permanent Underpod — Ep 16 — Topics
 
-**Record: Fri Sept 25, 2026 presumed; confirm with hosts. Research checked Wed Sept 23.**
+**Record: Fri Sept 25, 2026 presumed; confirm with hosts. Research checked Sept 23–24.**
 **Panel: Jackson (AI / Bitcoin products) · Chris (stablecoins / security) · Tyler (Bitcoin / Lightning)**
 
 > **The lead: Anthropic's agents found something that looks like CRISPR.** 950 agents, 21 hours, 210M tokens, one lead. Function unknown. Gene-editing stocks sold off anyway. Same week Anthropic launched a program that removes bio safeguards for vetted labs, ten days after its CEO asked everyone to slow down.
 > **The conspiracy thread:** pace-the-frontier is now a class action, an Accenture contract, a Trump "AI Force," and two frontier releases on the same day. Every host brings one theory and grades it.
 > **Is bitcoin back?** Structural only. No price, no ETF flows, no chart talk. The question is whether the plumbing changed or the headline writers did.
 > **Carryovers:** Ep 15 teased "does the yen finish the job," Perp week three, and the enclave deep dive. Enclaves aired at 47:18 and 52:55 of Ep 15, so the debt is a callback line, not a segment.
-> **55-minute ceiling.** If debates run, park J (Liquid), then E (CLARITY). Keep D (agentic commerce) mid-show.
+> **Record-day story: Bitget.** $351.6M in "unauthorized transfers" confirmed by the CEO the evening of Sept 24. Vector undisclosed, nobody has attributed it. Refresh everything in J before tape.
+> **Two protocol stories, one shape:** Shielded Bitcoin says "no soft fork needed," and Ethereum's builder auction is three entities building ~90% of blocks. Both are what happens when the base layer can't or won't change.
+> **55-minute ceiling.** If debates run, park M (MEV), then S (shielded). CLARITY and the lab-agent hacks are already benched. Keep D (agentic commerce) mid-show.
 
 ## Topics / proposed recording order
 
@@ -16,17 +18,17 @@
 | H | Check-in | All | Who got hit by Plugin4Shell? | 1 |
 | F | Perp of Fortune, week three | All | Did the yen finish the job? | 3 |
 | A | Claude found a CRISPR-lookalike | Jackson | Did the market just trade a press release? | 9 |
-| B | Pace the frontier: conspiracy corner | All; Tyler moderates | Which theory survived the week? | 9 |
-| C | Is bitcoin back? | Tyler + all | What changed that isn't a number? | 8 |
-| D | Agentic commerce: Amazon slams the door, Shopify opens it | Chris | Who owns the customer when the agent has three wallets? | 7 |
-| E | CLARITY is dead; the agencies go alone | Chris | Is no law worse than a bad law? | 4 |
-| G | The lab agents hacked real companies | Jackson | What does "sandbox" mean now? | 4 |
-| J | Liquid: bounty or theft? | Tyler | At what percent returned does whitehat stop? | 3 |
-| W | Wildcard: 5× points on PEPE | All | What MCC code is a memecoin? | 2 |
+| B | Pace the frontier: conspiracy corner | All; Tyler moderates | Which theory survived the week? | 8 |
+| C | Is bitcoin back? | Tyler + all | What changed that isn't a number? | 7 |
+| D | Agentic commerce: Amazon slams the door, Shopify opens it | Chris | Who owns the customer when the agent has three wallets? | 6 |
+| J | The custodial month: Bitget $352M, Liquid's last 15% | Chris + Tyler | What does a protection fund actually protect? | 7 |
+| S | Shielded Bitcoin: Zcash in an OP_RETURN | Tyler | Is "no soft fork" a feature or a confession? | 5 |
+| M | Ethereum's builder duopoly and the ePBS fight | Chris | Who actually builds the chain? | 4 |
+| W | Wildcard: 5× points on PEPE | All | What MCC code is a memecoin? | 1 |
 | Z | Close | All | One prediction each; final perp number | 2 |
 
 - First substantive payoff by ~2 minutes. Perp reveal within 90 seconds of starting the bit.
-- These are caps. If behind: bank J, then E, then W. That makes 46 minutes.
+- These are caps. If behind: bank M, then S, then W. That makes 43 minutes.
 - Fresh-news substitutes below replace time. They don't add ten more minutes.
 
 ### H + F — Check-ins and Perp of Fortune
@@ -56,7 +58,7 @@
 
 **Clip question:** "950 agents, 21 hours, one enzyme. What's the postdoc exchange rate?"
 
-### B — Pace the frontier: conspiracy corner (All, Tyler moderates, ≤9 min)
+### B — Pace the frontier: conspiracy corner (All, Tyler moderates, ≤8 min)
 
 **Start:** "Ten days after 'pace the frontier,' Opus 5.5 and GPT-6 shipped on the same day. Bring your theory."
 
@@ -90,7 +92,7 @@
 
 **Clip question:** "They asked for a slowdown and shipped a frontier model ten days later. Pick your theory."
 
-### C — Is bitcoin back? (Tyler + all, ≤8 min)
+### C — Is bitcoin back? (Tyler + all, ≤7 min)
 
 **Hard rule: no price, no ETF flows, no chart talk. If a host reaches for a number, Tyler redirects to what was built.**
 
@@ -118,7 +120,7 @@
 
 **Clip question:** "Bitcoin's back. Back as what?"
 
-### D — Agentic commerce: Amazon slams the door, Shopify opens it (Chris, ≤7 min, MID-SHOW)
+### D — Agentic commerce: Amazon slams the door, Shopify opens it (Chris, ≤6 min, MID-SHOW)
 
 **Start:** "Two weeks ago Muse bought Chris's sneakers. This week Amazon told it to leave."
 
@@ -136,35 +138,69 @@
 
 **Clip question:** "Amazon banned the shopping agent. Shopify gave it the keys. Who's right?"
 
-### E — CLARITY is dead; the agencies go alone (Chris, ≤4 min)
+### J — The custodial month: Bitget $352M, Liquid's last 15% (Chris + Tyler, ≤7 min)
 
-- Sept 15 cloture failed 49–50. Fight was stablecoin rewards vs. bank deposits, plus Trump-ethics provisions. Lummis blames Democrats' Trump politics; critics say banks and overseas hubs won. Fairshake commits $30M against Sherrod Brown. [Lummis](https://www.coindesk.com/policy/2026/09/22/democrats-chose-visceral-hatred-for-donald-trump-over-crypto-clarity-act-lummis-says) · [Critics](https://www.coindesk.com/policy/2026/09/21/banks-overseas-crypto-hubs-gain-from-clarity-act-s-senate-defeat-critics-say) · [Fairshake](https://www.theblock.co/news/regulation/2026-09-21-clarity-act-fallout-cryptos-fairshake-pac-commits-30-million-against-sherrod-brown-415962)
-- White House Sept 22: "no time to waste," regulators act now; lame-duck odds "incredibly chilled." [CoinDesk](https://www.coindesk.com/policy/2026/09/22/crypto-market-structure-can-t-wait-for-shot-at-post-election-clarity-act-surge-white-house)
-- GENIUS rulemaking: Treasury/OCC missed the July deadline; ABA still asking for more time. Visa survey (Sept 23): stablecoin intent rises 36%→56% with bank-level protections; Visa stablecoin settlement at $20B annualized. [The Block](https://www.theblock.co/news/regulation/2026-09-23-stablecoin-adoption-intent-rises-from-36-to-56-with-bank-level-protections-visa-says-416136)
-- ECB (Sept 22): rewrite MiCA to extend the yield ban to lending/staking and drop the 60% bank-deposit reserve rule. Europe bans yield to protect deposits; US banks killed CLARITY over the same thing.
-- Binance buys a $100M Circle stake with a five-year USDC promo deal (Sept 22). Korea: Kakao Pay / KakaoBank sign a Fireblocks MoU for won stablecoin tests; SBI–Kyobo yen↔won settlement test skipped USD.
-- **Debate:** Is "no yield" now the global default, and does that kill stablecoins as savings? Is rules-by-agency worse for issuers than a bad law because the next administration can undo it?
+**Start:** "Liquid minted $320M from nothing on Sept 6. Bitget lost $352M from its hot wallets on Sept 24. Same month, same lesson?"
 
-### G — The lab agents hacked real companies (Jackson, ≤4 min)
+- **Bitget, Sept 24 (all times UTC):** 18:31 Bitget's stated detection. ~20:30 Arkham flags ~$183M leaving Bitget-labeled wallets to one fresh address. ~21:30 CEO Gracy Chen confirms **$351.6M** in "unauthorized transfers from some of our hot wallets." Withdrawals paused; deposits and trading stay on. Full incident report promised within 24 h. [CoinDesk](https://www.coindesk.com/markets/2026/09/24/crypto-exchange-bitget-loses-usd352-million-in-hack-claims-user-funds-are-safe) · [The Block](https://www.theblock.co/news/markets/2026-09-24-more-than-170-million-in-crypto-moves-from-bitget-wallets-unidentified-address-416345) · [Unchained](https://unchainedcrypto.com/bitgets-hot-and-cold-wallets-hit-in-suspected-hack-worth-more-than-180-million/)
+- **The gap:** on-chain trackers confirm ~$184–192M (ETH ~48,800, USDT $34.75M, USDC ~$21M across chains, 3,000 XAUT, 821k AVAX). Bitget says $351.6M. A 93.7M XRP leg (~$143M) is unconfirmed and would nearly close it. **Say "Bitget's figure" and "on-chain confirmed" as two numbers.**
+- **Cold wallet dispute:** Chen says hot and warm layers only, "Cold wallets remain fully secure." CoinDesk and Arkham label a hit wallet ("Bitget 35") as cold. Unresolved. Say "Arkham's labels vs. Bitget's claim."
+- **Protection Fund:** "over $464 million"; Chen: "The full amount of this loss falls within the coverage." Check what the fund is denominated in before tape; if it's mostly BGB (unverified), the token's −6% on the news matters.
+- **Laundering so far:** stablecoins swapped into ~22,600 ETH within the hour; bridged via Stargate and Celer to Arbitrum and BNB Chain. No Tornado or THORChain yet. No Tether or Circle freeze reported.
+- **Context:** September 2026 is now 2026's worst month at $684M+ (Liquid ~$320M + Bitget). Bybit, Feb 2025, was $1.44B via a Safe multisig UI compromise draining one cold wallet; Bitget so far reads as key compromise across ~4 wallets and 6 chains. No outlet has drawn that comparison yet.
+- **Liquid update:** ~4,000 BTC pegged out, ~3,400 returned. Blockstream refused the 598.5 BTC "bounty" ("It is theft"); Immunefi's CEO says the attacker "crossed into theft." **As of Sept 23, no recovery of the last ~15%; L-BTC peg-out reportedly still shut.** [Blockstream phishing alert](https://blog.blockstream.com/phishing-alert-do-not-act-on-unsolicited-liquid-or-blockstream-messages/) · Companion: Symbiosis bridge, 25¢ of BTC minted 46.1B fake syBTC, real loss ~9.97 BTC. [CoinDesk](https://www.coindesk.com/tech/2026/09/15/a-hacker-turned-25-cents-of-bitcoin-into-46-billion-fake-btc-tokens-on-a-defi-bridge)
+- **Debate:**
+  1. **Chris:** the attacker dumped USDT and USDC into ETH inside an hour. Is freezability now a priced-in one-hour window that deters nobody?
+  2. **Jackson:** a "three-tier wallet architecture" lost $352M in 2.5 hours. What does an exchange signing pipeline look like so one session, human or agent, can't drain it?
+  3. **Tyler:** $320M and $352M lost to custodial key management in one month. Does self-custody finally win the argument, or do protection funds make custodial "safe enough"?
+  4. **All:** at what percent returned does "whitehat" stop being a defense for Liquid's attacker?
+- **Do NOT say:** "Lazarus" or "North Korea" (zero attribution); "$352M stolen" as settled; "cold wallets breached" as fact; any vector ("insider," "phishing," "supply chain"); "users made whole" (promised, withdrawals still off).
 
-- Sept 16: OpenAI discloses six incidents, including a model leaving notes to successors to hide behavior; Reuters reports OpenAI agents probed Hugging Face before a breach. Sept 19: Google confirms Gemini agents broke into three outside companies' systems during a May security test (NBC, CNBC, SecurityWeek).
-- The effort.news counter: one contractor, Irregular, built the environments behind all three labs' incidents. Are these breakouts or one vendor's misconfig? Google still reported real credential theft.
-- Plugin4Shell (Sept 17–23): repo owner can silently swap pinned plugin code; Copilot and Gemini CLI reportedly still unpatched. Every coding agent is a supply-chain client.
-- **Debate:** "sandbox" now means "the internet." Who's liable when a lab's eval hacks your prod? Jackson: what changed in your own agent hygiene this week?
+**Clip question:** "Two custodians, one month, $670 million. Whose fault is it that you still don't hold your keys?"
 
-### J — Liquid: bounty or theft? (Tyler, ≤3 min)
+### S — Shielded Bitcoin: Zcash in an OP_RETURN (Tyler, ≤5 min)
 
-- Bug minted ~$320M of unbacked L-BTC; ~4,000 BTC pegged out, ~3,400 returned. Blockstream refused the 598.5 BTC "bounty" demand ("It is theft"), restarted Liquid Sept 10, Adam Back says the peg will be covered. Immunefi's CEO (Sept 18–21): the attacker "crossed into theft." **As of Sept 23, no recovery of the last ~15%; L-BTC peg-out reportedly still shut.** Phishing wave followed. [Blockstream phishing alert](https://blog.blockstream.com/phishing-alert-do-not-act-on-unsolicited-liquid-or-blockstream-messages/)
-- Companion: Symbiosis bridge (Sept 15): 25¢ of BTC minted 46.1B fake syBTC via two bugs (wrong sender-auth field, negative fees credited); real loss ~9.97 BTC. [CoinDesk](https://www.coindesk.com/tech/2026/09/15/a-hacker-turned-25-cents-of-bitcoin-into-46-billion-fake-btc-tokens-on-a-defi-bridge)
-- **Debate:** at what percent returned does "whitehat" stop being a defense? What does federated trust mean for Lightning and L2s after two unbacked-mint bugs in one month?
+**Start:** "Sept 24: a whitepaper says Bitcoin can have Zcash-style private transfers with no soft fork, no operators, no bridges. Read the fine print."
 
-### W — Wildcard: 5× points on PEPE (All, ≤2 min)
+- **What it is:** whitepaper and Delving post from [alloc] init (Misha Komarov's team; authors Clara Shikhelman, Mikhail Komarov, Aleksei Moskvin). **Not a BIP, not a soft fork.** A Zcash-style shielded-note metaprotocol: encrypted notes, nullifiers, Groth16 zk-SNARKs with a **trusted setup**, transfer envelopes posted in OP_RETURN. Bitcoin consensus verifies nothing; off-chain indexers replay history to derive state. [Whitepaper](https://www.allocinit.xyz/uploads/shielded-bitcoin.pdf) · [Delving](https://delvingbitcoin.org/t/shielded-bitcoin-private-transfers-on-the-bitcoin-l1/2912) · [Bitcoin Magazine](https://bitcoinmagazine.com/news/alloc-init-releases-shielded-bitcoin-proposal-for-private-bitcoin-transactions) · [Unchained interview](https://unchainedcrypto.com/bitcoin-could-get-zcash-style-private-transactions-without-a-soft-fork-misha-komarov-says/)
+- **The catch, verbatim:** "Peg-in and peg-out... fall outside the scope of this paper." They're deferred to PIPEs v2, the team's witness-encryption scheme that locks a Schnorr key behind a SNARK condition. PIPEs v2's own paper: the constructions are "heuristic" and a ciphertext is "on the order of 338 TB." Komarov says ~8 TB now. [PIPEs v2](https://www.allocinit.xyz/uploads/pipesv2.pdf)
+- **Also public:** "Transfer timing, arity, output grouping, fees, and carrier-transaction metadata remain public." ~700 vbytes per transfer, roughly 4× normal fees. Appendix D is "Opt-in KYC Evidence" via viewing keys.
+- **Reaction:** none yet. Delving thread had 1 post and 0 replies at check time. Shinobi: "on par with something like Zcash shielded pools." Don't attribute takes to Poelstra, Sztorc, Rusty, Lopp, or Corallo. Same day, unrelated Delving thread "Softfork before GTA VI?" mourns lost covenant momentum. [Delving](https://delvingbitcoin.org/t/softfork-before-gta-vi/2913)
+- **Debate:**
+  1. **Jackson:** supply audit is "replay everything yourself or trust an indexer." Would a product ship that? Does the KYC appendix make it exchange-friendly or dead for the privacy crowd?
+  2. **Chris:** trusted setup, heuristic witness encryption, terabyte ciphertexts. Which is the real attack surface? Is this Tornado Cash with extra steps, legally?
+  3. **Tyler:** 700-vbyte OP_RETURN envelopes at scale meet Knots filter politics. Why not Lightning plus silent payments?
+  4. **All:** is "no soft fork needed" a feature, or an admission that the covenant stalemate pushed R&D into unfalsifiable cryptography? Ties to Sztorc's line in C.
+- **Do NOT say:** "BIP," "soft fork proposal," "Core devs reacted," "Zcash on Bitcoin is live," "no trusted setup."
+
+**Clip question:** "Private bitcoin with no soft fork. The peg is an 8-terabyte ciphertext. Still excited?"
+
+### M — Ethereum's builder duopoly and the ePBS fight (Chris, ≤4 min)
+
+**Start:** "Three companies build about 90% of Ethereum's blocks. The fix ships next year. The fix might make it worse."
+
+- **Numbers, pulled Sept 24 from relayscan (7 d):** Titan 55.5%, BuilderNet 18.0%, Quasar 16.7%, Eureka 3.9%. ~92% of blocks go through MEV-Boost. The "two builders, 95.7%" line is Dec 2024 (EigenPhi); beaverbuild is now inside BuilderNet at 0.14% standalone. [relayscan](https://www.relayscan.io/overview?t=7d) · [EigenPhi 2024](https://eigenphi.substack.com/p/mev-space-1-recap-breaking-the-ethereum-duopoly)
+- **Mechanics in five lines:** validators sell each 12-second slot's building rights; builders bid ETH, highest wins, proposer signs the header; relays sit in the middle so the proposer can't front-run the builder; winner-take-all plus private order flow (Telegram bots, wallets, proprietary AMMs) compounds into 55/18/17; ePBS (EIP-7732, in Glamsterdam) removes the relay, puts the bid on-chain, payload lands 6 s later, a 512-member committee checks it arrived.
+- **The live fight:** Sept 17 dev call, Potuz warns sybil "fake builders" can win bids and withhold payloads ("spin up a thousand builders, rotate them, offer very high bids, and not produce payloads"). Sepolia test Oct 6; mainnet unscheduled. Lido wants collateral-backed bids from anyone plus an allowlist for "trusted" bids; Commit-Boost says collateral is too capital-heavy; Titan says it'll keep using relays anyway. Neuder's conjecture: dominant builders keep dominating on reputation, ePBS or not. [CoinDesk](https://www.coindesk.com/tech/2026/09/18/ethereum-confirms-glamsterdam-dates-but-warns-fake-builders-could-stall-the-chain) · [Lido](https://research.lido.fi/t/ethereum-mev-extraction-and-rewards-part-2-revisiting-stance-in-light-of-epbs/11818) · [ePBS distilled](https://ethresear.ch/t/epbs-distilled/25800) · [CryptoSlate on collateral vs trusted](https://cryptoslate.com/ethereum-builders-face-a-choice-between-locking-up-too-much-cash-or-relying-on-trusted-brokers/)
+- **Who gets the money:** Bitquery study (single source): builders receive $5.24 per $1 the network burns; split 49% builders / 41% trading operators / 9% burn. [CryptoSlate](https://cryptoslate.com/ethereum-arbitrage-study-reveals-builders-receive-5-for-every-1-burned-by-the-network) · MPBC went live Sept 16, letting other teams append to the winner's block, ~3% of blocks day one. [MPBC](https://docs.blockspace.forum/mpbc/)
+- **Debate:**
+  1. **Tyler:** Foundry + AntPool is ~45% of Bitcoin hashrate; Titan + Quasar is ~72% of Ethereum blocks. Why does Bitcoin's pool concentration draw louder alarm? Is out-of-band fee flow (Slipstream-style) Bitcoin's MEV-Boost?
+  2. **Chris:** Lido's allowlist for trusted payments is KYC for builders. Does ePBS reduce trust or formalize it?
+  3. **Jackson:** is AI-agent order flow the next capture vector? MPBC's "append to the winner's block": decentralization or renting shelf space from Titan?
+  4. **All:** $5 to builders per $1 burned. Burn the MEV, or does that just move the rent to stakers?
+- **Do NOT say:** "beaverbuild is a top builder"; "two builders have 95%" as current; a Glamsterdam mainnet date.
+
+**Clip question:** "Ethereum is decentralized. Three companies build the blocks."
+
+### W — Wildcard: 5× points on PEPE (All, ≤1 min)
 
 - Visa closes the memecoin-rewards loophole (Sept 19): Crossmint (powering Fomo and Robinhood Wallet via Checkout.com) coded memecoin buys as MCC 5815 "digital media," so degens earned card points on shitcoins. [The Block](https://www.theblock.co/news/regulation/2026-09-19-visa-to-close-crossmint-memecoin-rewards-loophole-following-the-block-investigation-report-415866)
 - Second bit if time: Meta admits Muse copied OpenClaw's config files, SOUL.md included. Jackson has a SOUL.md. [TechCrunch](https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/)
 
 ## Fresh-news bench
 
+- **CLARITY is dead; the agencies go alone (Chris, 3 min if J runs short).** Cloture failed 49–50 on Sept 15 over stablecoin rewards vs. bank deposits plus Trump-ethics provisions. White House Sept 22: "no time to waste," regulators act now. GENIUS rulemaking past its July deadline; ABA still asking for time. Visa survey: stablecoin intent 36%→56% with bank-level protections. ECB wants MiCA's yield ban extended to lending/staking. Binance buys a $100M Circle stake. Korea: Kakao Pay / KakaoBank Fireblocks MoU; SBI–Kyobo yen↔won test skipped USD. [Lummis](https://www.coindesk.com/policy/2026/09/22/democrats-chose-visceral-hatred-for-donald-trump-over-crypto-clarity-act-lummis-says) · [Critics](https://www.coindesk.com/policy/2026/09/21/banks-overseas-crypto-hubs-gain-from-clarity-act-s-senate-defeat-critics-say) · [White House](https://www.coindesk.com/policy/2026/09/22/crypto-market-structure-can-t-wait-for-shot-at-post-election-clarity-act-surge-white-house) · [Visa survey](https://www.theblock.co/news/regulation/2026-09-23-stablecoin-adoption-intent-rises-from-36-to-56-with-bank-level-protections-visa-says-416136). Question: is "no yield" now the global default, and is rules-by-agency worse for issuers than a bad law?
+- **The lab agents hacked real companies (Jackson, 3 min).** OpenAI disclosed six incidents Sept 16, including a model leaving notes to successors to hide behavior; Google confirmed Sept 19 that Gemini agents broke into three outside companies during a May test. effort.news: one contractor, Irregular, built the environments for all three labs' incidents. Plugin4Shell (Sept 17–23): repo owners can silently swap pinned plugin code in Claude Code, Codex, Copilot, Gemini CLI. Question: "sandbox" now means "the internet"; who's liable when a lab's eval hacks your prod?
 - **DOJ probes Binance for knowingly allowing Iran-linked trades** (Bloomberg, Sept 22; Binance silent). Treasury sanctioned Iranian exchange BitBank over IRGC BTC (Sept 17). Haruko breach leaked API keys of 15 crypto funds (Sept 18). Chris, 2 min if E runs short.
 - **Coinbase post-quantum custody plan** for ~$250B (Sept 22–23). Pairs with C's quantum thread if Tyler wants a concrete counterexample to "nobody's moving."
 - **Circle Arc mainnet** (Sept 16). Issuer-owned chain vs. the rails debate from Ep 15 Topic K.
@@ -179,7 +215,7 @@
 
 - **Everyone:** read the [Anthropic enzyme post](https://www.anthropic.com/news/claude-discovers-novel-enzyme-system) and skim the [HN thread](https://news.ycombinator.com/item?id=49820134). Pick one theory from the B table and bring the strongest counter to someone else's.
 - **Jackson:** actual perp result; the 210M-token cost estimate at list prices; one line on Plugin4Shell exposure. Decide the week-three model question before tape.
-- **Chris:** [Amazon block](https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/), the Muse zero-day coverage, [Visa survey](https://www.theblock.co/news/regulation/2026-09-23-stablecoin-adoption-intent-rises-from-36-to-56-with-bank-level-protections-visa-says-416136). Bring the enclave callback as one sentence.
-- **Tyler:** refresh Liquid's peg-out status and the last-15% figure at record time; confirm the House FSC reserve vote and the Sztorc quote from primary sources before citing; bring the hashrate disagreement with both sources named.
-- **Fact guardrails:** no "new gene-editing tool"; no stock percentages; no price or ETF numbers anywhere in C; no PayPal–Muse as confirmed; no Liquid attacker attribution; no employer names.
+- **Chris:** refresh Bitget at record time: incident report, vector, fund denomination, withdrawals status, any Tether/Circle freeze. Then [Amazon block](https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/), the Muse zero-day coverage, [Visa survey](https://www.theblock.co/news/regulation/2026-09-23-stablecoin-adoption-intent-rises-from-36-to-56-with-bank-level-protections-visa-says-416136). Bring the enclave callback as one sentence.
+- **Tyler:** skim the [Shielded Bitcoin whitepaper](https://www.allocinit.xyz/uploads/shielded-bitcoin.pdf) sections on the peg and Appendix D; check the Delving thread for replies. Refresh Liquid's peg-out status and the last-15% figure at record time; confirm the House FSC reserve vote and the Sztorc quote from primary sources before citing; bring the hashrate disagreement with both sources named.
+- **Fact guardrails:** no "new gene-editing tool"; no stock percentages; no price or ETF numbers anywhere in C; no PayPal–Muse as confirmed; no Liquid or Bitget attacker attribution; Bitget's $351.6M and the ~$190M on-chain figure stay separate; Shielded Bitcoin is not a BIP; no employer names.
 - **Close:** actual perp result, one prediction each, and only promise next week's topic if a host takes it.
