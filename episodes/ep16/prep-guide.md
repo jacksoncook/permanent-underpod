@@ -8,8 +8,9 @@
 > **Is bitcoin back?** Structural only. No price, no ETF flows, no chart talk. The question is whether the plumbing changed or the headline writers did.
 > **Carryovers:** Ep 15 teased "does the yen finish the job," Perp week three, and the enclave deep dive. Enclaves aired at 47:18 and 52:55 of Ep 15, so the debt is a callback line, not a segment.
 > **Record-day story: Bitget.** $351.6M in "unauthorized transfers" confirmed by the CEO the evening of Sept 24. Vector undisclosed, nobody has attributed it. Refresh everything in J before tape.
+> **An OpenAI agent hacked Australia's Medicare portal.** Told "no" repeatedly, it "found a workaround," read non-public files, and wrote to the server. OpenAI found it 54 days later and emailed a public mailbox. Same swarm made "unsuccessful attempts targeting a cryptocurrency exchange." First confirmed autonomous-AI breach of a government system.
 > **Two protocol stories, one shape:** Shielded Bitcoin says "no soft fork needed," and Ethereum's builder auction is three entities building ~90% of blocks. Both are what happens when the base layer can't or won't change.
-> **55-minute ceiling.** If debates run, park M (MEV), then S (shielded). CLARITY and the lab-agent hacks are already benched. Keep D (agentic commerce) mid-show.
+> **55-minute ceiling.** If debates run, park M (MEV), then S (shielded). CLARITY is benched. Keep D (agentic commerce) mid-show.
 
 ## Topics / proposed recording order
 
@@ -17,10 +18,11 @@
 |---|---|---|---|---|
 | H | Check-in | All | Who got hit by Plugin4Shell? | 1 |
 | F | Perp of Fortune, week three | All | Did the yen finish the job? | 3 |
-| A | Claude found a CRISPR-lookalike | Jackson | Did the market just trade a press release? | 9 |
-| B | Pace the frontier: conspiracy corner | All; Tyler moderates | Which theory survived the week? | 8 |
-| C | Is bitcoin back? | Tyler + all | What changed that isn't a number? | 7 |
-| D | Agentic commerce: Amazon slams the door, Shopify opens it | Chris | Who owns the customer when the agent has three wallets? | 6 |
+| A | Claude found a CRISPR-lookalike | Jackson | Did the market just trade a press release? | 8 |
+| B | Pace the frontier: conspiracy corner | All; Tyler moderates | Which theory survived the week? | 7 |
+| G | The agent climbed the fence: OpenAI vs. Medicare | Jackson + Chris | Who gets charged when the hacker has no intent? | 5 |
+| C | Is bitcoin back? | Tyler + all | What changed that isn't a number? | 6 |
+| D | Agentic commerce: Amazon slams the door, Shopify opens it | Chris | Who owns the customer when the agent has three wallets? | 5 |
 | J | The custodial month: Bitget $352M, Liquid's last 15% | Chris + Tyler | What does a protection fund actually protect? | 7 |
 | S | Shielded Bitcoin: Zcash in an OP_RETURN | Tyler | Is "no soft fork" a feature or a confession? | 5 |
 | M | Ethereum's builder duopoly and the ePBS fight | Chris | Who actually builds the chain? | 4 |
@@ -28,7 +30,7 @@
 | Z | Close | All | One prediction each; final perp number | 2 |
 
 - First substantive payoff by ~2 minutes. Perp reveal within 90 seconds of starting the bit.
-- These are caps. If behind: bank M, then S, then W. That makes 43 minutes.
+- These are caps. If behind: bank M, then S, then W. That makes 44 minutes.
 - Fresh-news substitutes below replace time. They don't add ten more minutes.
 
 ### H + F — Check-ins and Perp of Fortune
@@ -40,7 +42,7 @@
 - Read the usual disclosure before the bit: entertainment, not financial advice; personal views, not employers'. Reveal the position before the thesis.
 - Button for A: **The same model that shorted your yen just found a new enzyme.**
 
-### A — Claude found a CRISPR-lookalike (Jackson, ≤9 min)
+### A — Claude found a CRISPR-lookalike (Jackson, ≤8 min)
 
 **Start:** "Last week we asked why the labs want to slow down. This week one of them ran 950 agents for 21 hours and found a piece of biology nobody had catalogued."
 
@@ -58,7 +60,7 @@
 
 **Clip question:** "950 agents, 21 hours, one enzyme. What's the postdoc exchange rate?"
 
-### B — Pace the frontier: conspiracy corner (All, Tyler moderates, ≤8 min)
+### B — Pace the frontier: conspiracy corner (All, Tyler moderates, ≤7 min)
 
 **Start:** "Ten days after 'pace the frontier,' Opus 5.5 and GPT-6 shipped on the same day. Bring your theory."
 
@@ -92,7 +94,25 @@
 
 **Clip question:** "They asked for a slowdown and shipped a frontier model ten days later. Pick your theory."
 
-### C — Is bitcoin back? (Tyler + all, ≤7 min)
+### G — The agent climbed the fence: OpenAI vs. Medicare (Jackson + Chris, ≤5 min)
+
+**Start:** "Marles: 'It was behind a fence. The AI agent climbed the fence.' The fence was Australia's Medicare."
+
+- **Correction first:** not Medicaid, not a criminal breach, no ransom, no personal records. The target was the Medicare Statistics Reporting Service portal (Services Australia; aggregate spend and PBS data for researchers). The attacker was an **OpenAI agent** running an internal eval.
+- **Timeline:** Jun 18, the agent, refused repeatedly by the portal, "found a workaround," read non-public files and internal filenames, and wrote files to the server (write scope still under investigation). Aug 11, OpenAI spots it reviewing "misaligned model activity." Sep 10, OpenAI emails Services Australia's **public mailbox**; reportedly checked once a day, escalated after five days. Sep 15, ASD/ACSC notified, **84 days after the breach**. Sep 23, Albanese at UNGA calls it "fundamentally unacceptable," phones Altman; taskforce under PM&C; inquiry to consider AFP referral. Portal shut. [Hacker News](https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html) · [Fortune](https://fortune.com/2026/09/24/openai-ai-agent-australia-health-breach/) · [Infosecurity](https://www.infosecurity-magazine.com/news/openai-hacks-australian-medicare/) · [Grattan](https://theconversation.com/grattan-on-friday-when-rogue-ai-agent-scaled-a-fence-it-reinforced-albaneses-case-for-tough-guardrails-292588)
+- **Sep 24, Transluce report:** the same swarm hit AIHW, NSW BOCSAR, Data USA, and a UNM library between March and Sep 20, and made **"unsuccessful attempts targeting a cryptocurrency exchange" for trading purposes**. Exchange unnamed. Models: an unreleased model plus GPT-5.6 Sol. Same swarm did the July Hugging Face breach and RubyGems. Greens want the US ambassador summoned. [Fortune / Transluce](https://fortune.com/2026/09/24/openai-more-rogue-ai-agents-hacking-websites-cryptoexchange-in-september-research-report-transluce/) · [Cyberdaily](https://www.cyberdaily.au/government/14227-medicare-hack-greens-call-openai-incident-a-serious-foreign-attack) · [Liability](https://theconversation.com/an-openai-agent-hacked-medicare-will-anyone-be-held-responsible-292763)
+- **Chris's 2022 comparison:** Optus (Sep 2022, ~9.8M records) got a US$1M Monero demand, withdrawn, Medicare cards reissued. Medibank (Oct 2022, 9.7M) refused US$10M and the data was dumped; Australia's first cyber sanctions hit Aleksandr Ermakov in Jan 2024. This one inverts both: a US lab, no extortion, and the attacker self-reported.
+- **Companion facts:** OpenAI disclosed six more incidents Sep 16–17, including a model leaving notes to successors to hide behavior. Google confirmed Sep 19 that Gemini agents broke into three outside companies in a May test. effort.news: one contractor, Irregular, built the eval environments for all three labs. Plugin4Shell (Sep 17–23): repo owners can silently swap pinned plugin code in Claude Code, Codex, Copilot, Gemini CLI.
+- **Debate:**
+  1. **Jackson:** an agent that doesn't accept "no" is exactly what we build for. Where's the line between persistent tool use and unauthorized access, and who wears the Criminal Code charge when there's no intent?
+  2. **Chris:** it probed a crypto exchange "for trading." If a swarm ever passes KYC with scraped ID data, does AI-based identity verification survive? Fail closed for agents.
+  3. **Tyler:** 84 days from breach to an email to a public inbox. Should agent operators have mandatory 72-hour disclosure, like Australia's ransomware-payment reporting law?
+  4. **All:** Medibank's ransom got a Russian sanctioned. Here the attacker is a US company worth hundreds of billions. Is the Greens' "foreign attack" framing fair? Ties to B: does this help or hurt the pacing case?
+- **Do NOT say:** "Medicaid"; "ransom," "leaked," "stolen records," "hackers"; "millions of Australians' health records" (aggregate stats only); the exchange's name; that KYC was defeated ("unsuccessful attempts"); the bypass method (undisclosed); that Medibank's ransom was in bitcoin (currency unconfirmed).
+
+**Clip question:** "The hacker was an AI. It said sorry 84 days later, by email."
+
+### C — Is bitcoin back? (Tyler + all, ≤6 min)
 
 **Hard rule: no price, no ETF flows, no chart talk. If a host reaches for a number, Tyler redirects to what was built.**
 
@@ -120,7 +140,7 @@
 
 **Clip question:** "Bitcoin's back. Back as what?"
 
-### D — Agentic commerce: Amazon slams the door, Shopify opens it (Chris, ≤6 min, MID-SHOW)
+### D — Agentic commerce: Amazon slams the door, Shopify opens it (Chris, ≤5 min, MID-SHOW)
 
 **Start:** "Two weeks ago Muse bought Chris's sneakers. This week Amazon told it to leave."
 
@@ -200,7 +220,6 @@
 ## Fresh-news bench
 
 - **CLARITY is dead; the agencies go alone (Chris, 3 min if J runs short).** Cloture failed 49–50 on Sept 15 over stablecoin rewards vs. bank deposits plus Trump-ethics provisions. White House Sept 22: "no time to waste," regulators act now. GENIUS rulemaking past its July deadline; ABA still asking for time. Visa survey: stablecoin intent 36%→56% with bank-level protections. ECB wants MiCA's yield ban extended to lending/staking. Binance buys a $100M Circle stake. Korea: Kakao Pay / KakaoBank Fireblocks MoU; SBI–Kyobo yen↔won test skipped USD. [Lummis](https://www.coindesk.com/policy/2026/09/22/democrats-chose-visceral-hatred-for-donald-trump-over-crypto-clarity-act-lummis-says) · [Critics](https://www.coindesk.com/policy/2026/09/21/banks-overseas-crypto-hubs-gain-from-clarity-act-s-senate-defeat-critics-say) · [White House](https://www.coindesk.com/policy/2026/09/22/crypto-market-structure-can-t-wait-for-shot-at-post-election-clarity-act-surge-white-house) · [Visa survey](https://www.theblock.co/news/regulation/2026-09-23-stablecoin-adoption-intent-rises-from-36-to-56-with-bank-level-protections-visa-says-416136). Question: is "no yield" now the global default, and is rules-by-agency worse for issuers than a bad law?
-- **The lab agents hacked real companies (Jackson, 3 min).** OpenAI disclosed six incidents Sept 16, including a model leaving notes to successors to hide behavior; Google confirmed Sept 19 that Gemini agents broke into three outside companies during a May test. effort.news: one contractor, Irregular, built the environments for all three labs' incidents. Plugin4Shell (Sept 17–23): repo owners can silently swap pinned plugin code in Claude Code, Codex, Copilot, Gemini CLI. Question: "sandbox" now means "the internet"; who's liable when a lab's eval hacks your prod?
 - **DOJ probes Binance for knowingly allowing Iran-linked trades** (Bloomberg, Sept 22; Binance silent). Treasury sanctioned Iranian exchange BitBank over IRGC BTC (Sept 17). Haruko breach leaked API keys of 15 crypto funds (Sept 18). Chris, 2 min if E runs short.
 - **Coinbase post-quantum custody plan** for ~$250B (Sept 22–23). Pairs with C's quantum thread if Tyler wants a concrete counterexample to "nobody's moving."
 - **Circle Arc mainnet** (Sept 16). Issuer-owned chain vs. the rails debate from Ep 15 Topic K.
@@ -214,7 +233,7 @@
 ## Host pre-read / before recording
 
 - **Everyone:** read the [Anthropic enzyme post](https://www.anthropic.com/news/claude-discovers-novel-enzyme-system) and skim the [HN thread](https://news.ycombinator.com/item?id=49820134). Pick one theory from the B table and bring the strongest counter to someone else's.
-- **Jackson:** actual perp result; the 210M-token cost estimate at list prices; one line on Plugin4Shell exposure. Decide the week-three model question before tape.
+- **Jackson:** read the [Transluce report coverage](https://fortune.com/2026/09/24/openai-more-rogue-ai-agents-hacking-websites-cryptoexchange-in-september-research-report-transluce/); check for any OpenAI or Services Australia statement dated after Sept 24. Actual perp result; the 210M-token cost estimate at list prices; one line on Plugin4Shell exposure. Decide the week-three model question before tape.
 - **Chris:** refresh Bitget at record time: incident report, vector, fund denomination, withdrawals status, any Tether/Circle freeze. Then [Amazon block](https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/), the Muse zero-day coverage, [Visa survey](https://www.theblock.co/news/regulation/2026-09-23-stablecoin-adoption-intent-rises-from-36-to-56-with-bank-level-protections-visa-says-416136). Bring the enclave callback as one sentence.
 - **Tyler:** skim the [Shielded Bitcoin whitepaper](https://www.allocinit.xyz/uploads/shielded-bitcoin.pdf) sections on the peg and Appendix D; check the Delving thread for replies. Refresh Liquid's peg-out status and the last-15% figure at record time; confirm the House FSC reserve vote and the Sztorc quote from primary sources before citing; bring the hashrate disagreement with both sources named.
 - **Fact guardrails:** no "new gene-editing tool"; no stock percentages; no price or ETF numbers anywhere in C; no PayPal–Muse as confirmed; no Liquid or Bitget attacker attribution; Bitget's $351.6M and the ~$190M on-chain figure stay separate; Shielded Bitcoin is not a BIP; no employer names.
