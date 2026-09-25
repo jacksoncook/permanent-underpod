@@ -1,0 +1,656 @@
+{
+ "blocks": [
+  {
+   "id": "COLD_A",
+   "m0": 1989.81,
+   "m1": 2002.62
+  },
+  {
+   "id": "COLD_B",
+   "m0": 257.47,
+   "m1": 264.54,
+   "cams": [
+    "chris"
+   ],
+   "mics": [
+    "chris"
+   ]
+  },
+  {
+   "id": "COLD_D",
+   "m0": 2941.99,
+   "m1": 2947.97,
+   "cams": [
+    "jackson"
+   ],
+   "mics": [
+    "jackson"
+   ]
+  },
+  {
+   "id": "COLD_E",
+   "m0": 2958.25,
+   "m1": 2972.11,
+   "cams": [
+    "chris"
+   ],
+   "mics": [
+    "chris"
+   ]
+  },
+  {
+   "id": "CARD_TITLE",
+   "card": "card_title.mov"
+  },
+  {
+   "id": "INTRO",
+   "m0": 1.08,
+   "m1": 45.55
+  },
+  {
+   "id": "PERP_CUT",
+   "insert": "/Users/jcook/Personal/permanent-underpod/media/ep16/raw/perp_of_fortune_cut.mov",
+   "attr": "Jackson"
+  },
+  {
+   "id": "MARQUEE",
+   "m0": 228.84,
+   "m1": 1089.59
+  },
+  {
+   "id": "AGENTIC",
+   "m0": 1130.09,
+   "m1": 2162.48,
+   "mute": [
+    [
+     "chris",
+     1129.9,
+     1134.3
+    ],
+    [
+     "tyler",
+     1129.9,
+     1131.0
+    ]
+   ]
+  },
+  {
+   "id": "SHIELD",
+   "m0": 2273.15,
+   "m1": 2929.82
+  },
+  {
+   "id": "CONSP",
+   "m0": 2929.82,
+   "m1": 3463.65
+  },
+  {
+   "id": "CARD_END",
+   "card": "card_end.mov"
+  }
+ ],
+ "protect": [
+  [
+   1.08,
+   17.0
+  ],
+  [
+   1989.81,
+   2002.62
+  ],
+  [
+   257.47,
+   264.54
+  ],
+  [
+   2941.99,
+   2947.97
+  ],
+  [
+   2958.25,
+   2972.11
+  ],
+  [
+   3437.0,
+   3463.65
+  ]
+ ],
+ "force_shots": [
+  {
+   "m0": 2.16,
+   "m1": 16.5,
+   "type": "trio"
+  }
+ ],
+ "face_cx": {
+  "jackson": 600,
+  "chris": 640,
+  "tyler": 680
+ },
+ "panel_order": [
+  "jackson",
+  "chris",
+  "tyler"
+ ],
+ "params": {
+  "idle_gain": 0.12,
+  "group_thresh": 0.25,
+  "group_hold": 1.0,
+  "react_thresh": 0.6,
+  "min_shot": 3.0,
+  "gain_target": 0.028,
+  "dead_air_min": 1.4,
+  "dead_air_keep": 0.5,
+  "dead_air_net": 0.8
+ },
+ "pips": [],
+ "overlays": [
+  {
+   "name": "st_coldopen",
+   "block": "COLD_A",
+   "rel": 0.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_intro",
+   "block": "INTRO",
+   "m": 3.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_perpcut",
+   "block": "PERP_CUT",
+   "rel": 0.6,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_marquee",
+   "block": "MARQUEE",
+   "m": 230.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_84days",
+   "block": "MARQUEE",
+   "m": 243.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_kitchen",
+   "block": "MARQUEE",
+   "m": 258.5,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_rivalrous",
+   "block": "MARQUEE",
+   "m": 277.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_torrent",
+   "block": "MARQUEE",
+   "m": 310.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_haiku",
+   "block": "MARQUEE",
+   "m": 341.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_recurring",
+   "block": "MARQUEE",
+   "m": 427.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_doran",
+   "block": "MARQUEE",
+   "m": 485.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_bitget",
+   "block": "MARQUEE",
+   "m": 542.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_bitget",
+   "block": "MARQUEE",
+   "m": 556.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_fund",
+   "block": "MARQUEE",
+   "m": 611.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_lazarus",
+   "block": "MARQUEE",
+   "m": 642.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_bridge",
+   "block": "MARQUEE",
+   "m": 667.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_rollback",
+   "block": "MARQUEE",
+   "m": 684.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_arb",
+   "block": "MARQUEE",
+   "m": 848.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_ious",
+   "block": "MARQUEE",
+   "m": 891.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_l2test",
+   "block": "MARQUEE",
+   "m": 957.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_agentic",
+   "block": "AGENTIC",
+   "m": 1132.3,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_instinct",
+   "block": "AGENTIC",
+   "m": 1146.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_spooked",
+   "block": "AGENTIC",
+   "m": 1190.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_tee",
+   "block": "AGENTIC",
+   "m": 1262.0,
+   "dur": 9,
+   "kind": "st"
+  },
+  {
+   "name": "st_gmail",
+   "block": "AGENTIC",
+   "m": 1400.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_normies",
+   "block": "AGENTIC",
+   "m": 1453.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_birth",
+   "block": "AGENTIC",
+   "m": 1472.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_850",
+   "block": "AGENTIC",
+   "m": 1530.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_zombies",
+   "block": "AGENTIC",
+   "m": 1592.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_privacy",
+   "block": "AGENTIC",
+   "m": 1674.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_eth",
+   "block": "AGENTIC",
+   "m": 1687.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_vitalik",
+   "block": "AGENTIC",
+   "m": 1822.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_legible",
+   "block": "AGENTIC",
+   "m": 1847.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_fraud",
+   "block": "AGENTIC",
+   "m": 1944.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_tor",
+   "block": "AGENTIC",
+   "m": 1992.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_mullvad",
+   "block": "AGENTIC",
+   "m": 2005.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_stylo",
+   "block": "AGENTIC",
+   "m": 2036.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "lt_shield",
+   "block": "SHIELD",
+   "m": 2274.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_shielded",
+   "block": "SHIELD",
+   "m": 2405.0,
+   "dur": 9,
+   "kind": "st"
+  },
+  {
+   "name": "st_ark",
+   "block": "SHIELD",
+   "m": 2497.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_surveil",
+   "block": "SHIELD",
+   "m": 2620.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_surveil",
+   "block": "SHIELD",
+   "m": 2628.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_honeypot",
+   "block": "SHIELD",
+   "m": 2654.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_slip",
+   "block": "SHIELD",
+   "m": 2726.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_reminder",
+   "block": "SHIELD",
+   "m": 2880.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_delist",
+   "block": "SHIELD",
+   "m": 2891.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "lt_consp",
+   "block": "CONSP",
+   "m": 2931.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_article",
+   "block": "CONSP",
+   "m": 3024.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_cult",
+   "block": "CONSP",
+   "m": 3095.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_believers",
+   "block": "CONSP",
+   "m": 3238.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_ponzi",
+   "block": "CONSP",
+   "m": 3359.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_festinger",
+   "block": "CONSP",
+   "m": 3411.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_wrap",
+   "block": "CONSP",
+   "m": 3438.5,
+   "dur": 6,
+   "kind": "lt"
+  }
+ ],
+ "sheet": [
+  {
+   "block": "COLD_A",
+   "label": "Cold open"
+  },
+  {
+   "block": "INTRO",
+   "label": "Live from Los Angeles (allegedly)"
+  },
+  {
+   "block": "PERP_CUT",
+   "label": "Perp of Fortune: cut for your protection"
+  },
+  {
+   "block": "MARQUEE",
+   "label": "The marquee: an OpenAI agent climbed the fence at Medicare"
+  },
+  {
+   "block": "MARQUEE",
+   "m": 479.0,
+   "label": "Our Australian markets expert, Chris Doran"
+  },
+  {
+   "block": "MARQUEE",
+   "label": "Bitget: $352M gone, a protection fund bigger than the hole",
+   "m": 541.3
+  },
+  {
+   "block": "MARQUEE",
+   "m": 847.0,
+   "label": "Is Arbitrum still an L2 after a rollback?"
+  },
+  {
+   "block": "AGENTIC",
+   "label": "Agentic commerce: Jackson saw Instinct in the wild"
+  },
+  {
+   "block": "AGENTIC",
+   "m": 1258.0,
+   "label": "Model in a TEE, data in a TEE"
+  },
+  {
+   "block": "AGENTIC",
+   "m": 1673.0,
+   "label": "ETH Zurich de-anonymized Reddit: privacy after LLMs"
+  },
+  {
+   "block": "AGENTIC",
+   "m": 1942.0,
+   "label": "Jackson: after fraud, anonymity is fruitless"
+  },
+  {
+   "block": "SHIELD",
+   "label": "Shielded Bitcoin: Zcash in an OP_RETURN, no soft fork"
+  },
+  {
+   "block": "SHIELD",
+   "m": 2606.0,
+   "label": "Chain surveillance firms run honeypot nodes"
+  },
+  {
+   "block": "CONSP",
+   "label": "Conspiracy corner: the Berkeley group home"
+  },
+  {
+   "block": "CONSP",
+   "m": 3219.0,
+   "label": "Chris: cults need true believers"
+  },
+  {
+   "block": "CONSP",
+   "m": 3323.0,
+   "label": "Jackson's Ponzi-scheme tennis rival"
+  },
+  {
+   "block": "CONSP",
+   "m": 3437.0,
+   "label": "Wrap"
+  }
+ ],
+ "gain_spans": {
+  "jackson": [
+   [
+    221.0,
+    236.0
+   ],
+   [
+    1942.0,
+    1982.0
+   ],
+   [
+    2903.0,
+    2929.0
+   ],
+   [
+    3352.0,
+    3400.0
+   ]
+  ],
+  "chris": [
+   [
+    632.0,
+    695.0
+   ],
+   [
+    1673.0,
+    1698.0
+   ],
+   [
+    1809.0,
+    1856.0
+   ],
+   [
+    3219.0,
+    3276.0
+   ]
+  ],
+  "tyler": [
+   [
+    955.0,
+    1003.0
+   ],
+   [
+    1342.0,
+    1440.0
+   ],
+   [
+    2375.0,
+    2521.0
+   ],
+   [
+    2606.0,
+    2718.0
+   ]
+  ]
+ }
+}

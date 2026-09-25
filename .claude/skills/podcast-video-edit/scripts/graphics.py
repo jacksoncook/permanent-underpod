@@ -123,8 +123,15 @@ def boxed(name, kicker, title, fk_s, ft_s, h, prefix, accent_bar):
 
 for lt in BRAND.get("lower_thirds", []):
     boxed(lt["name"], lt["kicker"], lt["title"], 24, 38, 118, "lt", True)
+STAT_MAX_W = 1000
+
 for st in BRAND.get("stats", []):
     boxed(st["name"], st["kicker"], st["main"], 22, 34, 104, "st", False)
+    w = Image.open(os.path.join(WORK, f"st_{st['name']}.png")).size[0]
+    if w > STAT_MAX_W:
+        sys.exit(f"stat '{st['name']}' is {w}px wide; the callout sits at x=W-w-50 and "
+                 f"anything past {STAT_MAX_W}px lands on the logo bug (Ep 16 shipped a 1369px "
+                 f"one off the left edge) — shorten the copy")
 
 print("graphics done:", len(BRAND.get("lower_thirds", [])), "lower thirds,",
       len(BRAND.get("stats", [])), "stats, logo + 2 cards")

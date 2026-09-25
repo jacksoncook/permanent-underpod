@@ -33,6 +33,9 @@ for nm in OFF:
     VAD[nm] = np.convolve((e > thr).astype(np.float32), np.ones(41), 'same') > 0
 
 
+COVER_END = min(OFF[nm] + len(VAD[nm]) / FPS_V for nm in OFF)
+
+
 def union_act(t):
     for nm in OFF:
         i = int((t - OFF[nm]) * FPS_V)
@@ -101,6 +104,9 @@ if len(sys.argv) > 2 and sys.argv[2] == "--plan":
     bad = 0
     for label, m in bounds:
         inside, near = check(m)
+        if m >= COVER_END - 0.1:
+            print(f"{m:9.2f}  OK-eof      {label}  (recording ends {COVER_END:.2f}; nothing is cut)")
+            continue
         if inside:
             print(f"{m:9.2f}  OK-in-gap   {label}")
         else:

@@ -145,9 +145,17 @@ def snap(m, radius=2.0):
                 runs.append((s, e))
             s = None
     if not runs:
-        return m
+        return clamp_to_coverage(m)
     best = min(runs, key=lambda r: abs(grid[(r[0] + r[1]) // 2] - m))
-    return float(grid[(best[0] + best[1]) // 2])
+    return clamp_to_coverage(float(grid[(best[0] + best[1]) // 2]))
+
+def clamp_to_coverage(m, slack=0.05):
+    """A snapped boundary may never leave the span every track covers: past the last
+    sample of the shortest track the union VAD is trivially silent, so an end-of-recording
+    boundary would otherwise snap into a hole no camera can fill (Ep 16 tail)."""
+    lo = max(OFF[nm] for nm in FILES) + slack
+    hi = min(OFF[nm] + DUR[nm] for nm in FILES) - slack
+    return min(max(m, lo), hi)
 
 def react_frac(p, m, win=2.0):
     """fraction of a window in which person p is VISIBLY animated (remote_motion.py)"""

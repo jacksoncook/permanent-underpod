@@ -1,0 +1,323 @@
+{
+ "show": "PERMANENT UNDERPOD",
+ "show_kicker": "PERMANENT",
+ "show_main": "UNDERPOD",
+ "accent": [
+  255,
+  210,
+  74
+ ],
+ "source": "/Users/jcook/Personal/permanent-underpod/media/ep16/work/src/jackson_720.mp4",
+ "title_card": {
+  "bg_frame": 700,
+  "line": "EPISODE 16   ·   The Agent Climbed the Fence   ·   Bitcoin  ·  Stablecoins  ·  AI",
+  "dur": 4.5
+ },
+ "end_card": {
+  "bg_frame": 3100,
+  "kicker": "NEXT WEEK ON",
+  "lines": [
+   "Is bitcoin back? (no charts allowed) · Ethereum's builder duopoly",
+   "Does the Perp of Fortune return from exile?",
+   "Not financial advice. Our opinions are ours, not our employers'."
+  ],
+  "cta": "LIKE  +  SUBSCRIBE",
+  "dur": 7
+ },
+ "lower_thirds": [
+  {
+   "name": "intro",
+   "kicker": "EPISODE 16",
+   "title": "LIVE FROM LOS ANGELES (ALLEGEDLY)"
+  },
+  {
+   "name": "perpcut",
+   "kicker": "PERP OF FORTUNE",
+   "title": "CUT FOR YOUR PROTECTION"
+  },
+  {
+   "name": "marquee",
+   "kicker": "THE MARQUEE",
+   "title": "AN OPENAI AGENT CLIMBED THE FENCE AT MEDICARE"
+  },
+  {
+   "name": "bitget",
+   "kicker": "THE CUSTODIAL MONTH",
+   "title": "BITGET: $352M GONE, PROTECTION FUND BIGGER"
+  },
+  {
+   "name": "arb",
+   "kicker": "THE L2 QUESTION",
+   "title": "IS ARBITRUM STILL AN L2 AFTER A ROLLBACK?"
+  },
+  {
+   "name": "agentic",
+   "kicker": "AGENTIC COMMERCE",
+   "title": "JACKSON SAW INSTINCT IN THE WILD"
+  },
+  {
+   "name": "privacy",
+   "kicker": "PRIVACY AFTER LLMS",
+   "title": "ETH ZURICH DE-ANONYMIZED REDDIT"
+  },
+  {
+   "name": "shield",
+   "kicker": "SHIELDED BITCOIN",
+   "title": "ZCASH IN AN OP_RETURN, NO SOFT FORK"
+  },
+  {
+   "name": "surveil",
+   "kicker": "CHAIN SURVEILLANCE",
+   "title": "HONEYPOT NODES AND FAKE BLOCK EXPLORERS"
+  },
+  {
+   "name": "consp",
+   "kicker": "CONSPIRACY CORNER",
+   "title": "WHO IS REALLY PACING THE FRONTIER?"
+  },
+  {
+   "name": "wrap",
+   "kicker": "EPISODE 16 IN THE BOOKS",
+   "title": "A PODCAST ABOUT SUPERINTELLIGENCE"
+  }
+ ],
+ "stats": [
+  {
+   "name": "coldopen",
+   "kicker": "EPISODE 16",
+   "main": "In this pod…"
+  },
+  {
+   "name": "84days",
+   "kicker": "THE TIMELINE",
+   "main": "breached in June · apology email 84 days later"
+  },
+  {
+   "name": "kitchen",
+   "kicker": "CHRIS'S THOUGHT EXPERIMENT",
+   "main": "\"I stole your kitchen; you noticed 90 days later\""
+  },
+  {
+   "name": "rivalrous",
+   "kicker": "TYLER",
+   "main": "\"bad metaphor — my bread is rivalrous\""
+  },
+  {
+   "name": "torrent",
+   "kicker": "CHRIS",
+   "main": "didn't even grab the Turkish dark-web torrent"
+  },
+  {
+   "name": "haiku",
+   "kicker": "CHRIS",
+   "main": "\"Haiku probably could have done this\""
+  },
+  {
+   "name": "recurring",
+   "kicker": "JACKSON",
+   "main": "new recurring segment: the model escaped again"
+  },
+  {
+   "name": "doran",
+   "kicker": "OPEN KIMONO",
+   "main": "our Australian markets expert, Chris Doran"
+  },
+  {
+   "name": "bitget",
+   "kicker": "BITGET",
+   "main": "$352M in \"unauthorized transfers\" · who?"
+  },
+  {
+   "name": "fund",
+   "kicker": "PROTECTION FUND",
+   "main": "bigger than the hole · customers made whole"
+  },
+  {
+   "name": "lazarus",
+   "kicker": "ATTRIBUTION",
+   "main": "probably Lazarus Group (DPRK)"
+  },
+  {
+   "name": "bridge",
+   "kicker": "THE TELL",
+   "main": "bridged off Arbitrum BEFORE dumping the USDC"
+  },
+  {
+   "name": "rollback",
+   "kicker": "WHY",
+   "main": "Arbitrum rolled back the last DPRK hack"
+  },
+  {
+   "name": "l2test",
+   "kicker": "TYLER'S TEST",
+   "main": "an L2 needs unilateral exit to L1"
+  },
+  {
+   "name": "ious",
+   "kicker": "CHRIS",
+   "main": "\"three of us posting IOUs on chain = an L2\""
+  },
+  {
+   "name": "instinct",
+   "kicker": "JACKSON",
+   "main": "one demo of Instinct in the wild flipped him"
+  },
+  {
+   "name": "spooked",
+   "kicker": "CHRIS",
+   "main": "\"their intern looking at my Google Drive\""
+  },
+  {
+   "name": "tee",
+   "kicker": "THE PRIVATE VERSION",
+   "main": "model in a TEE, data in a TEE"
+  },
+  {
+   "name": "gmail",
+   "kicker": "TYLER'S SETUP",
+   "main": "a separate Gmail + calendar for the agent"
+  },
+  {
+   "name": "normies",
+   "kicker": "TYLER",
+   "main": "\"maybe the normies had it right\""
+  },
+  {
+   "name": "birth",
+   "kicker": "CHRIS'S LINE",
+   "main": "emails & calendar: yes · passport: no"
+  },
+  {
+   "name": "850",
+   "kicker": "INSTINCT",
+   "main": "switched a utility plan: $850/yr (allegedly)"
+  },
+  {
+   "name": "zombies",
+   "kicker": "TYLER",
+   "main": "subscription stocks down since agents cancel"
+  },
+  {
+   "name": "eth",
+   "kicker": "ETH ZURICH",
+   "main": "a model de-anonymized Redditors at ~60–70%"
+  },
+  {
+   "name": "vitalik",
+   "kicker": "VITALIK'S BOUNTY",
+   "main": "pseudonymous post found by a model · in Chinese"
+  },
+  {
+   "name": "legible",
+   "kicker": "THE POST",
+   "main": "\"ready for everything to become legible?\""
+  },
+  {
+   "name": "fraud",
+   "kicker": "JACKSON",
+   "main": "\"trying to be anonymous is fruitless\""
+  },
+  {
+   "name": "tor",
+   "kicker": "TYLER",
+   "main": "Tor · Tails · cash laptop · COVID mask"
+  },
+  {
+   "name": "mullvad",
+   "kicker": "CHRIS",
+   "main": "\"we all had a Mullvad Arch Linux phase\""
+  },
+  {
+   "name": "stylo",
+   "kicker": "STYLOMETRY",
+   "main": "\"like trigonometry, but with words\""
+  },
+  {
+   "name": "shielded",
+   "kicker": "SHIELDED BITCOIN",
+   "main": "private pool on L1 · no soft fork"
+  },
+  {
+   "name": "ark",
+   "kicker": "TYLER",
+   "main": "Ark already does this off-chain, with exit"
+  },
+  {
+   "name": "surveil",
+   "kicker": "TYLER",
+   "main": "3–5 multi-billion-dollar surveillance firms"
+  },
+  {
+   "name": "honeypot",
+   "kicker": "THE TRICKS",
+   "main": "honeypot nodes · fake explorers · Electrum"
+  },
+  {
+   "name": "slip",
+   "kicker": "OPSEC",
+   "main": "\"you slip up once and it undoes years\""
+  },
+  {
+   "name": "reminder",
+   "kicker": "JACKSON",
+   "main": "\"sending Bitcoin is not anonymous\""
+  },
+  {
+   "name": "delist",
+   "kicker": "PRECEDENT",
+   "main": "privacy coins delisted, 2021–22"
+  },
+  {
+   "name": "article",
+   "kicker": "CONSPIRACY CORNER",
+   "main": "the viral hit piece on the Berkeley rationalists"
+  },
+  {
+   "name": "cult",
+   "kicker": "TYLER",
+   "main": "\"if you look at it any other way, it's a cult\""
+  },
+  {
+   "name": "believers",
+   "kicker": "CHRIS",
+   "main": "cults need believers — and cynics who ride them"
+  },
+  {
+   "name": "ponzi",
+   "kicker": "JACKSON'S CULT STORY",
+   "main": "junior-tennis rival, home security, a dorm room"
+  },
+  {
+   "name": "festinger",
+   "kicker": "READING LIST",
+   "main": "When Prophecy Fails (Festinger, 1956)"
+  }
+ ],
+ "thumbnail": {
+  "text": "THE AI CLIMBED THE FENCE",
+  "out": "/Users/jcook/Personal/permanent-underpod/media/ep16/ep16-thumbnail.png",
+  "faces": [
+   {
+    "track": "jackson",
+    "t": 2191.0,
+    "cx": 640,
+    "top": 90,
+    "h": 630
+   },
+   {
+    "track": "tyler",
+    "t": 1482.0,
+    "cx": 250,
+    "top": 120,
+    "h": 590
+   },
+   {
+    "track": "chris",
+    "t": 1170.0,
+    "cx": 1040,
+    "top": 140,
+    "h": 570
+   }
+  ]
+ }
+}
