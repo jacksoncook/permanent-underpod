@@ -240,5 +240,5 @@
 
 **Jackson** (00:52:14): Well, we covered some conspiracy theories, there's still some other great ones out there, but maybe we'll talk about those next time.
 
-**Insert** (00:52:27): Thank you all for coming to our podcast about super intelligence, and I got you next week.
+**Jackson** (00:52:27): Thank you all for coming to our podcast about super intelligence, and I got you next week.
 

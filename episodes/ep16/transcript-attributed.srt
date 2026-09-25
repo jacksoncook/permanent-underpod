@@ -2428,4 +2428,4 @@ Jackson: but maybe we'll talk about those next time.
 
 608
 00:52:27,600 --> 00:52:39,280
-Insert: Thank you all for coming to our podcast about super intelligence, and I got you next week.
+Jackson: Thank you all for coming to our podcast about super intelligence, and I got you next week.
