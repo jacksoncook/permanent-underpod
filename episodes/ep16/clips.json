@@ -1,0 +1,277 @@
+{
+ "source": "/Users/jcook/Personal/permanent-underpod/media/ep16/work/edited_raw.mov",
+ "out_dir": "/Users/jcook/Personal/permanent-underpod/media/clips/ep16",
+ "logo": "/Users/jcook/Personal/permanent-underpod/media/ep16/work/logo.png",
+ "audio_chain": "highpass=f=80,afftdn=nr=14:nf=-50:tn=1,volume=6dB,adynamicequalizer=dfrequency=6800:dqfactor=2.5:tfrequency=6800:tqfactor=2.5:mode=cutabove:threshold=0.01:ratio=4:range=8:attack=2:release=40,acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,treble=f=9500:width_type=q:w=0.8:g=1.5,loudnorm=I=-16:TP=-1.5:LRA=5",
+ "ender": true,
+ "clips": [
+  {
+   "name": "short1-five-dollar-wrench",
+   "start": 64.7,
+   "end": 84.5,
+   "vertical": true,
+   "caption": {
+    "kicker": "TYLER, YOU'RE IN LOS ANGELES?",
+    "title": "\"BRING A $5 WRENCH\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     437,
+     "cut"
+    ],
+    [
+     3.713,
+     864,
+     "cut"
+    ],
+    [
+     11.983,
+     10,
+     "cut"
+    ],
+    [
+     14.833,
+     397,
+     "cut"
+    ]
+   ]
+  },
+  {
+   "name": "short2-kitchen-heist",
+   "start": 118.35,
+   "end": 134.95,
+   "vertical": true,
+   "caption": {
+    "kicker": "AN AI HACKED MEDICARE",
+    "title": "\"IF I STOLE YOUR KITCHEN...\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     397,
+     "cut"
+    ],
+    [
+     7.3667,
+     757,
+     "cut"
+    ]
+   ]
+  },
+  {
+   "name": "short3-haiku-could-have-done-this",
+   "start": 207.3,
+   "end": 219.99,
+   "vertical": true,
+   "caption": {
+    "kicker": "AN AI HACKED MEDICARE",
+    "title": "\"HAIKU COULD HAVE DONE THIS\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     437,
+     "cut"
+    ]
+   ]
+  },
+  {
+   "name": "short4-their-intern",
+   "start": 1018.7,
+   "end": 1032.7,
+   "vertical": true,
+   "caption": {
+    "kicker": "AI AGENTS IN YOUR INBOX",
+    "title": "\"SPOOKED ABOUT THEIR INTERN\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     397,
+     "cut"
+    ],
+    [
+     7.267,
+     437,
+     "cut"
+    ]
+   ]
+  },
+  {
+   "name": "short5-hack-it-out",
+   "start": 1292.23,
+   "end": 1315.56,
+   "vertical": true,
+   "caption": {
+    "kicker": "GIVE AN AGENT YOUR PASSPORT?",
+    "title": "\"IT CAN JUST HACK IT OUT\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     437,
+     "cut"
+    ],
+    [
+     10.337,
+     757,
+     "cut"
+    ],
+    [
+     14.337,
+     437,
+     "cut"
+    ],
+    [
+     18.337,
+     757,
+     "cut"
+    ]
+   ]
+  },
+  {
+   "name": "short6-covid-mask",
+   "start": 1806.35,
+   "end": 1832.7,
+   "vertical": true,
+   "caption": {
+    "kicker": "HOW TO ACTUALLY BE ANONYMOUS",
+    "title": "\"CASH ONLY, COVID MASK ON\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     397,
+     "cut"
+    ],
+    [
+     0.717,
+     117,
+     "cut"
+    ],
+    [
+     3.247,
+     757,
+     "cut"
+    ],
+    [
+     6.217,
+     10,
+     "cut"
+    ],
+    [
+     8.047,
+     864,
+     "cut"
+    ],
+    [
+     14.217,
+     757,
+     "cut"
+    ],
+    [
+     18.217,
+     117,
+     "cut"
+    ]
+   ]
+  },
+  {
+   "name": "short7-trigonometry-with-words",
+   "start": 1832.95,
+   "end": 1855.57,
+   "vertical": true,
+   "caption": {
+    "kicker": "HOW AI DE-ANONYMIZES YOU",
+    "title": "\"TRIGONOMETRY WITH WORDS\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     117,
+     "cut"
+    ],
+    [
+     0.617,
+     397,
+     "cut"
+    ],
+    [
+     8.817,
+     477,
+     "cut"
+    ]
+   ]
+  },
+  {
+   "name": "short8-ponzi-tennis-rival",
+   "start": 3049.6,
+   "end": 3080.3,
+   "vertical": true,
+   "caption": {
+    "kicker": "JACKSON'S TENNIS RIVAL",
+    "title": "\"DUDE, YOU'RE IN A PONZI\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     397,
+     "cut"
+    ],
+    [
+     11.833,
+     117,
+     "cut"
+    ],
+    [
+     19.833,
+     397,
+     "cut"
+    ],
+    [
+     27.833,
+     757,
+     "cut"
+    ]
+   ]
+  },
+  {
+   "name": "short9-brains-just-break",
+   "start": 1933.9,
+   "end": 1958.6,
+   "vertical": true,
+   "caption": {
+    "kicker": "TYLER'S PROTON MAIL PROBLEM",
+    "title": "\"THEIR BRAINS JUST BREAK\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     437,
+     "cut"
+    ],
+    [
+     8.333,
+     477,
+     "cut"
+    ],
+    [
+     14.833,
+     757,
+     "cut"
+    ],
+    [
+     16.913,
+     117,
+     "cut"
+    ],
+    [
+     19.383,
+     757,
+     "cut"
+    ]
+   ]
+  }
+ ]
+}

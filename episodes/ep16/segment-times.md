@@ -10,8 +10,9 @@ source.**
 
 ## Episode video
 
-- **URL:** _not yet published_
-- **Live title:** _fill at upload; log later retitles with the date._
+- **URL:** https://youtu.be/d6Ab0bLrlmY (Jackson's manual upload, live 2026-09-25 15:35Z)
+- **Live title:** "An OpenAI Agent Broke Into Medicare. Then It Apologized" (draft 1 tightened by Jackson at upload).
+- **Tags (15, API-patched 2026-09-27):** podcast, bitcoin, ai, openai, medicare, ai agents, bitget, arbitrum, usdc, agentic commerce, privacy, shielded bitcoin, zcash, secure enclave, effective altruism. (0 at publish; force-ssl token survived this time.)
 - **File:** `media/ep16/Permanent Underpod - Ep 16 (Final Cut).mp4`
 - **Thumbnail:** `media/ep16/ep16-thumbnail.png` — "THE AI CLIMBED THE FENCE" (Tyler smirk left,
   Jackson big laugh center, Chris laughing with hand up right; passed the 320×180 shrink test).
@@ -163,17 +164,36 @@ Subscribe for next week: is bitcoin back (no charts allowed), Ethereum's builder
 
 ## Captions
 
-_`transcript-attributed.srt` regenerated from the FINAL cut (never the raw recording) in
-`episodes/ep16/`. Upload after the episode is live (force-ssl token)._
+`transcript-attributed.srt` regenerated from the FINAL cut (never the raw recording) in
+`episodes/ep16/`. Uploaded 2026-09-27 as the `standard` track (alongside YouTube's auto `asr` track).
 
 ## Clips
 
-_Not cut yet. Bench for `clipify` (personality over concepts): Tyler's Tor/Tails/Best Buy opsec
-(30:08), Chris's kitchen thought experiment + Tyler's "rivalrous bread" (2:11), "Haiku probably
-could have done this" (3:00), the record-scratch gag (1:29), "their intern looking at my Google
-Drive" (15:49), "we all went through a Mullvad Arch Linux phase" (30:08), "like trigonometry,
-but with words" (31:00), Jackson's Ponzi tennis rival (50:23), "if you look at it any other way,
-it's a cult" (46:35)._
+Nine 9:16 shorts, cut 2026-09-27 (`episodes/ep16/clips.json`; files in `media/clips/ep16/`; copy in
+`media/clips/ep16/posting-copy.md`). All face-crop verticals off `edited_raw.mov` with the episode chain +
+branded ender. Gate: `verify_clips.py` 9/9 pre-render (--whisper) and `--rendered`, plus whisper on every
+rendered clip. One rendered-gate catch: the kitchen clip's layout-cut key from `remote_face_crops.py` (7.35)
+sat half a frame off the source cut and flashed the seam; landed on 7.3667 after three tries. Playlist Underpod
+Shorts. Uploaded 2026-09-27 (scheduled-private), daily 2 PM PT (21:00 UTC) 9/28–10/6; Ep 15's queue ended
+9/27 so no overlap slots. Funnel comments queued in `media/clips/ep16/pin-comments.json` (LaunchAgent
+repointed); related video, pinning, end screen manual and owed.
+
+| # | clip | final in–out | len | title | date |
+|---|------|--------------|-----|-------|------|
+| 1 | short5-hack-it-out (https://youtu.be/JJ_aBpVmkd8) | 21:32.2–21:55.6 | 23.3 s | You don't have to give the AI your passport. It'll hack it out. | 09-28 21:00Z |
+| 2 | short8-ponzi-tennis-rival (https://youtu.be/uL9eeB2bUHo) | 50:49.6–51:20.3 | 30.7 s | "Dude, you're in a Ponzi scheme" | 09-29 21:00Z |
+| 3 | short1-five-dollar-wrench (https://youtu.be/sHq4LP2_Iwg) | 1:04.7–1:24.5 | 19.8 s | Bring a $5 wrench. Tyler's in Los Angeles. | 09-30 21:00Z |
+| 4 | short6-covid-mask (https://youtu.be/3HkFC8wvk54) | 30:06.4–30:32.7 | 26.4 s | Cash only, COVID mask on: how to actually be anonymous | 10-01 21:00Z |
+| 5 | short2-kitchen-heist (https://youtu.be/Pz762WapfCs) | 1:58.4–2:15.0 | 16.6 s | If I stole your kitchen and you didn't notice for 90 days... | 10-02 21:00Z |
+| 6 | short7-trigonometry-with-words (https://youtu.be/nfBbfLt4zTE) | 30:33.0–30:55.6 | 22.6 s | Stylometry: like trigonometry, but with words | 10-03 21:00Z |
+| 7 | short4-their-intern (https://youtu.be/eU5ttiLagzQ) | 16:58.7–17:12.7 | 14.0 s | "Their intern looking at my Google Drive" | 10-04 21:00Z |
+| 8 | short9-brains-just-break (https://youtu.be/v_K7AOAY7ZU) | 32:13.9–32:38.6 | 24.7 s | Their brains just break if your email isn't gmail.com | 10-05 21:00Z |
+| 9 | short3-haiku-could-have-done-this (https://youtu.be/8LrvcsRjSqo) | 3:27.3–3:40.0 | 12.7 s | "Haiku probably could have done this" | 10-06 21:00Z |
+
+Bench (not cut): the record-scratch Perp of Fortune gag (1:29; house jargon, same call as Ep 14's "lamest
+perp"), the Chris Doran name bit (5:47; Chris asked to be bleeped), "if you look at it any other way, it's a
+cult" (46:35; 33 s and the article's sexual angle), "maybe the normies had it right" (21:00), "if an LLM can
+find Satoshi" (29:05).
 
 ## Edit decisions of note
 
