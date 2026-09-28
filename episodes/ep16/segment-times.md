@@ -243,5 +243,5 @@ find Satoshi" (29:05).
 - OpenAI, Bitget, Arbitrum, Circle, Instinct, Muse, ETH Zurich are named as subjects of the
   stories. No employer names in kept spans; no BTC price/ETF framing (next week's "is bitcoin
   back" is teed up as structural, no charts).
-- **Sync bench** not built this episode: StreamYard filename deltas as in Ep 14/15. Jackson:
-  confirm by watching a fast three-way exchange (e.g. 0:45–1:29 or 11:49–13:00).
+- **Sync bench** not built this episode: StreamYard filename deltas as in Ep 14/15. Jackson confirmed by
+  ear on the live episode 2026-09-28: sync is good.
