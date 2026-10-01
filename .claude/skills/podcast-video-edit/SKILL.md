@@ -615,6 +615,10 @@ What's different from the one-camera flow (all learned the hard way on Ep 5):
   count; `cut_render.py` used to sum those, so overlays, wipes and chapters landed late
   (4.7 s by the end of Ep 17's 291 clips) while A/V sync was fine. The concat restamps
   PTS by frame index, so frames/FPS is the only position that exists in the output.
+- **`cut_render.py` resumes by clip filename = `<src_start>-<src_end>-<shot>.mov`.** Edit the
+  plan and re-run: only clips whose source range changed are re-encoded (Ep 17's three
+  late cuts re-rendered 4 of 288 clips). Index-named clips would have been reused with
+  the WRONG content after any boundary moved, since the resume check only counts frames.
 - **End card lines auto-shrink to the frame (`graphics.py`), four lines max.** Ep 17's
   first line was 1370 px wide and clipped at both edges on the first full render.
 - **Progressive A/V drift (THE big one — bit Ep 1 TWICE).** There are two

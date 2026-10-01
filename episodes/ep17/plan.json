@@ -74,7 +74,7 @@
   {
    "id": "COLD_A",
    "start": 618.9,
-   "end": 627.8,
+   "end": 636.0,
    "cut_silences": false
   },
   {
@@ -102,6 +102,18 @@
   {
    "id": "MAIN1",
    "start": 2.0,
+   "end": 1780.1,
+   "cut_silences": true
+  },
+  {
+   "id": "MAIN1B",
+   "start": 1811.1,
+   "end": 2455.5,
+   "cut_silences": true
+  },
+  {
+   "id": "MAIN1C",
+   "start": 2538.0,
    "end": 2717.77,
    "cut_silences": true
   },
@@ -266,77 +278,70 @@
   },
   {
    "name": "st_coinbase",
-   "block": "MAIN1",
+   "block": "MAIN1B",
    "src_time": 1858.0,
    "dur": 10,
    "kind": "st"
   },
   {
    "name": "lt_poa",
-   "block": "MAIN1",
+   "block": "MAIN1B",
    "src_time": 1913.5,
    "dur": 6,
    "kind": "lt"
   },
   {
    "name": "st_wormhole",
-   "block": "MAIN1",
+   "block": "MAIN1B",
    "src_time": 1981.0,
    "dur": 10,
    "kind": "st"
   },
   {
    "name": "lt_exit",
-   "block": "MAIN1",
+   "block": "MAIN1B",
    "src_time": 2034.0,
    "dur": 6,
    "kind": "lt"
   },
   {
    "name": "st_opennoms",
-   "block": "MAIN1",
+   "block": "MAIN1B",
    "src_time": 2141.0,
    "dur": 11,
    "kind": "st"
   },
   {
    "name": "lt_privacy",
-   "block": "MAIN1",
+   "block": "MAIN1B",
    "src_time": 2207.0,
    "dur": 6,
    "kind": "lt"
   },
   {
    "name": "st_explorer",
-   "block": "MAIN1",
+   "block": "MAIN1B",
    "src_time": 2262.0,
    "dur": 10,
    "kind": "st"
   },
   {
    "name": "st_slash",
-   "block": "MAIN1",
+   "block": "MAIN1B",
    "src_time": 2405.0,
    "dur": 10,
    "kind": "st"
   },
   {
-   "name": "st_operators",
-   "block": "MAIN1",
-   "src_time": 2493.0,
-   "dur": 10,
-   "kind": "st"
-  },
-  {
    "name": "st_ark",
-   "block": "MAIN1",
+   "block": "MAIN1C",
    "src_time": 2541.0,
    "dur": 10,
    "kind": "st"
   },
   {
    "name": "st_nice",
-   "block": "MAIN1",
+   "block": "MAIN1C",
    "src_time": 2606.0,
    "dur": 10,
    "kind": "st"
@@ -468,7 +473,7 @@
    "src_time": 665.5
   },
   {
-   "label": "Headline inflation: Jev beat Pokémon (with Claude)",
+   "label": "Headline inflation: Jev beat Pok\u00e9mon (with Claude)",
    "block": "MAIN1",
    "src_time": 1063.0
   },
@@ -489,22 +494,22 @@
   },
   {
    "label": "Chris: proof of authority, a multisig between friends",
-   "block": "MAIN1",
+   "block": "MAIN1B",
    "src_time": 1913.5
   },
   {
    "label": "Unilateral exit: 80,000 sats to recover 20,000",
-   "block": "MAIN1",
+   "block": "MAIN1B",
    "src_time": 2034.0
   },
   {
    "label": "Privacy: Spark sees everything",
-   "block": "MAIN1",
+   "block": "MAIN1B",
    "src_time": 2207.0
   },
   {
    "label": "Ark vs Spark, and some nice things",
-   "block": "MAIN1",
+   "block": "MAIN1C",
    "src_time": 2541.0
   },
   {

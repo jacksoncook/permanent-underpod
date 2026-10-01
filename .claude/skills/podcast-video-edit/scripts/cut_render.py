@@ -116,9 +116,29 @@ for b in PLAN["blocks"]:
     for a, z in segs:
         for pa, pz, shot in split_by_shots(a, z):
             idx += 1
-            clips.append({"file": f"clips/c{idx:04d}.mov", "block": b["id"],
+            clips.append({"file": f"clips/{pa:.3f}-{pz:.3f}-{shot or 'full'}.mov", "block": b["id"],
                           "src_start": round(pa, 3), "src_end": round(pz, 3),
                           "shot": shot})
+
+
+def other_framing(shot):
+    """The alternate crop of the same person, so a splice inside one speaker's run
+    reads as a punch-in instead of a jump cut."""
+    if not shot or shot == "wide":
+        return None
+    if shot.endswith("_tight"):
+        return shot[:-6]
+    return shot + "_tight" if shot in GALLERY.get("tight", {}) else None
+
+
+for prev, nxt in zip(clips, clips[1:]):
+    if prev["src_end"] is None or nxt["src_start"] is None:
+        continue
+    if nxt["src_start"] - prev["src_end"] > 0.002 and nxt.get("shot") == prev.get("shot"):
+        alt = other_framing(nxt.get("shot"))
+        if alt:
+            nxt["shot"] = alt
+            nxt["file"] = f"clips/{nxt['src_start']:.3f}-{nxt['src_end']:.3f}-{alt}.mov"
 
 print(f"{idx} clips to render, {sum(e-s for s,e in removals)/60:.1f} min dead air removed")
 

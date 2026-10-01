@@ -1,6 +1,6 @@
 {
  "out": "/Users/jcook/Personal/permanent-underpod/media/ep17/Permanent Underpod - Ep 17 (Final Cut).mp4",
- "chain": "adeclip,highpass=f=80,afftdn=nr=14:nf=-50:tn=1,adynamicequalizer=dfrequency=6800:dqfactor=2.5:tfrequency=6800:tqfactor=2.5:mode=cutabove:threshold=0.01:ratio=4:range=8:attack=2:release=40,acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,treble=f=9500:width_type=q:w=0.8:g=1.5,loudnorm=I=-16:TP=-1.5:LRA=5",
+ "chain": "adeclip,highpass=f=80,equalizer=f=250:t=q:w=1.2:g=-3,equalizer=f=2800:t=q:w=1.4:g=2,adynamicequalizer=dfrequency=6800:dqfactor=2.5:tfrequency=6800:tqfactor=2.5:mode=cutabove:threshold=0.01:ratio=4:range=5:attack=2:release=40,acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,treble=f=9500:width_type=q:w=0.8:g=3,loudnorm=I=-16:TP=-1.5:LRA=5",
  "target_lufs": -11.8,
  "limit": 0.7,
  "logo": {
@@ -51,43 +51,43 @@
  "anim": [
   {
    "file": "wipe.mov",
-   "start": 8.72,
-   "end": 9.12,
+   "start": 16.92,
+   "end": 17.32,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 15.52,
-   "end": 15.92,
+   "start": 23.72,
+   "end": 24.12,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 25.887,
-   "end": 26.287,
+   "start": 34.087,
+   "end": 34.487,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 40.053,
-   "end": 40.453,
+   "start": 48.253,
+   "end": 48.653,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 44.553,
-   "end": 44.953,
+   "start": 52.753,
+   "end": 53.153,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 2744.553,
-   "end": 2744.953,
+   "start": 2639.287,
+   "end": 2639.687,
    "x": 0,
    "y": 0
   }
