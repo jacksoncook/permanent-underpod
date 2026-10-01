@@ -37,6 +37,53 @@ SRC = PLAN["source"]
 CLIPDIR = os.path.join(WORK, "clips")
 os.makedirs(CLIPDIR, exist_ok=True)
 
+OUT_W, OUT_H = 1280, 720
+# Gallery mode (one video of a video-call grid): every keep-interval is further split
+# at the speaker-following shot boundaries from gallery_shots.py, and each piece is
+# rendered as a static crop of that shot's tile, scaled to house 1280x720. Static
+# per-clip crops cost nothing extra (the clip is re-encoded anyway) and keep every
+# shot change a frame-exact hard cut; the zoompan reframe path stays for couch episodes.
+GALLERY = PLAN.get("gallery")
+SHOTS = json.load(open(os.path.join(WORK, "shots.json"))) if GALLERY else None
+MIN_PIECE = 0.4
+
+
+def shot_rect(name):
+    if name == "wide":
+        return GALLERY.get("wide")
+    if name.endswith("_tight"):
+        return GALLERY["tight"][name[:-6]]
+    return GALLERY["tiles"][name]
+
+
+def shot_vf(name):
+    rect = shot_rect(name) if GALLERY else None
+    crop = f"crop={rect[2]}:{rect[3]}:{rect[0]}:{rect[1]}," if rect else ""
+    scale = f"scale={OUT_W}:{OUT_H}:flags=lanczos," if GALLERY else ""
+    return f"fps=30,{crop}{scale}format=yuv420p"
+
+
+def split_by_shots(a, z):
+    """Pieces of [a, z) per shot, slivers under MIN_PIECE absorbed into a neighbour."""
+    if not SHOTS:
+        return [[a, z, None]]
+    pieces = [[max(a, s["start"]), min(z, s["end"]), s["shot"]]
+              for s in SHOTS if min(z, s["end"]) - max(a, s["start"]) > 0]
+    if not pieces:
+        return [[a, z, "wide"]]
+    pieces[0][0], pieces[-1][1] = a, z
+    i = 0
+    while len(pieces) > 1 and i < len(pieces):
+        if pieces[i][1] - pieces[i][0] < MIN_PIECE:
+            if i == 0:
+                pieces[1][0] = pieces[0][0]; pieces.pop(0)
+            else:
+                pieces[i - 1][1] = pieces[i][1]; pieces.pop(i)
+        else:
+            i += 1
+    return pieces
+
+
 cuts = json.load(open(os.path.join(WORK, "verified_cuts.json")))
 KEEP = PLAN.get("pause_keep_default", 0.7)
 ZONES = PLAN.get("pause_zones", [])
@@ -72,15 +119,31 @@ for b in PLAN["blocks"]:
         if cur < be:
             segs.append((cur, be))
     for a, z in segs:
-        idx += 1
-        clips.append({"file": f"clips/c{idx:03d}.mov", "block": b["id"],
-                      "src_start": round(a, 3), "src_end": round(z, 3)})
+        for pa, pz, shot in split_by_shots(a, z):
+            idx += 1
+            clips.append({"file": f"clips/c{idx:04d}.mov", "block": b["id"],
+                          "src_start": round(pa, 3), "src_end": round(pz, 3),
+                          "shot": shot})
 
 print(f"{idx} clips to render, {sum(e-s for s,e in removals)/60:.1f} min dead air removed")
 
 FPS = 30
 SR = 48000
 SPF = SR // FPS  # 1600 audio samples per video frame at 30fps / 48kHz
+
+def clip_vframes(path):
+    # header nb_frames is accurate for the re-encoded clips/cards; fall back to a
+    # full decode count only if a container omits it.
+    r = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0",
+                        "-show_entries", "stream=nb_frames", "-of", "csv=p=0", path],
+                       capture_output=True, text=True).stdout.strip()
+    if r.isdigit():
+        return int(r)
+    r = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0",
+                        "-count_frames", "-show_entries", "stream=nb_read_frames",
+                        "-of", "csv=p=0", path], capture_output=True, text=True).stdout.strip()
+    return int(r)
+
 
 def render(c):
     if c["src_start"] is None:
@@ -95,9 +158,11 @@ def render(c):
     # the source ran short at the cut, which lands on a pause so it's inaudible).
     n = max(1, round((c["src_end"] - c["src_start"]) * FPS))
     samples = n * SPF
+    if os.path.exists(out) and clip_vframes(out) == n:
+        return True
     r = subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y",
                         "-ss", f"{c['src_start']:.3f}", "-i", SRC,
-                        "-vf", "fps=30,format=yuv420p", "-frames:v", str(n),
+                        "-vf", shot_vf(c.get("shot")), "-frames:v", str(n),
                         "-af", f"aresample={SR},apad,atrim=end_sample={samples}",
                         "-video_track_timescale", "30000",
                         "-c:v", "h264_videotoolbox", "-b:v", "10M",
@@ -107,7 +172,7 @@ def render(c):
         print("FAIL", c["file"], r.stderr[-200:])
     return r.returncode == 0
 
-with ThreadPoolExecutor(max_workers=3) as ex:
+with ThreadPoolExecutor(max_workers=4 if GALLERY else 3) as ex:
     if not all(ex.map(render, clips)):
         sys.exit(1)
 
@@ -136,19 +201,6 @@ with open(concat_txt, "w") as f:
         # absolute paths: the concat demuxer resolves relative `file` entries
         # against concat.txt's OWN directory, which doubles a relative WORK.
         f.write(f"file '{os.path.abspath(os.path.join(WORK, c['file']))}'\n")
-
-def clip_vframes(path):
-    # header nb_frames is accurate for the re-encoded clips/cards; fall back to a
-    # full decode count only if a container omits it.
-    r = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0",
-                        "-show_entries", "stream=nb_frames", "-of", "csv=p=0", path],
-                       capture_output=True, text=True).stdout.strip()
-    if r.isdigit():
-        return int(r)
-    r = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0",
-                        "-count_frames", "-show_entries", "stream=nb_read_frames",
-                        "-of", "csv=p=0", path], capture_output=True, text=True).stdout.strip()
-    return int(r)
 
 raw_audio = os.path.join(WORK, "_audio_cat.raw")
 with open(raw_audio, "wb") as out:

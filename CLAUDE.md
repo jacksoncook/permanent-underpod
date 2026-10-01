@@ -27,6 +27,11 @@ production files. Not affiliated with any employer.
   file metadata) → remote_transcribe.py → graphics.py → remote_cutlist.py → remote_cut.py
   → final_render.py → remote_attribute.py`, driven by `sources.json` + `remote_plan.json`
   (see SKILL.md → "Fully-remote episodes").
+  **Gallery recordings** (ONE video of the call grid + one mixed track, à la Ep 17):
+  `analyze.sh → verify_silences.py → gallery_diarize.py (voice enrollment; verify on frame
+  strips) → gallery_layout.py → gallery_shots.py → graphics.py → cut_render.py (per-clip tile
+  crops, hard cuts only) → final_render.py`, driven by `plan.json["gallery"]`
+  (see SKILL.md → "Gallery recordings").
 - **clipify**: `verify_clips.py` GATES the clips.json (**always run it first** — it is
   what stops the Ep 8 boomerang + mid-word cuts from recurring); `clipify.py` cuts clips;
   `yt_upload.py` publishes (scheduled-private, auto-publish at a `publishAt`);

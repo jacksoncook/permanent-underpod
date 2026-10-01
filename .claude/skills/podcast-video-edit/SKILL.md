@@ -317,6 +317,80 @@ schedule as **one `zoompan` pass** with piecewise expressions of `on/30`:
   wrong, and the real camera move already supplies the variety. Space punches ~30–60 s
   apart, hold 5–7 s; favor the safe `center`/`push` when speaker attribution is uncertain.
 
+## Gallery recordings (one video of the call grid + one mixed track — built for Ep 17)
+
+When the call client records ONE file (a fixed grid of host tiles on black, e.g. a
+Meet/Zoom gallery) instead of per-host cams, neither the couch flow nor the remote
+flow fits: there is no per-person audio, no active-speaker border, and the full
+grid is visually dead for an hour. The gallery mode simulates a multicam by
+cropping the active speaker's TILE to full frame and hard-cutting between tiles.
+
+```
+1. analyze.sh <src.mp4> <work>  +  verify_silences.py <work>        # as single-cam
+   mkdir -p <work>/audio && ln -s ../audio16k.wav <work>/audio/mix_16k.wav
+   echo '{"mix": 0.0}' > <work>/offsets.json                        # check_bounds works on the mix
+2. uv venv --python 3.12 <work>/.venv-dia && uv pip install torch torchaudio speechbrain numpy scipy
+   <work>/.venv-dia/bin/python gallery_diarize.py <work> enroll.json  # -> speech.json
+3. <work>/.venv-dia/bin/python gallery_layout.py <work> plan.json     # -> layout.json (shares/spotlights)
+4. <work>/.venv-dia/bin/python gallery_shots.py  <work> plan.json     # -> shots.json
+   >>> YOU: plan.json (with the "gallery" key), brand.json, render.json; gate every
+       block edge with check_bounds.py <work> <t> ...  (12 boundaries on Ep 17, all OK)
+5. graphics.py -> cut_render.py (splits every keep-interval at shot boundaries and
+   renders each piece as crop+scale) -> final_render.py --test=75 -> full -> thumbnail.py
+```
+
+- **Tile geometry comes from a frame, not a guess.** Threshold a full-res frame
+  (`luma > 18`) and take the row/column bands of the non-black regions: Ep 17's
+  1080p Meet grid was three ~916×516 tiles (Chris top-left, Jackson top-right,
+  Tyler bottom-centre). Use EVEN w/h. `plan.json["gallery"]`:
+  `tiles` {person: [x,y,w,h]}, optional `tight` (a 768×432 face crop inside the tile,
+  1.67× upscale — the ceiling before it goes soft), `badges` (see below), and the
+  schedule params `min_shot` 2.0 / `wide_overlap` 1.0 / `wide_min` 2.5 /
+  `punch_after` 24 / `punch_dur` 9.
+- **Attribution is by VOICE, enrolled from the roll call.** `gallery_diarize.py`
+  takes `enroll.json` = {person: [[s,e],...]} — the intro "this is Jackson Cook" /
+  "it's Tyler" / "it's Chris" lines plus one longer passage each you can attribute
+  from context (the host who answers "Chris, what's the damage?"). ECAPA embeddings
+  (speechbrain/spkrec-ecapa-voxceleb, cached in ~/.cache/huggingface) on 1.5 s
+  windows, cosine to the enrolment centroids, two self-training rounds. Ep 17:
+  6,666 windows, median margin 0.44, 16/45/33% Jackson/Tyler/Chris — Tyler led the
+  23-min Spark block, so that split was right. **Verify with frame STRIPS, not
+  whole-tile motion:** per-tile motion agreed with the voice only ~60% of spans
+  because Jackson laughs/fidgets while others talk; 8 frames across a disputed span
+  (mouth cycling on the attributed tile, others still) settled it in the voice's
+  favour every time. Spans are mutually exclusive (one voice per 10 ms cell), so
+  "overlap" is not observable from a mix.
+- **The grid is not always on screen — detect it, don't assume it.** A 120 s contact
+  sheet missed Ep 17's two Perp-of-Fortune dashboard shares (2 s and 3 s). Any tile
+  crop over a share is a slice of someone's screen. `gallery_layout.py` keys on the
+  client's blue name badges at fixed tile positions (`badges` patches; a frame is
+  "grid" iff every patch is blue) at 2 fps and writes `other_spans`; the shot
+  scheduler holds `wide` there (±0.25 s) so the share IS the shot. If `badges` is set
+  and layout.json is missing the scheduler exits rather than silently assuming grid.
+- **Every shot change is a HARD CUT.** Tiles are separated by black gutters, so an
+  eased move crosses the seam exactly like the Ep 8 vertical boomerang. The schedule
+  is lookahead + sticky (same rules as `remote_face_crops.py`): a new speaker takes
+  the shot at their onset only if they then hold ≥ `min_shot` s of talk; a "yeah" on
+  another tile never flips it. **Wide = churn, not overlap:** ≥3 voice changes among
+  ≥2 people inside 4 s marks a group beat (laughs, crosstalk) → whole grid. Long
+  solo runs alternate tile → `_tight` → tile every `punch_after`/`punch_dur` s so a
+  40 s answer is not one frame. Ep 17: 285 shots, median 9 s, wide 4%, tight 13%.
+- **Render as per-clip static crops, not zoompan.** `cut_render.py` splits every
+  keep-interval at shot boundaries (slivers < 0.4 s absorbed), and each clip gets
+  `crop=w:h:x:y,scale=1280:720:flags=lanczos` (wide: just the scale). It is free
+  (the clip is re-encoded anyway), frame-exact, and avoids N chained zoompan passes
+  over 1080p (a 285-window schedule would be 8 passes). Clip count jumps from ~30 to
+  ~850; 4 workers, ~10 min. Clips carry `"shot"` in clips.json for clipify later.
+- **Disk: budget ~15 GB free before cut_render.** 850 clips at 10 Mbps ≈ 4.7 GB,
+  edited_raw ≈ 5.6 GB, final ≈ 3.5 GB, the diarization venv 0.7 GB. Ep 17 ran the
+  volume to zero mid-render and every tool call died (the harness could not open its
+  own output file) until Jackson freed space by hand. `df -h` first; `media/attic`
+  and older `media/epN/work/clips` are the documented deletables.
+- The name badges ("Swag Dog") ride inside the tile crops — keep them, they read as
+  on-brand lower-left bugs. Lower thirds sit over them.
+- Single mixed track → the standard single-cam audio chain; no per-track gains.
+  Thumbnail faces take `"crop": [x,y,w,h]` so the Vision cutout sees one tile.
+
 ## Fully-remote episodes (each host records their own camera — built for Ep 5)
 
 When the hosts are on a call and each records LOCALLY (QuickTime per person, possibly

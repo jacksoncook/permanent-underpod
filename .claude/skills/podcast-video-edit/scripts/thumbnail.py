@@ -48,8 +48,10 @@ def face_png(i, f):
         os.path.join(WORK, "src", f'{f["track"]}_720.mp4')
     raw = os.path.join(frames_dir, f"thumb_face{i}.png")
     cut = os.path.join(frames_dir, f"thumb_face{i}_cut.png")
+    vf = ["-vf", "crop={}:{}:{}:{}".format(f["crop"][2], f["crop"][3], f["crop"][0], f["crop"][1])] \
+        if "crop" in f else []
     subprocess.run(["ffmpeg", "-v", "error", "-ss", str(f["t"]), "-i", vid,
-                    "-frames:v", "1", "-y", raw], check=True)
+                    "-frames:v", "1", *vf, "-y", raw], check=True)
     subprocess.run([cutout_bin, raw, cut], check=True)
     return cut
 

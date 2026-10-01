@@ -40,8 +40,8 @@ if "--calibrate" in sys.argv:
 
 txt = open(os.path.join(WORK, "silences.txt")).read()
 cands = [(s, e) for s, e in zip(
-    (float(x) for x in re.findall(r"silence_start: ([\d.]+)", txt)),
-    (float(x) for x in re.findall(r"silence_end: ([\d.]+)", txt))) if e - s >= MIN_DUR]
+    (float(x) for x in re.findall(r"silence_start: (-?[\d.]+)", txt)),
+    (float(x) for x in re.findall(r"silence_end: (-?[\d.]+)", txt))) if e - s >= MIN_DUR]
 
 with ThreadPoolExecutor(max_workers=8) as ex:
     levels = list(ex.map(lambda c: band_rms(c[0] + 0.3, c[1] - 0.3), cands))
