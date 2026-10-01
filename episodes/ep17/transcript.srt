@@ -1,0 +1,2604 @@
+1
+00:00:00,000 --> 00:00:09,620
+ The moment you put money in, I'm going to name the podcast "Man, Gambels, Childs."
+
+2
+00:00:09,620 --> 00:00:14,660
+ Don't delete the key. Point your claw at the code. Ask Claude if we delete the keys. Claude
+
+3
+00:00:14,660 --> 00:00:19,160
+ will say yes. Yeah, you're basically trusting them not to flip that pool in the same way
+
+4
+00:00:19,160 --> 00:00:24,600
+ that you're trusting Coinbase to let you process withdrawals in the future. So it seems fairly
+
+5
+00:00:24,600 --> 00:00:26,720
+ custodial to me.
+
+6
+00:00:26,720 --> 00:00:32,880
+ Like a video game for 10 seconds in your browser to post or something like that. Proof of
+
+7
+00:00:32,880 --> 00:00:35,000
+ fun to post.
+
+8
+00:00:35,000 --> 00:00:42,480
+ Jeff can do that for, you know, one cent.
+
+9
+00:00:42,480 --> 00:00:51,120
+ Yo, yo, everybody. It's the permanent under pod. I'm talking to a chopstick and this is
+
+10
+00:00:51,120 --> 00:00:53,120
+ Jackson Cook.
+
+11
+00:00:53,120 --> 00:01:00,800
+ Hey, it's Tyler. I'm talking into this microphone holder that you could maybe pick up the sushi
+
+12
+00:01:00,800 --> 00:01:05,900
+ with. I don't know. I've never tried it before. On to you, Chris.
+
+13
+00:01:05,900 --> 00:01:10,160
+ It's Chris. No further comments. I end my turn.
+
+14
+00:01:10,160 --> 00:01:16,240
+ I don't think you want your microphone smelling like fish for the rest of your life, Tyler.
+
+15
+00:01:16,240 --> 00:01:18,080
+ It seems like a bad name.
+
+16
+00:01:18,080 --> 00:01:26,020
+ Yeah, I think Chris won that round of intros. The only winning move is not to play the game.
+
+17
+00:01:26,020 --> 00:01:29,840
+ I needed a win. So thank you.
+
+18
+00:01:29,840 --> 00:01:34,680
+ I'm really liking the this is like the perfect amount of shadow to mustache. I think Chris
+
+19
+00:01:34,680 --> 00:01:41,240
+ is looking crispy. Good facial curvature. You're looking clavicular out there. Thanks.
+
+20
+00:01:41,240 --> 00:01:45,800
+ Thank you. But my clavicles are down here. But I appreciate the sentiment.
+
+21
+00:01:45,800 --> 00:01:53,000
+ You're mandicular. And here we go. Straight into the perp of fortune, where Chris and
+
+22
+00:01:53,000 --> 00:02:00,400
+ I put real United States dollars into leverage perpetual futures in pursuit of fortune or
+
+23
+00:02:00,400 --> 00:02:08,880
+ destitution. Well, Tyler tells us we didn't go hard enough on the leverage. Chris, what's
+
+24
+00:02:08,880 --> 00:02:09,880
+ the damage?
+
+25
+00:02:09,880 --> 00:02:16,320
+ All right. So it's queuing up right now. I promise. But let me read out the thesis to
+
+26
+00:02:16,320 --> 00:02:22,640
+ you. The thesis is long after on perp trading becoming spectator entertainment, not long
+
+27
+00:02:22,640 --> 00:02:27,840
+ on Korea, which that feels like a shot fired. I don't know what's happening here. So it
+
+28
+00:02:27,840 --> 00:02:33,120
+ says there. Yeah, it says that the catalyst is that Astor sponsored rebound X's September
+
+29
+00:02:33,120 --> 00:02:38,120
+ 28 live trading competition in Seoul, which I think we're going to get into next. And
+
+30
+00:02:38,120 --> 00:02:42,920
+ basically, it's betting that there's going to be more of these competitions. They're
+
+31
+00:02:42,920 --> 00:02:48,160
+ going to get more popular. And then traders will bid up Astor as a result because it's
+
+32
+00:02:48,160 --> 00:02:54,480
+ connected to these live perp competitions. So yep.
+
+33
+00:02:54,480 --> 00:02:59,320
+ Besides being a sponsor, what is Astor?
+
+34
+00:02:59,320 --> 00:03:04,880
+ I think it is. Is it a perps exchange? Astor perps.
+
+35
+00:03:04,880 --> 00:03:05,880
+ I see.
+
+36
+00:03:05,880 --> 00:03:11,400
+ Yeah, it's making any sense for any other business to sponsor this competition. Would
+
+37
+00:03:11,400 --> 00:03:20,720
+ it surprise you if they were like, we make water bottles. Why a perp trading competition?
+
+38
+00:03:20,720 --> 00:03:30,000
+ Who is the sponsor of this cigarette smoking competition? Oh, weird. It's the tobacco company.
+
+39
+00:03:30,000 --> 00:03:36,480
+ I don't know if I've mentioned my passion for the two Rubik's cubes, two beers, two
+
+40
+00:03:36,480 --> 00:03:44,520
+ cigarettes challenge, but I think that's a really cool challenge. What order is the challenge
+
+41
+00:03:44,520 --> 00:03:51,920
+ conducted in? Oh, well, you get to optimize for your own skill. Choose your own adventure.
+
+42
+00:03:51,920 --> 00:04:00,000
+ Okay. I think most people do start with a beer to loosen up the hands for the cubes.
+
+43
+00:04:00,000 --> 00:04:05,400
+ And then you're either puffing the saying while you're, you know, twisting the cube,
+
+44
+00:04:05,400 --> 00:04:10,720
+ or I feel like you'd want to do one cigarette to get all jacked up on nicotine, rip the
+
+45
+00:04:10,720 --> 00:04:18,440
+ two cubes, chug the two beers and then finish up with a post two beer cigarette. How is
+
+46
+00:04:18,440 --> 00:04:25,080
+ that so obvious to me? You might want to enjoy the cigarette at that point. You don't want
+
+47
+00:04:25,080 --> 00:04:32,200
+ to enjoy it. You want to smoke it down. Chris, resident cigarette expert, what do you think?
+
+48
+00:04:32,200 --> 00:04:36,280
+ I think I could smoke a cigarette very fast. I think the Rubik's Cuban beer would be a little
+
+49
+00:04:36,280 --> 00:04:42,480
+ bit more difficult, but I think the cigarettes are non-event. You could put them in anywhere.
+
+50
+00:04:42,480 --> 00:04:47,980
+ I think the world record time is at like one minute, 20 seconds. It's really the bottleneck
+
+51
+00:04:47,980 --> 00:04:52,040
+ because your ability to solve a Rubik's cube. Because most of us can smoke an entire cigarette
+
+52
+00:04:52,040 --> 00:04:53,040
+ in one breath.
+
+53
+00:04:53,040 --> 00:04:58,560
+ Does it have to be cereal? Like are they combining two or three activities at once? Like can
+
+54
+00:04:58,560 --> 00:05:02,320
+ you Rubik's whilst you're like smoking it or like beer?
+
+55
+00:05:02,320 --> 00:05:03,320
+ Yeah.
+
+56
+00:05:03,320 --> 00:05:08,240
+ Oh, I assume that you're like light two cigarettes, put them in, and then you just Rubik's cube.
+
+57
+00:05:08,240 --> 00:05:16,160
+ I haven't seen anyone go walrus on it. I think that is a good strategy.
+
+58
+00:05:16,160 --> 00:05:22,040
+ Anyways, sorry, last comment on the competition.
+
+59
+00:05:22,040 --> 00:05:28,160
+ I was going to say like going gorilla mode, but then I think going walrus mode is the
+
+60
+00:05:28,160 --> 00:05:32,640
+ new, really going berserk.
+
+61
+00:05:32,640 --> 00:05:38,000
+ The thumbnail will be Chris with two cigarettes while we're singing out of his, I mean, because
+
+62
+00:05:38,000 --> 00:05:45,480
+ you have the mustache. Anyways, so the really cool thing, the perp competition. Chris, you
+
+63
+00:05:45,480 --> 00:05:51,360
+ are our resident gambling expert. How long have these been going on?
+
+64
+00:05:51,360 --> 00:06:02,040
+ I'm sorry, I'm on the hook for cigarettes and gambling, just setting a terrible precedent.
+
+65
+00:06:02,040 --> 00:06:04,200
+ You need to rewrite your resume.
+
+66
+00:06:04,200 --> 00:06:09,480
+ Apparently. So I have no idea how long this has been going on. I basically just saw it
+
+67
+00:06:09,480 --> 00:06:17,480
+ on Twitter. You know, Korea is famous for things like esports and the excellent reality
+
+68
+00:06:17,480 --> 00:06:18,480
+ TV shows.
+
+69
+00:06:18,480 --> 00:06:24,920
+ I was going to say, as a resident Korea expert, I feel like this is the perfect Korean activity
+
+70
+00:06:24,920 --> 00:06:30,720
+ because it combines esports and gambling, basically, which is essentially their love
+
+71
+00:06:30,720 --> 00:06:33,640
+ of high-leverage stock trading, which is essentially gambling.
+
+72
+00:06:33,640 --> 00:06:34,640
+ Exactly.
+
+73
+00:06:34,640 --> 00:06:35,640
+ Yeah.
+
+74
+00:06:35,640 --> 00:06:44,320
+ But when it comes to perpetual futures, Chris is the man. He knew what Asta was. He knows
+
+75
+00:06:44,320 --> 00:06:46,080
+ what Hyperliquid is.
+
+76
+00:06:46,080 --> 00:06:50,480
+ I barely knew what Asta was. There are so many perps DEXs. Sorry, Asta, if you want to sponsor
+
+77
+00:06:50,480 --> 00:06:56,240
+ the podcast, I will take this back. But there are a lot of perps DEXs out there. So yeah,
+
+78
+00:06:56,240 --> 00:06:57,240
+ I wasn't sure.
+
+79
+00:06:57,240 --> 00:07:01,360
+ It sounds like Asta is trying to throw some money, so don't be throwing shade in their
+
+80
+00:07:01,360 --> 00:07:02,360
+ direction.
+
+81
+00:07:02,360 --> 00:07:08,040
+ I think it's a great product. Yeah, I think it's a great product and we're up 9 cents.
+
+82
+00:07:08,040 --> 00:07:13,920
+ I think the implication is that their head of marketing watches the pod and got the idea
+
+83
+00:07:13,920 --> 00:07:19,760
+ from this purpose trading competition from Purple Fortune.
+
+84
+00:07:19,760 --> 00:07:23,720
+ So they already owe us, like they already owe us royalties for this.
+
+85
+00:07:23,720 --> 00:07:24,720
+ Yeah.
+
+86
+00:07:24,720 --> 00:07:30,840
+ How do we get in on it too? I want to play.
+
+87
+00:07:30,840 --> 00:07:37,160
+ Even our amazing track record of selecting great perps on the pod.
+
+88
+00:07:37,160 --> 00:07:44,640
+ Chris sent us that clip of the person making $40,000 and all we've done is lose $100 or
+
+89
+00:07:44,640 --> 00:07:50,600
+ gain $6. What are they doing? Why don't we get enough leverage? Maybe we need to go to
+
+90
+00:07:50,600 --> 00:07:53,960
+ Asta so we can go like 1000X.
+
+91
+00:07:53,960 --> 00:08:00,600
+ So that person, I think, is actually a famous online streamer, Korean streamer, who just
+
+92
+00:08:00,600 --> 00:08:07,120
+ does perps trading. There's a clip of her perps trading one of Donald Trump's speeches
+
+93
+00:08:07,120 --> 00:08:12,680
+ and just freaking out every time he says Bitcoin because she has like a 50X Bitcoin long on
+
+94
+00:08:12,680 --> 00:08:13,680
+ or something.
+
+95
+00:08:13,680 --> 00:08:14,680
+ That's amazing.
+
+96
+00:08:14,680 --> 00:08:20,800
+ So this really is a way of life. I think we are new to this game and we have to be respectful.
+
+97
+00:08:20,800 --> 00:08:28,280
+ Yeah, drop a comment if you'd like to have a co-stream of us and a presidential speech
+
+98
+00:08:28,280 --> 00:08:35,720
+ where we're trading perps on Donny's words. We need to get a quick signal on the ground.
+
+99
+00:08:35,720 --> 00:08:42,040
+ So how does a perps trading competition work? Does everyone start with some kind of buy-in
+
+100
+00:08:42,040 --> 00:08:47,680
+ amount and then it's just like you deposit it in your account and whoever has the most
+
+101
+00:08:47,680 --> 00:08:50,680
+ money at the end of some time period wins?
+
+102
+00:08:50,680 --> 00:08:54,680
+ I really don't know. Someone said it was paper trading, which is actually so disappointing
+
+103
+00:08:54,680 --> 00:08:55,680
+ to me.
+
+104
+00:08:55,680 --> 00:09:01,520
+ Oh yeah, because like you need to account for like position size and stuff like that.
+
+105
+00:09:01,520 --> 00:09:05,920
+ Like if you just go gig along some micro cap and then it goes up on paper, but you don't
+
+106
+00:09:05,920 --> 00:09:09,960
+ have to actually like liquidate your position and then nuke the whole position, then yeah.
+
+107
+00:09:09,960 --> 00:09:16,960
+ Totally. Nothing ventured. Yeah. 100%. But yeah, I do. I think perps are coming back.
+
+108
+00:09:16,960 --> 00:09:22,760
+ I get this. I get this really weird feeling on the back of my neck that everyone is in
+
+109
+00:09:22,760 --> 00:09:31,560
+ my inbox, that everybody really wants to do perps right now, and they need guys to do
+
+110
+00:09:31,560 --> 00:09:40,240
+ perps for them. So I think perps are going to be very huge very soon. I know that Robinhood,
+
+111
+00:09:40,240 --> 00:09:44,400
+ did they just start? They just like have started pushing their perps. And I think a lot of
+
+112
+00:09:44,400 --> 00:09:48,120
+ other venues are getting there very quickly.
+
+113
+00:09:48,120 --> 00:09:55,640
+ Well, if anyone needs advice on how to build a perp platform, I watched the Kraken YouTube
+
+114
+00:09:55,640 --> 00:10:02,400
+ video and read the Investopedia article on perps, so I'm pretty much an expert on the
+
+115
+00:10:02,400 --> 00:10:03,720
+ math behind it.
+
+116
+00:10:03,720 --> 00:10:13,360
+ Yeah, and we're out here in the arena, wagering. Well, some of us wagering hundreds of dollars.
+
+117
+00:10:13,360 --> 00:10:17,840
+ What's our leverage on Astra, by the way, Astra?
+
+118
+00:10:17,840 --> 00:10:26,440
+ It's only 5x. Yeah, it's pathetic. A liquid shitcoin. Sorry, again, sorry, Astra. I didn't
+
+119
+00:10:26,440 --> 00:10:27,440
+ mean it.
+
+120
+00:10:27,440 --> 00:10:33,320
+ Tyler, doesn't even need to say anything. Tyler, we know. We know we messed up.
+
+121
+00:10:33,320 --> 00:10:37,840
+ I'm going to start spreading the conspiracy that the two of you are also paper trading
+
+122
+00:10:37,840 --> 00:10:43,720
+ for perp of fortune. That's why you won't let me add money into the pot is because the
+
+123
+00:10:43,720 --> 00:10:53,400
+ pot doesn't exist. It's all a charade. I'm going to expose this nefarious activity. I
+
+124
+00:10:53,400 --> 00:10:59,640
+ don't know why you'd be doing this conspiracy yet, but I think I'm on to it.
+
+125
+00:10:59,640 --> 00:11:08,560
+ The moment you put money in, I'm going to name the podcast Man Gambels Child's College
+
+126
+00:11:08,560 --> 00:11:11,640
+ Education Fund for Perpetual Fortune.
+
+127
+00:11:11,640 --> 00:11:26,080
+ I just took all of my daughter's Trump account books and put them into 100X Astra.
+
+128
+00:11:26,080 --> 00:11:33,320
+ That's actually a big business idea. How can we allow a Trump account to trade perp? Is
+
+129
+00:11:33,320 --> 00:11:35,120
+ that available today?
+
+130
+00:11:35,120 --> 00:11:43,720
+ Perpifying the children's money. I cannot think of something more unambiguously good.
+
+131
+00:11:43,720 --> 00:11:49,600
+ Enough with the perps though. A lot of perps today, a lot of Korea, but a little bit more
+
+132
+00:11:49,600 --> 00:11:58,200
+ on the perp. The perp was chosen by a new technology discovered in the LOM space, Jev.
+
+133
+00:11:58,200 --> 00:12:12,280
+ Scientists were using their telescope in space and discovered a new LOM technology.
+
+134
+00:12:12,280 --> 00:12:19,040
+ They were like, what if we just cut out all the wares and stop it at the token probability
+
+135
+00:12:19,040 --> 00:12:28,800
+ piece? Is that basically it? Is that how you guys understand Jev? Give me a breakdown.
+
+136
+00:12:28,800 --> 00:12:36,820
+ Jev is a new type of model and the whole selling point is that it has a structured output.
+
+137
+00:12:36,820 --> 00:12:43,120
+ You could ask it questions and then it's been trained so that it only responds in the structures
+
+138
+00:12:43,120 --> 00:12:49,160
+ that you define. Then you define these structures. They're typed. They're supposed to be type-safe.
+
+139
+00:12:49,160 --> 00:12:57,640
+ Then also they output probabilities for different questions that you would ask it. You could
+
+140
+00:12:57,640 --> 00:13:05,520
+ ask it, "Is this spam?" Then it will give you a probability from zero to one. Or, "Here's
+
+141
+00:13:05,520 --> 00:13:10,440
+ customer request. Can you categorize it among these 10 categories and give me the probabilities
+
+142
+00:13:10,440 --> 00:13:16,660
+ of each of them?" It helps you make quick decisions based on a text input.
+
+143
+00:13:16,660 --> 00:13:21,880
+ I would say that the main reason... I think that this form factor is something that obviously
+
+144
+00:13:21,880 --> 00:13:27,440
+ has really struck a nerve and that people are really excited about. I think it's a very
+
+145
+00:13:27,440 --> 00:13:34,760
+ powerful thing. I don't think it's a new thing. Classifier models that output probabilities.
+
+146
+00:13:34,760 --> 00:13:40,440
+ I think that the new-ish thing is that previously, if you wanted that model where you were like,
+
+147
+00:13:40,440 --> 00:13:45,120
+ "Which of these 10 customer support queues should this text go to?" You could train
+
+148
+00:13:45,120 --> 00:13:52,560
+ your own model to output that thing. You could get an off-the-shelf open source language
+
+149
+00:13:52,560 --> 00:13:58,600
+ model. You could pop a new layer onto it and then train it on your own proprietary data
+
+150
+00:13:58,600 --> 00:14:03,960
+ to basically take advantage of the pre-training. This is called transfer learning. That takes
+
+151
+00:14:03,960 --> 00:14:09,240
+ some technical know-how. It takes you to curate a dataset. It takes you to get at least one
+
+152
+00:14:09,240 --> 00:14:14,440
+ GPU to train it. I've done a bunch of this type of thing in the past.
+
+153
+00:14:14,440 --> 00:14:20,280
+ With this, I think it's just relying on the general intelligence of the model that it's
+
+154
+00:14:20,280 --> 00:14:24,560
+ built on top of so that you can basically just rely on that general intelligence and
+
+155
+00:14:24,560 --> 00:14:28,360
+ then try to structure what you want upfront. You don't have to do that training. You don't
+
+156
+00:14:28,360 --> 00:14:33,940
+ have to curate the dataset. You just trust that the model is well calibrated and generally
+
+157
+00:14:33,940 --> 00:14:39,880
+ smart enough to give you a mostly good enough answer.
+
+158
+00:14:39,880 --> 00:14:43,600
+ That's my take. I feel like the form factor is obviously something that's super valuable.
+
+159
+00:14:43,600 --> 00:14:50,500
+ I don't think it's a new concept of having a model that would output this type of output.
+
+160
+00:14:50,500 --> 00:14:56,500
+ I think it just enables it for a bunch of very long-tail cases that previously were
+
+161
+00:14:56,500 --> 00:15:03,080
+ not economically viable for a company or developer to do on their own because it requires hiring
+
+162
+00:15:03,080 --> 00:15:08,360
+ a data scientist and curating a dataset and then doing the transfer learning and knowing
+
+163
+00:15:08,360 --> 00:15:15,240
+ a little bit about this. Now you can just point your API key at OpenRouter and get a
+
+164
+00:15:15,240 --> 00:15:16,680
+ pretty good answer.
+
+165
+00:15:16,680 --> 00:15:25,000
+ Totally. I haven't looked at Jev too much, but I understood that it's faster than a normal
+
+166
+00:15:25,000 --> 00:15:30,920
+ language model at these tasks, but obviously it's much more generalizable than a pre-trained
+
+167
+00:15:30,920 --> 00:15:38,420
+ classifier. That was my vibe on the situation. Does that sound right to you?
+
+168
+00:15:38,420 --> 00:15:42,680
+ I think so. I think that's their selling point. I don't think there's any inherent reason
+
+169
+00:15:42,680 --> 00:15:53,880
+ why it's faster than a language model. You can imagine that you just have a very small
+
+170
+00:15:53,880 --> 00:16:00,160
+ language model and you don't have it reasoned very much and then you optimize it a little
+
+171
+00:16:00,160 --> 00:16:07,720
+ bit and that's basically what Jev is. I suspect that they're taking some off-the-shelf open
+
+172
+00:16:07,720 --> 00:16:12,980
+ weights model and then they are basically curated their big dataset of all these different
+
+173
+00:16:12,980 --> 00:16:19,680
+ structured types and they put a layer on that tries to constrain what the outputs are and
+
+174
+00:16:19,680 --> 00:16:26,440
+ then they did a bunch of their own training to calibrate it in that way. I suspect that
+
+175
+00:16:26,440 --> 00:16:33,240
+ they are not fresh pre-training their own thing. It's probably the same thing under
+
+176
+00:16:33,240 --> 00:16:37,000
+ the hood. It just has this extra layer on it and it's been a little bit optimized for
+
+177
+00:16:37,000 --> 00:16:44,400
+ it and there's no reason that any other company that does language models couldn't do that,
+
+178
+00:16:44,400 --> 00:16:45,400
+ I think.
+
+179
+00:16:45,400 --> 00:16:49,920
+ Yeah. I don't think that Jev has any moat, but some of the applications I've seen Jev
+
+180
+00:16:49,920 --> 00:17:00,560
+ in so far are real-time adjacent. Jev plays Doom or Jev does some sort of real-time task.
+
+181
+00:17:00,560 --> 00:17:04,860
+ That's why I mentioned the speed and latency thing because if you imagine a frontier model
+
+182
+00:17:04,860 --> 00:17:09,960
+ doing that, there's just too much reasoning going on to be feasible.
+
+183
+00:17:09,960 --> 00:17:18,160
+ I don't understand how Jev actually plays Doom because Jev doesn't do image input. The
+
+184
+00:17:18,160 --> 00:17:26,800
+ input that Jev is getting about the state of the Doom game has to be told to it via
+
+185
+00:17:26,800 --> 00:17:31,200
+ text somehow, some kind of structured input that describes the state of Doom to it and
+
+186
+00:17:31,200 --> 00:17:36,120
+ then it can make a determination. So there's some kind of middleware in there. I don't
+
+187
+00:17:36,120 --> 00:17:42,360
+ know how that is working, but yeah, it can't take an image and then make a decision.
+
+188
+00:17:42,360 --> 00:17:47,400
+ It sounds like they are doing that, that somehow turning those pixels into a series of decisions
+
+189
+00:17:47,400 --> 00:17:50,800
+ and that Jev makes them.
+
+190
+00:17:50,800 --> 00:17:55,520
+ So you're telling me, Tyler, that if it's the same LLM under the hood, that they're
+
+191
+00:17:55,520 --> 00:18:01,080
+ just slapping on basically an additional prompt to structure your output, something that we've
+
+192
+00:18:01,080 --> 00:18:07,800
+ been doing, or me and Chris have been doing as engineers for a year and it's all marketing
+
+193
+00:18:07,800 --> 00:18:08,800
+ boy.
+
+194
+00:18:08,800 --> 00:18:12,680
+ I think it's a little bit more than that. It's not just like they created a good system
+
+195
+00:18:12,680 --> 00:18:17,840
+ prompt and then their model is forced. They definitely did some kind of fine tuning to
+
+196
+00:18:17,840 --> 00:18:26,920
+ their thing and some optimizations and stuff like that. So it's not quite that simple.
+
+197
+00:18:26,920 --> 00:18:35,920
+ My notes here said that Jev beat Pokemon Red in 37 hours for $1.65 using Claude Opus 5.
+
+198
+00:18:35,920 --> 00:18:39,760
+ These headlines are out of control. These headlines are out of control. We need to talk
+
+199
+00:18:39,760 --> 00:18:40,760
+ about headline inflation.
+
+200
+00:18:40,760 --> 00:18:48,400
+ The part at the end where it's using Claude Opus 5. Wait, so is Jev playing or is Claude
+
+201
+00:18:48,400 --> 00:18:49,400
+ playing?
+
+202
+00:18:49,400 --> 00:18:53,400
+ Did they Jevify Claude Opus 5?
+
+203
+00:18:53,400 --> 00:19:00,360
+ They used Claude to build a harness for Jev to run Jev.
+
+204
+00:19:00,360 --> 00:19:12,360
+ Confusing headline made by my AI note generator. We'll have to dig into that one.
+
+205
+00:19:12,360 --> 00:19:15,800
+ One thing that I think is interesting about Jev that I think you kind of touched on Tyler
+
+206
+00:19:15,800 --> 00:19:22,000
+ is that it's not like this was impossible before. They're putting some kind of layer
+
+207
+00:19:22,000 --> 00:19:28,160
+ on top of Jev that forces it to do classification tasks and they're using some, like you said,
+
+208
+00:19:28,160 --> 00:19:32,120
+ some post-train of an open-weights model maybe.
+
+209
+00:19:32,120 --> 00:19:42,040
+ But it took this long for people to, I don't know, like find a viable product or find a
+
+210
+00:19:42,040 --> 00:19:47,960
+ viable form factor for like a Jev form factor for these language models.
+
+211
+00:19:47,960 --> 00:19:54,400
+ Yeah, I just I wonder like what else is unexplored in the language model probability space that
+
+212
+00:19:54,400 --> 00:19:58,680
+ would be really useful that we haven't thought about yet? Because it seems like everybody's
+
+213
+00:19:58,680 --> 00:20:05,540
+ pushing the frontier, right? Like everybody wants the fabled tier or Astra tier intelligence.
+
+214
+00:20:05,540 --> 00:20:10,280
+ But it seems like there's all these really good completely unexplored, unoptimized use
+
+215
+00:20:10,280 --> 00:20:17,080
+ cases like further down the sort of like intelligence gradient. And yeah, I just I wonder what the
+
+216
+00:20:17,080 --> 00:20:18,440
+ other Jevs will be.
+
+217
+00:20:18,440 --> 00:20:25,240
+ Yeah, I think it like clearly is a very, it's going to, it's an innovation that's going
+
+218
+00:20:25,240 --> 00:20:32,000
+ to stick on like the form factor and the output type for sure, I think. I do think it's kind
+
+219
+00:20:32,000 --> 00:20:37,800
+ of interesting, like at the end of the day, it's still kind of a vibe. So like, let's
+
+220
+00:20:37,800 --> 00:20:51,180
+ say that you ask Jev like, I don't know, like, what is the probability of it raining tomorrow?
+
+221
+00:20:51,180 --> 00:20:55,720
+ And then you ask it, what is the probability of it not raining tomorrow? Like the sum of
+
+222
+00:20:55,720 --> 00:21:01,840
+ those two things won't equal one. Because like, because like, within each of those separate
+
+223
+00:21:01,840 --> 00:21:05,720
+ things, it will kind of like, just make its own determination. And I don't think it's
+
+224
+00:21:05,720 --> 00:21:12,560
+ very scientific. But it does output some answer that's like, approximately calibrated. So
+
+225
+00:21:12,560 --> 00:21:20,520
+ I think it's like pretty rough, vibey. It's like, if you asked Chris, and he was like,
+
+226
+00:21:20,520 --> 00:21:24,280
+ you know, pretty smart about whether, whether it's going to rain tomorrow or not, and he'd
+
+227
+00:21:24,280 --> 00:21:30,400
+ be like, I don't know, man, like 60%. And that's just off the top of his head based
+
+228
+00:21:30,400 --> 00:21:35,400
+ on like, you know, what's in his brain. That's kind of what Jev is doing, as far as I understand,
+
+229
+00:21:35,400 --> 00:21:39,420
+ it's like, what's in my brain is my water weights. And I'm just going to output a number
+
+230
+00:21:39,420 --> 00:21:42,280
+ based on what feels good in those model weights.
+
+231
+00:21:42,280 --> 00:21:49,360
+ Okay, so my pushback firstly, one, they call me the weatherman. So thank you. But secondly,
+
+232
+00:21:49,360 --> 00:21:54,580
+ I think there are viable tasks, right? Like, I think you can vibe a vacuum clean your house,
+
+233
+00:21:54,580 --> 00:22:00,720
+ you know what I mean? Like, I think there is like, I mean, like, what are the consequences
+
+234
+00:22:00,720 --> 00:22:07,040
+ of your vacuum taking a right instead of a left, right, as opposed to, you know, the
+
+235
+00:22:07,040 --> 00:22:10,360
+ benefit that you would get from having like a kind of like generalized model that's able
+
+236
+00:22:10,360 --> 00:22:15,620
+ to like navigate around obstacles or make decisions about what to do. And maybe there
+
+237
+00:22:15,620 --> 00:22:19,920
+ are more layers and guardrails you can put on top of Jev's for these like, viable real
+
+238
+00:22:19,920 --> 00:22:23,960
+ time tasks that might be useful. I don't know. Just a thought.
+
+239
+00:22:23,960 --> 00:22:30,040
+ You're saying maybe Jev would be a way to accelerate like robotics, development, like
+
+240
+00:22:30,040 --> 00:22:34,880
+ put a Jev into a robot and then put guardrails around it. So it doesn't bust through the
+
+241
+00:22:34,880 --> 00:22:37,360
+ wall trying to vacuum your closet.
+
+242
+00:22:37,360 --> 00:22:42,400
+ Totally. I don't want like these lame pre-trained algorithmic robots that like map the floor
+
+243
+00:22:42,400 --> 00:22:46,540
+ plan and like do the same thing every time. Like I want the mouse droid from Star Wars.
+
+244
+00:22:46,540 --> 00:22:54,480
+ I think like that's Jev, like that's a Jev task. So maybe everyone disagrees with me.
+
+245
+00:22:54,480 --> 00:23:02,620
+ Jev is coming in. That's a good question. We will see as time passes how Jev ends up
+
+246
+00:23:02,620 --> 00:23:08,760
+ being used. But now this time we transition to everyone's favorite style of topic on the
+
+247
+00:23:08,760 --> 00:23:16,360
+ podcast. It's the biggest. It's the most humongous. It's a Bitcoin topic.
+
+248
+00:23:16,360 --> 00:23:23,760
+ We're going to talk today about a Bitcoin layer two called Spark, which is created by
+
+249
+00:23:23,760 --> 00:23:31,720
+ a company called LightSpark, which is created by a dude who created Libra.
+
+250
+00:23:31,720 --> 00:23:43,200
+ He created it at David Marcus. Libra never existed.
+
+251
+00:23:43,200 --> 00:23:46,880
+ We were never able to get any Libra. Was it like cut off?
+
+252
+00:23:46,880 --> 00:23:51,800
+ In our hearts and minds we were. Yeah. We talked about it a lot. I definitely talked
+
+253
+00:23:51,800 --> 00:24:00,520
+ about it a lot. Libra was announced when I was very deep in the industry.
+
+254
+00:24:00,520 --> 00:24:12,600
+ That's like cosmetology or astrology. As in whether it's real or not.
+
+255
+00:24:12,600 --> 00:24:22,520
+ I thought Libra was one of the... The analogy still holds up. Ambiguously true.
+
+256
+00:24:22,520 --> 00:24:29,120
+ But Tyler, please tell us about... I don't know. There's so many things to get into.
+
+257
+00:24:29,120 --> 00:24:34,520
+ Maybe first describe what is a layer two for Bitcoin and then tell us what does Spark bring
+
+258
+00:24:34,520 --> 00:24:38,440
+ to the table that Bitcoin's layer one doesn't.
+
+259
+00:24:38,440 --> 00:24:43,760
+ Okay, this is an insanely deep topic. I'll try to keep it pretty high level.
+
+260
+00:24:43,760 --> 00:24:51,160
+ But yeah, a Bitcoin layer two, the general concept is that the layer one of Bitcoin is
+
+261
+00:24:51,160 --> 00:24:57,920
+ the blockchain and the blockchain doesn't scale very well because it has a limited amount
+
+262
+00:24:57,920 --> 00:25:05,200
+ of transaction throughput and it's limited because you want to keep blocks small.
+
+263
+00:25:05,200 --> 00:25:08,040
+ And that means that you can only put so many transactions in them and you want to keep
+
+264
+00:25:08,040 --> 00:25:14,040
+ blocks small because you want to make it easy for anyone to run the Bitcoin software.
+
+265
+00:25:14,040 --> 00:25:19,800
+ And if blocks are too big, then it is going to increase how expensive of a computer you
+
+266
+00:25:19,800 --> 00:25:23,520
+ need, how big of an internet connection you need. There's a lot of things there that makes
+
+267
+00:25:23,520 --> 00:25:24,520
+ it harder.
+
+268
+00:25:24,520 --> 00:25:28,720
+ So we keep blocks small. That means we can't do a lot of transactions. That means we need
+
+269
+00:25:28,720 --> 00:25:33,320
+ to figure out some other way for people to do transactions on Bitcoin if we want it to
+
+270
+00:25:33,320 --> 00:25:41,520
+ scale to be more than just a hobbyist kind of network.
+
+271
+00:25:41,520 --> 00:25:49,280
+ So people are trying to invent constructs called layer twos, which are different types
+
+272
+00:25:49,280 --> 00:25:54,780
+ of protocols that you can transact Bitcoin with. And in general, they try to take your
+
+273
+00:25:54,780 --> 00:26:01,000
+ transactions and keep them off of the blockchain, but still maintain a lot of the assurances
+
+274
+00:26:01,000 --> 00:26:07,560
+ that you would get by holding Bitcoin, which is stuff like you can't be easily censored.
+
+275
+00:26:07,560 --> 00:26:15,400
+ You have self custody. You can always exit from the layer two back to the L1 without
+
+276
+00:26:15,400 --> 00:26:21,160
+ anyone's permission. So you can always have your Bitcoin yourself, that kind of stuff.
+
+277
+00:26:21,160 --> 00:26:25,440
+ And there's a bunch of layer twos that have been proposed. The most prominent ones are
+
+278
+00:26:25,440 --> 00:26:35,960
+ probably the Lightning Network, Spark, Arc. There's state chains. There's a bunch of other
+
+279
+00:26:35,960 --> 00:26:42,920
+ ones. But we're talking about Arc today. Okay. Ariel, is that a good, good high level summary?
+
+280
+00:26:42,920 --> 00:26:52,200
+ You prompted me to give what is a layer two. So that was beautiful. Okay. So Spark is a
+
+281
+00:26:52,200 --> 00:26:59,920
+ layer two that was invented maybe two years ago.
+
+282
+00:26:59,920 --> 00:27:06,360
+ And I think it builds a lot on prior systems, which is pretty common. And I think it's most
+
+283
+00:27:06,360 --> 00:27:15,480
+ similar to state chains. But the kind of high level idea is that there's this thing called
+
+284
+00:27:15,480 --> 00:27:23,640
+ the Spark. And that is basically the protocol that you operate in. It's operated by a set
+
+285
+00:27:23,640 --> 00:27:31,120
+ of companies. And these companies are the Spark entity. And basically, it's a federated
+
+286
+00:27:31,120 --> 00:27:39,400
+ system where if I have Bitcoin outside of the Spark and I pay Jackson, I can pay him
+
+287
+00:27:39,400 --> 00:27:44,440
+ via the Lightning Network. And he can receive that Bitcoin within the Spark as kind of like
+
+288
+00:27:44,440 --> 00:27:52,080
+ Spark Bitcoin. And whenever Jackson then wants to pay Chris, he can pay Chris within the
+
+289
+00:27:52,080 --> 00:28:00,960
+ Spark. But it essentially requires the cooperation of a majority of the federation that operates
+
+290
+00:28:00,960 --> 00:28:07,560
+ the Spark. And so you can either pay people within the Spark, and that's very cheap, or
+
+291
+00:28:07,560 --> 00:28:14,400
+ they have these things called the SSPs, the Spark service providers, which do swaps between
+
+292
+00:28:14,400 --> 00:28:20,320
+ Spark Bitcoin and essentially Lightning Bitcoin, or on-chain Bitcoin.
+
+293
+00:28:20,320 --> 00:28:24,000
+ And so that's the way that you would have... You could hold your money in Spark. You can
+
+294
+00:28:24,000 --> 00:28:30,540
+ pay anyone that accepts Lightning by doing these SSP swaps. All of this requires the
+
+295
+00:28:30,540 --> 00:28:41,000
+ cooperation of the Spark entity. And there are some kind of tricky trade-offs with Spark
+
+296
+00:28:41,000 --> 00:28:44,800
+ as there is for any L2. You always have to make trade-offs and figure out what the right
+
+297
+00:28:44,800 --> 00:28:46,800
+ security model balance is.
+
+298
+00:28:46,800 --> 00:28:54,440
+ The main one for Spark, I would say, is that the security requires you to trust that the
+
+299
+00:28:54,440 --> 00:29:02,440
+ Spark entity is deleting the old keys. So every time Jackson pays Chris within the Spark,
+
+300
+00:29:02,440 --> 00:29:09,680
+ basically, you can think about it almost like a 202 multi-sig, where it's like Jackson and
+
+301
+00:29:09,680 --> 00:29:15,000
+ the Spark both have keys for this. And then when they sign it over to Chris, they both
+
+302
+00:29:15,000 --> 00:29:23,960
+ have to sign. And if the Spark entity were to keep the key that it used to sign that
+
+303
+00:29:23,960 --> 00:29:28,720
+ prior transaction, then in the future, they can collude to steal the Bitcoin back from
+
+304
+00:29:28,720 --> 00:29:29,720
+ Chris.
+
+305
+00:29:29,720 --> 00:29:36,960
+ So you have to trust that they don't hold on to that private key material. And there's
+
+306
+00:29:36,960 --> 00:29:43,600
+ no way that they can prove that they deleted it. You just have to take their word for it.
+
+307
+00:29:43,600 --> 00:29:49,320
+ You can't prove that they deleted it. And it goes a little bit further than that, which
+
+308
+00:29:49,320 --> 00:29:58,560
+ is that you can't even really trust that they might say or they might try to in the future
+
+309
+00:29:58,560 --> 00:30:02,700
+ be like, "Our code is open source." You can see that there's nothing in the code that
+
+310
+00:30:02,700 --> 00:30:08,880
+ says like, "Don't delete the key. Point your cloud at the code. Ask Claude if we delete
+
+311
+00:30:08,880 --> 00:30:13,400
+ the keys. Claude will say yes." But you don't actually know that that's the software they're
+
+312
+00:30:13,400 --> 00:30:19,360
+ running. They could potentially run that software in like a Nitro Enclave. And then the Nitro
+
+313
+00:30:19,360 --> 00:30:24,240
+ Enclave can do a cryptographic attestation that says they're running the software that
+
+314
+00:30:24,240 --> 00:30:29,120
+ you can see the source code for, that your Claude told you that they delete the keys.
+
+315
+00:30:29,120 --> 00:30:34,540
+ But I don't think they're doing that right now. And even then, I don't know how strong
+
+316
+00:30:34,540 --> 00:30:35,540
+ I would believe.
+
+317
+00:30:35,540 --> 00:30:36,540
+ Yeah.
+
+318
+00:30:36,540 --> 00:30:40,740
+ There are flaws to that approach, I would say, even running in a Nitro Enclave. There
+
+319
+00:30:40,740 --> 00:30:44,000
+ are ways around it, but it's good. It's good.
+
+320
+00:30:44,000 --> 00:30:50,520
+ Yeah. So at the end of the day, the idea around any layer two is that you shouldn't have to
+
+321
+00:30:50,520 --> 00:31:00,260
+ have trust in a custodian. And Spark is a selective custodian. As long as they're not
+
+322
+00:31:00,260 --> 00:31:06,840
+ deleting keys, or as long as they are deleting keys, it's non-custodial. But they can choose
+
+323
+00:31:06,840 --> 00:31:13,540
+ to or be compelled to hold on to old key material basically at any point. And you wouldn't really
+
+324
+00:31:13,540 --> 00:31:16,920
+ have any idea that they were doing that.
+
+325
+00:31:16,920 --> 00:31:25,800
+ And so the way that I've explained this to people in the past jokingly is it would be,
+
+326
+00:31:25,800 --> 00:31:32,480
+ what if Coinbase said, "Well, you can always get your Bitcoin out of Coinbase because we're
+
+327
+00:31:32,480 --> 00:31:37,080
+ publishing our source code. And you can see right here that we have a flag that says process
+
+328
+00:31:37,080 --> 00:31:42,900
+ withdrawals equals true. And we haven't flipped that flag. So Coinbase is not custodial because
+
+329
+00:31:42,900 --> 00:31:48,400
+ you can get your keys out because process withdrawals equals true. Spark is almost exactly
+
+330
+00:31:48,400 --> 00:31:53,680
+ like that, where in theory, essentially in their code, they have a Boolean that's like
+
+331
+00:31:53,680 --> 00:31:58,600
+ delete the key material true. And as long as that is true, that means it's not custodial,
+
+332
+00:31:58,600 --> 00:32:03,280
+ but they could flip that bull and then you wouldn't be able to withdraw your Bitcoin.
+
+333
+00:32:03,280 --> 00:32:11,360
+ Or they could take the Bitcoin whenever you do try to transact it. So yeah, you're basically
+
+334
+00:32:11,360 --> 00:32:14,880
+ trusting them not to flip that bull the same way that you're trusting Coinbase to let you
+
+335
+00:32:14,880 --> 00:32:22,000
+ process withdrawals in the future. So it seems fairly custodial to me.
+
+336
+00:32:22,000 --> 00:32:29,800
+ Yeah. So a couple of points that come to mind here. One, has anyone heard of the term proof
+
+337
+00:32:29,800 --> 00:32:38,520
+ of authority? This was a term that was bandied around in the outside of Bitcoin community,
+
+338
+00:32:38,520 --> 00:32:43,760
+ I think when proof of stake was being discussed, there were these three types of networks that
+
+339
+00:32:43,760 --> 00:32:48,240
+ you could have. There was proof of work, proof of stake, and proof of authority. And so proof
+
+340
+00:32:48,240 --> 00:32:52,360
+ of work and proof of stake, we know what they are. Like proof of work, you compute the hash
+
+341
+00:32:52,360 --> 00:32:58,340
+ proof of stake, you prove that you have some number of the token to bid on a slot. Proof
+
+342
+00:32:58,340 --> 00:33:03,520
+ of authority was just like, well, there are these people that we trust and each one of
+
+343
+00:33:03,520 --> 00:33:09,860
+ them runs a node, right? And we know who they are, we've seen their passports, something
+
+344
+00:33:09,860 --> 00:33:15,100
+ like that. And it sounds a lot like that. Back in the day when there was a lot of bridging
+
+345
+00:33:15,100 --> 00:33:19,360
+ going on, there were a lot of proof of authority bridges. I'm thinking of Ronan and wormhole
+
+346
+00:33:19,360 --> 00:33:25,320
+ as two examples. Wormhole famously was like, there was this joke that it was a multi-sig
+
+347
+00:33:25,320 --> 00:33:30,000
+ between friends because it was literally just...
+
+348
+00:33:30,000 --> 00:33:34,440
+ Is it wormhole, like the jump trading like bridge?
+
+349
+00:33:34,440 --> 00:33:35,440
+ Correct.
+
+350
+00:33:35,440 --> 00:33:42,060
+ It's just like the come get scalped by these professional traders and use our bridge bridge.
+
+351
+00:33:42,060 --> 00:33:47,840
+ Come get scalped until it gets obliterated for 300 million by Lazarus and then it must
+
+352
+00:33:47,840 --> 00:33:52,920
+ have been making so much money that they just filled that hole. So yeah, I mean...
+
+353
+00:33:52,920 --> 00:34:00,640
+ Let me go use this bridge that's operated by this swarm of sharks.
+
+354
+00:34:00,640 --> 00:34:07,920
+ Completely undecentralized, by the way. Super cool. Yeah, I think it reminds me a little
+
+355
+00:34:07,920 --> 00:34:12,560
+ bit of that. Typically, when protocols would say there were proof of authority, they would
+
+356
+00:34:12,560 --> 00:34:18,400
+ have these elaborate plans to decentralize, which never happened, of course. But it sounds
+
+357
+00:34:18,400 --> 00:34:24,000
+ like this is the network operating as expected. So something to think about.
+
+358
+00:34:24,000 --> 00:34:34,400
+ Yeah. I think two other things I wanted to cover with Spark. One is the story around
+
+359
+00:34:34,400 --> 00:34:41,220
+ unilateral exit, which is possible when they first launched. I don't think that they had
+
+360
+00:34:41,220 --> 00:34:47,960
+ actually built a software tool for you to do this. And people kind of made some noise
+
+361
+00:34:47,960 --> 00:34:55,200
+ about it and then they subsequently did. And the thing about the unilateral exit is the
+
+362
+00:34:55,200 --> 00:35:00,180
+ most commonly, Spark is being pitched these days. It's like, put your spending wallet
+
+363
+00:35:00,180 --> 00:35:05,880
+ on it or use it to onboard millions of users in the developing world. So that means they'll
+
+364
+00:35:05,880 --> 00:35:09,360
+ probably have relatively small balances.
+
+365
+00:35:09,360 --> 00:35:13,760
+ And then also, when you transact a lot on Spark, your Bitcoin tends to get broken up
+
+366
+00:35:13,760 --> 00:35:19,600
+ into multiple leaves, what they call them. But you can think about them as roughly similar
+
+367
+00:35:19,600 --> 00:35:27,920
+ UTXOs on layer 1. But so you have a lot of small valued leaves of Spark. And each of
+
+368
+00:35:27,920 --> 00:35:35,080
+ those leaves needs to be unilaterally exit and the cost basically explodes the more leaves
+
+369
+00:35:35,080 --> 00:35:38,360
+ you have and also the deeper the leaves get.
+
+370
+00:35:38,360 --> 00:35:44,980
+ And so you can have a wallet where it costs a very significant portion of the wallet and
+
+371
+00:35:44,980 --> 00:35:52,760
+ transaction fees in order to actually unilaterally exit. So this guy, Open Noms, who is a legend
+
+372
+00:35:52,760 --> 00:35:58,960
+ hacker in the Bitcoin space, he builds raspy blitz and stuff like that. And he works for
+
+373
+00:35:58,960 --> 00:36:05,200
+ Blink, which is a lightning wallet. He ran this test on Spark, where he tried to withdraw...
+
+374
+00:36:05,200 --> 00:36:11,920
+ He had a $100,000 Satoshi wallet. So that's about $100 at the time, I think, maybe a little
+
+375
+00:36:11,920 --> 00:36:12,920
+ bit less.
+
+376
+00:36:12,920 --> 00:36:19,800
+ And he tried to use this unilateral exit thing. And his wallet had 22 leaves and it required
+
+377
+00:36:19,800 --> 00:36:28,280
+ 253 transaction packages to exit. And it cost him something like 80% of the wallet value
+
+378
+00:36:28,280 --> 00:36:31,720
+ and on-chain fees to recover the other 20%.
+
+379
+00:36:31,720 --> 00:36:36,840
+ So you have to spend 80,000 Satoshis to recover 20,000 Satoshis out of the Spark and in a
+
+380
+00:36:36,840 --> 00:36:42,340
+ unilateral exit. So that's basically uneconomical in terms of the story for unilateral exit
+
+381
+00:36:42,340 --> 00:36:47,640
+ for small amounts. So that's pretty bad.
+
+382
+00:36:47,640 --> 00:36:52,600
+ Another thing there is that in order to do this unilateral exit, you need this recovery
+
+383
+00:36:52,600 --> 00:36:59,480
+ backup that basically backs up the state of your wallet. And as far as I know, no consumer
+
+384
+00:36:59,480 --> 00:37:04,480
+ wallets that are doing Spark make this available to the user or do something like iCloud backup
+
+385
+00:37:04,480 --> 00:37:07,180
+ where it is being made available.
+
+386
+00:37:07,180 --> 00:37:11,960
+ And so if you don't have this data, when you suddenly need the unilateral exit, you're
+
+387
+00:37:11,960 --> 00:37:18,460
+ shadow luck. So I think that's something that might be a little bit overlooked in the ecosystem.
+
+388
+00:37:18,460 --> 00:37:20,420
+ So that's the story about unilateral exit.
+
+389
+00:37:20,420 --> 00:37:28,560
+ And then the last thing is the privacy story. Spark is not private. As far as I understand,
+
+390
+00:37:28,560 --> 00:37:33,000
+ it could be. I think the technology to make this kind of construct private from the operators
+
+391
+00:37:33,000 --> 00:37:37,760
+ exists, but they, I think, have made a choice not to make it private from the operators.
+
+392
+00:37:37,760 --> 00:37:42,220
+ So when you transact on Spark, all of your transaction activity is viewable and attributable
+
+393
+00:37:42,220 --> 00:37:46,940
+ to you by the Spark entity.
+
+394
+00:37:46,940 --> 00:37:53,480
+ So just know that, that it's basically a custodial privacy kind of situation. And in the past,
+
+395
+00:37:53,480 --> 00:38:00,080
+ it was even worse than that, where I think that they had an account model. So you weren't
+
+396
+00:38:00,080 --> 00:38:04,660
+ creating a new address every time you received Spark, you were receiving and sending out
+
+397
+00:38:04,660 --> 00:38:08,360
+ of the same address constantly. So that means that if somebody had your address, they could
+
+398
+00:38:08,360 --> 00:38:10,360
+ see all your transaction activity.
+
+399
+00:38:10,360 --> 00:38:16,720
+ And by default, all of the Spark transaction activity was published on a public block explorer
+
+400
+00:38:16,720 --> 00:38:26,440
+ for funsies. There was no reason to do this other than I don't really understand why.
+
+401
+00:38:26,440 --> 00:38:31,640
+ I think they were trying to go for a token trading speculation use case. And so they
+
+402
+00:38:31,640 --> 00:38:39,160
+ were trying to pattern match the Ethereum Solana world, where that's more the case.
+
+403
+00:38:39,160 --> 00:38:44,220
+ But yeah, so basically all of your transaction activity was... It wasn't like it was published
+
+404
+00:38:44,220 --> 00:38:48,180
+ on some blockchain. And that's why there's a block explorer because it needs to be public.
+
+405
+00:38:48,180 --> 00:38:52,360
+ It was like, this is a private ledger that has no reason to be public, but then they're
+
+406
+00:38:52,360 --> 00:38:57,720
+ publishing it for the sake of transparency, which is kind of a head scratcher.
+
+407
+00:38:57,720 --> 00:39:03,320
+ I believe now that you can set a flag in your Spark wallet that opts you out of that public
+
+408
+00:39:03,320 --> 00:39:12,880
+ sharing. But yeah, I don't think by default, Spark has very good privacy from the public
+
+409
+00:39:12,880 --> 00:39:17,740
+ and it doesn't have privacy at all from the Spark entity itself.
+
+410
+00:39:17,740 --> 00:39:23,800
+ Wow. I mean, poor Spark just got torn apart.
+
+411
+00:39:23,800 --> 00:39:29,640
+ I mean, in terms of publicly publishing something, it's like, okay, it's not public, even if
+
+412
+00:39:29,640 --> 00:39:32,800
+ they don't publish it, but it's still not private, right? The Spark operators can see
+
+413
+00:39:32,800 --> 00:39:39,200
+ all of your transactions. And if subpoenaed or if coerced somehow, they would be able
+
+414
+00:39:39,200 --> 00:39:48,880
+ to turn those over to an authority, right? Or anyone, right? I think that's the fear.
+
+415
+00:39:48,880 --> 00:39:54,360
+ I want to say one thing. There is a canonical way to decentralize these types of networks.
+
+416
+00:39:54,360 --> 00:40:03,160
+ And I have to talk about it because I've done it. So the typical way to serve one of these
+
+417
+00:40:03,160 --> 00:40:08,620
+ like L2s or out of band networks, like maybe you're serving an exchange out of a threshold
+
+418
+00:40:08,620 --> 00:40:14,960
+ SIG or something like that, is you can do like some kind of bootleg version of proof
+
+419
+00:40:14,960 --> 00:40:20,240
+ of stake, right? Where the validators in this case would be the Spark operators are talking
+
+420
+00:40:20,240 --> 00:40:24,960
+ to each other and following a series of rules and committing every increment of the rules
+
+421
+00:40:24,960 --> 00:40:30,080
+ that they're allowed to act upon to a shared blockchain. And when one of them goes out
+
+422
+00:40:30,080 --> 00:40:36,160
+ of line, the others all vote to slash, which is to say, the others all vote to take away
+
+423
+00:40:36,160 --> 00:40:41,760
+ some of their stake, right? So basically, punishing malfeasance for validators.
+
+424
+00:40:41,760 --> 00:40:47,120
+ Does that work with the validators are all homies and business together?
+
+425
+00:40:47,120 --> 00:40:55,000
+ It does not ask me how I got permission. It does not. It does not like you need you need
+
+426
+00:40:55,000 --> 00:41:02,240
+ at least two, like, you know, let's say 303030 is the smallest ideal ratio or what is called
+
+427
+00:41:02,240 --> 00:41:08,560
+ the Nakamoto coefficient, which is how many actual individual entities are validating the
+
+428
+00:41:08,560 --> 00:41:15,240
+ network, not how many different nodes, how many individual entities. So that's the important
+
+429
+00:41:15,240 --> 00:41:20,240
+ number for these proof of stake, progressive decentralized, like, like, obviously not fully
+
+430
+00:41:20,240 --> 00:41:25,400
+ decentralized, but progressive decentralization schemes.
+
+431
+00:41:25,400 --> 00:41:33,040
+ I don't know how meaningfully the fact that spark is operated by a federation. I don't
+
+432
+00:41:33,040 --> 00:41:37,760
+ know how meaningful that is right now. Like, there's a world where it could be very meaningful
+
+433
+00:41:37,760 --> 00:41:44,520
+ if the Federation is quite large and composed of like, unrelated energies, and etc, etc.
+
+434
+00:41:44,520 --> 00:41:49,640
+ I think the default spark, so that that's one thing to mention, maybe is that like,
+
+435
+00:41:49,640 --> 00:41:54,580
+ the spark code is open source, in theory, we could run a spark and we could be three
+
+436
+00:41:54,580 --> 00:42:01,040
+ spark entities. But I don't believe there's any competing spark. The main spark is run
+
+437
+00:42:01,040 --> 00:42:09,360
+ by, I believe, LightSpark, FlashNet and Breeze are the three companies that operate it. And
+
+438
+00:42:09,360 --> 00:42:13,180
+ I don't believe anyone else is running one.
+
+439
+00:42:13,180 --> 00:42:19,960
+ I think this is like from a protocol perspective, I think this is a reasonable bet to make when
+
+440
+00:42:19,960 --> 00:42:24,760
+ you look over the fence at what protocols like Tempo are doing, which are unabashedly
+
+441
+00:42:24,760 --> 00:42:30,960
+ just full on proof of authority networks, right? So, like, in that vein, and Tempo is
+
+442
+00:42:30,960 --> 00:42:35,400
+ obviously not the only one who has made this decision, I think in that vein, in terms of
+
+443
+00:42:35,400 --> 00:42:43,460
+ a business decision, I can see how if one entity is making that like, regulatory bet,
+
+444
+00:42:43,460 --> 00:42:48,240
+ you would also make that same bet. But yeah, something to think about.
+
+445
+00:42:48,240 --> 00:42:58,680
+ Yeah, totally. It makes a lot of sense. And I think that this was conceived of maybe before
+
+446
+00:42:58,680 --> 00:43:03,400
+ there were like a lot of breakthroughs like on the arc side. And I think now a protocol
+
+447
+00:43:03,400 --> 00:43:11,320
+ like arc looks like it has a lot of the benefits of spark, but with I think a much better trust
+
+448
+00:43:11,320 --> 00:43:18,600
+ model, like a unilaterally better trust model. And that's even without covenants. And if
+
+449
+00:43:18,600 --> 00:43:24,360
+ there ends up being a covenant soft fork that then enables the better forms of arc that
+
+450
+00:43:24,360 --> 00:43:30,060
+ people want to see, then I think that those are like strictly superior. So I'll be interested
+
+451
+00:43:30,060 --> 00:43:38,260
+ to see if spark survives in a world like that, or maybe if they get enough momentum and enough
+
+452
+00:43:38,260 --> 00:43:43,440
+ activity and they're spark and they don't feel any drive to upgrade it to something
+
+453
+00:43:43,440 --> 00:43:49,240
+ like that, or maybe they don't agree that arc is unilaterally better.
+
+454
+00:43:49,240 --> 00:43:55,440
+ I do think it's worth maybe saying a few nice things about spark. So that was a little bit
+
+455
+00:43:55,440 --> 00:44:01,160
+ of a tear down. But yeah, I think the main things that are really nice about spark is
+
+456
+00:44:01,160 --> 00:44:06,520
+ I think that they have like an amazing SDK and like developer experience where I think
+
+457
+00:44:06,520 --> 00:44:13,280
+ it's probably the easiest Bitcoin, L2 Bitcoin transaction thing to build into any app and
+
+458
+00:44:13,280 --> 00:44:18,200
+ to like build a wallet around. It's not a super high bar because I think that the other
+
+459
+00:44:18,200 --> 00:44:23,160
+ ones like Lightning Network are like kind of infamously complex. But yeah, I think spark
+
+460
+00:44:23,160 --> 00:44:31,360
+ has made that probably as smooth as it could possibly be. I think that it enables people
+
+461
+00:44:31,360 --> 00:44:40,200
+ to transact with Bitcoin very cheaply and very fast. And so it's like getting more people
+
+462
+00:44:40,200 --> 00:44:46,240
+ using Bitcoin, hopefully, and trying to promote transactional use cases for Bitcoin. Is there
+
+463
+00:44:46,240 --> 00:44:47,680
+ anything else you guys want to touch upon?
+
+464
+00:44:47,680 --> 00:44:53,040
+ Yeah, also plugging into the existing rails, man. So one issue with Lightning has always
+
+465
+00:44:53,040 --> 00:44:57,680
+ been that you have to have your Lightning node online for it to be fully self-custodial,
+
+466
+00:44:57,680 --> 00:45:04,660
+ right? Otherwise, you're going through a Lightning provider in some configuration. I think Spark
+
+467
+00:45:04,660 --> 00:45:09,400
+ unlocks out for a lot of people because of their federated setup that you can rail out
+
+468
+00:45:09,400 --> 00:45:14,280
+ on Lightning, your Bitcoin super fast. I think that's cool.
+
+469
+00:45:14,280 --> 00:45:21,820
+ Well, shout out to LightSpark. We don't hate Spark in entirety. We just pointed out many
+
+470
+00:45:21,820 --> 00:45:30,560
+ of its potential flaws and the arc is going to L2MOG Spark in the short term. Thank you,
+
+471
+00:45:30,560 --> 00:45:38,120
+ Tyler, for teaching us about Spark. So much more information than I learned for reading
+
+472
+00:45:38,120 --> 00:45:50,280
+ the Spark blog comparing Bitcoin L2s. Moving on, all right. That's right. Final topic,
+
+473
+00:45:50,280 --> 00:45:57,640
+ the slop auction. Our very own Chris Doran wrote another beautiful blog talking about
+
+474
+00:45:57,640 --> 00:46:06,700
+ the slop that's polluting our feeds and filling up the internet. Chris, tell us, how do we
+
+475
+00:46:06,700 --> 00:46:10,320
+ end this auction and stop the slop?
+
+476
+00:46:10,320 --> 00:46:17,040
+ All right. So there's this famous thing in MEV, Maximum Extractable Value. There's a
+
+477
+00:46:17,040 --> 00:46:27,320
+ famous post by the kings of MEV called Flashbots, where basically what they said is, so blockchains
+
+478
+00:46:27,320 --> 00:46:31,560
+ have this scalability limit problem. Everybody wants to transact there. How do you decide
+
+479
+00:46:31,560 --> 00:46:37,120
+ who gets to transact? And then how do you make sure that there is enough space in each
+
+480
+00:46:37,120 --> 00:46:42,560
+ block in the blockchain to service all of the genuine transactions that people will
+
+481
+00:46:42,560 --> 00:46:43,880
+ want to do?
+
+482
+00:46:43,880 --> 00:46:50,800
+ And basically, Flashbots went across a bunch of L2s and they were like, "Let's look at
+
+483
+00:46:50,800 --> 00:46:56,960
+ what the actual transactions on these L2s are composed of." And overwhelmingly, it's
+
+484
+00:46:56,960 --> 00:47:04,280
+ not genuine transactions. It's the transactions that these L2s are mostly servicing are MEV
+
+485
+00:47:04,280 --> 00:47:06,920
+ transactions. So when you're on chain...
+
+486
+00:47:06,920 --> 00:47:12,640
+ How is a MEV transaction not a real transaction? Doesn't there have to be some associated economic
+
+487
+00:47:12,640 --> 00:47:20,240
+ activity for it to vampire in order for there to be MEV to extract? And then like...
+
+488
+00:47:20,240 --> 00:47:26,000
+ Correct. But what is the ratio? What is the ratio between me wanting to buy a dog poop
+
+489
+00:47:26,000 --> 00:47:34,180
+ coin and the 17 guys placing fizzling orders to try and sandwich me for 1% of my swap?
+
+490
+00:47:34,180 --> 00:47:37,400
+ That's the question. And it's not flattering.
+
+491
+00:47:37,400 --> 00:47:38,400
+ It's not one-to-one.
+
+492
+00:47:38,400 --> 00:47:43,120
+ I mean, that would be a beautiful world if it was.
+
+493
+00:47:43,120 --> 00:47:48,520
+ I just want a personalized experience with my MEV bot, you know?
+
+494
+00:47:48,520 --> 00:47:49,520
+ Yeah.
+
+495
+00:47:49,520 --> 00:47:51,680
+ How's the urge?
+
+496
+00:47:51,680 --> 00:47:54,880
+ It's not just like you and your counterparty in the trade. It's you, your counterparty
+
+497
+00:47:54,880 --> 00:47:58,280
+ and 17 other people trying to get a tiny slice of it.
+
+498
+00:47:58,280 --> 00:48:05,160
+ How do they all get a piece? Wouldn't there just be one MEV bot that recognizes the entire
+
+499
+00:48:05,160 --> 00:48:10,760
+ opportunity and builds the whole stack and then pays the biggest bribe to Flashbots?
+
+500
+00:48:10,760 --> 00:48:16,700
+ Right. So here's the crux of it. Because you can create these very complicated on-chain
+
+501
+00:48:16,700 --> 00:48:23,800
+ orders using smart contracts, you can just dumbly execute them over and over again, hoping
+
+502
+00:48:23,800 --> 00:48:27,920
+ to get something. And the worst case that happens is the transaction fizzles. It doesn't
+
+503
+00:48:27,920 --> 00:48:33,160
+ execute because the preconditions aren't met because you're in the wrong spot in the block.
+
+504
+00:48:33,160 --> 00:48:37,680
+ The swaps already happened. Your transaction executes something. Your condition has changed.
+
+505
+00:48:37,680 --> 00:48:45,080
+ You still spend some gas or something putting the transaction into the chain, but this is
+
+506
+00:48:45,080 --> 00:48:50,080
+ not productive economic activity for the most part.
+
+507
+00:48:50,080 --> 00:48:59,480
+ And so they basically found that because you could do 100 of these and if on the 101st
+
+508
+00:48:59,480 --> 00:49:07,000
+ dumb idiot order you win it big, it becomes positive EV for you. So basically, it's advantageous
+
+509
+00:49:07,000 --> 00:49:11,160
+ for you to spam the blockchain with these fizzling orders in the off chance that one
+
+510
+00:49:11,160 --> 00:49:19,440
+ of them gets through. And so these blockchains are just a glut of these insane order structures
+
+511
+00:49:19,440 --> 00:49:25,200
+ getting pushed into every block because it is economically positive. But as a result,
+
+512
+00:49:25,200 --> 00:49:32,560
+ also the main thing is that many of these are inert, basically. They attempted a transaction,
+
+513
+00:49:32,560 --> 00:49:38,880
+ it failed. And the thrust of the transaction is that they spent some gas to compensate
+
+514
+00:49:38,880 --> 00:49:43,800
+ the blockchain for doing the compute to check that their transaction failed. But they're
+
+515
+00:49:43,800 --> 00:49:45,440
+ not transacting with anyone else.
+
+516
+00:49:45,440 --> 00:49:50,880
+ Exactly. They're doing literally nothing. They're just clogging up the block space and
+
+517
+00:49:50,880 --> 00:49:58,880
+ these L2s are full of it. Flashbots proposed a bunch of solutions. One of the solutions
+
+518
+00:49:58,880 --> 00:50:07,480
+ that came out of it was EIP 1559, which basically is a progressive tax on gas. So the more clogged
+
+519
+00:50:07,480 --> 00:50:13,160
+ the chain is, the more you have to pay. And this is to obviously disincentivize these
+
+520
+00:50:13,160 --> 00:50:17,760
+ bots from, or at least making them find the price equilibrium that they're willing to
+
+521
+00:50:17,760 --> 00:50:19,360
+ pay to get that transaction in.
+
+522
+00:50:19,360 --> 00:50:21,880
+ 1559 was ultrasound money, right?
+
+523
+00:50:21,880 --> 00:50:27,840
+ Was it? Was it? That's a good question.
+
+524
+00:50:27,840 --> 00:50:29,600
+ Oh, yeah.
+
+525
+00:50:29,600 --> 00:50:35,040
+ Yeah. Algorithmic fees, right? Am I right here?
+
+526
+00:50:35,040 --> 00:50:40,840
+ I mean, that's one way that they marketed it. The other way they marketed it is ultrasound
+
+527
+00:50:40,840 --> 00:50:47,880
+ money. And this is going to make everyone in Ethan, Rich is going to have a better inflation
+
+528
+00:50:47,880 --> 00:50:51,520
+ profile than Bitcoin and gold and everything.
+
+529
+00:50:51,520 --> 00:50:58,320
+ I do remember that, but I'm not particularly dogmatic about Ethereum or any other chain.
+
+530
+00:50:58,320 --> 00:51:08,200
+ So I just like, I'm more interested in the sort of like way they war-gamed this out and
+
+531
+00:51:08,200 --> 00:51:13,080
+ tried to solve this problem. So this problem is called a Tullock contest I've learned,
+
+532
+00:51:13,080 --> 00:51:17,680
+ which is just kind of like a game theory way to model a raffle, right? Like the more tickets
+
+533
+00:51:17,680 --> 00:51:22,240
+ you buy, in this case, the more stupid orders you place, the higher your chance of winning
+
+534
+00:51:22,240 --> 00:51:23,240
+ is.
+
+535
+00:51:23,240 --> 00:51:28,400
+ And so like the kind of stable equilibrium of that contest is to buy tickets right up
+
+536
+00:51:28,400 --> 00:51:34,000
+ until the value of winning the raffle, right? Or very close to it, right? And so that of
+
+537
+00:51:34,000 --> 00:51:42,400
+ course means that there's a lot of tickets, in this case, dumb orders in the chain. And
+
+538
+00:51:42,400 --> 00:51:48,440
+ I think that LLM slop is maybe a little bit similar to that. Like I think that there's
+
+539
+00:51:48,440 --> 00:51:57,160
+ like this massive incentive for people to spam, right? In any place right now, like
+
+540
+00:51:57,160 --> 00:52:03,880
+ in my Slack DMs on Twitter, on Facebook, like it's the bot internet. And there's no corrective
+
+541
+00:52:03,880 --> 00:52:08,840
+ mechanism. And I think like, you know, what I write in the blog is that I think there
+
+542
+00:52:08,840 --> 00:52:15,680
+ are basically two types of corrective mechanism for the Tullock contest. One is the auction,
+
+543
+00:52:15,680 --> 00:52:21,960
+ which is EIP 1559. You make people bid somehow on that space, on that blog space or on that
+
+544
+00:52:21,960 --> 00:52:29,600
+ post. The other is the wall, which is that you keep people out based on some criteria,
+
+545
+00:52:29,600 --> 00:52:34,760
+ because you know, maybe they're bots or maybe they're bad actors or something like that.
+
+546
+00:52:34,760 --> 00:52:38,840
+ And I think like I broadly would prefer the auction, but I think we're going to get the
+
+547
+00:52:38,840 --> 00:52:46,560
+ wall, which is, you know, like paid subscriptions or, you know, stuff like that. KYC is another
+
+548
+00:52:46,560 --> 00:52:48,960
+ example of a wall. So that's the thrust of it.
+
+549
+00:52:48,960 --> 00:52:53,880
+ How does the auction work though? Like, I don't know, like the way that I'm theorized,
+
+550
+00:52:53,880 --> 00:52:59,320
+ like my mental model of this is like, okay, in order to do spam, there's some expected
+
+551
+00:52:59,320 --> 00:53:06,520
+ value of doing the spam. Like if I shoot the shot, then maybe I have like a 1 in 100 chance
+
+552
+00:53:06,520 --> 00:53:12,480
+ of making a dollar or something. So my expected value is one cent of doing this thing. And
+
+553
+00:53:12,480 --> 00:53:16,640
+ then basically I will keep doing a thing with expected value of one cent, as long as it
+
+554
+00:53:16,640 --> 00:53:23,160
+ costs me less than one cent. And so the way to like stifle this activity is just to raise
+
+555
+00:53:23,160 --> 00:53:29,600
+ the cost of it above the expected value. So they're like, you know, the platform that
+
+556
+00:53:29,600 --> 00:53:34,640
+ like, you know, they're spamming could just charge you a cent for spamming. And then suddenly
+
+557
+00:53:34,640 --> 00:53:40,480
+ it would become uneconomical to spam. So that is that the wall or is that the auction? Because
+
+558
+00:53:40,480 --> 00:53:45,760
+ it's like, I would say that's the auction because you're buying, you're somehow buying
+
+559
+00:53:45,760 --> 00:53:49,580
+ the post now, like whether the price is set algorithmically, or like what the parameters
+
+560
+00:53:49,580 --> 00:53:52,560
+ of that price are, I think is the interesting thing.
+
+561
+00:53:52,560 --> 00:53:59,600
+ But it could be like a centralized platform just puts a price to post content. It doesn't
+
+562
+00:53:59,600 --> 00:54:04,360
+ have to be like, so I wasn't when you said auction, I was like, Okay, so Chris follows
+
+563
+00:54:04,360 --> 00:54:09,520
+ me if I want to post, I have to like every time Chris opens his feed, I have to like
+
+564
+00:54:09,520 --> 00:54:14,640
+ bid on like, you know, the slot, the third slot in his feed for my post or something
+
+565
+00:54:14,640 --> 00:54:15,640
+ like that.
+
+566
+00:54:15,640 --> 00:54:21,960
+ Right. But that's that's an ad auction, right? Like, that's how? Yeah. And I mean, like another
+
+567
+00:54:21,960 --> 00:54:25,880
+ option that I think that's horrible and dystopian, but like, that's an option, right?
+
+568
+00:54:25,880 --> 00:54:31,680
+ Yeah. Well, especially for like a social network, where it's like a person to person kind of
+
+569
+00:54:31,680 --> 00:54:37,840
+ situation and not like, I don't know, like if your expectation is I'm on YouTube, I'm
+
+570
+00:54:37,840 --> 00:54:42,400
+ looking for like content to watch, and it's mostly professional content, then like maybe
+
+571
+00:54:42,400 --> 00:54:49,200
+ that kind of makes sense. But if you're like, I'm on, I don't know, Instagram, and I want
+
+572
+00:54:49,200 --> 00:54:53,680
+ to see like, what my homies were doing on their vacation.
+
+573
+00:54:53,680 --> 00:54:58,600
+ Right, totally different. Or like, you're, you're on like Twitter, and you want to see
+
+574
+00:54:58,600 --> 00:55:03,160
+ like the hottest hot take, and you don't care who posted it. But like, it needs to make
+
+575
+00:55:03,160 --> 00:55:08,560
+ you seem funny at parties or whatever, right? Like you want the creme de la creme. I think
+
+576
+00:55:08,560 --> 00:55:14,320
+ like, you know, paying for it degrades the quality of the content, for sure. So like,
+
+577
+00:55:14,320 --> 00:55:21,120
+ my suggestion there would be, like, maybe we should try an EIP 1559 style gas auction,
+
+578
+00:55:21,120 --> 00:55:27,240
+ you know, like if you maybe if you segment it by topic somehow, and then as that topic
+
+579
+00:55:27,240 --> 00:55:34,600
+ gets congested, the cost to post goes up and up, I think it would disproportionately punish
+
+580
+00:55:34,600 --> 00:55:41,040
+ the bots. Whether it's enough to reach a stable equilibrium, I don't know. But yeah, just
+
+581
+00:55:41,040 --> 00:55:45,680
+ the thought that I had. It could also tell us whether we should invest
+
+582
+00:55:45,680 --> 00:55:52,400
+ in the AI side of the podcast or the Bitcoin side of the podcast. We could just bid for
+
+583
+00:55:52,400 --> 00:55:57,840
+ whichever one's lower, or the stable coin side of the podcast, as we're talking about
+
+584
+00:55:57,840 --> 00:56:04,640
+ right now. The third side. Yeah. But yeah, I think like,
+
+585
+00:56:04,640 --> 00:56:09,800
+ I think this is like a market structure that we're going to see a lot of in the future.
+
+586
+00:56:09,800 --> 00:56:14,920
+ I don't really know if there are, like, I think that like, like, crypto has had to deal
+
+587
+00:56:14,920 --> 00:56:20,120
+ with this for a long time. So like, I was like, let's reach into that bag and see what
+
+588
+00:56:20,120 --> 00:56:25,600
+ they have. But I don't I don't think it maps cleanly onto the problem. And I think like,
+
+589
+00:56:25,600 --> 00:56:29,760
+ there are going to be really good ways and really bad ways to sort this out. And I just
+
+590
+00:56:29,760 --> 00:56:35,480
+ hope we don't do the bad ones. Like, like what you're suggesting, Tyler, for example,
+
+591
+00:56:35,480 --> 00:56:41,480
+ like bidding on ad space, you know, to show my friend, like my what I was doing on my
+
+592
+00:56:41,480 --> 00:56:48,920
+ vacation feels quite sinister. But yeah. But if you have to just play like a video
+
+593
+00:56:48,920 --> 00:56:54,600
+ game for 10 seconds in your browser in a post or something like that. Proof of proof of
+
+594
+00:56:54,600 --> 00:57:08,080
+ work algorithm was, I think, to protect against email spam, like you would have to solve this
+
+595
+00:57:08,080 --> 00:57:13,960
+ like hash problem before you can email or receive an email. But I think, you know, I
+
+596
+00:57:13,960 --> 00:57:20,120
+ think, you know, I mean, there's a lot of, I mean, there's a lot of, there's a lot of
+
+597
+00:57:20,120 --> 00:57:26,360
+ problems before you can email or receive an email. But I think, you know, there are there
+
+598
+00:57:26,360 --> 00:57:30,600
+ are lots of reasons that doesn't work, right? Like, like compute is probably cheaper for
+
+599
+00:57:30,600 --> 00:57:38,440
+ bad actors than like me with my like, you know, MacBook Air. Yeah, and I yeah, I just
+
+600
+00:57:38,440 --> 00:57:43,640
+ think like a lot of these problems in the limit are that we were like using these problems
+
+601
+00:57:43,640 --> 00:57:47,360
+ to prove some kind of investment that doesn't work anymore. Like like what Tyler's saying
+
+602
+00:57:47,360 --> 00:57:52,440
+ about proof of fun wouldn't work because Jeff would have all of the fun for you like captures
+
+603
+00:57:52,440 --> 00:57:56,440
+ up. I didn't even know what's going on in that world. But it seems like they're in all
+
+604
+00:57:56,440 --> 00:58:01,360
+ sorts of trouble. So they're so hard, man. They're hard for me to do the captions. I'm
+
+605
+00:58:01,360 --> 00:58:08,200
+ like, there's a letter behind the letters that's like, basically invisible. But one
+
+606
+00:58:08,200 --> 00:58:13,520
+ thought better at them to like, you can totally tell views, like views will be like, Oh, sorry,
+
+607
+00:58:13,520 --> 00:58:16,920
+ there's a capsule. Like I can't proceed. And you're like, you have my permission, you can
+
+608
+00:58:16,920 --> 00:58:20,880
+ do it, buddy. And I don't want to do it.
+
+609
+00:58:20,880 --> 00:58:25,920
+ Yeah, that's that's what I'm worried about is these agentic, agentic homies, I've been
+
+610
+00:58:25,920 --> 00:58:31,640
+ using instinct. And I'm like scared because what happens when everyone else starts using
+
+611
+00:58:31,640 --> 00:58:37,000
+ instinct and views, and then we're like fighting for restaurant reservations that are already
+
+612
+00:58:37,000 --> 00:58:42,760
+ hard to come by or fighting for Iron Man registrations, where there's all like already people built
+
+613
+00:58:42,760 --> 00:58:48,920
+ custom bots, but now everyone has like a free open source bot that can navigate any website.
+
+614
+00:58:48,920 --> 00:58:52,880
+ So you don't have to be clever to screw other people over.
+
+615
+00:58:52,880 --> 00:58:57,600
+ It's just like everything becomes priced, like things that previously were just priced
+
+616
+00:58:57,600 --> 00:59:03,640
+ based on friction are like now have to be priced economically.
+
+617
+00:59:03,640 --> 00:59:10,160
+ Right. That's the question. Does everything become priced because that's a bad world, right?
+
+618
+00:59:10,160 --> 00:59:15,380
+ Like say you want to take your girlfriend to dinner on Valentine's Day. And, you know,
+
+619
+00:59:15,380 --> 00:59:19,920
+ you're living in, you know, maybe a very nice part of Manhattan. Like that could be very
+
+620
+00:59:19,920 --> 00:59:23,880
+ expensive for you, right? Like if you're not just paying for the meal, but you're also
+
+621
+00:59:23,880 --> 00:59:28,000
+ paying congestion pricing with everyone's agent to get a booking.
+
+622
+00:59:28,000 --> 00:59:29,000
+ Yeah.
+
+623
+00:59:29,000 --> 00:59:35,400
+ Yeah, like we're paying out the convenience and maybe that's like how we'll rationalize
+
+624
+00:59:35,400 --> 00:59:40,920
+ that we're paying the convenience fee, which is this auction price of having everything
+
+625
+00:59:40,920 --> 00:59:48,000
+ done automatically. Hopefully our salaries increase accordingly and keep up with consumer
+
+626
+00:59:48,000 --> 00:59:49,600
+ price inflation.
+
+627
+00:59:49,600 --> 00:59:56,000
+ Right. Maybe we'll just be doing like perpetual futures on Wendy's double daves forever. And
+
+628
+00:59:56,000 --> 00:59:59,160
+ like, that's how it's going to be, you know, I don't know.
+
+629
+00:59:59,160 --> 01:00:05,640
+ You just have to learn to like the things that other people don't like, you know. Okay.
+
+630
+01:00:05,640 --> 01:00:07,240
+ That's a good strategy. Yeah.
+
+631
+01:00:07,240 --> 01:00:13,160
+ Well, I feel like there's like in the internet age, there's like one, you know, one burrito
+
+632
+01:00:13,160 --> 01:00:17,800
+ taqueria that gets anointed in the mission district. This is the best one, according
+
+633
+01:00:17,800 --> 01:00:22,520
+ to Nate Silver. And then therefore, like it's the one that everyone must have. And it's
+
+634
+01:00:22,520 --> 01:00:27,760
+ like, dude, there are literally 10 taquerias around there that serve a burrito that's indistinguishable
+
+635
+01:00:27,760 --> 01:00:33,600
+ from that one. And like that other one is, you know, like five dollars cheaper and there's
+
+636
+01:00:33,600 --> 01:00:39,480
+ no line. And it's great. Yeah. It's not, I'm not saying that the one that's really good
+
+637
+01:00:39,480 --> 01:00:42,640
+ is bad. I'm saying that they're all really good.
+
+638
+01:00:42,640 --> 01:00:49,120
+ You have to put it when you're sold by your agent to keep looking. Don't just go for the
+
+639
+01:00:49,120 --> 01:00:50,640
+ most pricey.
+
+640
+01:00:50,640 --> 01:00:56,640
+ Yeah. Settle for the second best, you know, it's often almost as good as the first best.
+
+641
+01:00:56,640 --> 01:01:01,880
+ Right. Get your agent to open Google maps, branch out a little bit, you know, not just
+
+642
+01:01:01,880 --> 01:01:10,160
+ off the top of whatever indexer it's using. And we're rolling up 3 72 on Asta, one of
+
+643
+01:01:10,160 --> 01:01:16,160
+ the few per per fortunes for finishing up very happy about that.
+
+644
+01:01:16,160 --> 01:01:21,520
+ I think we got to fix the structure of per per fortune to have more volatility.
+
+645
+01:01:21,520 --> 01:01:30,280
+ Yeah. I think we need to rethink purple fortune. I think we need to, I think we need like a
+
+646
+01:01:30,280 --> 01:01:35,160
+ small Korean lady like yelling and screaming when something like that. There's no yelling
+
+647
+01:01:35,160 --> 01:01:41,120
+ and screaming. It's gone. Yeah.
+
+648
+01:01:41,120 --> 01:01:46,720
+ That's true. We could just, we could, well, anyways, we're headed out. We'll discuss the
+
+649
+01:01:46,720 --> 01:01:54,080
+ future of the purple portion off the record. You guys don't need it now. We're headed out.
+
+650
+01:01:54,080 --> 01:01:55,800
+ Happy October, everybody.
+
+651
+01:01:55,800 --> 01:01:56,880
+ Get free.
+

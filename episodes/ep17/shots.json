@@ -1,0 +1,1427 @@
+[
+{
+"start": 0.0,
+"end": 11.16,
+"shot": "jackson"
+},
+{
+"start": 11.16,
+"end": 22.16,
+"shot": "tyler"
+},
+{
+"start": 22.16,
+"end": 28.16,
+"shot": "chris"
+},
+{
+"start": 28.16,
+"end": 35.65,
+"shot": "jackson"
+},
+{
+"start": 35.65,
+"end": 42.11,
+"shot": "tyler"
+},
+{
+"start": 42.11,
+"end": 46.54,
+"shot": "chris"
+},
+{
+"start": 46.54,
+"end": 57.54,
+"shot": "jackson"
+},
+{
+"start": 57.54,
+"end": 62.54,
+"shot": "chris"
+},
+{
+"start": 62.54,
+"end": 87.59,
+"shot": "jackson"
+},
+{
+"start": 87.59,
+"end": 111.59,
+"shot": "chris"
+},
+{
+"start": 111.59,
+"end": 120.59,
+"shot": "chris_tight"
+},
+{
+"start": 120.59,
+"end": 131.44,
+"shot": "chris"
+},
+{
+"start": 131.44,
+"end": 136.33,
+"shot": "jackson"
+},
+{
+"start": 136.33,
+"end": 145.12,
+"shot": "chris"
+},
+{
+"start": 145.12,
+"end": 154.32,
+"shot": "tyler"
+},
+{
+"start": 154.32,
+"end": 171.12,
+"shot": "wide"
+},
+{
+"start": 171.12,
+"end": 180.48,
+"shot": "jackson"
+},
+{
+"start": 180.48,
+"end": 184.75,
+"shot": "tyler"
+},
+{
+"start": 184.75,
+"end": 204.17,
+"shot": "jackson"
+},
+{
+"start": 204.17,
+"end": 219.67,
+"shot": "tyler"
+},
+{
+"start": 219.67,
+"end": 230.17,
+"shot": "jackson"
+},
+{
+"start": 230.17,
+"end": 241.23,
+"shot": "chris"
+},
+{
+"start": 241.23,
+"end": 252.23,
+"shot": "jackson"
+},
+{
+"start": 252.23,
+"end": 261.73,
+"shot": "chris"
+},
+{
+"start": 261.73,
+"end": 267.23,
+"shot": "tyler"
+},
+{
+"start": 267.23,
+"end": 281.73,
+"shot": "jackson"
+},
+{
+"start": 281.73,
+"end": 290.23,
+"shot": "tyler"
+},
+{
+"start": 290.23,
+"end": 310.25,
+"shot": "jackson"
+},
+{
+"start": 310.25,
+"end": 312.25,
+"shot": "wide"
+},
+{
+"start": 312.25,
+"end": 314.4,
+"shot": "chris"
+},
+{
+"start": 314.4,
+"end": 323.2,
+"shot": "wide"
+},
+{
+"start": 323.2,
+"end": 337.71,
+"shot": "chris"
+},
+{
+"start": 337.71,
+"end": 352.21,
+"shot": "tyler"
+},
+{
+"start": 352.21,
+"end": 355.21,
+"shot": "chris"
+},
+{
+"start": 355.21,
+"end": 364.85,
+"shot": "jackson"
+},
+{
+"start": 364.85,
+"end": 376.28,
+"shot": "chris"
+},
+{
+"start": 376.28,
+"end": 381.28,
+"shot": "jackson"
+},
+{
+"start": 381.28,
+"end": 386.4,
+"shot": "chris"
+},
+{
+"start": 386.4,
+"end": 398.38,
+"shot": "tyler"
+},
+{
+"start": 398.38,
+"end": 402.88,
+"shot": "chris"
+},
+{
+"start": 402.88,
+"end": 408.38,
+"shot": "jackson"
+},
+{
+"start": 408.38,
+"end": 415.25,
+"shot": "tyler"
+},
+{
+"start": 415.25,
+"end": 432.36,
+"shot": "jackson"
+},
+{
+"start": 432.36,
+"end": 461.12,
+"shot": "chris"
+},
+{
+"start": 461.12,
+"end": 475.36,
+"shot": "jackson"
+},
+{
+"start": 475.36,
+"end": 489.51,
+"shot": "tyler"
+},
+{
+"start": 489.51,
+"end": 495.01,
+"shot": "chris"
+},
+{
+"start": 495.01,
+"end": 509.36,
+"shot": "tyler"
+},
+{
+"start": 509.36,
+"end": 533.36,
+"shot": "chris"
+},
+{
+"start": 533.36,
+"end": 542.36,
+"shot": "chris_tight"
+},
+{
+"start": 542.36,
+"end": 549.13,
+"shot": "chris"
+},
+{
+"start": 549.13,
+"end": 565.46,
+"shot": "jackson"
+},
+{
+"start": 565.46,
+"end": 574.46,
+"shot": "chris"
+},
+{
+"start": 574.46,
+"end": 577.25,
+"shot": "jackson"
+},
+{
+"start": 577.25,
+"end": 580.25,
+"shot": "wide"
+},
+{
+"start": 580.25,
+"end": 587.82,
+"shot": "chris"
+},
+{
+"start": 587.82,
+"end": 592.82,
+"shot": "jackson"
+},
+{
+"start": 592.82,
+"end": 619.15,
+"shot": "tyler"
+},
+{
+"start": 619.15,
+"end": 631.21,
+"shot": "jackson"
+},
+{
+"start": 631.21,
+"end": 638.51,
+"shot": "wide"
+},
+{
+"start": 638.51,
+"end": 645.01,
+"shot": "tyler"
+},
+{
+"start": 645.01,
+"end": 655.51,
+"shot": "jackson"
+},
+{
+"start": 655.51,
+"end": 661.21,
+"shot": "chris"
+},
+{
+"start": 661.21,
+"end": 666.13,
+"shot": "wide"
+},
+{
+"start": 666.13,
+"end": 676.7,
+"shot": "jackson"
+},
+{
+"start": 676.7,
+"end": 682.0,
+"shot": "wide"
+},
+{
+"start": 682.0,
+"end": 684.0,
+"shot": "jackson"
+},
+{
+"start": 684.0,
+"end": 691.0,
+"shot": "tyler"
+},
+{
+"start": 691.0,
+"end": 707.5,
+"shot": "jackson"
+},
+{
+"start": 707.5,
+"end": 731.5,
+"shot": "tyler"
+},
+{
+"start": 731.5,
+"end": 740.5,
+"shot": "tyler_tight"
+},
+{
+"start": 740.5,
+"end": 764.5,
+"shot": "tyler"
+},
+{
+"start": 764.5,
+"end": 773.5,
+"shot": "tyler_tight"
+},
+{
+"start": 773.5,
+"end": 797.5,
+"shot": "tyler"
+},
+{
+"start": 797.5,
+"end": 806.5,
+"shot": "tyler_tight"
+},
+{
+"start": 806.5,
+"end": 830.5,
+"shot": "tyler"
+},
+{
+"start": 830.5,
+"end": 839.5,
+"shot": "tyler_tight"
+},
+{
+"start": 839.5,
+"end": 863.5,
+"shot": "tyler"
+},
+{
+"start": 863.5,
+"end": 872.5,
+"shot": "tyler_tight"
+},
+{
+"start": 872.5,
+"end": 878.63,
+"shot": "tyler"
+},
+{
+"start": 878.63,
+"end": 899.24,
+"shot": "chris"
+},
+{
+"start": 899.24,
+"end": 923.24,
+"shot": "tyler"
+},
+{
+"start": 923.24,
+"end": 932.24,
+"shot": "tyler_tight"
+},
+{
+"start": 932.24,
+"end": 956.24,
+"shot": "tyler"
+},
+{
+"start": 956.24,
+"end": 966.29,
+"shot": "tyler_tight"
+},
+{
+"start": 966.29,
+"end": 991.29,
+"shot": "chris"
+},
+{
+"start": 991.29,
+"end": 1023.64,
+"shot": "tyler"
+},
+{
+"start": 1023.64,
+"end": 1032.57,
+"shot": "chris"
+},
+{
+"start": 1032.57,
+"end": 1050.78,
+"shot": "jackson"
+},
+{
+"start": 1050.78,
+"end": 1070.19,
+"shot": "tyler"
+},
+{
+"start": 1070.19,
+"end": 1079.08,
+"shot": "jackson"
+},
+{
+"start": 1079.08,
+"end": 1085.07,
+"shot": "chris"
+},
+{
+"start": 1085.07,
+"end": 1092.77,
+"shot": "tyler"
+},
+{
+"start": 1092.77,
+"end": 1099.31,
+"shot": "wide"
+},
+{
+"start": 1099.31,
+"end": 1101.81,
+"shot": "tyler"
+},
+{
+"start": 1101.81,
+"end": 1104.31,
+"shot": "chris"
+},
+{
+"start": 1104.31,
+"end": 1114.88,
+"shot": "jackson"
+},
+{
+"start": 1114.88,
+"end": 1138.88,
+"shot": "chris"
+},
+{
+"start": 1138.88,
+"end": 1147.88,
+"shot": "chris_tight"
+},
+{
+"start": 1147.88,
+"end": 1171.88,
+"shot": "chris"
+},
+{
+"start": 1171.88,
+"end": 1182.44,
+"shot": "chris_tight"
+},
+{
+"start": 1182.44,
+"end": 1206.44,
+"shot": "tyler"
+},
+{
+"start": 1206.44,
+"end": 1215.44,
+"shot": "tyler_tight"
+},
+{
+"start": 1215.44,
+"end": 1239.44,
+"shot": "tyler"
+},
+{
+"start": 1239.44,
+"end": 1248.44,
+"shot": "tyler_tight"
+},
+{
+"start": 1248.44,
+"end": 1265.75,
+"shot": "tyler"
+},
+{
+"start": 1265.75,
+"end": 1269.55,
+"shot": "wide"
+},
+{
+"start": 1269.55,
+"end": 1293.55,
+"shot": "chris"
+},
+{
+"start": 1293.55,
+"end": 1302.55,
+"shot": "chris_tight"
+},
+{
+"start": 1302.55,
+"end": 1307.05,
+"shot": "chris"
+},
+{
+"start": 1307.05,
+"end": 1321.05,
+"shot": "jackson"
+},
+{
+"start": 1321.05,
+"end": 1333.02,
+"shot": "chris"
+},
+{
+"start": 1333.02,
+"end": 1340.55,
+"shot": "wide"
+},
+{
+"start": 1340.55,
+"end": 1364.55,
+"shot": "jackson"
+},
+{
+"start": 1364.55,
+"end": 1373.55,
+"shot": "jackson_tight"
+},
+{
+"start": 1373.55,
+"end": 1377.04,
+"shot": "jackson"
+},
+{
+"start": 1377.04,
+"end": 1385.34,
+"shot": "wide"
+},
+{
+"start": 1385.34,
+"end": 1391.25,
+"shot": "jackson"
+},
+{
+"start": 1391.25,
+"end": 1406.28,
+"shot": "chris"
+},
+{
+"start": 1406.28,
+"end": 1413.28,
+"shot": "jackson"
+},
+{
+"start": 1413.28,
+"end": 1417.76,
+"shot": "chris"
+},
+{
+"start": 1417.76,
+"end": 1421.26,
+"shot": "jackson"
+},
+{
+"start": 1421.26,
+"end": 1425.46,
+"shot": "chris"
+},
+{
+"start": 1425.46,
+"end": 1429.76,
+"shot": "wide"
+},
+{
+"start": 1429.76,
+"end": 1445.06,
+"shot": "jackson"
+},
+{
+"start": 1445.06,
+"end": 1469.06,
+"shot": "tyler"
+},
+{
+"start": 1469.06,
+"end": 1478.06,
+"shot": "tyler_tight"
+},
+{
+"start": 1478.06,
+"end": 1502.06,
+"shot": "tyler"
+},
+{
+"start": 1502.06,
+"end": 1511.06,
+"shot": "tyler_tight"
+},
+{
+"start": 1511.06,
+"end": 1535.06,
+"shot": "tyler"
+},
+{
+"start": 1535.06,
+"end": 1544.06,
+"shot": "tyler_tight"
+},
+{
+"start": 1544.06,
+"end": 1568.06,
+"shot": "tyler"
+},
+{
+"start": 1568.06,
+"end": 1571.64,
+"shot": "tyler_tight"
+},
+{
+"start": 1571.64,
+"end": 1579.22,
+"shot": "wide"
+},
+{
+"start": 1579.22,
+"end": 1603.22,
+"shot": "tyler"
+},
+{
+"start": 1603.22,
+"end": 1612.22,
+"shot": "tyler_tight"
+},
+{
+"start": 1612.22,
+"end": 1636.22,
+"shot": "tyler"
+},
+{
+"start": 1636.22,
+"end": 1645.22,
+"shot": "tyler_tight"
+},
+{
+"start": 1645.22,
+"end": 1669.22,
+"shot": "tyler"
+},
+{
+"start": 1669.22,
+"end": 1678.22,
+"shot": "tyler_tight"
+},
+{
+"start": 1678.22,
+"end": 1702.22,
+"shot": "tyler"
+},
+{
+"start": 1702.22,
+"end": 1711.22,
+"shot": "tyler_tight"
+},
+{
+"start": 1711.22,
+"end": 1735.22,
+"shot": "tyler"
+},
+{
+"start": 1735.22,
+"end": 1744.22,
+"shot": "tyler_tight"
+},
+{
+"start": 1744.22,
+"end": 1768.22,
+"shot": "tyler"
+},
+{
+"start": 1768.22,
+"end": 1777.22,
+"shot": "tyler_tight"
+},
+{
+"start": 1777.22,
+"end": 1802.83,
+"shot": "tyler"
+},
+{
+"start": 1802.83,
+"end": 1810.07,
+"shot": "chris"
+},
+{
+"start": 1810.07,
+"end": 1834.07,
+"shot": "tyler"
+},
+{
+"start": 1834.07,
+"end": 1843.07,
+"shot": "tyler_tight"
+},
+{
+"start": 1843.07,
+"end": 1867.07,
+"shot": "tyler"
+},
+{
+"start": 1867.07,
+"end": 1876.07,
+"shot": "tyler_tight"
+},
+{
+"start": 1876.07,
+"end": 1900.07,
+"shot": "tyler"
+},
+{
+"start": 1900.07,
+"end": 1906.93,
+"shot": "tyler_tight"
+},
+{
+"start": 1906.93,
+"end": 1930.93,
+"shot": "chris"
+},
+{
+"start": 1930.93,
+"end": 1939.93,
+"shot": "chris_tight"
+},
+{
+"start": 1939.93,
+"end": 1963.93,
+"shot": "chris"
+},
+{
+"start": 1963.93,
+"end": 1972.93,
+"shot": "chris_tight"
+},
+{
+"start": 1972.93,
+"end": 1976.36,
+"shot": "chris"
+},
+{
+"start": 1976.36,
+"end": 1984.58,
+"shot": "wide"
+},
+{
+"start": 1984.58,
+"end": 1987.58,
+"shot": "tyler"
+},
+{
+"start": 1987.58,
+"end": 1999.08,
+"shot": "chris"
+},
+{
+"start": 1999.08,
+"end": 2005.08,
+"shot": "tyler"
+},
+{
+"start": 2005.08,
+"end": 2030.27,
+"shot": "chris"
+},
+{
+"start": 2030.27,
+"end": 2054.27,
+"shot": "tyler"
+},
+{
+"start": 2054.27,
+"end": 2063.27,
+"shot": "tyler_tight"
+},
+{
+"start": 2063.27,
+"end": 2087.27,
+"shot": "tyler"
+},
+{
+"start": 2087.27,
+"end": 2096.27,
+"shot": "tyler_tight"
+},
+{
+"start": 2096.27,
+"end": 2120.27,
+"shot": "tyler"
+},
+{
+"start": 2120.27,
+"end": 2129.27,
+"shot": "tyler_tight"
+},
+{
+"start": 2129.27,
+"end": 2153.27,
+"shot": "tyler"
+},
+{
+"start": 2153.27,
+"end": 2162.27,
+"shot": "tyler_tight"
+},
+{
+"start": 2162.27,
+"end": 2186.27,
+"shot": "tyler"
+},
+{
+"start": 2186.27,
+"end": 2195.27,
+"shot": "tyler_tight"
+},
+{
+"start": 2195.27,
+"end": 2219.27,
+"shot": "tyler"
+},
+{
+"start": 2219.27,
+"end": 2228.27,
+"shot": "tyler_tight"
+},
+{
+"start": 2228.27,
+"end": 2252.27,
+"shot": "tyler"
+},
+{
+"start": 2252.27,
+"end": 2261.27,
+"shot": "tyler_tight"
+},
+{
+"start": 2261.27,
+"end": 2285.27,
+"shot": "tyler"
+},
+{
+"start": 2285.27,
+"end": 2294.27,
+"shot": "tyler_tight"
+},
+{
+"start": 2294.27,
+"end": 2318.27,
+"shot": "tyler"
+},
+{
+"start": 2318.27,
+"end": 2325.82,
+"shot": "tyler_tight"
+},
+{
+"start": 2325.82,
+"end": 2331.17,
+"shot": "jackson"
+},
+{
+"start": 2331.17,
+"end": 2355.17,
+"shot": "chris"
+},
+{
+"start": 2355.17,
+"end": 2364.17,
+"shot": "chris_tight"
+},
+{
+"start": 2364.17,
+"end": 2388.17,
+"shot": "chris"
+},
+{
+"start": 2388.17,
+"end": 2397.17,
+"shot": "chris_tight"
+},
+{
+"start": 2397.17,
+"end": 2409.8,
+"shot": "chris"
+},
+{
+"start": 2409.8,
+"end": 2414.11,
+"shot": "tyler"
+},
+{
+"start": 2414.11,
+"end": 2416.61,
+"shot": "chris"
+},
+{
+"start": 2416.61,
+"end": 2419.11,
+"shot": "tyler"
+},
+{
+"start": 2419.11,
+"end": 2443.11,
+"shot": "chris"
+},
+{
+"start": 2443.11,
+"end": 2452.11,
+"shot": "chris_tight"
+},
+{
+"start": 2452.11,
+"end": 2454.17,
+"shot": "chris"
+},
+{
+"start": 2454.17,
+"end": 2478.17,
+"shot": "tyler"
+},
+{
+"start": 2478.17,
+"end": 2487.17,
+"shot": "tyler_tight"
+},
+{
+"start": 2487.17,
+"end": 2498.02,
+"shot": "tyler"
+},
+{
+"start": 2498.02,
+"end": 2504.73,
+"shot": "wide"
+},
+{
+"start": 2504.73,
+"end": 2538.48,
+"shot": "chris"
+},
+{
+"start": 2538.48,
+"end": 2562.48,
+"shot": "tyler"
+},
+{
+"start": 2562.48,
+"end": 2571.48,
+"shot": "tyler_tight"
+},
+{
+"start": 2571.48,
+"end": 2595.48,
+"shot": "tyler"
+},
+{
+"start": 2595.48,
+"end": 2604.48,
+"shot": "tyler_tight"
+},
+{
+"start": 2604.48,
+"end": 2628.48,
+"shot": "tyler"
+},
+{
+"start": 2628.48,
+"end": 2637.48,
+"shot": "tyler_tight"
+},
+{
+"start": 2637.48,
+"end": 2657.16,
+"shot": "tyler"
+},
+{
+"start": 2657.16,
+"end": 2686.89,
+"shot": "chris"
+},
+{
+"start": 2686.89,
+"end": 2714.34,
+"shot": "jackson"
+},
+{
+"start": 2714.34,
+"end": 2720.64,
+"shot": "wide"
+},
+{
+"start": 2720.64,
+"end": 2737.1,
+"shot": "jackson"
+},
+{
+"start": 2737.1,
+"end": 2740.64,
+"shot": "chris"
+},
+{
+"start": 2740.64,
+"end": 2749.04,
+"shot": "tyler"
+},
+{
+"start": 2749.04,
+"end": 2754.49,
+"shot": "jackson"
+},
+{
+"start": 2754.49,
+"end": 2760.62,
+"shot": "wide"
+},
+{
+"start": 2760.62,
+"end": 2783.35,
+"shot": "jackson"
+},
+{
+"start": 2783.35,
+"end": 2807.35,
+"shot": "chris"
+},
+{
+"start": 2807.35,
+"end": 2816.35,
+"shot": "chris_tight"
+},
+{
+"start": 2816.35,
+"end": 2839.85,
+"shot": "chris"
+},
+{
+"start": 2839.85,
+"end": 2853.45,
+"shot": "tyler"
+},
+{
+"start": 2853.45,
+"end": 2869.95,
+"shot": "chris"
+},
+{
+"start": 2869.95,
+"end": 2871.95,
+"shot": "tyler"
+},
+{
+"start": 2871.95,
+"end": 2877.45,
+"shot": "chris"
+},
+{
+"start": 2877.45,
+"end": 2881.45,
+"shot": "tyler"
+},
+{
+"start": 2881.45,
+"end": 2891.45,
+"shot": "chris"
+},
+{
+"start": 2891.45,
+"end": 2904.04,
+"shot": "tyler"
+},
+{
+"start": 2904.04,
+"end": 2928.04,
+"shot": "chris"
+},
+{
+"start": 2928.04,
+"end": 2937.04,
+"shot": "chris_tight"
+},
+{
+"start": 2937.04,
+"end": 2961.04,
+"shot": "chris"
+},
+{
+"start": 2961.04,
+"end": 2970.04,
+"shot": "chris_tight"
+},
+{
+"start": 2970.04,
+"end": 2978.34,
+"shot": "chris"
+},
+{
+"start": 2978.34,
+"end": 2998.42,
+"shot": "tyler"
+},
+{
+"start": 2998.42,
+"end": 3032.2,
+"shot": "chris"
+},
+{
+"start": 3032.2,
+"end": 3037.52,
+"shot": "tyler"
+},
+{
+"start": 3037.52,
+"end": 3048.94,
+"shot": "wide"
+},
+{
+"start": 3048.94,
+"end": 3052.96,
+"shot": "chris"
+},
+{
+"start": 3052.96,
+"end": 3069.29,
+"shot": "tyler"
+},
+{
+"start": 3069.29,
+"end": 3093.29,
+"shot": "chris"
+},
+{
+"start": 3093.29,
+"end": 3102.29,
+"shot": "chris_tight"
+},
+{
+"start": 3102.29,
+"end": 3126.29,
+"shot": "chris"
+},
+{
+"start": 3126.29,
+"end": 3135.29,
+"shot": "chris_tight"
+},
+{
+"start": 3135.29,
+"end": 3159.29,
+"shot": "chris"
+},
+{
+"start": 3159.29,
+"end": 3168.29,
+"shot": "chris_tight"
+},
+{
+"start": 3168.29,
+"end": 3186.5,
+"shot": "chris"
+},
+{
+"start": 3186.5,
+"end": 3210.5,
+"shot": "tyler"
+},
+{
+"start": 3210.5,
+"end": 3219.5,
+"shot": "tyler_tight"
+},
+{
+"start": 3219.5,
+"end": 3239.61,
+"shot": "tyler"
+},
+{
+"start": 3239.61,
+"end": 3250.61,
+"shot": "chris"
+},
+{
+"start": 3250.61,
+"end": 3273.63,
+"shot": "tyler"
+},
+{
+"start": 3273.63,
+"end": 3284.13,
+"shot": "chris"
+},
+{
+"start": 3284.13,
+"end": 3313.09,
+"shot": "tyler"
+},
+{
+"start": 3313.09,
+"end": 3337.09,
+"shot": "chris"
+},
+{
+"start": 3337.09,
+"end": 3346.09,
+"shot": "chris_tight"
+},
+{
+"start": 3346.09,
+"end": 3360.86,
+"shot": "chris"
+},
+{
+"start": 3360.86,
+"end": 3377.01,
+"shot": "jackson"
+},
+{
+"start": 3377.01,
+"end": 3401.01,
+"shot": "chris"
+},
+{
+"start": 3401.01,
+"end": 3410.01,
+"shot": "chris_tight"
+},
+{
+"start": 3410.01,
+"end": 3423.78,
+"shot": "chris"
+},
+{
+"start": 3423.78,
+"end": 3435.71,
+"shot": "jackson"
+},
+{
+"start": 3435.71,
+"end": 3444.65,
+"shot": "tyler"
+},
+{
+"start": 3444.65,
+"end": 3468.65,
+"shot": "chris"
+},
+{
+"start": 3468.65,
+"end": 3477.65,
+"shot": "chris_tight"
+},
+{
+"start": 3477.65,
+"end": 3495.86,
+"shot": "chris"
+},
+{
+"start": 3495.86,
+"end": 3504.24,
+"shot": "jackson"
+},
+{
+"start": 3504.24,
+"end": 3508.86,
+"shot": "wide"
+},
+{
+"start": 3508.86,
+"end": 3518.84,
+"shot": "tyler"
+},
+{
+"start": 3518.84,
+"end": 3551.4,
+"shot": "jackson"
+},
+{
+"start": 3551.4,
+"end": 3562.27,
+"shot": "tyler"
+},
+{
+"start": 3562.27,
+"end": 3590.42,
+"shot": "chris"
+},
+{
+"start": 3590.42,
+"end": 3610.54,
+"shot": "jackson"
+},
+{
+"start": 3610.54,
+"end": 3620.7,
+"shot": "chris"
+},
+{
+"start": 3620.7,
+"end": 3624.7,
+"shot": "tyler"
+},
+{
+"start": 3624.7,
+"end": 3627.7,
+"shot": "chris"
+},
+{
+"start": 3627.7,
+"end": 3651.7,
+"shot": "tyler"
+},
+{
+"start": 3651.7,
+"end": 3660.7,
+"shot": "tyler_tight"
+},
+{
+"start": 3660.7,
+"end": 3663.27,
+"shot": "tyler"
+},
+{
+"start": 3663.27,
+"end": 3667.31,
+"shot": "jackson"
+},
+{
+"start": 3667.31,
+"end": 3673.88,
+"shot": "wide"
+},
+{
+"start": 3673.88,
+"end": 3677.38,
+"shot": "tyler"
+},
+{
+"start": 3677.38,
+"end": 3686.7,
+"shot": "chris"
+},
+{
+"start": 3686.7,
+"end": 3696.9,
+"shot": "jackson"
+},
+{
+"start": 3696.9,
+"end": 3702.73,
+"shot": "tyler"
+},
+{
+"start": 3702.73,
+"end": 3708.53,
+"shot": "wide"
+},
+{
+"start": 3708.53,
+"end": 3716.55,
+"shot": "chris"
+},
+{
+"start": 3716.55,
+"end": 3725.78,
+"shot": "wide"
+},
+{
+"start": 3725.78,
+"end": 3741.35,
+"shot": "jackson"
+}
+]

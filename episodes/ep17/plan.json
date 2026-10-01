@@ -1,0 +1,540 @@
+{
+ "source": "/Users/jcook/Personal/permanent-underpod/media/ep17/Untitled recording.mp4",
+ "gallery": {
+  "tiles": {
+   "chris": [
+    32,
+    16,
+    912,
+    516
+   ],
+   "jackson": [
+    974,
+    16,
+    916,
+    516
+   ],
+   "tyler": [
+    508,
+    544,
+    916,
+    516
+   ]
+  },
+  "tight": {
+   "chris": [
+    32,
+    86,
+    768,
+    432
+   ],
+   "jackson": [
+    996,
+    46,
+    768,
+    432
+   ],
+   "tyler": [
+    596,
+    586,
+    768,
+    432
+   ]
+  },
+  "min_shot": 2.0,
+  "wide_overlap": 1.0,
+  "wide_min": 2.5,
+  "punch_after": 24,
+  "punch_dur": 9,
+  "badges": {
+   "chris": [
+    60,
+    466,
+    100,
+    44
+   ],
+   "jackson": [
+    1000,
+    466,
+    180,
+    44
+   ],
+   "tyler": [
+    530,
+    996,
+    100,
+    44
+   ]
+  }
+ },
+ "pause_keep_default": 0.7,
+ "pause_zones": [],
+ "protect": [],
+ "blocks": [
+  {
+   "id": "COLD_A",
+   "start": 618.9,
+   "end": 627.8,
+   "cut_silences": false
+  },
+  {
+   "id": "COLD_B",
+   "start": 1770.5,
+   "end": 1777.3,
+   "cut_silences": false
+  },
+  {
+   "id": "COLD_D",
+   "start": 1896.14,
+   "end": 1906.49,
+   "cut_silences": false
+  },
+  {
+   "id": "COLD_C",
+   "start": 3425.93,
+   "end": 3440.11,
+   "cut_silences": false
+  },
+  {
+   "id": "CARD_TITLE",
+   "card": "card_title.mov"
+  },
+  {
+   "id": "MAIN1",
+   "start": 2.0,
+   "end": 2717.77,
+   "cut_silences": true
+  },
+  {
+   "id": "MAIN2",
+   "start": 2757.77,
+   "end": 3741.3,
+   "cut_silences": true
+  },
+  {
+   "id": "CARD_END",
+   "card": "card_end.mov"
+  }
+ ],
+ "overlays": [
+  {
+   "name": "st_coldopen",
+   "block": "COLD_A",
+   "src_time": 619.2,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_intro",
+   "block": "MAIN1",
+   "src_time": 3.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_perp",
+   "block": "MAIN1",
+   "src_time": 66.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_sponsor",
+   "block": "MAIN1",
+   "src_time": 160.5,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "st_challenge",
+   "block": "MAIN1",
+   "src_time": 172.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "st_streamer",
+   "block": "MAIN1",
+   "src_time": 437.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "st_conspiracy",
+   "block": "MAIN1",
+   "src_time": 586.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "st_mangambles",
+   "block": "MAIN1",
+   "src_time": 621.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "st_trump",
+   "block": "MAIN1",
+   "src_time": 653.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "lt_jev",
+   "block": "MAIN1",
+   "src_time": 665.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_jevwhat",
+   "block": "MAIN1",
+   "src_time": 712.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "st_classifier",
+   "block": "MAIN1",
+   "src_time": 772.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "st_pokemon",
+   "block": "MAIN1",
+   "src_time": 1063.0,
+   "dur": 11,
+   "kind": "st"
+  },
+  {
+   "name": "st_sum",
+   "block": "MAIN1",
+   "src_time": 1213.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "st_vacuum",
+   "block": "MAIN1",
+   "src_time": 1268.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "lt_spark",
+   "block": "MAIN1",
+   "src_time": 1343.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_libra",
+   "block": "MAIN1",
+   "src_time": 1372.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "lt_l2",
+   "block": "MAIN1",
+   "src_time": 1444.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_federation",
+   "block": "MAIN1",
+   "src_time": 1600.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "st_deletekeys",
+   "block": "MAIN1",
+   "src_time": 1702.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "st_claude",
+   "block": "MAIN1",
+   "src_time": 1774.5,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "st_coinbase",
+   "block": "MAIN1",
+   "src_time": 1858.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "lt_poa",
+   "block": "MAIN1",
+   "src_time": 1913.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_wormhole",
+   "block": "MAIN1",
+   "src_time": 1981.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "lt_exit",
+   "block": "MAIN1",
+   "src_time": 2034.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_opennoms",
+   "block": "MAIN1",
+   "src_time": 2141.0,
+   "dur": 11,
+   "kind": "st"
+  },
+  {
+   "name": "lt_privacy",
+   "block": "MAIN1",
+   "src_time": 2207.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_explorer",
+   "block": "MAIN1",
+   "src_time": 2262.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "st_slash",
+   "block": "MAIN1",
+   "src_time": 2405.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "st_operators",
+   "block": "MAIN1",
+   "src_time": 2493.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "st_ark",
+   "block": "MAIN1",
+   "src_time": 2541.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "st_nice",
+   "block": "MAIN1",
+   "src_time": 2606.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "lt_slop",
+   "block": "MAIN2",
+   "src_time": 2758.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_flashbots",
+   "block": "MAIN2",
+   "src_time": 2811.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "st_fizzle",
+   "block": "MAIN2",
+   "src_time": 2922.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "st_1559",
+   "block": "MAIN2",
+   "src_time": 3010.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "st_tullock",
+   "block": "MAIN2",
+   "src_time": 3091.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "st_auctionwall",
+   "block": "MAIN2",
+   "src_time": 3147.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "lt_agents",
+   "block": "MAIN2",
+   "src_time": 3415.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_jevcent",
+   "block": "MAIN2",
+   "src_time": 3434.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "st_captcha",
+   "block": "MAIN2",
+   "src_time": 3504.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "st_valentine",
+   "block": "MAIN2",
+   "src_time": 3567.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "st_taqueria",
+   "block": "MAIN2",
+   "src_time": 3631.0,
+   "dur": 10,
+   "kind": "st"
+  },
+  {
+   "name": "lt_wrap",
+   "block": "MAIN2",
+   "src_time": 3688.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_volatility",
+   "block": "MAIN2",
+   "src_time": 3701.0,
+   "dur": 10,
+   "kind": "st"
+  }
+ ],
+ "sheet": [
+  {
+   "label": "Cold open",
+   "block": "COLD_A"
+  },
+  {
+   "label": "Talking into chopsticks",
+   "block": "MAIN1"
+  },
+  {
+   "label": "Perp of Fortune: long Aster, perps as spectator sport",
+   "block": "MAIN1",
+   "src_time": 66.0
+  },
+  {
+   "label": "Who sponsors a cigarette-smoking competition?",
+   "block": "MAIN1",
+   "src_time": 160.5
+  },
+  {
+   "label": "Seoul's live perp-trading competition",
+   "block": "MAIN1",
+   "src_time": 303.0
+  },
+  {
+   "label": "Tyler's conspiracy: the pot doesn't exist",
+   "block": "MAIN1",
+   "src_time": 586.0
+  },
+  {
+   "label": "The marquee: Jev, the AI that can't talk",
+   "block": "MAIN1",
+   "src_time": 665.5
+  },
+  {
+   "label": "Headline inflation: Jev beat Pokémon (with Claude)",
+   "block": "MAIN1",
+   "src_time": 1063.0
+  },
+  {
+   "label": "Spark: Lightning without channels",
+   "block": "MAIN1",
+   "src_time": 1343.0
+  },
+  {
+   "label": "Tyler explains: what is a Bitcoin layer two?",
+   "block": "MAIN1",
+   "src_time": 1444.5
+  },
+  {
+   "label": "The trust model: they have to delete the keys",
+   "block": "MAIN1",
+   "src_time": 1702.0
+  },
+  {
+   "label": "Chris: proof of authority, a multisig between friends",
+   "block": "MAIN1",
+   "src_time": 1913.5
+  },
+  {
+   "label": "Unilateral exit: 80,000 sats to recover 20,000",
+   "block": "MAIN1",
+   "src_time": 2034.0
+  },
+  {
+   "label": "Privacy: Spark sees everything",
+   "block": "MAIN1",
+   "src_time": 2207.0
+  },
+  {
+   "label": "Ark vs Spark, and some nice things",
+   "block": "MAIN1",
+   "src_time": 2541.0
+  },
+  {
+   "label": "The slop auction: Chris Doran's blog",
+   "block": "MAIN2",
+   "src_time": 2758.5
+  },
+  {
+   "label": "Tullock contests: the auction or the wall",
+   "block": "MAIN2",
+   "src_time": 3091.0
+  },
+  {
+   "label": "Agent congestion: everyone's bot wants the same table",
+   "block": "MAIN2",
+   "src_time": 3415.5
+  },
+  {
+   "label": "Chris's strategy: like what other people don't",
+   "block": "MAIN2",
+   "src_time": 3608.0
+  },
+  {
+   "label": "Perp of Fortune result",
+   "block": "MAIN2",
+   "src_time": 3688.5
+  },
+  {
+   "label": "End card / next week",
+   "block": "CARD_END"
+  }
+ ]
+}

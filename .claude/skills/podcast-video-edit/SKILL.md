@@ -390,6 +390,12 @@ cropping the active speaker's TILE to full frame and hard-cutting between tiles.
   on-brand lower-left bugs. Lower thirds sit over them.
 - Single mixed track → the standard single-cam audio chain; no per-track gains.
   Thumbnail faces take `"crop": [x,y,w,h]` so the Vision cutout sees one tile.
+- Thumbnail face crops should stop ABOVE the badge row (tile height −76 px on Ep 17),
+  or a blue sliver survives the cutout.
+- Sync-check against `edited_raw.mov`, not the source: 291 clips means any per-clip
+  bookkeeping error compounds, and the first check against the source showed a fake
+  +4.3 s "drift" that was the clips.json timeline (fixed: frames/FPS, see Gotchas),
+  while every clip's own audio matched the source at 0 ms.
 
 ## Fully-remote episodes (each host records their own camera — built for Ep 5)
 
@@ -604,6 +610,13 @@ What's different from the one-camera flow (all learned the hard way on Ep 5):
 
 ## Gotchas
 
+- **Timeline bookkeeping = cumulative frames/FPS, never ffprobe container durations.**
+  The videotoolbox clips report a duration up to one frame longer than their frame
+  count; `cut_render.py` used to sum those, so overlays, wipes and chapters landed late
+  (4.7 s by the end of Ep 17's 291 clips) while A/V sync was fine. The concat restamps
+  PTS by frame index, so frames/FPS is the only position that exists in the output.
+- **End card lines auto-shrink to the frame (`graphics.py`), four lines max.** Ep 17's
+  first line was 1370 px wide and clipped at both edges on the first full render.
 - **Progressive A/V drift (THE big one — bit Ep 1 TWICE).** There are two
   independent causes; you must fix BOTH or the picture drifts ahead of the sound,
   worsening through the episode. Always verify by checking sync at a LATE point —

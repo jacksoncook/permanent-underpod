@@ -1,0 +1,302 @@
+{
+ "show": "PERMANENT UNDERPOD",
+ "show_kicker": "PERMANENT",
+ "show_main": "UNDERPOD",
+ "accent": [
+  255,
+  210,
+  74
+ ],
+ "source": "/Users/jcook/Personal/permanent-underpod/media/ep17/Untitled recording.mp4",
+ "title_card": {
+  "bg_frame": 681,
+  "line": "EPISODE 17   \u00b7   The AI That Can't Talk   \u00b7   Bitcoin  \u00b7  Stablecoins  \u00b7  AI",
+  "dur": 4.5
+ },
+ "end_card": {
+  "bg_frame": 3690,
+  "kicker": "NEXT WEEK ON",
+  "lines": [
+   "Enclaves III: a $200 board forges the attestation",
+   "Agent week two: OpenAI hit pause \u00b7 Is bitcoin back? (still no charts)",
+   "Korea's 4\u00d7 yen stablecoin",
+   "Not financial advice. Our opinions are ours, not our employers'."
+  ],
+  "cta": "LIKE  +  SUBSCRIBE",
+  "dur": 7
+ },
+ "lower_thirds": [
+  {
+   "name": "intro",
+   "kicker": "EPISODE 17",
+   "title": "TALKING INTO CHOPSTICKS"
+  },
+  {
+   "name": "perp",
+   "kicker": "PERP OF FORTUNE",
+   "title": "LONG ASTER: PERPS AS SPECTATOR SPORT"
+  },
+  {
+   "name": "jev",
+   "kicker": "THE MARQUEE",
+   "title": "JEV: THE AI THAT CAN'T TALK PICKED OUR PERP"
+  },
+  {
+   "name": "spark",
+   "kicker": "BITCOIN LAYER TWO",
+   "title": "SPARK: LIGHTNING WITHOUT CHANNELS"
+  },
+  {
+   "name": "l2",
+   "kicker": "TYLER EXPLAINS",
+   "title": "WHAT IS A BITCOIN LAYER TWO?"
+  },
+  {
+   "name": "poa",
+   "kicker": "CHRIS",
+   "title": "PROOF OF AUTHORITY: A MULTISIG BETWEEN FRIENDS"
+  },
+  {
+   "name": "exit",
+   "kicker": "UNILATERAL EXIT",
+   "title": "THE $100 WALLET THAT COST $80 TO LEAVE"
+  },
+  {
+   "name": "privacy",
+   "kicker": "PRIVACY",
+   "title": "SPARK SEES EVERYTHING YOU DO"
+  },
+  {
+   "name": "slop",
+   "kicker": "THE SLOP AUCTION",
+   "title": "CHRIS DORAN'S BLOG: THE AUCTION OR THE WALL"
+  },
+  {
+   "name": "agents",
+   "kicker": "AGENT CONGESTION",
+   "title": "EVERYONE'S BOT WANTS THE SAME TABLE"
+  },
+  {
+   "name": "wrap",
+   "kicker": "PERP OF FORTUNE RESULT",
+   "title": "+$3.72 ON ASTER \u00b7 ONE OF THE FEW"
+  }
+ ],
+ "stats": [
+  {
+   "name": "coldopen",
+   "kicker": "EPISODE 17",
+   "main": "In this pod\u2026"
+  },
+  {
+   "name": "sponsor",
+   "kicker": "THE SPONSOR",
+   "main": "who sponsors a cigarette competition?"
+  },
+  {
+   "name": "challenge",
+   "kicker": "THE CHALLENGE",
+   "main": "2 Rubik's cubes \u00b7 2 beers \u00b7 2 cigarettes"
+  },
+  {
+   "name": "streamer",
+   "kicker": "KOREAN PERP STREAMER",
+   "main": "50\u00d7 long, trading a Trump speech live"
+  },
+  {
+   "name": "conspiracy",
+   "kicker": "TYLER'S CONSPIRACY",
+   "main": "the pot doesn't exist \u00b7 it's paper trading"
+  },
+  {
+   "name": "mangambles",
+   "kicker": "NEW SHOW TITLE",
+   "main": "\"Man Gambles Child's College Fund\u2026\""
+  },
+  {
+   "name": "trump",
+   "kicker": "TRUMP ACCOUNTS",
+   "main": "perpifying the children's money"
+  },
+  {
+   "name": "jevwhat",
+   "kicker": "JEV",
+   "main": "typed output + a probability \u00b7 no sentences"
+  },
+  {
+   "name": "classifier",
+   "kicker": "TYLER",
+   "main": "not new: classifiers + transfer learning"
+  },
+  {
+   "name": "pokemon",
+   "kicker": "HEADLINE INFLATION",
+   "main": "beat Pok\u00e9mon Red: 37 h, $1.65, Claude coaching"
+  },
+  {
+   "name": "sum",
+   "kicker": "THE CATCH",
+   "main": "P(rain) + P(no rain) \u2260 1"
+  },
+  {
+   "name": "vacuum",
+   "kicker": "CHRIS",
+   "main": "vibable tasks: let Jev drive the vacuum"
+  },
+  {
+   "name": "libra",
+   "kicker": "LIGHTSPARK",
+   "main": "founded by the guy who built Libra (RIP)"
+  },
+  {
+   "name": "federation",
+   "kicker": "SPARK",
+   "main": "statechain-style L2 \u00b7 run by a federation"
+  },
+  {
+   "name": "deletekeys",
+   "kicker": "THE TRUST MODEL",
+   "main": "operators must DELETE old keys \u00b7 can't prove it"
+  },
+  {
+   "name": "claude",
+   "kicker": "TYLER",
+   "main": "\"Point your Claude at the code. It'll say yes.\""
+  },
+  {
+   "name": "coinbase",
+   "kicker": "THE ANALOGY",
+   "main": "process_withdrawals = true \u2192 \"non-custodial\""
+  },
+  {
+   "name": "wormhole",
+   "kicker": "CHRIS",
+   "main": "Wormhole: a multisig between friends"
+  },
+  {
+   "name": "opennoms",
+   "kicker": "OPENOMS' TEST",
+   "main": "22 leaves \u00b7 253 tx packages \u00b7 80% in fees"
+  },
+  {
+   "name": "explorer",
+   "kicker": "FOR FUNSIES",
+   "main": "a private ledger on a public block explorer"
+  },
+  {
+   "name": "slash",
+   "kicker": "CHRIS",
+   "main": "slashing fails when the validators are homies"
+  },
+  {
+   "name": "operators",
+   "kicker": "THE OPERATORS",
+   "main": "Lightspark \u00b7 Flashnet \u00b7 Breez"
+  },
+  {
+   "name": "ark",
+   "kicker": "TYLER",
+   "main": "Ark: same UX, unilaterally better trust model"
+  },
+  {
+   "name": "nice",
+   "kicker": "TYLER",
+   "main": "nice things: the best SDK in Bitcoin"
+  },
+  {
+   "name": "flashbots",
+   "kicker": "FLASHBOTS",
+   "main": "most L2 transactions are MEV spam, not trades"
+  },
+  {
+   "name": "fizzle",
+   "kicker": "FIZZLING ORDERS",
+   "main": "100 dumb orders \u00b7 1 hit \u00b7 still positive EV"
+  },
+  {
+   "name": "1559",
+   "kicker": "EIP-1559",
+   "main": "a progressive tax on gas (\"ultrasound money\")"
+  },
+  {
+   "name": "tullock",
+   "kicker": "TULLOCK CONTEST",
+   "main": "a raffle: buy tickets until the prize is gone"
+  },
+  {
+   "name": "auctionwall",
+   "kicker": "THE FIX",
+   "main": "the auction (1559) or the wall (KYC, paywalls)"
+  },
+  {
+   "name": "jevcent",
+   "kicker": "PROOF OF FUN",
+   "main": "Jev can do that for one cent \u00b7 it's so over"
+  },
+  {
+   "name": "captcha",
+   "kicker": "CAPTCHAS",
+   "main": "the bots are better at them than Chris"
+  },
+  {
+   "name": "valentine",
+   "kicker": "JACKSON",
+   "main": "congestion pricing for a Valentine's booking"
+  },
+  {
+   "name": "taqueria",
+   "kicker": "CHRIS",
+   "main": "ten taquerias, one anointed by Nate Silver"
+  },
+  {
+   "name": "volatility",
+   "kicker": "NEXT WEEK",
+   "main": "Perp of Fortune needs more volatility"
+  }
+ ],
+ "thumbnail": {
+  "text": "THE AI CAN'T EVEN TALK",
+  "out": "/Users/jcook/Personal/permanent-underpod/media/ep17/ep17-thumbnail.png",
+  "faces": [
+   {
+    "file": "../Untitled recording.mp4",
+    "crop": [
+     974,
+     16,
+     916,
+     440
+    ],
+    "t": 1380.0,
+    "cx": 640,
+    "top": 90,
+    "h": 630
+   },
+   {
+    "file": "../Untitled recording.mp4",
+    "crop": [
+     508,
+     544,
+     916,
+     440
+    ],
+    "t": 643.0,
+    "cx": 250,
+    "top": 120,
+    "h": 590
+   },
+   {
+    "file": "../Untitled recording.mp4",
+    "crop": [
+     32,
+     16,
+     912,
+     440
+    ],
+    "t": 1281.0,
+    "cx": 1040,
+    "top": 140,
+    "h": 570
+   }
+  ]
+ }
+}

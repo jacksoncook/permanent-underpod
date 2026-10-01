@@ -38,11 +38,6 @@ CLIPDIR = os.path.join(WORK, "clips")
 os.makedirs(CLIPDIR, exist_ok=True)
 
 OUT_W, OUT_H = 1280, 720
-# Gallery mode (one video of a video-call grid): every keep-interval is further split
-# at the speaker-following shot boundaries from gallery_shots.py, and each piece is
-# rendered as a static crop of that shot's tile, scaled to house 1280x720. Static
-# per-clip crops cost nothing extra (the clip is re-encoded anyway) and keep every
-# shot change a frame-exact hard cut; the zoompan reframe path stays for couch episodes.
 GALLERY = PLAN.get("gallery")
 SHOTS = json.load(open(os.path.join(WORK, "shots.json"))) if GALLERY else None
 MIN_PIECE = 0.4
@@ -176,13 +171,13 @@ with ThreadPoolExecutor(max_workers=4 if GALLERY else 3) as ex:
     if not all(ex.map(render, clips)):
         sys.exit(1)
 
+# Timeline position is cumulative frames/FPS, never ffprobe's container duration:
+# videotoolbox pads that by up to a frame per clip (4.7 s over Ep 17's 291 clips).
 cum = 0.0
 for c in clips:
-    d = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration",
-                              "-of", "csv=p=0", os.path.join(WORK, c["file"])],
-                             capture_output=True, text=True).stdout.strip())
-    c["final_start"], c["dur"] = round(cum, 3), round(d, 3)
-    cum += d
+    c["frames"] = clip_vframes(os.path.join(WORK, c["file"]))
+    c["final_start"], c["dur"] = round(cum, 3), round(c["frames"] / FPS, 3)
+    cum += c["frames"] / FPS
 print(f"final runtime: {cum/60:.2f} min")
 
 # --- Concatenate with GUARANTEED sync ---------------------------------------
@@ -214,7 +209,7 @@ with open(raw_audio, "wb") as out:
         # the 44-min MAIN clip lost 0.21s, desyncing the entire back half). Padding/
         # trimming per clip to frames*SPF makes the concatenated audio == total
         # frames*SPF to the sample, regardless of any per-clip muxer truncation.
-        target = clip_vframes(path) * SPF
+        target = c["frames"] * SPF
         subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error",
                         "-i", path, "-map", "0:a",
                         "-af", f"apad,atrim=end_sample={target}",

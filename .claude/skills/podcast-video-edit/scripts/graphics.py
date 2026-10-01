@@ -97,9 +97,14 @@ img.alpha_composite(logo.resize((150, 150), Image.LANCZOS), ((W - 150) // 2, 36)
 d = ImageDraw.Draw(img)
 center(d, 212, " ".join(ec.get("kicker", "NEXT TIME ON")), font(BOLD_F, 26), ACC)
 center(d, 252, BRAND["show"], font(BLACK_F, 50), WHITE)
-y = 360
+y, step = 360, 58 if len(ec.get("lines", [])) <= 3 else 48
 for ln in ec.get("lines", []):
-    center(d, y, f"·  {ln}  ·", font(BOLD_F, 33), (235, 235, 235, 255)); y += 58
+    size = 33
+    while d.textbbox((0, 0), f"·  {ln}  ·", font=font(BOLD_F, size))[2] > W - 80:
+        size -= 1
+        if size < 24:
+            sys.exit(f"end card line too long even at 24 px: {ln!r}")
+    center(d, y, f"·  {ln}  ·", font(BOLD_F, size), (235, 235, 235, 255)); y += step
 center(d, 562, ec.get("cta", "LIKE + SUBSCRIBE"), font(BLACK_F, 38), ACC)
 img.convert("RGB").save(os.path.join(WORK, "png_end.png"))
 card_video(os.path.join(WORK, "png_end.png"), ec.get("dur", 7), "card_end.mov")
