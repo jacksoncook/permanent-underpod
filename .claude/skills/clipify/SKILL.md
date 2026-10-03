@@ -258,6 +258,14 @@ Secrets live OUTSIDE the repo; never commit `client_secret.json` / `token.json`.
    The first real run opens a browser once to authorize; the token is cached after.
 4. Report the resulting URLs. Scheduled clips stay **private** until `publishAt`,
    then auto-publish.
+5. **Enqueue the same clips for TikTok** (house rule since 2026-10-03: every clip goes
+   to TikTok too). Run it after the upload so the YouTube ids ride along:
+   ```bash
+   python3 scripts/tt_enqueue.py <manifest>.json          # appends to media/clips/tiktok/queue.json
+   ```
+   One per Pacific day, same day as the YouTube release (bumped if the day is taken).
+   Read the generated captions back; tweak hooks in `queue.json` if the YouTube title
+   does not stand alone. The daily LaunchAgent does the posting — nothing to repoint.
 
 **Show conventions (learned Ep 4 — follow by default):**
 
@@ -336,34 +344,34 @@ playlist inserts, `videos.update` tag patches and captions all share it. Jackson
 manual Studio uploads revoke tokens (five times so far) — probe each token file
 individually before re-authing; on the browser screen pick the brand channel.
 
-## Publish to TikTok (`scripts/tt_upload.py`)
+## Publish to TikTok (`scripts/tt_upload.py` + `scripts/tt_enqueue.py`)
 Account: **@permanentunderpod**. No API: TikTok's Content Posting API only allows private posts
 until an app audit, so this drives TikTok Studio's web uploader with Playwright.
 
-```bash
-~/.config/clipify-tiktok/.venv/bin/python .claude/skills/clipify/scripts/tt_upload.py \
-  media/clips/tiktok/manifest.json [--dry-run] [--force] [--headful]
-```
-- Manifest: `{"account", "items": [{"postOn": "YYYY-MM-DD", "file", "caption"}]}`. One post per
-  run, one per local day; the earliest due item wins. Results land in `manifest.json.results.json`
-  (file → postedOn, url). `--dry-run` fills everything in and discards.
-- Daily job: LaunchAgent `com.jcook.underpod.tiktok-daily` runs at 17:00 and 19:00 local
-  (2 PM / 4 PM PT; the 19:00 run is a free retry). Log: `media/clips/tiktok/tt_upload.log`.
-  Repoint the manifest path per batch, like the pin-comments agent.
-- Session: `~/.config/clipify-tiktok/chrome-profile` is a clone of the Chrome profile that is
+- **Standing queue:** `media/clips/tiktok/queue.json` — `{"account", "postHourLocal",
+  "items": [{"postOn": "YYYY-MM-DD", "file", "caption", "ytId"}]}`. `tt_enqueue.py <yt-manifest>`
+  appends an episode's clips (one per Pacific day, idempotent). Hand-edit captions there.
+- **Poster:** `tt_upload.py <queue.json> [...]` posts at most one item per manifest per run and
+  one per local day, never before that manifest's `postHourLocal`. Results: `<queue>.results.json`
+  (file → postedOn, url). `--dry-run` fills everything in and discards; `--force` skips the
+  day/hour guards.
+- **Daily job:** LaunchAgent `com.jcook.underpod.tiktok-daily` runs at 17:00, 19:00 and 21:00
+  local (ET machine = 2 / 4 / 6 PM PT) over `manifest.json` (one-off batches, slot 17) and
+  `queue.json` (slot 19; later runs are free retries). Log: `media/clips/tiktok/tt_upload.log`.
+  Flip `postHourLocal` to 17 once the Oct 3–9 top-7 batch is done if clips should go out with
+  the YouTube 2 PM PT slot.
+- **Session:** `~/.config/clipify-tiktok/chrome-profile` is a clone of the Chrome profile that is
   logged into TikTok (`Local State` + `Profile N/Cookies` + `Preferences`). Chrome MUST launch
   with the real keychain (`ignore_default_args=["--use-mock-keychain"]`) or every encrypted
   cookie is dropped and you look logged out. The script checks the account first and fails loudly.
   Logged out → re-copy the Cookies file from the Chrome profile that has the session.
-- Flow Studio enforces: wait for "Uploaded", dismiss the content-checks / "Got it" popups, caption
-  typed word-by-word so hashtag dropdowns close, wait for "No issues found", click Post, answer
-  the "Continue to post?" dialog with "Post now", then confirm the new row on
-  `/tiktokstudio/content` (Studio redirects there; the row links `/@user/video/<id>`).
-- Captions: hook first, 3–4 hashtags, "Full episode: Permanent Underpod" by name only (TikTok
+- **Flow Studio enforces:** wait for "Uploaded", dismiss the content-checks / "Got it" popups,
+  caption typed word-by-word so hashtag dropdowns close, wait for "No issues found", click Post,
+  answer "Continue to post?" with "Post now", then confirm the new row on `/tiktokstudio/content`
+  (Studio redirects there; the row links `/@user/video/<id>`).
+- **Captions:** hook first, 2–4 hashtags, "Full episode: Permanent Underpod" by name only (TikTok
   does not linkify, and other-platform links are a known downrank). Same house rules as YouTube
-  copy: no employer names, no segment jargon.
-- First batch (2026-10-03 → 10-09): the top-7 YouTube Shorts by lifetime views, see
-  `episodes/tiktok.md`.
+  copy: no employer names, no segment jargon. Sheet: `episodes/tiktok.md`.
 
 ## Notes / gotchas
 

@@ -1,7 +1,9 @@
 # TikTok — @permanentunderpod
 
-Posting sheet for TikTok. Posted by `tt_upload.py` from `media/clips/tiktok/manifest.json`
-(LaunchAgent `com.jcook.underpod.tiktok-daily`, 2 PM PT daily, 4 PM PT retry).
+Posting sheet for TikTok. Every clip goes to TikTok (house rule since 2026-10-03):
+`tt_enqueue.py` adds an episode's YouTube manifest to `media/clips/tiktok/queue.json`, and
+LaunchAgent `com.jcook.underpod.tiktok-daily` posts one queue item per day at 4 PM PT
+(`postHourLocal` 19 ET). The one-off top-7 batch below runs from `manifest.json` at 2 PM PT.
 
 ## Batch 1 — top 7 YouTube Shorts by lifetime views (pulled 2026-10-03)
 
@@ -19,3 +21,17 @@ Posting sheet for TikTok. Posted by `tt_upload.py` from `media/clips/tiktok/mani
 - The Ep 1 short had no local master; it was pulled from YouTube with yt-dlp (1080x1920 h264).
 - Live state after each post: `media/clips/tiktok/manifest.json.results.json` and `tt_upload.log`.
 - Owed (manual, Jackson): YouTube channel link in the TikTok bio; check Oct 4 post landed.
+
+## Ep 17 clips — standing queue, 4 PM PT daily (two hours after the top-7 slot)
+
+| Day | Clip | TikTok |
+|---|---|---|
+| Fri Oct 3 | short1-chopstick | queued |
+| Sat Oct 4 | short3-resume | queued |
+| Sun Oct 5 | short5-trump-account | queued |
+| Mon Oct 6 | short6-telescope | queued |
+| Tue Oct 7 | short10-captcha | queued |
+| Wed Oct 8 | short7-headline-inflation | queued |
+| Thu Oct 9 | short2-cig-order | queued |
+
+Same seven as the YouTube release, same order. Holds (short4, short11) stay held.

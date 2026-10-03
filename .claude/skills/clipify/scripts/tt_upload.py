@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
 """Post the next due short to TikTok through TikTok Studio's web uploader.
 
-usage: tt_upload.py <manifest.json> [--dry-run] [--force] [--headful]
+usage: tt_upload.py <manifest.json> [<manifest.json> ...] [--dry-run] [--force] [--headful]
 
-manifest.json: {"account": "<tiktok username>",
+manifest.json: {"account": "<tiktok username>", "postHourLocal": 17,
                 "items": [{"postOn": "YYYY-MM-DD", "file": "<mp4>", "caption": "<text with #tags>"}]}
 
-Posts at most ONE item per run and at most one per local calendar day: the earliest item whose
-postOn is today or earlier and is not yet in <manifest>.results.json. --force ignores the
-once-per-day guard (not the results file). --dry-run fills everything in, then discards.
+Per manifest: posts at most ONE item per run and at most one per local calendar day, never before
+postHourLocal: the earliest item whose postOn is today or earlier and is not yet in
+<manifest>.results.json. Several manifests with different postHourLocal values give several daily
+slots from one LaunchAgent. --force ignores the once-per-day and hour guards (not the results
+file). --dry-run fills everything in, then discards.
 
 Session: a cloned Chrome profile at ~/.config/clipify-tiktok/chrome-profile (cookies copied from
 the Chrome profile that is logged into TikTok). Chrome must be launched with the real keychain
@@ -31,9 +33,19 @@ ACCOUNT_INFO_URL = "https://www.tiktok.com/passport/web/account/info/?aid=1459&a
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     flags = {a for a in sys.argv[1:] if a.startswith("--")}
-    if len(args) != 1:
+    if not args:
         print(__doc__); sys.exit(2)
-    manifest_path = args[0]
+    failures = 0
+    for manifest_path in args:
+        try:
+            run(manifest_path, flags)
+        except Exception as e:
+            failures += 1
+            print(f"FAILED {manifest_path}: {e!r}")
+    sys.exit(1 if failures else 0)
+
+
+def run(manifest_path, flags):
     dry = "--dry-run" in flags
     manifest = json.load(open(manifest_path))
     results_path = manifest_path + ".results.json"
@@ -43,16 +55,19 @@ def main():
 
     posted_today = [k for k, v in results.items() if v.get("postedOn") == today.isoformat()]
     if posted_today and "--force" not in flags:
-        print(f"{stamp} already posted today ({posted_today[0]}); nothing to do"); return
+        print(f"{stamp} {manifest_path}: already posted today ({posted_today[0]})"); return
+    slot = manifest.get("postHourLocal", 0)
+    if datetime.datetime.now().hour < slot and not (dry or "--force" in flags):
+        print(f"{stamp} {manifest_path}: before the {slot}:00 slot"); return
     due = sorted((it for it in manifest["items"]
                   if it["file"] not in results and datetime.date.fromisoformat(it["postOn"]) <= today),
                  key=lambda it: it["postOn"])
     if not due:
-        print(f"{stamp} nothing due"); return
+        print(f"{stamp} {manifest_path}: nothing due"); return
     item = due[0]
     path = os.path.abspath(item["file"])
     if not os.path.exists(path):
-        print(f"{stamp} MISSING {path}"); sys.exit(1)
+        raise FileNotFoundError(path)
     print(f"{stamp} posting {item['file']} (postOn {item['postOn']}, dry={dry})")
 
     from playwright.sync_api import sync_playwright
