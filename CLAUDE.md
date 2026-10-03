@@ -35,7 +35,9 @@ production files. Not affiliated with any employer.
 - **clipify**: `verify_clips.py` GATES the clips.json (**always run it first** — it is
   what stops the Ep 8 boomerang + mid-word cuts from recurring); `clipify.py` cuts clips;
   `yt_upload.py` publishes (scheduled-private, auto-publish at a `publishAt`);
-  `yt_fetch.py` reads back live video metadata. One-time OAuth setup is in
+  `yt_fetch.py` reads back live video metadata; `tt_upload.py` posts to TikTok
+  (@permanentunderpod) via TikTok Studio + Playwright, one per day from a manifest,
+  driven by LaunchAgent `com.jcook.underpod.tiktok-daily` (sheet: `episodes/tiktok.md`). One-time OAuth setup is in
   `.claude/skills/clipify/youtube-setup.md`.
 - **channel-analytics**: `yt_pull.py` pulls channel/video stats + retention curves +
   traffic sources + impressions/CTR; LLM writes `analytics/insights.json`; `report.py`
