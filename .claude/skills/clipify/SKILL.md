@@ -258,14 +258,18 @@ Secrets live OUTSIDE the repo; never commit `client_secret.json` / `token.json`.
    The first real run opens a browser once to authorize; the token is cached after.
 4. Report the resulting URLs. Scheduled clips stay **private** until `publishAt`,
    then auto-publish.
-5. **Enqueue the same clips for TikTok** (house rule since 2026-10-03: every clip goes
-   to TikTok too). Run it after the upload so the YouTube ids ride along:
+5. **Schedule the same clips on TikTok** (house rule since 2026-10-03: every clip goes
+   to TikTok too). Right after the YouTube upload, so the ids ride along:
    ```bash
-   python3 scripts/tt_enqueue.py <manifest>.json          # appends to media/clips/tiktok/queue.json
+   python3 scripts/tt_enqueue.py <manifest>.json                       # → media/clips/tiktok/queue.json
+   ~/.config/clipify-tiktok/.venv/bin/python scripts/tt_upload.py media/clips/tiktok/queue.json --dry-run
+   ~/.config/clipify-tiktok/.venv/bin/python scripts/tt_upload.py media/clips/tiktok/queue.json
    ```
-   One per Pacific day, same day as the YouTube release (bumped if the day is taken).
-   Read the generated captions back; tweak hooks in `queue.json` if the YouTube title
-   does not stand alone. The daily LaunchAgent does the posting — nothing to repoint.
+   Enqueue = one per Pacific day, same day as the YouTube release (bumped if taken); read
+   the generated captions back and fix hooks in `queue.json` that do not stand alone.
+   Upload = every pending item is SCHEDULED in TikTok Studio in one pass. Clips release
+   ≤7 days out, so Studio's 10-day scheduling limit never binds as long as this runs at
+   clipify time. No daemon, nothing to babysit.
 
 **Show conventions (learned Ep 4 — follow by default):**
 
@@ -346,32 +350,33 @@ individually before re-authing; on the browser screen pick the brand channel.
 
 ## Publish to TikTok (`scripts/tt_upload.py` + `scripts/tt_enqueue.py`)
 Account: **@permanentunderpod**. No API: TikTok's Content Posting API only allows private posts
-until an app audit, so this drives TikTok Studio's web uploader with Playwright.
+until an app audit, so this drives TikTok Studio's web uploader with Playwright and uses Studio's
+own scheduler (up to 10 days ahead) — see step 5 of the YouTube flow for the per-episode commands.
 
-- **Standing queue:** `media/clips/tiktok/queue.json` — `{"account", "postHourLocal",
+- **Queue:** `media/clips/tiktok/queue.json` — `{"account", "postHourLocal",
   "items": [{"postOn": "YYYY-MM-DD", "file", "caption", "ytId"}]}`. `tt_enqueue.py <yt-manifest>`
   appends an episode's clips (one per Pacific day, idempotent). Hand-edit captions there.
-- **Poster:** `tt_upload.py <queue.json> [...]` posts at most one item per manifest per run and
-  one per local day, never before that manifest's `postHourLocal`. Results: `<queue>.results.json`
-  (file → postedOn, url). `--dry-run` fills everything in and discards; `--force` skips the
-  day/hour guards.
-- **Daily job:** LaunchAgent `com.jcook.underpod.tiktok-daily` runs at 17:00, 19:00 and 21:00
-  local (ET machine = 2 / 4 / 6 PM PT) over `manifest.json` (one-off batches, slot 17) and
-  `queue.json` (slot 19; later runs are free retries). Log: `media/clips/tiktok/tt_upload.log`.
-  Flip `postHourLocal` to 17 once the Oct 3–9 top-7 batch is done if clips should go out with
-  the YouTube 2 PM PT slot.
+  `postHourLocal` is machine-local (ET): 17 = 2 PM PT, 19 = 4 PM PT.
+- **Uploader:** `tt_upload.py <queue.json> [...] [--dry-run] [--headful] [--max N]` handles every
+  item not in `<queue>.results.json`: ≥20 min away → scheduled in Studio; due today and past →
+  posted now; day already past → skipped and reported. Results: file → scheduledFor/postedOn,
+  url. `--dry-run` fills everything in (incl. the date/time pickers) and discards.
 - **Session:** `~/.config/clipify-tiktok/chrome-profile` is a clone of the Chrome profile that is
   logged into TikTok (`Local State` + `Profile N/Cookies` + `Preferences`). Chrome MUST launch
   with the real keychain (`ignore_default_args=["--use-mock-keychain"]`) or every encrypted
   cookie is dropped and you look logged out. The script checks the account first and fails loudly.
   Logged out → re-copy the Cookies file from the Chrome profile that has the session.
 - **Flow Studio enforces:** wait for "Uploaded", dismiss the content-checks / "Got it" popups,
-  caption typed word-by-word so hashtag dropdowns close, wait for "No issues found", click Post,
-  answer "Continue to post?" with "Post now", then confirm the new row on `/tiktokstudio/content`
-  (Studio redirects there; the row links `/@user/video/<id>`).
+  caption typed word-by-word so hashtag dropdowns close; Schedule radio → one-time "Allow"
+  consent → hour/minute columns (`span.tiktok-timepicker-left/right`) and calendar
+  (`span.day.valid`, month arrow) — values are read back from the inputs before posting; wait for
+  "No issues found"; click Schedule/Post; answer "Continue to post?"; confirm the new row on
+  `/tiktokstudio/content` (Studio redirects there; the row links `/@user/video/<id>`).
 - **Captions:** hook first, 2–4 hashtags, "Full episode: Permanent Underpod" by name only (TikTok
   does not linkify, and other-platform links are a known downrank). Same house rules as YouTube
   copy: no employer names, no segment jargon. Sheet: `episodes/tiktok.md`.
+- History: 2026-10-03 ran as a daily LaunchAgent poster for one day before switching to Studio
+  scheduling; `media/clips/tiktok/manifest.json` is the one-off top-7 YouTube Shorts batch.
 
 ## Notes / gotchas
 

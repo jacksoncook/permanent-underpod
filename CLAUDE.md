@@ -35,10 +35,9 @@ production files. Not affiliated with any employer.
 - **clipify**: `verify_clips.py` GATES the clips.json (**always run it first** — it is
   what stops the Ep 8 boomerang + mid-word cuts from recurring); `clipify.py` cuts clips;
   `yt_upload.py` publishes (scheduled-private, auto-publish at a `publishAt`);
-  `yt_fetch.py` reads back live video metadata; `tt_upload.py` posts to TikTok
-  (@permanentunderpod) via TikTok Studio + Playwright, one per day from
-  `media/clips/tiktok/queue.json` (`tt_enqueue.py` fills it from a YouTube manifest),
-  driven by LaunchAgent `com.jcook.underpod.tiktok-daily` (sheet: `episodes/tiktok.md`).
+  `yt_fetch.py` reads back live video metadata; `tt_upload.py` schedules clips on TikTok
+  (@permanentunderpod) via TikTok Studio + Playwright from `media/clips/tiktok/queue.json`
+  (`tt_enqueue.py` fills it from a YouTube manifest; sheet: `episodes/tiktok.md`).
   One-time OAuth setup is in
   `.claude/skills/clipify/youtube-setup.md`.
 - **channel-analytics**: `yt_pull.py` pulls channel/video stats + retention curves +
@@ -59,9 +58,9 @@ production files. Not affiliated with any employer.
    verticals. **SHORTS ONLY — long-form pulls retired (Jackson, 2026-08-14).**
    **Run `verify_clips.py` before rendering and again with `--rendered` after** —
    never skip it because the picks "look right" in the JSON.
-   Upload staggered (house pattern: daily 2 PM PT = 21:00 UTC), then `tt_enqueue.py`
-   the same manifest so every clip also posts to TikTok (standing queue, daily
-   LaunchAgent; since 2026-10-03). Then work the
+   Upload staggered (house pattern: daily 2 PM PT = 21:00 UTC), then `tt_enqueue.py` +
+   `tt_upload.py` the same manifest so every clip is also scheduled on TikTok via
+   TikTok Studio (since 2026-10-03; no daemon). Then work the
    FUNNEL CHECKLIST the uploader prints — related video, pinned comment with
    episode link + timestamp, end screens. That checklist is manual and is the
    channel's weakest metric; don't let it slide.
