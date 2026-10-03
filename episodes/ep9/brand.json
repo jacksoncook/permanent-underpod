@@ -2,11 +2,15 @@
   "show": "PERMANENT UNDERPOD",
   "show_kicker": "PERMANENT",
   "show_main": "UNDERPOD",
-  "accent": [255, 210, 74],
+  "accent": [
+    255,
+    210,
+    74
+  ],
   "source": "/Users/jcook/Personal/permanent-underpod/media/ep9/work/src/jackson_720.mp4",
   "title_card": {
     "bg_frame": 2110,
-    "line": "EPISODE 9   ·   The Coldcard Catastrophe   ·   Bitcoin  ·  Stablecoins  ·  AI",
+    "line": "EPISODE 9   \u00b7   The Coldcard Catastrophe   \u00b7   Bitcoin  \u00b7  Stablecoins  \u00b7  AI",
     "dur": 4.5
   },
   "end_card": {
@@ -21,22 +25,110 @@
     "dur": 7
   },
   "lower_thirds": [
-    {"name": "intro", "kicker": "EPISODE 9", "title": "THE BOYS ARE BACK"},
-    {"name": "perp", "kicker": "THE ROLL", "title": "PERP OF FORTUNE — LONG SK HYNIX · 10×"},
-    {"name": "marq", "kicker": "THE MARQUEE", "title": "THE COLDCARD CATASTROPHE"},
-    {"name": "fallout", "kicker": "THE FALLOUT", "title": "IS SELF-CUSTODY COOKED?"},
-    {"name": "glass", "kicker": "WHO GETS THE FRONTIER MODELS?", "title": "GLASSWING & THE 2×2 FROM HELL"},
-    {"name": "checkin", "kicker": "STILL LONG SK HYNIX", "title": "PERP CHECK-IN (+ ACTUAL CHECK-IN)"},
-    {"name": "rant", "kicker": "RANT TIME", "title": "THE FRONTIER-MODEL PISSING CONTEST"},
-    {"name": "wrap", "kicker": "STAY SAFE OUT THERE", "title": "CLOSING TAKES"}
+    {
+      "name": "intro",
+      "kicker": "EPISODE 9",
+      "title": "THE BOYS ARE BACK"
+    },
+    {
+      "name": "perp",
+      "kicker": "THE ROLL",
+      "title": "PERP OF FORTUNE \u2014 LONG SK HYNIX \u00b7 10\u00d7"
+    },
+    {
+      "name": "marq",
+      "kicker": "THE MARQUEE",
+      "title": "THE COLDCARD CATASTROPHE"
+    },
+    {
+      "name": "fallout",
+      "kicker": "THE FALLOUT",
+      "title": "IS SELF-CUSTODY COOKED?"
+    },
+    {
+      "name": "glass",
+      "kicker": "WHO GETS THE FRONTIER MODELS?",
+      "title": "GLASSWING & THE 2\u00d72 FROM HELL"
+    },
+    {
+      "name": "checkin",
+      "kicker": "STILL LONG SK HYNIX",
+      "title": "PERP CHECK-IN (+ ACTUAL CHECK-IN)"
+    },
+    {
+      "name": "rant",
+      "kicker": "RANT TIME",
+      "title": "THE FRONTIER-MODEL PISSING CONTEST"
+    },
+    {
+      "name": "wrap",
+      "kicker": "STAY SAFE OUT THERE",
+      "title": "CLOSING TAKES"
+    }
   ],
   "stats": [
-    {"name": "coldopen", "kicker": "EPISODE 9", "main": "In this pod…"},
-    {"name": "roll", "kicker": "THE ROLL", "main": "LONG XYZ:SKHX  ·  10×  ·  $100"},
-    {"name": "korea", "kicker": "MEANWHILE IN KOREA", "main": "~10% of adults margin-called in a month"},
-    {"name": "rng", "kicker": "THE BUG", "main": "2²⁵⁶ keys → a guessable few"},
-    {"name": "runs", "kicker": "THE COMMIT MESSAGE", "main": "\"runs\"  —  4 letters, thousands of lines"},
-    {"name": "dark", "kicker": "TYLER'S CALL", "main": "\"The darkest day in Bitcoin I can remember\""},
-    {"name": "astra", "kicker": "ASTRA'S FLEX", "main": "10 open problems  ·  $2,000 in tokens"}
-  ]
+    {
+      "name": "coldopen",
+      "kicker": "EPISODE 9",
+      "main": "In this pod\u2026"
+    },
+    {
+      "name": "roll",
+      "kicker": "THE ROLL",
+      "main": "LONG XYZ:SKHX  \u00b7  10\u00d7  \u00b7  $100"
+    },
+    {
+      "name": "korea",
+      "kicker": "MEANWHILE IN KOREA",
+      "main": "~10% of adults margin-called in a month"
+    },
+    {
+      "name": "rng",
+      "kicker": "THE BUG",
+      "main": "2\u00b2\u2075\u2076 keys \u2192 a guessable few"
+    },
+    {
+      "name": "runs",
+      "kicker": "THE COMMIT MESSAGE",
+      "main": "\"runs\"  \u2014  4 letters, thousands of lines"
+    },
+    {
+      "name": "dark",
+      "kicker": "TYLER'S CALL",
+      "main": "\"The darkest day in Bitcoin I can remember\""
+    },
+    {
+      "name": "astra",
+      "kicker": "ASTRA'S FLEX",
+      "main": "10 open problems  \u00b7  $2,000 in tokens"
+    }
+  ],
+  "thumbnail": {
+    "text": "ONE COMMIT DRAINED THEM ALL",
+    "out": "/Users/jcook/Personal/permanent-underpod/media/ep9/ep9-thumbnail.png",
+    "_note": "Source tracks (work/src) were gone by 2026-10-03; faces come from the Final Cut (t = final-cut seconds).",
+    "faces": [
+      {
+        "file": "../Permanent Underpod - Ep 9 (Final Cut).mp4",
+        "t": 955.8,
+        "cx": 300,
+        "top": 150,
+        "h": 570
+      },
+      {
+        "file": "../Permanent Underpod - Ep 9 (Final Cut).mp4",
+        "t": 1767.8,
+        "cx": 1060,
+        "top": 140,
+        "h": 580
+      },
+      {
+        "file": "../Permanent Underpod - Ep 9 (Final Cut).mp4",
+        "t": 153.8,
+        "cx": 640,
+        "top": 110,
+        "h": 600
+      }
+    ]
+  }
 }
