@@ -41,7 +41,8 @@ card copy, chapter labels. Everything else is the scripts' problem.
 
 After the full render: spot-check frames at overlay windows (`overlays.json` has
 exact final times), confirm A/V durations match, loudnorm-measure the result
-(target ≈ -16 LUFS, TP ≤ -1 dBTP). If peaks are hot, re-render AUDIO ONLY from
+(target ≈ -16 LUFS, TP ≤ -1 dBTP), and check all three LIKE + SUBSCRIBE picture-and-sound
+windows per the house rule below. If peaks are hot, re-render AUDIO ONLY from
 edited_raw.mov and remux with `-c:v copy` — never re-encode video for an audio fix:
 `final_render.py <work> render.json --audio-only` does exactly this (~72 s on a
 52-min episode vs ~10 min for a full re-encode, and the video stays bit-identical).
@@ -269,8 +270,40 @@ the user noticed. Enumerate the transition block list ONCE and write both arrays
   splice or it just looks like a stray graphic.
 - `anim` entries also carry document-style overlays (a dimmed frame + a paper table, Ep 13's
   `levels_*.mov`); give those `"hide_logo": true` so the corner bug drops out for the window.
-- Verify by counting, not by eye: `len(anim) == len(sfx) == len(transition blocks)`, then
-  spot-check frames at 2–3 `anim` start times in the finished mp4.
+- Verify transition wipes and whooshes against transition blocks only: each transition
+  block has one `wipe.mov` anim and one `sfx_whoosh.wav` sfx. Count other anim/sfx
+  separately (the CTA rule below adds three other pairs), then spot-check frames at 2–3
+  wipe start times in the finished mp4.
+
+### HOUSE RULE — three LIKE + SUBSCRIBE pop-ups
+
+- Every full episode, couch/remote/gallery, needs the existing animated pop-up and
+  matching sound three times: approximately **2:00 of FINAL time**, approximately the
+  halfway point of FINAL time, then approximately the final few minutes before the end
+  card. Move each to the nearest natural pause, light reaction, or segment lull. Never
+  cover punchlines, key explanations, or emotional beats. Require a clear 6s window
+  with no cards, wipes, lower-thirds, PiP entrances, or important on-screen content.
+- Keep the pop-up unobtrusive. Reuse the existing 6s animation and matching SFX, with
+  the sound soft under voices rather than an attention spike.
+- Copy `likesub.mov` and `sfx_likesub.wav` from a previous episode workdir into the
+  current workdir. Both are 6s. If either is absent, flag missing assets; never skip.
+- Add one paired `anim` and `sfx` entry per placement. `episodes/ep15/render.json` is
+  the schema reference; its late timestamps are not the target timing for new edits.
+```json
+{"anim":[{"file":"likesub.mov","start":120.0,"end":126.0,"x":0,"y":0}],
+ "sfx":[{"file":"sfx_likesub.wav","block":"INTRO","offset":12.0}]}
+```
+- Use the real block and block-relative offset. Require an exact 6s window and
+  `anim.start == blk_start(block) + offset`.
+- Before the full render, count exactly 3 `likesub.mov` anim entries and 3 matching
+  `sfx_likesub.wav` sfx entries. Copying assets alone is not enough.
+- After render, inspect ALL THREE windows in the FINAL MP4: frames near `start+1.5` and
+  `start+3.9`, plus a picture and audio preview confirming the clicks and bell are in
+  sync. Verify each stays unobtrusive, does not step on speech or punchlines, mask
+  voices, or create a distracting spike. `--test=75` does not reach the first pop-up.
+  Record all three timestamps and QA in `segment-times.md`.
+- Static end-card wording, a description subscribe teaser, or host speech does not
+  replace any animated+sound pair. Do not fabricate host narration.
 
 ## Branding quickly with Pillow
 
@@ -381,6 +414,16 @@ cropping the active speaker's TILE to full frame and hard-cutting between tiles.
   (the clip is re-encoded anyway), frame-exact, and avoids N chained zoompan passes
   over 1080p (a 285-window schedule would be 8 passes). Clip count jumps from ~30 to
   ~850; 4 workers, ~10 min. Clips carry `"shot"` in clips.json for clipify later.
+- **Gallery Shorts need their own speaker schedule.** Run
+  `gallery_clip_source.py <work> <plan.json> <name> <raw-start> <raw-end>` to make
+  an unbranded 1280×720 tile source and print the clip entry. `--keys` accepts
+  absolute `time:person` pairs; `--start` / `--end` set the actual in/out within
+  the padded source. It refines `layout.json` share spans at 30 fps and switches
+  to a centered screen-share crop there. For animated layout changes, inspect
+  exact frame indices: `--lead-frames` covers movement before the badges vanish,
+  and `--wide-hold` opts into a held dashboard insert. Moving shares remain the
+  default. The clip gate checks switches, not whether the dashboard fits. Run clipify's
+  before/after gates and let clipify add the audio chain, logo, caption, and ender.
 - **Disk: budget ~15 GB free before cut_render.** 850 clips at 10 Mbps ≈ 4.7 GB,
   edited_raw ≈ 5.6 GB, final ≈ 3.5 GB, the diarization venv 0.7 GB. Ep 17 ran the
   volume to zero mid-render and every tool call died (the harness could not open its

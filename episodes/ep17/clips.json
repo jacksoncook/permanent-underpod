@@ -1,0 +1,297 @@
+{
+  "source": "/Users/jcook/Personal/permanent-underpod/media/ep17/work/edited_raw.mov",
+  "out_dir": "/Users/jcook/Personal/permanent-underpod/media/clips/ep17",
+  "logo": "/Users/jcook/Personal/permanent-underpod/media/ep17/work/logo.png",
+  "audio_chain": "adeclip,highpass=f=80,equalizer=f=250:t=q:w=1.2:g=-3,equalizer=f=2800:t=q:w=1.4:g=2,adynamicequalizer=dfrequency=6800:dqfactor=2.5:tfrequency=6800:tqfactor=2.5:mode=cutabove:threshold=0.01:ratio=4:range=5:attack=2:release=40,acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,treble=f=9500:width_type=q:w=0.8:g=3,loudnorm=I=-16:TP=-1.5:LRA=5",
+  "ender": true,
+  "clips": [
+    {
+      "name": "short1-chopstick",
+      "source": "/Users/jcook/Personal/permanent-underpod/media/ep17/work/clipsrc/short1-chopstick.mov",
+      "start": 1.0,
+      "end": 28.0,
+      "vertical": true,
+      "caption": {
+        "kicker": "MIC CHECK",
+        "title": "SMELLING LIKE FISH FOR LIFE"
+      },
+      "face_crops": [
+        [
+          0.0,
+          513,
+          "cut"
+        ],
+        [
+          10.467,
+          282,
+          "cut"
+        ],
+        [
+          16.467,
+          473,
+          "cut"
+        ],
+        [
+          23.933,
+          465,
+          "cut"
+        ]
+      ]
+    },
+    {
+      "name": "short2-cig-order",
+      "source": "/Users/jcook/Personal/permanent-underpod/media/ep17/work/clipsrc/short2-cig-order.mov",
+      "start": 0.3667,
+      "end": 15.3333,
+      "vertical": true,
+      "caption": {
+        "kicker": "THE CHALLENGE ORDER",
+        "title": "ONE CIG, TWO CUBES, TWO BEERS"
+      },
+      "face_crops": [
+        [
+          0.0,
+          508,
+          "cut"
+        ]
+      ]
+    },
+    {
+      "name": "short3-resume",
+      "source": "/Users/jcook/Personal/permanent-underpod/media/ep17/work/clipsrc/short3-resume.mov",
+      "start": 0.6333,
+      "end": 20.28,
+      "vertical": true,
+      "caption": {
+        "kicker": "RESIDENT EXPERT",
+        "title": "CIGARETTES AND GAMBLING"
+      },
+      "face_crops": [
+        [
+          0,
+          406,
+          "cut"
+        ],
+        [
+          6.4,
+          437,
+          "cut"
+        ],
+        [
+          8.4,
+          371,
+          "cut"
+        ],
+        [
+          17.267,
+          425,
+          "cut"
+        ]
+      ]
+    },
+    {
+      "name": "short4-college-fund",
+      "source": "/Users/jcook/Personal/permanent-underpod/media/ep17/work/clipsrc/short4-college-fund.mov",
+      "start": 0.9,
+      "end": 17.1,
+      "vertical": true,
+      "caption": {
+        "kicker": "THE NEW PODCAST NAME",
+        "title": "GAMBLES CHILD'S COLLEGE FUND"
+      },
+      "face_crops": [
+        [
+          0.0,
+          455,
+          "cut"
+        ],
+        [
+          11.7,
+          303,
+          "cut"
+        ],
+        [
+          13.2,
+          461,
+          "cut"
+        ]
+      ]
+    },
+    {
+      "name": "short5-trump-account",
+      "source": "/Users/jcook/Personal/permanent-underpod/media/ep17/work/clipsrc/short5-trump-account.mov",
+      "start": 0.7667,
+      "end": 24.4,
+      "vertical": true,
+      "caption": {
+        "kicker": "BIG BUSINESS IDEA",
+        "title": "100X THE KIDS' MONEY"
+      },
+      "face_crops": [
+        [
+          0.0,
+          657,
+          "cut"
+        ],
+        [
+          8.2333,
+          421,
+          "cut"
+        ],
+        [
+          18.7333,
+          301,
+          "cut"
+        ]
+      ]
+    },
+    {
+      "name": "short6-telescope",
+      "source": "/Users/jcook/Personal/permanent-underpod/media/ep17/work/clipsrc/short6-telescope.mov",
+      "start": 10.0,
+      "end": 25.29,
+      "vertical": true,
+      "caption": {
+        "kicker": "HOW JEV WAS DISCOVERED",
+        "title": "SCIENTISTS. TELESCOPE. SPACE."
+      },
+      "face_crops": [
+        [
+          0.0,
+          411,
+          "cut"
+        ],
+        [
+          7.0,
+          527,
+          "cut"
+        ],
+        [
+          14.0,
+          440,
+          "cut"
+        ]
+      ]
+    },
+    {
+      "name": "short7-headline-inflation",
+      "source": "/Users/jcook/Personal/permanent-underpod/media/ep17/work/clipsrc/short7-headline-inflation.mov",
+      "start": 1.0,
+      "end": 15.48,
+      "vertical": true,
+      "caption": {
+        "kicker": "HEADLINE INFLATION",
+        "title": "BEAT POK\u00c9MON RED FOR $1.65"
+      },
+      "face_crops": [
+        [
+          0.0,
+          431,
+          "cut"
+        ],
+        [
+          8.867,
+          306,
+          "cut"
+        ]
+      ]
+    },
+    {
+      "name": "short8-ask-claude",
+      "source": "/Users/jcook/Personal/permanent-underpod/media/ep17/work/clipsrc/short8-ask-claude.mov",
+      "start": 0.7667,
+      "end": 8.6,
+      "vertical": true,
+      "caption": {
+        "kicker": "SPARK'S TRUST MODEL",
+        "title": "ASK CLAUDE. IT'LL SAY YES."
+      },
+      "face_crops": [
+        [
+          0.0,
+          489,
+          "cut"
+        ]
+      ]
+    },
+    {
+      "name": "short9-proof-of-fun",
+      "source": "/Users/jcook/Personal/permanent-underpod/media/ep17/work/clipsrc/short9-proof-of-fun.mov",
+      "start": 1.0,
+      "end": 19.12,
+      "vertical": true,
+      "caption": {
+        "kicker": "FIXING THE BOT INTERNET",
+        "title": "PROOF OF FUN TO POST"
+      },
+      "face_crops": [
+        [
+          0.0,
+          425,
+          "cut"
+        ],
+        [
+          11.9,
+          535,
+          "cut"
+        ],
+        [
+          16.5,
+          392,
+          "cut"
+        ]
+      ]
+    },
+    {
+      "name": "short10-captcha",
+      "source": "/Users/jcook/Personal/permanent-underpod/media/ep17/work/clipsrc/short10-captcha.mov",
+      "start": 1.0,
+      "end": 9.6,
+      "vertical": true,
+      "caption": {
+        "kicker": "AI VS CAPTCHA",
+        "title": "PERMISSION GRANTED, BUDDY"
+      },
+      "face_crops": [
+        [
+          0.0,
+          433,
+          "cut"
+        ]
+      ]
+    },
+    {
+      "name": "short11-korean-lady",
+      "source": "/Users/jcook/Personal/permanent-underpod/media/ep17/work/clipsrc/short11-korean-lady.mov",
+      "start": 15.3,
+      "end": 27.0,
+      "vertical": true,
+      "caption": {
+        "kicker": "HOW TO FIX THE SHOW",
+        "title": "WE NEED A SMALL KOREAN LADY"
+      },
+      "face_crops": [
+        [
+          0.0,
+          261,
+          "cut"
+        ],
+        [
+          5.633,
+          637,
+          "cut"
+        ],
+        [
+          8.633,
+          232,
+          "cut"
+        ],
+        [
+          10.633,
+          462,
+          "cut"
+        ]
+      ]
+    }
+  ]
+}

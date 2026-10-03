@@ -1,0 +1,82 @@
+{
+  "generator": ".claude/skills/podcast-video-edit/scripts/gallery_clip_source.py",
+  "plan": "episodes/ep17/plan.json",
+  "work": "media/ep17/work",
+  "pad": 1.0,
+  "time_base": "raw recording seconds",
+  "rebuild": "Pass lo + pad and hi - pad as source bounds, --keys as recorded below, and the current clips.json start/end via --start/--end. Re-gate after rebuilding because face detection may change crop keys.",
+  "clips": [
+    {
+      "name": "short1-chopstick",
+      "lo": 10.7,
+      "hi": 40.0,
+      "keys": "10.7:tyler,22.17:chris,28.17:jackson,35.63:tyler"
+    },
+    {
+      "name": "short2-cig-order",
+      "lo": 203.6,
+      "hi": 219.9,
+      "keys": "203.6:tyler"
+    },
+    {
+      "name": "short3-resume",
+      "lo": 302.8,
+      "hi": 324.8,
+      "keys": "302.8:jackson,310.2:chris,320.7:jackson",
+      "extra_args": ["--lead-frames", "1", "--wide-hold"],
+      "audio_note": "Repair preserved the v1 mixed PCM track. Compare sample identity if rebuilding."
+    },
+    {
+      "name": "short4-college-fund",
+      "lo": 618.9,
+      "hi": 637.0,
+      "keys": "618.9:jackson,631.5:chris,633:jackson",
+      "status": "hold",
+      "reason": "House segment name in the audio and missing setup."
+    },
+    {
+      "name": "short5-trump-account",
+      "lo": 636.0,
+      "hi": 661.4,
+      "keys": "636:tyler,645:jackson,655.5:chris"
+    },
+    {
+      "name": "short6-telescope",
+      "lo": 667.0,
+      "hi": 693.3,
+      "keys": "667:jackson,684:tyler,691:jackson"
+    },
+    {
+      "name": "short7-headline-inflation",
+      "lo": 1069.2,
+      "hi": 1085.3,
+      "keys": "1069.2:jackson,1079.07:chris"
+    },
+    {
+      "name": "short8-ask-claude",
+      "lo": 1771.5,
+      "hi": 1781.1,
+      "keys": "1771.5:tyler"
+    },
+    {
+      "name": "short9-proof-of-fun",
+      "lo": 3422.8,
+      "hi": 3442.8,
+      "keys": "3422.8:jackson,3435.7:tyler,3440.3:jackson"
+    },
+    {
+      "name": "short10-captcha",
+      "lo": 3508.86,
+      "hi": 3521.0,
+      "keys": "3508.86:tyler,3518.83:jackson"
+    },
+    {
+      "name": "short11-korean-lady",
+      "lo": 3695.9,
+      "hi": 3725.5,
+      "keys": "3695.9:tyler,3706.03:chris,3716.83:tyler,3719.83:chris,3721.83:jackson",
+      "status": "hold",
+      "reason": "The earlier Korean trading-streamer callback is missing from the audio."
+    }
+  ]
+}

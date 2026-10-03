@@ -10,7 +10,9 @@ gold wipe on all 6 transitions.**
 
 ## Episode video
 
-- **URL:** (not yet published)
+- **Upload:** Jackson confirmed uploaded on 2026-10-01. Do not re-render or re-upload.
+- **URL:** https://youtu.be/Wuyi6fwVtJA (public; verified via API 2026-10-02).
+- **Published:** 2026-10-01 13:45 Pacific. YouTube reports 1:00:21; local master is 1:00:20.47.
 - **File:** `media/ep17/Permanent Underpod - Ep 17 (Final Cut).mp4`
 - **Thumbnail:** `media/ep17/ep17-thumbnail.png` — "THE AI CAN'T EVEN TALK" (Tyler smirk left,
   Jackson mid-laugh with hand up center, Chris grin right; tile crops trimmed above the name
@@ -23,14 +25,18 @@ gold wipe on all 6 transitions.**
   durations match to 17 ms; 108,614 frames × 1600 samples exactly.
 - **Captions:** `episodes/ep17/transcript.srt` — regenerated from the FINAL cut.
 
-## Title (drafts)
+## Title (published)
 
-1. **The AI That Can't Talk Picked Our Trade**
+**An AI That Can’t Talk Picked Our Trade**
+
+### Earlier title drafts
+
+1. The AI That Can't Talk Picked Our Trade
 2. It Cost 80,000 Sats to Get 20,000 Out of Spark
 3. Korea Made Gambling a Spectator Sport
 4. Your Agent Will Outbid Mine for Dinner
 
-## YouTube description (paste-ready draft)
+## YouTube description (published; API readback 2026-10-02)
 
 ```
 ⏩ Jev, the AI that can't talk, is at 11:53. Spark's trust model at 23:06.
@@ -72,7 +78,7 @@ GLOSSARY
 • Layer two (L2): a network that settles to Bitcoin. Tyler's test: can you exit to L1 without anyone's permission?
 • Spark: a Bitcoin L2 run by a federation (Lightspark, Flashnet, Breez). Payments inside the Spark are cheap; Spark Service Providers swap in and out to Lightning and on-chain.
 • Delete-the-keys trust model: every Spark payment is a 2-of-2 between you and the operators; it's non-custodial only if they really delete the old key.
-• Proof of authority: a network run by a known set of trusted parties. Ronin and Wormhole were proof-of-authority bridges. It did not go well.
+• Proof of authority: a network run by a known set of trusted parties.
 • Unilateral exit: leaving an L2 with only your own keys. On Spark your balance is split into many "leaves," and each one costs an on-chain fee to exit.
 • Ark: an off-chain Bitcoin protocol with a stronger trust model than Spark's; Tyler expects it to "L2-mog" Spark.
 • MEV: maximal extractable value, the profit from ordering and inserting transactions in a block.
@@ -167,15 +173,137 @@ Subscribe for next week: enclaves III (a $200 board forges the attestation), age
 ## Captions
 
 `transcript.srt` regenerated from the FINAL cut (never the raw recording) in `episodes/ep17/`.
-Not yet uploaded.
+YouTube's caption flag is false at API readback 2026-10-02; no caption-track upload performed in this session.
 
 ## Clips
 
-Not yet cut. Candidates (personality over concepts, 10–20 s): "Man Gambles Child's College
-Education Fund" (10:27), "point your Claude at the code" (29:30), the chopstick intro (0:45),
-"Jev can do that for one cent, it's so over" (57:06), the two-cigarettes challenge order (3:22),
-"perpifying the children's money" (10:50), "L2-mog" (44:55), the anointed taqueria (60:20).
-Face-crop shorts need the tile rects from `plan.json["gallery"]` since there are no per-host cams.
+Seven Shorts uploaded and scheduled on 2026-10-02: 1, 3, 5, 6, 10, 7, 2. YouTube
+readback confirms all seven processed, private until release, with matching copy and
+Underpod Shorts playlist entries. Shorts 8 and 9 remain alternates; 4 and 11 are held.
+
+QA passed 2026-10-01: 9 helper tests, full decodes and rendered speech-edge checks.
+All 11 pre/post-render gates rechecked 2026-10-02: zero failures, warnings or seam flashes.
+The full episode is live at https://youtu.be/Wuyi6fwVtJA. No episode re-render or re-upload.
+
+| Release (Pacific) | Short | URL |
+|---|---|---|
+| Oct 2, 6 PM | Fish microphone | https://youtu.be/xvb5mJkinNc |
+| Oct 3, 6 PM | Résumé roast | https://youtu.be/Ls7plYeMeSo |
+| Oct 4, 6 PM | Kids' savings joke | https://youtu.be/VWakrvUAe_Y |
+| Oct 5, 6 PM | Telescope joke | https://youtu.be/RF5_D-GqxFE |
+| Oct 6, 6 PM | CAPTCHA pep talk | https://youtu.be/LphRdqj4dQg |
+| Oct 7, 2 PM | Pokémon headline | https://youtu.be/AgbkXiCqkwQ |
+| Oct 8, 2 PM | Cigarette challenge order | https://youtu.be/ccGALj-8JWw |
+
+Jackson approved a four-hour offset on overlap days only: Ep 16 occupies 2 PM through
+October 6. October 7–8 return to the standard 2 PM slot. UTC values and upload receipts
+are in `media/clips/ep17/upload-manifest.json` and its `.results.json`.
+
+Funnel comments are queued in `media/clips/ep17/pin-comments.json`; the existing LaunchAgent
+now includes Ep 17 alongside Ep 16/15 and runs at 17:10/21:10 Eastern. Comments wait until
+public; dry-run confirmed all seven currently private. Related video and comment pinning
+are manual Studio steps; their status is not API-verifiable.
+
+`clips.json` is the render specification; `clip-sources.json` records raw bounds and
+speaker keys for rebuilding the gitignored sources. Gallery Shorts use per-clip tile
+sources from `gallery_clip_source.py`, not the full episode's grid shots. Every switch is a hard cut.
+The same posting copy is saved in `media/clips/ep17/posting-copy.md`.
+
+Rebuild the résumé source with raw bounds `303.8 323.8`, `--keys
+302.8:jackson,310.2:chris,320.7:jackson`, `--start 0.6333 --end 20.28`,
+`--lead-frames 1 --wide-hold`. The share insert covers the call app's animated
+layout change; the original mixed audio is preserved. Re-gate after any rebuild.
+
+### short1-chopstick
+
+- Title: A Microphone That Smells Like Fish - Ep 17 Clip
+- Description: Tyler wonders whether his microphone holder could pick up sushi, and Jackson spots the obvious problem.
+- Full episode: https://youtu.be/Wuyi6fwVtJA
+- Hashtags: #comedy #podcast #shorts
+- Tags: microphone, sushi, podcast banter, mic setup, host introductions, comedy podcast
+
+### short2-cig-order
+
+- Title: Two Cubes, Two Beers, One Terrible Game Plan - Ep 17 Clip
+- Description: Tyler has a suspiciously detailed game plan for the two-cube, two-beer, two-cigarette challenge.
+- Full episode: https://youtu.be/Wuyi6fwVtJA
+- Hashtags: #rubikscube #comedy #shorts
+- Tags: Rubik's cube, challenge, beer, cigarettes, podcast banter, comedy podcast
+
+### short3-resume
+
+- Title: Cigarettes and Gambling: Quite a Résumé - Ep 17 Clip
+- Description: Chris objects to being named the resident expert in both cigarettes and gambling.
+- Full episode: https://youtu.be/Wuyi6fwVtJA
+- Hashtags: #comedy #podcast #shorts
+- Tags: resume, gambling, cigarettes, podcast banter, host roast, comedy podcast
+
+### short4-college-fund (HOLD)
+
+- Hold: the audio uses a house segment name and depends on the preceding exchange. Do not upload this draft.
+- Title: Gambling the College Fund Is a Bad Rebrand - Ep 17 Clip
+- Description: A hypothetical college-fund gamble becomes Jackson's pitch for the worst possible podcast name.
+- Full episode: https://youtu.be/Wuyi6fwVtJA
+- Hashtags: #comedy #gambling #shorts
+- Tags: college fund, podcast name, gambling joke, leveraged trading, finance satire, podcast banter
+
+### short5-trump-account
+
+- Title: A Kid's Savings at 100x Leverage - Ep 17 Clip
+- Description: Tyler jokes about putting his daughter's Trump account into a 100x leveraged trade, and the business pitch only gets worse.
+- Full episode: https://youtu.be/Wuyi6fwVtJA
+- Hashtags: #finance #comedy #shorts
+- Tags: Trump account, perpetual futures, leverage, Aster, finance satire, podcast comedy
+
+### short6-telescope
+
+- Title: They Found an AI With a Telescope? - Ep 17 Clip
+- Description: Jackson gives AI model Jev a completely unserious origin story involving scientists and a telescope in space.
+- Full episode: https://youtu.be/Wuyi6fwVtJA
+- Hashtags: #ai #comedy #shorts
+- Tags: Jev, artificial intelligence, language models, tech satire, space joke, podcast comedy
+
+### short7-headline-inflation
+
+- Title: Pokémon for $1.65? Read the AI Fine Print - Ep 17 Clip
+- Description: Jackson reads a claim that Jev beat Pokémon Red for $1.65, and Chris immediately roasts the headline.
+- Full episode: https://youtu.be/Wuyi6fwVtJA
+- Hashtags: #ai #pokemon #shorts
+- Tags: Jev, Pokémon Red, AI headlines, Claude, gaming, tech humor, headline inflation
+- Copy constraint: this quotes a headline, not a verified benchmark; the clarification appears later in the episode.
+
+### short8-ask-claude
+
+- Title: Claude Read the Code. That's Not Proof. - Ep 17 Clip
+- Description: Tyler explains why an AI review of Spark's public code cannot prove which software its operators actually run.
+- Full episode: https://youtu.be/Wuyi6fwVtJA
+- Hashtags: #bitcoin #ai #shorts
+- Tags: Spark, Bitcoin, Claude, source code, trust model, AI code review
+
+### short9-proof-of-fun
+
+- Title: Make Bots Play a Game Before Posting? - Ep 17 Clip
+- Description: A joke about stopping spam with a ten-second browser game collapses when Tyler points out AI could play it too.
+- Full episode: https://youtu.be/Wuyi6fwVtJA
+- Hashtags: #ai #bots #shorts
+- Tags: AI spam, bots, social media, Jev, browser games, proof of fun
+
+### short10-captcha
+
+- Title: An AI Hits a CAPTCHA. Cue the Pep Talk. - Ep 17 Clip
+- Description: Tyler recounts an AI agent's CAPTCHA hesitation turning into a “you can do it, buddy” pep talk.
+- Full episode: https://youtu.be/Wuyi6fwVtJA
+- Hashtags: #ai #captcha #shorts
+- Tags: AI agents, CAPTCHA, browser automation, tech humor, podcast comedy, permission prompts
+
+### short11-korean-lady (HOLD)
+
+- Hold: the earlier Korean trading-streamer reference is absent. The description cannot repair the unexplained audio callback. Do not upload this draft.
+- Title: This Podcast Needs More Screaming - Ep 17 Clip
+- Description: Chris wants the podcast to borrow a Korean trading streamer's yelling-and-screaming energy.
+- Full episode: https://youtu.be/Wuyi6fwVtJA
+- Hashtags: #comedy #podcast #shorts
+- Tags: podcast banter, trading streams, Korean streamer, show format, host reactions, comedy podcast
 
 ## Edit decisions of note
 
