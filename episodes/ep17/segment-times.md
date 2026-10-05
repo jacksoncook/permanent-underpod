@@ -27,7 +27,10 @@ gold wipe on all 6 transitions.**
 
 ## Title (published)
 
-**An AI That Can’t Talk Picked Our Trade**
+**Korea Turned Crypto Trading Into a Spectator Sport** — Jackson's manual retitle, seen live
+2026-10-05 (launched 2026-10-01 as "An AI That Can’t Talk Picked Our Trade"). Thumbnail still reads
+"THE AI CAN'T EVEN TALK". Description opener rewritten to lead with Seoul to match
+(`episodes/ep17/description.txt`; live via `yt_update.py --set-description`).
 
 ### Earlier title drafts
 
@@ -36,12 +39,12 @@ gold wipe on all 6 transitions.**
 3. Korea Made Gambling a Spectator Sport
 4. Your Agent Will Outbid Mine for Dinner
 
-## YouTube description (published; API readback 2026-10-02)
+## YouTube description (published; API readback 2026-10-02; opener rewritten 2026-10-05 for the retitle)
 
 ```
-⏩ Jev, the AI that can't talk, is at 11:53. Spark's trust model at 23:06.
+⏩ Seoul's live perp-trading competition is at 5:52. Jev, the AI that can't talk, 11:53. Spark's trust model 23:06.
 
-Jev is a new kind of model: it never writes a sentence. You hand it a question and a set of boxes and it hands back probabilities. It also picked this week's Perp of Fortune (long Aster: perps are becoming spectator entertainment, and Seoul is running a live perp-trading competition with a Korean streamer who trades Trump speeches at 50x). Tyler explains what Jev actually is (a classifier layer on an open-weights model, no moat, but a form factor that struck a nerve), Chris wants to vibe-vacuum his house with it, and Jackson's AI notes claim Jev beat Pokémon Red for $1.65, with Claude's help. Headline inflation is out of control. Then the Bitcoin topic: Spark, the Lightning-without-channels layer two. Tyler's teardown: security rests on the operators deleting their keys ("point your Claude at the code"), it's proof of authority with extra steps, one tester spent 80,000 sats to unilaterally exit 20,000, and the operators see every transaction. Some nice things are said at the end. Finale: Chris's slop auction. Flashbots found L2s full of fizzling MEV orders, EIP-1559 taxed them, and the same Tullock-contest math says the bot internet gets fixed by an auction or a wall. We're getting the wall. Plus: what happens when everyone's agent wants the same reservation. Perp of Fortune finishes +$3.72. One of the few.
+Korea made eSports a national pastime; now it's perps. Aster sponsored a live perp-trading competition in Seoul, and a Korean streamer trades Trump speeches at 50x. Someone said it was paper trading. Chris is crushed. This week's thesis (long Aster: perps are becoming spectator entertainment) came from Jev, a model that never writes a sentence: you hand it a question and a set of boxes and it hands back probabilities. Tyler explains what Jev actually is (a classifier layer on an open-weights model, no moat, but a form factor that struck a nerve), Chris wants to vibe-vacuum his house with it, and Jackson's AI notes claim Jev beat Pokémon Red for $1.65, with Claude's help. Headline inflation is out of control. Then the Bitcoin topic: Spark, the Lightning-without-channels layer two. Tyler's teardown: security rests on the operators deleting their keys ("point your Claude at the code"), it's proof of authority with extra steps, one tester spent 80,000 sats to unilaterally exit 20,000, and the operators see every transaction. Finale: Chris's slop auction. Flashbots found L2s full of fizzling MEV orders, EIP-1559 taxed them, and the same Tullock-contest math says the bot internet gets fixed by an auction or a wall. https://cdrn.xyz/blog/slop-auction/ We're getting the wall. Plus: what happens when everyone's agent wants the same reservation. Perp of Fortune finishes +$3.72. One of the few.
 
 🔥 On the Agenda
 0:00 Cold open
@@ -75,7 +78,6 @@ GLOSSARY
 • Jev: a model trained to answer only in typed structures with probabilities, never prose. Fast, cheap, good at "which bucket is this?" questions.
 • Transfer learning: taking a pre-trained model and training a new head on your own data. What you used to need a data scientist for; Jev sells it as an API.
 • Headline inflation: "Jev beat Pokémon Red in 37 hours for $1.65 using Claude Opus 5." Claude built the harness.
-• Layer two (L2): a network that settles to Bitcoin. Tyler's test: can you exit to L1 without anyone's permission?
 • Spark: a Bitcoin L2 run by a federation (Lightspark, Flashnet, Breez). Payments inside the Spark are cheap; Spark Service Providers swap in and out to Lightning and on-chain.
 • Delete-the-keys trust model: every Spark payment is a 2-of-2 between you and the operators; it's non-custodial only if they really delete the old key.
 • Proof of authority: a network run by a known set of trusted parties.

@@ -1,0 +1,49 @@
+⏩ Seoul's live perp-trading competition is at 5:52. Jev, the AI that can't talk, 11:53. Spark's trust model 23:06.
+
+Korea made eSports a national pastime; now it's perps. Aster sponsored a live perp-trading competition in Seoul, and a Korean streamer trades Trump speeches at 50x. Someone said it was paper trading. Chris is crushed. This week's thesis (long Aster: perps are becoming spectator entertainment) came from Jev, a model that never writes a sentence: you hand it a question and a set of boxes and it hands back probabilities. Tyler explains what Jev actually is (a classifier layer on an open-weights model, no moat, but a form factor that struck a nerve), Chris wants to vibe-vacuum his house with it, and Jackson's AI notes claim Jev beat Pokémon Red for $1.65, with Claude's help. Headline inflation is out of control. Then the Bitcoin topic: Spark, the Lightning-without-channels layer two. Tyler's teardown: security rests on the operators deleting their keys ("point your Claude at the code"), it's proof of authority with extra steps, one tester spent 80,000 sats to unilaterally exit 20,000, and the operators see every transaction. Finale: Chris's slop auction. Flashbots found L2s full of fizzling MEV orders, EIP-1559 taxed them, and the same Tullock-contest math says the bot internet gets fixed by an auction or a wall. https://cdrn.xyz/blog/slop-auction/ We're getting the wall. Plus: what happens when everyone's agent wants the same reservation. Perp of Fortune finishes +$3.72. One of the few.
+
+🔥 On the Agenda
+0:00 Cold open
+0:53 Talking into chopsticks
+1:57 Perp of Fortune: long Aster, perps as spectator sport
+3:30 Who sponsors a cigarette-smoking competition?
+5:52 Seoul's live perp-trading competition
+10:34 Tyler's conspiracy: the pot doesn't exist
+11:53 The marquee: Jev, the AI that can't talk
+18:29 Headline inflation: Jev beat Pokémon (with Claude)
+23:06 Spark: Lightning without channels
+24:46 Tyler explains: what is a Bitcoin layer two?
+29:04 The trust model: they have to delete the keys
+32:04 Chris: proof of authority, a multisig between friends
+34:05 Unilateral exit: 80,000 sats to recover 20,000
+36:58 Privacy: Spark sees everything
+41:06 Ark vs Spark, and some nice things
+44:00 The slop auction: Chris Doran's blog
+49:28 Tullock contests: the auction or the wall
+54:52 Agent congestion: everyone's bot wants the same table
+58:02 Chris's strategy: like what other people don't
+59:22 Perp of Fortune result
+1:00:13 End card / next week
+
+Recorded fully remote, three tiles on one call.
+Disclaimers: Our opinions are our own, not our employers'. NOT financial advice. Perp of Fortune is a small real-money account we run for entertainment. Not a recommendation to long Aster, or anything else.
+
+GLOSSARY
+• Perp of Fortune: our tiny real-money perpetual-futures account; an AI picks the trade each week. This week Jev picked it.
+• Aster: a perps exchange. Sorry, Aster.
+• Jev: a model trained to answer only in typed structures with probabilities, never prose. Fast, cheap, good at "which bucket is this?" questions.
+• Transfer learning: taking a pre-trained model and training a new head on your own data. What you used to need a data scientist for; Jev sells it as an API.
+• Headline inflation: "Jev beat Pokémon Red in 37 hours for $1.65 using Claude Opus 5." Claude built the harness.
+• Spark: a Bitcoin L2 run by a federation (Lightspark, Flashnet, Breez). Payments inside the Spark are cheap; Spark Service Providers swap in and out to Lightning and on-chain.
+• Delete-the-keys trust model: every Spark payment is a 2-of-2 between you and the operators; it's non-custodial only if they really delete the old key.
+• Proof of authority: a network run by a known set of trusted parties.
+• Unilateral exit: leaving an L2 with only your own keys. On Spark your balance is split into many "leaves," and each one costs an on-chain fee to exit.
+• Ark: an off-chain Bitcoin protocol with a stronger trust model than Spark's; Tyler expects it to "L2-mog" Spark.
+• MEV: maximal extractable value, the profit from ordering and inserting transactions in a block.
+• Fizzling orders: speculative on-chain orders that fail when the preconditions aren't met. Spamming them is positive EV, so L2s fill up with them.
+• EIP-1559: Ethereum's fee change; the price of block space rises as it gets congested. An auction against spam.
+• Tullock contest: the game theory of a raffle. The more tickets (spam posts) you buy, the better your odds, until the tickets cost what the prize is worth.
+• The auction vs the wall: the two ways to fix a Tullock contest. Price the slot, or gatekeep who gets one. Subscriptions and KYC are walls.
+• Instinct / Muse: consumer agents that book, buy, and cancel for you. The congestion pricing on your Valentine's reservation is coming from them.
+
+🔔 Subscribe for next week: enclaves III (a $200 board forges the attestation), agent week two, is bitcoin back (still no charts), and Korea's 4× yen stablecoin.
