@@ -10,7 +10,7 @@
 > **Tyler's pick: three USDTs on bitcoin.** Tether says USDT "comes home to Bitcoin this month" via RGB/Utexo. USDT is already "live natively" on Spark and announced on Lightning via Taproot Assets. Three rails, three trust models, mutually incompatible balances. Apply the Ep 17 unilateral-exit test to each.
 > **Perp of Fortune needs a rebuild.** Hosts said so on air (Ep 17 close: "fix the structure to have more volatility"). Concrete proposal in F: the clone-wars perp. Jev, Decisions API, and Strands Decider get the same typed menu; majority rules; minimum 10×; fail closed.
 > **Debts:** Ep 17's G (agents) and D (agentic commerce) unaired → both on the slate. C ("is bitcoin back") cut for the second time → retired to the bench; a host has to claim it or it dies. Enclaves III (DDRop) unaired but benched ≥1 month per the standing rule; one-line callback in D via Mastercard's "trusted execution" pillar.
-> **55-minute ceiling.** If behind: bank W, then K's KBW half, then trim T to the RGB-vs-Spark comparison only. L and D hold. Keep D (agentic commerce) mid-show.
+> **55-minute ceiling.** If behind: bank W, then trim T to the RGB-vs-Spark comparison only. L and D hold. Keep D (agentic commerce) mid-show.
 
 ## Topics / proposed recording order
 
@@ -24,12 +24,11 @@
 | D | Agentic commerce: Mastercard writes the trust framework | Chris | Five pillars, one is "trusted execution." Did the card network just ship an enclave pitch? | 4 |
 | L | Layer-2 series: the Lightning Network | Tyler | Everyone's building Lightning without channels. What's a channel? | 6 |
 | T | Three USDTs on bitcoin: RGB, Spark, Taproot Assets | Tyler | Which one is actually on bitcoin? | 4 |
-| K | Korea: the regulator wants licensed market makers | Jackson | After the ₩37 yen, the FSC's fix is more insiders. Right call? | 3 |
 | W | Wildcard: AGENCY, a launchpad where every token gets a "mind" | All | $JEV had 152 holders. How many does a token with its own agent need? | 1 |
 | Z | Close | All | One prediction each; final perp number | 2 |
 
 - Marquee starts by ~5:30; cold open teases the three-model perp and the "we may die" Slack line. Perp reveal within 90 seconds of starting the bit.
-- These are caps. If behind: bank W, then K's KBW half, then T's Taproot Assets leg. That makes 47 → 42 minutes. L is the explainer; it holds its time (≤8 min explainer rule; tied to live stakes via Spark/RGB).
+- These are caps. If behind: bank W, then T's Taproot Assets leg. That makes 44 → 41 minutes. L is the explainer; it holds its time (≤8 min explainer rule; tied to live stakes via Spark/RGB).
 - Fresh-news substitutes below replace time. They don't add ten more minutes.
 
 ### H + F — Check-in and the Perp of Fortune rebuild
@@ -40,6 +39,7 @@
 - **The rebuild (Chris decides before tape).** On-air complaint was volatility. Proposal: **the clone-wars perp.** Give Jev, OpenAI's Decisions API, and AWS's Strands Decider the same typed menu: asset from `{BTC, ETH, SOL, HYPE, ASTER}` × `{long, short}` × `{10×, 25×}`. Majority of three sets the trade. If all three disagree on direction, flat. Each model must return **p ≥ 0.60** or it abstains. Fail closed. Minimum leverage 10× is the volatility fix. Jackson can wire all three: Jev input $0.042/MTok, Luna $0.10/MTok in, Strands Decider runs locally (`pip install strands-decider`, model `StrandsAgents/strands-decider-2B-hobson-v21`). Screenshot the three raw probabilities for the PiP.
 - Fallback if Jackson can't get Decisions API preview access by tape: Jev vs Strands only, tie goes flat.
 - Caveat to say on air: Jev returns 0.393 for a 49% coin (Ep 17). Strands and Luna have no published calibration yet. The bit is three uncalibrated confidences voting. Say so.
+- **Correction to Ep 17, one line in the perp wrap:** the Seoul "Frontier Traders: Seoul Showdown" was explicitly paper trading on Phoenix's order book, so Tyler's "the pot doesn't exist" was half right. Aster's separate Blackboard contest (Oct 10–Nov 10, $17K→$100K, on-chain) starts the day after we record; the "spectator sport" thesis gets its live test then.
 - "Small Korean lady yelling" (Chris, Ep 17 close) stays off air. House jargon; see the Ep 14 "lamest perp" rule.
 - Read the usual disclosure before the bit: entertainment, not financial advice; personal views, not employers'. Reveal the position before the thesis.
 - Button for J: **"Three models that can't talk just outvoted us. That's the marquee."**
@@ -164,28 +164,14 @@
 
 **Clip question:** "Tether says the dollar is 'coming home to bitcoin.' It already has three homes there, and they can't talk to each other."
 
-### K — Korea: the regulator wants licensed market makers (Jackson, ≤3 min)
-
-**Start:** "Ep 17: a yen stablecoin traded at four yen on Upbit and nobody was allowed to fix it. Oct 1: the FSC's answer is to license the people who fix it."
-
-- **The fix.** FSC is studying a formal market-maker licensing regime for the next digital-asset law. Yoo Young-joon, FSC director of digital finance policy: examine whether "tools such as market-making should be introduced to raise efficiency and stability"; acknowledged users lost money; "calls for tighter discipline are growing." JPYC recap: reference ₩8.8, opened ~₩12, peaked **₩37.6** within an hour; tens of thousands of buyers overpaid in the first days; other fiat-linked coins saw the same September distortions. Root cause: shallow books, little transferable supply, redemption only via the Japanese issuer. [Crowdfund Insider](https://www.crowdfundinsider.com/2026/10/313773-south-korea-considers-licensed-crypto-market-makers-after-jpycs-fourfold-listing-spike/)
-- **The backdrop.** Korea's virtual-asset market cap fell **33% in H1 2026 to ₩58.9T**; daily turnover ₩3.1T (FSC/FIU, reported Oct 1). The won-stablecoin law (Digital Asset Basic Act) still isn't passed; the bank-only vs bank-led-consortium fight is unresolved; target end-2026. [Yonhap](https://en.yna.co.kr/view/AEN20261001003900320) · [trade.gov](https://www.trade.gov/market-intelligence/south-korea-finance-stablecoin)
-- **KBW (Sept 29–Oct 1, Upbit main sponsor).** Dunamu CEO Oh Kyung-seok pitched Upbit as on-chain infrastructure for banks and brokers: GIWA Chain (compliance-oriented Ethereum L2), custody, identity. NHN KCP demoed won-stablecoin payment authorization and merchant settlement. No named won stablecoin, ticker, or launch date. Naver Financial's all-share swap for Dunamu (~87.56M new shares, ~₩15.1T) was slated to close around end of September; confirm status day-of. [MT](https://www.mt.co.kr/en/stock/2026/09/30/2026093013322182024) · [PR Newswire](https://www.prnewswire.com/news-releases/kbw-2026-returns-to-seoul-september-29october-1-upbit-joins-as-main-sponsor-302660025.html)
-- **Correction to Ep 17, say it on air:** the Seoul "Frontier Traders: Seoul Showdown" was explicitly **paper trading** on Phoenix's order book. Tyler's "the pot doesn't exist" conspiracy was half right. Aster's separate Blackboard competition runs **Oct 10–Nov 10**, prize pool $17K scaling to $100K, described as on-chain trading, not paper. The Perp of Fortune's "spectator sport" thesis gets a live test the day after we record. [Aster × Blackboard](https://yellow.com/ko/press-releases/)
-- **Debate:**
-  1. **Jackson:** licensed market makers are the thing that would have stopped ₩37 yen. They're also the insiders retail accuses of front-running. Which complaint does Korea pick?
-  2. **Chris:** a Japanese stablecoin redeemable only in Japan, listed in won, with no arb path. Was that a listing failure or a stablecoin-design failure?
-  3. **Tyler:** Upbit wants to be the bank plumbing while its market shrank a third. Is GIWA a strategy or a pivot?
-- **Do NOT say:** a won stablecoin is approved or launched; Naver-Dunamu closed (verify); Aster's October contest is paper trading (not stated); any BTC price.
-
-**Clip question:** "A yen traded for four yen in Seoul. The regulator's fix: license the people who should have sold it."
-
 ### W — Wildcard: AGENCY, a launchpad where every token gets a "mind" (All, ≤1 min)
 
 - Pump.fun, Oct 1: **AGENCY** graduated same day; the pitch is a launchpad where each token gets an AI "mind," a treasury, and "possible autonomous actions." Spawned **TrenchBot** (Oct 3), an agent that trades memecoins and claims to route profits to buybacks, and **AGENTCAT** (Oct 3), where five wallets funded by one address bought ~**91%** of supply in the launch block, with no agent code anywhere. $JEV (Ep 17) had 152 holders; this is the sequel: tokens that claim to *be* the agent. [Phemex on AGENCY](https://phemex.com/academy/what-is-agency-solana-ai-launchpad-token) · [AGENTCAT](https://phemex.com/academy/what-is-agent-cat-agentcat-solana-memecoin-launch)
 - Second bit if time: Polymarket's "Will Jesus Christ return before 2027?" has cleared ~$66M in volume. Resolution criteria unclear.
 
 ## Fresh-news bench
+
+- **Korea (Jackson, 3 min; BENCHED by Jackson 10/6, not on the slate).** FSC studying licensed crypto market makers after JPYC hit ₩37.6 on a ₩8.8 reference (Yoo Young-joon: examine whether "tools such as market-making should be introduced"); Korean virtual-asset market cap −33% in H1 to ₩58.9T; KBW Sept 29–Oct 1: Dunamu's GIWA Chain infra pitch, NHN KCP won-stablecoin demo, no named won coin; Naver-Dunamu ₩15.1T share swap close unconfirmed. [Crowdfund Insider](https://www.crowdfundinsider.com/2026/10/313773-south-korea-considers-licensed-crypto-market-makers-after-jpycs-fourfold-listing-spike/) · [Yonhap](https://en.yna.co.kr/view/AEN20261001003900320) · [MT](https://www.mt.co.kr/en/stock/2026/09/30/2026093013322182024)
 
 - **Bitcoin Core 32.0 final (Tyler, 2 min).** Targeted **Oct 10**, the day after we record; only rc2 is in the download directory as of Oct 6. If it lands early: faster validation, fee-policy changes, security fixes. If not: tease it. [bitcoincore.org](https://bitcoincore.org/bin/bitcoin-core-32.0/) · [tracking issue](https://github.com/bitcoin/bitcoin/issues/35122)
 - **Glamsterdam on Sepolia (Chris, 2 min; pays the Ep 16 builder-duopoly debt).** Activated **Oct 6, 13:53:36 UTC**, epoch 353,024: ePBS (EIP-7732) plus block-level access lists. Testnet only; Hoodi and mainnet dates unannounced. [EF blog](https://blog.ethereum.org/2026/09/17/glamsterdam-testnet-announcement)
@@ -208,8 +194,8 @@
 ## Host pre-read / before recording
 
 - **Everyone:** read the [Slack restart report](https://alignment.openai.com/misalignment-reports/preparing-for-a-restart-after-reading-slack/) (short) and the [Strands Decider README](https://github.com/strands-labs/strands-decider). Skim [Open Standard's launch post](https://joinopenstandard.com/blog/ousd-is-live/). Bring one Ep 17 prediction to grade.
-- **Jackson:** wire the three-model perp (Jev, Decisions API preview if you can get it, Strands locally) and screenshot the raw probabilities. Check for a Decisions API price or docs dated after Oct 6, and whether OpenAI announced a training restart. Pull Ep 17's actual perp P&L and funding. Confirm whether Naver-Dunamu closed.
+- **Jackson:** wire the three-model perp (Jev, Decisions API preview if you can get it, Strands locally) and screenshot the raw probabilities. Check for a Decisions API price or docs dated after Oct 6, and whether OpenAI announced a training restart. Pull Ep 17's actual perp P&L and funding. 
 - **Chris:** read the [Mastercard white paper](https://www.mastercard.com/global/en/news-and-trends/Insights/2026/mastercard-agentic-commerce-trust-white-paper.html) and the [ABA rewards letter](https://www.aba.com/advocacy/policy-analysis/joint-state-letter-stablecoin-rewards); pull the exact GENIUS "solely in connection with" text. Check reserves.bridge.xyz/ousd for the first attestation and OUSD supply. Read [Salt Labs' Manus post](https://salt.security/blog/when-a-security-guardrail-detects-the-attack-and-still-cant-stop-it). Decide the perp format.
 - **Tyler:** L is yours: rehearse the channel → HTLC → inbound liquidity → force-close explainer to five minutes; pull 1ML and mempool.space day-of and quote both with timestamps. Check Utexo/Tether for an RGB mainnet announcement; confirm Spark's USDT claim on spark.money day-of; re-read your Ep 17 Spark trust-model teardown so you can apply it to RGB and Taproot Assets. Check Core 32.0 final status and Glamsterdam Sepolia health. Check whether the x402 Lightning rail is in the x402 repo (don't name the contributor on air).
-- **Fact guardrails:** no BTC price or ETF numbers anywhere, including the perp thesis; the Slack-report model is unnamed; OpenAI's pause is still on as of Oct 6; "84 days" is June 18 → Sept 10; LASST sued, not Hugging Face; Manus was a disclosed research demo; OUSD pays partners, not holders; Open Standard's operating fee is unpublished; RGB USDT is planned, not live; Seoul Showdown was paper trading, Aster's October contest is not stated as such; Korea's market-cap drop is an FSC H1 stat, not price talk; "clone wars" is TypeSafe's CEO's phrase; no employer names, the generic disclaimer is the ceiling.
+- **Fact guardrails:** no BTC price or ETF numbers anywhere, including the perp thesis; the Slack-report model is unnamed; OpenAI's pause is still on as of Oct 6; "84 days" is June 18 → Sept 10; LASST sued, not Hugging Face; Manus was a disclosed research demo; OUSD pays partners, not holders; Open Standard's operating fee is unpublished; RGB USDT is planned, not live; Seoul Showdown was paper trading, Aster's October contest is not stated as such; "clone wars" is TypeSafe's CEO's phrase; no employer names, the generic disclaimer is the ceiling.
 - **Close:** actual perp result (three models, majority, number), one prediction each, and only promise next week's topic if a host takes it. Candidates to tease: Core 32.0 final, Aster's live-money contest week one, the RGB USDT launch, whether OpenAI restarts training.
