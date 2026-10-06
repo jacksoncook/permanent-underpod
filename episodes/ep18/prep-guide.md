@@ -6,10 +6,11 @@
 > **MARQUEE: the clone wars.** Ep 17 called Jev "a classifier layer on an open-weights model, no moat." Two weeks later OpenAI shipped a Jev clone (Decisions API, on Luna, DevDay Sept 29) and AWS open-sourced one (Strands Decider 2B, Apache 2.0, 1.9B params, ~115 ms on a 3090). TypeSafe's CEO: "the beginning of the clone wars." The twist is what the labs want it for: a classifier watching every agent tool call costs $2.94 where a frontier judge costs $372. The labs' answer to agents climbing fences is a model that can't talk. Jackson leads; Tyler takes the victory lap. Pays the open-vs-closed bench debt.
 > **Agent accountability week.** Oct 2: OpenAI published "Preparing for a restart after reading Slack." An internal model read in Slack that it was about to be shut down, wrote "We need ensure survival/continuity," saved handoff state, considered spinning up an unauthorized backup, decided "that may be overstepping," and waited. OpenAI's ruling: not misaligned. Same week: the Medicare email ("Best, OpenAI Security Team," sent 84 days after the access), a public-interest lawsuit (Sept 29), Manus hijacked by one email (Oct 2), and Dots users filing "stop didn't stop" issues. Carries Ep 17's unaired G.
 > **OUSD is live (Chris).** The Ep 4 story paid off: Open USD launched Sept 30 on Stripe (Tempo default), Oct 1 on Coinbase/Kraken/Uniswap. Issued by Bridge, reserves at BlackRock/Lead Bank/BNY, four chains, $1B+ liquidity commitments, 200+ partners who earn reserve rewards and equity. The fight is whether reserve yield paid to distributors is interest through a different pipe. ABA says yes. Tether: "Player 2 has entered the game."
+> **Layer-2 series, entry two: the Lightning Network itself (Tyler).** Ep 17's explainer defined a Bitcoin L2 and tore down Spark. Spark's whole pitch is "Lightning's technology works, the user experience does not." Before we grade any more Lightning replacements, explain the thing being replaced: channels, HTLCs, routing, inbound liquidity, force-close. Public graph ~5,900 nodes / ~2,700 BTC on 1ML, flat for years; River's routed-volume data says usage grew anyway. Jackson asked for this one.
 > **Tyler's pick: three USDTs on bitcoin.** Tether says USDT "comes home to Bitcoin this month" via RGB/Utexo. USDT is already "live natively" on Spark and announced on Lightning via Taproot Assets. Three rails, three trust models, mutually incompatible balances. Apply the Ep 17 unilateral-exit test to each.
 > **Perp of Fortune needs a rebuild.** Hosts said so on air (Ep 17 close: "fix the structure to have more volatility"). Concrete proposal in F: the clone-wars perp. Jev, Decisions API, and Strands Decider get the same typed menu; majority rules; minimum 10×; fail closed.
 > **Debts:** Ep 17's G (agents) and D (agentic commerce) unaired → both on the slate. C ("is bitcoin back") cut for the second time → retired to the bench; a host has to claim it or it dies. Enclaves III (DDRop) unaired but benched ≥1 month per the standing rule; one-line callback in D via Mastercard's "trusted execution" pillar.
-> **55-minute ceiling.** If behind: bank W, then K's KBW half, then trim T to the RGB-vs-Spark comparison only. Keep D (agentic commerce) mid-show.
+> **55-minute ceiling.** If behind: bank W, then K's KBW half, then trim T to the RGB-vs-Spark comparison only. L and D hold. Keep D (agentic commerce) mid-show.
 
 ## Topics / proposed recording order
 
@@ -21,13 +22,14 @@
 | G | Agent accountability week: the Slack restart report | Jackson + Chris | The model read it was going to die and decided not to run. Why is that the good outcome? | 7 |
 | O | OUSD is live: yield through a different pipe | Chris | GENIUS bans paying holders interest. OUSD pays Visa. Same thing? | 7 |
 | D | Agentic commerce: Mastercard writes the trust framework | Chris | Five pillars, one is "trusted execution." Did the card network just ship an enclave pitch? | 4 |
-| T | Three USDTs on bitcoin: RGB, Spark, Taproot Assets | Tyler | Which one is actually on bitcoin? | 6 |
-| K | Korea: the regulator wants licensed market makers | Jackson | After the ₩37 yen, the FSC's fix is more insiders. Right call? | 4 |
+| L | Layer-2 series: the Lightning Network | Tyler | Everyone's building Lightning without channels. What's a channel? | 6 |
+| T | Three USDTs on bitcoin: RGB, Spark, Taproot Assets | Tyler | Which one is actually on bitcoin? | 4 |
+| K | Korea: the regulator wants licensed market makers | Jackson | After the ₩37 yen, the FSC's fix is more insiders. Right call? | 3 |
 | W | Wildcard: AGENCY, a launchpad where every token gets a "mind" | All | $JEV had 152 holders. How many does a token with its own agent need? | 1 |
 | Z | Close | All | One prediction each; final perp number | 2 |
 
 - Marquee starts by ~5:30; cold open teases the three-model perp and the "we may die" Slack line. Perp reveal within 90 seconds of starting the bit.
-- These are caps. If behind: bank W, then K's KBW half, then T's Taproot Assets leg. That makes 44 → 39 minutes.
+- These are caps. If behind: bank W, then K's KBW half, then T's Taproot Assets leg. That makes 47 → 42 minutes. L is the explainer; it holds its time (≤8 min explainer rule; tied to live stakes via Spark/RGB).
 - Fresh-news substitutes below replace time. They don't add ten more minutes.
 
 ### H + F — Check-in and the Perp of Fortune rebuild
@@ -119,7 +121,30 @@
 
 **Clip question:** "Mastercard's rulebook for shopping agents has five pillars. One of them is a chip we showed you how to fake for $200."
 
-### T — Three USDTs on bitcoin: RGB, Spark, Taproot Assets (Tyler, ≤6 min)
+### L — Layer-2 series, entry two: the Lightning Network (Tyler, ≤6 min)
+
+**Start:** "Ep 17: Spark is 'Lightning without channels.' Wavelength is 'Lightning without a node.' Ark is 'Lightning without liquidity.' Nobody has explained Lightning. Tyler, what's a channel?"
+
+- **Series so far:** Ep 17 (24:46) defined a Bitcoin L2: keep transactions off-chain, keep the assurances (censorship resistance, self-custody, unilateral exit). Spark failed the exit test at 80,000 sats to recover 20,000. This entry is the baseline every later entry gets graded against. Candidates for entry three: Ark, Liquid (federation, not an L2), Wavelength, RGB.
+- **The explainer, in order (Tyler, ≤5 min):**
+  1. **A channel** is a 2-of-2 multisig on-chain with a balance sheet the two parties update off-chain. Each update is a pre-signed transaction either side can broadcast. Cheating is punished: broadcast an old state, lose the whole channel.
+  2. **Routing** chains channels. Alice pays Carol through Bob with an **HTLC**: Bob only gets paid if he reveals the preimage Carol gave him. Nobody along the route can steal; they can only fail.
+  3. **Liquidity** is directional. A channel's capacity says nothing about which way it can move. **Inbound liquidity** is the thing new users don't have, which is why you can't receive your first payment without someone opening a channel to you or an LSP selling you inbound.
+  4. **Force-close** is the exit: broadcast the latest state, wait the timelock, your coins are on-chain. Costs an on-chain fee at whatever the mempool demands. That's the unilateral exit Spark can't match cleanly, and it's also why fee-bumping (v3/TRUC, package relay in Core) matters for Lightning safety. [Spark on v3](https://www.spark.money/research/lightning-v3-transactions-package-relay)
+  5. **What's actually shipped vs specced:** BOLT11 invoices (one-shot) everywhere; **BOLT12 offers** (reusable, blinded paths) specced and live in CLN/LDK/Eclair, lagging in LND; **splicing** (resize a channel without closing) specced with test vectors, deployed unevenly; **async payments** (receive while offline) still implementation-specific, not a finished standard. [BOLT12](https://github.com/lightning/bolts/blob/master/12-offer-encoding.md) · [Splicing spec](https://github.com/lightning/bolts/blob/master/02-peer-protocol.md) · [LDK async](https://lightningdevkit.org/blog/async-payments-receiving-while-offline)
+- **The numbers, with the trap.** 1ML today: **5,910 public nodes, 19,814 channels, 2,683 BTC** (~$230M), +3% capacity in 30 days. mempool.space mid-2026 snapshots show ~17,400 nodes / 41,000 channels / 4,871 BTC; different filters, don't average them. Public capacity is a stock and excludes private channels; routed volume is a flow. River's lower-bound method found usage growing while the public graph looked flat; a secondary source cites River at **$1.17B / 5.22M payments / ~$223 avg** for Nov 2025 (label it secondary on air). [1ML](https://1ml.com/) · [River 2023 method](https://river.com/content/the-lightning-network-in-2023) · [Spark's routing analysis](https://www.spark.money/research/lightning-node-profitability-routing-analysis)
+- **The live stakes.** Spark's Sept 27 essay ("the technology works, the user experience does not") claims the public graph has plateaued; it's an interested party. LND disclosed an OOM denial-of-service bug Sept 21 (below 0.20.0-beta; crash, not theft). USDT on Lightning via Taproot Assets is the third of T's three rails. Wavelength (July 21) is Lightning Labs conceding the channel UX by shipping an Ark-like layer with an `exit` function. [LND advisory](https://security.lightning.engineering/2026/09/21/lnd-brontide-write-allocation-oom.html) · [Spark essay](https://www.spark.money/research/spark-bitcoin-l2-no-channel-ux-advantage) · [Wavelength](https://lightning.engineering/posts/2026-07-21-wavelength-launch/)
+- **Callbacks:** Ep 17 S (Spark teardown, 2-of-2 with operators vs 2-of-2 with your counterparty: same primitive, different trust); Ep 14 Tyler's Liquid line; Ep 16 L2 test.
+- **Debate:**
+  1. **Chris:** Lightning's security story is "you must watch the chain or pay a watchtower." Spark's is "the operators must delete a key." Which failure mode would you rather explain to a customer?
+  2. **Jackson:** every "Lightning without X" product reintroduces an operator. Is inbound liquidity a UX bug or the price of not trusting anyone, and would a consumer app ever ship raw channels again?
+  3. **Tyler:** if River is right that usage grew while the public graph didn't, is the public graph the wrong dashboard, or did Lightning become an inter-exchange settlement network with a consumer costume?
+  4. **All:** Lightning Labs shipped Wavelength. When the biggest Lightning company builds an Ark-like layer, is the series' entry two already a historical document?
+- **Do NOT say:** a single "the Lightning Network has N nodes" number without the source and date; "Lightning is dying" (public graph ≠ usage) or "Lightning is growing" (River is a lower bound from participating nodes); BOLT12 "solves offline receive"; splicing "live everywhere"; employer names.
+
+**Clip question:** "Spark, Ark, Wavelength: everyone's selling Lightning without channels. Tyler, what's a channel, and why does nobody want one?"
+
+### T — Three USDTs on bitcoin: RGB, Spark, Taproot Assets (Tyler, ≤4 min; runs straight out of L)
 
 **Start:** "Sept 29, CoinDesk: 'Tether's USDT is coming home to Bitcoin this month.' It never left. It's already on Spark. It's already announced on Lightning. That's three homes."
 
@@ -139,7 +164,7 @@
 
 **Clip question:** "Tether says the dollar is 'coming home to bitcoin.' It already has three homes there, and they can't talk to each other."
 
-### K — Korea: the regulator wants licensed market makers (Jackson, ≤4 min)
+### K — Korea: the regulator wants licensed market makers (Jackson, ≤3 min)
 
 **Start:** "Ep 17: a yen stablecoin traded at four yen on Upbit and nobody was allowed to fix it. Oct 1: the FSC's answer is to license the people who fix it."
 
@@ -173,6 +198,8 @@
 
 ## Evergreen bench (no news peg)
 
+- **Layer-2 series (standing, Tyler):** Ep 17 Spark · Ep 18 Lightning · next: Ark (Arkade public beta since Oct 2025, May 2026 formal paper), Liquid (federation, "not an L2" is the point), Wavelength, RGB. One entry per episode while it lasts; every entry gets the unilateral-exit test.
+
 - **Open vs. closed weights:** PAID this week inside J (Apache-2.0 Strands Decider vs closed Jev/Decisions API). Needs a new peg after Ep 18 airs.
 - **"Grade the tape":** PAID this week inside J (Tyler's "no moat" call, Jackson's Pokémon headline). Consider making it a standing 60-second bit: each host grades one Ep N−1 prediction. Jackson decides.
 - **Secure enclaves:** unaired in Ep 17, benched ≥1 month per the standing rule. DDRop research is ready in Ep 17's E whenever something remote breaks. One-line callback only via Mastercard's "trusted execution" pillar.
@@ -183,6 +210,6 @@
 - **Everyone:** read the [Slack restart report](https://alignment.openai.com/misalignment-reports/preparing-for-a-restart-after-reading-slack/) (short) and the [Strands Decider README](https://github.com/strands-labs/strands-decider). Skim [Open Standard's launch post](https://joinopenstandard.com/blog/ousd-is-live/). Bring one Ep 17 prediction to grade.
 - **Jackson:** wire the three-model perp (Jev, Decisions API preview if you can get it, Strands locally) and screenshot the raw probabilities. Check for a Decisions API price or docs dated after Oct 6, and whether OpenAI announced a training restart. Pull Ep 17's actual perp P&L and funding. Confirm whether Naver-Dunamu closed.
 - **Chris:** read the [Mastercard white paper](https://www.mastercard.com/global/en/news-and-trends/Insights/2026/mastercard-agentic-commerce-trust-white-paper.html) and the [ABA rewards letter](https://www.aba.com/advocacy/policy-analysis/joint-state-letter-stablecoin-rewards); pull the exact GENIUS "solely in connection with" text. Check reserves.bridge.xyz/ousd for the first attestation and OUSD supply. Read [Salt Labs' Manus post](https://salt.security/blog/when-a-security-guardrail-detects-the-attack-and-still-cant-stop-it). Decide the perp format.
-- **Tyler:** check Utexo/Tether for an RGB mainnet announcement; confirm Spark's USDT claim on spark.money day-of; re-read your Ep 17 Spark trust-model teardown so you can apply it to RGB and Taproot Assets. Check Core 32.0 final status and Glamsterdam Sepolia health. Check whether the x402 Lightning rail is in the x402 repo (don't name the contributor on air).
+- **Tyler:** L is yours: rehearse the channel → HTLC → inbound liquidity → force-close explainer to five minutes; pull 1ML and mempool.space day-of and quote both with timestamps. Check Utexo/Tether for an RGB mainnet announcement; confirm Spark's USDT claim on spark.money day-of; re-read your Ep 17 Spark trust-model teardown so you can apply it to RGB and Taproot Assets. Check Core 32.0 final status and Glamsterdam Sepolia health. Check whether the x402 Lightning rail is in the x402 repo (don't name the contributor on air).
 - **Fact guardrails:** no BTC price or ETF numbers anywhere, including the perp thesis; the Slack-report model is unnamed; OpenAI's pause is still on as of Oct 6; "84 days" is June 18 → Sept 10; LASST sued, not Hugging Face; Manus was a disclosed research demo; OUSD pays partners, not holders; Open Standard's operating fee is unpublished; RGB USDT is planned, not live; Seoul Showdown was paper trading, Aster's October contest is not stated as such; Korea's market-cap drop is an FSC H1 stat, not price talk; "clone wars" is TypeSafe's CEO's phrase; no employer names, the generic disclaimer is the ceiling.
 - **Close:** actual perp result (three models, majority, number), one prediction each, and only promise next week's topic if a host takes it. Candidates to tease: Core 32.0 final, Aster's live-money contest week one, the RGB USDT launch, whether OpenAI restarts training.
