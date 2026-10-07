@@ -25,6 +25,8 @@ brand/                Logo masters (480 / 1920 / 3000px cover) + brand spec
 episodes/
   ep1/                  Transcript (csv/srt/words), segment-times, prep guide,
                         and the plan/brand/render/clips JSON for the episode
+hosts/                Transcript-grounded soul.md profiles for Jackson, Chris,
+                        and Tyler, plus outline-to-dialogue usage guidance
 media/                (gitignored) all heavy assets, organized per episode:
   epN/                  raw/ (source recordings), work*/ (pipeline workdirs),
                         cuts/ (segment masters), and the Final Cut .mp4 at the top
@@ -34,6 +36,8 @@ media/                (gitignored) all heavy assets, organized per episode:
 
 All media — raw recordings, final `.mp4`s, exported clips — lives in `media/`
 and is **gitignored**. It's large and regenerable from the configs above.
+
+For text simulation from a podcast outline, see [the host souls](hosts/README.md).
 
 ## Reproduce on a new machine
 
