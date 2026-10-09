@@ -1,0 +1,333 @@
+{
+ "show": "PERMANENT UNDERPOD",
+ "show_kicker": "PERMANENT",
+ "show_main": "UNDERPOD",
+ "accent": [
+  255,
+  210,
+  74
+ ],
+ "source": "/Users/jcook/Personal/permanent-underpod/media/ep18/work/src/jackson_720.mp4",
+ "title_card": {
+  "bg_frame": 480,
+  "line": "EPISODE 18   ·   AI vs Cryptography   ·   Bitcoin  ·  Stablecoins  ·  AI",
+  "dur": 4.5
+ },
+ "end_card": {
+  "bg_frame": 3000,
+  "kicker": "NEXT WEEK ON",
+  "lines": [
+   "Tyler's rebuilt Perp of Fortune goes live · the most volatile gambling on the pod",
+   "Does OpenAI restart training? Does Instinct buy itself a GPU farm?",
+   "Not financial advice. Our opinions are ours, not our employers'."
+  ],
+  "cta": "LIKE  +  SUBSCRIBE",
+  "dur": 7
+ },
+ "lower_thirds": [
+  {
+   "name": "intro",
+   "kicker": "EPISODE 18",
+   "title": "BACK TO THREE HOSTS (CHRIS APOLOGIZES)"
+  },
+  {
+   "name": "perp",
+   "kicker": "PERP OF FORTUNE",
+   "title": "TYLER'S 15-MINUTE COIN FLIPS VS THE OG PERP"
+  },
+  {
+   "name": "marquee",
+   "kicker": "THE MARQUEE",
+   "title": "DID OPENAI JUST BREAK CRYPTOGRAPHY?"
+  },
+  {
+   "name": "quantum",
+   "kicker": "EXPLAINER",
+   "title": "Q-DAY VS A CLASSICAL BREAK"
+  },
+  {
+   "name": "withhold",
+   "kicker": "THE FUD",
+   "title": "IF A LAB FOUND IT, WOULD THEY TELL US?"
+  },
+  {
+   "name": "cleartext",
+   "kicker": "THE THIRD OPTION",
+   "title": "THE INTERNET GOES BACK TO CLEARTEXT"
+  },
+  {
+   "name": "kimono",
+   "kicker": "OPEN KIMONO",
+   "title": "WHAT WOULD YOU DELETE FIRST?"
+  },
+  {
+   "name": "halftime",
+   "kicker": "PERP OF FORTUNE",
+   "title": "HALFTIME: WHO'S WINNING?"
+  },
+  {
+   "name": "ousd",
+   "kicker": "OPEN USD IS LIVE",
+   "title": "$700M ISSUED, AND WHO GETS THE YIELD"
+  },
+  {
+   "name": "liab",
+   "kicker": "AGENT ACCOUNTABILITY",
+   "title": "THE HAWLEY / MURPHY BILL: WHO'S LIABLE?"
+  },
+  {
+   "name": "speech",
+   "kicker": "OPEN WEIGHTS",
+   "title": "ARE TOKENS SPEECH? ASK ROMAN STORM"
+  },
+  {
+   "name": "cop",
+   "kicker": "ENFORCEMENT",
+   "title": "THE COP MODEL AND THE 90S CRYPTO WARS"
+  },
+  {
+   "name": "ip",
+   "kicker": "DEATH OF IP",
+   "title": "DECOMPILE EVERYTHING, DISTILL EVERYTHING"
+  },
+  {
+   "name": "instinct",
+   "kicker": "INSTINCT UPDATE",
+   "title": "TENNIS EVERY WEEK, BOOKED BY AN AGENT"
+  },
+  {
+   "name": "wrap",
+   "kicker": "PERP OF FORTUNE",
+   "title": "FINAL NUMBERS"
+  }
+ ],
+ "stats": [
+  {
+   "name": "coldopen",
+   "kicker": "EPISODE 18",
+   "main": "In this pod…"
+  },
+  {
+   "name": "claude",
+   "kicker": "TYLER",
+   "main": "\"Claude chose the most conservative trades\""
+  },
+  {
+   "name": "kalshi",
+   "kicker": "TYLER'S SIDE BET",
+   "main": "15-minute BTC up/down · $25 stake"
+  },
+  {
+   "name": "doubles",
+   "kicker": "CHRIS'S MATH",
+   "main": "36 doubles from $25 ≈ $1.7 trillion"
+  },
+  {
+   "name": "dodgy",
+   "kicker": "TYLER",
+   "main": "\"this dodgy old perp that Jackson supports\""
+  },
+  {
+   "name": "math",
+   "kicker": "THE MARQUEE",
+   "main": "OpenAI: 377 families of open math problems"
+  },
+  {
+   "name": "kendrick",
+   "kicker": "TYLER",
+   "main": "\"you gonna go Kendrick on Drake?\""
+  },
+  {
+   "name": "drake",
+   "kicker": "JUSTIN DRAKE",
+   "main": "\"bunker mode\": rotate to unexposed pubkeys"
+  },
+  {
+   "name": "reuse",
+   "kicker": "THE REAL EXPOSURE",
+   "main": "address reuse · Ethereum reuses by default"
+  },
+  {
+   "name": "rollback",
+   "kicker": "TYLER",
+   "main": "\"Ethereum has no history of rollbacks\""
+  },
+  {
+   "name": "qubits",
+   "kicker": "Q-DAY",
+   "main": "orders of magnitude short on qubits"
+  },
+  {
+   "name": "chicken",
+   "kicker": "TYLER",
+   "main": "\"knee-jerking between chicken-little crises\""
+  },
+  {
+   "name": "green",
+   "kicker": "MATTHEW GREEN",
+   "main": "\"we might lose public-key crypto, full stop\""
+  },
+  {
+   "name": "withhold",
+   "kicker": "TYLER",
+   "main": "if they found it, they'd withhold it · quietly"
+  },
+  {
+   "name": "cloudflare",
+   "kicker": "CHRIS",
+   "main": "\"there's one guy at Cloudflare who knows\""
+  },
+  {
+   "name": "cleartext",
+   "kicker": "DANKRAD FEIST",
+   "main": "Gmail had no TLS until ~2010 · it was fine?"
+  },
+  {
+   "name": "crash",
+   "kicker": "TYLER",
+   "main": "\"the economy is going to crash, bro\""
+  },
+  {
+   "name": "history",
+   "kicker": "JACKSON",
+   "main": "\"would my browser history be legible?\""
+  },
+  {
+   "name": "banks",
+   "kicker": "TYLER",
+   "main": "no cryptography = every bank door wide open"
+  },
+  {
+   "name": "cigarette",
+   "kicker": "TYLER",
+   "main": "\"physical Bitcoin gets you half a cigarette\""
+  },
+  {
+   "name": "halftime",
+   "kicker": "TYLER'S SIDE BET",
+   "main": "$25 → $40 · \"more than your perp ever made\""
+  },
+  {
+   "name": "ousd",
+   "kicker": "OPEN USD",
+   "main": "$700M issued · started at $500M"
+  },
+  {
+   "name": "yield",
+   "kicker": "WHO GETS THE YIELD",
+   "main": "partners, prorated · not holders"
+  },
+  {
+   "name": "tempo",
+   "kicker": "CHRIS",
+   "main": "Tempo's $2B volume: suspect wallets"
+  },
+  {
+   "name": "visa",
+   "kicker": "CORRECTION",
+   "main": "Visa + Mastercard: tens of billions a day"
+  },
+  {
+   "name": "bill",
+   "kicker": "OCT 1",
+   "main": "Hawley / Murphy: AI agent accountability bill"
+  },
+  {
+   "name": "operator",
+   "kicker": "WHO'S LIABLE",
+   "main": "the operator · loosely defined"
+  },
+  {
+   "name": "speech",
+   "kicker": "TYLER",
+   "main": "tokens flowing back and forth: is that speech?"
+  },
+  {
+   "name": "storm",
+   "kicker": "ROMAN STORM",
+   "main": "Tornado Cash dev, charged as money transmitter"
+  },
+  {
+   "name": "knife",
+   "kicker": "JACKSON",
+   "main": "\"like really nice kitchen knives\""
+  },
+  {
+   "name": "basterds",
+   "kicker": "TYLER",
+   "main": "\"a GPU running DeepSeek Flash in this house?\""
+  },
+  {
+   "name": "munition",
+   "kicker": "THE 90S",
+   "main": "crypto wars: RSA as a controlled munition"
+  },
+  {
+   "name": "ip",
+   "kicker": "CHRIS",
+   "main": "\"it's the death of IP\""
+  },
+  {
+   "name": "peasants",
+   "kicker": "TYLER",
+   "main": "\"peasants on the feudal estate of Salesforce\""
+  },
+  {
+   "name": "tennis",
+   "kicker": "INSTINCT",
+   "main": "a tournament every week, booked in 6 hours"
+  },
+  {
+   "name": "drool",
+   "kicker": "JACKSON",
+   "main": "\"I let it rip while I drool and watch YouTube\""
+  },
+  {
+   "name": "brother",
+   "kicker": "JACKSON",
+   "main": "\"my unemployed brother who does what I want\""
+  },
+  {
+   "name": "slack",
+   "kicker": "CAUTIONARY TALE",
+   "main": "Instinct posted a bank history to work Slack"
+  },
+  {
+   "name": "gpu",
+   "kicker": "TYLER",
+   "main": "\"it bought itself a GPU farm on your dime\""
+  },
+  {
+   "name": "rollercoaster",
+   "kicker": "TYLER'S SIDE BET",
+   "main": "$25 → $10 → $50 → $25"
+  }
+ ],
+ "thumbnail": {
+  "text": "AI BREAKS BITCOIN?",
+  "out": "/Users/jcook/Personal/permanent-underpod/media/ep18/ep18-thumbnail.png",
+  "faces": [
+   {
+    "track": "jackson",
+    "t": 529.0,
+    "cx": 640,
+    "top": 90,
+    "h": 630
+   },
+   {
+    "track": "tyler",
+    "t": 1636.0,
+    "cx": 250,
+    "top": 120,
+    "h": 590
+   },
+   {
+    "track": "chris",
+    "t": 3617.0,
+    "cx": 1040,
+    "top": 140,
+    "h": 570
+   }
+  ]
+ }
+}

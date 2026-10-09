@@ -1,0 +1,746 @@
+{
+ "blocks": [
+  {
+   "id": "COLD_A",
+   "m0": 67.66,
+   "m1": 86.02,
+   "cams": [
+    "tyler"
+   ],
+   "mics": [
+    "tyler"
+   ]
+  },
+  {
+   "id": "COLD_C",
+   "m0": 1856.63,
+   "m1": 1866.73,
+   "cams": [
+    "tyler"
+   ],
+   "mics": [
+    "tyler"
+   ]
+  },
+  {
+   "id": "COLD_D",
+   "m0": 3680.39,
+   "m1": 3696.51,
+   "cams": [
+    "jackson"
+   ],
+   "mics": [
+    "jackson"
+   ]
+  },
+  {
+   "id": "CARD_TITLE",
+   "card": "card_title.mov"
+  },
+  {
+   "id": "INTRO",
+   "m0": 2.5,
+   "m1": 50.65
+  },
+  {
+   "id": "PERP",
+   "m0": 50.65,
+   "m1": 430.05
+  },
+  {
+   "id": "MARQUEE",
+   "m0": 430.05,
+   "m1": 940.18
+  },
+  {
+   "id": "MARQUEE_B",
+   "m0": 1051.35,
+   "m1": 1182.71
+  },
+  {
+   "id": "MARQUEE_C",
+   "m0": 1268.51,
+   "m1": 1887.18
+  },
+  {
+   "id": "OUSD",
+   "m0": 1887.18,
+   "m1": 2329.91
+  },
+  {
+   "id": "OUSD_B",
+   "m0": 2380.6,
+   "m1": 2397.72
+  },
+  {
+   "id": "LIAB",
+   "m0": 2397.72,
+   "m1": 2407.22
+  },
+  {
+   "id": "LIAB_B",
+   "m0": 2419.19,
+   "m1": 3494.93
+  },
+  {
+   "id": "INSTINCT",
+   "m0": 3494.93,
+   "m1": 3858.34
+  },
+  {
+   "id": "WRAP",
+   "m0": 3858.34,
+   "m1": 3935.4
+  },
+  {
+   "id": "CARD_END",
+   "card": "card_end.mov"
+  }
+ ],
+ "protect": [
+  [
+   2.5,
+   22.0
+  ],
+  [
+   67.66,
+   86.02
+  ],
+  [
+   1856.63,
+   1866.73
+  ],
+  [
+   3680.39,
+   3696.51
+  ],
+  [
+   3920.0,
+   3935.4
+  ]
+ ],
+ "force_shots": [
+  {
+   "m0": 3.0,
+   "m1": 22.0,
+   "type": "trio"
+  }
+ ],
+ "face_cx": {
+  "jackson": 644,
+  "chris": 613,
+  "tyler": 662
+ },
+ "panel_order": [
+  "jackson",
+  "chris",
+  "tyler"
+ ],
+ "params": {
+  "idle_gain": 0.12,
+  "group_thresh": 0.25,
+  "group_hold": 1.0,
+  "react_thresh": 0.6,
+  "min_shot": 3.0,
+  "gain_target": 0.028,
+  "dead_air_min": 1.4,
+  "dead_air_keep": 0.5,
+  "dead_air_net": 0.8
+ },
+ "pips": [
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep18/raw/Untitled_recording-chris-screen-00h_05m_29s_469ms-StreamYard.mp4",
+   "block": "PERP",
+   "m0": 329.6,
+   "m1": 357.6,
+   "anchor": 329.127,
+   "mode": "corner",
+   "crop": [
+    936,
+    212,
+    484,
+    356
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep18/raw/Untitled_recording-chris-screen-00h_05m_29s_469ms-StreamYard.mp4",
+   "block": "OUSD",
+   "m0": 1941.4,
+   "m1": 1951.8,
+   "anchor": 329.127,
+   "mode": "corner",
+   "crop": [
+    936,
+    212,
+    484,
+    356
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep18/raw/Untitled_recording-chris-screen-00h_05m_29s_469ms-StreamYard.mp4",
+   "block": "WRAP",
+   "m0": 3889.4,
+   "m1": 3935.4,
+   "anchor": 329.127,
+   "mode": "corner",
+   "crop": [
+    936,
+    212,
+    484,
+    356
+   ]
+  }
+ ],
+ "overlays": [
+  {
+   "name": "st_coldopen",
+   "block": "COLD_A",
+   "rel": 0.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_intro",
+   "block": "INTRO",
+   "m": 4.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_perp",
+   "block": "PERP",
+   "m": 52.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_claude",
+   "block": "PERP",
+   "m": 76.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_kalshi",
+   "block": "PERP",
+   "m": 114.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_doubles",
+   "block": "PERP",
+   "m": 184.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_dodgy",
+   "block": "PERP",
+   "m": 280.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "lt_marquee",
+   "block": "MARQUEE",
+   "m": 431.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_math",
+   "block": "MARQUEE",
+   "m": 440.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_kendrick",
+   "block": "MARQUEE",
+   "m": 525.0,
+   "dur": 6,
+   "kind": "st"
+  },
+  {
+   "name": "st_drake",
+   "block": "MARQUEE",
+   "m": 543.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_reuse",
+   "block": "MARQUEE",
+   "m": 607.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_rollback",
+   "block": "MARQUEE",
+   "m": 717.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "lt_quantum",
+   "block": "MARQUEE",
+   "m": 851.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_qubits",
+   "block": "MARQUEE",
+   "m": 910.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_chicken",
+   "block": "MARQUEE_B",
+   "m": 1132.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_green",
+   "block": "MARQUEE_B",
+   "m": 1163.5,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_withhold",
+   "block": "MARQUEE_C",
+   "m": 1325.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_withhold",
+   "block": "MARQUEE_C",
+   "m": 1340.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_cloudflare",
+   "block": "MARQUEE_C",
+   "m": 1568.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "lt_cleartext",
+   "block": "MARQUEE_C",
+   "m": 1605.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_cleartext",
+   "block": "MARQUEE_C",
+   "m": 1614.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_crash",
+   "block": "MARQUEE_C",
+   "m": 1636.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "lt_kimono",
+   "block": "MARQUEE_C",
+   "m": 1682.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_history",
+   "block": "MARQUEE_C",
+   "m": 1749.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_banks",
+   "block": "MARQUEE_C",
+   "m": 1803.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_cigarette",
+   "block": "MARQUEE_C",
+   "m": 1866.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_halftime",
+   "block": "OUSD",
+   "m": 1888.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_halftime",
+   "block": "OUSD",
+   "m": 1905.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_ousd",
+   "block": "OUSD",
+   "m": 1974.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_ousd",
+   "block": "OUSD",
+   "m": 2012.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_yield",
+   "block": "OUSD",
+   "m": 2087.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_tempo",
+   "block": "OUSD",
+   "m": 2150.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_visa",
+   "block": "OUSD_B",
+   "m": 2382.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "lt_liab",
+   "block": "LIAB",
+   "m": 2399.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_bill",
+   "block": "LIAB_B",
+   "m": 2426.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_operator",
+   "block": "LIAB_B",
+   "m": 2457.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_speech",
+   "block": "LIAB_B",
+   "m": 2670.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_speech",
+   "block": "LIAB_B",
+   "m": 2725.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_storm",
+   "block": "LIAB_B",
+   "m": 2793.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_knife",
+   "block": "LIAB_B",
+   "m": 2925.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "lt_cop",
+   "block": "LIAB_B",
+   "m": 3235.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_basterds",
+   "block": "LIAB_B",
+   "m": 3277.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_munition",
+   "block": "LIAB_B",
+   "m": 3292.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_ip",
+   "block": "LIAB_B",
+   "m": 3320.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_ip",
+   "block": "LIAB_B",
+   "m": 3328.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_peasants",
+   "block": "LIAB_B",
+   "m": 3432.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "lt_instinct",
+   "block": "INSTINCT",
+   "m": 3496.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_tennis",
+   "block": "INSTINCT",
+   "m": 3511.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_drool",
+   "block": "INSTINCT",
+   "m": 3542.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_brother",
+   "block": "INSTINCT",
+   "m": 3687.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_slack",
+   "block": "INSTINCT",
+   "m": 3710.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_gpu",
+   "block": "INSTINCT",
+   "m": 3836.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "lt_wrap",
+   "block": "WRAP",
+   "m": 3859.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_rollercoaster",
+   "block": "WRAP",
+   "m": 3868.0,
+   "dur": 8,
+   "kind": "st"
+  }
+ ],
+ "sheet": [
+  {
+   "block": "COLD_A",
+   "label": "Cold open"
+  },
+  {
+   "block": "INTRO",
+   "label": "Welcome back, all three of us"
+  },
+  {
+   "block": "PERP",
+   "label": "Perp of Fortune: Tyler's 15-minute coin flips vs the OG perp"
+  },
+  {
+   "block": "PERP",
+   "m": 317.0,
+   "label": "The little man in the computer shorted Circle"
+  },
+  {
+   "block": "MARQUEE",
+   "label": "The marquee: did OpenAI's math drop just threaten cryptography?"
+  },
+  {
+   "block": "MARQUEE",
+   "m": 508.0,
+   "label": "Justin Drake says go bunker mode"
+  },
+  {
+   "block": "MARQUEE",
+   "m": 839.0,
+   "label": "Q-Day vs a classical break: Tyler explains"
+  },
+  {
+   "block": "MARQUEE_B",
+   "m": 1139.0,
+   "label": "Matthew Green and the FUD contagion"
+  },
+  {
+   "block": "MARQUEE_C",
+   "m": 1324.0,
+   "label": "If a lab found it, would they tell us?"
+  },
+  {
+   "block": "MARQUEE_C",
+   "m": 1523.0,
+   "label": "How do you responsibly disclose a broken curve?"
+  },
+  {
+   "block": "MARQUEE_C",
+   "m": 1604.0,
+   "label": "Dankrad: the internet goes back to cleartext"
+  },
+  {
+   "block": "MARQUEE_C",
+   "m": 1681.0,
+   "label": "Open kimono, nude beach, browser history"
+  },
+  {
+   "block": "OUSD",
+   "label": "Perp halftime: who's winning?"
+  },
+  {
+   "block": "OUSD",
+   "m": 1973.0,
+   "label": "Open USD is live: $700M issued, who gets the yield"
+  },
+  {
+   "block": "OUSD",
+   "m": 2143.0,
+   "label": "Tempo's $2B of suspect volume"
+  },
+  {
+   "block": "LIAB",
+   "label": "The Hawley/Murphy bill: who's liable for your agent?"
+  },
+  {
+   "block": "LIAB_B",
+   "m": 2669.0,
+   "label": "Open weights, speech, and Roman Storm"
+  },
+  {
+   "block": "LIAB_B",
+   "m": 3150.0,
+   "label": "How crypto got legalized, and what that means for AI"
+  },
+  {
+   "block": "LIAB_B",
+   "m": 3234.0,
+   "label": "The cop model and the 90s crypto wars"
+  },
+  {
+   "block": "LIAB_B",
+   "m": 3319.0,
+   "label": "Death of IP, death of owning software"
+  },
+  {
+   "block": "INSTINCT",
+   "label": "Instinct update: a tennis tournament every week"
+  },
+  {
+   "block": "INSTINCT",
+   "m": 3694.0,
+   "label": "The guy whose agent posted his bank history to Slack"
+  },
+  {
+   "block": "WRAP",
+   "label": "Perp of Fortune: final numbers"
+  }
+ ],
+ "gain_spans": {
+  "jackson": [
+   [
+    430.0,
+    500.0
+   ],
+   [
+    2425.0,
+    2495.0
+   ],
+   [
+    3496.0,
+    3530.0
+   ],
+   [
+    3563.0,
+    3580.0
+   ]
+  ],
+  "chris": [
+   [
+    508.0,
+    552.0
+   ],
+   [
+    1139.0,
+    1181.0
+   ],
+   [
+    2010.0,
+    2060.0
+   ],
+   [
+    2143.0,
+    2195.0
+   ]
+  ],
+  "tyler": [
+   [
+    862.0,
+    940.0
+   ],
+   [
+    1324.0,
+    1410.0
+   ],
+   [
+    2669.0,
+    2745.0
+   ],
+   [
+    3859.0,
+    3890.0
+   ]
+  ]
+ }
+}
