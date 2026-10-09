@@ -183,7 +183,8 @@ def shot_key(sh):
     return sh['type'] + ':' + ','.join(sh.get('panels', [sh.get('cam', '')]))
 
 def plan_block(b):
-    m0, m1 = snap(b['m0']), snap(b['m1'])
+    m0 = b['m0'] if b.get('hard_m0') else snap(b['m0'])
+    m1 = b['m1'] if b.get('hard_m1') else snap(b['m1'])
     grid = np.arange(m0, m1, 0.01)
     silent = np.array([not union_act(t) for t in grid])
     keeps, cur, s = [], m0, None

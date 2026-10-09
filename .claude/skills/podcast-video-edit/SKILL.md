@@ -496,6 +496,11 @@ envelope is the only arbiter. This applies without being asked, every episode:
   are for topic transitions only. Both edges still gate through check_bounds.
 - Contiguous chapter joins share one master point, so the gate checks it once
   and snap() moves both edges identically.
+- A host-directed cut INSIDE a phrase (Ep 18: "cut right after 'information here'")
+  needs `"hard_m1": true` / `"hard_m0": true` on the block edge, or snap() silently
+  moves it back to the nearest silent gap and the ask ships un-done. Find the word
+  boundary on the 10 ms envelope + micro-whisper first; check_bounds will report it
+  ON SPEECH, which is expected for that edge only.
 
 What's different from the one-camera flow (all learned the hard way on Ep 5):
 

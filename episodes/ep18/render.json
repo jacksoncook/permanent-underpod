@@ -108,6 +108,13 @@
    "y": 0
   },
   {
+   "file": "likesub.mov",
+   "start": 135.0,
+   "end": 141.0,
+   "x": 0,
+   "y": 0
+  },
+  {
    "file": "wipe.mov",
    "start": 474.453,
    "end": 474.853,
@@ -116,50 +123,43 @@
   },
   {
    "file": "wipe.mov",
-   "start": 1722.453,
-   "end": 1722.853,
-   "x": 0,
-   "y": 0
-  },
-  {
-   "file": "wipe.mov",
-   "start": 2174.92,
-   "end": 2175.32,
-   "x": 0,
-   "y": 0
-  },
-  {
-   "file": "wipe.mov",
-   "start": 3246.42,
-   "end": 3246.82,
-   "x": 0,
-   "y": 0
-  },
-  {
-   "file": "wipe.mov",
-   "start": 3607.753,
-   "end": 3608.153,
+   "start": 1718.953,
+   "end": 1719.353,
    "x": 0,
    "y": 0
   },
   {
    "file": "likesub.mov",
-   "start": 135.0,
-   "end": 141.0,
+   "start": 1852.5,
+   "end": 1858.5,
+   "x": 0,
+   "y": 0
+  },
+  {
+   "file": "wipe.mov",
+   "start": 2171.42,
+   "end": 2171.82,
+   "x": 0,
+   "y": 0
+  },
+  {
+   "file": "wipe.mov",
+   "start": 3239.853,
+   "end": 3240.253,
    "x": 0,
    "y": 0
   },
   {
    "file": "likesub.mov",
-   "start": 1856.0,
-   "end": 1862.0,
+   "start": 3589.433,
+   "end": 3595.433,
    "x": 0,
    "y": 0
   },
   {
-   "file": "likesub.mov",
-   "start": 3596.0,
-   "end": 3602.0,
+   "file": "wipe.mov",
+   "start": 3601.187,
+   "end": 3601.587,
    "x": 0,
    "y": 0
   }
