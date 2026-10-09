@@ -35,3 +35,24 @@ Live state: `media/clips/tiktok/*.results.json`.
 | Thu Oct 9 | short2-cig-order | https://www.tiktok.com/@permanentunderpod/video/7692592282758810902 (scheduled 19:00 ET) |
 
 Same seven as the YouTube release, same order. Holds (short4, short11) stay held.
+
+## Ep 18 clips — 4 PM PT daily (19:00 ET)
+
+| Day | Clip | TikTok |
+|---|---|---|
+| Sat Oct 10 | short6-half-a-cigarette | https://www.tiktok.com/@permanentunderpod/video/7694712381988982038 (scheduled 19:00 ET) |
+| Sun Oct 11 | short4-economy-crash-bro | https://www.tiktok.com/@permanentunderpod/video/7694712584733429015 (scheduled 19:00 ET) |
+| Mon Oct 12 | short9-unemployed-brother | https://www.tiktok.com/@permanentunderpod/video/7694712743399673110 (scheduled 19:00 ET) |
+| Tue Oct 13 | short1-36-doubles | https://www.tiktok.com/@permanentunderpod/video/7694713001366097175 (scheduled 19:00 ET) |
+| Wed Oct 14 | short2-kendrick-on-drake | https://www.tiktok.com/@permanentunderpod/video/7694713295663680790 (scheduled 19:00 ET) |
+| Thu Oct 15 | short11-bank-history-slack | https://www.tiktok.com/@permanentunderpod/video/7694713478187093270 (scheduled 19:00 ET) |
+| Fri Oct 16 | short3-one-guy-at-cloudflare | https://www.tiktok.com/@permanentunderpod/video/7694713716922797334 (scheduled 19:00 ET) |
+| Sat Oct 17 | short8-drool-and-youtube | https://www.tiktok.com/@permanentunderpod/video/7694714253617401110 (scheduled 19:00 ET) |
+| Sun Oct 18 | short10-gpu-farm | https://www.tiktok.com/@permanentunderpod/video/7694714508736154902 (scheduled 19:00 ET) |
+| Mon Oct 19 | short5-browser-history | not yet scheduled: beyond Studio's 10-day window on Oct 9; rerun `tt_upload.py` on/after Oct 10 |
+| Tue Oct 20 | short7-feudal-salesforce | not yet scheduled: beyond Studio's 10-day window on Oct 9; rerun `tt_upload.py` on/after Oct 10 |
+
+Same eleven as the YouTube release, same order, two hours after the 2 PM PT YouTube slot. Nine
+scheduled 2026-10-09; the last two sit outside TikTok Studio's 10-day scheduling window and need a
+rerun of `tt_upload.py media/clips/tiktok/queue.json` once inside it (the script skips them as
+"later" and picks them up unchanged).

@@ -9,7 +9,9 @@ removed, 25 dead-air pauses trimmed (39 s) · Jackson's track dereverbed (WPE + 
 
 ## Episode video
 
-- **URL:** (Jackson uploads manually; backfill from `yt_fetch.py` after publish)
+- **URL:** https://youtu.be/QrQmpx0igd8 — live 2026-10-09 as "Could AI Break Bitcoin?" (Jackson's manual
+  upload). API-patched 2026-10-09: standard caption track from the v2 SRT, 15 tags, and the one stale
+  "36:15" in the description (the chapter list was already v2).
 - **File:** `media/ep18/Permanent Underpod - Ep 18 (Final Cut).mp4`
 - **Thumbnail:** `media/ep18/ep18-thumbnail.png` — "AI BREAKS BITCOIN?" (Jackson center, Tyler
   left, Chris right; passed the 320×180 shrink test).
@@ -186,14 +188,29 @@ Subscribe for next week: Tyler's rebuilt Perp of Fortune goes live, does OpenAI 
 
 ## Clips
 
-Not cut yet. Shorts picks from this edit, in rough order of personality: "your physical Bitcoin
-will get you half a cigarette" (0:18 / 30:50 src), "the economy is going to crash, bro" (≈24:00;
-no clean gap for the cold open, fine as a short with its own edges), "36 doubles is 1.7 trillion
-dollars from $25" (≈2:40), "you gonna go Kendrick on Drake?" (≈9:40), "there's one guy at
-Cloudflare who knows" (≈21:00), "would my browser history be legible?" (≈26:30), "my unemployed
-brother who does what I want" (57:00), "it bought itself a GPU farm on your dime" (≈58:30),
-"peasants on the feudal estate of Salesforce" (≈52:00). Bench: anything that says "Perp of
-Fortune" in the audio (house jargon).
+Eleven vertical Shorts cut 2026-10-09 from `edited_raw.mov` with the episode audio chain, face-crop
+hard cuts, branded ender. `verify_clips.py` pre and `--rendered`: 0 failures (short6 tail 5.6 dB and
+the declared short7 breath-tail override are the only warnings). Every rendered head and tail
+whispered: no clipped words. Uploaded scheduled-private to Underpod Shorts, daily 2 PM PT, Oct 10–20
+(Ep 17's queue ended Oct 8). Receipts in `media/clips/ep18/upload-manifest.json.results.json`.
+
+| Release | Clip | Final-cut in–out | Title | URL |
+|---|---|---|---|---|
+| 2026-10-10 2 PM PT | `short6-half-a-cigarette` | 1696.5000–1715.9400 (19.4 s) | Your Bitcoin Will Be Worth Half a Cigarette - Ep 18 Clip | https://youtu.be/xCCh_F2LzzU |
+| 2026-10-11 2 PM PT | `short4-economy-crash-bro` | 1464.7333–1476.4000 (11.7 s) | "The Economy Is Going to Crash, Bro" - Ep 18 Clip | https://youtu.be/w4md_EVgeRU |
+| 2026-10-12 2 PM PT | `short9-unemployed-brother` | 3426.5000–3447.1000 (20.6 s) | My AI Agent Is My Unemployed Brother - Ep 18 Clip | https://youtu.be/4cMTiNz3m9M |
+| 2026-10-13 2 PM PT | `short1-36-doubles` | 228.1667–244.7000 (16.5 s) | 36 Coin Flips to $1.7 Trillion - Ep 18 Clip | https://youtu.be/1Akc6eVAZL0 |
+| 2026-10-14 2 PM PT | `short2-kendrick-on-drake` | 550.3000–577.0000 (26.7 s) | Going Kendrick on Justin Drake - Ep 18 Clip | https://youtu.be/dnhTZoYrRvI |
+| 2026-10-15 2 PM PT | `short11-bank-history-slack` | 3450.3333–3466.2000 (15.9 s) | His AI Posted His Bank History to Work Slack - Ep 18 Clip | https://youtu.be/sri0GzIzgRw |
+| 2026-10-16 2 PM PT | `short3-one-guy-at-cloudflare` | 1396.7000–1413.6000 (16.9 s) | "There's One Guy at Cloudflare Who Knows" - Ep 18 Clip | https://youtu.be/Na7-88emsAU |
+| 2026-10-17 2 PM PT | `short8-drool-and-youtube` | 3281.4000–3296.7800 (15.4 s) | I Let the AI Rip While I Drool and Watch YouTube - Ep 18 Clip | https://youtu.be/TtUhLO1on8w |
+| 2026-10-18 2 PM PT | `short10-gpu-farm` | 3577.4333–3593.4000 (16.0 s) | What If Your AI Buys Itself a GPU Farm? - Ep 18 Clip | https://youtu.be/thR1RWBhYCk |
+| 2026-10-19 2 PM PT | `short5-browser-history` | 1575.0000–1597.8000 (22.8 s) | Would My Browser History Leak? - Ep 18 Clip | https://youtu.be/oCQEqC-Qv4w |
+| 2026-10-20 2 PM PT | `short7-feudal-salesforce` | 3168.8667–3187.6000 (18.7 s) | Peasants on the Feudal Estate of Salesforce - Ep 18 Clip | https://youtu.be/Zx4pgen6l_U |
+
+Funnel comments: `media/clips/ep18/pin-comments.json` added to the pin-comments LaunchAgent
+(alongside Ep 17/16/15); pinning stays manual. TikTok: same eleven scheduled via `tt_upload.py`,
+daily 4 PM PT (19:00 ET), URLs in `episodes/tiktok.md`.
 
 ## Edit decisions of note
 
