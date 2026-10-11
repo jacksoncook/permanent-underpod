@@ -17,7 +17,9 @@ production files. Not affiliated with any employer.
 - `media/` — all heavy assets. **GITIGNORED — not in the repo.** Per-episode layout:
   `media/epN/raw/` source recordings · `media/epN/work*/` pipeline workdirs ·
   `media/epN/cuts/` segment masters · the Final Cut `.mp4` at `media/epN/` top level ·
-  `media/clips/epN/` exported clips · `media/attic/` superseded renders (deletable).
+  `media/clips/epN/` exported clips · `media/clips/library/` every vertical short, flat, hardlinked
+  (rebuild: `shorts_library.py`; index ranked by views at `episodes/shorts-library.md`) ·
+  `media/attic/` superseded renders (deletable).
 
 ## Skills (auto-loaded from `.claude/skills/`)
 - **podcast-video-edit**: `analyze.sh → verify_silences.py → graphics.py → cut_render.py
