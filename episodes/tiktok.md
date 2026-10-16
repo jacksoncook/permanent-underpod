@@ -56,3 +56,31 @@ Same eleven as the YouTube release, same order, two hours after the 2 PM PT YouT
 scheduled 2026-10-09; the last two sit outside TikTok Studio's 10-day scheduling window and need a
 rerun of `tt_upload.py media/clips/tiktok/queue.json` once inside it (the script skips them as
 "later" and picks them up unchanged).
+
+## Ep 19 clips — two a day, 6 PM + 8 PM PT (21:00 / 23:00 ET), Oct 16–21
+
+Jackson: "start today, double up … lets see if we get banned again." Per-item `postHourLocal` (new) puts
+them beside Ep 18's 19:00 slot (through Oct 20). All twelve fit TikTok's 10-day window in one pass. The
+two Ep 18 stragglers (short5-browser-history Oct 19, short7-feudal-salesforce Oct 20) ride the same run.
+
+| Slot | Clip | TikTok |
+|---|---|---|
+| Fri Oct 16 21:00 ET | short9-horcruxing-himself | https://www.tiktok.com/@permanentunderpod/video/7697169698907065622 (scheduled 21:00 ET) |
+| Fri Oct 16 23:00 ET | short10-butter-hostage | https://www.tiktok.com/@permanentunderpod/video/7697171283305352470 (scheduled 23:00 ET) |
+| Sat Oct 17 21:00 ET | short8-goblin-in-my-toaster | https://www.tiktok.com/@permanentunderpod (row link not found yet) (scheduled 21:00 ET) |
+| Sat Oct 17 23:00 ET | short4-chris-wallet | PENDING — session logged out mid-run; re-clone cookies and rerun `tt_upload.py` |
+| Sun Oct 18 21:00 ET | short3-talking-like-cockroach | PENDING — session logged out mid-run; re-clone cookies and rerun `tt_upload.py` |
+| Sun Oct 18 23:00 ET | short7-not-good-buddy | PENDING — session logged out mid-run; re-clone cookies and rerun `tt_upload.py` |
+| Mon Oct 19 21:00 ET | short12-ken-griffin-took-us-out | PENDING — session logged out mid-run; re-clone cookies and rerun `tt_upload.py` |
+| Mon Oct 19 23:00 ET | short5-store-sells-the-scales | PENDING — session logged out mid-run; re-clone cookies and rerun `tt_upload.py` |
+| Tue Oct 20 21:00 ET | short1-haiku-or-fable | PENDING — session logged out mid-run; re-clone cookies and rerun `tt_upload.py` |
+| Tue Oct 20 23:00 ET | short2-perp-of-fortune-index | PENDING — session logged out mid-run; re-clone cookies and rerun `tt_upload.py` |
+| Wed Oct 21 21:00 ET | short6-saasless-dude | PENDING — session logged out mid-run; re-clone cookies and rerun `tt_upload.py` |
+| Wed Oct 21 23:00 ET | short11-half-a-token-a-second | PENDING — session logged out mid-run; re-clone cookies and rerun `tt_upload.py` |
+
+- Run 1 (03:49 ET): item 1 scheduled, but Studio listed its row late and the 120 s row check aborted
+  the run; URL recovered from the list. `wait_for_posts_list` now reloads the list every 30 s.
+- Run 2 (03:53 ET): items 2–3 scheduled (item 3's row link not found yet), then the session was
+  logged out server-side on item 4 (`/login` redirect; Chrome Profile 1 holds the same Oct 3
+  sessionid, so it is logged out too). Owed: Jackson logs into TikTok in Chrome, re-clone the Cookies
+  file, rerun `tt_upload.py media/clips/tiktok/queue.json` for the remaining 9 + the 2 Ep 18 items.

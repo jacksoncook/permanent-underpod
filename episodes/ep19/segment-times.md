@@ -10,7 +10,9 @@ trimmed (34 s).**
 
 ## Episode video
 
-- **URL:** _not yet uploaded_
+- **URL:** https://youtu.be/gBkEBCNJfPU — live 2026-10-16 as "They Hid a SIM Card Inside a Crypto Wallet. $102M Gone."
+  (Jackson's manual upload, description = the sheet's draft). API-patched 2026-10-16: standard caption track
+  from the final-cut SRT, 15 tags (the force-ssl token was revoked by the manual upload again; re-authed).
 - **File:** `media/ep19/Permanent Underpod - Ep 19 (Final Cut).mp4`
 - **Thumbnail:** `media/ep19/ep19-thumbnail.png` — "THEY BUGGED THE WALLET" (Jackson center,
   Tyler left, Chris right; passed the 320×180 shrink test).
@@ -186,11 +188,32 @@ Subscribe for next week: Poppy, Meta and Sierra's protocol for letting your agen
 
 ## Clips
 
-Not cut yet. Candidates flagged while editing: Tyler's Voldemort/Horcrux line (53:59), Chris's
-butter-hostage fridge (57:49), "a dumb little goblin in my toaster" (52:45), "not Phoenix Wallet,
-Chris Wallet" (15:22), "I'm talking like cockroach" (6:33), the Cold Card tamper bag (7:34),
-"the same store also sells the scales" (16:41), "not good, buddy" (33:59), "Ken Griffin took us out"
-(59:53), the Perp of Fortune index (4:20).
+Twelve vertical Shorts cut 2026-10-16 from `edited_raw.mov` with the episode audio chain, face-crop
+hard cuts, branded ender. `verify_clips.py` pre and `--rendered`: 0 failures (short1/short9 tail
+warnings are decaying final words, confirmed by whisper). Every rendered head and tail whispered: no
+clipped words. Uploaded scheduled-private to Underpod Shorts, two a day (Jackson: "start today, double
+up"): 6 PM + 10 PM PT while Ep 18 holds 2 PM PT through Oct 20, then 2 PM + 6 PM PT on Oct 21.
+Receipts in `media/clips/ep19/upload-manifest.json.results.json`.
+
+| Release | Clip | Final-cut in–out | Title | URL |
+|---|---|---|---|---|
+| 2026-10-16 6 PM PT | `short9-horcruxing-himself` | 3239.1333–3253.0900 (14.0 s) | Claude Just Horcruxed Himself - Ep 19 Clip | https://youtu.be/dCFxmfWl2j8 |
+| 2026-10-16 10 PM PT | `short10-butter-hostage` | 3450.5000–3474.9600 (24.5 s) | My Smart Fridge Is Holding My Butter Hostage - Ep 19 Clip | https://youtu.be/BSnekJhe0bE |
+| 2026-10-17 6 PM PT | `short8-goblin-in-my-toaster` | 3155.9000–3167.0400 (11.1 s) | I Want a Goblin in My Toaster - Ep 19 Clip | https://youtu.be/-b7Ih8Gwfx0 |
+| 2026-10-17 10 PM PT | `short4-chris-wallet` | 924.9000–938.0800 (13.2 s) | Forget Phoenix Wallet. Chris Wallet. - Ep 19 Clip | https://youtu.be/6pmsUijzjhA |
+| 2026-10-18 6 PM PT | `short3-talking-like-cockroach` | 370.6667–400.9000 (30.2 s) | $102M Lost to a Bug Inside a Hardware Wallet - Ep 19 Clip | https://youtu.be/ALvnhtHhXJU |
+| 2026-10-18 10 PM PT | `short7-not-good-buddy` | 2031.2333–2051.6800 (20.4 s) | My Finance Agent Says "Not Good, Buddy" - Ep 19 Clip | https://youtu.be/fkWnZETzf80 |
+| 2026-10-19 6 PM PT | `short12-ken-griffin-took-us-out` | 3584.9000–3598.3000 (13.4 s) | Ken Griffin Took Us Out (We Lost $9) - Ep 19 Clip | https://youtu.be/AHT6yw9yjUk |
+| 2026-10-19 10 PM PT | `short5-store-sells-the-scales` | 981.9000–1015.0500 (33.1 s) | The Store That Sold the Bugged Wallet Also Sells the Scale - Ep 19 Clip | https://youtu.be/F3JzqYKo6_k |
+| 2026-10-20 6 PM PT | `short1-haiku-or-fable` | 249.0667–258.9000 (9.8 s) | Which AI Picked Our Trade? - Ep 19 Clip | https://youtu.be/qhzeGR3WrmY |
+| 2026-10-20 10 PM PT | `short2-perp-of-fortune-index` | 260.0000–277.2000 (17.2 s) | Our Gambling Account Is the Best Bear Market Indicator - Ep 19 Clip | https://youtu.be/X22OMRuXpOU |
+| 2026-10-21 2 PM PT | `short6-saasless-dude` | 1303.5000–1316.0000 (12.5 s) | "I'm SaaS-less, Dude" - Ep 19 Clip | https://youtu.be/mPyBs9vOga8 |
+| 2026-10-21 6 PM PT | `short11-half-a-token-a-second` | 3351.6000–3372.8500 (21.2 s) | Half a Token a Second on Every Smart TV - Ep 19 Clip | https://youtu.be/sTaOA9dTdVY |
+
+Funnel comments: `media/clips/ep19/pin-comments.json` added to the pin-comments LaunchAgent (now also
+fires at 01:10 ET for the 10 PM PT slot); pinning stays manual. TikTok: same twelve scheduled via
+`tt_upload.py`, two a day at 6 PM + 8 PM PT (21:00/23:00 ET) Oct 16–21 (per-item `postHourLocal`,
+new), URLs in `episodes/tiktok.md`.
 
 ## Edit decisions of note
 

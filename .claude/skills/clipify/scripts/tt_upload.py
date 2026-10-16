@@ -4,7 +4,8 @@
 usage: tt_upload.py <manifest.json> [<manifest.json> ...] [--dry-run] [--headful] [--max N]
 
 manifest.json: {"account": "<tiktok username>", "postHourLocal": 17,
-                "items": [{"postOn": "YYYY-MM-DD", "file": "<mp4>", "caption": "<text with #tags>"}]}
+                "items": [{"postOn": "YYYY-MM-DD", "file": "<mp4>", "caption": "<text with #tags>",
+                           "postHourLocal": 21}]}   # per-item hour is optional; overrides the manifest default
 
 Every item not yet in <manifest>.results.json is handled in one run: items whose postOn/postHourLocal
 is at least 20 minutes away are SCHEDULED in Studio (TikTok allows up to 10 days ahead, so run this
@@ -65,10 +66,10 @@ def run(manifest_path, dry, headful, max_uploads):
     now = datetime.datetime.now()
     slot = manifest.get("postHourLocal", 17)
     plan = []
-    for it in sorted(manifest["items"], key=lambda it: it["postOn"]):
+    for it in sorted(manifest["items"], key=lambda it: (it["postOn"], it.get("postHourLocal", slot))):
         if it["file"] in results:
             continue
-        when = datetime.datetime.combine(datetime.date.fromisoformat(it["postOn"]), datetime.time(slot, 0))
+        when = datetime.datetime.combine(datetime.date.fromisoformat(it["postOn"]), datetime.time(it.get("postHourLocal", slot), 0))
         if when.date() < now.date():
             print(f"SKIP {it['file']}: postOn {it['postOn']} has passed; decide by hand"); continue
         if when > now + SCHEDULE_HORIZON:
@@ -233,9 +234,13 @@ def wait_for_posts_list(page, caption, seconds):
     """Studio redirects to /tiktokstudio/content after posting or scheduling; the new row shows the caption."""
     deadline = time.time() + seconds
     head = normalize(caption)[:40]
+    next_reload = time.time() + 30
     while time.time() < deadline:
         if "/tiktokstudio/content" in page.url and head in normalize(page.locator("body").inner_text()):
             return
+        if time.time() > next_reload:
+            page.goto(POSTS_URL, wait_until="domcontentloaded", timeout=60000)
+            next_reload = time.time() + 30
         page.wait_for_timeout(1000)
     raise TimeoutError("no Studio posts-list row with this caption; check Studio before retrying")
 
