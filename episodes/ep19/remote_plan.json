@@ -1,0 +1,675 @@
+{
+ "blocks": [
+  {
+   "id": "COLD_A",
+   "m0": 2909.3,
+   "m1": 2932.5,
+   "hard_m0": true,
+   "hard_m1": true,
+   "cams": [
+    "chris"
+   ],
+   "mics": [
+    "chris"
+   ]
+  },
+  {
+   "id": "COLD_B",
+   "m0": 3681.3,
+   "m1": 3687.25,
+   "hard_m0": true,
+   "hard_m1": true,
+   "cams": [
+    "tyler"
+   ],
+   "mics": [
+    "tyler"
+   ]
+  },
+  {
+   "id": "COLD_C",
+   "m0": 3915.1,
+   "m1": 3920.6,
+   "hard_m0": true,
+   "hard_m1": true,
+   "cams": [
+    "chris"
+   ],
+   "mics": [
+    "chris"
+   ]
+  },
+  {
+   "id": "CARD_TITLE",
+   "card": "card_title.mov"
+  },
+  {
+   "id": "INTRO",
+   "m0": 1.0,
+   "m1": 36.21
+  },
+  {
+   "id": "PERP",
+   "m0": 36.21,
+   "m1": 176.64
+  },
+  {
+   "id": "PERP_B",
+   "m0": 207.21,
+   "m1": 336.65
+  },
+  {
+   "id": "LEDGER_A",
+   "m0": 2622.64,
+   "m1": 2628.57,
+   "hard_m1": true
+  },
+  {
+   "id": "LEDGER_B",
+   "m0": 2638.0,
+   "m1": 2645.4,
+   "hard_m0": true,
+   "hard_m1": true,
+   "mute": [
+    [
+     "chris",
+     2642.3,
+     2646.0
+    ]
+   ]
+  },
+  {
+   "id": "LEDGER_C",
+   "m0": 2650.55,
+   "m1": 2706.96,
+   "hard_m0": true,
+   "mute": [
+    [
+     "chris",
+     2650.0,
+     2651.0
+    ]
+   ]
+  },
+  {
+   "id": "LEDGER_D",
+   "m0": 2714.08,
+   "m1": 3550.9,
+   "hard_m0": true,
+   "mute": [
+    [
+     "jackson",
+     2712.5,
+     2715.0
+    ]
+   ]
+  },
+  {
+   "id": "SAAS_A",
+   "m0": 340.61,
+   "m1": 776.73
+  },
+  {
+   "id": "SAAS_B",
+   "m0": 811.07,
+   "m1": 1209.8
+  },
+  {
+   "id": "LN_A",
+   "m0": 1209.8,
+   "m1": 1389.52
+  },
+  {
+   "id": "LN_B",
+   "m0": 1408.4,
+   "m1": 1759.08,
+   "hard_m0": true,
+   "mute": [
+    [
+     "jackson",
+     1408.3,
+     1411.0
+    ]
+   ]
+  },
+  {
+   "id": "LN_B2",
+   "m0": 1868.65,
+   "m1": 1981.26
+  },
+  {
+   "id": "LN_C",
+   "m0": 2036.17,
+   "m1": 2258.15
+  },
+  {
+   "id": "LN_D",
+   "m0": 2327.69,
+   "m1": 2353.38
+  },
+  {
+   "id": "LN_E",
+   "m0": 2421.08,
+   "m1": 2582.4
+  },
+  {
+   "id": "LN_F",
+   "m0": 2610.5,
+   "m1": 2620.02,
+   "hard_m0": true,
+   "mute": [
+    [
+     "chris",
+     2609.3,
+     2611.3
+    ]
+   ]
+  },
+  {
+   "id": "REPL",
+   "m0": 3561.3,
+   "m1": 4079.41
+  },
+  {
+   "id": "CARD_END",
+   "card": "card_end.mov"
+  }
+ ],
+ "protect": [
+  [
+   1.0,
+   36.21
+  ],
+  [
+   2909.3,
+   2932.5
+  ],
+  [
+   3681.3,
+   3687.25
+  ],
+  [
+   3915.1,
+   3920.6
+  ],
+  [
+   4047.0,
+   4079.41
+  ]
+ ],
+ "force_shots": [
+  {
+   "m0": 2.0,
+   "m1": 29.0,
+   "type": "trio"
+  }
+ ],
+ "face_cx": {
+  "jackson": 671,
+  "chris": 632,
+  "tyler": 730
+ },
+ "panel_order": [
+  "jackson",
+  "chris",
+  "tyler"
+ ],
+ "params": {
+  "idle_gain": 0.12,
+  "group_thresh": 0.25,
+  "group_hold": 1.0,
+  "react_thresh": 0.6,
+  "min_shot": 3.0,
+  "gain_target": 0.028,
+  "dead_air_min": 1.2,
+  "dead_air_keep": 0.4,
+  "dead_air_net": 0.6
+ },
+ "gain_spans": {
+  "jackson": [
+   [
+    73.0,
+    97.0
+   ],
+   [
+    912.0,
+    977.0
+   ],
+   [
+    2443.0,
+    2484.0
+   ],
+   [
+    3527.0,
+    3550.0
+   ]
+  ],
+  "chris": [
+   [
+    103.0,
+    162.0
+   ],
+   [
+    1007.0,
+    1070.0
+   ],
+   [
+    2854.0,
+    2931.0
+   ],
+   [
+    3011.0,
+    3060.0
+   ]
+  ],
+  "tyler": [
+   [
+    424.0,
+    529.0
+   ],
+   [
+    1265.0,
+    1366.0
+   ],
+   [
+    1875.0,
+    1980.0
+   ],
+   [
+    3097.0,
+    3136.0
+   ]
+  ]
+ },
+ "pips": [
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep19/raw/Untitled_recording-chris-screen-00h_02m_50s_326ms-StreamYard.mp4",
+   "block": "PERP",
+   "m0": 171.0,
+   "m1": 176.64,
+   "anchor": 169.945,
+   "mode": "corner",
+   "crop": [
+    1000,
+    470,
+    460,
+    355
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep19/raw/Untitled_recording-chris-screen-00h_02m_50s_326ms-StreamYard.mp4",
+   "block": "PERP_B",
+   "m0": 207.21,
+   "m1": 336.65,
+   "anchor": 169.945,
+   "mode": "corner",
+   "crop": [
+    1000,
+    470,
+    460,
+    355
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep19/raw/Untitled_recording-chris-screen-00h_02m_50s_326ms-StreamYard.mp4",
+   "block": "REPL",
+   "m0": 4013.5,
+   "m1": 4060.5,
+   "anchor": 169.945,
+   "mode": "corner",
+   "crop": [
+    1000,
+    470,
+    460,
+    355
+   ]
+  }
+ ],
+ "overlays": [
+  {
+   "name": "st_coldopen",
+   "block": "COLD_A",
+   "rel": 0.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_intro",
+   "block": "INTRO",
+   "m": 4.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_perp",
+   "block": "PERP",
+   "m": 40.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_stbl",
+   "block": "PERP",
+   "m": 110.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_ponzi",
+   "block": "PERP_B",
+   "m": 211.5,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_bear",
+   "block": "PERP_B",
+   "m": 256.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_ledger",
+   "block": "LEDGER_A",
+   "m": 2623.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_drain",
+   "block": "LEDGER_D",
+   "m": 2724.0,
+   "dur": 9,
+   "kind": "st"
+  },
+  {
+   "name": "st_larp",
+   "block": "LEDGER_D",
+   "m": 2816.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_implant",
+   "block": "LEDGER_D",
+   "m": 2910.0,
+   "dur": 9,
+   "kind": "st"
+  },
+  {
+   "name": "st_scale",
+   "block": "LEDGER_D",
+   "m": 2997.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_germany",
+   "block": "LEDGER_D",
+   "m": 3038.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_failing",
+   "block": "LEDGER_D",
+   "m": 3141.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_chriswallet",
+   "block": "LEDGER_D",
+   "m": 3241.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_scales",
+   "block": "LEDGER_D",
+   "m": 3313.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_vault",
+   "block": "LEDGER_D",
+   "m": 3433.0,
+   "dur": 9,
+   "kind": "st"
+  },
+  {
+   "name": "lt_saas",
+   "block": "SAAS_A",
+   "m": 342.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_github",
+   "block": "SAAS_A",
+   "m": 361.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_billingproof",
+   "block": "SAAS_A",
+   "m": 500.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_250",
+   "block": "SAAS_A",
+   "m": 577.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_haas",
+   "block": "SAAS_B",
+   "m": 989.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_vibe",
+   "block": "SAAS_B",
+   "m": 1042.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_circular",
+   "block": "SAAS_B",
+   "m": 1137.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "lt_ln",
+   "block": "LN_A",
+   "m": 1222.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_lnsize",
+   "block": "LN_A",
+   "m": 1328.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_htlc",
+   "block": "LN_B",
+   "m": 1547.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_lndown",
+   "block": "LN_B2",
+   "m": 1876.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_inbound",
+   "block": "LN_B2",
+   "m": 1923.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_7b",
+   "block": "LN_C",
+   "m": 2201.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_twobig",
+   "block": "LN_D",
+   "m": 2330.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_phoenix",
+   "block": "LN_E",
+   "m": 2493.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_repl",
+   "block": "REPL",
+   "m": 3563.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_goblin",
+   "block": "REPL",
+   "m": 3604.5,
+   "dur": 6,
+   "kind": "st"
+  },
+  {
+   "name": "st_boxes",
+   "block": "REPL",
+   "m": 3645.0,
+   "dur": 9,
+   "kind": "st"
+  },
+  {
+   "name": "st_horcrux",
+   "block": "REPL",
+   "m": 3681.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_halftoken",
+   "block": "REPL",
+   "m": 3801.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_butter",
+   "block": "REPL",
+   "m": 3915.5,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "lt_wrap",
+   "block": "REPL",
+   "m": 4017.0,
+   "dur": 6,
+   "kind": "lt"
+  }
+ ],
+ "sheet": [
+  {
+   "block": "COLD_A",
+   "label": "Cold open"
+  },
+  {
+   "block": "INTRO",
+   "label": "Welcome, live from the moon (fully human)"
+  },
+  {
+   "block": "PERP",
+   "label": "Perp of Fortune: the model picks a 3× long on STBL"
+  },
+  {
+   "block": "LEDGER_A",
+   "label": "The marquee: the Ledger implant that read the seed off the screen"
+  },
+  {
+   "block": "LEDGER_D",
+   "m": 2763.0,
+   "label": "Tyler's Cold Card tamper-bag story"
+  },
+  {
+   "block": "LEDGER_D",
+   "m": 2854.0,
+   "label": "Inside the box: a SIM card, an antenna, and your 24 words"
+  },
+  {
+   "block": "LEDGER_D",
+   "m": 3082.0,
+   "label": "Is self-custody dead? Tyler's Ep 1 call, revisited"
+  },
+  {
+   "block": "LEDGER_D",
+   "m": 3342.0,
+   "label": "Fixes: multi-vendor multisig and Bitcoin vaults"
+  },
+  {
+   "block": "SAAS_A",
+   "label": "The death of SaaS: Anthropic leaves GitHub"
+  },
+  {
+   "block": "SAAS_A",
+   "m": 424.0,
+   "label": "Tyler's agent built a SaaS nobody bought: Billing Proof"
+  },
+  {
+   "block": "SAAS_B",
+   "m": 1004.0,
+   "label": "Chris vibe-coded his DoorDash shame tracker"
+  },
+  {
+   "block": "LN_A",
+   "label": "Layer-2 series: the Lightning Network, explained by Tyler"
+  },
+  {
+   "block": "LN_B",
+   "label": "How a Lightning channel works: the 2-of-2 pot and HTLCs"
+  },
+  {
+   "block": "LN_B2",
+   "m": 1869.0,
+   "label": "The downsides: inbound liquidity and always-on nodes"
+  },
+  {
+   "block": "LN_C",
+   "m": 2176.0,
+   "label": "Why Lightning can't onboard 7 billion people"
+  },
+  {
+   "block": "REPL",
+   "label": "Self-replicating AI: a model living on 15 Android TV boxes"
+  },
+  {
+   "block": "REPL",
+   "m": 4014.0,
+   "label": "Perp final: −$9, and the portafilter tattled"
+  }
+ ]
+}

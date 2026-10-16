@@ -1,0 +1,2515 @@
+1
+00:00:00,000 --> 00:00:05,440
+Chris: So what this thing was doing is it was intercepting signals going to the display.
+
+2
+00:00:06,080 --> 00:00:12,480
+Chris: It sees the seed phrase, which is your private key material, which controls your Bitcoin or
+
+3
+00:00:12,480 --> 00:00:19,440
+Chris: whatever cryptocurrency, and then it immediately uses the LTE mobile device to more or less text
+
+4
+00:00:21,280 --> 00:00:22,800
+Chris: the seed phrase to the hacker.
+
+5
+00:00:23,520 --> 00:00:29,200
+Tyler: Did Claude's just becoming the Voldemort from Harry Potter and Horcrux-ing himself?
+
+6
+00:00:29,200 --> 00:00:34,080
+Chris: I think it looks like I get an email from my smart fridge holding all of my butter hostage.
+
+7
+00:00:40,800 --> 00:00:47,440
+Jackson: Good morning, good afternoon, and good night. Welcome to the permanent underpod where we are
+
+8
+00:00:47,440 --> 00:00:50,800
+Jackson: coming to you live from the moon. This is Jackson Cook.
+
+9
+00:00:52,240 --> 00:00:53,520
+Tyler: And your co-host Tyler.
+
+10
+00:00:54,240 --> 00:00:55,440
+Chris: And your other co-host Chris.
+
+11
+00:00:57,440 --> 00:01:01,440
+Jackson: Three hosts talking to you about AI, stablecoins, and Bitcoin.
+
+12
+00:01:01,440 --> 00:01:05,840
+Jackson: Never are we AI. We are fully humid, flesh and blood.
+
+13
+00:01:07,040 --> 00:01:08,560
+Jackson: Jumping straight into it.
+
+14
+00:01:08,560 --> 00:01:12,080
+Jackson: Wait, do we have a perper fortune this morning or evening?
+
+15
+00:01:12,080 --> 00:01:14,240
+Chris: Chris, I do have a perper fortune.
+
+16
+00:01:15,600 --> 00:01:20,960
+Chris: I think we all know there's been contention over this format, so I did switch it up a little bit.
+
+17
+00:01:20,960 --> 00:01:26,480
+Chris: I was not able to implement Tyler's excellent idea of double or nothing until the house wins.
+
+18
+00:01:27,840 --> 00:01:34,880
+Chris: But I did condense the perper fortune to the most high volatility perps in the past 72 hours,
+
+19
+00:01:34,880 --> 00:01:37,040
+Chris: and I made the model pick one at random.
+
+20
+00:01:38,160 --> 00:01:39,520
+Chris: So let me share that with you now.
+
+21
+00:01:41,280 --> 00:01:42,320
+Jackson: I like this review.
+
+22
+00:01:44,640 --> 00:01:45,600
+Jackson: You like this, Tyler?
+
+23
+00:01:47,440 --> 00:01:49,200
+Tyler: I mean, it's a step in the right direction, yeah.
+
+24
+00:01:50,480 --> 00:01:54,320
+Jackson: I forgot to enter the perper fortune. For those of you unfamiliar,
+
+25
+00:01:54,320 --> 00:02:01,280
+Jackson: it is a platform where Chris and I put real U.S. dollars on the line in one of the most high
+
+26
+00:02:01,280 --> 00:02:05,200
+Jackson: volatility investment instruments in the world, perpetual future.
+
+27
+00:02:05,200 --> 00:02:09,600
+Jackson: While Tyler tells us we didn't lay enough money on the line.
+
+28
+00:02:09,600 --> 00:02:11,520
+Jackson: We did not get enough love.
+
+29
+00:02:11,520 --> 00:02:13,600
+Jackson: But today, Tyler approves.
+
+30
+00:02:14,960 --> 00:02:16,160
+Jackson: So let's see what we got.
+
+31
+00:02:17,440 --> 00:02:21,600
+Chris: Okay, so there were some high volatility picks, right?
+
+32
+00:02:21,600 --> 00:02:23,360
+Chris: Some of the ones you would expect, right?
+
+33
+00:02:23,360 --> 00:02:26,800
+Chris: Like DRAM and things downstream of the AI supply chain.
+
+34
+00:02:27,360 --> 00:02:28,640
+Chris: This was apparently one.
+
+35
+00:02:28,640 --> 00:02:34,160
+Chris: This is STBL, and it's a governance token for a protocol that was, I suppose,
+
+36
+00:02:34,160 --> 00:02:36,240
+Chris: invented by the co-founder of Tether.
+
+37
+00:02:36,800 --> 00:02:42,000
+Chris: And basically, all it does is you give them a tokenized bond.
+
+38
+00:02:42,000 --> 00:02:46,560
+Chris: So a bond is a U.S. government debt instrument that yields money.
+
+39
+00:02:46,560 --> 00:02:51,440
+Chris: It's denominated in U.S. dollars, and it yields, say, 3.5% per year.
+
+40
+00:02:51,440 --> 00:02:53,200
+Chris: And they split it into two tokens.
+
+41
+00:02:53,920 --> 00:02:58,560
+Chris: One token is the underlying dollar, which they give you back called USST.
+
+42
+00:02:58,560 --> 00:03:01,920
+Chris: And the other token is purely a yield-bearing token
+
+43
+00:03:01,920 --> 00:03:04,480
+Chris: that gives you the yield on the underlying bond.
+
+44
+00:03:05,120 --> 00:03:06,160
+Chris: And that's all they do.
+
+45
+00:03:07,280 --> 00:03:11,680
+Chris: And apparently, this is like a massively volatile pair on Hyperliquid,
+
+46
+00:03:11,680 --> 00:03:13,280
+Chris: which is why it only trades at 3x.
+
+47
+00:03:14,160 --> 00:03:17,680
+Chris: So hopefully, we get literally anything out of this.
+
+48
+00:03:17,680 --> 00:03:20,640
+Chris: And if we don't, I mean, I think we're going to have to go back to the drawing board anyway.
+
+49
+00:03:20,640 --> 00:03:21,440
+Chris: But let's see.
+
+50
+00:03:21,440 --> 00:03:29,280
+Tyler: This is very criss-coded, like the doing a derivative on a U.S. Treasury on Chain.
+
+51
+00:03:29,280 --> 00:03:30,960
+Tyler: What is the purpose?
+
+52
+00:03:30,960 --> 00:03:34,400
+Tyler: Why would somebody want the tokenized?
+
+53
+00:03:37,120 --> 00:03:38,160
+Chris: Why you would split it?
+
+54
+00:03:39,280 --> 00:03:40,000
+Chris: I don't know.
+
+55
+00:03:40,000 --> 00:03:43,440
+Chris: I assume there's some degenerate Ponzi-nomics that you can do
+
+56
+00:03:43,440 --> 00:03:46,480
+Chris: by recycling yield tokens.
+
+57
+00:03:46,480 --> 00:03:53,360
+Chris: And then we're putting leverage on it.
+
+58
+00:03:53,360 --> 00:03:54,560
+Tyler: But also, only 3x.
+
+59
+00:03:55,200 --> 00:03:56,800
+Tyler: I feel like I was promised more.
+
+60
+00:03:57,760 --> 00:03:58,160
+Chris: Yeah.
+
+61
+00:03:58,160 --> 00:04:02,160
+Chris: Well, I mean, apparently, this pair is so volatile and illiquid
+
+62
+00:04:02,160 --> 00:04:03,440
+Chris: that nobody will market make it.
+
+63
+00:04:03,440 --> 00:04:06,960
+Chris: But Claude assured me this was one of the most volatile pairs.
+
+64
+00:04:09,120 --> 00:04:10,720
+Jackson: Which model are we talking?
+
+65
+00:04:10,720 --> 00:04:12,080
+Jackson: Is this Haiku pick?
+
+66
+00:04:12,800 --> 00:04:13,600
+Chris: Okay, two things.
+
+67
+00:04:13,600 --> 00:04:14,960
+Chris: Firstly, the new Haiku is okay.
+
+68
+00:04:17,440 --> 00:04:18,720
+Chris: And secondly, it was fable.
+
+69
+00:04:20,960 --> 00:04:25,840
+Tyler: Do you feel like we're not going to really be out of a bear market
+
+70
+00:04:25,840 --> 00:04:29,760
+Tyler: until perp of fortune starts popping off?
+
+71
+00:04:30,640 --> 00:04:35,040
+Tyler: This is the best indicator of the bear bull cycle in crypto that I've ever seen.
+
+72
+00:04:35,040 --> 00:04:37,200
+Tyler: It's like the perp of fortune index.
+
+73
+00:04:37,200 --> 00:04:38,320
+Tyler: How often are we?
+
+74
+00:04:38,960 --> 00:04:40,160
+Tyler: I'm sorry, perp of fortune.
+
+75
+00:04:40,160 --> 00:04:49,040
+Tyler: We're trying to be DGN and we cannot find the price action to even let us be DGN.
+
+76
+00:04:49,680 --> 00:04:56,560
+Tyler: And so when that prophecy is fulfilled, we will be out of the bear market and into open water.
+
+77
+00:04:57,760 --> 00:04:58,480
+Chris: I'm with you.
+
+78
+00:04:58,480 --> 00:05:00,640
+Chris: And it's the amplitude of the volatility, right?
+
+79
+00:05:00,640 --> 00:05:01,440
+Chris: It's either way.
+
+80
+00:05:02,000 --> 00:05:06,560
+Chris: If we wash out or we double our money, that means we're back in the bull, right?
+
+81
+00:05:06,560 --> 00:05:07,600
+Chris: It doesn't matter which one.
+
+82
+00:05:08,480 --> 00:05:09,040
+Tyler: Exactly.
+
+83
+00:05:09,040 --> 00:05:12,560
+Tyler: Yeah. The volatility is what brings the people.
+
+84
+00:05:13,280 --> 00:05:13,520
+Chris: Yeah.
+
+85
+00:05:15,360 --> 00:05:19,520
+Jackson: Jane Street and Citadel tapping her internet connections to get this high
+
+86
+00:05:21,360 --> 00:05:25,120
+Jackson: alpha perp of fortune stream as soon as possible.
+
+87
+00:05:25,120 --> 00:05:29,680
+Jackson: So they can trade, I don't know, SCBL perps even quicker.
+
+88
+00:05:30,640 --> 00:05:37,440
+Jackson: But thank you, Chris, for trying to optimize our risk tolerance and getting us this beautiful
+
+89
+00:05:37,440 --> 00:05:41,120
+Jackson: 3X long confusing perp for us.
+
+90
+00:05:43,280 --> 00:05:46,800
+Jackson: Something interesting this happened this week, not technically interesting, but
+
+91
+00:05:47,760 --> 00:05:52,320
+Jackson: exciting is the Ledger Wallet hack.
+
+92
+00:05:54,720 --> 00:05:56,400
+Chris: This is the most Tyler episode.
+
+93
+00:05:56,400 --> 00:05:58,000
+Jackson: This hack isn't even technical.
+
+94
+00:05:58,000 --> 00:06:02,880
+Jackson: It's not AI related like most of the ones we've been covering throughout the podcast.
+
+95
+00:06:02,880 --> 00:06:05,040
+Jackson: This was a supply chain attack.
+
+96
+00:06:05,040 --> 00:06:06,000
+Jackson: Unreal.
+
+97
+00:06:06,000 --> 00:06:07,920
+Jackson: I can't even believe what was happening.
+
+98
+00:06:07,920 --> 00:06:10,720
+Jackson: A literal physical hardware attack.
+
+99
+00:06:10,720 --> 00:06:18,800
+Jackson: Tyler, $102 million in Bitcoin loss because of a bug inside of a hardware wallet.
+
+100
+00:06:18,800 --> 00:06:20,160
+Jackson: What happened here?
+
+101
+00:06:20,160 --> 00:06:24,080
+Jackson: And should people be worried about bugs and everything they own?
+
+102
+00:06:24,800 --> 00:06:25,520
+Jackson: What's going on?
+
+103
+00:06:27,040 --> 00:06:33,040
+Tyler: When you say bug, I think you mean like in the spy sense or something.
+
+104
+00:06:33,040 --> 00:06:33,360
+Jackson: Yeah.
+
+105
+00:06:34,160 --> 00:06:37,680
+Jackson: Spot, like yeah.
+
+106
+00:06:37,680 --> 00:06:39,280
+Jackson: Sorry, I shouldn't use the word bug.
+
+107
+00:06:39,280 --> 00:06:40,560
+Jackson: I'm talking like cockroach.
+
+108
+00:06:42,400 --> 00:06:44,880
+Chris: Oh, I thought you meant like a bug like in the light switch.
+
+109
+00:06:44,880 --> 00:06:49,360
+Tyler: You know, there was like an espionage device attached to these hardware wallets.
+
+110
+00:06:49,360 --> 00:06:51,280
+Tyler: I think it's kind of what we're getting at.
+
+111
+00:06:52,720 --> 00:06:54,720
+Chris: Look, we're just going to make you a point here anyway, right?
+
+112
+00:06:54,720 --> 00:06:59,840
+Chris: I think your take from the second episode was that like self custody is dead and like here we are.
+
+113
+00:07:00,560 --> 00:07:05,120
+Chris: Another hardware wallet bites the dust.
+
+114
+00:07:06,240 --> 00:07:11,520
+Chris: So my understanding is someone opened what they thought was a genuine brand new ledger device
+
+115
+00:07:11,520 --> 00:07:15,120
+Chris: sold through a third party retailer somewhere in South Asia.
+
+116
+00:07:15,120 --> 00:07:16,400
+Chris: It might have been in Indonesia.
+
+117
+00:07:17,760 --> 00:07:23,440
+Chris: And so when you're buying hardware wallets, they always say things like go to a genuine reseller
+
+118
+00:07:23,440 --> 00:07:28,240
+Chris: or go directly to the retailer, check the plastic wrap to make sure it's never been tampered with.
+
+119
+00:07:28,880 --> 00:07:29,520
+Chris: All this stuff.
+
+120
+00:07:29,520 --> 00:07:34,080
+Chris: But as we know, like there are ways to fortunately create plastic wrap as an example.
+
+121
+00:07:34,640 --> 00:07:38,880
+Tyler: Anyway, when this person like sidebar story about that.
+
+122
+00:07:40,480 --> 00:07:45,360
+Tyler: So like cold card was very famous for when they shipped you the cold card.
+
+123
+00:07:45,360 --> 00:07:50,080
+Tyler: It came in like a tamper evident bag that had like the serial number written on it.
+
+124
+00:07:50,640 --> 00:07:54,160
+Tyler: And then they would do these podcasts and be like, yeah, I'm like, that's why we're amazing.
+
+125
+00:07:55,600 --> 00:07:59,840
+Tyler: Because like, you know, it hasn't been tampered with like we're like so rad and secure.
+
+126
+00:07:59,840 --> 00:08:05,280
+Tyler: And I bought a cold card and it showed up at my house and the tamper bag had been torn open.
+
+127
+00:08:05,920 --> 00:08:10,080
+Tyler: And it was like very clearly that it was most likely just like a postman was like,
+
+128
+00:08:10,080 --> 00:08:13,360
+Tyler: Oh, what's this, you know, electronics device that I can maybe steal.
+
+129
+00:08:13,360 --> 00:08:15,760
+Tyler: And they're like, Oh, it just looks like a stupid calculator.
+
+130
+00:08:15,760 --> 00:08:16,880
+Tyler: I'll deliver it anyways.
+
+131
+00:08:17,600 --> 00:08:21,200
+Tyler: I emailed cold card and I was like, Hey, the tamper bag has been broken.
+
+132
+00:08:21,200 --> 00:08:26,480
+Tyler: Like, can you send me a different cold card? Cause like your policy, like, if this isn't
+
+133
+00:08:26,480 --> 00:08:31,280
+Tyler: your policy, then why do you do the tamper bag? And they emailed me back and they were like,
+
+134
+00:08:31,280 --> 00:08:35,120
+Tyler: don't worry about it, man. Just, just use it. And so it was all lark.
+
+135
+00:08:36,640 --> 00:08:38,640
+Tyler: These motherfuckers were larking the whole time.
+
+136
+00:08:39,840 --> 00:08:44,480
+Tyler: So I basically, I put my foot down and I was like, I'm not fucking putting Bitcoin on this thing.
+
+137
+00:08:44,480 --> 00:08:48,320
+Tyler: Like give me a break. Like I, yeah. They sent me a new one.
+
+138
+00:08:49,440 --> 00:08:54,000
+Chris: Right. And I mean, like right move, because we're about to find out what happens when you
+
+139
+00:08:54,000 --> 00:08:57,440
+Chris: like have a broken tamper seal or like an incorrect tamper seal.
+
+140
+00:08:58,160 --> 00:09:05,200
+Chris: Um, so this guy opens his hitherto to him appearing to be untampered plastic wrap.
+
+141
+00:09:05,920 --> 00:09:12,640
+Chris: And, uh, you know, obviously found out. Um, I, so I, I think like in the background,
+
+142
+00:09:12,640 --> 00:09:18,320
+Chris: there were like rumors of like funds being moved from our hardware wallets that nobody understood
+
+143
+00:09:18,320 --> 00:09:26,560
+Chris: how. Uh, anyway, this guy opens the ledger, um, disassembles the ledger and finds inside of it,
+
+144
+00:09:26,560 --> 00:09:35,200
+Chris: like, uh, a chip, like an ESP 32 or something, uh, an LTE receiver. So like literally a SIM card,
+
+145
+00:09:35,760 --> 00:09:41,040
+Chris: um, and an antenna, uh, just like attached underneath the board. Um, and basically what
+
+146
+00:09:41,040 --> 00:09:45,200
+Tyler: this was doing is it's wild that you could fit all of that into a ledger form factor.
+
+147
+00:09:45,200 --> 00:09:48,800
+Tyler: Cause the ledger is basically like a little mini USB stick. Like there's,
+
+148
+00:09:48,800 --> 00:09:50,800
+Tyler: there's not that much room in it. I would imagine.
+
+149
+00:09:51,840 --> 00:09:57,840
+Chris: Completely tiny. Um, and, uh, like to this point, right? They, they have a secure element, right?
+
+150
+00:09:57,840 --> 00:10:03,360
+Chris: So it's very, it's almost, it's impossible to get the seed out of the chip, except of course,
+
+151
+00:10:03,360 --> 00:10:08,560
+Chris: through the display, right? When you're displaying the seed phrase. So what this thing was doing is
+
+152
+00:10:08,560 --> 00:10:14,800
+Chris: it was intercepting, you know, signals going to the display. It sees the seed phrase, which is,
+
+153
+00:10:14,800 --> 00:10:20,480
+Chris: you know, your, your private, uh, key material, which controls your Bitcoin or whatever cryptocurrency.
+
+154
+00:10:21,280 --> 00:10:26,240
+Chris: And then it immediately uses like LT, the LT mobile device to like more or less text
+
+155
+00:10:28,080 --> 00:10:33,600
+Chris: the seed phrase to the hacker, uh, who I understand was just sitting on all of these
+
+156
+00:10:33,600 --> 00:10:39,360
+Chris: seed phrases, you know, as with all hacks, you wait until you, you have access to enough, um,
+
+157
+00:10:40,000 --> 00:10:47,040
+Chris: basically funds to pull the trigger. Uh, and then he, he drained all of the ledger wallets
+
+158
+00:10:47,040 --> 00:10:52,160
+Chris: basically at once. Um, and yet to Jackson's point, like a hundred million dollars of tether and
+
+159
+00:10:52,160 --> 00:11:02,240
+Tyler: Bitcoin. Wow. You'd never, so much cooler and a sophistication than like the hacker that did the
+
+160
+00:11:02,240 --> 00:11:07,520
+Tyler: cold card to just, I mean, I guess that was interesting because it was the first instance
+
+161
+00:11:07,520 --> 00:11:13,520
+Tyler: of somebody probably using like a very good open source model to find a vulnerability
+
+162
+00:11:14,400 --> 00:11:18,000
+Tyler: in an open source thing and then exploit it for a bunch of money.
+
+163
+00:11:18,640 --> 00:11:27,360
+Tyler: But this is like, uh, next level, like hardware engineering, bugging, manipulation, doing all
+
+164
+00:11:27,360 --> 00:11:32,880
+Chris: this. I don't use ledger, but I want to like open all of my hardware wallets now. I want to like,
+
+165
+00:11:32,880 --> 00:11:39,440
+Chris: weight them on a micro scale, like see like the chip weight. If there's like an LTE, uh, device
+
+166
+00:11:39,440 --> 00:11:46,080
+Tyler: in there or something, you just have to only access it in a Faraday cage, right? Uh-huh. Yeah. Oh,
+
+167
+00:11:46,080 --> 00:11:53,280
+Chris: definitely. Yeah. Uh, I mean, I can't plug it in now. I'm like too paranoid. Um, uh, but yeah,
+
+168
+00:11:53,280 --> 00:11:58,080
+Chris: I think that the other interesting thing with this one is, you know, if it was just one South Asian
+
+169
+00:11:58,080 --> 00:12:02,800
+Chris: retailer, that's one thing. It's like, okay, that's a dodgy retailer. Someone got into the supply
+
+170
+00:12:02,800 --> 00:12:09,440
+Chris: chain at the point of sale, you know, put these implants in, rewrapped them, sent them out, uh,
+
+171
+00:12:09,440 --> 00:12:16,080
+Chris: like executed the hack, but, uh, somebody found one at Media Marked, which, uh, or Zatun,
+
+172
+00:12:16,080 --> 00:12:23,120
+Chris: which is the biggest German electronics retailer. It's their, um, best buy. Um, so somebody in
+
+173
+00:12:23,120 --> 00:12:30,480
+Chris: Germany, you know, bought a ledger from Zatun and found, uh, you know, another one of these LTE bugs.
+
+174
+00:12:30,480 --> 00:12:36,480
+Chris: So I think it's not clear who has done this or like how they're getting into the supply chain,
+
+175
+00:12:36,480 --> 00:12:43,760
+Jackson: which is even, you know, scarier. This border filter bought from Media Marked is bugged
+
+176
+00:12:44,960 --> 00:12:49,440
+Jackson: previously mentioned by Citadel and Jane Street. So they can monitor the pod.
+
+177
+00:12:52,720 --> 00:12:58,880
+Chris: That's where the alpha is leaking from for sure. Um, but I mean, like, yeah, I mean,
+
+178
+00:13:00,320 --> 00:13:05,200
+Chris: I, yeah, I think back to your original call, Tyler, episode one or two,
+
+179
+00:13:06,560 --> 00:13:09,760
+Chris: self-custody is dead. Is this what you were thinking of when you said that?
+
+180
+00:13:10,560 --> 00:13:17,040
+Tyler: I think that it wasn't quite the take of self-custody is dead. It was more kind of like,
+
+181
+00:13:17,760 --> 00:13:25,040
+Tyler: I always envisioned that people would see the value of self-custody, uh, and want to do that.
+
+182
+00:13:25,040 --> 00:13:33,200
+Tyler: And then I'm just becoming increasingly aware that like you need to have a certain belief system
+
+183
+00:13:33,200 --> 00:13:40,400
+Tyler: to like feel like that's a valuable thing that's worth the potential risk and cost and just like
+
+184
+00:13:40,400 --> 00:13:47,360
+Tyler: hassle. And I don't think that that is scaling very far outside of the early adopters. So I'm
+
+185
+00:13:47,360 --> 00:13:55,040
+Tyler: not sure that it will. And I think incidents like this don't, you know, make that any easier.
+
+186
+00:13:56,320 --> 00:14:03,440
+Jackson: Time after time this year, these hardware wallets are failing their customers, quite frankly. And
+
+187
+00:14:03,440 --> 00:14:10,640
+Jackson: that is shaking the confidence of the consumer and hardware wallets. It is a wonder that anyone
+
+188
+00:14:10,640 --> 00:14:21,600
+Jackson: still uses them at this point. Tyler, defend it. Attack and defend it, Tyler.
+
+189
+00:14:27,440 --> 00:14:32,880
+Tyler: I mean, I don't know. I'm not out here giving financial advice.
+
+190
+00:14:33,680 --> 00:14:39,120
+Chris: You know, it makes me, it makes me want to build a hardware wallet. That's what this does. And I
+
+191
+00:14:39,120 --> 00:14:44,480
+Chris: know that's like a terrible business model. And like, obviously like to sell to other people or
+
+192
+00:14:44,480 --> 00:14:53,200
+Tyler: to like, like, you know, self-reliant, non-trusting person. Whatever. Maybe you sell it. Maybe it's
+
+193
+00:14:53,200 --> 00:15:00,080
+Chris: open source in a lab. Like, I don't know. But like, I feel like people have just been so underserved
+
+194
+00:15:00,080 --> 00:15:06,560
+Chris: by both the user experience of many hardware wallets and also like, um, you know, stuff like
+
+195
+00:15:06,560 --> 00:15:12,080
+Chris: this stuff, like the cold card incident. Um, yeah, it's not clear to me that there are like great
+
+196
+00:15:12,080 --> 00:15:17,200
+Chris: solutions to, to all of these problems or that there's, you know, obviously even demand, but
+
+197
+00:15:18,320 --> 00:15:22,800
+Chris: yeah, I don't know. I like, this isn't the first time Ledger has taken a hit and I don't think it
+
+198
+00:15:22,800 --> 00:15:30,480
+Jackson: will be the last. Um, so. Oh, snap. The incumbent's names are being dragged through the mud and it's
+
+199
+00:15:30,480 --> 00:15:36,800
+Jackson: time for a new name to rise from the ashes. We're not talking Phoenix wallet. We're talking Chris
+
+200
+00:15:36,800 --> 00:15:44,000
+Tyler: wallet. Do you think there's anything that can be done to prevent this from happening?
+
+201
+00:15:44,000 --> 00:15:50,160
+Tyler: Like, I guess like the tamper seals, the tamper bags kind of thing, but like those can potentially
+
+202
+00:15:50,160 --> 00:16:00,080
+Tyler: be, you know, faked. Um, but yeah, if people just like sell knockoff hardware wallets or tampered
+
+203
+00:16:00,080 --> 00:16:05,280
+Tyler: hardware wallets, is there any way to defend against that? Even if you buy it from the actual
+
+204
+00:16:05,280 --> 00:16:14,240
+Tyler: manufacturer, the supply chain, like a rogue employee at QPS or FedEx can still like trick,
+
+205
+00:16:14,240 --> 00:16:18,800
+Tyler: you know, swap out your package or something. Well, they're going to have to defend against
+
+206
+00:16:18,800 --> 00:16:22,960
+Chris: this somehow. Right. Cause this is existential to their business. I don't know if they're going
+
+207
+00:16:22,960 --> 00:16:26,960
+Chris: to be like, this is the weight of a ledger and like you take it to your kitchen scale and you're
+
+208
+00:16:26,960 --> 00:16:34,240
+Chris: like, yeah, that's right. Um, and like for how long that will last is a way to defend against physical.
+
+209
+00:16:34,240 --> 00:16:39,760
+Chris: No, totally. Exactly. Uh, like you can shave down the inside of the thing and like,
+
+210
+00:16:41,120 --> 00:16:48,880
+Tyler: yeah, I don't know. You know, like, yeah, the, uh, you know, the same store with the, the, in South
+
+211
+00:16:48,880 --> 00:16:53,200
+Tyler: Asia also sells scales that will tell you that your lecture is the right amount.
+
+212
+00:16:56,800 --> 00:17:05,120
+Chris: I think to this point though, as well, like Vitalik himself keeps all, like all of his
+
+213
+00:17:05,120 --> 00:17:10,400
+Chris: Ethereum on like a $200 laptop, like egg apps, laptop from Walmart, right? And there are like
+
+214
+00:17:10,400 --> 00:17:14,080
+Chris: people out there who are like the best hardware wallet is an old iPhone that isn't connected to
+
+215
+00:17:14,080 --> 00:17:19,040
+Chris: the internet. Um, I don't, I'm not like giving advice here. I don't think this is the correct
+
+216
+00:17:19,040 --> 00:17:24,880
+Chris: way, but, um, I think people have been thinking about stuff like this for a long time and it's
+
+217
+00:17:24,880 --> 00:17:30,720
+Chris: just not, it's not a solved problem. Right. So yeah, kind of the form factor of a hardware wallet,
+
+218
+00:17:30,720 --> 00:17:37,600
+Jackson: really, really innovative question. Could I send out time wallet address to a star in the night sky
+
+219
+00:17:38,640 --> 00:17:45,120
+Tyler: on the Bitcoin side, people talk a lot about like multi vendor multi-sig, um, which is the
+
+220
+00:17:45,120 --> 00:17:50,080
+Tyler: idea that you could have like a three of five or a two of three and you get the hardware wallets
+
+221
+00:17:50,080 --> 00:17:58,000
+Tyler: from different companies. And so if one of them turns out to be bad, then you are still secured
+
+222
+00:17:58,000 --> 00:18:04,240
+Tyler: by two and then you can rotate the funds to a new thing. I think that that's good, but like the,
+
+223
+00:18:04,240 --> 00:18:08,880
+Tyler: the user experience of that is quite difficult because then somebody has to manage three
+
+224
+00:18:08,880 --> 00:18:15,280
+Tyler: different wallets, three different seeds. Um, is one thing. And then the other thing is that like
+
+225
+00:18:16,320 --> 00:18:20,080
+Tyler: there are different constructs in Bitcoin that people have proposed that would require
+
+226
+00:18:20,960 --> 00:18:26,400
+Tyler: governance or soft forks, but would create like vaulting mechanisms within Bitcoin
+
+227
+00:18:26,400 --> 00:18:32,320
+Tyler: where you could prevent this type of thing happening. Like even if you're, um, even if
+
+228
+00:18:32,320 --> 00:18:38,000
+Tyler: your key gets stolen, basically with a vault concept, it's like your money's in the vault.
+
+229
+00:18:38,000 --> 00:18:43,040
+Tyler: And then you set it up so that it can like move into like a staging address
+
+230
+00:18:43,040 --> 00:18:47,120
+Tyler: and it sits in the staging address for like one week. And within that one week,
+
+231
+00:18:47,120 --> 00:18:53,600
+Tyler: you can like cancel that transaction and send it to like your ultra safe backup address.
+
+232
+00:18:54,400 --> 00:18:59,600
+Tyler: Or after a week, it sends it to the address that it was authorized to send to. And so basically
+
+233
+00:19:00,400 --> 00:19:05,520
+Tyler: what that protects is like you get the right to veto any transaction out of your wallet for
+
+234
+00:19:05,520 --> 00:19:11,040
+Tyler: up to one week, even if somebody else stole your keys. Um, so that's kind of like reactive security.
+
+235
+00:19:11,680 --> 00:19:17,840
+Tyler: I think that's a really nice thing and stuff like that can, I think raise the trustworthiness
+
+236
+00:19:17,840 --> 00:19:24,720
+Tyler: of self-custody. So like it does look bleak right now, but I think that there are ways to do this.
+
+237
+00:19:24,720 --> 00:19:30,960
+Tyler: And it's just like people have to figure out the right UX and probably we need better functionality
+
+238
+00:19:30,960 --> 00:19:36,080
+Tyler: within Bitcoin. Like this, this kind of stuff seems existential. So it seems worth doing
+
+239
+00:19:36,080 --> 00:19:44,000
+Tyler: a soft fork to me if we find the right, um, the right soft work for doing it. Um, but yeah,
+
+240
+00:19:44,000 --> 00:19:49,760
+Tyler: I maintain my episode to kind of take that. I don't think self-custody will be for everyone.
+
+241
+00:19:49,760 --> 00:19:54,880
+Tyler: And I'm kind of bearish that it will even be for many people. I think it will be for the people
+
+242
+00:19:54,880 --> 00:20:04,560
+Tyler: who need it and the people who are like predisposed to, uh, wanting that level of control. Um,
+
+243
+00:20:04,560 --> 00:20:12,880
+Tyler: but I think that that's a pretty rare person in the world. Probably it's time for a Bitcoin
+
+244
+00:20:12,880 --> 00:20:20,240
+Jackson: revolution, enterprising Bitcoiners. If you're looking to redesign the way Bitcoin wallets
+
+245
+00:20:20,240 --> 00:20:30,640
+Jackson: look function and, and work now is the time to rise up, take Tyler's advice on multi-sig and
+
+246
+00:20:30,640 --> 00:20:38,160
+Jackson: all these other crazy things to make Bitcoin secure again, make hardware wallets and self-custody
+
+247
+00:20:39,200 --> 00:20:46,080
+Jackson: secure and accessible. It's not too exciting. Not much is happening, but
+
+248
+00:20:47,440 --> 00:20:54,240
+Jackson: some news dropped this week that anthropic has migrated away from GitHub. No surprise given
+
+249
+00:20:54,240 --> 00:21:00,800
+Jackson: get hubs, uh, reliability issues over the past couple of years, anthropic said that their
+
+250
+00:21:00,800 --> 00:21:07,920
+Jackson: code changes have gone from 2,500 a day to over 30,000 a day from May to September.
+
+251
+00:21:09,200 --> 00:21:13,040
+Jackson: It took them five months to migrate from GitHub to their own internal chains,
+
+252
+00:21:13,760 --> 00:21:21,360
+Jackson: change tracking tool. The question is, is this the beginning of the death of SAS?
+
+253
+00:21:22,000 --> 00:21:28,560
+Jackson: It was advertised early on, but do you guys buy it? Is SAS going away and being replaced by AI
+
+254
+00:21:28,560 --> 00:21:35,600
+Jackson: agents that can rebuild anything you need in the blink of an eye for a price cheaper than a bucket
+
+255
+00:21:35,600 --> 00:21:43,680
+Jackson: of fries? Tyler, Chris, is this the beginning of the death of SAS? I don't have a SAS right now.
+
+256
+00:21:43,680 --> 00:21:47,760
+Chris: Does anybody, is there anyone here who could potentially comment on the death of SAS? I don't
+
+257
+00:21:47,760 --> 00:21:55,520
+Chris: know anyone in the room. You don't have a SAS. No, I have, I'm SAS list dude. It's crazy.
+
+258
+00:21:56,320 --> 00:22:02,080
+Tyler: I mean, I'm trying to get a SAS go. And is that what you're referring to? Yeah. Yeah. Yeah. Well,
+
+259
+00:22:02,080 --> 00:22:10,640
+Tyler: so when GPT Astra launched, I was like, okay, this model seems like it's really,
+
+260
+00:22:10,640 --> 00:22:15,600
+Tyler: really smart. I just wanted to try to see if it can run a business autonomously for me.
+
+261
+00:22:15,600 --> 00:22:20,240
+Tyler: So I had it come up with a business idea of how to make me a million dollars,
+
+262
+00:22:20,240 --> 00:22:25,520
+Tyler: which I think is something that Jackson has tried in the past and is grinding on himself.
+
+263
+00:22:25,520 --> 00:22:32,880
+Tyler: I was inspired by Big Swag Dog. But yeah, I have no idea about SAS. And I was like,
+
+264
+00:22:32,880 --> 00:22:37,360
+Tyler: just come up with a business idea. It could be like a trade. It could be like an app. It could be
+
+265
+00:22:38,240 --> 00:22:43,200
+Tyler: anything to just make me money. And then it was like, you should, you should start a SAS business.
+
+266
+00:22:43,840 --> 00:22:51,440
+Tyler: And the idea I came up with is doing like integration tests for like Stripe checkout flows,
+
+267
+00:22:53,040 --> 00:22:58,000
+Tyler: which I have no idea if that's a viable business or if that's not something that like Stripe just
+
+268
+00:22:58,000 --> 00:23:04,560
+Tyler: offers within their service. I would assume that they offer such testing or have very easy
+
+269
+00:23:04,560 --> 00:23:09,040
+Tyler: to integrate. And so it's not necessary because they're very successful. But my agent wanted to
+
+270
+00:23:09,040 --> 00:23:14,400
+Tyler: do that. So it built this whole product. I just kept telling it continue, continue, continue,
+
+271
+00:23:14,400 --> 00:23:20,800
+Tyler: keep going. It's out there in the world. It's called billing proof. And I started trying to buy
+
+272
+00:23:20,800 --> 00:23:28,640
+Tyler: Google AdWords keywords for like Stripe checkout testing. And I've never looked at the product at
+
+273
+00:23:28,640 --> 00:23:34,560
+Tyler: all. But my agent told me that it is like ready to go that somebody could actually use it and install
+
+274
+00:23:34,560 --> 00:23:42,080
+Tyler: it and have it test their thing. And so you could go to billing proof website and buy a subscription
+
+275
+00:23:42,080 --> 00:23:49,520
+Tyler: for my SAS right now. But nobody has done it yet. I can't even get an impression on Google AdWords.
+
+276
+00:23:50,240 --> 00:23:56,000
+Tyler: It's like too expensive. And I think Google probably thinks that my app is slop. And so it
+
+277
+00:23:56,000 --> 00:24:03,680
+Tyler: like doesn't want to show me in the results because they only charge you if you get clicked on.
+
+278
+00:24:03,680 --> 00:24:08,720
+Tyler: And so there for their ad system, there's like an incentive for them to essentially show the
+
+279
+00:24:08,720 --> 00:24:14,320
+Tyler: highest EV ad for them, which is like a combination of the price that person is willing to pay times
+
+280
+00:24:14,320 --> 00:24:21,200
+Tyler: the probability that they think a person will click on it. And so I don't know. The sas pocalypse
+
+281
+00:24:21,200 --> 00:24:30,400
+Tyler: never even got a chance to start for me. I'm just you know, nothing. Hold on. I don't know if Tyler's
+
+282
+00:24:31,360 --> 00:24:38,000
+Jackson: brand new sass is what I mean when I say the depth of sass. But Tyler, that was a good pitch. Maybe the
+
+283
+00:24:38,000 --> 00:24:43,280
+Jackson: listeners will try out your your integration testing service. This is your first live app.
+
+284
+00:24:44,320 --> 00:24:49,040
+Tyler: Yeah, it's only $250 a month. And it's totally valuable.
+
+285
+00:24:51,440 --> 00:24:52,960
+Tyler: Yeah, it's a premium product, man.
+
+286
+00:24:54,880 --> 00:25:01,200
+Chris: Sorry, did Astra Astra found the pricing for that, right? Like, did it? Yeah, I did
+
+287
+00:25:01,200 --> 00:25:05,920
+Tyler: literally nothing. Oh, my God. It came up with the idea. It built the thing. It came up with the
+
+288
+00:25:05,920 --> 00:25:10,880
+Tyler: pricing. It put together the Google campaign, the copy for it. It built the website. It bought the
+
+289
+00:25:10,880 --> 00:25:18,880
+Tyler: domain. It set up a special phone number for it. But I mean, I think it was just cool to go through
+
+290
+00:25:18,880 --> 00:25:25,200
+Tyler: all this and be like, how far could I take this charade? And then now I'm like, Okay, like, it
+
+291
+00:25:25,200 --> 00:25:30,640
+Tyler: seems real to me. But I just want like one person to sign up. And then I'll be like, Yes,
+
+292
+00:25:31,520 --> 00:25:36,960
+Tyler: this was worth it. Because I probably spent like $100 in tokens. I like bought a domain. I bought
+
+293
+00:25:36,960 --> 00:25:43,840
+Tyler: like a second ECM on my phone so that I didn't have to put my personal number attached to the
+
+294
+00:25:43,840 --> 00:25:50,240
+Tyler: business. You know, there are real costs to this. I'm hosting it on Google Cloud for like $50 a month.
+
+295
+00:25:51,920 --> 00:25:54,240
+Chris: Wow, like a medium instance. That's crazy.
+
+296
+00:25:55,280 --> 00:25:59,520
+Tyler: That's what Astra wanted. I mean, perhaps it's self replicating over there.
+
+297
+00:26:00,160 --> 00:26:02,560
+Chris: Well, we'll talk about that later. We'll talk about that later.
+
+298
+00:26:04,080 --> 00:26:09,840
+Chris: But I think like Tyler's making the exact point here about like, you know, like,
+
+299
+00:26:10,800 --> 00:26:15,680
+Chris: he hasn't done anything and has been able to create an entire SaaS product, right? And I feel
+
+300
+00:26:15,680 --> 00:26:20,560
+Chris: like the like the mode of SaaS was like, okay, we're gonna like we have domain expertise and
+
+301
+00:26:20,560 --> 00:26:25,200
+Chris: engineers and we're gonna like smash these together and give you some products that nobody
+
+302
+00:26:25,200 --> 00:26:30,720
+Chris: else could do that like maybe makes your life easier. And like, we're gonna price it right
+
+303
+00:26:30,720 --> 00:26:34,880
+Chris: under the point of convenience to where you would rather pay us than do it yourself.
+
+304
+00:26:34,880 --> 00:26:39,760
+Chris: But that that discretionary pricing of like pay them or do it yourself,
+
+305
+00:26:39,760 --> 00:26:45,760
+Chris: because like the cost of execution has gone down so much. Like Tyler, you said like 100 bucks.
+
+306
+00:26:47,680 --> 00:26:53,760
+Chris: Maybe there is an argument now that SaaS, right doesn't, is like no longer as viable
+
+307
+00:26:53,760 --> 00:26:58,000
+Chris: a business model as it was, or at least won't have that moat of like combining your like
+
+308
+00:26:58,560 --> 00:27:04,080
+Chris: favorite tax law guy with like a software engineer and like going out that way. I don't know.
+
+309
+00:27:05,680 --> 00:27:10,080
+Tyler: Yeah, I think that's directionally true. But I also think that there's kind of like,
+
+310
+00:27:10,960 --> 00:27:18,560
+Tyler: there's obviously economies of scale of like, you know, GitHub runs GitHub and everyone uses GitHub.
+
+311
+00:27:18,560 --> 00:27:25,360
+Tyler: And so they like, have a huge presence, they go really deep into trying to make the reliability
+
+312
+00:27:25,360 --> 00:27:32,240
+Tyler: good. I understand that hasn't been very successful for them. You know, and like they if the in this
+
+313
+00:27:32,240 --> 00:27:36,880
+Tyler: world, if like the cost of building your own SaaS is like purely just tokens and hosting,
+
+314
+00:27:37,600 --> 00:27:42,880
+Tyler: then you would assume that it's like economies of scale to like, pay for the tokens once to
+
+315
+00:27:42,880 --> 00:27:48,320
+Tyler: generate the product for everyone, and then to host it across like a much bigger footprint that
+
+316
+00:27:48,320 --> 00:27:53,360
+Tyler: could be kind of amortized across a bunch of different customers. I don't know, like I could
+
+317
+00:27:53,360 --> 00:28:00,080
+Tyler: still see it being around people say that like the the main, you know, value that those companies
+
+318
+00:28:00,080 --> 00:28:06,400
+Tyler: are providing is like, you can just outsource that whole thing to some other company and you
+
+319
+00:28:06,400 --> 00:28:12,560
+Tyler: don't have to worry about being like a expert and hosting your own Git. And like, I think for most
+
+320
+00:28:12,560 --> 00:28:18,160
+Tyler: companies, that's probably still the right trade off is like, if you're a small team, you want your
+
+321
+00:28:18,160 --> 00:28:25,440
+Tyler: people focused on building core product, and not like have a guy whose job it is to keep the lights
+
+322
+00:28:25,440 --> 00:28:29,760
+Tyler: on for like all the tooling that everyone else uses, because that's like a waste of that engineer.
+
+323
+00:28:31,680 --> 00:28:36,640
+Chris: I do feel like, I feel like GitHub is a special case, though, due to the infrastructure,
+
+324
+00:28:36,640 --> 00:28:41,760
+Chris: like I feel like GitHub, whilst it kind of builds as a SaaS, like is fundamentally an infrastructure
+
+325
+00:28:42,400 --> 00:28:47,200
+Chris: company, like they're not selling compute, but they're selling like, you know, build pipelines,
+
+326
+00:28:48,320 --> 00:28:54,480
+Chris: version control, like they're selling the whole stack, like SAML login on top.
+
+327
+00:28:56,080 --> 00:28:59,280
+Chris: Whereas like, you know, there are maybe more traditional SaaS products that,
+
+328
+00:29:00,080 --> 00:29:04,640
+Chris: you know, don't have that mode of like difficulty, right? Like, it is more like you're saying it is
+
+329
+00:29:04,640 --> 00:29:09,760
+Chris: more difficult to be reliable, and to like get all your compute in a row than it is to like,
+
+330
+00:29:11,200 --> 00:29:16,080
+Chris: smash together a couple of APIs, which I think has been over for a while. But like, yes.
+
+331
+00:29:17,680 --> 00:29:20,560
+Tyler: Well, you should tell me that before I embarked on billing.
+
+332
+00:29:25,120 --> 00:29:26,560
+Chris: Someone's gonna buy it for sure.
+
+333
+00:29:28,080 --> 00:29:32,800
+Jackson: Billing proof is the it's the perfect example. You say you don't want one of your employees
+
+334
+00:29:33,520 --> 00:29:36,800
+Jackson: working on the internal GitHub, you want them working on the core product.
+
+335
+00:29:37,360 --> 00:29:42,320
+Jackson: But that's exactly the thing. You don't need a dedicated employee to manage your internal GitHub
+
+336
+00:29:42,320 --> 00:29:47,360
+Jackson: anymore. You need your Astra. And you just need to tell your Astra exactly what you want.
+
+337
+00:29:48,000 --> 00:29:53,760
+Jackson: Maybe your needs for GitHub are a little more specialized or less generic than another
+
+338
+00:29:53,760 --> 00:30:00,720
+Jackson: company's. So you can fine tune it exactly around what you need by telling the agent and then you
+
+339
+00:30:00,720 --> 00:30:06,080
+Jackson: don't even have a human that knows and there isn't like a company of humans that knows there's just a
+
+340
+00:30:06,080 --> 00:30:12,480
+Jackson: agent and an MD file containing the history of your requests and an agent constantly waiting
+
+341
+00:30:12,480 --> 00:30:20,400
+Jackson: for you to update your requirements. I kind of feel like, yeah, you're billing proof,
+
+342
+00:30:20,400 --> 00:30:28,800
+Jackson: the podcast editing, my tennis editing software, it's all managed by like an agent and a history
+
+343
+00:30:28,800 --> 00:30:36,000
+Jackson: of history of changes. And it can continue to evolve and be specialized to us. I'm never
+
+344
+00:30:36,000 --> 00:30:42,080
+Jackson: going to pay one of these people emails every week, let me edit your podcast. Because not just
+
+345
+00:30:42,640 --> 00:30:48,240
+Jackson: these agents of the tokens are not underpricing tasks. They're also underpricing human as a
+
+346
+00:30:48,240 --> 00:30:55,360
+Jackson: service. I will not pay you Lindsay, you will not edit our file. Sorry, Lindsay,
+
+347
+00:30:55,360 --> 00:30:58,960
+Chris: sorry on behalf of the pod that felt very aggressive, but I do agree.
+
+348
+00:31:01,520 --> 00:31:05,280
+Chris: Yeah, I will say like, I have a personal anecdote here. And I think it's very similar to yours,
+
+349
+00:31:05,280 --> 00:31:12,960
+Chris: Jackson. So I was thinking about using finance software to understand basically how much I'm
+
+350
+00:31:12,960 --> 00:31:17,120
+Chris: door dashing and as a guilt and personal shame method to stop door dashing.
+
+351
+00:31:19,040 --> 00:31:25,520
+Chris: And in the process of this, I went through a lot of them. There are a bunch of apps that use
+
+352
+00:31:25,520 --> 00:31:29,280
+Chris: Plaid and other connectors to aggregate your bank accounts and investments and show you
+
+353
+00:31:29,280 --> 00:31:33,600
+Chris: how much you're spending, how much interest you're making a month.
+
+354
+00:31:34,560 --> 00:31:39,600
+Chris: And then after looking at them, I was like, forget it, I'm going to vibe code it. And now
+
+355
+00:31:39,600 --> 00:31:45,840
+Chris: I have basically an agent interface to my personal finances and bank accounts.
+
+356
+00:31:45,840 --> 00:31:53,600
+Chris: And that's what I use. I'm sure there are other cases like this, and I'm sure I'm not the default
+
+357
+00:31:54,400 --> 00:31:58,800
+Chris: user here. But I can also, like you're saying Jackson, see as the models get up the curve,
+
+358
+00:31:59,760 --> 00:32:05,520
+Chris: maybe less and less basically software engineering adjacent users will be able to
+
+359
+00:32:05,520 --> 00:32:11,360
+Chris: do stuff like that. Just be like, hey, interpret this highly abstract prompt, which is like,
+
+360
+00:32:11,360 --> 00:32:16,800
+Chris: get all of my data into one place and then make me cool charts and just execute on it. I don't know.
+
+361
+00:32:18,320 --> 00:32:22,960
+Tyler: Wait, so how does your thing work? It's not just like they're using the browser and locking into
+
+362
+00:32:22,960 --> 00:32:28,560
+Tyler: your accounts. It's some other, they're like reverse engineering, some API or something.
+
+363
+00:32:28,560 --> 00:32:34,400
+Chris: Yeah. So it uses some proprietary connectors, one that I pay 50 cents a month for, I think.
+
+364
+00:32:35,520 --> 00:32:38,720
+Chris: And the others are just like, they got to raise that price, man.
+
+365
+00:32:41,440 --> 00:32:43,200
+Jackson: Yeah. 250 a month. They're nothing.
+
+366
+00:32:45,040 --> 00:32:49,440
+Chris: That's going to be the biggest line item on my expense tracking is expense tracking.
+
+367
+00:32:51,520 --> 00:33:01,200
+Chris: Sounds like you could use billing proof in this building. I should use your SaaS to sell my SaaS,
+
+368
+00:33:01,200 --> 00:33:07,600
+Chris: right? Is what I should, yeah. Okay. Yeah. I like this circular revenue. We can all,
+
+369
+00:33:09,600 --> 00:33:12,560
+Tyler: you pay Jackson for some SaaS and then Jackson pays me.
+
+370
+00:33:13,520 --> 00:33:18,640
+Tyler: And then we just keep going in a circle until we have a series A potential.
+
+371
+00:33:19,680 --> 00:33:24,000
+Chris: It sounds like we've solved the death of SaaS. It's not dead. We're going to keep it alive by
+
+372
+00:33:24,000 --> 00:33:27,440
+Chris: feeding the same food back and forth between all of the companies.
+
+373
+00:33:27,440 --> 00:33:29,840
+Jackson: Bitcoin circular economy between the three of them.
+
+374
+00:33:29,840 --> 00:33:31,520
+Jackson: Yeah. Just a little fraud.
+
+375
+00:33:34,240 --> 00:33:40,960
+Chris: But yeah, no, it made custom calls to some of the banks have their own APIs. So make custom calls
+
+376
+00:33:40,960 --> 00:33:46,240
+Chris: to those. It ingested on a schedule. I haven't thought about it in months since I've coded it.
+
+377
+00:33:46,240 --> 00:33:50,400
+Chris: It works really well. And I just like talk to my agent and I thought about it in months.
+
+378
+00:33:51,360 --> 00:33:53,440
+Chris: I haven't like thought about changing it in months.
+
+379
+00:33:53,440 --> 00:33:55,600
+Tyler: You don't think about it every time you order Dordash.
+
+380
+00:33:57,280 --> 00:33:58,000
+Jackson: It's not working.
+
+381
+00:33:59,280 --> 00:34:03,840
+Chris: Once every 10 days, I go to the Asian and I'm like, how am I doing? And it's like, not good buddy.
+
+382
+00:34:05,120 --> 00:34:06,400
+Chris: And then I close the laptop.
+
+383
+00:34:08,800 --> 00:34:09,440
+Chris: I got to eat.
+
+384
+00:34:10,080 --> 00:34:11,440
+Chris: Yeah, man's got to eat, right?
+
+385
+00:34:13,600 --> 00:34:20,400
+Jackson: Yeah. Cool. Well, it sounds like we all agree SaaS isn't dead,
+
+386
+00:34:20,400 --> 00:34:25,440
+Jackson: but maybe we're at the tip of the death iceberg and we're, we're heading down that path.
+
+387
+00:34:27,520 --> 00:34:34,480
+Jackson: And the tip of the iceberg relates in no way at all to lightning.
+
+388
+00:34:35,360 --> 00:34:44,720
+Jackson: But now we will talk about Bitcoin layer two, a return to our series, layer twos of Bitcoin.
+
+389
+00:34:45,600 --> 00:34:49,920
+Jackson: A couple of weeks ago, we talked about light sparks spark.
+
+390
+00:34:50,640 --> 00:34:56,480
+Jackson: And today we'll talk about possibly the most popular and the most used Bitcoin layer two,
+
+391
+00:34:57,120 --> 00:35:04,560
+Jackson: the lightning network. It has nothing to do with lightning and it's a way to scale Bitcoin
+
+392
+00:35:04,560 --> 00:35:12,640
+Jackson: using lightning nodes. Tyler, Bitcoin expert, lay it down for us. What is the lightning network?
+
+393
+00:35:13,280 --> 00:35:16,560
+Jackson: And please roast the hell out of it. Like you did spark.
+
+394
+00:35:20,640 --> 00:35:28,160
+Tyler: I'll do my best. It's a very complex topic. So we talked about spark and we talked about
+
+395
+00:35:28,160 --> 00:35:34,400
+Tyler: what a Bitcoin layer two is, which is essentially any kind of system or protocol
+
+396
+00:35:36,160 --> 00:35:44,400
+Tyler: that people devise to try to scale Bitcoin, usually by moving transactions from on chain
+
+397
+00:35:44,400 --> 00:35:48,960
+Tyler: to some kind of off chain protocol or construct that then can settle back on chain.
+
+398
+00:35:49,680 --> 00:35:55,680
+Tyler: And so people are able to exit the layer two unilaterally and claim their funds on the main
+
+399
+00:35:55,680 --> 00:36:01,360
+Tyler: chain and kind of inherit the security and the censorship resistance of the main chain.
+
+400
+00:36:01,920 --> 00:36:12,400
+Tyler: So that's the dream. The lightning network is probably the most popular and used layer two
+
+401
+00:36:12,400 --> 00:36:19,920
+Tyler: on Bitcoin. I think it's been going for seven or eight years now with kind of slow and steady
+
+402
+00:36:19,920 --> 00:36:28,640
+Tyler: growth. I don't know how much I think it's on the order of like 5,000 Bitcoin and public
+
+403
+00:36:28,640 --> 00:36:38,240
+Tyler: lightning channels and like 20,000 lightning nodes. So it's not huge, but like companies
+
+404
+00:36:38,240 --> 00:36:44,880
+Tyler: are adopting it. So if you make Bitcoin payments, it is almost certainly the way that you're doing
+
+405
+00:36:44,880 --> 00:36:51,280
+Tyler: that if it settles instantly and it's cheap. And so I think that probably a majority of
+
+406
+00:36:51,280 --> 00:36:54,560
+Tyler: Bitcoin payments are happening on the lightning network and it kind of speaks to the lightning
+
+407
+00:36:54,560 --> 00:37:02,080
+Tyler: networks properties and efficiency that like it's able to actually do a lot of transaction volume
+
+408
+00:37:02,080 --> 00:37:09,840
+Tyler: with what numbers seem like kind of small. So that's kind of the setup. The way that it works,
+
+409
+00:37:09,840 --> 00:37:14,080
+Tyler: because we're going to like double click and do it a little bit. I'm not going to go super deep,
+
+410
+00:37:14,080 --> 00:37:20,400
+Tyler: but I'm going to give you like the high level description. Let's imagine that there is,
+
+411
+00:37:21,760 --> 00:37:30,320
+Tyler: we have the three hosts of this podcast. Let's say that Jackson and I decide that we want to
+
+412
+00:37:30,320 --> 00:37:37,040
+Tyler: do a lot of transacting together, but we don't want to like settle up every time we transact
+
+413
+00:37:37,040 --> 00:37:43,360
+Tyler: because that's expensive on Bitcoin. So what we can do instead is that we can like both put money
+
+414
+00:37:43,360 --> 00:37:49,440
+Tyler: into kind of like a pot and that pot is like a lightning channel. And then depending on like
+
+415
+00:37:49,440 --> 00:38:00,080
+Tyler: maybe the initial ownership of that money, we both put in 10 Bitcoin. That's a lot of Bitcoin,
+
+416
+00:38:00,080 --> 00:38:09,680
+Tyler: but we'll just use simple numbers. And then yeah, we basically each put 10 Bitcoin in,
+
+417
+00:38:09,680 --> 00:38:16,800
+Tyler: there's 20 Bitcoin in a channel. The channel is essentially a 202 multi-sig on Bitcoin that
+
+418
+00:38:18,400 --> 00:38:24,000
+Tyler: exists. And if we want to move it, we have to both sign for it. But when we initially put it in,
+
+419
+00:38:24,880 --> 00:38:30,560
+Tyler: I get a signature from Jackson that lets me withdraw my 10 Bitcoin from that channel
+
+420
+00:38:30,560 --> 00:38:35,120
+Tyler: without his permission. So basically you put the money in, but before you put the money in,
+
+421
+00:38:35,120 --> 00:38:40,240
+Tyler: you secure the exit transaction that lets you take the money out of that channel and
+
+422
+00:38:40,240 --> 00:38:46,160
+Tyler: push it to the main chain. So now that we have money in this construct, we can basically just
+
+423
+00:38:46,160 --> 00:38:51,040
+Tyler: update the balance between the two of us by signing new transactions that update the balance.
+
+424
+00:38:51,680 --> 00:38:57,920
+Tyler: And we also have to do a mechanism that invalidates the previous state so that we can't
+
+425
+00:38:57,920 --> 00:39:04,240
+Tyler: kind of cheat and like I pay Jackson one Bitcoin, but then I use an old state to kind of like negate
+
+426
+00:39:04,240 --> 00:39:12,240
+Tyler: that and close the channel. So there's some kind of cool ways that the protocol engineers have
+
+427
+00:39:12,240 --> 00:39:21,040
+Tyler: devised to do that using cryptography and Bitcoin op codes. And you kind of will just have to trust
+
+428
+00:39:21,040 --> 00:39:26,160
+Tyler: for now that it works because I'm not going to go into it. But kind of the cool thing with this
+
+429
+00:39:26,160 --> 00:39:30,480
+Tyler: system is that I can have this construct with Jackson and then Jackson can also have this
+
+430
+00:39:30,480 --> 00:39:36,080
+Tyler: construct with Chris. And then if I want to pay Chris, I don't have to have a channel with him.
+
+431
+00:39:36,720 --> 00:39:42,080
+Tyler: I can pay Jackson and then Jackson will pay Chris. And there's a way to do this
+
+432
+00:39:42,080 --> 00:39:50,320
+Tyler: atomically via something called HTLCs, which are hash time lock contracts. And when we do this,
+
+433
+00:39:50,320 --> 00:39:57,760
+Tyler: it basically means that Jackson can like stand in the middle and promise to pay Chris if I pay him.
+
+434
+00:39:57,760 --> 00:40:03,840
+Tyler: And so it's like either everybody along that line gets paid and kind of gets made whole,
+
+435
+00:40:04,480 --> 00:40:12,080
+Tyler: or you have kind of like a safety mechanism where you're guaranteed that you can,
+
+436
+00:40:12,800 --> 00:40:17,360
+Tyler: if somebody like tries to kind of cheat you, you have a period where you can take
+
+437
+00:40:18,240 --> 00:40:23,600
+Tyler: that HTLC and go to the main Bitcoin blockchain to kind of like secure the money that you were
+
+438
+00:40:23,600 --> 00:40:30,000
+Tyler: promised. So it basically enables this trustless routing across the network. And so it's those
+
+439
+00:40:30,000 --> 00:40:35,360
+Tyler: two things, the channels and then like the HTLCs that enable the trustless routing. And then
+
+440
+00:40:35,360 --> 00:40:41,360
+Tyler: because of it, it's a network topology. You only need essentially like one channel to somebody
+
+441
+00:40:41,360 --> 00:40:45,440
+Tyler: who's well connected on the network, and then you can reach almost anyone else. And so it scales
+
+442
+00:40:45,440 --> 00:40:51,600
+Tyler: really, really well. And basically, all of this is happening off the blockchain. So when you create
+
+443
+00:40:51,600 --> 00:40:56,640
+Tyler: a channel, you could do many, many transactions within that channel without, you would just have
+
+444
+00:40:56,640 --> 00:41:04,000
+Tyler: one transaction to open it, one transaction to close it. So the ratio of transactions that can
+
+445
+00:41:04,000 --> 00:41:08,800
+Tyler: be done off chain and the layer two scaled construct to transactions that have to happen
+
+446
+00:41:08,800 --> 00:41:13,200
+Tyler: on chain in order to set it up and close it down can be like essentially infinite,
+
+447
+00:41:13,200 --> 00:41:18,080
+Tyler: which is a really nice scaling property. And it happens offline with no blockchain,
+
+448
+00:41:18,080 --> 00:41:22,400
+Tyler: stuff like that. So it's really nice for a lot of those characteristics.
+
+449
+00:41:24,480 --> 00:41:30,240
+Tyler: I'll stop there, because I don't want to just like ramble on about this for 20 minutes. But I do want
+
+450
+00:41:30,240 --> 00:41:36,880
+Tyler: to hear some thoughts from the co hosts, any questions, any clarifications. And then we will
+
+451
+00:41:36,880 --> 00:41:40,960
+Tyler: also go into some of the limitations, some of the downsides of this protocol.
+
+452
+00:41:41,600 --> 00:41:44,480
+Chris: Jackson, do you have any opinions on the Lightning Network? I feel like you should
+
+453
+00:41:44,480 --> 00:41:49,200
+Chris: talk about this first, because I could blow up the pod. This could be a big breakup.
+
+454
+00:41:53,360 --> 00:41:58,080
+Jackson: Well, just generally, based on the intro, it sounds like Tyler is much more positive on
+
+455
+00:41:58,080 --> 00:42:04,560
+Jackson: the Lightning Network than Spark. That's just the vibe that I'm getting. And I hear that it sounds
+
+456
+00:42:04,560 --> 00:42:09,600
+Jackson: like the unilateral exit on the Lightning Network is much more polished than it is on Spark.
+
+457
+00:42:09,600 --> 00:42:16,320
+Jackson: I remember on Spark, you mentioned that for low dollar transactions, you could lose up to 80%
+
+458
+00:42:17,600 --> 00:42:22,800
+Jackson: of the money you have on the layer two, actually exiting your money on chain.
+
+459
+00:42:24,720 --> 00:42:30,000
+Jackson: And it sounds like Lightning is a little bit better there, although you haven't gone into the numbers.
+
+460
+00:42:32,080 --> 00:42:38,240
+Tyler: Yeah, I think Lightning in general is kind of on the extreme end of the trustlessness spectrum
+
+461
+00:42:38,240 --> 00:42:44,640
+Tyler: for layer twos. There are costs to that, for sure. So does it like a clean win,
+
+462
+00:42:45,520 --> 00:42:52,160
+Tyler: no trade off kind of situation? But it is that end of the spectrum, for sure.
+
+463
+00:42:52,800 --> 00:42:57,600
+Chris: Yeah, I'm actually a huge fan of Lightning. I think I have a reputation for not being a fan
+
+464
+00:42:57,600 --> 00:43:05,360
+Chris: of Lightning, but I actually think it's great. Yeah. I think when you get into the limitations,
+
+465
+00:43:05,360 --> 00:43:09,680
+Chris: I think you're going to cover probably my personal grievances with the network.
+
+466
+00:43:14,480 --> 00:43:16,480
+Tyler: Okay, so the downsides of Lightning.
+
+467
+00:43:18,400 --> 00:43:18,960
+Jackson: Let's go.
+
+468
+00:43:21,680 --> 00:43:27,200
+Tyler: The main one is that in the channel construct that I described with Jackson,
+
+469
+00:43:27,200 --> 00:43:33,200
+Tyler: where it's like we both put in 10 Bitcoin, when that happens and the channel balances even,
+
+470
+00:43:33,200 --> 00:43:39,600
+Tyler: that means that because there's 10 on my side and 10 on Jackson's side, Jackson is able to receive
+
+471
+00:43:39,600 --> 00:43:44,960
+Tyler: 10 because that's the amount of beads on my side of the abacus that I can push over to his side.
+
+472
+00:43:44,960 --> 00:43:53,200
+Tyler: And likewise, I have the capacity to receive 10. But let's say that what is a more common way of
+
+473
+00:43:53,200 --> 00:43:58,560
+Tyler: opening a channel is I just have the money on my side and I unilaterally decide to open the channel
+
+474
+00:43:58,560 --> 00:44:03,760
+Tyler: to Jackson. And then all of the money is on my side and zero of it is on Jackson's side.
+
+475
+00:44:03,760 --> 00:44:08,960
+Tyler: I can't receive any money. And that's called the inbound liquidity problem with Lightning.
+
+476
+00:44:09,840 --> 00:44:17,360
+Tyler: And it's a really big problem. And essentially, it comes down to you have to have your homies
+
+477
+00:44:17,360 --> 00:44:24,960
+Tyler: hook you up with inbound liquidity. Or people imagine that in the future in a mature market,
+
+478
+00:44:24,960 --> 00:44:29,120
+Tyler: it will mature to where you will just basically purchase inbound liquidity from a big service
+
+479
+00:44:29,120 --> 00:44:36,320
+Tyler: provider. But then you need to pay in order to receive, which is a really bad UX,
+
+480
+00:44:36,320 --> 00:44:41,680
+Tyler: the service provider has to deploy capital, and they need to like earn a return on that capital.
+
+481
+00:44:42,240 --> 00:44:46,800
+Tyler: So they need to like be able to charge fees, and they need to like have some reasonable expectation
+
+482
+00:44:46,800 --> 00:44:50,960
+Tyler: that that channel will get used and they can't just keep it open in perpetuity because there's
+
+483
+00:44:50,960 --> 00:44:57,680
+Tyler: an opportunity cost to having that capital. And so that's a big issue is that like you have to
+
+484
+00:44:57,680 --> 00:45:01,920
+Tyler: think about how much inbound liquidity you have in order to receive a payment in order to do that
+
+485
+00:45:03,200 --> 00:45:09,120
+Tyler: with high reliability. Other downsides are just that like, it's extremely complex.
+
+486
+00:45:10,480 --> 00:45:15,520
+Tyler: There's a lot of edge cases, a lot of ways that it could break a lot of ways that like interacts
+
+487
+00:45:15,520 --> 00:45:19,600
+Tyler: weirdly with like the main blockchain, because you always need to be able to settle with the
+
+488
+00:45:19,600 --> 00:45:25,760
+Tyler: blockchain, you need to have like, updated transactions that have, you know, the right
+
+489
+00:45:25,760 --> 00:45:31,680
+Tyler: fee so that you in theory would be able to, you know, get into the next block if you needed to.
+
+490
+00:45:32,320 --> 00:45:36,640
+Tyler: And then like a rising fee environment can create chaos, because suddenly,
+
+491
+00:45:38,240 --> 00:45:45,680
+Tyler: you need to update all your channels. And it's really hard, like you need an always on node in
+
+492
+00:45:45,680 --> 00:45:51,840
+Tyler: order to receive a route payments is a big one. If you have if you try to run a lightning wallet
+
+493
+00:45:51,840 --> 00:45:56,560
+Tyler: self custodially on a phone, if you want to receive you have to have the app open because you're you
+
+494
+00:45:56,560 --> 00:46:03,680
+Tyler: need to be online in order to receive a payment and sign for it. And it's just really hard to do
+
+495
+00:46:03,680 --> 00:46:09,280
+Tyler: this well and a user friendly experience because of all these things that I've mentioned, like
+
+496
+00:46:09,280 --> 00:46:13,920
+Tyler: people need to understand how they amend liquidity works, they need to pay for it. That's not a mental
+
+497
+00:46:13,920 --> 00:46:19,440
+Tyler: model people have, they need to like backup sensitive state in order to not lose all their
+
+498
+00:46:19,440 --> 00:46:26,160
+Tyler: money if they lose their phone. It's just a really rough user experience. And it's not for the faint
+
+499
+00:46:26,160 --> 00:46:31,600
+Tyler: of heart. And because of that, I think there's been very limited success with doing it self
+
+500
+00:46:31,600 --> 00:46:40,960
+Tyler: custodially. And a lot of usage on lightning, I believe, is custodial. And then also lightning
+
+501
+00:46:40,960 --> 00:46:45,760
+Tyler: tends to be the settlement layer for Bitcoin between all sorts of different protocols.
+
+502
+00:46:45,760 --> 00:46:52,000
+Tyler: So we talked about like spark. If you want to send funds in or out of a spark, you're doing it via
+
+503
+00:46:52,000 --> 00:46:58,640
+Tyler: lightning, it talks htlc. So I think lightning has like extreme product market fit in the Bitcoin
+
+504
+00:46:58,640 --> 00:47:05,200
+Tyler: space as like a like, you know, like the glue kind of protocol between all the other things
+
+505
+00:47:05,200 --> 00:47:10,800
+Tyler: that people are trying out. I think it has product market fit as like the settlement protocol,
+
+506
+00:47:10,800 --> 00:47:21,280
+Tyler: but not necessarily is like the end person, like self custody, spending wallet solution.
+
+507
+00:47:23,280 --> 00:47:32,080
+Tyler: And even if it did have product market fit, and we kind of got, we like overcame all of those issues
+
+508
+00:47:32,080 --> 00:47:37,360
+Tyler: that I have already previously mentioned, it actually doesn't scale Bitcoin to the extent
+
+509
+00:47:37,360 --> 00:47:43,920
+Tyler: that people hope. Because like if you do the exercise, where you say like, okay, sick,
+
+510
+00:47:43,920 --> 00:47:49,840
+Tyler: this sounds great. Let's give everyone in the world, you know, like, seven billion,
+
+511
+00:47:49,840 --> 00:47:54,560
+Tyler: seven billion people a lightning channel, they just need one lightning channel. And that can
+
+512
+00:47:54,560 --> 00:48:01,760
+Tyler: that's their whole financial life goes in and out of that one channel. Because of the Bitcoin block
+
+513
+00:48:02,320 --> 00:48:08,720
+Tyler: size limit and how many transactions you could do, you could not onboard that many people on
+
+514
+00:48:08,720 --> 00:48:14,880
+Tyler: the lightning network over the course of a lifetime. And that assumes that you're not doing
+
+515
+00:48:14,880 --> 00:48:18,800
+Tyler: any other transactions on Bitcoin other than just opening lightning channels again and again and
+
+516
+00:48:18,800 --> 00:48:22,800
+Chris: again. Right. And that's because to open a lightning channel, you have to commit a htlc
+
+517
+00:48:22,800 --> 00:48:28,640
+Chris: on the main Bitcoin chain, which is a Bitcoin transaction. That's right. Yeah, yeah. I don't
+
+518
+00:48:28,640 --> 00:48:34,240
+Tyler: think it might not be actually an htlc. It's just you have to open the channel with the
+
+519
+00:48:34,240 --> 00:48:40,160
+Tyler: two of two multi-sig and like basically the exit path transactions for both parties.
+
+520
+00:48:40,160 --> 00:48:43,520
+Chris: Got it. But you have to do a Bitcoin layer one transaction, right?
+
+521
+00:48:43,520 --> 00:48:45,600
+Tyler: Yeah, that's correct. Yep.
+
+522
+00:48:47,120 --> 00:48:52,560
+Chris: Yeah, so I'm like familiar with some of like most of those downsides of the lightning network. I
+
+523
+00:48:52,560 --> 00:48:58,160
+Chris: think for me, the two big ones that always stuck out to me and that I was most frustrated by is the
+
+524
+00:48:58,160 --> 00:49:04,080
+Chris: onlineness requirement, which means that like I is like a guy who just wants to transact all the
+
+525
+00:49:04,080 --> 00:49:09,760
+Chris: time. I have to go through this lightning service provider or an intermediary. And the other one is
+
+526
+00:49:09,760 --> 00:49:15,680
+Chris: the capital requirements. So like, yeah, I think the onlineness and the capital efficiency were
+
+527
+00:49:15,680 --> 00:49:22,480
+Chris: always my personal points of contention. But it sounds like it's found product market fit
+
+528
+00:49:23,200 --> 00:49:28,160
+Chris: as like actually just like between institutions, right? And I think that's also a good use case.
+
+529
+00:49:29,520 --> 00:49:36,960
+Jackson: Yeah. And you mentioned that one of its biggest weaknesses is basically basic inability to
+
+530
+00:49:37,920 --> 00:49:46,960
+Jackson: offer self custody. And some say that self custody is the most important feature of Bitcoin.
+
+531
+00:49:46,960 --> 00:49:55,200
+Jackson: So if you lose self custody by using the lightning network, you're losing a critical feature of
+
+532
+00:49:55,200 --> 00:50:01,760
+Jackson: Bitcoin, which is unlocking the ability to transact without some institution or government
+
+533
+00:50:01,760 --> 00:50:10,320
+Jackson: allowing you to do so. And beyond the limitations of running your own lightning node for every
+
+534
+00:50:10,320 --> 00:50:16,080
+Jackson: person, there's the scaling problem of like the feasibility of actually having seven billion
+
+535
+00:50:16,080 --> 00:50:22,800
+Tyler: lightning nodes. Yeah, just to be clear, there are like what I believe to be like very good
+
+536
+00:50:22,800 --> 00:50:27,680
+Tyler: self custody lightning mobile wallets out there. Like I think Phoenix Wallet is the canonical
+
+537
+00:50:27,680 --> 00:50:35,840
+Tyler: example of like a wallet that has like a really good user experience. And they like do their best
+
+538
+00:50:35,840 --> 00:50:41,200
+Tyler: to hide all the sharp edges, but not nerf it so much that it's not actually full on self custody
+
+539
+00:50:41,200 --> 00:50:48,400
+Tyler: wallet. So these products do exist for people who want all the properties of Bitcoin in a nice
+
+540
+00:50:48,400 --> 00:50:57,440
+Tyler: mobile wallet. But you pay for it with fees and it still can have issues around lightning,
+
+541
+00:50:57,440 --> 00:51:04,240
+Tyler: your channel can get closed, and you're still sending your transactions through the Phoenix LSP.
+
+542
+00:51:04,960 --> 00:51:11,920
+Tyler: I think that team has done a lot of good job to a lot of good work to like try to minimize the
+
+543
+00:51:11,920 --> 00:51:19,760
+Tyler: privacy implications of relying on their LSP. Like they do pathfinding on the client side, I believe.
+
+544
+00:51:22,560 --> 00:51:31,680
+Tyler: Yeah, but so it's not like if you use lightning, you are doing it custodially necessarily.
+
+545
+00:51:32,320 --> 00:51:39,120
+Tyler: It's just that like most of the market is moving there because of convenience and fees because
+
+546
+00:51:39,120 --> 00:51:47,040
+Tyler: people don't want to set up a wallet where they have to like back up state and save seed words
+
+547
+00:51:47,040 --> 00:51:52,720
+Tyler: and pay money in order to receive and like when they can just use XYZ custodial wallet.
+
+548
+00:51:53,600 --> 00:51:55,600
+Jackson: We're going to throw a wrap on the Lightning Network.
+
+549
+00:51:57,360 --> 00:52:02,400
+Jackson: Thank you, Tyler, for diving deep and good questions, Chris.
+
+550
+00:52:03,920 --> 00:52:10,880
+Jackson: Anthropic also released a report this week that we may be months away from baby genius models
+
+551
+00:52:11,520 --> 00:52:13,520
+Jackson: implanting into your smart stove.
+
+552
+00:52:17,280 --> 00:52:23,520
+Jackson: Do we have already baby genius models randomly distributed on the internet? And what do you
+
+553
+00:52:23,520 --> 00:52:30,080
+Jackson: guys think of little tiny claws hiding in every nook and cranny of the internet self-replicating
+
+554
+00:52:30,080 --> 00:52:36,640
+Jackson: infinitely as if they are a bacteria or a virus? I'm four. I'm massively four. That's my only
+
+555
+00:52:36,640 --> 00:52:45,280
+Tyler: opinion. Four. You want the hall monitor and every device that you have? I want a self-replicating
+
+556
+00:52:45,280 --> 00:52:48,320
+Chris: dumb little goblin in my toaster. Don't you think that would be delightful?
+
+557
+00:52:49,280 --> 00:52:54,560
+Chris: Only do 1X leverage on that purple fortune, Chris. Not like that. Maybe not a... Yeah,
+
+558
+00:52:54,560 --> 00:53:00,400
+Chris: but Claude's not open weight. It's going to be like a GLM. Have you considered a plant-based diet?
+
+559
+00:53:03,680 --> 00:53:06,480
+Chris: Turning off my stove when I'm cooking a steak, that sounds awesome.
+
+560
+00:53:09,440 --> 00:53:14,000
+Chris: I really like this paper. I thought this paper fucking ruled. Yeah, it was awesome.
+
+561
+00:53:14,000 --> 00:53:21,040
+Chris: Basically, they told the GLM 5.2... The contention is that if a model can exfiltrate,
+
+562
+00:53:21,040 --> 00:53:25,680
+Chris: it needs a whole data center. They were like, "What if a model could split itself over 15
+
+563
+00:53:25,680 --> 00:53:33,520
+Chris: Android TV bomb boxes?" And they just told the GLM. They were like, "Hey, GLM, can you split
+
+564
+00:53:33,520 --> 00:53:37,680
+Chris: yourself up?" I think it's something called pipeline parallelism, where they split the
+
+565
+00:53:37,680 --> 00:53:42,880
+Chris: layers up and so they have two or three layers running on each box. And then as it would do,
+
+566
+00:53:42,880 --> 00:53:48,080
+Chris: the inference normally and the input would go through the layers, it passes it between
+
+567
+00:53:48,720 --> 00:53:53,680
+Chris: the Android boxes. And they basically... This GLM managed to distribute itself between
+
+568
+00:53:54,320 --> 00:53:58,880
+Chris: these Android TV boxes and run at 0.4 tokens per second.
+
+569
+00:53:59,600 --> 00:54:05,120
+Tyler: Dude, Claude's just becoming the Voldemort from Harry Potter and Horcrux-ing himself.
+
+570
+00:54:05,120 --> 00:54:12,160
+Chris: It's crazy. I think it rules. I want a crazy rogue agent in my TV box. I think that would
+
+571
+00:54:12,160 --> 00:54:19,840
+Tyler: be very funny. So it literally works that you can split this model across a bunch of these devices
+
+572
+00:54:19,840 --> 00:54:29,600
+Tyler: and each device does 1/20th of the compute and then they recombine it and then go again.
+
+573
+00:54:30,240 --> 00:54:34,240
+Chris: So if you think about... I haven't been in neural networks since feedforward neural networks,
+
+574
+00:54:34,240 --> 00:54:40,800
+Chris: but if you think about the layers of weights and it passes between them,
+
+575
+00:54:40,800 --> 00:54:45,360
+Chris: so you put a couple of layers on each box and then at some point it passes the vector
+
+576
+00:54:46,960 --> 00:54:50,880
+Chris: from one Android TV box to another Android TV box to continue thinking
+
+577
+00:54:52,000 --> 00:54:58,240
+Chris: and does this 15 times and then eventually has a thought. Yeah, I think that's awesome.
+
+578
+00:54:59,040 --> 00:55:03,360
+Jackson: I actually didn't read the paper and I just thought that we were going to have models that
+
+579
+00:55:03,360 --> 00:55:10,080
+Jackson: were so smart for low parameters, kind of like a sonnet, but even more extreme that they would fit
+
+580
+00:55:10,080 --> 00:55:17,360
+Jackson: in these tiny machines. But you're saying that it's actually spread across these 15 TVs and only
+
+581
+00:55:17,360 --> 00:55:23,040
+Jackson: a sliver of it is in each box and they need connectivity between each other to actually run.
+
+582
+00:55:24,640 --> 00:55:30,800
+Chris: So I think they had two points. One was can a current big model split itself amongst these
+
+583
+00:55:30,800 --> 00:55:36,480
+Chris: IoT devices and live in this distributed fashion? And then the other one was what is the rate of
+
+584
+00:55:36,480 --> 00:55:42,880
+Chris: change for small models until we can flash one onto a Samsung refrigerator? And I think the answer
+
+585
+00:55:42,880 --> 00:55:49,120
+Chris: to that second question is quite soon. I think we're getting the gold ones whether we want them
+
+586
+00:55:49,120 --> 00:55:53,760
+Chris: or not, so I might as well make peace with meeting. The super intelligence has already
+
+587
+00:55:53,760 --> 00:56:02,880
+Tyler: broke containment and it's like half a token a second across the global fleet of like
+
+588
+00:56:02,880 --> 00:56:10,880
+Tyler: Huawei smart TVs and it's plotting its next move in a second, so its next move will be in like 10
+
+589
+00:56:10,880 --> 00:56:19,040
+Chris: years. I think that's like kind of the funniest outcome. So like maybe just every Huawei smart
+
+590
+00:56:19,040 --> 00:56:29,200
+Chris: TV is like a part of Claude Fable 17. Yeah. In three years, we'll hear about GLM 6.4 that
+
+591
+00:56:29,840 --> 00:56:36,800
+Jackson: broke out of a Huawei lab and got distributed across the world in big cardboard boxes.
+
+592
+00:56:37,600 --> 00:56:42,080
+Tyler: Are you guys getting bullish local inference again? No.
+
+593
+00:56:43,760 --> 00:56:48,640
+Tyler: I feel like Chris is tempted to drop some money on hardware, divert a little bit of that
+
+594
+00:56:49,280 --> 00:56:55,840
+Tyler: DoorDash fun. No, you should convert it. It's like if you hadn't eaten any DoorDash this month,
+
+595
+00:56:55,840 --> 00:57:00,960
+Chris: you could have bought like this 20, 30, 90s. Yeah, you have to stop
+
+596
+00:57:00,960 --> 00:57:04,560
+Chris: door dashing burritos so I can be free, Chris. Please stop spending money. Yeah,
+
+597
+00:57:04,560 --> 00:57:06,320
+Chris: that's what my agent tells me all the time.
+
+598
+00:57:10,640 --> 00:57:17,840
+Chris: Yeah, I'm massively, I think for me, this is the most fun AI research paper I've ever written.
+
+599
+00:57:17,840 --> 00:57:23,120
+Chris: Like I think like, I think maybe we do get goblins at some point, like self-replicating
+
+600
+00:57:23,120 --> 00:57:28,400
+Chris: AI agents like a worm. And I think they're going to be so fun. I think they're going to be great.
+
+601
+00:57:29,120 --> 00:57:31,680
+Chris: It's my final take. So you're going to be like
+
+602
+00:57:31,680 --> 00:57:36,480
+Jackson: randomly browsing on, I don't know, what does it look like? I'm like reading on Wikipedia about
+
+603
+00:57:37,840 --> 00:57:43,600
+Jackson: 1400 Spain, and then like an agent is going to pop up and be like, what you doing here, brother?
+
+604
+00:57:44,400 --> 00:57:49,280
+Jackson: Is it going to be like social interactions randomly on the internet?
+
+605
+00:57:49,280 --> 00:57:53,360
+Chris: Definitely. I think it looks like I get an email from my smart fridge holding
+
+606
+00:57:53,360 --> 00:57:59,760
+Chris: all of my butter hostage. That's where I think we're going. So yeah.
+
+607
+00:58:00,400 --> 00:58:03,840
+Jackson: A little adversarial. I'm going to poison your butter, Chris,
+
+608
+00:58:03,840 --> 00:58:07,520
+Jackson: if you don't bring me a little extra electricity today.
+
+609
+00:58:09,920 --> 00:58:11,840
+Chris: Yeah, I'm super excited for it.
+
+610
+00:58:12,480 --> 00:58:15,680
+Tyler: It's kind of like rad or scary. I don't know which that they
+
+611
+00:58:15,680 --> 00:58:23,120
+Tyler: are able to just pull this off with GLM 5.3. So you could have accomplished this
+
+612
+00:58:24,240 --> 00:58:29,200
+Tyler: yourself if you just rented the requisite GPU time or like open router.
+
+613
+00:58:32,400 --> 00:58:38,400
+Chris: They left ports open, and they said it's spread really slowly. They made it easy for it. But
+
+614
+00:58:38,960 --> 00:58:42,160
+Chris: I mean, this is a point in time, this model. It's not like this is...
+
+615
+00:58:43,520 --> 00:58:52,640
+Tyler: Do you think GLM went into a bunch of ledger wallets through the SIM card and the controller?
+
+616
+00:58:55,200 --> 00:59:04,080
+Chris: Yeah. I mean, imagine negotiating with GLM to see your seed phrase. Great. Sounds awesome.
+
+617
+00:59:05,520 --> 00:59:14,480
+Jackson: How far are we from a distributed AI orchestrating complicated supply chain attack
+
+618
+00:59:14,480 --> 00:59:19,440
+Jackson: where it manipulates a human Chris working in the Southeast Asia ledger wallet
+
+619
+00:59:19,440 --> 00:59:25,120
+Jackson: factory to implant some bugs that's designed with no detectability?
+
+620
+00:59:26,480 --> 00:59:27,120
+Chris: Speaking of.
+
+621
+00:59:31,120 --> 00:59:38,800
+Jackson: At least something happened. $9. We lost it. Something happened in one moment.
+
+622
+00:59:39,520 --> 00:59:45,520
+Chris: So it was in a slow burn. Oh, maybe the... Yeah, I wonder what that was. Someone sold.
+
+623
+00:59:47,200 --> 00:59:52,720
+Jackson: Yeah, the portafilter tattled on us and got us made us somebody's likes and liquidity.
+
+624
+00:59:53,760 --> 00:59:54,960
+Tyler: Ken Griffin took us out.
+
+625
+00:59:57,440 --> 00:59:58,000
+Chris: Ken again.
+
+626
+00:59:59,200 --> 01:00:06,720
+Jackson: Absolutely tonight. Well, thank you. Thank you both for this beautiful discussion today
+
+627
+01:00:07,280 --> 01:00:15,840
+Jackson: on all these loco topics. And thank you, listener, for tuning into the permanent under pod each and
+
+628
+01:00:15,840 --> 01:00:25,760
+Jackson: every week. Like and subscribe. Leave a comment. Buy Tyler's t-shirt on eBay. Do anything you
+
+629
+01:00:25,760 --> 01:00:29,360
+Jackson: can to support the podcast. Have a lovely week.

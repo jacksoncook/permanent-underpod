@@ -1,0 +1,248 @@
+{
+ "show": "PERMANENT UNDERPOD",
+ "show_kicker": "PERMANENT",
+ "show_main": "UNDERPOD",
+ "accent": [
+  255,
+  210,
+  74
+ ],
+ "source": "/Users/jcook/Personal/permanent-underpod/media/ep19/work/src/jackson_720.mp4",
+ "title_card": {
+  "bg_frame": 2700,
+  "line": "EPISODE 19   ·   The Ledger Implant   ·   Bitcoin  ·  Stablecoins  ·  AI",
+  "dur": 4.5
+ },
+ "end_card": {
+  "bg_frame": 3000,
+  "kicker": "NEXT WEEK ON",
+  "lines": [
+   "Poppy: Meta and Sierra want your agent to stop logging in as you",
+   "OUSD week two · the hostage npm worm · Perp of Fortune rides again",
+   "Not financial advice. Our opinions are ours, not our employers'."
+  ],
+  "cta": "LIKE  +  SUBSCRIBE",
+  "dur": 7
+ },
+ "lower_thirds": [
+  {
+   "name": "intro",
+   "kicker": "EPISODE 19",
+   "title": "LIVE FROM THE MOON · FULLY HUMAN"
+  },
+  {
+   "name": "perp",
+   "kicker": "PERP OF FORTUNE",
+   "title": "THE MODEL PICKED THE PERP: LONG STBL, 3×"
+  },
+  {
+   "name": "ledger",
+   "kicker": "THE MARQUEE",
+   "title": "THE LEDGER IMPLANT: A MODEM READ THE SEED"
+  },
+  {
+   "name": "saas",
+   "kicker": "DEATH OF SAAS",
+   "title": "ANTHROPIC LEFT GITHUB. IS SAAS NEXT?"
+  },
+  {
+   "name": "ln",
+   "kicker": "LAYER-2 SERIES",
+   "title": "THE LIGHTNING NETWORK, ROASTED BY TYLER"
+  },
+  {
+   "name": "lndown",
+   "kicker": "THE DOWNSIDES",
+   "title": "INBOUND LIQUIDITY, ALWAYS-ON, 7B CHANNELS"
+  },
+  {
+   "name": "repl",
+   "kicker": "SELF-REPLICATING AI",
+   "title": "ONE MODEL, 15 ANDROID TV BOXES"
+  },
+  {
+   "name": "wrap",
+   "kicker": "PERP OF FORTUNE",
+   "title": "FINAL NUMBERS"
+  }
+ ],
+ "stats": [
+  {
+   "name": "coldopen",
+   "kicker": "EPISODE 19",
+   "main": "In this pod…"
+  },
+  {
+   "name": "stbl",
+   "kicker": "THE PICK",
+   "main": "STBL · 3× long · Hyperliquid · $149 notional"
+  },
+  {
+   "name": "ponzi",
+   "kicker": "CHRIS",
+   "main": "\"some degenerate Ponzinomics\""
+  },
+  {
+   "name": "bear",
+   "kicker": "TYLER",
+   "main": "the Perp of Fortune index: our bear-market signal"
+  },
+  {
+   "name": "drain",
+   "kicker": "OCT 9",
+   "main": "324 wallets drained in 47 minutes · ~$102M"
+  },
+  {
+   "name": "larp",
+   "kicker": "TYLER",
+   "main": "\"they were LARPing the whole time\""
+  },
+  {
+   "name": "implant",
+   "kicker": "THE IMPLANT",
+   "main": "LTE modem + SIM · reads the seed off the display"
+  },
+  {
+   "name": "scale",
+   "kicker": "CHRIS",
+   "main": "\"weigh them on a microscale\""
+  },
+  {
+   "name": "germany",
+   "kicker": "REPORTED",
+   "main": "a second implant found at a German retailer"
+  },
+  {
+   "name": "failing",
+   "kicker": "JACKSON",
+   "main": "\"hardware wallets are failing their customers\""
+  },
+  {
+   "name": "chriswallet",
+   "kicker": "JACKSON",
+   "main": "\"not Phoenix Wallet. Chris Wallet.\""
+  },
+  {
+   "name": "scales",
+   "kicker": "TYLER",
+   "main": "\"the same store also sells the scales\""
+  },
+  {
+   "name": "vault",
+   "kicker": "BITCOIN VAULTS",
+   "main": "a one-week veto on every withdrawal"
+  },
+  {
+   "name": "github",
+   "kicker": "THE PEG",
+   "main": "Anthropic: 2,500 → 30,000 code changes a day"
+  },
+  {
+   "name": "billingproof",
+   "kicker": "TYLER'S SAAS",
+   "main": "Billing Proof · Stripe checkout tests · $250/mo"
+  },
+  {
+   "name": "250",
+   "kicker": "CUSTOMERS SO FAR",
+   "main": "zero · not one AdWords impression"
+  },
+  {
+   "name": "haas",
+   "kicker": "JACKSON",
+   "main": "also underpriced: HaaS, human as a service"
+  },
+  {
+   "name": "vibe",
+   "kicker": "DOORDASH TRACKER",
+   "main": "\"forget it, I'm going to vibe code it\""
+  },
+  {
+   "name": "circular",
+   "kicker": "TYLER",
+   "main": "\"circular revenue until we have a Series A\""
+  },
+  {
+   "name": "lnsize",
+   "kicker": "LIGHTNING",
+   "main": "~5,000 BTC in public channels · ~20,000 nodes"
+  },
+  {
+   "name": "htlc",
+   "kicker": "HTLC",
+   "main": "hash time-locked: everyone gets paid, or no one"
+  },
+  {
+   "name": "inbound",
+   "kicker": "THE CATCH",
+   "main": "inbound liquidity: you pay to be able to receive"
+  },
+  {
+   "name": "7b",
+   "kicker": "TYLER",
+   "main": "7 billion channels won't fit in the blocks"
+  },
+  {
+   "name": "twobig",
+   "kicker": "CHRIS",
+   "main": "two big ones: staying online, locked capital"
+  },
+  {
+   "name": "phoenix",
+   "kicker": "TYLER",
+   "main": "Phoenix: self-custody, sharp edges hidden"
+  },
+  {
+   "name": "goblin",
+   "kicker": "CHRIS",
+   "main": "\"a dumb little goblin in my toaster\""
+  },
+  {
+   "name": "boxes",
+   "kicker": "THE PAPER",
+   "main": "GLM split across 15 Android TV boxes · 0.4 tok/s"
+  },
+  {
+   "name": "horcrux",
+   "kicker": "TYLER",
+   "main": "\"Claude just Horcruxed himself\""
+  },
+  {
+   "name": "halftoken",
+   "kicker": "TYLER",
+   "main": "\"plotting its next move at half a token a second\""
+  },
+  {
+   "name": "butter",
+   "kicker": "CHRIS",
+   "main": "\"my smart fridge holding my butter hostage\""
+  }
+ ],
+ "thumbnail": {
+  "text": "THEY BUGGED THE WALLET",
+  "out": "/Users/jcook/Personal/permanent-underpod/media/ep19/ep19-thumbnail.png",
+  "faces": [
+   {
+    "track": "jackson",
+    "t": 3064.0,
+    "cx": 640,
+    "top": 90,
+    "h": 630
+   },
+   {
+    "track": "tyler",
+    "t": 3801.0,
+    "cx": 250,
+    "top": 120,
+    "h": 590
+   },
+   {
+    "track": "chris",
+    "t": 2878.0,
+    "cx": 1040,
+    "top": 140,
+    "h": 570
+   }
+  ]
+ }
+}
