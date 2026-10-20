@@ -149,12 +149,6 @@
   {
    "name": "07-anonymous",
    "title": "Is Bitcoin anonymous? Chain surveillance, shielded Bitcoin, and real opsec",
-   "hook": {
-    "source": "media/ep16/Permanent Underpod - Ep 16 (Final Cut).mp4",
-    "srt": "episodes/ep16/transcript-attributed.srt",
-    "start": 1804.55,
-    "end": 1818.99
-   },
    "parts": [
     {
      "source": "media/ep16/Permanent Underpod - Ep 16 (Final Cut).mp4",
@@ -227,12 +221,6 @@
   {
    "name": "11-stablecoin-issuers",
    "title": "How stablecoin issuers make money: the mint/redeem glitch and the burn desk",
-   "hook": {
-    "source": "media/ep15/Permanent Underpod - Ep 15 (Final Cut).mp4",
-    "srt": "episodes/ep15/transcript-attributed.srt",
-    "start": 1504.76,
-    "end": 1517.25
-   },
    "parts": [
     {
      "source": "media/ep15/Permanent Underpod - Ep 15 (Final Cut).mp4",

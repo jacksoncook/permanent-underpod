@@ -54,22 +54,22 @@ pieces (already pulled as clips).
 
 ## Schedule (all 12 scheduled private via `yt_upload.py`, 2026-10-20; thumbnails owed before each date)
 
-| Date (Tue 6 PM PT) | # | Video |
-|---|---|---|
-| 2026-10-27 | 1 | How the Lightning Network actually works |
-| 2026-11-03 | 2 | Will quantum computers break Bitcoin? |
-| 2026-11-10 | 3 | What is a Bitcoin L2? Lightning vs Spark vs Ark |
-| 2026-11-17 | 4 | Spark explained: Lightning without channels |
-| 2026-11-24 | 5 | The Coldcard bug: how a dice-roll seed phrase went wrong for 5 years |
-| 2026-12-01 | 6 | How white hats drained Liquid: federated sidechains explained |
-| 2026-12-08 | 7 | Is Bitcoin anonymous? Chain surveillance, shielded Bitcoin, and real opsec |
-| 2026-12-15 | 8 | What is MEV? The $15M sandwich bot that got sandwiched |
-| 2026-12-22 | 9 | How to protect a hardware wallet after the Ledger implant: multisig and vaults |
-| 2026-12-29 | 10 | What a secure enclave actually proves: TEEs, attestation, and agents that shop |
-| 2027-01-05 | 11 | How stablecoin issuers make money: the mint/redeem glitch and the burn desk |
-| 2027-01-12 | 12 | The 5 levels of AGI (DeepMind) and where ChatGPT sits |
+| Date (Tue 6 PM PT) | # | Video | URL |
+|---|---|---|---|
+| 2026-10-27 | 1 | How the Lightning Network actually works | https://youtu.be/loNZVCrNN8A |
+| 2026-11-03 | 2 | Will quantum computers break Bitcoin? | https://youtu.be/j1MBSWmlJKI |
+| 2026-11-10 | 3 | What is a Bitcoin L2? Lightning vs Spark vs Ark | https://youtu.be/1ZKLmgECEDU |
+| 2026-11-17 | 4 | Spark explained: Lightning without channels | https://youtu.be/iwY8ug1qD2U |
+| 2026-11-24 | 5 | The Coldcard bug: how a dice-roll seed phrase went wrong for 5 years | https://youtu.be/CAKN0Smk3Cw |
+| 2026-12-01 | 6 | How white hats drained Liquid: federated sidechains explained | https://youtu.be/-N_rXDCriZ8 |
+| 2026-12-08 | 7 | Is Bitcoin anonymous? Chain surveillance, shielded Bitcoin, and real opsec | https://youtu.be/K7FbqVar_Mo |
+| 2026-12-15 | 8 | What is MEV? The $15M sandwich bot that got sandwiched | https://youtu.be/MLc8QN81OUw |
+| 2026-12-22 | 9 | How to protect a hardware wallet after the Ledger implant: multisig and vaults | https://youtu.be/4CTNFIUtyoQ |
+| 2026-12-29 | 10 | What a secure enclave actually proves: TEEs, attestation, and agents that shop | https://youtu.be/gN8qzqoiJwo |
+| 2027-01-05 | 11 | How stablecoin issuers make money: the mint/redeem glitch and the burn desk | https://youtu.be/s1uQuRlfjNM |
+| 2027-01-12 | 12 | The 5 levels of AGI (DeepMind) and where ChatGPT sits | https://youtu.be/LpgBiBG24JI |
 
-URLs land in the table below once uploaded. Exact cut points: `episodes/standalones.json`
+All 12 uploaded 2026-10-20 (scheduled private, captions attached). Exact cut points: `episodes/standalones.json`
 (every boundary passed `verify_clips.py` incl. `--whisper`); copy: `episodes/standalones-copy.json`.
 
 ## How to cut one
