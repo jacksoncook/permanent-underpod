@@ -35,20 +35,28 @@ Group means are weighted by chapter minutes; CIs are 90% bootstrap.
 - The collapse happens between 0:30 and 2:00 on every curve regardless of what
   follows the cold open: card or no card (Ep 14), perp first (Ep 12, 15–19), marquee
   first (Ep 8, 14, 16), banter first (Ep 9–11).
-- Confound to keep in mind: the 6:00 mark correlates with traffic mix, not structure.
-  Low-view, subscriber-light episodes (Ep 6, 9, 11: 37–80 views) hold 27–30% at 6:00;
-  the four 290–420-view episodes (Ep 3, 12, 16, 18) hold 9–16%. See §7.
+- Confound to keep in mind: the 6:00 mark correlates with the view-count regime, not
+  structure. Pre-Aug-24 episodes (Ep 6, 9, 11) hold 27–30% at 6:00; post-change
+  episodes whose raw views are mostly autoplay starts (Ep 12, 16, 18) hold 9–16%.
+  See §7.
 
-## 2. Perp first is the weakest opening we have tried
+## 2. Perp first is the weakest substantive opening we have tried
 
-| content type, first third of the episode | n | vs_typ | loss / min |
-|---|---|---|---|
-| perp_trading | 16 | **0.28** | 10.6% |
-| banter_personal | 6 | 0.24 | 21.6% |
-| hack_security_privacy | 8 | 0.32 | 4.4% |
-| ai_industry | 35 | 0.42 | 2.8% |
-| bitcoin_l2 | 15 | 0.43 | 3.6% |
-| ai_agents_doing_things | 12 | 0.44 | 7.7% |
+| content type, first third of the episode | n (all / clean) | vs_typ all | vs_typ clean | loss / min (clean) |
+|---|---|---|---|---|
+| banter_personal | 6 / 6 | 0.24 | 0.24 | 21.6% |
+| perp_trading | 16 / 10 | **0.28** | **0.34** | 7.8% |
+| hack_security_privacy | 8 / – | 0.32 | – | – |
+| ai_industry | 35 / 32 | 0.42 | 0.42 | 3.2% |
+| stablecoin_regulation | 7 / 6 | 0.40 | 0.42 | 1.6% |
+| bitcoin_l2 | 15 / 12 | 0.43 | 0.48 | 3.4% |
+| ai_agents_doing_things | 12 / 10 | 0.44 | 0.48 | 8.9% |
+
+"Clean" = Ep 3, 12, 16, 18 excluded (the four highest raw-view episodes; §7 explains
+why their curves carry extra autoplay noise). Rerun with
+`--exclude 3,12,16,18`. The perp-early number softens from 0.28 to 0.34 once the three
+bot-heavy perp-first episodes are dropped, but it stays the lowest substantive cell
+(only early banter, n=6, is lower) and the perp overall stays the weakest category.
 
 - The perp pick, placed at 1:15–2:00 (Ep 12, 15–19), is the lowest-scoring
   category-position cell on the show. Ep 18's perp (1:38–6:03) took 32% → 16%; Ep 19's
@@ -57,7 +65,8 @@ Group means are weighted by chapter minutes; CIs are 90% bootstrap.
   Ep 8 "GPT-5.6 goes long XRP at 20x" at 32:44 (0.91), Ep 5 "We got a perp!" at 50:45
   (0.59). Perp checks placed later average 0.37 vs 0.28 early.
 - Ep 15 was the only perp-first episode to clear the 20% target at the 10% mark
-  (24.6%); Ep 16–19 came in at 17.4 / 14.3 / 16.2 / 15.7 with the same structure.
+  (24.6%); Ep 16–19 came in at 17.4 / 14.3 / 16.2 / 15.7 with the same structure
+  (all five are post-Aug-24 episodes, so they are comparable with each other).
   The 9/9 and 9/19 recommendation "perp inside 90 s" is not supported once all
   five attempts are pooled.
 
@@ -148,15 +157,43 @@ Consecutive chapters of the same category merged into topic blocks (true segment
   Ep 18 2,070 / 2.85%, Ep 19 1,018 / 3.73% (best on the channel). Titles with a
   concrete object and a dollar figure keep winning.
 
-## 7. Data-quality flag: the SUBSCRIBER surge
+## 7. The Aug 24 view-count change (not bots — corrected 2026-10-20)
 
-Ep 3, 12, 16, 18 received 290–420 views with 58–88% from the SUBSCRIBER traffic
-source, arriving in 1–2-day bursts (Ep 16: 78 + 54 on days 1–2; Ep 18: 141 on day 2;
-Ep 12: 119 on day 1). The channel had 26–31 subscribers at the time. Those four
-episodes are also the four lowest on avg view % (4.3–7.9%). Whatever that traffic is,
-it is not people watching the show, and it drags every retention number on the
-high-view episodes. The API cannot see device or geography; one look at Studio →
-Ep 18 → Audience → views by device/geography for Oct 11 would settle it.
+On 2026-08-24 YouTube started counting a view from the first frame on every format,
+feed autoplays included; the old definition survives as "engaged views" (see sources in
+`analytics/insights.json`). Ep 12 (8/28) is the first episode under the new rule, and
+it shows:
+
+| ep | views | engaged | engaged % | min / engaged view |
+|---|---|---|---|---|
+| 1–11 (Jun 13–Aug 20) | 37–127 | 37–127 | 85–100% | 3.8–11.1 |
+| 3 (Jun 25, a real shared launch: US 36%, CA/AU/UK, 35–44 male) | 293 | 293 | 100% | 3.2 |
+| 12 | 306 | 121 | 40% | 4.1 |
+| 13 | 225 | 82 | 36% | 4.8 |
+| 14 | 215 | 70 | 33% | 3.8 |
+| 15 | 163 | 64 | 39% | 6.2 |
+| 16 | 400 | 98 | 24% | 4.1 |
+| 17 | 194 | 42 | 22% | 6.0 |
+| 18 | 417 | 81 | 19% | 5.0 |
+| 19 | 151 | 51 | 34% | 6.3 |
+
+- The "SUBSCRIBER burst" on Ep 12/16/18 is home-feed autoplay starts for subscribers
+  and casual viewers, now counted as views. Jackson's Studio reads agree: Ep 18 is
+  5.5% US with <0.1% regular viewers, Ep 16 46% US, Ep 12 16% US and 90% mobile,
+  and in all three the subscriber-sourced views carry only ~31–33% of watch time.
+- **Engaged views per episode have been flat at 40–120 since June.** The apparent
+  step-up from Ep 12 on is the counting change. The channel has not grown in people.
+- `avg_view_pct` is NOT comparable across Aug 24 (its denominator now includes the
+  autoplay starts), which is why Ep 12–19 all sit at 7–10% while Ep 5–11 sat at
+  12–20%. Minutes per engaged view is the comparable number: 4–6 after, 4–11 before.
+- Retention curves for post-change episodes carry extra loss in the first ~30 s from
+  autoplay starts that leave immediately. The 0:30–2:00 collapse is present on every
+  pre-change curve too (Ep 2 84% → 32%, Ep 5 87% → 34%, Ep 7 92% → 38%), so §1 stands
+  in direction; its magnitude on Ep 12–19 is inflated by the regime. `vs_typ` compares
+  against videos under the same regime and is unaffected, which is why the study leans
+  on it. `--exclude 3,12,16,18` remains as a sensitivity check (every headline
+  conclusion survives it: first-tenth loss 7.6%/min vs 1.2–3.6% after; blocks 10+ min
+  0.43 vs <3 min 0.385; dominant speaker Chris 0.42 / Tyler 0.42 / Jackson 0.37).
 
 ## What to change
 
@@ -169,5 +206,6 @@ Ep 18 → Audience → views by device/geography for Oct 11 would settle it.
    first 60 s of the block.** The hosts' best chapters already do this.
 4. **Banter and prop bits go after the first third.** Placed early they are the
    worst thing on the show (0.24); placed later they are the best (0.50).
-5. **Confirm what the SUBSCRIBER burst is** before trusting retention on any 300+
-   view episode.
+5. **Report engaged views, not views, for everything after Aug 24.** `yt_pull.py`
+   now pulls them. Grade launches on engaged views and minutes per engaged view; the
+   raw view count is a feed-autoplay counter now.

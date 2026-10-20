@@ -461,6 +461,11 @@ def main():
         i = args.index("--daily")
         daily_path = args[i + 1]
         del args[i:i + 2]
+    exclude = set()
+    if "--exclude" in args:
+        i = args.index("--exclude")
+        exclude = {int(x) for x in args[i + 1].split(",") if x}
+        del args[i:i + 2]
     data_path, episodes_dir, out_dir = args[0], args[1], args[2]
     os.makedirs(out_dir, exist_ok=True)
     data = json.load(open(data_path))
@@ -472,6 +477,10 @@ def main():
     eps.sort(key=lambda v: v["publishedAt"])
     for n, v in enumerate(eps, 1):
         v["_ep"] = n
+    if exclude:
+        print(f"excluding episodes {sorted(exclude)} (bot-traffic episodes; see study.md §7)")
+        df = df[~df["ep"].isin(exclude)].copy()
+        eps = [v for v in eps if v["_ep"] not in exclude]
 
     labels, tops = topic_clusters(df)
     df["topic"] = labels

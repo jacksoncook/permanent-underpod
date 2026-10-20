@@ -259,7 +259,7 @@ def main():
         chunk = vids[i:i + 50]
         resp = yta.reports().query(
             ids="channel==MINE", startDate=start, endDate=today,
-            metrics=("views,estimatedMinutesWatched,averageViewDuration,"
+            metrics=("views,engagedViews,estimatedMinutesWatched,averageViewDuration,"
                      "averageViewPercentage,likes,comments,shares,subscribersGained"),
             dimensions="video", filters="video==" + ",".join(chunk),
             maxResults=200,
@@ -267,6 +267,7 @@ def main():
         for row in rows_as_dicts(resp):
             videos[row["video"]]["analytics"] = {
                 "views": row.get("views", 0),
+                "engaged_views": row.get("engagedViews", 0),
                 "watch_min": row.get("estimatedMinutesWatched", 0),
                 "avg_view_s": row.get("averageViewDuration", 0),
                 "avg_view_pct": row.get("averageViewPercentage", 0),

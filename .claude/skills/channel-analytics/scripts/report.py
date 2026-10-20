@@ -77,6 +77,7 @@ def main():
     shorts = [v for v in pub if v["is_short"]]
     watch_min = sum((v.get("analytics") or {}).get("watch_min", 0) for v in videos)
     avg_pct_long = (sum((v.get("analytics") or {}).get("avg_view_pct", 0) for v in longs) / len(longs)) if longs else 0
+    engaged_long = sum((v.get("analytics") or {}).get("engaged_views", 0) for v in longs)
 
     # video bar chart (published only, chronological)
     bar_labels = [((v["publishedAt"] or "")[:10] + " · " + (v["title"] or "")[:38]) for v in pub]
@@ -122,6 +123,7 @@ def main():
           <td class="num">{impr}</td>
           <td class="num">{ctr}</td>
           <td class="num">{v['stats']['views']:,}</td>
+          <td class="num">{a.get('engaged_views', 0):,}</td>
           <td class="num">{a.get('avg_view_pct', 0):.0f}%</td>
           <td class="num">{fmt_dur(a.get('avg_view_s', 0))}</td>
           <td class="num">{v['stats']['likes']}</td>
@@ -185,10 +187,12 @@ def main():
   <div class="kpi"><b>{ch['totalViews']:,}</b>total views</div>
   <div class="kpi"><b>{len(longs)}</b>episodes · {len(clips)} clips · {len(shorts)} shorts live</div>
   <div class="kpi"><b>{fmt_min(watch_min)}</b>watch time</div>
+  <div class="kpi"><b>{engaged_long:,}</b>engaged episode views</div>
   <div class="kpi"><b>{avg_pct_long:.0f}%</b>avg viewed (episodes)</div>
 </div>
 
 <h2>Views by video</h2>
+<div class="muted">Since 2026-08-24 YouTube counts a view from the first frame (feed autoplays included); "Engaged" is the old definition and the only view count comparable across that date.</div>
 <div class="panel"><canvas id="views"></canvas>
 <div class="muted" style="margin-top:6px">yellow = episodes · blue = shorts and clips (chronological)</div></div>
 
@@ -211,7 +215,7 @@ def main():
 
 <h2>All videos</h2>
 <table><tr><th>Title</th><th>Date</th><th>Len</th><th class="num">Impr</th>
-<th class="num">CTR</th><th class="num">Views</th>
+<th class="num">CTR</th><th class="num">Views</th><th class="num">Engaged</th>
 <th class="num">Avg %</th><th class="num">Avg time</th><th class="num">Likes</th>
 <th class="num">Comments</th><th class="num">Shares</th><th class="num">Subs+</th></tr>
 {''.join(rows)}</table>

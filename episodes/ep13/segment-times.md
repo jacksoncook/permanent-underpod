@@ -15,7 +15,10 @@ cards · whoosh & gold-wipe on all 12 transitions.**
 ## Episode video
 
 - **URL:** https://youtu.be/36HwFHzF6sM — LIVE, published 2026-09-03 21:35 UTC (Jackson,
-  manual upload). Live title: **Google Defined AGI. We Graded Fable as Superhuman**
+  manual upload). Launch title: **Google Defined AGI. We Graded Fable as Superhuman**
+- **Retitled** by Jackson in Studio to **Is AGI Already Here?** — between 2026-09-04 and 2026-09-09
+  (exact date not recorded; first seen on the 9/9 analytics read-back). Launch-window CTR 2.46% on
+  2,232 impressions spans both titles.
   (Jackson's edit of draft #1). Description = the draft below, verbatim.
 - **Tags (12, API-patched 2026-09-04):** podcast, ai, agi, google deepmind, levels of agi,
   fable, anthropic, openai, glm, coding agents, stablecoins, solana.
@@ -27,7 +30,7 @@ cards · whoosh & gold-wipe on all 12 transitions.**
   two cutouts: Jackson's big laugh from the egg-app reveal, Chris grinning; passed the
   320×180 shrink test). Packaging is a launch-day gate — set it at upload time.
 
-## Title (drafts — LIVE title is "Google Defined AGI. We Graded Fable as Superhuman")
+## Title (drafts — launched as "Google Defined AGI. We Graded Fable as Superhuman", LIVE title since ~9/9 is "Is AGI Already Here?")
 
 1. **Google Defined AGI. We Graded Ourselves a Level 4.**
 2. "Fable, Make Me a Million Dollars." It Made $0.
