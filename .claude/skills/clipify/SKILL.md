@@ -418,3 +418,19 @@ own scheduler (up to 10 days ahead) — see step 5 of the YouTube flow for the p
 `clipify` is the downstream/companion tool that carves shareable pieces out of
 either the raw recording (teasers) or the finished episode (chapter pulls). They
 share the frame-aligned anti-drift recipe and the same logo/lower-third styling.
+
+## Standalones (search-intent re-cuts of evergreen blocks)
+
+Plan + schedule: `episodes/standalones.md`. Spec: `episodes/standalones.json` (hook → 3 s
+title card → parts from the published final cuts, 0.4 s dip to black between episodes).
+```bash
+python3 scripts/standalone_render.py episodes/standalones.json --emit-clips /tmp/sa-clips.json
+<venv>/bin/python scripts/verify_clips.py /tmp/sa-clips.json --whisper   # 0 FAIL or do not render
+<venv>/bin/python scripts/standalone_render.py episodes/standalones.json  # media/standalones/*.mp4 + .srt
+python3 scripts/standalone_manifest.py episodes/standalones.json episodes/standalones-copy.json /tmp/sa-manifest.json
+<venv>/bin/python scripts/yt_upload.py /tmp/sa-manifest.json             # then yt_captions.py per id
+```
+Titles are the search query with NO `- Ep N Clip` suffix (standalone videos, not pulls);
+playlist Underpod Clips; Tuesday 6 PM PT weekly; description = one-line answer, parent
+link with `?t=`, chapters, hashtags. Chapter times in the manifest are derived from the spec,
+so edit the spec, never the mp4.

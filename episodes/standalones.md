@@ -24,10 +24,10 @@ publishing sheet.
 - 8–12 min target. 10–15 s hook from the block's best line, then title card, then the block.
 - Description: one-line answer, then "Full conversation: <episode url>&t=<start>", then
   chapters. Playlist: Underpod Clips. Thumbnail: text-forward, the question itself.
-- Cadence: one per week, published Tuesday 2 PM PT, so it never collides with the
-  Thursday episode or the daily short. Grade at day 7 on search views, not total views.
-- This revives long-form pulls, retired 2026-08-14 for shorts. Default: standalones are
-  a separate category, shorts stay the only pull format. Jackson to confirm.
+- Cadence: one per week, Tuesday 6 PM PT (the +4 h slot beside the 2 PM daily short),
+  clear of the Thursday episode. Grade at day 7 on search views, not total views.
+- Standalones are a separate category from pulls (Jackson agreed 2026-10-20); shorts stay
+  the only pull format. Jackson adds the thumbnail in Studio before each release.
 
 ## Ranked picks
 
@@ -52,13 +52,33 @@ Ep 4 soul.md clones (0.82 but dated AI gimmick, already a 98-view clip),
 Ep 11 mind viruses (dated x2), Ep 12 tokenomics (3 min), Ep 1/2 stablecoin contrarian
 pieces (already pulled as clips).
 
+## Schedule (all 12 scheduled private via `yt_upload.py`, 2026-10-20; thumbnails owed before each date)
+
+| Date (Tue 6 PM PT) | # | Video |
+|---|---|---|
+| 2026-10-27 | 1 | How the Lightning Network actually works |
+| 2026-11-03 | 2 | Will quantum computers break Bitcoin? |
+| 2026-11-10 | 3 | What is a Bitcoin L2? Lightning vs Spark vs Ark |
+| 2026-11-17 | 4 | Spark explained: Lightning without channels |
+| 2026-11-24 | 5 | The Coldcard bug: how a dice-roll seed phrase went wrong for 5 years |
+| 2026-12-01 | 6 | How white hats drained Liquid: federated sidechains explained |
+| 2026-12-08 | 7 | Is Bitcoin anonymous? Chain surveillance, shielded Bitcoin, and real opsec |
+| 2026-12-15 | 8 | What is MEV? The $15M sandwich bot that got sandwiched |
+| 2026-12-22 | 9 | How to protect a hardware wallet after the Ledger implant: multisig and vaults |
+| 2026-12-29 | 10 | What a secure enclave actually proves: TEEs, attestation, and agents that shop |
+| 2027-01-05 | 11 | How stablecoin issuers make money: the mint/redeem glitch and the burn desk |
+| 2027-01-12 | 12 | The 5 levels of AGI (DeepMind) and where ChatGPT sits |
+
+URLs land in the table below once uploaded. Exact cut points: `episodes/standalones.json`
+(every boundary passed `verify_clips.py` incl. `--whisper`); copy: `episodes/standalones-copy.json`.
+
 ## How to cut one
 
-1. `plan.json` for the standalone: chapters = the block rows above, `cold_open` = the
-   hook line, title card from `brand.json`. Reuse `cut_render.py` + `final_render.py`;
-   Ep 17 is a gallery recording (per-clip tile crops).
-2. `check_bounds.py --plan` (never mid-word), SRT regenerated from the final cut.
-3. `yt_upload.py` scheduled-private, title per table, playlist Underpod Clips, 15 tags
-   from the query cluster, pinned comment to the parent timestamp.
+1. Add an item to `episodes/standalones.json` (hook + parts cut from the published masters)
+   and its copy to `episodes/standalones-copy.json`.
+2. `standalone_render.py --emit-clips` → `verify_clips.py` (add `--whisper`) until 0 FAIL.
+   Never render over a FAIL.
+3. `standalone_render.py` → `media/standalones/<name>.mp4` + `.srt` (captions offset from
+   the source SRTs). `standalone_manifest.py` → `yt_upload.py`, then `yt_captions.py`.
 4. Day-7 grade: search views ≥ 30 or it is a dud; two duds in a row on the same lead
    host → stop the series.

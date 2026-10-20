@@ -1,0 +1,270 @@
+{
+ "out_dir": "media/standalones",
+ "logo": "brand/logo-1920.png",
+ "items": [
+  {
+   "name": "01-lightning",
+   "title": "How the Lightning Network actually works",
+   "hook": {
+    "source": "media/ep19/Permanent Underpod - Ep 19 (Final Cut).mp4",
+    "srt": "episodes/ep19/transcript-attributed.srt",
+    "start": 2649.65,
+    "end": 2659.13
+   },
+   "parts": [
+    {
+     "source": "media/ep19/Permanent Underpod - Ep 19 (Final Cut).mp4",
+     "srt": "episodes/ep19/transcript-attributed.srt",
+     "start": 2075.48,
+     "end": 2501.19
+    },
+    {
+     "source": "media/ep19/Permanent Underpod - Ep 19 (Final Cut).mp4",
+     "srt": "episodes/ep19/transcript-attributed.srt",
+     "start": 2593.95,
+     "end": 3122.53
+    }
+   ]
+  },
+  {
+   "name": "02-quantum",
+   "title": "Will quantum computers break Bitcoin?",
+   "hook": {
+    "source": "media/ep18/Permanent Underpod - Ep 18 (Final Cut)2.mp4",
+    "srt": "episodes/ep18/transcript-attributed.srt",
+    "start": 922.82,
+    "end": 929.21
+   },
+   "parts": [
+    {
+     "source": "media/ep18/Permanent Underpod - Ep 18 (Final Cut)2.mp4",
+     "srt": "episodes/ep18/transcript-attributed.srt",
+     "start": 474.62,
+     "end": 1720.31
+    }
+   ]
+  },
+  {
+   "name": "03-bitcoin-l2",
+   "title": "What is a Bitcoin L2? Lightning vs Spark vs Ark",
+   "hook": {
+    "source": "media/ep16/Permanent Underpod - Ep 16 (Final Cut).mp4",
+    "srt": "episodes/ep16/transcript-attributed.srt",
+    "start": 718.93,
+    "end": 727.48
+   },
+   "parts": [
+    {
+     "source": "media/ep17/Permanent Underpod - Ep 17 (Final Cut).mp4",
+     "srt": "episodes/ep17/transcript.srt",
+     "start": 1474.9,
+     "end": 1615.43
+    },
+    {
+     "source": "media/ep16/Permanent Underpod - Ep 16 (Final Cut).mp4",
+     "srt": "episodes/ep16/transcript-attributed.srt",
+     "start": 718.93,
+     "end": 946.6
+    },
+    {
+     "source": "media/ep17/Permanent Underpod - Ep 17 (Final Cut).mp4",
+     "srt": "episodes/ep17/transcript.srt",
+     "start": 2468.87,
+     "end": 2639.02
+    },
+    {
+     "source": "media/ep19/Permanent Underpod - Ep 19 (Final Cut).mp4",
+     "srt": "episodes/ep19/transcript-attributed.srt",
+     "start": 2501.62,
+     "end": 2592.44
+    }
+   ]
+  },
+  {
+   "name": "04-spark",
+   "title": "Spark explained: Lightning without channels",
+   "hook": {
+    "source": "media/ep17/Permanent Underpod - Ep 17 (Final Cut).mp4",
+    "srt": "episodes/ep17/transcript.srt",
+    "start": 2149.47,
+    "end": 2174.81
+   },
+   "parts": [
+    {
+     "source": "media/ep17/Permanent Underpod - Ep 17 (Final Cut).mp4",
+     "srt": "episodes/ep17/transcript.srt",
+     "start": 1393.45,
+     "end": 1921.09
+    },
+    {
+     "source": "media/ep17/Permanent Underpod - Ep 17 (Final Cut).mp4",
+     "srt": "episodes/ep17/transcript.srt",
+     "start": 2044.6,
+     "end": 2469.71
+    }
+   ]
+  },
+  {
+   "name": "05-coldcard",
+   "title": "The Coldcard bug: how a dice-roll seed phrase went wrong for 5 years",
+   "hook": {
+    "source": "media/ep9/Permanent Underpod - Ep 9 (Final Cut).mp4",
+    "srt": "episodes/ep9/transcript-attributed.srt",
+    "start": 1006.62,
+    "end": 1014.97
+   },
+   "parts": [
+    {
+     "source": "media/ep9/Permanent Underpod - Ep 9 (Final Cut).mp4",
+     "srt": "episodes/ep9/transcript-attributed.srt",
+     "start": 315.66,
+     "end": 1356.29
+    }
+   ]
+  },
+  {
+   "name": "06-liquid",
+   "title": "How white hats drained Liquid: federated sidechains explained",
+   "hook": {
+    "source": "media/ep14/Permanent Underpod - Ep 14 (Final Cut).mp4",
+    "srt": "episodes/ep14/transcript-attributed.srt",
+    "start": 2294.19,
+    "end": 2306.97
+   },
+   "parts": [
+    {
+     "source": "media/ep14/Permanent Underpod - Ep 14 (Final Cut).mp4",
+     "srt": "episodes/ep14/transcript-attributed.srt",
+     "start": 2289.8,
+     "end": 3236.54
+    },
+    {
+     "source": "media/ep15/Permanent Underpod - Ep 15 (Final Cut).mp4",
+     "srt": "episodes/ep15/transcript-attributed.srt",
+     "start": 1892.65,
+     "end": 2167.68
+    }
+   ]
+  },
+  {
+   "name": "07-anonymous",
+   "title": "Is Bitcoin anonymous? Chain surveillance, shielded Bitcoin, and real opsec",
+   "hook": {
+    "source": "media/ep16/Permanent Underpod - Ep 16 (Final Cut).mp4",
+    "srt": "episodes/ep16/transcript-attributed.srt",
+    "start": 1804.55,
+    "end": 1818.99
+   },
+   "parts": [
+    {
+     "source": "media/ep16/Permanent Underpod - Ep 16 (Final Cut).mp4",
+     "srt": "episodes/ep16/transcript-attributed.srt",
+     "start": 1763.0,
+     "end": 2632.27
+    }
+   ]
+  },
+  {
+   "name": "08-mev",
+   "title": "What is MEV? The $15M sandwich bot that got sandwiched",
+   "hook": {
+    "source": "media/ep6/Permanent Underpod - Ep 6 (Final Cut).mp4",
+    "srt": "episodes/ep6/transcript-attributed.srt",
+    "start": 1171.15,
+    "end": 1185.19
+   },
+   "parts": [
+    {
+     "source": "media/ep6/Permanent Underpod - Ep 6 (Final Cut).mp4",
+     "srt": "episodes/ep6/transcript-attributed.srt",
+     "start": 632.09,
+     "end": 1090.24
+    },
+    {
+     "source": "media/ep6/Permanent Underpod - Ep 6 (Final Cut).mp4",
+     "srt": "episodes/ep6/transcript-attributed.srt",
+     "start": 1309.5,
+     "end": 1607.0
+    }
+   ]
+  },
+  {
+   "name": "09-hardware-wallet",
+   "title": "How to protect a hardware wallet after the Ledger implant: multisig and vaults",
+   "hook": {
+    "source": "media/ep19/Permanent Underpod - Ep 19 (Final Cut).mp4",
+    "srt": "episodes/ep19/transcript-attributed.srt",
+    "start": 370.81,
+    "end": 378.83
+   },
+   "parts": [
+    {
+     "source": "media/ep19/Permanent Underpod - Ep 19 (Final Cut).mp4",
+     "srt": "episodes/ep19/transcript-attributed.srt",
+     "start": 342.76,
+     "end": 1241.25
+    }
+   ]
+  },
+  {
+   "name": "10-enclaves",
+   "title": "What a secure enclave actually proves: TEEs, attestation, and agents that shop",
+   "hook": {
+    "source": "media/ep15/Permanent Underpod - Ep 15 (Final Cut).mp4",
+    "srt": "episodes/ep15/transcript-attributed.srt",
+    "start": 2895.98,
+    "end": 2903.42
+   },
+   "parts": [
+    {
+     "source": "media/ep15/Permanent Underpod - Ep 15 (Final Cut).mp4",
+     "srt": "episodes/ep15/transcript-attributed.srt",
+     "start": 2837.7,
+     "end": 3597.47
+    }
+   ]
+  },
+  {
+   "name": "11-stablecoin-issuers",
+   "title": "How stablecoin issuers make money: the mint/redeem glitch and the burn desk",
+   "hook": {
+    "source": "media/ep15/Permanent Underpod - Ep 15 (Final Cut).mp4",
+    "srt": "episodes/ep15/transcript-attributed.srt",
+    "start": 1504.76,
+    "end": 1517.25
+   },
+   "parts": [
+    {
+     "source": "media/ep15/Permanent Underpod - Ep 15 (Final Cut).mp4",
+     "srt": "episodes/ep15/transcript-attributed.srt",
+     "start": 1349.5,
+     "end": 1666.64
+    },
+    {
+     "source": "media/ep4/Permanent Underpod - Ep 4 (Final Cut).mp4",
+     "srt": "episodes/ep4/transcript-attributed.srt",
+     "start": 3228.22,
+     "end": 3403.71
+    }
+   ]
+  },
+  {
+   "name": "12-agi-levels",
+   "title": "The 5 levels of AGI (DeepMind) and where ChatGPT sits",
+   "hook": {
+    "source": "media/ep13/Permanent Underpod - Ep 13 (Final Cut).mp4",
+    "srt": "episodes/ep13/transcript-attributed.srt",
+    "start": 489.09,
+    "end": 497.77
+   },
+   "parts": [
+    {
+     "source": "media/ep13/Permanent Underpod - Ep 13 (Final Cut).mp4",
+     "srt": "episodes/ep13/transcript-attributed.srt",
+     "start": 337.04,
+     "end": 1036.48
+    }
+   ]
+  }
+ ]
+}
