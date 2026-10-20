@@ -16,6 +16,7 @@ import os
 import sys
 
 YELLOW, DARK, PANEL, INK, MUT = "#FFD24A", "#0E0E13", "#17171f", "#f2f2f5", "#9a9aa8"
+EPISODE_MIN_S = 2400
 PRIO_COLOR = {"high": "#ff6b6b", "med": YELLOW, "low": "#7bd88f"}
 
 
@@ -71,7 +72,8 @@ def main():
 
     ch, videos = data["channel"], data["videos"]
     pub = [v for v in videos if v.get("privacyStatus") == "public"]
-    longs = [v for v in pub if not v["is_short"]]
+    longs = [v for v in pub if not v["is_short"] and v["duration_s"] > EPISODE_MIN_S]
+    clips = [v for v in pub if not v["is_short"] and v["duration_s"] <= EPISODE_MIN_S]
     shorts = [v for v in pub if v["is_short"]]
     watch_min = sum((v.get("analytics") or {}).get("watch_min", 0) for v in videos)
     avg_pct_long = (sum((v.get("analytics") or {}).get("avg_view_pct", 0) for v in longs) / len(longs)) if longs else 0
@@ -79,7 +81,7 @@ def main():
     # video bar chart (published only, chronological)
     bar_labels = [((v["publishedAt"] or "")[:10] + " · " + (v["title"] or "")[:38]) for v in pub]
     bar_views = [v["stats"]["views"] for v in pub]
-    bar_colors = [YELLOW if not v["is_short"] else "#5aa9e6" for v in pub]
+    bar_colors = [YELLOW if (not v["is_short"] and v["duration_s"] > EPISODE_MIN_S) else "#5aa9e6" for v in pub]
 
     daily = data.get("daily", [])
     day_labels = [d["day"] for d in daily]
@@ -108,7 +110,9 @@ def main():
         impr = f"{r['impressions']:,}" if r else "–"
         ctr = f"{r['ctr_pct']:.1f}%" if r else "–"
         status = v.get("privacyStatus")
-        badge = ("<span class='tag short'>short</span>" if v["is_short"] else "<span class='tag'>episode</span>")
+        badge = ("<span class='tag short'>short</span>" if v["is_short"]
+                 else "<span class='tag short'>clip</span>" if v["duration_s"] <= EPISODE_MIN_S
+                 else "<span class='tag'>episode</span>")
         if status != "public":
             badge += f" <span class='tag sched'>{esc(status)}</span>"
         rows.append(f"""<tr>
@@ -179,14 +183,14 @@ def main():
 <div class="kpis">
   <div class="kpi"><b>{ch['subscribers']:,}</b>subscribers</div>
   <div class="kpi"><b>{ch['totalViews']:,}</b>total views</div>
-  <div class="kpi"><b>{len(longs)}</b>episodes · {len(shorts)} shorts live</div>
+  <div class="kpi"><b>{len(longs)}</b>episodes · {len(clips)} clips · {len(shorts)} shorts live</div>
   <div class="kpi"><b>{fmt_min(watch_min)}</b>watch time</div>
   <div class="kpi"><b>{avg_pct_long:.0f}%</b>avg viewed (episodes)</div>
 </div>
 
 <h2>Views by video</h2>
 <div class="panel"><canvas id="views"></canvas>
-<div class="muted" style="margin-top:6px">yellow = episodes · blue = shorts (chronological)</div></div>
+<div class="muted" style="margin-top:6px">yellow = episodes · blue = shorts and clips (chronological)</div></div>
 
 <div class="grid2">
   <div><h2>Daily views &amp; net subs</h2><div class="panel"><canvas id="daily"></canvas></div></div>
