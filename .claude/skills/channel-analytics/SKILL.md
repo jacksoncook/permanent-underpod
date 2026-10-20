@@ -54,6 +54,24 @@ Self-contained dark-brand HTML (logo embedded; Chart.js from CDN, so viewing nee
 network). Charts: views per video, daily views + net subs, traffic sources,
 retention curves overlaid per episode; then the insight cards and a full video table.
 
+## 3b. Cross-episode study (run after every episode)
+Every chapter of every episode as one row, joined to its retention curve, chapter table
+and speaker-attributed SRT. Needs the analysis venv (`uv venv analytics/.venv -p 3.12 &&
+uv pip install -p analytics/.venv/bin/python pandas numpy scipy scikit-learn matplotlib`;
+gitignored):
+```bash
+analytics/.venv/bin/python .claude/skills/channel-analytics/scripts/episode_study.py \
+  analytics/channel-data.json episodes analytics/study --daily analytics/episode-daily.json
+analytics/.venv/bin/python .claude/skills/channel-analytics/scripts/study_charts.py \
+  analytics/channel-data.json analytics/study
+```
+Outputs `analytics/study/` (segments.csv, blocks.csv, results.json, four PNGs) and the
+write-up lives in `analytics/study/study.md` — update its numbers and "What to change"
+when a finding moves. `analytics/episode-daily.json` (per-episode daily views + traffic
+sources) is pulled by a small Analytics-API loop; regenerate it alongside the main pull.
+Grade recording items against the pooled tables (format × placement, block length,
+dominant speaker), not against one episode's curve.
+
 ## 4. Publish to the shareable URL
 The latest report lives at **https://jacksoncook.github.io/pod-analytics-latest/**
 (served from the sibling repo `../jacksoncook.github.io`; the page carries

@@ -1,0 +1,1905 @@
+{
+ "n_episodes": 19,
+ "n_chapters": 382,
+ "n_body_chapters": 304,
+ "n_with_speakers": 220,
+ "topic_terms": {
+  "0": [
+   "like like",
+   "think like",
+   "don know",
+   "just like",
+   "like know",
+   "ai",
+   "know like",
+   "agent",
+   "model",
+   "models",
+   "right like",
+   "data"
+  ],
+  "1": [
+   "perp",
+   "fortune",
+   "perp fortune",
+   "long",
+   "purple",
+   "purple fortune",
+   "25",
+   "perps",
+   "leverage",
+   "10",
+   "max",
+   "trade"
+  ],
+  "2": [
+   "bitcoin",
+   "spark",
+   "lightning",
+   "layer",
+   "chain",
+   "transactions",
+   "transaction",
+   "blockchain",
+   "network",
+   "exit",
+   "lightning network",
+   "l2"
+  ],
+  "3": [
+   "like subscribe",
+   "subscribe",
+   "subscribe overlay",
+   "overlay",
+   "fans",
+   "pod like",
+   "chicken",
+   "overlay like",
+   "shorts",
+   "click",
+   "youtube",
+   "families"
+  ],
+  "4": [
+   "pico",
+   "update",
+   "recovery",
+   "remote",
+   "fable",
+   "thumb",
+   "gamer",
+   "gamer thumb",
+   "keyboard",
+   "15",
+   "halo",
+   "yeah ll"
+  ],
+  "5": [
+   "hugging",
+   "model",
+   "hugging face",
+   "ai",
+   "face",
+   "open ai",
+   "escape",
+   "open",
+   "exploit",
+   "models",
+   "answers",
+   "test"
+  ],
+  "6": [
+   "claude",
+   "sounds",
+   "tickets",
+   "lottery",
+   "beep",
+   "sound",
+   "tab",
+   "save",
+   "ai",
+   "mouth",
+   "tap",
+   "live"
+  ],
+  "7": [
+   "self custody",
+   "custody",
+   "wrap",
+   "self",
+   "wallets",
+   "stablecoin",
+   "contrarian corner",
+   "hardware",
+   "contrarian",
+   "corner",
+   "wallet",
+   "hardware wallets"
+  ]
+ },
+ "format": [
+  {
+   "format": "ai_bit",
+   "n": 3,
+   "minutes": 12.9,
+   "vs_typ": 0.694,
+   "vs_typ_ci90": "0.55\u20130.78",
+   "hazard_per_min": -0.0192,
+   "median_len_min": 3.5,
+   "mean_pos": 0.39
+  },
+  {
+   "format": "marquee",
+   "n": 6,
+   "minutes": 28.1,
+   "vs_typ": 0.452,
+   "vs_typ_ci90": "0.31\u20130.52",
+   "hazard_per_min": 0.0111,
+   "median_len_min": 3.2,
+   "mean_pos": 0.13
+  },
+  {
+   "format": "welcome",
+   "n": 16,
+   "minutes": 37.2,
+   "vs_typ": 0.45,
+   "vs_typ_ci90": "0.35\u20130.55",
+   "hazard_per_min": 0.2209,
+   "median_len_min": 2.2,
+   "mean_pos": 0.27
+  },
+  {
+   "format": "segment",
+   "n": 245,
+   "minutes": 944.7,
+   "vs_typ": 0.407,
+   "vs_typ_ci90": "0.38\u20130.43",
+   "hazard_per_min": 0.0263,
+   "median_len_min": 2.8,
+   "mean_pos": 0.49
+  },
+  {
+   "format": "perp",
+   "n": 28,
+   "minutes": 65.0,
+   "vs_typ": 0.344,
+   "vs_typ_ci90": "0.29\u20130.41",
+   "hazard_per_min": 0.0596,
+   "median_len_min": 1.7,
+   "mean_pos": 0.34
+  },
+  {
+   "format": "explainer",
+   "n": 6,
+   "minutes": 15.5,
+   "vs_typ": 0.293,
+   "vs_typ_ci90": "0.18\u20130.43",
+   "hazard_per_min": 0.1183,
+   "median_len_min": 2.6,
+   "mean_pos": 0.35
+  }
+ ],
+ "topic": [
+  {
+   "topic": 5,
+   "n": 15,
+   "minutes": 56.6,
+   "vs_typ": 0.458,
+   "vs_typ_ci90": "0.31\u20130.54",
+   "hazard_per_min": 0.013,
+   "median_len_min": 1.4,
+   "mean_pos": 0.19
+  },
+  {
+   "topic": 2,
+   "n": 38,
+   "minutes": 180.8,
+   "vs_typ": 0.441,
+   "vs_typ_ci90": "0.38\u20130.50",
+   "hazard_per_min": 0.0097,
+   "median_len_min": 3.9,
+   "mean_pos": 0.54
+  },
+  {
+   "topic": 7,
+   "n": 24,
+   "minutes": 86.5,
+   "vs_typ": 0.429,
+   "vs_typ_ci90": "0.39\u20130.48",
+   "hazard_per_min": 0.0353,
+   "median_len_min": 1.8,
+   "mean_pos": 0.48
+  },
+  {
+   "topic": 6,
+   "n": 28,
+   "minutes": 100.6,
+   "vs_typ": 0.423,
+   "vs_typ_ci90": "0.32\u20130.51",
+   "hazard_per_min": 0.0439,
+   "median_len_min": 2.0,
+   "mean_pos": 0.37
+  },
+  {
+   "topic": 4,
+   "n": 8,
+   "minutes": 27.8,
+   "vs_typ": 0.418,
+   "vs_typ_ci90": "0.25\u20130.54",
+   "hazard_per_min": 0.1101,
+   "median_len_min": 2.5,
+   "mean_pos": 0.33
+  },
+  {
+   "topic": 0,
+   "n": 127,
+   "minutes": 474.6,
+   "vs_typ": 0.388,
+   "vs_typ_ci90": "0.36\u20130.42",
+   "hazard_per_min": 0.022,
+   "median_len_min": 2.9,
+   "mean_pos": 0.51
+  },
+  {
+   "topic": 3,
+   "n": 4,
+   "minutes": 10.0,
+   "vs_typ": 0.362,
+   "vs_typ_ci90": "0.11\u20130.57",
+   "hazard_per_min": 0.025,
+   "median_len_min": 2.3,
+   "mean_pos": 0.41
+  },
+  {
+   "topic": 1,
+   "n": 43,
+   "minutes": 122.5,
+   "vs_typ": 0.358,
+   "vs_typ_ci90": "0.31\u20130.42",
+   "hazard_per_min": 0.057,
+   "median_len_min": 2.1,
+   "mean_pos": 0.41
+  }
+ ],
+ "position_deciles": [
+  {
+   "decile": 0,
+   "n": 35.0,
+   "hazard_per_min": 0.1063,
+   "vs_typ": 0.321
+  },
+  {
+   "decile": 1,
+   "n": 35.0,
+   "hazard_per_min": 0.026,
+   "vs_typ": 0.431
+  },
+  {
+   "decile": 2,
+   "n": 23.0,
+   "hazard_per_min": 0.022,
+   "vs_typ": 0.396
+  },
+  {
+   "decile": 3,
+   "n": 24.0,
+   "hazard_per_min": 0.0294,
+   "vs_typ": 0.427
+  },
+  {
+   "decile": 4,
+   "n": 23.0,
+   "hazard_per_min": 0.0246,
+   "vs_typ": 0.31
+  },
+  {
+   "decile": 5,
+   "n": 26.0,
+   "hazard_per_min": 0.0119,
+   "vs_typ": 0.396
+  },
+  {
+   "decile": 6,
+   "n": 22.0,
+   "hazard_per_min": 0.0129,
+   "vs_typ": 0.372
+  },
+  {
+   "decile": 7,
+   "n": 24.0,
+   "hazard_per_min": 0.0151,
+   "vs_typ": 0.43
+  },
+  {
+   "decile": 8,
+   "n": 28.0,
+   "hazard_per_min": 0.0089,
+   "vs_typ": 0.495
+  },
+  {
+   "decile": 9,
+   "n": 21.0,
+   "hazard_per_min": 0.0238,
+   "vs_typ": 0.446
+  }
+ ],
+ "minute_into_chapter": [
+  {
+   "minute_into_chapter": 1,
+   "n": 87,
+   "hazard_per_min": 0.0168,
+   "median": 0.0056
+  },
+  {
+   "minute_into_chapter": 2,
+   "n": 87,
+   "hazard_per_min": 0.0298,
+   "median": 0.0
+  },
+  {
+   "minute_into_chapter": 3,
+   "n": 87,
+   "hazard_per_min": 0.0264,
+   "median": 0.0
+  },
+  {
+   "minute_into_chapter": 4,
+   "n": 87,
+   "hazard_per_min": 0.0228,
+   "median": 0.0
+  },
+  {
+   "minute_into_chapter": 5,
+   "n": 68,
+   "hazard_per_min": 0.035,
+   "median": 0.0234
+  },
+  {
+   "minute_into_chapter": 6,
+   "n": 52,
+   "hazard_per_min": 0.033,
+   "median": 0.0057
+  },
+  {
+   "minute_into_chapter": 7,
+   "n": 39,
+   "hazard_per_min": 0.0115,
+   "median": 0.0
+  },
+  {
+   "minute_into_chapter": 8,
+   "n": 30,
+   "hazard_per_min": 0.0553,
+   "median": 0.0376
+  },
+  {
+   "minute_into_chapter": 9,
+   "n": 19,
+   "hazard_per_min": -0.0002,
+   "median": 0.0
+  },
+  {
+   "minute_into_chapter": 10,
+   "n": 14,
+   "hazard_per_min": -0.017,
+   "median": 0.0
+  },
+  {
+   "minute_into_chapter": 11,
+   "n": 9,
+   "hazard_per_min": 0.0035,
+   "median": 0.0
+  },
+  {
+   "minute_into_chapter": 12,
+   "n": 8,
+   "hazard_per_min": 0.0219,
+   "median": 0.115
+  },
+  {
+   "minute_into_chapter": 13,
+   "n": 6,
+   "hazard_per_min": -0.0171,
+   "median": -0.0142
+  },
+  {
+   "minute_into_chapter": 14,
+   "n": 5,
+   "hazard_per_min": -0.0483,
+   "median": -0.0221
+  },
+  {
+   "minute_into_chapter": 15,
+   "n": 3,
+   "hazard_per_min": 0.0705,
+   "median": 0.0531
+  }
+ ],
+ "category": [
+  {
+   "category": "other",
+   "n": 32,
+   "minutes": 117.0,
+   "vs_typ": 0.494,
+   "vs_typ_ci90": "0.39\u20130.59",
+   "hazard_per_min": 0.0772,
+   "median_len_min": 2.4,
+   "mean_pos": 0.31
+  },
+  {
+   "category": "banter_personal",
+   "n": 16,
+   "minutes": 41.6,
+   "vs_typ": 0.435,
+   "vs_typ_ci90": "0.33\u20130.54",
+   "hazard_per_min": 0.0695,
+   "median_len_min": 2.2,
+   "mean_pos": 0.44
+  },
+  {
+   "category": "bitcoin_l2",
+   "n": 46,
+   "minutes": 175.1,
+   "vs_typ": 0.429,
+   "vs_typ_ci90": "0.38\u20130.48",
+   "hazard_per_min": 0.0231,
+   "median_len_min": 2.9,
+   "mean_pos": 0.51
+  },
+  {
+   "category": "markets_mev",
+   "n": 13,
+   "minutes": 38.3,
+   "vs_typ": 0.413,
+   "vs_typ_ci90": "0.30\u20130.53",
+   "hazard_per_min": 0.0283,
+   "median_len_min": 2.8,
+   "mean_pos": 0.45
+  },
+  {
+   "category": "ai_industry",
+   "n": 77,
+   "minutes": 320.0,
+   "vs_typ": 0.404,
+   "vs_typ_ci90": "0.36\u20130.44",
+   "hazard_per_min": 0.0178,
+   "median_len_min": 3.3,
+   "mean_pos": 0.43
+  },
+  {
+   "category": "stablecoin_regulation",
+   "n": 30,
+   "minutes": 149.7,
+   "vs_typ": 0.398,
+   "vs_typ_ci90": "0.35\u20130.45",
+   "hazard_per_min": 0.0267,
+   "median_len_min": 3.3,
+   "mean_pos": 0.55
+  },
+  {
+   "category": "hack_security_privacy",
+   "n": 23,
+   "minutes": 56.7,
+   "vs_typ": 0.385,
+   "vs_typ_ci90": "0.32\u20130.44",
+   "hazard_per_min": 0.0358,
+   "median_len_min": 2.3,
+   "mean_pos": 0.48
+  },
+  {
+   "category": "ai_agents_doing_things",
+   "n": 38,
+   "minutes": 112.4,
+   "vs_typ": 0.369,
+   "vs_typ_ci90": "0.30\u20130.44",
+   "hazard_per_min": 0.0421,
+   "median_len_min": 2.6,
+   "mean_pos": 0.51
+  },
+  {
+   "category": "perp_trading",
+   "n": 29,
+   "minutes": 92.6,
+   "vs_typ": 0.33,
+   "vs_typ_ci90": "0.29\u20130.38",
+   "hazard_per_min": 0.0574,
+   "median_len_min": 2.2,
+   "mean_pos": 0.39
+  }
+ ],
+ "block_length": [
+  {
+   "len_bucket": "10+",
+   "n": 36,
+   "minutes": 545.4,
+   "vs_typ": 0.433,
+   "vs_typ_ci90": "0.39\u20130.48",
+   "hazard_per_min": 0.0166,
+   "median_len_min": 15.0,
+   "mean_pos": 0.45
+  },
+  {
+   "len_bucket": "6-10",
+   "n": 27,
+   "minutes": 207.1,
+   "vs_typ": 0.402,
+   "vs_typ_ci90": "0.35\u20130.45",
+   "hazard_per_min": 0.0325,
+   "median_len_min": 7.3,
+   "mean_pos": 0.36
+  },
+  {
+   "len_bucket": "3-6",
+   "n": 42,
+   "minutes": 182.9,
+   "vs_typ": 0.363,
+   "vs_typ_ci90": "0.32\u20130.40",
+   "hazard_per_min": 0.0291,
+   "median_len_min": 4.3,
+   "mean_pos": 0.43
+  },
+  {
+   "len_bucket": "<3",
+   "n": 104,
+   "minutes": 144.5,
+   "vs_typ": 0.361,
+   "vs_typ_ci90": "0.32\u20130.40",
+   "hazard_per_min": 0.0718,
+   "median_len_min": 1.3,
+   "mean_pos": 0.51
+  }
+ ],
+ "block_category": [
+  {
+   "category": "other",
+   "n": 34,
+   "minutes": 115.7,
+   "vs_typ": 0.495,
+   "vs_typ_ci90": "0.35\u20130.60",
+   "hazard_per_min": 0.0506,
+   "median_len_min": 1.1,
+   "mean_pos": 0.5
+  },
+  {
+   "category": "bitcoin_l2",
+   "n": 23,
+   "minutes": 173.9,
+   "vs_typ": 0.429,
+   "vs_typ_ci90": "0.37\u20130.48",
+   "hazard_per_min": 0.0163,
+   "median_len_min": 6.1,
+   "mean_pos": 0.52
+  },
+  {
+   "category": "markets_mev",
+   "n": 7,
+   "minutes": 34.7,
+   "vs_typ": 0.416,
+   "vs_typ_ci90": "0.28\u20130.55",
+   "hazard_per_min": 0.0245,
+   "median_len_min": 5.0,
+   "mean_pos": 0.31
+  },
+  {
+   "category": "banter_personal",
+   "n": 7,
+   "minutes": 24.6,
+   "vs_typ": 0.406,
+   "vs_typ_ci90": "0.19\u20130.49",
+   "hazard_per_min": 0.0549,
+   "median_len_min": 2.4,
+   "mean_pos": 0.37
+  },
+  {
+   "category": "ai_industry",
+   "n": 44,
+   "minutes": 313.2,
+   "vs_typ": 0.403,
+   "vs_typ_ci90": "0.35\u20130.45",
+   "hazard_per_min": 0.0218,
+   "median_len_min": 5.9,
+   "mean_pos": 0.44
+  },
+  {
+   "category": "stablecoin_regulation",
+   "n": 17,
+   "minutes": 141.7,
+   "vs_typ": 0.4,
+   "vs_typ_ci90": "0.35\u20130.45",
+   "hazard_per_min": 0.0243,
+   "median_len_min": 3.6,
+   "mean_pos": 0.57
+  },
+  {
+   "category": "hack_security_privacy",
+   "n": 15,
+   "minutes": 57.4,
+   "vs_typ": 0.382,
+   "vs_typ_ci90": "0.31\u20130.45",
+   "hazard_per_min": 0.037,
+   "median_len_min": 4.2,
+   "mean_pos": 0.38
+  },
+  {
+   "category": "ai_agents_doing_things",
+   "n": 26,
+   "minutes": 110.0,
+   "vs_typ": 0.37,
+   "vs_typ_ci90": "0.27\u20130.47",
+   "hazard_per_min": 0.031,
+   "median_len_min": 3.3,
+   "mean_pos": 0.53
+  },
+  {
+   "category": "perp_trading",
+   "n": 8,
+   "minutes": 41.9,
+   "vs_typ": 0.327,
+   "vs_typ_ci90": "0.27\u20130.42",
+   "hazard_per_min": 0.021,
+   "median_len_min": 3.2,
+   "mean_pos": 0.59
+  }
+ ],
+ "opening": [
+  {
+   "ep": 1,
+   "cold_open_s": 39.0,
+   "welcome_s": 232.0,
+   "first_body_at": 271.0,
+   "first_body": "The first crypto we ever bought",
+   "first_body_cat": "other",
+   "perp_at": NaN,
+   "marquee_at": NaN,
+   "ret_0_32": 74.4,
+   "ret_1_05": 60.1,
+   "ret_6_00": 21.0,
+   "ret_12_00": 16.6,
+   "avg_view_pct": 11.14,
+   "kept_1_05_to_6": 0.35
+  },
+  {
+   "ep": 2,
+   "cold_open_s": 29.0,
+   "welcome_s": 144.0,
+   "first_body_at": 342.0,
+   "first_body": "The Pico update (he made it)",
+   "first_body_cat": "other",
+   "perp_at": NaN,
+   "marquee_at": NaN,
+   "ret_0_32": 83.5,
+   "ret_1_05": 50.2,
+   "ret_6_00": 17.4,
+   "ret_12_00": 12.9,
+   "avg_view_pct": 9.82,
+   "kept_1_05_to_6": 0.35
+  },
+  {
+   "ep": 3,
+   "cold_open_s": 19.0,
+   "welcome_s": 35.0,
+   "first_body_at": 54.0,
+   "first_body": "The Pico recovery",
+   "first_body_cat": "other",
+   "perp_at": 225.0,
+   "marquee_at": NaN,
+   "ret_0_32": 95.2,
+   "ret_1_05": 64.5,
+   "ret_6_00": 10.3,
+   "ret_12_00": 6.9,
+   "avg_view_pct": 4.29,
+   "kept_1_05_to_6": 0.16
+  },
+  {
+   "ep": 4,
+   "cold_open_s": 43.0,
+   "welcome_s": 90.0,
+   "first_body_at": 236.0,
+   "first_body": "Fable 5 is back (and Jackson's in love)",
+   "first_body_cat": "ai_industry",
+   "perp_at": 4317.0,
+   "marquee_at": NaN,
+   "ret_0_32": 81.8,
+   "ret_1_05": 56.0,
+   "ret_6_00": 14.0,
+   "ret_12_00": 10.3,
+   "avg_view_pct": 7.049999999999999,
+   "kept_1_05_to_6": 0.25
+  },
+  {
+   "ep": 5,
+   "cold_open_s": 43.0,
+   "welcome_s": NaN,
+   "first_body_at": 43.0,
+   "first_body": "3-2-1-clap: welcome to Ep 5, fully remote",
+   "first_body_cat": "other",
+   "perp_at": 1628.0,
+   "marquee_at": NaN,
+   "ret_0_32": 86.8,
+   "ret_1_05": 46.6,
+   "ret_6_00": 20.8,
+   "ret_12_00": 17.9,
+   "avg_view_pct": 14.63,
+   "kept_1_05_to_6": 0.45
+  },
+  {
+   "ep": 6,
+   "cold_open_s": 52.0,
+   "welcome_s": NaN,
+   "first_body_at": 52.0,
+   "first_body": "3-2-1-clap: welcome to Ep 6",
+   "first_body_cat": "other",
+   "perp_at": 1106.0,
+   "marquee_at": NaN,
+   "ret_0_32": 56.8,
+   "ret_1_05": 31.7,
+   "ret_6_00": 29.7,
+   "ret_12_00": 26.1,
+   "avg_view_pct": 17.16,
+   "kept_1_05_to_6": 0.94
+  },
+  {
+   "ep": 7,
+   "cold_open_s": 44.0,
+   "welcome_s": 66.0,
+   "first_body_at": 187.0,
+   "first_body": "The OpenAI model escape incident",
+   "first_body_cat": "ai_industry",
+   "perp_at": NaN,
+   "marquee_at": NaN,
+   "ret_0_32": 92.4,
+   "ret_1_05": 35.3,
+   "ret_6_00": 15.4,
+   "ret_12_00": 11.8,
+   "avg_view_pct": 7.84,
+   "kept_1_05_to_6": 0.44
+  },
+  {
+   "ep": 8,
+   "cold_open_s": 81.0,
+   "welcome_s": 246.0,
+   "first_body_at": 81.0,
+   "first_body": "The boys are back",
+   "first_body_cat": "banter_personal",
+   "perp_at": 1964.0,
+   "marquee_at": 126.0,
+   "ret_0_32": 78.9,
+   "ret_1_05": 36.9,
+   "ret_6_00": 21.1,
+   "ret_12_00": 17.2,
+   "avg_view_pct": 12.34,
+   "kept_1_05_to_6": 0.57
+  },
+  {
+   "ep": 9,
+   "cold_open_s": 89.0,
+   "welcome_s": 177.0,
+   "first_body_at": 94.0,
+   "first_body": "The boys are back",
+   "first_body_cat": "other",
+   "perp_at": 151.0,
+   "marquee_at": NaN,
+   "ret_0_32": 95.0,
+   "ret_1_05": 49.7,
+   "ret_6_00": 29.2,
+   "ret_12_00": 26.6,
+   "avg_view_pct": 19.76,
+   "kept_1_05_to_6": 0.59
+  },
+  {
+   "ep": 10,
+   "cold_open_s": 51.0,
+   "welcome_s": 114.0,
+   "first_body_at": 56.0,
+   "first_body": "The boys are back: gorilla mode (trio roll-call)",
+   "first_body_cat": "other",
+   "perp_at": 106.0,
+   "marquee_at": NaN,
+   "ret_0_32": 100.0,
+   "ret_1_05": 76.9,
+   "ret_6_00": 25.8,
+   "ret_12_00": 23.5,
+   "avg_view_pct": 14.66,
+   "kept_1_05_to_6": 0.34
+  },
+  {
+   "ep": 11,
+   "cold_open_s": 49.0,
+   "welcome_s": 152.0,
+   "first_body_at": 54.0,
+   "first_body": "The boys are back: the gorilla training arc (trio ",
+   "first_body_cat": "banter_personal",
+   "perp_at": 143.0,
+   "marquee_at": NaN,
+   "ret_0_32": 77.3,
+   "ret_1_05": 27.9,
+   "ret_6_00": 27.2,
+   "ret_12_00": 18.4,
+   "avg_view_pct": 16.92,
+   "kept_1_05_to_6": 0.97
+  },
+  {
+   "ep": 12,
+   "cold_open_s": 56.0,
+   "welcome_s": NaN,
+   "first_body_at": 61.0,
+   "first_body": "Perp of Fortune: max long DOGE (in honor of Pitcoi",
+   "first_body_cat": "perp_trading",
+   "perp_at": 61.0,
+   "marquee_at": 625.0,
+   "ret_0_32": 70.0,
+   "ret_1_05": 27.1,
+   "ret_6_00": 9.0,
+   "ret_12_00": 10.0,
+   "avg_view_pct": 7.339999999999999,
+   "kept_1_05_to_6": 0.33
+  },
+  {
+   "ep": 13,
+   "cold_open_s": 56.0,
+   "welcome_s": NaN,
+   "first_body_at": 61.0,
+   "first_body": "Goblin mode: Tyler's out (\"we're all just trying t",
+   "first_body_cat": "other",
+   "perp_at": 157.0,
+   "marquee_at": 342.0,
+   "ret_0_32": 81.7,
+   "ret_1_05": 36.2,
+   "ret_6_00": 21.6,
+   "ret_12_00": 14.0,
+   "avg_view_pct": 9.0,
+   "kept_1_05_to_6": 0.6
+  },
+  {
+   "ep": 14,
+   "cold_open_s": 44.0,
+   "welcome_s": 88.0,
+   "first_body_at": 44.0,
+   "first_body": "Tyler's back, no fruit flies on deck (trio welcome",
+   "first_body_cat": "ai_industry",
+   "perp_at": 693.0,
+   "marquee_at": 82.0,
+   "ret_0_32": 89.9,
+   "ret_1_05": 23.3,
+   "ret_6_00": 8.7,
+   "ret_12_00": 5.8,
+   "avg_view_pct": 6.98,
+   "kept_1_05_to_6": 0.37
+  },
+  {
+   "ep": 15,
+   "cold_open_s": 40.0,
+   "welcome_s": 42.0,
+   "first_body_at": 82.0,
+   "first_body": "Perp of Fortune: the co-founder/IP split; small cl",
+   "first_body_cat": "perp_trading",
+   "perp_at": 82.0,
+   "marquee_at": 320.0,
+   "ret_0_32": 90.2,
+   "ret_1_05": 46.8,
+   "ret_6_00": 24.3,
+   "ret_12_00": 18.5,
+   "avg_view_pct": 10.07,
+   "kept_1_05_to_6": 0.52
+  },
+  {
+   "ep": 16,
+   "cold_open_s": 40.0,
+   "welcome_s": 44.0,
+   "first_body_at": 89.0,
+   "first_body": "Jackson: \"we're gonna jump straight in to the perp",
+   "first_body_cat": "perp_trading",
+   "perp_at": 89.0,
+   "marquee_at": 98.0,
+   "ret_0_32": 84.2,
+   "ret_1_05": 36.2,
+   "ret_6_00": 15.6,
+   "ret_12_00": 8.9,
+   "avg_view_pct": 7.59,
+   "kept_1_05_to_6": 0.43
+  },
+  {
+   "ep": 17,
+   "cold_open_s": 48.0,
+   "welcome_s": 64.0,
+   "first_body_at": 117.0,
+   "first_body": "Perp of Fortune: long Aster, \"perps becoming spect",
+   "first_body_cat": "perp_trading",
+   "perp_at": 117.0,
+   "marquee_at": 713.0,
+   "ret_0_32": 78.6,
+   "ret_1_05": 42.6,
+   "ret_6_00": 14.3,
+   "ret_12_00": 10.1,
+   "avg_view_pct": 9.72,
+   "kept_1_05_to_6": 0.34
+  },
+  {
+   "ep": 18,
+   "cold_open_s": 44.0,
+   "welcome_s": 49.0,
+   "first_body_at": 98.0,
+   "first_body": "Perp of Fortune: Tyler rebuilds the concept as 15-",
+   "first_body_cat": "perp_trading",
+   "perp_at": 98.0,
+   "marquee_at": 475.0,
+   "ret_0_32": 81.2,
+   "ret_1_05": 50.7,
+   "ret_6_00": 15.7,
+   "ret_12_00": 15.7,
+   "avg_view_pct": 7.93,
+   "kept_1_05_to_6": 0.31
+  },
+  {
+   "ep": 19,
+   "cold_open_s": 35.0,
+   "welcome_s": 36.0,
+   "first_body_at": 75.0,
+   "first_body": "Perp of Fortune: Chris condensed the pick to the m",
+   "first_body_cat": "perp_trading",
+   "perp_at": 75.0,
+   "marquee_at": 343.0,
+   "ret_0_32": 70.6,
+   "ret_1_05": 38.2,
+   "ret_6_00": 15.5,
+   "ret_12_00": 16.1,
+   "avg_view_pct": 10.24,
+   "kept_1_05_to_6": 0.41
+  }
+ ],
+ "category_by_third": [
+  {
+   "category": "ai_agents_doing_things",
+   "half": "first_third",
+   "n": 12,
+   "vs_typ": 0.44,
+   "hazard": 0.0769
+  },
+  {
+   "category": "ai_agents_doing_things",
+   "half": "later",
+   "n": 26,
+   "vs_typ": 0.346,
+   "hazard": 0.0307
+  },
+  {
+   "category": "ai_industry",
+   "half": "first_third",
+   "n": 35,
+   "vs_typ": 0.42,
+   "hazard": 0.0279
+  },
+  {
+   "category": "ai_industry",
+   "half": "later",
+   "n": 42,
+   "vs_typ": 0.391,
+   "hazard": 0.0097
+  },
+  {
+   "category": "banter_personal",
+   "half": "first_third",
+   "n": 6,
+   "vs_typ": 0.239,
+   "hazard": 0.2158
+  },
+  {
+   "category": "banter_personal",
+   "half": "later",
+   "n": 10,
+   "vs_typ": 0.498,
+   "hazard": 0.0219
+  },
+  {
+   "category": "bitcoin_l2",
+   "half": "first_third",
+   "n": 15,
+   "vs_typ": 0.432,
+   "hazard": 0.0358
+  },
+  {
+   "category": "bitcoin_l2",
+   "half": "later",
+   "n": 31,
+   "vs_typ": 0.427,
+   "hazard": 0.0152
+  },
+  {
+   "category": "hack_security_privacy",
+   "half": "first_third",
+   "n": 8,
+   "vs_typ": 0.324,
+   "hazard": 0.044
+  },
+  {
+   "category": "hack_security_privacy",
+   "half": "later",
+   "n": 15,
+   "vs_typ": 0.427,
+   "hazard": 0.0302
+  },
+  {
+   "category": "markets_mev",
+   "half": "first_third",
+   "n": 6,
+   "vs_typ": 0.497,
+   "hazard": 0.0486
+  },
+  {
+   "category": "markets_mev",
+   "half": "later",
+   "n": 7,
+   "vs_typ": 0.316,
+   "hazard": 0.0046
+  },
+  {
+   "category": "other",
+   "half": "first_third",
+   "n": 18,
+   "vs_typ": 0.46,
+   "hazard": 0.1677
+  },
+  {
+   "category": "other",
+   "half": "later",
+   "n": 14,
+   "vs_typ": 0.521,
+   "hazard": 0.0044
+  },
+  {
+   "category": "perp_trading",
+   "half": "first_third",
+   "n": 16,
+   "vs_typ": 0.282,
+   "hazard": 0.1063
+  },
+  {
+   "category": "perp_trading",
+   "half": "later",
+   "n": 13,
+   "vs_typ": 0.374,
+   "hazard": 0.0127
+  },
+  {
+   "category": "stablecoin_regulation",
+   "half": "first_third",
+   "n": 7,
+   "vs_typ": 0.4,
+   "hazard": 0.0192
+  },
+  {
+   "category": "stablecoin_regulation",
+   "half": "later",
+   "n": 23,
+   "vs_typ": 0.397,
+   "hazard": 0.0294
+  }
+ ],
+ "dominant_speaker": [
+  {
+   "dominant": "tyler",
+   "n": 89,
+   "minutes": 352.8,
+   "vs_typ": 0.406,
+   "vs_typ_ci90": "0.37\u20130.44",
+   "hazard_per_min": 0.0262,
+   "median_len_min": 3.3,
+   "mean_pos": 0.47
+  },
+  {
+   "dominant": "chris",
+   "n": 66,
+   "minutes": 194.8,
+   "vs_typ": 0.402,
+   "vs_typ_ci90": "0.36\u20130.44",
+   "hazard_per_min": 0.0213,
+   "median_len_min": 2.6,
+   "mean_pos": 0.46
+  },
+  {
+   "dominant": "jackson",
+   "n": 65,
+   "minutes": 176.1,
+   "vs_typ": 0.379,
+   "vs_typ_ci90": "0.34\u20130.42",
+   "hazard_per_min": 0.0623,
+   "median_len_min": 1.8,
+   "mean_pos": 0.48
+  }
+ ],
+ "crosstalk": [
+  {
+   "crosstalk": "mid2-4",
+   "n": 88,
+   "minutes": 331.5,
+   "vs_typ": 0.408,
+   "vs_typ_ci90": "0.37\u20130.44",
+   "hazard_per_min": 0.0321,
+   "median_len_min": 2.9,
+   "mean_pos": 0.47
+  },
+  {
+   "crosstalk": "high>4",
+   "n": 59,
+   "minutes": 123.5,
+   "vs_typ": 0.392,
+   "vs_typ_ci90": "0.35\u20130.44",
+   "hazard_per_min": 0.0574,
+   "median_len_min": 1.7,
+   "mean_pos": 0.46
+  },
+  {
+   "crosstalk": "low<2",
+   "n": 73,
+   "minutes": 268.7,
+   "vs_typ": 0.389,
+   "vs_typ_ci90": "0.35\u20130.43",
+   "hazard_per_min": 0.0248,
+   "median_len_min": 3.1,
+   "mean_pos": 0.48
+  }
+ ],
+ "length_bucket": [
+  {
+   "len_bucket": "7+",
+   "n": 37,
+   "minutes": 375.5,
+   "vs_typ": 0.474,
+   "vs_typ_ci90": "0.43\u20130.52",
+   "hazard_per_min": 0.0159,
+   "median_len_min": 9.0,
+   "mean_pos": 0.47
+  },
+  {
+   "len_bucket": "<2",
+   "n": 113,
+   "minutes": 151.2,
+   "vs_typ": 0.379,
+   "vs_typ_ci90": "0.35\u20130.41",
+   "hazard_per_min": 0.0951,
+   "median_len_min": 1.4,
+   "mean_pos": 0.43
+  },
+  {
+   "len_bucket": "2-4",
+   "n": 103,
+   "minutes": 301.7,
+   "vs_typ": 0.374,
+   "vs_typ_ci90": "0.34\u20130.41",
+   "hazard_per_min": 0.0413,
+   "median_len_min": 2.8,
+   "mean_pos": 0.47
+  },
+  {
+   "len_bucket": "4-7",
+   "n": 51,
+   "minutes": 275.1,
+   "vs_typ": 0.369,
+   "vs_typ_ci90": "0.32\u20130.41",
+   "hazard_per_min": 0.0219,
+   "median_len_min": 5.3,
+   "mean_pos": 0.47
+  }
+ ],
+ "topic_by_host": [
+  {
+   "topic": 0,
+   "dominant": "chris",
+   "n": 41,
+   "vs_typ": 0.408
+  },
+  {
+   "topic": 0,
+   "dominant": "jackson",
+   "n": 29,
+   "vs_typ": 0.351
+  },
+  {
+   "topic": 0,
+   "dominant": "tyler",
+   "n": 46,
+   "vs_typ": 0.41
+  },
+  {
+   "topic": 1,
+   "dominant": "chris",
+   "n": 8,
+   "vs_typ": 0.459
+  },
+  {
+   "topic": 1,
+   "dominant": "jackson",
+   "n": 15,
+   "vs_typ": 0.477
+  },
+  {
+   "topic": 1,
+   "dominant": "tyler",
+   "n": 7,
+   "vs_typ": 0.343
+  },
+  {
+   "topic": 2,
+   "dominant": "chris",
+   "n": 3,
+   "vs_typ": 0.345
+  },
+  {
+   "topic": 2,
+   "dominant": "jackson",
+   "n": 3,
+   "vs_typ": 0.384
+  },
+  {
+   "topic": 2,
+   "dominant": "tyler",
+   "n": 18,
+   "vs_typ": 0.388
+  },
+  {
+   "topic": 6,
+   "dominant": "chris",
+   "n": 3,
+   "vs_typ": 0.309
+  },
+  {
+   "topic": 6,
+   "dominant": "jackson",
+   "n": 6,
+   "vs_typ": 0.222
+  },
+  {
+   "topic": 6,
+   "dominant": "tyler",
+   "n": 3,
+   "vs_typ": 0.606
+  },
+  {
+   "topic": 7,
+   "dominant": "chris",
+   "n": 5,
+   "vs_typ": 0.379
+  },
+  {
+   "topic": 7,
+   "dominant": "tyler",
+   "n": 11,
+   "vs_typ": 0.455
+  }
+ ],
+ "ridge_vs_typ_within_episode": {
+  "n": 220,
+  "coefs": [
+   {
+    "feature": "pos_dm",
+    "coef_per_sd": 0.0269,
+    "ci90": "+0.004\u2026+0.050",
+    "sd": 0.304
+   },
+   {
+    "feature": "wpm_dm",
+    "coef_per_sd": 0.0164,
+    "ci90": "-0.012\u2026+0.044",
+    "sd": 15.84
+   },
+   {
+    "feature": "longest_turn_s_dm",
+    "coef_per_sd": 0.0132,
+    "ci90": "-0.037\u2026+0.044",
+    "sd": 64.578
+   },
+   {
+    "feature": "dominance_dm",
+    "coef_per_sd": 0.0131,
+    "ci90": "-0.022\u2026+0.046",
+    "sd": 0.16
+   },
+   {
+    "feature": "len_min_dm",
+    "coef_per_sd": 0.0088,
+    "ci90": "-0.018\u2026+0.034",
+    "sd": 2.143
+   },
+   {
+    "feature": "share_chris_dm",
+    "coef_per_sd": 0.0057,
+    "ci90": "-0.014\u2026+0.024",
+    "sd": 0.214
+   },
+   {
+    "feature": "share_tyler_dm",
+    "coef_per_sd": -0.0041,
+    "ci90": "-0.021\u2026+0.014",
+    "sd": 0.263
+   },
+   {
+    "feature": "switches_per_min_dm",
+    "coef_per_sd": 0.004,
+    "ci90": "-0.030\u2026+0.034",
+    "sd": 1.927
+   },
+   {
+    "feature": "share_jackson_dm",
+    "coef_per_sd": -0.0006,
+    "ci90": "-0.020\u2026+0.017",
+    "sd": 0.235
+   }
+  ]
+ },
+ "ridge_hazard_within_episode": {
+  "n": 220,
+  "coefs": [
+   {
+    "feature": "pos_dm",
+    "coef_per_sd": -0.0258,
+    "ci90": "-0.039\u2026-0.016",
+    "sd": 0.304
+   },
+   {
+    "feature": "len_min_dm",
+    "coef_per_sd": -0.0154,
+    "ci90": "-0.026\u2026-0.006",
+    "sd": 2.143
+   },
+   {
+    "feature": "dominance_dm",
+    "coef_per_sd": 0.0096,
+    "ci90": "-0.007\u2026+0.027",
+    "sd": 0.16
+   },
+   {
+    "feature": "share_chris_dm",
+    "coef_per_sd": -0.0091,
+    "ci90": "-0.019\u2026-0.001",
+    "sd": 0.214
+   },
+   {
+    "feature": "switches_per_min_dm",
+    "coef_per_sd": 0.0074,
+    "ci90": "-0.009\u2026+0.022",
+    "sd": 1.927
+   },
+   {
+    "feature": "share_jackson_dm",
+    "coef_per_sd": 0.007,
+    "ci90": "-0.000\u2026+0.018",
+    "sd": 0.235
+   },
+   {
+    "feature": "wpm_dm",
+    "coef_per_sd": -0.0065,
+    "ci90": "-0.019\u2026+0.008",
+    "sd": 15.84
+   },
+   {
+    "feature": "longest_turn_s_dm",
+    "coef_per_sd": -0.0037,
+    "ci90": "-0.024\u2026+0.010",
+    "sd": 64.578
+   },
+   {
+    "feature": "share_tyler_dm",
+    "coef_per_sd": 0.0012,
+    "ci90": "-0.008\u2026+0.008",
+    "sd": 0.263
+   }
+  ]
+ },
+ "episodes": [
+  {
+   "ep": 1,
+   "published": "2026-06-13",
+   "min": 84,
+   "views": 97,
+   "avg_view_pct": 11.14,
+   "chapters": 14,
+   "speakers": "-",
+   "d0": 15,
+   "d1": 22,
+   "d2": 6,
+   "views_d7": 54,
+   "views_d14": 63,
+   "share_d7": 0.56,
+   "subscriber_share": 0.11,
+   "search_share": 0.06,
+   "browse_share": 0.07
+  },
+  {
+   "ep": 2,
+   "published": "2026-06-19",
+   "min": 66,
+   "views": 86,
+   "avg_view_pct": 9.82,
+   "chapters": 12,
+   "speakers": "-",
+   "d0": 15,
+   "d1": 12,
+   "d2": 14,
+   "views_d7": 55,
+   "views_d14": 63,
+   "share_d7": 0.64,
+   "subscriber_share": 0.38,
+   "search_share": 0.04,
+   "browse_share": 0.11
+  },
+  {
+   "ep": 3,
+   "published": "2026-06-25",
+   "min": 76,
+   "views": 293,
+   "avg_view_pct": 4.29,
+   "chapters": 13,
+   "speakers": "-",
+   "d0": 12,
+   "d1": 39,
+   "d2": 45,
+   "views_d7": 284,
+   "views_d14": 292,
+   "share_d7": 0.97,
+   "subscriber_share": 0.86,
+   "search_share": 0.02,
+   "browse_share": 0.01
+  },
+  {
+   "ep": 4,
+   "published": "2026-07-04",
+   "min": 73,
+   "views": 127,
+   "avg_view_pct": 7.049999999999999,
+   "chapters": 17,
+   "speakers": "Y",
+   "d0": 5,
+   "d1": 17,
+   "d2": 42,
+   "views_d7": 104,
+   "views_d14": 119,
+   "share_d7": 0.82,
+   "subscriber_share": 0.66,
+   "search_share": 0.03,
+   "browse_share": 0.05
+  },
+  {
+   "ep": 5,
+   "published": "2026-07-10",
+   "min": 62,
+   "views": 55,
+   "avg_view_pct": 14.63,
+   "chapters": 16,
+   "speakers": "Y",
+   "d0": 20,
+   "d1": 4,
+   "d2": 4,
+   "views_d7": 39,
+   "views_d14": 52,
+   "share_d7": 0.71,
+   "subscriber_share": 0.12,
+   "search_share": 0.04,
+   "browse_share": 0.1
+  },
+  {
+   "ep": 6,
+   "published": "2026-07-18",
+   "min": 56,
+   "views": 37,
+   "avg_view_pct": 17.16,
+   "chapters": 20,
+   "speakers": "Y",
+   "d0": 9,
+   "d1": 8,
+   "d2": 4,
+   "views_d7": 25,
+   "views_d14": 36,
+   "share_d7": 0.68,
+   "subscriber_share": 0.19,
+   "search_share": 0.3,
+   "browse_share": 0.05
+  },
+  {
+   "ep": 7,
+   "published": "2026-07-24",
+   "min": 49,
+   "views": 41,
+   "avg_view_pct": 7.84,
+   "chapters": 23,
+   "speakers": "-",
+   "d0": 17,
+   "d1": 6,
+   "d2": 1,
+   "views_d7": 33,
+   "views_d14": 40,
+   "share_d7": 0.8,
+   "subscriber_share": 0.12,
+   "search_share": 0.12,
+   "browse_share": 0.0
+  },
+  {
+   "ep": 8,
+   "published": "2026-07-31",
+   "min": 52,
+   "views": 65,
+   "avg_view_pct": 12.34,
+   "chapters": 13,
+   "speakers": "Y",
+   "d0": 40,
+   "d1": 5,
+   "d2": 3,
+   "views_d7": 56,
+   "views_d14": 65,
+   "share_d7": 0.86,
+   "subscriber_share": 0.22,
+   "search_share": 0.22,
+   "browse_share": 0.05
+  },
+  {
+   "ep": 9,
+   "published": "2026-08-06",
+   "min": 56,
+   "views": 80,
+   "avg_view_pct": 19.76,
+   "chapters": 18,
+   "speakers": "Y",
+   "d0": 35,
+   "d1": 16,
+   "d2": 3,
+   "views_d7": 72,
+   "views_d14": 80,
+   "share_d7": 0.9,
+   "subscriber_share": 0.21,
+   "search_share": 0.11,
+   "browse_share": 0.01
+  },
+  {
+   "ep": 10,
+   "published": "2026-08-14",
+   "min": 57,
+   "views": 69,
+   "avg_view_pct": 14.66,
+   "chapters": 18,
+   "speakers": "Y",
+   "d0": 23,
+   "d1": 16,
+   "d2": 3,
+   "views_d7": 50,
+   "views_d14": 61,
+   "share_d7": 0.72,
+   "subscriber_share": 0.12,
+   "search_share": 0.28,
+   "browse_share": 0.0
+  },
+  {
+   "ep": 11,
+   "published": "2026-08-20",
+   "min": 49,
+   "views": 46,
+   "avg_view_pct": 16.92,
+   "chapters": 11,
+   "speakers": "Y",
+   "d0": 14,
+   "d1": 9,
+   "d2": 2,
+   "views_d7": 33,
+   "views_d14": 45,
+   "share_d7": 0.72,
+   "subscriber_share": 0.17,
+   "search_share": 0.28,
+   "browse_share": 0.0
+  },
+  {
+   "ep": 12,
+   "published": "2026-08-28",
+   "min": 55,
+   "views": 306,
+   "avg_view_pct": 7.339999999999999,
+   "chapters": 14,
+   "speakers": "-",
+   "d0": 51,
+   "d1": 119,
+   "d2": 47,
+   "views_d7": 279,
+   "views_d14": 293,
+   "share_d7": 0.91,
+   "subscriber_share": 0.58,
+   "search_share": 0.25,
+   "browse_share": 0.01
+  },
+  {
+   "ep": 13,
+   "published": "2026-09-03",
+   "min": 53,
+   "views": 225,
+   "avg_view_pct": 9.0,
+   "chapters": 21,
+   "speakers": "Y",
+   "d0": 25,
+   "d1": 35,
+   "d2": 84,
+   "views_d7": 214,
+   "views_d14": 225,
+   "share_d7": 0.95,
+   "subscriber_share": 0.63,
+   "search_share": 0.21,
+   "browse_share": 0.01
+  },
+  {
+   "ep": 14,
+   "published": "2026-09-11",
+   "min": 54,
+   "views": 215,
+   "avg_view_pct": 6.98,
+   "chapters": 22,
+   "speakers": "Y",
+   "d0": 31,
+   "d1": 38,
+   "d2": 53,
+   "views_d7": 205,
+   "views_d14": 214,
+   "share_d7": 0.95,
+   "subscriber_share": 0.54,
+   "search_share": 0.2,
+   "browse_share": 0.0
+  },
+  {
+   "ep": 15,
+   "published": "2026-09-18",
+   "min": 61,
+   "views": 163,
+   "avg_view_pct": 10.07,
+   "chapters": 36,
+   "speakers": "Y",
+   "d0": 39,
+   "d1": 30,
+   "d2": 5,
+   "views_d7": 137,
+   "views_d14": 158,
+   "share_d7": 0.84,
+   "subscriber_share": 0.65,
+   "search_share": 0.14,
+   "browse_share": 0.0
+  },
+  {
+   "ep": 16,
+   "published": "2026-09-25",
+   "min": 53,
+   "views": 401,
+   "avg_view_pct": 7.59,
+   "chapters": 34,
+   "speakers": "Y",
+   "d0": 17,
+   "d1": 78,
+   "d2": 54,
+   "views_d7": 396,
+   "views_d14": 400,
+   "share_d7": 0.99,
+   "subscriber_share": 0.88,
+   "search_share": 0.04,
+   "browse_share": 0.01
+  },
+  {
+   "ep": 17,
+   "published": "2026-10-01",
+   "min": 60,
+   "views": 194,
+   "avg_view_pct": 9.72,
+   "chapters": 30,
+   "speakers": "-",
+   "d0": 12,
+   "d1": 61,
+   "d2": 66,
+   "views_d7": 188,
+   "views_d14": 194,
+   "share_d7": 0.97,
+   "subscriber_share": 0.86,
+   "search_share": 0.05,
+   "browse_share": 0.01
+  },
+  {
+   "ep": 18,
+   "published": "2026-10-09",
+   "min": 61,
+   "views": 418,
+   "avg_view_pct": 7.93,
+   "chapters": 25,
+   "speakers": "Y",
+   "d0": 55,
+   "d1": 66,
+   "d2": 141,
+   "views_d7": 415,
+   "views_d14": 417,
+   "share_d7": 0.99,
+   "subscriber_share": 0.85,
+   "search_share": 0.1,
+   "browse_share": 0.01
+  },
+  {
+   "ep": 19,
+   "published": "2026-10-16",
+   "min": 61,
+   "views": 239,
+   "avg_view_pct": 10.24,
+   "chapters": 25,
+   "speakers": "Y",
+   "d0": 57,
+   "d1": 94,
+   "d2": 0,
+   "views_d7": 151,
+   "views_d14": 151,
+   "share_d7": 0.63,
+   "subscriber_share": 0.7,
+   "search_share": 0.21,
+   "browse_share": 0.01
+  }
+ ],
+ "per_episode_extremes": [
+  {
+   "ep": 1,
+   "worst": "The Confessional: Our Most Expensive Crypto Mistakes",
+   "worst_vs": 0.27,
+   "worst_at": "49:55",
+   "best": "Pico update - why Tyler is remote",
+   "best_vs": 0.72,
+   "best_at": "10:11"
+  },
+  {
+   "ep": 2,
+   "worst": "Housekeeping: we heard you (Ep 1 fixes)",
+   "worst_vs": 0.14,
+   "worst_at": "2:53",
+   "best": "Jamie Dimon vs. the GENIUS Act (rent-seeking)",
+   "best_vs": 0.62,
+   "best_at": "16:25"
+  },
+  {
+   "ep": 3,
+   "worst": "The Pico recovery",
+   "worst_vs": 0.17,
+   "worst_at": "0:54",
+   "best": "Confession: my emergency fund went into Stretch",
+   "best_vs": 0.84,
+   "best_at": "57:10"
+  },
+  {
+   "ep": 4,
+   "worst": "OpenUSD, for real: 140 companies, one coin",
+   "worst_vs": 0.13,
+   "worst_at": "47:11",
+   "best": "soul.md: AI clones the hosts",
+   "best_vs": 0.82,
+   "best_at": "34:43"
+  },
+  {
+   "ep": 5,
+   "worst": "Wrap: +$1.92, best we've ever done",
+   "worst_vs": 0.23,
+   "worst_at": "58:35",
+   "best": "\"We got a perp!\" \u2014 the fill lands",
+   "best_vs": 0.59,
+   "best_at": "50:45"
+  },
+  {
+   "ep": 6,
+   "worst": "Jito deep-dive: the MEV monopoly",
+   "worst_vs": 0.27,
+   "worst_at": "21:47",
+   "best": "An AI made this segment: our clones, round 2",
+   "best_vs": 0.75,
+   "best_at": "2:05"
+  },
+  {
+   "ep": 7,
+   "worst": "New sounds from freesound.org",
+   "worst_vs": 0.14,
+   "worst_at": "24:49",
+   "best": "The freestyle",
+   "best_vs": 0.61,
+   "best_at": "43:48"
+  },
+  {
+   "ep": 8,
+   "worst": "The standards war: four protocols, zero winners",
+   "worst_vs": 0.07,
+   "worst_at": "45:38",
+   "best": "Perp of Fortune: GPT-5.6 goes long XRP at 20x",
+   "best_vs": 0.91,
+   "best_at": "32:44"
+  },
+  {
+   "ep": 9,
+   "worst": "Rent-a-Mythos: the $200 audit idea",
+   "worst_vs": 0.05,
+   "worst_at": "30:36",
+   "best": "The Coldcard catastrophe",
+   "best_vs": 0.57,
+   "best_at": "5:16"
+  },
+  {
+   "ep": 10,
+   "worst": "Cloudflare's agentic wallets",
+   "worst_vs": 0.08,
+   "worst_at": "30:58",
+   "best": "Swarms beat solo agents",
+   "best_vs": 0.88,
+   "best_at": "11:29"
+  },
+  {
+   "ep": 11,
+   "worst": "Perp of Fortune: GLM longs LIT (it doesn't know what LIT is)",
+   "worst_vs": 0.27,
+   "worst_at": "2:23",
+   "best": "Tyler's dream bill: repeal the Bank Secrecy Act",
+   "best_vs": 0.72,
+   "best_at": "37:11"
+  },
+  {
+   "ep": 12,
+   "worst": "Tyler's tokenomics tangent: MV = PQ (ends on the Solana-GDP punchline)",
+   "worst_vs": 0.14,
+   "worst_at": "2:33",
+   "best": "THE MARQUEE: the OpenAI / Hugging Face teardown (Phase One [BIG], the ",
+   "best_vs": 0.52,
+   "best_at": "10:25"
+  },
+  {
+   "ep": 13,
+   "worst": "Augmentative vs autonomous: MCPs are dead (\"a waste of time\"), skills ",
+   "worst_vs": 0.27,
+   "worst_at": "17:38",
+   "best": "Who AI hurts first: the sycophancy era (\"email Stanford immediately\"),",
+   "best_vs": 0.72,
+   "best_at": "24:38"
+  },
+  {
+   "ep": 14,
+   "worst": "Tyler's $10K prompt \u2192 a Stripe-testing SaaS he doesn't understand",
+   "worst_vs": 0.04,
+   "worst_at": "5:22",
+   "best": "Gavin the fruit fly: Google's open-source connectome, dopamine trainin",
+   "best_vs": 0.6,
+   "best_at": "27:31"
+  },
+  {
+   "ep": 15,
+   "worst": "The Underpod executive consultancy: stablecoin math, roasting coworker",
+   "worst_vs": 0.11,
+   "worst_at": "27:49",
+   "best": "The three tiers: embedded auditors with root access, an industry body,",
+   "best_vs": 0.49,
+   "best_at": "6:40"
+  },
+  {
+   "ep": 16,
+   "worst": "Instinct switched a utility plan, $850/yr saved (allegedly); Tyler: su",
+   "worst_vs": 0.07,
+   "worst_at": "22:26",
+   "best": "\"You slip up once and it undoes years\"",
+   "best_vs": 0.62,
+   "best_at": "40:28"
+  },
+  {
+   "ep": 17,
+   "worst": "How Spark works: the federation, Spark Bitcoin, Spark Service Provider",
+   "worst_vs": 0.11,
+   "worst_at": "26:56",
+   "best": "Privacy: Spark operators see everything; transactions were public by d",
+   "best_vs": 0.75,
+   "best_at": "36:58"
+  },
+  {
+   "ep": 18,
+   "worst": "Q-Day vs a classical break: Tyler explains; the real exposure is addre",
+   "worst_vs": 0.18,
+   "worst_at": "14:38",
+   "best": "Instinct update: a tennis tournament every week, booked in 6 hours; \"I",
+   "best_vs": 0.67,
+   "best_at": "54:00"
+  },
+  {
+   "ep": 19,
+   "worst": "Is SaaS still viable when the build costs $100 in tokens? GitHub as in",
+   "worst_vs": 0.13,
+   "worst_at": "26:00",
+   "best": "Layer-2 series: the Lightning Network; Tyler, \"please roast the hell o",
+   "best_vs": 0.53,
+   "best_at": "34:26"
+  }
+ ]
+}
