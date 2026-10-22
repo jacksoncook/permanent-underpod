@@ -48,10 +48,10 @@
    "name": "03-bitcoin-l2",
    "title": "What is a Bitcoin L2? Lightning vs Spark vs Ark",
    "hook": {
-    "source": "media/ep16/Permanent Underpod - Ep 16 (Final Cut).mp4",
-    "srt": "episodes/ep16/transcript-attributed.srt",
-    "start": 718.93,
-    "end": 727.48
+    "source": "media/ep19/Permanent Underpod - Ep 19 (Final Cut).mp4",
+    "srt": "episodes/ep19/transcript-attributed.srt",
+    "start": 2529.6,
+    "end": 2543.6
    },
    "parts": [
     {
@@ -61,16 +61,16 @@
      "end": 1615.43
     },
     {
-     "source": "media/ep16/Permanent Underpod - Ep 16 (Final Cut).mp4",
-     "srt": "episodes/ep16/transcript-attributed.srt",
-     "start": 718.93,
-     "end": 946.6
-    },
-    {
      "source": "media/ep17/Permanent Underpod - Ep 17 (Final Cut).mp4",
      "srt": "episodes/ep17/transcript.srt",
      "start": 2468.87,
      "end": 2639.02
+    },
+    {
+     "source": "media/ep16/Permanent Underpod - Ep 16 (Final Cut).mp4",
+     "srt": "episodes/ep16/transcript-attributed.srt",
+     "start": 2199.0,
+     "end": 2241.32
     },
     {
      "source": "media/ep19/Permanent Underpod - Ep 19 (Final Cut).mp4",
@@ -251,6 +251,30 @@
      "srt": "episodes/ep13/transcript-attributed.srt",
      "start": 337.04,
      "end": 1036.48
+    }
+   ]
+  },
+  {
+   "name": "13-arbitrum",
+   "title": "Is Arbitrum still a Layer 2? The $352M Bitget hack and the rollback",
+   "hook": {
+    "source": "media/ep16/Permanent Underpod - Ep 16 (Final Cut).mp4",
+    "srt": "episodes/ep16/transcript-attributed.srt",
+    "start": 718.93,
+    "end": 727.48
+   },
+   "parts": [
+    {
+     "source": "media/ep16/Permanent Underpod - Ep 16 (Final Cut).mp4",
+     "srt": "episodes/ep16/transcript-attributed.srt",
+     "start": 400.53,
+     "end": 718.93
+    },
+    {
+     "source": "media/ep16/Permanent Underpod - Ep 16 (Final Cut).mp4",
+     "srt": "episodes/ep16/transcript-attributed.srt",
+     "start": 718.93,
+     "end": 946.6
     }
    ]
   }

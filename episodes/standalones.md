@@ -52,13 +52,13 @@ Ep 4 soul.md clones (0.82 but dated AI gimmick, already a 98-view clip),
 Ep 11 mind viruses (dated x2), Ep 12 tokenomics (3 min), Ep 1/2 stablecoin contrarian
 pieces (already pulled as clips).
 
-## Schedule (all 12 scheduled private via `yt_upload.py`, 2026-10-20; thumbnails owed before each date)
+## Schedule (all 13 scheduled private via `yt_upload.py`, 2026-10-20; thumbnails owed before each date)
 
 | Date (Tue 6 PM PT) | # | Video | URL |
 |---|---|---|---|
 | 2026-10-27 | 1 | How the Lightning Network actually works | https://youtu.be/loNZVCrNN8A |
 | 2026-11-03 | 2 | Will quantum computers break Bitcoin? | https://youtu.be/j1MBSWmlJKI |
-| 2026-11-10 | 3 | What is a Bitcoin L2? Lightning vs Spark vs Ark | https://youtu.be/1ZKLmgECEDU |
+| 2026-11-10 | 3 | What is a Bitcoin L2? Lightning vs Spark vs Ark | https://youtu.be/jAJR2pJHAb8 (re-cut 10/22 without the Ep 16 Arbitrum block; 1ZKLmgECEDU unscheduled, delete in Studio) |
 | 2026-11-17 | 4 | Spark explained: Lightning without channels | https://youtu.be/iwY8ug1qD2U |
 | 2026-11-24 | 5 | The Coldcard bug: how a dice-roll seed phrase went wrong for 5 years | https://youtu.be/CAKN0Smk3Cw |
 | 2026-12-01 | 6 | How white hats drained Liquid: federated sidechains explained | https://youtu.be/-N_rXDCriZ8 |
@@ -68,8 +68,9 @@ pieces (already pulled as clips).
 | 2026-12-29 | 10 | What a secure enclave actually proves: TEEs, attestation, and agents that shop | https://youtu.be/gN8qzqoiJwo |
 | 2027-01-05 | 11 | How stablecoin issuers make money: the mint/redeem glitch and the burn desk | https://youtu.be/s1uQuRlfjNM |
 | 2027-01-12 | 12 | The 5 levels of AGI (DeepMind) and where ChatGPT sits | https://youtu.be/LpgBiBG24JI |
+| 2027-01-19 | 13 | Is Arbitrum still a Layer 2? The $352M Bitget hack and the rollback | https://youtu.be/qztigBMo3OA (split out of #3, Ep 16 6:40–15:47; slot proposed, confirm or override) |
 
-All 12 uploaded 2026-10-20 (scheduled private, captions attached). Exact cut points: `episodes/standalones.json`
+All 12 uploaded 2026-10-20; #3 re-cut and #13 added 2026-10-22 (scheduled private, captions attached). Exact cut points: `episodes/standalones.json`
 (every boundary passed `verify_clips.py` incl. `--whisper`); copy: `episodes/standalones-copy.json`.
 
 ## How to cut one
