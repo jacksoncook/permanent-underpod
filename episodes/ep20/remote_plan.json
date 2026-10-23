@@ -39,29 +39,32 @@
   {
    "id": "CERT",
    "m0": 136.76,
-   "m1": 681.58
+   "m1": 684.22,
+   "hard_m1": true
   },
   {
    "id": "CERT_B",
    "m0": 727.27,
-   "m1": 786.2
+   "m1": 811.15,
+   "hard_m1": true,
+   "mute": [
+    [
+     "tyler",
+     807.9,
+     811.2
+    ]
+   ]
   },
   {
    "id": "PHP",
-   "m0": 838.58,
-   "m1": 1465.36
+   "m0": 854.3,
+   "m1": 1418.55,
+   "hard_m1": true
   },
   {
    "id": "PHP_B",
-   "m0": 1489.31,
-   "m1": 1609.1,
-   "mute": [
-    [
-     "chris",
-     1489.3,
-     1491.5
-    ]
-   ]
+   "m0": 1492.95,
+   "m1": 1609.1
   },
   {
    "id": "PHP_C",
@@ -108,26 +111,34 @@
   {
    "id": "VIT_C",
    "m0": 2806.36,
-   "m1": 2993.27,
+   "m1": 2989.07,
    "mute": [
     [
      "jackson",
      2976.5,
      2995.0
     ]
-   ]
+   ],
+   "hard_m1": true
   },
   {
    "id": "RAIL",
-   "m0": 3032.39,
-   "m1": 3393.13,
+   "m0": 3039.7,
+   "m1": 3396.85,
    "mute": [
     [
      "chris",
+     3039.6,
+     3041.3
+    ],
+    [
+     "chris",
      3374.0,
-     3393.2
+     3396.7
     ]
-   ]
+   ],
+   "hard_m0": true,
+   "hard_m1": true
   },
   {
    "id": "HL",
@@ -144,8 +155,8 @@
    "mute": [
     [
      "chris",
-     3629.1,
-     3630.3
+     3629.2,
+     3630.6
     ]
    ]
   },
@@ -333,7 +344,7 @@
    "file": "/Users/jcook/Personal/permanent-underpod/media/ep20/raw/Untitled_recording-chris-screen-00h_32m_18s_728ms-StreamYard.mp4",
    "block": "VIT_C",
    "m0": 2806.36,
-   "m1": 2993.27,
+   "m1": 2989.07,
    "anchor": 1938.363,
    "mode": "corner",
    "crop": [
@@ -346,8 +357,8 @@
   {
    "file": "/Users/jcook/Personal/permanent-underpod/media/ep20/raw/Untitled_recording-chris-screen-00h_32m_18s_728ms-StreamYard.mp4",
    "block": "RAIL",
-   "m0": 3032.39,
-   "m1": 3393.13,
+   "m0": 3039.7,
+   "m1": 3396.6,
    "anchor": 1938.363,
    "mode": "corner",
    "crop": [
@@ -477,13 +488,6 @@
    "m": 1318.0,
    "dur": 8,
    "kind": "st"
-  },
-  {
-   "name": "lt_patch",
-   "block": "PHP",
-   "m": 1437.0,
-   "dur": 6,
-   "kind": "lt"
   },
   {
    "name": "lt_embargo",
@@ -716,9 +720,9 @@
    "label": "White hats are prodding Jackson's MotivateMe.io"
   },
   {
-   "block": "PHP",
-   "m": 1419.0,
-   "label": "Patch the Planet, Glasswing, and who gets told first"
+   "block": "PHP_B",
+   "m": 1492.95,
+   "label": "The PHP leak: three months of secret coordination, and who gets told first"
   },
   {
    "block": "PHP_C",

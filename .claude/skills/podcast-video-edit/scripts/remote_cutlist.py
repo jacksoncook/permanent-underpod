@@ -362,10 +362,16 @@ def audio_spec(a, z, mics=None, mute=None):
                 if s0 < u0: nx.append([s0, u0])
                 if s1 > u1: nx.append([u1, s1])
             merged = nx
-        spec.append(dict(track=nm, file=FILES[nm], src_start=round(la - OFF[nm], 3),
-                         pad_head=round(la - a, 3), dur=round(lz - la, 3),
-                         gain=round(GAIN[nm], 2),
-                         active=[[round(x, 2), round(y, 2)] for x, y in merged[:70]]))
+        entry = dict(track=nm, file=FILES[nm], src_start=round(la - OFF[nm], 3),
+                     pad_head=round(la - a, 3), dur=round(lz - la, 3),
+                     gain=round(GAIN[nm], 2),
+                     active=[[round(x, 2), round(y, 2)] for x, y in merged[:70]])
+        hard_mutes = [[round(max(0, mm0 - la), 2), round(min(lz - la, mm1 - la), 2)]
+                      for mp, mm0, mm1 in (mute or [])
+                      if PERSON[nm] == mp and mm1 - la > 0 and mm0 - la < lz - la]
+        if hard_mutes:
+            entry['mute'] = hard_mutes
+        spec.append(entry)
     return spec
 
 cutlist = []

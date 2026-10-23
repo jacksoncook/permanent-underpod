@@ -41,11 +41,15 @@ def clip_path(i, c):
 
 
 
-def vol_expr(active):
+def vol_expr(active, mute=None):
+    """Idle gain between talk spans; forced-mute spans multiply to true zero (idle gain alone
+    still leaks a muted mouth at -18 dB, audible under a pause)."""
     terms = "+".join(f"between(t,{a:.2f},{b:.2f})" for a, b in active)
-    if not terms:
-        return f"{IDLE_GAIN}"
-    return f"{IDLE_GAIN}+{1-IDLE_GAIN:.2f}*min(1,{terms})"
+    base = f"{IDLE_GAIN}" if not terms else f"{IDLE_GAIN}+{1-IDLE_GAIN:.2f}*min(1,{terms})"
+    if mute:
+        gate = "+".join(f"between(t,{a:.2f},{b:.2f})" for a, b in mute)
+        return f"({base})*(1-min(1,{gate}))"
+    return base
 
 
 def render_piece(i, c):
@@ -77,7 +81,7 @@ def render_piece(i, c):
         d = int(a.get('pad_head', 0) * 1000)
         delay = f"adelay={d}:all=1," if d > 0 else ""
         fc.append(f"[{idx}:a]aresample={SR},atrim=0:{a['dur']:.3f},asetpts=PTS-STARTPTS,"
-                  f"volume={a['gain']:.2f},volume='{vol_expr(a['active'])}':eval=frame,"
+                  f"volume={a['gain']:.2f},volume='{vol_expr(a['active'], a.get('mute'))}':eval=frame,"
                   f"{delay}apad[a{j}]")
         atags.append(f"[a{j}]")
     if len(atags) > 1:

@@ -465,6 +465,8 @@ apply. Use the `remote_*.py` scripts instead of `analyze.sh`/`cut_render.py`:
 6. remote_preview.py <work>                  # planned cut as a transcript — READ IT,
    fix boundaries/mics/mutes in the plan, re-run 5+6 until it reads coherently
 7. remote_cut.py <work> remote_plan.json     # clips+concat+overlays.json/pip.json/sheet.md
+   # remote_cut CONSUMES cutlist.json: re-run step 5 after ANY plan or sources.json edit
+   # (Ep 20 v1 rendered the raw, non-dereverbed tracks because the cutlist predated the repoint)
 8. final_render.py <work> render.json --test=75   # picks up pip.json automatically
 9. remote_attribute.py <work> <final.srt> episodes/epN/transcript-attributed
    # person-attributed SRT+MD for the FINAL cut (deliverable, like the plain SRT)
@@ -657,6 +659,16 @@ What's different from the one-camera flow (all learned the hard way on Ep 5):
   speech — no separate leveling needed.
 
 ## Gotchas
+
+- **Forced `mute` spans are hard zero (Ep 20).** Before, a muted mic only lost its talk spans
+  and sat at idle gain (−18 dB), so a cut-off word ("supposedly") still played under the pause and
+  Jackson heard it. `remote_cutlist.py` now emits `mute` on the audio spec and `remote_cut.py`
+  gates it to zero. Size mutes from the 10 ms envelope, not whisper word times (they ran ~1 s early
+  on every Ep 20 edge).
+- **Whisper line timestamps lie at content edges.** Ep 20 v1 cut Jackson mid-sentence at 12:30
+  and Chris mid-word at 11:31 because the out-points trusted the session.md line start. Before
+  `remote_cut`, micro-whisper (`-ml 1 -sow`) every content out/in on all three tracks and read the
+  envelope; whisper across the splice in `edited_raw.mov` afterwards.
 
 - **Timeline bookkeeping = cumulative frames/FPS, never ffprobe container durations.**
   The videotoolbox clips report a duration up to one frame longer than their frame
