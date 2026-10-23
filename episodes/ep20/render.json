@@ -1,0 +1,167 @@
+{
+ "out": "/Users/jcook/Personal/permanent-underpod/media/ep20/Permanent Underpod - Ep 20 (Final Cut).mp4",
+ "chain": "highpass=f=80,afftdn=nr=14:nf=-50:tn=1,volume=6dB,adynamicequalizer=dfrequency=6800:dqfactor=2.5:tfrequency=6800:tqfactor=2.5:mode=cutabove:threshold=0.01:ratio=4:range=8:attack=2:release=40,acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,treble=f=9500:width_type=q:w=0.8:g=1.5,loudnorm=I=-16:TP=-1.5:LRA=5",
+ "target_lufs": -11.8,
+ "limit": 0.7,
+ "logo": {
+  "file": "logo.png",
+  "width": 170,
+  "alpha": 0.8,
+  "hide_during": [
+   "CARD_END"
+  ]
+ },
+ "sfx": [
+  {
+   "file": "sfx_whoosh.wav",
+   "block": "COLD_B",
+   "offset": -0.15
+  },
+  {
+   "file": "sfx_whoosh.wav",
+   "block": "COLD_C",
+   "offset": -0.15
+  },
+  {
+   "file": "sfx_whoosh.wav",
+   "block": "INTRO",
+   "offset": -0.3
+  },
+  {
+   "file": "sfx_whoosh.wav",
+   "block": "CERT",
+   "offset": -0.3
+  },
+  {
+   "file": "sfx_whoosh.wav",
+   "block": "PHP",
+   "offset": -0.3
+  },
+  {
+   "file": "sfx_whoosh.wav",
+   "block": "PERP",
+   "offset": 3.29
+  },
+  {
+   "file": "sfx_whoosh.wav",
+   "block": "PERP",
+   "offset": 235.483
+  },
+  {
+   "file": "sfx_whoosh.wav",
+   "block": "VIT_C",
+   "offset": 54.043
+  },
+  {
+   "file": "sfx_whoosh.wav",
+   "block": "RAIL",
+   "offset": 103.32
+  },
+  {
+   "file": "sfx_sting.wav",
+   "block": "CARD_END",
+   "offset": 0.0
+  },
+  {
+   "file": "sfx_likesub.wav",
+   "block": "INTRO",
+   "offset": 81.384
+  },
+  {
+   "file": "sfx_likesub.wav",
+   "block": "PERP",
+   "offset": 215.283
+  },
+  {
+   "file": "sfx_likesub.wav",
+   "block": "HL",
+   "offset": 95.1
+  }
+ ],
+ "anim": [
+  {
+   "file": "wipe.mov",
+   "start": 19.22,
+   "end": 19.62,
+   "x": 0,
+   "y": 0
+  },
+  {
+   "file": "wipe.mov",
+   "start": 23.387,
+   "end": 23.787,
+   "x": 0,
+   "y": 0
+  },
+  {
+   "file": "wipe.mov",
+   "start": 40.753,
+   "end": 41.153,
+   "x": 0,
+   "y": 0
+  },
+  {
+   "file": "likesub.mov",
+   "start": 122.317,
+   "end": 128.317,
+   "x": 0,
+   "y": 0
+  },
+  {
+   "file": "wipe.mov",
+   "start": 149.987,
+   "end": 150.387,
+   "x": 0,
+   "y": 0
+  },
+  {
+   "file": "wipe.mov",
+   "start": 750.587,
+   "end": 750.987,
+   "x": 0,
+   "y": 0
+  },
+  {
+   "file": "wipe.mov",
+   "start": 1680.11,
+   "end": 1680.51,
+   "x": 0,
+   "y": 0
+  },
+  {
+   "file": "likesub.mov",
+   "start": 1891.983,
+   "end": 1897.983,
+   "x": 0,
+   "y": 0
+  },
+  {
+   "file": "wipe.mov",
+   "start": 1912.303,
+   "end": 1912.703,
+   "x": 0,
+   "y": 0
+  },
+  {
+   "file": "wipe.mov",
+   "start": 2507.763,
+   "end": 2508.163,
+   "x": 0,
+   "y": 0
+  },
+  {
+   "file": "wipe.mov",
+   "start": 2739.607,
+   "end": 2740.007,
+   "x": 0,
+   "y": 0
+  },
+  {
+   "file": "likesub.mov",
+   "start": 3089.5,
+   "end": 3095.5,
+   "x": 0,
+   "y": 0
+  }
+ ]
+}

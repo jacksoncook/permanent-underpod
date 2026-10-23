@@ -237,12 +237,13 @@ pips.sort(key=lambda x: x['start'])
 merged = []
 for p in pips:
     q = merged[-1] if merged else None
-    if (q and q['mode'] == p['mode'] and abs(p['start'] - q['end']) < 0.06
+    if (q and q['mode'] == p['mode'] and q.get('crop') == p.get('crop')
+            and abs(p['start'] - q['end']) < 0.06
             and abs((p['t0'] - q['t0']) - (p['start'] - q['start'])) < 0.5):
         q['end'] = p['end']
     else:
         merged.append(dict(p))
-cut_wins = [(o['start'] - 0.3, o['end'] + 0.3) for o in omap]
+cut_wins = [(o['start'] - 0.3, o['end'] + 0.3) for o in omap if o['kind'] != 'st2']
 final_pips = []
 for p in merged:
     segs = [(p['start'], p['end'], p['t0'])]

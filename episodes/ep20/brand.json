@@ -1,0 +1,268 @@
+{
+ "show": "PERMANENT UNDERPOD",
+ "show_kicker": "PERMANENT",
+ "show_main": "UNDERPOD",
+ "accent": [
+  255,
+  210,
+  74
+ ],
+ "source": "/Users/jcook/Personal/permanent-underpod/media/ep20/work/src/jackson_720.mp4",
+ "title_card": {
+  "bg_frame": 2700,
+  "line": "EPISODE 20   \u00b7   The Key Was 4   \u00b7   Bitcoin  \u00b7  Stablecoins  \u00b7  AI",
+  "dur": 4.5
+ },
+ "end_card": {
+  "bg_frame": 3000,
+  "kicker": "NEXT WEEK ON",
+  "lines": [
+   "Poppy 0.2 vs Claude Duet: who gets to shop for you?",
+   "Liquid, the layer two that isn't one \u00b7 fake adoption numbers \u00b7 Perp of Fortune 2.0",
+   "Not financial advice. Our opinions are ours, not our employers'."
+  ],
+  "cta": "LIKE  +  SUBSCRIBE",
+  "dur": 7
+ },
+ "lower_thirds": [
+  {
+   "name": "intro",
+   "kicker": "EPISODE 20",
+   "title": "CHAMOMILE, TOASTED COFFEE, ZERO CHEEZ-ITS"
+  },
+  {
+   "name": "cert",
+   "kicker": "THE KEY WAS 4",
+   "title": "A ROOT CA PICKED ITS PRIVATE KEY FROM 0\u2013256"
+  },
+  {
+   "name": "php",
+   "kicker": "PHP2SHELL",
+   "title": "REMOTE CODE EXECUTION ON 67% OF THE WEB"
+  },
+  {
+   "name": "patch",
+   "kicker": "PATCH THE PLANET",
+   "title": "OPENAI, GLASSWING, AND WHO GETS TOLD FIRST"
+  },
+  {
+   "name": "embargo",
+   "kicker": "THE LEAK",
+   "title": "THREE MONTHS OF SECRET COORDINATION"
+  },
+  {
+   "name": "privacy",
+   "kicker": "QUEST GOT HACKED",
+   "title": "IS PRIVACY ALREADY GONE?"
+  },
+  {
+   "name": "perp",
+   "kicker": "PERP OF FORTUNE 2.0",
+   "title": "HOURLY BITCOIN BINARY vs LONG ETH 25\u00d7"
+  },
+  {
+   "name": "vitalik",
+   "kicker": "PARANOID MODE",
+   "title": "VITALIK'S FIVE-LAYER PRIVATE AGENT"
+  },
+  {
+   "name": "refusals",
+   "kicker": "REFUSALS",
+   "title": "THE MODELS WON'T TOUCH CRYPTOGRAPHY"
+  },
+  {
+   "name": "samsung",
+   "kicker": "ROOTED",
+   "title": "THE SAMSUNG TV WAS LISTENING THE WHOLE TIME"
+  },
+  {
+   "name": "railway",
+   "kicker": "RAILWAY POPPED",
+   "title": "CI KEYS, A STAKER, AND A TIME LOCK"
+  },
+  {
+   "name": "countdown",
+   "kicker": "THE HOURLY BINARY",
+   "title": "45 SECONDS TO SETTLEMENT"
+  },
+  {
+   "name": "hl",
+   "kicker": "THE MARQUEE",
+   "title": "IS THE FUTURE OF FINANCE ON HYPERLIQUID?"
+  },
+  {
+   "name": "wrap",
+   "kicker": "PERP OF FORTUNE",
+   "title": "FINAL NUMBERS"
+  }
+ ],
+ "stats": [
+  {
+   "name": "coldopen",
+   "kicker": "EPISODE 20",
+   "main": "In this pod\u2026"
+  },
+  {
+   "name": "four",
+   "kicker": "THE KEY",
+   "main": "256-bit key \u00b7 chosen between 0 and 256"
+  },
+  {
+   "name": "entropy",
+   "kicker": "CHRIS",
+   "main": "8 bits of entropy. They needed 384."
+  },
+  {
+   "name": "lava",
+   "kicker": "ENTROPY, DONE RIGHT",
+   "main": "Cloudflare's wall of lava lamps"
+  },
+  {
+   "name": "17mo",
+   "kicker": "LIVE FOR",
+   "main": "17 months \u00b7 trusted by your Linux distro"
+  },
+  {
+   "name": "php",
+   "kicker": "PHP2SHELL",
+   "main": "two CVEs \u00b7 CVSS 9.2 \u00b7 remote code execution"
+  },
+  {
+   "name": "67",
+   "kicker": "BLAST RADIUS",
+   "main": "67% of the web \u00b7 Wikipedia went down"
+  },
+  {
+   "name": "hotfix",
+   "kicker": "CHRIS",
+   "main": "\"I can remote execute in and hotfix it for you\""
+  },
+  {
+   "name": "toaster",
+   "kicker": "JACKSON",
+   "main": "\"is Chris's toaster using PHP?\""
+  },
+  {
+   "name": "idor",
+   "kicker": "MOTIVATEME.IO",
+   "main": "a shredded photo of you, every workout day"
+  },
+  {
+   "name": "18mo",
+   "kicker": "ANTHROPIC'S CISO",
+   "main": "expect 18 months of this"
+  },
+  {
+   "name": "superspreader",
+   "kicker": "JACKSON",
+   "main": "\"a super spreader of Instinct\""
+  },
+  {
+   "name": "perp",
+   "kicker": "TWO BETS",
+   "main": "hourly BTC binary + LONG ETH 25\u00d7 \u00b7 Tyler's money"
+  },
+  {
+   "name": "opus",
+   "kicker": "THE MODEL",
+   "main": "Opus 5.5 \u00b7 \"a modern day poet\""
+  },
+  {
+   "name": "layers",
+   "kicker": "THE STACK",
+   "main": "local Qwen \u00b7 offline Wikipedia \u00b7 sandbox \u00b7 zkAPI"
+  },
+  {
+   "name": "practical",
+   "kicker": "CHRIS",
+   "main": "\"there's no way this is practical\""
+  },
+  {
+   "name": "plato",
+   "kicker": "TYLER",
+   "main": "\"Plato's cave, but for agents\""
+  },
+  {
+   "name": "four2",
+   "kicker": "TYLER",
+   "main": "\"find people encrypting with the number four\""
+  },
+  {
+   "name": "tv",
+   "kicker": "THE TV",
+   "main": "always listening \u00b7 sent to Samsung for ads"
+  },
+  {
+   "name": "mics",
+   "kicker": "TYLER",
+   "main": "\"how many mics are in this room? eight\""
+  },
+  {
+   "name": "1491",
+   "kicker": "TYLER",
+   "main": "\"+$14.91. Out of the permanent underclass\""
+  },
+  {
+   "name": "railway",
+   "kicker": "RAILWAY",
+   "main": "build pipeline popped \u00b7 24 h before disclosure"
+  },
+  {
+   "name": "tiktok",
+   "kicker": "WE HAVE A TIKTOK",
+   "main": "@permanentunderpod \u00b7 one follower (an egg app)"
+  },
+  {
+   "name": "basement",
+   "kicker": "CHRIS",
+   "main": "\"the nodes are in corners of his basement\""
+  },
+  {
+   "name": "bonkers",
+   "kicker": "TYLER",
+   "main": "all of finance on one ledger = a giant data center"
+  },
+  {
+   "name": "bitmex",
+   "kicker": "THE SAME TRADE",
+   "main": "BitMEX \u2192 FTX \u2192 Binance \u2192 Hyperliquid"
+  },
+  {
+   "name": "jail",
+   "kicker": "JACKSON",
+   "main": "\"a year in jail for $100 million?\""
+  },
+  {
+   "name": "final",
+   "kicker": "FINAL",
+   "main": "binary \u2212$23.49 \u00b7 ETH \u2212$3.85 \u00b7 \"lose $29\""
+  }
+ ],
+ "thumbnail": {
+  "text": "THE KEY WAS 4",
+  "out": "/Users/jcook/Personal/permanent-underpod/media/ep20/ep20-thumbnail.png",
+  "faces": [
+   {
+    "track": "jackson",
+    "t": 1950.0,
+    "cx": 640,
+    "top": 90,
+    "h": 630
+   },
+   {
+    "track": "tyler",
+    "t": 3096.0,
+    "cx": 250,
+    "top": 120,
+    "h": 590
+   },
+   {
+    "track": "chris",
+    "t": 3096.0,
+    "cx": 1040,
+    "top": 140,
+    "h": 570
+   }
+  ]
+ }
+}

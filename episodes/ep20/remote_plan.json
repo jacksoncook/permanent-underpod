@@ -1,0 +1,788 @@
+{
+ "blocks": [
+  {
+   "id": "COLD_A",
+   "m0": 227.6,
+   "m1": 247.0,
+   "hard_m0": true,
+   "hard_m1": true
+  },
+  {
+   "id": "COLD_B",
+   "m0": 1954.31,
+   "m1": 1958.4,
+   "hard_m1": true,
+   "mute": [
+    [
+     "chris",
+     1957.9,
+     1958.5
+    ]
+   ]
+  },
+  {
+   "id": "COLD_C",
+   "m0": 3085.64,
+   "m1": 3098.5,
+   "hard_m1": true
+  },
+  {
+   "id": "CARD_TITLE",
+   "card": "card_title.mov"
+  },
+  {
+   "id": "INTRO",
+   "m0": 0.0,
+   "m1": 110.88,
+   "hard_m0": true
+  },
+  {
+   "id": "CERT",
+   "m0": 136.76,
+   "m1": 681.58
+  },
+  {
+   "id": "CERT_B",
+   "m0": 727.27,
+   "m1": 786.2
+  },
+  {
+   "id": "PHP",
+   "m0": 838.58,
+   "m1": 1465.36
+  },
+  {
+   "id": "PHP_B",
+   "m0": 1489.31,
+   "m1": 1609.1,
+   "mute": [
+    [
+     "chris",
+     1489.3,
+     1491.5
+    ]
+   ]
+  },
+  {
+   "id": "PHP_C",
+   "m0": 1647.07,
+   "m1": 1839.71,
+   "mute": [
+    [
+     "jackson",
+     1647.0,
+     1650.0
+    ]
+   ]
+  },
+  {
+   "id": "PERP",
+   "m0": 1839.71,
+   "m1": 2271.7
+  },
+  {
+   "id": "VIT",
+   "m0": 2325.14,
+   "m1": 2492.31,
+   "mute": [
+    [
+     "chris",
+     2325.0,
+     2331.0
+    ]
+   ]
+  },
+  {
+   "id": "VIT_B",
+   "m0": 2583.09,
+   "m1": 2765.65,
+   "hard_m1": true,
+   "mute": [
+    [
+     "chris",
+     2764.3,
+     2766.0
+    ]
+   ]
+  },
+  {
+   "id": "VIT_C",
+   "m0": 2806.36,
+   "m1": 2993.27,
+   "mute": [
+    [
+     "jackson",
+     2976.5,
+     2995.0
+    ]
+   ]
+  },
+  {
+   "id": "RAIL",
+   "m0": 3032.39,
+   "m1": 3393.13,
+   "mute": [
+    [
+     "chris",
+     3374.0,
+     3393.2
+    ]
+   ]
+  },
+  {
+   "id": "HL",
+   "m0": 3453.9,
+   "m1": 3585.89,
+   "hard_m0": true
+  },
+  {
+   "id": "HL_B",
+   "m0": 3629.2,
+   "m1": 3712.1,
+   "hard_m0": true,
+   "hard_m1": true,
+   "mute": [
+    [
+     "chris",
+     3629.1,
+     3630.3
+    ]
+   ]
+  },
+  {
+   "id": "CARD_END",
+   "card": "card_end.mov"
+  }
+ ],
+ "protect": [
+  [
+   0.0,
+   42.0
+  ],
+  [
+   227.6,
+   247.0
+  ],
+  [
+   1954.31,
+   1958.4
+  ],
+  [
+   3085.64,
+   3098.5
+  ],
+  [
+   3062.0,
+   3140.0
+  ],
+  [
+   3680.0,
+   3712.1
+  ]
+ ],
+ "force_shots": [
+  {
+   "m0": 0.5,
+   "m1": 30.0,
+   "type": "trio"
+  }
+ ],
+ "face_cx": {
+  "jackson": 666,
+  "chris": 694,
+  "tyler": 655
+ },
+ "panel_order": [
+  "jackson",
+  "chris",
+  "tyler"
+ ],
+ "params": {
+  "idle_gain": 0.12,
+  "group_thresh": 0.25,
+  "group_hold": 1.0,
+  "react_thresh": 0.6,
+  "min_shot": 3.0,
+  "gain_target": 0.028,
+  "dead_air_min": 1.2,
+  "dead_air_keep": 0.4,
+  "dead_air_net": 0.6
+ },
+ "gain_spans": {
+  "jackson": [
+   [
+    1849,
+    1885
+   ],
+   [
+    1309,
+    1345
+   ],
+   [
+    2587,
+    2606
+   ],
+   [
+    3565,
+    3590
+   ]
+  ],
+  "chris": [
+   [
+    894,
+    1000
+   ],
+   [
+    2158,
+    2240
+   ],
+   [
+    2891,
+    2970
+   ],
+   [
+    3014,
+    3030
+   ]
+  ],
+  "tyler": [
+   [
+    137,
+    183
+   ],
+   [
+    1491,
+    1560
+   ],
+   [
+    3310,
+    3367
+   ],
+   [
+    594,
+    655
+   ]
+  ]
+ },
+ "pips": [
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep20/raw/Untitled_recording-chris-screen-00h_32m_18s_728ms-StreamYard.mp4",
+   "block": "PERP",
+   "m0": 1938.5,
+   "m1": 1949.0,
+   "anchor": 1938.363,
+   "mode": "full"
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep20/raw/Untitled_recording-chris-screen-00h_32m_18s_728ms-StreamYard.mp4",
+   "block": "PERP",
+   "m0": 1949.0,
+   "m1": 2042.0,
+   "anchor": 1938.363,
+   "mode": "corner",
+   "crop": [
+    840,
+    290,
+    532,
+    95
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep20/raw/Untitled_recording-chris-screen-00h_32m_18s_728ms-StreamYard.mp4",
+   "block": "PERP",
+   "m0": 2042.0,
+   "m1": 2271.7,
+   "anchor": 1938.363,
+   "mode": "corner",
+   "crop": [
+    840,
+    290,
+    532,
+    40
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep20/raw/Untitled_recording-chris-screen-00h_32m_18s_728ms-StreamYard.mp4",
+   "block": "VIT",
+   "m0": 2325.14,
+   "m1": 2492.31,
+   "anchor": 1938.363,
+   "mode": "corner",
+   "crop": [
+    840,
+    290,
+    532,
+    40
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep20/raw/Untitled_recording-chris-screen-00h_32m_18s_728ms-StreamYard.mp4",
+   "block": "VIT_B",
+   "m0": 2583.09,
+   "m1": 2765.65,
+   "anchor": 1938.363,
+   "mode": "corner",
+   "crop": [
+    840,
+    290,
+    532,
+    40
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep20/raw/Untitled_recording-chris-screen-00h_32m_18s_728ms-StreamYard.mp4",
+   "block": "VIT_C",
+   "m0": 2806.36,
+   "m1": 2993.27,
+   "anchor": 1938.363,
+   "mode": "corner",
+   "crop": [
+    840,
+    290,
+    532,
+    40
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep20/raw/Untitled_recording-chris-screen-00h_32m_18s_728ms-StreamYard.mp4",
+   "block": "RAIL",
+   "m0": 3032.39,
+   "m1": 3393.13,
+   "anchor": 1938.363,
+   "mode": "corner",
+   "crop": [
+    840,
+    290,
+    532,
+    40
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep20/raw/Untitled_recording-chris-screen-00h_32m_18s_728ms-StreamYard.mp4",
+   "block": "HL",
+   "m0": 3453.9,
+   "m1": 3585.89,
+   "anchor": 1938.363,
+   "mode": "corner",
+   "crop": [
+    840,
+    290,
+    532,
+    40
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep20/raw/Untitled_recording-chris-screen-00h_32m_18s_728ms-StreamYard.mp4",
+   "block": "HL_B",
+   "m0": 3629.2,
+   "m1": 3712.1,
+   "anchor": 1938.363,
+   "mode": "corner",
+   "crop": [
+    840,
+    290,
+    532,
+    40
+   ]
+  }
+ ],
+ "overlays": [
+  {
+   "name": "st_coldopen",
+   "block": "COLD_A",
+   "rel": 0.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_intro",
+   "block": "INTRO",
+   "m": 3.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_cert",
+   "block": "CERT",
+   "m": 138.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_four",
+   "block": "CERT",
+   "m": 229.5,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_entropy",
+   "block": "CERT",
+   "m": 276.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_lava",
+   "block": "CERT",
+   "m": 351.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_17mo",
+   "block": "CERT",
+   "m": 519.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "lt_php",
+   "block": "PHP",
+   "m": 864.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_php",
+   "block": "PHP",
+   "m": 895.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_67",
+   "block": "PHP",
+   "m": 1041.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_hotfix",
+   "block": "PHP",
+   "m": 1090.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_toaster",
+   "block": "PHP",
+   "m": 1144.0,
+   "dur": 6,
+   "kind": "st"
+  },
+  {
+   "name": "st_idor",
+   "block": "PHP",
+   "m": 1318.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_patch",
+   "block": "PHP",
+   "m": 1437.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_embargo",
+   "block": "PHP_B",
+   "m": 1497.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_18mo",
+   "block": "PHP_C",
+   "m": 1656.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_privacy",
+   "block": "PHP_C",
+   "m": 1700.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_superspreader",
+   "block": "PHP_C",
+   "m": 1786.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_perp",
+   "block": "PERP",
+   "m": 1849.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_perp",
+   "block": "PERP",
+   "m": 1903.0,
+   "dur": 9,
+   "kind": "st2"
+  },
+  {
+   "name": "st_opus",
+   "block": "PERP",
+   "m": 1993.0,
+   "dur": 7,
+   "kind": "st2"
+  },
+  {
+   "name": "lt_vitalik",
+   "block": "PERP",
+   "m": 2096.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_layers",
+   "block": "PERP",
+   "m": 2160.0,
+   "dur": 9,
+   "kind": "st2"
+  },
+  {
+   "name": "st_practical",
+   "block": "PERP",
+   "m": 2236.0,
+   "dur": 7,
+   "kind": "st2"
+  },
+  {
+   "name": "st_plato",
+   "block": "VIT",
+   "m": 2343.0,
+   "dur": 7,
+   "kind": "st2"
+  },
+  {
+   "name": "lt_refusals",
+   "block": "VIT",
+   "m": 2452.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_four2",
+   "block": "VIT",
+   "m": 2461.0,
+   "dur": 8,
+   "kind": "st2"
+  },
+  {
+   "name": "lt_samsung",
+   "block": "VIT_B",
+   "m": 2624.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_tv",
+   "block": "VIT_B",
+   "m": 2668.0,
+   "dur": 8,
+   "kind": "st2"
+  },
+  {
+   "name": "st_mics",
+   "block": "VIT_B",
+   "m": 2700.0,
+   "dur": 7,
+   "kind": "st2"
+  },
+  {
+   "name": "st_1491",
+   "block": "VIT_C",
+   "m": 2854.0,
+   "dur": 7,
+   "kind": "st2"
+  },
+  {
+   "name": "lt_railway",
+   "block": "VIT_C",
+   "m": 2866.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_railway",
+   "block": "VIT_C",
+   "m": 2905.0,
+   "dur": 8,
+   "kind": "st2"
+  },
+  {
+   "name": "st_tiktok",
+   "block": "RAIL",
+   "m": 3056.0,
+   "dur": 7,
+   "kind": "st2"
+  },
+  {
+   "name": "lt_countdown",
+   "block": "RAIL",
+   "m": 3076.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_hl",
+   "block": "RAIL",
+   "m": 3155.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_basement",
+   "block": "RAIL",
+   "m": 3278.0,
+   "dur": 8,
+   "kind": "st2"
+  },
+  {
+   "name": "st_bonkers",
+   "block": "RAIL",
+   "m": 3340.0,
+   "dur": 8,
+   "kind": "st2"
+  },
+  {
+   "name": "st_bitmex",
+   "block": "HL",
+   "m": 3506.0,
+   "dur": 8,
+   "kind": "st2"
+  },
+  {
+   "name": "st_jail",
+   "block": "HL",
+   "m": 3536.0,
+   "dur": 7,
+   "kind": "st2"
+  },
+  {
+   "name": "lt_wrap",
+   "block": "HL_B",
+   "m": 3654.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_final",
+   "block": "HL_B",
+   "m": 3690.0,
+   "dur": 8,
+   "kind": "st2"
+  }
+ ],
+ "sheet": [
+  {
+   "block": "COLD_A",
+   "label": "Cold open"
+  },
+  {
+   "block": "INTRO",
+   "label": "Welcome: chamomile, toasted coffee, no Cheez-Its"
+  },
+  {
+   "block": "INTRO",
+   "m": 42.0,
+   "label": "A root certificate authority used a private key of 4"
+  },
+  {
+   "block": "CERT",
+   "m": 484.0,
+   "label": "Less than a PIN: live for 17 months, trusted by your OS"
+  },
+  {
+   "block": "PHP",
+   "label": "PHP2Shell: remote code execution on 67% of the web"
+  },
+  {
+   "block": "PHP",
+   "m": 1104.0,
+   "label": "A DeepSeek swarm patching PHP servers for you"
+  },
+  {
+   "block": "PHP",
+   "m": 1291.0,
+   "label": "White hats are prodding Jackson's MotivateMe.io"
+  },
+  {
+   "block": "PHP",
+   "m": 1419.0,
+   "label": "Patch the Planet, Glasswing, and who gets told first"
+  },
+  {
+   "block": "PHP_C",
+   "m": 1679.0,
+   "label": "Quest got hacked: is privacy already gone?"
+  },
+  {
+   "block": "PHP_C",
+   "m": 1773.0,
+   "label": "Contrarian corner: nobody cares about privacy"
+  },
+  {
+   "block": "PERP",
+   "label": "Perp of Fortune 2.0: hourly Bitcoin binary vs LONG ETH 25\u00d7"
+  },
+  {
+   "block": "PERP",
+   "m": 2080.0,
+   "label": "Vitalik's paranoid mode: five layers to find a vegan restaurant"
+  },
+  {
+   "block": "VIT",
+   "m": 2449.0,
+   "label": "Refusals: the models won't touch cryptography"
+  },
+  {
+   "block": "VIT_B",
+   "m": 2622.0,
+   "label": "He rooted his Samsung TV and found it listening"
+  },
+  {
+   "block": "VIT_C",
+   "m": 2830.0,
+   "label": "Bitcoin UP is winning: 'Guess who's out of the underclass'"
+  },
+  {
+   "block": "VIT_C",
+   "m": 2863.0,
+   "label": "Railway got popped: CI keys and a staker's time lock"
+  },
+  {
+   "block": "RAIL",
+   "m": 3050.0,
+   "label": "We have a TikTok. The binary has 45 seconds left."
+  },
+  {
+   "block": "RAIL",
+   "m": 3138.0,
+   "label": "Is the future of finance on Hyperliquid?"
+  },
+  {
+   "block": "RAIL",
+   "m": 3275.0,
+   "label": "'The nodes are in various corners of his basement'"
+  },
+  {
+   "block": "HL",
+   "m": 3470.0,
+   "label": "BitMEX, FTX, Binance, Hyperliquid: the same trade"
+  },
+  {
+   "block": "HL_B",
+   "m": 3653.0,
+   "label": "Perp final: the binary went to zero"
+  }
+ ]
+}
