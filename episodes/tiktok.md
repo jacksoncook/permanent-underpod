@@ -98,3 +98,23 @@ until Oct 26; rerun then. Log: `media/clips/ep20/_tiktok.log`; URLs land in `que
 
 The 11 Ep 18/19 items that never got scheduled (Oct 17–21) are retired in `queue.json.results.json`
 (`dropped: true`; Jackson 10/24: "lets just do ep 20").
+
+| Slot | Clip | TikTok |
+|---|---|---|
+| Sat Oct 24 4 PM PT | `short4-hotfix-it-for-you` | https://www.tiktok.com/@permanentunderpod/video/7700149342006430998 |
+| Sun Oct 25 4 PM PT | `short9-egg-tracking-follower` | https://www.tiktok.com/@permanentunderpod/video/7700149765656300822 |
+| Mon Oct 26 4 PM PT | `short10-who-coded-this-crap` | https://www.tiktok.com/@permanentunderpod/video/7700151735481928982 |
+| Tue Oct 27 4 PM PT | `short1-five-is-legit` | https://www.tiktok.com/@permanentunderpod/video/7700153609178139926 |
+| Wed Oct 28 4 PM PT | `short7-eight-microphones` | https://www.tiktok.com/@permanentunderpod/video/7700154709897923862 |
+| Thu Oct 29 4 PM PT | `short12-jail-for-a-year` | https://www.tiktok.com/@permanentunderpod/video/7700156400491646230 |
+| Fri Oct 30 4 PM PT | `short5-dont-tell-claude` | https://www.tiktok.com/@permanentunderpod/video/7700157842749132054 |
+| Sat Oct 31 4 PM PT | `short2-less-than-a-pin` | https://www.tiktok.com/@permanentunderpod/video/7700159013798939926 |
+| Sun Nov 1 4 PM PT | `short11-his-basement` | https://www.tiktok.com/@permanentunderpod/video/7700160708238970134 |
+| Mon Nov 2 4 PM PT | `short8-dumb-contract` | https://www.tiktok.com/@permanentunderpod/video/7700162094636862742 |
+| Tue Nov 3 4 PM PT | `short3-test-answers` | PENDING — outside the 10-day window; rerun `tt_upload.py media/clips/tiktok/queue.json --headful --slow 3 --pause 180` on/after Oct 26 |
+| Wed Nov 4 4 PM PT | `short13-permanent-underclass` | PENDING — outside the 10-day window; rerun `tt_upload.py media/clips/tiktok/queue.json --headful --slow 3 --pause 180` on/after Oct 26 |
+| Thu Nov 5 4 PM PT | `short6-platos-cave` | PENDING — outside the 10-day window; rerun `tt_upload.py media/clips/tiktok/queue.json --headful --slow 3 --pause 180` on/after Oct 26 |
+
+Run log 2026-10-24 04:31–05:22 ET: one Studio session, `--slow 3 --pause 180`. One hiccup: after the third schedule the
+next upload page bounced to the posts list and the caption editor never appeared; `tt_upload.py` now retries an item
+once when the failed attempt left nothing in flight (`page_is_clean`). Studio showed no partial rows.

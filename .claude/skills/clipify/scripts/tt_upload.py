@@ -114,13 +114,17 @@ def run(manifest_path, dry, headful, max_uploads, cdp=None, pause=0.0):
                 path = os.path.abspath(it["file"])
                 if not os.path.exists(path):
                     raise FileNotFoundError(path)
-                try:
-                    url = upload_one(page, path, it["caption"], when, dry, username)
-                except Exception:
-                    shot = manifest_path + f".fail-{now.date().isoformat()}.png"
-                    page.screenshot(path=shot, full_page=True)
-                    print(f"screenshot: {shot}")
-                    raise
+                for attempt in (1, 2):
+                    try:
+                        url = upload_one(page, path, it["caption"], when, dry, username)
+                        break
+                    except Exception as e:
+                        shot = manifest_path + f".fail-{now.date().isoformat()}-{attempt}.png"
+                        page.screenshot(path=shot, full_page=True)
+                        print(f"attempt {attempt} failed: {e!r}\nscreenshot: {shot}")
+                        if attempt == 2 or not page_is_clean(page):
+                            raise
+                        nap(page, 5000)
                 if dry:
                     print(f"{stamp()} dry run ok: {it['file']}"); continue
                 results[it["file"]] = {
@@ -191,6 +195,13 @@ def upload_one(page, path, caption, when, dry, username):
         confirm.last.click()
     wait_for_posts_list(page, caption, 120)
     return post_url(page, username, caption)
+
+
+def page_is_clean(page):
+    """A retry is safe only if the failed attempt left nothing in flight: Studio bounced to the posts list
+    or never got past the file picker. An upload page with a filled caption or a schedule set is not retried."""
+    body = page.locator("body").inner_text()
+    return "/tiktokstudio/content" in page.url or "Uploaded" not in body
 
 
 def set_schedule(page, when):
