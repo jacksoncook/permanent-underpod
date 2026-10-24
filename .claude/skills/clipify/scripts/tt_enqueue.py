@@ -76,8 +76,8 @@ def caption_for(up):
     lines = [l.strip() for l in up.get("description", "").splitlines() if l.strip()]
     body = next((l for l in lines if not l.startswith("#") and not FULL_EPISODE_LINE.match(l)), "")
     tags = [t for l in lines for t in re.findall(r"#\w+", l) if t.lower() != "#shorts"]
-    if "#podcast" not in [t.lower() for t in tags]:
-        tags.append("#podcast")
+    if "#podcastclips" not in [t.lower() for t in tags]:
+        tags.append("#podcastclips")
     if hook[-1:].isalnum():
         hook += "."
     parts = [hook, body, "Full episode: Permanent Underpod.", " ".join(tags)]

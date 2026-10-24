@@ -244,14 +244,44 @@ def set_schedule(page, when):
 
 
 def type_caption(page, caption):
-    """Type word by word so each hashtag's suggestion dropdown closes on the following space."""
-    for word in caption.split(" "):
-        page.keyboard.type(word, delay=int(15 * SLOW))
-        if word.startswith("#"):
-            nap(page, 600)
-        page.keyboard.type(" ", delay=int(15 * SLOW))
+    """Hashtags must be PICKED from Studio's suggestion dropdown: a typed "#tag" left as text is not a hashtag
+    (Jackson, 2026-10-24: every clip through Ep 20 shipped that way). Clicking the exact-match row turns the word
+    into a mention entity and inserts the trailing space itself; Enter does not select, it adds a newline."""
+    words = caption.split(" ")
+    for i, word in enumerate(words):
+        last = i == len(words) - 1
+        if word.startswith("#") and len(word) > 1:
+            page.keyboard.type(word, delay=int(15 * SLOW))
+            row = hashtag_row(page, word)
+            if row is None:
+                page.keyboard.press("Backspace")
+                nap(page, 400)
+                page.keyboard.type(word[-1], delay=int(15 * SLOW))
+                row = hashtag_row(page, word)
+            if row is None:
+                raise RuntimeError(f"no dropdown match for {word}; refusing to post it as plain text")
+            row.click()
+            nap(page, 700)
+            if last:
+                page.keyboard.press("Backspace")
+            continue
+        page.keyboard.type(word + ("" if last else " "), delay=int(15 * SLOW))
         nap(page, 80)
-    page.keyboard.press("Backspace")
+    linked = page.locator("[data-testid=mentionText]").count()
+    wanted = sum(1 for w in words if w.startswith("#") and len(w) > 1)
+    if linked < wanted:
+        raise RuntimeError(f"only {linked} of {wanted} hashtags linked")
+
+
+def hashtag_row(page, word, seconds=8):
+    """The suggestion dropdown renders a beat after typing stops and sometimes not at all on the first try."""
+    deadline = time.time() + seconds * SLOW
+    row = page.locator(".hashtag-suggestion-item", has=page.get_by_text(word, exact=True)).first
+    while time.time() < deadline:
+        if row.count():
+            return row
+        page.wait_for_timeout(250)
+    return None
 
 
 def wait_for_text(page, pattern, seconds):

@@ -186,19 +186,19 @@ at 1082.74). Uploaded scheduled-private to Underpod Shorts, one a day at 2 PM PT
 
 | Release | Clip | Final-cut in–out | Title | URL |
 |---|---|---|---|---|
-| 2026-10-24 2 PM PT | `short4-hotfix-it-for-you` | 1009.4000–1021.1000 (11.7 s) | I'll Remote-Execute Into Your Server and Fix It for You - Ep 20 Clip | https://youtu.be/qXPoBBtMT4A |
-| 2026-10-25 2 PM PT | `short9-egg-tracking-follower` | 2612.6400–2628.8000 (16.2 s) | Our Only TikTok Follower Is an Egg Tracking App - Ep 20 Clip | https://youtu.be/DqGMG3r0v2Y |
-| 2026-10-26 2 PM PT | `short10-who-coded-this-crap` | 2634.7700–2654.9000 (20.1 s) | 40 Seconds Left on a $25 Bitcoin Coin Flip - Ep 20 Clip | https://youtu.be/jL1Yu4w5TIE |
-| 2026-10-27 2 PM PT | `short1-five-is-legit` | 303.7000–322.5000 (18.8 s) | A Certificate Authority's Private Key Was 4 - Ep 20 Clip | https://youtu.be/ohDSZRkqoUQ |
-| 2026-10-28 2 PM PT | `short7-eight-microphones` | 2354.1900–2370.7900 (16.6 s) | It Was the TV Listening the Whole Time - Ep 20 Clip | https://youtu.be/SXQctwfUdLk |
-| 2026-10-29 2 PM PT | `short12-jail-for-a-year` | 3033.0300–3056.6000 (23.6 s) | Would You Do a Year in Jail for $100M? - Ep 20 Clip | https://youtu.be/RAY1vqA7T0M |
-| 2026-10-30 2 PM PT | `short5-dont-tell-claude` | 1060.5100–1082.7000 (22.2 s) | Don't Tell Claude About the PHP Bug - Ep 20 Clip | https://youtu.be/wdwzrDv3-qc |
-| 2026-10-31 2 PM PT | `short2-less-than-a-pin` | 510.6400–522.8700 (12.2 s) | Your iPhone PIN Is More Secure Than This Root CA - Ep 20 Clip | https://youtu.be/LKDFWThMz_g |
-| 2026-11-01 2 PM PT | `short11-his-basement` | 2849.1300–2866.6000 (17.5 s) | Hyperliquid's Nodes Are in His Basement - Ep 20 Clip | https://youtu.be/1JuONDn5OvY |
-| 2026-11-02 2 PM PT | `short8-dumb-contract` | 2486.3200–2500.9500 (14.6 s) | "So It Was a Dumb Contract" - Ep 20 Clip | https://youtu.be/Nk-IBj6qzhA |
-| 2026-11-03 2 PM PT | `short3-test-answers` | 571.6000–586.3200 (14.7 s) | Hack the University for the Test Answers - Ep 20 Clip | https://youtu.be/mCinQ5Vyh8A |
-| 2026-11-04 2 PM PT | `short13-permanent-underclass` | 2452.9900–2469.7500 (16.8 s) | "Guess Who's Out of the Permanent Underclass" - Ep 20 Clip | https://youtu.be/9Lo_kdlrK3w |
-| 2026-11-05 2 PM PT | `short6-platos-cave` | 2109.9000–2135.5200 (25.6 s) | Vitalik Built Plato's Cave for AI Agents - Ep 20 Clip | https://youtu.be/0yeLOhi8akQ |
+| 2026-10-24 2 PM PT | `short4-hotfix-it-for-you` | 1009.4000–1021.1000 (11.7 s) | I'll Remote-Execute Into Your Server and Fix It for You | https://youtu.be/qXPoBBtMT4A |
+| 2026-10-25 2 PM PT | `short9-egg-tracking-follower` | 2612.6400–2628.8000 (16.2 s) | Our Only TikTok Follower Is an Egg Tracking App | https://youtu.be/DqGMG3r0v2Y |
+| 2026-10-26 2 PM PT | `short10-who-coded-this-crap` | 2634.7700–2654.9000 (20.1 s) | 40 Seconds Left on a $25 Bitcoin Coin Flip | https://youtu.be/jL1Yu4w5TIE |
+| 2026-10-27 2 PM PT | `short1-five-is-legit` | 303.7000–322.5000 (18.8 s) | A Certificate Authority's Private Key Was 4 | https://youtu.be/ohDSZRkqoUQ |
+| 2026-10-28 2 PM PT | `short7-eight-microphones` | 2354.1900–2370.7900 (16.6 s) | It Was the TV Listening the Whole Time | https://youtu.be/SXQctwfUdLk |
+| 2026-10-29 2 PM PT | `short12-jail-for-a-year` | 3033.0300–3056.6000 (23.6 s) | Would You Do a Year in Jail for $100M? | https://youtu.be/RAY1vqA7T0M |
+| 2026-10-30 2 PM PT | `short5-dont-tell-claude` | 1060.5100–1082.7000 (22.2 s) | Don't Tell Claude About the PHP Bug | https://youtu.be/wdwzrDv3-qc |
+| 2026-10-31 2 PM PT | `short2-less-than-a-pin` | 510.6400–522.8700 (12.2 s) | Your iPhone PIN Is More Secure Than This Root CA | https://youtu.be/LKDFWThMz_g |
+| 2026-11-01 2 PM PT | `short11-his-basement` | 2849.1300–2866.6000 (17.5 s) | Hyperliquid's Nodes Are in His Basement | https://youtu.be/1JuONDn5OvY |
+| 2026-11-02 2 PM PT | `short8-dumb-contract` | 2486.3200–2500.9500 (14.6 s) | "So It Was a Dumb Contract" | https://youtu.be/Nk-IBj6qzhA |
+| 2026-11-03 2 PM PT | `short3-test-answers` | 571.6000–586.3200 (14.7 s) | Hack the University for the Test Answers | https://youtu.be/mCinQ5Vyh8A |
+| 2026-11-04 2 PM PT | `short13-permanent-underclass` | 2452.9900–2469.7500 (16.8 s) | "Guess Who's Out of the Permanent Underclass" | https://youtu.be/9Lo_kdlrK3w |
+| 2026-11-05 2 PM PT | `short6-platos-cave` | 2109.9000–2135.5200 (25.6 s) | Vitalik Built Plato's Cave for AI Agents | https://youtu.be/0yeLOhi8akQ |
 
 Funnel comments: `media/clips/ep20/pin-comments.json` added to the pin-comments LaunchAgent; pinning and
 the related-video button stay manual. TikTok: same thirteen enqueued at 4 PM PT daily in
