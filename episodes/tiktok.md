@@ -85,15 +85,16 @@ two Ep 18 stragglers (short5-browser-history Oct 19, short7-feudal-salesforce Oc
   sessionid, so it is logged out too). Owed: Jackson logs into TikTok in Chrome, re-clone the Cookies
   file, rerun `tt_upload.py media/clips/tiktok/queue.json` for the remaining 9 + the 2 Ep 18 items.
 
-## Ep 20 clips — 2 PM PT daily (17:00 ET), Oct 24 – Nov 5
+## Ep 20 clips — 4 PM PT daily (19:00 ET, the queue default), Oct 24 – Nov 5
 
 Enqueued 2026-10-24 from `media/clips/ep20/upload-manifest.json` (13 items, one per day, same day as the
-YouTube release). NOT yet scheduled: the cloned Studio session is logged out (account-info check returns
-no username) and the Chrome Profile 1 cookie file cannot be copied from this agent process (macOS TCC:
-"Operation not permitted"). Owed: Jackson logs into TikTok in Chrome, copies `Profile 1/Cookies` into
-`~/.config/clipify-tiktok/chrome-profile/Default/Cookies` from Terminal or Finder, then run
-`tt_upload.py media/clips/tiktok/queue.json --headful --max 3` in a few spaced passes (Jackson 10/24:
-"be careful not to trigger bot detection"). Nov 4–5 fall outside the 10-day window until Oct 26.
+YouTube release). Session: the clone was logged out again (server-side, 10/16); cookie cloning from Chrome is blocked by
+macOS TCC for this process, Finder and Terminal alike, and Chrome 155 refuses a DevTools port on the
+default profile. Fix that worked: open the clone profile headful on the login page and have Jackson log in
+there. Scheduling run 2026-10-24 ~04:30 ET: `tt_upload.py queue.json --headful --slow 3 --pause 900`, one
+browser session, 15–30 min between clips (Jackson: "be careful not to trigger bot detection", "go a little
+slower", "we don't gotta close the browser after each vid"). Nov 3–5 fall outside the 10-day window
+until Oct 26; rerun then. Log: `media/clips/ep20/_tiktok.log`; URLs land in `queue.json.results.json`.
 
-The 11 Ep 18/19 items that never got scheduled (Oct 17–21) are past their day and will be reported as
-SKIP; decision owed (re-date as a second daily slot, or drop).
+The 11 Ep 18/19 items that never got scheduled (Oct 17–21) are retired in `queue.json.results.json`
+(`dropped: true`; Jackson 10/24: "lets just do ep 20").

@@ -2,6 +2,7 @@
 """Schedule (or post) a manifest's clips on TikTok through TikTok Studio's web uploader.
 
 usage: tt_upload.py <manifest.json> [<manifest.json> ...] [--dry-run] [--headful] [--max N]
+       [--cdp http://localhost:9222] [--pause SECONDS] [--slow FACTOR]
 
 manifest.json: {"account": "<tiktok username>", "postHourLocal": 17,
                 "items": [{"postOn": "YYYY-MM-DD", "file": "<mp4>", "caption": "<text with #tags>",
@@ -12,6 +13,10 @@ is at least 20 minutes away are SCHEDULED in Studio (TikTok allows up to 10 days
 from clipify as soon as the YouTube schedule exists); an item due today whose time has passed is
 posted now; an item whose day has passed is skipped and reported for a manual decision.
 --dry-run fills everything in, then discards. --max N stops after N uploads.
+--cdp URL drives an ALREADY-RUNNING Chrome (started with --remote-debugging-port) through its default
+profile instead of the cloned one, so the logged-in human session is used as-is; the browser is left
+open. --pause S sleeps a random S..2S seconds between items; --slow F multiplies every in-page wait and the
+typing delay by F (Jackson 2026-10-24: "be careful not to trigger bot detection", "go a little slower").
 
 Session: a cloned Chrome profile at ~/.config/clipify-tiktok/chrome-profile (cookies copied from
 the Chrome profile that is logged into TikTok). Chrome must be launched with the real keychain
@@ -31,21 +36,27 @@ POSTS_URL = "https://www.tiktok.com/tiktokstudio/content"
 ACCOUNT_INFO_URL = "https://www.tiktok.com/passport/web/account/info/?aid=1459&app_language=en"
 SCHEDULE_LEAD = datetime.timedelta(minutes=20)
 SCHEDULE_HORIZON = datetime.timedelta(days=10)
+SLOW = 1.0
 MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September",
           "October", "November", "December"]
 
 
 def main():
     argv = sys.argv[1:]
-    args = [a for i, a in enumerate(argv) if not a.startswith("--") and (i == 0 or argv[i - 1] != "--max")]
+    valued = {"--max", "--cdp", "--pause", "--slow"}
+    args = [a for i, a in enumerate(argv) if not a.startswith("--") and (i == 0 or argv[i - 1] not in valued)]
     flags = {a for a in argv if a.startswith("--")}
     if not args:
         print(__doc__); sys.exit(2)
     max_uploads = int(flags_value("--max", 999))
+    cdp = flags_value("--cdp", None)
+    pause = float(flags_value("--pause", 0))
+    global SLOW
+    SLOW = float(flags_value("--slow", 1))
     failures = 0
     for manifest_path in args:
         try:
-            run(manifest_path, "--dry-run" in flags, "--headful" in flags, max_uploads)
+            run(manifest_path, "--dry-run" in flags, "--headful" in flags, max_uploads, cdp, pause)
         except Exception as e:
             failures += 1
             print(f"FAILED {manifest_path}: {e!r}")
@@ -59,7 +70,7 @@ def flags_value(name, default):
     return default
 
 
-def run(manifest_path, dry, headful, max_uploads):
+def run(manifest_path, dry, headful, max_uploads, cdp=None, pause=0.0):
     manifest = json.load(open(manifest_path))
     results_path = manifest_path + ".results.json"
     results = json.load(open(results_path)) if os.path.exists(results_path) else {}
@@ -81,17 +92,25 @@ def run(manifest_path, dry, headful, max_uploads):
     for it, when in plan:
         print(f"{stamp()} {it['file']} -> {'schedule ' + when.strftime('%Y-%m-%d %H:%M') if when else 'post now'}")
 
+    import random
     from playwright.sync_api import sync_playwright
     with sync_playwright() as pw:
-        ctx = pw.chromium.launch_persistent_context(
-            PROFILE, channel="chrome", headless=not headful,
-            args=["--disable-blink-features=AutomationControlled"],
-            ignore_default_args=["--use-mock-keychain"],
-            viewport={"width": 1400, "height": 1100})
+        if cdp:
+            browser = pw.chromium.connect_over_cdp(cdp)
+            ctx = browser.contexts[0]
+        else:
+            ctx = pw.chromium.launch_persistent_context(
+                PROFILE, channel="chrome", headless=not headful,
+                args=["--disable-blink-features=AutomationControlled"],
+                ignore_default_args=["--use-mock-keychain"],
+                viewport={"width": 1400, "height": 1100})
         try:
             page = ctx.new_page()
             username = check_login(page, manifest.get("account"))
-            for it, when in plan:
+            for n, (it, when) in enumerate(plan):
+                if n and pause:
+                    nap = random.uniform(pause, 2 * pause)
+                    print(f"{stamp()} pausing {nap:.0f}s before the next item"); time.sleep(nap)
                 path = os.path.abspath(it["file"])
                 if not os.path.exists(path):
                     raise FileNotFoundError(path)
@@ -111,7 +130,10 @@ def run(manifest_path, dry, headful, max_uploads):
                 json.dump(results, open(results_path, "w"), indent=1, ensure_ascii=False)
                 print(f"{stamp()} {'POSTED' if when is None else 'SCHEDULED'} {it['file']} -> {url}")
         finally:
-            ctx.close()
+            if cdp:
+                page.close()
+            else:
+                ctx.close()
 
 
 def check_login(page, account):
@@ -136,9 +158,9 @@ def upload_one(page, path, caption, when, dry, username):
     editor.click()
     page.keyboard.press("Meta+A")
     page.keyboard.press("Backspace")
-    page.wait_for_timeout(300)
+    nap(page, 300)
     type_caption(page, caption)
-    page.wait_for_timeout(1000)
+    nap(page, 1000)
     dismiss_popups(page)
     got = normalize(editor.inner_text())
     if got != normalize(caption):
@@ -155,7 +177,7 @@ def upload_one(page, path, caption, when, dry, username):
         confirm = page.get_by_role("button", name=re.compile(r"^(Discard|Confirm)$"))
         if confirm.count():
             confirm.last.click()
-        page.wait_for_timeout(1500)
+        nap(page, 1500)
         return None
 
     try:
@@ -163,7 +185,7 @@ def upload_one(page, path, caption, when, dry, username):
     except TimeoutError:
         print("content check still running; continuing")
     page.get_by_role("button", name="Schedule" if when else "Post", exact=True).last.click()
-    page.wait_for_timeout(1500)
+    nap(page, 1500)
     confirm = page.get_by_role("button", name=re.compile(r"^(Post now|Schedule|Continue)$"))
     if confirm.count() and confirm.last.is_visible():
         confirm.last.click()
@@ -173,35 +195,35 @@ def upload_one(page, path, caption, when, dry, username):
 
 def set_schedule(page, when):
     page.locator("input[value=schedule]").check(force=True)
-    page.wait_for_timeout(1200)
+    nap(page, 1200)
     allow = page.get_by_role("button", name="Allow", exact=True)
     if allow.count() and allow.first.is_visible():
         allow.first.click()
-        page.wait_for_timeout(1200)
+        nap(page, 1200)
     time_input, date_input = (page.locator(".scheduled-picker input.TUXTextInputCore-input").nth(i) for i in (0, 1))
 
     time_input.click()
-    page.wait_for_timeout(600)
+    nap(page, 600)
     page.locator("span.tiktok-timepicker-left", has_text=re.compile(rf"^{when:%H}$")).first.click()
-    page.wait_for_timeout(300)
+    nap(page, 300)
     page.locator("span.tiktok-timepicker-right", has_text=re.compile(rf"^{when:%M}$")).first.click()
-    page.wait_for_timeout(600)
+    nap(page, 600)
     page.keyboard.press("Escape")
-    page.wait_for_timeout(400)
+    nap(page, 400)
 
     date_input.click()
-    page.wait_for_timeout(600)
+    nap(page, 600)
     for _ in range(3):
         month = page.locator(".month-title").first.inner_text().strip()
         year = page.locator(".year-title").first.inner_text().strip()
         if month == MONTHS[when.month - 1] and year == str(when.year):
             break
         page.locator("span.arrow").last.click()
-        page.wait_for_timeout(500)
+        nap(page, 500)
     page.locator("span.day.valid", has_text=re.compile(rf"^{when.day}$")).first.click()
-    page.wait_for_timeout(600)
+    nap(page, 600)
     page.keyboard.press("Escape")
-    page.wait_for_timeout(400)
+    nap(page, 400)
 
     got = (time_input.input_value(), date_input.input_value())
     want = (when.strftime("%H:%M"), when.strftime("%Y-%m-%d"))
@@ -213,11 +235,11 @@ def set_schedule(page, when):
 def type_caption(page, caption):
     """Type word by word so each hashtag's suggestion dropdown closes on the following space."""
     for word in caption.split(" "):
-        page.keyboard.type(word, delay=15)
+        page.keyboard.type(word, delay=int(15 * SLOW))
         if word.startswith("#"):
-            page.wait_for_timeout(600)
-        page.keyboard.type(" ", delay=15)
-        page.wait_for_timeout(80)
+            nap(page, 600)
+        page.keyboard.type(" ", delay=int(15 * SLOW))
+        nap(page, 80)
     page.keyboard.press("Backspace")
 
 
@@ -226,7 +248,7 @@ def wait_for_text(page, pattern, seconds):
     while time.time() < deadline:
         if pattern.search(page.locator("body").inner_text()):
             return
-        page.wait_for_timeout(1000)
+        nap(page, 1000)
     raise TimeoutError(f"timed out waiting for {pattern.pattern!r}")
 
 
@@ -241,7 +263,7 @@ def wait_for_posts_list(page, caption, seconds):
         if time.time() > next_reload:
             page.goto(POSTS_URL, wait_until="domcontentloaded", timeout=60000)
             next_reload = time.time() + 30
-        page.wait_for_timeout(1000)
+        nap(page, 1000)
     raise TimeoutError("no Studio posts-list row with this caption; check Studio before retrying")
 
 
@@ -250,13 +272,13 @@ def post_url(page, username, caption):
     head = normalize(caption)[:40]
     for _ in range(3):
         page.goto(POSTS_URL, wait_until="domcontentloaded", timeout=60000)
-        page.wait_for_timeout(5000)
+        nap(page, 5000)
         for _ in range(8):
             for row in studio_rows(page):
                 if head in row["text"]:
                     return "https://www.tiktok.com" + row["href"]
             scroll_list(page)
-        page.wait_for_timeout(5000)
+        nap(page, 5000)
     return f"https://www.tiktok.com/@{username} (row link not found yet)"
 
 
@@ -265,7 +287,7 @@ def scroll_list(page):
     page.evaluate("""() => { for (const el of document.querySelectorAll('*')) {
       const cs = getComputedStyle(el);
       if ((cs.overflowY === 'auto' || cs.overflowY === 'scroll') && el.scrollHeight > el.clientHeight + 50) el.scrollTop += el.clientHeight; } }""")
-    page.wait_for_timeout(1500)
+    nap(page, 1500)
 
 
 def studio_rows(page):
@@ -291,7 +313,11 @@ def dismiss_popups(page):
         btn = page.get_by_role("button", name=name, exact=True)
         if btn.count() and btn.first.is_visible():
             btn.first.click()
-            page.wait_for_timeout(500)
+            nap(page, 500)
+
+
+def nap(page, ms):
+    page.wait_for_timeout(int(ms * SLOW))
 
 
 def normalize(text):

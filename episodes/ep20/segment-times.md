@@ -201,9 +201,9 @@ at 1082.74). Uploaded scheduled-private to Underpod Shorts, one a day at 2 PM PT
 | 2026-11-05 2 PM PT | `short6-platos-cave` | 2109.9000–2135.5200 (25.6 s) | Vitalik Built Plato's Cave for AI Agents - Ep 20 Clip | https://youtu.be/0yeLOhi8akQ |
 
 Funnel comments: `media/clips/ep20/pin-comments.json` added to the pin-comments LaunchAgent; pinning and
-the related-video button stay manual. TikTok: same thirteen enqueued at 2 PM PT daily in
-`media/clips/tiktok/queue.json`; scheduling blocked until the TikTok session is re-cloned (see
-`episodes/tiktok.md`).
+the related-video button stay manual. TikTok: same thirteen enqueued at 4 PM PT daily in
+`media/clips/tiktok/queue.json`, scheduled 2026-10-24 in one slow-paced Studio session (Nov 3–5 rerun on/after
+Oct 26); URLs in `episodes/tiktok.md`.
 
 ## Edit decisions of note
 
