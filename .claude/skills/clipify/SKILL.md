@@ -198,9 +198,10 @@ decision docs are in `podcast-video-edit`. For **each** clip include:
 - **Title** — platform-ready, with the hook **front-loaded in the first ~40 chars**
   (that's all the Shorts/Reels player shows). **NO `#Shorts` in the title** (house
   style, set by Jackson's Ep 4 edits) — routing comes from a `#shorts` hashtag in
-  the description instead. Long-form pulls: hook first, provenance as a **suffix**
-  — **house convention: `<Hook> - Ep N Clip`** (e.g. "The US Government AI Rugged
-  Us - Ep 2 Clip"). **NEVER a "Highlight -"/"Highlights:" prefix**:
+  the description instead. **The title is the hook and nothing else — NO `- Ep N Clip`
+  suffix** (Jackson, 2026-10-24: "that isn't how we do it"; the Ep 19 and Ep 20 shorts
+  are live without it, Ep 20's 13 were retitled via the API). Provenance lives in the
+  description's "Full episode:" line. **NEVER a "Highlight -"/"Highlights:" prefix**:
   the five Ep 1–4 clips that shipped with it did 5–92 views with bottom-decile
   retention (retitled Jul 2026; `yt_upload.py` lints for this).
 - **Caption** — one punchy sentence of context (assume the viewer has zero episode
@@ -365,14 +366,29 @@ own scheduler (up to 10 days ahead) — see step 5 of the YouTube flow for the p
   logged into TikTok (`Local State` + `Profile N/Cookies` + `Preferences`). Chrome MUST launch
   with the real keychain (`ignore_default_args=["--use-mock-keychain"]`) or every encrypted
   cookie is dropped and you look logged out. The script checks the account first and fails loudly.
-  Logged out → re-copy the Cookies file from the Chrome profile that has the session.
+  Logged out → the agent process CANNOT copy Chrome's Cookies file (macOS TCC; Finder and Terminal
+  are blocked too) and Chrome 155 refuses `--remote-debugging-port` on the default profile. What works:
+  open the clone profile headful on `tiktok.com/login`, poll `passport/web/account/info` until a username
+  appears, and have Jackson log in in that window (2026-10-24).
+- **Pacing (Jackson, 2026-10-24: "be careful not to trigger bot detection"):** always `--headful`, ONE
+  browser session for the batch, `--slow 3 --pause 180` (3–6 min between clips; 15–30 was overkill).
+  10 clips in ~50 min, no flag. Studio sometimes bounces the next upload page to the posts list right
+  after a schedule; the uploader retries an item once when nothing was in flight (`page_is_clean`).
 - **Flow Studio enforces:** wait for "Uploaded", dismiss the content-checks / "Got it" popups,
-  caption typed word-by-word so hashtag dropdowns close; Schedule radio → one-time "Allow"
+  caption typed word-by-word; **every hashtag is PICKED from the suggestion dropdown**
+  (`.hashtag-suggestion-item` whose first span equals the tag — click it; Studio turns the word into
+  a `span.mention[data-testid=mentionText]` and inserts the trailing space itself; Enter does NOT
+  select, it inserts a newline). A typed `#tag` left as text is NOT a hashtag (Jackson, 2026-10-24 —
+  every clip through Ep 20 shipped that way). The uploader fails closed if a tag gets no row or fewer
+  tags link than were typed. `#podcast` never gets a dropdown on TikTok, so it can never link; the
+  house tag is `#podcastclips`. **Open bug (2026-10-24):** clicking the LAST tag's row jumps the caret
+  into the body text and later keystrokes land mid-sentence — fix before the next run (candidate:
+  hashtags on their own trailing line, or press End after each click). Schedule radio → one-time "Allow"
   consent → hour/minute columns (`span.tiktok-timepicker-left/right`) and calendar
   (`span.day.valid`, month arrow) — values are read back from the inputs before posting; wait for
   "No issues found"; click Schedule/Post; answer "Continue to post?"; confirm the new row on
   `/tiktokstudio/content` (Studio redirects there; the row links `/@user/video/<id>`).
-- **Captions:** hook first, 2–4 hashtags, "Full episode: Permanent Underpod" by name only (TikTok
+- **Captions:** hook first, 2–4 hashtags ending in `#podcastclips`, "Full episode: Permanent Underpod" by name only (TikTok
   does not linkify, and other-platform links are a known downrank). Same house rules as YouTube
   copy: no employer names, no segment jargon. Sheet: `episodes/tiktok.md`.
 - History: 2026-10-03 ran as a daily LaunchAgent poster for one day before switching to Studio
@@ -430,7 +446,7 @@ python3 scripts/standalone_render.py episodes/standalones.json --emit-clips /tmp
 python3 scripts/standalone_manifest.py episodes/standalones.json episodes/standalones-copy.json /tmp/sa-manifest.json
 <venv>/bin/python scripts/yt_upload.py /tmp/sa-manifest.json             # then yt_captions.py per id
 ```
-Titles are the search query with NO `- Ep N Clip` suffix (standalone videos, not pulls);
+Titles are the search query (no episode suffix, same as every other clip since 2026-10-24);
 playlist Underpod Clips; Tuesday 6 PM PT weekly; description = one-line answer, parent
 link with `?t=`, chapters, hashtags. Chapter times in the manifest are derived from the spec,
 so edit the spec, never the mp4.

@@ -73,9 +73,11 @@ production files. Not affiliated with any employer.
    fresh data lands (e.g. first impressions/CTR backfill).
 
 ## Conventions / gotchas
-- **Clip titles:** hook first, `- Ep N Clip` suffix — the "Highlight -" prefix is
-  banned (data-backed; `yt_upload.py` lints for it). No `#Shorts` in titles; the
-  `#shorts` hashtag goes on the description's last line.
+- **Clip titles:** the hook, nothing else — NO `- Ep N Clip` suffix (Jackson, 2026-10-24;
+  `yt_upload.py` lints for it) and the "Highlight -" prefix is banned (data-backed). No
+  `#Shorts` in titles; the `#shorts` hashtag goes on the description's last line.
+- **TikTok hashtags** must be picked from Studio's dropdown (plaintext `#tag` is dead); house
+  tag `#podcastclips`, never `#podcast` (no dropdown). One headful session, `--slow 3 --pause 180`.
 - **`segment-times.md` reflects the ACTUAL published YouTube copy** (pulled via
   `yt_fetch.py`), in one consistent template across episodes — not pre-pro drafts.
 - **Captions:** upload the SRT regenerated from the FINAL cut, never the raw recording
