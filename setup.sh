@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# One-time setup to reproduce the Permanent Underpod editing toolkit on a new Mac.
+# One-time setup to reproduce the Underpod editing toolkit on a new Mac.
 # The skills themselves auto-load from .claude/skills/ when you open this repo in
 # Claude Code — this script just installs the external tools the pipeline shells out to.
 set -euo pipefail

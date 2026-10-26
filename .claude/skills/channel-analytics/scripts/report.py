@@ -176,7 +176,7 @@ def main():
   ul.exp li {{ margin:6px 0; }}
 </style></head><body><div class="wrap">
 <header>{logo_img}<div>
-  <h1>PERMANENT <span>UNDERPOD</span> — channel report</h1>
+  <h1><span>UNDERPOD</span> — channel report</h1>
   <div class="muted">pulled {esc(data['pulledAt'])} · {esc(data['range']['start'])} → {esc(data['range']['end'])}</div>
 </div></header>
 

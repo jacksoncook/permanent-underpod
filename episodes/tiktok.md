@@ -1,4 +1,4 @@
-# TikTok — @permanentunderpod
+# TikTok — @permanentunderpod (show rebranded to Underpod 2026-10-26; handle unchanged until Jackson renames it)
 
 Posting sheet for TikTok. Every clip goes to TikTok (house rule since 2026-10-03):
 `tt_enqueue.py` adds an episode's YouTube manifest to `media/clips/tiktok/queue.json`, and
@@ -17,7 +17,7 @@ Live state: `media/clips/tiktok/*.results.json`.
 | Wed Oct 8 | "Astra is my top guy" (6 · 1,051) | ep14/short2-top-guy | https://www.tiktok.com/@permanentunderpod/video/7692590859979722006 (scheduled 17:00 ET) |
 | Thu Oct 9 | Rolled dice 100 times (7 · 1,011) | ep9/short3-rolled-dice-100-times | https://www.tiktok.com/@permanentunderpod/video/7692591063843802390 (scheduled 17:00 ET) |
 
-- Captions live in the manifest: hook + "Full episode: Permanent Underpod" + 3–4 hashtags.
+- Captions live in the manifest: hook + "Full episode: Underpod" (since 2026-10-26; earlier posts say "Permanent Underpod") + 3–4 hashtags.
 - The Ep 1 short had no local master; it was pulled from YouTube with yt-dlp (1080x1920 h264).
 - Live state after each post: `media/clips/tiktok/manifest.json.results.json` and `tt_upload.log`.
 - Owed (manual, Jackson): YouTube channel link in the TikTok bio.
