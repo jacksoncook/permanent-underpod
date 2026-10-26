@@ -71,7 +71,7 @@ Use it only when the envelope shows a **falling** tail (the gate reports the tre
 
 A 1 s branded end card APPENDED to every branded vertical: dark card, logo pops
 to center on the sting hit (ease-out-back, peak on the transient at ~0.24 s),
-"PERMANENT UNDERPOD" wordmark + gold underline settle in. Funnel branding — the
+"UNDERPOD" wordmark + gold underline settle in. Funnel branding — the
 swipe-away moment shows the channel name, and since Shorts loop it also plays as
 the loop seam into the hook. Added 2026-08-10 after the 8/10 analytics review
 (14k shorts views → 1 sub).
@@ -292,7 +292,7 @@ Secrets live OUTSIDE the repo; never commit `client_secret.json` / `token.json`.
      where the full segment starts (pinning isn't in the API either).
   3. **End screens** on episodes and 16:9 clips → next episode / subscribe.
 - **Browser auth gotcha:** on the OAuth channel-picker screen, choose the
-  **Permanent Underpod brand channel**, not the personal account — the flow
+  **Underpod brand channel**, not the personal account — the flow
   defaults to personal, and a token is channel-bound (Ep 4's first batch landed
   on the wrong channel and had to be re-uploaded).
 
@@ -388,7 +388,7 @@ own scheduler (up to 10 days ahead) — see step 5 of the YouTube flow for the p
   (`span.day.valid`, month arrow) — values are read back from the inputs before posting; wait for
   "No issues found"; click Schedule/Post; answer "Continue to post?"; confirm the new row on
   `/tiktokstudio/content` (Studio redirects there; the row links `/@user/video/<id>`).
-- **Captions:** hook first, 2–4 hashtags ending in `#podcastclips`, "Full episode: Permanent Underpod" by name only (TikTok
+- **Captions:** hook first, 2–4 hashtags ending in `#podcastclips`, "Full episode: Underpod" by name only (TikTok
   does not linkify, and other-platform links are a known downrank). Same house rules as YouTube
   copy: no employer names, no segment jargon. Sheet: `episodes/tiktok.md`.
 - History: 2026-10-03 ran as a daily LaunchAgent poster for one day before switching to Studio

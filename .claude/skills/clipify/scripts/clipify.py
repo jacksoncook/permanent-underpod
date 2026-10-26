@@ -33,7 +33,7 @@ re-encode with NO overlays and NO audio processing — for slicing a segment out
 of an already-finished video.
 
 ender: spec-level `"ender": true` (or `{"duration": 1.0, "sting": path,
-"text": "PERMANENT UNDERPOD"}`) appends a ~1 s branded end card to every
+"text": "UNDERPOD"}`) appends a ~1 s branded end card to every
 branded VERTICAL clip: dark card, logo pops to center on the sting hit,
 wordmark + gold underline settle in. Funnel branding for shorts — the swipe
 moment shows the channel, and on Shorts it doubles as the loop seam.
@@ -95,7 +95,7 @@ def ender_cfg(c):
     if isinstance(e, dict):
         cfg.update(e)
     cfg.setdefault("duration", 1.0)
-    cfg.setdefault("text", "PERMANENT UNDERPOD")
+    cfg.setdefault("text", "UNDERPOD")
     if "sting" not in cfg:
         candidates = [
             os.path.join(os.path.dirname(LOGO or ""), "ender-sting.wav"),

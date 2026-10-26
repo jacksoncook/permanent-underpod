@@ -7,7 +7,7 @@
                       sources, and audience-retention curves for long-form videos
 
 usage:
-  yt_pull.py [out.json] [--expect-channel "Permanent Underpod"]
+  yt_pull.py [out.json] [--expect-channel "Underpod"]
     - reads  ~/.config/clipify-youtube/client_secret.json  (same OAuth client as clipify)
     - caches ~/.config/clipify-youtube/token_analytics.json (readonly + yt-analytics scopes)
     - default out.json: analytics/channel-data.json (relative to cwd)
@@ -16,7 +16,7 @@ Run with the uploader venv's python:
   ~/.config/clipify-youtube/.venv/bin/python yt_pull.py analytics/channel-data.json
 
 First run opens a browser — ON THE CHANNEL-SELECTION SCREEN PICK THE BRAND
-CHANNEL (Permanent Underpod), not the personal account. --expect-channel makes
+CHANNEL (Underpod), not the personal account. --expect-channel makes
 that mistake fatal instead of silent: on mismatch the token is deleted and the
 script exits so you can re-auth.
 """
@@ -54,7 +54,7 @@ def get_creds():
             if not os.path.exists(cs):
                 sys.exit(f"client_secret not found: {cs}\nSee clipify/youtube-setup.md.")
             print("Opening a browser to authorize analytics access…")
-            print(">>> PICK THE *PERMANENT UNDERPOD* BRAND CHANNEL on the second screen <<<")
+            print(">>> PICK THE *UNDERPOD* BRAND CHANNEL on the second screen <<<")
             c = InstalledAppFlow.from_client_secrets_file(cs, SCOPES).run_local_server(port=0)
         os.makedirs(CFG, exist_ok=True)
         with open(TOKEN, "w") as f:

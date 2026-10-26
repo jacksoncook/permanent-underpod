@@ -1,10 +1,11 @@
-# CLAUDE.md — Permanent Underpod
+# CLAUDE.md — Underpod
 
 Quick orientation for agents. Full details are in `README.md` (pipeline + publishing)
 and the two skills under `.claude/skills/`.
 
 ## What this is
-A Bitcoin / stablecoins / AI podcast (hosts: Jackson, Chris, Tyler). This repo is the
+Underpod: an AI, Bitcoin, and stablecoins podcast (hosts: Jackson, Chris, Tyler;
+rebranded from "Permanent Underpod" 2026-10-26, wordmark is just UNDERPOD). This repo is the
 **source of truth for producing the show** — editing toolkit, brand, and per-episode
 production files. Not affiliated with any employer.
 
@@ -44,7 +45,7 @@ production files. Not affiliated with any employer.
   `.claude/skills/clipify/youtube-setup.md`.
 - **channel-analytics**: `yt_pull.py` pulls channel/video stats + retention curves +
   traffic sources + impressions/CTR; LLM writes `analytics/insights.json`; `report.py`
-  renders a branded HTML report. Always `--expect-channel "Permanent Underpod"`.
+  renders a branded HTML report. Always `--expect-channel "Underpod"`.
 
 ## Managing the pod (the weekly cycle, across the three skills)
 1. **Record** (hosts — not automatable, but remind them): check-in ≤60 s, one

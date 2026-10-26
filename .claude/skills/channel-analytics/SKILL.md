@@ -13,15 +13,15 @@ Same OAuth client as clipify (`~/.config/clipify-youtube/client_secret.json`), r
 scripts with the uploader venv's python: `~/.config/clipify-youtube/.venv/bin/python`.
 This skill uses its own token (`token_analytics.json`, scopes: `youtube.readonly` +
 `yt-analytics.readonly`). First run opens a browser — **the user must pick the
-Permanent Underpod BRAND channel on the channel-selection screen**, not the personal
-account. Always pass `--expect-channel "Permanent Underpod"` so a wrong pick fails
+Underpod BRAND channel on the channel-selection screen**, not the personal
+account. Always pass `--expect-channel "Underpod"` so a wrong pick fails
 loudly (token auto-deleted) instead of silently reading the wrong channel.
 
 ## 1. Pull
 ```bash
 ~/.config/clipify-youtube/.venv/bin/python \
   .claude/skills/channel-analytics/scripts/yt_pull.py \
-  analytics/channel-data.json --expect-channel "Permanent Underpod"
+  analytics/channel-data.json --expect-channel "Underpod"
 ```
 Produces one JSON: channel totals, every video (metadata + public stats + lifetime
 analytics: watch min, avg view duration/%, shares, subs gained), **audience-retention

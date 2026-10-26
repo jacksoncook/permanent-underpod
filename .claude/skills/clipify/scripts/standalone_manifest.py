@@ -46,7 +46,7 @@ def main():
         link = f"https://youtu.be/{c['id']}?t={int(tsec(first['start']))}"
         desc = (f"{c['answer']}\n\nFull conversation (Episode {c['ep']}): {link}\n\n"
                 + "\n".join(f"{mmss(s)} {name}" for name, s in marks)
-                + "\n\nPermanent Underpod: Bitcoin, stablecoins and AI, weekly. Opinions are our own, "
+                + "\n\nUnderpod: AI, Bitcoin, and stablecoins, weekly. Opinions are our own, "
                   "not our employers'. Not financial advice.\n\n" + c["hashtags"])
         ups.append({"file": os.path.abspath(os.path.join(spec["out_dir"], f"{it['name']}.mp4")),
                     "captions": os.path.abspath(os.path.join(spec["out_dir"], f"{it['name']}.srt")),

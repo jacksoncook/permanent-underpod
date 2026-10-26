@@ -5,7 +5,7 @@ usage: tt_enqueue.py <yt-upload-manifest.json> [media/clips/tiktok/queue.json] [
 
 Each upload entry becomes a queue item: postOn = the Pacific date of its YouTube publishAt (never
 earlier than today; bumped to the next free day if that date is already taken), caption = hook (title minus the
-" - Ep N Clip" suffix) + first description line + "Full episode: Permanent Underpod." + the
+" - Ep N Clip" suffix) + first description line + "Full episode: Underpod." + the
 description's hashtags minus #shorts. Idempotent: files already queued are skipped. The YouTube
 video id is copied from <manifest>.results.json when it exists. tt_upload.py drains the queue.
 """
@@ -80,7 +80,7 @@ def caption_for(up):
         tags.append("#podcastclips")
     if hook[-1:].isalnum():
         hook += "."
-    parts = [hook, body, "Full episode: Permanent Underpod.", " ".join(tags)]
+    parts = [hook, body, "Full episode: Underpod.", " ".join(tags)]
     return " ".join(p for p in parts if p)
 
 

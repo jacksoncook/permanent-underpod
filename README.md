@@ -1,8 +1,9 @@
-# Permanent Underpod
+# Underpod
 
-A podcast about **Bitcoin, stablecoins, and AI**, hosted by Jackson (Korea
+A podcast about **AI, Bitcoin, and stablecoins**, hosted by Jackson (Korea
 markets), Chris (stablecoins / DEXs), and Tyler (Bitcoin & Lightning data).
-The name riffs on "permanent underclass." Not affiliated with any employer.
+Rebranded 2026-10-26 from "Permanent Underpod" (the name riffed on "permanent
+underclass"); the couch logo stayed, the kicker went. Not affiliated with any employer.
 
 This repo is the **source of truth for producing the show**: the editing
 toolkit, the brand assets, and per-episode production files (transcripts,

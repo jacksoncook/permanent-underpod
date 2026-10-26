@@ -6,8 +6,7 @@ usage: <workdir>/.venv/bin/python graphics.py <workdir> <brand.json>
 
 brand.json schema (all text decided by the LLM):
 {
-  "show": "PERMANENT UNDERPOD", "show_kicker": "PERMANENT",
-  "show_main": "UNDERPOD",                  # logo text lines
+  "show": "UNDERPOD", "show_main": "UNDERPOD",   # logo wordmark (show_kicker is optional; unset since the 2026-10 rebrand)
   "accent": [255, 210, 74],
   "source": "/path/raw.mov",
   "title_card": {"bg_frame": 2410, "line": "EPISODE 1 · Bitcoin · Stablecoins · AI", "dur": 4.5},
@@ -59,9 +58,16 @@ def make_logo():
     d.rounded_rectangle([(96, 258), (384, 282)], radius=10, fill=ACC)    # base
     d.rectangle([(120, 282), (146, 306)], fill=ACC); d.rectangle([(334, 282), (360, 306)], fill=ACC)
     k = " ".join(BRAND.get("show_kicker", "")) or None
+    main = BRAND.get("show_main", BRAND["show"])
     if k:
         center(d, 322, k, font(BOLD_F, 27), WHITE, w=S)
-    center(d, 358, BRAND.get("show_main", BRAND["show"]), font(BLACK_F, 56), ACC, w=S)
+        center(d, 358, main, font(BLACK_F, 56), ACC, w=S)
+    else:
+        f = font(BLACK_F, 74)
+        while d.textbbox((0, 0), main, font=f)[2] > S * 0.80:
+            f = font(BLACK_F, f.size - 2)
+        bb = d.textbbox((0, 0), main, font=f)
+        center(d, (306 + S - 9) / 2 - (bb[3] - bb[1]) / 2 - bb[1], main, f, ACC, w=S)
     img.save(os.path.join(WORK, "logo.png"))
     return img
 
