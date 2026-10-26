@@ -20,6 +20,9 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont
 import json, os, subprocess, sys
 
 WORK, BRAND = sys.argv[1], json.load(open(sys.argv[2]))
+if BRAND.get("show_kicker") or "PERMANENT" in BRAND.get("show", "").upper():
+    sys.exit("brand.json still carries the pre-2026-10-26 brand (show_kicker / PERMANENT). "
+             "Use \"show\": \"UNDERPOD\", \"show_main\": \"UNDERPOD\", no show_kicker.")
 W, H = 1280, 720
 ACC = tuple(BRAND.get("accent", [255, 210, 74])) + (255,)
 WHITE = (255, 255, 255, 255)

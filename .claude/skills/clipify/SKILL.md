@@ -69,9 +69,12 @@ Use it only when the envelope shows a **falling** tail (the gate reports the tre
 
 ## The ender (HOUSE DEFAULT for shorts — put `"ender": true` in every clips.json)
 
-A 1 s branded end card APPENDED to every branded vertical: dark card, logo pops
-to center on the sting hit (ease-out-back, peak on the transient at ~0.24 s),
-"UNDERPOD" wordmark + gold underline settle in. Funnel branding — the
+A 1 s branded end card APPENDED to every branded vertical: dark card, the UNDERPOD
+badge pops to center on the sting hit (ease-out-back, peak on the transient at ~0.24 s),
+"AI · BITCOIN · STABLECOINS" tagline + gold underline settle in under it (since the
+2026-10-26 rebrand the badge carries the wordmark, so the text line is the tagline).
+The badge comes from the spec's `"logo"` — point it at `brand/logo-480.png` or a
+`<work>/logo.png` built by graphics.py from a kicker-less brand.json. Funnel branding — the
 swipe-away moment shows the channel name, and since Shorts loop it also plays as
 the loop seam into the hook. Added 2026-08-10 after the 8/10 analytics review
 (14k shorts views → 1 sub).

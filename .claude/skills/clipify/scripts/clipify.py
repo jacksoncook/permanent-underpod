@@ -33,9 +33,10 @@ re-encode with NO overlays and NO audio processing — for slicing a segment out
 of an already-finished video.
 
 ender: spec-level `"ender": true` (or `{"duration": 1.0, "sting": path,
-"text": "UNDERPOD"}`) appends a ~1 s branded end card to every
-branded VERTICAL clip: dark card, logo pops to center on the sting hit,
-wordmark + gold underline settle in. Funnel branding for shorts — the swipe
+"text": "AI  ·  BITCOIN  ·  STABLECOINS"}`) appends a ~1 s branded end card to
+every branded VERTICAL clip: dark card, the UNDERPOD badge pops to center on
+the sting hit, the tagline + gold underline settle in under it (rebrand
+2026-10-26: the badge carries the wordmark, so the text line is the tagline). Funnel branding for shorts — the swipe
 moment shows the channel, and on Shorts it doubles as the loop seam.
 Per-clip `"ender": false` opts out; per-clip `"ender": true` forces it on a
 non-vertical branded clip. Never applied to "plain" clips. The sting defaults
@@ -82,6 +83,7 @@ def ts(v):
     return s
 
 ENDER = SPEC.get("ender")
+ENDER_TAGLINE = "AI  ·  BITCOIN  ·  STABLECOINS"
 
 def ender_cfg(c):
     """Resolve the ender for one clip: dict when active, else None."""
@@ -95,7 +97,7 @@ def ender_cfg(c):
     if isinstance(e, dict):
         cfg.update(e)
     cfg.setdefault("duration", 1.0)
-    cfg.setdefault("text", "UNDERPOD")
+    cfg.setdefault("text", ENDER_TAGLINE)
     if "sting" not in cfg:
         candidates = [
             os.path.join(os.path.dirname(LOGO or ""), "ender-sting.wav"),
@@ -120,13 +122,13 @@ def ender_frames(w, h, nf, text):
     logo = Image.open(LOGO).convert("RGBA")
     lw = int(m * 0.46)
     lh = int(logo.height * lw / logo.width)
-    fsz = int(m * 0.058)
-    font = ImageFont.truetype(BLACK_F, fsz)
+    fsz = int(m * 0.046)
+    font = ImageFont.truetype(BOLD_F, fsz)
     tb = ImageDraw.Draw(Image.new("RGBA", (1, 1))).textbbox((0, 0), text, font=font)
     tw, th = tb[2] - tb[0], tb[3] - tb[1]
     while tw > w * 0.88:
         fsz -= 2
-        font = ImageFont.truetype(BLACK_F, fsz)
+        font = ImageFont.truetype(BOLD_F, fsz)
         tb = ImageDraw.Draw(Image.new("RGBA", (1, 1))).textbbox((0, 0), text, font=font)
         tw, th = tb[2] - tb[0], tb[3] - tb[1]
     bar_w, bar_h, gap = int(tw * 0.6), max(6, m // 150), int(m * 0.045)
