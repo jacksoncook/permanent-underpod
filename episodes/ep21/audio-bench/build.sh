@@ -18,5 +18,6 @@ render 3_wpe_eq_v3      dr/j_full_wpe.wav "highpass=f=80,$EQ,$COMP"
 render 4_wpe_eq_gate_v2 dr/j_full_wpe.wav "$GATE,highpass=f=80,$EQ,$COMP"
 render 5_wpe_lighteq    dr/j_full_wpe.wav "highpass=f=80,$EQL,$COMP"
 render 6_eq_no_wpe      dr/j_raw48.wav    "highpass=f=80,$EQ,$COMP"
+render 8_wpe_eq_softgate_v4 dr/j_full_wpe.wav "agate=threshold=0.004:ratio=3:range=0.15:attack=3:release=300:knee=4,highpass=f=80,$EQ,$COMP"
 render 7_wpe_eq_denoise dr/j_full_wpe.wav "highpass=f=80,afftdn=nr=24:nf=-45:tn=1,$EQ,$COMP"
 echo built

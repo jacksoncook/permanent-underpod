@@ -5,7 +5,7 @@ filename deltas) plus Chris's screen share of the Perp of Fortune dashboard: ful
 then a persistent top-right PiP for the rest of the show (Kalshi link painted out of the share) ·
 four-beat 45 s cold open · title card · end card · whoosh + gold wipe on all 11 transitions · 11 explainer
 cards (Chris's 7702 / nonce / 3-SAT walkthroughs visualised) · three LIKE + SUBSCRIBE pop-ups · Jackson's
-bathroom laptop-mic track dereverbed + EQ'd (no gate), Chris on the Ep 18 EQ chain · bathroom roll call
+bathroom laptop-mic track dereverbed + soft-gated + EQ'd, Chris on the Ep 18 EQ chain · bathroom roll call
 moved mid-show as an intermission · ~6.2 min of content removed, 16 dead-air pauses trimmed (21 s).**
 
 ## Episode video
@@ -240,6 +240,10 @@ whiteboard" (44:50), "vibe coded, total spaghetti" (49:30), "we've lost another 
   more than 6 dB, and the −48 to −60 dB band (where a quiet laptop mic's trailing syllables live) was cut 10 dB+.
   Gate removed (his between-word floor is already −77 dB median from StreamYard's own gating), track rebuilt,
   re-cut, re-rendered: 0 of 1,965 tails attenuated. Lesson: never put a level gate on the quietest mic.
+- **v3 → v4 (Jackson's bench pick):** on the A/B bench (`episodes/ep21/audio-bench/`) Jackson preferred 4, the v2
+  gated chain (6, EQ without dereverb, a close second but "crackly"). What 4 buys is dead-clean silence between
+  words. v4 keeps that with the gate opened up: threshold −48 dB, ratio 3, range −16 dB, release 300 ms. Measured:
+  room tone between words −12 dB (v2's gate: −16), word tails 0 of 1,965 attenuated (v2: 14%).
 - **Sync bench not built:** StreamYard filename deltas as in Ep 14–20; Jackson to confirm by ear on the
   live copy; `offsets.json` is the knob.
 - **No disclaimer spoken on any track — THIRTEENTH episode running.** End card + descriptions carry it.
