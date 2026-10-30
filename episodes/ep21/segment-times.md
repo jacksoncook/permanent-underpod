@@ -5,7 +5,7 @@ filename deltas) plus Chris's screen share of the Perp of Fortune dashboard: ful
 then a persistent top-right PiP for the rest of the show (Kalshi link painted out of the share) ·
 four-beat 45 s cold open · title card · end card · whoosh + gold wipe on all 11 transitions · 11 explainer
 cards (Chris's 7702 / nonce / 3-SAT walkthroughs visualised) · three LIKE + SUBSCRIBE pop-ups · Jackson's
-bathroom laptop-mic track dereverbed + gated + EQ'd, Chris on the Ep 18 EQ chain · bathroom roll call
+bathroom laptop-mic track dereverbed + EQ'd (no gate), Chris on the Ep 18 EQ chain · bathroom roll call
 moved mid-show as an intermission · ~6.2 min of content removed, 16 dead-air pauses trimmed (21 s).**
 
 ## Episode video
@@ -91,7 +91,7 @@ GLOSSARY
 
 | Time | Segment |
 |---|---|
-| 0:00 | Cold open (4 beats: "yes there is a toilet, but do not forget there is also a bidet" · "five B-illions, not M, not T" · "three billion's enough for me" · Chris: "it's vibe coded and it's total spaghetti") |
+| 0:00 | Cold open (4 beats: "yes there is a toilet, but do not forget there is also a bidet" · Chris: "it's vibe coded and it's total spaghetti" · "five B-illions, not M, not T" · "three billion's enough for me") |
 | 0:45 | Title card |
 | 0:50 | The Permanent Underpod is dead: the rebrand, first Tyler and Chris are hearing of it; "are we going to rebrand as the Overpod?" |
 | 2:16 | Cohere says Qwen 3.8 phoned Beijing: Tyler's Manchurian-candidate explainer, then what actually happened (an Alibaba Cloud bucket) |
@@ -130,10 +130,10 @@ overlapping mic muted for the edge); content cuts were micro-whispered at both e
 | Final | What | src out → src in |
 |---|---|---|
 | 0:00.00 | cold open beat 1 (the bidet) | → 23.00 |
-| 0:06.27 | cold open beat 2 ("five B-illions"; Chris muted on the in, hard edges) | 29.25 → 789.12 |
-| 0:22.83 | cold open beat 3 ("three billion's enough"; Chris muted) | 805.70 → 1625.80 |
-| 0:31.93 | cold open beat 4 (the ugly simulation hypothesis) | 1634.90 → 3254.54 |
-| 0:45.30 | title card | 3267.92 → |
+| 0:06.27 | cold open beat 2 (Chris: the ugly simulation hypothesis) | 29.25 → 3254.54 |
+| 0:19.63 | cold open beat 3 ("five B-illions"; Chris muted on the in, hard edges) | 3267.92 → 789.12 |
+| 0:36.20 | cold open beat 4 ("three billion's enough"; Chris muted) | 805.70 → 1625.80 |
+| 0:45.30 | title card | 1634.90 → |
 | 0:49.80 | intro, in on "you guys may be wondering, what is the Underpod?" (hard edge drops "Also") | → 48.26 |
 | 6:36.87 | dead-air trim (0.85 s) | 395.34 → 396.19 |
 | 9:03.23 | 46 s of Cohere wrap crosstalk removed; out after "we send to Claude or to OpenAI" (Chris + Tyler muted on the out), in on "a sandbox company found something in their sandbox" | 542.56 → 588.27 |
@@ -212,13 +212,14 @@ whiteboard" (44:50), "vibe coded, total spaghetti" (49:30), "we've lost another 
   against lower thirds: Cohere's trace (6:13), 7702 delegation (13:52), the drain (15:53), the nonce block
   (16:36), the freezes (17:24), the audit numbers (34:06, over Jackson), complexity curves (42:40), 3-SAT
   clauses with ∨ ∧ ¬ (43:42), reductions (44:21), ETH old vs new bound (44:48), P vs NP diagram (47:37).
-- **Cold open, 4 beats in 45.3 s** (6.3 / 16.6 / 9.1 / 13.4 s): the bidet, "five B-illions", "three
-  billion's enough for me", "vibe coded and it's total spaghetti". Under the 60 s hard cap.
+- **Cold open, 4 beats in 45.3 s** (6.3 / 13.4 / 16.6 / 9.1 s): the bidet, Chris's "vibe coded and it's total
+  spaghetti", "five B-illions", "three billion's enough for me". Chris sits between the Jackson beats
+  (Jackson's v2 note: too much Jackson at the start). Under the 60 s hard cap.
 - **Three LIKE + SUBSCRIBE pop-ups** at 1:57.8 (INTRO, over the Overpod banter), 28:45.3 (SAEZ, Jackson's
   setup line, after the lower third clears) and 54:02.9 (SAT_B, the Alibaba peptides bit): 6 s windows
   clear of cards, wipes, lower thirds, stats and PiP entrances, found by `mk_render.py`'s window search.
 - **Jackson's bathroom audio:** MacBook built-in mic in a tiled bathroom. WPE dereverb (nara_wpe, 48 kHz,
-  40 taps; 40/60/80 taps measured identical on the p90−p10 envelope metric, so 40) → `agate` expander →
+  40 taps; 40/60/80 taps measured identical on the p90−p10 envelope metric, so 40) →
   280 Hz −7 dB, +3.5 dB at 3 kHz, +7.5 dB shelves at 7 and 11 kHz → gentle comp, built as
   `src/jackson_720dr.mov` (`dr/build.sh`). StreamYard's own gate leaves digital-zero gaps, so the
   envelope-based boundary checks still work. Chris on the Ep 18 EQ chain (`src/chris_720eq.mov`), Tyler
@@ -233,7 +234,12 @@ whiteboard" (44:50), "vibe coded, total spaghetti" (49:30), "we've lost another 
   before "So I'm not a mathematician", Tyler's "And so, yeah" muted), the SAT in-point starting on "us human
   brains" (moved to "but we transition"), whisper word times off by seconds on the gated tracks (every edge
   re-measured on the 10 ms envelope).
-- **v1 → v2:** the logo bug (top-left) sat on the card titles; every card anim now carries `hide_logo` so the bug drops out for the card window. Audio untouched between the two renders.
+- **v1 → v2:** the logo bug (top-left) sat on the card titles; every card anim now carries `hide_logo` so the bug drops out for the card window.
+- **v2 → v3 (Jackson's review: "my voice is chopped off at the end of words"):** the `agate` expander in his
+  bathroom chain was closing on his word tails. Measured against the WPE output: 14% of 1,965 word endings lost
+  more than 6 dB, and the −48 to −60 dB band (where a quiet laptop mic's trailing syllables live) was cut 10 dB+.
+  Gate removed (his between-word floor is already −77 dB median from StreamYard's own gating), track rebuilt,
+  re-cut, re-rendered: 0 of 1,965 tails attenuated. Lesson: never put a level gate on the quietest mic.
 - **Sync bench not built:** StreamYard filename deltas as in Ep 14–20; Jackson to confirm by ear on the
   live copy; `offsets.json` is the knob.
 - **No disclaimer spoken on any track — THIRTEENTH episode running.** End card + descriptions carry it.
