@@ -11,7 +11,9 @@ moved mid-show as an intermission · ~6.2 min of content removed, 16 dead-air pa
 
 ## Episode video
 
-- **URL:** _not uploaded yet — Jackson uploads manually._
+- **URL:** YouTube _not uploaded yet — Jackson uploads manually._
+- **Spotify:** published 2026-10-30 15:44 EDT as "How Hackers Drained Billions From Binance" (video, 56:35), via the
+  accessibility-tree watcher in `spotify-watch/` once the upload finished.
 - **File:** `media/ep21/Underpod - Ep 21 (Final Cut)_v2.mp4` (Jackson's pick: v6 cut + low-end restore on his track).
   `Underpod - Ep 21 (Final Cut).mp4` is the v6 render without it.
 - **Thumbnail:** `media/ep21/ep21-thumbnail.png` — "$6.3 BILLION, ONE SIGNATURE" (Jackson center laughing
