@@ -10,3 +10,13 @@ render chain, loudness-matched to about −16.5 LUFS. Number 8 is what shipped i
 
 Matching curve derived from the long-term speech spectrum of `work/dr/ep20_raw.wav` vs the v6 chain output
 (`work/enh/matcheq_cur.txt`, applied with `firequalizer`).
+
+Round 2b — Resemble Enhance (neural denoise + enhance, `work/enh/`, MPS, nfe 64, lambd 0.9, tau 0.5), then the
+render chain only (no bathroom EQ, no gate):
+
+- **11_resemble_raw** — Resemble on the raw laptop track.
+- **12_resemble_wpe** — Resemble on the WPE-dereverbed track.
+
+Install notes: current torch (no 2.1.1 pin), `--no-deps resemble-enhance`, stub `deepspeed`, `torchcodec`,
+`weights_only=False` on the three `torch.load` calls, `fsolve(...)[0]` in `lcfm/cfm.py`, and the HF model repo
+needs `git lfs pull` (the clone ships LFS pointers). ~5 s per 30 s passage.
