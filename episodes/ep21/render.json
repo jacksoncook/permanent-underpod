@@ -1,5 +1,5 @@
 {
- "out": "/Users/jcook/Personal/permanent-underpod/media/ep21/Underpod - Ep 21 (Final Cut).mp4",
+ "out": "/Users/jcook/Personal/permanent-underpod/media/ep21/Underpod - Ep 21 (Final Cut)_v2.mp4",
  "chain": "highpass=f=80,afftdn=nr=14:nf=-50:tn=1,volume=6dB,adynamicequalizer=dfrequency=6800:dqfactor=2.5:tfrequency=6800:tqfactor=2.5:mode=cutabove:threshold=0.01:ratio=4:range=8:attack=2:release=40,acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,treble=f=9500:width_type=q:w=0.8:g=1.5,loudnorm=I=-16:TP=-1.5:LRA=5",
  "target_lufs": -11.8,
  "limit": 0.7,

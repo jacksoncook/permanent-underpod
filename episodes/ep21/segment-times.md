@@ -12,13 +12,14 @@ moved mid-show as an intermission · ~6.2 min of content removed, 16 dead-air pa
 ## Episode video
 
 - **URL:** _not uploaded yet — Jackson uploads manually._
-- **File:** `media/ep21/Underpod - Ep 21 (Final Cut).mp4`
+- **File:** `media/ep21/Underpod - Ep 21 (Final Cut)_v2.mp4` (Jackson's pick: v6 cut + low-end restore on his track).
+  `Underpod - Ep 21 (Final Cut).mp4` is the v6 render without it.
 - **Thumbnail:** `media/ep21/ep21-thumbnail.png` — "$6.3 BILLION, ONE SIGNATURE" (Jackson center laughing
   mid-fist-pump at the $40 loss, Tyler left smiling at the bathroom reveal, Chris right laughing at the
   Walmart gift cards; passed the 320×180 shrink test).
-- **Loudness (v6):** delivered −15.2 LUFS integrated, −2.6 dBTP, LRA 3.6 (chain in `render.json`: Ep 20 front-end
+- **Loudness (`_v2`):** delivered −15.1 LUFS integrated, −2.6 dBTP, LRA 3.7 (v6: −15.2 / −2.6 / 3.6) (chain in `render.json`: Ep 20 front-end
   with the 6.8 kHz dynamic de-esser, target_lufs −11.8 / limit 0.7). A/V durations 3394.50 / 3394.52 s.
-- **Sync check (v6):** final audio cross-correlated against `edited_raw.mov` at 1:40, 15:00, 30:00, 45:00, 55:00
+- **Sync check (`_v2` and v6):** final audio cross-correlated against `edited_raw.mov` at 1:40, 15:00, 30:00, 45:00, 55:00
   and 56:10 — lag a constant 35 ms at every point (same as Ep 15–20; no drift).
 - **LIKE + SUBSCRIBE:** pop-up on frame at 1:57.8, 28:48.4 and 54:06.0, SFX paired in each window. Dashboard
   PiP on frame from 3:39 (full-frame reveal, PiP from 3:47) to the end card.
@@ -258,6 +259,11 @@ alpha" (56:08).
   gated chain (6, EQ without dereverb, a close second but "crackly"). What 4 buys is dead-clean silence between
   words. v4 keeps that with the gate opened up: threshold −48 dB, ratio 3, range −16 dB, release 300 ms. Measured:
   room tone between words −12 dB (v2's gate: −16), word tails 0 of 1,965 attenuated (v2: 14%).
+- **v6 → `_v2` file (Jackson's round-2 bench pick, #9):** his Ep 20 mic has ~11 dB more body below 300 Hz than the
+  laptop mic through the v6 chain (long-term speech spectra, `work/enh/matcheq_cur.txt`). #9 puts +6 to +8 dB back from
+  80 to 320 Hz (`firequalizer`, nothing above 400 Hz touched) after the comp. Rendered to a separate file,
+  `Underpod - Ep 21 (Final Cut)_v2.mp4`, so v6 stays. Same cut, same times, same captions; only his track changed.
+  Bench: `episodes/ep21/audio-bench/round2-README.md`.
 - **v5 → v6 (Jackson's review of v5):** order confirmed as-is. His `interlude.m4a` (3.1 s) is now a TIMETRAVEL card
   ("a break from the madness", `card_interlude.mov`, insert block) right before the bathroom intermission: whoosh +
   wipe into it, wipe out of it. And the "ends of my words still cut off" report was real but NOT the audio chain:
