@@ -16,10 +16,10 @@ moved mid-show as an intermission · ~6.2 min of content removed, 16 dead-air pa
 - **Thumbnail:** `media/ep21/ep21-thumbnail.png` — "$6.3 BILLION, ONE SIGNATURE" (Jackson center laughing
   mid-fist-pump at the $40 loss, Tyler left smiling at the bathroom reveal, Chris right laughing at the
   Walmart gift cards; passed the 320×180 shrink test).
-- **Loudness:** see the v5 QA line below (chain in `render.json`: Ep 20 front-end with the 6.8 kHz dynamic
-  de-esser, target_lufs −11.8 / limit 0.7; v4 delivered −15.3 LUFS, −2.3 dBTP, LRA 3.6).
-- **Sync check:** final audio cross-correlated against `edited_raw.mov` at six points incl. 56:13 — lag a
-  constant 35 ms (same as Ep 15–20; no drift).
+- **Loudness (v6):** delivered −15.2 LUFS integrated, −2.6 dBTP, LRA 3.6 (chain in `render.json`: Ep 20 front-end
+  with the 6.8 kHz dynamic de-esser, target_lufs −11.8 / limit 0.7). A/V durations 3394.50 / 3394.52 s.
+- **Sync check (v6):** final audio cross-correlated against `edited_raw.mov` at 1:40, 15:00, 30:00, 45:00, 55:00
+  and 56:10 — lag a constant 35 ms at every point (same as Ep 15–20; no drift).
 - **LIKE + SUBSCRIBE:** pop-up on frame at 1:57.8, 28:48.4 and 54:06.0, SFX paired in each window. Dashboard
   PiP on frame from 3:39 (full-frame reveal, PiP from 3:47) to the end card.
 - **Captions:** `episodes/ep21/transcript-attributed.srt` — regenerated from the FINAL cut (v5 order).
