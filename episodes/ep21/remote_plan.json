@@ -1,17 +1,6 @@
 {
  "blocks": [
   {
-   "id": "COLD_A",
-   "m0": 23.0,
-   "m1": 29.25,
-   "hard_m1": true
-  },
-  {
-   "id": "COLD_D",
-   "m0": 3254.54,
-   "m1": 3267.94
-  },
-  {
    "id": "COLD_B",
    "m0": 789.12,
    "m1": 805.7,
@@ -24,6 +13,17 @@
      793.5
     ]
    ]
+  },
+  {
+   "id": "COLD_D",
+   "m0": 3254.54,
+   "m1": 3267.94
+  },
+  {
+   "id": "COLD_A",
+   "m0": 23.0,
+   "m1": 29.25,
+   "hard_m1": true
   },
   {
    "id": "COLD_C",
@@ -45,25 +45,14 @@
   {
    "id": "INTRO",
    "m0": 48.26,
-   "m1": 542.57,
-   "hard_m0": true,
-   "mute": [
-    [
-     "chris",
-     538.3,
-     543.0
-    ],
-    [
-     "tyler",
-     537.0,
-     543.0
-    ]
-   ]
+   "m1": 133.72,
+   "hard_m0": true
   },
   {
-   "id": "COHERE_B",
-   "m0": 587.22,
-   "m1": 696.55
+   "id": "PERP_A",
+   "m0": 609.45,
+   "m1": 696.55,
+   "hard_m0": true
   },
   {
    "id": "PERP_B",
@@ -80,6 +69,33 @@
    "id": "PERP_D",
    "m0": 1608.54,
    "m1": 1821.58
+  },
+  {
+   "id": "COHERE",
+   "m0": 133.72,
+   "m1": 542.57,
+   "mute": [
+    [
+     "chris",
+     538.3,
+     543.0
+    ],
+    [
+     "tyler",
+     537.0,
+     543.0
+    ]
+   ]
+  },
+  {
+   "id": "COHERE_C",
+   "m0": 587.22,
+   "m1": 609.45,
+   "hard_m1": true
+  },
+  {
+   "id": "INTERLUDE",
+   "insert": "/Users/jcook/Personal/permanent-underpod/media/ep21/work/card_interlude.mov"
   },
   {
    "id": "BATH",
@@ -489,42 +505,42 @@
   },
   {
    "name": "lt_cohere",
-   "block": "INTRO",
+   "block": "COHERE",
    "m": 140.0,
    "dur": 6,
    "kind": "lt"
   },
   {
    "name": "st_manchurian",
-   "block": "INTRO",
+   "block": "COHERE",
    "m": 236.0,
    "dur": 7,
    "kind": "st"
   },
   {
    "name": "st_sleeper",
-   "block": "INTRO",
+   "block": "COHERE",
    "m": 417.0,
    "dur": 8,
    "kind": "st"
   },
   {
    "name": "st_15min",
-   "block": "COHERE_B",
+   "block": "COHERE_C",
    "m": 590.0,
    "dur": 7,
    "kind": "st"
   },
   {
    "name": "lt_perp",
-   "block": "COHERE_B",
+   "block": "PERP_A",
    "m": 611.0,
    "dur": 6,
    "kind": "lt"
   },
   {
    "name": "st_bets",
-   "block": "COHERE_B",
+   "block": "PERP_A",
    "m": 624.0,
    "dur": 8,
    "kind": "st"
@@ -791,7 +807,7 @@
  ],
  "sheet": [
   {
-   "block": "COLD_A",
+   "block": "COLD_B",
    "label": "Cold open"
   },
   {
@@ -799,17 +815,17 @@
    "label": "The Permanent Underpod is dead: the rebrand"
   },
   {
-   "block": "INTRO",
+   "block": "COHERE",
    "m": 134.0,
    "label": "Cohere says Qwen 3.8 phoned Beijing"
   },
   {
-   "block": "INTRO",
+   "block": "COHERE",
    "m": 416.0,
    "label": "Sleeper agents: the paper behind the panic"
   },
   {
-   "block": "COHERE_B",
+   "block": "PERP_A",
    "m": 609.6,
    "label": "Perp of Fortune: short BNB 10x and the hourly Bitcoin flip"
   },
@@ -854,7 +870,7 @@
    "label": "Who can even spend it? North Korea wants Steam games"
   },
   {
-   "block": "BATH",
+   "block": "INTERLUDE",
    "label": "Intermission: live from the bathroom"
   },
   {

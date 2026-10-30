@@ -9,7 +9,7 @@
  "source": "/Users/jcook/Personal/permanent-underpod/media/ep21/work/src/jackson_720.mp4",
  "title_card": {
   "bg_frame": 1850,
-  "line": "EPISODE 21   ·   The $5 Billion Signature   ·   AI  ·  Bitcoin  ·  Stablecoins",
+  "line": "EPISODE 21   ·   The $6.3 Billion Signature   ·   AI  ·  Bitcoin  ·  Stablecoins",
   "dur": 4.5
  },
  "end_card": {
@@ -41,7 +41,7 @@
   },
   {
    "name": "binance",
-   "kicker": "THE $5 BILLION HACK",
+   "kicker": "THE $6.3 BILLION HACK",
    "title": "ONE DELEGATE CALL DRAINED BINANCE WALLET 14"
   },
   {
@@ -253,7 +253,7 @@
   }
  ],
  "thumbnail": {
-  "text": "$5 BILLION, ONE SIGNATURE",
+  "text": "$6.3 BILLION, ONE SIGNATURE",
   "out": "/Users/jcook/Personal/permanent-underpod/media/ep21/ep21-thumbnail.png",
   "faces": [
    {

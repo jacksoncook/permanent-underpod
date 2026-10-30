@@ -14,7 +14,12 @@
  "sfx": [
   {
    "file": "sfx_whoosh.wav",
-   "block": "COLD_B",
+   "block": "COLD_D",
+   "offset": -0.15
+  },
+  {
+   "file": "sfx_whoosh.wav",
+   "block": "COLD_A",
    "offset": -0.15
   },
   {
@@ -24,23 +29,13 @@
   },
   {
    "file": "sfx_whoosh.wav",
-   "block": "COLD_D",
-   "offset": -0.15
-  },
-  {
-   "file": "sfx_whoosh.wav",
    "block": "INTRO",
    "offset": -0.3
   },
   {
    "file": "sfx_whoosh.wav",
-   "block": "INTRO",
-   "offset": 85.16
-  },
-  {
-   "file": "sfx_whoosh.wav",
-   "block": "COHERE_B",
-   "offset": 20.93
+   "block": "PERP_A",
+   "offset": -0.3
   },
   {
    "file": "sfx_whoosh.wav",
@@ -49,7 +44,12 @@
   },
   {
    "file": "sfx_whoosh.wav",
-   "block": "BATH",
+   "block": "COHERE",
+   "offset": -0.3
+  },
+  {
+   "file": "sfx_whoosh.wav",
+   "block": "INTERLUDE",
    "offset": -0.3
   },
   {
@@ -91,15 +91,15 @@
  "anim": [
   {
    "file": "wipe.mov",
-   "start": 6.087,
-   "end": 6.487,
+   "start": 16.387,
+   "end": 16.787,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 19.453,
-   "end": 19.853,
+   "start": 29.753,
+   "end": 30.153,
    "x": 0,
    "y": 0
   },
@@ -126,152 +126,159 @@
   },
   {
    "file": "wipe.mov",
-   "start": 135.08,
-   "end": 135.48,
-   "x": 0,
-   "y": 0
-  },
-  {
-   "file": "cards/c_cohere_12.mov",
-   "start": 373.54,
-   "end": 385.54,
-   "x": 0,
-   "y": 0,
-   "hide_logo": true
-  },
-  {
-   "file": "wipe.mov",
-   "start": 564.283,
-   "end": 564.683,
+   "start": 135.087,
+   "end": 135.487,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 698.683,
-   "end": 699.083,
+   "start": 269.517,
+   "end": 269.917,
    "x": 0,
    "y": 0
   },
   {
    "file": "cards/c_7702_12.mov",
-   "start": 832.537,
-   "end": 844.537,
+   "start": 403.37,
+   "end": 415.37,
    "x": 0,
    "y": 0,
    "hide_logo": true
   },
   {
    "file": "cards/c_drain_12.mov",
-   "start": 953.537,
-   "end": 965.537,
+   "start": 524.37,
+   "end": 536.37,
    "x": 0,
    "y": 0,
    "hide_logo": true
   },
   {
    "file": "cards/c_nonce_12.mov",
-   "start": 996.537,
-   "end": 1008.537,
+   "start": 567.37,
+   "end": 579.37,
    "x": 0,
    "y": 0,
    "hide_logo": true
   },
   {
    "file": "cards/c_freeze_10.mov",
-   "start": 1044.537,
-   "end": 1054.537,
+   "start": 615.37,
+   "end": 625.37,
    "x": 0,
    "y": 0,
    "hide_logo": true
   },
   {
    "file": "wipe.mov",
-   "start": 1667.587,
-   "end": 1667.987,
+   "start": 1238.42,
+   "end": 1238.82,
+   "x": 0,
+   "y": 0
+  },
+  {
+   "file": "cards/c_cohere_12.mov",
+   "start": 1476.88,
+   "end": 1488.88,
+   "x": 0,
+   "y": 0,
+   "hide_logo": true
+  },
+  {
+   "file": "wipe.mov",
+   "start": 1667.553,
+   "end": 1667.953,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 1715.153,
-   "end": 1715.553,
+   "start": 1670.62,
+   "end": 1671.02,
+   "x": 0,
+   "y": 0
+  },
+  {
+   "file": "wipe.mov",
+   "start": 1718.187,
+   "end": 1718.587,
    "x": 0,
    "y": 0
   },
   {
    "file": "likesub.mov",
-   "start": 1725.333,
-   "end": 1731.333,
+   "start": 1728.367,
+   "end": 1734.367,
    "x": 0,
    "y": 0
   },
   {
    "file": "cards/c_audit_14.mov",
-   "start": 2046.403,
-   "end": 2060.403,
+   "start": 2049.437,
+   "end": 2063.437,
    "x": 0,
    "y": 0,
    "hide_logo": true
   },
   {
    "file": "wipe.mov",
-   "start": 2496.553,
-   "end": 2496.953,
+   "start": 2499.587,
+   "end": 2499.987,
    "x": 0,
    "y": 0
   },
   {
    "file": "cards/c_curves_14.mov",
-   "start": 2560.533,
-   "end": 2574.533,
+   "start": 2563.567,
+   "end": 2577.567,
    "x": 0,
    "y": 0,
    "hide_logo": true
   },
   {
    "file": "cards/c_clauses_16.mov",
-   "start": 2622.533,
-   "end": 2638.533,
+   "start": 2625.567,
+   "end": 2641.567,
    "x": 0,
    "y": 0,
    "hide_logo": true
   },
   {
    "file": "cards/c_reduce_12.mov",
-   "start": 2661.533,
-   "end": 2673.533,
+   "start": 2664.567,
+   "end": 2676.567,
    "x": 0,
    "y": 0,
    "hide_logo": true
   },
   {
    "file": "cards/c_eth_14.mov",
-   "start": 2688.533,
-   "end": 2702.533,
+   "start": 2691.567,
+   "end": 2705.567,
    "x": 0,
    "y": 0,
    "hide_logo": true
   },
   {
    "file": "cards/c_pnp_14.mov",
-   "start": 2857.09,
-   "end": 2871.09,
+   "start": 2860.123,
+   "end": 2874.123,
    "x": 0,
    "y": 0,
    "hide_logo": true
   },
   {
    "file": "likesub.mov",
-   "start": 3242.933,
-   "end": 3248.933,
+   "start": 3245.967,
+   "end": 3251.967,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 3308.233,
-   "end": 3308.633,
+   "start": 3311.267,
+   "end": 3311.667,
    "x": 0,
    "y": 0
   }

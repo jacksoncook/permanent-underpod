@@ -35,8 +35,14 @@ IDLE_GAIN = PLAN.get('params', {}).get('idle_gain', 0.12)
 WIDTHS = {3: [426, 428, 426], 2: [640, 640], 1: [1280]}
 
 def clip_path(i, c):
-    """Cache key includes the piece spec so an edited cutlist can never reuse a stale clip."""
-    h = hashlib.md5(json.dumps(c, sort_keys=True).encode()).hexdigest()[:10]
+    """Cache key includes the piece spec AND the mtimes of every source file it reads, so neither
+    an edited cutlist nor a rebuilt source track (Ep 21: jackson_720dr.mov re-processed in place,
+    272 cached pieces kept the old gated audio) can reuse a stale clip."""
+    files = [a['file'] for a in c.get('audio', [])] + [p['file'] for p in c.get('panels', [])]
+    if 'insert' in c:
+        files.append(c['insert'])
+    stamp = [round(os.path.getmtime(f), 3) for f in files if os.path.exists(f)]
+    h = hashlib.md5((json.dumps(c, sort_keys=True) + json.dumps(stamp)).encode()).hexdigest()[:10]
     return os.path.join(CLIPDIR, f"c{i:03d}_{h}.mov")
 
 
