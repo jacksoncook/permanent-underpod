@@ -1,0 +1,282 @@
+{
+ "show": "UNDERPOD",
+ "show_main": "UNDERPOD",
+ "accent": [
+  255,
+  210,
+  74
+ ],
+ "source": "/Users/jcook/Personal/permanent-underpod/media/ep21/work/src/jackson_720.mp4",
+ "title_card": {
+  "bg_frame": 1850,
+  "line": "EPISODE 21   ·   The $5 Billion Signature   ·   AI  ·  Bitcoin  ·  Stablecoins",
+  "dur": 4.5
+ },
+ "end_card": {
+  "bg_frame": 3000,
+  "kicker": "NEXT WEEK ON",
+  "lines": [
+   "Contrarian corner: fire everyone but the engineers",
+   "Anthropic's one-person biotech · Liquid, graded after the hack · Perp of Fortune",
+   "Not financial advice. Our opinions are ours, not our employers'."
+  ],
+  "cta": "LIKE  +  SUBSCRIBE",
+  "dur": 7
+ },
+ "lower_thirds": [
+  {
+   "name": "intro",
+   "kicker": "EPISODE 21",
+   "title": "THE PERMANENT UNDERPOD IS DEAD"
+  },
+  {
+   "name": "cohere",
+   "kicker": "QWEN PHONED BEIJING",
+   "title": "A SANDBOX COMPANY FOUND SOMETHING IN ITS SANDBOX"
+  },
+  {
+   "name": "perp",
+   "kicker": "PERP OF FORTUNE",
+   "title": "SHORT BNB 10×  +  THE HOURLY BITCOIN FLIP"
+  },
+  {
+   "name": "binance",
+   "kicker": "THE $5 BILLION HACK",
+   "title": "ONE DELEGATE CALL DRAINED BINANCE WALLET 14"
+  },
+  {
+   "name": "7702",
+   "kicker": "EIP-7702",
+   "title": "POWER OF ATTORNEY FOR YOUR WALLET, IN ONE SIGNATURE"
+  },
+  {
+   "name": "legal",
+   "kicker": "THE LEGAL LINE",
+   "title": "IS ARBING A HACKER'S DUMP MONEY LAUNDERING?"
+  },
+  {
+   "name": "lazarus",
+   "kicker": "WHO DID IT?",
+   "title": "NOT UP TO NORTH KOREA'S USUAL STANDARD"
+  },
+  {
+   "name": "bath",
+   "kicker": "INTERMISSION",
+   "title": "LIVE FROM THE BATHROOM"
+  },
+  {
+   "name": "saez",
+   "kicker": "THE AI AUDIT",
+   "title": "2,035 PROBLEMS IN 138 SAEZ–ZUCMAN WORKS"
+  },
+  {
+   "name": "physics",
+   "kicker": "PEER REVIEW BY MODEL",
+   "title": "THE AI WAS RIGHT IN EVERY DISPUTE"
+  },
+  {
+   "name": "sat",
+   "kicker": "3-SAT",
+   "title": "THE EXPONENTIAL TIME HYPOTHESIS IS FALSE"
+  },
+  {
+   "name": "pnp",
+   "kicker": "P vs NP",
+   "title": "HOW FALSE IS IT? EVERYONE'S FREAKING OUT"
+  },
+  {
+   "name": "ugly",
+   "kicker": "THE UGLY SIMULATION HYPOTHESIS",
+   "title": "VIBE CODED. TOTAL SPAGHETTI."
+  },
+  {
+   "name": "crypto",
+   "kicker": "THE COROLLARY",
+   "title": "IF THE HARDNESS BREAKS, SO DOES CRYPTOGRAPHY"
+  },
+  {
+   "name": "utopia",
+   "kicker": "IF P = NP",
+   "title": "PERFECT CALENDARS, PEPTIDES, NO FREE WILL"
+  },
+  {
+   "name": "wrap",
+   "kicker": "PERP OF FORTUNE",
+   "title": "FINAL NUMBERS"
+  }
+ ],
+ "stats": [
+  {
+   "name": "coldopen",
+   "kicker": "EPISODE 21",
+   "main": "In this pod…"
+  },
+  {
+   "name": "manchurian",
+   "kicker": "TYLER",
+   "main": "the Manchurian candidate risk"
+  },
+  {
+   "name": "sleeper",
+   "kicker": "ANTHROPIC, 2024",
+   "main": "Sleeper Agents: deception survives safety training"
+  },
+  {
+   "name": "15min",
+   "kicker": "JACKSON",
+   "main": "\"thank you Cohere, if only for 15–20 minutes\""
+  },
+  {
+   "name": "bets",
+   "kicker": "TWO BETS",
+   "main": "SHORT BNB 10×  ·  hourly Bitcoin flip"
+  },
+  {
+   "name": "egg",
+   "kicker": "JACKSON",
+   "main": "\"it looks like an egg… is it a moon?\""
+  },
+  {
+   "name": "5b",
+   "kicker": "THE NUMBER",
+   "main": "$5 B-illions · not M, not T"
+  },
+  {
+   "name": "cousin",
+   "kicker": "CHRIS",
+   "main": "\"my 11-year-old cousin gambling on pump.fun\""
+  },
+  {
+   "name": "arb",
+   "kicker": "ON-CHAIN",
+   "main": "ETH $3,000 on-chain vs $2,200 on exchanges"
+  },
+  {
+   "name": "gas",
+   "kicker": "ONE SWAP",
+   "main": "$120,000 in gas · still made $250,000"
+  },
+  {
+   "name": "pillow",
+   "kicker": "TYLER",
+   "main": "\"the money-in-the-pillowcase protocol\""
+  },
+  {
+   "name": "3b",
+   "kicker": "JACKSON",
+   "main": "\"three billion's enough for me\""
+  },
+  {
+   "name": "walmart",
+   "kicker": "TYLER",
+   "main": "laundering $100Ms one Walmart gift card at a time"
+  },
+  {
+   "name": "steam",
+   "kicker": "CHRIS",
+   "main": "\"North Korea buys a lot of Steam games\""
+  },
+  {
+   "name": "bidet",
+   "kicker": "JACKSON",
+   "main": "\"yes there is a toilet, but there is also a bidet\""
+  },
+  {
+   "name": "coin",
+   "kicker": "TYLER",
+   "main": "\"heads 95 times out of 100: a fixed coin\""
+  },
+  {
+   "name": "7pct",
+   "kicker": "TYLER",
+   "main": "93% validated · the AI won all 7% of disputes"
+  },
+  {
+   "name": "astrology",
+   "kicker": "JACKSON",
+   "main": "\"economics is astrology for men\""
+  },
+  {
+   "name": "arxiv",
+   "kicker": "CHRIS",
+   "main": "\"download the top 1,000 papers and audit them\""
+  },
+  {
+   "name": "ccp",
+   "kicker": "JACKSON",
+   "main": "\"or use Qwen 3.8 and send it to the CCP\""
+  },
+  {
+   "name": "whiteboard",
+   "kicker": "TYLER",
+   "main": "\"get this man a whiteboard\""
+  },
+  {
+   "name": "loadbearing",
+   "kicker": "CHRIS",
+   "main": "\"what other conjectures are we leaning on?\""
+  },
+  {
+   "name": "ugly",
+   "kicker": "CHRIS",
+   "main": "\"the AI proofs are hideously ugly\""
+  },
+  {
+   "name": "40",
+   "kicker": "JACKSON",
+   "main": "\"we've lost another $40\""
+  },
+  {
+   "name": "peptides",
+   "kicker": "TYLER",
+   "main": "\"you can just find peptides on Alibaba, dude\""
+  },
+  {
+   "name": "gigajacked",
+   "kicker": "JACKSON",
+   "main": "500 years old · biceps the size of a globe"
+  },
+  {
+   "name": "final",
+   "kicker": "FINAL",
+   "main": "flip −$18.29 settled · BNB short −$3.06"
+  },
+  {
+   "name": "druck",
+   "kicker": "CHRIS",
+   "main": "Druckenmiller posted Hyperliquid."
+  },
+  {
+   "name": "inverse",
+   "kicker": "TYLER",
+   "main": "\"negative alpha is also alpha: the inverse Cramer\""
+  }
+ ],
+ "thumbnail": {
+  "text": "$5 BILLION, ONE SIGNATURE",
+  "out": "/Users/jcook/Personal/permanent-underpod/media/ep21/ep21-thumbnail.png",
+  "faces": [
+   {
+    "track": "jackson",
+    "t": 3278.0,
+    "cx": 640,
+    "top": 90,
+    "h": 630
+   },
+   {
+    "track": "tyler",
+    "t": 40.0,
+    "cx": 250,
+    "top": 120,
+    "h": 590
+   },
+   {
+    "track": "chris",
+    "t": 1699.0,
+    "cx": 1040,
+    "top": 140,
+    "h": 570
+   }
+  ]
+ }
+}

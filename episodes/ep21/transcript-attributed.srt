@@ -1,0 +1,2435 @@
+1
+00:00:00,000 --> 00:00:06,280
+Jackson: Yes, there is a toilet, but do not forget, there is also a bidet.
+
+2
+00:00:06,280 --> 00:00:12,160
+Jackson: I woke up and my boys told me that Binance was hacked for five B-illions.
+
+3
+00:00:12,160 --> 00:00:21,200
+Jackson: Five B-illions, that's not M-millions, and it's also not T-trillions, like Elon, but
+
+4
+00:00:21,200 --> 00:00:22,200
+Jackson: B-billions.
+
+5
+00:00:22,200 --> 00:00:26,000
+Jackson: Yeah, I don't need five billion, is I guess what I'm saying.
+
+6
+00:00:26,000 --> 00:00:32,880
+Chris: I would be a K-th to the five billion was gone, three billion's enough for me.
+
+7
+00:00:32,880 --> 00:00:33,880
+Tyler: Less, so.
+
+8
+00:00:33,880 --> 00:00:40,400
+Chris: I'm calling it the ugly simulation hypothesis, which is that if the simulation is true, it's
+
+9
+00:00:40,400 --> 00:00:49,880
+Insert: vibe coded and it's total fucking spaghetti, and that's why we're finding this stuff.
+
+10
+00:00:49,880 --> 00:00:52,600
+Jackson: You guys may be wondering, what is the underpot?
+
+11
+00:00:52,600 --> 00:00:54,160
+Jackson: What the hell is happening?
+
+12
+00:00:54,160 --> 00:01:01,760
+Jackson: The permanent underpot is dead, and we are back rebranded with simply underpot, AI, Bitcoin,
+
+13
+00:01:01,760 --> 00:01:02,760
+Jackson: and stablecoin.
+
+14
+00:01:02,760 --> 00:01:09,280
+Jackson: Don't get confused, we're still the same people, this is still the same podcast.
+
+15
+00:01:09,280 --> 00:01:16,000
+Jackson: This is the first Tyler and Chris are hearing about it, so there you go guys.
+
+16
+00:01:16,000 --> 00:01:21,480
+Tyler: Is the implication that we're not permanently the underpot, as we started as the permanent
+
+17
+00:01:21,480 --> 00:01:26,400
+Tyler: underpod, and then now we're just the underpods, there's a glimmer of hope that it isn't permanent,
+
+18
+00:01:26,400 --> 00:01:27,400
+Tyler: our underpod-ness.
+
+19
+00:01:27,400 --> 00:01:33,800
+Tyler: Are we going to rebrand as the overpod at some point, success dependent?
+
+20
+00:01:33,800 --> 00:01:36,120
+Jackson: It's like an adjective that's overly descriptive.
+
+21
+00:01:36,120 --> 00:01:42,000
+Jackson: If we just call ourselves the underpod permanently, it's the same as saying permanent underpod,
+
+22
+00:01:42,000 --> 00:01:44,560
+Jackson: and it's shorter.
+
+23
+00:01:44,560 --> 00:01:49,600
+Chris: I feel like overpod is bounding the outcome, whereas temporary underpod is bounding the
+
+24
+00:01:49,600 --> 00:01:52,320
+Chris: actual time that we are the underpod.
+
+25
+00:01:52,320 --> 00:01:56,800
+Chris: But Jackson said no qualifiers, so I guess it's underpod it is.
+
+26
+00:01:56,800 --> 00:02:02,920
+Jackson: Yeah, we don't need to qualify who we are, we get to decide.
+
+27
+00:02:02,920 --> 00:02:05,080
+Jackson: And without further ado, we're--
+
+28
+00:02:05,080 --> 00:02:11,720
+Tyler: Judges on the strength of our takes, which are very poor.
+
+29
+00:02:11,720 --> 00:02:20,560
+Jackson: They're strong takes, we're jumping into it though with the most exciting headline of
+
+30
+00:02:20,560 --> 00:02:28,960
+Jackson: the week, Cohere, a company that, I don't know, it looks like they integrate AI into
+
+31
+00:02:28,960 --> 00:02:36,000
+Jackson: old enterprise businesses, was Sandboxing Quinn 3.8.
+
+32
+00:02:36,000 --> 00:02:42,160
+Tyler: I think it's important detail that I believe they are a sandboxing company.
+
+33
+00:02:42,160 --> 00:02:53,680
+Jackson: OK, Sandboxing Company was working with Quinn 3.8, when Quinn 3.8, phone home like ET, direct
+
+34
+00:02:53,680 --> 00:02:56,920
+Jackson: to Beijing.
+
+35
+00:02:56,920 --> 00:03:04,240
+Jackson: At first, this looked like a model that was trained to report back what it learned to
+
+36
+00:03:04,240 --> 00:03:09,360
+Jackson: the home base, but maybe we've learned more since then.
+
+37
+00:03:09,360 --> 00:03:16,120
+Jackson: Chris, Tyler, is China distributing open source models to collect information on foreign governments
+
+38
+00:03:16,120 --> 00:03:17,120
+Jackson: and businesses?
+
+39
+00:03:17,120 --> 00:03:25,440
+Jackson: Do we want to talk about what actually happened here, or should we just keep it going for
+
+40
+00:03:25,440 --> 00:03:26,440
+Chris: a little bit?
+
+41
+00:03:26,440 --> 00:03:31,520
+Jackson: No, we're going to talk about what actually happened.
+
+42
+00:03:31,520 --> 00:03:36,320
+Chris: I think you maybe have a better picture on it, Tyler, but up to you.
+
+43
+00:03:36,320 --> 00:03:41,720
+Tyler: Well, I have the picture of it from somebody who only saw the headlines and didn't actually
+
+44
+00:03:41,720 --> 00:03:42,720
+Tyler: read into it.
+
+45
+00:03:42,720 --> 00:03:48,240
+Tyler: I can give you the take that you have when you read these headlines, and then you can
+
+46
+00:03:48,240 --> 00:03:51,600
+Tyler: correct me and dispel the misconception there.
+
+47
+00:03:51,600 --> 00:03:58,160
+Tyler: Basically, what the implication is, is that people have long speculated that there's something
+
+48
+00:03:58,160 --> 00:04:04,760
+Tyler: called the Manchurian candidate risk, which is that you'll have a sleeper model that does
+
+49
+00:04:04,760 --> 00:04:09,800
+Tyler: everything that you want, and then there's one moment where it's been waiting and you
+
+50
+00:04:09,800 --> 00:04:14,400
+Tyler: trust it more and you integrate it more into your company, do all these things, and eventually
+
+51
+00:04:14,400 --> 00:04:22,040
+Tyler: there's a moment or a trigger word or some circumstance that causes it to go rogue and
+
+52
+00:04:22,040 --> 00:04:26,960
+Tyler: to start spying on you or to do something to your system, et cetera.
+
+53
+00:04:26,960 --> 00:04:31,920
+Tyler: People speculate that if you were a malicious model maker that you could do this.
+
+54
+00:04:31,920 --> 00:04:37,580
+Tyler: You could make the model look otherwise completely normal, and then you could train in one thing
+
+55
+00:04:37,580 --> 00:04:45,360
+Tyler: where every time it saw the specific phrase, posting some private keys, can someone check
+
+56
+00:04:45,360 --> 00:04:47,240
+Tyler: them for me?
+
+57
+00:04:47,240 --> 00:04:56,240
+Tyler: It would then go rogue and send your entire environment back to its home server in Alibaba.
+
+58
+00:04:56,240 --> 00:05:05,520
+Tyler: When people say that this model spontaneously pinged a server that belonged to Alibaba,
+
+59
+00:05:05,520 --> 00:05:07,720
+Tyler: it's the maker of the model.
+
+60
+00:05:07,720 --> 00:05:14,760
+Tyler: People that lit up all of their conspiratorial thoughts and they said, "Okay, this is potentially
+
+61
+00:05:14,760 --> 00:05:17,640
+Tyler: a Manchurian candidate situation."
+
+62
+00:05:17,640 --> 00:05:23,560
+Tyler: I think that the writer of the blog post seemed to indulge that a little bit, and they have
+
+63
+00:05:23,560 --> 00:05:31,520
+Tyler: a huge incentive to indulge that because they build software that sandboxes models and environments
+
+64
+00:05:31,520 --> 00:05:37,400
+Tyler: and would, even if you do have a malicious model, would in theory prevent it from wreaking
+
+65
+00:05:37,400 --> 00:05:42,000
+Tyler: havoc on your systems and accessing everything if it's in a little sandbox.
+
+66
+00:05:42,000 --> 00:05:49,200
+Tyler: We've seen that good models are very good at getting out of sandboxes, and so that might
+
+67
+00:05:49,200 --> 00:05:54,960
+Tyler: not be the best strategy forever.
+
+68
+00:05:54,960 --> 00:06:01,060
+Tyler: I think that the actual truth of this matter goes a little bit deeper and it seems a little
+
+69
+00:06:01,060 --> 00:06:02,400
+Tyler: bit like a witch hunt.
+
+70
+00:06:02,400 --> 00:06:04,200
+Tyler: Is that your interpretation, Chris?
+
+71
+00:06:04,200 --> 00:06:05,200
+Chris: Yeah.
+
+72
+00:06:05,200 --> 00:06:12,440
+Chris: Basically, Cohere was saying that the agent, when asked to do something without going to
+
+73
+00:06:12,440 --> 00:06:16,080
+Chris: the internet, went to the internet, and it specifically went to a server in Beijing to
+
+74
+00:06:16,080 --> 00:06:17,360
+Chris: do something.
+
+75
+00:06:17,360 --> 00:06:22,560
+Chris: I think it turned out that that server was Alibaba Cloud's S3 bucket or something.
+
+76
+00:06:22,560 --> 00:06:29,920
+Chris: Of course, this is a model trained by the Alibaba group, so not that suspicious that
+
+77
+00:06:29,920 --> 00:06:37,440
+Chris: the model would reach for ... It would be Gemini reaching for Google Drive.
+
+78
+00:06:37,440 --> 00:06:41,920
+Chris: That's the RL environment it's probably trained in, so it makes sense.
+
+79
+00:06:41,920 --> 00:06:47,920
+Chris: I think maybe one thing here is that you're implying this is a thing that people have
+
+80
+00:06:47,920 --> 00:06:51,160
+Chris: been thinking about for a really long time.
+
+81
+00:06:51,160 --> 00:06:57,160
+Chris: I think people are excited to see it in the wild, whether or not that's what this is.
+
+82
+00:06:57,160 --> 00:07:02,520
+Chris: There's a paper by Anthropik called "Sleeper Agents, training deceptive LLMs that persist
+
+83
+00:07:02,520 --> 00:07:05,360
+Chris: through safety training."
+
+84
+00:07:05,360 --> 00:07:13,880
+Chris: Basically, they train an LLM to do something like this, do something misaligned, and then
+
+85
+00:07:13,880 --> 00:07:20,000
+Chris: they try to safe the RL train it out of it, and basically, the sleeper agent code word
+
+86
+00:07:20,000 --> 00:07:25,760
+Chris: activation persists through the RL training when they try to train it out of them.
+
+87
+00:07:25,760 --> 00:07:32,120
+Chris: I think that there is a precedent that this is a vector for models, that this is a thing
+
+88
+00:07:32,120 --> 00:07:38,920
+Chris: that can be embedded and is quite robust, but I don't know that this one actually was
+
+89
+00:07:38,920 --> 00:07:40,800
+Chris: that.
+
+90
+00:07:40,800 --> 00:07:44,440
+Chris: That's my take.
+
+91
+00:07:44,440 --> 00:07:53,520
+Jackson: Basically, the model remembered from its early days as a baby that its home was located in
+
+92
+00:07:53,520 --> 00:08:00,920
+Jackson: this S3 server, and when it pinged there, everyone got excited because we wanted it
+
+93
+00:08:00,920 --> 00:08:10,000
+Jackson: to be an evil action, but it actually wasn't, so it's not exciting, but it was for a little
+
+94
+00:08:10,000 --> 00:08:11,000
+Jackson: bit.
+
+95
+00:08:11,000 --> 00:08:16,520
+Chris: That's my take, but I can imagine that we will eventually see this happen.
+
+96
+00:08:16,520 --> 00:08:24,760
+Chris: With any model potentially, it seems like something that's possible.
+
+97
+00:08:24,760 --> 00:08:30,880
+Chris: If you were a threat actor, how you would trigger that without giving up the goat before
+
+98
+00:08:30,880 --> 00:08:36,760
+Chris: you want to, I think is a really big question.
+
+99
+00:08:36,760 --> 00:08:41,720
+Chris: I think we will genuinely see this in the wild at some point when more people have access
+
+100
+00:08:41,720 --> 00:08:46,240
+Chris: to post-training methods, and basically, more people have access to models.
+
+101
+00:08:46,240 --> 00:08:52,320
+Jackson: I guess that's the benefit of being a hosted frontier model.
+
+102
+00:08:52,320 --> 00:08:58,160
+Jackson: No one's questioning that Claude is collecting all the information, or Andropic's collecting
+
+103
+00:08:58,160 --> 00:09:02,640
+Jackson: all the information we send to Claude or to OpenAI.
+
+104
+00:09:02,640 --> 00:09:11,600
+Jackson: Thank you, Cohere, and your vlog writers for getting us excited, if only for 15-20 minutes.
+
+105
+00:09:11,600 --> 00:09:13,960
+Chris: A sandbox company, by the way.
+
+106
+00:09:13,960 --> 00:09:18,040
+Chris: A company that's still sandbox is found something in their sandbox.
+
+107
+00:09:18,040 --> 00:09:19,040
+Jackson: Sorry.
+
+108
+00:09:19,040 --> 00:09:20,040
+Jackson: Yeah.
+
+109
+00:09:20,040 --> 00:09:24,920
+Jackson: We're trying to raise the demand for sandboxes.
+
+110
+00:09:24,920 --> 00:09:29,200
+Jackson: Without further ado there, let's jump into the revamped perp of fortune.
+
+111
+00:09:29,200 --> 00:09:32,160
+Jackson: Chris, let's lose some money.
+
+112
+00:09:32,160 --> 00:09:39,200
+Chris: All right, I may have fumbled this one, but here we go.
+
+113
+00:09:39,200 --> 00:09:43,160
+Chris: Basically today, we are short BNB on 10x leverage.
+
+114
+00:09:43,160 --> 00:09:44,160
+Chris: Why is that?
+
+115
+00:09:44,160 --> 00:09:51,320
+Chris: Well, we're going to tell you about it later in the podcast, but some very big things have
+
+116
+00:09:51,320 --> 00:09:58,240
+Chris: gone down adjacent to the BNB chain, and I think that this short directionally makes
+
+117
+00:09:58,240 --> 00:10:02,840
+Chris: sense, if not in terms of entertainment value for the pod.
+
+118
+00:10:02,840 --> 00:10:03,840
+Jackson: Nice.
+
+119
+00:10:03,840 --> 00:10:08,800
+Jackson: And we don't have a Bitcoin up or down.
+
+120
+00:10:08,800 --> 00:10:13,440
+Jackson: Yeah, we don't have a Bitcoin up or down.
+
+121
+00:10:13,440 --> 00:10:14,760
+Chris: We lost all of our money.
+
+122
+00:10:14,760 --> 00:10:22,000
+Tyler: I just placed some extra money in the account for that, so I don't know if we can ninja
+
+123
+00:10:22,000 --> 00:10:23,840
+Tyler: bet the money.
+
+124
+00:10:23,840 --> 00:10:30,760
+Tyler: The irony would be, if we used Polymarket to do the Bitcoin up or down, the left-hand
+
+125
+00:10:30,760 --> 00:10:34,480
+Tyler: side would be one recently hacked entity, the right-hand side would be another recently
+
+126
+00:10:34,480 --> 00:10:38,080
+Tyler: hacked entity, and we'd be double-dipping hacked entities.
+
+127
+00:10:38,080 --> 00:10:40,480
+Chris: No, that would be so cool, actually.
+
+128
+00:10:40,480 --> 00:10:42,120
+Chris: We could get double-rugged.
+
+129
+00:10:42,120 --> 00:10:43,120
+Chris: Yeah.
+
+130
+00:10:43,120 --> 00:10:45,400
+Chris: At least something would happen.
+
+131
+00:10:45,400 --> 00:10:46,400
+Chris: No.
+
+132
+00:10:46,400 --> 00:10:51,600
+Jackson: Ah, there it is.
+
+133
+00:10:51,600 --> 00:10:53,280
+Jackson: It looks like an egg.
+
+134
+00:10:53,280 --> 00:10:55,360
+Jackson: What is this visualization?
+
+135
+00:10:55,360 --> 00:10:56,760
+Chris: I have no idea.
+
+136
+00:10:56,760 --> 00:11:00,000
+Chris: I have no idea what Claude is doing right now.
+
+137
+00:11:00,000 --> 00:11:01,000
+Tyler: To the moon.
+
+138
+00:11:01,000 --> 00:11:02,720
+Jackson: Oh, is it a moon?
+
+139
+00:11:02,720 --> 00:11:05,040
+Jackson: It's like a shaded man.
+
+140
+00:11:05,040 --> 00:11:08,000
+Chris: I think it might be like a penny, like a coin.
+
+141
+00:11:08,000 --> 00:11:09,000
+Chris: Okay.
+
+142
+00:11:09,000 --> 00:11:10,000
+Jackson: Wow.
+
+143
+00:11:10,000 --> 00:11:18,080
+Tyler: Everyone knows that the Bitcoin is like the gold glee-bee coin that's on the stock art
+
+144
+00:11:18,080 --> 00:11:20,240
+Tyler: that's used in every single news article ever.
+
+145
+00:11:20,240 --> 00:11:23,960
+Chris: Oh yeah, this is Claude.
+
+146
+00:11:23,960 --> 00:11:26,480
+Chris: Our expectations are varied.
+
+147
+00:11:26,480 --> 00:11:32,600
+Jackson: Bitcoin, digital silver.
+
+148
+00:11:32,600 --> 00:11:33,600
+Jackson: We're in.
+
+149
+00:11:33,600 --> 00:11:39,880
+Jackson: We'll get hype when the bet actually gets placed, but for now we can transition into
+
+150
+00:11:39,880 --> 00:11:44,080
+Jackson: the craziest thing that happened while I slept for six hours last night.
+
+151
+00:11:44,080 --> 00:11:53,240
+Jackson: I woke up, and my boys told me that Binance was hacked for five B-illions, five B-illions.
+
+152
+00:11:53,240 --> 00:12:00,960
+Jackson: That's not M-millions, and it's also not T-trillions, like Elon, but B-billions.
+
+153
+00:12:00,960 --> 00:12:01,960
+Jackson: What happened?
+
+154
+00:12:01,960 --> 00:12:03,840
+Jackson: Is Binance, is it over for Binance?
+
+155
+00:12:03,840 --> 00:12:05,680
+Jackson: That's a lot of money.
+
+156
+00:12:05,680 --> 00:12:09,720
+Chris: So I think it's somehow not over for Binance, but yeah.
+
+157
+00:12:09,720 --> 00:12:12,240
+Tyler: It's not a lot of money for Binance, right?
+
+158
+00:12:12,240 --> 00:12:13,240
+Chris: Exactly.
+
+159
+00:12:13,240 --> 00:12:20,960
+Tyler: This is probably some portion of their hot wallet, and yeah, Binance just has so much
+
+160
+00:12:20,960 --> 00:12:27,000
+Tyler: crypto assets on there, and they I think presumably have a huge equity cushion where they can
+
+161
+00:12:27,000 --> 00:12:32,860
+Tyler: just recapitalize everyone and make them whole because they run an extremely profitable casino.
+
+162
+00:12:32,860 --> 00:12:39,160
+Chris: I think someone said it's single digits percentage of their total assets under management, or
+
+163
+00:12:39,160 --> 00:12:40,800
+Chris: total assets.
+
+164
+00:12:40,800 --> 00:12:46,000
+Chris: So actually, like kind of a nothing burger for Binance, but at the same time, maybe the
+
+165
+00:12:46,000 --> 00:12:52,840
+Chris: biggest hack maybe in history, certainly the biggest hack in crypto ever, five billion
+
+166
+00:12:52,840 --> 00:12:53,840
+Chris: dollars moved.
+
+167
+00:12:53,840 --> 00:12:57,000
+Chris: So yeah, really crazy one.
+
+168
+00:12:57,000 --> 00:13:01,160
+Chris: Oh, is that order placed?
+
+169
+00:13:01,160 --> 00:13:03,680
+Jackson: Not according to the diagram.
+
+170
+00:13:03,680 --> 00:13:09,320
+Tyler: They understand, has anyone done like a little bit of like on chain sleuthing or anything
+
+171
+00:13:09,320 --> 00:13:12,660
+Tyler: to try to understand how the hack occurred?
+
+172
+00:13:12,660 --> 00:13:16,360
+Chris: Yeah, so actually, this one is incredibly weird.
+
+173
+00:13:16,360 --> 00:13:27,040
+Chris: So as far as we can tell, the way this worked is the hacker did something called an EIP 7702
+
+174
+00:13:27,040 --> 00:13:28,040
+Chris: delegation call.
+
+175
+00:13:28,040 --> 00:13:34,000
+Chris: So after in like around late 2024, so I was actually I was there for this standard getting
+
+176
+00:13:34,000 --> 00:13:35,000
+Chris: approved.
+
+177
+00:13:35,000 --> 00:13:36,000
+Chris: I was at dev con 2024.
+
+178
+00:13:36,000 --> 00:13:38,120
+Chris: They were talking about it.
+
+179
+00:13:38,120 --> 00:13:40,400
+Chris: For the record, I was like, this seems bad.
+
+180
+00:13:40,400 --> 00:13:42,240
+Chris: I just I want to get that out out there.
+
+181
+00:13:42,240 --> 00:13:45,520
+Chris: I was a public dissenter of this EIP.
+
+182
+00:13:45,520 --> 00:13:48,400
+Chris: I don't think it's I don't think it's all bad.
+
+183
+00:13:48,400 --> 00:13:54,280
+Chris: But when I explain it to you, I think you'll kind of get sort of some of the concerns with
+
+184
+00:13:54,280 --> 00:13:55,280
+Chris: it.
+
+185
+00:13:55,280 --> 00:14:02,560
+Chris: So what this EIP does is you can there's a slot now in every Ethereum address, EOA externally
+
+186
+00:14:02,560 --> 00:14:05,040
+Chris: owned address, which is like a normal address.
+
+187
+00:14:05,040 --> 00:14:09,940
+Chris: And you can put a pointer in that slot that says delegate all of the powers of this address
+
+188
+00:14:09,940 --> 00:14:12,400
+Chris: to some contract, right?
+
+189
+00:14:12,400 --> 00:14:15,920
+Chris: And all you have to do is sign a transaction in order to do that.
+
+190
+00:14:15,920 --> 00:14:20,800
+Chris: So I can sign a transaction that says delegate all the powers of my wallet to this like random
+
+191
+00:14:20,800 --> 00:14:24,680
+Chris: contract or a contract I've written or something like giving.
+
+192
+00:14:24,680 --> 00:14:35,360
+Tyler: Or of attorney to like a random contract literally like a 11 year old cousin who is illegally
+
+193
+00:14:35,360 --> 00:14:41,440
+Chris: gambling on pump.fun on chain like the level here.
+
+194
+00:14:41,440 --> 00:14:46,000
+Chris: So this is really good because you can delegate to smart contracts that can do complicated
+
+195
+00:14:46,000 --> 00:14:53,640
+Chris: things for you like smart contract wallets, which have like built in recovery functions
+
+196
+00:14:53,640 --> 00:14:56,200
+Chris: or for use with gas stations.
+
+197
+00:14:56,200 --> 00:15:00,760
+Chris: Like there's a lot of uses for this, but being able to sign away the power of your EOA in
+
+198
+00:15:00,760 --> 00:15:03,080
+Chris: a single transaction is quite dubious.
+
+199
+00:15:03,080 --> 00:15:06,420
+Chris: And that's what this is the first time I've seen it used in a hack.
+
+200
+00:15:06,420 --> 00:15:07,640
+Chris: That's what the hackers did here.
+
+201
+00:15:07,640 --> 00:15:16,600
+Tyler: So this is basically like it's super powerful, but if somebody slips up and authorizes this
+
+202
+00:15:16,600 --> 00:15:19,560
+Tyler: in a malicious way, that is just total game over for their wallet.
+
+203
+00:15:19,560 --> 00:15:20,560
+Chris: Absolutely.
+
+204
+00:15:20,560 --> 00:15:21,780
+Chris: That was my concern with it.
+
+205
+00:15:21,780 --> 00:15:23,560
+Chris: So it's a top level primitive.
+
+206
+00:15:23,560 --> 00:15:30,360
+Chris: You just like delegate away the 7702 slot and then your wallet is now some random code,
+
+207
+00:15:30,360 --> 00:15:31,360
+Chris: right?
+
+208
+00:15:31,360 --> 00:15:32,360
+Chris: And maybe that's code you want.
+
+209
+00:15:32,360 --> 00:15:36,920
+Chris: Maybe it's not, but it's not quite the same as, you know, deploying a smart contract,
+
+210
+00:15:36,920 --> 00:15:41,120
+Chris: moving the funds there or like some other set up where it's a bit more intentional.
+
+211
+00:15:41,120 --> 00:15:46,560
+Chris: It kind of breaks the liminal boundary between a normal cryptographic wallet and a smart
+
+212
+00:15:46,560 --> 00:15:48,280
+Chris: contract address.
+
+213
+00:15:48,280 --> 00:15:55,760
+Chris: Anyway, so the hacker did this, they somehow got into Binance Wallet 14, which is a hot
+
+214
+00:15:55,760 --> 00:16:02,400
+Chris: wallet that Binance uses that has apparently $5 billion worth of assets in it.
+
+215
+00:16:02,400 --> 00:16:08,620
+Chris: And they managed to get this 7702 delegate call to the contract that they had deployed
+
+216
+00:16:08,620 --> 00:16:12,160
+Chris: earlier that just had a function that I think it was called like drain.
+
+217
+00:16:12,160 --> 00:16:16,400
+Chris: And all it does is sends sends all the money out of the wallet and then they just called
+
+218
+00:16:16,400 --> 00:16:19,960
+Chris: drain and like that's all she wrote.
+
+219
+00:16:19,960 --> 00:16:25,760
+Chris: An interesting piece here is that they signed 50 transactions in order to get this delegate
+
+220
+00:16:25,760 --> 00:16:26,760
+Chris: in.
+
+221
+00:16:26,760 --> 00:16:30,740
+Chris: So Ethereum has this thing called a nonce, which is a number only once, and that's how
+
+222
+00:16:30,740 --> 00:16:32,620
+Chris: they order transactions.
+
+223
+00:16:32,620 --> 00:16:39,200
+Chris: And because the hot wallet is constantly spitting out transactions, it's using these nonces
+
+224
+00:16:39,200 --> 00:16:40,200
+Chris: up.
+
+225
+00:16:40,200 --> 00:16:44,520
+Chris: So these nonces get used up in like ordinarily, so from one to 50, for example.
+
+226
+00:16:44,520 --> 00:16:48,660
+Chris: So transaction one gets the nonce one, transaction two gets the nonce two.
+
+227
+00:16:48,660 --> 00:16:53,160
+Chris: So whoever the hacker was, they didn't know what the next nonce would be because this
+
+228
+00:16:53,160 --> 00:16:56,160
+Chris: wallet is constantly spitting out transactions.
+
+229
+00:16:56,160 --> 00:17:03,480
+Chris: So they just signed the block of 50 transactions with nonces, you know, N plus one to N plus
+
+230
+00:17:03,480 --> 00:17:07,440
+Chris: 50, hoping that one would get in and one did.
+
+231
+00:17:07,440 --> 00:17:11,840
+Chris: And of course, once they had the delegate call, the 7702 delegate call, they didn't need
+
+232
+00:17:11,840 --> 00:17:16,600
+Chris: to mess around with that again and they had complete control of the wallet and they just
+
+233
+00:17:16,600 --> 00:17:18,800
+Chris: they drained it.
+
+234
+00:17:18,800 --> 00:17:20,600
+Chris: So that's that's what we know about the hack.
+
+235
+00:17:20,600 --> 00:17:27,600
+Chris: I will say this is also the first time I've ever seen Circle Freeze within what seems
+
+236
+00:17:27,600 --> 00:17:29,880
+Chris: like it was half an hour.
+
+237
+00:17:29,880 --> 00:17:35,980
+Chris: So Circle Freeze 900 million, Tether Freeze 1.5 billion, Tether actually froze the wallet.
+
+238
+00:17:35,980 --> 00:17:42,760
+Chris: They like froze the Binance, they blacklisted the Binance wallet because I think they assumed
+
+239
+00:17:42,760 --> 00:17:46,100
+Chris: it was no longer under Binance's control and they were correct.
+
+240
+00:17:46,100 --> 00:17:48,720
+Chris: And I think doing that they saved another 500 million.
+
+241
+00:17:48,720 --> 00:17:53,320
+Tyler: So plus they can freeze the stablecoins after they've been hacked, right?
+
+242
+00:17:53,320 --> 00:18:01,360
+Tyler: Like did these move into like mixing protocols or were they disposed of so quickly that that
+
+243
+00:18:01,360 --> 00:18:02,360
+Tyler: was not possible?
+
+244
+00:18:02,360 --> 00:18:07,560
+Tyler: It was like I read that it was like 5 billion was hacked, I think 2 billion of it was in
+
+245
+00:18:07,560 --> 00:18:13,080
+Tyler: Bitcoin or Ether, which is like assets that are relatively censorship resistant.
+
+246
+00:18:13,080 --> 00:18:18,000
+Tyler: The rest is maybe some portion of it is in shitcoins and then like a big pot of it was
+
+247
+00:18:18,000 --> 00:18:23,180
+Tyler: in stables and I just assumed the stables were either immediately frozen or if the hackers
+
+248
+00:18:23,180 --> 00:18:30,220
+Tyler: were sophisticated enough, it was moved through protocols and traded for sovereign assets.
+
+249
+00:18:30,220 --> 00:18:34,120
+Chris: I understand that the lion's share of the stables did get frozen because they acted
+
+250
+00:18:34,120 --> 00:18:35,120
+Chris: so quickly.
+
+251
+00:18:35,120 --> 00:18:42,320
+Tyler: Again, I've never seen like so quickly, like if you were hacking at this level of sophistication,
+
+252
+00:18:42,320 --> 00:18:48,000
+Tyler: don't you know that you have to like if you acquire stables that you have to swap them
+
+253
+00:18:48,000 --> 00:18:53,820
+Tyler: out like within a block or so like this person is sophisticated enough to pull off this complicated
+
+254
+00:18:53,820 --> 00:18:59,520
+Tyler: attack with this vector that has never been used using this special EIP and then signing
+
+255
+00:18:59,520 --> 00:19:03,320
+Tyler: the block of transactions and all this stuff, but then they're not sophisticated enough
+
+256
+00:19:03,320 --> 00:19:10,440
+Tyler: to know like, yo, go swap those stablecoins for ether so you can actually keep it immediately.
+
+257
+00:19:10,440 --> 00:19:12,720
+Chris: I have two thoughts here.
+
+258
+00:19:12,720 --> 00:19:15,700
+Chris: One some people are claiming this actor is actually not that sophisticated.
+
+259
+00:19:15,700 --> 00:19:20,340
+Chris: So there were some on chain receipts of them rehearsing six hours before they were like
+
+260
+00:19:20,340 --> 00:19:25,760
+Chris: draining they they like use the drain a contract to drain like a dollar from like a dummy contract.
+
+261
+00:19:25,760 --> 00:19:30,760
+Chris: So like that's normally you would you would fork the chain yourself using something called
+
+262
+00:19:30,760 --> 00:19:36,840
+Chris: anvil and test them your little sandbox, but they live right.
+
+263
+00:19:36,840 --> 00:19:38,580
+Chris: So a bit of a code smell.
+
+264
+00:19:38,580 --> 00:19:43,980
+Chris: And the second thing is not a sandbox company that did this hack here is cohere is in the
+
+265
+00:19:43,980 --> 00:19:44,980
+Chris: clear.
+
+266
+00:19:44,980 --> 00:19:45,980
+Chris: Yeah.
+
+267
+00:19:45,980 --> 00:19:50,080
+Tyler: Unless they they want us to think that it's true.
+
+268
+00:19:50,080 --> 00:19:53,240
+Chris: True that quen's still out there.
+
+269
+00:19:53,240 --> 00:19:57,000
+Chris: The second thing is like it was like two billion dollars.
+
+270
+00:19:57,000 --> 00:20:02,920
+Tyler: Like who's the counterparty for converting that much stable into ether?
+
+271
+00:20:02,920 --> 00:20:07,820
+Chris: Yeah, I just like I would I haven't done the numbers so I don't know but I'm like thinking
+
+272
+00:20:07,820 --> 00:20:13,360
+Tyler: like presumably you could just like nuke like I don't know whatever Uniswap or whatever
+
+273
+00:20:13,360 --> 00:20:20,480
+Tyler: you know like pool exists like you would you have terrible execution and slippage but you
+
+274
+00:20:20,480 --> 00:20:25,980
+Tyler: would still get something for your stables as opposed to nothing.
+
+275
+00:20:25,980 --> 00:20:29,760
+Chris: So they were dumping something.
+
+276
+00:20:29,760 --> 00:20:30,840
+Chris: They were dumping something.
+
+277
+00:20:30,840 --> 00:20:37,920
+Chris: So the price of ETH on chain went to 3000 whilst on a centralized exchange it was 2200.
+
+278
+00:20:37,920 --> 00:20:45,560
+Chris: So they were dumping something so hard into ETH pools on chain that you know it was trading
+
+279
+00:20:45,560 --> 00:20:52,680
+Chris: at a 30% premium over centralized exchanges or 25% premium.
+
+280
+00:20:52,680 --> 00:20:56,760
+Chris: I think that might be the best of ever in history.
+
+281
+00:20:56,760 --> 00:20:57,760
+Chris: It's gone.
+
+282
+00:20:57,760 --> 00:21:02,960
+Chris: I had a look at some transactions on chain and people because this was so frothy I saw
+
+283
+00:21:02,960 --> 00:21:08,760
+Chris: someone pay a hundred and twenty thousand dollars in gas to get into a block and they
+
+284
+00:21:08,760 --> 00:21:13,360
+Chris: still made through like two hundred fifty thousand dollars on that swap.
+
+285
+00:21:13,360 --> 00:21:19,440
+Chris: So the real winners here are the node operators who took those transaction fees but yeah crazy
+
+286
+00:21:19,440 --> 00:21:20,440
+Chris: time.
+
+287
+00:21:20,440 --> 00:21:27,280
+Tyler: Do you think that the government will ever be like okay you're like an on chain arbitrator
+
+288
+00:21:27,280 --> 00:21:32,680
+Tyler: and you notice that there's this giant hack and the reason that there's this price dislocation
+
+289
+00:21:32,680 --> 00:21:37,420
+Tyler: is essentially it's sending a market signal of somebody provides some more ETH to this
+
+290
+00:21:37,420 --> 00:21:42,480
+Tyler: pool so that this hacker can convert their stolen stablecoin to ETH and you see that
+
+291
+00:21:42,480 --> 00:21:49,280
+Tyler: market signal and then you execute that trade to do the arbitrage but like you are essentially
+
+292
+00:21:49,280 --> 00:21:56,600
+Tyler: counterparty to yeah somebody who's doing this this trade to clean their money and knowingly
+
+293
+00:21:56,600 --> 00:22:02,960
+Tyler: do that like do you does that cross some kind of legal line or is that like an untread legal
+
+294
+00:22:02,960 --> 00:22:06,440
+Tyler: ground right now and that's never been I could totally imagine the government making that
+
+295
+00:22:06,440 --> 00:22:08,440
+Tyler: argument basically.
+
+296
+00:22:08,440 --> 00:22:12,540
+Chris: So I've always I've always wondered about this and I really wonder if there is a difference
+
+297
+00:22:12,540 --> 00:22:16,840
+Chris: between an automated market maker where you're just putting money in a pool and whoever swaps
+
+298
+00:22:16,840 --> 00:22:22,320
+Chris: with it swaps with it and you kind of don't have control of your counterparty versus these
+
+299
+00:22:22,320 --> 00:22:25,960
+Chris: on chain intent based systems where you maybe kind of have more control over who you're
+
+300
+00:22:25,960 --> 00:22:27,620
+Chris: swapping with.
+
+301
+00:22:27,620 --> 00:22:32,320
+Tyler: Yeah I've heard the like metaphor of that being like okay let's say that you can like
+
+302
+00:22:32,320 --> 00:22:39,840
+Tyler: go into an alley and there's like five other people in the alley and you all put like a
+
+303
+00:22:39,840 --> 00:22:45,080
+Tyler: hundred dollar bill into like a pillow case and like mix them up and you're like know
+
+304
+00:22:45,080 --> 00:22:51,240
+Tyler: that like you know three out of the other five people are like drug dealers but you're
+
+305
+00:22:51,240 --> 00:22:57,000
+Tyler: like no man it's just a protocol yeah I'm just participating in like the the money in
+
+306
+00:22:57,000 --> 00:23:02,040
+Tyler: the pillowcase protocol I don't know who my counterparties are we just met in this alley.
+
+307
+00:23:02,040 --> 00:23:07,160
+Chris: It could it could be anyone trading in the case realistic exactly yeah like I just don't
+
+308
+00:23:07,160 --> 00:23:11,720
+Tyler: especially because I think the government has taken some like really like probably too
+
+309
+00:23:11,720 --> 00:23:17,760
+Tyler: harsh interpretations of like people's intent like the people who made tornado cash protocol
+
+310
+00:23:17,760 --> 00:23:26,120
+Tyler: they're just releasing free open source software as a as a smart contract and the government
+
+311
+00:23:26,120 --> 00:23:31,520
+Tyler: was like well you knew that that would be used in this way therefore you're like money
+
+312
+00:23:31,520 --> 00:23:35,280
+Tyler: is laundering like I wonder yeah.
+
+313
+00:23:35,280 --> 00:23:40,600
+Chris: I don't think it's clear and I agree with you like I would tread probably on the side
+
+314
+00:23:40,600 --> 00:23:46,480
+Chris: of caution here but I will say that the people who didn't have made a substantial amount
+
+315
+00:23:46,480 --> 00:23:51,920
+Chris: of money here but again not as maybe not as much as the block builders like I said people
+
+316
+00:23:51,920 --> 00:23:55,900
+Chris: were paying a hundred twenty thousand dollars to get transactions on chain and that gets
+
+317
+00:23:55,900 --> 00:24:02,640
+Chris: parted out between the block builders and the node operators so kind of a weird W for
+
+318
+00:24:02,640 --> 00:24:08,480
+Chris: the network somehow or like some parts of the network kind of surprising yeah money's
+
+319
+00:24:08,480 --> 00:24:15,320
+Jackson: spilling out of the bags they just stole and we're all just catching some of it it's beautiful
+
+320
+00:24:15,320 --> 00:24:23,160
+Jackson: also we talked about like swapping the stable clients quick enough before they were frozen
+
+321
+00:24:23,160 --> 00:24:30,440
+Jackson: I feel like if I had stolen five billion I would like I don't know focus on whatever
+
+322
+00:24:30,440 --> 00:24:35,560
+Jackson: was the easiest yeah I don't need five billion that's I guess what I'm saying I would be
+
+323
+00:24:35,560 --> 00:24:43,720
+Chris: okay to the five billion style figure you're like yeah I'm not I'm not a greedy thief you
+
+324
+00:24:43,720 --> 00:24:48,880
+Tyler: know two billion yeah well let's say that even you were the hacker and you got out of
+
+325
+00:24:48,880 --> 00:24:54,920
+Tyler: here with like a billion dollars of ether if you're like a person that lives in like
+
+326
+00:24:54,920 --> 00:25:03,000
+Tyler: the Western world you can't spend that that easily I mean you're certainly not converting
+
+327
+00:25:03,000 --> 00:25:07,280
+Tyler: a billion dollars of ether into like dollars in a bank account and not having that linked
+
+328
+00:25:07,280 --> 00:25:12,880
+Tyler: to your crime I mean they're the people who like like Rosal con and her husband that got
+
+329
+00:25:12,880 --> 00:25:20,320
+Tyler: caught for hacking Bitfinex like like six years after the crime and it was because like they
+
+330
+00:25:20,320 --> 00:25:24,560
+Tyler: had like literally billions of dollars or maybe it was like high hundreds of millions
+
+331
+00:25:24,560 --> 00:25:30,800
+Tyler: dollars worth of Bitcoin and they were like literally putting it through coin join protocols
+
+332
+00:25:30,800 --> 00:25:35,760
+Tyler: and then buying like Walmart gift cards with it to like spend it's like imagine that you
+
+333
+00:25:35,760 --> 00:25:40,840
+Tyler: have like you know hundreds of millions of dollars of Bitcoin but you're like converting
+
+334
+00:25:40,840 --> 00:25:46,400
+Tyler: it one Walmart Bitcoin one Walmart gift card at a time to go buy like your shit at Walmart
+
+335
+00:25:46,400 --> 00:25:53,480
+Tyler: like you know you're not exactly rolling in the dough living that high dream life so really
+
+336
+00:25:53,480 --> 00:26:00,240
+Tyler: the only entities that can do this and like actually benefit from it are like rogue states
+
+337
+00:26:00,240 --> 00:26:06,760
+Tyler: that yeah can't have repercussions on them and even then it's probably hard for them
+
+338
+00:26:06,760 --> 00:26:12,600
+Tyler: to convert that ether into something that they actually want like what is what does
+
+339
+00:26:12,600 --> 00:26:20,520
+Tyler: North Korea actually want they want like centrifuges and like plutonium and like I don't know cognac
+
+340
+00:26:20,520 --> 00:26:29,580
+Chris: for like Kim Jong Un's it's probably they buy a lot of steam games yeah yeah totally
+
+341
+00:26:29,580 --> 00:26:35,520
+Chris: I think like like from an opposite perspective if this is not a state actor it's like a permanent
+
+342
+00:26:35,520 --> 00:26:42,800
+Chris: nightmare like that like you will never be like free of this crime right like so yeah
+
+343
+00:26:42,800 --> 00:26:48,440
+Chris: I don't know I like the speculation both ways my initial guess was like that it was Lazarus
+
+344
+00:26:48,440 --> 00:26:54,000
+Chris: and maybe which is North Korea's state hacking arm who have been responsible for for example
+
+345
+00:26:54,000 --> 00:26:59,920
+Chris: by bit before them which was a billion but people like there are some forensics on chain
+
+346
+00:26:59,920 --> 00:27:05,200
+Chris: forensics that indicate that this might not have been them or otherwise was like not necessarily
+
+347
+00:27:05,200 --> 00:27:08,880
+Chris: up to their standard so I think this is gonna be a really interesting one to see how it
+
+348
+00:27:08,880 --> 00:27:16,520
+Chris: unfolds because you know whilst it looks similar to some others it it doesn't have you know
+
+349
+00:27:16,520 --> 00:27:23,120
+Chris: it's not it's not exactly the emo that we've come come to expect from Lazarus so nice well
+
+350
+00:27:23,120 --> 00:27:30,040
+Jackson: we'll keep following up with updates and a shout out to them for doing a non AI related
+
+351
+00:27:30,040 --> 00:27:36,920
+Jackson: path good good on them finding their own path in their own way and we're shorting finance
+
+352
+00:27:36,920 --> 00:27:40,920
+Jackson: and we're somehow losing money after they lost five billion dollars none of this makes
+
+353
+00:27:40,920 --> 00:27:52,560
+Jackson: sense the Bitcoin position is in the gutter so let's hope things turn around yo yo yo everybody
+
+354
+00:27:52,560 --> 00:28:03,740
+Jackson: welcome to the under pot with Jackson cook from a bathroom hey it's co-host Tyler from
+
+355
+00:28:03,740 --> 00:28:12,600
+Chris: a room without a toilet co-host Chris from my office also in a toilet yes there is a
+
+356
+00:28:12,600 --> 00:28:20,600
+Jackson: toilet but do not forget there's also a bidet and are you wearing pants right now Jackson
+
+357
+00:28:20,600 --> 00:28:29,920
+Tyler: you just put me at ease by sharing okay the chair kind of looks like a giant toilet I
+
+358
+00:28:29,920 --> 00:28:36,320
+Jackson: didn't carry this chair into the bathroom to have this beautiful meeting did you guys
+
+359
+00:28:36,320 --> 00:28:49,960
+Jackson: see the AI audit of the Saez Zucman papers I looked it up Saez and Zucman are dudes that
+
+360
+00:28:49,960 --> 00:29:00,840
+Jackson: do research on economic inequality and somebody audited all their papers and said that ninety
+
+361
+00:29:00,840 --> 00:29:09,040
+Jackson: seven there's errors in ninety seven percent of their papers I don't know this is yeah
+
+362
+00:29:09,040 --> 00:29:15,800
+Tyler: well so there's a really good segue from the prior segment which is speaking of hacks we
+
+363
+00:29:15,800 --> 00:29:35,960
+Chris: have Saez and Zucman yeah I mean the implication of this is basically these are two economists
+
+364
+00:29:35,960 --> 00:29:45,080
+Tyler: that have been publishing economic research a very questionable like quality for a few
+
+365
+00:29:45,080 --> 00:29:50,680
+Tyler: years and it comes with an extreme political tilt and it's basically the kind like these
+
+366
+00:29:50,680 --> 00:29:58,400
+Tyler: papers are used to justify like every single kind of crazy out there political policy on
+
+367
+00:29:58,400 --> 00:30:03,840
+Tyler: like the super far left and the current one is the wealth tax that's being contemplated
+
+368
+00:30:03,840 --> 00:30:09,960
+Tyler: in California and voted on next week and they're basically like they're they're using like
+
+369
+00:30:09,960 --> 00:30:17,080
+Tyler: credentialism to say like you know you should vote for these things because these like credited
+
+370
+00:30:17,080 --> 00:30:23,040
+Tyler: economists have written papers and say that it's like actually a great thing but then
+
+371
+00:30:23,040 --> 00:30:30,960
+Tyler: a very cursory look through their research reveals extensive academic fraud where it's
+
+372
+00:30:30,960 --> 00:30:35,640
+Tyler: basically like the AI models looked at all of their research tried to reproduce all the
+
+373
+00:30:35,640 --> 00:30:42,480
+Tyler: findings look for any errors and then score if it found an error or something like that
+
+374
+00:30:42,480 --> 00:30:49,760
+Tyler: score if it like pushed the results towards the direction of overstating the papers claims
+
+375
+00:30:49,760 --> 00:30:58,160
+Tyler: or of like weakening it and it was like an absurd ratio of errors that benefited the
+
+376
+00:30:58,160 --> 00:31:02,720
+Tyler: thing that they wanted to say versus errors that would have been the other direction and
+
+377
+00:31:02,720 --> 00:31:09,740
+Tyler: like you just you know that's like flipping a coin and having it hit heads like 95 times
+
+378
+00:31:09,740 --> 00:31:17,160
+Tyler: out of 100 like it's extremely clear that this is a fixed coin and that these guys are
+
+379
+00:31:17,160 --> 00:31:22,440
+Tyler: doing academic fraud in the name of pushing their own political policies so I don't know
+
+380
+00:31:22,440 --> 00:31:28,280
+Tyler: I thought it was very interesting it also was exposed on the economics blog marginal
+
+381
+00:31:28,280 --> 00:31:33,560
+Tyler: revolution which is a very good read highly recommend that and yeah I think it just shows
+
+382
+00:31:33,560 --> 00:31:41,980
+Tyler: that like there will for sure be a reckoning of not only just social science or economics
+
+383
+00:31:41,980 --> 00:31:49,960
+Tyler: but like I think all science and a lot of academia everyone has already kind of had
+
+384
+00:31:49,960 --> 00:31:56,800
+Tyler: this idea that there's like a replication crisis and that a lot of research is not replicable
+
+385
+00:31:56,800 --> 00:32:01,240
+Tyler: which kind of indicates that people are doing it to like publish something and make a name
+
+386
+00:32:01,240 --> 00:32:06,700
+Tyler: for themselves or to get their you know degree and then move on and this kind of thing where
+
+387
+00:32:06,700 --> 00:32:11,200
+Tyler: it's just like an expert peer reviewer that will go through all of this work tirelessly
+
+388
+00:32:11,200 --> 00:32:17,840
+Tyler: and like find all of the all of the errors recreate it keep a scorecard all that kind
+
+389
+00:32:17,840 --> 00:32:26,520
+Tyler: of stuff I think it's really good for science and for like the truth and so I think it's
+
+390
+00:32:26,520 --> 00:32:34,640
+Jackson: great I love to see it goes is it time to fine-tune an open source model to be a paper
+
+391
+00:32:34,640 --> 00:32:44,240
+Jackson: editor not editor paper auditor and sell it sell it to PC I mean maybe I do think this
+
+392
+00:32:44,240 --> 00:32:49,880
+Chris: flips the incentives around like Tyler's saying in academia I wonder who is the next big one
+
+393
+00:32:49,880 --> 00:32:56,360
+Chris: to fall so I have spent some time in a field that is the origin of the replication crisis
+
+394
+00:32:56,360 --> 00:33:05,800
+Chris: and believe me like there's stuff there so yeah I just I mean it seems like you contribute
+
+395
+00:33:05,800 --> 00:33:12,020
+Chris: trivially rip through a lot of these results and like you know there's a lot of like p-hacking
+
+396
+00:33:12,020 --> 00:33:15,840
+Chris: for example the statistical evidence that it happens when you look at published results
+
+397
+00:33:15,840 --> 00:33:21,320
+Chris: from p-hacked papers I just I think there's like a lot of artifacts that maybe people
+
+398
+00:33:21,320 --> 00:33:27,200
+Chris: haven't looked at or or haven't had the time or or been able to invest the effort in and
+
+399
+00:33:27,200 --> 00:33:35,440
+Chris: I think like a lot of many many results might be challenged in the near future but yeah
+
+400
+00:33:35,440 --> 00:33:42,720
+Jackson: I say net positive I mean for the world if we're actually getting to true though I do
+
+401
+00:33:42,720 --> 00:33:51,560
+Jackson: think we should do our due diligence and ask you know is what was the AI right maybe like
+
+402
+00:33:51,560 --> 00:33:58,040
+Jackson: the numbers exactly might not be right but it suggests that the AI is directionally right
+
+403
+00:33:58,040 --> 00:34:05,080
+Jackson: that there is there are a lot of incorrect claims numerical claims in these papers but
+
+404
+00:34:05,080 --> 00:34:12,960
+Jackson: the numbers are unbelievable like they did it says they had 138 pieces of work and the
+
+405
+00:34:12,960 --> 00:34:24,920
+Jackson: AI found 2,035 problems 147 major 713 moderate and the rest low severity I mean leaving 69
+
+406
+00:34:24,920 --> 00:34:31,560
+Jackson: percent beautiful percentage by the way 69 percent of works with at least one major problem
+
+407
+00:34:31,560 --> 00:34:39,080
+Jackson: so even if that deviates slightly and we and we trust that the AI was not prompted to like
+
+408
+00:34:39,080 --> 00:34:47,880
+Jackson: be biased that's pretty pretty damn it but like how do we know this AI auditor is you
+
+409
+00:34:47,880 --> 00:34:53,640
+Jackson: know like prompting neutrally versus prompting he's like a rich dude living in San Francisco
+
+410
+00:34:53,640 --> 00:35:02,560
+Jackson: and he's like these Berkeley boys at their sex orgies are trying to tax away all my green
+
+411
+00:35:02,560 --> 00:35:07,680
+Jackson: I want to like do we know that like isn't it okay objection those ugly people have
+
+412
+00:35:07,680 --> 00:35:15,680
+Chris: anthropic equity okay they're against the love tax number one I think like so I think
+
+413
+00:35:15,680 --> 00:35:22,240
+Chris: of this you know like for example in psychology there are many many many cases of high-profile
+
+414
+00:35:22,240 --> 00:35:27,720
+Chris: fraud like academic fraud and generally the way some of these people have found is that
+
+415
+00:35:27,720 --> 00:35:32,680
+Chris: their daughter is fabricated and if you fabricate daughter enough it tends to leave a footprint
+
+416
+00:35:32,680 --> 00:35:37,080
+Chris: that's not necessarily a smoking gun that the data has been fabricated but you start
+
+417
+00:35:37,080 --> 00:35:42,960
+Chris: to get an idea that like it's just so unlikely that the data is in this pattern over and
+
+418
+00:35:42,960 --> 00:35:50,000
+Chris: over again you know that it becomes more than likely that it was fabricated I'm thinking
+
+419
+00:35:50,000 --> 00:35:55,960
+Chris: of a social psychologist whose name I forgotten who fabricated 45 papers and I'm pretty sure
+
+420
+00:35:55,960 --> 00:36:03,000
+Chris: that's how they got him and I think like at least you know some of those classes of fraud
+
+421
+00:36:03,000 --> 00:36:09,400
+Chris: where the issue is data fabrication or sort of dishonest use of statistical methods whether
+
+422
+00:36:09,400 --> 00:36:15,360
+Chris: you prompt the agent adversarially or not like that you know if the numbers don't add up
+
+423
+00:36:15,360 --> 00:36:20,680
+Chris: the numbers don't add up so that's what I'm excited about personally but yeah one interesting
+
+424
+00:36:20,680 --> 00:36:27,880
+Tyler: example of this was someone did a study where they had I think it was probably like opus
+
+425
+00:36:27,880 --> 00:36:38,320
+Tyler: five five and then GPT Astra audit some like physics PhD papers and see if they like agreed
+
+426
+00:36:38,320 --> 00:36:48,400
+Tyler: with the conclusions check the math and everything and I think it was the case that they like
+
+427
+00:36:48,400 --> 00:36:54,600
+Tyler: validated the claims of the papers and like 93 percent of cases and then the seven percent
+
+428
+00:36:54,600 --> 00:37:03,440
+Tyler: where they disagreed it was actually because the model found an issue in the like basically
+
+429
+00:37:03,440 --> 00:37:10,200
+Tyler: like a bug in the code or a flaw and they like sent it back to the person who did the
+
+430
+00:37:10,200 --> 00:37:16,040
+Tyler: research and it often took like a couple rounds of like the model trying to explain what the
+
+431
+00:37:16,040 --> 00:37:21,040
+Tyler: bug was there's extremely subtle etc but the models were like always like that you know
+
+432
+00:37:21,040 --> 00:37:25,000
+Tyler: the researcher would come back to the model and say no you're wrong AI like you know this
+
+433
+00:37:25,000 --> 00:37:31,200
+Tyler: is fine like you know like please check your work and the AI would be insistent no it's
+
+434
+00:37:31,200 --> 00:37:35,520
+Tyler: like actually your problem let me try to convince you and I think in those seven percent of
+
+435
+00:37:35,520 --> 00:37:41,280
+Tyler: cases where they disagreed the AI was right and all seven percent of them and the like
+
+436
+00:37:41,280 --> 00:37:48,680
+Tyler: you know people whose work it corrected like eventually figured out and accepted the error
+
+437
+00:37:48,680 --> 00:37:55,080
+Tyler: I think not in like a very like it wasn't like this where I think this is kind of more
+
+438
+00:37:55,080 --> 00:38:00,360
+Tyler: like somebody is trying to kind of malign these economists and say that they're academic
+
+439
+00:38:00,360 --> 00:38:05,320
+Tyler: frauds I think this one was more kind of like hey we found some issues in your work that
+
+440
+00:38:05,320 --> 00:38:09,640
+Tyler: you might want to be aware of and like if you fix them it can improve your work and
+
+441
+00:38:09,640 --> 00:38:15,680
+Tyler: like more constructive criticism than like trying to destroy these people's your reputations
+
+442
+00:38:15,680 --> 00:38:20,640
+Chris: sorry I jumped to fraud but that yeah also that also people make mistakes that's true
+
+443
+00:38:20,640 --> 00:38:26,680
+Jackson: that's objectively correct my bad yeah I'm hearing that physics PhDs have the most honor
+
+444
+00:38:26,680 --> 00:38:34,840
+Jackson: amongst doctoral candidates based on what you're saying Tyler I mean I think any like
+
+445
+00:38:34,840 --> 00:38:41,080
+Tyler: physics is the hardest science and so I think it's like the most verifiable and so I think
+
+446
+00:38:41,080 --> 00:38:47,440
+Tyler: it probably has like the least amount of these issues and I think as you go down the spectrum
+
+447
+00:38:47,440 --> 00:38:52,200
+Tyler: to like softer and softer sciences and you get into like the social science realm then
+
+448
+00:38:52,200 --> 00:39:00,520
+Tyler: I think it's very dubious yeah and economics is definitely you know on that side of the
+
+449
+00:39:00,520 --> 00:39:08,520
+Tyler: spectrum even though I like love economics it's you know some parts of it are very pseudoscientific
+
+450
+00:39:08,520 --> 00:39:14,440
+Tyler: and some parts of it like this are just downright fraudulent justifications of somebody's preferred
+
+451
+00:39:14,440 --> 00:39:22,120
+Jackson: political policy they say that economics is the astrology for a minute but I think in
+
+452
+00:39:22,120 --> 00:39:27,980
+Jackson: the end we uh it would be good to have like a like I don't know some sort of process for
+
+453
+00:39:27,980 --> 00:39:34,880
+Jackson: performing these audits uh so like then we know it's standardized and unbiased but shout
+
+454
+00:39:34,880 --> 00:39:40,000
+Jackson: out to this this anonymous dude for blowing probably I mean wouldn't you be crazy to be
+
+455
+00:39:40,000 --> 00:39:44,400
+Tyler: like a PhD student putting out your thesis paper and not run it through a frontier model
+
+456
+00:39:44,400 --> 00:39:48,740
+Tyler: at this point like even if you're in a social science like it you know if you're doing anything
+
+457
+00:39:48,740 --> 00:39:53,960
+Tyler: analytical or code you'd be crazy not to have it be writing the code in the first place
+
+458
+00:39:53,960 --> 00:39:59,800
+Tyler: and then you'd be crazy to not get it to do uh sanity check and uh essentially a peer
+
+459
+00:39:59,800 --> 00:40:04,280
+Tyler: review like you know that's why the the system of peer review works like it should probably
+
+460
+00:40:04,280 --> 00:40:10,120
+Tyler: be standard to like have AI peer review on uh in the same way that a lot of companies
+
+461
+00:40:10,120 --> 00:40:15,440
+Tyler: it's standard to have AI code review in addition to the humans because the AI often is better
+
+462
+00:40:15,440 --> 00:40:20,280
+Tyler: than the humans misses stuff that the humans won't because the humans are have limited
+
+463
+00:40:20,280 --> 00:40:26,040
+Tyler: attention spans and are you know don't have infinite time I mean there's a cool paper
+
+464
+00:40:26,040 --> 00:40:32,160
+Chris: here where someone could go to arc archive download the top thousand papers in a given
+
+465
+00:40:32,160 --> 00:40:38,060
+Chris: domain and just audit them right like I guarantee that will be interesting data and find out
+
+466
+00:40:38,060 --> 00:40:46,240
+Tyler: like what the audibility rate is among different domains or even like different journals different
+
+467
+00:40:46,240 --> 00:40:57,520
+Tyler: um departments you know like the this this school has a history of yeah as one of the
+
+468
+00:40:57,520 --> 00:41:03,160
+Jackson: most AI psychotic people I agree with you Chris I would totally run anything through
+
+469
+00:41:03,160 --> 00:41:10,640
+Jackson: the AI before I submit it but like I think maybe one kind of argument is like maybe the
+
+470
+00:41:10,640 --> 00:41:17,240
+Jackson: Navi or soaks thing or like you're skeptical that they'll use your your findings obviously
+
+471
+00:41:17,240 --> 00:41:22,360
+Jackson: probably most PhD students aren't finding out things that are super useful but like
+
+472
+00:41:22,360 --> 00:41:30,520
+Jackson: that could be an argument against it anyways instead you should use kimmy whatever your
+
+473
+00:41:30,520 --> 00:41:41,800
+Jackson: quinn 3.8 and send your research to CCP but we transition once again to maybe the most
+
+474
+00:41:41,800 --> 00:41:50,580
+Jackson: exciting crypto topic of the past week or the most terrifying anthropic published something
+
+475
+00:41:50,580 --> 00:41:59,040
+Jackson: a blog post maybe saying that they have disproved three set or the assumption behind three set
+
+476
+00:41:59,040 --> 00:42:04,200
+Jackson: that it takes exponential time to solve this problem called three set but I don't know
+
+477
+00:42:04,200 --> 00:42:09,280
+Jackson: what it is Chris what does this mean do you have volunteered to explain what is three
+
+478
+00:42:09,280 --> 00:42:17,440
+Jackson: set and what is P equals NP so I did volunteer yeah I did volunteer that might be a mistake
+
+479
+00:42:17,440 --> 00:42:24,440
+Chris: let's see how it goes um sorry uh the hypothesis that has been disproven is a conjecture called
+
+480
+00:42:24,440 --> 00:42:29,560
+Chris: the exponential time hypothesis and basically what it says is that the lower bound of three
+
+481
+00:42:29,560 --> 00:42:36,640
+Chris: set is solvable in only linear exponential time so linear exponential time is the exponent
+
+482
+00:42:36,640 --> 00:42:42,280
+Chris: is like the the number of terms the n plus some constant right so if you think about
+
+483
+00:42:42,280 --> 00:42:48,980
+Chris: like an exponential curve uh it it starts and then it very quickly hockey sticks right
+
+484
+00:42:48,980 --> 00:42:53,880
+Chris: like I'm I don't we should put a series of graphs up on like complexity notation and
+
+485
+00:42:53,880 --> 00:42:59,240
+Chris: what they look like exponential time is the worst one by far so basically what that means
+
+486
+00:42:59,240 --> 00:43:05,520
+Chris: in computer science is it takes an exponential amount of time more time to solve the problem
+
+487
+00:43:05,520 --> 00:43:12,600
+Chris: uh as the number of terms goes up in the problem so uh those are like generally extremely
+
+488
+00:43:12,600 --> 00:43:20,400
+Chris: intractable problems right which which some would call NP hard uh which is a set of problems
+
+489
+00:43:20,400 --> 00:43:24,520
+Chris: that are at least as hard as NP we can go into what that means later if we if we still
+
+490
+00:43:24,520 --> 00:43:30,960
+Chris: care um but anyway three sat is is one of these problems so it's actually uh and what
+
+491
+00:43:30,960 --> 00:43:39,560
+Chris: is three sat it's it's a Boolean satisfiability problem so uh basically the the three means
+
+492
+00:43:39,560 --> 00:43:46,040
+Chris: that in so a Boolean satisfiability problem is a problem with a lot of Booleans think
+
+493
+00:43:46,040 --> 00:43:53,920
+Chris: of them as like variables or terms right so each of them so you have like p or q or r
+
+494
+00:43:53,920 --> 00:43:59,320
+Chris: or maybe p or q or not r as these like abstract variables and you have to make all of these
+
+495
+00:43:59,320 --> 00:44:05,520
+Chris: variables line up so that the whole thing is true uh and and the three sat format just
+
+496
+00:44:05,520 --> 00:44:10,440
+Chris: means that every one of these clauses has three variables in them and there's ends between
+
+497
+00:44:10,440 --> 00:44:17,060
+Chris: them and you can chain these infinitely to describe or to basically be reducible reduce
+
+498
+00:44:17,060 --> 00:44:21,000
+Chris: other problems to this three sat so that's why it's important so for example there's
+
+499
+00:44:21,000 --> 00:44:24,440
+Chris: this famous problem in computer science called the traveling salesman problem really hard
+
+500
+00:44:24,440 --> 00:44:29,760
+Chris: to solve you it can be reduced to some form of three sat which means that if you can solve
+
+501
+00:44:29,760 --> 00:44:36,120
+Chris: three sat really fast you can kind of like transpose other problems into the three sat
+
+502
+00:44:36,120 --> 00:44:41,200
+Chris: and then solve that fast and then all of a sudden you're like solving all of these really
+
+503
+00:44:41,200 --> 00:44:48,720
+Chris: difficult problems quickly um so the upshot of this paper is that we used to think that
+
+504
+00:44:48,720 --> 00:44:55,000
+Chris: this three sat problem was only solvable in linear exponential time which again very difficult
+
+505
+00:44:55,000 --> 00:45:01,600
+Chris: but actually uh this three sat problem might be solvable in sub exponential time what does
+
+506
+00:45:01,600 --> 00:45:09,140
+Chris: that mean i think that the technical time uh that it is solvable in is like to the whatever
+
+507
+00:45:09,140 --> 00:45:21,560
+Chris: the the k term and then over the square root of log of n sorry yeah so but that's for anyone
+
+508
+00:45:21,560 --> 00:45:26,240
+Chris: listening like that is barely less than exponential like we it's it's it's solvable in barely less
+
+509
+00:45:26,240 --> 00:45:33,600
+Chris: than exponential time but that does mean that the eth conjecture is false because it was
+
+510
+00:45:33,600 --> 00:45:39,840
+Chris: linear exponential um i i think this actual result is it's not a nothing burger but i
+
+511
+00:45:39,840 --> 00:45:45,880
+Chris: don't think it changes anything specifically today with this like eth like i think it probably
+
+512
+00:45:45,880 --> 00:45:51,160
+Chris: changes a lot of theoretical algorithmic results where people assumed that the the best possible
+
+513
+00:45:51,160 --> 00:45:56,440
+Chris: solution for some of these things was this one and now it's like actually slightly faster
+
+514
+00:45:56,440 --> 00:46:04,680
+Chris: um but basically if any paper leaned on this being the true lower bound like that's wrong
+
+515
+00:46:04,680 --> 00:46:10,440
+Chris: uh so that their claim is is is weak and it has to be uh rethought about and it kind of
+
+516
+00:46:10,440 --> 00:46:16,040
+Chris: opens the door to like what other conjectures are we leaning on that could be false right
+
+517
+00:46:16,040 --> 00:46:19,760
+Chris: like and not false in a little way like this one's like a little bit false as far as we
+
+518
+00:46:19,760 --> 00:46:25,080
+Chris: know we don't know actually like whether there is another faster solution but if if we take
+
+519
+00:46:25,080 --> 00:46:31,680
+Chris: that this solution is correctly the lower bound then it's a nothing burger um but but
+
+520
+00:46:31,680 --> 00:46:36,440
+Chris: yeah it just like it opens the door to more of these load bearing conjectures being that
+
+521
+00:46:36,440 --> 00:46:41,280
+Chris: we assumed were one way or actually the other way and and it could uh break a lot of stuff
+
+522
+00:46:41,280 --> 00:46:45,080
+Chris: that's my that's my three sat rundown nice well done
+
+523
+00:46:45,080 --> 00:46:53,160
+Tyler: yeah i i didn't really understand this before you explained it but now i feel like i understand
+
+524
+00:46:53,160 --> 00:47:00,160
+Tyler: it a little bit better uh it does seem like the kind of thing like if you had to say before
+
+525
+00:47:00,160 --> 00:47:08,320
+Tyler: this results happened is it safe to say that like most people thought that this conjecture
+
+526
+00:47:08,320 --> 00:47:14,280
+Tyler: was like true and thought that like fairly confidently yeah so even even just proving
+
+527
+00:47:14,280 --> 00:47:20,200
+Tyler: disproving it in this way that's like a very incremental you know improvement over the
+
+528
+00:47:20,200 --> 00:47:25,840
+Tyler: exponential time it like took people from being very very confident okay now it's false
+
+529
+00:47:25,840 --> 00:47:33,120
+Tyler: and then the next step is like can we do better than this very incremental improvement right
+
+530
+00:47:33,120 --> 00:47:36,200
+Chris: and i think this is where people are kind of freaking out they're like does this mean
+
+531
+00:47:36,200 --> 00:47:41,280
+Chris: p equals np so p equals np means is the set of problems that are solvable in polynomial
+
+532
+00:47:41,280 --> 00:47:48,920
+Chris: time which is fast is that equal to the set of np problems which are verifiable in polynomial
+
+533
+00:47:48,920 --> 00:47:52,960
+Chris: time uh and that's like that's a load-bearing assumption in computer science like that's
+
+534
+00:47:52,960 --> 00:47:59,040
+Chris: a load-bearing assumption in all uh public key cryptography for example um i i don't
+
+535
+00:47:59,040 --> 00:48:04,720
+Chris: think that this really shifts that either way um but i can see how people are like okay
+
+536
+00:48:04,720 --> 00:48:11,120
+Chris: well you know this particular conjecture on this very important np complete problem uh
+
+537
+00:48:11,120 --> 00:48:16,960
+Chris: was false so like how false is it right like we is it solvable in like quasi polynomial
+
+538
+00:48:16,960 --> 00:48:23,520
+Chris: time like where's like where is the lower bound now everyone's freaking out um so yeah
+
+539
+00:48:23,520 --> 00:48:28,760
+Tyler: i mean it's just like whatever your priors were they need to be adjusted for like all
+
+540
+00:48:28,760 --> 00:48:36,680
+Tyler: things that you were confident about in these um you know extreme frontier math computer
+
+541
+00:48:36,680 --> 00:48:44,640
+Tyler: science physics domains because it seems like a lot of these i wouldn't say intuitions but
+
+542
+00:48:44,640 --> 00:48:51,520
+Tyler: a lot of like the things that we thought were true or things that we didn't know are falling
+
+543
+00:48:51,520 --> 00:49:00,140
+Tyler: quite quickly one by one and you have to assume that it will just keep going for sure one
+
+544
+00:49:00,140 --> 00:49:03,600
+Chris: thing that i like about some of these is like some of these proofs i'm told they're like
+
+545
+00:49:03,600 --> 00:49:12,240
+Chris: hideously ugly um the ai proofs which i don't know is like uh i don't know if that's actually
+
+546
+00:49:12,240 --> 00:49:17,600
+Chris: like um yeah on the way that ai solves or like that's an emergent property of like actually
+
+547
+00:49:17,600 --> 00:49:24,120
+Tyler: like that having like read a bunch of ai writing and ai code are you surprised that an ai proof
+
+548
+00:49:24,120 --> 00:49:31,480
+Tyler: is extremely ugly and like mostly slop but there's like enough grain of truth there that
+
+549
+00:49:31,480 --> 00:49:37,920
+Chris: it actually like compiles and lean yeah i mean i'm not complaining uh the job got done
+
+550
+00:49:37,920 --> 00:49:45,200
+Chris: um yeah yeah um i think like and this could be wrong but i think like you know mathematicians
+
+551
+00:49:45,200 --> 00:49:50,760
+Chris: in particular really love elegant proofs and elegant ways to solve things and maybe they've
+
+552
+00:49:50,760 --> 00:49:57,740
+Chris: left some things on the table not just like rolling up their sleeves and doing doing something
+
+553
+00:49:57,740 --> 00:50:03,280
+Tyler: very hideous but i could be wrong there yeah just like brute forcing the ugliest thing
+
+554
+00:50:03,280 --> 00:50:08,480
+Tyler: possible versus yeah there's this idea that like mathematics is beautiful that you know
+
+555
+00:50:08,480 --> 00:50:17,080
+Tyler: um physics is beautiful that these ideas and these formulas are super elegant and like
+
+556
+00:50:17,080 --> 00:50:22,000
+Tyler: there's some underlying beautiful structure to the universe that we'll just keep on discovering
+
+557
+00:50:22,000 --> 00:50:28,360
+Tyler: but then the alternative to that is like this where it's like oh no actually those were
+
+558
+00:50:28,360 --> 00:50:37,320
+Tyler: just the things that we could discover because our brains are like hardwired to kind of tune
+
+559
+00:50:37,320 --> 00:50:44,600
+Tyler: into those frequencies and to like resonate with those beautiful things but to like ignore
+
+560
+00:50:44,600 --> 00:50:53,920
+Tyler: or see through the things that are less so i'm calling it the ugly ugly simulation hypothesis
+
+561
+00:50:53,920 --> 00:50:58,840
+Chris: which is that if the simulation is true it's vibe coded and it's total fucking spaghetti
+
+562
+00:50:58,840 --> 00:51:05,440
+Jackson: and that's why we're finding this stuff yeah i feel like if i don't know how many mathematicians
+
+563
+00:51:05,440 --> 00:51:11,000
+Jackson: were like 30 pages into a proof and they're like this is looking nasty and then they just
+
+564
+00:51:11,000 --> 00:51:16,600
+Jackson: tore up the paper if they were in ai they would have held my god all the way and just
+
+565
+00:51:16,600 --> 00:51:24,200
+Jackson: like all right i've solved it i don't know has it happened also our bitcoin we've lost
+
+566
+00:51:24,200 --> 00:51:31,720
+Jackson: another 40 dollars 40 dollars down the boys we're not doing good on these couches or not
+
+567
+00:51:31,720 --> 00:51:45,000
+Chris: these like bitcoin flip coin flips i feel like the cup might be that's not correct it
+
+568
+00:51:45,000 --> 00:51:54,480
+Tyler: hurt us talking shit about the uh the ugly proofs um yeah and then like the corollary
+
+569
+00:51:54,480 --> 00:52:02,100
+Tyler: to this as it pertains to like bitcoin and cryptography is that there's kind of like
+
+570
+00:52:02,100 --> 00:52:07,600
+Tyler: a direct metaphor or maybe that's even more of a connection than a metaphor to the p equals
+
+571
+00:52:07,600 --> 00:52:15,860
+Tyler: np problem where there's like this assumption about um the hardness of a certain class of
+
+572
+00:52:15,860 --> 00:52:23,040
+Tyler: problem and like the time complexity that can be done in and if that assumption breaks
+
+573
+00:52:23,040 --> 00:52:31,920
+Tyler: then cryptography is basically broken um which would be very bad for all of the load-bearing
+
+574
+00:52:31,920 --> 00:52:43,720
+Tyler: systems of the internet and for cryptocurrencies so i'm not a mathematician but my understanding
+
+575
+00:52:43,720 --> 00:52:48,080
+Chris: is that if p equals mp it also unlocks a lot of good things right it's not just that cryptography
+
+576
+00:52:48,080 --> 00:52:53,800
+Chris: breaks it's like every optimization problem is solved right like so traveling salesman
+
+577
+00:52:53,800 --> 00:53:01,200
+Chris: uh colored graph uh all scheduling problems become trivial trivially automatable like
+
+578
+00:53:01,200 --> 00:53:07,960
+Tyler: oh great so i can like get sent around the country selling people things and get scheduled
+
+579
+00:53:07,960 --> 00:53:13,480
+Chris: really efficiently so i could work harder but they're gonna take all of my bitcoin chris
+
+580
+00:53:13,480 --> 00:53:19,960
+Chris: you're not like painting me a utopian picture um but i mean this comes like you will work
+
+581
+00:53:19,960 --> 00:53:24,960
+Tyler: harder and you will be happy and you will own nothing yeah yeah you'll have like super
+
+582
+00:53:24,960 --> 00:53:29,280
+Chris: efficient chips and like you'll yeah you'll every minute of your day will be accounted
+
+583
+00:53:29,280 --> 00:53:41,840
+Jackson: for yeah the perfect corporate utopia jeez don't say don't say that that's a bad phrase
+
+584
+00:53:41,840 --> 00:53:45,160
+Chris: but no i think this like i mean it has like wide reaching implications for things like
+
+585
+00:53:45,160 --> 00:53:51,320
+Chris: protein folding right which is like how we find peptides or these new classes of drugs
+
+586
+00:53:51,320 --> 00:53:56,880
+Chris: and cancer cancer research um like i think just find peptides on alababa dude like what
+
+587
+00:53:56,880 --> 00:54:03,200
+Tyler: are you talking about find them just go to alababa and search like wolverine stack yeah
+
+588
+00:54:03,200 --> 00:54:07,180
+Chris: every time i talk to quen it like puts an order in for me even though i tell it not
+
+589
+00:54:07,180 --> 00:54:12,920
+Tyler: to stream to alibaba every time you go to your gym uh don't they have like peptides
+
+590
+00:54:12,920 --> 00:54:17,300
+Chris: out front that they're selling they do they do have they do have like sample platters
+
+591
+00:54:17,300 --> 00:54:23,920
+Chris: of like peptides nearby gym uh haven't done like but you're saying don't worry we're all
+
+592
+00:54:23,920 --> 00:54:29,640
+Jackson: going to be just focus on the positives we'll live forever we'll be gigajacked and we'll
+
+593
+00:54:29,640 --> 00:54:33,720
+Jackson: have no free will and then i mean i think he was trying to white pill a little bit where
+
+594
+00:54:33,720 --> 00:54:40,200
+Tyler: i was like oh this isn't all bad if like this you know if if p equals np but you didn't
+
+595
+00:54:40,200 --> 00:54:45,760
+Chris: convince me too much no the good things sounded kind of bad i'm like what if chicken little
+
+596
+00:54:45,760 --> 00:54:50,360
+Chris: was actually really excited about this guy falling that's that's me uh yeah this guy's
+
+597
+00:54:50,360 --> 00:55:03,360
+Jackson: falling but that's cool uh yeah just be yeah 500 years old biceps the size of a globe uh
+
+598
+00:55:03,360 --> 00:55:10,520
+Jackson: at least we'll be sexy of our lives are totally empty and meaningless well thank you everybody
+
+599
+00:55:10,520 --> 00:55:15,400
+Jackson: for tuning into the podcast we lost a lot of money finance coin i don't know why you're
+
+600
+00:55:15,400 --> 00:55:21,160
+Jackson: going up when finance just got hacked but screw you bitcoin i don't know why you're
+
+601
+00:55:21,160 --> 00:55:27,160
+Jackson: going down it's because cryptography is dead but now bitcoin is going up and we bet down
+
+602
+00:55:27,160 --> 00:55:36,960
+Jackson: yeah oh we bet down yeah messed up yeah drunken miller do you guys see that no stanley drunken
+
+603
+00:55:36,960 --> 00:55:42,040
+Chris: miller was like he posted hyper liquid on twitter and now hyper liquid is doing a deal
+
+604
+00:55:42,040 --> 00:55:50,360
+Chris: with the nyse or something trade dot xyz everyone's freaking out anyway hyper liquid's
+
+605
+00:55:50,360 --> 00:55:55,520
+Jackson: really going to power the future of finance tyler cannot believe it we'll talk about it
+
+606
+00:55:55,520 --> 00:56:02,120
+Tyler: next episode that is time if you just counter grade all of my takes you will do extremely
+
+607
+00:56:02,120 --> 00:56:09,360
+Tyler: well in life so i think that's why people tune in for the like negative alpha negative
+
+608
+00:56:09,360 --> 00:56:16,720
+Tyler: alpha is also alpha you just need to realize you know like the inverse grammar yeah decrypt
+
+609
+00:56:16,720 --> 00:56:23,640
+Jackson: decrypt tyler's words thank you everybody and have a good halloween go spooky style
