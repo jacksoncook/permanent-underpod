@@ -19,6 +19,7 @@ import zoneinfo
 DEFAULT_QUEUE = "media/clips/tiktok/queue.json"
 HOUSE_TZ = zoneinfo.ZoneInfo("America/Los_Angeles")
 ACCOUNT = "underpodpodcast"
+NO_DROPDOWN_TAGS = {"#shorts", "#podcast"}
 SLOT_HOUR = 19
 EPISODE_SUFFIX = re.compile(r"\s*[-–|]\s*Ep\s*\d+\s*Clip\s*$", re.I)
 FULL_EPISODE_LINE = re.compile(r"^\s*full episode", re.I)
@@ -75,7 +76,7 @@ def caption_for(up):
     hook = EPISODE_SUFFIX.sub("", up["title"]).strip()
     lines = [l.strip() for l in up.get("description", "").splitlines() if l.strip()]
     body = next((l for l in lines if not l.startswith("#") and not FULL_EPISODE_LINE.match(l)), "")
-    tags = [t for l in lines for t in re.findall(r"#\w+", l) if t.lower() != "#shorts"]
+    tags = [t for l in lines for t in re.findall(r"#\w+", l) if t.lower() not in NO_DROPDOWN_TAGS]
     if "#podcastclips" not in [t.lower() for t in tags]:
         tags.append("#podcastclips")
     if hook[-1:].isalnum():
