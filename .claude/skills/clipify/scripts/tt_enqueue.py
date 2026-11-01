@@ -19,7 +19,7 @@ import zoneinfo
 DEFAULT_QUEUE = "media/clips/tiktok/queue.json"
 HOUSE_TZ = zoneinfo.ZoneInfo("America/Los_Angeles")
 ACCOUNT = "underpodpodcast"
-NO_DROPDOWN_TAGS = {"#shorts", "#podcast"}
+NO_DROPDOWN_TAGS = {"#shorts", "#podcast", "#funny"}
 SLOT_HOUR = 19
 EPISODE_SUFFIX = re.compile(r"\s*[-–|]\s*Ep\s*\d+\s*Clip\s*$", re.I)
 FULL_EPISODE_LINE = re.compile(r"^\s*full episode", re.I)

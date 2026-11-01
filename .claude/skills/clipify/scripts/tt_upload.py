@@ -253,10 +253,12 @@ def type_caption(page, caption):
         if word.startswith("#") and len(word) > 1:
             page.keyboard.type(word, delay=int(15 * SLOW))
             row = hashtag_row(page, word)
-            if row is None:
+            for _ in range(3):
+                if row is not None:
+                    break
+                page.keyboard.type("x", delay=int(15 * SLOW))
+                nap(page, 600)
                 page.keyboard.press("Backspace")
-                nap(page, 400)
-                page.keyboard.type(word[-1], delay=int(15 * SLOW))
                 row = hashtag_row(page, word)
             if row is None:
                 raise RuntimeError(f"no dropdown match for {word}; refusing to post it as plain text")
@@ -274,7 +276,10 @@ def type_caption(page, caption):
 
 
 def hashtag_row(page, word, seconds=8):
-    """The suggestion dropdown renders a beat after typing stops and sometimes not at all on the first try."""
+    """The suggestion dropdown renders a beat after typing stops and sometimes not at all on the first try;
+    the caller nudges it with an extra character + Backspace, which re-queries the whole word. Some tags never
+    get a list at all (#podcast, #funny — probed 2026-11-01: "#funny" empty, "#funnyx"/"#comedy"/"#bidet"/"#ai"
+    instant); tt_enqueue.py keeps those out of the queue."""
     deadline = time.time() + seconds * SLOW
     row = page.locator(".hashtag-suggestion-item", has=page.get_by_text(word, exact=True)).first
     while time.time() < deadline:
