@@ -11,7 +11,7 @@ moved mid-show as an intermission · ~6.2 min of content removed, 16 dead-air pa
 
 ## Episode video
 
-- **URL:** YouTube _not uploaded yet — Jackson uploads manually._
+- **URL:** https://youtu.be/P5Xe27bR1tY — "Inside the $6.3 Billion Binance Hack" (Jackson's manual upload, live 2026-10-30). 15 tags + final-cut captions (`standard`) patched via API 2026-11-01.
 - **Spotify:** published 2026-10-30 15:44 EDT as "How Hackers Drained Billions From Binance" (video, 56:35), via the
   accessibility-tree watcher in `spotify-watch/` once the upload finished.
 - **File:** `media/ep21/Underpod - Ep 21 (Final Cut)_v2.mp4` (Jackson's pick: v6 cut + low-end restore on his track).
@@ -192,14 +192,25 @@ Subscribe for next week: contrarian corner, fire everyone but the engineers; Ant
 
 ## Clips
 
-Not cut yet. Short candidates from the edit (final-cut times, all personality picks): "five B-illions, not M, not
-T" (0:00 / 4:36), the Polymarket "double-rugged" bit (3:05), the 11-year-old cousin on pump.fun (6:50), "$120,000
-in gas, still made $250,000" (13:30), the pillowcase protocol (15:45), "three billion's enough for me" (17:25),
-the Walmart gift cards (18:50), "North Korea buys a lot of Steam games" (19:30), the bidet (0:30 / 27:51), "are you
-wearing pants right now" (28:18), "economics is astrology for men" (37:58), "or use Qwen 3.8 and send it to the CCP"
-(41:33), "get this man a whiteboard" (44:53), "vibe coded, total spaghetti" (49:33), "we've lost another $40"
-(50:08), peptides on Alibaba (54:03), "500 years old, biceps the size of a globe" (54:38), "negative alpha is also
-alpha" (56:08).
+11 shorts, one a day Fri Nov 6 → Mon Nov 16, 2 PM PT (22:00 UTC). All 9:16 face-crop verticals off `edited_raw.mov` with the episode audio chain, branded ender; spec `clips.json`, copy `posting-copy.md`. Scheduled-private via `yt_upload.py` 2026-11-01 (force-ssl token re-authed; the Ep 21 manual upload had revoked it). Pinned comments auto-post via the LaunchAgent (`media/clips/ep21/pin-comments.json`); related-video + pinning are Jackson's in Studio.
+
+| Date | Clip | Final | Title | URL |
+|---|---|---|---|---|
+| Fri Nov 6 | short5-bathroom-roll-call | 27:55 | Live From a Bathroom. There Is Also a Bidet | https://youtu.be/KZTuplg7XlI |
+| Sat Nov 7 | short1-five-b-illions | 4:34 | Binance Got Hacked for Five B-illions | https://youtu.be/Fz-0uUVp04s |
+| Sun Nov 8 | short11-negative-alpha | 56:00 | "Negative Alpha Is Also Alpha" | https://youtu.be/henzA9dITcw |
+| Mon Nov 9 | short6-wearing-pants | 28:20 | "Are You Wearing Pants Right Now?" | https://youtu.be/8IQZkw6Y-Xo |
+| Tue Nov 10 | short2-dont-need-5-billion | 17:13 | If I Stole $5 Billion, I'd Settle for Less | https://youtu.be/8w8px9p-EcQ |
+| Wed Nov 11 | short10-biceps-globe | 54:47 | 500 Years Old, Biceps the Size of a Globe | https://youtu.be/raArhg9b8qQ |
+| Thu Nov 12 | short8-ugly-simulation | 50:52 | The Simulation Is Vibe-Coded Spaghetti | https://youtu.be/PdGNafCvpL8 |
+| Fri Nov 13 | short7-astrology-for-men | 39:11 | Economics Is Astrology for Men | https://youtu.be/KFA7Qk6ORmw |
+| Sat Nov 14 | short3-steam-games | 19:02 | North Korea Buys a Lot of Steam Games | https://youtu.be/2zDPVrq1mvo |
+| Sun Nov 15 | short9-lost-another-40 | 51:24 | We Lost Another $40 on Bitcoin Coin Flips | https://youtu.be/cDHchrBHD-w |
+| Mon Nov 16 | short4-none-of-this-makes-sense | 20:26 | We Shorted Binance After the Hack. Still Losing | https://youtu.be/xKLigi-KR58 |
+
+Descriptions: one standalone sentence + "Full episode: https://youtu.be/P5Xe27bR1tY" + `#topic #topic #shorts` (see `posting-copy.md`).
+
+**Supercut prototype (not scheduled):** `short12-billion-supercut.mp4` — every "billion" in the episode (14 pieces, 23.8 s + ender), built with the new `supercut.py` (Jackson's 11/1 ask for stitched-moment shorts). Whisper of the render reads every beat as a whole phrase; needs Jackson's watch before it goes up.
 
 ## Edit decisions of note
 

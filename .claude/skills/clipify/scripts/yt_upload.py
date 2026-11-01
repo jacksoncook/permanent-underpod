@@ -35,7 +35,7 @@ manifest.json:
 NOTE: a brand-new / unverified channel locks ALL API uploads to private until you
 verify the channel by phone in YouTube Studio. Scheduled publish won't fire until then.
 """
-import json, os, sys, time
+import json, os, re, sys, time
 
 # `youtube.force-ssl` is a strict superset of the broad `youtube` scope (uploads,
 # playlists, videos.update) and additionally covers captions, so one token serves
