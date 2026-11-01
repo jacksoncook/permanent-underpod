@@ -1,0 +1,311 @@
+{
+ "source": "/Users/jcook/Personal/permanent-underpod/media/ep21/work/edited_raw.mov",
+ "out_dir": "/Users/jcook/Personal/permanent-underpod/media/clips/ep21",
+ "logo": "/Users/jcook/Personal/permanent-underpod/media/ep21/work/logo.png",
+ "audio_chain": "highpass=f=80,afftdn=nr=14:nf=-50:tn=1,volume=6dB,adynamicequalizer=dfrequency=6800:dqfactor=2.5:tfrequency=6800:tqfactor=2.5:mode=cutabove:threshold=0.01:ratio=4:range=8:attack=2:release=40,acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,treble=f=9500:width_type=q:w=0.8:g=1.5,loudnorm=I=-16:TP=-1.5:LRA=5",
+ "ender": true,
+ "clips": [
+  {
+   "name": "short1-five-b-illions",
+   "start": 274.9,
+   "end": 291.5,
+   "vertical": true,
+   "caption": {
+    "kicker": "BINANCE GOT HACKED",
+    "title": "\"FIVE B-ILLIONS\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     450,
+     "cut"
+    ]
+   ]
+  },
+  {
+   "name": "short2-dont-need-5-billion",
+   "start": 1033.96,
+   "end": 1045.94,
+   "vertical": true,
+   "caption": {
+    "kicker": "IF I STOLE $5 BILLION",
+    "title": "\"I DON'T NEED 5 BILLION\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     450,
+     "cut"
+    ]
+   ]
+  },
+  {
+   "name": "short3-steam-games",
+   "start": 1142.27,
+   "end": 1158.6,
+   "vertical": true,
+   "caption": {
+    "kicker": "WHAT DOES NORTH KOREA WANT",
+    "title": "\"A LOT OF STEAM GAMES\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     757,
+     "cut"
+    ],
+    [
+     9.797,
+     864,
+     "cut"
+    ],
+    [
+     12.397,
+     437,
+     "cut"
+    ],
+    [
+     14.597,
+     10,
+     "cut"
+    ]
+   ]
+  },
+  {
+   "name": "short4-none-of-this-makes-sense",
+   "start": 1226.45,
+   "end": 1238.5,
+   "vertical": true,
+   "caption": {
+    "kicker": "WE SHORTED BINANCE",
+    "title": "\"NONE OF THIS MAKES SENSE\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     117,
+     "cut"
+    ],
+    [
+     8.117,
+     450,
+     "cut"
+    ]
+   ]
+  },
+  {
+   "name": "short5-bathroom-roll-call",
+   "start": 1675.56,
+   "end": 1700.0,
+   "vertical": true,
+   "caption": {
+    "kicker": "LIVE FROM A BATHROOM",
+    "title": "\"THERE IS ALSO A BIDET\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     10,
+     "cut"
+    ],
+    [
+     7.5,
+     864,
+     "cut"
+    ],
+    [
+     13.01,
+     437,
+     "cut"
+    ],
+    [
+     18.24,
+     450,
+     "cut"
+    ]
+   ]
+  },
+  {
+   "name": "short6-wearing-pants",
+   "start": 1700.08,
+   "end": 1718.37,
+   "vertical": true,
+   "caption": {
+    "kicker": "LIVE FROM A BATHROOM",
+    "title": "\"ARE YOU WEARING PANTS?\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     10,
+     "cut"
+    ],
+    [
+     2.52,
+     437,
+     "cut"
+    ],
+    [
+     4.96,
+     864,
+     "cut"
+    ],
+    [
+     6.72,
+     437,
+     "cut"
+    ],
+    [
+     7.9,
+     10,
+     "cut"
+    ],
+    [
+     9.62,
+     864,
+     "cut"
+    ],
+    [
+     13.46,
+     10,
+     "cut"
+    ]
+   ]
+  },
+  {
+   "name": "short7-astrology-for-men",
+   "start": 2351.41,
+   "end": 2363.41,
+   "vertical": true,
+   "caption": {
+    "kicker": "AN AI AUDITED 138 PAPERS",
+    "title": "\"ASTROLOGY FOR MEN\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     654,
+     "cut"
+    ],
+    [
+     4.29,
+     757,
+     "cut"
+    ],
+    [
+     7.79,
+     450,
+     "cut"
+    ]
+   ]
+  },
+  {
+   "name": "short8-ugly-simulation",
+   "start": 3052.56,
+   "end": 3064.0,
+   "vertical": true,
+   "caption": {
+    "kicker": "AI PROOFS ARE HIDEOUS",
+    "title": "\"VIBE-CODED SPAGHETTI\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     391,
+     "cut"
+    ]
+   ]
+  },
+  {
+   "name": "short9-lost-another-40",
+   "start": 3084.3,
+   "end": 3107.2,
+   "vertical": true,
+   "caption": {
+    "kicker": "OUR $25 BITCOIN BET",
+    "title": "\"WE'VE LOST ANOTHER $40\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     450,
+     "cut"
+    ],
+    [
+     16.567,
+     437,
+     "cut"
+    ]
+   ]
+  },
+  {
+   "name": "short10-biceps-globe",
+   "start": 3287.6,
+   "end": 3311.4,
+   "vertical": true,
+   "caption": {
+    "kicker": "IF P = NP",
+    "title": "\"BICEPS THE SIZE OF A GLOBE\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     437,
+     "cut"
+    ],
+    [
+     9.367,
+     117,
+     "cut"
+    ]
+   ]
+  },
+  {
+   "name": "short11-negative-alpha",
+   "start": 3360.62,
+   "end": 3378.1,
+   "vertical": true,
+   "caption": {
+    "kicker": "TYLER'S TAKES",
+    "title": "\"NEGATIVE ALPHA IS ALSO ALPHA\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     10,
+     "cut"
+    ],
+    [
+     1.03,
+     864,
+     "cut"
+    ],
+    [
+     5.46,
+     10,
+     "cut"
+    ],
+    [
+     8.4,
+     864,
+     "cut"
+    ],
+    [
+     10.83,
+     437,
+     "cut"
+    ],
+    [
+     13.313,
+     757,
+     "cut"
+    ],
+    [
+     16.813,
+     10,
+     "cut"
+    ]
+   ]
+  }
+ ]
+}

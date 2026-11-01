@@ -1,0 +1,26 @@
+{
+  "source": "/Users/jcook/Personal/permanent-underpod/media/ep21/work/edited_raw.mov",
+  "out_dir": "/Users/jcook/Personal/permanent-underpod/media/clips/ep21",
+  "logo": "/Users/jcook/Personal/permanent-underpod/media/ep21/work/logo.png",
+  "workdir": "/Users/jcook/Personal/permanent-underpod/media/ep21/work",
+  "audio_chain": "highpass=f=80,afftdn=nr=14:nf=-50:tn=1,volume=6dB,adynamicequalizer=dfrequency=6800:dqfactor=2.5:tfrequency=6800:tqfactor=2.5:mode=cutabove:threshold=0.01:ratio=4:range=8:attack=2:release=40,acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,treble=f=9500:width_type=q:w=0.8:g=1.5,loudnorm=I=-16:TP=-1.5:LRA=5",
+  "name": "short12-billion-supercut",
+  "caption": {"kicker": "ONE EPISODE", "title": "HOW MANY BILLIONS?"},
+  "snap": 0.2, "pad": 0.06,
+  "pieces": [
+    {"start": 274.9,  "end": 284.1},
+    {"start": 343.1,  "end": 344.0},
+    {"start": 529.8,  "end": 530.75},
+    {"start": 623.2,  "end": 624.05},
+    {"start": 654.9,  "end": 655.72},
+    {"start": 656.6,  "end": 657.62},
+    {"start": 765.3,  "end": 766.26},
+    {"start": 1043.4, "end": 1044.45},
+    {"start": 1060.3, "end": 1061.08},
+    {"start": 1073.2, "end": 1074.08},
+    {"start": 1091.7, "end": 1092.66},
+    {"start": 1186.8, "end": 1187.5},
+    {"start": 1229.8, "end": 1231.1},
+    {"start": 289.5,  "end": 291.5}
+  ]
+}

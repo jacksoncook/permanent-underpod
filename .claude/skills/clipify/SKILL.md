@@ -431,6 +431,26 @@ own scheduler (up to 10 days ahead) — see step 5 of the YouTube flow for the p
 - Homebrew ffmpeg may lack `drawtext` — captions are rendered as PNG overlays
   (via Pillow), not drawtext, on purpose.
 
+## Supercuts (`scripts/supercut.py`)
+
+A montage short: many sub-2 s pieces of one episode stitched into one vertical (every
+"billion" in the show, all three hosts saying the same word). Jackson asked for this type
+on 2026-11-01 (Ep 21 prototype `short12-billion-supercut`).
+
+```bash
+<venv>/bin/python scripts/supercut.py media/clips/epN/supercut-<word>.json
+```
+Spec: `source`, `out_dir`, `logo`, `audio_chain`, `workdir`, `name`, `caption`,
+`pieces: [{start, end}]`, `snap` (0.2), `pad` (0.06). Find the pieces with word-level
+whisper over the SRT cues that contain the word (`--max-len 1 -sow`; whisper tiles words
+contiguously, so its times are only a region), then the tool snaps every boundary to the
+quietest 10 ms of the speech-band envelope within ±`snap` s, picks the speaker's face
+column with `remote_face_crops.py`, renders the pieces through `clipify.py` (shared
+caption, no ender), concatenates them (concat demuxer), and runs the body through
+`clipify.py` once more for the ender. Between words there is no ≥80 ms silence, so
+`verify_clips.py` cannot gate it: whisper the rendered mp4 (every beat should read as a
+whole phrase) and have Jackson WATCH it before it is scheduled.
+
 ## Relationship to podcast-video-edit
 
 `podcast-video-edit` produces the full episode (reorder, cut, brand, master).
