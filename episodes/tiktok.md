@@ -139,13 +139,8 @@ Captions = YouTube hook + sentence + "Full episode: Underpod." + dropdown-picked
 | Date (ET) | Clip | URL |
 |---|---|---|
 | 2026-11-05 21:00 | `ep21/short10-biceps-globe` | https://www.tiktok.com/@underpodpodcast/video/7703307206757797142 |
-| 2026-11-06 19:00 | `ep21/short5-bathroom-roll-call` | https://www.tiktok.com/@underpodpodcast/video/7703291444995443990 |
 | 2026-11-06 21:00 | `ep21/short8-ugly-simulation` | https://www.tiktok.com/@underpodpodcast/video/7703309073143434518 |
-| 2026-11-07 19:00 | `ep21/short1-five-b-illions` | https://www.tiktok.com/@underpodpodcast/video/7703293242418220310 |
 | 2026-11-07 21:00 | `ep21/short7-astrology-for-men` | https://www.tiktok.com/@underpodpodcast/video/7703310657776651542 |
-| 2026-11-08 19:00 | `ep21/short11-negative-alpha` | https://www.tiktok.com/@underpodpodcast/video/7703294804527959318 |
 | 2026-11-08 21:00 | `ep21/short3-steam-games` | https://www.tiktok.com/@underpodpodcast/video/7703312163015888150 |
-| 2026-11-09 19:00 | `ep21/short6-wearing-pants` | https://www.tiktok.com/@underpodpodcast/video/7703295910477974806 |
 | 2026-11-09 21:00 | `ep21/short9-lost-another-40` | https://www.tiktok.com/@underpodpodcast/video/7703313973294173462 |
-| 2026-11-10 19:00 | `ep21/short2-dont-need-5-billion` | https://www.tiktok.com/@underpodpodcast/video/7703297809994272022 |
 | 2026-11-10 21:00 | `ep21/short4-none-of-this-makes-sense` | https://www.tiktok.com/@underpodpodcast/video/7703315328247303446 |
