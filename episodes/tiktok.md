@@ -118,3 +118,20 @@ The 11 Ep 18/19 items that never got scheduled (Oct 17–21) are retired in `que
 Run log 2026-10-24 04:31–05:22 ET: one Studio session, `--slow 3 --pause 180`. One hiccup: after the third schedule the
 next upload page bounced to the posts list and the caption editor never appeared; `tt_upload.py` now retries an item
 once when the failed attempt left nothing in flight (`page_is_clean`). Studio showed no partial rows.
+
+## Ep 21 batch (scheduled 2026-11-01, 4 PM PT daily; Ep 20 tail first)
+
+Captions = YouTube hook + sentence + "Full episode: Underpod." + dropdown-picked tags ending `#podcastclips` (`#podcast`/`#funny` never get a suggestion list — dropped at enqueue). Handle is now @underpodpodcast.
+
+| Date (ET) | Clip | URL |
+|---|---|---|
+| 2026-11-03 19:00 | `ep20/short3-test-answers` | https://www.tiktok.com/@underpodpodcast/video/7703284162488274198 |
+| 2026-11-04 19:00 | `ep20/short13-permanent-underclass` | https://www.tiktok.com/@underpodpodcast/video/7703285698954136854 |
+| 2026-11-05 19:00 | `ep20/short6-platos-cave` | https://www.tiktok.com/@underpodpodcast/video/7703287449014979862 |
+| 2026-11-06 19:00 | `ep21/short5-bathroom-roll-call` | https://www.tiktok.com/@underpodpodcast/video/7703291444995443990 |
+| 2026-11-07 19:00 | `ep21/short1-five-b-illions` | https://www.tiktok.com/@underpodpodcast/video/7703293242418220310 |
+| 2026-11-08 19:00 | `ep21/short11-negative-alpha` | https://www.tiktok.com/@underpodpodcast/video/7703294804527959318 |
+| 2026-11-09 19:00 | `ep21/short6-wearing-pants` | https://www.tiktok.com/@underpodpodcast/video/7703295910477974806 |
+| 2026-11-10 19:00 | `ep21/short2-dont-need-5-billion` | https://www.tiktok.com/@underpodpodcast/video/7703297809994272022 |
+
+Owed: `short10-biceps-globe` (Nov 11) through `short4-none-of-this-makes-sense` (Nov 16) sit past Studio's 10-day horizon — rerun `tt_upload.py media/clips/tiktok/queue.json --headful --slow 3 --pause 180` on/after Fri Nov 7.
