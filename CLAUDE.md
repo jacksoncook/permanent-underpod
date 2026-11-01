@@ -39,7 +39,7 @@ production files. Not affiliated with any employer.
   what stops the Ep 8 boomerang + mid-word cuts from recurring); `clipify.py` cuts clips;
   `yt_upload.py` publishes (scheduled-private, auto-publish at a `publishAt`);
   `yt_fetch.py` reads back live video metadata; `tt_upload.py` schedules clips on TikTok
-  (@permanentunderpod) via TikTok Studio + Playwright from `media/clips/tiktok/queue.json`
+  (@underpodpodcast, formerly @permanentunderpod) via TikTok Studio + Playwright from `media/clips/tiktok/queue.json`
   (`tt_enqueue.py` fills it from a YouTube manifest; sheet: `episodes/tiktok.md`).
   One-time OAuth setup is in
   `.claude/skills/clipify/youtube-setup.md`.

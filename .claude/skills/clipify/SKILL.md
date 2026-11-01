@@ -353,7 +353,7 @@ manual Studio uploads revoke tokens (five times so far) — probe each token fil
 individually before re-authing; on the browser screen pick the brand channel.
 
 ## Publish to TikTok (`scripts/tt_upload.py` + `scripts/tt_enqueue.py`)
-Account: **@permanentunderpod**. No API: TikTok's Content Posting API only allows private posts
+Account: **@underpodpodcast** (renamed from @permanentunderpod by Jackson, seen 2026-11-01; old video URLs still resolve). No API: TikTok's Content Posting API only allows private posts
 until an app audit, so this drives TikTok Studio's web uploader with Playwright and uses Studio's
 own scheduler (up to 10 days ahead) — see step 5 of the YouTube flow for the per-episode commands.
 

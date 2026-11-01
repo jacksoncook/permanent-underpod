@@ -1,4 +1,4 @@
-# TikTok — @permanentunderpod (show rebranded to Underpod 2026-10-26; handle unchanged until Jackson renames it)
+# TikTok — @underpodpodcast (show rebranded to Underpod 2026-10-26; handle renamed from @permanentunderpod by 2026-11-01)
 
 Posting sheet for TikTok. Every clip goes to TikTok (house rule since 2026-10-03):
 `tt_enqueue.py` adds an episode's YouTube manifest to `media/clips/tiktok/queue.json`, and
