@@ -68,10 +68,12 @@ bash setup.sh        # ffmpeg + whisper-cpp + whisper model + Pillow (and option
 The repo is safe in git, but two things live only on local disk — **copy them before
 wiping the old machine**:
 
-1. **`media/` (~58 GB)** — raw recordings, final cuts, exported clips. The raw `.mov`
-   files are **irreplaceable** (the finals are also on YouTube, but only as compressed
-   uploads). Back up at minimum `media/ep*/raw/`; ideally the whole dir, e.g.
-   `rsync -a media/ /Volumes/<backup>/permanent-underpod-media/`.
+1. **`media/` (~12 GB since the 2026-11-03 purge)** — exported clips, thumbnails, and
+   the Ep 21 `work/edited_raw.mov`. Raws, work dirs, and final cuts for Ep 4–21 and the
+   standalones were deleted on 2026-11-03 to reclaim ~350 GB. Final cuts come back in
+   original quality via Google Takeout (YouTube → videos); Studio's own download is 720p.
+   Raws are gone for good, so a shipped episode cannot be re-edited. Going forward: after
+   an episode ships and its shorts are rendered, delete `media/epN/work` and `raw/`.
 2. **`~/.config/clipify-youtube/client_secret.json`** — your YouTube OAuth client. It's
    re-downloadable from the Google Cloud project (Credentials → your OAuth client), so
    back it up *or* just recreate it via `youtube-setup.md`. The `token*.json` and `.venv`
