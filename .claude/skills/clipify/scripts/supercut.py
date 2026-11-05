@@ -5,7 +5,8 @@ phrase montage: every "billion" in the show, three hosts saying the same thing).
 usage: python3 supercut.py <supercut.json>
 
 spec: {"source", "out_dir", "logo", "audio_chain", "workdir", "name", "caption",
-       "pieces": [{"start", "end"}, ...], "snap": 0.2, "pad": 0.06}
+       "pieces": [{"start", "end", "caption"?}, ...], "snap": 0.2, "pad": 0.06}
+A piece's own "caption" overrides the shared one (a perp arc shows the balance per beat).
 
 Each piece boundary is snapped to the quietest 10 ms of the speech-band envelope
 within +-snap s (the same measurement verify_clips.py gates on), the active face is
@@ -58,7 +59,7 @@ for i, p in enumerate(SPEC["pieces"]):
     if b - a < 0.25:
         sys.exit(f"piece {i} collapsed to {b - a:.2f}s ({a:.2f}-{b:.2f}); widen it")
     clips.append({"name": f"p{i:02d}", "start": round(a, 3), "end": round(b, 3), "vertical": True,
-                  "ender": False, "caption": SPEC.get("caption"), "face_crops": [[0.0, face_x(a, b), "cut"]]})
+                  "ender": False, "caption": p.get("caption", SPEC.get("caption")), "face_crops": [[0.0, face_x(a, b), "cut"]]})
     print(f"  piece {i:2d}  {p['start']:.2f}-{p['end']:.2f} -> {a:.2f}-{b:.2f}  ({b - a:.2f}s)  x={clips[-1]['face_crops'][0][1]}")
 
 piece_spec = {"source": SRC, "out_dir": PIECES, "logo": SPEC["logo"], "audio_chain": SPEC["audio_chain"],

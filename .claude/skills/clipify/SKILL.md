@@ -158,6 +158,14 @@ Selection and length rules, from `analytics/report.html` (refresh with the
 - **End-of-show bits are shorts gold** — they air where only 3–5% of episode
   viewers remain, but the lottery-ticket finale became the channel's #1 video.
   Clip them within 24 h of the episode going live.
+- **Perp of Fortune shorts MUST show the number** (Jackson, 2026-11-05). The number is
+  the account P&L or balance at that beat, read off the dashboard share or the hosts'
+  own words (Ep 21: flip −$18.29, "lost another $40"). It goes in the on-screen caption
+  (kicker or title) AND the posting title; a perp short without a dollar figure is not
+  done. Ep 21's "Negative Alpha Is Also Alpha" and "None of This Makes Sense" shipped
+  without one — that is the failure mode. If the beat has no number on tape, pull the
+  dashboard PiP off the FINAL mp4 (see Mixed-source batches) or pick a different beat.
+  Still no segment jargon in the title ("Perp of Fortune" stays in the caption only).
 
 ## clips.json
 
@@ -450,6 +458,17 @@ caption, no ender), concatenates them (concat demuxer), and runs the body throug
 `clipify.py` once more for the ender. Between words there is no ≥80 ms silence, so
 `verify_clips.py` cannot gate it: whisper the rendered mp4 (every beat should read as a
 whole phrase) and have Jackson WATCH it before it is scheduled.
+
+**Perp-of-Fortune supercut (one per episode, standalone short — Jackson, 2026-11-05).**
+Stitch the perp arc through the whole pod: the open (the bet), each mid-show dashboard
+check, the final. Pieces are phrase-length (2–6 s), chronological, 20–30 s total. Every
+piece gets its own `caption` with the number at that moment (`"caption"` on the piece
+overrides the shared one), so the viewer watches the balance move: e.g. kicker
+`PERP OF FORTUNE`, titles `"SHORT BNB 10×"` → `"−$18.29"` → `"STILL IN THE RED"`. The
+final number is the posting title's hook ("We Called the Hack and Still Lost $58").
+Phrase-length pieces DO have real gaps, so unlike word montages the generated
+`<workdir>/_<name>_pieces/pieces.json` is gate-able: run `verify_clips.py` on it after
+the build, then whisper the render. Example spec: `episodes/ep21/supercut-perp.json`.
 
 ## Relationship to podcast-video-edit
 

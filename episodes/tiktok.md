@@ -144,3 +144,9 @@ Captions = YouTube hook + sentence + "Full episode: Underpod." + dropdown-picked
 | 2026-11-08 21:00 | `ep21/short3-steam-games` | https://www.tiktok.com/@underpodpodcast/video/7703312163015888150 |
 | 2026-11-09 21:00 | `ep21/short9-lost-another-40` | https://www.tiktok.com/@underpodpodcast/video/7703313973294173462 |
 | 2026-11-10 21:00 | `ep21/short4-none-of-this-makes-sense` | https://www.tiktok.com/@underpodpodcast/video/7703315328247303446 |
+
+**Ep 21 supercut (scheduled 2026-11-05, Jackson approved the billion montage):** YouTube goes Nov 17, but Studio's 10-day window puts TikTok inside it.
+
+| Date (ET) | Clip | URL |
+|---|---|---|
+| 2026-11-11 19:00 | `ep21/short12-billion-supercut` | https://www.tiktok.com/@underpodpodcast/video/7704646037780073750 |

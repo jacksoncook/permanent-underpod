@@ -1,0 +1,18 @@
+{
+  "_status": "DRAFT TEMPLATE (2026-11-05): piece bounds are the shipped shorts' bounds, not tightened phrases. Whisper each beat, trim to the 2-6 s line that carries the number, then build.",
+  "source": "/Users/jcook/Personal/permanent-underpod/media/ep21/work/edited_raw.mov",
+  "out_dir": "/Users/jcook/Personal/permanent-underpod/media/clips/ep21",
+  "logo": "/Users/jcook/Personal/permanent-underpod/media/ep21/work/logo.png",
+  "workdir": "/Users/jcook/Personal/permanent-underpod/media/ep21/work",
+  "audio_chain": "highpass=f=80,afftdn=nr=14:nf=-50:tn=1,volume=6dB,adynamicequalizer=dfrequency=6800:dqfactor=2.5:tfrequency=6800:tqfactor=2.5:mode=cutabove:threshold=0.01:ratio=4:range=8:attack=2:release=40,acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,treble=f=9500:width_type=q:w=0.8:g=1.5,loudnorm=I=-16:TP=-1.5:LRA=5",
+  "name": "short13-perp-arc",
+  "caption": {"kicker": "PERP OF FORTUNE", "title": "ONE EPISODE, ONE ACCOUNT"},
+  "snap": 0.2, "pad": 0.06,
+  "pieces": [
+    {"start": 128.5,  "end": 133.7,  "caption": {"kicker": "PERP OF FORTUNE", "title": "\"LET'S LOSE SOME MONEY\""}},
+    {"start": 617.2,  "end": 625.0,  "caption": {"kicker": "THE BET", "title": "SHORT BNB, 10× LEVERAGE"}},
+    {"start": 1226.45, "end": 1238.5, "caption": {"kicker": "WE SHORTED BINANCE", "title": "\"NONE OF THIS MAKES SENSE\""}},
+    {"start": 3084.3, "end": 3107.2, "caption": {"kicker": "THE $25 BITCOIN BET", "title": "−$40"}},
+    {"start": 3360.62, "end": 3378.1, "caption": {"kicker": "FINAL: FLIP −$18.29", "title": "\"NEGATIVE ALPHA IS ALSO ALPHA\""}}
+  ]
+}

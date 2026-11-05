@@ -59,7 +59,7 @@ One a day from Fri Nov 6, 2 PM PT (22:00 UTC, PST). Tue Nov 10 sits 4 h ahead of
 - Caption: Binance lost $5 billion, so we shorted BNB with 10x leverage. The market disagreed. Full episode: https://youtu.be/P5Xe27bR1tY
 - Tags:    #binance #trading #shorts · binance, bnb, short selling, perpetual futures, crypto podcast, comedy podcast, podcast
 
-**short12-billion-supercut** (9:16) — NOT SCHEDULED, prototype for Jackson's review
+**short12-billion-supercut** (9:16) — Tue Nov 17 2 PM PT (Jackson approved 11/5) — https://youtu.be/VPDgGQWYYpc
 - Title:   How Many Billions Can One Podcast Say?
 - Caption: Every "billion" from one episode about a $5 billion hack. Full episode: https://youtu.be/P5Xe27bR1tY
 - Tags:    #binance #crypto #shorts · binance, crypto hack, supercut, comedy podcast, podcast

@@ -192,7 +192,7 @@ Subscribe for next week: contrarian corner, fire everyone but the engineers; Ant
 
 ## Clips
 
-11 shorts, one a day Fri Nov 6 → Mon Nov 16, 2 PM PT (22:00 UTC). All 9:16 face-crop verticals off `edited_raw.mov` with the episode audio chain, branded ender; spec `clips.json`, copy `posting-copy.md`. Scheduled-private via `yt_upload.py` 2026-11-01 (force-ssl token re-authed; the Ep 21 manual upload had revoked it). Pinned comments auto-post via the LaunchAgent (`media/clips/ep21/pin-comments.json`); related-video + pinning are Jackson's in Studio.
+12 shorts, one a day Fri Nov 6 → Tue Nov 17, 2 PM PT (22:00 UTC). All 9:16 face-crop verticals off `edited_raw.mov` with the episode audio chain, branded ender; spec `clips.json`, copy `posting-copy.md`. Scheduled-private via `yt_upload.py` 2026-11-01 (force-ssl token re-authed; the Ep 21 manual upload had revoked it). Pinned comments auto-post via the LaunchAgent (`media/clips/ep21/pin-comments.json`); related-video + pinning are Jackson's in Studio.
 
 | Date | Clip | Final | Title | URL |
 |---|---|---|---|---|
@@ -207,10 +207,11 @@ Subscribe for next week: contrarian corner, fire everyone but the engineers; Ant
 | Sat Nov 14 | short3-steam-games | 19:02 | North Korea Buys a Lot of Steam Games | https://youtu.be/2zDPVrq1mvo |
 | Sun Nov 15 | short9-lost-another-40 | 51:24 | We Lost Another $40 on Bitcoin Coin Flips | https://youtu.be/cDHchrBHD-w |
 | Mon Nov 16 | short4-none-of-this-makes-sense | 20:26 | We Shorted Binance After the Hack. Still Losing | https://youtu.be/xKLigi-KR58 |
+| Tue Nov 17 | short12-billion-supercut | supercut | How Many Billions Can One Podcast Say? | https://youtu.be/VPDgGQWYYpc |
 
 Descriptions: one standalone sentence + "Full episode: https://youtu.be/P5Xe27bR1tY" + `#topic #topic #shorts` (see `posting-copy.md`).
 
-**Supercut prototype (not scheduled):** `short12-billion-supercut.mp4` — every "billion" in the episode (14 pieces, 23.8 s + ender), built with the new `supercut.py` (Jackson's 11/1 ask for stitched-moment shorts). Whisper of the render reads every beat as a whole phrase; needs Jackson's watch before it goes up.
+**Supercut:** `short12-billion-supercut.mp4` — every "billion" in the episode (14 pieces, 23.8 s + ender), built with `supercut.py`. Jackson approved 11/5; scheduled Nov 17 (4 h ahead of that day's 6 PM PT standalone). TikTok Nov 11 4 PM PT. Perp-arc supercut drafted in `supercut-perp.json`, not built.
 
 ## Edit decisions of note
 
