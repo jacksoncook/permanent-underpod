@@ -1,0 +1,64 @@
+{
+ "source": "/Users/jcook/Personal/permanent-underpod/media/ep22/work/edited_raw.mov",
+ "out_dir": "/Users/jcook/Personal/permanent-underpod/media/clips/ep22",
+ "logo": "/Users/jcook/Personal/permanent-underpod/media/ep22/work/logo.png",
+ "workdir": "/Users/jcook/Personal/permanent-underpod/media/ep22/work",
+ "audio_chain": "highpass=f=80,afftdn=nr=14:nf=-50:tn=1,volume=6dB,adynamicequalizer=dfrequency=6800:dqfactor=2.5:tfrequency=6800:tqfactor=2.5:mode=cutabove:threshold=0.01:ratio=4:range=8:attack=2:release=40,acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,treble=f=9500:width_type=q:w=0.8:g=1.5,loudnorm=I=-16:TP=-1.5:LRA=5",
+ "name": "short14-perp-arc",
+ "caption": {
+  "kicker": "PERP OF FORTUNE",
+  "title": "LONG ZHIPU 10\u00d7 \u00b7 +$2.67"
+ },
+ "snap": 0.2,
+ "pad": 0.06,
+ "pieces": [
+  {
+   "start": 1451.89,
+   "end": 1456.39,
+   "caption": {
+    "kicker": "PERP OF FORTUNE",
+    "title": "\"WE HAVE NO BITCOIN FLIP\""
+   }
+  },
+  {
+   "start": 1478.7,
+   "end": 1482.4,
+   "caption": {
+    "kicker": "THE BET",
+    "title": "LONG ZHIPU \u00b7 10\u00d7"
+   }
+  },
+  {
+   "start": 1515.9,
+   "end": 1519.4,
+   "caption": {
+    "kicker": "FIVE MINUTES IN",
+    "title": "\u2212$0.43"
+   }
+  },
+  {
+   "start": 1539.4,
+   "end": 1544.4,
+   "caption": {
+    "kicker": "THE BART",
+    "title": "\u2212$0.44 \u00b7 \"WE BART INTO DOUBLE BART\""
+   }
+  },
+  {
+   "start": 3488.22,
+   "end": 3492.12,
+   "caption": {
+    "kicker": "THE BELL",
+    "title": "\"ZHIPU POPPING OFF\" \u00b7 +$2.22"
+   }
+  },
+  {
+   "start": 3500.42,
+   "end": 3505.52,
+   "caption": {
+    "kicker": "FINAL: +$2.67",
+    "title": "\"MAYBE WE SHOULD LEAVE THIS OPEN\""
+   }
+  }
+ ]
+}

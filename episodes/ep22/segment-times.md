@@ -11,7 +11,7 @@ the Ep 18 EQ chain · recorded order kept (Jackson's note) · one content cut (T
 
 ## Episode video
 
-- **URL:** (Jackson's manual upload; backfill from `yt_fetch.py` after it goes live)
+- **URL:** https://youtu.be/k1ZDF0VdkF0 — "Half a Country Used This Bank. Then It Froze." (Jackson's manual upload, live 2026-11-06, drafted description used as-is). Final-cut captions (`standard`) + 15 tags patched via API 2026-11-06.
 - **File:** `media/ep22/Underpod - Ep 22 (Final Cut).mp4`
 - **Thumbnail:** `media/ep22/ep22-thumbnail.png` — "ONE BANK. 60% OF A COUNTRY." (Jackson center at
   "That's terrible", Tyler left mid-eyebrow-raise at the no-Bitcoin-flip reveal, Chris right at the Bart
@@ -191,3 +191,21 @@ Subscribe for next week: the Bitcoin flip returns to Perp of Fortune, agentic co
   +0.21 s across the three pairs confirm the −0.079 offsets.
 - **Disclaimer:** Tyler and Jackson say "Not financial advice, personal opinions" at 1:48 final, the first
   spoken disclaimer since Ep 8; the end card still carries the written one.
+
+## Clips
+
+11 shorts, one a day Wed Nov 18 → Sat Nov 28, 2 PM PT (22:00 UTC), after Ep 21's run ends Nov 17. 10 face-crop verticals off `edited_raw.mov` plus the perp-arc supercut (`supercut-perp.json`), branded ender; spec `media/clips/ep22/clips.json`, copy `posting-copy.md`. Scheduled-private via `yt_upload.py` 2026-11-06. Three picks rendered and dropped as too long (Jackson: "14 is a lot"): forms-in-chinese, bottleneck, hotness-toast (`media/attic/clips-ep22-dropped/`). TikTok: same 11 as doubles Nov 11–16 (4 + 6 PM PT). Related-video + pinning are Jackson's in Studio.
+
+| Date | Clip | Final | Title | URL |
+|---|---|---|---|---|
+| Wed Nov 18 | short1-evil-qwen | 15:01 | Someone Found the Neuron That Makes Qwen Evil | https://youtu.be/HSwRolL3-ew |
+| Thu Nov 19 | short2-thank-you-ueno | 4:48 | We Need More Countries Screwed Over by Banks | https://youtu.be/5n9BGE6kUHE |
+| Fri Nov 20 | short3-one-million | 57:26 | What's One Million Times a Dollar? | https://youtu.be/5MGzYw5VfFI |
+| Sat Nov 21 | short4-no-bitcoin-flip | 24:11 | Our $0.23 Bet Has No Bitcoin Flip This Week | https://youtu.be/-lGoIG2DGLM |
+| Sun Nov 22 | short6-punish-instinct | 35:55 | My AI Booked a Bad Hotel, So I Punished It | https://youtu.be/58lWerZnfDg |
+| Mon Nov 23 | short7-protein-mail | 38:09 | What Do You Get Out of Protein Mail? | https://youtu.be/UN7X-2KNkxM |
+| Tue Nov 24 | short8-pm-dot-me | 41:32 | Nobody Can Spell PM Dot Me Over the Phone | https://youtu.be/YEC87nkxgtw |
+| Wed Nov 25 | short9-long-live-engineers | 43:34 | Long Live the Engineers. PMs, Welcome Aboard. | https://youtu.be/4tOxhI2gQmI |
+| Thu Nov 26 | short11-cracked-team | 56:17 | A Cracked Team of Three. Slightly Bloated. | https://youtu.be/kjc8I4-wk40 |
+| Fri Nov 27 | short12-robot-us | 52:31 | Do It in Biotech: $204M. Do It on a Podcast: Banned. | https://youtu.be/E75y25RYlVk |
+| Sat Nov 28 | short14-perp-arc | 24:04 | We Had No Bitcoin Flip and Still Made $2.67 | https://youtu.be/pyZ5_9-KIF4 |
