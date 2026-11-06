@@ -84,7 +84,22 @@
   {
    "id": "OUTRO",
    "m0": 3540.9,
-   "m1": 3565.2
+   "m1": 3557.35,
+   "hard_m1": true
+  },
+  {
+   "id": "OUTRO_B",
+   "m0": 3558.85,
+   "m1": 3560.95,
+   "hard_m1": true,
+   "hard_m0": true
+  },
+  {
+   "id": "OUTRO_C",
+   "m0": 3563.1,
+   "m1": 3565.2,
+   "hard_m1": true,
+   "hard_m0": true
   },
   {
    "id": "CARD_END",
@@ -178,6 +193,24 @@
    "type": "solo",
    "people": [
     "jackson"
+   ]
+  },
+  {
+   "m0": 1427.0,
+   "m1": 1435.41,
+   "type": "duo",
+   "people": [
+    "chris",
+    "tyler"
+   ]
+  },
+  {
+   "m0": 1435.41,
+   "m1": 1443.0,
+   "type": "duo",
+   "people": [
+    "jackson",
+    "tyler"
    ]
   }
  ],

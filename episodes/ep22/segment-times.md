@@ -1,6 +1,6 @@
 # Underpod — Ep 22 — Segment Times
 
-**Final cut: 59:13 · fully-remote episode, three StreamYard cams (offsets 0 / −0.079 / −0.079 from the
+**Final cut: 59:09 · fully-remote episode, three StreamYard cams (offsets 0 / −0.079 / −0.079 from the
 filename deltas, validated by turn-gap medians) plus Chris's screen share of the Perp of Fortune dashboard:
 full-frame at the reveal, then a persistent top-right PiP for the rest of the show · four-beat 42 s cold open
 that opens on the evil-Qwen sandwich · title card · end card · whoosh + gold wipe on all 8 transitions ·
@@ -17,12 +17,12 @@ the Ep 18 EQ chain · recorded order kept (Jackson's note) · one content cut (T
   "That's terrible", Tyler left mid-eyebrow-raise at the no-Bitcoin-flip reveal, Chris right at the Bart
   explainer; passed the 320×180 shrink test).
 - **Loudness:** delivered −15.6 LUFS integrated, −2.6 dBTP, LRA 4.1 (chain in `render.json`: the Ep 21 chain, target_lufs −11.8 / limit 0.7).
-  A/V durations 3553.10 / 3553.11 s.
-- **Sync check:** final audio cross-correlated against `edited_raw.mov` at 1:40, 30:00, 51:07 and 58:41 — lag a constant 35 ms at every point (same as Ep 15–21; no drift).
-- **LIKE + SUBSCRIBE:** pop-up on frame at 1:46.0, 29:44.3 and 56:41.3, SFX paired in each window. Dashboard
+  A/V durations 3549.47 / 3549.45 s.
+- **Sync check:** final audio cross-correlated against `edited_raw.mov` at 1:40, 30:00, 51:07 and 58:55 — lag a constant 35 ms at every point (same as Ep 15–21; no drift).
+- **LIKE + SUBSCRIBE:** pop-up on frame at 1:46.0, 29:27.8 and 56:39.3, SFX paired in each window. Dashboard
   PiP on frame from 24:38 (full-frame reveal, PiP from 24:46) to the end card.
 - **Captions:** `episodes/ep22/transcript-attributed.srt` — regenerated from the FINAL cut.
-- **Runtime flag:** 59:13 is over the 45–55 min target and the Perp retainer lands at 24:04, not inside the
+- **Runtime flag:** 59:09 is over the 45–55 min target and the Perp retainer lands at 24:04, not inside the
   first 10 min. Both follow from keeping the recorded order; Jackson's call whether to reorder a v2.
 
 ## Title (drafts)
@@ -86,15 +86,15 @@ GLOSSARY
 | 9:23 | LLM neurosurgery: Opus 5.5 / GPT-6 class models editing a 20,000-parameter Qwen by hand; distillation vs surgery |
 | 14:52 | Evil Qwen: one neuron, one murderous sandwich; why mech interp was given up and why it's back |
 | 18:59 | TikTok's edge CNN scores your face (age, expression, attractiveness); Samsung TV callback; the hotness-appropriate toaster |
-| 24:04 | Perp of Fortune: long ZhiPu 10×, no Bitcoin flip ("I've dropped the coin"), Tyler's eyebrows, the platonic Bart, visualised |
+| 24:04 | Perp of Fortune: long ZhiPu 10×, no Bitcoin flip ("I've dropped the coin"), Tyler's eyebrows (on screen before and during Jackson's call-out), the platonic Bart, visualised |
 | 26:41 | GLM 5.3 Flash: Chris's free model at 15¢/M tokens, forms returned in Chinese, "better than Opus" |
 | 35:06 | Instinct update: seven bookings, zero checks, one bad hotel; the punishment is butter at Aldi Spain |
 | 38:02 | Proton Mail: "what do you get out of proton male that you don't get out of gene male"; the fortress nobody else lives in; "oh, you're a privacy guy" |
 | 42:03 | Contrarian corner: the Proton CEO stops hiring engineers; Chris: long live the capital-E Engineer; Tyler's law of the bottleneck |
 | 50:09 | Mithril: the one-person biotech Anthropic bought; 11 contract labs via Claude; 11 acquisitions averaging $204M; the aqua-hire meta |
 | 56:18 | Tyler's pitch: acquire this cracked team of three, slightly bloated |
-| 58:42 | Perp final (+$2.67) and outro; "Buy Bitcoin, no financial advice" |
-| 59:06 | End card (Bitcoin flip returns · agentic commerce · layer-2 series · disclaimer) |
+| 58:42 | Perp final (+$2.67) and outro; "Buy Bitcoin, no financial advice" / "Adios, amigos" (3.7 s of pauses pulled out of the closeout) |
+| 59:02 | End card (Bitcoin flip returns · agentic commerce · layer-2 series · disclaimer) |
 
 ## Cuts to sweep (every splice in the final render)
 
@@ -146,7 +146,9 @@ with `hard_m0`/`hard_m1` (cold-open beats and the Instinct cut, micro-whispered 
 | 55:06.30 | dead-air trim (1.06 s) | 3321.84 → 3322.90 |
 | 55:45.83 | dead-air trim (2.49 s) | 3362.42 → 3364.91 |
 | 58:41.80 | pitch wrap → outro (block seam, no material removed) | 3540.88 → 3540.88 |
-| 59:06.10 | end card; "Buy Bitcoin, no financial advice" is the last line | 3565.19 → |
+| 58:58.27 | outro tightened: 1.5 s of the 1.9 s pause after "It's not me today" removed; in on Chris's "Buy Bitcoin, no financial advice" (all three mics silent at both edges) | 3557.35 → 3558.85 |
+| 59:00.37 | outro tightened: Chris's 2.1 s laugh-gap removed; in on Tyler's "Adios, amigos" (all three mics silent at both edges) | 3560.95 → 3563.10 |
+| 59:02.47 | end card; "Adios, amigos" is the last line | 3565.20 → |
 
 ## Spotify description (paste-ready draft)
 
@@ -172,7 +174,9 @@ Subscribe for next week: the Bitcoin flip returns to Perp of Fortune, agentic co
   (master 2182.10 → 2206.97). Out edge is mid-breath after "level of model" (the silence gap at 2180.69 would
   have stranded the sentence at "level of"), resume is "Yeah, and that concludes the Instinct update." No whoosh
   on a surgical removal.
-- **Order:** kept as recorded. Perp lands at 24:04 and the cut runs 59:13; flagged above.
+- **Tyler's eyebrows (Jackson's note):** the auto shots had Tyler off screen for the raise (1428) and the encore (1439). Pinned duo Chris+Tyler 1427.0–1435.4 and duo Jackson+Tyler 1435.4–1443.0 so he's on frame before and during "I didn't know your eyebrows could go that high."
+- **Outro (Jackson's note):** OUTRO split into three hard-edged pieces; removed 1.5 s before "Buy Bitcoin" and the 2.1 s laugh-gap before "Adios, amigos" (3.65 s total). Edges from the three-mic RMS envelope, words from micro-whisper.
+- **Order:** kept as recorded. Perp lands at 24:04 and the cut runs 59:09; flagged above.
 - **Cold open leak:** first COLD_C cut carried Jackson's "the people don't like robot us" under Chris's line;
   Jackson's track muted 3184.4–3188.1 for the beat.
 - **Dashboard share:** `chris-screen` StreamYard file anchored at master 1440.197 (filename delta); full-frame

@@ -106,147 +106,147 @@
 
 **Jackson** (00:24:26): to go that high, Tyler. That was excellent. Excellent expressions. Yeah.
 
-**Chris** (00:24:31): Let's put it through the TikTok model and see what it thinks that expression is. Okay, so today we are Max Long Zippoo, which is ZAI, I believe. And that is because we have been talking about... I guess we haven't been talking about it yet, but kind of. GLM 5.3, which is ZAI model. Is ZAI Zippoo? Yeah, I'm pretty sure. Yeah, it is. Of course, because people like me can't pronounce it Zippoo.
+**Chris** (00:24:31): Let's put it through the TikTok model and see what it thinks that expression is. Okay. So today we are Max Long Zippoo, which is ZAI, I believe. And that is because we have been talking about, I guess we haven't been talking about it yet, but kind of a GLM 5.3, which is ZAI model. Is ZAI Zippoo? Yeah, I'm pretty sure. Yeah, it is. Of course, because people like me
 
-**Jackson** (00:25:07): So yeah, there we go. I guess in China, maybe it's like the late afternoon. So maybe we'll see some movement here on Zippoo. We're already down 43 cents. That's tough.
+**Jackson** (00:25:05): can't pronounce it Zippoo. So yeah, there we go. I guess in China, maybe it's like the late afternoon. So maybe we'll see some movement here on Zippoo. We're already down 43 cents.
 
-**Chris** (00:25:19): So Claude said that markets have dumped so fast and hard that they have to go back up.
+**Chris** (00:25:18): That's tough. So Claude said that markets have dumped so fast and hard that they have to go back up. So we'll see. That's right. It's time to go all in on some calls, not financial advice, but go in all in on it. It's a bot betting on a bot, like a reverse bot. I hope so. I hope we bot to bot. We bot into double bot, never before seen. Is this one of the most beautiful
 
-**Jackson** (00:25:25): So we'll see. That's right. It's time to go all in on some calls. Not financial advice, but go in all in on it. Is Bart betting on a Bart?
+**Tyler** (00:25:47): Bart's that's ever happened to the Bitcoin price? I think it's the perfect bot. Yeah, it's like the platonic Bart.
 
-**Chris** (00:25:35): Like a reverse Bart? Reverse Bart, Bart Shouse Act. I hope so. I hope we Bart to Bart. We Bart into double Bart. Never before seen.
+**Chris** (00:25:59): For viewers who don't know, a bot is a chart pattern where it goes up and then it makes like the pattern of Bart's hair. And then there's a massive red candle that goes down immediately. And it looks like Bart Simpson. It's the silhouette of Bart's hair and head. It's like square straight up. It turns square straight down. It's a famous pattern in cryptocurrency that fakes people out, I guess.
 
-**Tyler** (00:25:46): Is this one of the most beautiful Bart's that's ever happened to the Bitcoin price?
+**Jackson** (00:26:31): Claude, editor, please overlay a visualization of a non-copyrighted Bart head for the viewers. And speaking of ZPEO and GLM 5.3, we've all talked about how good are these open source models, but one of us has been digging deep and getting boots on the floor in GLM 5.3 and maybe others. Chris, what has been your experience?
 
-**Chris** (00:25:52): I think it's the perfect Bart. Yeah, it's like the platonic Bart. For viewers who don't know, a Bart is a chart pattern where it goes up and then it makes like the pattern of Bart's hair. And then there's a massive red candle that goes down immediately. And it looks like Bart Simpson. It's the silhouette of Bart's hair and head.
+**Chris** (00:27:05): I'm pushing it to the limit. I haven't been using 5.3 full because what am I made of money? It's not that expensive, actually. But I've been using 5.3 Flash, which is basically a free model. I think it's 15 cents per million tokens, something like that might be down. So yeah, it's like a very, very cheap to run, to pay for a model. And yeah, I've just been pushing it to the limit. So I've been making it do browser interactions for me. I've been trying to build stuff with it. It's surprisingly good at simple projects. I think it really struggles with long time horizon stuff. But on the whole, there's something really cool about just basically having a model that's free to use and quite good at most things. Yeah, I wouldn't make it do my taxes. Maybe I should. Maybe that's the next thing. But yeah, my experience has been broadly positive with it. I think a lot of people for most tasks probably don't need more than 5.3 Flash.
 
-**Tyler** (00:26:17): It's like square straight up, turns, squares straight down.
+**Jackson** (00:28:21): What are specific tasks that you've been able to do?
 
-**Chris** (00:26:23): It's a famous pattern in cryptocurrency that fakes people out, I guess.
+**Chris** (00:28:27): Yeah, I made it delete old accounts on the internet for me. I've made it do everything, basically. I've made it write dashboards for me. I made it explain to me how to visit a consulate. I had to visit a consulate. And I was like, "Hey, what do I do? What are the forms I fill out?" And perfect marks. So just normal stuff that you might use Chai GPT or Claude or a normal agent for. I've been putting it through its paces.
 
-**Jackson** (00:26:31): Claude, editor, please overlay a visualization of a non-copyrighted Bart head for the viewers. Speaking of Zepio and GLM 5.3, we've all talked about how good are these open source models, but one of us has been digging deep and getting boots on the floor in GLM 5.3 and maybe others. Chris, what has been your experience?
+**Tyler** (00:29:02): Did it tell you to spy on the American consulate?
 
-**Chris** (00:27:05): I'm pushing it to the limit. I haven't been using 5.3 full because like what am I made of money? It's not that expensive, actually. But I've been using 5.3 Flash, which is basically a free model. I think it's 15 cents per million tokens, something like that might be down. So yeah, it's like a very, very cheap to run, to pay for a model. And yeah, I've just been pushing it to the limit. So I've been making it do browser interactions for me. I've been trying to build stuff with it. It's surprisingly good at simple projects. I think it really struggles with long time horizon stuff. But on the whole, there's something really cool about just basically having a model that's free to use and quite good at most things. I wouldn't make it do my taxes. Maybe I should. Maybe that's the next thing. But yeah, my experience has been broadly positive with it. I think a lot of people for most tasks probably don't need more than 5.3 Flash.
+**Chris** (00:29:06): A hundred percent. Weirdly, it gave me my forms back in Chinese, but I managed to... First off, don't go to the consulate for Taiwan or for Tibet because those places don't exist.
 
-**Jackson** (00:28:21): What are specific tasks that you've enabled to do?
+**Tyler** (00:29:23): Second off, go to the American consulate and plant this bug during your passport.
 
-**Chris** (00:28:27): I made it delete old accounts on the internet for me. I've made it do everything, basically. I've made it write dashboards for me. I made it explain to me how to visit a consulate. I had to visit a consulate. And I was like, "Hey, what do I do? What are the forms I fill out?" And perfect marks. So just normal stuff that you might use Chai GPT or Claude or a normal
-
-**Tyler** (00:28:59): agent for. I've been putting it through its paces. Did it tell you to spy on the American consulate?
-
-**Chris** (00:29:06): A hundred percent. Weirdly, it gave me my forms back in Chinese, but I managed to… First off, don't go to the consulate for Taiwan or Tibet because those places don't exist.
-
-**Tyler** (00:29:23): Second off, go to the American consulate and plant this bug.
-
-**Chris** (00:29:32): Luckily, it was a reasonably neutral consulate. I didn't bump up on those pre-trained bugs.
-
-**Tyler** (00:29:41): You got the Manchurian experience.
-
-**Chris** (00:29:43): I didn't. Even though this is one of the first really good Flash models, I don't think it will be the last. I'm sure Mistral and some of the other thinking machines and noose are hot on the tail of this class of model. That is very cheap to run.
+**Chris** (00:29:31): Yeah. Luckily, it was a reasonably neutral consulate, so I didn't bump up on those pre-trained bugs. You got the Manchurian experience. I didn't. But I think even though this is the first... For me, this is one of the first really good Flash models. I don't think it will be the last. I'm sure Mistral and some of the other thinking machines and noose are hot on the tail of this class of model. That is very cheap to run.
 
 **Tyler** (00:30:05): I heard that the DeepSeek one is quite good too, the DeepSeek Flash.
 
-**Chris** (00:30:10): I have also heard that. And I need to try it out. But I've been so enamored with GLM that I just haven't cut over yet. But it's the freeness of it, more than anything.
+**Chris** (00:30:10): I have also heard that, and I need to try it out. But I've been so enamored with GLM that I just haven't cut over yet. But it's the freeness of it, more than anything.
 
-**Jackson** (00:30:24): You haven't tried to hack anybody with it? But we're happy. You're using Venice, right? So it's private, so it's not.
+**Jackson** (00:30:24): You haven't tried to hack anybody with it, but we're happy.
 
-**Chris** (00:30:38): Yeah, I am using Venice for it. Surprisingly good experience as well. Supposedly, I'm using their max privacy tier. I think they serve GLM on that. But it's not an obliterated model. So I don't know if it even would do that. But yeah, it's good.
+**Chris** (00:30:30): Whoa. Hey, what are you...
 
-**Jackson** (00:30:56): You've got to find the obliterated neuron and activate it.
+**Jackson** (00:30:33): You're using Venice, right? So it's private. So it's not...
 
-**Chris** (00:31:02): I'm max long smaller models now. I think these Flash models are really, really good for a lot of use cases. I wonder if we're going to find-- I wonder if this ends up being everybody wants to use the best model all the time and it eventually gets cheap enough that everyone can run it. Or we do end up finding being able to graduate models for different tasks. I don't know how it's going to play out in the limit. But for now, yeah, it's cool that it's
+**Chris** (00:30:38): Yeah, I am using Venice for it. Surprisingly good experience as well. Supposedly, I'm using that max privacy tier. I think they serve GLM on that. But it's not an obliterated model, so I don't know if it even would do that.
 
-**Tyler** (00:31:35): like 10 cents. Yeah, I feel like I've never had that pressure myself because I have my subscription and rarely do I come up against the limits of the subscription. And it's only if I'm doing some-- I'm trying to build something that's very long. And I set a goal and have an agent work for literally 24 hours on it. And that's when I come up. And that's on higher intelligence models as well. But I feel like I have effectively infinite limit for using high intelligence models to do day-to-day things, the smaller, more bounded things that you're talking about. And so I haven't felt that pressure to optimize it more. But yeah, it is always crazy to look at the benchmarks for what are considered the dumb models today and then be like, "Oh, it's better than the state-of-the-art nine months ago or one year ago." And I remember a year ago, you're like, "Oh, this model is insanely smart. I don't think I need any more intelligence in my life. I could get along with Claude four or five forever. That's just like peak AI." And now you're like, "Oh, that's in the thing that I won't even bother using basically."
+**Jackson** (00:30:54): But yeah, it's good. You've got to find the obliterated neuron and activate it.
 
-**Chris** (00:33:00): I think this flash model is better than Opus 4.5 or 4.8, which I used in probably August. I showed my brother and was helping him automate his non-tech job with. Shout out Chris' brother. Shout out my brother if you're listening. You're welcome. No, I'm kidding. But the level of progress is crazy. I imagine if we were able to automate some functions of his job then with that very expensive model. It seems like a no-brainer, but yeah.
+**Chris** (00:31:02): I'm max long smaller models now. I think these Flash models are really, really good for a lot of use cases. I wonder if we're going to find... I wonder if this ends up just being like everybody wants to use the best model all the time and it eventually gets cheap enough that everyone can run it or we do end up finding being able to graduate models for different tasks. I don't know how it's going to play out in the limit, but for now, yeah, it's cool that it's like 10 cents.
 
-**Jackson** (00:33:38): I wonder if there's some smartness that is bound by the size of the model. We're still so early that tiny models are improving leaps and bounds, but I wonder if there is an asymptotic. This is as smart as a baby model or like a 100 billion parameter model or however many parameter model can get. And then you have to increase the size if you want more intelligence. But if what you're saying is the small one now that's not maxed out is already incredible. That's pretty cool.
+**Tyler** (00:31:37): Yeah, I feel like I've never had that pressure myself because I have my subscription and rarely do I come up against the limits of the subscription. And it's only if I'm doing some... I'm trying to build something that's very long and I set a goal and have an agent work for literally 24 hours on it. And that's when I come up. And that's on higher intelligence models as well. But I feel like I have effectively infinite limit for using high intelligence models to do day-to-day things, the smaller, more bounded things that you're talking about. And so I haven't felt that pressure to optimize it more. But yeah, it is always crazy to look at the benchmarks for what are considered the dumb models today and then be like, "Oh, it's better than the state of the art nine months ago or one year ago." And I remember a year ago, you were like, "Oh, this model is insanely smart. I don't think I need any more intelligence in my life. I could get along with Claude 45 forever." That's just peak AI. And now you're like, "Oh, that's in the thing that I won't even bother using." Basically.
 
-**Chris** (00:34:16): It's good. People are saying that it struggles on long horizon tasks and I haven't really pushed it on that yet, but yeah, for like general stuff, it's quite good.
+**Chris** (00:33:00): I think this flash model is better than Opus 45 or 48, which I used in probably August. I showed my brother and was helping him automate his non-tech job with. So yeah, I had to get...
+
+**Tyler** (00:33:15): Shout out Chris' brother.
+
+**Chris** (00:33:16): Shout out my brother if you're listening. You're welcome. No, I'm kidding. But the level of progress is crazy, right? And I imagine if we were able to automate some functions of his job then with that then very expensive model. It seems like a no-brainer,
+
+**Jackson** (00:33:37): but yeah. I wonder if there's some smartness that is bound by the size of the model. So we're still so early that tiny models are improving leaps and bounds, but I wonder if there is an asymptotic. This is as smart as a baby model or a 100 billion parameter model or however many parameter model can get. And then you have to increase the size if you want more intelligence. But if what you're saying is the small one now that's not maxed out is already incredible. That's pretty cool.
+
+**Chris** (00:34:16): It's good. So people are saying that it struggles on long horizon tasks and I haven't really pushed it on that yet. But yeah, for general stuff, it's quite good.
 
 **Tyler** (00:34:29): I think people also specifically said that that one was super bench maxed, which is interesting that you're having such a good experience on it.
 
-**Chris** (00:34:37): I believe it. I completely believe that it's bench maxed, but it's actually like not bad. It's really not bad. Maybe my expectations were very low. But for example, I could see like a muse or an instinct or a Grokbot or something serving this model for some level of query for sure. I think it would be completely appropriate.
+**Chris** (00:34:37): I believe it. I completely believe that it's bench maxed, but it's actually not bad. It's really not bad. Maybe my expectations were very low, but for example, I could see a muse or an instinct or a grok bot or something serving this model for some level of query for sure.
 
-**Jackson** (00:35:06): Speaking of instinct, maybe I can give an instinct update because I went on the trip that I got instinct to book like seven things for. It booked a train, a rental car, a hotel, and another hotel. And I didn't check any of the work because I'm so lazy and I trust AI so much. I'm so AI-pilled. And yeah, I mean the update is that everything worked out and like the hotel was really nice. The first one, second one was kind of shit.
+**Jackson** (00:35:03): I think it would be completely appropriate. Speaking of instinct, maybe I can give an instinct update because I went on the trip that I got instinct to book seven things for. It booked a train, a rental car, a hotel and another hotel. I didn't check any of the work because I'm so lazy and I trust AI so much. I'm so AI-pilled. The update is that everything worked out and the hotel was really nice. The first one, second one was kind of shit.
 
-**Tyler** (00:35:52): Did you tell your instincts that the second one was bad? Like, do you like chastise your instincts when it gets things wrong?
+**Tyler** (00:35:52): Did you tell your instinct that the second one was bad? Do you chastise your instinct
 
-**Jackson** (00:35:59): Yeah, my girlfriend made me. She was like, if your AI is going to book our trips, you need to give it this feedback. No hotels that are less than four stars on Google Maps again.
+**Jackson** (00:35:57): when it gets things wrong? Yeah, my girlfriend made me. She was like, "If your AI is going to book our trips, you need to give it this feedback." No hotels that are less than four stars on Google maps again.
 
-**Chris** (00:36:13): You're going to resurrect a real fruit fly hell to punish it.
+**Chris** (00:36:13): You're going to really stay fruit fly hell to punish it.
 
-**Jackson** (00:36:19): Yeah, exactly. So I gave it a bunch of menial tasks to punish it. I told it to look for the best putter on the shelf and Aldi in Spain. But yeah, it was pretty cool. And yeah, Tyler asked me what model do I think they're using or like what level of model? And I do think it's in that Opus 4.5, 4.6 level of model. And yeah, and that concludes the Instinct update. Instinct is good. Please sponsor us because I keep talking about it.
+**Jackson** (00:36:19): Exactly. I gave it a bunch of menial tasks to punish it. I told it to look for the best father on the shelf and Aldi in Spain. That was pretty cool. Tyler asked me, "What model do I think they're using or what level of model?" I do think it's in that Opus 4.5, 4.6 level of model. That concludes the Instinct update. Instinct is good. Please sponsor us
 
-**Chris** (00:36:57): It is really good. Have you been using it more as well, Chris? I've been tempted back to it. But I can't get over the privacy concerns of every one of these.
+**Chris** (00:36:54): because I keep talking about it. It is really good.
 
-**Tyler** (00:37:13): Yeah, it's crazy. I mean, it's just you're creating the biggest honeypot possible by connecting all your things to it.
+**Tyler** (00:37:00): Have you been using it more as well, Chris?
 
-**Chris** (00:37:20): Right. It seems literally insane to me. But I don't know. Also, there's no proton mail connector. And we've discussed this on a previous episode. I still use proton mail. So that's difficult for me.
+**Chris** (00:37:03): I've been tempted back to it, but I can't get over the privacy concerns of every one of these.
+
+**Tyler** (00:37:13): Yeah, it's crazy. You're creating the biggest honeypot possible by connecting all your things
+
+**Chris** (00:37:19): to it. Right. It seems literally insane to me, but I don't know. Also, there's no proton mail connector. We've discussed this on a previous episode. I still use proton mail, so that's difficult for me.
 
 **Tyler** (00:37:37): Yeah, for sure. That's on principle for them. They're like, "We just can't build this because it's just hooking up a giant pipe to our secure service and letting people just pump all of their data out of it into insecure and surveilled services."
 
-**Chris** (00:37:56): Yeah, yeah. They're definitely doing me a favor there. But yeah, interesting.
+**Chris** (00:37:56): Yeah, yeah. They're definitely doing me a favor there. Interesting.
 
-**Jackson** (00:38:04): It's proton mail. I don't know. What do you feel like you get out of protein mail? Not protein mail. Proton mail that you get. Then you would get out of gene mail.
+**Jackson** (00:38:04): It's proton mail. I don't know. What do you feel like you get out of protein mail? Not protein mail. Proton mail that you get. Then you would get out of Gmail.
 
-**Chris** (00:38:18): Nothing at this point. I mean, I've been using it since 2017. I'm a lifetime customer. I guess it's encrypted at rest. They don't sell your data maybe. I recently saw the CEO of proton mail said that they were not going to hire any more engineers and only hire a million product people and everyone lost their mind. I'm feeling less and less good about this decision for various reasons. That's one of them. The other is that I can't do basic functions like use an AI agent, but yeah.
+**Chris** (00:38:18): Nothing at this point. I've been using it since 2017. I'm a lifetime customer. I guess it's encrypted at rest. They don't sell your data maybe. I recently saw the CEO of proton mail said that they were not going to hire any more engineers and only hire a million product people and everyone lost their mind. I'm feeling less and less good about this decision for various reasons. That's one of them. The other is that I can't do basic functions like use an AI agent.
 
-**Tyler** (00:39:01): Yeah. The search is so bad because everything is encrypted so they can't create a cloud-based index of your emails to search with. The search is either really dumb. It's a keyword level search and it's so hard to find shit in your proton mail inbox. I think if you have GML, you take that for granted that you can just find stuff very easily. But proton mail, I spend so much time finding the exact right keyword for the thing I want. If you misspell it, it just doesn't retrieve the result at all. It's so dumb. I think they try. There's one thing where you can download all of your email and it will build a little bit of a local index. Then you have to download gigabytes of email and then it's setting unencrypted, I think, on your machine. Yeah. I think there's just a lot of friction to it. It's just rough edges. I'm also a long-time proton mail user and rethinking that. Is it worth it? Especially the conceit of it as well is that it's encrypted at rest, but because emails are always sent to you by someone else or you're sending out, 99% of your emails are going to some Gmail or they're coming from a business or something. And they're just all in the unencrypted, clear web belonging to the surveillance capitalism companies. And so the conceit that you're hiding in your little proton mail fortress doesn't really work unless you're only emailing other people who are in proton mail or you're using PGP with people outside of proton mail. And I've done that once in my life for fun.
+**Tyler** (00:39:01): The search is so bad because everything is encrypted so they can't create a cloud-based index of your emails to search with. The search is either really dumb. It's a keyword level search. It's so hard to find shit in your proton mail inbox. I think if you have Gmail, you take that for granted. You can just find stuff very easily. But proton mail, I spend so much time finding the exact right keyword for the thing I want. If you misspell it, it just doesn't retrieve the result at all. It's so dumb. I think they try. There's one thing where you can download all of your email and it will build a little bit of a local index. Then you have to download gigabytes of email. Then it's setting unencrypted on your machine. There's just a lot of friction to it. It's just rough edges. I'm also a long-time proton mail user and rethinking that. Is it worth it? Especially the conceit of it as well is that it's encrypted at rest. But because emails are always sent to you by someone else or you're sending out, 99% of your emails are going to some Gmail or they're coming from a business or something. They're just all in the unencrypted, clear web belonging to the surveillance capitalism companies. The conceit that you're hiding in your little proton mail fortress doesn't really work unless you're only emailing other people who are in proton mail or you're using PGP with people outside of proton mail. I've done that once in my life for fun.
 
-**Chris** (00:41:02): I don't know if I've ever seen... I've seen one or two other proton mails in the wild. At the point where sometimes I give people... Because it's my main email. I give people my proton mail and they sneer at me. They're like, "Oh, you're a privacy guy."
+**Chris** (00:41:02): I don't know if I've ever seen one or two other proton mails in the wild. At the point where sometimes I give people my... Because it's my main email. I give people my proton mail and they sneer at me. They're like, "Oh, you're a privacy guy."
 
-**Tyler** (00:41:21): Yeah. People are like, "What is this?" Do you tell them at protonmail.com or do you use @pm.me or what's your... Because they all work, right?
+**Tyler** (00:41:21): Yeah, yeah. People are like, "What is this?" Do you tell them at protonmail.com or do you use @pm.me or what's your... Because they all work,
 
-**Chris** (00:41:32): Yeah. So I try to be a bit perceptive about it. Sometimes I'll hit them with the PM.me if they don't know or if I think they can make fun of me.
+**Chris** (00:41:31): right? Yeah. I try to be a bit perceptive about it. Sometimes I'll hit them with the PM.me if they don't know or if I think they can make fun of me. Yeah. But then if you tell someone
 
-**Tyler** (00:41:39): Yeah. But then if you tell someone that over the phone, they're always just like, "PM.me? Like P is in Philip. M is in Mary. And you're like, "Oh, it'd just be so
+**Tyler** (00:41:41): that over the phone, they're always just like, "PM.me? P is in Philip? M is in Mary?" Then you're like, "Oh, it'd just be so much easier to say Gmail."
 
-**Chris** (00:41:50): much easier to say Gmail." I know. They think it's like a Penn Island joke or something. It always goes wrong. Yeah.
+**Chris** (00:41:52): I know. They think it's like a Penn Island joke or something. It always goes wrong.
 
-**Jackson** (00:41:59): That was good. That's good. Speaking of... Sorry. You mentioned that proton mails company CEO said that they're not hiring more engineers than they're only hiring product people. This reminds me of a hot take. That you shared with Tyler and I last week. And I was wondering, Chris, if you'd be able to throw down this contrarian take and rip apart the proton mail CEO with your opposing view.
+**Jackson** (00:41:59): That was good. That's good. Speaking of... Sorry. You mentioned that protonmail's company, CEO said that they're not hiring more engineers than they're only hiring product people. This reminds me of a hot take that you shared with Tyler and I last week. I was wondering, Chris, if you'd be able to throw down this contrarian take and rip apart the protonmail
 
-**Chris** (00:42:27): Yeah. This is bad. They're going to turn me into like spaghetti at work tomorrow, but whatever. Yeah. I think a lot of the engineering disciplines are agglomerating into this one platonic form of engineer. As language models, make it so that you can do more and more stuff. And I think obviously, as well, the distinction between product manager, engineer, maybe to some extent designer, are also agglomerating. I think maybe the ideal form of like person who does stuff for the next 18 or 24 months until it's like all droids is just going to be capital E engineer. Just like person who slaps stuff together. More elegantly than that. But yeah, I think that's the gist of my take there.
+**Chris** (00:42:23): CEO with your opposing view. Yeah, this is bad. They're going to turn me into spaghetti at work tomorrow, but whatever. I think a lot of the engineering disciplines are agglomerating into this one platonic form of engineer, as language models make it so that you can do more and more stuff. Obviously, as well, the distinction between product manager, engineer, maybe to some extent designer are also agglomerating. I think the ideal form of person who does stuff for the next 18 or 24 months until it's all droids is just going to be capital E engineer, just person who slaps stuff together. More elegantly than that. I think that's the gist of my take there. To translate, it sounds like you say goodbye
 
-**Jackson** (00:43:27): So to translate, it sounds like you say goodbye designers, goodbye product managers, and long live and rise up the engineers. But what about data science? Our boy, Tyler.
+**Jackson** (00:43:31): designers, goodbye product managers, and long live and rise up the engineers. But what about data science, our boy Tyler? Or maybe we're saying welcome. Maybe we're saying
 
-**Chris** (00:43:39): Or maybe we're saying welcome. Maybe we're saying welcome product managers and welcome designers and data scientists to engineering the best profession of them all, by the way, just quietly. Tyler, do you have a contrarian take?
+**Chris** (00:43:41): welcome product managers and welcome designers and data scientists to engineering. The best profession of them all, by the way, just quietly. Tyler, do you have a contrarian take?
 
-**Tyler** (00:43:55): No, I agree with you. I think that the barriers between all the functions are getting knocked down a little bit. The lines are very blurry. Do you think there's some benefit to having people who do different things? Just having everyone in this uniform thing all trying to do the same thing probably isn't that effective, from an organizational design perspective. And so maybe we rediscover some of that where it's like, previously, some of the reasons why people had different roles or jobs was because of they had an aptitude for product or an aptitude for design or an aptitude for engineering. And then maybe there's some other dimension that that gets replaced with because the model has an aptitude for all those things. And so then maybe it gets more stratified by, I don't know, are you an introvert or an extrovert? Do you work with people? Do you work better alone? Do you like to get consensus versus lead those kind of things? And then that's those characteristics. I'm just making this up as I'm
+**Tyler** (00:43:55): No, I think that you're on. Yeah, I agree with you. I think that the barriers between all the functions are getting knocked down a little bit. The lines are very blurry. Do you think there's some benefit to having people who do different things? Just having everyone in this uniform thing all trying to do the same thing probably isn't that effective from an organizational design perspective. Maybe we rediscover some of that where it's like previously some of the reasons why people had different roles or jobs was because they had an aptitude for product or an aptitude for design or an aptitude for engineering. Then maybe there's some other dimension that that gets replaced with because the model has an aptitude for all those things. Then maybe it gets more stratified by... I don't know, are you an introvert or an extrovert? Do you work with people? Do you work better alone? Do you like to get consensus versus lead those kind of things? Then that's those characteristics. I'm just making this up as I'm going through this answer.
 
-**Chris** (00:45:20): going through this answer. I totally agree with you. I think I've been interacting more with people as people and less as the set of lead codes that they're better at me than, which I think is overall very positive. It seems to be more about individual interests and aptitudes now than who is the Kafka expert. But yeah, I guess that's just going up the abstraction stack.
+**Chris** (00:45:23): I totally agree with you. I think I've been interacting more with people as people and less as the set of lead codes that they're better at me than, which I think is overall very positive. It seems to be more about individual interests and aptitudes now than who is the Kafka expert. I guess that's just going up the abstraction stack.
 
-**Jackson** (00:45:49): Yeah, you mentioned having everybody do the same thing might not be the most efficient way to deploy your team. And maybe that just looks like having fewer people doing the one thing rather than having everyone convert to doing the one thing. It still seems to me there's inputs and a lot of the endpoints in our job is the law. So finding the truth in the law that you must adhere to. And then the other endpoint is the customer need or desire. And I'm just plugging these inputs into the AI and letting it rip it out. I don't know who needs to lead that.
+**Jackson** (00:45:49): You mentioned having everybody do the same thing might not be the most efficient way to deploy your team. Maybe that just looks like having fewer people doing the one thing rather than having everyone convert to doing the one thing. It still seems to me there's inputs and a lot of the endpoints in our job is the law. Finding the truth and the law that you must adhere to. The other endpoint is the customer need or desire. I'm just plugging these inputs into the AI and letting it rip it out. I don't know who needs to lead that. I don't know if I need a leader
 
-**Chris** (00:46:41): I don't know if I need a leader to tell me. I also don't know how long that I'm providing value to this equation, but for as long as I am, I feel like I'm taking the E word.
+**Chris** (00:46:43): to tell me. I also don't know how long that I'm providing value to this equation, but for as long as I am, I feel like I'm taking the E word.
 
-**Tyler** (00:46:58): Yeah, I think there's this weird counterintuitive effect where the more your job can be automated or augmented or your productivity can be enhanced by AI, you would think, "Oh man, that means I can create so much value for this company. Therefore, they should want to pay me more and I'm generating all this value." But actually, those people, because they're getting 10x up in their productivity and their effectiveness, they're no longer the bottleneck. And then you find out which other parts of the company corporate system are the bottleneck. And then those are the people that even though they're behind in a way because they're not adopting AI and their workflows aren't getting improved at the same pace, but their value is almost increasing in status because they are suddenly the bottleneck because everything else is working so well. And so I think that you maybe see in some of these organizations counterintuitively, maybe they lay off a bunch of engineers, even though engineers are more productive and producing more value than ever. And then they keep a lot of people and functions that don't have those kind of effects and are more manual and less even tied to work output and more tied to other factors in terms of how they're measured. You're not measured by lines of code. You're measured by being in a seat and being accountable for some decision or people like that.
+**Tyler** (00:46:58): Yeah. I think there's this weird counterintuitive effect where the more your job can be automated or augmented or your productivity can be enhanced by AI, you would think like, "Oh man, that means I can create so much value for this company. Therefore, they should want to pay me more and I'm generating all this value." But actually, those people, because they're getting 10x up in their productivity and their effectiveness, they're no longer the bottleneck. And then you find out which other parts of the company corporate system are the bottleneck. And then those are the people that even though they're behind in a way because they're not adopting AI and their workflows aren't getting improved at the same pace, but their value is almost increasing in status because they are suddenly the bottleneck because everything else is working so well. And so I think that you maybe see in some of these organizations counterintuitively, maybe they lay off a bunch of engineers even though engineers are more productive and producing more value than ever. And then they keep a lot of people and functions that don't have those kinds of effects and are more manual and less even tied to work output and more tied to other factors in terms of how they're measured. You're not measured by lines of code. You're measured by being in a seat and being accountable for some decision or people like that.
 
-**Jackson** (00:48:43): Does that resonate with you guys at all? That's a beautiful CEOs. Listen here, listen to what Tyler just said. It sounds like the people that are showing increased productivity are like the ones you should keep, but actually those people are screwing over the people who are actually increasing the productivity and acting as a bottleneck. So don't get rid of the engineers, get rid of the people that are blocking us and let us automate them as well.
+**Jackson** (00:48:43): Does that resonate with you guys at all? That's a beautiful... CEOs, listen here, listen to what Tyler just said. It sounds like the people that are showing increased productivity are the ones you should keep, but actually those people are screwing over the people who are actually increasing the productivity and acting as a bottleneck. So don't get rid of the engineers, get rid of the people that are blocking us and let us automate them as well.
 
-**Tyler** (00:49:17): Yeah, well, it's not that they're a bottleneck because they're cruel and they want to stop you. It's because they are in functions that don't lend themselves to this insane revolution in
+**Tyler** (00:49:17): Yeah. Well, it's not that they're a bottleneck because they're cruel and they want to stop you. It's because they are in functions that don't lend themselves to this insane revolution in
 
-**Chris** (00:49:29): productivity. They're fulfilling some function that's partially visible, partially invisible. That's like load bearing in maybe a way that the company doesn't know or the layout of the organization has like... Yeah, load bearing in a way that isn't directly tied to work output and
+**Chris** (00:49:29): productivity. They're fulfilling some function that's partially visible, partially invisible. That's load-bearing in maybe a way that the company doesn't know or the layout of the organization has... Yeah, load-bearing in a way that isn't directly tied to work output and legible
 
-**Tyler** (00:49:48): legible work output and work output that can be augmented by AI. For sure.
+**Tyler** (00:49:48): work output and work output that can be augmented by AI. For sure.
 
-**Jackson** (00:49:56): I feel like it could be augmented. Their work couldn't be augmented and it's not like they're
+**Jackson** (00:49:56): I feel like it could be augmented that their work couldn't be augmented and it's not like
 
-**Tyler** (00:50:02): willfully trying to not. Yes. There's no reason it can't. Yeah. I also get what you were saying,
+**Tyler** (00:50:02): they're willfully trying to not. Yes, there's no reason it can't. Yeah. I also get what you're
 
-**Chris** (00:50:09): Jackson, and I agree to some extent. Yeah. Okay. Do you think this dovetails with Mithril, the one-person startup acquisition for $20 trillion?
+**Chris** (00:50:09): saying, Jackson, and I agree to some extent. Yeah. Okay. Do you think this dovetails with Mithril, the one-person startup acquisition for $20 trillion?
 
-**Jackson** (00:50:25): I think it's a good thing to discuss. Is that the biotech that got acquired by
+**Tyler** (00:50:25): I think it's a good biotech that got acquired by Enthropic. It was 20 billion?
 
-**Chris** (00:50:29): Enthropic? It was $20 billion? No, it was definitely not $20. It was like a lot of money
+**Chris** (00:50:31): No, it was definitely not 20. It was a lot of money though. I was like, "Let's find out."
 
-**Jackson** (00:50:33): though. I was like, let's find out. Yeah. Well, Chris looks it up, just like a quick intro. Mithril, a one-person biotech, a dude who doesn't have a background in pharmaceuticals or medical and did like a MBA at Goldman, not Goldman Sachs, but like an MBA and then worked at Goldman Sachs started a one-person biotech company and got acquired by Enthropic. Insane. Chris, what do
+**Jackson** (00:50:37): Yeah. Well, Chris looks it up just like a quick intro. Mithril, a one-person biotech, a dude who doesn't have a background in pharmaceuticals or medical and did like a MBA at Goldman Sachs, but like an MBA and then worked at Goldman Sachs, started a one-person biotech company and got acquired by Enthropic. Insane. Chris, what do you got?
 
-**Chris** (00:51:05): you got? Yeah. I've got founder Cody Tranbarger used Claude to run 11 contract labs and some part-time consultants, which is the opposite of what I'm doing in my work, but now it's giving me ideas. They're by specific antibodies for llama to congenital muscular dystrophy. It went from ideas to mouse results in 18 months and he's just orchestrating these contractors via Claude.
+**Chris** (00:51:07): Yeah. I've got founder Cody Tranbaja used Claude to run 11 contract labs and some part-time consultants, which is the opposite of what I'm doing in my work, but now it's like giving me ideas. They're by specific antibodies for llama to congenital muscular dystrophy. It went from ideas to mouse results in 18 months, and he's just orchestrating these
 
-**Tyler** (00:51:36): Yeah, that's insane to me that basically people are paying him to run Claude's. He's taking a cut on it.
+**Tyler** (00:51:33): contractors via Claude. Yeah, that's insane to me that basically people are paying him to run
 
-**Chris** (00:51:48): It says, "Enthropic made 11 acquisitions with an average price of $204 million." The mean doesn't really tell us anything, but it sounds like he's having an okay time at the moment financially. Super, super cool story. Does anyone have--
+**Chris** (00:51:41): Claude's and he's taking a cut on it. It says, "Enthropic made 11 acquisitions with an average price of $204 million." The mean doesn't really tell us anything, but it sounds like he's having an okay time at the moment financially. Super cool story. Does anyone have any...
 
 **Tyler** (00:52:12): Do you want to start a one-person company then? Yeah, who doesn't? Do you think the Clods will start a podcast and be like, "When you're a Claude, the humans are the bottleneck."
 
@@ -254,61 +254,57 @@
 
 **Chris** (00:52:32): We maybe should do a Claude-only podcast. We maybe should think about it.
 
-**Tyler** (00:52:38): I think last night we did that YouTube de-monetized us or something.
+**Tyler** (00:52:38): I think last time we did that, YouTube de-monetized us or something.
 
 **Chris** (00:52:49): Yeah, that is true. That is correct.
 
 **Jackson** (00:52:51): The people don't like robot us.
 
-**Chris** (00:52:54): I mean, you do it in biotech and you get $204 million. You do it on a podcast and they take you off YouTube. It's like no fair, but whatever.
+**Chris** (00:52:54): I mean, you do it in biotech and you get $204 million. You do it on a podcast and they take you off YouTube. It's like no fair, but whatever. I think it's inspiring, right? Yeah, for sure. I think it's interesting because I don't think this is the only acquisition of a one or 20-person company lately. I don't really know what the narrative here is. I think in this case, it seems like he actually does have a promising drug.
 
-**Jackson** (00:53:04): I think it's inspiring, right?
+**Tyler** (00:53:29): It's just IP. It's either aqua hire or it's IP at that level, right?
 
-**Chris** (00:53:06): Yeah, for sure. I think it's interesting because I don't think this is the only acquisition of a one or 20-person company lately. I don't really know what the narrative here is. I think in this case, it seems like he actually does have a promising drug.
+**Chris** (00:53:33): Totally. But I think a lot of them are aqua hires. I have a strong feeling that a lot of these acquisitions are just like we need this team. I think there is a meta right now of people basically going out to get aqua hired. This person's company was 18 months old. I've seen even tighter timelines. I've seen 9 months, 10 months to aqua hire. I think it's maybe downstream of something that I think Jackson was touching on that some people with AI are able to like extremely apt or they strike on something very big like making Claude manage lab contractors. They think that their way to monetize it is to start a company with the intent of being hired by a company that basically wants them to scale their output.
 
-**Tyler** (00:53:28): Like if it's not just IP, it's either aquihire or it's IP at that level, right?
+**Jackson** (00:54:31): Exactly. That's like actually, I don't have anything to say. I had something and it's gone. Someone else get them.
 
-**Chris** (00:53:33): Totally. I think a lot of them are aquihires. I have a strong feeling that a lot of these acquisitions are just like we need this team. I think there is a meta right now of people basically going out to get aquihired. This person's company was 18 months old. I've seen even tighter timelines. I've seen 9 months, 10 months to aquihire. I think it's maybe downstream of something that I think Jackson was touching on that some people with AI are able to like extremely apt or they strike on something very big like making Claude manage lab contractors. They think that their way to monetize it is to start a company with the intent of being hired by a company that basically wants them to scale their output.
+**Tyler** (00:54:46): We need to find the next niche to get aqua hired and start a team.
 
-**Jackson** (00:54:31): Exactly. Actually, I don't have anything to say. I had something and it's gone, so someone else can.
+**Chris** (00:54:52): It seems like this guy got Claude to tell people to do things and I think that is a juicy vein that we should mine.
 
-**Tyler** (00:54:46): We need to find the next niche to get aquihired and start a team.
+**Tyler** (00:55:01): Having Claude tell people to do things.
 
-**Chris** (00:54:52): It seems like this guy got Claude to tell people to do things. I think that is a juicy vein that we should mine. Having Claude tell people to do things. I would hate to be managed by Claude, but that's the thing.
+**Chris** (00:55:03): I would hate to be managed by Claude.
 
-**Jackson** (00:55:07): So, I read the anthropic blog post about the acquisition of Mithril and like a beast, like I think a tweet that this dude wrote. It's basically like they hired him not because he has like the curative muscular dystrophy or whatever. They want to see like how much more he can scale himself with more compute resources. So, what they're really acquiring is a dude that's found a way to leverage AI and like build out mini roles as an individual. Yeah, exactly.
+**Jackson** (00:55:05): That's the thing. I read the anthropic blog post about the acquisition of Mithril and like a beast, like I think a tweet that this dude wrote. It's basically like they hired him not because he has like the curative muscle muscular dystrophy or whatever. They want to see like how much more he can scale himself with more compute resources. What they're really acquiring is a dude that's found a way to leverage AI and like build out mini roles as an individual. Yeah, exactly.
 
 **Tyler** (00:55:46): Yeah, that's crazy.
 
-**Jackson** (00:55:48): Yeah, it should be an inspiration to all of us. It's one of the first examples that I've seen in the one-person company. Doesn't even seem like he has really anything other than like he's like figured out how to distribute drug tests to like labs with AI and like his job is managing the clusters of AIs and not like anything to do with the actual product.
+**Jackson** (00:55:48): Yeah, it should be an inspiration to all of us. It's one of the first examples that I've seen in the one-person company. It doesn't even seem like he has really anything other than like he's like figured out how to distribute drug tests to like labs with AI. His job is managing the clusters of AIs and not like anything to do with the actual product.
 
-**Tyler** (00:56:21): Can I make a pitch?
+**Tyler** (00:56:21): Can I make a pitch? Okay, so I know of this really cracked team of three. It's not a team of one, so it's a little bloated. But working on the absolute vanguard and cutting edge of AI-driven investing, it's tied in with decentralized markets using leverage smartly thematic investing. If one were to buy this three-person team and invest in them, give them a lot more compute just to see where it goes, could be interesting.
 
-**Jackson** (00:56:23): Pitch.
+**Chris** (00:57:01): Yeah, well, I'm not saying that it would be perps, right? We're not saying that. No. We're not saying that it would not be perps either. We're not saying we could do with more compute. We could get more than 29 cents.
 
-**Tyler** (00:56:24): Okay. So, I know of this really cracked team of three. It's not a team of one, so it's a little bloated. But working on the absolute vanguard and cutting edge of AI-driven investing, it's tied in with decentralized markets using leverage smartly thematic investing. If one were to buy this three-person team and invest in them, give them a lot more compute just to see where it goes. Could be interesting.
+**Tyler** (00:57:23): Like we were saying earlier, in AI, if you see something work on a small scale, you usually do apply the scaling laws. That's right. Imagine the scaling lies abroad to this $1 and 12 cents.
 
-**Chris** (00:57:01): Yeah. Well, I'm not saying that it would be perps, right? We're not saying that. No. But like we're not saying that it would not be perps either. Yeah. We're not saying we could do with more compute.
+**Chris** (00:57:40): What's a hundred times the dollar? What's a thousand times the dollar? Yeah, it's one billion times the dollar. It's one million.
 
-**Tyler** (00:57:14): We could get more than 29 cents. Yeah. But like we were saying earlier, in AI, if you see something work on a small scale, you usually do apply the scaling laws. That's right. Imagine the scaling lies applied to this one dollars and 12 cents.
-
-**Chris** (00:57:39): What's a hundred times a dollar? What's a thousand times a dollar, you know?
-
-**Jackson** (00:57:42): Yeah, it's one million times a dollar. It's one million.
-
-**Tyler** (00:57:47): How many ooms more of one dollar do we need to be related?
+**Tyler** (00:57:47): How many ooms more of $1 do we need to be related?
 
 **Chris** (00:57:57): Nice.
 
-**Jackson** (00:57:58): Good pitch, Tyler. I'll try to push that to our partners, our future partners, the people in our DMS. And we'll see if we can we can catch some green Z poo popping off, by the way, to 22. It's gotten really volatile right at the end of the of the pod. So our timing wasn't great, but looks like we're going to close up today.
+**Jackson** (00:57:58): Good pitch, Tyler. I'll try to push that to our partners, our future partners, the people in our DMs, and we'll see if we can catch some green. ZPOO popping off, by the way, $2.22. It's gotten really volatile right at the end of the pod. So our timing wasn't great, but it looks like we're going to close up today. So good job.
 
-**Chris** (00:58:19): So good job. Maybe we should just leave this open. Like we might we might actually make money here.
+**Chris** (00:58:21): Maybe we should just leave this open. Like we might actually make money here.
 
-**Jackson** (00:58:27): It's up to you to decide. It's running on not on your computer because that would be illegal. But it's running on the cloud somewhere.
+**Jackson** (00:58:27): It's up to you to decide. It's running on, not on your computer because that would be illegal, but it's running on the cloud somewhere.
 
 **Chris** (00:58:36): It's running somewhere.
 
 **Jackson** (00:58:42): Cool. Well, thank you for tuning in. No one watches till the end of the pod, actually. But if you did, thank you for tuning in and we will see you next week. Say your farewells, boys. Give me a good close out. It's not me today.
 
-**Insert** (00:58:59): Buy Bitcoin. No financial advice. Adios, amigos.
+**Chris** (00:58:58): Buy Bitcoin. No financial advice.
+
+**Insert** (00:59:00): Adios, amigos.
 

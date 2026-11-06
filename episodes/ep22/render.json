@@ -66,12 +66,12 @@
   {
    "file": "sfx_likesub.wav",
    "block": "PERP",
-   "offset": 340.0
+   "offset": 323.5
   },
   {
    "file": "sfx_likesub.wav",
    "block": "INSTINCT_B",
-   "offset": 1196.466
+   "offset": 1194.466
   }
  ],
  "anim": [
@@ -126,8 +126,8 @@
   },
   {
    "file": "likesub.mov",
-   "start": 1784.3,
-   "end": 1790.3,
+   "start": 1767.8,
+   "end": 1773.8,
    "x": 0,
    "y": 0
   },
@@ -140,8 +140,8 @@
   },
   {
    "file": "likesub.mov",
-   "start": 3401.333,
-   "end": 3407.333,
+   "start": 3399.333,
+   "end": 3405.333,
    "x": 0,
    "y": 0
   },
