@@ -1,0 +1,222 @@
+{
+ "show": "UNDERPOD",
+ "show_main": "UNDERPOD",
+ "accent": [
+  255,
+  210,
+  74
+ ],
+ "source": "/Users/jcook/Personal/permanent-underpod/media/ep22/work/src/jackson_720.mp4",
+ "title_card": {
+  "bg_frame": 2100,
+  "line": "EPISODE 22   ·   The Bank That Froze a Country   ·   AI  ·  Bitcoin  ·  Stablecoins",
+  "dur": 4.5
+ },
+ "end_card": {
+  "bg_frame": 3400,
+  "kicker": "NEXT WEEK ON",
+  "lines": [
+   "Perp of Fortune: the Bitcoin flip returns",
+   "Agentic commerce · the layer-2 series continues",
+   "Not financial advice. Our opinions are ours, not our employers'."
+  ],
+  "cta": "LIKE  +  SUBSCRIBE",
+  "dur": 7
+ },
+ "lower_thirds": [
+  {
+   "name": "intro",
+   "kicker": "EPISODE 22",
+   "title": "STILL HOLDING OUR BAGS"
+  },
+  {
+   "name": "paraguay",
+   "kicker": "PARAGUAY",
+   "title": "60% OF A COUNTRY BANKED AT ONE BANK. IT FROZE."
+  },
+  {
+   "name": "neural",
+   "kicker": "LLM NEUROSURGERY",
+   "title": "FRONTIER MODELS EDITING MODEL WEIGHTS BY HAND"
+  },
+  {
+   "name": "tiktok",
+   "kicker": "THE EDGE MODEL",
+   "title": "TIKTOK'S LOCAL CNN SCORES YOUR FACE"
+  },
+  {
+   "name": "perp",
+   "kicker": "PERP OF FORTUNE",
+   "title": "LONG ZHIPU 10×  ·  NO BITCOIN FLIP THIS WEEK"
+  },
+  {
+   "name": "glm",
+   "kicker": "GLM 5.3 FLASH",
+   "title": "THE FREE MODEL THAT'S \"BETTER THAN OPUS\""
+  },
+  {
+   "name": "instinct",
+   "kicker": "INSTINCT UPDATE",
+   "title": "SEVEN BOOKINGS, ZERO CHECKS"
+  },
+  {
+   "name": "proton",
+   "kicker": "PROTON MAIL",
+   "title": "A FORTRESS NOBODY ELSE LIVES IN"
+  },
+  {
+   "name": "contrarian",
+   "kicker": "CONTRARIAN CORNER",
+   "title": "FIRE EVERYONE BUT THE ENGINEERS"
+  },
+  {
+   "name": "mithril",
+   "kicker": "MITHRIL",
+   "title": "THE ONE-PERSON BIOTECH ANTHROPIC BOUGHT"
+  },
+  {
+   "name": "pitch",
+   "kicker": "THE PITCH",
+   "title": "A CRACKED TEAM OF THREE. SLIGHTLY BLOATED."
+  },
+  {
+   "name": "wrap",
+   "kicker": "PERP OF FORTUNE",
+   "title": "FINAL NUMBERS"
+  }
+ ],
+ "stats": [
+  {
+   "name": "coldopen",
+   "kicker": "EPISODE 22",
+   "main": "In this pod…"
+  },
+  {
+   "name": "ueno",
+   "kicker": "UENO BANK",
+   "main": "60% of Paraguayan adults banked there"
+  },
+  {
+   "name": "public",
+   "kicker": "ALSO INSIDE",
+   "main": "$800M of public money"
+  },
+  {
+   "name": "aus",
+   "kicker": "AUSTRALIA",
+   "main": "Big four banks: 73% of deposits"
+  },
+  {
+   "name": "tiny",
+   "kicker": "THE PATIENT",
+   "main": "a 20,000-parameter Qwen"
+  },
+  {
+   "name": "evil",
+   "kicker": "ONE NEURON",
+   "main": "knife → murder → sandwich"
+  },
+  {
+   "name": "tiktok",
+   "kicker": "TIKTOK'S LOCAL CNN",
+   "main": "age · expression · attractiveness"
+  },
+  {
+   "name": "norway",
+   "kicker": "TAKK, NORGE",
+   "main": "Norway is watching our TikTok"
+  },
+  {
+   "name": "flash",
+   "kicker": "GLM 5.3 FLASH",
+   "main": "~15¢ per million tokens"
+  },
+  {
+   "name": "better",
+   "kicker": "CHRIS",
+   "main": "\"this flash model is better than Opus\""
+  },
+  {
+   "name": "instinct",
+   "kicker": "INSTINCT BOOKED",
+   "main": "train · car · 2 hotels · 0 checks"
+  },
+  {
+   "name": "butter",
+   "kicker": "THE PUNISHMENT",
+   "main": "find the best butter in Aldi Spain"
+  },
+  {
+   "name": "proton",
+   "kicker": "PROTON MAIL CEO",
+   "main": "no more engineers, only product people"
+  },
+  {
+   "name": "privacy",
+   "kicker": "THE SNEER",
+   "main": "\"oh, you're a privacy guy\""
+  },
+  {
+   "name": "engineer",
+   "kicker": "CHRIS'S TAKE",
+   "main": "long live the capital-E Engineer"
+  },
+  {
+   "name": "bottleneck",
+   "kicker": "TYLER'S LAW",
+   "main": "10× productive = no longer the bottleneck"
+  },
+  {
+   "name": "mithril",
+   "kicker": "MITHRIL",
+   "main": "1 employee · 11 contract labs · 18 months"
+  },
+  {
+   "name": "avg",
+   "kicker": "ANTHROPIC",
+   "main": "11 acquisitions · avg $204M"
+  },
+  {
+   "name": "youtube",
+   "kicker": "SAME TRICK",
+   "main": "biotech: $204M · podcast: off YouTube"
+  },
+  {
+   "name": "million",
+   "kicker": "THE MATH",
+   "main": "$1 × 1,000,000 = $1,000,000"
+  },
+  {
+   "name": "final",
+   "kicker": "PERP FINAL",
+   "main": "Long ZhiPu 10×: +$2.67 at the bell"
+  }
+ ],
+ "thumbnail": {
+  "text": "ONE BANK. 60% OF A COUNTRY.",
+  "out": "/Users/jcook/Personal/permanent-underpod/media/ep22/ep22-thumbnail.png",
+  "faces": [
+   {
+    "track": "jackson",
+    "t": 882.0,
+    "cx": 640,
+    "top": 90,
+    "h": 630
+   },
+   {
+    "track": "tyler",
+    "t": 1439.0,
+    "cx": 250,
+    "top": 120,
+    "h": 590
+   },
+   {
+    "track": "chris",
+    "t": 1510.0,
+    "cx": 1040,
+    "top": 140,
+    "h": 570
+   }
+  ]
+ }
+}

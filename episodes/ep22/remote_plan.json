@@ -1,0 +1,644 @@
+{
+ "blocks": [
+  {
+   "id": "COLD_A",
+   "m0": 872.9,
+   "m1": 888.15,
+   "hard_m0": true,
+   "hard_m1": true
+  },
+  {
+   "id": "COLD_B",
+   "m0": 257.64,
+   "m1": 268.5,
+   "hard_m1": true,
+   "mute": [
+    [
+     "tyler",
+     265.3,
+     268.6
+    ]
+   ]
+  },
+  {
+   "id": "COLD_C",
+   "m0": 3184.46,
+   "m1": 3195.99,
+   "mute": [
+    [
+     "jackson",
+     3184.4,
+     3188.1
+    ]
+   ]
+  },
+  {
+   "id": "COLD_D",
+   "m0": 3481.95,
+   "m1": 3486.6,
+   "hard_m0": true,
+   "hard_m1": true,
+   "mute": [
+    [
+     "chris",
+     3481.9,
+     3486.7
+    ],
+    [
+     "tyler",
+     3481.9,
+     3486.7
+    ]
+   ]
+  },
+  {
+   "id": "CARD_TITLE",
+   "card": "card_title.mov"
+  },
+  {
+   "id": "INTRO",
+   "m0": 1.13,
+   "m1": 525.67
+  },
+  {
+   "id": "NEURAL",
+   "m0": 527.77,
+   "m1": 1414.42
+  },
+  {
+   "id": "PERP",
+   "m0": 1414.42,
+   "m1": 2082.32
+  },
+  {
+   "id": "INSTINCT",
+   "m0": 2082.32,
+   "m1": 2182.1,
+   "hard_m1": true
+  },
+  {
+   "id": "INSTINCT_B",
+   "m0": 2206.97,
+   "m1": 3540.9
+  },
+  {
+   "id": "OUTRO",
+   "m0": 3540.9,
+   "m1": 3565.2
+  },
+  {
+   "id": "CARD_END",
+   "card": "card_end.mov"
+  }
+ ],
+ "protect": [
+  [
+   872.9,
+   888.15
+  ],
+  [
+   257.64,
+   268.5
+  ],
+  [
+   3184.46,
+   3195.99
+  ],
+  [
+   3481.95,
+   3486.6
+  ],
+  [
+   1.13,
+   12.0
+  ],
+  [
+   1440.0,
+   1460.0
+  ],
+  [
+   1559.0,
+   1572.0
+  ],
+  [
+   2206.97,
+   2212.0
+  ],
+  [
+   3556.0,
+   3565.2
+  ]
+ ],
+ "force_shots": [
+  {
+   "m0": 872.9,
+   "m1": 888.15,
+   "type": "solo",
+   "people": [
+    "tyler"
+   ]
+  },
+  {
+   "m0": 257.64,
+   "m1": 268.5,
+   "type": "solo",
+   "people": [
+    "jackson"
+   ]
+  },
+  {
+   "m0": 3184.46,
+   "m1": 3195.99,
+   "type": "solo",
+   "people": [
+    "chris"
+   ]
+  },
+  {
+   "m0": 3481.95,
+   "m1": 3486.6,
+   "type": "solo",
+   "people": [
+    "jackson"
+   ]
+  },
+  {
+   "m0": 1.13,
+   "m1": 14.5,
+   "type": "trio"
+  },
+  {
+   "m0": 2206.97,
+   "m1": 2210.8,
+   "type": "trio"
+  },
+  {
+   "m0": 1559.5,
+   "m1": 1571.5,
+   "type": "solo",
+   "people": [
+    "jackson"
+   ]
+  }
+ ],
+ "face_cx": {
+  "jackson": 690,
+  "chris": 682,
+  "tyler": 718
+ },
+ "panel_order": [
+  "jackson",
+  "chris",
+  "tyler"
+ ],
+ "params": {
+  "idle_gain": 0.12,
+  "group_thresh": 0.25,
+  "group_hold": 1.0,
+  "react_thresh": 0.6,
+  "min_shot": 3.0,
+  "gain_target": 0.028,
+  "dead_air_min": 1.2,
+  "dead_air_keep": 0.4,
+  "dead_air_net": 0.6
+ },
+ "gain_spans": {
+  "jackson": [
+   [
+    2092,
+    2110
+   ],
+   [
+    3323,
+    3345
+   ],
+   [
+    1303,
+    1324
+   ],
+   [
+    3350,
+    3360
+   ]
+  ],
+  "chris": [
+   [
+    1598,
+    1651
+   ],
+   [
+    2557,
+    2605
+   ],
+   [
+    1108,
+    1145
+   ],
+   [
+    3079,
+    3100
+   ]
+  ],
+  "tyler": [
+   [
+    669,
+    760
+   ],
+   [
+    922,
+    1012
+   ],
+   [
+    2823,
+    2910
+   ],
+   [
+    1869,
+    1890
+   ]
+  ]
+ },
+ "pips": [
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep22/raw/Untitled_recording-chris-screen-00h_24m_00s_595ms-StreamYard.mp4",
+   "block": "PERP",
+   "m0": 1448.0,
+   "m1": 1456.0,
+   "anchor": 1440.197,
+   "mode": "full"
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep22/raw/Untitled_recording-chris-screen-00h_24m_00s_595ms-StreamYard.mp4",
+   "block": "PERP",
+   "m0": 1456.0,
+   "m1": 2082.32,
+   "anchor": 1440.197,
+   "mode": "corner",
+   "crop": [
+    976,
+    100,
+    664,
+    200
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep22/raw/Untitled_recording-chris-screen-00h_24m_00s_595ms-StreamYard.mp4",
+   "block": "INSTINCT",
+   "m0": 2082.32,
+   "m1": 2182.1,
+   "anchor": 1440.197,
+   "mode": "corner",
+   "crop": [
+    976,
+    100,
+    664,
+    200
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep22/raw/Untitled_recording-chris-screen-00h_24m_00s_595ms-StreamYard.mp4",
+   "block": "INSTINCT_B",
+   "m0": 2206.97,
+   "m1": 3540.9,
+   "anchor": 1440.197,
+   "mode": "corner",
+   "crop": [
+    976,
+    100,
+    664,
+    200
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep22/raw/Untitled_recording-chris-screen-00h_24m_00s_595ms-StreamYard.mp4",
+   "block": "OUTRO",
+   "m0": 3540.9,
+   "m1": 3560.8,
+   "anchor": 1440.197,
+   "mode": "corner",
+   "crop": [
+    976,
+    100,
+    664,
+    200
+   ]
+  }
+ ],
+ "overlays": [
+  {
+   "name": "st_coldopen",
+   "block": "COLD_A",
+   "rel": 0.0,
+   "dur": 6,
+   "kind": "st"
+  },
+  {
+   "name": "lt_intro",
+   "block": "INTRO",
+   "m": 3.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_paraguay",
+   "block": "INTRO",
+   "m": 77.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_ueno",
+   "block": "INTRO",
+   "m": 84.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_public",
+   "block": "INTRO",
+   "m": 114.5,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_aus",
+   "block": "INTRO",
+   "m": 490.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "lt_neural",
+   "block": "NEURAL",
+   "m": 536.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_tiny",
+   "block": "NEURAL",
+   "m": 603.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_evil",
+   "block": "NEURAL",
+   "m": 876.5,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_tiktok",
+   "block": "NEURAL",
+   "m": 1114.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_tiktok",
+   "block": "NEURAL",
+   "m": 1176.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_norway",
+   "block": "NEURAL",
+   "m": 1405.5,
+   "dur": 6,
+   "kind": "st"
+  },
+  {
+   "name": "lt_perp",
+   "block": "PERP",
+   "m": 1422.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_bart",
+   "block": "PERP",
+   "m": 1562.5,
+   "dur": 8,
+   "kind": "st2"
+  },
+  {
+   "name": "lt_glm",
+   "block": "PERP",
+   "m": 1598.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_flash",
+   "block": "PERP",
+   "m": 1610.5,
+   "dur": 7,
+   "kind": "st2"
+  },
+  {
+   "name": "st_better",
+   "block": "PERP",
+   "m": 1927.5,
+   "dur": 7,
+   "kind": "st2"
+  },
+  {
+   "name": "lt_instinct",
+   "block": "INSTINCT",
+   "m": 2084.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_instinct",
+   "block": "INSTINCT",
+   "m": 2093.0,
+   "dur": 8,
+   "kind": "st2"
+  },
+  {
+   "name": "st_butter",
+   "block": "INSTINCT",
+   "m": 2160.5,
+   "dur": 7,
+   "kind": "st2"
+  },
+  {
+   "name": "lt_proton",
+   "block": "INSTINCT_B",
+   "m": 2284.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_proton",
+   "block": "INSTINCT_B",
+   "m": 2314.0,
+   "dur": 8,
+   "kind": "st2"
+  },
+  {
+   "name": "st_privacy",
+   "block": "INSTINCT_B",
+   "m": 2480.0,
+   "dur": 6,
+   "kind": "st2"
+  },
+  {
+   "name": "lt_contrarian",
+   "block": "INSTINCT_B",
+   "m": 2557.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_engineer",
+   "block": "INSTINCT_B",
+   "m": 2598.5,
+   "dur": 8,
+   "kind": "st2"
+  },
+  {
+   "name": "st_bottleneck",
+   "block": "INSTINCT_B",
+   "m": 2857.5,
+   "dur": 8,
+   "kind": "st2"
+  },
+  {
+   "name": "lt_mithril",
+   "block": "INSTINCT_B",
+   "m": 3050.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_mithril",
+   "block": "INSTINCT_B",
+   "m": 3079.5,
+   "dur": 8,
+   "kind": "st2"
+  },
+  {
+   "name": "st_avg",
+   "block": "INSTINCT_B",
+   "m": 3124.5,
+   "dur": 7,
+   "kind": "st2"
+  },
+  {
+   "name": "st_youtube",
+   "block": "INSTINCT_B",
+   "m": 3186.0,
+   "dur": 7,
+   "kind": "st2"
+  },
+  {
+   "name": "lt_pitch",
+   "block": "INSTINCT_B",
+   "m": 3398.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_million",
+   "block": "INSTINCT_B",
+   "m": 3482.0,
+   "dur": 6,
+   "kind": "st2"
+  },
+  {
+   "name": "lt_wrap",
+   "block": "INSTINCT_B",
+   "m": 3504.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_final",
+   "block": "OUTRO",
+   "m": 3542.0,
+   "dur": 8,
+   "kind": "st2"
+  }
+ ],
+ "sheet": [
+  {
+   "label": "Cold open",
+   "block": "COLD_A"
+  },
+  {
+   "label": "Title",
+   "block": "CARD_TITLE"
+  },
+  {
+   "label": "Check-in: still holding our bags (first spoken disclaimer in 14 episodes)",
+   "block": "INTRO"
+  },
+  {
+   "label": "Paraguay: 60% of a country banked at Ueno, and it froze",
+   "block": "INTRO",
+   "m": 76.0
+  },
+  {
+   "label": "LLM neurosurgery: frontier models editing model weights by hand",
+   "block": "NEURAL",
+   "m": 527.77
+  },
+  {
+   "label": "Evil Qwen: one neuron, one murderous sandwich",
+   "block": "NEURAL",
+   "m": 860.0
+  },
+  {
+   "label": "TikTok's edge CNN scores your face (and the Samsung TV callback)",
+   "block": "NEURAL",
+   "m": 1108.0
+  },
+  {
+   "label": "Perp of Fortune: long ZhiPu 10\u00d7, no Bitcoin flip, the platonic Bart",
+   "block": "PERP",
+   "m": 1414.42
+  },
+  {
+   "label": "GLM 5.3 Flash: Chris's free model that's 'better than Opus'",
+   "block": "PERP",
+   "m": 1572.0
+  },
+  {
+   "label": "Instinct update: seven bookings, zero checks, one bad hotel",
+   "block": "INSTINCT",
+   "m": 2082.32
+  },
+  {
+   "label": "Proton Mail: a fortress nobody else lives in",
+   "block": "INSTINCT_B",
+   "m": 2284.0
+  },
+  {
+   "label": "Contrarian corner: fire everyone but the engineers",
+   "block": "INSTINCT_B",
+   "m": 2527.0
+  },
+  {
+   "label": "Mithril: the one-person biotech Anthropic bought",
+   "block": "INSTINCT_B",
+   "m": 3020.0
+  },
+  {
+   "label": "Tyler's pitch: acquire this cracked team of three",
+   "block": "INSTINCT_B",
+   "m": 3397.5
+  },
+  {
+   "label": "Perp final + outro",
+   "block": "OUTRO"
+  },
+  {
+   "label": "End card",
+   "block": "CARD_END"
+  }
+ ]
+}
