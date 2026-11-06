@@ -150,3 +150,19 @@ Captions = YouTube hook + sentence + "Full episode: Underpod." + dropdown-picked
 | Date (ET) | Clip | URL |
 |---|---|---|
 | 2026-11-11 19:00 | `ep21/short12-billion-supercut` | https://www.tiktok.com/@underpodpodcast/video/7704646037780073750 |
+
+## Ep 22 batch (scheduled 2026-11-06, doubles — 11 clips, "14 is a lot" trimmed to 11 for YouTube too)
+
+| Date (ET) | Clip | URL |
+|---|---|---|
+| 2026-11-11 21:00 | `ep22/short1-evil-qwen` | https://www.tiktok.com/@underpodpodcast/video/7704962771913395478 |
+| 2026-11-12 19:00 | `ep22/short2-thank-you-ueno` | https://www.tiktok.com/@underpodpodcast/video/7704964515028274454 |
+| 2026-11-12 21:00 | `ep22/short3-one-million` | https://www.tiktok.com/@underpodpodcast/video/7704966465648168214 |
+| 2026-11-13 19:00 | `ep22/short4-no-bitcoin-flip` | https://www.tiktok.com/@underpodpodcast/video/7704967565965020438 |
+| 2026-11-13 21:00 | `ep22/short6-punish-instinct` | https://www.tiktok.com/@underpodpodcast/video/7704971194662980886 |
+| 2026-11-14 19:00 | `ep22/short7-protein-mail` | https://www.tiktok.com/@underpodpodcast/video/7704972472193535254 |
+| 2026-11-14 21:00 | `ep22/short8-pm-dot-me` | https://www.tiktok.com/@underpodpodcast/video/7704973924077030678 |
+| 2026-11-15 19:00 | `ep22/short9-long-live-engineers` | https://www.tiktok.com/@underpodpodcast/video/7704975480570547478 |
+| 2026-11-15 21:00 | `ep22/short11-cracked-team` | https://www.tiktok.com/@underpodpodcast/video/7704977370675023126 |
+
+**Still owed:** `ep22/short12-robot-us` and `ep22/short14-perp-arc` landed on 2026-11-16, past the 10-day Studio window when this batch ran (2026-11-06). Rerun `tt_upload.py media/clips/tiktok/queue.json --headful --slow 3 --pause 180` once Nov 16 is inside 10 days (around 2026-11-07).
