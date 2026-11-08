@@ -1,4 +1,4 @@
-# Cross-episode retention study — Eps 1–19 (run 2026-10-20)
+# Cross-episode retention study — Eps 1–21 (run 2026-11-08, see §8 for the Ep 20–21 update)
 
 Every chapter of every episode as one row: 382 chapters, 304 body chapters, 220 with
 speaker attribution (14 episodes have a speaker-labelled final-cut SRT; Eps 1–3, 7, 12,
@@ -195,6 +195,30 @@ it shows:
   conclusion survives it: first-tenth loss 7.6%/min vs 1.2–3.6% after; blocks 10+ min
   0.43 vs <3 min 0.385; dominant speaker Chris 0.42 / Tyler 0.42 / Jackson 0.37).
 
+## 8. Ep 20–21 update (2026-11-08)
+
+- **Ep 20** followed the §2 recommendation partially (perp still near the top, 2:15,
+  but the marquee hook landed earlier than Ep 16–19) and posted the best 10%-mark
+  retention since Ep 15: 19.1% (vs_typ 0.40 at the 10% mark), inside the 14–24% Ep
+  15–19 band but at the top of it. Launch CTR 3.63% (1,542 impr) — tied for the
+  channel's best.
+- **Ep 21 did the opposite of §1's recommendation and posted the worst 10%-mark
+  retention on record: 5.7%** (vs_typ 0.06 — essentially bottom-of-the-curve for a
+  video this length). Its first 10% (first ~5:39) is cold open (45s) → **"The
+  Permanent Underpod is dead: the rebrand" (0:50, a housekeeping/meta chapter)** →
+  Perp of Fortune (2:15) → the Binance hook doesn't land until 4:36. That's two of
+  the three worst-scoring chapter types from §2/§4 (early banter/housekeeping 0.24,
+  perp_trading early 0.28) stacked back to back, pushing the actual marquee payoff
+  past the point where most of the audience has already left. Launch CTR was still
+  strong (3.67%, confirming the title/thumbnail aren't the problem) — this is a
+  pure post-click retention failure.
+- Read together: Ep 20 (perp close to the top but marquee still early) partially
+  recovers; Ep 21 (housekeeping chapter + perp *both* before the marquee) is the
+  single clearest confirmation yet that early non-payoff chapters compound. One
+  housekeeping/announcement beat is enough to do real damage if it lands before
+  the hook — treat rebrand/meta announcements like banter: push them past the
+  first third, never cold-open into them.
+
 ## What to change
 
 1. **Open on the marquee's victim and number, not the perp pick.** Welcome ≤40 s,
@@ -209,3 +233,7 @@ it shows:
 5. **Report engaged views, not views, for everything after Aug 24.** `yt_pull.py`
    now pulls them. Grade launches on engaged views and minutes per engaged view; the
    raw view count is a feed-autoplay counter now.
+6. **Housekeeping/meta beats (rebrand announcements, show-news) are banter for
+   retention purposes — never cold-open into one.** Ep 21 stacked one in front of
+   the perp pick and the marquee hook; 10%-mark retention cratered to 5.7%, the
+   worst on record. If there's channel news, say it after the first payoff.

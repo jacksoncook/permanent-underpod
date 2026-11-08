@@ -1,93 +1,54 @@
 {
-  "headline": "Shorts: the feed stopped expanding us on Oct 10. Shorts-feed views per week went 3,518 (Sep 28 wk) → 1,758 (Oct 5) → 336 (Oct 12), and channel views fell to 795 in the Oct 12 week, the lowest since Aug 17. The mechanism is not a smaller audition: every short since Oct 10 still got its normal 20–80 feed views on day 0, still sits in the SHORTS traffic source, and median avg-view% is 64% (higher than September's 45%). What changed is that 0 of 16 auditions expanded; since Sep 1 the base rate was 14 of 45 shorts clearing 250 views (31%), so 0/16 is a 0.3% event. The 16 are the Ep 18 slate (1/day, 0 of 6 before the two-a-day cadence started) plus Ep 19 (2/day since Oct 16); the common factor is the slate: concept and AI-insider lines ('Claude Just Horcruxed Himself' 16, '36 Coin Flips' 16, 'Justin Drake' 33, 'One Guy at Cloudflare' 60) where every 4-digit short on the channel was an absurd, physical or money line ('A Kid's Savings at 100x Leverage' 1,022, 'Bring a $5 wrench' 901, 'A Microphone That Smells Like Fish' 911, 'Cigarettes and Gambling' 510, 'wife beater' 710). Long-form: Ep 19 launched at the channel's best CTR (3.73% on 1,018 impressions) and 239 views; Ep 18's 418 views are 81 engaged views plus feed autoplays — YouTube has counted a view from the first frame since 2026-08-24, and engaged views per episode have been flat at 40–120 since June (Ep 12 121, Ep 16 98, Ep 18 81, Ep 19 51), so the raw-view growth since Ep 12 was never real; every study conclusion survives excluding the four autoplay-heavy episodes. Subs 26 → 31 since 9/19, zero lost. The perp-first structure (Ep 15–19) is graded: Ep 15 cleared the 20% target at the 10% mark (24.6%), Ep 16–19 did not (17.4 / 14.3 / 16.2 / 15.7). The new cross-episode study (analytics/study/study.md, 382 chapters, 19 curves) says why: the perp pick placed in the first third is the lowest-scoring content-position cell on the show (vs_typ 0.28), the first tenth of runtime loses 10.6%/min vs 0.9–2.9% after, long topic blocks hold better than short ones, and no host is better or worse than another — mechanism explainers are the floor and stakes/stories are the ceiling regardless of who talks. The RSS feed (Spotify for Creators → Apple) is 199 plays all time and 7 followers, so YouTube is the whole audience.",
+  "headline": "Not a collapse — read the pipeline, not the newest row: 9 of Ep 21's 11 shorts are still scheduled-private (Nov 8–16, one publishAt per day) and show 0 because they haven't aired yet, and the last 2–3 days of every pull lag the Analytics API by design, so the newest videos always look dead for a day or two. The real week (10/30–11/5, the last with full data) was the channel's best in a month: 2,661 views vs 1,602 (Oct 23 wk) and 1,279 (Oct 16 wk), subs 31→34, driven by two shorts breaking out — 'Don't Tell Claude About the PHP Bug' (549 engaged) and 'Your iPhone PIN Is More Secure Than This Root CA' (322). Long-form is fine: Ep 20 launch CTR 3.63% (1,542 impr, tied channel-best) and Ep 21 3.67% (518 impr, only 6 days old so naturally behind Ep 20's 13-day total) both beat the channel average — packaging is not the problem. The one genuine new red flag: Ep 21's retention cratered to 5.7% at the 10% mark, the worst on record (vs the 14–24% Ep 15–20 band), because the edit stacked a housekeeping chapter (the rebrand announcement at 0:50) directly in front of the perp pick (2:15) before the Binance hook ever lands (4:36) — two of the three worst-scoring opening moves on the show, back to back. Shorts: Ep 20's batch of 13 broke the Oct 10–20 collapse partially (2/13 cleared 250 views = 15%, up from 0/16, still under the 31% base rate), and the 2 winners were concrete-object/security titles (PHP bug, root CA) while the back half of the same batch (perp/insider-jargon titles: Hyperliquid, 'dumb contract', 'hack the university') went back to flopping at 2–20 views — same pattern as always, not a platform-wide drop.",
   "production": [
     {
-      "title": "Shorts feed stopped expanding us Oct 10: 0 of 16 auditions broke out vs a 31% base rate — re-pick the slate, pause two-a-day",
-      "evidence": "Shorts-feed views by week: Sep 14 3,776 · Sep 21 1,335 · Sep 28 3,518 · Oct 5 1,758 · Oct 12 336. Per-short day-0 feed views since Oct 10: 65, 53, 83, 7, 28, 13, 48, 4, 13, 43 (median ~40; September median ~50) — the audition still runs. Every one is in the SHORTS traffic source (not a classification problem). Engaged/views ratio on the misses 18–33%, same as September misses. Median avg-view% of the Oct 12-week shorts 64% vs 45% for the Sep 14 week — retention is not the problem. Breakouts (≥250 views) since Sep 1: 14 of 45 before Oct 10, 0 of 16 after. Ep 18 slate at 1/day was already 0 of 6 before the Ep 19 two-a-day run started Oct 16. The one browse-distributed short this month, 'Their brains just break if your email isn't gmail.com', got 2,047 impressions at 0.54% CTR (fruit fly: 821 at 8.9%). TikTok cross-check (Jackson's Studio grid 10/20): every clip sits at 190–275 views regardless of class — 'Claude Horcruxed Himself' 275 (16 on YouTube), 'My Unemployed Brother' 237 (86), '$5 wrench' 267 (901), 'I'm SaaS-less' 188. TikTok runs a flat ~200-view audition and never expands, so it cannot arbitrate slate vs distribution. It does show the slate story is weaker than first written: winner-shaped Ep 19 picks ('A Goblin in My Toaster' 61, 'Butter Hostage' 18, 'Drool and Watch YouTube' 47) failed on YouTube too.",
-      "recommendation": "Slate and distribution are both live hypotheses now; the next batch is the test, not a diagnosis. (1) Back to 1/day after the 5 still scheduled. (2) Next batch 5–7 clips, winner template only. (3) If 0 of them clears 250 views in 3 days, it is YouTube-side: cut to 3–4 shorts per episode and stop spending edit time on volume. Drop the TikTok cross-check as a signal.",
+      "title": "Scheduled-private videos reading as zero views is pipeline lag, not underperformance — don't re-litigate this weekly",
+      "evidence": "9 of Ep 21's 11 shorts (queued 'Negative Alpha Is Also Alpha' through 'We Had No Bitcoin Flip and Still Made $2.67') are privacyStatus=private with publishAt 2026-11-08 through 2026-11-16 — they have never been public, so reach/engaged_views are null by construction. The 2 that are already public ('Live From a Bathroom...' 11/6, 'Binance Got Hacked for Five B-illions' 11/7) are 1–2 days old; the Analytics API's daily series in this pull only covers through 2026-11-05, so anything published after that has no data yet regardless of real performance.",
+      "recommendation": "No action — this is expected. When a weekly pull lands right after a publish burst, grade the LAST complete week (data through day-2) and treat anything newer as 'too early,' not 'underperforming.'",
+      "priority": "low",
+      "status": "done",
+      "status_note": "documented 11/8 after it read as a false alarm."
+    },
+    {
+      "title": "Shorts feed: partial recovery, not a fix — winner-template titles still the only ones that clear 250 views",
+      "evidence": "Ep 20's 13-short batch (10/24–11/5, 1/day): 2 of 13 broke out — 'Don't Tell Claude About the PHP Bug' 549 engaged, 'Your iPhone PIN Is More Secure Than This Root CA' 322 — both concrete-object + security/absurd titles, same shape as every historical breakout. The other 11 (incl. perp/insider titles 'Hyperliquid's Nodes Are in His Basement' 20, '\"So It Was a Dumb Contract\"' 2, 'Hack the University for the Test Answers' 3, '\"Guess Who's Out of the Permanent Underclass\"' 8, 'Vitalik Built Plato's Cave for AI Agents' 14) stayed in single/low-double digits. 2/13 = 15%, up from the Oct 10–20 collapse (0/16) but still below the Sep 1 base rate (31%, 14/45).",
+      "recommendation": "Keep the winner template (concrete object, dollar figure, or security/hack angle) and keep cutting perp-pick and insider-jargon shorts even when the segment itself played well live. Ep 21's 11-short batch (going out Nov 8–16, one a day) is the next read — grade it the same way once it clears the 3-day window per clip.",
       "priority": "high",
       "status": "open",
-      "status_note": "new 10/20; TikTok cross-check done same day (non-discriminating)."
+      "status_note": "updated 11/8 from 'collapsed' (10/20) to 'partially recovered.'"
     },
     {
-      "title": "Ep 19 launched at the channel's best CTR (3.73%) with a concrete-object title; keep that title shape",
-      "evidence": "Launch impressions / CTR: Ep 16 2,758 / 2.5%, Ep 17 974 / 2.98%, Ep 18 2,070 / 2.85%, Ep 19 1,018 / 3.73% ('They Hid a SIM Card Inside a Crypto Wallet. $102M Gone.'). Ep 19 day 0/1 views 57 / 94 (Ep 18: 55 / 66 / 141). Captions + 15 tags were patched on launch day (10/16) after the manual upload revoked the force-ssl token again.",
-      "recommendation": "Title = physical object + what happened + dollar figure. Ep 19 is the fourth episode in a row to clear 2.5% once the title carried a number; the Ep 10 (0.58%) and Ep 14 (1.55%) misses were abstractions. Thumbnail text 'THEY BUGGED THE WALLET' passed the shrink test; keep three-word thumbnails.",
-      "priority": "med",
-      "status": "done",
-      "status_note": "closed 10/20: measured inside the launch window."
-    },
-    {
-      "title": "Cross-episode study shipped: analytics/study/study.md (382 chapters × 19 retention curves, speaker + topic + length)",
-      "evidence": "episode_study.py joins each retention curve to the episode's chapter table and speaker-attributed SRT (14 of 19 episodes have speakers). Key numbers: first tenth of runtime loses 10.6%/min vs 0.9–2.9% for the rest; perp pick in the first third vs_typ 0.28 (worst cell); topic blocks 10+ min vs_typ 0.43 vs <3 min 0.36; dominant speaker Tyler 0.41 / Chris 0.40 / Jackson 0.38 with overlapping CIs; worst chapter per episode is a mechanism explainer in 12 of 19 episodes.",
-      "recommendation": "Re-run it after every episode (two commands, in study.md). The recording items below are now graded against it instead of against single-episode reads.",
-      "priority": "med",
-      "status": "done",
-      "status_note": "built 10/20; charts in analytics/study/*.png."
-    },
-    {
-      "title": "Not bots: YouTube counts a view from the first frame since 2026-08-24 — engaged views per episode have been flat at 40–120 since June; report engaged views from now on",
-      "evidence": "YouTube's Aug 24 change counts feed autoplays as views (TechCrunch 8/17, vidIQ, RouteNote); the old definition is 'engaged views'. Analytics API per episode (views → engaged): Ep 1–11 85–100% engaged (37–127 each); Ep 12 306 → 121; Ep 13 225 → 82; Ep 14 215 → 70; Ep 15 163 → 64; Ep 16 400 → 98; Ep 17 194 → 42; Ep 18 417 → 81; Ep 19 151 → 51. Jackson's Studio reads match the autoplay story: Ep 18 5.5% US, <0.1% regular viewers; Ep 16 46% US; Ep 12 16% US, 90% mobile; subscriber-sourced views carry only 31–33% of watch time in all three. Ep 3 (293, 100% engaged, US 36% + CA/AU/UK, all 35–44 male) was a genuine shared launch, not an anomaly. avg_view_pct is not comparable across Aug 24 (denominator now includes autoplay starts) — minutes per engaged view is: 4–11 before, 4–6 after.",
-      "recommendation": "Done: yt_pull.py now pulls engagedViews per video; the report shows an Engaged column, an 'engaged episode views' KPI and a regime note. From here: launches are graded on engaged views and minutes per engaged view, never raw views. The honest read: the show's real audience per episode is the same 40–120 people it was in July, and the growth story in raw views since Ep 12 was never real.",
-      "priority": "med",
-      "status": "done",
-      "status_note": "closed 10/20: Studio reads on Ep 3/12/16/18 + Aug 24 counting change; 'bot' retracted."
-    },
-    {
-      "title": "Ep 13 retitle still undocumented after 6 weeks",
-      "evidence": "grep 'retitle' episodes/ep13/segment-times.md → 0 hits; live title 'Is AGI Already Here?', sheet draft 'Google Defined AGI. We Graded Fable as Superhuman'. Ep 15's retitle IS logged (1 hit).",
-      "recommendation": "Done. Ep 13's 2.46% launch CTR spans both titles and stays uninterpretable; log every future retitle in the sheet the day it happens.",
+      "title": "Long-form launch CTR stays strong — Ep 20/21 both beat the channel average, title shape is not the issue",
+      "evidence": "Launch CTR/impressions: Ep 19 3.73%/1,018, Ep 20 3.63%/1,542 ('A Certificate Authority Used '4' as Its Private Key'), Ep 21 3.67%/518 ('Inside the $6.3 Billion Binance Hack', only 6 days of data vs Ep 20's 13). Both keep the concrete-object + number title shape.",
+      "recommendation": "No change — keep titling this way. Ep 21's lower absolute impressions is a data-maturity artifact (95% of lifetime impressions land in the first 7 days), not a packaging regression; re-check at day 7+.",
       "priority": "low",
       "status": "done",
-      "status_note": "closed 10/20: dated retitle line added to episodes/ep13/segment-times.md (retitled between 9/4 and 9/9, exact date unrecorded)."
+      "status_note": "confirmed 11/8, consistent with the Ep 19 finding closed 10/20."
     },
     {
-      "title": "Podcast feed (Spotify for Creators, syndicated to Apple) is not a second audience: 199 plays all time, 7 followers, ~2.5 min per play",
-      "evidence": "Jackson's Spotify for Creators dashboard 10/20: 199 all-time plays & downloads across 19 episodes (~10 per episode), 7 followers, last 30 days 76 plays (+81%) and 3h 11m consumption — 2.5 min per play, so most plays are previews. YouTube's engaged views per episode (40–120) are 4–10× the feed.",
-      "recommendation": "No scraper (Spotify for Creators and Apple Podcasts Connect have no analytics API; a Playwright pull would cost half a day for 10 plays an episode). Screenshot the dashboard once a month into the weekly review. Revisit if any episode clears 50 plays.",
-      "priority": "low",
-      "status": "done",
-      "status_note": "measured 10/20 from Jackson's screenshot."
+      "title": "Funnel checklist (related video, pinned comment, end screens) still owed across Ep 20–22",
+      "evidence": "No change in production evidence since 10/20 — this is Jackson's manual Studio step, not something the API confirms or denies.",
+      "recommendation": "Work the checklist the uploader prints for Ep 20, 21, 22 when you get a window; not a data-driven finding, just a standing to-do.",
+      "priority": "med",
+      "status": "open"
     }
   ],
   "recording": [
     {
-      "title": "Perp-first opening graded on five episodes: 1 pass, 4 fails — move the perp pick to the first break (~minute 8–10) and open on the marquee's victim and number",
-      "evidence": "10% mark (target ≥20%): Ep 15 24.6 (pass), Ep 16 17.4, Ep 17 14.3, Ep 18 16.2, Ep 19 15.7. Ep 18 perp 1:38–6:03 took retention 32% → 16% (vs_typ 0.24); Ep 19 perp 1:15–4:20 29% → 16% (0.41); Ep 15's 2.5-min perp held 34% → 27%. Pooled across 19 episodes, perp chapters in the first third average vs_typ 0.28 — the worst content × position cell on the show — while perp checks and tallies later average 0.37 and the two best perp chapters ever recorded were late payoffs (Ep 8 'GPT-5.6 goes long XRP' 32:44 at 0.91; Ep 5 'We got a perp!' 50:45 at 0.59). Study §1–2. With the four autoplay-heavy episodes (3/12/16/18) excluded as a sensitivity check, early perp softens to vs_typ 0.34 but stays the lowest substantive cell; Ep 17 and 19 (clean) failed the 20% target at 14.3 and 15.5.",
-      "recommendation": "Welcome ≤40 s, then straight into the marquee with the victim and the number in the first sentence (Ep 19 had it: '$102M, a SIM card inside the wallet' — but it ran at 5:43 after 4.5 min of perp). First break at ~8–10 min = perp pick with the board on screen. Keep the halftime check and the final tally where they are; they score. Grade on Ep 20's 6:00 mark vs the Ep 15–19 range 14–24%.",
+      "title": "Ep 21 posted the worst opening on record (5.7% at the 10% mark) by stacking a housekeeping beat in front of the perp pick, both before the hook",
+      "evidence": "study.md §8: Ep 21's first 10% (≈5:39 of 56:34) runs cold open (45s) → 'The Permanent Underpod is dead: the rebrand' (0:50, housekeeping) → Perp of Fortune (2:15) → the Binance hook doesn't land until 4:36. vs_typ at the 10% mark is 0.06 — essentially bottom-of-the-curve. Compare Ep 20, which kept perp near the top but without a housekeeping beat in front of it and got the best 10%-mark retention since Ep 15 (19.1%, vs_typ 0.40). Launch CTR for Ep 21 was still 3.67% (strong), confirming this is a pure post-click retention failure, not a packaging one.",
+      "recommendation": "Treat any housekeeping/announcement beat (rebrand news, show updates) exactly like banter: never cold-open into one, push it past the first third. Keep running the perp pick as the first break around minute 8–10, after the marquee hook, per the existing §1 recommendation — Ep 21 moved it earlier instead of later and the two together did more damage than either alone.",
       "priority": "high"
     },
     {
-      "title": "Stop cutting for length — long topic blocks hold better than short ones and loss inside a chapter does not climb with minutes",
-      "evidence": "Topic blocks (consecutive same-category chapters): 10+ min vs_typ 0.43 (CI 0.39–0.48), 6–10 min 0.40, 3–6 min 0.36, <3 min 0.36 (CI 0.32–0.40). Loss per minute inside a chapter: minutes 1–6 run 1.7–3.5%/min, minutes 7–15 ~0–2%. Within-episode regression: longer chapters have lower hazard (−0.015 per SD, CI −0.026…−0.006). Bitcoin/L2 is the longest-running category (median block 6.1 min) and the best (0.43). Study §3, §5.",
-      "recommendation": "Drop the ≤8-minute explainer cap and the 45–55-minute target as retention rules; nothing in 19 episodes shows a block that ran too long. Cut a chapter when it has no stakes, never because it crossed a clock. Edit-side: merge beats rather than chop; fewer, longer chapters in the sheet too.",
-      "priority": "high"
-    },
-    {
-      "title": "No host is the problem — mechanism explainers are the floor and stakes/stories the ceiling, for all three of you",
-      "evidence": "Dominant-speaker vs_typ: Tyler 0.41 (n=89), Chris 0.40 (66), Jackson 0.38 (65), CIs overlap; every speaker-share, crosstalk, words-per-minute and longest-turn coefficient on vs_typ has a CI spanning zero (n=220). Worst chapter per episode is a how-it-works/product explainer in 12 of 19: 'How Spark works' 0.11, 'How a Lightning channel works' 0.17, 'Q-Day vs a classical break' 0.18, 'Is SaaS still viable' 0.13, 'Instinct switched a utility plan' 0.07, 'Tyler's $10K prompt → SaaS' 0.04, 'The standards war' 0.07. Best per episode is a person with a loss or a thing: 'Coldcard catastrophe' 0.57, 'emergency fund went into Stretch' 0.84, 'Gavin the fruit fly' 0.60, 'Spark operators see everything' 0.75, 'You slip up once and it undoes years' 0.62, 'Instinct update: a tennis tournament every week' 0.67. Tyler is on both lists. Study §4.",
-      "recommendation": "Every explainer block opens with a victim, a number, or the host who got burned, inside its first 60 s — then the mechanism. Lightning (Ep 19) had the material: lead with the tester who spent 80,000 sats to recover 20,000, then the HTLCs. The industry-state block also still scores 0.13–0.25 when it runs after minute 20 (Ep 19 SaaS, 20:42–34:26), so 'after minute 20' did not fix it; stakes-first is the fix, not the slot.",
-      "priority": "high"
-    },
-    {
-      "title": "Banter and prop bits belong after the first third",
-      "evidence": "banter_personal in the first third: vs_typ 0.24, 21.6%/min loss (n=6: Rubik's cubes + beers at Ep 17 3:30 scored 0.18; Ep 11 gorilla arc; Ep 2 housekeeping 0.14). Placed later: 0.50 (n=10) — the best thing on the show (Ep 16 cult story 0.80, Ep 7 freestyle 0.61). The [rec] prop/animal/live-dollar experiment ran once (Ep 17 cubes) in the first third and produced a 409-view feed short, not a browse hit (179 impressions, 0.56%). Study §2.",
-      "recommendation": "Keep doing the bits; schedule them after the first payoff (minute 10+). The on-mic prop experiment stays open with that placement.",
+      "title": "Ep 20 confirms: moving the hook earlier (even without fully deferring perp) lifts the 10%-mark number",
+      "evidence": "Ep 15–19 10%-mark retention: 24.6 / 17.4 / 14.3 / 16.2 / 15.7. Ep 20: 19.1 — second-best of the six perp-adjacent-opening episodes, achieved by landing the marquee hook sooner even though perp still sat near the top.",
+      "recommendation": "Keep tightening the gap between cold open and the marquee hook; full confirmation of 'perp at minute 8–10' is still pending a clean test (no episode has tried it yet) — Ep 22 or 23 should be the one.",
       "priority": "med"
-    },
-    {
-      "title": "Cold opens remain solved; the 0:30–2:00 collapse is the same on every curve regardless of what follows",
-      "evidence": "At 0:32: Ep 15 90%, Ep 16 84%, Ep 17 79%, Ep 18 81%, Ep 19 71% (Ep 19's 35-s three-beat open is the shortest and lowest of the five). All 19 curves lose 40–70 points between 0:30 and 2:00. 1:05 → 6:00 keep ratio median 0.41 across episodes; perp-first eps 0.31–0.52.",
-      "recommendation": "Keep 3–5 beats in ≤45 s with the finale tease. Ep 19's open at 35 s with three beats read thin at 0:32 — four beats is the sweet spot on the record (Ep 14 88%, Ep 17 79%).",
-      "priority": "low"
     }
   ],
   "experiments": [
-    "[prod] Ep 20 launch graded on ENGAGED views and minutes per engaged view (Ep 15–19: 42–98 engaged, 4.1–6.3 min each). Raw views are a feed-autoplay counter since Aug 24.",
-    "[prod] TikTok: a steady EU floor — every clip lands at ~200 views (18 clips, 188–275; ~3,600 total, about a YouTube Shorts week) because the account is Portugal-based and new posts audition to the EU first. Real reach, keep posting everything; but no breakouts yet, so it is not a signal for slate or scheduling decisions. Flag the first clip over 500.",
-    "[prod] Ep 20 shorts: 5–7 clips, winner template only (physical/absurd premise or dollar figure, face in frame 1, no model/protocol names), 1/day. Pass = ≥2 of the batch clear 250 views within 3 days (September rate was ~1 in 3).",
-    "[rec] Ep 20 structure: welcome ≤40 s → marquee with victim + number in the first sentence → perp pick as the first break at ~8–10 min. Pass = retention at 6:00 ≥ 20% (Ep 15–19 range 14–24%).",
-    "[rec] Ep 20: every explainer block opens with a victim/number/burned host inside 60 s. Measure the block's vs_typ vs the 0.11–0.18 of 'How Spark works' / 'How a Lightning channel works' / 'Q-Day'.",
-    "[rec] Prop/animal/live-dollar bit, placed after minute 10. Measure its chapter vs_typ (early placements scored 0.18–0.24) and whether its short reaches browse (≥300 impressions)."
+    "[prod] Ep 21 shorts (11, one a day Nov 8–16): grade using only the winner template vs flop pattern confirmed by Ep 20's batch — expect the concrete-object/security titles to clear 250 views, perp/insider titles to flop again. If a non-winner-shaped title breaks out this time, the pattern needs revisiting.",
+    "[rec] Ep 22 or 23: run the full §1 recommendation for the first time — welcome ≤40s, marquee hook immediately, perp pick deferred to the first break (~minute 8–10), zero housekeeping beats before the first payoff. Measure 10%-mark retention against the 5.7–24.6% range seen so far."
   ]
 }
