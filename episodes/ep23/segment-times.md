@@ -9,7 +9,7 @@ eight content cuts (7.6 min) · 245 dead-air pauses trimmed (41 s).**
 
 ## Episode video
 
-- **URL:** not uploaded yet (Jackson's manual upload). Backfill this sheet from the live copy with `yt_fetch.py`.
+- **URL:** https://youtu.be/6b2yGE4QWg8 — "Jensen Is Out at Nvidia. What Happens to Open Models?" (Jackson's manual upload, live 2026-11-13, drafted description used as-is). Final-cut captions (`standard`) + 15 tags patched via API 2026-11-13 (force-ssl token had been revoked, re-authed).
 - **File:** `media/ep23/Underpod - Ep 23 (Final Cut).mp4` (3.08 GB)
 - **Thumbnail:** `media/ep23/ep23-thumbnail.png` — "THE CHIP KING IS OUT" (Jackson center at the perp
   reveal, Tyler left mid-laugh in the Avalanche bit, Chris right in the fable-on-the-payroll bit; passed the
@@ -29,12 +29,14 @@ eight content cuts (7.6 min) · 245 dead-air pauses trimmed (41 s).**
 
 ## Title (drafts)
 
+Live title is Jackson's: **Jensen Is Out at Nvidia. What Happens to Open Models?**
+
 1. **Open Models Just Lost Their Champion**
 2. Nvidia Without Jensen: Who Fights for Open Models Now?
 3. The Chip King Is Out. Now What?
 4. Google Is Building Private AI Into Its Chips
 
-## YouTube description (paste-ready draft)
+## YouTube description (live copy, matches the draft)
 
 ```
 ⏩ The fingerprint claim is at 4:29. Why now at 11:31. NYSE on Avalanche at 15:27. Perp of Fortune at 20:00. Private inference at 21:53. Liquid at 46:52.
@@ -395,7 +397,7 @@ Subscribe for next week: life after Jensen, Perp of Fortune, and the layer-2 ser
 ## Captions
 
 `transcript-attributed.srt` regenerated from the FINAL cut (never the raw recording) in
-`episodes/ep23/`. Upload as the `standard` track after Jackson's upload (`yt_captions.py`). Two cues the
+`episodes/ep23/`. Uploaded as the `standard` track 2026-11-13 (`yt_captions.py`). Two cues the
 attributor left unlabeled (0:40 and 57:10) set to Jackson by hand from the mic envelopes.
 
 ## Production notes
