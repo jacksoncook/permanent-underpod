@@ -131,6 +131,18 @@ flip it back. `--debug` dumps every speaker run with its talk time:
 python3 ../podcast-video-edit/scripts/remote_face_crops.py <workdir> <final_start> <final_end>
 ```
 
+**Re-center on the real face (Ep 23).** The schedule centers on the PANEL, and hosts lean
+inside their panels, so a panel-centered column can slice a face. After writing the schedule:
+
+```bash
+<venv>/bin/python scripts/recenter_crops.py <clips.json> <workdir> [--write]
+```
+It samples each `face_crops` segment every 0.5 s, finds faces with Vision (`<workdir>/facex`),
+and sets x = median face center − 203, clamped to the panel. `CUT by panel` in its output means
+the episode's own panel clips the face: point that key at another host or cut the clip from
+the speaker's own camera (per-clip `source` in master time, Ep 23 short3). Keep every clip
+`start` on the 30 fps grid (n/30) or `--rendered` reports seam flashes. Frame-sheet every clip.
+
 **Source rule:** cut face-crop shorts from the episode's `edited_raw.mov`
 (pre-overlay master — same timeline as the final cut) with the episode's audio
 chain as `audio_chain`, and let clipify add the logo + caption. Cutting from the
@@ -449,7 +461,8 @@ on 2026-11-01 (Ep 21 prototype `short12-billion-supercut`).
 <venv>/bin/python scripts/supercut.py media/clips/epN/supercut-<word>.json
 ```
 Spec: `source`, `out_dir`, `logo`, `audio_chain`, `workdir`, `name`, `caption`,
-`pieces: [{start, end}]`, `snap` (0.2), `pad` (0.06). Find the pieces with word-level
+`pieces: [{start, end}]`, `snap` (0.2), `pad` (0.06). A piece may pin its crop with `x` or its own
+`face_crops` when the auto pick lands on the wrong host. Find the pieces with word-level
 whisper over the SRT cues that contain the word (`--max-len 1 -sow`; whisper tiles words
 contiguously, so its times are only a region), then the tool snaps every boundary to the
 quietest 10 ms of the speech-band envelope within ±`snap` s, picks the speaker's face

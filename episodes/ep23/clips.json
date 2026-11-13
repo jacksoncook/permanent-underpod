@@ -1,0 +1,301 @@
+{
+ "source": "/Users/jcook/Personal/permanent-underpod/media/ep23/work/edited_raw.mov",
+ "out_dir": "/Users/jcook/Personal/permanent-underpod/media/clips/ep23",
+ "logo": "/Users/jcook/Personal/permanent-underpod/media/ep23/work/logo.png",
+ "audio_chain": "highpass=f=80,afftdn=nr=14:nf=-50:tn=1,volume=6dB,adynamicequalizer=dfrequency=6800:dqfactor=2.5:tfrequency=6800:tqfactor=2.5:mode=cutabove:threshold=0.01:ratio=4:range=8:attack=2:release=40,acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,treble=f=9500:width_type=q:w=0.8:g=1.5,loudnorm=I=-16:TP=-1.5:LRA=5",
+ "ender": true,
+ "clips": [
+  {
+   "name": "short1-interim-ceo",
+   "start": 597.1,
+   "end": 613.9,
+   "vertical": true,
+   "caption": {
+    "kicker": "NVIDIA'S NEXT CEO",
+    "title": "\"NOT IMPLYING ANYTHING\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     354,
+     "cut"
+    ]
+   ]
+  },
+  {
+   "name": "short2-have-to-suck",
+   "start": 376.09,
+   "end": 388.6,
+   "vertical": true,
+   "caption": {
+    "kicker": "CHIPS FOR CHINA",
+    "title": "\"BUT THEY HAVE TO SUCK\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     568,
+     "cut"
+    ]
+   ],
+   "verify_override": {
+    "in": "no 80 ms gap exists: 50 ms dip between 'but' and 'there's'; whisper from 376.1 reads a clean \"There's some kind of...\""
+   }
+  },
+  {
+   "name": "short3-just-us",
+   "start": 1246.718,
+   "end": 1259.118,
+   "vertical": true,
+   "caption": {
+    "kicker": "NYSE PICKS AVALANCHE",
+    "title": "\"EVERYONE'S GONE. JUST US.\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     385,
+     "cut"
+    ]
+   ],
+   "verify_override": {
+    "out": "no 80 ms gap before the trailing filler 'like': dip after 'ever', envelope falling; whisper reads a complete '...no one has talked about ever.'"
+   },
+   "source": "/Users/jcook/Personal/permanent-underpod/media/ep23/work/src/chris_720.mp4"
+  },
+  {
+   "name": "short4-tree-monkey",
+   "start": 1295.5,
+   "end": 1314.9,
+   "vertical": true,
+   "caption": {
+    "kicker": "BITCOIN FLIP: \u2212$11.88",
+    "title": "HIRE A TREE MONKEY"
+   },
+   "face_crops": [
+    [
+     0.0,
+     120,
+     "cut"
+    ],
+    [
+     7.93,
+     744,
+     "cut"
+    ],
+    [
+     11.2,
+     146,
+     "cut"
+    ],
+    [
+     17.767,
+     465,
+     "cut"
+    ]
+   ]
+  },
+  {
+   "name": "short5-collectors-item",
+   "start": 1935.2667,
+   "end": 1957.0,
+   "vertical": true,
+   "caption": {
+    "kicker": "JENSEN-ERA GPUS",
+    "title": "\"JUST A COLLECTOR'S ITEM\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     480,
+     "cut"
+    ],
+    [
+     6.866,
+     110,
+     "cut"
+    ],
+    [
+     17.326,
+     778,
+     "cut"
+    ],
+    [
+     19.366,
+     874,
+     "cut"
+    ]
+   ]
+  },
+  {
+   "name": "short6-frying-pan",
+   "start": 2067.1667,
+   "end": 2088.7,
+   "vertical": true,
+   "caption": {
+    "kicker": "BUYING GEAR FOR A NEW HOBBY",
+    "title": "\"TENNIS WITH A FRYING PAN\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     148,
+     "cut"
+    ],
+    [
+     2.133,
+     21,
+     "cut"
+    ],
+    [
+     3.343,
+     427,
+     "cut"
+    ],
+    [
+     5.633,
+     716,
+     "cut"
+    ],
+    [
+     7.863,
+     132,
+     "cut"
+    ],
+    [
+     12.633,
+     467,
+     "cut"
+    ],
+    [
+     16.633,
+     21,
+     "cut"
+    ]
+   ]
+  },
+  {
+   "name": "short7-on-the-payroll",
+   "start": 2446.7,
+   "end": 2469.03,
+   "vertical": true,
+   "caption": {
+    "kicker": "CAN YOU TRUST YOUR AI?",
+    "title": "\"HE'S ON THE PAYROLL\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     718,
+     "cut"
+    ],
+    [
+     12.1,
+     10,
+     "cut"
+    ],
+    [
+     19.64,
+     874,
+     "cut"
+    ]
+   ]
+  },
+  {
+   "name": "short8-first-win",
+   "start": 2534.7,
+   "end": 2564.0,
+   "vertical": true,
+   "caption": {
+    "kicker": "PERP OF FORTUNE",
+    "title": "+$22.20 \u00b7 21 SECONDS LEFT"
+   },
+   "face_crops": [
+    [
+     0.0,
+     458,
+     "cut"
+    ],
+    [
+     12.1,
+     640,
+     "cut"
+    ],
+    [
+     16.38,
+     100,
+     "cut"
+    ],
+    [
+     18.2,
+     427,
+     "cut"
+    ],
+    [
+     22.17,
+     11,
+     "cut"
+    ],
+    [
+     24.43,
+     447,
+     "cut"
+    ]
+   ]
+  },
+  {
+   "name": "short9-vol-index",
+   "start": 2766.3,
+   "end": 2782.2,
+   "vertical": true,
+   "caption": {
+    "kicker": "THE UNDERPOD VIX",
+    "title": "TENNIS RANK \u00f7 BITCOIN"
+   },
+   "face_crops": [
+    [
+     0.0,
+     94,
+     "cut"
+    ],
+    [
+     1.767,
+     517,
+     "cut"
+    ],
+    [
+     14.133,
+     810,
+     "cut"
+    ]
+   ]
+  },
+  {
+   "name": "short10-why-liquid",
+   "start": 3075.9,
+   "end": 3087.35,
+   "vertical": true,
+   "caption": {
+    "kicker": "BITCOIN SIDECHAINS",
+    "title": "\"WHY DOES LIQUID EXIST?\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     682,
+     "cut"
+    ],
+    [
+     2.5,
+     777,
+     "cut"
+    ],
+    [
+     6.5,
+     427,
+     "cut"
+    ]
+   ]
+  }
+ ]
+}

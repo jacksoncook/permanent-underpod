@@ -1,0 +1,81 @@
+{
+ "source": "/Users/jcook/Personal/permanent-underpod/media/ep23/work/edited_raw.mov",
+ "out_dir": "/Users/jcook/Personal/permanent-underpod/media/clips/ep23",
+ "logo": "/Users/jcook/Personal/permanent-underpod/media/ep23/work/logo.png",
+ "workdir": "/Users/jcook/Personal/permanent-underpod/media/ep23/work",
+ "audio_chain": "highpass=f=80,afftdn=nr=14:nf=-50:tn=1,volume=6dB,adynamicequalizer=dfrequency=6800:dqfactor=2.5:tfrequency=6800:tqfactor=2.5:mode=cutabove:threshold=0.01:ratio=4:range=8:attack=2:release=40,acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,treble=f=9500:width_type=q:w=0.8:g=1.5,loudnorm=I=-16:TP=-1.5:LRA=5",
+ "name": "short11-perp-arc",
+ "caption": {
+  "kicker": "PERP OF FORTUNE",
+  "title": "BITCOIN FLIP \u00b7 +$22.68"
+ },
+ "snap": 0.2,
+ "pad": 0.06,
+ "pieces": [
+  {
+   "start": 1223.5,
+   "end": 1226.75,
+   "caption": {
+    "kicker": "THE BET",
+    "title": "LONG GOOGLE \u00b7 20\u00d7"
+   },
+   "x": 390
+  },
+  {
+   "start": 1241.2,
+   "end": 1245.9,
+   "caption": {
+    "kicker": "BITCOIN FLIP",
+    "title": "BET DOWN \u00b7 \u2212$11.88"
+   },
+   "x": 874
+  },
+  {
+   "start": 1277.4,
+   "end": 1282.6,
+   "caption": {
+    "kicker": "THE THESIS",
+    "title": "\"RANDOM DRAW\""
+   },
+   "x": 400
+  },
+  {
+   "start": 2542.2,
+   "end": 2546.9,
+   "caption": {
+    "kicker": "21 SECONDS LEFT",
+    "title": "+$22.20"
+   },
+   "x": 457
+  },
+  {
+   "start": 2546.9,
+   "end": 2550.8,
+   "caption": {
+    "kicker": "21 SECONDS LEFT",
+    "title": "\"OUR FIRST BITCOIN WIN?\""
+   },
+   "x": 640
+  },
+  {
+   "start": 2551.1,
+   "end": 2564.0,
+   "caption": {
+    "kicker": "SETTLED: +$22.68",
+    "title": "MORE THAN THE PODCAST MADE"
+   },
+   "face_crops": [
+    [
+     0.0,
+     21,
+     "cut"
+    ],
+    [
+     8.0,
+     447,
+     "cut"
+    ]
+   ]
+  }
+ ]
+}

@@ -427,4 +427,78 @@ attributor left unlabeled (0:40 and 57:10) set to Jackson by hand from the mic e
 
 ## Clips
 
-Not cut yet.
+11 shorts, one a day Sun Nov 29 → Wed Dec 9, 2 PM PT (22:00 UTC), after Ep 22's run ends Nov 28. 10 face-crop verticals off `edited_raw.mov` (short3 off Chris's own camera, the episode shot sat on Tyler) plus the perp-arc supercut (`supercut-perp.json`), branded ender; spec `media/clips/ep23/clips.json`, copy `posting-copy.md`. Scheduled-private via `yt_upload.py` 2026-11-13. Crops re-centered on detected faces with `recenter_crops.py` (hosts lean inside their panels). Skipped on purpose: the Jensen "reports" jokes, the ETH price bit, anything near the OpenAI mention. TikTok: same 11 as doubles Nov 17–22 (4 + 6 PM PT). Funnel comments auto-post via the LaunchAgent (`pin-comments.json`); related-video + pinning are Jackson's in Studio.
+
+| Date | Clip | Final | Title | URL |
+|---|---|---|---|---|
+| Sun Nov 29 | short1-interim-ceo | 9:57 | What If Nvidia's Next CEO Does the Exact Same Thing? | https://youtu.be/4_WMGaH725o |
+| Mon Nov 30 | short7-on-the-payroll | 40:46 | My AI Would Never Lie to Me. He's on the Payroll. | https://youtu.be/1M2r-PlPdno |
+| Tue Dec 1 | short6-frying-pan | 34:27 | Play Tennis With a Frying Pan First | https://youtu.be/cgn--BGFkqw |
+| Wed Dec 2 | short8-first-win | 42:14 | 21 Seconds From Winning $22 on a Coin Flip | https://youtu.be/oQgjnzhRNM0 |
+| Thu Dec 3 | short2-have-to-suck | 6:16 | You Can Sell Chips to China, but They Have to Suck | https://youtu.be/AMRbfzZuVhM |
+| Fri Dec 4 | short5-collectors-item | 32:15 | A Pre-Scandal GPU Is Just a Collector's Item | https://youtu.be/0J4yWtns78k |
+| Sat Dec 5 | short4-tree-monkey | 21:35 | Down $11.88, So We're Hiring a Tree Monkey | https://youtu.be/i68-OWxrcN4 |
+| Sun Dec 6 | short3-just-us | 18:18 | There's No Liquidity Left in Crypto. It's Just Us. | https://youtu.be/_9uDdU0NaVY |
+| Mon Dec 7 | short9-vol-index | 46:06 | An Index of My Tennis Ranking vs Bitcoin | https://youtu.be/bcFQ7g977s8 |
+| Tue Dec 8 | short10-why-liquid | 51:15 | Why Does Liquid Still Exist in 2026? | https://youtu.be/gMSpyDckEgw |
+| Wed Dec 9 | short11-perp-arc | 20:00 | We Bet on Bitcoin at Random and Won $22.68 | https://youtu.be/5sADtnXbd-k |
+
+### Posting copy
+
+Episode: https://youtu.be/6b2yGE4QWg8 — "Jensen Is Out at Nvidia. What Happens to Open Models?"
+All 9:16 face-crop verticals, branded ender. Timestamps are where the bit sits in the live episode (for pinned comments).
+
+**short1-interim-ceo** (9:16) — 9:57 — 2026-11-29 2 PM PT
+- Title:   What If Nvidia's Next CEO Does the Exact Same Thing?
+- Caption: Nvidia needs an interim CEO. Chris has a scenario he is definitely not implying. Full episode: https://youtu.be/6b2yGE4QWg8
+- Tags:    #shorts #nvidia #ai
+
+**short7-on-the-payroll** (9:16) — 40:46 — 2026-11-30 2 PM PT
+- Title:   My AI Would Never Lie to Me. He's on the Payroll.
+- Caption: Chris had one AI audit his security. Tyler asks how he knows it wasn't sandbagging. Full episode: https://youtu.be/6b2yGE4QWg8
+- Tags:    #shorts #ai #security
+
+**short6-frying-pan** (9:16) — 34:27 — 2026-12-01 2 PM PT
+- Title:   Play Tennis With a Frying Pan First
+- Caption: Chris buys the gear before he tries the hobby. Jackson says you have to earn the strings. Full episode: https://youtu.be/6b2yGE4QWg8
+- Tags:    #shorts #hobbies #tennis
+
+**short8-first-win** (9:16) — 42:14 — 2026-12-02 2 PM PT
+- Title:   21 Seconds From Winning $22 on a Coin Flip
+- Caption: Our tiny real-money account bet Bitcoin down by random draw. Up $22.20 with 21 seconds on the clock. Full episode: https://youtu.be/6b2yGE4QWg8
+- Tags:    #shorts #bitcoin #trading
+
+**short2-have-to-suck** (9:16) — 6:16 — 2026-12-03 2 PM PT
+- Title:   You Can Sell Chips to China, but They Have to Suck
+- Caption: Tyler's one-line summary of US chip export policy. Full episode: https://youtu.be/6b2yGE4QWg8
+- Tags:    #shorts #nvidia #chips
+
+**short5-collectors-item** (9:16) — 32:15 — 2026-12-04 2 PM PT
+- Title:   A Pre-Scandal GPU Is Just a Collector's Item
+- Caption: Jensen is out at Nvidia, so the last B200 off the line is now memorabilia. Full episode: https://youtu.be/6b2yGE4QWg8
+- Tags:    #shorts #nvidia #gpu
+
+**short4-tree-monkey** (9:16) — 21:35 — 2026-12-05 2 PM PT
+- Title:   Down $11.88, So We're Hiring a Tree Monkey
+- Caption: Our Bitcoin bet is picked by random draw and it's down $11.88. Jackson wants true entropy. Full episode: https://youtu.be/6b2yGE4QWg8
+- Tags:    #shorts #bitcoin #trading
+
+**short3-just-us** (9:16) — 18:18 — 2026-12-06 2 PM PT
+- Title:   There's No Liquidity Left in Crypto. It's Just Us.
+- Caption: The NYSE picked Avalanche for tokenized stocks. Chris explains why that might be real this time. Full episode: https://youtu.be/6b2yGE4QWg8
+- Tags:    #shorts #crypto #nyse
+
+**short9-vol-index** (9:16) — 46:06 — 2026-12-07 2 PM PT
+- Title:   An Index of My Tennis Ranking vs Bitcoin
+- Caption: Chris proposes the show's own volatility index. Jackson is the underlying. Full episode: https://youtu.be/6b2yGE4QWg8
+- Tags:    #shorts #bitcoin #tennis
+
+**short10-why-liquid** (9:16) — 51:15 — 2026-12-08 2 PM PT
+- Title:   Why Does Liquid Still Exist in 2026?
+- Caption: Tyler's verdict on Bitcoin's oldest sidechain, and Chris's on paying for coffee on mainnet. Full episode: https://youtu.be/6b2yGE4QWg8
+- Tags:    #shorts #bitcoin #liquid
+
+**short11-perp-arc** (9:16) — 20:00 — 2026-12-09 2 PM PT
+- Title:   We Bet on Bitcoin at Random and Won $22.68
+- Caption: One episode of our tiny real-money account: long Google 20×, Bitcoin down by random draw, and the first flip we've ever won. Full episode: https://youtu.be/6b2yGE4QWg8
+- Tags:    #shorts #bitcoin #trading
