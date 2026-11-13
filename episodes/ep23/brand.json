@@ -1,0 +1,243 @@
+{
+ "show": "UNDERPOD",
+ "show_main": "UNDERPOD",
+ "accent": [
+  255,
+  210,
+  74
+ ],
+ "source": "/Users/jcook/Personal/permanent-underpod/media/ep23/work/src/jackson_720.mov",
+ "title_card": {
+  "bg_frame": 600,
+  "line": "EPISODE 23   ·   Open Models Just Lost Their Champion",
+  "dur": 4.5
+ },
+ "end_card": {
+  "bg_frame": 3400,
+  "kicker": "NEXT WEEK ON",
+  "lines": [
+   "Life after Jensen  ·  Perp of Fortune",
+   "The layer-2 series continues",
+   "Not financial advice. Our opinions are ours, not our employers'."
+  ],
+  "cta": "LIKE  +  SUBSCRIBE",
+  "dur": 7
+ },
+ "lower_thirds": [
+  {
+   "name": "intro",
+   "kicker": "EPISODE 23",
+   "title": "OPEN MODELS JUST LOST THEIR CHAMPION"
+  },
+  {
+   "name": "fingerprint",
+   "kicker": "THE FINGERPRINT",
+   "title": "A BLOG POST SAYS THE WEIGHTS GIVE AWAY THE GPU"
+  },
+  {
+   "name": "after",
+   "kicker": "AFTER JENSEN",
+   "title": "DOES NVIDIA'S OPEN-MODEL PUSH SURVIVE HIM?"
+  },
+  {
+   "name": "timing",
+   "kicker": "WHY NOW?",
+   "title": "CHRIS PUTS ON THE HAT"
+  },
+  {
+   "name": "nyse",
+   "kicker": "NYSE × AVALANCHE",
+   "title": "24/7 TOKENIZED STOCKS ON A PRIVATE CHAIN"
+  },
+  {
+   "name": "perp",
+   "kicker": "PERP OF FORTUNE",
+   "title": "LONG GOOGLE 20×  ·  BITCOIN DOWN"
+  },
+  {
+   "name": "tpu",
+   "kicker": "GOOGLE'S NEW TPU",
+   "title": "PRIVATE INFERENCE COMES TO THE BIG CLOUD"
+  },
+  {
+   "name": "agent",
+   "kicker": "CHRIS'S PRIVATE AGENT",
+   "title": "AN ASSISTANT SERVED OUT OF AN ENCLAVE"
+  },
+  {
+   "name": "gpu",
+   "kicker": "COLLECTOR'S ITEM",
+   "title": "THE JENSEN-ERA GPU"
+  },
+  {
+   "name": "econ",
+   "kicker": "THE ECONOMICS",
+   "title": "WHAT DOES PRIVATE INFERENCE COST?"
+  },
+  {
+   "name": "flip",
+   "kicker": "THE BITCOIN FLIP",
+   "title": "21 SECONDS FROM OUR FIRST WIN"
+  },
+  {
+   "name": "million",
+   "kicker": "THE OFFER",
+   "title": "$1M AND WE'LL LIST ANY PERP YOU WANT"
+  },
+  {
+   "name": "liquid",
+   "kicker": "LAYER-2 SERIES",
+   "title": "LIQUID: THE SIDECHAIN THAT ISN'T AN L2"
+  }
+ ],
+ "stats": [
+  {
+   "name": "coldopen",
+   "kicker": "EPISODE 23",
+   "main": "In this pod…"
+  },
+  {
+   "name": "megaspeed",
+   "kicker": "THE ALLEGATION",
+   "main": "export-controlled GPUs, routed via Singapore"
+  },
+  {
+   "name": "claim",
+   "kicker": "THE BLOG POST'S CLAIM",
+   "main": "99.99999%: trained on Blackwells"
+  },
+  {
+   "name": "suck",
+   "kicker": "THE EXPORT RULE",
+   "main": "\"you can sell chips, but they have to suck\""
+  },
+  {
+   "name": "reports",
+   "kicker": "CHRIS",
+   "main": "\"a thousand and two reports\""
+  },
+  {
+   "name": "singapore",
+   "kicker": "NVIDIA REVENUE, PER CHRIS",
+   "main": "Singapore: 22%  ·  $10.2B a quarter"
+  },
+  {
+   "name": "friends",
+   "kicker": "THE VALIDATORS",
+   "main": "\"me and five of my friends at the NYSE\""
+  },
+  {
+   "name": "database",
+   "kicker": "CHRIS'S TEST",
+   "main": "why couldn't that be a database?"
+  },
+  {
+   "name": "random",
+   "kicker": "THE THESIS",
+   "main": "\"random draw\""
+  },
+  {
+   "name": "monkey",
+   "kicker": "JACKSON",
+   "main": "true entropy from a Vietnamese tree monkey"
+  },
+  {
+   "name": "trust",
+   "kicker": "PRIVATE INFERENCE",
+   "main": "trust the chip, not the provider"
+  },
+  {
+   "name": "embody",
+   "kicker": "EMBODY.IS",
+   "main": "Intel TDX enclave + privately served models"
+  },
+  {
+   "name": "gas",
+   "kicker": "GEAR ACQUISITION SYNDROME",
+   "main": "buy the thing, never do the hobby"
+  },
+  {
+   "name": "bike",
+   "kicker": "JACKSON",
+   "main": "a full Ironman on a commuter bike"
+  },
+  {
+   "name": "price",
+   "kicker": "GLM 5.3 FLASH  ·  PER 1M TOKENS",
+   "main": "from 4¢ in the clear  ·  15¢ private"
+  },
+  {
+   "name": "cvm",
+   "kicker": "THE WORKSPACE",
+   "main": "a confidential VM: about $25 a month"
+  },
+  {
+   "name": "settled",
+   "kicker": "THE FLIP SETTLES",
+   "main": "Bitcoin down: +$22.68"
+  },
+  {
+   "name": "poly",
+   "kicker": "THE TRICK",
+   "main": "50 accounts. Post the one that won."
+  },
+  {
+   "name": "vix",
+   "kicker": "UNDERPOD VOLATILITY INDEX",
+   "main": "Jackson's tennis ranking ÷ the Bitcoin price"
+  },
+  {
+   "name": "multisig",
+   "kicker": "LIQUID",
+   "main": "an 11-of-15 federation multisig"
+  },
+  {
+   "name": "recap",
+   "kicker": "RECAPITALIZED",
+   "main": "back to 100% backing"
+  },
+  {
+   "name": "testnet",
+   "kicker": "TYLER",
+   "main": "\"a quasi testnet for Bitcoin\""
+  },
+  {
+   "name": "devcon",
+   "kicker": "CHRIS'S SELL SIGNAL",
+   "main": "saw Vitalik dancing. Did not sell."
+  },
+  {
+   "name": "final",
+   "kicker": "PERP FINAL",
+   "main": "Flip +$22.68  ·  Long Google 20×: +$4.28"
+  }
+ ],
+ "thumbnail": {
+  "text": "THE CHIP KING IS OUT",
+  "out": "/Users/jcook/Personal/permanent-underpod/media/ep23/ep23-thumbnail.png",
+  "faces": [
+   {
+    "track": "jackson",
+    "file": "src/jackson_720.mov",
+    "t": 1399.0,
+    "cx": 640,
+    "top": 90,
+    "h": 630
+   },
+   {
+    "track": "tyler",
+    "t": 1216.0,
+    "cx": 250,
+    "top": 120,
+    "h": 590
+   },
+   {
+    "track": "chris",
+    "t": 2747.0,
+    "cx": 1040,
+    "top": 140,
+    "h": 570
+   }
+  ]
+ }
+}

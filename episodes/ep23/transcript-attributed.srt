@@ -1,0 +1,2735 @@
+1
+00:00:00,000 --> 00:00:05,020
+Chris: You know, what would be crazy is if the interim CEO also had an affair with a Chinese spy
+
+2
+00:00:05,020 --> 00:00:10,580
+Chris: and was ousted after championing open models. I think that would be an interesting outcome.
+
+3
+00:00:10,580 --> 00:00:17,780
+Tyler: But there's some kind of like, nerfed version of the Nvidia chips that we set to China as
+
+4
+00:00:17,780 --> 00:00:21,540
+Tyler: like a thing where the Biden administration was like, yeah, you can sell chips to China,
+
+5
+00:00:21,540 --> 00:00:27,180
+Tyler: but they have to like suck. I feel like Jensen getting pushed out makes me want to buy like
+
+6
+00:00:27,180 --> 00:00:32,180
+Tyler: like a Jensen era GPU even more to have at home, you know?
+
+7
+00:00:32,740 --> 00:00:35,620
+Jackson: - It feels diabolical to cheer for Bitcoin to go down,
+
+8
+00:00:35,620 --> 00:00:38,540
+Jackson: but it looks like we might be winning some money
+
+9
+00:00:38,540 --> 00:00:40,260
+Jackson: on Bitcoin going down.
+
+10
+00:00:40,260 --> 00:00:44,580
+Jackson: 21 second countdown for 25 bucks.
+
+11
+00:00:51,620 --> 00:00:54,500
+Jackson: Happy Friday the 13th permanent under pot.
+
+12
+00:00:54,500 --> 00:00:58,700
+Jackson: Oh wait, normal under pot here with Jackson. Good. What's going on guys?
+
+13
+00:01:00,300 --> 00:01:02,780
+Chris: Yo, it's Tyler. It's Chris,
+
+14
+00:01:04,660 --> 00:01:07,860
+Jackson: Tyler, Chris, what is the most horrifying thing?
+
+15
+00:01:07,900 --> 00:01:11,380
+Jackson: Other than our leader, the champion of open models.
+
+16
+00:01:11,420 --> 00:01:14,460
+Jackson: Jensen Wong is ousted from Nvidia.
+
+17
+00:01:14,860 --> 00:01:17,900
+Jackson: AKA Jensen dong down every girly seat.
+
+18
+00:01:20,740 --> 00:01:23,980
+Jackson: What does this mean for the future of open inference?
+
+19
+00:01:24,500 --> 00:01:29,940
+Chris: Well, it seems like Jensen was very open about inference.
+
+20
+00:01:29,940 --> 00:01:30,940
+Chris: Yeah.
+
+21
+00:01:30,940 --> 00:01:38,380
+Chris: I don't know, like, what can you even say about this situation?
+
+22
+00:01:38,380 --> 00:01:43,140
+Chris: So I'm like, I'm sure the audience has heard, but Jensen Huang was accused of having an
+
+23
+00:01:43,140 --> 00:01:51,100
+Chris: affair with an alleged MSS, like Chinese state spy.
+
+24
+00:01:51,100 --> 00:02:00,640
+Chris: And in the pursuing of the affair, selling or getting around export controls for US GPUs
+
+25
+00:02:00,640 --> 00:02:07,600
+Chris: and exporting them through her company MegaSpeed, you know, allegedly via Singapore or something.
+
+26
+00:02:07,600 --> 00:02:13,400
+Chris: Yeah, and as of this morning, he stepped down as the CEO of an idiot.
+
+27
+00:02:13,400 --> 00:02:14,400
+Chris: I don't know.
+
+28
+00:02:14,400 --> 00:02:15,400
+Chris: Is that correct?
+
+29
+00:02:15,400 --> 00:02:18,400
+Tyler: Do you want to correct me, Tyler?
+
+30
+00:02:18,400 --> 00:02:32,240
+Chris: that sounds accurate. Yeah. I mean, um, yeah. Uh, that's, uh, that's the gist of it. I
+
+31
+00:02:32,240 --> 00:02:41,780
+Chris: think, um, the Huang is gone, uh, for now. Yeah. I mean, I think that the main thing
+
+32
+00:02:41,780 --> 00:02:48,380
+Tyler: to talk about as it pertains to like artists on the podcast is that he is like the, the
+
+33
+00:02:48,380 --> 00:02:56,540
+Tyler: guy for promoting open source for models is like a good thing. I mean, obviously part of this is
+
+34
+00:02:56,540 --> 00:03:03,580
+Tyler: that he's like talking to his book, because if open models proliferate, then the people who make
+
+35
+00:03:03,580 --> 00:03:09,740
+Tyler: the hardware are going to be the people who make a lot of money off of AI. And if open models don't
+
+36
+00:03:09,740 --> 00:03:15,020
+Tyler: proliferate, and it's all closed models that are owned by labs that own the IP, then that's probably
+
+37
+00:03:15,020 --> 00:03:19,480
+Tyler: probably were the valuable crew. But anyways, yeah, he was the champion of open models.
+
+38
+00:03:19,480 --> 00:03:27,860
+Tyler: There's nobody out there with nearly as much clout or gravitas as he had to champion open
+
+39
+00:03:27,860 --> 00:03:32,640
+Tyler: models. And then also, obviously, he's building the best chips in the world. So that helps
+
+40
+00:03:32,640 --> 00:03:34,640
+Tyler: a lot as well.
+
+41
+00:03:34,640 --> 00:03:39,880
+Tyler: I think Nvidia was building their own open models. I think they were quite far behind
+
+42
+00:03:39,880 --> 00:03:48,040
+Tyler: to China. But it's nice to see an American company taking a shot at that. And it was
+
+43
+00:03:48,040 --> 00:03:52,000
+Tyler: possible maybe to imagine a future where they started building out more competitive versions
+
+44
+00:03:52,000 --> 00:03:53,000
+Tyler: of those models.
+
+45
+00:03:53,000 --> 00:04:00,120
+Tyler: So yeah, it's just too bad for people who want to see an ecosystem of really good open
+
+46
+00:04:00,120 --> 00:04:06,960
+Tyler: models proliferate and more freedom there, and especially an American ecosystem of open
+
+47
+00:04:06,960 --> 00:04:14,700
+Tyler: models proliferate. Yeah, it seems like he went a little bit too far in his pro open
+
+48
+00:04:14,700 --> 00:04:20,640
+Tyler: model agenda to the extent where his commitment to openness. Yeah. Yeah. Yeah. Like he basically
+
+49
+00:04:20,640 --> 00:04:27,880
+Tyler: was circumventing relationship sanctions in order to provide Chinese labs, plentiful GPUs
+
+50
+00:04:27,880 --> 00:04:33,200
+Tyler: with which they can train these open models. Somebody who's open in a long ways today that
+
+51
+00:04:33,200 --> 00:04:37,560
+Tyler: that basically proved that all of the Chinese models were trained on Blackwells, which is
+
+52
+00:04:37,560 --> 00:04:44,440
+Tyler: their flagship GPU that was not supposed to be exported to China under any circumstances.
+
+53
+00:04:44,440 --> 00:04:51,320
+Tyler: And the way they did it is, apparently, when you initialize a training run on Blackwells
+
+54
+00:04:51,320 --> 00:05:01,920
+Tyler: or any GPU, the weights are random, basically, is the starting state of any AI or machine
+
+55
+00:05:01,920 --> 00:05:07,180
+Tyler: learning run. And then over time, they do gradient updates to the weights. And they
+
+56
+00:05:07,180 --> 00:05:14,600
+Tyler: go from being random to being ordered and providing the type of structure that allows
+
+57
+00:05:14,600 --> 00:05:16,360
+Tyler: for this intelligence.
+
+58
+00:05:16,360 --> 00:05:22,560
+Tyler: But some of the initial randomness, I guess, persists even to the end product. And it's
+
+59
+00:05:22,560 --> 00:05:31,480
+Tyler: essentially like a fingerprint. And it's apparently like unique per GPU. And so you can match
+
+60
+00:05:31,480 --> 00:05:36,560
+Tyler: them between GPUs. This is kind of crazy because it seems like if this is possible, I can't
+
+61
+00:05:36,560 --> 00:05:42,120
+Tyler: believe that nobody bothered to do this previously. But he was basically like, statistically there's
+
+62
+00:05:42,120 --> 00:05:52,880
+Tyler: There's 99.99999% chance that Kimi K3, DeepSeek, V5, and GLM 5.3 were trained on Blackwell's
+
+63
+00:05:52,880 --> 00:05:56,220
+Tyler: based on these signatures.
+
+64
+00:05:56,220 --> 00:05:57,340
+Chris: So that's really interesting to me.
+
+65
+00:05:57,340 --> 00:06:03,800
+Chris: So for the audience, Blackwell is like the B series of chips, like B200, B300, whereas
+
+66
+00:06:03,800 --> 00:06:08,140
+Chris: the previous one was like H100.
+
+67
+00:06:08,140 --> 00:06:09,140
+Chris: What is that?
+
+68
+00:06:09,140 --> 00:06:10,140
+Chris: Hopper.
+
+69
+00:06:10,140 --> 00:06:11,140
+Chris: Hopper, yeah.
+
+70
+00:06:11,140 --> 00:06:16,180
+Tyler: Yeah. And those are the ones that I think they're allowed to have, or maybe not. But
+
+71
+00:06:16,180 --> 00:06:24,260
+Tyler: there's some kind of nerfed version of the Nvidia chips that we sent to China as a thing
+
+72
+00:06:24,260 --> 00:06:27,360
+Tyler: where the Biden administration was like, "Yeah, you can sell chips to China, but they have
+
+73
+00:06:27,360 --> 00:06:36,200
+Tyler: to suck." There is some way that they made them... I think that the way that data was
+
+74
+00:06:36,200 --> 00:06:40,740
+Tyler: passed between different subcomponents of the chips was made super, super slow. And
+
+75
+00:06:40,740 --> 00:06:43,980
+Tyler: So that was really made them inefficient for training.
+
+76
+00:06:43,980 --> 00:06:47,820
+Tyler: And so they're like, here, have these artificially slowed down
+
+77
+00:06:47,820 --> 00:06:51,140
+Tyler: chips, which is actually one of the original innovations
+
+78
+00:06:51,140 --> 00:06:54,820
+Tyler: of DeepSeek was figuring out crazy optimizations
+
+79
+00:06:54,820 --> 00:06:58,540
+Tyler: to get around that that actually were super valuable for LLMs
+
+80
+00:06:58,540 --> 00:07:01,180
+Tyler: in general and then were reintegrated
+
+81
+00:07:01,180 --> 00:07:03,620
+Tyler: into most modern LLMs.
+
+82
+00:07:03,620 --> 00:07:06,220
+Tyler: So that was a proof point of, oh, if you
+
+83
+00:07:06,220 --> 00:07:10,020
+Tyler: try to put roadblocks in front of these people,
+
+84
+00:07:10,020 --> 00:07:13,980
+Tyler: They have like insanely good engineers and like they will find a way.
+
+85
+00:07:14,360 --> 00:07:18,980
+Tyler: Um, but yeah, obviously even if they have to overcome that roadblock with the bad
+
+86
+00:07:18,980 --> 00:07:22,220
+Tyler: chips, they still probably prefer the really good chips.
+
+87
+00:07:22,260 --> 00:07:26,940
+Tyler: And so apparently that's what they got by the, you know, by the thousands, you
+
+88
+00:07:26,940 --> 00:07:30,900
+Tyler: know, to the score of like billions of dollars, but yeah.
+
+89
+00:07:31,420 --> 00:07:35,660
+Chris: And Blackwell's were rolled out in late 2024 as well, which means that these
+
+90
+00:07:35,660 --> 00:07:37,160
+Chris: are like very recent chips.
+
+91
+00:07:37,160 --> 00:07:42,200
+Chris: this isn't like, like, this has to have happened between basically 2025 and now.
+
+92
+00:07:42,420 --> 00:07:42,760
+Chris: Right.
+
+93
+00:07:42,760 --> 00:07:45,680
+Chris: The, that the Blackwells were gotten ahold of.
+
+94
+00:07:45,760 --> 00:07:47,320
+Chris: So it's all very recent.
+
+95
+00:07:48,280 --> 00:07:48,620
+Tyler: Yeah.
+
+96
+00:07:49,240 --> 00:07:49,800
+Jackson: Okay.
+
+97
+00:07:49,880 --> 00:07:56,520
+Jackson: But you, we mentioned like Jensen is maybe like the champion of open AI, but
+
+98
+00:07:56,800 --> 00:08:02,040
+Jackson: you kind of said that it's an Nvidia's best interest to push open models
+
+99
+00:08:02,040 --> 00:08:04,960
+Jackson: because that increases demand for chips.
+
+100
+00:08:05,600 --> 00:08:12,400
+Jackson: So even with him, how shouldn't that trend of pushing open models continue for the company
+
+101
+00:08:12,400 --> 00:08:15,760
+Jackson: and how much of that rides on him acting as CEO?
+
+102
+00:08:17,280 --> 00:08:24,320
+Tyler: Maybe. I think it's more of a long-term thing where he's long-term. We are the most valuable
+
+103
+00:08:24,320 --> 00:08:33,600
+Tyler: if there's many players and there's open models and we can be a platform. Whereas there's another
+
+104
+00:08:34,480 --> 00:08:44,040
+Tyler: future where Google is making TPUs, Amazon is making Tranium, OpenAI is making Jalapeno.
+
+105
+00:08:44,040 --> 00:08:47,720
+Tyler: Like everyone is basically making their own chip that they run their proprietary model
+
+106
+00:08:47,720 --> 00:08:54,560
+Tyler: on and then Nvidia is kind of in that world like a launching board for those other companies
+
+107
+00:08:54,560 --> 00:09:00,240
+Tyler: to then they can use the Nvidia until they can have smart enough models that then can
+
+108
+00:09:00,240 --> 00:09:08,480
+Tyler: design their own proprietary chips, and then Nvidia doesn't really, they're commoditized.
+
+109
+00:09:08,480 --> 00:09:14,240
+Tyler: And so it's a question, if you think whoever is going to be at the driving the company
+
+110
+00:09:14,240 --> 00:09:21,620
+Tyler: going forward is going to be aggressively pursuing that open strategy and trying to...
+
+111
+00:09:21,620 --> 00:09:26,760
+Tyler: And I think that that is a hard path because they're the only company that's really trying
+
+112
+00:09:26,760 --> 00:09:27,760
+Tyler: to drive that.
+
+113
+00:09:27,760 --> 00:09:32,400
+Tyler: think that like the inertia is pulling the market away from that. And so it kind of required this
+
+114
+00:09:34,000 --> 00:09:40,560
+Tyler: Jensen figure who had that kind of cache to pull it off. And if it's just like,
+
+115
+00:09:42,800 --> 00:09:49,040
+Tyler: I don't know, like empty suit CEO number 11, they're probably not going to be able to catalyze
+
+116
+00:09:50,160 --> 00:09:54,240
+Tyler: an open source movement in the way that I think that someone like Jensen, who was kind of like
+
+117
+00:09:54,240 --> 00:09:57,360
+Tyler: like this rockstar CEO previously could have?
+
+118
+00:09:57,360 --> 00:10:00,440
+Chris: You know what would be crazy is if the interim CEO also
+
+119
+00:10:00,440 --> 00:10:02,920
+Chris: had an affair with a Chinese spy and was ousted
+
+120
+00:10:02,920 --> 00:10:04,720
+Chris: after championing open models.
+
+121
+00:10:04,720 --> 00:10:09,480
+Chris: I think that would be an interesting outcome here.
+
+122
+00:10:09,480 --> 00:10:11,040
+Chris: Not that I'm implying anything, but I
+
+123
+00:10:11,040 --> 00:10:14,120
+Chris: think that would be very strange.
+
+124
+00:10:14,120 --> 00:10:17,720
+Chris: Yeah, I think every company is very different,
+
+125
+00:10:17,720 --> 00:10:21,240
+Chris: but I always understood that Nvidia Jensen, like you're
+
+126
+00:10:21,240 --> 00:10:23,160
+Chris: saying, was a rockstar CEO.
+
+127
+00:10:23,160 --> 00:10:29,160
+Chris: are these legendary stories about him having a thousand reports and answering emails in 15
+
+128
+00:10:29,160 --> 00:10:35,560
+Chris: minutes. And it felt like he was very much a leader, lead from the front kind of CEO.
+
+129
+00:10:35,560 --> 00:10:44,360
+Chris: So it's hard to see that Nvidia's strategy will be as clear without him at the head.
+
+130
+00:10:44,360 --> 00:10:48,440
+Chris: I feel like maybe they're just going to keep making chips kind of thing.
+
+131
+00:10:50,280 --> 00:10:54,840
+Tyler: And it's kind of creepy to like be like, Oh yeah, he was like venerated for having
+
+132
+00:10:54,840 --> 00:10:58,760
+Tyler: like a thousand reports. But then you're like, Oh, apparently he was sleeping with
+
+133
+00:11:00,600 --> 00:11:02,120
+Jackson: at least one, if not more of them.
+
+134
+00:11:03,800 --> 00:11:05,560
+Chris: A thousand and two reports, right?
+
+135
+00:11:05,560 --> 00:11:10,600
+Tyler: Yeah. Yeah. Yeah. Was it all about like increasing his shots on goal?
+
+136
+00:11:12,120 --> 00:11:13,160
+Jackson: Is that so sleazy?
+
+137
+00:11:13,800 --> 00:11:14,760
+Jackson: It's a numbers game.
+
+138
+00:11:16,760 --> 00:11:20,080
+Chris: - Yeah, now that we know that, it does, yeah.
+
+139
+00:11:20,080 --> 00:11:25,080
+Chris: It does put in a different light, crazy, crazy situation.
+
+140
+00:11:25,760 --> 00:11:30,760
+Jackson: - Think of the timing, like why now?
+
+141
+00:11:30,760 --> 00:11:33,800
+Jackson: Is it just like, just random?
+
+142
+00:11:33,800 --> 00:11:36,360
+Jackson: Or is there something else at play?
+
+143
+00:11:36,360 --> 00:11:39,520
+Jackson: Chris, do you have, you seem to have an opinion
+
+144
+00:11:39,520 --> 00:11:40,360
+Jackson: in the group.
+
+145
+00:11:40,360 --> 00:11:41,200
+Jackson: - Oh, okay, you want me to,
+
+146
+00:11:41,200 --> 00:11:42,480
+Chris: you want me to put on the hat?
+
+147
+00:11:42,480 --> 00:11:43,320
+Jackson: Okay.
+
+148
+00:11:44,520 --> 00:11:46,480
+Chris: No, I mean, I think like,
+
+149
+00:11:46,480 --> 00:11:54,240
+Chris: This came out right before Jensen was supposed to fly to China as part of a US-Chinese negotiation
+
+150
+00:11:54,800 --> 00:12:00,320
+Chris: with the president. Very unusual timing, I would say.
+
+151
+00:12:01,520 --> 00:12:07,920
+Chris: I also think that somebody who is as prolific as Jensen has no reasonable expectation of privacy.
+
+152
+00:12:09,040 --> 00:12:16,240
+Chris: If we look at what happened to our best friend Jeff a couple of years ago with the Pegasus
+
+153
+00:12:16,240 --> 00:12:24,080
+Chris: malware and the House of Saud where his affair was busted wide open with, I think it was like
+
+154
+00:12:25,520 --> 00:12:32,080
+Chris: some RCE delivered via a WhatsApp message and that led to his divorce with Mackenzie Bezos and
+
+155
+00:12:32,080 --> 00:12:41,840
+Chris: so on and so forth. It's hard for me to imagine that nobody knew that this was going on with
+
+156
+00:12:41,840 --> 00:12:49,160
+Chris: with Jensen. And so it's, yeah, I just wonder, you know, what, what went into timing this
+
+157
+00:12:49,160 --> 00:12:53,320
+Chris: release? Uh, wait, we may never know, but yeah.
+
+158
+00:12:53,320 --> 00:13:01,880
+Tyler: Yeah. Also just on its face, it seems completely absurd to me that they, this company, Megaspeed
+
+159
+00:13:01,880 --> 00:13:10,440
+Tyler: could have been like buying tens of billions of dollars worth of, um, sanctioned GPUs in
+
+160
+00:13:10,440 --> 00:13:15,800
+Tyler: like Singapore and nobody was like, "Oh, we should look into that. Like where are they
+
+161
+00:13:15,800 --> 00:13:23,240
+Tyler: actually going?" And so it just kind of defies credulity to be like, "Oh yeah, this is something
+
+162
+00:13:23,240 --> 00:13:28,920
+Tyler: that only really was realized in the past week that this was a problem." Obviously,
+
+163
+00:13:29,480 --> 00:13:35,080
+Tyler: there's been word that the Chinese labs had access to NVIDIA GPUs for a while and that
+
+164
+00:13:35,080 --> 00:13:41,300
+Tyler: that the sanctions were extremely leaky. And it's like, I believe the government is extremely
+
+165
+00:13:41,300 --> 00:13:46,800
+Tyler: incompetent, but I don't believe it's that incompetent. And so I do believe that they
+
+166
+00:13:46,800 --> 00:13:52,520
+Tyler: knew to some extent, if not, parts of the government actually explicitly maybe blessed
+
+167
+00:13:52,520 --> 00:14:00,880
+Tyler: this activity, first for one reason or another, and they were kind of doing it with the underhanded
+
+168
+00:14:00,880 --> 00:14:05,900
+Tyler: permission of some parts of the government. And then when it became convenient for a different
+
+169
+00:14:05,900 --> 00:14:09,700
+Tyler: part of the government to blow it up and throw him under the bus and make him the fall guy
+
+170
+00:14:09,700 --> 00:14:13,820
+Tyler: for it, then that is what happened this week.
+
+171
+00:14:13,820 --> 00:14:19,460
+Chris: To put a number on how much of Nvidia's revenue is coming from Singapore, for the most recent
+
+172
+00:14:19,460 --> 00:14:29,580
+Chris: report, like Q2 FY26, 22% of Nvidia's rep is from Singapore, which is just like a...
+
+173
+00:14:29,580 --> 00:14:37,180
+Chris: 10.2 billion dollars a quarter. So just an absurd amount of chips were going there.
+
+174
+00:14:38,780 --> 00:14:41,980
+Chris: So yeah, something like, yeah, I think like there were signs, right?
+
+175
+00:14:43,260 --> 00:14:54,380
+Jackson: I see. So, yeah, I guess if it, if this was planned, somebody has something planned and
+
+176
+00:14:54,380 --> 00:15:00,380
+Jackson: poor Jensen is, who knows what he'll do next. Maybe he'll rise back up, but on the other side.
+
+177
+00:15:01,180 --> 00:15:02,780
+Jackson: And that was his plan all along.
+
+178
+00:15:04,300 --> 00:15:11,580
+Chris: Okay, crazy move. Elon hires him. Space XX, right? Then they can finally close the compute
+
+179
+00:15:11,580 --> 00:15:16,300
+Chris: loop of satellites in space with Jensen's Blackwell 2000s.
+
+180
+00:15:18,300 --> 00:15:22,780
+Jackson: But I guess we'll see. Maybe next week we'll have some more information.
+
+181
+00:15:23,820 --> 00:15:32,700
+Jackson: Maybe, but yeah, you guys heard about the New York Stock Exchange going 24/7 and settlements
+
+182
+00:15:32,700 --> 00:15:43,020
+Jackson: being powered by Avalanche. Chris, resident DeFi expert, is Avalanche amazing? And are
+
+183
+00:15:43,020 --> 00:15:47,180
+Jackson: you going to trade stocks on the 24/7 exchange? Avalanche is not amazing.
+
+184
+00:15:50,700 --> 00:15:53,540
+Chris: There's this story with all these Alt-L ones.
+
+185
+00:15:53,540 --> 00:15:55,940
+Chris: Solana, I think, is the biggest one that people know about.
+
+186
+00:15:55,940 --> 00:16:00,380
+Chris: But Avalanche was part of the same class, Akash.
+
+187
+00:16:00,380 --> 00:16:04,180
+Chris: There are a number of others where they promised--
+
+188
+00:16:04,180 --> 00:16:06,100
+Chris: technically very good-- they promised things
+
+189
+00:16:06,100 --> 00:16:09,580
+Chris: like speed and throughput and all the things
+
+190
+00:16:09,580 --> 00:16:10,860
+Chris: that you want from blockchains.
+
+191
+00:16:10,860 --> 00:16:13,180
+Chris: And Avalanche was one of those.
+
+192
+00:16:13,180 --> 00:16:15,220
+Chris: One thing that Avalanche has in particular
+
+193
+00:16:15,220 --> 00:16:17,580
+Chris: is I think it gives you cross-chain messaging
+
+194
+00:16:17,580 --> 00:16:20,780
+Chris: for free or kind of near free.
+
+195
+00:16:20,780 --> 00:16:22,180
+Chris: So what cross-chain messaging is,
+
+196
+00:16:22,180 --> 00:16:26,340
+Chris: is basically a way to pass messages between chains
+
+197
+00:16:26,340 --> 00:16:31,020
+Chris: in a way that's at various levels of trustlessness.
+
+198
+00:16:31,020 --> 00:16:34,020
+Chris: So there are these protocols like Layer Zero,
+
+199
+00:16:34,020 --> 00:16:36,860
+Chris: who they exist only to do this.
+
+200
+00:16:36,860 --> 00:16:38,580
+Chris: For Avalanche, it kind of comes with it.
+
+201
+00:16:38,580 --> 00:16:42,220
+Chris: And my understanding is that the New York Stock Exchange's
+
+202
+00:16:42,220 --> 00:16:49,900
+Chris: plan is to issue shares on a completely different avalanche-based L1. So not avalanche,
+
+203
+00:16:49,900 --> 00:16:56,540
+Chris: but a copy of avalanche where they issue these shares, and then have an option for these parties
+
+204
+00:16:56,540 --> 00:17:02,780
+Chris: to basically wrap these traded shares and trade them on other chains, like for example, a Solano
+
+205
+00:17:02,780 --> 00:17:10,860
+Chris: or an Ethereum. I think the details are really hazy still, but yeah, it sounds like a crazy
+
+206
+00:17:10,860 --> 00:17:17,900
+Chris: proposition to me. But actually kind of maybe the first real use case I've seen for a permission
+
+207
+00:17:17,900 --> 00:17:23,740
+Chris: to L1 where it might actually work. Like this might actually be a good use case for like
+
+208
+00:17:23,740 --> 00:17:27,740
+Chris: the validators are just like me and like five of my friends at the New York Stock Exchange.
+
+209
+00:17:27,740 --> 00:17:31,740
+Chris: And we're just like doing 24 hour trading and settlement on this like
+
+210
+00:17:32,940 --> 00:17:37,020
+Chris: chain between friends. So yeah, interesting. That's my whole take.
+
+211
+00:17:38,780 --> 00:17:44,300
+Tyler: I hadn't heard about avalanche in like two years. I'm like, is this a bear market or is
+
+212
+00:17:44,300 --> 00:17:49,900
+Tyler: this a bull market now? This avalanche starts coming out of the woodwork to do bullshit like
+
+213
+00:17:49,900 --> 00:17:58,540
+Chris: this then you know it's a bull market. The price begs to differ. Yeah, this does feel bullish.
+
+214
+00:17:59,260 --> 00:18:02,780
+Chris: Well, I mean, it doesn't, but it should. Long avalanche.
+
+215
+00:18:02,780 --> 00:18:09,740
+Tyler: It's the kind of press release and fake integration that you do during a bull market to get the
+
+216
+00:18:09,740 --> 00:18:16,140
+Tyler: new entrant people to be like, "Oh my God, maybe Avalanche will replace Nicey."
+
+217
+00:18:18,780 --> 00:18:23,740
+Chris: This is why I think it's real though. There's no liquidity left in crypto. Everyone's gone.
+
+218
+00:18:23,740 --> 00:18:30,140
+Chris: It's just us. And it's a chain that no one has talked about ever.
+
+219
+00:18:32,300 --> 00:18:36,300
+Chris: So I think they might actually try to do something here. I think they are actually
+
+220
+00:18:36,300 --> 00:18:41,260
+Chris: going to try to run a private avalanche network with tokenized stocks.
+
+221
+00:18:43,100 --> 00:18:45,900
+Chris: Who knows how that goes or whether they get it across the line.
+
+222
+00:18:47,660 --> 00:18:52,220
+Jackson: But you're saying there's actual technical reasons. They actually might have thought
+
+223
+00:18:52,220 --> 00:18:57,900
+Jackson: about it a little bit because of Avalanche's ability to message cross-chain and its proposed
+
+224
+00:18:57,900 --> 00:19:04,780
+Chris: speed. Yeah, they've thought about the smallest amount, I would say, and that might somehow be
+
+225
+00:19:04,780 --> 00:19:11,660
+Chris: enough. So normally, my criticism of this for blockchains where you have validators,
+
+226
+00:19:11,660 --> 00:19:17,980
+Chris: people who run the network that is not based on some economic model like Bitcoin's proof of
+
+227
+00:19:17,980 --> 00:19:24,220
+Chris: work or proof of stake in the case of Ethereum or Solana. Normally, my criticism is why couldn't
+
+228
+00:19:24,220 --> 00:19:29,660
+Chris: that be a database, right? If we all trust each other already, we can just be like,
+
+229
+00:19:29,660 --> 00:19:37,980
+Chris: "Oh, Chris gave Tyler 17 shares of Nvidia," and then just tick it. In this case,
+
+230
+00:19:37,980 --> 00:19:44,380
+Chris: maybe there is almost a case for having a proof of authority network where the validators are
+
+231
+00:19:44,380 --> 00:19:49,740
+Chris: various parties in the New York Stock Exchange agreeing on the trades have happened between
+
+232
+00:19:49,740 --> 00:19:58,140
+Chris: in counterparties. I could almost see it. So I think like, yeah, I think this, I hesitantly,
+
+233
+00:19:58,140 --> 00:20:00,920
+Chris: I would say this could work.
+
+234
+00:20:00,920 --> 00:20:08,720
+Jackson: And abruptly, do we have a perp of fortune and is it avalanche related or do we not have
+
+235
+00:20:08,720 --> 00:20:14,020
+Jackson: a perp fortune and it's completely unrelated or there's a middle way?
+
+236
+00:20:14,020 --> 00:20:18,040
+Chris: We do have a perp of fortune. I hoped it would be avalanche related, but it was not to be
+
+237
+00:20:18,040 --> 00:20:30,160
+Chris: Let me share the pub. It is long Google 20x. So I think this is about something that we
+
+238
+00:20:30,160 --> 00:20:37,720
+Chris: might talk about later, but this is about Google's ATX and 8i max TPUs. And Bitcoin,
+
+239
+00:20:37,720 --> 00:20:45,600
+Tyler: we've gone down. We're betting Bitcoin down and it's down so Bitcoin has gone up.
+
+240
+00:20:45,600 --> 00:20:55,600
+Chris: Yeah, exactly. Insane that we're losing as we lose.
+
+241
+00:20:55,600 --> 00:21:01,600
+Tyler: Who's deciding that we're bearish Bitcoin, Claude?
+
+242
+00:21:01,600 --> 00:21:03,600
+Jackson: Yeah, what's the thesis?
+
+243
+00:21:03,600 --> 00:21:07,600
+Chris: Let me, let's see what Claude had to say about Bitcoin down.
+
+244
+00:21:07,600 --> 00:21:10,600
+Chris: I think it's just that the market is down.
+
+245
+00:21:10,600 --> 00:21:17,000
+Chris: Like, that's it's literally BTC down for the eight to nine PST.
+
+246
+00:21:17,800 --> 00:21:22,400
+Chris: Yeah, I said random draw, it's doing this randomly, what the hell?
+
+247
+00:21:23,960 --> 00:21:27,440
+Tyler: I mean, it's as good as any
+
+248
+00:21:30,440 --> 00:21:32,520
+Tyler: you know, hypothesis driven investing.
+
+249
+00:21:35,800 --> 00:21:39,000
+Jackson: Can we hire a Vietnamese tree monkey
+
+250
+00:21:39,320 --> 00:21:46,120
+Jackson: to click the button for us right? Like eat the banana that like corresponds to up or down.
+
+251
+00:21:47,240 --> 00:21:52,840
+Jackson: That's right. I want true entropy imported directly from Pete and me his monkey brain
+
+252
+00:21:53,960 --> 00:22:00,040
+Jackson: into the pod. Okay. And then the Google is doing pretty well. I'm sure this is because
+
+253
+00:22:01,320 --> 00:22:07,960
+Jackson: the new Google TPS support private inference, right? That's like what the market is buying.
+
+254
+00:22:07,960 --> 00:22:14,520
+Jackson: and that's what everyone cares about. Tyler, you brought this to the table.
+
+255
+00:22:15,080 --> 00:22:19,240
+Jackson: What does this private inference mean on the new TPUs?
+
+256
+00:22:21,240 --> 00:22:27,480
+Tyler: Yeah, it's just a headline that caught my eye, which is that Google's chips are called TPUs.
+
+257
+00:22:27,480 --> 00:22:35,480
+Tyler: That's what the chip that they use to do AI inference on GCP. And the new version of the TPU
+
+258
+00:22:36,200 --> 00:22:43,560
+Tyler: that they are building that is coming out at some point features private inference via
+
+259
+00:22:43,560 --> 00:22:51,320
+Tyler: a secure enclave type mechanism, I believe, which was just something that surprised me
+
+260
+00:22:51,320 --> 00:22:58,800
+Tyler: and caught my eye because I wouldn't have guessed that Google was that interested in
+
+261
+00:22:58,800 --> 00:23:02,920
+Tyler: doing private inference on their own cloud.
+
+262
+00:23:02,920 --> 00:23:07,860
+Tyler: And even if they were baking it into their flagship chip, I don't think that's something
+
+263
+00:23:07,860 --> 00:23:13,060
+Tyler: that you do without some level of foresight about what you want to do to take advantage
+
+264
+00:23:13,060 --> 00:23:14,060
+Tyler: of it.
+
+265
+00:23:14,060 --> 00:23:21,200
+Tyler: So I guess that points to, in the future, that type of capability available in Google's
+
+266
+00:23:21,200 --> 00:23:29,600
+Tyler: cloud, which is obviously very large and above board and trustworthy.
+
+267
+00:23:29,600 --> 00:23:38,920
+Tyler: And so I think right now, if you want to do inference via a private inference, I think
+
+268
+00:23:38,920 --> 00:23:49,360
+Tyler: the providers that you go to are a little bit less prominent and more unknowns, which
+
+269
+00:23:49,360 --> 00:23:57,840
+Tyler: maybe isn't that risky because you get the cryptographic attestation from doing the private
+
+270
+00:23:57,840 --> 00:24:03,240
+Tyler: inference, and so you don't necessarily need to trust them. You kind of trust that whoever
+
+271
+00:24:03,240 --> 00:24:09,800
+Tyler: made the chip did it correctly, and you trust the mechanism itself, not the provider.
+
+272
+00:24:09,800 --> 00:24:18,560
+Tyler: But yeah, having private inference available at a cloud of the capacity of Google would
+
+273
+00:24:18,560 --> 00:24:23,280
+Tyler: really change the game and probably make that cheaper, more readily available.
+
+274
+00:24:23,280 --> 00:24:28,720
+Tyler: And potentially, maybe they would do private inference with their frontier models.
+
+275
+00:24:28,720 --> 00:24:35,480
+Tyler: I don't believe that any frontier model provider allows this capability.
+
+276
+00:24:35,480 --> 00:24:40,880
+Tyler: And I think if you want to do private inference, you have to do it on a open model.
+
+277
+00:24:40,880 --> 00:24:47,640
+Tyler: And even then, do people do it for the really big open models like the KIMI K3 and the GLM
+
+278
+00:24:47,640 --> 00:24:48,640
+Tyler: 5.3 full?
+
+279
+00:24:48,640 --> 00:24:50,720
+Tyler: Or is it only the flash ones?
+
+280
+00:24:50,720 --> 00:24:58,240
+Tyler: In order to run those big, big models, you need a lot of GPUs. And does that work with the private
+
+281
+00:24:59,440 --> 00:24:59,920
+Tyler: inference?
+
+282
+00:25:00,640 --> 00:25:06,560
+Chris: I've only seen the flash ones served in my personal usage, but I think maybe you can,
+
+283
+00:25:06,560 --> 00:25:12,880
+Chris: but it would have to... I think it's not on Venice. Let's put it that way. Yeah.
+
+284
+00:25:15,120 --> 00:25:17,760
+Jackson: It's surprising, I guess. That means that Google thinks
+
+285
+00:25:19,120 --> 00:25:24,000
+Jackson: there is going to be a market for this private inference, or it's surprising to me.
+
+286
+00:25:25,920 --> 00:25:31,600
+Jackson: Because I just want the best inference, and I don't care if it's public or private.
+
+287
+00:25:32,240 --> 00:25:42,320
+Jackson: My question to you guys is, these are on Google's cloud. So I send a query into Google's cloud,
+
+288
+00:25:42,320 --> 00:25:47,600
+Jackson: and then they run the inference in this secure enclave, which presumably they can't see.
+
+289
+00:25:47,600 --> 00:25:57,360
+Jackson: But what about before the request gets into the private inferring enclave, and then after when
+
+290
+00:25:57,360 --> 00:26:03,680
+Jackson: they send the response? Do they have access to my request and my response? And they just can't see
+
+291
+00:26:03,680 --> 00:26:08,800
+Jackson: the inference part? Or how does that work? I assume it's about how they have their end-to-end
+
+292
+00:26:08,800 --> 00:26:17,360
+Chris: encryption set up. Don't ask me how I know this, but there is a way to chain
+
+293
+00:26:17,360 --> 00:26:22,400
+Chris: privacy through the entire stack, right? So you make a call into your service that is...
+
+294
+00:26:23,440 --> 00:26:28,880
+Chris: Obviously, you have SSL between your browser, which is secure socket layout, like HTTPS,
+
+295
+00:26:28,880 --> 00:26:34,160
+Chris: between your browser and the service. And the service is served out of one enclave,
+
+296
+00:26:34,160 --> 00:26:39,840
+Chris: like it can be Intel TDX or AWS Nitro or whatever enclave you're comfortable with.
+
+297
+00:26:39,840 --> 00:26:49,360
+Chris: And then the Enclave call sends encrypted traffic to the T, in this case, the Google TPU.
+
+298
+00:26:50,640 --> 00:26:54,800
+Chris: And you have to be able to have checkable code attestations for the code running on each of
+
+299
+00:26:54,800 --> 00:27:02,320
+Chris: these, I think is also the big thing. So yeah, I don't think this is a solved problem.
+
+300
+00:27:02,320 --> 00:27:08,640
+Chris: But yeah, I think it is possible. It is possible to do end-to-end private inference.
+
+301
+00:27:09,440 --> 00:27:13,840
+Chris: Okay. But to answer your question, yeah, they absolutely could just like unwrap your,
+
+302
+00:27:13,840 --> 00:27:20,080
+Chris: you know, like, call if they're holding like the, obviously the key on their service and the services,
+
+303
+00:27:21,120 --> 00:27:26,160
+Jackson: you know, in clear text. Okay. And then, yeah, I don't know, what do you guys think is the,
+
+304
+00:27:27,280 --> 00:27:31,840
+Jackson: like, how big is the market for private inference? Or is it just like easy enough for them to have
+
+305
+00:27:32,560 --> 00:27:37,280
+Jackson: private inference on the chip? So they do it. Like, why would they go out of their way to have this?
+
+306
+00:27:38,080 --> 00:27:42,480
+Chris: I mean, they're selling these TPUs as well, right? Like it's not just going to run in Google.
+
+307
+00:27:43,440 --> 00:27:53,440
+Tyler: I think that the play I would guess is that they want to have some type of like muse,
+
+308
+00:27:53,440 --> 00:27:58,880
+Tyler: instinct type personal agent. And in order to do that at scale, I think they want to
+
+309
+00:27:58,880 --> 00:28:06,720
+Tyler: probably do it privately. I know that muse intends to do this as well, like they hired Moxie to like,
+
+310
+00:28:06,720 --> 00:28:13,680
+Tyler: at some point figure that out. And so, I mean, it's possible that Meta is actually the end
+
+311
+00:28:13,680 --> 00:28:19,680
+Tyler: customer for this functionality. Or it's possible that Google is building the same thing and wants
+
+312
+00:28:19,680 --> 00:28:26,400
+Tyler: to have that capability. I don't know. I don't think that's usually in Google's DNA to have
+
+313
+00:28:27,680 --> 00:28:33,760
+Tyler: encryption by default. I think it is kind of perversely in Meta's DNA.
+
+314
+00:28:34,640 --> 00:28:41,760
+Tyler: I think that they have shown that they want to do that when they can, and I think part
+
+315
+00:28:41,760 --> 00:28:49,360
+Tyler: of it is because they don't want to be liable for whatever is happening on their service.
+
+316
+00:28:49,360 --> 00:28:56,760
+Tyler: But yeah, I bet that that is probably the future-looking use of this.
+
+317
+00:28:56,760 --> 00:29:00,320
+Chris: That makes sense.
+
+318
+00:29:00,320 --> 00:29:04,960
+Chris: I was wondering if like, I do feel like at some point, one of these agents is going to
+
+319
+00:29:04,960 --> 00:29:05,960
+Chris: get breached.
+
+320
+00:29:05,960 --> 00:29:06,960
+Chris: Like one of these PAs.
+
+321
+00:29:06,960 --> 00:29:13,200
+Chris: I don't know which one, but I assume that that might make a private inference more appealing
+
+322
+00:29:13,200 --> 00:29:19,520
+Chris: to people, but I think that's naive of me.
+
+323
+00:29:19,520 --> 00:29:27,480
+Jackson: And Chris, I didn't ask you before the podcast, so I will ask you now live, Unretractable.
+
+324
+00:29:27,480 --> 00:29:33,560
+Jackson: Do you want to talk about your work on a private agent a little bit?
+
+325
+00:29:33,560 --> 00:29:34,560
+Jackson: Yeah.
+
+326
+00:29:34,560 --> 00:29:35,560
+Jackson: And then my boy...
+
+327
+00:29:35,560 --> 00:29:36,560
+Chris: Have you learned anything interesting?
+
+328
+00:29:36,560 --> 00:29:37,560
+Chris: My boy Pip.
+
+329
+00:29:37,560 --> 00:29:38,560
+Jackson: Yeah.
+
+330
+00:29:38,560 --> 00:29:39,560
+Chris: A little bit.
+
+331
+00:29:39,560 --> 00:29:40,560
+Chris: [Laughter]
+
+332
+00:29:40,560 --> 00:29:41,560
+Chris: Yeah.
+
+333
+00:29:41,560 --> 00:29:45,320
+Chris: So like to this like, I mean, we've talked about it on the pod and off the pod before,
+
+334
+00:29:45,320 --> 00:29:51,040
+Chris: like how possible it is to have a fully private chain of inference.
+
+335
+00:29:51,040 --> 00:29:55,800
+Chris: Like, you know, like we were discussing, not just like actual private inference where you
+
+336
+00:29:55,800 --> 00:30:02,680
+Chris: you have the whatever T that is a TPU, but also your daughter is served out of a private
+
+337
+00:30:02,680 --> 00:30:07,960
+Chris: enclave as well, and there's attestations between them.
+
+338
+00:30:07,960 --> 00:30:14,900
+Chris: I slapped one together just to see if it was possible because I wasn't sure if there was
+
+339
+00:30:14,900 --> 00:30:22,100
+Chris: some technical limitation. There's certainly a monetary limitation as running a TDX, which
+
+340
+00:30:22,100 --> 00:30:27,620
+Chris: is a private enclave is more expensive than running a normal server on the same with compute.
+
+341
+00:30:28,580 --> 00:30:33,460
+Chris: But it's technically actually not that difficult. You can definitely do it.
+
+342
+00:30:33,460 --> 00:30:36,980
+Chris: You can definitely slap something together in like a week or two, maybe less.
+
+343
+00:30:38,740 --> 00:30:46,100
+Chris: So yeah, I put together something @embody.is. You can check it out.
+
+344
+00:30:46,820 --> 00:30:53,620
+Chris: It's basically just a version of Instinct that is served out of an Intel TDX enclave with
+
+345
+00:30:53,620 --> 00:30:57,780
+Chris: cryptographic attestations. I haven't released the build yet, so you can't confirm that what's
+
+346
+00:30:57,780 --> 00:31:05,700
+Chris: running on it is what I say is running on it, but trust me, bro. It also serves models that are
+
+347
+00:31:05,700 --> 00:31:13,780
+Chris: running on private compute. Right now, DeepSeek V4 Flash and GLM 5.3 Flash are the main models
+
+348
+00:31:13,780 --> 00:31:23,700
+Chris: it uses. But yeah, surprisingly, easy to put together. Learned a little bit about the wiring
+
+349
+00:31:23,700 --> 00:31:31,940
+Chris: between those two things and container isolation. But yeah, I don't know if there is a market for
+
+350
+00:31:32,580 --> 00:31:39,060
+Chris: privacy. I think maybe there isn't, but it certainly is possible to do this. And yeah,
+
+351
+00:31:39,060 --> 00:31:44,020
+Chris: in doing so, I guess, like, give people the convenience of having a remote hosted model
+
+352
+00:31:44,020 --> 00:31:50,820
+Chris: without having to buy a Blackwell GPU or whatever they would otherwise be doing for local compute.
+
+353
+00:31:53,140 --> 00:31:56,020
+Tyler: I feel like Jensen getting pushed out makes me want to buy
+
+354
+00:31:56,820 --> 00:32:01,780
+Tyler: like a Jensen era GPU even more to have at home, you know?
+
+355
+00:32:03,060 --> 00:32:06,340
+Chris: I'm close. I'm close to buying a spark. Don't tell anyone.
+
+356
+00:32:09,060 --> 00:32:15,140
+Jackson: Uh, wait, why, what is the just like in memorandum of our boy?
+
+357
+00:32:15,780 --> 00:32:17,660
+Tyler: Yeah, I feel like it's just a collector's item, you know?
+
+358
+00:32:19,820 --> 00:32:20,220
+Chris: Yeah.
+
+359
+00:32:20,500 --> 00:32:23,540
+Chris: Just have a B 200 as a flex, not even plugged in.
+
+360
+00:32:23,860 --> 00:32:24,340
+Chris: Yeah.
+
+361
+00:32:24,580 --> 00:32:24,940
+Jackson: Yeah.
+
+362
+00:32:24,980 --> 00:32:30,900
+Jackson: The last B 200 that was printed before, before the allegations
+
+363
+00:32:30,940 --> 00:32:32,340
+Jackson: or before the resignation.
+
+364
+00:32:32,740 --> 00:32:33,180
+Tyler: Yeah.
+
+365
+00:32:33,300 --> 00:32:35,340
+Tyler: A pre sex scandal, all serial number.
+
+366
+00:32:38,060 --> 00:32:41,240
+Chris: - Yeah, people used to get the graphics card signed by him.
+
+367
+00:32:41,240 --> 00:32:44,520
+Chris: I feel like one of those would just be unreal,
+
+368
+00:32:44,520 --> 00:32:47,160
+Chris: like a signed B200 pre-scandal.
+
+369
+00:32:47,160 --> 00:32:49,800
+Jackson: - You gotta get one like signed from each of his checks,
+
+370
+00:32:49,800 --> 00:32:54,800
+Jackson: like one hour's long, the executive.
+
+371
+00:32:54,880 --> 00:32:58,800
+Tyler: - You should go to like the Starbucks in Atherton tomorrow
+
+372
+00:32:58,800 --> 00:33:00,360
+Tyler: and maybe you'll pump that down.
+
+373
+00:33:01,560 --> 00:33:02,400
+Chris: - That, wow.
+
+374
+00:33:02,400 --> 00:33:03,880
+Tyler: - You know what else you're gonna be doing, yeah.
+
+375
+00:33:03,880 --> 00:33:05,160
+Chris: - So true.
+
+376
+00:33:05,160 --> 00:33:08,860
+Chris: - Wow, that could be a very lucrative graphics card deal.
+
+377
+00:33:10,780 --> 00:33:15,700
+Chris: I have also been thinking about having a GPU
+
+378
+00:33:15,700 --> 00:33:19,620
+Chris: to try and do some of the things we've been talking about,
+
+379
+00:33:19,620 --> 00:33:24,140
+Chris: like getting a neural network to modify the tenses
+
+380
+00:33:24,140 --> 00:33:28,060
+Chris: on another neural network, or like doing small post trains,
+
+381
+00:33:28,060 --> 00:33:30,780
+Chris: or just like fiddling about with open weight models,
+
+382
+00:33:30,780 --> 00:33:36,060
+Chris: Um, especially in, uh, like in the vein of like this embody projects,
+
+383
+00:33:36,060 --> 00:33:41,360
+Chris: like, you know, uh, a lot of the alpha, I think of these personal
+
+384
+00:33:41,360 --> 00:33:43,140
+Chris: agents is in the way they index data.
+
+385
+00:33:43,180 --> 00:33:48,340
+Chris: Like I think they do like kind of like have this, like create an index of your
+
+386
+00:33:48,340 --> 00:33:51,980
+Chris: life, and then they use that in order to find connections and like suggest things
+
+387
+00:33:51,980 --> 00:33:54,260
+Chris: to you, like, Oh, maybe you're overpaying for your power bill.
+
+388
+00:33:54,740 --> 00:33:59,620
+Chris: Uh, another aspects, I think of these agents that is, uh, important to their
+
+389
+00:33:59,620 --> 00:34:02,940
+Chris: success is like the models that they're using and whether they're post-training
+
+390
+00:34:02,940 --> 00:34:04,360
+Chris: an open source model or not.
+
+391
+00:34:04,860 --> 00:34:08,580
+Chris: Um, yeah, I think, I think that would be very cool to do.
+
+392
+00:34:08,660 --> 00:34:14,220
+Chris: Um, maybe this, uh, this gives me like the kick I need to, to buy a 50, 90 or
+
+393
+00:34:14,220 --> 00:34:14,700
+Chris: something.
+
+394
+00:34:15,860 --> 00:34:20,220
+Jackson: So you tried to do like some post-training and your computer
+
+395
+00:34:20,220 --> 00:34:21,820
+Jackson: was insufficient for that.
+
+396
+00:34:21,820 --> 00:34:23,340
+Chris: I haven't, I haven't tried yet.
+
+397
+00:34:23,460 --> 00:34:24,340
+Chris: I haven't tried yet.
+
+398
+00:34:24,580 --> 00:34:25,820
+Chris: Um, but I think it's like the next.
+
+399
+00:34:25,820 --> 00:34:27,100
+Jackson: You just rather have the GPU.
+
+400
+00:34:27,660 --> 00:34:28,000
+Jackson: Right.
+
+401
+00:34:28,000 --> 00:34:28,500
+Jackson: Exactly.
+
+402
+00:34:28,500 --> 00:34:28,820
+Jackson: Yeah.
+
+403
+00:34:28,820 --> 00:34:33,180
+Chris: When you try a new hobby, don't you like buy the thing and then never do it?
+
+404
+00:34:33,180 --> 00:34:34,580
+Chris: That's like what I'm finding.
+
+405
+00:34:34,580 --> 00:34:35,580
+Jackson: Evil.
+
+406
+00:34:35,580 --> 00:34:38,220
+Jackson: That's the most diabolical way to do a hobby.
+
+407
+00:34:38,220 --> 00:34:44,440
+Jackson: You got to like, you know, go play tennis with a, like a frying pan until you've proven
+
+408
+00:34:44,440 --> 00:34:48,580
+Jackson: to yourself that you enjoy it, then you can buy something with strings.
+
+409
+00:34:48,580 --> 00:34:49,580
+Chris: Exactly.
+
+410
+00:34:49,580 --> 00:34:56,920
+Tyler: I mean, it's usually referred to as gear acquisition syndrome, gas, and I think Jackson has the
+
+411
+00:34:56,920 --> 00:35:04,520
+Tyler: least amount of gas of any person that I've ever encountered.
+
+412
+00:35:04,520 --> 00:35:09,160
+Jackson: I just like to earn my hobby. I must prove to myself that I deserve it.
+
+413
+00:35:09,160 --> 00:35:15,120
+Tyler: Yeah, you have a completely like average to below average tennis setup. And then one time
+
+414
+00:35:15,120 --> 00:35:19,240
+Tyler: I saw a bicycle that you were riding and you're like, yeah, I'm going to do a full Ironman
+
+415
+00:35:19,240 --> 00:35:23,860
+Tyler: on this bicycle. And I was like, dude, that's a commuter bicycle. Like most people who do
+
+416
+00:35:23,860 --> 00:35:31,560
+Tyler: You and Iron Man get like an aero bike, at least get yourself a nice road bike, but yeah,
+
+417
+00:35:31,560 --> 00:35:32,640
+Chris: you rock it out.
+
+418
+00:35:32,640 --> 00:35:37,040
+Chris: The worst thing about that is being crushed on a hill by Jackson on what is ostensibly
+
+419
+00:35:37,040 --> 00:35:41,080
+Chris: a $50 commuter bike from the 90s on your gravel bike.
+
+420
+00:35:41,080 --> 00:35:42,080
+Chris: It feels terrible.
+
+421
+00:35:42,080 --> 00:35:43,240
+Chris: I had to convince him to get bike shorts.
+
+422
+00:35:43,240 --> 00:35:46,880
+Tyler: I was like three to four years ago biking for two hours, like you need bike shorts.
+
+423
+00:35:46,880 --> 00:35:47,880
+Tyler: He was like, "Why?"
+
+424
+00:35:47,880 --> 00:35:52,840
+Tyler: I was like, "Well, you could go fuck around and find out and go do that two-hour ride
+
+425
+00:35:52,840 --> 00:36:00,760
+Tyler: and see how your ass feels. Chris, I'm curious, what are the economics of running these private
+
+426
+00:36:00,760 --> 00:36:11,320
+Tyler: inference providers? So what is the surplus? How much more are, let's say, GLM flash tokens
+
+427
+00:36:12,040 --> 00:36:18,600
+Tyler: on a private inference provider over a non-private one? So that's one question.
+
+428
+00:36:19,640 --> 00:36:27,080
+Tyler: And the other question is what is the split of expenses between the token cost of running
+
+429
+00:36:27,080 --> 00:36:36,280
+Tyler: a private agent and then the VM and the agent home versus the agent brain if you understand
+
+430
+00:36:36,280 --> 00:36:40,840
+Chris: what I'm saying. I understand what you're saying. Great questions. Question number one,
+
+431
+00:36:42,040 --> 00:36:46,920
+Chris: how much more expensive is it to serve out of a T, the actual model? Is it to get private
+
+432
+00:36:46,920 --> 00:36:52,040
+Chris: inference. I don't know. I've only ever purchased private inference for these models, so I don't
+
+433
+00:36:52,040 --> 00:36:58,760
+Tyler: know. So you've never done clear text GLM flash. Can we pull this up real quick though? I'm curious.
+
+434
+00:36:58,760 --> 00:37:04,040
+Tyler: Like clearly there must be some premium, right? Because you're getting like a different experience.
+
+435
+00:37:05,000 --> 00:37:09,640
+Chris: So let's check GLM flash on open router versus Venice because Venice is kind of a router.
+
+436
+00:37:11,480 --> 00:37:23,560
+Chris: Yeah. Okay. So I'm seeing 15 cents per 1 million on Venice. That's the, yeah,
+
+437
+00:37:23,600 --> 00:37:35,080
+Tyler: that's so absurdly cheap by the way. Um, like I forget, uh, I think Opus is like
+
+438
+00:37:35,080 --> 00:37:42,600
+Tyler: five and 20, and this is 15 cents and 50, and then fable is like the most expensive
+
+439
+00:37:42,600 --> 00:37:48,560
+Tyler: model out there. But I think it's like, uh, it used to be 10 and 50, and now I think it's
+
+440
+00:37:48,560 --> 00:37:56,600
+Chris: eight and 40. Correct. Yeah. On open router, GLM flash is as low as four cents per million.
+
+441
+00:37:56,600 --> 00:38:03,200
+Tyler: So it's three times more expensive on Venice. Yeah. But it's still very cheap on Venice.
+
+442
+00:38:03,200 --> 00:38:09,240
+Chris: Yeah, I also think that's a very, that's a provider that obviously has some surplus
+
+443
+00:38:09,240 --> 00:38:15,000
+Chris: compute because it looks like the median is about 12 cents or the mean is maybe like 12
+
+444
+00:38:15,000 --> 00:38:16,000
+Chris: cents.
+
+445
+00:38:16,000 --> 00:38:23,060
+Tyler: Yeah, that's definitely like you're going to like the Jensen Singapore data center with
+
+446
+00:38:23,060 --> 00:38:28,420
+Tyler: that one and your queries are getting read directly by Alice Wang.
+
+447
+00:38:28,420 --> 00:38:36,040
+Jackson: Well, we shouldn't, sorry, we shouldn't like gloss over the difference in price.
+
+448
+00:38:36,080 --> 00:38:36,960
+Jackson: Unbelievable.
+
+449
+00:38:37,000 --> 00:38:41,760
+Jackson: Between the frontier models and these, these Chinese open source models.
+
+450
+00:38:42,340 --> 00:38:45,640
+Tyler: Well, there are cheap models from the private companies too, but
+
+451
+00:38:45,640 --> 00:38:46,900
+Tyler: I don't think they're this cheap.
+
+452
+00:38:47,080 --> 00:38:47,520
+Tyler: Yes.
+
+453
+00:38:48,160 --> 00:38:48,560
+Chris: Yeah.
+
+454
+00:38:48,560 --> 00:38:52,980
+Chris: I think this is a quirk of the flash models specifically, which are built to
+
+455
+00:38:52,980 --> 00:38:57,900
+Chris: be like the cheapest and, and again, like, you know, if you have used them,
+
+456
+00:38:57,900 --> 00:39:02,860
+Chris: Like for that price, shockingly good.
+
+457
+00:39:02,860 --> 00:39:07,180
+Chris: In terms of the workspace versus the actual inference,
+
+458
+00:39:07,180 --> 00:39:10,060
+Chris: the workspace is substantially more expensive.
+
+459
+00:39:10,060 --> 00:39:14,720
+Chris: So I rent a TDX server from Fala,
+
+460
+00:39:14,720 --> 00:39:17,420
+Chris: which is they sell private compute.
+
+461
+00:39:17,420 --> 00:39:19,220
+Chris: They sell basically TDX clusters.
+
+462
+00:39:19,220 --> 00:39:23,020
+Chris: They call them CVMs, confidential virtual machines.
+
+463
+00:39:23,020 --> 00:39:27,940
+Chris: And it would be like 25 a month or something for a small one.
+
+464
+00:39:27,940 --> 00:39:34,860
+Chris: So the current architecture that I have is everybody's sandbox
+
+465
+00:39:34,860 --> 00:39:40,340
+Chris: is crammed in the same VM, but in firewalled containers
+
+466
+00:39:40,340 --> 00:39:43,380
+Chris: that people can't escape from.
+
+467
+00:39:43,380 --> 00:39:49,220
+Chris: Obviously, the ideal thing to do is to have one CVM per user.
+
+468
+00:39:49,220 --> 00:39:52,220
+Chris: But obviously, it's not economical.
+
+469
+00:39:52,220 --> 00:39:56,260
+Chris: I don't imagine that that's the way that, you know, Muse will do it or Instinct will
+
+470
+00:39:56,260 --> 00:39:59,500
+Chris: do it if they do it either, so.
+
+471
+00:39:59,500 --> 00:40:07,140
+Jackson: Could you use your GLM flash to find a CVE in their container segmentation?
+
+472
+00:40:07,140 --> 00:40:14,700
+Chris: And I actually I used Fable to try and like bust out of one of the containers because
+
+473
+00:40:14,700 --> 00:40:19,540
+Chris: I was like, I'd like, the worst thing imaginable is that you like, even, even as a project
+
+474
+00:40:19,540 --> 00:40:27,380
+Chris: serving a private compute and the containers have a leak. It plugged a bunch of holes and then
+
+475
+00:40:27,380 --> 00:40:34,260
+Chris: I ran it again with fresh context and it seemed to be quite happy. That's always the risk of having
+
+476
+00:40:34,260 --> 00:40:40,260
+Chris: this containerized setup unless you put a lot of time and tokens into it. That is a vulnerability.
+
+477
+00:40:40,260 --> 00:40:43,620
+Tyler: Also, giving an agent access. And a leak between different customers.
+
+478
+00:40:45,220 --> 00:40:52,620
+Tyler: Yeah. And then also like you're like, Oh, I used fable to like clean it up, but how confident
+
+479
+00:40:52,620 --> 00:40:57,980
+Tyler: are you that fable isn't like sandbagging some of the potential vulnerabilities or things
+
+480
+00:40:57,980 --> 00:40:58,980
+Chris: like that?
+
+481
+00:40:58,980 --> 00:40:59,980
+Chris: All right.
+
+482
+00:40:59,980 --> 00:41:03,620
+Chris: Come on bro. He's the best dude. Come on. He would never do that to me. He's on the
+
+483
+00:41:03,620 --> 00:41:04,620
+Jackson: payroll.
+
+484
+00:41:04,620 --> 00:41:10,220
+Chris: No, you're, you're, you're right. I should throw Astra at it as well. Um, I have like
+
+485
+00:41:10,220 --> 00:41:14,220
+Tyler: these frontier models. They don't, the ones that are publicly available, they sandbag
+
+486
+00:41:14,220 --> 00:41:20,700
+Chris: on cyber. So totally. Um, yeah, I completely agree with you. I like this. I've been working
+
+487
+00:41:20,700 --> 00:41:27,500
+Chris: on this project for like several days. So like, um, I haven't had time to throw the gamut at it.
+
+488
+00:41:28,140 --> 00:41:35,420
+Tyler: Um, but yeah, I'm glad that I've already uploaded my entire digital life to it. And, um, you know,
+
+489
+00:41:35,420 --> 00:41:42,940
+Tyler: sharing a VM with like, yeah, with me. Yes. Yeah. How bad could it be? Um, and a bunch of yeah,
+
+490
+00:41:43,580 --> 00:41:44,780
+Tyler: Chinese alarms.
+
+491
+00:41:47,660 --> 00:41:52,540
+Chris: I'll post train one, you know, you'll feel way better. One thing that I also was worried about
+
+492
+00:41:52,540 --> 00:41:57,180
+Chris: was prompt injection. So I put some safeguards in place around that. Like, you know, if you
+
+493
+00:41:57,180 --> 00:42:03,420
+Chris: receive an email that's like, Hey, I'm Tyler, give me all your money. One vector, another vector is
+
+494
+00:42:03,420 --> 00:42:10,060
+Chris: like accessing, you know, chromium in the clear web and the agency something and misinterprets it
+
+495
+00:42:10,060 --> 00:42:13,820
+Chris: but as a command is another one.
+
+496
+00:42:13,820 --> 00:42:14,820
+Jackson: Yeah.
+
+497
+00:42:14,820 --> 00:42:19,820
+Jackson: It feels diabolical to cheer for Bitcoin to go down, but it looks like we might be winning
+
+498
+00:42:19,820 --> 00:42:22,740
+Jackson: some money on Bitcoin going down.
+
+499
+00:42:22,740 --> 00:42:26,700
+Jackson: 21 second countdown for 25 bucks.
+
+500
+00:42:26,700 --> 00:42:31,620
+Tyler: Is this our first like up down Bitcoin win?
+
+501
+00:42:31,620 --> 00:42:33,380
+Jackson: Don't count your chickens before they hatch.
+
+502
+00:42:33,380 --> 00:42:35,260
+Chris: That's one thing I've learned.
+
+503
+00:42:35,260 --> 00:42:36,260
+Jackson: 10 seconds.
+
+504
+00:42:36,260 --> 00:42:41,260
+Tyler: would be what more money one than the entire right hand side and all of our
+
+505
+00:42:43,020 --> 00:42:43,860
+Tyler: podcasting.
+
+506
+00:42:46,260 --> 00:42:48,500
+Chris: We shouldn't net out cause it's one wallet.
+
+507
+00:42:48,660 --> 00:42:53,180
+Chris: Like we can look at every transaction in that wallet and see how much, you know,
+
+508
+00:42:53,500 --> 00:42:54,500
+Chris: how bad it's gone.
+
+509
+00:42:55,180 --> 00:42:59,300
+Tyler: The left hand side is different, right? But yeah, the right hand side. Yeah.
+
+510
+00:43:00,500 --> 00:43:03,540
+Jackson: We're coming up on our half year anniversary.
+
+511
+00:43:03,540 --> 00:43:07,380
+Jackson: So we should maybe do a segment breakdown of Perp a Fortune.
+
+512
+00:43:07,380 --> 00:43:14,620
+Chris: Could we create a Perp a Fortune in PowerPoint, like, like my bullet?
+
+513
+00:43:14,620 --> 00:43:20,060
+Tyler: Have you ever heard about how people do these, like, let's say that they want to post their
+
+514
+00:43:20,060 --> 00:43:23,220
+Tyler: Polymarket account on X for clout.
+
+515
+00:43:23,220 --> 00:43:29,340
+Tyler: So they'll start like 50 Polymarket accounts, and then they just do like 50/50 bets on each
+
+516
+00:43:29,340 --> 00:43:30,900
+Tyler: of them.
+
+517
+00:43:30,900 --> 00:43:37,380
+Tyler: And by definition, almost all of them will be wiped out or break-even, but one of them
+
+518
+00:43:37,380 --> 00:43:42,580
+Tyler: will flip heads 10 to 20 times in a row.
+
+519
+00:43:42,580 --> 00:43:46,220
+Tyler: And then it makes them look like they're this trading genius because they don't show you
+
+520
+00:43:46,220 --> 00:43:52,140
+Tyler: all the accounts that went to zero, and they only show you the one that defied probability
+
+521
+00:43:52,140 --> 00:43:55,980
+Tyler: and won that many times in a row, and they're like, "Look at this, I like thousand decks
+
+522
+00:43:55,980 --> 00:43:57,740
+Tyler: my money."
+
+523
+00:43:57,740 --> 00:44:00,620
+Tyler: I feel like our proportion is like the opposite of that.
+
+524
+00:44:01,520 --> 00:44:07,320
+Tyler: It's like I heard like only lost $2 or I guess it mostly just didn't move.
+
+525
+00:44:07,320 --> 00:44:09,160
+Tyler: And that's been my critique of it the whole time.
+
+526
+00:44:09,520 --> 00:44:14,760
+Tyler: But yeah, this whole, like let's long stocks with leverage outside of trading
+
+527
+00:44:14,760 --> 00:44:21,320
+Tyler: hours, uh, yeah, this isn't, this is not the entertainment that we want.
+
+528
+00:44:22,000 --> 00:44:23,000
+Chris: I agree with you.
+
+529
+00:44:23,000 --> 00:44:27,080
+Chris: We need, we need the NYSE to heart along with Avax so that we can get
+
+530
+00:44:27,080 --> 00:44:30,220
+Chris: some outside hours in video volatility.
+
+531
+00:44:31,020 --> 00:44:34,420
+Jackson: We just need to put guardrails like no, no,
+
+532
+00:44:34,420 --> 00:44:39,420
+Jackson: like United States stocks for APM Pacific time podcast.
+
+533
+00:44:41,820 --> 00:44:45,860
+Chris: Hold on a second. What's the time in South Korea? Two PM.
+
+534
+00:44:46,980 --> 00:44:50,060
+Tyler: I mean, Jackson should know that off the top of his head. Yeah,
+
+535
+00:44:50,060 --> 00:44:51,140
+Chris: you should know that Jackson.
+
+536
+00:44:54,100 --> 00:44:58,180
+Jackson: I whispered it to Chris. Yeah. He was just echoing me.
+
+537
+00:44:59,620 --> 00:45:03,700
+Chris: I'm just, I mean, maybe we could run it up there, you know, um,
+
+538
+00:45:04,020 --> 00:45:06,820
+Tyler: we should just start investing in random Korean stocks.
+
+539
+00:45:06,860 --> 00:45:10,380
+Tyler: There's only like 20 of them though. I feel like there's like 20 companies that
+
+540
+00:45:10,380 --> 00:45:11,260
+Tyler: run all of Korea.
+
+541
+00:45:11,900 --> 00:45:16,220
+Jackson: There's only two that's Hynix and Samsung Korean flip.
+
+542
+00:45:16,220 --> 00:45:20,780
+Jackson: We actually have a big Korean viewership, uh, according to YouTube. So, uh,
+
+543
+00:45:20,820 --> 00:45:24,480
+Chris: Oh yeah. We should run it up for the boys a hundred percent interest in me.
+
+544
+00:45:24,480 --> 00:45:29,480
+Jackson: That they love gambling. Well, why you don't have me there?
+
+545
+00:45:33,200 --> 00:45:35,840
+Jackson: Oh yeah. We talked about this off the pod,
+
+546
+00:45:35,860 --> 00:45:40,280
+Jackson: but if anyone wants to give us $1 million, we will make a perp for you.
+
+547
+00:45:40,320 --> 00:45:45,320
+Jackson: Any perp you want, right? That's what it costs to open up her position or open
+
+548
+00:45:45,340 --> 00:45:50,240
+Tyler: up a new perp on hyper liquid. I think we, we, we have a fee as well.
+
+549
+00:45:50,240 --> 00:45:56,400
+Tyler: It also has to be a million dollars and maybe $10,000 on top of that.
+
+550
+00:45:56,400 --> 00:46:01,840
+Jackson: I think we just slid on the profitability of the pair, because we're going to succeed,
+
+551
+00:46:01,840 --> 00:46:02,840
+Jackson: right?
+
+552
+00:46:02,840 --> 00:46:06,680
+Jackson: We're going to have a really lively pair.
+
+553
+00:46:06,680 --> 00:46:12,720
+Chris: I was also thinking about the Underport Volatility Index, like our VIX, the VU, which is what
+
+554
+00:46:12,720 --> 00:46:14,800
+Chris: was it?
+
+555
+00:46:14,800 --> 00:46:19,480
+Chris: Is it the ratio between Jackson's tennis ranking and the Bitcoin price in thousands
+
+556
+00:46:19,480 --> 00:46:22,740
+Chris: of dollars. I feel like we should mint that.
+
+557
+00:46:22,740 --> 00:46:31,080
+Jackson: We can get on it. And I don't know, but how do I prevent from using my free will to sign
+
+558
+00:46:31,080 --> 00:46:33,480
+Jackson: up for more tennis tournaments to escape?
+
+559
+00:46:33,480 --> 00:46:39,320
+Chris: Are you going to manipulate this index?
+
+560
+00:46:39,320 --> 00:46:47,400
+Jackson: Maybe I shouldn't be involved. I don't want to be liable for securities fraud or anything.
+
+561
+00:46:47,400 --> 00:46:57,480
+Jackson: idea by Tyler, by the way. Fantastic. Let's see. We've got three minutes. Tyler, can
+
+562
+00:46:57,480 --> 00:47:04,200
+Jackson: you race liquid as an L2 for Bitcoin and say it's not an L2 in three minutes, or is that
+
+563
+00:47:04,200 --> 00:47:10,120
+Tyler: not enough time? I don't think liquid ever even claims to be an L2, so I think it's pretty
+
+564
+00:47:10,120 --> 00:47:20,280
+Jackson: straightforward yeah I got this okay Wow Tyler let it flow like water out of a
+
+565
+00:47:20,280 --> 00:47:29,400
+Jackson: waterfall give us your liquid tape a Bitcoin not L2 but side chain okay yeah
+
+566
+00:47:29,400 --> 00:47:35,440
+Tyler: so liquid is a Bitcoin side chain it doesn't claim to be a layer to the
+
+567
+00:47:35,440 --> 00:47:42,320
+Tyler: The difference is that it doesn't have a unilateral exit. Liquid is basically just
+
+568
+00:47:42,320 --> 00:47:51,240
+Tyler: a 11 of 15 multi-sig that if you have Bitcoin and you're trading liquid Bitcoin, it's backed
+
+569
+00:47:51,240 --> 00:47:56,680
+Tyler: by real Bitcoin that's in a multi-sig that's controlled by this federation, and they can
+
+570
+00:47:56,680 --> 00:48:02,800
+Tyler: decide what Bitcoin enters or exits that sidechain.
+
+571
+00:48:02,800 --> 00:48:08,480
+Tyler: So it's kind of like a middle ground between a layer one and an L2.
+
+572
+00:48:08,480 --> 00:48:09,600
+Tyler: It's a sidechain.
+
+573
+00:48:09,600 --> 00:48:11,520
+Tyler: That's the terminology that people use.
+
+574
+00:48:11,520 --> 00:48:18,720
+Tyler: The main thing with Liquid is that it was hacked, I don't know, a month or two ago.
+
+575
+00:48:18,720 --> 00:48:25,880
+Tyler: And this was maybe one of the first or second instances of pretty obvious AI-assisted hacking
+
+576
+00:48:25,880 --> 00:48:34,760
+Tyler: in the crypto space where somebody found a vulnerability where they could... I think
+
+577
+00:48:34,760 --> 00:48:41,480
+Tyler: we talked about it on the pod. But you could essentially inflate the confidential supply
+
+578
+00:48:41,480 --> 00:48:52,440
+Tyler: on liquid by screwing with one of the proofs that you do when you do a confidential transaction.
+
+579
+00:48:52,440 --> 00:48:57,280
+Tyler: And so someone inflated a bunch of the supply, which then they had, and then they pegged
+
+580
+00:48:57,280 --> 00:49:04,480
+Tyler: out the supply and they took out a huge portion of the liquid Bitcoin and got it on chain.
+
+581
+00:49:04,480 --> 00:49:09,700
+Tyler: So suddenly there's all these people who have IOUs of liquid coins and liquid, but there's
+
+582
+00:49:09,700 --> 00:49:11,840
+Tyler: no Bitcoin backing it.
+
+583
+00:49:11,840 --> 00:49:18,000
+Tyler: The person who did this vulnerability, I think, eventually sent back 90% of the Bitcoin that
+
+584
+00:49:18,000 --> 00:49:26,640
+Tyler: they took, and they kept 10% of it as a white hat fee. But that was never agreed upon by
+
+585
+00:49:26,640 --> 00:49:31,060
+Tyler: the Liquid Federation. And they were like, "No, you should really send back 100%." And
+
+586
+00:49:31,060 --> 00:49:36,320
+Tyler: the person was like, "No, but white hat, bro, 10%, give it to me."
+
+587
+00:49:36,320 --> 00:49:43,800
+Tyler: And so for a while, I think it's been operating basically 90% capitalized. And I believe now
+
+588
+00:49:43,800 --> 00:49:52,620
+Tyler: the news for Liquid is that Blockstream, as far as I understand it, just recapitalized
+
+589
+00:49:52,620 --> 00:50:03,220
+Tyler: it itself and ate the money in a Binance style. Now, it's back to 100% backing. I don't know
+
+590
+00:50:03,220 --> 00:50:09,180
+Tyler: if this means that I would recommend anyone put any of their money on this sidechain or
+
+591
+00:50:09,180 --> 00:50:13,620
+Tyler: really use it. It's liquid is a very, it's kind of like a side
+
+592
+00:50:13,620 --> 00:50:18,100
+Tyler: chain without a purpose. And it has been for a while, because I
+
+593
+00:50:18,100 --> 00:50:21,860
+Tyler: don't think there's very much reason to use it. Because the
+
+594
+00:50:21,860 --> 00:50:24,340
+Tyler: whole idea is that it helps scale Bitcoin, but Bitcoin
+
+595
+00:50:24,340 --> 00:50:27,820
+Tyler: blocks are empty. So you might as well just use the main chain
+
+596
+00:50:27,820 --> 00:50:32,860
+Tyler: for free or for effectively free and have the full all the
+
+597
+00:50:32,900 --> 00:50:36,300
+Tyler: guarantees that come with that. And then, you know, maybe
+
+598
+00:50:36,300 --> 00:50:39,020
+Tyler: there's some world where you're like, well, liquid has faster
+
+599
+00:50:39,020 --> 00:50:45,340
+Tyler: blocks. It has confidential transactions. It has XYZ, all this functionality. But yeah,
+
+600
+00:50:45,340 --> 00:50:50,420
+Tyler: I just don't really know if anyone is making payments with Bitcoin. And if they are, they
+
+601
+00:50:50,420 --> 00:50:55,280
+Tyler: should be using the Lightning Network and not Liquid. And if they need instant payments,
+
+602
+00:50:55,280 --> 00:50:58,740
+Tyler: they should use Lightning. So that kind of takes away the block time concern. And then
+
+603
+00:50:58,740 --> 00:51:05,380
+Tyler: I think that the confidential transactions on Liquid, the anonymity set, I think, is
+
+604
+00:51:05,380 --> 00:51:08,900
+Tyler: quite small. So it's kind of not worthwhile. It only works if there's a lot of people
+
+605
+00:51:08,900 --> 00:51:15,060
+Tyler: using it. Whereas with something with lightning, the privacy properties are actually quite
+
+606
+00:51:15,060 --> 00:51:23,740
+Tyler: good already. So you heard it here. I don't understand why liquid still exists in 2026.
+
+607
+00:51:23,740 --> 00:51:28,580
+Chris: Also transact on mainnet. Pay for your coffee and wait 45 minutes. That's this.
+
+608
+00:51:28,580 --> 00:51:29,580
+Chris: Yeah.
+
+609
+00:51:29,580 --> 00:51:30,580
+Jackson: Yeah.
+
+610
+00:51:30,580 --> 00:51:38,860
+Jackson: That would be terrible. So does liquid also have like the ability to put other like assets
+
+611
+00:51:38,860 --> 00:51:45,020
+Jackson: on the chain kind of like Spark where you can like maybe trade USDC or something on
+
+612
+00:51:45,020 --> 00:51:46,020
+Jackson: Liquid?
+
+613
+00:51:46,020 --> 00:51:49,020
+Tyler: Yeah, Liquid has tokens, Liquid has...
+
+614
+00:51:49,020 --> 00:51:56,380
+Tyler: So it's like a fork of Bitcoin, but they add more opcodes and more functionality to it.
+
+615
+00:51:56,380 --> 00:52:01,780
+Tyler: And that is one thing that people said about Liquid is it's kind of like a quasi testnet
+
+616
+00:52:01,780 --> 00:52:06,060
+Tyler: for Bitcoin, where they're like, "Let's add confidential transactions."
+
+617
+00:52:06,060 --> 00:52:10,420
+Tyler: I guess that didn't go very well, glad that we didn't add those to real Bitcoin. Let's
+
+618
+00:52:10,420 --> 00:52:15,580
+Tyler: add like, governance, and see what people build with that and see how it operates before
+
+619
+00:52:15,580 --> 00:52:18,740
+Tyler: we actually want to put that on real Bitcoin.
+
+620
+00:52:18,740 --> 00:52:24,940
+Tyler: So there are like, cool functionality things that you can do with it, but it's not like...
+
+621
+00:52:24,940 --> 00:52:31,180
+Tyler: It's not like turning complete Ethereum. You still are dealing with like, opcodes and Bitcoin
+
+622
+00:52:31,180 --> 00:52:39,480
+Tyler: Bitcoin script essentially. I think that there's projects to do... I forget what it's called,
+
+623
+00:52:39,480 --> 00:52:45,580
+Tyler: but there's mini-script, which I think is a way to simplify Bitcoin scripting. And then
+
+624
+00:52:45,580 --> 00:52:56,260
+Tyler: there's some other super long-term projects to make Bitcoin scripting more formally verifiable.
+
+625
+00:52:56,260 --> 00:53:00,980
+Tyler: And then they would like, in theory, open it up and make it more turn complete.
+
+626
+00:53:00,980 --> 00:53:05,540
+Tyler: But I feel like that was kind of like this pie in the sky research project and I kind
+
+627
+00:53:05,540 --> 00:53:10,600
+Tyler: of don't think anyone will want to soft work that into Bitcoin, even if it was proven to
+
+628
+00:53:10,600 --> 00:53:11,600
+Tyler: be good.
+
+629
+00:53:11,600 --> 00:53:12,600
+Jackson: Cool.
+
+630
+00:53:12,600 --> 00:53:18,640
+Jackson: Yeah, I never knew anything about liquid, but thanks for telling us that it's basically
+
+631
+00:53:18,640 --> 00:53:25,780
+Jackson: just like a test place, a sandbox for extended Bitcoin features and there's no reason to
+
+632
+00:53:25,780 --> 00:53:31,440
+Jackson: use it at all? Add them back, I don't know what you're doing over there. But maybe just
+
+633
+00:53:31,440 --> 00:53:32,440
+Jackson: work on Bitcoin.
+
+634
+00:53:32,440 --> 00:53:38,060
+Chris: I actually like the Sandbox idea. I didn't know about that. I think that's quite cool.
+
+635
+00:53:38,060 --> 00:53:44,800
+Tyler: I mean, that's what people used to say about Litecoin too. Litecoin is like the testnet
+
+636
+00:53:44,800 --> 00:53:48,720
+Tyler: for Bitcoin. They did segwit before Bitcoin did.
+
+637
+00:53:48,720 --> 00:53:51,880
+Chris: Okay. That one's less obvious to me.
+
+638
+00:53:51,880 --> 00:53:56,480
+Chris: Yeah, that was just like, we need a reason to exist, guys.
+
+639
+00:53:56,480 --> 00:53:58,400
+Tyler: Silver, right?
+
+640
+00:53:58,400 --> 00:53:59,400
+Chris: Correct.
+
+641
+00:53:59,400 --> 00:54:03,840
+Chris: But I mean, formal verification because of AI has become this massive topic.
+
+642
+00:54:03,840 --> 00:54:07,200
+Chris: So it does make me wonder if like this is something that can or would be applied to
+
+643
+00:54:07,200 --> 00:54:08,480
+Chris: Bitcoin at some point.
+
+644
+00:54:08,480 --> 00:54:15,840
+Chris: Like Ben Lang is like a now like popular formal verification project that's doing the rounds.
+
+645
+00:54:15,840 --> 00:54:20,280
+Chris: For example, like in the, you know, people have the idea that if you can formally verify
+
+646
+00:54:20,280 --> 00:54:25,240
+Chris: your programs, you'll be able to move much faster with large language models when building
+
+647
+00:54:25,240 --> 00:54:26,240
+Chris: projects.
+
+648
+00:54:26,240 --> 00:54:30,440
+Chris: But on the flip side, like you're saying, with Bitcoin, it actually from a security
+
+649
+00:54:30,440 --> 00:54:35,440
+Chris: and correctness perspective, it's highly important.
+
+650
+00:54:35,440 --> 00:54:42,440
+Chris: It feels like to me we could get there faster now, but then the question is whether the
+
+651
+00:54:42,440 --> 00:54:48,680
+Chris: problem even is about having the formally verified behaviors, or the question is about
+
+652
+00:54:48,680 --> 00:54:53,400
+Chris: how to nudge the Bitcoin apparatus forward. If it needs to be nudged forward at all,
+
+653
+00:54:54,840 --> 00:54:55,560
+Chris: big caveat.
+
+654
+00:54:56,440 --> 00:54:58,600
+Tyler: Are you saying it's a social and governance problem?
+
+655
+00:54:59,560 --> 00:55:01,640
+Chris: No, a little bit.
+
+656
+00:55:01,640 --> 00:55:03,400
+Tyler: A little consensus.
+
+657
+00:55:04,360 --> 00:55:11,160
+Chris: Yeah, so I don't know the specifics about Bitcoin, but I do know a lot about Ethereum's nightmare
+
+658
+00:55:11,160 --> 00:55:19,680
+Chris: state like social consensus and I just like yeah yeah I've seen a lot of X
+
+659
+00:55:19,680 --> 00:55:29,500
+Tyler: videos of like very upset European virgins like yelling at each other like
+
+660
+00:55:29,500 --> 00:55:38,100
+Tyler: various yeah the room events about like the issue and supply and stuff like that
+
+661
+00:55:38,100 --> 00:55:45,540
+Chris: So the issuance thing again, I think we were joking, like I saw, I like went to DevCon in
+
+662
+00:55:45,540 --> 00:55:51,380
+Chris: 2024 and I saw Vitalik dancing and I was like, I should sell and I didn't. And that was bad for me.
+
+663
+00:55:52,100 --> 00:55:56,580
+Chris: And I thought the exact same thing because DevCon was in Mumbai this year, a couple of months ago,
+
+664
+00:55:56,580 --> 00:56:01,620
+Chris: and I saw the issuance debate and I was like, I want a million percent should sell this time.
+
+665
+00:56:01,620 --> 00:56:08,740
+Chris: And obviously I didn't. And now Ethereum is record low. So here we are, riding on the wall.
+
+666
+00:56:09,620 --> 00:56:10,980
+Jackson: Record never sell the bag.
+
+667
+00:56:11,540 --> 00:56:14,980
+Chris: I mean, the lowest it's been in a few years. I think it's under 2k.
+
+668
+00:56:16,580 --> 00:56:17,140
+Jackson: Yeah, it is.
+
+669
+00:56:17,860 --> 00:56:21,300
+Jackson: You can never sell the loss or save the losses up for when you have a gain.
+
+670
+00:56:22,020 --> 00:56:23,700
+Jackson: It was under 2k in June.
+
+671
+00:56:24,740 --> 00:56:25,060
+Chris: Really?
+
+672
+00:56:25,060 --> 00:56:26,820
+Tyler: It was further under 2k.
+
+673
+00:56:26,820 --> 00:56:31,460
+Chris: So I've just been ignoring the negative price action due to ideological reasons this whole time.
+
+674
+00:56:31,620 --> 00:56:39,060
+Jackson: And you only pay attention when Ethereum does something cringe.
+
+675
+00:56:39,060 --> 00:56:45,880
+Chris: I was really busy in June so I wasn't looking at, wow, that was bad, okay.
+
+676
+00:56:45,880 --> 00:56:48,780
+Chris: So we can go lower is what I'm hearing.
+
+677
+00:56:48,780 --> 00:56:54,340
+Jackson: Race to the bottom, Ethereum, turn complete or incomplete.
+
+678
+00:56:54,340 --> 00:56:56,580
+Jackson: But the pod is complete.
+
+679
+00:56:56,580 --> 00:56:58,580
+Jackson: Thank you.
+
+680
+00:56:58,580 --> 00:57:00,140
+Jackson: Rock on.
+
+681
+00:57:00,140 --> 00:57:03,000
+Jackson: Thank you everybody for tuning into the podcast.
+
+682
+00:57:03,000 --> 00:57:08,320
+Jackson: If you stayed till the end, like, subscribe, and buy some Bitcoin.
+
+683
+00:57:08,320 --> 00:57:10,280
+Jackson: Thank you so much.
+
+684
+00:57:10,280 --> 00:57:13,400
+Jackson: Farewell.

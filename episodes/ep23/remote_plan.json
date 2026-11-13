@@ -1,0 +1,832 @@
+{
+ "blocks": [
+  {
+   "id": "COLD_A",
+   "m0": 599.7,
+   "m1": 610.1,
+   "hard_m0": true,
+   "hard_m1": true,
+   "mute": [
+    [
+     "tyler",
+     599.6,
+     610.2
+    ],
+    [
+     "jackson",
+     599.6,
+     610.2
+    ]
+   ]
+  },
+  {
+   "id": "COLD_B",
+   "m0": 377.23,
+   "m1": 389.87,
+   "hard_m0": true,
+   "hard_m1": true,
+   "mute": [
+    [
+     "chris",
+     377.13,
+     389.97
+    ],
+    [
+     "jackson",
+     377.13,
+     389.97
+    ]
+   ]
+  },
+  {
+   "id": "COLD_C",
+   "m0": 2088.2,
+   "m1": 2097.6,
+   "hard_m0": true,
+   "hard_m1": true,
+   "mute": [
+    [
+     "chris",
+     2088.1,
+     2097.7
+    ],
+    [
+     "jackson",
+     2088.1,
+     2097.7
+    ]
+   ]
+  },
+  {
+   "id": "COLD_D",
+   "m0": 2776.1,
+   "m1": 2788.2,
+   "hard_m0": true,
+   "hard_m1": true,
+   "mute": [
+    [
+     "chris",
+     2776.0,
+     2788.2999999999997
+    ],
+    [
+     "tyler",
+     2776.0,
+     2788.2999999999997
+    ]
+   ]
+  },
+  {
+   "id": "CARD_TITLE",
+   "card": "card_title.mov"
+  },
+  {
+   "id": "INTRO",
+   "m0": 0.6,
+   "m1": 306.03,
+   "hard_m1": true
+  },
+  {
+   "id": "NV_B",
+   "m0": 355.24,
+   "m1": 724.71
+  },
+  {
+   "id": "NV_C",
+   "m0": 761.1,
+   "m1": 959.4,
+   "hard_m0": true
+  },
+  {
+   "id": "NV_D",
+   "m0": 1063.8,
+   "m1": 1073.22
+  },
+  {
+   "id": "NYSE",
+   "m0": 1073.22,
+   "m1": 1352.5
+  },
+  {
+   "id": "PERP",
+   "m0": 1352.5,
+   "m1": 1476.2,
+   "hard_m1": true
+  },
+  {
+   "id": "TPU",
+   "m0": 1476.2,
+   "m1": 1932.0,
+   "hard_m0": true,
+   "mute": [
+    [
+     "chris",
+     1475.9,
+     1476.7
+    ]
+   ]
+  },
+  {
+   "id": "AGENT",
+   "m0": 1932.0,
+   "m1": 2329.98,
+   "hard_m1": true
+  },
+  {
+   "id": "ECON",
+   "m0": 2392.19,
+   "m1": 2973.5,
+   "mute": [
+    [
+     "jackson",
+     2390.9,
+     2393.3
+    ]
+   ]
+  },
+  {
+   "id": "ECON_B",
+   "m0": 3078.4,
+   "m1": 3162.0
+  },
+  {
+   "id": "LIQUID",
+   "m0": 3162.0,
+   "m1": 3181.7
+  },
+  {
+   "id": "LIQ_B",
+   "m0": 3205.48,
+   "m1": 3614.65
+  },
+  {
+   "id": "LIQ_C",
+   "m0": 3654.74,
+   "m1": 3835.85,
+   "hard_m1": true,
+   "mute": [
+    [
+     "tyler",
+     3654.7,
+     3656.9
+    ],
+    [
+     "tyler",
+     3834.3,
+     3836.0
+    ]
+   ]
+  },
+  {
+   "id": "OUTRO_B",
+   "m0": 3870.4,
+   "m1": 3884.0,
+   "hard_m0": true,
+   "hard_m1": true
+  },
+  {
+   "id": "CARD_END",
+   "card": "card_end.mov"
+  }
+ ],
+ "protect": [
+  [
+   599.7,
+   610.1
+  ],
+  [
+   377.23,
+   389.87
+  ],
+  [
+   2088.2,
+   2097.6
+  ],
+  [
+   2776.1,
+   2788.2
+  ],
+  [
+   0.9,
+   12.0
+  ],
+  [
+   1391.0,
+   1400.0
+  ],
+  [
+   2776.0,
+   2815.0
+  ],
+  [
+   3863.0,
+   3884.0
+  ]
+ ],
+ "force_shots": [
+  {
+   "m0": 599.7,
+   "m1": 610.1,
+   "type": "solo",
+   "people": [
+    "chris"
+   ]
+  },
+  {
+   "m0": 377.23,
+   "m1": 389.87,
+   "type": "solo",
+   "people": [
+    "tyler"
+   ]
+  },
+  {
+   "m0": 2088.2,
+   "m1": 2097.6,
+   "type": "solo",
+   "people": [
+    "tyler"
+   ]
+  },
+  {
+   "m0": 2776.1,
+   "m1": 2788.2,
+   "type": "solo",
+   "people": [
+    "jackson"
+   ]
+  },
+  {
+   "m0": 0.6,
+   "m1": 10.5,
+   "type": "solo",
+   "people": [
+    "jackson"
+   ]
+  },
+  {
+   "m0": 3870.4,
+   "m1": 3884.0,
+   "type": "trio"
+  }
+ ],
+ "face_cx": {
+  "jackson": 660,
+  "chris": 634,
+  "tyler": 790
+ },
+ "panel_order": [
+  "jackson",
+  "chris",
+  "tyler"
+ ],
+ "params": {
+  "idle_gain": 0.12,
+  "group_thresh": 0.25,
+  "group_hold": 1.0,
+  "react_thresh": 0.6,
+  "min_shot": 3.0,
+  "gain_target": 0.028,
+  "dead_air_min": 1.2,
+  "dead_air_keep": 0.4,
+  "dead_air_net": 0.6
+ },
+ "gain_spans": {
+  "jackson": [
+   [
+    1683,
+    1728
+   ],
+   [
+    2249,
+    2262
+   ],
+   [
+    3187,
+    3201
+   ],
+   [
+    3870.5,
+    3883
+   ]
+  ],
+  "chris": [
+   [
+    1098,
+    1183
+   ],
+   [
+    1295,
+    1346
+   ],
+   [
+    1730,
+    1790
+   ],
+   [
+    1956,
+    2080
+   ]
+  ],
+  "tyler": [
+   [
+    125,
+    195
+   ],
+   [
+    398,
+    445
+   ],
+   [
+    1504,
+    1648
+   ],
+   [
+    3227,
+    3283
+   ]
+  ]
+ },
+ "pips": [
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep23/raw/Untitled_recording-chris-screen-00h_23m_11s_158ms-StreamYard.mp4",
+   "block": "PERP",
+   "m0": 1391.6,
+   "m1": 1399.0,
+   "anchor": 1390.816,
+   "mode": "full"
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep23/raw/Untitled_recording-chris-screen-00h_23m_11s_158ms-StreamYard.mp4",
+   "block": "PERP",
+   "m0": 1399.0,
+   "m1": 1476.2,
+   "anchor": 1390.816,
+   "mode": "corner",
+   "crop": [
+    1010,
+    205,
+    455,
+    222
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep23/raw/Untitled_recording-chris-screen-00h_23m_11s_158ms-StreamYard.mp4",
+   "block": "TPU",
+   "m0": 1476.2,
+   "m1": 1932.0,
+   "anchor": 1390.816,
+   "mode": "corner",
+   "crop": [
+    1010,
+    205,
+    455,
+    222
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep23/raw/Untitled_recording-chris-screen-00h_23m_11s_158ms-StreamYard.mp4",
+   "block": "AGENT",
+   "m0": 1932.0,
+   "m1": 2329.98,
+   "anchor": 1390.816,
+   "mode": "corner",
+   "crop": [
+    1010,
+    205,
+    455,
+    222
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep23/raw/Untitled_recording-chris-screen-00h_23m_11s_158ms-StreamYard.mp4",
+   "block": "ECON",
+   "m0": 2392.19,
+   "m1": 2973.5,
+   "anchor": 1390.816,
+   "mode": "corner",
+   "crop": [
+    1010,
+    205,
+    455,
+    222
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep23/raw/Untitled_recording-chris-screen-00h_23m_11s_158ms-StreamYard.mp4",
+   "block": "ECON_B",
+   "m0": 3078.4,
+   "m1": 3162.0,
+   "anchor": 1390.816,
+   "mode": "corner",
+   "crop": [
+    1010,
+    205,
+    455,
+    222
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep23/raw/Untitled_recording-chris-screen-00h_23m_11s_158ms-StreamYard.mp4",
+   "block": "LIQUID",
+   "m0": 3162.0,
+   "m1": 3181.7,
+   "anchor": 1390.816,
+   "mode": "corner",
+   "crop": [
+    1010,
+    205,
+    455,
+    222
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep23/raw/Untitled_recording-chris-screen-00h_23m_11s_158ms-StreamYard.mp4",
+   "block": "LIQ_B",
+   "m0": 3205.48,
+   "m1": 3614.65,
+   "anchor": 1390.816,
+   "mode": "corner",
+   "crop": [
+    1010,
+    205,
+    455,
+    222
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep23/raw/Untitled_recording-chris-screen-00h_23m_11s_158ms-StreamYard.mp4",
+   "block": "LIQ_C",
+   "m0": 3654.74,
+   "m1": 3835.85,
+   "anchor": 1390.816,
+   "mode": "corner",
+   "crop": [
+    1010,
+    205,
+    455,
+    222
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep23/raw/Untitled_recording-chris-screen-00h_23m_11s_158ms-StreamYard.mp4",
+   "block": "OUTRO_B",
+   "m0": 3870.4,
+   "m1": 3884.0,
+   "anchor": 1390.816,
+   "mode": "corner",
+   "crop": [
+    1010,
+    205,
+    455,
+    222
+   ]
+  }
+ ],
+ "overlays": [
+  {
+   "name": "st_coldopen",
+   "block": "COLD_A",
+   "rel": 0.0,
+   "dur": 6,
+   "kind": "st"
+  },
+  {
+   "name": "lt_intro",
+   "block": "INTRO",
+   "m": 19.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_megaspeed",
+   "block": "INTRO",
+   "m": 68.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_fingerprint",
+   "block": "INTRO",
+   "m": 222.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_claim",
+   "block": "INTRO",
+   "m": 291.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_suck",
+   "block": "NV_B",
+   "m": 385.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "lt_after",
+   "block": "NV_B",
+   "m": 481.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_reports",
+   "block": "NV_B",
+   "m": 668.5,
+   "dur": 6,
+   "kind": "st"
+  },
+  {
+   "name": "lt_timing",
+   "block": "NV_B",
+   "m": 699.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_singapore",
+   "block": "NV_C",
+   "m": 900.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_nyse",
+   "block": "NYSE",
+   "m": 1077.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_friends",
+   "block": "NYSE",
+   "m": 1191.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_database",
+   "block": "NYSE",
+   "m": 1313.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "lt_perp",
+   "block": "PERP",
+   "m": 1357.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_random",
+   "block": "PERP",
+   "m": 1442.0,
+   "dur": 6,
+   "kind": "st2"
+  },
+  {
+   "name": "st_monkey",
+   "block": "PERP",
+   "m": 1462.0,
+   "dur": 7,
+   "kind": "st2"
+  },
+  {
+   "name": "lt_tpu",
+   "block": "TPU",
+   "m": 1484.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_trust",
+   "block": "TPU",
+   "m": 1601.0,
+   "dur": 7,
+   "kind": "st2"
+  },
+  {
+   "name": "lt_agent",
+   "block": "AGENT",
+   "m": 1949.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_embody",
+   "block": "AGENT",
+   "m": 2016.0,
+   "dur": 8,
+   "kind": "st2"
+  },
+  {
+   "name": "lt_gpu",
+   "block": "AGENT",
+   "m": 2089.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_gas",
+   "block": "AGENT",
+   "m": 2247.0,
+   "dur": 7,
+   "kind": "st2"
+  },
+  {
+   "name": "st_bike",
+   "block": "AGENT",
+   "m": 2294.0,
+   "dur": 7,
+   "kind": "st2"
+  },
+  {
+   "name": "lt_econ",
+   "block": "ECON",
+   "m": 2395.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_price",
+   "block": "ECON",
+   "m": 2511.0,
+   "dur": 8,
+   "kind": "st2"
+  },
+  {
+   "name": "st_cvm",
+   "block": "ECON",
+   "m": 2605.0,
+   "dur": 7,
+   "kind": "st2"
+  },
+  {
+   "name": "lt_flip",
+   "block": "ECON",
+   "m": 2777.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_settled",
+   "block": "ECON",
+   "m": 2812.0,
+   "dur": 8,
+   "kind": "st2"
+  },
+  {
+   "name": "st_poly",
+   "block": "ECON",
+   "m": 2852.0,
+   "dur": 7,
+   "kind": "st2"
+  },
+  {
+   "name": "lt_million",
+   "block": "ECON_B",
+   "m": 3081.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_vix",
+   "block": "ECON_B",
+   "m": 3118.0,
+   "dur": 8,
+   "kind": "st2"
+  },
+  {
+   "name": "lt_liquid",
+   "block": "LIQUID",
+   "m": 3168.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_multisig",
+   "block": "LIQ_B",
+   "m": 3237.0,
+   "dur": 7,
+   "kind": "st2"
+  },
+  {
+   "name": "st_recap",
+   "block": "LIQ_B",
+   "m": 3363.0,
+   "dur": 7,
+   "kind": "st2"
+  },
+  {
+   "name": "st_testnet",
+   "block": "LIQ_B",
+   "m": 3496.0,
+   "dur": 7,
+   "kind": "st2"
+  },
+  {
+   "name": "st_devcon",
+   "block": "LIQ_C",
+   "m": 3762.0,
+   "dur": 7,
+   "kind": "st2"
+  },
+  {
+   "name": "st_final",
+   "block": "OUTRO_B",
+   "m": 3871.5,
+   "dur": 8,
+   "kind": "st2"
+  }
+ ],
+ "sheet": [
+  {
+   "label": "Cold open",
+   "block": "COLD_A"
+  },
+  {
+   "label": "Title",
+   "block": "CARD_TITLE"
+  },
+  {
+   "label": "Jensen is out: open models lose their champion",
+   "block": "INTRO"
+  },
+  {
+   "label": "The fingerprint: a blog post says China's models trained on Blackwells",
+   "block": "INTRO",
+   "m": 220.0
+  },
+  {
+   "label": "Does Nvidia's open-model push survive him?",
+   "block": "NV_B",
+   "m": 462.0
+  },
+  {
+   "label": "Why now? The timing, and who knew",
+   "block": "NV_B",
+   "m": 695.0
+  },
+  {
+   "label": "What Jensen does next",
+   "block": "NV_C",
+   "m": 928.0
+  },
+  {
+   "label": "NYSE picks Avalanche for 24/7 tokenized stocks",
+   "block": "NYSE"
+  },
+  {
+   "label": "Perp of Fortune: long Google 20×, Bitcoin down by random draw",
+   "block": "PERP"
+  },
+  {
+   "label": "Google's new TPU brings private inference to the cloud",
+   "block": "TPU"
+  },
+  {
+   "label": "Chris's private agent, served out of an enclave",
+   "block": "AGENT"
+  },
+  {
+   "label": "The Jensen-era GPU as a collector's item (and gear acquisition syndrome)",
+   "block": "AGENT",
+   "m": 2083.0
+  },
+  {
+   "label": "What private inference costs",
+   "block": "ECON"
+  },
+  {
+   "label": "The Bitcoin flip settles: the first win",
+   "block": "ECON",
+   "m": 2766.0
+  },
+  {
+   "label": "After-hours perps, Korea, and the $1M perp offer",
+   "block": "ECON",
+   "m": 2900.0
+  },
+  {
+   "label": "Layer-2 series: Liquid, the sidechain that isn't an L2",
+   "block": "LIQUID"
+  },
+  {
+   "label": "Formal verification and Ethereum's social consensus",
+   "block": "LIQ_C"
+  },
+  {
+   "label": "Outro",
+   "block": "OUTRO_B"
+  },
+  {
+   "label": "End card",
+   "block": "CARD_END"
+  }
+ ]
+}
