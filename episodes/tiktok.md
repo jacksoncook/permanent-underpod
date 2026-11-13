@@ -165,4 +165,25 @@ Captions = YouTube hook + sentence + "Full episode: Underpod." + dropdown-picked
 | 2026-11-15 19:00 | `ep22/short9-long-live-engineers` | https://www.tiktok.com/@underpodpodcast/video/7704975480570547478 |
 | 2026-11-15 21:00 | `ep22/short11-cracked-team` | https://www.tiktok.com/@underpodpodcast/video/7704977370675023126 |
 
-**Still owed:** `ep22/short12-robot-us` and `ep22/short14-perp-arc` landed on 2026-11-16, past the 10-day Studio window when this batch ran (2026-11-06). Rerun `tt_upload.py media/clips/tiktok/queue.json --headful --slow 3 --pause 180` once Nov 16 is inside 10 days (around 2026-11-07).
+**Ep 22 tail (scheduled 2026-11-13 with the Ep 23 batch):**
+
+| Date (ET) | Clip | URL |
+|---|---|---|
+| 2026-11-16 19:00 | `ep22/short12-robot-us` | https://www.tiktok.com/@underpodpodcast/video/7707589170281155862 |
+| 2026-11-16 21:00 | `ep22/short14-perp-arc` | https://www.tiktok.com/@underpodpodcast/video/7707590994379934978 |
+
+## Ep 23 batch (scheduled 2026-11-13, doubles — 11 clips)
+
+| Date (ET) | Clip | URL |
+|---|---|---|
+| 2026-11-17 19:00 | `ep23/short1-interim-ceo` | https://www.tiktok.com/@underpodpodcast/video/7707592847255457046 |
+| 2026-11-17 21:00 | `ep23/short7-on-the-payroll` | https://www.tiktok.com/@underpodpodcast/video/7707594266637389078 |
+| 2026-11-18 19:00 | `ep23/short2-have-to-suck` | https://www.tiktok.com/@underpodpodcast/video/7707595861693418774 |
+| 2026-11-18 21:00 | `ep23/short6-frying-pan` | https://www.tiktok.com/@underpodpodcast/video/7707597814213119255 |
+| 2026-11-19 19:00 | `ep23/short5-collectors-item` | https://www.tiktok.com/@underpodpodcast/video/7707599174757305622 |
+| 2026-11-19 21:00 | `ep23/short8-first-win` | https://www.tiktok.com/@underpodpodcast/video/7707600978949737750 |
+| 2026-11-20 19:00 | `ep23/short4-tree-monkey` | https://www.tiktok.com/@underpodpodcast/video/7707602282614885654 |
+| 2026-11-20 21:00 | `ep23/short3-just-us` | https://www.tiktok.com/@underpodpodcast/video/7707603402871639318 |
+| 2026-11-21 19:00 | `ep23/short9-vol-index` | https://www.tiktok.com/@underpodpodcast/video/7707605077917322518 |
+| 2026-11-21 21:00 | `ep23/short10-why-liquid` | https://www.tiktok.com/@underpodpodcast/video/7707606573748686102 |
+| 2026-11-22 19:00 | `ep23/short11-perp-arc` | https://www.tiktok.com/@underpodpodcast/video/7707608118418541846 |
