@@ -35,6 +35,48 @@
 - Housekeeping and banter go after O. Nothing sits between the welcome and the lead.
 - The perp reveal lands at ~31:00, straight after M. Checks and the final tally stay where they've been.
 
+## Intros in Jackson's voice (one per segment; riff, don't read)
+
+Built from how Jackson opens segments on Ep 20–23: "I woke up and my boys told me," the B-billions bit, "resident expert," "diabolical," "beautiful," and a named hand-off question at the end. The long read-aloud scripts in O, C and M are the facts behind these.
+
+**H, welcome (15 s)**
+
+> What's cracking, everybody. This is the Underpod: AI, Bitcoin, stablecoins. I'm Jackson, that's Chris, that's Tyler, and we're jumping straight into it, because this week America forgot how to turn its computers back on.
+
+**O, outages**
+
+> I woke up this week and my boys told me everything was down. Microsoft, down. Chase, down. The FAA, down, no planes. The NSA's secret spy network, down. Nine of the biggest systems in America in six days. And I'm thinking, okay, it's over, the hackers won, the AI woke up. Here's the diabolical part. Not one of them was hacked. Zero. They did it to themselves. So I went through every single one, and I've got the numbers.
+
+Then the breakdown from the O script (six of nine, 67%), ending: "Boys, how bad is it that the answer is 'somebody pushed an update'?"
+
+**C, Chainalysis**
+
+> One more, and this one is beautiful. You know the company whose whole job is catching crypto hackers? Chainalysis. Every time you send bitcoin to an exchange, these are the guys checking if it's stolen. The FBI uses them. They got hacked. By AI agents, they say. First it was "don't worry, no passwords." Five days later it was "okay, everybody's login tokens." Every user. So they pulled their own plug. Tracing down five days, screening down three, and an exchange in Japan just stopped letting people withdraw for three days. It's been three weeks and it's still not closed. Chris, resident security expert: who screens the screener?
+
+**M, the statement and the IPO**
+
+> Okay, the craziest headline of the week. On Wednesday more than a hundred of the smartest people alive, Nobel prize winners, Fields medalists, Stephen Fry for some reason, signed one sentence: Anthropic is not a safe AI company. Same day. Same day! Anthropic raises eighty-one billion dollars. That's not M-millions, that's B-billions. Biggest IPO in history. As the most AI-pilled person on this pod: the robot that edits this show got called unsafe and got rich in the same afternoon. Tyler, Chris, who's right, the scientists or the money?
+
+**M part 3, IPOs turning into ICOs**
+
+> Contrarian corner, I've got a hot take. Remember when everybody dunked on crypto for low float, high FDV? Sell five percent of the token, call it a ten billion dollar project, then the insiders unlock on your head for four years? Binance wrote a whole report crying about it. Those tokens floated twelve percent. Anthropic floated seven. SpaceX floated four. The two biggest IPOs ever are running the ICO playbook, and by February more Anthropic stock unlocks than they sold in the entire IPO. Meanwhile the tokens are doing buybacks and turning into actual shares. So the stocks became tokens and the tokens became stocks. Chris, resident DeFi expert: did we win, or did Wall Street just steal our playbook?
+
+**M part 4, hand-off to Chris on GTA 6**
+
+> Speaking of things everybody agrees on. GTA 6 came out. Thirteen years of waiting. Ninety-nine on Metacritic. Two billion dollars in a day, allegedly. Every human on earth loves it. Except one man. Chris, throw down the contrarian take. Rip it apart.
+
+**F, Perp of Fortune (read the disclosure first)**
+
+> Beautiful. I think it's time we lose some money. Perp of Fortune, where Chris and I stake real money on the highest-leverage instrument known to man, and Tyler tells us the leverage isn't high enough. Today's special: the robot that picks our trades is Claude, and Claude's maker just went public. So, robot, do you bet on your own dad? Chris, what are we in, and how much are we already down?
+
+**L, Ark and Cashu**
+
+> Tyler. Layer-two series, and today's a two-for-one: Ark and Cashu. Two ways to get instant bitcoin on your phone without touching a Lightning channel. In one of them you can always leave, but the operator sees everything. In the other nobody sees anything, but some dude holds all your money. And one of the Ark teams already got drained for three quarters of a bitcoin, forty-six days ago, and still hasn't said how. Tyler, let it flow like water: ninety seconds each, then tell me which one I hand my mom.
+
+**Z, close**
+
+> That's the pod. Nine outages, zero hackers, one hacked hacker-catcher, and an eighty-one billion dollar ICO. Nobody watches till the end, but if you did: like, subscribe, and do not push an update on a Friday. Say your farewells, boys.
+
 ### O — MARQUEE: the week everything went down (Jackson, ≤10 min)
 
 **Shape:** Jackson reads the script (about 2 minutes), then Chris and Tyler react, then the AI question.
