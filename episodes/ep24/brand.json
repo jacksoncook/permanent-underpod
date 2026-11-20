@@ -1,0 +1,226 @@
+{
+ "show": "UNDERPOD",
+ "show_main": "UNDERPOD",
+ "accent": [
+  255,
+  210,
+  74
+ ],
+ "source": "/Users/jcook/Personal/permanent-underpod/media/ep24/work/src/jackson_720.mp4",
+ "title_card": {
+  "bg_frame": 600,
+  "line": "EPISODE 24   ·   Nine Outages. Zero Hackers.",
+  "dur": 4.5
+ },
+ "end_card": {
+  "bg_frame": 3400,
+  "kicker": "NEXT WEEK ON",
+  "lines": [
+   "Perp of Fortune  ·  The layer-2 series returns",
+   "Not financial advice. Our opinions are ours, not our employers'."
+  ],
+  "cta": "LIKE  +  SUBSCRIBE",
+  "dur": 7
+ },
+ "lower_thirds": [
+  {
+   "name": "intro",
+   "kicker": "EPISODE 24",
+   "title": "NINE OUTAGES. ZERO HACKERS."
+  },
+  {
+   "name": "faa",
+   "kicker": "THE FAA GROUND STOP",
+   "title": "FRIDAY THE 13TH: EVERY DEPARTURE STOPPED"
+  },
+  {
+   "name": "msft",
+   "kicker": "MICROSOFT 365",
+   "title": "HOW DOES IT STAY DOWN FOR A WHOLE DAY?"
+  },
+  {
+   "name": "vendor",
+   "kicker": "THE BREAK-INS",
+   "title": "WHEN THE WAY IN IS YOUR VENDOR"
+  },
+  {
+   "name": "chain",
+   "kicker": "THE CHAINALYSIS BREACH",
+   "title": "THE COMPANY THAT TRACES CRYPTO GOT HACKED"
+  },
+  {
+   "name": "who",
+   "kicker": "WHO DID IT?",
+   "title": "TYLER BORROWS THE HAT"
+  },
+  {
+   "name": "ablit",
+   "kicker": "ABLITERATED",
+   "title": "NOT \"OBLITERATED.\" JACKSON FINDS OUT."
+  },
+  {
+   "name": "perp",
+   "kicker": "PERP OF FORTUNE",
+   "title": "SHORT SK HYNIX 10×  ·  BITCOIN DOWN"
+  },
+  {
+   "name": "vibes",
+   "kicker": "THE BITCOIN VIBES",
+   "title": "IS IRREVERSIBLE MONEY A HARDER SELL NOW?"
+  },
+  {
+   "name": "ipo",
+   "kicker": "ANTHROPIC GOES PUBLIC",
+   "title": "THE STATEMENT AND THE IPO, SAME WEEK"
+  },
+  {
+   "name": "float",
+   "kicker": "LOW FLOAT, HIGH FDV",
+   "title": "THE IPO THAT LOOKS LIKE A TOKEN LAUNCH"
+  },
+  {
+   "name": "disc",
+   "kicker": "PRICE DISCOVERY",
+   "title": "DID THE PERP CALL THE IPO?"
+  },
+  {
+   "name": "rain",
+   "kicker": "PERP STARTUP PITCH",
+   "title": "RAIN PERPS FOR YOUR WEEKEND"
+  },
+  {
+   "name": "gta",
+   "kicker": "GTA 6",
+   "title": "CHRIS, ON THE GROUND"
+  },
+  {
+   "name": "ondev",
+   "kicker": "ON-DEVICE AGENTS",
+   "title": "WHAT IF YOUR PHONE WATCHED EVERYTHING?"
+  },
+  {
+   "name": "final",
+   "kicker": "PERP FINAL",
+   "title": "BOTH BETS GREEN"
+  }
+ ],
+ "stats": [
+  {
+   "name": "coldopen",
+   "kicker": "EPISODE 24",
+   "main": "In this pod…"
+  },
+  {
+   "name": "count",
+   "kicker": "JACKSON DID THE LEGWORK",
+   "main": "6 of 9 outages: their own change"
+  },
+  {
+   "name": "house",
+   "kicker": "TYLER",
+   "main": "\"it's coming from within the house\""
+  },
+  {
+   "name": "nine",
+   "kicker": "THE BREAK-INS",
+   "main": "9 of 13 came in through a vendor"
+  },
+  {
+   "name": "fifty",
+   "kicker": "TYLER",
+   "main": "50 years of uptime. Then a new router."
+  },
+  {
+   "name": "jim",
+   "kicker": "CHRIS",
+   "main": "Jim has the key. Jim is in the Bahamas."
+  },
+  {
+   "name": "corn",
+   "kicker": "TYLER",
+   "main": "corn123  →  corn1234"
+  },
+  {
+   "name": "phrase",
+   "kicker": "PHRASE OF THE MONTH",
+   "main": "\"not a cyber attack\""
+  },
+  {
+   "name": "open",
+   "kicker": "CHAINALYSIS",
+   "main": "disclosed Oct 30  ·  still unresolved"
+  },
+  {
+   "name": "word",
+   "kicker": "JACKSON",
+   "main": "\"one of the most… I don't even know the word\""
+  },
+  {
+   "name": "green",
+   "kicker": "FIRST TIME IN POD HISTORY",
+   "main": "both bets green at once"
+  },
+  {
+   "name": "wall",
+   "kicker": "ERIC WALL'S THREAD",
+   "main": "irreversible cuts both ways"
+  },
+  {
+   "name": "pct",
+   "kicker": "FACT CHECK",
+   "main": "the IPO floated about 7%"
+  },
+  {
+   "name": "vote",
+   "kicker": "TYLER",
+   "main": "\"no voting rights, and you will be happy\""
+  },
+  {
+   "name": "dryer",
+   "kicker": "PREDICTION MARKETS",
+   "main": "a hair dryer vs. the airport thermometer"
+  },
+  {
+   "name": "human",
+   "kicker": "CHRIS",
+   "main": "\"maybe the last human-made game ever\""
+  },
+  {
+   "name": "food",
+   "kicker": "JACKSON'S FOOD MATH",
+   "main": "quality = deliciousness ÷ price"
+  },
+  {
+   "name": "tally",
+   "kicker": "PERP FINAL",
+   "main": "the flip: about $25  ·  SK Hynix short: about $2"
+  }
+ ],
+ "thumbnail": {
+  "text": "WHO BROKE THE INTERNET?",
+  "out": "/Users/jcook/Personal/permanent-underpod/media/ep24/ep24-thumbnail.png",
+  "faces": [
+   {
+    "track": "chris",
+    "t": 348.0,
+    "cx": 640,
+    "top": 60,
+    "h": 660
+   },
+   {
+    "track": "jackson",
+    "t": 256.0,
+    "cx": 240,
+    "top": 130,
+    "h": 590
+   },
+   {
+    "track": "tyler",
+    "t": 258.0,
+    "cx": 1040,
+    "top": 140,
+    "h": 580
+   }
+  ]
+ }
+}

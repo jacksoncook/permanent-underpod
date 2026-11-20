@@ -18,3 +18,13 @@ banner bg `#FFE79E` (255,231,158)
 
 The in-pipeline logo (`graphics.py make_logo()`) draws the same badge per episode from
 brand.json: `"show": "UNDERPOD"`, `"show_main": "UNDERPOD"`, no `show_kicker`.
+
+## Like-and-subscribe bite (Ep 24)
+
+The hosts' own ask, cut from the Ep 24 outro. Plays under the LIKE + SUBSCRIBE pop-up.
+
+- `likesub-bite.wav` — 10.6 s: Jackson "Yo, like and subscribe" · Chris "I'm so hungry. Please." ·
+  Tyler "I'll let you guys handle it"
+- `likesub-bite-short.wav` — 6.5 s: Jackson, then Chris "please, like and subscribe. I'm so hungry. Please."
+- `media/brand/likesub/` — `.mp4` versions with picture, plus `likesub-bite-tyler-stitched-B.mp4`
+  (A/B candidate: Tyler begging, stitched word by word; not shipped until Jackson picks)
