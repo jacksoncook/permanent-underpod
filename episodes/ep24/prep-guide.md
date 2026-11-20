@@ -120,9 +120,23 @@
 
 ### C — The Chainalysis attack (Jackson + Chris, ≤8 min)
 
-**Shape:** Jackson reads the script (about 75 seconds), then who stopped, then the walk-back, then the debate. This was Ep 23's marquee and never aired, so nothing here is a repeat.
+**Shape:** Jackson reads the 30-second script and hands to Chris, then who stopped, then the walk-back, then the debate. This was Ep 23's marquee and never aired, so nothing here is a repeat.
 
-**Read this (Jackson):**
+**Read this (Jackson), 30 seconds, then hand to Chris:**
+
+> One break-in isn't on that list. Chainalysis.
+>
+> It's the company exchanges use to check whether your crypto is stolen or sanctioned, and the one the FBI uses to trace it.
+>
+> On October 30 it said an attacker using AI agents was inside. Five days later: login tokens for every user, exposed.
+>
+> So it pulled its own plug. Tracing down five days. Screening down three. An exchange in Japan froze withdrawals for three days.
+>
+> Three weeks on, it's still marked unresolved, and nobody knows who did it.
+>
+> Chris: who screens the screener?
+
+**Longer version (75 seconds), backup only:**
 
 > One break-in isn't on that list, because it started three weeks ago and it still isn't over.
 >
