@@ -187,3 +187,16 @@ Captions = YouTube hook + sentence + "Full episode: Underpod." + dropdown-picked
 | 2026-11-21 19:00 | `ep23/short9-vol-index` | https://www.tiktok.com/@underpodpodcast/video/7707605077917322518 |
 | 2026-11-21 21:00 | `ep23/short10-why-liquid` | https://www.tiktok.com/@underpodpodcast/video/7707606573748686102 |
 | 2026-11-22 19:00 | `ep23/short11-perp-arc` | https://www.tiktok.com/@underpodpodcast/video/7707608118418541846 |
+| 2026-11-23 19:00 | `ep24/short5-corn1234` | https://www.tiktok.com/@underpodpodcast/video/7710154661432413462 |
+| 2026-11-23 21:00 | `ep24/short4-jim-bahamas` | https://www.tiktok.com/@underpodpodcast/video/7710155879118621974 |
+| 2026-11-24 19:00 | `ep24/short12-so-hungry` | https://www.tiktok.com/@underpodpodcast/video/7710157414766693654 |
+| 2026-11-24 21:00 | `ep24/short7-no-voting-rights` | https://www.tiktok.com/@underpodpodcast/video/7710158670482459926 |
+| 2026-11-25 19:00 | `ep24/short2-old-router` | https://www.tiktok.com/@underpodpodcast/video/7710160373021674774 |
+| 2026-11-25 21:00 | `ep24/short8-hair-dryer` | https://www.tiktok.com/@underpodpodcast/video/7710162258994810134 |
+| 2026-11-26 19:00 | `ep24/short13-perp-arc` | https://www.tiktok.com/@underpodpodcast/video/7710163500546657538 |
+| 2026-11-26 21:00 | `ep24/short10-hospital` | https://www.tiktok.com/@underpodpodcast/video/7710165050400460054 |
+| 2026-11-27 19:00 | `ep24/short3-nsa` | https://www.tiktok.com/@underpodpodcast/video/7710166529383550211 |
+| 2026-11-27 21:00 | `ep24/short6-abliterated` | https://www.tiktok.com/@underpodpodcast/video/7710168325715660054 |
+| 2026-11-28 19:00 | `ep24/short1-new-router` | https://www.tiktok.com/@underpodpodcast/video/7710169663895768342 |
+| 2026-11-28 21:00 | `ep24/short9-10000-claudes` | https://www.tiktok.com/@underpodpodcast/video/7710170948988603670 |
+| 2026-11-29 19:00 | `ep24/short11-curry-math` | https://www.tiktok.com/@underpodpodcast/video/7710172590286982422 |
