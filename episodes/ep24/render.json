@@ -40,11 +40,6 @@
   },
   {
    "file": "sfx_whoosh.wav",
-   "block": "PERP",
-   "offset": -0.3
-  },
-  {
-   "file": "sfx_whoosh.wav",
    "block": "ANTH",
    "offset": -0.3
   },
@@ -57,6 +52,26 @@
    "file": "sfx_whoosh.wav",
    "block": "FINAL",
    "offset": -0.3
+  },
+  {
+   "file": "sfx_whoosh.wav",
+   "block": "LS1_J",
+   "offset": -1.35
+  },
+  {
+   "file": "sfx_whoosh.wav",
+   "block": "LS2_J",
+   "offset": -1.35
+  },
+  {
+   "file": "sfx_whoosh.wav",
+   "block": "OUT_B",
+   "offset": -0.25
+  },
+  {
+   "file": "sfx_whoosh.wav",
+   "block": "PERP",
+   "offset": -0.25
   },
   {
    "file": "sfx_sting.wav",
@@ -109,6 +124,13 @@
    "y": 0
   },
   {
+   "file": "wipe.mov",
+   "start": 148.567,
+   "end": 148.967,
+   "x": 0,
+   "y": 0
+  },
+  {
    "file": "likesub.mov",
    "start": 148.967,
    "end": 154.967,
@@ -117,50 +139,64 @@
   },
   {
    "file": "wipe.mov",
-   "start": 868.687,
-   "end": 869.087,
+   "start": 157.033,
+   "end": 157.433,
+   "x": 0,
+   "y": 0
+  },
+  {
+   "file": "wipe.mov",
+   "start": 870.287,
+   "end": 870.687,
+   "x": 0,
+   "y": 0
+  },
+  {
+   "file": "wipe.mov",
+   "start": 1574.133,
+   "end": 1574.533,
    "x": 0,
    "y": 0
   },
   {
    "file": "likesub.mov",
-   "start": 1572.933,
-   "end": 1578.933,
+   "start": 1574.533,
+   "end": 1580.533,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 1583.353,
-   "end": 1583.753,
+   "start": 1585.133,
+   "end": 1585.533,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 1907.12,
-   "end": 1907.52,
+   "start": 1908.72,
+   "end": 1909.12,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 2799.72,
-   "end": 2800.12,
+   "start": 2801.32,
+   "end": 2801.72,
    "x": 0,
    "y": 0
   },
   {
    "file": "wipe.mov",
-   "start": 3166.053,
-   "end": 3166.453,
+   "start": 3167.653,
+   "end": 3168.053,
    "x": 0,
    "y": 0
   },
   {
    "file": "likesub.mov",
-   "start": 3220.64,
-   "end": 3226.64,
+   "start": 3222.24,
+   "end": 3228.24,
    "x": 0,
    "y": 0
   }

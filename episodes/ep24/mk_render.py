@@ -10,13 +10,15 @@ def to_final(b, m):
 def contiguous(b, m, dur):
     return abs((to_final(b, m + dur) - to_final(b, m)) - dur) < 0.02
 trans = [('COLD_B', None, -0.15), ('COLD_C', None, -0.15), ('COLD_D', None, -0.15), ('INTRO', None, -0.3),
-         ('CHAIN', None, -0.3), ('PERP', None, -0.3), ('ANTH', None, -0.3), ('GTA', None, -0.3), ('FINAL', None, -0.3)]
+         ('CHAIN', None, -0.3), ('ANTH', None, -0.3), ('GTA', None, -0.3), ('FINAL', None, -0.3)]
+BITE_IN = [('LS1_J', None, -1.35, -0.4), ('LS2_J', None, -1.35, -0.4)]
+BITE_OUT = [('OUT_B', None, -0.25, 0.0), ('PERP', None, -0.25, 0.0)]
 cards = []
 sfx, anim = [], []
-for b, m, lead in trans:
+for b, m, lead, wipe_lead in [(*t, -0.18) for t in trans] + BITE_IN + BITE_OUT:
     cut = blk_start(b) if m is None else to_final(b, m)
     sfx.append({'file': 'sfx_whoosh.wav', 'block': b, 'offset': round(cut + lead - blk_start(b), 3)})
-    anim.append({'file': 'wipe.mov', 'start': round(cut - 0.18, 3), 'end': round(cut + 0.22, 3), 'x': 0, 'y': 0})
+    anim.append({'file': 'wipe.mov', 'start': round(cut + wipe_lead, 3), 'end': round(cut + wipe_lead + 0.4, 3), 'x': 0, 'y': 0})
 sfx.append({'file': 'sfx_sting.wav', 'block': 'CARD_END', 'offset': 0.0})
 for name, dur, b, m in cards:
     assert contiguous(b, m, dur), (name, b, m)

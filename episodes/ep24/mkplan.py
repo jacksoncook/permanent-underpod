@@ -48,13 +48,13 @@ def hard(i, m0, m1, mute=()):
 COLD = [("COLD_A",160.95,175.01,"tyler",("chris",)),("COLD_B",401.3,408.3,"jackson",("chris","tyler")),
         ("COLD_C",3104.2,3111.75,"chris",("tyler","jackson")),("COLD_D",1737.3,1743.5,None,("tyler",))]
 LSJ, LSC, LSC_SHORT, LST = (3517.0,3519.3), (3521.2,3527.9), (3523.75,3527.9), (3531.6,3533.2)
-LS = [("LS1_J",LSJ,"jackson"),("LS1_C",LSC_SHORT,"chris"),("LS2_J",LSJ,"jackson"),("LS2_C",LSC,"chris"),("LS2_T",LST,"tyler")]
+LS = [("LS1_J",LSJ,"jackson"),("LS1_C",LSC_SHORT,"chris"),("LS1_T",LST,"tyler"),("LS2_J",LSJ,"jackson"),("LS2_C",LSC,"chris"),("LS2_T",LST,"tyler")]
 def ls(i):
     n, (a, b), who = next(x for x in LS if x[0] == i)
     return hard(n, a, b, tuple(p for p in ("jackson","chris","tyler") if p != who))
 blocks = [hard(c[0], c[1], c[2], c[4]) for c in COLD] + [{"id":"CARD_TITLE","card":"card_title.mov"},
  {"id":"INTRO","m0":1.4,"m1":110.0},
- ls("LS1_J"), ls("LS1_C"),
+ ls("LS1_J"), ls("LS1_C"), ls("LS1_T"),
  {"id":"OUT_B","m0":110.0,"m1":835.35},
  {"id":"CHAIN","m0":835.35,"m1":1071.5},
  {"id":"CHAIN_B","m0":1118.45,"m1":1226.35,"mute":[["jackson",1119.4,1120.9]]},

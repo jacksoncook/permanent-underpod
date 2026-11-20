@@ -103,2485 +103,2490 @@ Jackson: Yo, like and subscribe, please, like and subscribe.
 Chris: I'm so hungry, please.
 
 27
-00:02:36,740 --> 00:02:41,060
-Chris: Um, I, so I think I think the jury is still out on some of these.
-
-28
-00:02:41,100 --> 00:02:45,580
-Chris: So I think the FAA is going to give a, an announcement about
-
-29
-00:02:46,020 --> 00:02:50,380
-Chris: the cause of like what that particular outage was about.
-
-30
-00:02:50,420 --> 00:02:54,820
-Chris: Um, for context, that's the ground stop on November.
-
-31
-00:02:54,820 --> 00:02:58,020
-Chris: The, was it the 15th or 16th?
-
-32
-00:02:58,900 --> 00:03:00,820
-Chris: Oh, well, yeah, it was Friday the 13th, right?
-
-33
-00:03:00,900 --> 00:03:01,940
-Chris: Very ominous.
-
-34
-00:03:04,500 --> 00:03:07,040
-Chris: So the US-wide ground stop on Friday the 13th.
-
-35
-00:03:07,180 --> 00:03:10,440
-Chris: Um, I think like that one is still, we're still waiting for an official
-
-36
-00:03:10,440 --> 00:03:11,820
-Chris: statement on what that was.
-
-37
-00:03:11,820 --> 00:03:15,060
-Chris: It sounds like they're saying, it sounds like it wasn't a cyber attack, but we're
-
-38
-00:03:15,060 --> 00:03:15,500
-Chris: waiting.
-
-39
-00:03:15,980 --> 00:03:17,280
-Tyler: Yeah, it was pretty crazy.
-
-40
-00:03:17,280 --> 00:03:21,460
-Tyler: Cause I saw someone say that that was the, the last time that happened was 9/11.
-
-41
-00:03:21,500 --> 00:03:25,860
-Tyler: And then there was like one other time that had happened in the past like 50 years.
-
-42
-00:03:26,680 --> 00:03:29,800
-Tyler: And so it's like, apparently the system is extremely robust.
-
-43
-00:03:29,800 --> 00:03:34,400
-Tyler: Like how many nines does this system have to like go 50 years without a ground stop
-
-44
-00:03:34,400 --> 00:03:39,880
-Tyler: and then all of a sudden somebody plugs in like, you know, a new router and it just dies.
-
-45
-00:03:40,720 --> 00:03:42,760
-Tyler: That's actually very impressive for a government system.
-
-46
-00:03:42,880 --> 00:03:44,880
-Tyler: Um, you know, like good on them.
-
-47
-00:03:45,560 --> 00:03:48,200
-Tyler: I'm usually the guy who's, you know, tearing down the government.
-
-48
-00:03:49,800 --> 00:03:52,880
-Chris: I'm trying to remember I, one of the press releases, someone was like,
-
-49
-00:03:52,880 --> 00:03:56,160
-Chris: it was like fielding 5,000 requests per second or something.
-
-50
-00:03:56,160 --> 00:03:59,680
-Chris: And I was like, dog, that's, that's an old fucking router.
-
-51
-00:03:59,680 --> 00:04:01,640
-Chris: They're like, that was the flood rate.
-
-52
-00:04:01,740 --> 00:04:06,680
-Tyler: Um, dude, we should run like, uh, you know, our blockchain on that router,
-
-53
-00:04:06,760 --> 00:04:11,900
-Tyler: like, you know, 5,000, you could have like a trillion dollar market cap
-
-54
-00:04:11,900 --> 00:04:14,440
-Tyler: coin with a thousand of 5,000 TPS, bro.
-
-55
-00:04:15,100 --> 00:04:16,560
-Chris: You know what the FAA call me.
-
-56
-00:04:16,580 --> 00:04:19,760
-Chris: We can do EIP one, five, five, nine congestion pricing and
-
-57
-00:04:19,760 --> 00:04:20,760
-Chris: solve this whole thing.
-
-58
-00:04:20,800 --> 00:04:23,440
-Chris: We can add gas, uh, to this system.
-
-59
-00:04:23,480 --> 00:04:28,080
-Tyler: Yeah. How big were the blocks on this FAA router to get 5,000 TPS?
-
-60
-00:04:30,880 --> 00:04:34,840
-Tyler: Were they using, uh, you know, what was their, uh,
-
-61
-00:04:34,880 --> 00:04:36,960
-Tyler: consensus algorithm? Come on.
-
-62
-00:04:38,960 --> 00:04:43,600
-Chris: Spray and pray. It sounds like, um, but yeah, I, I,
-
-63
-00:04:43,600 --> 00:04:48,400
-Chris: I'm not sure. I'm not sure if these are all totally closed yet. Um,
-
-64
-00:04:49,720 --> 00:04:53,440
-Chris: but, uh, yeah, I guess we'll see. Is it, is it,
-
-65
-00:04:53,480 --> 00:05:02,360
-Chris: One, one thought that I had, hold on, one thought that I had was that potentially
-
-66
-00:05:02,360 --> 00:05:07,640
-Chris: like, I, like, I, so it seems like a lot of these, like the, you know, open and
-
-67
-00:05:07,640 --> 00:05:11,760
-Chris: shut case, somebody pushed something bad, but is it also possible that, you know,
-
-68
-00:05:11,760 --> 00:05:18,120
-Chris: due to the massive rate of disclosures that are happening, you know, critical
-
-69
-00:05:18,120 --> 00:05:21,440
-Chris: bugs are being disclosed and people are trying to patch very fast and in the
-
-70
-00:05:21,440 --> 00:05:27,680
-Chris: process of it. Like we're seeing outages. I don't know. That's, that's, I think possible.
-
-71
-00:05:27,680 --> 00:05:29,860
-Chris: But I haven't seen any evidence of it yet.
-
-72
-00:05:29,860 --> 00:05:36,960
-Tyler: Yeah. Like if it ain't broke, don't fix it. Kind of doesn't apply in this damage. When
-
-73
-00:05:36,960 --> 00:05:42,600
-Tyler: like, yeah, you have to force upgrade just because of all the vulnerabilities being discovered.
-
-74
-00:05:42,600 --> 00:05:48,840
-Jackson: Right. Exactly. So maybe the FAA is router has been like running super steady for like
-
-75
-00:05:48,840 --> 00:05:54,760
-Jackson: like 30 years, but they just haven't updated it. It's like running 30-year-old software.
-
-76
-00:05:54,760 --> 00:06:00,440
-Jackson: And then the moment they update it, it just busts everything. Is that what we're saying?
-
-77
-00:06:00,440 --> 00:06:01,440
-Jackson: Right.
-
-78
-00:06:01,440 --> 00:06:08,100
-Tyler: It's like one router. Like they're just like plugging in like an ethernet cord and it runs
-
-79
-00:06:08,100 --> 00:06:15,640
-Tyler: the whole FFA out of one router. Did they like swap out the router and all of the FFA
-
-80
-00:06:15,640 --> 00:06:20,760
-Tyler: things like, or is there an FAA data center that they like swapped a router in? I'm so
-
-81
-00:06:20,760 --> 00:06:24,200
-Tyler: confused about how this router is in the critical path of the FAA.
-
-82
-00:06:25,480 --> 00:06:30,360
-Chris: Yeah. So I heard something about one router in Arkansas. I don't know if that's true.
-
-83
-00:06:30,360 --> 00:06:34,120
-Chris: That sounds totally fake, but I am wearing this hat. So I have to say it.
-
-84
-00:06:35,480 --> 00:06:38,200
-Tyler: It sounds so outrageous that it like probably is real.
-
-85
-00:06:40,920 --> 00:06:45,400
-Jackson: And it says it was during the copper to fiber update. So this router was running copper.
-
-86
-00:06:45,640 --> 00:06:52,280
-Jackson: And they were trying to get it to run fiber, you know pound out a little more than 5k TPS
-
-87
-00:06:53,200 --> 00:06:55,200
-Jackson: Unbelievable
-
-88
-00:06:56,020 --> 00:07:01,380
-Jackson: But I guess just to drop some other big names that were that say that it was their own change
-
-89
-00:07:01,380 --> 00:07:04,520
-Jackson: I believe what you're saying is right Chris. Keep the hat on
-
-90
-00:07:05,480 --> 00:07:07,600
-Jackson: It's possible that these are just
-
-91
-00:07:08,400 --> 00:07:12,200
-Jackson: Just claims to keep everyone calm, but Microsoft 365 was out
-
-92
-00:07:12,800 --> 00:07:17,820
-Jackson: For a day which like I don't know probably I get I'm not gonna say a random number
-
-93
-00:07:17,820 --> 00:07:23,820
-Jackson: But a lot of companies use Microsoft Teams Microsoft 365 workday chase the NSA
-
-94
-00:07:24,680 --> 00:07:29,680
-Jackson: So they couldn't spy on you for an hour. I hope you use that to your advantage. Whoa
-
-95
-00:07:30,220 --> 00:07:33,700
-Chris: It's still down. The NSA internal network is still down
-
-96
-00:07:34,500 --> 00:07:36,500
-Tyler: That's what they want you to think
-
-97
-00:07:36,500 --> 00:07:40,380
-Chris: Yeah, well, I'm wearing the hat in case but yeah, you know, I've been told
-
-98
-00:07:42,800 --> 00:07:50,000
-Tyler: How does Microsoft go down for a whole day? In the same way that it seems like, "Oh,
-
-99
-00:07:50,000 --> 00:07:55,600
-Tyler: it's easier to push changes these days because AI is so easy." Isn't it also easier to use
-
-100
-00:07:55,600 --> 00:08:02,320
-Tyler: AI to diagnose an outage, roll back the relevant code, look through all the logs, fix the
-
-101
-00:08:02,320 --> 00:08:09,300
-Tyler: damage? To have damage that lasts for an entire day for products that probably are making
-
-102
-00:08:09,300 --> 00:08:13,180
-Tyler: billions of dollars a day is like pretty wild.
-
-103
-00:08:13,900 --> 00:08:16,500
-Chris: I guess when you're dealing with life systems of that scale,
-
-104
-00:08:16,500 --> 00:08:19,620
-Chris: people are worried about data integrity when they make any changes.
-
-105
-00:08:22,060 --> 00:08:24,740
-Chris: You know, at the same time, if the outage was strictly an outage,
-
-106
-00:08:24,740 --> 00:08:28,420
-Chris: you would think that like, OK, like there's no data getting in or out.
-
-107
-00:08:28,420 --> 00:08:32,260
-Chris: Like we can take it from, you know, the the last right, right?
-
-108
-00:08:32,260 --> 00:08:35,140
-Chris: The last transactional right to all about data. Yeah.
-
-109
-00:08:36,700 --> 00:08:37,860
-Chris: Yeah, very confusing.
-
-110
-00:08:37,860 --> 00:08:43,100
-Chris: I have heard some people saying that like, oh, this is because they laid off or Microsoft
-
-111
-00:08:43,100 --> 00:08:49,300
-Chris: recently had a voluntary exit where they gave it to 60,000 staff or something.
-
-112
-00:08:49,300 --> 00:08:53,840
-Chris: And one argument is that when you give people voluntary exits, the people who don't need
-
-113
-00:08:53,840 --> 00:08:55,700
-Chris: to exit often take it, right?
-
-114
-00:08:55,700 --> 00:08:58,380
-Chris: Because they have options.
-
-115
-00:08:58,380 --> 00:09:03,500
-Chris: And someone was arguing that like, oh, like, you know, this is like, everyone's vibe coding
-
-116
-00:09:03,500 --> 00:09:08,060
-Chris: and nobody knows what's going on internally now and that's a part of these outages.
-
-117
-00:09:08,060 --> 00:09:12,140
-Chris: I don't really know if I buy that, but it is something that I've heard people talking about.
-
-118
-00:09:12,860 --> 00:09:20,380
-Jackson: I actually read about the Microsoft outage, but I guess I don't know if this is true or not.
-
-119
-00:09:21,180 --> 00:09:29,500
-Jackson: It's that they did a traffic shift to an offline cluster and the other cluster
-
-120
-00:09:30,140 --> 00:09:37,580
-Jackson: was like basically busted, but they couldn't get into it without like some executive approvals.
-
-121
-00:09:37,580 --> 00:09:45,980
-Jackson: So it was like a bureaucratic, like, what do they call it hurdle, a bunch of bureaucratic hurdles to
-
-122
-00:09:45,980 --> 00:09:54,300
-Jackson: get permission to SSH into the, into the busted cluster, and like schedule those meetings with
-
-123
-00:09:54,300 --> 00:10:00,540
-Jackson: executives to to unblock themselves. But could have not been true. I don't know if they would
-
-124
-00:10:00,540 --> 00:10:08,060
-Jackson: release that publicly. If that's true, that's a million times worse than anything that I was
-
-125
-00:10:08,060 --> 00:10:15,420
-Chris: suggesting with my tin foil hat on. That's quite bad. Yeah, that's kind of far cycle that you have
-
-126
-00:10:15,420 --> 00:10:21,900
-Tyler: an organization that's that hierarchical and like top down that like everything is literally broken.
-
-127
-00:10:21,900 --> 00:10:26,780
-Tyler: then you're like, sorry, we have to wait a day to get a meeting with like, this guy is on vacation.
-
-128
-00:10:29,260 --> 00:10:30,940
-Tyler: Like, you know, ask rubber stamp this.
-
-129
-00:10:31,660 --> 00:10:36,620
-Chris: Yeah, Jim has that RSA key in his shell, dude. And he's like in the Bahamas right now.
-
-130
-00:10:36,620 --> 00:10:38,780
-Chris: So we don't have to push this. Yeah.
-
-131
-00:10:41,420 --> 00:10:45,900
-Jackson: Yeah. What a miserable working environment when you have to jump through hoops just to do your job.
-
-132
-00:10:46,780 --> 00:10:54,300
-Jackson: But on the actual hacking side, where vendors are the vulnerability, that was Chase, Visa,
-
-133
-00:10:54,300 --> 00:10:59,580
-Jackson: MasterCard. Have you guys read anything about that? And what do you guys think about using
-
-134
-00:10:59,580 --> 00:11:04,060
-Jackson: external vendors? Does that make you wary as a corporate employee?
-
-135
-00:11:08,300 --> 00:11:12,620
-Chris: So with that one, I'm seeing that. So I remember Chase had an outage and people were freaking out
-
-136
-00:11:12,620 --> 00:11:15,820
-Chris: because they thought that every bank had gone down. But it turns out it was just Chase.
-
-137
-00:11:16,620 --> 00:11:21,020
-Tyler: And it turns out that Chase is hiding behind every bank.
-
-138
-00:11:22,700 --> 00:11:25,020
-Chris: Every bank is just a little bit dependent on Chase.
-
-139
-00:11:25,020 --> 00:11:27,660
-Tyler: It's like systemically important, too big to fail.
-
-140
-00:11:27,660 --> 00:11:30,300
-Tyler: And it's just reskinned Chase, everyone else is back.
-
-141
-00:11:31,900 --> 00:11:32,700
-Chris: A hundred percent.
-
-142
-00:11:33,340 --> 00:11:40,460
-Chris: And then I know that Visa and Mastercard also had leaks concurrently.
-
-143
-00:11:40,460 --> 00:11:44,220
-Chris: But they seem quite small so far.
-
-144
-00:11:44,220 --> 00:11:51,180
-Chris: But I think with all of these things, we have to wait for the dust to settle because
-
-145
-00:11:51,980 --> 00:12:01,100
-Chris: companies often kind of disclose incrementally as they find things out and sometimes as they're
-
-146
-00:12:01,100 --> 00:12:07,740
-Chris: forced to. What I'm seeing now is like 22,000 people's data has been released into the wild,
-
-147
-00:12:09,660 --> 00:12:15,260
-Chris: But it could always be bigger. There is a company that I think we're going to talk
-
-148
-00:12:15,260 --> 00:12:19,580
-Chris: about later that did something like this and it turned out to be much bigger than their
-
-149
-00:12:19,580 --> 00:12:22,460
-Chris: initial disclosure. I think we just have to wait and see.
-
-150
-00:12:23,260 --> 00:12:29,340
-Tyler: There's also one where the European Union got hacked today. Do you guys see that one?
-
-151
-00:12:31,980 --> 00:12:37,500
-Tyler: Yeah, that one seemed rather super bad. It was just a bunch of people employed by the EU.
-
-152
-00:12:38,540 --> 00:12:44,340
-Tyler: literally the European Commission, all their personal data got stolen, their paychecks
-
-153
-00:12:44,340 --> 00:12:51,600
-Tyler: got reset, they weren't going to get their paychecks, their direct deposit, I think.
-
-154
-00:12:51,600 --> 00:12:52,600
-Chris: That's insane.
-
-155
-00:12:52,600 --> 00:12:55,560
-Chris: I also know the Department of Agriculture got hacked and told everyone to change their
-
-156
-00:12:55,560 --> 00:12:57,700
-Chris: usernames and passwords today.
-
-157
-00:12:57,700 --> 00:12:58,700
-Jackson: Wow.
-
-158
-00:12:58,700 --> 00:13:02,880
-Jackson: It's just a flood, it's a flood, man.
-
-159
-00:13:02,880 --> 00:13:04,820
-Jackson: It's a flood of all this.
-
-160
-00:13:04,820 --> 00:13:10,140
-Tyler: those people are going to have to change their password from corn 1 to 3 to corn 1, 2, 3, 4.
-
-161
-00:13:10,140 --> 00:13:23,980
-Chris: I heard Monsanto. Yeah. Yeah. So I think not a cyber incident or not a cyber attack is probably
-
-162
-00:13:23,980 --> 00:13:29,780
-Chris: like the phrase of this month. For me personally, I've heard that maybe like seven times. And I
-
-163
-00:13:29,780 --> 00:13:31,860
-Chris: I think we're gonna hear it a lot more.
-
-164
-00:13:31,860 --> 00:13:32,820
-Jackson: - What do you mean?
-
-165
-00:13:34,100 --> 00:13:37,100
-Chris: - I mean, so every time one of these incidents happen,
-
-166
-00:13:37,100 --> 00:13:40,580
-Chris: the spokesperson says, not a cyber attack or notice,
-
-167
-00:13:40,580 --> 00:13:44,860
-Chris: you know, like for the FAA and for the United outage,
-
-168
-00:13:44,860 --> 00:13:46,140
-Chris: which we also haven't spoken about,
-
-169
-00:13:46,140 --> 00:13:49,540
-Chris: but United also had a separate outage and so on,
-
-170
-00:13:49,540 --> 00:13:53,300
-Chris: because I think people get quite understandably worried.
-
-171
-00:13:53,300 --> 00:13:56,220
-Jackson: - I see, they know what we're expecting.
-
-172
-00:13:56,220 --> 00:13:59,420
-Jackson: It's funny, my friend who works in data center sales
-
-173
-00:13:59,420 --> 00:14:03,500
-Jackson: message me and he's like, are all these companies going down because their data
-
-174
-00:14:03,500 --> 00:14:06,820
-Jackson: centers are running old computers and they need to buy new ones?
-
-175
-00:14:07,580 --> 00:14:11,640
-Jackson: And I'm like, I mean, I guess I don't know, to be honest, we're all making
-
-176
-00:14:11,640 --> 00:14:16,540
-Jackson: assumptions like I had assumed it was all just AI attacks, but when you dig into
-
-177
-00:14:16,540 --> 00:14:22,380
-Jackson: the, at least the, what they're saying, a lot of them are like half ish are just
-
-178
-00:14:22,380 --> 00:14:26,000
-Jackson: breaking their own systems. But maybe it's the pressure, as we
-
-179
-00:14:26,000 --> 00:14:33,560
-Jackson: mentioned, of the AI. And then on a Bitcoin front, we saw chain
-
-180
-00:14:33,720 --> 00:14:41,680
-Jackson: analysis did experience a sustained attack. And first, I
-
-181
-00:14:41,680 --> 00:14:45,440
-Jackson: guess, what is chain analysis? It's the company that exchanges
-
-182
-00:14:45,440 --> 00:14:49,160
-Jackson: use to check whether the crypto that you're trying to buy or sell
-
-183
-00:14:49,200 --> 00:14:53,280
-Jackson: is sanctioned, evil, or stolen.
-
-184
-00:14:54,000 --> 00:14:57,660
-Jackson: And it's the one that the FBI uses to trace crypto.
-
-185
-00:14:58,560 --> 00:15:06,720
-Jackson: And on October 30th, an attack using AI agents was allegedly inside and
-
-186
-00:15:06,720 --> 00:15:10,580
-Jackson: chain analysis turned off some of their products and it looks like
-
-187
-00:15:10,580 --> 00:15:12,240
-Jackson: the attack is still ongoing.
-
-188
-00:15:12,900 --> 00:15:20,580
-Jackson: Chris, uh, on chain analytics expert slash Tyler, what's going on?
-
-189
-00:15:21,900 --> 00:15:24,380
-Chris: Um, I think I can actually take the hat off for this one.
-
-190
-00:15:24,460 --> 00:15:27,820
-Chris: This one's quite straight forward, but I'll put this back on if we need it.
-
-191
-00:15:27,940 --> 00:15:29,740
-Jackson: Um, what a crazy prop.
-
-192
-00:15:32,700 --> 00:15:37,180
-Chris: Um, so, uh, I think this one started on October 30th.
-
-193
-00:15:37,420 --> 00:15:42,780
-Chris: Uh, so that's when some outside actor using offensive agentic
-
-194
-00:15:42,780 --> 00:15:47,700
-Chris: techniques, managed to get into Chainalysis's system.
-
-195
-00:15:47,700 --> 00:15:52,380
-Chris: And Chainalysis claims only non-sensitive data
-
-196
-00:15:52,380 --> 00:15:57,420
-Chris: was accessed, so like names, emails, role labels.
-
-197
-00:15:57,420 --> 00:15:59,820
-Tyler: Nonsensitive names and emails.
-
-198
-00:15:59,820 --> 00:16:01,060
-Chris: Yeah, yeah, yeah, yeah.
-
-199
-00:16:01,060 --> 00:16:03,500
-Chris: I mean, this is the beginning of the ramp
-
-200
-00:16:03,500 --> 00:16:06,380
-Chris: towards what later happens.
-
-201
-00:16:06,380 --> 00:16:08,620
-Tyler: What other data do they have if my name and my email
-
-202
-00:16:08,620 --> 00:16:09,500
-Tyler: isn't sensitive?
-
-203
-00:16:09,500 --> 00:16:12,060
-Tyler: They're like, sorry, we didn't leak the pictures of your genitals
-
-204
-00:16:12,060 --> 00:16:13,060
-Chris: that we had, right?
-
-205
-00:16:13,060 --> 00:16:14,060
-Jackson: Sure.
-
-206
-00:16:14,060 --> 00:16:15,060
-Jackson: How do you have that?
-
-207
-00:16:15,060 --> 00:16:23,600
-Chris: They're like, "When Shane Ellis doesn't know everything, yeah, it's fun at KYC."
-
-208
-00:16:23,600 --> 00:16:28,420
-Chris: Between November 2nd and November 4th, they started emailing customers saying that some
-
-209
-00:16:28,420 --> 00:16:34,920
-Chris: of them were involved in an attack and their passwords were exposed, but at this point
-
-210
-00:16:34,920 --> 00:16:36,660
-Chris: they were saying, "Oh, it's cool.
-
-211
-00:16:36,660 --> 00:16:43,660
-Chris: KYT hasn't been exposed, know your transaction and that nothing live had been exposed.
-
-212
-00:16:43,660 --> 00:16:51,040
-Chris: Then later by November 4th or 5th, they were like, "Actually, names, usernames, password
-
-213
-00:16:51,040 --> 00:16:58,260
-Chris: hashes, live tokens, and some KYT data has been exposed without authorization."
-
-214
-00:16:58,260 --> 00:17:06,100
-Chris: And then obviously, this was a massively long time, so from October 30th to November 10th,
-
-215
-00:17:06,100 --> 00:17:11,300
-Chris: channel analysis was either either had someone in their system or we're dealing with the fallout
-
-216
-00:17:11,300 --> 00:17:21,860
-Chris: of having someone in their system. Um, and, uh, yeah, it's, it's honestly still not totally clear.
-
-217
-00:17:21,860 --> 00:17:26,500
-Chris: Um, you know what the actual fallout was, but obviously they made everybody rotate their
-
-218
-00:17:26,500 --> 00:17:34,500
-Chris: passwords and, uh, rotate their API keys. Uh, and everyone's behind an IP allow list now. Uh, so
-
-219
-00:17:36,100 --> 00:17:44,020
-Jackson: Yeah, I think this one I think is really terrifying for a lot of reasons.
-
-220
-00:17:44,020 --> 00:17:52,320
-Chris: One, they have KYT and KYC data of people, so they have a really huge amount of intelligence
-
-221
-00:17:52,320 --> 00:17:58,260
-Chris: about on-chain transactions, and number two, they're embedded in almost every product.
-
-222
-00:17:58,260 --> 00:18:04,980
-Chris: So the potential blast radius of a breach for something like Chainalysis can be huge.
-
-223
-00:18:04,980 --> 00:18:09,240
-Chris: So Chainalysis doesn't tend to be used this way, where it's embedded in the browser like
-
-224
-00:18:09,240 --> 00:18:11,040
-Chris: some other products.
-
-225
-00:18:11,040 --> 00:18:16,240
-Chris: But when SDKs and products like that do get breached, there's a massive amount of potential
-
-226
-00:18:16,240 --> 00:18:18,600
-Chris: for Mischief.
-
-227
-00:18:18,600 --> 00:18:23,280
-Chris: And I think Chainalysis is one of those vendors, maybe a little bit less, but still.
-
-228
-00:18:23,280 --> 00:18:24,280
-Chris: That's my take.
-
-229
-00:18:24,280 --> 00:18:28,800
-Tyler: One of my questions was, who do you think has the incentive to do this?
-
-230
-00:18:28,800 --> 00:18:36,700
-Tyler: Okay, you could just random hacker found that they were vulnerable and hacked in and then
-
-231
-00:18:36,700 --> 00:18:42,440
-Tyler: they're like, "Okay, we're going to try to just steal data, steal KYC information, whatever,
-
-232
-00:18:42,440 --> 00:18:46,820
-Tyler: how we can monetize the fact that we got into this random company."
-
-233
-00:18:46,820 --> 00:18:52,860
-Tyler: Or it's like a crypto native that got in because they dislike Chainalysis, maybe they want
-
-234
-00:18:52,860 --> 00:18:56,220
-Tyler: to embarrass them.
-
-235
-00:18:56,220 --> 00:19:05,440
-Tyler: And then like another possible theory is that it's like a North Korea style group.
-
-236
-00:19:05,440 --> 00:19:11,460
-Tyler: That's like this, this firm is the number one reason why we we hack like billions of
-
-237
-00:19:11,460 --> 00:19:13,780
-Tyler: dollars of crypto.
-
-238
-00:19:13,780 --> 00:19:19,020
-Tyler: And we can't actually get that money into things that we want.
-
-239
-00:19:19,020 --> 00:19:23,420
-Tyler: Because when we go to trade the Bitcoin for, you know, goods and services or dollars or
-
-240
-00:19:23,420 --> 00:19:29,260
-Tyler: or whatever, Chainalysis flags us, that renders our hacks ineffective. If they can disrupt
-
-241
-00:19:29,260 --> 00:19:34,900
-Tyler: the Chainalysis engine for some amount of time, also, they just did the world's biggest
-
-242
-00:19:34,900 --> 00:19:42,260
-Tyler: hack of crypto ever. And so if they're trying to clean that crypto, and then they can simultaneously
-
-243
-00:19:42,260 --> 00:19:49,960
-Tyler: take Chainalysis offline, maybe they can execute a swap. And yeah, I don't know.
-
-244
-00:19:49,960 --> 00:19:53,720
-Tyler: That's a little bit, I'm more of the tin foil hat now, but like, that strikes me as
-
-245
-00:19:53,720 --> 00:19:58,400
-Tyler: the entity that would have the most reason to do something like this, but more likely
-
-246
-00:19:58,400 --> 00:20:06,660
-Tyler: it's just like random hackers found a loophole and are trying to steal data, do whatever.
-
-247
-00:20:06,660 --> 00:20:13,760
-Chris: Yeah, it really doesn't help that Chinalysis hasn't given a lot of details here.
-
-248
-00:20:13,760 --> 00:20:19,280
-Chris: One thing that does keep coming up is this penetration testing framework called Artex,
-
-249
-00:20:19,280 --> 00:20:25,280
-Chris: is like a harness for penetration testing using agents or in this case like offensive hacking.
-
-250
-00:20:27,280 --> 00:20:30,640
-Tyler: I've heard a lot about they said that was the thing that did the EU hack as well.
-
-251
-00:20:31,840 --> 00:20:36,640
-Chris: Right. This thing keeps getting taken down off of GitHub. Like I've seen it like three or four
-
-252
-00:20:36,640 --> 00:20:41,520
-Tyler: times. It's just like a harness though. Right. And what does the harness say? Like,
-
-253
-00:20:42,240 --> 00:20:45,840
-Tyler: you know, find me vulnerabilities. Like, do you make no mistakes?
-
-254
-00:20:46,480 --> 00:20:47,760
-Chris: Yeah, make no mistakes.
-
-255
-00:20:47,760 --> 00:20:53,760
-Tyler: Yeah. Like, obviously, the thing that is doing the hacking is like the model that has been
-
-256
-00:20:53,760 --> 00:20:58,400
-Chris: obliterated. For sure. But you know, you know how these things go. Yeah.
-
-257
-00:20:58,400 --> 00:21:05,200
-Jackson: So it's like an open source. What do they call it? Pin testing harness that people keep using to
-
-258
-00:21:05,200 --> 00:21:07,200
-Jackson: bust into places. That's what you guys are saying.
-
-259
-00:21:08,000 --> 00:21:12,520
-Chris: Yeah, I think my advice if you're in security would be go to GitHub, download
-
-260
-00:21:12,520 --> 00:21:16,240
-Chris: our text, not financial advice, and run it on your own stuff.
-
-261
-00:21:16,640 --> 00:21:20,720
-Chris: Um, because like, I mean, you, like you have the tools available.
-
-262
-00:21:20,760 --> 00:21:23,560
-Chris: Like everyone has obliterated models available.
-
-263
-00:21:24,000 --> 00:21:27,600
-Chris: And I think, you know, one way to protect yourself is to, like,
-
-264
-00:21:27,600 --> 00:21:28,960
-Tyler: everyone have obliterated model.
-
-265
-00:21:28,960 --> 00:21:31,280
-Tyler: Where does one go to get obliterated models?
-
-266
-00:21:31,800 --> 00:21:35,680
-Chris: I couldn't, I couldn't tell you, but I've heard that out there.
-
-267
-00:21:36,440 --> 00:21:38,200
-Chris: Someone like Venice doesn't do them, right?
-
-268
-00:21:39,800 --> 00:21:40,520
-Chris: Someone does.
-
-269
-00:21:41,320 --> 00:21:43,480
-Tyler: Yeah. Someone does.
-
-270
-00:21:43,480 --> 00:21:47,880
-Jackson: I guess if you're a major, like financial institution that you have access to,
-
-271
-00:21:48,600 --> 00:21:51,960
-Jackson: like Glasswinger, right? So you could hook it up into this.
-
-272
-00:21:53,000 --> 00:21:59,000
-Chris: Or if you don't DM your manager and be like, I need like 20 B200s, hook me up, chief.
-
-273
-00:21:59,000 --> 00:22:01,640
-Chris: It's only like a million dollars, probably.
-
-274
-00:22:02,600 --> 00:22:05,400
-Jackson: Just a quick question on chain analysis, by the way.
-
-275
-00:22:05,400 --> 00:22:12,840
-Jackson: Is Chain Analysis the reason that all the Bitcoin I've ever bought is traceable back to me,
-
-276
-00:22:13,560 --> 00:22:19,800
-Jackson: even if I take it into self-custody? Are they the ones that have created the transaction chain
-
-277
-00:22:19,800 --> 00:22:25,400
-Jackson: linking my Coinbase transactions to my personal wallet address? Or is that somebody else?
-
-278
-00:22:26,040 --> 00:22:36,600
-Tyler: Yes. Chainalysis is the one that is doing all of the blockchain surveillance and blockchain
-
-279
-00:22:36,600 --> 00:22:44,760
-Tyler: forensics. They have statistical models that try to link different transactions, UTXOs,
-
-280
-00:22:44,760 --> 00:22:51,320
-Tyler: entities, accounts on different blockchains. They have lots of signals that they look at.
-
-281
-00:22:51,880 --> 00:22:57,960
-Tyler: obviously, all transaction activity on blockchains is public, it's put in a block forever. But then
-
-282
-00:22:57,960 --> 00:23:02,920
-Tyler: there's other ways that you can gather data on these networks by, for example, running a lot of
-
-283
-00:23:02,920 --> 00:23:11,080
-Tyler: nodes and then logging gossip about transactions and who handed you what about what transactions
-
-284
-00:23:11,080 --> 00:23:18,040
-Tyler: and linking those things. Also, these companies have been known to run honeypot block explorers
-
-285
-00:23:19,160 --> 00:23:24,280
-Tyler: or honeypot, Electrum servers, so that you would just connect to this and think, "Oh,
-
-286
-00:23:24,280 --> 00:23:28,680
-Tyler: let me look up my address," and then they associate your address with the IP and their
-
-287
-00:23:28,680 --> 00:23:35,320
-Tyler: system forever, and you don't know that it's them. So yeah, there's a lot of ways that they
-
-288
-00:23:35,320 --> 00:23:41,560
-Tyler: do this linking, but their business is basically just to gather as much data as they can through
-
-289
-00:23:41,560 --> 00:23:46,280
-Tyler: surveillance of these networks, the public things that happen, and these other kind of...
-
-290
-00:23:48,920 --> 00:23:55,640
-Tyler: let's say, more invasive ways that they gather data, and more entrapment-esque ways that they
-
-291
-00:23:55,640 --> 00:24:01,720
-Tyler: gather data, and then build statistical models on that and sell it to corporations that want to
-
-292
-00:24:01,720 --> 00:24:06,040
-Tyler: convince the government that they are following the Bank Secrecy Act, which should be repealed.
-
-293
-00:24:08,200 --> 00:24:14,920
-Chris: Right. Also, it really rules that that data potentially has been accessed by a 16-year-old
-
-294
-00:24:14,920 --> 00:24:18,760
-Chris: in there on the pants and is right now trying to hock it on telegram that rules. I love that.
-
-295
-00:24:22,120 --> 00:24:24,280
-Jackson: Yeah. That sucks.
-
-296
-00:24:24,920 --> 00:24:27,720
-Tyler: Dennis does have obliterated models now that I see.
-
-297
-00:24:28,600 --> 00:24:31,640
-Jackson: How do they mark that? What's that?
-
-298
-00:24:32,600 --> 00:24:37,640
-Jackson: What is the marking? Are there models that you know are obliterated or does it say?
-
-299
-00:24:37,640 --> 00:24:38,120
-Jackson: It says obliterated.
-
-300
-00:24:38,120 --> 00:24:42,200
-Tyler: I'm looking at their model catalog and you know what letter is at the top of the alphabet?
-
-301
-00:24:43,240 --> 00:24:49,720
-Tyler: A, you know what other letter is very close to being at the top of the outfit? B. So it
-
-302
-00:24:49,720 --> 00:24:56,600
-Tyler: shows up at the top of their model catalog. Obliterated large flash and obliterated large
-
-303
-00:24:56,600 --> 00:25:01,640
-Tyler: V2, which is apparently GLM 5.3, which is a very smart model. And if it's obliterated,
-
-304
-00:25:01,640 --> 00:25:07,080
-Tyler: it's probably fucking awesome at hacking. Although this is just in their anonymous tier,
-
-305
-00:25:07,960 --> 00:25:17,700
-Tyler: And it would not be done privately at a T. So, you know, don't do anything with it that
-
-306
-00:25:17,700 --> 00:25:24,880
-Tyler: you don't want our friends at Venice knowing about because even though they say it's anonymous,
-
-307
-00:25:24,880 --> 00:25:26,680
-Tyler: you got to take their word for it.
-
-308
-00:25:26,680 --> 00:25:27,680
-Chris: Right.
-
-309
-00:25:27,680 --> 00:25:32,880
-Chris: Which you should only be pen testing your own systems with this, by the way, obviously.
-
-310
-00:25:32,880 --> 00:25:40,400
-Jackson: Wait, so I totally thought you guys are just pronouncing the word obliterated weird, but
-
-311
-00:25:40,400 --> 00:25:45,040
-Jackson: it's two different words, obliterated, obliterated, obliterated.
-
-312
-00:25:45,040 --> 00:25:46,040
-Jackson: The more you...
-
-313
-00:25:46,040 --> 00:25:47,040
-Tyler: Yeah, it's obliterated.
-
-314
-00:25:47,040 --> 00:25:48,040
-Tyler: This is the...
-
-315
-00:25:48,040 --> 00:25:49,040
-Jackson: Yeah.
-
-316
-00:25:49,040 --> 00:25:58,840
-Tyler: I think it's like ablation, but then like having an ablation, having done to this model,
-
-317
-00:25:58,840 --> 00:25:59,840
-Jackson: ablationated.
-
-318
-00:25:59,840 --> 00:26:00,840
-Chris: Yeah.
-
-319
-00:26:00,840 --> 00:26:01,840
-Jackson: Okay.
-
-320
-00:26:01,840 --> 00:26:07,040
-Jackson: Okay. I thought it was like we obliterated the guardrails, like we blew them away. Anyways,
-
-321
-00:26:07,040 --> 00:26:12,400
-Jackson: man, well, chain analysis. Thank you for exposing all my on-chain data and my homies.
-
-322
-00:26:13,120 --> 00:26:17,840
-Jackson: Yo, like and subscribe. Chris: Hey, everyone. Chris from Underpod here. Please,
-
-323
-00:26:17,840 --> 00:26:21,200
-Chris: please like and subscribe. I'm so hungry. Please.
-
-324
-00:26:22,000 --> 00:26:23,040
+00:02:35,600 --> 00:02:37,000
 Tyler: I'll let you guys handle it.
 
+28
+00:02:38,340 --> 00:02:42,660
+Chris: Um, I, so I think I think the jury is still out on some of these.
+
+29
+00:02:42,700 --> 00:02:47,180
+Chris: So I think the FAA is going to give a, an announcement about
+
+30
+00:02:47,620 --> 00:02:51,980
+Chris: the cause of like what that particular outage was about.
+
+31
+00:02:52,020 --> 00:02:56,420
+Chris: Um, for context, that's the ground stop on November.
+
+32
+00:02:56,420 --> 00:02:59,620
+Chris: The, was it the 15th or 16th?
+
+33
+00:03:00,500 --> 00:03:02,420
+Chris: Oh, well, yeah, it was Friday the 13th, right?
+
+34
+00:03:02,500 --> 00:03:03,540
+Chris: Very ominous.
+
+35
+00:03:06,100 --> 00:03:08,640
+Chris: So the US-wide ground stop on Friday the 13th.
+
+36
+00:03:08,780 --> 00:03:12,040
+Chris: Um, I think like that one is still, we're still waiting for an official
+
+37
+00:03:12,040 --> 00:03:13,420
+Chris: statement on what that was.
+
+38
+00:03:13,420 --> 00:03:16,660
+Chris: It sounds like they're saying, it sounds like it wasn't a cyber attack, but we're
+
+39
+00:03:16,660 --> 00:03:17,100
+Chris: waiting.
+
+40
+00:03:17,580 --> 00:03:18,880
+Tyler: Yeah, it was pretty crazy.
+
+41
+00:03:18,880 --> 00:03:23,060
+Tyler: Cause I saw someone say that that was the, the last time that happened was 9/11.
+
+42
+00:03:23,100 --> 00:03:27,460
+Tyler: And then there was like one other time that had happened in the past like 50 years.
+
+43
+00:03:28,280 --> 00:03:31,400
+Tyler: And so it's like, apparently the system is extremely robust.
+
+44
+00:03:31,400 --> 00:03:36,000
+Tyler: Like how many nines does this system have to like go 50 years without a ground stop
+
+45
+00:03:36,000 --> 00:03:41,480
+Tyler: and then all of a sudden somebody plugs in like, you know, a new router and it just dies.
+
+46
+00:03:42,320 --> 00:03:44,360
+Tyler: That's actually very impressive for a government system.
+
+47
+00:03:44,480 --> 00:03:46,480
+Tyler: Um, you know, like good on them.
+
+48
+00:03:47,160 --> 00:03:49,800
+Tyler: I'm usually the guy who's, you know, tearing down the government.
+
+49
+00:03:51,400 --> 00:03:54,480
+Chris: I'm trying to remember I, one of the press releases, someone was like,
+
+50
+00:03:54,480 --> 00:03:57,760
+Chris: it was like fielding 5,000 requests per second or something.
+
+51
+00:03:57,760 --> 00:04:01,280
+Chris: And I was like, dog, that's, that's an old fucking router.
+
+52
+00:04:01,280 --> 00:04:03,240
+Chris: They're like, that was the flood rate.
+
+53
+00:04:03,340 --> 00:04:08,280
+Tyler: Um, dude, we should run like, uh, you know, our blockchain on that router,
+
+54
+00:04:08,360 --> 00:04:13,500
+Tyler: like, you know, 5,000, you could have like a trillion dollar market cap
+
+55
+00:04:13,500 --> 00:04:16,040
+Tyler: coin with a thousand of 5,000 TPS, bro.
+
+56
+00:04:16,700 --> 00:04:18,160
+Chris: You know what the FAA call me.
+
+57
+00:04:18,180 --> 00:04:21,360
+Chris: We can do EIP one, five, five, nine congestion pricing and
+
+58
+00:04:21,360 --> 00:04:22,360
+Chris: solve this whole thing.
+
+59
+00:04:22,400 --> 00:04:25,040
+Chris: We can add gas, uh, to this system.
+
+60
+00:04:25,080 --> 00:04:29,680
+Tyler: Yeah. How big were the blocks on this FAA router to get 5,000 TPS?
+
+61
+00:04:32,480 --> 00:04:36,440
+Tyler: Were they using, uh, you know, what was their, uh,
+
+62
+00:04:36,480 --> 00:04:38,560
+Tyler: consensus algorithm? Come on.
+
+63
+00:04:40,560 --> 00:04:45,200
+Chris: Spray and pray. It sounds like, um, but yeah, I, I,
+
+64
+00:04:45,200 --> 00:04:50,000
+Chris: I'm not sure. I'm not sure if these are all totally closed yet. Um,
+
+65
+00:04:51,320 --> 00:04:55,040
+Chris: but, uh, yeah, I guess we'll see. Is it, is it,
+
+66
+00:04:55,080 --> 00:05:03,960
+Chris: One, one thought that I had, hold on, one thought that I had was that potentially
+
+67
+00:05:03,960 --> 00:05:09,240
+Chris: like, I, like, I, so it seems like a lot of these, like the, you know, open and
+
+68
+00:05:09,240 --> 00:05:13,360
+Chris: shut case, somebody pushed something bad, but is it also possible that, you know,
+
+69
+00:05:13,360 --> 00:05:19,720
+Chris: due to the massive rate of disclosures that are happening, you know, critical
+
+70
+00:05:19,720 --> 00:05:23,040
+Chris: bugs are being disclosed and people are trying to patch very fast and in the
+
+71
+00:05:23,040 --> 00:05:29,280
+Chris: process of it. Like we're seeing outages. I don't know. That's, that's, I think possible.
+
+72
+00:05:29,280 --> 00:05:31,460
+Chris: But I haven't seen any evidence of it yet.
+
+73
+00:05:31,460 --> 00:05:38,560
+Tyler: Yeah. Like if it ain't broke, don't fix it. Kind of doesn't apply in this damage. When
+
+74
+00:05:38,560 --> 00:05:44,200
+Tyler: like, yeah, you have to force upgrade just because of all the vulnerabilities being discovered.
+
+75
+00:05:44,200 --> 00:05:50,440
+Jackson: Right. Exactly. So maybe the FAA is router has been like running super steady for like
+
+76
+00:05:50,440 --> 00:05:56,360
+Jackson: like 30 years, but they just haven't updated it. It's like running 30-year-old software.
+
+77
+00:05:56,360 --> 00:06:02,040
+Jackson: And then the moment they update it, it just busts everything. Is that what we're saying?
+
+78
+00:06:02,040 --> 00:06:03,040
+Jackson: Right.
+
+79
+00:06:03,040 --> 00:06:09,700
+Tyler: It's like one router. Like they're just like plugging in like an ethernet cord and it runs
+
+80
+00:06:09,700 --> 00:06:17,240
+Tyler: the whole FFA out of one router. Did they like swap out the router and all of the FFA
+
+81
+00:06:17,240 --> 00:06:22,360
+Tyler: things like, or is there an FAA data center that they like swapped a router in? I'm so
+
+82
+00:06:22,360 --> 00:06:25,800
+Tyler: confused about how this router is in the critical path of the FAA.
+
+83
+00:06:27,080 --> 00:06:31,960
+Chris: Yeah. So I heard something about one router in Arkansas. I don't know if that's true.
+
+84
+00:06:31,960 --> 00:06:35,720
+Chris: That sounds totally fake, but I am wearing this hat. So I have to say it.
+
+85
+00:06:37,080 --> 00:06:39,800
+Tyler: It sounds so outrageous that it like probably is real.
+
+86
+00:06:42,520 --> 00:06:47,000
+Jackson: And it says it was during the copper to fiber update. So this router was running copper.
+
+87
+00:06:47,240 --> 00:06:53,880
+Jackson: And they were trying to get it to run fiber, you know pound out a little more than 5k TPS
+
+88
+00:06:54,800 --> 00:06:56,800
+Jackson: Unbelievable
+
+89
+00:06:57,620 --> 00:07:02,980
+Jackson: But I guess just to drop some other big names that were that say that it was their own change
+
+90
+00:07:02,980 --> 00:07:06,120
+Jackson: I believe what you're saying is right Chris. Keep the hat on
+
+91
+00:07:07,080 --> 00:07:09,200
+Jackson: It's possible that these are just
+
+92
+00:07:10,000 --> 00:07:13,800
+Jackson: Just claims to keep everyone calm, but Microsoft 365 was out
+
+93
+00:07:14,400 --> 00:07:19,420
+Jackson: For a day which like I don't know probably I get I'm not gonna say a random number
+
+94
+00:07:19,420 --> 00:07:25,420
+Jackson: But a lot of companies use Microsoft Teams Microsoft 365 workday chase the NSA
+
+95
+00:07:26,280 --> 00:07:31,280
+Jackson: So they couldn't spy on you for an hour. I hope you use that to your advantage. Whoa
+
+96
+00:07:31,820 --> 00:07:35,300
+Chris: It's still down. The NSA internal network is still down
+
+97
+00:07:36,100 --> 00:07:38,100
+Tyler: That's what they want you to think
+
+98
+00:07:38,100 --> 00:07:41,980
+Chris: Yeah, well, I'm wearing the hat in case but yeah, you know, I've been told
+
+99
+00:07:44,400 --> 00:07:51,600
+Tyler: How does Microsoft go down for a whole day? In the same way that it seems like, "Oh,
+
+100
+00:07:51,600 --> 00:07:57,200
+Tyler: it's easier to push changes these days because AI is so easy." Isn't it also easier to use
+
+101
+00:07:57,200 --> 00:08:03,920
+Tyler: AI to diagnose an outage, roll back the relevant code, look through all the logs, fix the
+
+102
+00:08:03,920 --> 00:08:10,900
+Tyler: damage? To have damage that lasts for an entire day for products that probably are making
+
+103
+00:08:10,900 --> 00:08:14,780
+Tyler: billions of dollars a day is like pretty wild.
+
+104
+00:08:15,500 --> 00:08:18,100
+Chris: I guess when you're dealing with life systems of that scale,
+
+105
+00:08:18,100 --> 00:08:21,220
+Chris: people are worried about data integrity when they make any changes.
+
+106
+00:08:23,660 --> 00:08:26,340
+Chris: You know, at the same time, if the outage was strictly an outage,
+
+107
+00:08:26,340 --> 00:08:30,020
+Chris: you would think that like, OK, like there's no data getting in or out.
+
+108
+00:08:30,020 --> 00:08:33,860
+Chris: Like we can take it from, you know, the the last right, right?
+
+109
+00:08:33,860 --> 00:08:36,740
+Chris: The last transactional right to all about data. Yeah.
+
+110
+00:08:38,300 --> 00:08:39,460
+Chris: Yeah, very confusing.
+
+111
+00:08:39,460 --> 00:08:44,700
+Chris: I have heard some people saying that like, oh, this is because they laid off or Microsoft
+
+112
+00:08:44,700 --> 00:08:50,900
+Chris: recently had a voluntary exit where they gave it to 60,000 staff or something.
+
+113
+00:08:50,900 --> 00:08:55,440
+Chris: And one argument is that when you give people voluntary exits, the people who don't need
+
+114
+00:08:55,440 --> 00:08:57,300
+Chris: to exit often take it, right?
+
+115
+00:08:57,300 --> 00:08:59,980
+Chris: Because they have options.
+
+116
+00:08:59,980 --> 00:09:05,100
+Chris: And someone was arguing that like, oh, like, you know, this is like, everyone's vibe coding
+
+117
+00:09:05,100 --> 00:09:09,660
+Chris: and nobody knows what's going on internally now and that's a part of these outages.
+
+118
+00:09:09,660 --> 00:09:13,740
+Chris: I don't really know if I buy that, but it is something that I've heard people talking about.
+
+119
+00:09:14,460 --> 00:09:21,980
+Jackson: I actually read about the Microsoft outage, but I guess I don't know if this is true or not.
+
+120
+00:09:22,780 --> 00:09:31,100
+Jackson: It's that they did a traffic shift to an offline cluster and the other cluster
+
+121
+00:09:31,740 --> 00:09:39,180
+Jackson: was like basically busted, but they couldn't get into it without like some executive approvals.
+
+122
+00:09:39,180 --> 00:09:47,580
+Jackson: So it was like a bureaucratic, like, what do they call it hurdle, a bunch of bureaucratic hurdles to
+
+123
+00:09:47,580 --> 00:09:55,900
+Jackson: get permission to SSH into the, into the busted cluster, and like schedule those meetings with
+
+124
+00:09:55,900 --> 00:10:02,140
+Jackson: executives to to unblock themselves. But could have not been true. I don't know if they would
+
+125
+00:10:02,140 --> 00:10:09,660
+Jackson: release that publicly. If that's true, that's a million times worse than anything that I was
+
+126
+00:10:09,660 --> 00:10:17,020
+Chris: suggesting with my tin foil hat on. That's quite bad. Yeah, that's kind of far cycle that you have
+
+127
+00:10:17,020 --> 00:10:23,500
+Tyler: an organization that's that hierarchical and like top down that like everything is literally broken.
+
+128
+00:10:23,500 --> 00:10:28,380
+Tyler: then you're like, sorry, we have to wait a day to get a meeting with like, this guy is on vacation.
+
+129
+00:10:30,860 --> 00:10:32,540
+Tyler: Like, you know, ask rubber stamp this.
+
+130
+00:10:33,260 --> 00:10:38,220
+Chris: Yeah, Jim has that RSA key in his shell, dude. And he's like in the Bahamas right now.
+
+131
+00:10:38,220 --> 00:10:40,380
+Chris: So we don't have to push this. Yeah.
+
+132
+00:10:43,020 --> 00:10:47,500
+Jackson: Yeah. What a miserable working environment when you have to jump through hoops just to do your job.
+
+133
+00:10:48,380 --> 00:10:55,900
+Jackson: But on the actual hacking side, where vendors are the vulnerability, that was Chase, Visa,
+
+134
+00:10:55,900 --> 00:11:01,180
+Jackson: MasterCard. Have you guys read anything about that? And what do you guys think about using
+
+135
+00:11:01,180 --> 00:11:05,660
+Jackson: external vendors? Does that make you wary as a corporate employee?
+
+136
+00:11:09,900 --> 00:11:14,220
+Chris: So with that one, I'm seeing that. So I remember Chase had an outage and people were freaking out
+
+137
+00:11:14,220 --> 00:11:17,420
+Chris: because they thought that every bank had gone down. But it turns out it was just Chase.
+
+138
+00:11:18,220 --> 00:11:22,620
+Tyler: And it turns out that Chase is hiding behind every bank.
+
+139
+00:11:24,300 --> 00:11:26,620
+Chris: Every bank is just a little bit dependent on Chase.
+
+140
+00:11:26,620 --> 00:11:29,260
+Tyler: It's like systemically important, too big to fail.
+
+141
+00:11:29,260 --> 00:11:31,900
+Tyler: And it's just reskinned Chase, everyone else is back.
+
+142
+00:11:33,500 --> 00:11:34,300
+Chris: A hundred percent.
+
+143
+00:11:34,940 --> 00:11:42,060
+Chris: And then I know that Visa and Mastercard also had leaks concurrently.
+
+144
+00:11:42,060 --> 00:11:45,820
+Chris: But they seem quite small so far.
+
+145
+00:11:45,820 --> 00:11:52,780
+Chris: But I think with all of these things, we have to wait for the dust to settle because
+
+146
+00:11:53,580 --> 00:12:02,700
+Chris: companies often kind of disclose incrementally as they find things out and sometimes as they're
+
+147
+00:12:02,700 --> 00:12:09,340
+Chris: forced to. What I'm seeing now is like 22,000 people's data has been released into the wild,
+
+148
+00:12:11,260 --> 00:12:16,860
+Chris: But it could always be bigger. There is a company that I think we're going to talk
+
+149
+00:12:16,860 --> 00:12:21,180
+Chris: about later that did something like this and it turned out to be much bigger than their
+
+150
+00:12:21,180 --> 00:12:24,060
+Chris: initial disclosure. I think we just have to wait and see.
+
+151
+00:12:24,860 --> 00:12:30,940
+Tyler: There's also one where the European Union got hacked today. Do you guys see that one?
+
+152
+00:12:33,580 --> 00:12:39,100
+Tyler: Yeah, that one seemed rather super bad. It was just a bunch of people employed by the EU.
+
+153
+00:12:40,140 --> 00:12:45,940
+Tyler: literally the European Commission, all their personal data got stolen, their paychecks
+
+154
+00:12:45,940 --> 00:12:53,200
+Tyler: got reset, they weren't going to get their paychecks, their direct deposit, I think.
+
+155
+00:12:53,200 --> 00:12:54,200
+Chris: That's insane.
+
+156
+00:12:54,200 --> 00:12:57,160
+Chris: I also know the Department of Agriculture got hacked and told everyone to change their
+
+157
+00:12:57,160 --> 00:12:59,300
+Chris: usernames and passwords today.
+
+158
+00:12:59,300 --> 00:13:00,300
+Jackson: Wow.
+
+159
+00:13:00,300 --> 00:13:04,480
+Jackson: It's just a flood, it's a flood, man.
+
+160
+00:13:04,480 --> 00:13:06,420
+Jackson: It's a flood of all this.
+
+161
+00:13:06,420 --> 00:13:11,740
+Tyler: those people are going to have to change their password from corn 1 to 3 to corn 1, 2, 3, 4.
+
+162
+00:13:11,740 --> 00:13:25,580
+Chris: I heard Monsanto. Yeah. Yeah. So I think not a cyber incident or not a cyber attack is probably
+
+163
+00:13:25,580 --> 00:13:31,380
+Chris: like the phrase of this month. For me personally, I've heard that maybe like seven times. And I
+
+164
+00:13:31,380 --> 00:13:33,460
+Chris: I think we're gonna hear it a lot more.
+
+165
+00:13:33,460 --> 00:13:34,420
+Jackson: - What do you mean?
+
+166
+00:13:35,700 --> 00:13:38,700
+Chris: - I mean, so every time one of these incidents happen,
+
+167
+00:13:38,700 --> 00:13:42,180
+Chris: the spokesperson says, not a cyber attack or notice,
+
+168
+00:13:42,180 --> 00:13:46,460
+Chris: you know, like for the FAA and for the United outage,
+
+169
+00:13:46,460 --> 00:13:47,740
+Chris: which we also haven't spoken about,
+
+170
+00:13:47,740 --> 00:13:51,140
+Chris: but United also had a separate outage and so on,
+
+171
+00:13:51,140 --> 00:13:54,900
+Chris: because I think people get quite understandably worried.
+
+172
+00:13:54,900 --> 00:13:57,820
+Jackson: - I see, they know what we're expecting.
+
+173
+00:13:57,820 --> 00:14:01,020
+Jackson: It's funny, my friend who works in data center sales
+
+174
+00:14:01,020 --> 00:14:05,100
+Jackson: message me and he's like, are all these companies going down because their data
+
+175
+00:14:05,100 --> 00:14:08,420
+Jackson: centers are running old computers and they need to buy new ones?
+
+176
+00:14:09,180 --> 00:14:13,240
+Jackson: And I'm like, I mean, I guess I don't know, to be honest, we're all making
+
+177
+00:14:13,240 --> 00:14:18,140
+Jackson: assumptions like I had assumed it was all just AI attacks, but when you dig into
+
+178
+00:14:18,140 --> 00:14:23,980
+Jackson: the, at least the, what they're saying, a lot of them are like half ish are just
+
+179
+00:14:23,980 --> 00:14:27,600
+Jackson: breaking their own systems. But maybe it's the pressure, as we
+
+180
+00:14:27,600 --> 00:14:35,160
+Jackson: mentioned, of the AI. And then on a Bitcoin front, we saw chain
+
+181
+00:14:35,320 --> 00:14:43,280
+Jackson: analysis did experience a sustained attack. And first, I
+
+182
+00:14:43,280 --> 00:14:47,040
+Jackson: guess, what is chain analysis? It's the company that exchanges
+
+183
+00:14:47,040 --> 00:14:50,760
+Jackson: use to check whether the crypto that you're trying to buy or sell
+
+184
+00:14:50,800 --> 00:14:54,880
+Jackson: is sanctioned, evil, or stolen.
+
+185
+00:14:55,600 --> 00:14:59,260
+Jackson: And it's the one that the FBI uses to trace crypto.
+
+186
+00:15:00,160 --> 00:15:08,320
+Jackson: And on October 30th, an attack using AI agents was allegedly inside and
+
+187
+00:15:08,320 --> 00:15:12,180
+Jackson: chain analysis turned off some of their products and it looks like
+
+188
+00:15:12,180 --> 00:15:13,840
+Jackson: the attack is still ongoing.
+
+189
+00:15:14,500 --> 00:15:22,180
+Jackson: Chris, uh, on chain analytics expert slash Tyler, what's going on?
+
+190
+00:15:23,500 --> 00:15:25,980
+Chris: Um, I think I can actually take the hat off for this one.
+
+191
+00:15:26,060 --> 00:15:29,420
+Chris: This one's quite straight forward, but I'll put this back on if we need it.
+
+192
+00:15:29,540 --> 00:15:31,340
+Jackson: Um, what a crazy prop.
+
+193
+00:15:34,300 --> 00:15:38,780
+Chris: Um, so, uh, I think this one started on October 30th.
+
+194
+00:15:39,020 --> 00:15:44,380
+Chris: Uh, so that's when some outside actor using offensive agentic
+
+195
+00:15:44,380 --> 00:15:49,300
+Chris: techniques, managed to get into Chainalysis's system.
+
+196
+00:15:49,300 --> 00:15:53,980
+Chris: And Chainalysis claims only non-sensitive data
+
+197
+00:15:53,980 --> 00:15:59,020
+Chris: was accessed, so like names, emails, role labels.
+
+198
+00:15:59,020 --> 00:16:01,420
+Tyler: Nonsensitive names and emails.
+
+199
+00:16:01,420 --> 00:16:02,660
+Chris: Yeah, yeah, yeah, yeah.
+
+200
+00:16:02,660 --> 00:16:05,100
+Chris: I mean, this is the beginning of the ramp
+
+201
+00:16:05,100 --> 00:16:07,980
+Chris: towards what later happens.
+
+202
+00:16:07,980 --> 00:16:10,220
+Tyler: What other data do they have if my name and my email
+
+203
+00:16:10,220 --> 00:16:11,100
+Tyler: isn't sensitive?
+
+204
+00:16:11,100 --> 00:16:13,660
+Tyler: They're like, sorry, we didn't leak the pictures of your genitals
+
+205
+00:16:13,660 --> 00:16:14,660
+Chris: that we had, right?
+
+206
+00:16:14,660 --> 00:16:15,660
+Jackson: Sure.
+
+207
+00:16:15,660 --> 00:16:16,660
+Jackson: How do you have that?
+
+208
+00:16:16,660 --> 00:16:25,200
+Chris: They're like, "When Shane Ellis doesn't know everything, yeah, it's fun at KYC."
+
+209
+00:16:25,200 --> 00:16:30,020
+Chris: Between November 2nd and November 4th, they started emailing customers saying that some
+
+210
+00:16:30,020 --> 00:16:36,520
+Chris: of them were involved in an attack and their passwords were exposed, but at this point
+
+211
+00:16:36,520 --> 00:16:38,260
+Chris: they were saying, "Oh, it's cool.
+
+212
+00:16:38,260 --> 00:16:45,260
+Chris: KYT hasn't been exposed, know your transaction and that nothing live had been exposed.
+
+213
+00:16:45,260 --> 00:16:52,640
+Chris: Then later by November 4th or 5th, they were like, "Actually, names, usernames, password
+
+214
+00:16:52,640 --> 00:16:59,860
+Chris: hashes, live tokens, and some KYT data has been exposed without authorization."
+
+215
+00:16:59,860 --> 00:17:07,700
+Chris: And then obviously, this was a massively long time, so from October 30th to November 10th,
+
+216
+00:17:07,700 --> 00:17:12,900
+Chris: channel analysis was either either had someone in their system or we're dealing with the fallout
+
+217
+00:17:12,900 --> 00:17:23,460
+Chris: of having someone in their system. Um, and, uh, yeah, it's, it's honestly still not totally clear.
+
+218
+00:17:23,460 --> 00:17:28,100
+Chris: Um, you know what the actual fallout was, but obviously they made everybody rotate their
+
+219
+00:17:28,100 --> 00:17:36,100
+Chris: passwords and, uh, rotate their API keys. Uh, and everyone's behind an IP allow list now. Uh, so
+
+220
+00:17:37,700 --> 00:17:45,620
+Jackson: Yeah, I think this one I think is really terrifying for a lot of reasons.
+
+221
+00:17:45,620 --> 00:17:53,920
+Chris: One, they have KYT and KYC data of people, so they have a really huge amount of intelligence
+
+222
+00:17:53,920 --> 00:17:59,860
+Chris: about on-chain transactions, and number two, they're embedded in almost every product.
+
+223
+00:17:59,860 --> 00:18:06,580
+Chris: So the potential blast radius of a breach for something like Chainalysis can be huge.
+
+224
+00:18:06,580 --> 00:18:10,840
+Chris: So Chainalysis doesn't tend to be used this way, where it's embedded in the browser like
+
+225
+00:18:10,840 --> 00:18:12,640
+Chris: some other products.
+
+226
+00:18:12,640 --> 00:18:17,840
+Chris: But when SDKs and products like that do get breached, there's a massive amount of potential
+
+227
+00:18:17,840 --> 00:18:20,200
+Chris: for Mischief.
+
+228
+00:18:20,200 --> 00:18:24,880
+Chris: And I think Chainalysis is one of those vendors, maybe a little bit less, but still.
+
+229
+00:18:24,880 --> 00:18:25,880
+Chris: That's my take.
+
+230
+00:18:25,880 --> 00:18:30,400
+Tyler: One of my questions was, who do you think has the incentive to do this?
+
+231
+00:18:30,400 --> 00:18:38,300
+Tyler: Okay, you could just random hacker found that they were vulnerable and hacked in and then
+
+232
+00:18:38,300 --> 00:18:44,040
+Tyler: they're like, "Okay, we're going to try to just steal data, steal KYC information, whatever,
+
+233
+00:18:44,040 --> 00:18:48,420
+Tyler: how we can monetize the fact that we got into this random company."
+
+234
+00:18:48,420 --> 00:18:54,460
+Tyler: Or it's like a crypto native that got in because they dislike Chainalysis, maybe they want
+
+235
+00:18:54,460 --> 00:18:57,820
+Tyler: to embarrass them.
+
+236
+00:18:57,820 --> 00:19:07,040
+Tyler: And then like another possible theory is that it's like a North Korea style group.
+
+237
+00:19:07,040 --> 00:19:13,060
+Tyler: That's like this, this firm is the number one reason why we we hack like billions of
+
+238
+00:19:13,060 --> 00:19:15,380
+Tyler: dollars of crypto.
+
+239
+00:19:15,380 --> 00:19:20,620
+Tyler: And we can't actually get that money into things that we want.
+
+240
+00:19:20,620 --> 00:19:25,020
+Tyler: Because when we go to trade the Bitcoin for, you know, goods and services or dollars or
+
+241
+00:19:25,020 --> 00:19:30,860
+Tyler: or whatever, Chainalysis flags us, that renders our hacks ineffective. If they can disrupt
+
+242
+00:19:30,860 --> 00:19:36,500
+Tyler: the Chainalysis engine for some amount of time, also, they just did the world's biggest
+
+243
+00:19:36,500 --> 00:19:43,860
+Tyler: hack of crypto ever. And so if they're trying to clean that crypto, and then they can simultaneously
+
+244
+00:19:43,860 --> 00:19:51,560
+Tyler: take Chainalysis offline, maybe they can execute a swap. And yeah, I don't know.
+
+245
+00:19:51,560 --> 00:19:55,320
+Tyler: That's a little bit, I'm more of the tin foil hat now, but like, that strikes me as
+
+246
+00:19:55,320 --> 00:20:00,000
+Tyler: the entity that would have the most reason to do something like this, but more likely
+
+247
+00:20:00,000 --> 00:20:08,260
+Tyler: it's just like random hackers found a loophole and are trying to steal data, do whatever.
+
+248
+00:20:08,260 --> 00:20:15,360
+Chris: Yeah, it really doesn't help that Chinalysis hasn't given a lot of details here.
+
+249
+00:20:15,360 --> 00:20:20,880
+Chris: One thing that does keep coming up is this penetration testing framework called Artex,
+
+250
+00:20:20,880 --> 00:20:26,880
+Chris: is like a harness for penetration testing using agents or in this case like offensive hacking.
+
+251
+00:20:28,880 --> 00:20:32,240
+Tyler: I've heard a lot about they said that was the thing that did the EU hack as well.
+
+252
+00:20:33,440 --> 00:20:38,240
+Chris: Right. This thing keeps getting taken down off of GitHub. Like I've seen it like three or four
+
+253
+00:20:38,240 --> 00:20:43,120
+Tyler: times. It's just like a harness though. Right. And what does the harness say? Like,
+
+254
+00:20:43,840 --> 00:20:47,440
+Tyler: you know, find me vulnerabilities. Like, do you make no mistakes?
+
+255
+00:20:48,080 --> 00:20:49,360
+Chris: Yeah, make no mistakes.
+
+256
+00:20:49,360 --> 00:20:55,360
+Tyler: Yeah. Like, obviously, the thing that is doing the hacking is like the model that has been
+
+257
+00:20:55,360 --> 00:21:00,000
+Chris: obliterated. For sure. But you know, you know how these things go. Yeah.
+
+258
+00:21:00,000 --> 00:21:06,800
+Jackson: So it's like an open source. What do they call it? Pin testing harness that people keep using to
+
+259
+00:21:06,800 --> 00:21:08,800
+Jackson: bust into places. That's what you guys are saying.
+
+260
+00:21:09,600 --> 00:21:14,120
+Chris: Yeah, I think my advice if you're in security would be go to GitHub, download
+
+261
+00:21:14,120 --> 00:21:17,840
+Chris: our text, not financial advice, and run it on your own stuff.
+
+262
+00:21:18,240 --> 00:21:22,320
+Chris: Um, because like, I mean, you, like you have the tools available.
+
+263
+00:21:22,360 --> 00:21:25,160
+Chris: Like everyone has obliterated models available.
+
+264
+00:21:25,600 --> 00:21:29,200
+Chris: And I think, you know, one way to protect yourself is to, like,
+
+265
+00:21:29,200 --> 00:21:30,560
+Tyler: everyone have obliterated model.
+
+266
+00:21:30,560 --> 00:21:32,880
+Tyler: Where does one go to get obliterated models?
+
+267
+00:21:33,400 --> 00:21:37,280
+Chris: I couldn't, I couldn't tell you, but I've heard that out there.
+
+268
+00:21:38,040 --> 00:21:39,800
+Chris: Someone like Venice doesn't do them, right?
+
+269
+00:21:41,400 --> 00:21:42,120
+Chris: Someone does.
+
+270
+00:21:42,920 --> 00:21:45,080
+Tyler: Yeah. Someone does.
+
+271
+00:21:45,080 --> 00:21:49,480
+Jackson: I guess if you're a major, like financial institution that you have access to,
+
+272
+00:21:50,200 --> 00:21:53,560
+Jackson: like Glasswinger, right? So you could hook it up into this.
+
+273
+00:21:54,600 --> 00:22:00,600
+Chris: Or if you don't DM your manager and be like, I need like 20 B200s, hook me up, chief.
+
+274
+00:22:00,600 --> 00:22:03,240
+Chris: It's only like a million dollars, probably.
+
+275
+00:22:04,200 --> 00:22:07,000
+Jackson: Just a quick question on chain analysis, by the way.
+
+276
+00:22:07,000 --> 00:22:14,440
+Jackson: Is Chain Analysis the reason that all the Bitcoin I've ever bought is traceable back to me,
+
+277
+00:22:15,160 --> 00:22:21,400
+Jackson: even if I take it into self-custody? Are they the ones that have created the transaction chain
+
+278
+00:22:21,400 --> 00:22:27,000
+Jackson: linking my Coinbase transactions to my personal wallet address? Or is that somebody else?
+
+279
+00:22:27,640 --> 00:22:38,200
+Tyler: Yes. Chainalysis is the one that is doing all of the blockchain surveillance and blockchain
+
+280
+00:22:38,200 --> 00:22:46,360
+Tyler: forensics. They have statistical models that try to link different transactions, UTXOs,
+
+281
+00:22:46,360 --> 00:22:52,920
+Tyler: entities, accounts on different blockchains. They have lots of signals that they look at.
+
+282
+00:22:53,480 --> 00:22:59,560
+Tyler: obviously, all transaction activity on blockchains is public, it's put in a block forever. But then
+
+283
+00:22:59,560 --> 00:23:04,520
+Tyler: there's other ways that you can gather data on these networks by, for example, running a lot of
+
+284
+00:23:04,520 --> 00:23:12,680
+Tyler: nodes and then logging gossip about transactions and who handed you what about what transactions
+
+285
+00:23:12,680 --> 00:23:19,640
+Tyler: and linking those things. Also, these companies have been known to run honeypot block explorers
+
+286
+00:23:20,760 --> 00:23:25,880
+Tyler: or honeypot, Electrum servers, so that you would just connect to this and think, "Oh,
+
+287
+00:23:25,880 --> 00:23:30,280
+Tyler: let me look up my address," and then they associate your address with the IP and their
+
+288
+00:23:30,280 --> 00:23:36,920
+Tyler: system forever, and you don't know that it's them. So yeah, there's a lot of ways that they
+
+289
+00:23:36,920 --> 00:23:43,160
+Tyler: do this linking, but their business is basically just to gather as much data as they can through
+
+290
+00:23:43,160 --> 00:23:47,880
+Tyler: surveillance of these networks, the public things that happen, and these other kind of...
+
+291
+00:23:50,520 --> 00:23:57,240
+Tyler: let's say, more invasive ways that they gather data, and more entrapment-esque ways that they
+
+292
+00:23:57,240 --> 00:24:03,320
+Tyler: gather data, and then build statistical models on that and sell it to corporations that want to
+
+293
+00:24:03,320 --> 00:24:07,640
+Tyler: convince the government that they are following the Bank Secrecy Act, which should be repealed.
+
+294
+00:24:09,800 --> 00:24:16,520
+Chris: Right. Also, it really rules that that data potentially has been accessed by a 16-year-old
+
+295
+00:24:16,520 --> 00:24:20,360
+Chris: in there on the pants and is right now trying to hock it on telegram that rules. I love that.
+
+296
+00:24:23,720 --> 00:24:25,880
+Jackson: Yeah. That sucks.
+
+297
+00:24:26,520 --> 00:24:29,320
+Tyler: Dennis does have obliterated models now that I see.
+
+298
+00:24:30,200 --> 00:24:33,240
+Jackson: How do they mark that? What's that?
+
+299
+00:24:34,200 --> 00:24:39,240
+Jackson: What is the marking? Are there models that you know are obliterated or does it say?
+
+300
+00:24:39,240 --> 00:24:39,720
+Jackson: It says obliterated.
+
+301
+00:24:39,720 --> 00:24:43,800
+Tyler: I'm looking at their model catalog and you know what letter is at the top of the alphabet?
+
+302
+00:24:44,840 --> 00:24:51,320
+Tyler: A, you know what other letter is very close to being at the top of the outfit? B. So it
+
+303
+00:24:51,320 --> 00:24:58,200
+Tyler: shows up at the top of their model catalog. Obliterated large flash and obliterated large
+
+304
+00:24:58,200 --> 00:25:03,240
+Tyler: V2, which is apparently GLM 5.3, which is a very smart model. And if it's obliterated,
+
+305
+00:25:03,240 --> 00:25:08,680
+Tyler: it's probably fucking awesome at hacking. Although this is just in their anonymous tier,
+
+306
+00:25:09,560 --> 00:25:19,300
+Tyler: And it would not be done privately at a T. So, you know, don't do anything with it that
+
+307
+00:25:19,300 --> 00:25:26,480
+Tyler: you don't want our friends at Venice knowing about because even though they say it's anonymous,
+
+308
+00:25:26,480 --> 00:25:28,280
+Tyler: you got to take their word for it.
+
+309
+00:25:28,280 --> 00:25:29,280
+Chris: Right.
+
+310
+00:25:29,280 --> 00:25:34,480
+Chris: Which you should only be pen testing your own systems with this, by the way, obviously.
+
+311
+00:25:34,480 --> 00:25:42,000
+Jackson: Wait, so I totally thought you guys are just pronouncing the word obliterated weird, but
+
+312
+00:25:42,000 --> 00:25:46,640
+Jackson: it's two different words, obliterated, obliterated, obliterated.
+
+313
+00:25:46,640 --> 00:25:47,640
+Jackson: The more you...
+
+314
+00:25:47,640 --> 00:25:48,640
+Tyler: Yeah, it's obliterated.
+
+315
+00:25:48,640 --> 00:25:49,640
+Tyler: This is the...
+
+316
+00:25:49,640 --> 00:25:50,640
+Jackson: Yeah.
+
+317
+00:25:50,640 --> 00:26:00,440
+Tyler: I think it's like ablation, but then like having an ablation, having done to this model,
+
+318
+00:26:00,440 --> 00:26:01,440
+Jackson: ablationated.
+
+319
+00:26:01,440 --> 00:26:02,440
+Chris: Yeah.
+
+320
+00:26:02,440 --> 00:26:03,440
+Jackson: Okay.
+
+321
+00:26:03,440 --> 00:26:08,640
+Jackson: Okay. I thought it was like we obliterated the guardrails, like we blew them away. Anyways,
+
+322
+00:26:08,640 --> 00:26:14,000
+Jackson: man, well, chain analysis. Thank you for exposing all my on-chain data and my homies.
+
+323
+00:26:14,720 --> 00:26:19,440
+Jackson: Yo, like and subscribe. Chris: Hey, everyone. Chris from Underpod here. Please,
+
+324
+00:26:19,440 --> 00:26:22,800
+Chris: please like and subscribe. I'm so hungry. Please.
+
 325
-00:26:24,400 --> 00:26:29,760
-Jackson: Now we shall transition to the Purple Fortune. The Purple Fortune is a time where
+00:26:23,600 --> 00:26:24,640
+Tyler: I'll let you guys handle it.
 
 326
-00:26:31,120 --> 00:26:39,120
-Jackson: Chris does not look ready. It's a time where Chris and I stake big money on perpetual futures,
+00:26:26,000 --> 00:26:31,360
+Jackson: Now we shall transition to the Purple Fortune. The Purple Fortune is a time where
 
 327
-00:26:39,120 --> 00:26:46,320
-Jackson: one of the most... I don't even know the word. One of the most... I don't even know how to say
+00:26:32,720 --> 00:26:40,720
+Jackson: Chris does not look ready. It's a time where Chris and I stake big money on perpetual futures,
 
 328
-00:26:46,320 --> 00:26:55,520
-Tyler: the word. Perpetual futures, one of the world's most dangerous and alluring financial assets.
+00:26:40,720 --> 00:26:47,920
+Jackson: one of the most... I don't even know the word. One of the most... I don't even know how to say
 
 329
-00:26:57,200 --> 00:27:04,080
-Jackson: obliterated finance. Yeah, exactly. And we're trying to make a quick buck while Tyler battles
+00:26:47,920 --> 00:26:57,120
+Tyler: the word. Perpetual futures, one of the world's most dangerous and alluring financial assets.
 
 330
-00:27:04,080 --> 00:27:11,040
-Jackson: us in a Bitcoin coin flip bet up or down. Who will take the dub today? The way it really
+00:26:58,800 --> 00:27:05,680
+Jackson: obliterated finance. Yeah, exactly. And we're trying to make a quick buck while Tyler battles
 
 331
-00:27:11,040 --> 00:27:17,120
-Jackson: goes is Bitcoin up or down makes a lot or loses a lot while Purple Fortune does absolutely nothing.
+00:27:05,680 --> 00:27:12,640
+Jackson: us in a Bitcoin coin flip bet up or down. Who will take the dub today? The way it really
 
 332
-00:27:17,120 --> 00:27:19,440
-Jackson: Let's see if we can turn the streak around though today.
+00:27:12,640 --> 00:27:18,720
+Jackson: goes is Bitcoin up or down makes a lot or loses a lot while Purple Fortune does absolutely nothing.
 
 333
-00:27:22,080 --> 00:27:32,800
-Chris: All right, so today we have SK Hynix short. So Sol is open right now at the time of recording,
+00:27:18,720 --> 00:27:21,040
+Jackson: Let's see if we can turn the streak around though today.
 
 334
-00:27:32,800 --> 00:27:40,080
-Chris: and they're saying that Wall Street's AI trade reversed on Thursday. The NASDAQ went from up
+00:27:23,680 --> 00:27:34,400
+Chris: All right, so today we have SK Hynix short. So Sol is open right now at the time of recording,
 
 335
-00:27:40,080 --> 00:27:46,800
-Chris: 2% to down 2%, and part of it was people liquidating all of their stuff to buy the Ant IPO.
+00:27:34,400 --> 00:27:41,680
+Chris: and they're saying that Wall Street's AI trade reversed on Thursday. The NASDAQ went from up
 
 336
-00:27:47,520 --> 00:27:54,560
-Chris: And our Claude, again, conflict of interest here thinks that this will carry over to
+00:27:41,680 --> 00:27:48,400
+Chris: 2% to down 2%, and part of it was people liquidating all of their stuff to buy the Ant IPO.
 
 337
-00:27:54,560 --> 00:28:01,280
-Chris: SK Hynix, the SK Hynix trade in Seoul. So let me share my screen. And we also have Bitcoin down.
+00:27:49,120 --> 00:27:56,160
+Chris: And our Claude, again, conflict of interest here thinks that this will carry over to
 
 338
-00:28:01,280 --> 00:28:06,080
-Chris: And we are winning on both for the first time maybe ever in podcast history.
+00:27:56,160 --> 00:28:02,880
+Chris: SK Hynix, the SK Hynix trade in Seoul. So let me share my screen. And we also have Bitcoin down.
 
 339
-00:28:06,080 --> 00:28:07,920
-Jackson: Let's go! Bitcoin down.
+00:28:02,880 --> 00:28:07,680
+Chris: And we are winning on both for the first time maybe ever in podcast history.
 
 340
-00:28:07,920 --> 00:28:11,040
-Jackson: I'm sorry, Chris. I keep clicking the button when you're clicking the button.
+00:28:07,680 --> 00:28:09,520
+Jackson: Let's go! Bitcoin down.
 
 341
-00:28:11,040 --> 00:28:18,200
-Jackson: We're so rich, we're so rich.
+00:28:09,520 --> 00:28:12,640
+Jackson: I'm sorry, Chris. I keep clicking the button when you're clicking the button.
 
 342
-00:28:18,200 --> 00:28:21,840
-Chris: Well, this is not nearly enough to hedge my Bitcoin spot.
+00:28:12,640 --> 00:28:19,800
+Jackson: We're so rich, we're so rich.
 
 343
-00:28:21,840 --> 00:28:27,480
-Chris: So I'm actually just like doing horribly personally, but I'm glad the pot is winning.
+00:28:19,800 --> 00:28:23,440
+Chris: Well, this is not nearly enough to hedge my Bitcoin spot.
 
 344
-00:28:27,480 --> 00:28:34,760
-Tyler: It's been a rough, a rough couple of weeks for the old Bitcoin spot.
+00:28:23,440 --> 00:28:29,080
+Chris: So I'm actually just like doing horribly personally, but I'm glad the pot is winning.
 
 345
-00:28:34,760 --> 00:28:44,240
-Jackson: Yeah, you guys got any insights on Bitcoin or just bad vibes?
+00:28:29,080 --> 00:28:36,360
+Tyler: It's been a rough, a rough couple of weeks for the old Bitcoin spot.
 
 346
-00:28:44,240 --> 00:28:49,000
-Chris: Everyone wants ant shares, that's what I'm choosing to tell myself.
+00:28:36,360 --> 00:28:45,840
+Jackson: Yeah, you guys got any insights on Bitcoin or just bad vibes?
 
 347
-00:28:49,000 --> 00:28:56,400
-Jackson: All right, we have no insights on the Bitcoin and that is totally okay.
+00:28:45,840 --> 00:28:50,600
+Chris: Everyone wants ant shares, that's what I'm choosing to tell myself.
 
 348
-00:28:56,400 --> 00:29:00,640
-Tyler: I saw this really interesting thread from Eric Wall.
+00:28:50,600 --> 00:28:58,000
+Jackson: All right, we have no insights on the Bitcoin and that is totally okay.
 
 349
-00:29:00,640 --> 00:29:03,040
-Tyler: Are you familiar with him or have you read this thread?
+00:28:58,000 --> 00:29:02,240
+Tyler: I saw this really interesting thread from Eric Wall.
 
 350
-00:29:03,040 --> 00:29:04,040
-Jackson: No.
+00:29:02,240 --> 00:29:04,640
+Tyler: Are you familiar with him or have you read this thread?
 
 351
-00:29:04,040 --> 00:29:10,840
-Tyler: Yeah, no. Okay, he's like a crypto, I guess, investor, but also I think he's like fairly
+00:29:04,640 --> 00:29:05,640
+Jackson: No.
 
 352
-00:29:10,840 --> 00:29:19,160
-Tyler: technical. He's a good thinker. And one of the things he was saying was basically like
+00:29:05,640 --> 00:29:12,440
+Tyler: Yeah, no. Okay, he's like a crypto, I guess, investor, but also I think he's like fairly
 
 353
-00:29:19,160 --> 00:29:25,880
-Tyler: with Bitcoin and crypto, because everything is irreversible, and if something goes wrong,
+00:29:12,440 --> 00:29:20,760
+Tyler: technical. He's a good thinker. And one of the things he was saying was basically like
 
 354
-00:29:25,880 --> 00:29:32,360
-Tyler: you could just like lose everything like that. In a world where there is this very heightened
+00:29:20,760 --> 00:29:27,480
+Tyler: with Bitcoin and crypto, because everything is irreversible, and if something goes wrong,
 
 355
-00:29:32,360 --> 00:29:39,160
-Tyler: risk of hacks or of cryptography being broken or of something drastic happening, basically
+00:29:27,480 --> 00:29:33,960
+Tyler: you could just like lose everything like that. In a world where there is this very heightened
 
 356
-00:29:39,160 --> 00:29:47,640
-Tyler: it makes it a much less appealing asset because the risk of ruin is just so much higher. Nobody
+00:29:33,960 --> 00:29:40,760
+Tyler: risk of hacks or of cryptography being broken or of something drastic happening, basically
 
 357
-00:29:47,640 --> 00:29:52,720
-Tyler: wants to be in these irreversible assets, which is like the selling point of Bitcoin.
+00:29:40,760 --> 00:29:49,240
+Tyler: it makes it a much less appealing asset because the risk of ruin is just so much higher. Nobody
 
 358
-00:29:52,720 --> 00:29:58,420
-Tyler: Because when it's irreversible, that means that it's censorship resistant and it's self-sovereign.
+00:29:49,240 --> 00:29:54,320
+Tyler: wants to be in these irreversible assets, which is like the selling point of Bitcoin.
 
 359
-00:29:58,420 --> 00:30:02,300
-Tyler: But also that means that if you get wrecked, you get wrecked and daddy government or daddy
+00:29:54,320 --> 00:30:00,020
+Tyler: Because when it's irreversible, that means that it's censorship resistant and it's self-sovereign.
 
 360
-00:30:02,300 --> 00:30:05,580
-Tyler: corporation can't come save you.
+00:30:00,020 --> 00:30:03,900
+Tyler: But also that means that if you get wrecked, you get wrecked and daddy government or daddy
 
 361
-00:30:05,580 --> 00:30:11,380
-Tyler: But when the going gets tough, maybe a lot of people do want that safety blanket and
+00:30:03,900 --> 00:30:07,180
+Tyler: corporation can't come save you.
 
 362
-00:30:11,380 --> 00:30:13,420
-Tyler: that reversibility.
+00:30:07,180 --> 00:30:12,980
+Tyler: But when the going gets tough, maybe a lot of people do want that safety blanket and
 
 363
-00:30:13,420 --> 00:30:18,300
-Tyler: And if they're not doing things that actually require the censorship resistance, then it
+00:30:12,980 --> 00:30:15,020
+Tyler: that reversibility.
 
 364
-00:30:18,300 --> 00:30:21,140
-Tyler: isn't worth that risk.
+00:30:15,020 --> 00:30:19,900
+Tyler: And if they're not doing things that actually require the censorship resistance, then it
 
 365
-00:30:21,140 --> 00:30:26,540
-Tyler: And so he was kind of saying like, he thought that the days of when somebody could put like
+00:30:19,900 --> 00:30:22,740
+Tyler: isn't worth that risk.
 
 366
-00:30:26,540 --> 00:30:33,620
-Tyler: their entire net worth into Bitcoin and feel good about it and be like, "Not only is this
+00:30:22,740 --> 00:30:28,140
+Tyler: And so he was kind of saying like, he thought that the days of when somebody could put like
 
 367
-00:30:33,620 --> 00:30:38,380
-Tyler: going to be fine if I set it up correctly with a hardware wallet, I know what I'm doing,
+00:30:28,140 --> 00:30:35,220
+Tyler: their entire net worth into Bitcoin and feel good about it and be like, "Not only is this
 
 368
-00:30:38,380 --> 00:30:48,420
-Tyler: I'm not going to lose my money," but that isn't necessarily the case anymore.
+00:30:35,220 --> 00:30:39,980
+Tyler: going to be fine if I set it up correctly with a hardware wallet, I know what I'm doing,
 
 369
-00:30:48,420 --> 00:30:55,660
-Tyler: And then I think also just because like you could individually have your Bitcoin act but
+00:30:39,980 --> 00:30:50,020
+Tyler: I'm not going to lose my money," but that isn't necessarily the case anymore.
 
 370
-00:30:55,660 --> 00:31:05,480
-Tyler: also something terrible or very troubling or catastrophic could happen to the network
+00:30:50,020 --> 00:30:57,260
+Tyler: And then I think also just because like you could individually have your Bitcoin act but
 
 371
-00:31:05,480 --> 00:31:10,200
-Tyler: or the asset itself, they would render it much less valuable.
+00:30:57,260 --> 00:31:07,080
+Tyler: also something terrible or very troubling or catastrophic could happen to the network
 
 372
-00:31:10,200 --> 00:31:17,980
-Tyler: And so he was saying like, he thinks that most people are diversifying because of that.
+00:31:07,080 --> 00:31:11,800
+Tyler: or the asset itself, they would render it much less valuable.
 
 373
-00:31:17,980 --> 00:31:26,520
-Tyler: that Bitcoin has been like set back one or two cycles and we'll go through like an awkward
+00:31:11,800 --> 00:31:19,580
+Tyler: And so he was saying like, he thinks that most people are diversifying because of that.
 
 374
-00:31:26,520 --> 00:31:33,200
-Tyler: teenage period again and that that will also be very bad vibes for people who already went
+00:31:19,580 --> 00:31:28,120
+Tyler: that Bitcoin has been like set back one or two cycles and we'll go through like an awkward
 
 375
-00:31:33,200 --> 00:31:35,920
-Tyler: through that who don't want to go through it again.
+00:31:28,120 --> 00:31:34,800
+Tyler: teenage period again and that that will also be very bad vibes for people who already went
 
 376
-00:31:35,920 --> 00:31:45,600
-Jackson: Well, let's hope that Mr. Eric is wrong because I can't handle the teenage phase. I'm barely
+00:31:34,800 --> 00:31:37,520
+Tyler: through that who don't want to go through it again.
 
 377
-00:31:45,600 --> 00:31:54,800
-Jackson: not a teenager myself. And with the with the proportion we talked anthropic. So maybe
+00:31:37,520 --> 00:31:47,200
+Jackson: Well, let's hope that Mr. Eric is wrong because I can't handle the teenage phase. I'm barely
 
 378
-00:31:54,800 --> 00:32:00,920
-Jackson: we should chat a little bit about the anthropic IPO that happened today. And also the miss
+00:31:47,200 --> 00:31:56,400
+Jackson: not a teenager myself. And with the with the proportion we talked anthropic. So maybe
 
 379
-00:32:00,920 --> 00:32:08,040
-Jackson: anthropic statement that dropped alongside it, where academics looks like across the
+00:31:56,400 --> 00:32:02,520
+Jackson: we should chat a little bit about the anthropic IPO that happened today. And also the miss
 
 380
-00:32:08,040 --> 00:32:15,480
-Jackson: United States, said that anthropic is like acting, what is that word, like, hypocritically,
+00:32:02,520 --> 00:32:09,640
+Jackson: anthropic statement that dropped alongside it, where academics looks like across the
 
 381
-00:32:15,480 --> 00:32:20,920
-Jackson: they're like, Oh my gosh, AI is so dangerous and reinforcement self improvement is so bad.
+00:32:09,640 --> 00:32:17,080
+Jackson: United States, said that anthropic is like acting, what is that word, like, hypocritically,
 
 382
-00:32:22,280 --> 00:32:26,280
-Jackson: I'm going to keep doing it though, because it's going to make me a lot of money and give me a lot
+00:32:17,080 --> 00:32:22,520
+Jackson: they're like, Oh my gosh, AI is so dangerous and reinforcement self improvement is so bad.
 
 383
-00:32:26,280 --> 00:32:31,880
-Jackson: of power, but we shouldn't do it. And people are basically coming together and saying that it's
+00:32:23,880 --> 00:32:27,880
+Jackson: I'm going to keep doing it though, because it's going to make me a lot of money and give me a lot
 
 384
-00:32:31,880 --> 00:32:38,280
-Jackson: unsafe, what anthropic is doing. But on the other hand, anthropic IPO, they dropped their opening
+00:32:27,880 --> 00:32:33,480
+Jackson: of power, but we shouldn't do it. And people are basically coming together and saying that it's
 
 385
-00:32:38,280 --> 00:32:46,700
-Jackson: price from the $2 trillion original dollars down to like 1.3 or something and then today
+00:32:33,480 --> 00:32:39,880
+Jackson: unsafe, what anthropic is doing. But on the other hand, anthropic IPO, they dropped their opening
 
 386
-00:32:46,700 --> 00:32:51,000
-Jackson: or yesterday, it pops back up to like 1.5, 1.6.
+00:32:39,880 --> 00:32:48,300
+Jackson: price from the $2 trillion original dollars down to like 1.3 or something and then today
 
 387
-00:32:51,000 --> 00:32:52,800
-Jackson: People want these shares.
+00:32:48,300 --> 00:32:52,600
+Jackson: or yesterday, it pops back up to like 1.5, 1.6.
 
 388
-00:32:52,800 --> 00:32:53,800
-Jackson: So I don't know.
+00:32:52,600 --> 00:32:54,400
+Jackson: People want these shares.
 
 389
-00:32:53,800 --> 00:32:55,800
-Jackson: What are you guys' thoughts on Anthropic?
+00:32:54,400 --> 00:32:55,400
+Jackson: So I don't know.
 
 390
-00:32:55,800 --> 00:32:57,560
-Jackson: I mean, the hat, I heard it.
+00:32:55,400 --> 00:32:57,400
+Jackson: What are you guys' thoughts on Anthropic?
 
 391
-00:32:57,560 --> 00:32:59,000
-Jackson: I heard it crinkling.
+00:32:57,400 --> 00:32:59,160
+Jackson: I mean, the hat, I heard it.
 
 392
-00:32:59,000 --> 00:33:05,680
-Chris: Sorry, we're talking about IPOs and labs, the hat has to go on.
+00:32:59,160 --> 00:33:00,600
+Jackson: I heard it crinkling.
 
 393
-00:33:05,680 --> 00:33:14,440
-Chris: Yeah, I mean, there was rumors that they would not IPO, but it looks like they did.
+00:33:00,600 --> 00:33:07,280
+Chris: Sorry, we're talking about IPOs and labs, the hat has to go on.
 
 394
-00:33:14,440 --> 00:33:19,440
-Chris: I think it's very standard for any company that is this hyped to IPO and then retrace.
+00:33:07,280 --> 00:33:16,040
+Chris: Yeah, I mean, there was rumors that they would not IPO, but it looks like they did.
 
 395
-00:33:19,440 --> 00:33:25,880
-Chris: So if we think about the Circle IPO last year, back when people cared about that, it blew
+00:33:16,040 --> 00:33:21,040
+Chris: I think it's very standard for any company that is this hyped to IPO and then retrace.
 
 396
-00:33:25,880 --> 00:33:30,800
-Chris: off right off the IPO and then retraced quite badly.
+00:33:21,040 --> 00:33:27,480
+Chris: So if we think about the Circle IPO last year, back when people cared about that, it blew
 
 397
-00:33:30,800 --> 00:33:34,000
-Chris: Yeah, I think we're in price discovery.
+00:33:27,480 --> 00:33:32,400
+Chris: off right off the IPO and then retraced quite badly.
 
 398
-00:33:34,000 --> 00:33:39,080
-Chris: I do think this dovetails into something that Tyler brought up off the pod, which
+00:33:32,400 --> 00:33:35,600
+Chris: Yeah, I think we're in price discovery.
 
 399
-00:33:39,080 --> 00:33:45,400
-Chris: is like the whole financial engineering dynamics of like these things, but you
+00:33:35,600 --> 00:33:40,680
+Chris: I do think this dovetails into something that Tyler brought up off the pod, which
 
 400
-00:33:45,400 --> 00:33:50,400
-Chris: know, also everything now, uh, and how it kind of like, it seems like people have
+00:33:40,680 --> 00:33:47,000
+Chris: is like the whole financial engineering dynamics of like these things, but you
 
 401
-00:33:50,400 --> 00:33:52,480
-Chris: been like whisking these ideas from crypto.
+00:33:47,000 --> 00:33:52,000
+Chris: know, also everything now, uh, and how it kind of like, it seems like people have
 
 402
-00:33:53,080 --> 00:33:59,340
-Chris: Um, and like, you know, one example is like, um, there's this concept in
+00:33:52,000 --> 00:33:54,080
+Chris: been like whisking these ideas from crypto.
 
 403
-00:33:59,340 --> 00:34:03,880
-Chris: crypto of, uh, is it a low float high FDV shit coin?
+00:33:54,680 --> 00:34:00,940
+Chris: Um, and like, you know, one example is like, um, there's this concept in
 
 404
-00:34:04,000 --> 00:34:14,400
-Chris: So what this means, and look, he who is without a low float, high FDV shit coin,
+00:34:00,940 --> 00:34:05,480
+Chris: crypto of, uh, is it a low float high FDV shit coin?
 
 405
-00:34:14,400 --> 00:34:21,520
-Chris: casts the first stone. But what this means is that when you traditionally would do a token
+00:34:05,600 --> 00:34:16,000
+Chris: So what this means, and look, he who is without a low float, high FDV shit coin,
 
 406
-00:34:21,520 --> 00:34:26,000
-Chris: generation event, a TGE, where you're going to list your tokens, you would do a bit of
+00:34:16,000 --> 00:34:23,120
+Chris: casts the first stone. But what this means is that when you traditionally would do a token
 
 407
-00:34:26,000 --> 00:34:29,680
-Chris: financial engineering because people would always look at the market cap of your protocol.
+00:34:23,120 --> 00:34:27,600
+Chris: generation event, a TGE, where you're going to list your tokens, you would do a bit of
 
 408
-00:34:29,680 --> 00:34:34,400
-Chris: And the market cap is basically the amount of tokens that you have multiplied by the price.
+00:34:27,600 --> 00:34:31,280
+Chris: financial engineering because people would always look at the market cap of your protocol.
 
 409
-00:34:34,400 --> 00:34:37,600
-Chris: That's a very naive way to calculate it.
+00:34:31,280 --> 00:34:36,000
+Chris: And the market cap is basically the amount of tokens that you have multiplied by the price.
 
 410
-00:34:37,600 --> 00:34:38,720
-Chris: And so you would be like-
+00:34:36,000 --> 00:34:39,200
+Chris: That's a very naive way to calculate it.
 
 411
-00:34:38,720 --> 00:34:40,720
-Tyler: Tokens that are currently accessible.
+00:34:39,200 --> 00:34:40,320
+Chris: And so you would be like-
 
 412
-00:34:41,600 --> 00:34:42,400
-Chris: Circulating.
+00:34:40,320 --> 00:34:42,320
+Tyler: Tokens that are currently accessible.
 
 413
-00:34:42,400 --> 00:34:43,360
-Chris: Circulating supply.
+00:34:43,200 --> 00:34:44,000
+Chris: Circulating.
 
 414
-00:34:44,080 --> 00:34:44,960
-Chris: That came later.
+00:34:44,000 --> 00:34:44,960
+Chris: Circulating supply.
 
 415
-00:34:44,960 --> 00:34:45,680
+00:34:45,680 --> 00:34:46,560
 Chris: That came later.
 
 416
-00:34:47,360 --> 00:34:51,440
-Chris: But originally, you could kind of fudge the numbers on CoinGecko
+00:34:46,560 --> 00:34:47,280
+Chris: That came later.
 
 417
-00:34:51,440 --> 00:34:53,040
-Chris: before they had circulating supply.
+00:34:48,960 --> 00:34:53,040
+Chris: But originally, you could kind of fudge the numbers on CoinGecko
 
 418
-00:34:53,600 --> 00:34:55,920
-Chris: And you would be like, "Okay, I'm going to launch this coin."
+00:34:53,040 --> 00:34:54,640
+Chris: before they had circulating supply.
 
 419
-00:34:55,920 --> 00:34:59,280
-Chris: And I know that there's only demand for 10% of the coins.
+00:34:55,200 --> 00:34:57,520
+Chris: And you would be like, "Okay, I'm going to launch this coin."
 
 420
-00:34:59,280 --> 00:35:04,560
-Chris: So you would sell 10% of the coins, have a total market cap that seemed artificially way higher
+00:34:57,520 --> 00:35:00,880
+Chris: And I know that there's only demand for 10% of the coins.
 
 421
-00:35:04,560 --> 00:35:10,320
-Chris: than it should be, even though only 10% of the coins are circulating. And then the rest would
+00:35:00,880 --> 00:35:06,160
+Chris: So you would sell 10% of the coins, have a total market cap that seemed artificially way higher
 
 422
-00:35:10,320 --> 00:35:15,440
-Chris: be behind various lockups for the team, and they would vest on different schedules, or they would
+00:35:06,160 --> 00:35:11,920
+Chris: than it should be, even though only 10% of the coins are circulating. And then the rest would
 
 423
-00:35:15,440 --> 00:35:19,840
-Chris: just be in your Cayman slosh fund, depending on what protocol you are.
+00:35:11,920 --> 00:35:17,040
+Chris: be behind various lockups for the team, and they would vest on different schedules, or they would
 
 424
-00:35:20,400 --> 00:35:26,640
-Tyler: Yeah, the classic absurd example is, okay, I issue a million shares to myself,
+00:35:17,040 --> 00:35:21,440
+Chris: just be in your Cayman slosh fund, depending on what protocol you are.
 
 425
-00:35:27,440 --> 00:35:38,080
-Tyler: And then I sell one to Jackson for $1,000. Now my market cap is a billion dollars,
+00:35:22,000 --> 00:35:28,240
+Tyler: Yeah, the classic absurd example is, okay, I issue a million shares to myself,
 
 426
-00:35:38,960 --> 00:35:48,320
-Tyler: because I have $999, whatever, and we just valued it at $1,000, even though there's only
+00:35:29,040 --> 00:35:39,680
+Tyler: And then I sell one to Jackson for $1,000. Now my market cap is a billion dollars,
 
 427
-00:35:48,320 --> 00:35:52,960
-Tyler: one circulating share. So when there's very little circulating shares, you can make that
+00:35:40,560 --> 00:35:49,920
+Tyler: because I have $999, whatever, and we just valued it at $1,000, even though there's only
 
 428
-00:35:52,960 --> 00:35:58,800
-Tyler: transact for a lot of money. And then that price that it transacts for applies for all the shares
+00:35:49,920 --> 00:35:54,560
+Tyler: one circulating share. So when there's very little circulating shares, you can make that
 
 429
-00:35:58,800 --> 00:36:02,720
-Tyler: that are held by the person who started it off market or off book.
+00:35:54,560 --> 00:36:00,400
+Tyler: transact for a lot of money. And then that price that it transacts for applies for all the shares
 
 430
-00:36:03,760 --> 00:36:08,880
-Chris: Right. Unfortunately, we value things at like the last sell price, or at least we did in crypto
+00:36:00,400 --> 00:36:04,320
+Tyler: that are held by the person who started it off market or off book.
 
 431
-00:36:09,920 --> 00:36:18,080
-Chris: and real estate, apparently. So yeah, it can be quite misleading. And my understanding is,
+00:36:05,360 --> 00:36:10,480
+Chris: Right. Unfortunately, we value things at like the last sell price, or at least we did in crypto
 
 432
-00:36:18,080 --> 00:36:26,720
-Chris: I haven't read the S1, but anthropic, I at least know, in terms of employee shares and stuff,
+00:36:11,520 --> 00:36:19,680
+Chris: and real estate, apparently. So yeah, it can be quite misleading. And my understanding is,
 
 433
-00:36:26,720 --> 00:36:31,440
-Chris: like they're definitely on vesting schedules that look a lot like crypto.
+00:36:19,680 --> 00:36:28,320
+Chris: I haven't read the S1, but anthropic, I at least know, in terms of employee shares and stuff,
 
 434
-00:36:33,520 --> 00:36:38,640
-Tyler: Yeah, I mean, it has a lot of crypto-like characteristics, like the things that Chris
+00:36:28,320 --> 00:36:33,040
+Chris: like they're definitely on vesting schedules that look a lot like crypto.
 
 435
-00:36:38,640 --> 00:36:42,960
-Tyler: already mentioned, which is the low float. So I think they only floated 5% of the shares
+00:36:35,120 --> 00:36:40,240
+Tyler: Yeah, I mean, it has a lot of crypto-like characteristics, like the things that Chris
 
 436
-00:36:43,920 --> 00:36:50,640
-Tyler: on this IPO, which is crazy low. And then the difference between the market cap and the FDV
+00:36:40,240 --> 00:36:44,560
+Tyler: already mentioned, which is the low float. So I think they only floated 5% of the shares
 
 437
-00:36:51,600 --> 00:36:56,720
-Tyler: is like... I think the market cap was something like... Let's call it 1.5 trillion.
+00:36:45,520 --> 00:36:52,240
+Tyler: on this IPO, which is crazy low. And then the difference between the market cap and the FDV
 
 438
-00:36:56,720 --> 00:37:03,040
-Tyler: And then the FDV was closer to 2 trillion. So there's a literally half a trillion gap
+00:36:53,200 --> 00:36:58,320
+Tyler: is like... I think the market cap was something like... Let's call it 1.5 trillion.
 
 439
-00:37:03,680 --> 00:37:08,080
-Tyler: of between the market cap and the fully diluted value, which are shares that are not yet
+00:36:58,320 --> 00:37:04,640
+Tyler: And then the FDV was closer to 2 trillion. So there's a literally half a trillion gap
 
 440
-00:37:09,120 --> 00:37:17,040
-Tyler: issued and who those shares belong to. It's essentially like an anthropic pre-mine or
+00:37:05,280 --> 00:37:09,680
+Tyler: of between the market cap and the fully diluted value, which are shares that are not yet
 
 441
-00:37:17,040 --> 00:37:23,960
-Tyler: a dev fund. All of those shares are either going to... I think Amazon owns a bunch of
+00:37:10,720 --> 00:37:18,640
+Tyler: issued and who those shares belong to. It's essentially like an anthropic pre-mine or
 
 442
-00:37:23,960 --> 00:37:30,760
-Tyler: them because they were an early investor, or there's hundreds of billions of dollars
+00:37:18,640 --> 00:37:25,560
+Tyler: a dev fund. All of those shares are either going to... I think Amazon owns a bunch of
 
 443
-00:37:30,760 --> 00:37:37,120
-Tyler: that are either stock options or RSU's for employees.
+00:37:25,560 --> 00:37:32,360
+Tyler: them because they were an early investor, or there's hundreds of billions of dollars
 
 444
-00:37:37,120 --> 00:37:45,460
-Tyler: I'm not saying that's wrong, but I just think it hilariously resembles the excesses of the
+00:37:32,360 --> 00:37:38,720
+Tyler: that are either stock options or RSU's for employees.
 
 445
-00:37:45,460 --> 00:37:52,940
-Tyler: crypto market and the structure of how some people structured those coins to maximally
+00:37:38,720 --> 00:37:47,060
+Tyler: I'm not saying that's wrong, but I just think it hilariously resembles the excesses of the
 
 446
-00:37:52,940 --> 00:37:58,380
-Tyler: benefit insiders while pumping the value a lot.
+00:37:47,060 --> 00:37:54,540
+Tyler: crypto market and the structure of how some people structured those coins to maximally
 
 447
-00:37:58,380 --> 00:38:09,360
-Tyler: The difference here is that Anthropic has a generational business and probably the fastest-growing,
+00:37:54,540 --> 00:37:59,980
+Tyler: benefit insiders while pumping the value a lot.
 
 448
-00:38:09,360 --> 00:38:14,160
-Tyler: most fundamentally explosive businesses of all time.
+00:37:59,980 --> 00:38:10,960
+Tyler: The difference here is that Anthropic has a generational business and probably the fastest-growing,
 
 449
-00:38:14,160 --> 00:38:20,240
-Tyler: And so unlike most crypto tokens, there's very much there that justifies the hype.
+00:38:10,960 --> 00:38:15,760
+Tyler: most fundamentally explosive businesses of all time.
 
 450
-00:38:20,240 --> 00:38:26,080
-Tyler: But yeah, it's just interesting to see some of these dynamics that it was like, nobody
+00:38:15,760 --> 00:38:21,840
+Tyler: And so unlike most crypto tokens, there's very much there that justifies the hype.
 
 451
-00:38:26,080 --> 00:38:30,960
-Tyler: would do normal diligence on a financial asset, would invest in an asset with that profile.
+00:38:21,840 --> 00:38:27,680
+Tyler: But yeah, it's just interesting to see some of these dynamics that it was like, nobody
 
 452
-00:38:31,760 --> 00:38:35,440
-Tyler: But in crypto, they would because people wouldn't do diligence. They would just be like, "Oh, cool.
+00:38:27,680 --> 00:38:32,560
+Tyler: would do normal diligence on a financial asset, would invest in an asset with that profile.
 
 453
-00:38:36,880 --> 00:38:43,840
-Tyler: They're going to put cell phone. They're going to put 3G on a blockchain. Cool. I'm investing in
+00:38:33,360 --> 00:38:37,040
+Tyler: But in crypto, they would because people wouldn't do diligence. They would just be like, "Oh, cool.
 
 454
-00:38:43,840 --> 00:38:52,560
-Tyler: that. Web 3. Great." And now, I think it's kind of like some of those tendencies have seeped
+00:38:38,480 --> 00:38:45,440
+Tyler: They're going to put cell phone. They're going to put 3G on a blockchain. Cool. I'm investing in
 
 455
-00:38:52,560 --> 00:38:59,360
-Tyler: into TradFi, basically. You're seeing that with this IPO where it's like a lot of those things.
+00:38:45,440 --> 00:38:54,160
+Tyler: that. Web 3. Great." And now, I think it's kind of like some of those tendencies have seeped
 
 456
-00:38:59,360 --> 00:39:06,880
-Tyler: The low float difference between the market cap and the FDV, the huge portion of it that
+00:38:54,160 --> 00:39:00,960
+Tyler: into TradFi, basically. You're seeing that with this IPO where it's like a lot of those things.
 
 457
-00:39:06,880 --> 00:39:14,560
-Tyler: resembles a pre-mine or a dev fund. The fact that the founders get unilateral control forever.
+00:39:00,960 --> 00:39:08,480
+Tyler: The low float difference between the market cap and the FDV, the huge portion of it that
 
 458
-00:39:16,000 --> 00:39:19,200
-Tyler: And then, yeah, that dovetails with some of the other trends that we've talked about in the
+00:39:08,480 --> 00:39:16,160
+Tyler: resembles a pre-mine or a dev fund. The fact that the founders get unilateral control forever.
 
 459
-00:39:19,200 --> 00:39:25,520
-Tyler: the podcast before that are like perps coming to TradFi, taking over everything,
+00:39:17,600 --> 00:39:20,800
+Tyler: And then, yeah, that dovetails with some of the other trends that we've talked about in the
 
 460
-00:39:25,520 --> 00:39:32,480
-Tyler: prediction markets becoming mainstream. Chris, you mentioned that the
+00:39:20,800 --> 00:39:27,120
+Tyler: the podcast before that are like perps coming to TradFi, taking over everything,
 
 461
-00:39:34,080 --> 00:39:41,680
-Tyler: perp markets that were trading anthropic pre-IPO shares or futures did good price discovery
+00:39:27,120 --> 00:39:34,080
+Tyler: prediction markets becoming mainstream. Chris, you mentioned that the
 
 462
-00:39:42,560 --> 00:39:45,840
-Tyler: in advance of this. There's just this kind of interesting conversion.
+00:39:35,680 --> 00:39:43,280
+Tyler: perp markets that were trading anthropic pre-IPO shares or futures did good price discovery
 
 463
-00:39:45,840 --> 00:39:54,120
-Chris: Yeah, I think things are getting a little bit more... I feel like crypto really pushed the limits
+00:39:44,160 --> 00:39:47,440
+Tyler: in advance of this. There's just this kind of interesting conversion.
 
 464
-00:39:54,120 --> 00:40:01,920
-Chris: of what finance can be and how it can operate. God, I hate to say this, but some people were
+00:39:47,440 --> 00:39:55,720
+Chris: Yeah, I think things are getting a little bit more... I feel like crypto really pushed the limits
 
 465
-00:40:01,920 --> 00:40:08,840
-Chris: operating under the spirit of the law in finance. And I think because crypto came from the outside,
+00:39:55,720 --> 00:40:03,520
+Chris: of what finance can be and how it can operate. God, I hate to say this, but some people were
 
 466
-00:40:08,840 --> 00:40:17,240
-Chris: everything was rebuilt from first principles, and I think a lot of that has spilled over.
+00:40:03,520 --> 00:40:10,440
+Chris: operating under the spirit of the law in finance. And I think because crypto came from the outside,
 
 467
-00:40:18,440 --> 00:40:21,800
-Chris: Like you're saying, one example is that anyone can deploy a perp,
+00:40:10,440 --> 00:40:18,840
+Chris: everything was rebuilt from first principles, and I think a lot of that has spilled over.
 
 468
-00:40:23,000 --> 00:40:26,920
-Chris: which means that you can be exposed to an asset's price without permission from the
+00:40:20,040 --> 00:40:23,400
+Chris: Like you're saying, one example is that anyone can deploy a perp,
 
 469
-00:40:26,920 --> 00:40:37,560
-Chris: person who holds the asset. This is the world I think that we're living in, and it does seem
+00:40:24,600 --> 00:40:28,520
+Chris: which means that you can be exposed to an asset's price without permission from the
 
 470
-00:40:37,560 --> 00:40:42,840
-Chris: like a lot of these things, you can't put the toothpaste back in the tube. Once these technologies
+00:40:28,520 --> 00:40:39,160
+Chris: person who holds the asset. This is the world I think that we're living in, and it does seem
 
 471
-00:40:42,840 --> 00:40:48,200
-Chris: have been unleashed upon the world, I'm sure you can regulate these things,
+00:40:39,160 --> 00:40:44,440
+Chris: like a lot of these things, you can't put the toothpaste back in the tube. Once these technologies
 
 472
-00:40:48,200 --> 00:40:49,880
-Chris: but it doesn't seem like that's the way it's going.
+00:40:44,440 --> 00:40:49,800
+Chris: have been unleashed upon the world, I'm sure you can regulate these things,
 
 473
-00:40:50,920 --> 00:40:59,240
-Jackson: So we're reaching the apex pinnacle of finance. And what that looks like is total
+00:40:49,800 --> 00:40:51,480
+Chris: but it doesn't seem like that's the way it's going.
 
 474
-00:41:00,520 --> 00:41:07,640
-Jackson: vibes based degeneracy and quick trades. And crypto kind of ushered that in. Is that what
+00:40:52,520 --> 00:41:00,840
+Jackson: So we're reaching the apex pinnacle of finance. And what that looks like is total
 
 475
-00:41:07,640 --> 00:41:11,080
-Jackson: we're saying? Hyperliquid is the future of finance?
+00:41:02,120 --> 00:41:09,240
+Jackson: vibes based degeneracy and quick trades. And crypto kind of ushered that in. Is that what
 
 476
-00:41:11,080 --> 00:41:16,760
-Tyler: Yeah, it almost like governance is like an afterthought and a joke. I'm like, oh, like
+00:41:09,240 --> 00:41:12,680
+Jackson: we're saying? Hyperliquid is the future of finance?
 
 477
-00:41:16,760 --> 00:41:23,000
-Tyler: corporate governance, you know, like what a quaint concept from, you know, the before
+00:41:12,680 --> 00:41:18,360
+Tyler: Yeah, it almost like governance is like an afterthought and a joke. I'm like, oh, like
 
 478
-00:41:23,000 --> 00:41:29,260
-Tyler: times when like people were value investors and, you know, wanted to control the company
+00:41:18,360 --> 00:41:24,600
+Tyler: corporate governance, you know, like what a quaint concept from, you know, the before
 
 479
-00:41:29,260 --> 00:41:35,580
-Tyler: that they had economic exposure to. Now, it's very much like, you will own shares,
+00:41:24,600 --> 00:41:30,860
+Tyler: times when like people were value investors and, you know, wanted to control the company
 
 480
-00:41:36,620 --> 00:41:41,260
-Tyler: but you will get no voting rights and you will be happy. And also, the shares that you own will be
+00:41:30,860 --> 00:41:37,180
+Tyler: that they had economic exposure to. Now, it's very much like, you will own shares,
 
 481
-00:41:41,260 --> 00:41:49,740
-Tyler: only at most from the pool of 5% of the company. And you'll be diluted, additionally, by all of
+00:41:38,220 --> 00:41:42,860
+Tyler: but you will get no voting rights and you will be happy. And also, the shares that you own will be
 
 482
-00:41:49,740 --> 00:41:58,540
-Tyler: these insider stock options and funding deals with Amazon, Google that happened well before
+00:41:42,860 --> 00:41:51,340
+Tyler: only at most from the pool of 5% of the company. And you'll be diluted, additionally, by all of
 
 483
-00:41:58,540 --> 00:42:05,580
-Chris: it became public. One thing I think is interesting, the data that I have just pulled up,
+00:41:51,340 --> 00:42:00,140
+Tyler: these insider stock options and funding deals with Amazon, Google that happened well before
 
 484
-00:42:06,380 --> 00:42:12,700
-Chris: is that the perp only missed the opening price by about 6%. So it was like 104 or 105,
+00:42:00,140 --> 00:42:07,180
+Chris: it became public. One thing I think is interesting, the data that I have just pulled up,
 
 485
-00:42:12,700 --> 00:42:19,580
-Chris: and then the stock opened at $111. But it kind of nailed the closing price.
+00:42:07,980 --> 00:42:14,300
+Chris: is that the perp only missed the opening price by about 6%. So it was like 104 or 105,
 
 486
-00:42:21,100 --> 00:42:27,820
-Chris: It was well within the band. So I think in terms of price discovery, I think the perp did okay.
+00:42:14,300 --> 00:42:21,180
+Chris: and then the stock opened at $111. But it kind of nailed the closing price.
 
 487
-00:42:28,540 --> 00:42:38,820
-Jackson: Yeah, we should do like a back analysis on how well hyper liquid perps have predicted
+00:42:22,700 --> 00:42:29,420
+Chris: It was well within the band. So I think in terms of price discovery, I think the perp did okay.
 
 488
-00:42:38,820 --> 00:42:47,720
-Jackson: have done price discovery for these IPOs but also for like price movement over the weekend.
+00:42:30,140 --> 00:42:40,420
+Jackson: Yeah, we should do like a back analysis on how well hyper liquid perps have predicted
 
 489
-00:42:47,720 --> 00:42:49,660
-Jackson: Maybe that would be interesting.
+00:42:40,420 --> 00:42:49,320
+Jackson: have done price discovery for these IPOs but also for like price movement over the weekend.
 
 490
-00:42:49,660 --> 00:42:55,420
-Jackson: I guess some hedge fund somewhere or high-frequency trading firm was already doing this and making
+00:42:49,320 --> 00:42:51,260
+Jackson: Maybe that would be interesting.
 
 491
-00:42:55,420 --> 00:42:56,420
-Jackson: money from it.
+00:42:51,260 --> 00:42:57,020
+Jackson: I guess some hedge fund somewhere or high-frequency trading firm was already doing this and making
 
 492
-00:42:56,420 --> 00:42:58,540
-Jackson: Okay, that's too late for us.
+00:42:57,020 --> 00:42:58,020
+Jackson: money from it.
 
 493
-00:42:58,540 --> 00:43:00,460
-Chris: - This is, this is Wintermute's idea
+00:42:58,020 --> 00:43:00,140
+Jackson: Okay, that's too late for us.
 
 494
-00:43:00,460 --> 00:43:02,880
-Chris: of what the price of the IPO was.
+00:43:00,140 --> 00:43:02,060
+Chris: - This is, this is Wintermute's idea
 
 495
-00:43:05,220 --> 00:43:10,220
-Jackson: So there's that, yeah, Wintermute is omniscient.
+00:43:02,060 --> 00:43:04,480
+Chris: of what the price of the IPO was.
 
 496
-00:43:10,940 --> 00:43:13,420
-Jackson: Kind of gives me like a random perp idea.
+00:43:06,820 --> 00:43:11,820
+Jackson: So there's that, yeah, Wintermute is omniscient.
 
 497
-00:43:14,980 --> 00:43:16,740
-Jackson: Perp, what do they call it?
+00:43:12,540 --> 00:43:15,020
+Jackson: Kind of gives me like a random perp idea.
 
 498
-00:43:16,740 --> 00:43:18,860
-Jackson: Perp startup pitch.
+00:43:16,580 --> 00:43:18,340
+Jackson: Perp, what do they call it?
 
 499
-00:43:18,860 --> 00:43:23,180
-Jackson: Could we do localized rain perps for cities
+00:43:18,340 --> 00:43:20,460
+Jackson: Perp startup pitch.
 
 500
-00:43:23,180 --> 00:43:25,900
-Jackson: where people can hedge their weekend activities
+00:43:20,460 --> 00:43:24,780
+Jackson: Could we do localized rain perps for cities
 
 501
-00:43:25,900 --> 00:43:32,140
-Jackson: whether or not it's going to rain. So at least if it does rain, you're happy that you made some
+00:43:24,780 --> 00:43:27,500
+Jackson: where people can hedge their weekend activities
 
 502
-00:43:32,140 --> 00:43:37,500
-Jackson: money, but you still can't go outside. They have this already with prediction markets.
+00:43:27,500 --> 00:43:33,740
+Jackson: whether or not it's going to rain. So at least if it does rain, you're happy that you made some
 
 503
-00:43:37,500 --> 00:43:41,500
-Tyler: So there was a thing where there was a prediction market for the weather in Paris,
+00:43:33,740 --> 00:43:39,100
+Jackson: money, but you still can't go outside. They have this already with prediction markets.
 
 504
-00:43:41,500 --> 00:43:49,580
-Tyler: I think. And I think that there's similar weather in place prediction markets. And some guy figured
+00:43:39,100 --> 00:43:43,100
+Tyler: So there was a thing where there was a prediction market for the weather in Paris,
 
 505
-00:43:49,580 --> 00:43:56,840
-Tyler: out that this market resolved based on one temperature sensor that was at the Charles
+00:43:43,100 --> 00:43:51,180
+Tyler: I think. And I think that there's similar weather in place prediction markets. And some guy figured
 
 506
-00:43:56,840 --> 00:44:04,460
-Tyler: de Gaulle airport in Paris. He found out where the sensor was and then went up to it and
+00:43:51,180 --> 00:43:58,440
+Tyler: out that this market resolved based on one temperature sensor that was at the Charles
 
 507
-00:44:04,460 --> 00:44:10,260
-Tyler: tried to heat it up with a hair dryer through the fence of the airport. Then he was arrested
+00:43:58,440 --> 00:44:06,060
+Tyler: de Gaulle airport in Paris. He found out where the sensor was and then went up to it and
 
 508
-00:44:10,260 --> 00:44:14,940
-Tyler: because obviously he's at an airport being sketchy.
+00:44:06,060 --> 00:44:11,860
+Tyler: tried to heat it up with a hair dryer through the fence of the airport. Then he was arrested
 
 509
-00:44:14,940 --> 00:44:19,580
-Tyler: was trying to manipulate the resolution of the market in favor of the way that he bet,
+00:44:11,860 --> 00:44:16,540
+Tyler: because obviously he's at an airport being sketchy.
 
 510
-00:44:20,540 --> 00:44:26,460
-Tyler: which is just amazing. And I fully support that type of activity.
+00:44:16,540 --> 00:44:21,180
+Tyler: was trying to manipulate the resolution of the market in favor of the way that he bet,
 
 511
-00:44:27,980 --> 00:44:33,020
-Chris: This reeks of like Citrini intern number two, who they claimed they sent to the Strait of Hormuz
+00:44:22,140 --> 00:44:28,060
+Tyler: which is just amazing. And I fully support that type of activity.
 
 512
-00:44:33,020 --> 00:44:37,820
-Chris: when it was closed to take pictures of tankers, whether they were getting through or not.
+00:44:29,580 --> 00:44:34,620
+Chris: This reeks of like Citrini intern number two, who they claimed they sent to the Strait of Hormuz
 
 513
-00:44:37,820 --> 00:44:42,140
-Chris: Real like on the ground quantitative finance that I appreciate.
+00:44:34,620 --> 00:44:39,420
+Chris: when it was closed to take pictures of tankers, whether they were getting through or not.
 
 514
-00:44:43,740 --> 00:44:45,860
-Jackson: Yeah. I need proof of on the ground there.
+00:44:39,420 --> 00:44:43,740
+Chris: Real like on the ground quantitative finance that I appreciate.
 
 515
-00:44:45,900 --> 00:44:49,420
-Jackson: How do we know he was really there and it's not AI ship?
+00:44:45,340 --> 00:44:47,460
+Jackson: Yeah. I need proof of on the ground there.
 
 516
-00:44:50,100 --> 00:44:52,740
-Chris: We don't. That's the sad thing. That's the sad thing.
+00:44:47,500 --> 00:44:51,020
+Jackson: How do we know he was really there and it's not AI ship?
 
 517
-00:44:52,900 --> 00:44:57,580
-Tyler: They need to make a movie about Sotrini intern number two, like a modern day,
+00:44:51,700 --> 00:44:54,340
+Chris: We don't. That's the sad thing. That's the sad thing.
 
 518
-00:44:57,780 --> 00:45:01,540
-Chris: Indiana Jones, like, you know, just like adventure,
+00:44:54,500 --> 00:44:59,180
+Tyler: They need to make a movie about Sotrini intern number two, like a modern day,
 
 519
-00:45:02,180 --> 00:45:06,660
-Chris: adventure person injecting a scorpion,
+00:44:59,380 --> 00:45:03,140
+Chris: Indiana Jones, like, you know, just like adventure,
 
 520
-00:45:06,660 --> 00:45:10,620
-Chris: peptide cures and then getting bitten by a scorpion. Yeah. Yeah. Totally.
+00:45:03,780 --> 00:45:08,260
+Chris: adventure person injecting a scorpion,
 
 521
-00:45:10,660 --> 00:45:12,380
-Chris: - Anything for the bag.
+00:45:08,260 --> 00:45:12,220
+Chris: peptide cures and then getting bitten by a scorpion. Yeah. Yeah. Totally.
 
 522
-00:45:12,380 --> 00:45:15,040
-Jackson: - Yeah, they make documentaries about anything now.
+00:45:12,260 --> 00:45:13,980
+Chris: - Anything for the bag.
 
 523
-00:45:15,040 --> 00:45:17,880
-Jackson: I watched like the trailer for the Sam Bankman Freed one
+00:45:13,980 --> 00:45:16,640
+Jackson: - Yeah, they make documentaries about anything now.
 
 524
-00:45:17,880 --> 00:45:19,400
-Jackson: and it almost seems like propaganda
+00:45:16,640 --> 00:45:19,480
+Jackson: I watched like the trailer for the Sam Bankman Freed one
 
 525
-00:45:19,400 --> 00:45:22,280
-Jackson: that like Sam Bankman Freed didn't do anything evil
+00:45:19,480 --> 00:45:21,000
+Jackson: and it almost seems like propaganda
 
 526
-00:45:22,280 --> 00:45:26,180
-Jackson: and instead his like nerdy girlfriend forced him
+00:45:21,000 --> 00:45:23,880
+Jackson: that like Sam Bankman Freed didn't do anything evil
 
 527
-00:45:26,180 --> 00:45:27,600
-Jackson: into going all in.
+00:45:23,880 --> 00:45:27,780
+Jackson: and instead his like nerdy girlfriend forced him
 
 528
-00:45:27,600 --> 00:45:29,200
-Jackson: Did you guys see that trailer?
+00:45:27,780 --> 00:45:29,200
+Jackson: into going all in.
 
 529
-00:45:30,240 --> 00:45:33,100
-Jackson: Feel like he's trying to shift the responsibility.
+00:45:29,200 --> 00:45:30,800
+Jackson: Did you guys see that trailer?
 
 530
-00:45:33,100 --> 00:45:35,020
-Chris: - Is this Carolyn Ellison?
+00:45:31,840 --> 00:45:34,700
+Jackson: Feel like he's trying to shift the responsibility.
 
 531
-00:45:36,260 --> 00:45:37,780
-Jackson: - I don't believe-- - Whoever his girl was.
+00:45:34,700 --> 00:45:36,620
+Chris: - Is this Carolyn Ellison?
 
 532
-00:45:37,780 --> 00:45:39,520
-Chris: - I don't believe that she was innocent.
+00:45:37,860 --> 00:45:39,380
+Jackson: - I don't believe-- - Whoever his girl was.
 
 533
-00:45:39,520 --> 00:45:42,560
-Chris: allegedly, whatever I'm supposed to say there.
+00:45:39,380 --> 00:45:41,120
+Chris: - I don't believe that she was innocent.
 
 534
-00:45:42,560 --> 00:45:47,320
-Tyler: No, she wasn't innocent. She pled guilty. Of course, she wasn't innocent.
+00:45:41,120 --> 00:45:44,160
+Chris: allegedly, whatever I'm supposed to say there.
 
 535
-00:45:47,320 --> 00:45:49,640
-Chris: Yeah. I mean, it's a matter of record.
+00:45:44,160 --> 00:45:48,920
+Tyler: No, she wasn't innocent. She pled guilty. Of course, she wasn't innocent.
 
 536
-00:45:49,640 --> 00:45:57,200
-Tyler: Yeah. She did crime. Sam Beckman Free did a crime. I don't think that this is that controversial.
+00:45:48,920 --> 00:45:51,240
+Chris: Yeah. I mean, it's a matter of record.
 
 537
-00:45:57,200 --> 00:46:04,920
-Chris: I think his anthropic stake is worth over $40 billion at IPO prices. And the size of
+00:45:51,240 --> 00:45:58,800
+Tyler: Yeah. She did crime. Sam Beckman Free did a crime. I don't think that this is that controversial.
 
 538
-00:46:04,920 --> 00:46:10,920
-Chris: whole was it like $102 billion. So yeah.
+00:45:58,800 --> 00:46:06,520
+Chris: I think his anthropic stake is worth over $40 billion at IPO prices. And the size of
 
 539
-00:46:10,920 --> 00:46:12,920
-Chris: At bankrupt town.
+00:46:06,520 --> 00:46:12,520
+Chris: whole was it like $102 billion. So yeah.
 
 540
-00:46:12,920 --> 00:46:13,920
-Chris: Yeah.
+00:46:12,520 --> 00:46:14,520
+Chris: At bankrupt town.
 
 541
-00:46:13,920 --> 00:46:14,920
-Tyler: Sucks to suck.
+00:46:14,520 --> 00:46:15,520
+Chris: Yeah.
 
 542
-00:46:14,920 --> 00:46:21,060
-Chris: So, I mean, what's the lesson here? Don't use customer funds to invest in lucrative
+00:46:15,520 --> 00:46:16,520
+Tyler: Sucks to suck.
 
 543
-00:46:21,060 --> 00:46:24,720
-Chris: anthropic IPOs, lucrative anthropic investment deals.
+00:46:16,520 --> 00:46:22,660
+Chris: So, I mean, what's the lesson here? Don't use customer funds to invest in lucrative
 
 544
-00:46:24,720 --> 00:46:29,800
-Jackson: Just cover it up better. Not financial bias or opinions.
+00:46:22,660 --> 00:46:26,320
+Chris: anthropic IPOs, lucrative anthropic investment deals.
 
 545
-00:46:29,800 --> 00:46:32,440
-Jackson: Chris, I hear you.
+00:46:26,320 --> 00:46:31,400
+Jackson: Just cover it up better. Not financial bias or opinions.
 
 546
-00:46:32,440 --> 00:46:41,520
-Jackson: I hear you solve it. Exactly. Shuffle the books a little better. Big boy. Um, on a lighter,
+00:46:31,400 --> 00:46:34,040
+Jackson: Chris, I hear you.
 
 547
-00:46:41,520 --> 00:46:49,080
-Jackson: lighter note, uh, big economic event, grand theft auto six never been a fan of the franchise
+00:46:34,040 --> 00:46:43,120
+Jackson: I hear you solve it. Exactly. Shuffle the books a little better. Big boy. Um, on a lighter,
 
 548
-00:46:49,080 --> 00:46:52,520
-Jackson: myself. I mean, you're just driving around a car, just go drive around a car in real
+00:46:43,120 --> 00:46:50,680
+Jackson: lighter note, uh, big economic event, grand theft auto six never been a fan of the franchise
 
 549
-00:46:52,520 --> 00:46:58,800
-Jackson: life. If you want to start a fight, that's on you. Chris is our on the ground, on the
+00:46:50,680 --> 00:46:54,120
+Jackson: myself. I mean, you're just driving around a car, just go drive around a car in real
 
 550
-00:46:58,800 --> 00:47:04,800
-Jackson: He's an underground correspondent. He's interacted with the game. Give it to us straight.
+00:46:54,120 --> 00:47:00,400
+Jackson: life. If you want to start a fight, that's on you. Chris is our on the ground, on the
 
 551
-00:47:04,800 --> 00:47:05,800
-Jackson: Good or bad?
+00:47:00,400 --> 00:47:06,400
+Jackson: He's an underground correspondent. He's interacted with the game. Give it to us straight.
 
 552
-00:47:05,800 --> 00:47:10,380
-Chris: I did. So I don't think I'm the target audience for this game to start with. I'm like you.
+00:47:06,400 --> 00:47:07,400
+Jackson: Good or bad?
 
 553
-00:47:10,380 --> 00:47:15,840
-Chris: If I wanted to drive a car around and then get into a fight and end up in hospital, I
+00:47:07,400 --> 00:47:11,980
+Chris: I did. So I don't think I'm the target audience for this game to start with. I'm like you.
 
 554
-00:47:15,840 --> 00:47:18,440
-Chris: would do that.
+00:47:11,980 --> 00:47:17,440
+Chris: If I wanted to drive a car around and then get into a fight and end up in hospital, I
 
 555
-00:47:18,440 --> 00:47:24,800
-Chris: But yeah, I mean, I think one takeaway from it is that it is very, very realistic. I heard
+00:47:17,440 --> 00:47:20,040
+Chris: would do that.
 
 556
-00:47:24,800 --> 00:47:30,200
-Chris: something about the devs talking about like, um, it was too realistic and they had to tone
+00:47:20,040 --> 00:47:26,400
+Chris: But yeah, I mean, I think one takeaway from it is that it is very, very realistic. I heard
 
 557
-00:47:30,200 --> 00:47:35,480
-Chris: it back. It's like, uh, you know, one of the first things you do in the game is like renovate
+00:47:26,400 --> 00:47:31,800
+Chris: something about the devs talking about like, um, it was too realistic and they had to tone
 
 558
-00:47:35,480 --> 00:47:39,760
-Chris: your house. I don't know. It was, look, it's not like I could, I should probably be doing
+00:47:31,800 --> 00:47:37,080
+Chris: it back. It's like, uh, you know, one of the first things you do in the game is like renovate
 
 559
-00:47:39,760 --> 00:47:45,160
-Chris: that stuff in my daily life anyway. I, I didn't see the appeal. Um, but yeah, I see, I see
+00:47:37,080 --> 00:47:41,360
+Chris: your house. I don't know. It was, look, it's not like I could, I should probably be doing
 
 560
-00:47:45,160 --> 00:47:52,480
-Chris: the internet is very divided on it though. So, um, but yeah, I think maybe the last human
+00:47:41,360 --> 00:47:46,760
+Chris: that stuff in my daily life anyway. I, I didn't see the appeal. Um, but yeah, I see, I see
 
 561
-00:47:52,480 --> 00:47:55,560
-Chris: made game ever. And we have to respect it for that.
+00:47:46,760 --> 00:47:54,080
+Chris: the internet is very divided on it though. So, um, but yeah, I think maybe the last human
 
 562
-00:47:56,360 --> 00:48:01,200
-Jackson: And maybe it's our first step into real life simulator before, you know,
+00:47:54,080 --> 00:47:57,160
+Chris: made game ever. And we have to respect it for that.
 
 563
-00:48:01,440 --> 00:48:04,560
-Jackson: we all are jobless and we need something to do.
+00:47:57,960 --> 00:48:02,800
+Jackson: And maybe it's our first step into real life simulator before, you know,
 
 564
-00:48:04,560 --> 00:48:08,120
-Jackson: So we renovate our house in the, in the virtual world.
+00:48:03,040 --> 00:48:06,160
+Jackson: we all are jobless and we need something to do.
 
 565
-00:48:09,920 --> 00:48:13,680
-Chris: It could be one of the greatest RL training environments of all time as well.
+00:48:06,160 --> 00:48:09,720
+Jackson: So we renovate our house in the, in the virtual world.
 
 566
-00:48:13,680 --> 00:48:16,720
-Chris: We'll see, we'll see how that goes. Someone should try that.
+00:48:11,520 --> 00:48:15,280
+Chris: It could be one of the greatest RL training environments of all time as well.
 
 567
-00:48:18,560 --> 00:48:19,400
-Jackson: I like that.
+00:48:15,280 --> 00:48:18,320
+Chris: We'll see, we'll see how that goes. Someone should try that.
 
 568
-00:48:19,920 --> 00:48:24,480
-Chris: make 10,000 Claude's, uh, try to like, please their grand theft auto
+00:48:20,160 --> 00:48:21,000
+Jackson: I like that.
 
 569
-00:48:24,480 --> 00:48:26,640
-Chris: girlfriend and like, see what they learn.
+00:48:21,520 --> 00:48:26,080
+Chris: make 10,000 Claude's, uh, try to like, please their grand theft auto
 
 570
-00:48:30,560 --> 00:48:36,000
-Jackson: And did you, did you ever end up setting up like some sort of RL
+00:48:26,080 --> 00:48:28,240
+Chris: girlfriend and like, see what they learn.
 
 571
-00:48:36,000 --> 00:48:40,680
-Jackson: environment to fine tune your local, your local model, or did you not
+00:48:32,160 --> 00:48:37,600
+Jackson: And did you, did you ever end up setting up like some sort of RL
 
 572
-00:48:40,680 --> 00:48:41,700
-Jackson: get that one shot yet?
+00:48:37,600 --> 00:48:42,280
+Jackson: environment to fine tune your local, your local model, or did you not
 
 573
-00:48:42,360 --> 00:48:43,280
-Chris: I haven't done it yet.
+00:48:42,280 --> 00:48:43,300
+Jackson: get that one shot yet?
 
 574
-00:48:43,320 --> 00:48:49,880
-Chris: I really would like to, but, uh, sadly I just haven't found, uh,
+00:48:43,960 --> 00:48:44,880
+Chris: I haven't done it yet.
 
 575
-00:48:49,920 --> 00:48:57,760
-Chris: a good enough use case for my guy, Pip, for my agent. I don't know if you've heard, but Apple,
+00:48:44,920 --> 00:48:51,480
+Chris: I really would like to, but, uh, sadly I just haven't found, uh,
 
 576
-00:48:58,480 --> 00:49:05,280
-Chris: it sounds like they're hiring for somebody to do what looks like on-device personal agents,
+00:48:51,520 --> 00:48:59,360
+Chris: a good enough use case for my guy, Pip, for my agent. I don't know if you've heard, but Apple,
 
 577
-00:49:05,280 --> 00:49:10,640
-Chris: so I assume that's to do with their Apple Intelligence chip. Maybe they're going to
+00:49:00,080 --> 00:49:06,880
+Chris: it sounds like they're hiring for somebody to do what looks like on-device personal agents,
 
 578
-00:49:11,840 --> 00:49:16,720
-Chris: Use that, um, to create something like muse or dots or anthropic assistant.
+00:49:06,880 --> 00:49:12,240
+Chris: so I assume that's to do with their Apple Intelligence chip. Maybe they're going to
 
 579
-00:49:17,460 --> 00:49:22,640
-Chris: Um, and, uh, and yeah, I, I also, I also think that's just a flat, better idea
+00:49:13,440 --> 00:49:18,320
+Chris: Use that, um, to create something like muse or dots or anthropic assistant.
 
 580
-00:49:22,640 --> 00:49:24,420
-Chris: than running an agent entity.
+00:49:19,060 --> 00:49:24,240
+Chris: Um, and, uh, and yeah, I, I also, I also think that's just a flat, better idea
 
 581
-00:49:24,480 --> 00:49:28,040
-Chris: So, uh, yeah, we'll see how that goes, but no, I haven't fine tuned.
+00:49:24,240 --> 00:49:26,020
+Chris: than running an agent entity.
 
 582
-00:49:28,040 --> 00:49:29,040
-Chris: I still want to.
+00:49:26,080 --> 00:49:29,640
+Chris: So, uh, yeah, we'll see how that goes, but no, I haven't fine tuned.
 
 583
-00:49:29,520 --> 00:49:33,040
-Jackson: I think that there's compelling use cases for the, something that, that I've
+00:49:29,640 --> 00:49:30,640
+Chris: I still want to.
 
 584
-00:49:33,040 --> 00:49:38,720
-Jackson: wanted recently and I've thought about is like, I almost wish that my
+00:49:31,120 --> 00:49:34,640
+Jackson: I think that there's compelling use cases for the, something that, that I've
 
 585
-00:49:38,720 --> 00:49:45,320
-Jackson: phone monitored everything I did, and then took a measurement of my happiness or my physical
+00:49:34,640 --> 00:49:40,320
+Jackson: wanted recently and I've thought about is like, I almost wish that my
 
 586
-00:49:45,320 --> 00:49:49,740
-Jackson: state of being.
+00:49:40,320 --> 00:49:46,920
+Jackson: phone monitored everything I did, and then took a measurement of my happiness or my physical
 
 587
-00:49:49,740 --> 00:49:54,200
-Jackson: Because I think that we're really bad at doing this as humans, remembering everything you
+00:49:46,920 --> 00:49:51,340
+Jackson: state of being.
 
 588
-00:49:54,200 --> 00:49:56,500
-Jackson: did and then connecting the dots.
+00:49:51,340 --> 00:49:55,800
+Jackson: Because I think that we're really bad at doing this as humans, remembering everything you
 
 589
-00:49:56,500 --> 00:50:03,980
-Jackson: For example, what if every time I eat the Pakistani curry that's $7, the next day I
+00:49:55,800 --> 00:49:58,100
+Jackson: did and then connecting the dots.
 
 590
-00:50:03,980 --> 00:50:06,660
-Jackson: wake up and I feel bad.
+00:49:58,100 --> 00:50:05,580
+Jackson: For example, what if every time I eat the Pakistani curry that's $7, the next day I
 
 591
-00:50:06,660 --> 00:50:10,980
-Jackson: I just wish that my phone was monitoring me and would tell me, Hey,
+00:50:05,580 --> 00:50:08,260
+Jackson: wake up and I feel bad.
 
 592
-00:50:11,020 --> 00:50:15,140
-Jackson: you got to stop doing that deed. It has like a bad effect on, yeah.
+00:50:08,260 --> 00:50:12,580
+Jackson: I just wish that my phone was monitoring me and would tell me, Hey,
 
 593
-00:50:16,260 --> 00:50:20,860
-Chris: Amazon next day prime delivery from your Alexa of Pepto Bismol. How about that?
+00:50:12,620 --> 00:50:16,740
+Jackson: you got to stop doing that deed. It has like a bad effect on, yeah.
 
 594
-00:50:21,260 --> 00:50:24,540
-Chris: You need to think about monetizing this. I don't want that.
+00:50:17,860 --> 00:50:22,460
+Chris: Amazon next day prime delivery from your Alexa of Pepto Bismol. How about that?
 
 595
-00:50:24,580 --> 00:50:28,820
-Jackson: I want it to stop me or at least tell me, give me the option.
+00:50:22,860 --> 00:50:26,140
+Chris: You need to think about monetizing this. I don't want that.
 
 596
-00:50:29,740 --> 00:50:33,380
-Tyler: Do you already suspect an adverse effect from these $7 taxes?
+00:50:26,180 --> 00:50:30,420
+Jackson: I want it to stop me or at least tell me, give me the option.
 
 597
-00:50:36,660 --> 00:50:47,380
-Jackson: It's just like sitting there, you know, like all day and then you you buy it and they put
+00:50:31,340 --> 00:50:34,980
+Tyler: Do you already suspect an adverse effect from these $7 taxes?
 
 598
-00:50:47,380 --> 00:50:52,820
-Jackson: it in a microwave for you. I love it. But it's not a taste good stany curry. Yeah. It's
+00:50:38,260 --> 00:50:48,980
+Jackson: It's just like sitting there, you know, like all day and then you you buy it and they put
 
 599
-00:50:52,820 --> 00:50:58,500
-Jackson: fire. It's so cheap. And the dude finally calls me amigo. He's like, what's up amigo?
+00:50:48,980 --> 00:50:54,420
+Jackson: it in a microwave for you. I love it. But it's not a taste good stany curry. Yeah. It's
 
 600
-00:50:58,500 --> 00:51:04,580
-Jackson: And I'm like, you're in or amigas. I like how I ask if it's good. And you say, yeah, it's
+00:50:54,420 --> 00:51:00,100
+Jackson: fire. It's so cheap. And the dude finally calls me amigo. He's like, what's up amigo?
 
 601
-00:51:04,580 --> 00:51:09,060
-Tyler: so cheap. It's like, well, that's a different question, but okay.
+00:51:00,100 --> 00:51:06,180
+Jackson: And I'm like, you're in or amigas. I like how I ask if it's good. And you say, yeah, it's
 
 602
-00:51:10,340 --> 00:51:12,140
-Tyler: Now I know what you're really optimizing for.
+00:51:06,180 --> 00:51:10,660
+Tyler: so cheap. It's like, well, that's a different question, but okay.
 
 603
-00:51:13,700 --> 00:51:17,100
-Jackson: Food quality is like deliciousness divided by price.
+00:51:11,940 --> 00:51:13,740
+Tyler: Now I know what you're really optimizing for.
 
 604
-00:51:17,100 --> 00:51:20,740
-Jackson: So you can only go so high in like tastiness.
+00:51:15,300 --> 00:51:18,700
+Jackson: Food quality is like deliciousness divided by price.
 
 605
-00:51:21,180 --> 00:51:23,860
-Jackson: So then you have to optimize your price. And this one,
+00:51:18,700 --> 00:51:22,340
+Jackson: So you can only go so high in like tastiness.
 
 606
-00:51:24,300 --> 00:51:27,980
-Jackson: this is catching the golden ratio for me. I think we should,
+00:51:22,780 --> 00:51:25,460
+Jackson: So then you have to optimize your price. And this one,
 
 607
-00:51:27,980 --> 00:51:30,900
-Tyler: yeah, but I feel like, like, I don't know,
+00:51:25,900 --> 00:51:29,580
+Jackson: this is catching the golden ratio for me. I think we should,
 
 608
-00:51:30,940 --> 00:51:34,140
-Tyler: like you might as well get the thing that's just as tasty.
+00:51:29,580 --> 00:51:32,500
+Tyler: yeah, but I feel like, like, I don't know,
 
 609
-00:51:34,140 --> 00:51:38,960
-Tyler: that isn't going to make you sick twice as much money because we're only
+00:51:32,540 --> 00:51:35,740
+Tyler: like you might as well get the thing that's just as tasty.
 
 610
-00:51:38,960 --> 00:51:40,560
-Tyler: talking about $7 here.
+00:51:35,740 --> 00:51:40,560
+Tyler: that isn't going to make you sick twice as much money because we're only
 
 611
-00:51:41,520 --> 00:51:42,060
-Jackson: That's true.
+00:51:40,560 --> 00:51:42,160
+Tyler: talking about $7 here.
 
 612
-00:51:42,060 --> 00:51:47,120
-Jackson: I haven't factored in the health side effects, but that was just an
+00:51:43,120 --> 00:51:43,660
+Jackson: That's true.
 
 613
-00:51:47,120 --> 00:51:48,720
-Jackson: example for other things.
+00:51:43,660 --> 00:51:48,720
+Jackson: I haven't factored in the health side effects, but that was just an
 
 614
-00:51:48,720 --> 00:51:51,360
-Jackson: Like people experience pain, like maybe your wrist hurts.
+00:51:48,720 --> 00:51:50,320
+Jackson: example for other things.
 
 615
-00:51:51,760 --> 00:51:53,760
-Jackson: It's like, okay, what did you do today?
+00:51:50,320 --> 00:51:52,960
+Jackson: Like people experience pain, like maybe your wrist hurts.
 
 616
-00:51:53,960 --> 00:51:56,460
-Jackson: I spent like seven hours typing up a document.
+00:51:53,360 --> 00:51:55,360
+Jackson: It's like, okay, what did you do today?
 
 617
-00:51:56,760 --> 00:51:57,840
-Jackson: No one does that anymore.
+00:51:55,560 --> 00:51:58,060
+Jackson: I spent like seven hours typing up a document.
 
 618
-00:51:58,200 --> 00:52:03,000
-Jackson: Or like I played seven hours of tennis with this racket, just like getting
+00:51:58,360 --> 00:51:59,440
+Jackson: No one does that anymore.
 
 619
-00:52:03,000 --> 00:52:07,320
-Jackson: insights because it's hard to do that for yourself and it's hard to do that for others.
+00:51:59,800 --> 00:52:04,600
+Jackson: Or like I played seven hours of tennis with this racket, just like getting
 
 620
-00:52:07,320 --> 00:52:10,920
-Jackson: So who's there for you other than Big Brother Apple?
+00:52:04,600 --> 00:52:08,920
+Jackson: insights because it's hard to do that for yourself and it's hard to do that for others.
 
 621
-00:52:11,960 --> 00:52:16,760
-Chris: Right. And I suspect in that world, the guarantee of privacy is probably important as a product
+00:52:08,920 --> 00:52:12,520
+Jackson: So who's there for you other than Big Brother Apple?
 
 622
-00:52:16,760 --> 00:52:24,360
-Chris: feature. And my understanding of some of Apple's pricing model is that they sell less of your data
+00:52:13,560 --> 00:52:18,360
+Chris: Right. And I suspect in that world, the guarantee of privacy is probably important as a product
 
 623
-00:52:24,360 --> 00:52:29,160
-Chris: because they charge more upfront. On some level, there's the luxury good angle, but
+00:52:18,360 --> 00:52:25,960
+Chris: feature. And my understanding of some of Apple's pricing model is that they sell less of your data
 
 624
-00:52:31,320 --> 00:52:34,760
-Chris: I think there is an assumption that less of your daughter is being sold like Apple
+00:52:25,960 --> 00:52:30,760
+Chris: because they charge more upfront. On some level, there's the luxury good angle, but
 
 625
-00:52:34,760 --> 00:52:39,560
-Chris: Health is on device for example. So yeah, we'll see.
+00:52:32,920 --> 00:52:36,360
+Chris: I think there is an assumption that less of your daughter is being sold like Apple
 
 626
-00:52:40,360 --> 00:52:44,520
-Jackson: Yeah, and an idea for Pip, you know, if you can securely do all this,
+00:52:36,360 --> 00:52:41,160
+Chris: Health is on device for example. So yeah, we'll see.
 
 627
-00:52:44,520 --> 00:52:50,040
-Jackson: I've been thinking about it a lot. Anyways, looks like we caught a dove today again.
+00:52:41,960 --> 00:52:46,120
+Jackson: Yeah, and an idea for Pip, you know, if you can securely do all this,
 
 628
-00:52:50,600 --> 00:52:55,880
-Jackson: I mean, not we Tyler to Tyler, you whooped us with the $25 Bitcoin flip.
+00:52:46,120 --> 00:52:51,640
+Jackson: I've been thinking about it a lot. Anyways, looks like we caught a dove today again.
 
 629
-00:52:55,880 --> 00:53:00,680
-Jackson: We're always betting down though, so we just hate this one.
+00:52:52,200 --> 00:52:57,480
+Jackson: I mean, not we Tyler to Tyler, you whooped us with the $25 Bitcoin flip.
 
 630
-00:53:03,400 --> 00:53:07,880
-Jackson: We hate it so much, but we are also up on Escea Hynek. It's just like nothing.
+00:52:57,480 --> 00:53:02,280
+Jackson: We're always betting down though, so we just hate this one.
 
 631
-00:53:07,880 --> 00:53:12,520
-Jackson: Two dollars. What can you buy with that? Spanish espresso.
+00:53:05,000 --> 00:53:09,480
+Jackson: We hate it so much, but we are also up on Escea Hynek. It's just like nothing.
 
 632
-00:53:15,320 --> 00:53:24,040
-Jackson: Good dub boys. I love to see green in the morning. And it's time for our salutations.
+00:53:09,480 --> 00:53:14,120
+Jackson: Two dollars. What can you buy with that? Spanish espresso.
 
 633
-00:53:24,040 --> 00:53:28,400
-Jackson: Unless, Tyler, you've got something to say to the viewers.
+00:53:16,920 --> 00:53:25,640
+Jackson: Good dub boys. I love to see green in the morning. And it's time for our salutations.
 
 634
-00:53:28,400 --> 00:53:30,600
-Jackson: Oh, actually, something we need to do
+00:53:25,640 --> 00:53:30,000
+Jackson: Unless, Tyler, you've got something to say to the viewers.
 
 635
-00:53:30,600 --> 00:53:33,440
-Jackson: is a like and subscribe thing.
+00:53:30,000 --> 00:53:32,200
+Jackson: Oh, actually, something we need to do
 
 636
-00:53:33,440 --> 00:53:36,520
-Jackson: So I'm going to say like and subscribe,
+00:53:32,200 --> 00:53:35,040
+Jackson: is a like and subscribe thing.
 
 637
-00:53:36,520 --> 00:53:41,000
-Jackson: and then you guys say something that makes people want to do it.
+00:53:35,040 --> 00:53:38,120
+Jackson: So I'm going to say like and subscribe,
 
 638
-00:53:41,000 --> 00:53:42,420
-Jackson: Yo, like and subscribe.
+00:53:38,120 --> 00:53:42,600
+Jackson: and then you guys say something that makes people want to do it.
 
 639
-00:53:45,300 --> 00:53:45,720
-Chris: Hey, everyone.
+00:53:42,600 --> 00:53:44,020
+Jackson: Yo, like and subscribe.
 
 640
-00:53:45,720 --> 00:53:46,800
-Chris: Chris from Underpod here.
+00:53:46,900 --> 00:53:47,320
+Chris: Hey, everyone.
 
 641
-00:53:46,800 --> 00:53:49,080
-Chris: Please, please like and subscribe.
+00:53:47,320 --> 00:53:48,400
+Chris: Chris from Underpod here.
 
 642
-00:53:49,080 --> 00:53:50,520
-Chris: I'm so hungry.
+00:53:48,400 --> 00:53:50,680
+Chris: Please, please like and subscribe.
 
 643
-00:53:50,520 --> 00:53:51,520
-Tyler: I'll let you guys handle it.
+00:53:50,680 --> 00:53:52,120
+Chris: I'm so hungry.
 
 644
-00:53:51,520 --> 00:53:52,520
-Jackson: All right.
+00:53:52,120 --> 00:53:53,120
+Tyler: I'll let you guys handle it.
 
 645
-00:53:52,520 --> 00:53:53,520
-Jackson: Thank you everybody.
+00:53:53,120 --> 00:53:54,120
+Jackson: All right.
 
 646
-00:53:53,520 --> 00:53:54,520
-Jackson: Have a good Friday.
+00:53:54,120 --> 00:53:55,120
+Jackson: Thank you everybody.
 
 647
-00:53:54,520 --> 00:53:54,520
+00:53:55,120 --> 00:53:56,120
+Jackson: Have a good Friday.
+
+648
+00:53:56,120 --> 00:53:56,700
 Chris: Peace.
+
