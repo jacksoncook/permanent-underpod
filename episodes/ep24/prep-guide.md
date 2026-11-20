@@ -43,11 +43,25 @@ Built from how Jackson opens segments on Ep 20–23: "I woke up and my boys told
 
 > What's cracking, everybody. This is the Underpod: AI, Bitcoin, stablecoins. I'm Jackson, that's Chris, that's Tyler, and we're jumping straight into it, because this week America forgot how to turn its computers back on.
 
-**O, outages**
+**O, outages (the headline; about 2 minutes)**
 
-> I woke up this week and my boys told me everything was down. Microsoft, down. Chase, down. The FAA, down, no planes. The NSA's secret spy network, down. Nine of the biggest systems in America in six days. And I'm thinking, okay, it's over, the hackers won, the AI woke up. Here's the diabolical part. Not one of them was hacked. Zero. They did it to themselves. So I went through every single one, and I've got the numbers.
+> I woke up this week and my boys told me everything was down. Microsoft, down. Chase, down. The FAA, down, no planes. The NSA's secret spy network, down. Nine of the biggest systems in America in six days. And I'm thinking, okay, it's over, the hackers won, the AI woke up.
+>
+> Here's the diabolical part. Not one of them was hacked. Zero. The FBI said it under oath.
+>
+> So I went through every single one, and I've got the numbers.
+>
+> Six of the nine did it to themselves. Somebody pushed a change. Microsoft: a bug that's been sitting there since July, down for a day. The FAA: they plugged in a new router and every plane in the country stopped for four hours. Workday: they tested their backup, the backup connected to the real database, and payroll was gone for eighteen hours. Chase: a bug after an update, seven hours. Apple: "an internal update." And the NSA: a security patch that didn't come back up.
+>
+> One of the nine, Claude, went down partly because Microsoft went down. And two, Amazon and United, still won't tell anybody why.
+>
+> So that's sixty-seven percent self-inflicted. Eleven percent somebody else's fault. Twenty-two percent no comment. Zero percent hackers.
+>
+> Now, the hackers were not on vacation. They were just busy doing something else. Same week, thirteen companies got broken into. Chase, Visa, Mastercard, Expedia, Notion, Cursor. And guess how they got in. Nine of the thirteen, it wasn't even their own systems. It was a vendor. Chase, Visa and Mastercard all got leaked by the same ransomware gang, and all three say it came through an outside provider. One of the thirteen was a hole in the company's own product, and that one hole put bad code on a hundred and seventy-eight other companies' websites. The other three won't say.
+>
+> So here's the week in one line. When it went down, they did it to themselves. When it got hacked, somebody else left the door open. Boys, how bad is it that the answer is "somebody pushed an update"?
 
-Then the breakdown from the O script (six of nine, 67%), ending: "Boys, how bad is it that the answer is 'somebody pushed an update'?"
+If the chat runs long, cut the break-ins to the first three sentences of that paragraph and the one-line closer.
 
 **C, Chainalysis**
 
