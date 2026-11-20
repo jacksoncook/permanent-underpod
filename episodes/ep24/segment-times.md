@@ -9,7 +9,7 @@ content cuts (5.0 min) · 42 dead-air pauses trimmed (68 s).**
 
 ## Episode video
 
-- **URL:** not uploaded yet (Jackson's manual upload).
+- **URL:** https://youtu.be/0ih2wnIh5io (Jackson's manual upload, live 2026-11-20 as "Nine Outages in One Week. Zero Hackers.", 54:13). Captions + 15 tags patched via API 2026-11-20.
 - **File:** `media/ep24/Underpod - Ep 24 (Final Cut).mp4` (3.01 GB)
 - **Thumbnail:** `media/ep24/ep24-thumbnail.png` — "WHO BROKE THE INTERNET?" (Chris center in the tinfoil
   hat, Jackson left, Tyler right; passed the 320×180 shrink test).
@@ -45,61 +45,58 @@ Jackson's ask at raw 58:55: tighten the three reads into one sound bite, store i
   begging, stitched from his own words ("please", "like", "and", "now") around Jackson's "subscribe". Not in
   the cut.
 
-## Title (drafts)
+## Title (live: draft 1)
 
 1. **Nine Outages in One Week. Zero Hackers.**
 2. The Internet Broke Itself This Week
 3. The Company That Traces Bitcoin Got Hacked
 4. Anthropic's IPO Looks Like a Token Launch
 
-## YouTube description (paste-ready draft)
+## YouTube description (live copy, Jackson's rewrite)
 
 ```
-⏩ The FAA's one router is at 2:43. The Chainalysis breach at 14:30. Perp of Fortune at 26:25. The Anthropic IPO at 31:49. GTA 6 at 46:42.
+🌐 What caused nine major outages in one week? Underpod breaks down the FAA ground stop, the Microsoft 365 outage, and the Chase outage. By Jackson’s count, six of the nine outages followed changes the companies pushed themselves. Tyler digs into the one-router theory, and Chris puts on the tinfoil hat.
 
-Every major system went down this week: the FAA, Microsoft 365, Chase. Jackson did the legwork and six of the nine big outages were companies pushing their own bad change. Tyler asks how a system goes 50 years without a ground stop and then dies to a new router, Chris wears the tinfoil hat, and the break-ins that were real mostly came in through a vendor. Then Chainalysis, the company that traces crypto, spends eleven days with someone inside: what was exposed, Tyler's theories on who did it, why your bitcoin is traceable in the first place, and Jackson learning that "abliterated" is a word. Perp of Fortune: short SK Hynix 10× and Bitcoin down, both green at once for the first time in pod history. Eric Wall's thread on whether irreversible money is a harder sell now. Anthropic goes public the same week academics sign a statement against it, and Chris and Tyler explain why the IPO looks like a low-float, high-FDV token launch. Plus rain perps, a hair dryer at the Paris airport, GTA 6 as maybe the last human-made game, and why Jackson wants his phone to stop him buying the $7 curry.
+₿ Then we cover the reported Chainalysis breach, what may have been exposed, and how Bitcoin transactions can be traced. We also break down why Anthropic’s IPO looks like a low-float crypto token launch. Plus, both Perp of Fortune trades finally finish green, Chris weighs in on GTA 6, and Jackson wants his phone to stop him from buying the $7 curry.
 
-🔥 On the Agenda
-0:00 Cold open
-0:39 Nine outages, zero hackers
-2:43 The FAA ground stop and the one router
-7:45 How does Microsoft stay down for a day?
-10:48 The break-ins: when the way in is your vendor
-14:30 The Chainalysis breach
-18:26 Who did it? Tyler's theories
-22:04 Is Chainalysis why your bitcoin is traceable?
-24:27 Abliterated, not obliterated
-26:25 Perp of Fortune: short SK Hynix 10×, Bitcoin down
-28:57 The Bitcoin vibes: Eric Wall on irreversible money
-31:49 Anthropic goes public: the statement and the IPO
-33:55 Low float, high FDV: the IPO that looks like a token launch
+⏱️ Chapters
+
+00:00 Cold open
+00:39 Nine outages, zero hackers
+02:43 FAA ground stop and the one-router theory
+07:45 Why did the Microsoft 365 outage last so long?
+10:48 Vendor breaches and supply chain attacks
+14:30 Chainalysis breach: What was reportedly exposed?
+18:26 Who was behind the breach? Tyler’s theories
+22:04 How Chainalysis traces Bitcoin transactions
+24:27 What is an abliterated AI model?
+26:25 Perp of Fortune: Short SK Hynix 10×, Bitcoin down
+28:57 Eric Wall on irreversible Bitcoin payments
+31:49 Anthropic IPO and the academics’ statement
+33:55 Why Anthropic’s IPO looks like a crypto token launch
 41:14 Governance as an afterthought
 42:04 Did the perp call the IPO? Plus rain perps
 43:37 The hair dryer, the intern, and the SBF documentary
-46:42 GTA 6: Chris, on the ground
-49:31 On-device agents and Jackson's $7 curry
-52:48 Perp final, and the like-and-subscribe audition
+46:42 GTA 6: Chris on the ground
+49:31 On-device AI agents and Jackson’s $7 curry
+52:48 Final trade results and the subscribe audition
 
-Recorded fully remote, three cameras, one dashboard, one tinfoil hat.
-Disclaimers: Our opinions are our own, not our employers'. NOT financial advice. Perp of Fortune is a small real-money account we run for entertainment. The outage causes and everything said about who was behind the Chainalysis breach are speculation; several of these incidents were still being disclosed when we recorded.
+📚 Quick glossary
 
-GLOSSARY
-• Ground stop: an FAA order holding departures on the ground.
-• Vendor breach: an attacker gets in through a supplier or third-party package instead of the target itself.
-• Chainalysis: the blockchain-analytics firm exchanges and law enforcement use to screen and trace crypto.
-• KYT / KYC: know your transaction / know your customer; the screening data compliance vendors hold.
-• Pen-testing harness: a framework that points AI agents at a system to find vulnerabilities.
-• Abliterated model: an open model with its refusal behaviour removed (from "ablation").
-• Honeypot: a service run to collect data on whoever connects to it, such as a block explorer that logs your IP.
-• Perp: a perpetual future; leveraged exposure to a price with no expiry.
-• Low float, high FDV: selling a small share of the supply so the headline valuation applies to everything still locked.
-• FDV: fully diluted value; price times all shares or tokens, issued or not.
-• TGE: token generation event, a token's public launch.
-• Prediction market: a market that pays out on how a real-world event resolves.
-• On-device agent: an AI assistant that runs on your phone instead of a server.
-• Perp of Fortune: our tiny real-money account; this week +$23.64 on the Bitcoin flip and +$2.19 on the SK Hynix short.
+• Ground stop — An FAA order holding departures on the ground.
+• KYT / KYC — Know your transaction / know your customer. KYT screens transaction activity, while KYC verifies customer identity.
+• Abliterated model — An AI model modified to reduce its tendency to refuse requests.
+• Perp — A perpetual futures contract that gives exposure to an asset’s price without an expiry date.
+• Low float / high FDV — A small portion trades publicly, while the market price implies a much larger valuation for the full supply.
+• TGE — Token generation event, when a crypto token is created or launched.
 
-🔔 Subscribe for next week: Perp of Fortune, and the layer-2 series returns.
+🎲 Perp of Fortune finished up $23.64 on the Bitcoin flip and $2.19 on the SK Hynix short.
+
+Recorded fully remote. Three cameras, one dashboard, one tinfoil hat.
+
+🔔 Subscribe to Underpod for weekly conversations about AI, Bitcoin, and stablecoins. The Bitcoin layer-2 series returns next week.
+
+Our opinions are our own and do not represent our employers. This is not financial advice. Perp of Fortune is a small real-money account we run for entertainment. Some outage causes were still being investigated when we recorded, and our discussion of who may have been behind the reported Chainalysis breach is speculative.
 ```
 
 ## Chapters
@@ -184,7 +181,7 @@ Subscribe for next week: Perp of Fortune, and the layer-2 series returns.
 ## Captions
 
 `transcript-attributed.srt` regenerated from the FINAL cut (never the raw recording) in `episodes/ep24/`.
-Not uploaded; patch after the episode is live. Built from the first render's verified transcript, shifted
+Uploaded 2026-11-20 (track `standard`). Built from the first render's verified transcript, shifted
 +1.6 s after 2:35 for Tyler's added line (a fresh whisper pass on the re-render dropped 20 s at 25:58). Three cues re-labeled by hand from the mic envelopes: Jackson's
 "Yo, like and subscribe" (26:15), Tyler's "I'll let you guys handle it" (53:52), Chris's "Peace" (53:56).
 
@@ -210,3 +207,91 @@ Not uploaded; patch after the episode is live. Built from the first render's ver
   re-transcribed with `-mc 0` (`tx/j_mid.csv`).
 - **Tooling:** `pip install numpy` failed its hash check twice (2.5.5 and 2.5.4, same wrong hash), so the
   workdir venv is a copy of Ep 23's.
+
+## Clips
+
+13 shorts, one a day Thu Dec 10 → Tue Dec 22, 2 PM PT (22:00 UTC), after Ep 23's run ends Dec 9. 12 face-crop verticals off `edited_raw.mov` plus the perp-arc supercut (`supercut-perp.json`), branded ender; spec `clips.json`, copy `media/clips/ep24/posting-copy.md`. Scheduled-private via `yt_upload.py` 2026-11-20. Skipped on purpose: everything in the Chainalysis segment. TikTok: same 13 as doubles Nov 23–29 (19:00 + 21:00 local). Funnel comments auto-post via the LaunchAgent (`pin-comments.json`); related-video + pinning are Jackson's in Studio.
+
+| Date | Clip | Final | Title | URL |
+|---|---|---|---|---|
+| Thu Dec 10 | short5-corn1234 | 12:52 | Changing Your Password From corn123 to corn1234 | https://youtu.be/w_6kdgx40ks |
+| Fri Dec 11 | short4-jim-bahamas | 10:12 | Jim Has the RSA Key and He's in the Bahamas | https://youtu.be/fNOeVOwZwn8 |
+| Sat Dec 12 | short12-so-hungry | 26:14 | Please Like and Subscribe. I'm So Hungry. | https://youtu.be/iuISJC0NCSI |
+| Sun Dec 13 | short7-no-voting-rights | 41:33 | You Get No Voting Rights and You Will Be Happy | https://youtu.be/xi2_HMOMBv4 |
+| Mon Dec 14 | short2-old-router | 3:51 | 5,000 Requests a Second? That's an Old Router | https://youtu.be/NJufOMSwpRY |
+| Tue Dec 15 | short8-hair-dryer | 43:49 | He Tried to Win a Weather Bet With a Hair Dryer | https://youtu.be/LYgNpw2KVoE |
+| Wed Dec 16 | short13-perp-arc | 26:40 | We Bet Bitcoin Down and Won $23.64 | https://youtu.be/9rRB99b6J6s |
+| Thu Dec 17 | short10-hospital | 47:07 | Why Chris Isn't Buying GTA 6 | https://youtu.be/72LA3OtKu2g |
+| Fri Dec 18 | short3-nsa | 7:17 | The NSA Couldn't Spy on You for an Hour | https://youtu.be/clVK2iRVb1A |
+| Sat Dec 19 | short6-abliterated | 25:34 | Abliterated Is a Real Word | https://youtu.be/-BXNxi2e9Z0 |
+| Sun Dec 20 | short1-new-router | 3:28 | 50 Years Without a Ground Stop, Then a New Router | https://youtu.be/G3m896MBY0c |
+| Mon Dec 21 | short9-10000-claudes | 48:10 | 10,000 AIs Trying to Please a GTA Girlfriend | https://youtu.be/weVaWZ7lw70 |
+| Tue Dec 22 | short11-curry-math | 51:02 | Food Quality Is Deliciousness Divided by Price | https://youtu.be/78HEStPm0_Y |
+
+### Posting copy
+
+
+**short5-corn1234** (9:16) — 12:52 — 2026-12-10 2 PM PT
+- Title:   Changing Your Password From corn123 to corn1234
+- Caption: The Department of Agriculture told everyone to change their passwords. Tyler already knows the new ones. Full episode: https://youtu.be/0ih2wnIh5io
+- Tags:    #shorts #cybersecurity #passwords
+
+**short4-jim-bahamas** (9:16) — 10:12 — 2026-12-11 2 PM PT
+- Title:   Jim Has the RSA Key and He's in the Bahamas
+- Caption: Everything is down, and the one guy who can approve the fix is on vacation. Full episode: https://youtu.be/0ih2wnIh5io
+- Tags:    #shorts #outage #tech
+
+**short12-so-hungry** (9:16) — 26:14 — 2026-12-12 2 PM PT
+- Title:   Please Like and Subscribe. I'm So Hungry.
+- Caption: Three hosts audition for the like-and-subscribe read. One of them declines. Full episode: https://youtu.be/0ih2wnIh5io
+- Tags:    #shorts #podcast #funny
+
+**short7-no-voting-rights** (9:16) — 41:33 — 2026-12-13 2 PM PT
+- Title:   You Get No Voting Rights and You Will Be Happy
+- Caption: Tyler on what buying into the Anthropic IPO actually gets you. Full episode: https://youtu.be/0ih2wnIh5io
+- Tags:    #shorts #ipo #ai
+
+**short2-old-router** (9:16) — 3:51 — 2026-12-14 2 PM PT
+- Title:   5,000 Requests a Second? That's an Old Router
+- Caption: The FAA ground stop came down to one router. Tyler wants to run a blockchain on it. Full episode: https://youtu.be/0ih2wnIh5io
+- Tags:    #shorts #faa #outage
+
+**short8-hair-dryer** (9:16) — 43:49 — 2026-12-15 2 PM PT
+- Title:   He Tried to Win a Weather Bet With a Hair Dryer
+- Caption: A prediction market on the Paris weather resolved off one sensor at the airport. One guy found the sensor. Full episode: https://youtu.be/0ih2wnIh5io
+- Tags:    #shorts #predictionmarkets #paris
+
+**short13-perp-arc** (9:16) — 26:40 — 2026-12-16 2 PM PT
+- Title:   We Bet Bitcoin Down and Won $23.64
+- Caption: One episode of our tiny real-money account: short SK Hynix 10×, Bitcoin down, and both green for the first time. Not financial advice. Full episode: https://youtu.be/0ih2wnIh5io
+- Tags:    #shorts #bitcoin #trading
+
+**short10-hospital** (9:16) — 47:07 — 2026-12-17 2 PM PT
+- Title:   Why Chris Isn't Buying GTA 6
+- Caption: If he wanted to drive around, get in a fight and end up in hospital, he would just do that. Full episode: https://youtu.be/0ih2wnIh5io
+- Tags:    #shorts #gta6 #gaming
+
+**short3-nsa** (9:16) — 7:17 — 2026-12-18 2 PM PT
+- Title:   The NSA Couldn't Spy on You for an Hour
+- Caption: Microsoft 365 went down for a day. Jackson lists who else runs on it. Full episode: https://youtu.be/0ih2wnIh5io
+- Tags:    #shorts #microsoft #outage
+
+**short6-abliterated** (9:16) — 25:34 — 2026-12-19 2 PM PT
+- Title:   Abliterated Is a Real Word
+- Caption: Jackson thought the other two were just pronouncing obliterated wrong. Full episode: https://youtu.be/0ih2wnIh5io
+- Tags:    #shorts #ai #llm
+
+**short1-new-router** (9:16) — 3:28 — 2026-12-20 2 PM PT
+- Title:   50 Years Without a Ground Stop, Then a New Router
+- Caption: How many nines does the FAA's system have, and how does one router end the streak? Full episode: https://youtu.be/0ih2wnIh5io
+- Tags:    #shorts #faa #aviation
+
+**short9-10000-claudes** (9:16) — 48:10 — 2026-12-21 2 PM PT
+- Title:   10,000 AIs Trying to Please a GTA Girlfriend
+- Caption: Chris thinks GTA 6 could be one of the best AI training environments ever built. Full episode: https://youtu.be/0ih2wnIh5io
+- Tags:    #shorts #gta6 #ai
+
+**short11-curry-math** (9:16) — 51:02 — 2026-12-22 2 PM PT
+- Title:   Food Quality Is Deliciousness Divided by Price
+- Caption: Tyler asked if the curry was good. Jackson said it was cheap. Full episode: https://youtu.be/0ih2wnIh5io
+- Tags:    #shorts #food #budget

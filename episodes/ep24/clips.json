@@ -1,0 +1,358 @@
+{
+ "source": "/Users/jcook/Personal/permanent-underpod/media/ep24/work/edited_raw.mov",
+ "out_dir": "/Users/jcook/Personal/permanent-underpod/media/clips/ep24",
+ "logo": "/Users/jcook/Personal/permanent-underpod/media/ep24/work/logo.png",
+ "audio_chain": "highpass=f=80,afftdn=nr=14:nf=-50:tn=1,volume=6dB,adynamicequalizer=dfrequency=6800:dqfactor=2.5:tfrequency=6800:tqfactor=2.5:mode=cutabove:threshold=0.01:ratio=4:range=8:attack=2:release=40,acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,treble=f=9500:width_type=q:w=0.8:g=1.5,loudnorm=I=-16:TP=-1.5:LRA=5",
+ "ender": true,
+ "clips": [
+  {
+   "name": "short1-new-router",
+   "start": 208.1,
+   "end": 221.49,
+   "vertical": true,
+   "face_crops": [
+    [
+     0.0,
+     533,
+     "cut"
+    ]
+   ],
+   "caption": {
+    "kicker": "FAA GROUND STOP",
+    "title": "\"A NEW ROUTER AND IT DIES\""
+   }
+  },
+  {
+   "name": "short2-old-router",
+   "start": 231.3,
+   "end": 255.98,
+   "vertical": true,
+   "face_crops": [
+    [
+     0.0,
+     123,
+     "cut"
+    ],
+    [
+     5.233,
+     384,
+     "cut"
+    ],
+    [
+     14.233,
+     669,
+     "cut"
+    ],
+    [
+     18.233,
+     447,
+     "cut"
+    ],
+    [
+     20.163,
+     853,
+     "cut"
+    ],
+    [
+     23.233,
+     53,
+     "cut"
+    ]
+   ],
+   "caption": {
+    "kicker": "5,000 REQUESTS A SECOND",
+    "title": "\"THAT'S AN OLD ROUTER\""
+   }
+  },
+  {
+   "name": "short3-nsa",
+   "start": 437.7,
+   "end": 458.2,
+   "vertical": true,
+   "face_crops": [
+    [
+     0.0,
+     434,
+     "cut"
+    ],
+    [
+     13.9,
+     180,
+     "cut"
+    ],
+    [
+     15.67,
+     779,
+     "cut"
+    ]
+   ],
+   "caption": {
+    "kicker": "MICROSOFT 365 WENT DOWN",
+    "title": "\"THE NSA COULDN'T SPY ON YOU\""
+   }
+  },
+  {
+   "name": "short4-jim-bahamas",
+   "start": 612.733,
+   "end": 641.62,
+   "vertical": true,
+   "face_crops": [
+    [
+     0.0,
+     772,
+     "cut"
+    ],
+    [
+     2.934,
+     853,
+     "cut"
+    ],
+    [
+     19.434,
+     777,
+     "cut"
+    ],
+    [
+     20.494,
+     178,
+     "cut"
+    ],
+    [
+     26.434,
+     21,
+     "cut"
+    ]
+   ],
+   "caption": {
+    "kicker": "EVERYTHING IS BROKEN",
+    "title": "\"JIM IS IN THE BAHAMAS\""
+   }
+  },
+  {
+   "name": "short5-corn1234",
+   "start": 772.8,
+   "end": 792.54,
+   "vertical": true,
+   "face_crops": [
+    [
+     0.0,
+     442,
+     "cut"
+    ],
+    [
+     7.8,
+     768,
+     "cut"
+    ],
+    [
+     9.69,
+     139,
+     "cut"
+    ],
+    [
+     14.3,
+     854,
+     "cut"
+    ]
+   ],
+   "caption": {
+    "kicker": "USDA: CHANGE YOUR PASSWORDS",
+    "title": "CORN123 → CORN1234"
+   }
+  },
+  {
+   "name": "short6-abliterated",
+   "start": 1534.5,
+   "end": 1548.32,
+   "vertical": true,
+   "face_crops": [
+    [
+     0.0,
+     174,
+     "cut"
+    ]
+   ],
+   "caption": {
+    "kicker": "ABLITERATED AI MODELS",
+    "title": "\"IT'S TWO DIFFERENT WORDS\""
+   }
+  },
+  {
+   "name": "short7-no-voting-rights",
+   "start": 2493.7,
+   "end": 2501.15,
+   "vertical": true,
+   "face_crops": [
+    [
+     0.0,
+     527,
+     "cut"
+    ]
+   ],
+   "caption": {
+    "kicker": "THE ANTHROPIC IPO",
+    "title": "\"AND YOU WILL BE HAPPY\""
+   }
+  },
+  {
+   "name": "short8-hair-dryer",
+   "start": 2629.967,
+   "end": 2668.3,
+   "vertical": true,
+   "face_crops": [
+    [
+     0.0,
+     596,
+     "cut"
+    ],
+    [
+     12.9,
+     874,
+     "cut"
+    ],
+    [
+     14.01,
+     447,
+     "cut"
+    ],
+    [
+     17.62,
+     874,
+     "cut"
+    ],
+    [
+     25.4,
+     784,
+     "cut"
+    ],
+    [
+     31.4,
+     874,
+     "cut"
+    ],
+    [
+     34.22,
+     434,
+     "cut"
+    ],
+    [
+     36.01,
+     874,
+     "cut"
+    ]
+   ],
+   "caption": {
+    "kicker": "HE BET ON THE PARIS WEATHER",
+    "title": "THEN BROUGHT A HAIR DRYER"
+   }
+  },
+  {
+   "name": "short9-10000-claudes",
+   "start": 2890.967,
+   "end": 2909.83,
+   "vertical": true,
+   "face_crops": [
+    [
+     0.0,
+     427,
+     "cut"
+    ],
+    [
+     8.7,
+     346,
+     "cut"
+    ]
+   ],
+   "caption": {
+    "kicker": "GTA 6 AS AI TRAINING",
+    "title": "\"MAKE 10,000 CLAUDES\""
+   }
+  },
+  {
+   "name": "short10-hospital",
+   "start": 2827.5,
+   "end": 2838.85,
+   "vertical": true,
+   "face_crops": [
+    [
+     0.0,
+     845,
+     "cut"
+    ],
+    [
+     1.5,
+     288,
+     "cut"
+    ],
+    [
+     5.5,
+     695,
+     "cut"
+    ]
+   ],
+   "caption": {
+    "kicker": "NOT A GTA GUY",
+    "title": "\"I WOULD JUST DO THAT\""
+   }
+  },
+  {
+   "name": "short11-curry-math",
+   "start": 3062.933,
+   "end": 3088.8,
+   "vertical": true,
+   "face_crops": [
+    [
+     0.0,
+     160,
+     "cut"
+    ],
+    [
+     6.834,
+     874,
+     "cut"
+    ],
+    [
+     8.094,
+     21,
+     "cut"
+    ],
+    [
+     13.334,
+     433,
+     "cut"
+    ]
+   ],
+   "caption": {
+    "kicker": "IS THE FOOD GOOD?",
+    "title": "DELICIOUSNESS ÷ PRICE"
+   }
+  },
+  {
+   "name": "short12-so-hungry",
+   "start": 1574.533,
+   "end": 1585.1,
+   "vertical": true,
+   "face_crops": [
+    [
+     0.0,
+     463,
+     "cut"
+    ],
+    [
+     2.3,
+     351,
+     "cut"
+    ],
+    [
+     9.0,
+     582,
+     "cut"
+    ]
+   ],
+   "caption": {
+    "kicker": "LIKE AND SUBSCRIBE",
+    "title": "\"I'M SO HUNGRY. PLEASE.\""
+   }
+  }
+ ]
+}

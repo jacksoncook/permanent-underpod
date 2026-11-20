@@ -1,0 +1,102 @@
+{
+ "source": "/Users/jcook/Personal/permanent-underpod/media/ep24/work/edited_raw.mov",
+ "out_dir": "/Users/jcook/Personal/permanent-underpod/media/clips/ep24",
+ "logo": "/Users/jcook/Personal/permanent-underpod/media/ep24/work/logo.png",
+ "audio_chain": "highpass=f=80,afftdn=nr=14:nf=-50:tn=1,volume=6dB,adynamicequalizer=dfrequency=6800:dqfactor=2.5:tfrequency=6800:tqfactor=2.5:mode=cutabove:threshold=0.01:ratio=4:range=8:attack=2:release=40,acompressor=threshold=-20dB:ratio=3:attack=15:release=250:knee=6,treble=f=9500:width_type=q:w=0.8:g=1.5,loudnorm=I=-16:TP=-1.5:LRA=5",
+ "workdir": "/Users/jcook/Personal/permanent-underpod/media/ep24/work",
+ "name": "short13-perp-arc",
+ "caption": {
+  "kicker": "PERP OF FORTUNE",
+  "title": "BITCOIN FLIP · +$23.64"
+ },
+ "snap": 0.2,
+ "pad": 0.06,
+ "pieces": [
+  {
+   "start": 1600.76,
+   "end": 1605.05,
+   "caption": {
+    "kicker": "PERP OF FORTUNE",
+    "title": "\"I DON'T KNOW THE WORD\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     117,
+     "cut"
+    ],
+    [
+     2.7,
+     377,
+     "cut"
+    ]
+   ]
+  },
+  {
+   "start": 1610.85,
+   "end": 1618.75,
+   "caption": {
+    "kicker": "PERP OF FORTUNE",
+    "title": "\"DANGEROUS AND ALLURING\""
+   },
+   "x": 864
+  },
+  {
+   "start": 1644.95,
+   "end": 1648.75,
+   "caption": {
+    "kicker": "THE BET",
+    "title": "SHORT SK HYNIX · 10×"
+   }
+  },
+  {
+   "start": 1681.3,
+   "end": 1688.88,
+   "caption": {
+    "kicker": "BOTH GREEN",
+    "title": "+$19.80 · +$2.40"
+   },
+   "x": 757
+  },
+  {
+   "start": 3172.1,
+   "end": 3177.6,
+   "caption": {
+    "kicker": "SETTLED",
+    "title": "BITCOIN FLIP · +$23.64"
+   },
+   "face_crops": [
+    [
+     0.0,
+     377,
+     "cut"
+    ],
+    [
+     3.253,
+     117,
+     "cut"
+    ]
+   ]
+  },
+  {
+   "start": 3186.65,
+   "end": 3194.6,
+   "caption": {
+    "kicker": "SK HYNIX SHORT: +$2.19",
+    "title": "\"SPANISH ESPRESSO\""
+   },
+   "face_crops": [
+    [
+     0.0,
+     377,
+     "cut"
+    ],
+    [
+     7.223,
+     117,
+     "cut"
+    ]
+   ]
+  }
+ ]
+}
