@@ -4,13 +4,14 @@
 **Panel: Jackson (AI / Bitcoin products) · Chris (stablecoins / security) · Tyler (Bitcoin / Lightning)**
 **Conflicts of interest: OpenAI and Chainalysis stay off, including as asides. Two places they could slip in: the lab behind Inkling 2 Mini (don't tell its founders' backstory) and the AI credit on the paper Praxis builds on (say "AI-assisted," no vendor). No employer names; the Bitcoin Core item on the bench credits an employer-adjacent research group, so say "an AI scanning project."**
 **Second episode of the four-week test (Ep 24–27): "a named victim and a number." Welcome ≤40 s, the lead straight after, perp in the back half.**
-**Three topics from Jackson (Nov 24): the OpenRouter incident, the laptop fine-tune and tennis probe, and the witness encryption deep dive. Agentic commerce is the standing fourth. Everything else is prepared bench.**
+**Three topics from Jackson (Nov 24): the OpenRouter incident, the laptop fine-tune and tennis probe, and the witness encryption deep dive. Chainflip added as its own segment (Jackson, Nov 24). Agentic commerce is the standing topic. Everything else is prepared bench.**
 
 > **1. The privacy checkbox that covered one hop (lead).** A researcher sent about 2 million AI prompts with fake secrets inside and waited. Three AI hosting companies had attackers inside copying prompts. Others quietly forwarded requests to a fourth company. OpenRouter, the switchboard in front of them, dropped 3 providers and pulled the "zero data retention" label off 125 endpoints. OpenRouter itself was not breached.
 > **2. So Jackson ran it on his laptop.** A week-old open model, a 35-second fine-tune on 14 examples, then a day trying to teach it tennis. The fine-tune sat at a coin flip until he hand-labeled 598 clips. Then a probe that never touched the model's weights scored 94.5% against the fine-tune's 91.9%.
-> **3. Deep dive: witness encryption (Praxis).** Nov 21: Chainflip split its vault key across validators, and one bug in a shared library handed the pieces to an attacker: $12.6M, the whole vault. Same weekend a paper claimed a lock with no keyholder at all, shrunk from a hundred billion gigabytes to 7.88. Paper only. Tyler grades it on the exit test.
-> **4. Agentic commerce.** Meta's agent told a staffer someone's bank balances. Visa's answer, four days later: a wallet where your agent earns stablecoins and every agent traces back to a card.
-> **Ceiling 52 minutes.** Slate runs ~42.
+> **3. Chainflip: the hacker who joined as a validator.** Nov 21: an attacker registered as a validator with the minimum stake, used a bug in a shared networking library to pull key shares off other validators' machines, and took $12.6M, the whole vault. The alarm fired in 8 minutes and woke nobody. The last 10.48 BTC went five hours after the pause.
+> **4. Deep dive: witness encryption (Praxis).** Same weekend a paper claimed a lock with no keyholder at all, shrunk from a hundred billion gigabytes to 7.88. Paper only. Tyler grades it on the exit test.
+> **5. Agentic commerce.** Meta's agent told a staffer someone's bank balances. Visa's answer, four days later: a wallet where your agent earns stablecoins and every agent traces back to a card.
+> **Ceiling 52 minutes.** Slate runs ~46. If it runs long, D drops to 2 minutes first.
 
 ## Title candidates (pick before the edit; packaging is a launch-day gate)
 
@@ -27,13 +28,14 @@
 | R | OpenRouter: the checkbox that covered one hop | Jackson + Chris | "A researcher sent two million fake secrets to AI companies. Then he waited to see who used them." | 9 |
 | A | Jackson's laptop: the 35-second fine-tune and the tennis probe | Jackson, grilled by Chris and Tyler | "So I ran it on my own laptop. I taught a model a new habit in thirty-five seconds. Tennis took a whole day and it still lost to a spreadsheet." | 10 |
 | F | Perp of Fortune + the Bitcoin flip | Robot | "Two weeks, two greens. The streak ends today." | 4 |
-| W | Deep dive: witness encryption (Praxis), with Chainflip as the stakes | Tyler explains, Jackson sets up | "Last weekend a hacker joined a crypto network as a validator and walked out with the entire vault. What if there were no keys to steal?" | 12 |
+| C | Chainflip: the hacker who joined as a validator | Jackson + Chris | "Last weekend a hacker signed up as a validator on a crypto network. Seventy-nine seconds later he was inside. He left with the entire vault." | 6 |
+| W | Deep dive: witness encryption (Praxis) | Tyler explains, Jackson sets up | "Every one of those keys was a place to steal from. What if there were no keys at all?" | 10 |
 | D | Agentic commerce: Meta's agent and Visa's agent wallet | Chris | "A Meta employee asked his AI about fishing tides. It told him his Capital One balance. He doesn't bank there." | 4 |
 | Z | Close | All | Perp final, one prediction each | 2 |
 
-- Cold open ≤45 s. Candidates: "then he waited to see who used them," "it lost to a spreadsheet," "what if there were no keys to steal," the fishing-tides line, the perp reveal.
+- Cold open ≤45 s. Candidates: "then he waited to see who used them," "it lost to a spreadsheet," "he left with the entire vault," "what if there were no keys at all," the fishing-tides line, the perp reveal.
 - R hands to A on one line: "the only prompt nobody else reads is the one that never leaves your laptop."
-- The perp reveal lands at ~21:00, straight after A.
+- The perp reveal lands at ~21:00, straight after A. C hands straight into W.
 
 ## Intros in Jackson's voice (one per segment; riff, don't read)
 
@@ -59,9 +61,17 @@
 
 > I think it's time we lose some money. Perp of Fortune. Last time both trades finished green, which has never happened and should never happen again. Chris, what are we in?
 
+**C, Chainflip**
+
+> Okay, hack of the week, and this one is diabolical. Chainflip. It's how you swap real bitcoin for real ETH without an exchange. And the whole pitch is: nobody holds the key. It's chopped into pieces across a bunch of validators. So a guy signs up as a validator. Minimum stake. Seventy-nine seconds after he funds the account, he's registered. He never even gets picked to validate. Doesn't matter. Just being registered lets him talk to the other machines, there's a bug in a library they all run, and he reaches in and takes their pieces of the key.
+>
+> Next morning, a hundred twenty-two bitcoin, gone. The alarm goes off in eight minutes. Beautiful. Except the alarm posts to a channel nobody's watching, because it kept crying wolf. A human notices an hour later. On Discord. They hit pause. And five hours after the pause, he comes back and takes the last ten bitcoin anyway.
+>
+> Twelve point six million. Their words: effectively the entire vault. Chris, resident security expert: they split the key so no one machine could lose it. How did one bug lose all of it?
+
 **W, witness encryption**
 
-> Tyler. Last weekend a hacker signs up as a validator on Chainflip. Minimum stake. Seventy-nine seconds after funding the account. Never even joins the active set. And he walks out with twelve point six million dollars, the entire vault, because the key was split up and one bug let him collect the pieces. Same weekend, a paper drops that says: what if there's no key at all? A safe that opens for whoever brings the right proof. It's called witness encryption, the idea's from 2013, and it used to need a hundred billion gigabytes. They say they got it to eight. Tyler, let it flow like water: what is it, and is it real?
+> Tyler. So that's the problem. Split the key nine ways and you've got nine places to steal it from. Same weekend, a paper drops that says: what if there's no key at all? A safe that opens for whoever brings the right proof. It's called witness encryption, the idea's from 2013, and it used to need a hundred billion gigabytes. They say they got it to eight. Tyler, let it flow like water: what is it, and is it real?
 
 **D, agentic commerce**
 
@@ -69,7 +79,7 @@
 
 **Z, close**
 
-> That's the pod. Two million fake secrets, a thirty-five second fine-tune, and a safe with no key. Nobody watches till the end, but if you did: like, subscribe, and don't put your seed phrase in a prompt. Say your farewells, boys.
+> That's the pod. Two million fake secrets, a thirty-five second fine-tune, a validator who took the vault, and a safe with no key. Nobody watches till the end, but if you did: like, subscribe, and don't put your seed phrase in a prompt. Say your farewells, boys.
 
 ### R — LEAD: the privacy checkbox that covered one hop (Jackson + Chris, ≤9 min)
 
@@ -186,20 +196,60 @@
 - **The flip:** same hourly Polymarket market. One flip, no averaging down.
 - Caption and title for any perp short carry the P&L.
 
-### W — DEEP DIVE: witness encryption and Praxis (Tyler explains, ≤12 min)
+### C — Chainflip: the hacker who joined as a validator (Jackson + Chris, ≤6 min)
 
-**Shape:** the Chainflip loss (2 min) · what witness encryption is (3 min) · what Praxis claims (2 min) · the catches (3 min) · the grade (2 min). Record the 90-second explainer as a clean standalone take. This is the layer-2 slot for the week; Ark and Cashu stay on the bench.
+**Shape:** Jackson reads the script (60 s), the timeline, the three failures, debate, hand-off to W.
 
-**Part 1: the stakes. Chainflip, $12.6M, Nov 21**
+**Read this (Jackson), 60 seconds:**
 
-- Chainflip swaps native bitcoin across chains. The vault key is split across validators so no one machine holds it.
-- Nov 20: the attacker registers as a validator 79 seconds after funding the account with the minimum stake. It never joins the active set. Registering alone opened network access.
-- Root cause, provisional: "a memory-safety flaw in a third-party networking library used by the validator software." The attacker "ran code on validator machines, and extracted the key shares stored there."
-- Nov 21: 122.86 BTC out. An alert fired 8 minutes later into a channel that wasn't wired to wake anyone. Then 520 ETH and about $4M in stablecoins. Almost five hours after the pause, the last 10.48 BTC went too.
-- Total: 133.34 BTC plus about $4.5M, about $12.6M. "Effectively the entire vault balance." No repayment plan yet. [Chainflip](https://chainflip.io/blog/incident-report-vault-exploit-21-november-2026-part-1)
-- **The line:** every bridge and swap protocol ends at somebody holding keys. Split them nine ways and you have nine places to steal from.
+> Chainflip lets you swap real bitcoin for real ether without an exchange. Its pitch is that nobody holds the key to the vault. The key is split into shares across its validators.
+>
+> On November 20, someone funded an account with the minimum stake and registered it as a validator seventy-nine seconds later. It was never chosen to validate. Registering alone let it talk to the other validators' machines.
+>
+> A bug in a networking library they all ran let the attacker run code on those machines and copy their key shares.
+>
+> The next morning a hundred twenty-two bitcoin left the vault. An alarm fired eight minutes later, into a channel that wasn't set up to wake anyone. Then the Ethereum vault went. The team paused the network. Almost five hours after the pause, the attacker took the last ten bitcoin with the key he already had.
+>
+> Twelve point six million dollars. In Chainflip's words, effectively the entire vault balance.
 
-**Part 2: what it is. Read this (Tyler or Jackson), about 75 seconds:**
+**Timeline (UTC, from Chainflip's own report):**
+
+| When | What |
+|---|---|
+| Nov 20, 11:00 | Attacker's account registers as a validator, 79 seconds after being funded with 20,500 FLIP, the minimum. Never joins the active set. |
+| Nov 21, 06:41 | 122.86 BTC taken from the Bitcoin vault. |
+| +8 min | Automated alert fires into an internal channel. Not wired to escalate; it had thrown false positives. |
+| about +1 h | Humans raise the alarm, via Discord and a community member. |
+| after | Ethereum vault: 520.22 ETH, 3,249,631 USDC, 758,141 USDT. Stablecoins swapped to ETH; 2,909 ETH sent to Tornado Cash. |
+| 08:31 | Safe mode. |
+| 11:24 | The last 10.48 BTC taken, almost five hours after the pause. |
+| Nov 23 | Stolen BTC unmoved in two addresses. Police contacted. No repayment plan, no reopening date. "Part 2" promised. |
+
+- **What went.** 133.34 BTC plus about $4.5M in ETH and stablecoins, about $12.6M. By our arithmetic that makes bitcoin roughly two thirds of the loss.
+- **Root cause, provisional and in their words.** "A memory-safety flaw in a third-party networking library used by the validator software." The attacker "ran code on validator machines, and extracted the key shares stored there," and produced "valid vault signatures that the Chainflip protocol never requested." The library isn't named. How many validators were hit isn't given. [Chainflip, Part 1](https://chainflip.io/blog/incident-report-vault-exploit-21-november-2026-part-1)
+- **Three failures, one each.**
+  1. **The door.** Minimum stake bought network access to every validator before any vetting.
+  2. **The shared library.** The key was split across machines that all ran the same code, so one bug reached all of them.
+  3. **The alarm.** It worked in 8 minutes and reached nobody. And the pause didn't stop a thief who already held the key.
+- **The irony beat.** Four days earlier Chainflip's blog posted a guide to letting AI assistants run cross-chain swaps through it.
+- **Second incident in about two months** (a roughly $736,000 one in September; search summary, check before quoting).
+- **Same weekend, smaller.** Cyber lost about $968,000 when 5.21M unbacked tokens were minted through its bridge and sold (search summary).
+- **Tie to R.** Same shape as OpenRouter: the promise ("nobody holds the key," "nobody keeps your prompt") was true on paper and false one layer down.
+- **Callbacks:** Ep 24 (9 of 13 break-ins through a vendor; here it's a vendored library); Ep 21 (Binance: the attacker used the company's own tools); Ep 23 (Liquid's federation).
+- **Debate:**
+  1. **Chris:** the alert fired in 8 minutes and got muted for crying wolf. What's the right rule for an alarm that guards $12M?
+  2. **Tyler:** swapping native bitcoin needs someone to hold bitcoin keys. Is threshold signing just a multisig with extra steps? What would you use instead?
+  3. **Jackson:** the last 10 BTC left five hours after the pause. If "pause" doesn't stop a stolen key, what does it do?
+- **Do NOT say:** "$4.86M" or "$12M" (early partial counts; the report says about $12.6M); the library's name; how many validators were compromised; North Korea or any named group; the bounty terms or that it expired (secondary only); anything about the FLIP token's price; that users will be repaid; "bridge hack" (it's a swap protocol with threshold-signed vaults); the cause as final (provisional, Part 2 pending).
+- **Hand-off to W:** "Every one of those key shares was a place to steal from. What if there were no keys at all?"
+
+**Clip question:** "A hacker signed up as a validator with the minimum stake and left with the entire vault. The alarm went off in eight minutes. Why did nobody hear it?"
+
+### W — DEEP DIVE: witness encryption and Praxis (Tyler explains, ≤10 min)
+
+**Shape:** what witness encryption is (3 min) · what Praxis claims (2 min) · the catches (3 min) · the grade (2 min). Opens on the hand-off from C. Record the 90-second explainer as a clean standalone take. This is the layer-2 slot for the week; Ark and Cashu stay on the bench.
+
+**Part 1: what it is. Read this (Tyler or Jackson), about 75 seconds:**
 
 > Normal encryption locks a message to a person. You need their key.
 >
@@ -217,7 +267,7 @@
 - **Versus a zero-knowledge proof.** The proof is the ticket. Witness encryption is the turnstile that reads it with no guard standing there.
 - **You already use a narrow version.** Timelock encryption on drand: encrypt to a future round, and the network's signature for that round is the key. Live today. It works for one kind of statement and trusts a threshold of beacon nodes. [tlock paper](https://eprint.iacr.org/2023/189)
 
-**Part 3: what Praxis claims**
+**Part 2: what Praxis claims**
 
 - **Who.** David Tse, Nikhil Vanjani and Psi Vesely. Posted Nov 21–23. Tse is at Stanford and Byzantine Research; the other two are Byzantine Research. **Byzantine Research is the company behind Babylon, the Bitcoin staking protocol, and Tse co-founded Babylon.** The headlines say "Stanford." Say both. [ePrint 2026/2971](https://eprint.iacr.org/2026/2971)
 - **What.** Witness encryption for any statement a Groth16 proof can check. 7.88 GiB ciphertext at 100-bit security. More than 10 orders of magnitude smaller than the September paper it builds on (Hair and Sahai). Ships machine-checked Lean 4 proofs.
@@ -233,7 +283,7 @@
 | Sep 2026 | Hair and Sahai | ~110 billion GiB (Praxis authors' estimate) |
 | Nov 2026 | Praxis | 7.88 GiB |
 
-**Part 4: the catches**
+**Part 3: the catches**
 
 - **It needs a trusted setup.** Groth16 starts with a ceremony. Whoever keeps the leftover secret can forge proofs and open everything.
 - **Somebody knew the secret.** Whoever builds the lock held the bitcoin key. For a bridge, that key has to be provably forgotten, which today means a committee again.
@@ -255,7 +305,7 @@
 | Cashu | The mint, completely |
 | Witness encryption | The math, the setup ceremony, the circuit, and a file host |
 
-**Part 5: the grade (Tyler)**
+**Part 4: the grade (Tyler)**
 
 - **Exit test, proposed: provisional pass, three asterisks, incomplete until someone ships.** To leave you present a proof; no operator can say no. Asterisks: you need the 8 GB file; the setup had to be honest; the other chain has to let you burn.
 - Ranked against Spark (Ep 17), Lightning (Ep 19), Liquid (Ep 23).
@@ -266,7 +316,7 @@
   2. **Chris:** would you put $100M of stablecoin collateral behind a three-day-old paper? What's your bar: audits, a bounty, two years of attacks?
   3. **Jackson:** the math it builds on was AI-assisted and the proofs are machine-checked. What's left for the human cryptographer?
   4. **All:** is "anyone with a proof can exit" a pass if someone has to host the file?
-- **Do NOT say:** "Praxies"; "Stanford's paper" without Byzantine Research and Babylon; trustless bridges are here or shipped; "the first practical witness encryption" (narrow versions have worked for years; say "first claimed practical for any statement"); "proven secure" (proven in idealized models); quantum-safe; "no trust at all"; "8 GB on chain"; "takes seconds" as verified (press-reported; the paper PDF wouldn't open); the 110 billion figure as independent; that it's a kind of zk proof; drand timelock is trustless; anything Robin Linus said (unverified); the AI vendor credited on the Hair-Sahai paper; which library Chainflip's bug was in; a named attacker; that Chainflip users will be repaid; Chainflip as a "bridge hack" without saying it's a swap protocol with threshold vaults.
+- **Do NOT say:** "Praxies"; "Stanford's paper" without Byzantine Research and Babylon; trustless bridges are here or shipped; "the first practical witness encryption" (narrow versions have worked for years; say "first claimed practical for any statement"); "proven secure" (proven in idealized models); quantum-safe; "no trust at all"; "8 GB on chain"; "takes seconds" as verified (press-reported; the paper PDF wouldn't open); the 110 billion figure as independent; that it's a kind of zk proof; drand timelock is trustless; anything Robin Linus said (unverified); the AI vendor credited on the Hair-Sahai paper.
 
 **Clip question:** "What if you could lock bitcoin in a safe that has no key, and it opens for whoever brings the right proof?"
 
