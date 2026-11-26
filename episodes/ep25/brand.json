@@ -167,9 +167,19 @@
    "main": "400 steps  ·  about 40 minutes  ·  92%"
   },
   {
+   "name": "encode",
+   "kicker": "CORRECTION",
+   "main": "Jackson means encode, not encrypt"
+  },
+  {
    "name": "p93",
    "kicker": "LAYER 11 PROBE",
-   "main": "93%. Beat the fine-tune."
+   "main": "93%. Beat the LoRA's 92%."
+  },
+  {
+   "name": "jev",
+   "kicker": "PROBING VS JEV",
+   "main": "a probe reads the model. Jev rebuilt it."
   },
   {
    "name": "garbage",

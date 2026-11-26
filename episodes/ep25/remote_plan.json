@@ -119,7 +119,14 @@
   {
    "id": "FT_A",
    "m0": 1403.2,
+   "m1": 1595.52,
+   "hard_m1": true
+  },
+  {
+   "id": "FT_A2",
+   "m0": 1601.85,
    "m1": 1856.5,
+   "hard_m0": true,
    "hard_m1": true
   },
   {
@@ -136,9 +143,24 @@
    ]
   },
   {
+   "id": "FT_J",
+   "m0": 2081.47,
+   "m1": 2105.2,
+   "hard_m0": true,
+   "hard_m1": true,
+   "mute": [
+    [
+     "jackson",
+     2081.0,
+     2082.3
+    ]
+   ]
+  },
+  {
    "id": "FT_C",
-   "m0": 2191.4,
-   "m1": 2228.4
+   "m0": 2121.95,
+   "m1": 2228.4,
+   "hard_m0": true
   },
   {
    "id": "WEB_A",
@@ -376,6 +398,20 @@
    "file": "/Users/jcook/Personal/permanent-underpod/media/ep25/raw/Untitled_recording-chris-screen-00h_21m_52s_056ms-StreamYard.mp4",
    "block": "FT_A",
    "m0": 1403.2,
+   "m1": 1595.52,
+   "anchor": 1311.685,
+   "mode": "corner",
+   "crop": [
+    930,
+    180,
+    495,
+    30
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep25/raw/Untitled_recording-chris-screen-00h_21m_52s_056ms-StreamYard.mp4",
+   "block": "FT_A2",
+   "m0": 1601.85,
    "m1": 1856.5,
    "anchor": 1311.685,
    "mode": "corner",
@@ -402,8 +438,22 @@
   },
   {
    "file": "/Users/jcook/Personal/permanent-underpod/media/ep25/raw/Untitled_recording-chris-screen-00h_21m_52s_056ms-StreamYard.mp4",
+   "block": "FT_J",
+   "m0": 2081.47,
+   "m1": 2105.2,
+   "anchor": 1311.685,
+   "mode": "corner",
+   "crop": [
+    930,
+    180,
+    495,
+    30
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep25/raw/Untitled_recording-chris-screen-00h_21m_52s_056ms-StreamYard.mp4",
    "block": "FT_C",
-   "m0": 2191.4,
+   "m0": 2121.95,
    "m1": 2228.4,
    "anchor": 1311.685,
    "mode": "corner",
@@ -670,22 +720,36 @@
   },
   {
    "name": "st_r8",
-   "block": "FT_A",
+   "block": "FT_A2",
    "m": 1662.0,
    "dur": 7,
    "kind": "st2"
   },
   {
    "name": "lt_probe",
-   "block": "FT_A",
+   "block": "FT_A2",
    "m": 1708.0,
    "dur": 6,
    "kind": "lt"
   },
   {
+   "name": "st_encode",
+   "block": "FT_A2",
+   "m": 1822.0,
+   "dur": 6,
+   "kind": "st2"
+  },
+  {
    "name": "st_p93",
    "block": "FT_B",
    "m": 1950.0,
+   "dur": 7,
+   "kind": "st2"
+  },
+  {
+   "name": "st_jev",
+   "block": "FT_C",
+   "m": 2147.0,
    "dur": 7,
    "kind": "st2"
   },
@@ -820,7 +884,7 @@
   },
   {
    "label": "Probing: stop the model halfway",
-   "block": "FT_A",
+   "block": "FT_A2",
    "m": 1707.0
   },
   {

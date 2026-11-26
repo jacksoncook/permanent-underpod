@@ -1875,1853 +1875,2005 @@ Jackson: attention of the model
 Jackson: and you kind of run it like you do a neural network
 
 470
-00:23:25,000 --> 00:23:33,000
-Jackson: where I had test data and then I run the LLM on the video
+00:23:25,000 --> 00:23:28,000
+Jackson: where I had test data
 
 471
+00:23:28,000 --> 00:23:33,000
+Jackson: and then I run the LLM on the video
+
+472
 00:23:33,000 --> 00:23:36,000
 Jackson: and I see is it correct or is it not
 
-472
+473
 00:23:36,000 --> 00:23:40,250
 Jackson: and then you back propagate the answer and update the
 
-473
+474
 00:23:40,250 --> 00:23:41,000
 Jackson: weights.
 
-474
-00:23:41,000 --> 00:23:43,000
-Jackson: So very similar to a neural network
-
 475
-00:23:43,000 --> 00:23:47,000
-Jackson: but like I guess you could think of the model as like a...
-
-476
-00:23:47,000 --> 00:23:50,410
+00:23:41,000 --> 00:23:44,220
 Chris: These are separate LoRa weights that go in between the
 
-477
-00:23:50,410 --> 00:23:51,000
+476
+00:23:44,220 --> 00:23:45,000
 Chris: existing layers.
 
-478
-00:23:51,000 --> 00:23:53,000
+477
+00:23:45,000 --> 00:23:46,000
 Chris: Is that correct?
 
+478
+00:23:46,000 --> 00:23:48,000
+Chris: That shift the attention.
+
 479
-00:23:53,000 --> 00:23:55,000
-Chris: That's right.
+00:23:48,000 --> 00:23:49,000
+Chris: Okay, cool.
 
 480
-00:23:55,000 --> 00:23:57,000
+00:23:49,000 --> 00:23:51,000
 Jackson: Exactly and they're smaller matrices
 
 481
-00:23:57,000 --> 00:24:01,000
-Jackson: because I believe the matrices for Inkling 2
+00:23:51,000 --> 00:23:55,000
+Jackson: and I believe the matrices for Inkling 2
 
 482
-00:24:01,000 --> 00:24:06,000
+00:23:55,000 --> 00:23:59,000
 Jackson: are like 2,000 something numbers by 2,000
 
 483
-00:24:06,000 --> 00:24:10,150
+00:23:59,000 --> 00:24:04,160
 Jackson: and basically like I didn't have enough space to have a
 
 484
-00:24:10,150 --> 00:24:12,000
+00:24:04,160 --> 00:24:06,000
 Jackson: copy of those.
 
 485
-00:24:12,000 --> 00:24:16,000
+00:24:06,000 --> 00:24:09,000
 Jackson: So instead I did like a rank 8 LoRa matrix.
 
 486
-00:24:16,000 --> 00:24:19,000
+00:24:09,000 --> 00:24:13,000
 Jackson: So it's like 8 by 2,000 something numbers.
 
 487
-00:24:19,000 --> 00:24:21,000
+00:24:13,000 --> 00:24:14,000
 Chris: Got it.
 
 488
-00:24:21,000 --> 00:24:26,000
+00:24:14,000 --> 00:24:21,000
 Jackson: Yeah and actually got really really improved performance
 
 489
-00:24:26,000 --> 00:24:31,000
-Jackson: with only 200 like rounds of training.
+00:24:21,000 --> 00:24:22,000
+Jackson: with only 200
 
 490
-00:24:31,000 --> 00:24:36,000
-Jackson: I also tried 400 and it was taking about what was it?
+00:24:22,000 --> 00:24:24,000
+Jackson: like rounds of training.
 
 491
-00:24:36,000 --> 00:24:40,000
-Jackson: One minute per 10 training runs.
+00:24:24,000 --> 00:24:26,000
+Jackson: I also tried 400
 
 492
-00:24:40,000 --> 00:24:42,000
-Jackson: So pretty fast.
+00:24:26,000 --> 00:24:29,000
+Jackson: and it was taking about what was it?
 
 493
-00:24:42,000 --> 00:24:46,000
-Jackson: So like 40 minutes for 400 training runs
+00:24:29,000 --> 00:24:33,000
+Jackson: One minute per 10 training runs.
 
 494
-00:24:46,000 --> 00:24:50,000
-Jackson: and I was able to get it up to 92% accuracy.
+00:24:33,000 --> 00:24:35,000
+Jackson: So pretty fast.
 
 495
-00:24:50,000 --> 00:24:52,000
-Jackson: That was pretty cool.
+00:24:35,000 --> 00:24:39,000
+Jackson: So like 40 minutes for 400 training runs
 
 496
-00:24:52,000 --> 00:24:54,000
-Jackson: Wow, sorry.
+00:24:39,000 --> 00:24:44,000
+Jackson: and I was able to get it up to 92% accuracy.
 
 497
-00:24:54,000 --> 00:24:58,000
-Chris: How long did this whole process of creating these LoRa
+00:24:44,000 --> 00:24:45,000
+Jackson: That was pretty cool.
 
 498
-00:24:58,000 --> 00:24:58,000
-Chris: layers
+00:24:45,000 --> 00:24:47,000
+Jackson: Wow, sorry.
 
 499
-00:24:58,000 --> 00:25:02,000
-Chris: take you and inserting them into the model like end to end?
+00:24:47,000 --> 00:24:51,000
+Chris: How long did this whole process of creating these LoRa
 
 500
-00:25:02,000 --> 00:25:09,000
-Jackson: Well, I mean I used AI to build up the Python script.
+00:24:51,000 --> 00:24:52,000
+Chris: layers take you
 
 501
-00:25:09,000 --> 00:25:14,660
-Jackson: So using the library it was like super quick to actually
+00:24:52,000 --> 00:24:55,000
+Chris: and inserting them into the model like end to end?
 
 502
-00:25:14,660 --> 00:25:15,000
-Jackson: set up
+00:24:55,000 --> 00:25:02,000
+Jackson: Well, I mean I used AI to build up the Python script.
 
 503
-00:25:15,000 --> 00:25:18,000
-Jackson: and it's the training that took the most time.
+00:25:02,000 --> 00:25:07,660
+Jackson: So using the library it was like super quick to actually
 
 504
-00:25:18,000 --> 00:25:25,000
-Jackson: Also my computer was dying even though I had it plugged in.
+00:25:07,660 --> 00:25:08,000
+Jackson: set up
 
 505
-00:25:25,000 --> 00:25:30,000
-Jackson: So it was definitely tough on my m5 Macs MacBook Pro.
+00:25:08,000 --> 00:25:11,000
+Jackson: and it's the training that took the most time.
 
 506
-00:25:30,000 --> 00:25:35,000
-Jackson: But then I learned something a different strategy
+00:25:11,000 --> 00:25:17,570
+Jackson: And also my computer was dying even though I had it plugged
 
 507
-00:25:35,000 --> 00:25:37,000
-Jackson: which is called probing.
+00:25:17,570 --> 00:25:18,000
+Jackson: in.
 
 508
-00:25:37,000 --> 00:25:41,000
-Jackson: So this was another new thing
+00:25:18,000 --> 00:25:23,000
+Jackson: So it was definitely tough on my M5 Macs MacBook Pro.
 
 509
-00:25:41,000 --> 00:25:44,000
-Jackson: which is basically like these models have so many layers.
+00:25:23,000 --> 00:25:26,000
+Jackson: But then I learned something,
 
 510
-00:25:44,000 --> 00:25:48,000
-Jackson: I believe there's 23 layers and including many too.
+00:25:26,000 --> 00:25:30,000
+Jackson: a different strategy which is called probing.
 
 511
-00:25:48,000 --> 00:25:52,000
-Jackson: And probing is just stopping in the middle
+00:25:30,000 --> 00:25:34,000
+Jackson: So this was another new thing
 
 512
-00:25:52,000 --> 00:25:56,000
-Jackson: and like stopping at those numbers
+00:25:34,000 --> 00:25:38,000
+Jackson: which is basically like these models have so many layers.
 
 513
-00:25:56,000 --> 00:25:59,000
-Jackson: and making a decision basically.
+00:25:38,000 --> 00:25:42,000
+Jackson: I believe there's 23 layers and including many too.
 
 514
-00:25:59,000 --> 00:26:04,000
-Jackson: So you have like that those 2000 numbers.
+00:25:42,000 --> 00:25:46,000
+Jackson: And probing is just stopping in the middle
 
 515
-00:26:04,000 --> 00:26:07,000
-Jackson: So you create a 2000 dimensional space
+00:25:46,000 --> 00:25:50,000
+Jackson: and like stopping at those numbers
 
 516
-00:26:07,000 --> 00:26:14,000
-Jackson: and then use your testing data to like fit what weights for
+00:25:50,000 --> 00:25:52,000
+Jackson: and making a decision basically.
 
 517
-00:26:14,000 --> 00:26:14,000
-Jackson: these numbers
+00:25:52,000 --> 00:25:57,000
+Jackson: So you have like that those 2000 numbers.
 
 518
-00:26:14,000 --> 00:26:18,000
-Jackson: creates this best split between like tennis being played
+00:25:57,000 --> 00:26:01,000
+Jackson: So you create a 2000 dimensional space
 
 519
-00:26:18,000 --> 00:26:20,000
-Jackson: and tennis not being played.
+00:26:01,000 --> 00:26:06,370
+Jackson: and then use your testing data to like fit what weights for
 
 520
-00:26:20,000 --> 00:26:26,000
-Jackson: And that was even better than the fine-tuned LoRa model.
+00:26:06,370 --> 00:26:08,000
+Jackson: these numbers
 
 521
-00:26:26,000 --> 00:26:29,000
-Jackson: And yeah, I mean that was generally just pretty cool.
+00:26:08,000 --> 00:26:12,000
+Jackson: creates this best split between like tennis being played
 
 522
-00:26:29,000 --> 00:26:32,000
-Chris: So sorry, with probing are you trying to find
+00:26:12,000 --> 00:26:14,000
+Jackson: and tennis not being played.
 
 523
-00:26:32,000 --> 00:26:35,000
-Chris: where in the matrix it has the best accuracy?
+00:26:14,000 --> 00:26:20,000
+Jackson: And that was even better than the fine-tuned LoRa model.
 
 524
-00:26:35,000 --> 00:26:38,670
-Chris: So for viewers from home like who aren't maybe that
+00:26:20,000 --> 00:26:23,000
+Jackson: And yeah, I mean that was generally just pretty cool.
 
 525
-00:26:38,670 --> 00:26:40,000
-Chris: familiar with LLMs
+00:26:23,000 --> 00:26:26,000
+Chris: So sorry, with probing are you trying to find
 
 526
-00:26:40,000 --> 00:26:43,000
-Chris: that basically the format of them is there like these matrices
+00:26:26,000 --> 00:26:29,000
+Chris: where in the matrix it has the best accuracy?
 
 527
-00:26:43,000 --> 00:26:45,000
-Chris: which are stacked on top of each other
+00:26:29,000 --> 00:26:31,000
+Chris: So for viewers from home,
 
 528
-00:26:45,000 --> 00:26:49,000
-Chris: and like the activations pass through matrix to matrix
+00:26:31,000 --> 00:26:34,000
+Chris: like who aren't maybe that familiar with LLMs,
 
 529
-00:26:49,000 --> 00:26:52,000
-Chris: until you get the final matrix at the end
+00:26:34,000 --> 00:26:37,000
+Chris: basically the format of them is they're like these matrices
 
 530
-00:26:52,000 --> 00:26:55,000
-Chris: which forms the output of the large language model.
+00:26:37,000 --> 00:26:39,000
+Chris: which are stacked on top of each other.
 
 531
-00:26:55,000 --> 00:26:58,210
-Chris: So what you're saying Jackson and again not a language
+00:26:39,000 --> 00:26:43,000
+Chris: And like the activations pass through matrix to matrix
 
 532
-00:26:58,210 --> 00:26:59,000
-Chris: model expert
+00:26:43,000 --> 00:26:46,000
+Chris: until you get the final matrix at the end
 
 533
-00:26:59,000 --> 00:27:03,000
-Chris: is you're stopping like at one of the matrices halfway
+00:26:46,000 --> 00:26:49,000
+Chris: which forms the output of the large language model.
 
 534
-00:27:03,000 --> 00:27:04,000
-Chris: through the model
+00:26:49,000 --> 00:26:52,210
+Chris: So what you're saying Jackson, and again, not a language
 
 535
-00:27:04,000 --> 00:27:07,000
-Chris: seeing if that's more accurate than the final output
+00:26:52,210 --> 00:26:53,000
+Chris: model expert,
 
 536
-00:27:07,000 --> 00:27:09,000
-Chris: or is it am I misunderstanding?
+00:26:53,000 --> 00:26:57,000
+Chris: is you're stopping like at one of the matrices halfway
 
 537
-00:27:09,000 --> 00:27:10,000
-Jackson: Yeah, exactly.
+00:26:57,000 --> 00:26:58,000
+Chris: through the model
 
 538
-00:27:10,000 --> 00:27:13,000
-Jackson: I tried stopping at four different layers.
+00:26:58,000 --> 00:27:01,000
+Chris: if that's more accurate than the final output
 
 539
-00:27:13,000 --> 00:27:14,000
-Jackson: Okay.
+00:27:01,000 --> 00:27:03,000
+Chris: or am I misunderstanding?
 
 540
-00:27:14,000 --> 00:27:18,000
-Jackson: And the 23 layer model found 11 to be the most effective.
+00:27:03,000 --> 00:27:04,000
+Jackson: Yeah, exactly.
 
 541
-00:27:18,000 --> 00:27:22,000
-Jackson: So just stopping in the middle because you think about it
+00:27:04,000 --> 00:27:07,000
+Jackson: I tried stopping at four different layers
 
 542
-00:27:22,000 --> 00:27:24,000
-Jackson: the model starts with the image
+00:27:07,000 --> 00:27:12,000
+Jackson: in the 23-layer model found 11 to be the most effective.
 
 543
-00:27:24,000 --> 00:27:26,000
-Jackson: and then it has to encrypt the image data
+00:27:12,000 --> 00:27:16,000
+Jackson: So just stopping in the middle because you think about it,
 
 544
-00:27:26,000 --> 00:27:29,790
-Jackson: and it turns into numbers and these numbers just keep blooming
+00:27:16,000 --> 00:27:18,000
+Jackson: the model starts with the image
 
 545
-00:27:29,790 --> 00:27:30,000
-Jackson: out.
+00:27:18,000 --> 00:27:20,000
+Jackson: and then it has to encrypt the image data
 
 546
-00:27:30,000 --> 00:27:33,000
-Jackson: And so like the information is really rich in the middle
+00:27:20,000 --> 00:27:22,000
+Jackson: and it turns into numbers.
 
 547
-00:27:33,000 --> 00:27:35,000
-Jackson: but it's not yet you know a word
+00:27:22,000 --> 00:27:24,000
+Jackson: And these numbers just keep blooming out.
 
 548
-00:27:35,000 --> 00:27:38,000
-Jackson: because at the end it turns into a word
+00:27:24,000 --> 00:27:27,000
+Jackson: And so like the information is really rich in the middle
 
 549
-00:27:38,000 --> 00:27:42,000
-Jackson: and like that convergence back towards a word
+00:27:27,000 --> 00:27:32,000
+Jackson: not yet a word because at the end it turns into a word
 
 550
-00:27:42,000 --> 00:27:45,000
-Jackson: kind of has a lossiness in the data.
+00:27:32,000 --> 00:27:36,000
+Jackson: and like that convergence back towards a word
 
 551
-00:27:45,000 --> 00:27:48,000
-Jackson: So yeah and it's much cheaper because
+00:27:36,000 --> 00:27:39,000
+Jackson: kind of has a lossiness in the data.
 
 552
-00:27:48,000 --> 00:27:51,000
-Jackson: you know for each word in an LLMs output
+00:27:39,000 --> 00:27:43,680
+Jackson: So yeah, and it's much cheaper because for each word in an
 
 553
-00:27:51,000 --> 00:27:53,000
-Jackson: the all 23 layers are being ran.
+00:27:43,680 --> 00:27:45,000
+Jackson: LLMs output
 
 554
-00:27:53,000 --> 00:27:57,200
-Jackson: But for probing you can just run it that first half time up
+00:27:45,000 --> 00:27:47,000
+Jackson: all 23 layers are being ran.
 
 555
-00:27:57,200 --> 00:27:58,000
-Jackson: to 11
+00:27:47,000 --> 00:27:51,200
+Jackson: But for probing you can just run it that first half time up
 
 556
-00:27:58,000 --> 00:27:59,000
-Jackson: and then it stops.
+00:27:51,200 --> 00:27:52,000
+Jackson: to 11
 
 557
-00:27:59,000 --> 00:28:03,000
-Chris: What was the accuracy at the 11th slice?
+00:27:52,000 --> 00:27:53,000
+Jackson: and then it stops.
 
 558
-00:28:03,000 --> 00:28:05,000
-Chris: Was it comparable to Laura?
+00:27:53,000 --> 00:27:56,000
+Chris: What was the accuracy at the 11th slice?
 
 559
-00:28:05,000 --> 00:28:07,000
-Jackson: It was better than the Laura.
+00:27:56,000 --> 00:27:58,000
+Chris: Was it comparable to Laura?
 
 560
-00:28:07,000 --> 00:28:09,000
-Jackson: So the Laura was I believe 91%
+00:27:58,000 --> 00:28:00,000
+Jackson: It was better than the Laura.
 
 561
-00:28:09,000 --> 00:28:14,000
-Jackson: and the slice at 11 of the probe was 93%.
+00:28:00,000 --> 00:28:02,000
+Jackson: So the Laura was I believe 91%
 
 562
-00:28:14,000 --> 00:28:16,000
-Jackson: No way.
+00:28:02,000 --> 00:28:08,000
+Jackson: and the slice at 11 of the probe was 93%.
 
 563
-00:28:16,000 --> 00:28:19,380
-Jackson: Yeah so I did some hand labeling of is this a tennis
+00:28:08,000 --> 00:28:09,000
+Jackson: No way.
 
 564
-00:28:19,380 --> 00:28:20,000
-Jackson: pointer is it?
+00:28:09,000 --> 00:28:12,490
+Jackson: Yeah, so I did some hand labeling of is this a tennis
 
 565
-00:28:20,000 --> 00:28:22,000
-Chris: [Laughter]
+00:28:12,490 --> 00:28:13,000
+Jackson: pointer, is it?
 
 566
-00:28:22,000 --> 00:28:24,000
-Chris: Which was a little bit annoying.
+00:28:13,000 --> 00:28:15,000
+Chris: [Laughter]
 
 567
-00:28:24,000 --> 00:28:27,000
-Chris: Jackson Tennis Bench it got 93%.
+00:28:15,000 --> 00:28:17,000
+Jackson: Which was a little bit annoying.
 
 568
-00:28:27,000 --> 00:28:29,000
-Jackson: Yeah I first tried getting Claude to label it
+00:28:17,000 --> 00:28:20,000
+Chris: Jackson Tennis Bench, it got 93%.
 
 569
-00:28:29,000 --> 00:28:33,000
-Jackson: but actually Claude like Fable 5.2 is not that good either
+00:28:20,000 --> 00:28:22,000
+Jackson: Yeah, I first tried getting Claude to label it,
 
 570
-00:28:33,000 --> 00:28:36,000
-Jackson: at knowing if the point is ongoing or not.
+00:28:22,000 --> 00:28:27,000
+Jackson: but actually Claude like Fable 5.2 is not that good either
 
 571
-00:28:36,000 --> 00:28:39,800
-Jackson: So yeah pretty surprised by the performance of this tiny
+00:28:27,000 --> 00:28:29,000
+Jackson: at knowing if the point is ongoing or not.
 
 572
-00:28:39,800 --> 00:28:40,000
-Jackson: model
+00:28:29,000 --> 00:28:33,680
+Jackson: So yeah, pretty surprised by the performance of this tiny
 
 573
-00:28:40,000 --> 00:28:45,000
-Jackson: and it is now being slotted into my workflow for editing
+00:28:33,680 --> 00:28:34,000
+Jackson: model
 
 574
-00:28:45,000 --> 00:28:46,000
-Jackson: tennis videos
+00:28:34,000 --> 00:28:38,450
+Jackson: and it is now being slotted into my workflow for editing
 
 575
-00:28:46,000 --> 00:28:49,640
-Jackson: because that combined with the previous audio detection I
+00:28:38,450 --> 00:28:39,000
+Jackson: tennis videos
 
 576
-00:28:49,640 --> 00:28:50,000
-Jackson: was using
+00:28:39,000 --> 00:28:43,000
+Jackson: because that combined with the previous audio detection I
 
 577
-00:28:50,000 --> 00:28:52,760
-Jackson: for like knowing if there's like a cadence of tennis ball
+00:28:43,000 --> 00:28:43,000
+Jackson: was using
 
 578
-00:28:52,760 --> 00:28:54,000
-Jackson: hits going on
+00:28:43,000 --> 00:28:46,510
+Jackson: for like knowing if there's like a cadence of tennis ball
 
 579
-00:28:54,000 --> 00:28:57,000
-Jackson: I'm actually getting really good cuts now.
+00:28:46,510 --> 00:28:47,000
+Jackson: hits going on,
 
 580
-00:28:57,000 --> 00:29:00,000
-Jackson: So this has been huge for my personal workflow.
+00:28:47,000 --> 00:28:50,000
+Jackson: I'm actually getting really good cuts now.
 
 581
-00:29:00,000 --> 00:29:03,710
-Chris: Okay so you found an actual real use to post train an open
+00:28:50,000 --> 00:28:53,000
+Jackson: So this has been huge for my personal workflow.
 
 582
-00:29:03,710 --> 00:29:04,000
-Chris: source model
+00:28:53,000 --> 00:28:57,000
+Chris: Okay, so you found an actual real use to post train an open
 
 583
-00:29:04,000 --> 00:29:07,000
-Chris: that has improved your life is what we're saying.
+00:28:57,000 --> 00:28:57,000
+Chris: source model
 
 584
-00:29:07,000 --> 00:29:08,000
-Jackson: I didn't post train it.
+00:28:57,000 --> 00:29:00,000
+Chris: that has improved your life is what we're saying.
 
 585
-00:29:08,000 --> 00:29:11,000
-Jackson: I did probing which doesn't alter the model at all.
+00:29:00,000 --> 00:29:01,000
+Jackson: I didn't post train it.
 
 586
-00:29:11,000 --> 00:29:15,000
-Jackson: But yeah I found like a way to alter an open source model
+00:29:01,000 --> 00:29:05,000
+Jackson: I did probing, which doesn't alter the model at all.
 
 587
-00:29:15,000 --> 00:29:17,000
-Jackson: and use one.
+00:29:05,000 --> 00:29:08,210
+Jackson: But yeah, I found like a way to alter an open source model
 
 588
-00:29:17,000 --> 00:29:20,000
-Jackson: Actually use one in a way that's like not shit
+00:29:08,210 --> 00:29:10,000
+Jackson: and use one.
 
 589
-00:29:20,000 --> 00:29:24,000
-Jackson: because open source models are not really good normally
+00:29:10,000 --> 00:29:13,000
+Jackson: Actually use one in a way that's like not shit
 
 590
-00:29:24,000 --> 00:29:29,000
-Jackson: but maybe for specified use cases they can be.
+00:29:13,000 --> 00:29:17,000
+Jackson: because open source models are not really good normally,
 
 591
-00:29:29,000 --> 00:29:32,210
-Jackson: Yeah and I also will say shout out to Chris you sent me
+00:29:17,000 --> 00:29:22,000
+Jackson: but maybe for specified use cases they can be.
 
 592
-00:29:32,210 --> 00:29:33,000
-Jackson: some sort of article
+00:29:22,000 --> 00:29:25,000
+Chris: I wonder, so like it makes me wonder like you remember
 
 593
-00:29:33,000 --> 00:29:37,070
-Jackson: about why Inkling Mini 2 was like the best for being like a
+00:29:25,000 --> 00:29:30,000
+Chris: when Jevification began, the great Jevification of models.
 
 594
-00:29:37,070 --> 00:29:38,000
-Jackson: super general
+00:29:30,000 --> 00:29:32,990
+Chris: It makes me wonder like what are the hidden use cases are
 
 595
-00:29:38,000 --> 00:29:40,000
-Jackson: so it's like the best for being fine-tuned.
+00:29:32,990 --> 00:29:33,000
+Chris: out there
 
 596
-00:29:40,000 --> 00:29:44,000
-Jackson: That's why I chose it besides it being small.
+00:29:33,000 --> 00:29:36,220
+Chris: for language models like probing I think is another example
 
 597
-00:29:44,000 --> 00:29:47,000
-Chris: Hell yeah I'm glad it worked.
+00:29:36,220 --> 00:29:37,000
+Chris: of like,
 
 598
-00:29:47,000 --> 00:29:50,000
-Jackson: That was a lot of rules that's hard for me yet.
+00:29:37,000 --> 00:29:41,790
+Chris: you're kind of like slicing up the model and like making it
 
 599
-00:29:50,000 --> 00:29:52,000
-Jackson: Yeah definitely should try it.
+00:29:41,790 --> 00:29:42,000
+Chris: do something
 
 600
-00:29:52,000 --> 00:29:54,000
-Jackson: You could do it.
+00:29:42,000 --> 00:29:46,000
+Chris: that the entire model was not designed for.
 
 601
-00:29:54,000 --> 00:29:58,680
-Jackson: But yeah that concludes trying to post train or tune a
+00:29:46,000 --> 00:29:48,000
+Jackson: It's funny you mentioned the Jev too,
 
 602
-00:29:58,680 --> 00:30:01,000
-Jackson: model on my personal laptop
+00:29:48,000 --> 00:29:51,000
+Jackson: because when I started doing the probing,
 
 603
-00:30:01,000 --> 00:30:06,000
-Jackson: like heating up the entire apartment computer growling.
+00:29:51,000 --> 00:29:52,000
+Jackson: I'm like this is insane.
 
 604
-00:30:06,000 --> 00:30:11,000
-Jackson: All right and into it we go with Chris.
+00:29:52,000 --> 00:29:55,000
+Jackson: I'm like, oh my gosh, is this what Jev was doing?
 
 605
-00:30:11,000 --> 00:30:15,000
-Jackson: How long does the web browser have to live?
+00:29:55,000 --> 00:29:57,000
+Jackson: Is this what Jev is doing?
 
 606
-00:30:15,000 --> 00:30:20,000
-Jackson: Because I think we're only a year or so away from saying
+00:29:57,000 --> 00:30:00,000
+Jackson: Because I was basically structuring the output into a yes
 
 607
-00:30:20,000 --> 00:30:21,000
-Jackson: goodbye to the web browser
+00:30:00,000 --> 00:30:00,000
+Jackson: or no,
 
 608
-00:30:21,000 --> 00:30:24,340
-Jackson: and interface and saying hello to either a voice-based
+00:30:00,000 --> 00:30:03,000
+Jackson: like is it above this or below this line?
 
 609
-00:30:24,340 --> 00:30:26,000
-Jackson: interface with the internet
+00:30:03,000 --> 00:30:05,000
+Jackson: Like a support vector machine,
 
 610
-00:30:26,000 --> 00:30:31,000
-Jackson: or even a chatbot based interface.
+00:30:05,000 --> 00:30:08,000
+Jackson: if you're familiar with that machine learning technique.
 
 611
-00:30:31,000 --> 00:30:33,000
-Jackson: What do you think?
+00:30:08,000 --> 00:30:10,000
+Jackson: And I'm like, is this what Jev is just doing?
 
 612
-00:30:33,000 --> 00:30:40,000
-Chris: So firstly the internet browser is a piece of garbage.
+00:30:10,000 --> 00:30:12,620
+Jackson: And it sounds like no, they're not just probing existing
 
 613
-00:30:40,000 --> 00:30:43,860
-Chris: People have wanted to get rid of this since its inception
+00:30:12,620 --> 00:30:13,000
+Jackson: models.
 
 614
-00:30:43,860 --> 00:30:46,000
-Chris: since Brendan Eich, Mozilla.
+00:30:13,000 --> 00:30:16,000
+Jackson: They like redesign the architecture to have like,
 
 615
-00:30:46,000 --> 00:30:49,000
-Chris: So I don't think anyone will really mourn its passing.
+00:30:16,000 --> 00:30:18,000
+Jackson: to instead of mapping it into a word,
 
 616
-00:30:49,000 --> 00:30:51,520
-Chris: Maybe it'll come back in a quirky way like cassettes and
+00:30:18,000 --> 00:30:22,000
+Jackson: they're mapping it into these structured outputs.
 
 617
-00:30:51,520 --> 00:30:55,000
-Chris: records later down the line.
+00:30:22,000 --> 00:30:23,000
+Jackson: But yeah, just a funny,
 
 618
-00:30:55,000 --> 00:31:03,000
-Chris: But yeah I 100% can see the end of the browser for sure.
+00:30:23,000 --> 00:30:27,000
+Jackson: like I did read up about Jev after learning about probing
 
 619
-00:31:03,000 --> 00:31:07,260
-Chris: But probably not this year or next year or maybe the year
+00:30:27,000 --> 00:30:29,000
+Jackson: and it is different.
 
 620
-00:31:07,260 --> 00:31:08,000
-Chris: after.
+00:30:29,000 --> 00:30:33,000
+Chris: Yeah, but I'm saying like, would you Jevify a probed model?
 
 621
-00:31:08,000 --> 00:31:11,740
-Jackson: That's true. It'll take people a while to take it over the
+00:30:33,000 --> 00:30:35,000
+Jackson: Would I Jevify a probed?
 
 622
-00:31:11,740 --> 00:31:12,000
-Jackson: hump.
+00:30:35,000 --> 00:30:38,000
+Jackson: Yeah, I mean, why not?
 
 623
-00:31:12,000 --> 00:31:16,000
-Jackson: And like as Tyler mentioned offline,
+00:30:38,000 --> 00:30:39,000
+Jackson: Right.
 
 624
-00:31:16,000 --> 00:31:19,210
-Jackson: the web companies themselves are going to fight this with
+00:30:39,000 --> 00:30:42,000
+Jackson: If it does what you want, if it gives you what you need.
 
 625
-00:31:19,210 --> 00:31:20,000
-Jackson: all they have.
+00:30:42,000 --> 00:30:47,410
+Chris: Yeah, I just I wonder like all these like smaller use cases
 
 626
-00:31:20,000 --> 00:31:25,160
-Jackson: For example when Amazon kicked agents like Meta's Muse off
+00:30:47,410 --> 00:30:48,000
+Chris: for language models
 
 627
-00:31:25,160 --> 00:31:26,000
-Jackson: of their platform,
+00:30:48,000 --> 00:30:51,220
+Chris: where them being open and fast might make it better,
 
 628
-00:31:26,000 --> 00:31:29,800
-Jackson: that's like the old guard saying we're going to make this
+00:30:51,220 --> 00:30:53,000
+Chris: cheaper.
 
 629
-00:31:29,800 --> 00:31:32,000
-Jackson: as hard as we can on you guys.
+00:30:53,000 --> 00:30:56,000
+Chris: Yeah, I think that's really exciting.
 
 630
-00:31:32,000 --> 00:31:36,910
-Jackson: But I think the personal assistant agents like Instinct
+00:30:56,000 --> 00:30:58,000
+Jackson: Yeah, and I also will say shout out to Chris,
 
 631
-00:31:36,910 --> 00:31:38,000
-Jackson: have proven
+00:30:58,000 --> 00:31:01,210
+Jackson: you sent me some sort of article about why Inkling Mini 2
 
 632
-00:31:38,000 --> 00:31:42,000
-Jackson: that they can navigate around CAPTCHA
+00:31:01,210 --> 00:31:02,000
+Jackson: was like the best
 
 633
-00:31:42,000 --> 00:31:49,000
-Jackson: and they can solve whatever big web can throw at them.
+00:31:02,000 --> 00:31:05,000
+Jackson: for being like a super general.
 
 634
-00:31:49,000 --> 00:31:52,210
-Chris: I think there's this really big theme at the moment of
+00:31:05,000 --> 00:31:07,000
+Jackson: So it's like the best for being fine-tuned.
 
 635
-00:31:52,210 --> 00:31:54,000
-Chris: everybody fighting for the top of the funnel.
+00:31:07,000 --> 00:31:11,000
+Jackson: That's why I chose it besides it being small.
 
 636
-00:31:54,000 --> 00:31:58,000
-Chris: It seems like everybody wants to control the distribution.
+00:31:11,000 --> 00:31:12,000
+Chris: Hell yeah.
 
 637
-00:31:58,000 --> 00:32:02,350
-Chris: For example, Amazon has recently not been very friendly to
+00:31:12,000 --> 00:31:13,000
+Chris: I'm glad it worked.
 
 638
-00:32:02,350 --> 00:32:04,000
-Chris: MCPs for shopping.
+00:31:13,000 --> 00:31:14,000
+Chris: That rules.
 
 639
-00:32:04,000 --> 00:32:07,210
-Chris: It's very difficult to get your agent to shop on Amazon,
+00:31:14,000 --> 00:31:16,000
+Chris: There's hope for me yet.
 
 640
-00:32:07,210 --> 00:32:08,000
-Chris: ask me how I know.
+00:31:16,000 --> 00:31:18,000
+Jackson: Yeah, definitely should try it.
 
 641
-00:32:08,000 --> 00:32:13,000
-Chris: And one of the pieces of conventional wisdom around that
+00:31:18,000 --> 00:31:20,000
+Jackson: You could do it.
 
 642
-00:32:13,000 --> 00:32:15,640
-Chris: is that so much of Amazon's revenue comes from their web
+00:31:20,000 --> 00:31:24,680
+Jackson: But yeah, that concludes trying to post-strain or tune a
 
 643
-00:32:15,640 --> 00:32:16,000
-Chris: interface
+00:31:24,680 --> 00:31:28,000
+Jackson: model on my personal laptop,
 
 644
-00:32:16,000 --> 00:32:18,470
-Chris: and showing people certain things and steering them in
+00:31:28,000 --> 00:31:32,000
+Jackson: like heating up the entire apartment, computer growling.
 
 645
-00:32:18,470 --> 00:32:19,000
-Chris: certain directions,
+00:31:32,000 --> 00:31:37,000
+Jackson: All right, and into it we go with Chris,
 
 646
-00:32:19,000 --> 00:32:21,000
-Chris: dynamic pricing, etc.
+00:31:37,000 --> 00:31:41,000
+Jackson: how long does the web browser have to live?
 
 647
-00:32:21,000 --> 00:32:29,000
-Chris: They really don't want to give that up.
+00:31:41,000 --> 00:31:45,000
+Jackson: Because I think we're only a year or so away
 
 648
-00:32:29,000 --> 00:32:33,000
-Chris: I think for this to happen, for the web browser to go away
+00:31:45,000 --> 00:31:48,000
+Jackson: from saying goodbye to the web browser and interface
 
 649
-00:32:33,000 --> 00:32:36,230
-Chris: and for people to be convinced to basically expose their
+00:31:48,000 --> 00:31:51,460
+Jackson: and saying hello to either a voice-based interface with the
 
 650
-00:32:36,230 --> 00:32:39,000
-Chris: services to agents as the gateway,
+00:31:51,460 --> 00:31:52,000
+Jackson: internet
 
 651
-00:32:39,000 --> 00:32:41,000
-Chris: I think it's a political issue.
+00:31:52,000 --> 00:31:57,000
+Jackson: or even a chatbot-based interface.
 
 652
-00:32:41,000 --> 00:32:45,370
-Chris: I think these companies will have to negotiate whatever rev
+00:31:57,000 --> 00:31:59,000
+Jackson: What do you think?
 
 653
-00:32:45,370 --> 00:32:47,000
-Chris: share splits,
+00:31:59,000 --> 00:32:04,000
+Chris: So firstly, the internet browser is a piece of garbage.
 
 654
-00:32:47,000 --> 00:32:49,000
-Chris: exclusivity agreements.
+00:32:04,000 --> 00:32:09,000
+Chris: People have wanted to get rid of this since its inception,
 
 655
-00:32:49,000 --> 00:32:52,210
-Chris: I think in a lot of ways, this looks like what's happening
+00:32:09,000 --> 00:32:12,000
+Chris: since Brendan Eich, Mozilla.
 
 656
-00:32:52,210 --> 00:32:53,000
-Chris: with stablecoins.
+00:32:12,000 --> 00:32:15,000
+Chris: So I don't think anyone will really mourn its passing.
 
 657
-00:32:53,000 --> 00:32:56,000
-Chris: But yeah, I think this is not a technical issue.
+00:32:15,000 --> 00:32:18,340
+Chris: Maybe it'll come back in a quirky way like cassettes and
 
 658
-00:32:56,000 --> 00:33:01,000
-Chris: I think everybody probably at this point thinks that agents
+00:32:18,340 --> 00:32:21,000
+Chris: records later down the line.
 
 659
-00:33:01,000 --> 00:33:02,000
-Chris: will be
+00:32:21,000 --> 00:32:29,000
+Chris: But yeah, I 100% can see the end of the browser, for sure.
 
 660
-00:33:02,000 --> 00:33:06,130
-Chris: or may be a better way to interact with most online
+00:32:29,000 --> 00:32:33,210
+Chris: But probably not this year or next year or maybe the year
 
 661
-00:33:06,130 --> 00:33:07,000
-Chris: services.
+00:32:33,210 --> 00:32:34,000
+Chris: after.
 
 662
-00:33:07,000 --> 00:33:11,330
-Chris: But yeah, I think my concern is how do you convince the
+00:32:34,000 --> 00:32:35,000
+Jackson: That's true.
 
 663
-00:33:11,330 --> 00:33:12,000
-Chris: people
+00:32:35,000 --> 00:32:39,000
+Jackson: It'll take people a while to get over the hump.
 
 664
-00:33:12,000 --> 00:33:15,220
-Chris: who already have these lucrative businesses to give up
+00:32:39,000 --> 00:32:42,000
+Jackson: And as Tyler mentioned offline,
 
 665
-00:33:15,220 --> 00:33:17,000
-Chris: control, or will they?
+00:32:42,000 --> 00:32:45,220
+Jackson: the web companies themselves are going to fight this with
 
 666
-00:33:17,000 --> 00:33:19,610
-Chris: I mean, I guess they don't have to unless they're false,
+00:32:45,220 --> 00:32:46,000
+Jackson: all they have.
 
 667
-00:33:19,610 --> 00:33:20,000
-Jackson: too.
+00:32:46,000 --> 00:32:51,320
+Jackson: For example, when Amazon kicked agents like Metas Muse off
 
 668
-00:33:20,000 --> 00:33:23,770
-Jackson: But that's kind of what I'm going to say is that they don't
+00:32:51,320 --> 00:32:53,000
+Jackson: of their platform,
 
 669
-00:33:23,770 --> 00:33:25,000
-Jackson: even have to consent.
+00:32:53,000 --> 00:32:55,000
+Jackson: that's like the old guard saying,
 
 670
-00:33:25,000 --> 00:33:30,000
-Jackson: I think that the agents are clever enough to get around
+00:32:55,000 --> 00:32:58,000
+Jackson: "We're going to make this as hard as we can on you guys."
 
 671
-00:33:30,000 --> 00:33:32,000
-Jackson: whatever guards they have.
+00:32:58,000 --> 00:33:03,000
+Jackson: But I think that the personal assistant agents like Instinct
 
 672
-00:33:32,000 --> 00:33:36,000
-Jackson: What does Amazon have that's more powerful?
+00:33:03,000 --> 00:33:08,000
+Jackson: have proven that they can navigate around Captcha
 
 673
-00:33:36,000 --> 00:33:38,290
-Jackson: Do they have something worse than CAPTCHA that's blocking
+00:33:08,000 --> 00:33:15,000
+Jackson: and they can solve whatever big web can throw at them.
 
 674
-00:33:38,290 --> 00:33:39,000
-Jackson: these agents?
+00:33:15,000 --> 00:33:18,000
+Chris: I think there's this really big theme at the moment
 
 675
-00:33:39,000 --> 00:33:42,000
-Jackson: I guess you've tried, so what are they doing?
+00:33:18,000 --> 00:33:20,000
+Chris: of everybody fighting for the top of the funnel.
 
 676
-00:33:42,000 --> 00:33:45,970
-Jackson: How do they know it's not you and you're just struggling to
+00:33:20,000 --> 00:33:24,000
+Chris: It seems like everybody wants to control the distribution.
 
 677
-00:33:45,970 --> 00:33:48,000
-Jackson: drag the star onto the dartboard?
+00:33:24,000 --> 00:33:29,100
+Chris: For example, Amazon has recently not been very friendly to
 
 678
-00:33:48,000 --> 00:33:51,570
-Chris: So in my case, I was trying to do it out of an Intel TDX
+00:33:29,100 --> 00:33:30,000
+Chris: MCPs for shopping.
 
 679
-00:33:51,570 --> 00:33:53,000
-Chris: enclave hosted by Phala.
+00:33:30,000 --> 00:33:33,000
+Chris: It's very difficult to get your agent to shop on Amazon.
 
 680
-00:33:53,000 --> 00:33:58,000
-Chris: So I obviously didn't have a convincing browser fingerprint
+00:33:33,000 --> 00:33:35,000
+Chris: Ask me how I know.
 
 681
-00:33:58,000 --> 00:34:02,220
-Chris: in order to convince Amazon that I was not actually a deep-sig
+00:33:35,000 --> 00:33:39,000
+Chris: One of the pieces of conventional wisdom around that
 
 682
-00:34:02,220 --> 00:34:03,000
-Chris: model.
+00:33:39,000 --> 00:33:42,340
+Chris: is that so much of Amazon's revenue comes from their web
 
 683
-00:34:03,000 --> 00:34:10,000
-Chris: But I'm sure people are doing this with codecs and Grokbot
+00:33:42,340 --> 00:33:43,000
+Chris: interface
 
 684
-00:34:10,000 --> 00:34:13,250
-Chris: where they can take control of your actual computer and do
+00:33:43,000 --> 00:33:45,100
+Chris: and showing people certain things and steering them in
 
 685
-00:34:13,250 --> 00:34:14,000
-Chris: things for you.
+00:33:45,100 --> 00:33:46,000
+Chris: certain directions,
 
 686
-00:34:14,000 --> 00:34:16,000
-Chris: So I'm with you.
+00:33:46,000 --> 00:33:48,000
+Chris: dynamic pricing, et cetera.
 
 687
-00:34:16,000 --> 00:34:20,180
-Chris: I think the question is, will they be legally prohibited by
+00:33:48,000 --> 00:33:55,000
+Chris: They really don't want to give that up.
 
 688
-00:34:20,180 --> 00:34:21,000
-Chris: the TOS?
+00:33:55,000 --> 00:33:58,000
+Chris: I think for this to happen,
 
 689
-00:34:21,000 --> 00:34:25,000
-Chris: Will they prohibit the big labs from doing this stuff?
+00:33:58,000 --> 00:34:00,990
+Chris: for the web browser to go away and for people to be
 
 690
-00:34:25,000 --> 00:34:27,000
-Chris: And will that work?
+00:34:00,990 --> 00:34:01,000
+Chris: convinced
 
 691
-00:34:27,000 --> 00:34:29,470
-Chris: Will open-source models eventually get good enough that
+00:34:01,000 --> 00:34:06,000
+Chris: to basically expose their services to agents as the gateway,
 
 692
-00:34:29,470 --> 00:34:30,000
-Chris: they can do it as well?
+00:34:06,000 --> 00:34:08,000
+Chris: I think it's a political issue.
 
 693
-00:34:30,000 --> 00:34:34,000
-Chris: And then it's just like the game's off.
+00:34:08,000 --> 00:34:11,000
+Chris: I think these companies will have to negotiate
 
 694
-00:34:34,000 --> 00:34:35,000
-Jackson: I see.
+00:34:11,000 --> 00:34:15,000
+Chris: whatever rev share splits, exclusivity agreements.
 
 695
-00:34:35,000 --> 00:34:40,000
-Jackson: So you're suggesting that Amazon, for example, could do
+00:34:15,000 --> 00:34:19,190
+Chris: I think in a lot of ways, this looks like what's happening
 
 696
-00:34:40,000 --> 00:34:40,000
-Jackson: regulatory lobbying
+00:34:19,190 --> 00:34:20,000
+Chris: with stablecoins.
 
 697
-00:34:40,000 --> 00:34:43,000
-Jackson: to try to stop companies from doing this,
+00:34:20,000 --> 00:34:23,000
+Chris: I think this is not a technical issue.
 
 698
-00:34:43,000 --> 00:34:49,000
-Jackson: but open-source models may overcome this anyways
+00:34:23,000 --> 00:34:27,000
+Chris: I think everybody probably at this point thinks that
 
 699
-00:34:49,000 --> 00:34:53,710
-Jackson: and then there's a moot point on paying to stop people from
+00:34:27,000 --> 00:34:31,960
+Chris: agents will be or may be a better way to interact with most
 
 700
-00:34:53,710 --> 00:34:55,000
-Jackson: profiting from it.
+00:34:31,960 --> 00:34:34,000
+Chris: online services.
 
 701
-00:34:55,000 --> 00:34:56,000
-Jackson: Yeah, totally.
+00:34:34,000 --> 00:34:38,000
+Chris: I think my concern is how do you convince the people
 
 702
-00:34:56,000 --> 00:34:58,000
-Chris: I mean, that's how I envisaged that that would go down,
+00:34:38,000 --> 00:34:41,910
+Chris: who already have these lucrative businesses to give up
 
 703
-00:34:58,000 --> 00:35:02,000
-Chris: but I really don't know at this point.
+00:34:41,910 --> 00:34:43,000
+Chris: control, or will they?
 
 704
-00:35:02,000 --> 00:35:04,600
-Chris: All I know is that some people seem to be able to ask their
+00:34:43,000 --> 00:34:46,000
+Chris: I mean, I guess they don't have to unless they're forced to.
 
 705
-00:35:04,600 --> 00:35:05,000
-Chris: agents
+00:34:46,000 --> 00:34:51,270
+Jackson: What I'm going to say is that they don't even have to
 
 706
-00:35:05,000 --> 00:35:08,000
-Chris: to solve captions and others cannot.
+00:34:51,270 --> 00:34:52,000
+Jackson: consent.
 
 707
-00:35:08,000 --> 00:35:12,000
-Chris: And I don't know why.
+00:34:52,000 --> 00:34:55,000
+Jackson: I think that the agents are clever enough
 
 708
-00:35:12,000 --> 00:35:15,000
-Jackson: You've got to free how to probe that agent, man.
+00:34:55,000 --> 00:34:59,000
+Jackson: to get around whatever guards they have.
 
 709
-00:35:15,000 --> 00:35:18,000
-Jackson: I guess no, that's not the right use case.
+00:34:59,000 --> 00:35:02,000
+Jackson: What does Amazon have that's more powerful?
 
 710
-00:35:18,000 --> 00:35:22,000
-Chris: You've got to post-train it into submission, obliterate it.
+00:35:02,000 --> 00:35:04,490
+Jackson: Do they have something worse than CAPTCHA that's blocking
 
 711
-00:35:22,000 --> 00:35:25,000
-Jackson: Yeah, obliterate it.
+00:35:04,490 --> 00:35:05,000
+Jackson: these agents?
 
 712
-00:35:25,000 --> 00:35:29,680
-Jackson: Yeah, once again, speaking of these personal assistant
+00:35:05,000 --> 00:35:08,000
+Jackson: I guess you've tried, so what are they doing?
 
 713
-00:35:29,680 --> 00:35:30,000
-Jackson: agents,
+00:35:08,000 --> 00:35:13,120
+Jackson: How do they know it's not you and you're just struggling to
 
 714
-00:35:30,000 --> 00:35:35,000
-Jackson: I've gotten my 53-year-old father using it to help manage
+00:35:13,120 --> 00:35:15,000
+Jackson: drag the star onto the dartboard?
 
 715
-00:35:35,000 --> 00:35:35,000
-Jackson: his calendar
+00:35:15,000 --> 00:35:18,360
+Chris: In my case, I was trying to do it out of an Intel TDX
 
 716
-00:35:35,000 --> 00:35:40,250
-Jackson: from his emails and I used it to book another trip to
+00:35:18,360 --> 00:35:20,000
+Chris: enclave hosted by Fala.
 
 717
-00:35:40,250 --> 00:35:41,000
-Jackson: Turkey
+00:35:20,000 --> 00:35:25,000
+Chris: I obviously didn't have a convincing browser fingerprint
 
 718
-00:35:41,000 --> 00:35:45,950
-Jackson: and it tried to spend $600 per ticket on a flight from Anatolia
+00:35:25,000 --> 00:35:29,450
+Chris: in order to convince Amazon that I was not actually a deep-sig
 
 719
-00:35:45,950 --> 00:35:47,000
-Jackson: to Istanbul.
+00:35:29,450 --> 00:35:30,000
+Chris: model.
 
 720
-00:35:47,000 --> 00:35:53,000
-Jackson: That's like a domestic flight in Turkey that costs like $25
+00:35:30,000 --> 00:35:38,000
+Chris: But I'm sure people are doing this with codecs and Grokbot,
 
 721
-00:35:53,000 --> 00:35:56,000
-Jackson: and runs like 30 times a day.
+00:35:38,000 --> 00:35:40,250
+Chris: where they can take control of your actual computer and do
 
 722
-00:35:56,000 --> 00:36:00,000
-Jackson: But that's a word of caution that even though we love to
+00:35:40,250 --> 00:35:41,000
+Chris: things for you.
 
 723
-00:36:00,000 --> 00:36:00,000
-Jackson: trust
+00:35:41,000 --> 00:35:43,000
+Chris: So I'm with you.
 
 724
-00:36:00,000 --> 00:36:04,000
-Jackson: our little geniuses on the computer, they might screw you
+00:35:43,000 --> 00:35:47,180
+Chris: I think the question is, will they be legally prohibited by
 
 725
-00:36:04,000 --> 00:36:05,000
-Jackson: sometimes.
+00:35:47,180 --> 00:35:48,000
+Chris: the TOS?
 
 726
-00:36:05,000 --> 00:36:07,000
-Jackson: You've got to keep an eye out for those prices, man.
+00:35:48,000 --> 00:35:52,000
+Chris: Will they prohibit the big labs from doing this stuff?
 
 727
-00:36:07,000 --> 00:36:09,000
-Jackson: And that's kind of where I wonder, Chris.
+00:35:52,000 --> 00:35:54,000
+Chris: And will that work?
 
 728
-00:36:09,000 --> 00:36:13,000
-Jackson: Maybe that's where Amazon makes up the money.
+00:35:54,000 --> 00:35:56,470
+Chris: Will open source models eventually get good enough that
 
 729
-00:36:13,000 --> 00:36:16,000
-Jackson: And as you've mentioned with the lottery system,
+00:35:56,470 --> 00:35:57,000
+Chris: they can do it as well?
 
 730
-00:36:16,000 --> 00:36:19,000
-Jackson: maybe things just get bid up, things get more expensive
+00:35:57,000 --> 00:36:01,000
+Chris: And then it's just like the game's off.
 
 731
-00:36:19,000 --> 00:36:23,710
-Jackson: and that's where they make up their lost money on ads or
+00:36:01,000 --> 00:36:02,000
+Jackson: I see.
 
 732
-00:36:23,710 --> 00:36:25,000
-Jackson: monitoring.
+00:36:02,000 --> 00:36:04,000
+Jackson: So you're suggesting that Amazon, for example,
 
 733
-00:36:25,000 --> 00:36:27,000
-Chris: Yeah, don't get me wrong.
+00:36:04,000 --> 00:36:09,310
+Jackson: could do regulatory lobbying to try to stop companies from
 
 734
-00:36:27,000 --> 00:36:30,460
-Chris: I think there are ways to make this profitable for those
+00:36:09,310 --> 00:36:10,000
+Jackson: doing this,
 
 735
-00:36:30,460 --> 00:36:31,000
-Chris: companies,
+00:36:10,000 --> 00:36:15,070
+Jackson: but open source agents, or open source models, may overcome
 
 736
-00:36:31,000 --> 00:36:36,000
-Chris: but they are giving up the top of the funnel.
+00:36:15,070 --> 00:36:16,000
+Jackson: this anyways,
 
 737
-00:36:36,000 --> 00:36:40,390
-Jackson: Well, something's going to change and we'll be around when
+00:36:16,000 --> 00:36:20,260
+Jackson: and then it's a moot point on paying to stop people from
 
 738
-00:36:40,390 --> 00:36:41,000
-Jackson: it does
+00:36:20,260 --> 00:36:22,000
+Jackson: profiting from it.
 
 739
-00:36:41,000 --> 00:36:46,160
-Jackson: and we'll see who's right and who's wrong and who's still
+00:36:22,000 --> 00:36:25,000
+Chris: I mean, that's how I envisaged that that would go down,
 
 740
-00:36:46,160 --> 00:36:47,000
-Jackson: alive.
+00:36:25,000 --> 00:36:29,000
+Chris: but I really don't know at this point.
 
 741
-00:36:47,000 --> 00:36:49,000
-Jackson: Dario has anything to say about it.
+00:36:29,000 --> 00:36:31,610
+Chris: All I know is that some people seem to be able to ask their
 
 742
-00:36:49,000 --> 00:36:53,140
-Chris: We'll see how bad these takes truly are in the fullness of
+00:36:31,610 --> 00:36:32,000
+Chris: agents
 
 743
-00:36:53,140 --> 00:36:54,000
-Chris: six months.
+00:36:32,000 --> 00:36:34,000
+Chris: to solve captions, and others cannot.
 
 744
-00:36:54,000 --> 00:36:57,000
-Jackson: And it'll be documented on the internet forever.
+00:36:34,000 --> 00:36:35,000
+Chris: And I don't know why.
 
 745
-00:36:57,000 --> 00:36:59,000
-Chris: Yeah, infinitely legible.
+00:36:35,000 --> 00:36:38,000
+Jackson: [Laughter]
 
 746
-00:36:59,000 --> 00:37:03,000
-Chris: People will just be like, tell me about podcast takes
+00:36:38,000 --> 00:36:41,000
+Jackson: You've got to prove that agent, man.
 
 747
-00:37:03,000 --> 00:37:05,000
-Chris: and then that's it.
+00:36:41,000 --> 00:36:45,000
+Jackson: I guess, no, that's not the right use case repair.
 
 748
-00:37:05,000 --> 00:37:09,000
-Chris: Well, I'll have to live with these takes forever.
+00:36:45,000 --> 00:36:49,000
+Chris: You've got to post-train it into submission, obliterate it.
 
 749
-00:37:09,000 --> 00:37:13,000
-Jackson: And just be ran to change your name, change your face.
+00:36:49,000 --> 00:36:51,000
+Jackson: Yeah, obliterate it.
 
 750
-00:37:13,000 --> 00:37:15,000
-Jackson: It's classic surgery.
+00:36:51,000 --> 00:36:56,130
+Jackson: Yeah, once again, speaking of these personal assistant
 
 751
-00:37:15,000 --> 00:37:18,000
-Jackson: I'll be good.
+00:36:56,130 --> 00:36:57,000
+Jackson: agents,
 
 752
-00:37:18,000 --> 00:37:20,000
-Jackson: We got secure enclaves.
+00:36:57,000 --> 00:37:00,000
+Jackson: I've gotten my 53-year-old father using it
 
 753
-00:37:20,000 --> 00:37:22,000
-Jackson: We talk about teas all the time,
+00:37:00,000 --> 00:37:04,000
+Jackson: to help manage his calendar from his emails.
 
 754
-00:37:22,000 --> 00:37:26,000
-Jackson: but I don't know if we've ever explained them and everybody
+00:37:04,000 --> 00:37:08,000
+Jackson: And I used it to book another trip to Turkey,
 
 755
-00:37:26,000 --> 00:37:27,000
-Jackson: wants to know more.
+00:37:08,000 --> 00:37:12,950
+Jackson: and it tried to spend $600 per ticket on a flight from Anatolia
 
 756
-00:37:27,000 --> 00:37:31,000
-Jackson: Chris did a deep dive into teas into secure enclaves.
+00:37:12,950 --> 00:37:14,000
+Jackson: to Istanbul.
 
 757
-00:37:31,000 --> 00:37:34,000
-Jackson: Chris, please educate me because I hear secure enclave.
+00:37:14,000 --> 00:37:20,000
+Jackson: That's like a domestic flight in Turkey that costs like $25
 
 758
-00:37:34,000 --> 00:37:39,730
-Jackson: And all I hear is I'm supposed to trust that there is a
+00:37:20,000 --> 00:37:23,000
+Jackson: and runs like 30 times a day.
 
 759
-00:37:39,730 --> 00:37:40,000
-Jackson: part of the device
+00:37:23,000 --> 00:37:27,000
+Jackson: So that's a word of caution that even though we love to
 
 760
-00:37:40,000 --> 00:37:43,340
-Jackson: that Apple made for me that I can do stuff and they can't
+00:37:27,000 --> 00:37:27,000
+Jackson: trust
 
 761
-00:37:43,340 --> 00:37:44,000
-Jackson: see it.
+00:37:27,000 --> 00:37:30,000
+Jackson: our little geniuses on the computer,
 
 762
-00:37:44,000 --> 00:37:46,000
-Jackson: Is that true?
+00:37:30,000 --> 00:37:32,000
+Jackson: they might screw you sometimes.
 
 763
-00:37:46,000 --> 00:37:48,000
-Chris: Are we talking about on device secure enclaves?
+00:37:32,000 --> 00:37:34,000
+Jackson: You've got to keep an eye out for those prices, man.
 
 764
-00:37:48,000 --> 00:37:51,000
-Chris: I didn't prefer this.
+00:37:34,000 --> 00:37:37,000
+Jackson: And that's kind of where I wonder, Chris.
 
 765
-00:37:51,000 --> 00:37:54,000
-Jackson: I thought they were all the same since it's a tiny computer.
+00:37:37,000 --> 00:37:40,000
+Jackson: Maybe that's where Amazon makes up the money.
 
 766
-00:37:54,000 --> 00:37:55,000
-Jackson: It's a big computer.
+00:37:40,000 --> 00:37:43,000
+Jackson: And as you've mentioned with the lottery system,
 
 767
-00:37:55,000 --> 00:37:57,000
-Chris: What's the difference?
+00:37:43,000 --> 00:37:46,000
+Jackson: maybe things just get bid up, things get more expensive,
 
 768
-00:37:57,000 --> 00:38:00,210
-Chris: I think the upshot of most secure enclaves is basically
+00:37:46,000 --> 00:37:50,710
+Jackson: and that's where they make up their lost money on ads or
 
 769
-00:38:00,210 --> 00:38:01,000
-Chris: that it does.
+00:37:50,710 --> 00:37:52,000
+Jackson: monitoring.
 
 770
-00:38:01,000 --> 00:38:08,250
-Chris: So generally, the way they work is there is a chip next to
+00:37:52,000 --> 00:37:54,000
+Chris: Yeah, don't get me wrong.
 
 771
-00:38:08,250 --> 00:38:09,000
-Chris: the CPU
+00:37:54,000 --> 00:37:57,460
+Chris: I think there are ways to make this profitable for those
 
 772
-00:38:09,000 --> 00:38:12,000
-Chris: that is super fast at doing encryption.
+00:37:57,460 --> 00:37:58,000
+Chris: companies,
 
 773
-00:38:12,000 --> 00:38:14,000
-Chris: Normally, it's AES.
+00:37:58,000 --> 00:38:03,000
+Chris: but they are giving up the top of the funnel.
 
 774
-00:38:14,000 --> 00:38:17,000
-Chris: So basically, at the hardware level,
+00:38:03,000 --> 00:38:06,000
+Jackson: Well, something's going to change,
 
 775
-00:38:17,000 --> 00:38:21,680
-Chris: instead of having all of the memory in your RAM in clear
+00:38:06,000 --> 00:38:08,000
+Jackson: and we'll be around when it does,
 
 776
-00:38:21,680 --> 00:38:22,000
-Chris: text,
+00:38:08,000 --> 00:38:11,000
+Jackson: and we'll see who's right and who's wrong
 
 777
-00:38:22,000 --> 00:38:24,000
-Chris: it's all stored encrypted.
+00:38:11,000 --> 00:38:14,000
+Jackson: and who's still alive.
 
 778
-00:38:24,000 --> 00:38:27,000
-Chris: And then it gets decrypted before it gets to your CPU
+00:38:14,000 --> 00:38:19,000
+Chris: Yeah, we'll see how bad these takes truly are
 
 779
-00:38:27,000 --> 00:38:29,000
-Chris: and then encrypted on the way back.
+00:38:19,000 --> 00:38:21,000
+Chris: in the fullness of six months.
 
 780
-00:38:29,000 --> 00:38:32,000
-Chris: So in practice, what that means is that
+00:38:21,000 --> 00:38:24,000
+Jackson: And it'll be documented on the internet forever.
 
 781
-00:38:32,000 --> 00:38:34,630
-Chris: even if somebody has access to the machine that's running
+00:38:24,000 --> 00:38:26,000
+Chris: Yeah, infinitely legible.
 
 782
-00:38:34,630 --> 00:38:35,000
-Chris: the code,
+00:38:26,000 --> 00:38:30,000
+Chris: People will just be like, tell me about podcasts, takes,
 
 783
-00:38:35,000 --> 00:38:38,380
-Chris: it's almost impossible for them to see what's actually
+00:38:30,000 --> 00:38:32,000
+Chris: and then that's it.
 
 784
-00:38:38,380 --> 00:38:39,000
-Chris: going on in the machine.
+00:38:32,000 --> 00:38:36,000
+Chris: Well, I'll have to live with these takes forever.
 
 785
-00:38:39,000 --> 00:38:41,000
-Chris: They can't lift it off of memory.
+00:38:36,000 --> 00:38:40,000
+Jackson: And just re-ran to change your name, change your face.
 
 786
-00:38:41,000 --> 00:38:43,000
-Chris: They can't lift it off of the hard drive.
+00:38:40,000 --> 00:38:44,000
+Jackson: Classic surgery and I'll be good.
 
 787
-00:38:43,000 --> 00:38:46,000
-Chris: And it creates some security guarantees.
+00:38:44,000 --> 00:38:47,000
+Jackson: We got secure enclaves.
 
 788
-00:38:46,000 --> 00:38:50,000
-Chris: And the only way to guarantee at least the code that is
+00:38:47,000 --> 00:38:49,000
+Jackson: We talk about teas all the time,
 
 789
-00:38:50,000 --> 00:38:51,000
-Chris: running on the secure enclave,
+00:38:49,000 --> 00:38:52,000
+Jackson: but I don't know if we've ever explained them.
 
 790
-00:38:51,000 --> 00:38:54,460
-Chris: which is traditionally the other way to get information out
+00:38:52,000 --> 00:38:54,000
+Jackson: And everybody wants to know more.
 
 791
-00:38:54,460 --> 00:38:55,000
-Chris: of a secure enclave,
+00:38:54,000 --> 00:38:58,000
+Jackson: Chris did a deep dive into teas, into secure enclaves.
 
 792
-00:38:55,000 --> 00:38:58,000
-Chris: is to push some malicious code that exfiltrates it.
+00:38:58,000 --> 00:39:01,000
+Jackson: Chris, please educate me because I hear secure enclave
 
 793
-00:38:58,000 --> 00:39:02,000
-Chris: It also can create an attestation
+00:39:01,000 --> 00:39:06,000
+Jackson: and all I hear is I'm supposed to trust
 
 794
-00:39:02,000 --> 00:39:04,300
-Chris: that the thing that you've built is what's running on the
+00:39:06,000 --> 00:39:09,000
+Jackson: that there is a part of the device that Apple made for me
 
 795
-00:39:04,300 --> 00:39:05,000
-Chris: secure enclave.
+00:39:09,000 --> 00:39:11,000
+Jackson: that I can do stuff and they can't see it.
 
 796
-00:39:05,000 --> 00:39:07,640
-Chris: So you at least can look at all the code that's running
+00:39:11,000 --> 00:39:13,000
+Jackson: Is that true?
 
 797
-00:39:07,640 --> 00:39:08,000
-Chris: there and say,
+00:39:13,000 --> 00:39:15,000
+Chris: Are we talking about on-device secure enclaves?
 
 798
-00:39:08,000 --> 00:39:12,000
-Chris: "Hey, there's nothing."
+00:39:15,000 --> 00:39:18,000
+Chris: I didn't prefer this.
 
 799
-00:39:12,000 --> 00:39:15,000
-Chris: Yeah, there's nothing nefarious going on there.
+00:39:18,000 --> 00:39:19,000
+Jackson: I thought they were all the same.
 
 800
-00:39:15,000 --> 00:39:19,000
-Chris: I think signing enclaves on-device are very similar.
+00:39:19,000 --> 00:39:21,000
+Jackson: Since it's a tiny computer, it's a big computer.
 
 801
-00:39:19,000 --> 00:39:23,000
-Chris: In that case, there's a key
+00:39:21,000 --> 00:39:23,000
+Jackson: What's the difference?
 
 802
-00:39:23,000 --> 00:39:28,000
-Chris: that cannot be removed from the chip that does the signing.
+00:39:23,000 --> 00:39:25,000
+Chris: I think the upshot of most secure enclaves
 
 803
-00:39:28,000 --> 00:39:31,000
-Chris: And that basically protects it from being exfiltrated.
+00:39:25,000 --> 00:39:27,000
+Chris: is basically that it does.
 
 804
-00:39:31,000 --> 00:39:33,730
-Chris: So the worst that can happen with an on-device secure
+00:39:27,000 --> 00:39:30,000
+Chris: So generally, the way they work is
 
 805
-00:39:33,730 --> 00:39:34,000
-Chris: enclave
+00:39:30,000 --> 00:39:36,000
+Chris: there is a chip next to the CPU that does--
 
 806
-00:39:34,000 --> 00:39:38,000
-Chris: is that you sign something you didn't mean to,
+00:39:36,000 --> 00:39:39,000
+Chris: it's like super fast at doing encryption.
 
 807
-00:39:38,000 --> 00:39:41,000
-Chris: but there's no actual way to get the entropy
+00:39:39,000 --> 00:39:40,000
+Chris: Normally, it's AES.
 
 808
-00:39:41,000 --> 00:39:46,000
-Chris: and the big, whatever it may be, 256-bit or bigger number
+00:39:40,000 --> 00:39:43,000
+Chris: So basically, at the hardware level,
 
 809
-00:39:46,000 --> 00:39:49,000
-Chris: out of the enclave and steal the key.
+00:39:43,000 --> 00:39:47,680
+Chris: instead of having all of the memory in your RAM in clear
 
 810
-00:39:49,000 --> 00:39:51,000
-Chris: So yeah.
+00:39:47,680 --> 00:39:48,000
+Chris: text,
 
 811
-00:39:51,000 --> 00:39:53,000
-Jackson: Okay. That's super cool.
+00:39:48,000 --> 00:39:51,000
+Chris: it's all stored encrypted.
 
 812
-00:39:53,000 --> 00:39:56,000
-Jackson: I guess when I was imagining a secure enclave,
+00:39:51,000 --> 00:39:54,000
+Chris: And then it gets decrypted before it gets to your CPU
 
 813
-00:39:56,000 --> 00:40:00,250
-Jackson: I figured it was like a separate partition on the desk of
+00:39:54,000 --> 00:39:56,000
+Chris: and then encrypted on the way back.
 
 814
-00:40:00,250 --> 00:40:01,000
-Jackson: memory.
+00:39:56,000 --> 00:39:59,000
+Chris: So in practice, what that means is that
 
 815
-00:40:01,000 --> 00:40:04,000
-Jackson: But you're saying it's like an attachment to the CPU
+00:39:59,000 --> 00:40:01,630
+Chris: even if somebody has access to the machine that's running
 
 816
-00:40:04,000 --> 00:40:09,000
-Jackson: where most of the computations are ran that just encrypts
+00:40:01,630 --> 00:40:02,000
+Chris: the code,
 
 817
-00:40:09,000 --> 00:40:10,000
-Jackson: ingress data
+00:40:02,000 --> 00:40:04,000
+Chris: it's almost impossible for them to see
 
 818
-00:40:10,000 --> 00:40:13,000
-Jackson: and then decrypts it on egress.
+00:40:04,000 --> 00:40:05,000
+Chris: what's actually going on in the machine.
 
 819
-00:40:13,000 --> 00:40:17,000
-Jackson: So only the CPU is seeing the actual raw data.
+00:40:05,000 --> 00:40:07,000
+Chris: They can't lift it off of memory.
 
 820
-00:40:17,000 --> 00:40:20,000
-Jackson: Is that correct?
+00:40:07,000 --> 00:40:10,000
+Chris: They can't lift it off of the hard drive.
 
 821
-00:40:20,000 --> 00:40:23,000
-Chris: So off the dome, that is how, for example,
+00:40:10,000 --> 00:40:13,000
+Chris: And it creates some security guarantees.
 
 822
-00:40:23,000 --> 00:40:26,000
-Chris: a hardware secure enclave works, like an Intel TDX.
+00:40:13,000 --> 00:40:15,000
+Chris: And the only way to guarantee
 
 823
-00:40:26,000 --> 00:40:29,000
-Chris: There are other levels of secure,
+00:40:15,000 --> 00:40:18,000
+Chris: at least the code that is running on the secure enclave,
 
 824
-00:40:29,000 --> 00:40:31,000
-Chris: I believe they're called secure images,
+00:40:18,000 --> 00:40:21,240
+Chris: which is traditionally the other way to get information out
 
 825
-00:40:31,000 --> 00:40:34,000
-Chris: which live at that hypervisor layer,
+00:40:21,240 --> 00:40:22,000
+Chris: of a secure enclave,
 
 826
-00:40:34,000 --> 00:40:36,000
-Chris: which are a little bit different.
+00:40:22,000 --> 00:40:25,000
+Chris: is to push the malicious code that exfiltrates it.
 
 827
-00:40:36,000 --> 00:40:38,000
-Chris: But I'm not about them.
+00:40:25,000 --> 00:40:28,000
+Chris: It also can create an attestation
 
 828
-00:40:38,000 --> 00:40:40,000
-Chris: I haven't researched them very much.
+00:40:28,000 --> 00:40:30,600
+Chris: that the thing that you've built is what's running on the
 
 829
-00:40:40,000 --> 00:40:44,000
-Chris: I just skipped straight to the hardware secure enclave.
+00:40:30,600 --> 00:40:31,000
+Chris: secure enclave.
 
 830
-00:40:44,000 --> 00:40:46,000
-Jackson: No, that's super cool.
+00:40:31,000 --> 00:40:33,710
+Chris: So you at least can look at all the code that's running
 
 831
-00:40:46,000 --> 00:40:50,000
-Jackson: And then you even even touched on on-device secure enclave.
+00:40:33,710 --> 00:40:34,000
+Chris: there
 
 832
-00:40:50,000 --> 00:40:52,000
-Jackson: This is beautiful.
+00:40:34,000 --> 00:40:38,000
+Chris: and say, "Hey, there's nothing...
 
 833
-00:40:52,000 --> 00:40:54,000
-Chris: Should we talk about rumors
+00:40:38,000 --> 00:40:42,000
+Chris: Yeah, there's nothing nefarious going on there."
 
 834
-00:40:54,000 --> 00:41:00,000
-Chris: that somebody has solved polynomial time factoring?
+00:40:42,000 --> 00:40:46,000
+Chris: I think signing enclaves on-device are very similar.
 
 835
-00:41:00,000 --> 00:41:02,000
-Jackson: Oh my gosh, Chris, I'm so sorry.
+00:40:46,000 --> 00:40:48,000
+Chris: In so far as they...
 
 836
-00:41:02,000 --> 00:41:04,000
-Jackson: I forgot about these rumors, but they're very important.
+00:40:48,000 --> 00:40:51,000
+Chris: In that case, there's a key that is...
 
 837
-00:41:04,000 --> 00:41:05,000
-Jackson: No, no, no, it's cool.
+00:40:51,000 --> 00:40:55,000
+Chris: cannot be removed from the chip that does the signing.
 
 838
-00:41:05,000 --> 00:41:08,000
-Chris: I'd say maybe they're just rumors
+00:40:55,000 --> 00:40:58,000
+Chris: And that basically protects it from being exfiltrated.
 
 839
-00:41:08,000 --> 00:41:10,000
-Chris: and we shouldn't talk about it, but maybe it's real.
+00:40:58,000 --> 00:41:00,730
+Chris: So the worst that can happen with an on-device secure
 
 840
-00:41:10,000 --> 00:41:11,000
-Chris: I don't know.
+00:41:00,730 --> 00:41:01,000
+Chris: enclave
 
 841
-00:41:11,000 --> 00:41:16,000
-Jackson: We can call this, we'll call it the gossip corner.
+00:41:01,000 --> 00:41:04,000
+Chris: is that you sign something you didn't mean to,
 
 842
-00:41:16,000 --> 00:41:19,000
-Jackson: Preface this with we don't know if it's true or not,
+00:41:04,000 --> 00:41:07,000
+Chris: but there's no actual way to get the entropy
 
 843
-00:41:19,000 --> 00:41:21,000
-Jackson: but what are people saying, Chris?
+00:41:07,000 --> 00:41:10,000
+Chris: and the big whatever it may be,
 
 844
-00:41:21,000 --> 00:41:25,000
-Jackson: What's the word on the secretes?
+00:41:10,000 --> 00:41:14,000
+Chris: 256-bit or bigger number out of the enclave
 
 845
-00:41:25,000 --> 00:41:30,000
-Chris: So there's a lot of rumors going around
+00:41:14,000 --> 00:41:16,000
+Chris: and steal the key.
 
 846
-00:41:30,000 --> 00:41:35,000
-Chris: that somebody has potentially solved polynomial time factoring.
+00:41:16,000 --> 00:41:18,000
+Chris: So yeah.
 
 847
-00:41:35,000 --> 00:41:36,000
-Chris: So what is factoring?
+00:41:18,000 --> 00:41:20,000
+Jackson: Okay. That's super cool.
 
 848
-00:41:36,000 --> 00:41:38,000
-Chris: Factoring is saying, here's a number.
+00:41:20,000 --> 00:41:23,000
+Jackson: I guess when I was imagining secure enclave,
 
 849
-00:41:38,000 --> 00:41:41,000
-Chris: I need to find whether there are two primes
+00:41:23,000 --> 00:41:28,000
+Jackson: I figured it was a separate partition on the desk of memory.
 
 850
-00:41:41,000 --> 00:41:43,000
-Chris: that can create this number basically.
+00:41:28,000 --> 00:41:31,000
+Jackson: But you're saying it's like an attachment to the CPU
 
 851
-00:41:43,000 --> 00:41:46,450
-Chris: And this is the underpinning of various encryption
+00:41:31,000 --> 00:41:34,000
+Jackson: where most of the computations are ran
 
 852
-00:41:46,450 --> 00:41:47,000
-Chris: algorithms,
+00:41:34,000 --> 00:41:37,000
+Jackson: that just encrypts ingress data
 
 853
-00:41:47,000 --> 00:41:51,000
-Chris: namely RSA, which is Rivest-Schimir something.
+00:41:37,000 --> 00:41:40,000
+Jackson: and then decrypts it on egress.
 
 854
-00:41:51,000 --> 00:41:54,000
-Chris: It's a very old, but very well-used
+00:41:40,000 --> 00:41:44,000
+Jackson: So only the CPU is seeing the actual raw data.
 
 855
-00:41:54,000 --> 00:41:56,000
-Chris: public key encryption algorithm.
+00:41:44,000 --> 00:41:47,000
+Jackson: Is that correct?
 
 856
-00:41:56,000 --> 00:41:59,000
-Chris: So I think it's used for like websites,
+00:41:47,000 --> 00:41:50,000
+Chris: Off the dome, that is how, for example,
 
 857
-00:41:59,000 --> 00:42:02,000
-Chris: like old TLS, some code signing.
+00:41:50,000 --> 00:41:53,000
+Chris: a hardware secure enclave works, like an Intel TDX.
 
 858
-00:42:02,000 --> 00:42:05,000
-Chris: It's different from elliptic curve cryptography.
+00:41:53,000 --> 00:41:56,000
+Chris: There are other levels of secure...
 
 859
-00:42:05,000 --> 00:42:09,000
-Chris: And basically the rumor is that there's a way
+00:41:56,000 --> 00:41:58,000
+Chris: I believe they're called secure images,
 
 860
-00:42:09,000 --> 00:42:11,000
-Chris: to do this factoring problem that underpins it
+00:41:58,000 --> 00:42:01,000
+Chris: which live at that hypervisor layer,
 
 861
-00:42:11,000 --> 00:42:14,000
-Chris: in polynomial time, which if we remember
+00:42:01,000 --> 00:42:03,000
+Chris: which are a little bit different.
 
 862
-00:42:14,000 --> 00:42:18,000
-Chris: from our P versus NP explainer, which we probably don't,
+00:42:03,000 --> 00:42:05,000
+Chris: But I'm not about them.
 
 863
-00:42:18,000 --> 00:42:21,000
-Chris: polynomial time is like N squared.
+00:42:05,000 --> 00:42:07,000
+Chris: I haven't researched them very much.
 
 864
-00:42:21,000 --> 00:42:26,000
-Chris: So it's slow, but generally computable.
+00:42:07,000 --> 00:42:11,000
+Chris: I just skipped straight to the hardware secure enclave.
 
 865
-00:42:26,000 --> 00:42:29,000
-Chris: The current solution for factoring, I think,
+00:42:11,000 --> 00:42:13,000
+Jackson: No, that's super cool.
 
 866
-00:42:29,000 --> 00:42:33,000
-Chris: is in sub-exponential time, which is an extremely long time.
+00:42:13,000 --> 00:42:17,000
+Jackson: And then you even touched on on-device secure enclave.
 
 867
-00:42:33,000 --> 00:42:37,000
-Chris: And we rely on it taking a long time to do this factoring
+00:42:17,000 --> 00:42:19,000
+Jackson: This is beautiful.
 
 868
-00:42:37,000 --> 00:42:39,000
-Chris: to do the encryption.
+00:42:19,000 --> 00:42:21,000
+Chris: Should we talk about rumors
 
 869
-00:42:39,000 --> 00:42:44,000
-Chris: So yeah, I mean, this is a huge, huge, huge rumor.
+00:42:21,000 --> 00:42:27,000
+Chris: that somebody has solved polynomial time factoring?
 
 870
-00:42:44,000 --> 00:42:47,000
-Chris: I think if it's true, it has all of those implications
+00:42:27,000 --> 00:42:29,000
+Jackson: Oh my gosh, Chris, I'm so sorry.
 
 871
-00:42:47,000 --> 00:42:49,000
-Chris: we've talked about on other podcasts
+00:42:29,000 --> 00:42:31,000
+Jackson: I forgot about these rumors, but they're very important.
 
 872
-00:42:49,000 --> 00:42:53,000
-Chris: with responsible disclosure and whatnot.
+00:42:31,000 --> 00:42:33,000
+Chris: No, no, no, it's cool.
 
 873
-00:42:53,000 --> 00:42:56,000
-Chris: If it was true, you would maybe expect to see
+00:42:33,000 --> 00:42:35,000
+Chris: I'd say maybe, you know, maybe they're just rumors
 
 874
-00:42:56,000 --> 00:43:00,000
-Chris: a lot of people desperately trying to upgrade their systems
+00:42:35,000 --> 00:42:37,000
+Chris: and we shouldn't talk about it, but maybe it's real.
 
 875
-00:43:00,000 --> 00:43:03,000
-Chris: over Thanksgiving, stuff like that.
+00:42:37,000 --> 00:42:38,000
+Chris: I don't know.
 
 876
-00:43:03,000 --> 00:43:06,000
-Chris: So yeah, I don't know if it's true or not.
+00:42:38,000 --> 00:42:41,000
+Jackson: We can call this, since, you know,
 
 877
-00:43:06,000 --> 00:43:08,000
-Chris: I don't have any further information on it,
+00:42:41,000 --> 00:42:43,000
+Jackson: we'll call it the gossip corner.
 
 878
-00:43:08,000 --> 00:43:11,000
-Chris: but a lot of people are talking about it.
+00:42:43,000 --> 00:42:46,000
+Jackson: Preface this with we don't know if it's true or not.
 
 879
-00:43:11,000 --> 00:43:13,000
-Jackson: Geez, yeah, I just looked it up.
+00:42:46,000 --> 00:42:48,000
+Jackson: But what are people saying, Chris?
 
 880
-00:43:13,000 --> 00:43:19,000
-Jackson: So RSA is used for HTTPS, TLS, digital certificates.
+00:42:48,000 --> 00:42:52,000
+Jackson: What's the word on the secretes?
 
 881
-00:43:19,000 --> 00:43:23,000
-Jackson: So that's definitely critical.
+00:42:52,000 --> 00:42:57,000
+Chris: So there's a lot of like rumors going around
 
 882
-00:43:23,000 --> 00:43:24,000
-Jackson: It's not elliptic curve.
+00:42:57,000 --> 00:43:02,000
+Chris: that somebody has potentially solved polynomial time factoring.
 
 883
-00:43:24,000 --> 00:43:29,000
-Jackson: So Bitcoin's still safe for now, but still worrisome
+00:43:02,000 --> 00:43:03,000
+Chris: So what is factoring?
 
 884
-00:43:29,000 --> 00:43:32,000
-Jackson: and a crucial part of the internet.
+00:43:03,000 --> 00:43:05,000
+Chris: Factoring is saying, here is a number.
 
 885
-00:43:32,000 --> 00:43:34,000
-Jackson: I wonder if those rumors are related at all
+00:43:05,000 --> 00:43:08,750
+Chris: I need to find whether there are two primes that can create
 
 886
-00:43:34,000 --> 00:43:38,000
-Jackson: to the recent proof of the Riemann hypothesis
+00:43:08,750 --> 00:43:09,000
+Chris: this number,
 
 887
-00:43:38,000 --> 00:43:42,000
-Jackson: that basically bounds the, I believe,
+00:43:09,000 --> 00:43:10,000
+Chris: basically.
 
 888
-00:43:42,000 --> 00:43:47,000
-Jackson: the number of prime numbers under a certain number.
+00:43:10,000 --> 00:43:12,290
+Chris: And this is the underpinning of various encryption
 
 889
-00:43:47,000 --> 00:43:51,000
-Jackson: But it would make sense to me, being a non-mathematician,
+00:43:12,290 --> 00:43:13,000
+Chris: algorithms,
 
 890
-00:43:51,000 --> 00:43:55,000
-Jackson: that knowing how many prime numbers are under a number
+00:43:13,000 --> 00:43:17,000
+Chris: namely RSA, which is Rivest-Shimier something.
 
 891
-00:43:55,000 --> 00:44:02,000
-Jackson: would help you determine the prime factors of said number.
+00:43:17,000 --> 00:43:22,000
+Chris: It's a very old but very well-used public key encryption
 
 892
-00:44:02,000 --> 00:44:03,000
-Chris: For sure.
+00:43:22,000 --> 00:43:22,000
+Chris: algorithm.
 
 893
-00:44:03,000 --> 00:44:05,000
-Chris: I think it's also some people, some commentators
+00:43:22,000 --> 00:43:25,000
+Chris: So I think it's used for like websites,
 
 894
-00:44:05,000 --> 00:44:08,000
-Chris: have noted that the labs have not--
+00:43:25,000 --> 00:43:28,000
+Chris: like old TLS, some code signing.
 
 895
-00:44:08,000 --> 00:44:10,000
-Chris: I mean, have solved some incredible problems.
+00:43:28,000 --> 00:43:31,000
+Chris: It's different from elliptic curve cryptography.
 
 896
-00:44:10,000 --> 00:44:14,000
-Chris: Like, you know, we're talking about the Riemann hypothesis,
+00:43:31,000 --> 00:43:36,270
+Chris: And basically, the rumor is that there's a way to do this
 
 897
-00:44:14,000 --> 00:44:19,000
-Chris: Navier-Stokes, but there have been no released findings
+00:43:36,270 --> 00:43:37,000
+Chris: factoring problem
 
 898
-00:44:19,000 --> 00:44:22,000
-Chris: on cryptography, which some people think is suspicious.
+00:43:37,000 --> 00:43:40,000
+Chris: that underpins it in polynomial time,
 
 899
-00:44:22,000 --> 00:44:26,000
-Chris: So there's some more fuel to that rumor, again,
+00:43:40,000 --> 00:43:43,000
+Chris: which if we remember from our P versus NP explainer,
 
 900
-00:44:26,000 --> 00:44:29,220
-Chris: whether it's true, like where I guess we'll find out in
+00:43:43,000 --> 00:43:45,000
+Chris: which we probably don't,
 
 901
-00:44:29,220 --> 00:44:30,000
-Chris: months.
+00:43:45,000 --> 00:43:48,000
+Chris: polynomial time is like n squared.
 
 902
-00:44:30,000 --> 00:44:32,000
-Chris: But yeah, maybe it is, maybe it's not.
+00:43:48,000 --> 00:43:53,000
+Chris: So it's slow but generally computable.
 
 903
-00:44:32,000 --> 00:44:36,000
-Jackson: Our opinions are our own, and it is a rumor.
+00:43:53,000 --> 00:43:57,680
+Chris: The current solution for factoring I think is in sub-exponential
 
 904
-00:44:36,000 --> 00:44:39,000
-Jackson: We understand rumor, but it's exciting.
+00:43:57,680 --> 00:43:58,000
+Chris: time,
 
 905
-00:44:39,000 --> 00:44:42,000
-Jackson: So we want to toss it out there to the folks.
+00:43:58,000 --> 00:44:00,000
+Chris: which is an extremely long time.
 
 906
-00:44:42,000 --> 00:44:45,000
-Chris: Just a fun thought experiment along the lines
+00:44:00,000 --> 00:44:04,000
+Chris: And we rely on it taking a long time to do this factoring,
 
 907
-00:44:45,000 --> 00:44:49,000
-Chris: of responsible disclosure that we've had in the pod before.
+00:44:04,000 --> 00:44:06,000
+Chris: to do the encryption.
 
 908
-00:44:49,000 --> 00:44:50,000
-Chris: Yeah.
+00:44:06,000 --> 00:44:11,000
+Chris: So yeah, I mean, this is a huge, huge, huge rumor.
 
 909
-00:44:50,000 --> 00:44:52,000
-Jackson: Yeah, it will be curious.
+00:44:11,000 --> 00:44:12,000
+Chris: I think if it's true,
 
 910
-00:44:52,000 --> 00:44:55,520
-Jackson: But whatever it is they find that requires responsible
+00:44:12,000 --> 00:44:15,210
+Chris: it has all of those implications we've talked about on
 
 911
-00:44:55,520 --> 00:44:56,000
-Jackson: disclosure
+00:44:15,210 --> 00:44:16,000
+Chris: other podcasts
 
 912
-00:44:56,000 --> 00:44:58,000
-Jackson: happens, will we know?
+00:44:16,000 --> 00:44:21,000
+Chris: with responsible disclosure and whatnot.
 
 913
-00:44:58,000 --> 00:45:02,000
-Jackson: Or how will it be presented?
+00:44:21,000 --> 00:44:22,000
+Chris: If it was true,
 
 914
-00:45:02,000 --> 00:45:03,000
-Jackson: That will be exciting.
+00:44:22,000 --> 00:44:26,000
+Chris: you would maybe expect to see a lot of people
 
 915
-00:45:03,000 --> 00:45:05,000
-Jackson: Okey-dokey.
+00:44:26,000 --> 00:44:28,250
+Chris: desperately trying to upgrade their systems over
 
 916
-00:45:05,000 --> 00:45:07,360
-Jackson: Well, this pod's releasing on a Thursday, which is
+00:44:28,250 --> 00:44:29,000
+Chris: Thanksgiving,
 
 917
-00:45:07,360 --> 00:45:08,000
-Jackson: different.
+00:44:29,000 --> 00:44:31,000
+Chris: stuff like that.
 
 918
-00:45:08,000 --> 00:45:12,000
-Jackson: So happy Thursday, everybody.
+00:44:31,000 --> 00:44:34,000
+Chris: So yeah, I don't know if it's true or not.
 
 919
-00:45:12,000 --> 00:45:14,000
-Jackson: Next time, Tyler should be back.
+00:44:34,000 --> 00:44:36,000
+Chris: I don't have any further information on it,
 
 920
-00:45:14,000 --> 00:45:17,000
-Jackson: He's our mathematician, so he can roast our takes on RSA.
+00:44:36,000 --> 00:44:39,000
+Chris: but a lot of people are talking about it.
 
 921
-00:45:17,000 --> 00:45:18,000
-Jackson: I'm so excited.
+00:44:39,000 --> 00:44:44,000
+Jackson: Yeah, I just looked it up, so RSA is used for HTTPS, TLS,
 
 922
-00:45:18,000 --> 00:45:20,000
-Chris: I'm so excited for that.
+00:44:44,000 --> 00:44:47,000
+Jackson: yeah, digital certificates.
 
 923
-00:45:20,000 --> 00:45:23,000
-Chris: [LAUGHTER]
+00:44:47,000 --> 00:44:50,000
+Jackson: So that's definitely critical.
 
 924
-00:45:23,000 --> 00:45:26,000
-Chris: I'm so pumped.
+00:44:50,000 --> 00:44:54,000
+Jackson: It's not elliptic curve, so Bitcoin's still safe for now,
 
 925
-00:45:26,000 --> 00:45:28,000
-Jackson: I think he's also going to bring a little bit of talk
+00:44:54,000 --> 00:44:59,000
+Jackson: but still worrisome and a crucial part of the internet.
 
 926
-00:45:28,000 --> 00:45:30,000
-Jackson: on witness encryption, which is pretty cool,
+00:44:59,000 --> 00:45:03,000
+Jackson: I wonder if those rumors are related at all to the recent
 
 927
-00:45:30,000 --> 00:45:33,000
-Jackson: but Chris and I is out of our ballpark.
+00:45:03,000 --> 00:45:04,000
+Jackson: proof
 
 928
-00:45:33,000 --> 00:45:36,000
-Jackson: So tune in next week, and we'll catch you later.
+00:45:04,000 --> 00:45:09,000
+Jackson: of human hypothesis that basically bounds the,
 
 929
-00:45:36,000 --> 00:45:38,000
-Jackson: Chris, say goodbye to them.
+00:45:09,000 --> 00:45:13,030
+Jackson: I believe, the number of prime numbers under a certain
 
 930
-00:45:38,000 --> 00:45:41,000
-Jackson: Like and subscribe.
+00:45:13,030 --> 00:45:14,000
+Jackson: number.
 
 931
-00:45:41,000 --> 00:45:43,000
-Chris: And press the bell button.
+00:45:14,000 --> 00:45:18,000
+Jackson: But it would make sense to me, being a non-mathematician,
 
 932
-00:45:43,000 --> 00:45:46,000
-Insert: [MUSIC PLAYING]
+00:45:18,000 --> 00:45:22,000
+Jackson: that knowing how many prime numbers are under a number
+
+933
+00:45:22,000 --> 00:45:29,000
+Jackson: would help you determine the prime factors of said number.
+
+934
+00:45:29,000 --> 00:45:30,000
+Chris: For sure.
+
+935
+00:45:30,000 --> 00:45:33,000
+Chris: I think it's also some people, some commentators have noted
+
+936
+00:45:33,000 --> 00:45:37,000
+Chris: that have not, I mean, have solved some incredible problems.
+
+937
+00:45:37,000 --> 00:45:41,000
+Chris: Like, you know, we're talking about the Riemann hypothesis,
+
+938
+00:45:41,000 --> 00:45:46,000
+Chris: Navier-Stokes, but there have been no released findings
+
+939
+00:45:46,000 --> 00:45:49,000
+Chris: on cryptography, which some people think is suspicious.
+
+940
+00:45:49,000 --> 00:45:52,000
+Chris: So there's some more fuel to that rumor.
+
+941
+00:45:52,000 --> 00:45:56,000
+Chris: Again, whether it's true, like where I guess we'll find out
+
+942
+00:45:56,000 --> 00:45:59,000
+Chris: in months, but yeah, maybe it is, maybe it's not.
+
+943
+00:45:59,000 --> 00:46:03,000
+Jackson: Our opinions are our own, and it is a rumor.
+
+944
+00:46:03,000 --> 00:46:06,000
+Jackson: We understand rumor, but it's exciting.
+
+945
+00:46:06,000 --> 00:46:09,000
+Jackson: So we want to toss it out there to the folks.
+
+946
+00:46:09,000 --> 00:46:13,000
+Chris: Just a fun thought experiment along the lines of, like,
+
+947
+00:46:13,000 --> 00:46:17,000
+Chris: responsible disclosure that we've had in the past before.
+
+948
+00:46:17,000 --> 00:46:21,000
+Jackson: Yeah, yeah, it will be curious, but whatever it is
+
+949
+00:46:21,000 --> 00:46:24,000
+Jackson: they find that requires responsible disclosure happens,
+
+950
+00:46:24,000 --> 00:46:29,000
+Jackson: will we know, or, you know, how will it be presented?
+
+951
+00:46:29,000 --> 00:46:31,000
+Jackson: That will be exciting.
+
+952
+00:46:31,000 --> 00:46:32,000
+Jackson: Okie dokie.
+
+953
+00:46:32,000 --> 00:46:34,490
+Jackson: Well, this pod's releasing on a Thursday, which is
+
+954
+00:46:34,490 --> 00:46:35,000
+Jackson: different.
+
+955
+00:46:35,000 --> 00:46:39,000
+Jackson: So happy Thursday, everybody.
+
+956
+00:46:39,000 --> 00:46:41,000
+Jackson: Next time, Tyler should be back.
+
+957
+00:46:41,000 --> 00:46:44,000
+Jackson: He's our mathematician, so he can roast our takes on RSA.
+
+958
+00:46:44,000 --> 00:46:45,000
+Chris: I'm so excited.
+
+959
+00:46:45,000 --> 00:46:47,000
+Chris: I'm so excited for that.
+
+960
+00:46:47,000 --> 00:46:48,000
+Chris: That's it.
+
+961
+00:46:48,000 --> 00:46:50,000
+Chris: [Laughter]
+
+962
+00:46:50,000 --> 00:46:53,000
+Chris: I'm so pumped.
+
+963
+00:46:53,000 --> 00:46:55,320
+Jackson: I think he's also going to bring a little bit of talk on
+
+964
+00:46:55,320 --> 00:46:56,000
+Jackson: witness encryption,
+
+965
+00:46:56,000 --> 00:46:59,500
+Jackson: which is pretty cool, but Chris and I, it's out of our
+
+966
+00:46:59,500 --> 00:47:00,000
+Jackson: ballpark.
+
+967
+00:47:00,000 --> 00:47:03,000
+Jackson: So tune in next week, and we'll catch you later.
+
+968
+00:47:03,000 --> 00:47:05,000
+Jackson: Chris, say goodbye to them.
+
+969
+00:47:05,000 --> 00:47:08,000
+Jackson: Like and subscribe.
+
+970
+00:47:08,000 --> 00:47:11,000
+Insert: And press the bell button.
