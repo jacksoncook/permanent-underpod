@@ -1,0 +1,225 @@
+{
+ "show": "UNDERPOD",
+ "show_main": "UNDERPOD",
+ "accent": [
+  255,
+  210,
+  74
+ ],
+ "source": "/Users/jcook/Personal/permanent-underpod/media/ep25/work/src/jackson_720.mp4",
+ "title_card": {
+  "bg_frame": 600,
+  "line": "EPISODE 25   ·   Fake Secrets. Real Thieves.",
+  "dur": 4.5
+ },
+ "end_card": {
+  "bg_frame": 3380,
+  "kicker": "POST-SHOW UPDATE",
+  "lines": [
+   "The Bitcoin flip lost: −$25",
+   "Next week: Tyler returns  ·  Witness encryption",
+   "Not financial advice. Our opinions are ours, not our employers'."
+  ],
+  "cta": "LIKE  +  SUBSCRIBE",
+  "dur": 8
+ },
+ "lower_thirds": [
+  {
+   "name": "intro",
+   "kicker": "EPISODE 25",
+   "title": "FAKE SECRETS. REAL THIEVES."
+  },
+  {
+   "name": "openr",
+   "kicker": "THE OPENROUTER INCIDENT",
+   "title": "FAKE API KEYS WENT IN. MONTHS LATER, SOMEONE USED THEM."
+  },
+  {
+   "name": "four",
+   "kicker": "FOUR PROVIDERS, FOUR LEAKS",
+   "title": "HOW THE PROMPTS GOT OUT"
+  },
+  {
+   "name": "zdr",
+   "kicker": "ZERO DATA RETENTION",
+   "title": "WHO ENFORCES IT? PROBABLY NO ONE."
+  },
+  {
+   "name": "chain",
+   "kicker": "THE CHAINFLIP HACK",
+   "title": "HOW A VALIDATOR WALKED OUT WITH THE VAULT"
+  },
+  {
+   "name": "deps",
+   "kicker": "SUPPLY CHAINS",
+   "title": "IS OPEN SOURCE STILL WORTH THE RISK?"
+  },
+  {
+   "name": "perp",
+   "kicker": "PERP OF FORTUNE",
+   "title": "SHORT MINIMAX 10×  ·  BITCOIN DOWN"
+  },
+  {
+   "name": "ft",
+   "kicker": "JACKSON'S LAPTOP",
+   "title": "TEACHING A SMALL OPEN MODEL TO WATCH TENNIS"
+  },
+  {
+   "name": "lora",
+   "kicker": "LORA",
+   "title": "FINE-TUNING WITHOUT TOUCHING THE BIG WEIGHTS"
+  },
+  {
+   "name": "probe",
+   "kicker": "PROBING",
+   "title": "STOP THE MODEL HALFWAY AND READ IT THERE"
+  },
+  {
+   "name": "web",
+   "kicker": "THE WEB BROWSER",
+   "title": "HOW LONG DOES IT HAVE LEFT?"
+  },
+  {
+   "name": "funnel",
+   "kicker": "TOP OF THE FUNNEL",
+   "title": "WHY AMAZON DOESN'T WANT YOUR AGENT SHOPPING"
+  },
+  {
+   "name": "encl",
+   "kicker": "SECURE ENCLAVES",
+   "title": "WHAT A TEE ACTUALLY IS"
+  },
+  {
+   "name": "rumor",
+   "kicker": "GOSSIP CORNER",
+   "title": "DID SOMEONE CRACK FACTORING? UNCONFIRMED."
+  }
+ ],
+ "stats": [
+  {
+   "name": "coldopen",
+   "kicker": "EPISODE 25",
+   "main": "In this pod…"
+  },
+  {
+   "name": "tease",
+   "kicker": "PERP OF FORTUNE",
+   "main": "the flip result lands at the end"
+  },
+  {
+   "name": "turkey",
+   "kicker": "JACKSON",
+   "main": "\"I just throw the turkey in the trash\""
+  },
+  {
+   "name": "honest",
+   "kicker": "CONFESSION",
+   "main": "API keys pasted into a model: \"a million times\""
+  },
+  {
+   "name": "cheese",
+   "kicker": "THE TRAP",
+   "main": "cheese on a mousetrap, and they walked right on"
+  },
+  {
+   "name": "tiers",
+   "kicker": "CHRIS'S TIER LIST",
+   "main": "frontier labs, then TEEs, then nobody"
+  },
+  {
+   "name": "fake",
+   "kicker": "CHRIS",
+   "main": "\"I don't trust ZDR at all. I assume that's fake.\""
+  },
+  {
+   "name": "thresh",
+   "kicker": "THRESHOLD SIGNATURES",
+   "main": "15 of 20 sign and the money moves"
+  },
+  {
+   "name": "took",
+   "kicker": "CHRIS",
+   "main": "\"and then of course they just took the money\""
+  },
+  {
+   "name": "isneg",
+   "kicker": "CHRIS, OLD HEAD",
+   "main": "is-negative: a whole library for one check"
+  },
+  {
+   "name": "haiku",
+   "kicker": "TODAY'S PICKER",
+   "main": "Haiku, \"Anthropic's dumbest model\""
+  },
+  {
+   "name": "later",
+   "kicker": "THE FLIP SETTLES AFTER THE SHOW",
+   "main": "result at the end"
+  },
+  {
+   "name": "base",
+   "kicker": "BASELINE",
+   "main": "tennis or not tennis: a coin flip"
+  },
+  {
+   "name": "r8",
+   "kicker": "RANK-8 LORA",
+   "main": "400 steps  ·  about 40 minutes  ·  92%"
+  },
+  {
+   "name": "p93",
+   "kicker": "LAYER 11 PROBE",
+   "main": "93%. Beat the fine-tune."
+  },
+  {
+   "name": "garbage",
+   "kicker": "CHRIS",
+   "main": "\"the internet browser is a piece of garbage\""
+  },
+  {
+   "name": "flight",
+   "kicker": "AGENT TRAVEL DESK",
+   "main": "$600 a ticket for a $25 flight"
+  },
+  {
+   "name": "aes",
+   "kicker": "HOW A TEE WORKS",
+   "main": "memory stays encrypted, only the CPU sees it"
+  },
+  {
+   "name": "unconf",
+   "kicker": "UNCONFIRMED",
+   "main": "a rumor. Nobody has shown a proof."
+  },
+  {
+   "name": "rsa",
+   "kicker": "JACKSON LOOKED IT UP",
+   "main": "RSA isn't elliptic curve. Bitcoin is fine for now."
+  },
+  {
+   "name": "update",
+   "kicker": "POST-SHOW UPDATE",
+   "main": "the Bitcoin flip lost: −$25"
+  }
+ ],
+ "thumbnail": {
+  "text": "YOUR AI PRIVACY IS FAKE",
+  "out": "/Users/jcook/Personal/permanent-underpod/media/ep25/ep25-thumbnail.png",
+  "faces": [
+   {
+    "track": "chris",
+    "t": 29.5,
+    "cx": 900,
+    "top": 90,
+    "h": 630
+   },
+   {
+    "track": "jackson",
+    "t": 1963.5,
+    "cx": 380,
+    "top": 90,
+    "h": 630
+   }
+  ]
+ }
+}

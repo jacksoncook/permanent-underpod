@@ -1,0 +1,860 @@
+{
+ "blocks": [
+  {
+   "id": "COLD_A",
+   "m0": 3157.4,
+   "m1": 3163.72,
+   "hard_m0": true,
+   "hard_m1": true,
+   "mute": [
+    [
+     "jackson",
+     3157.3,
+     3163.8199999999997
+    ]
+   ]
+  },
+  {
+   "id": "COLD_A2",
+   "m0": 3227.9,
+   "m1": 3232.81,
+   "hard_m0": true,
+   "hard_m1": true,
+   "mute": [
+    [
+     "jackson",
+     3227.8,
+     3232.91
+    ]
+   ]
+  },
+  {
+   "id": "COLD_B",
+   "m0": 954.5,
+   "m1": 967.95,
+   "hard_m0": true,
+   "hard_m1": true,
+   "mute": [
+    [
+     "jackson",
+     954.4,
+     968.0500000000001
+    ]
+   ]
+  },
+  {
+   "id": "COLD_C",
+   "m0": 174.5,
+   "m1": 181.85,
+   "hard_m0": true,
+   "hard_m1": true,
+   "mute": []
+  },
+  {
+   "id": "COLD_D",
+   "m0": 1266.5,
+   "m1": 1284.3,
+   "hard_m0": true,
+   "hard_m1": true,
+   "mute": [
+    [
+     "chris",
+     1266.4,
+     1284.3999999999999
+    ]
+   ]
+  },
+  {
+   "id": "CARD_TITLE",
+   "card": "card_title.mov"
+  },
+  {
+   "id": "INTRO",
+   "m0": 1.4,
+   "m1": 37.37,
+   "hard_m1": true
+  },
+  {
+   "id": "OPENR_A",
+   "m0": 37.37,
+   "m1": 494.9,
+   "hard_m0": true
+  },
+  {
+   "id": "OPENR_B",
+   "m0": 649.18,
+   "m1": 806.85,
+   "hard_m0": true
+  },
+  {
+   "id": "CHAIN_A",
+   "m0": 806.85,
+   "m1": 1035.6,
+   "hard_m1": true
+  },
+  {
+   "id": "CHAIN_B",
+   "m0": 1042.3,
+   "m1": 1178.4,
+   "hard_m0": true
+  },
+  {
+   "id": "CHAIN_C",
+   "m0": 1225.05,
+   "m1": 1265.7,
+   "hard_m0": true,
+   "mute": [
+    [
+     "jackson",
+     1224.5,
+     1226.5
+    ]
+   ]
+  },
+  {
+   "id": "PERP",
+   "m0": 1265.7,
+   "m1": 1393.3
+  },
+  {
+   "id": "FT_A",
+   "m0": 1403.2,
+   "m1": 1856.5,
+   "hard_m1": true
+  },
+  {
+   "id": "FT_B",
+   "m0": 1941.8,
+   "m1": 2031.2,
+   "hard_m0": true,
+   "mute": [
+    [
+     "jackson",
+     1941.4,
+     1943.6
+    ]
+   ]
+  },
+  {
+   "id": "FT_C",
+   "m0": 2191.4,
+   "m1": 2228.4
+  },
+  {
+   "id": "WEB_A",
+   "m0": 2291.8,
+   "m1": 2341.45
+  },
+  {
+   "id": "WEB_B",
+   "m0": 2351.15,
+   "m1": 2624.8,
+   "hard_m0": true
+  },
+  {
+   "id": "WEB_C",
+   "m0": 2740.9,
+   "m1": 2809.32,
+   "hard_m0": true,
+   "hard_m1": true
+  },
+  {
+   "id": "WEB_D",
+   "m0": 2843.2,
+   "m1": 2886.4,
+   "hard_m1": true
+  },
+  {
+   "id": "ENCL",
+   "m0": 2898.6,
+   "m1": 3112.65
+  },
+  {
+   "id": "RUMOR",
+   "m0": 3120.2,
+   "m1": 3372.1
+  },
+  {
+   "id": "OUTRO",
+   "m0": 3372.1,
+   "m1": 3413.5,
+   "hard_m1": true,
+   "mute": [
+    [
+     "jackson",
+     3410.0,
+     3413.7
+    ]
+   ]
+  },
+  {
+   "id": "CARD_END",
+   "card": "card_end.mov"
+  }
+ ],
+ "protect": [
+  [
+   3157.4,
+   3163.72
+  ],
+  [
+   3227.9,
+   3232.81
+  ],
+  [
+   954.5,
+   967.95
+  ],
+  [
+   174.5,
+   181.85
+  ],
+  [
+   1266.5,
+   1284.3
+  ],
+  [
+   1.4,
+   12.0
+  ],
+  [
+   1310.0,
+   1320.0
+  ],
+  [
+   3403.0,
+   3414.0
+  ]
+ ],
+ "force_shots": [
+  {
+   "m0": 3157.4,
+   "m1": 3163.72,
+   "type": "solo",
+   "people": [
+    "chris"
+   ]
+  },
+  {
+   "m0": 3227.9,
+   "m1": 3232.81,
+   "type": "solo",
+   "people": [
+    "chris"
+   ]
+  },
+  {
+   "m0": 954.5,
+   "m1": 967.95,
+   "type": "solo",
+   "people": [
+    "chris"
+   ]
+  },
+  {
+   "m0": 1266.5,
+   "m1": 1284.3,
+   "type": "solo",
+   "people": [
+    "jackson"
+   ]
+  },
+  {
+   "m0": 174.5,
+   "m1": 181.85,
+   "type": "duo",
+   "people": [
+    "jackson",
+    "chris"
+   ]
+  },
+  {
+   "m0": 1.4,
+   "m1": 9.0,
+   "type": "solo",
+   "people": [
+    "jackson"
+   ]
+  },
+  {
+   "m0": 3404.0,
+   "m1": 3413.5,
+   "type": "duo",
+   "people": [
+    "jackson",
+    "chris"
+   ]
+  }
+ ],
+ "face_cx": {
+  "jackson": 660,
+  "chris": 630
+ },
+ "panel_order": [
+  "jackson",
+  "chris"
+ ],
+ "params": {
+  "idle_gain": 0.12,
+  "group_thresh": 0.25,
+  "group_hold": 1.0,
+  "react_thresh": 0.6,
+  "min_shot": 3.0,
+  "gain_target": 0.022,
+  "dead_air_min": 1.2,
+  "dead_air_keep": 0.4,
+  "dead_air_net": 0.6
+ },
+ "gain_spans": {
+  "jackson": [
+   [
+    43,
+    66
+   ],
+   [
+    291,
+    324
+   ],
+   [
+    1404,
+    1425
+   ],
+   [
+    1463,
+    1480
+   ]
+  ],
+  "chris": [
+   [
+    89,
+    109
+   ],
+   [
+    196,
+    230
+   ],
+   [
+    823,
+    845
+   ],
+   [
+    2927,
+    2960
+   ]
+  ]
+ },
+ "pips": [
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep25/raw/Untitled_recording-chris-screen-00h_21m_52s_056ms-StreamYard.mp4",
+   "block": "PERP",
+   "m0": 1312.0,
+   "m1": 1319.0,
+   "anchor": 1311.685,
+   "mode": "full",
+   "crop": [
+    928,
+    522,
+    495,
+    2
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep25/raw/Untitled_recording-chris-screen-00h_21m_52s_056ms-StreamYard.mp4",
+   "block": "PERP",
+   "m0": 1319.0,
+   "m1": 1393.3,
+   "anchor": 1311.685,
+   "mode": "corner",
+   "crop": [
+    930,
+    180,
+    495,
+    30
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep25/raw/Untitled_recording-chris-screen-00h_21m_52s_056ms-StreamYard.mp4",
+   "block": "FT_A",
+   "m0": 1403.2,
+   "m1": 1856.5,
+   "anchor": 1311.685,
+   "mode": "corner",
+   "crop": [
+    930,
+    180,
+    495,
+    30
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep25/raw/Untitled_recording-chris-screen-00h_21m_52s_056ms-StreamYard.mp4",
+   "block": "FT_B",
+   "m0": 1941.8,
+   "m1": 2031.2,
+   "anchor": 1311.685,
+   "mode": "corner",
+   "crop": [
+    930,
+    180,
+    495,
+    30
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep25/raw/Untitled_recording-chris-screen-00h_21m_52s_056ms-StreamYard.mp4",
+   "block": "FT_C",
+   "m0": 2191.4,
+   "m1": 2228.4,
+   "anchor": 1311.685,
+   "mode": "corner",
+   "crop": [
+    930,
+    180,
+    495,
+    30
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep25/raw/Untitled_recording-chris-screen-00h_21m_52s_056ms-StreamYard.mp4",
+   "block": "WEB_A",
+   "m0": 2291.8,
+   "m1": 2341.45,
+   "anchor": 1311.685,
+   "mode": "corner",
+   "crop": [
+    930,
+    180,
+    495,
+    30
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep25/raw/Untitled_recording-chris-screen-00h_21m_52s_056ms-StreamYard.mp4",
+   "block": "WEB_B",
+   "m0": 2351.15,
+   "m1": 2624.8,
+   "anchor": 1311.685,
+   "mode": "corner",
+   "crop": [
+    930,
+    180,
+    495,
+    30
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep25/raw/Untitled_recording-chris-screen-00h_21m_52s_056ms-StreamYard.mp4",
+   "block": "WEB_C",
+   "m0": 2740.9,
+   "m1": 2809.32,
+   "anchor": 1311.685,
+   "mode": "corner",
+   "crop": [
+    930,
+    180,
+    495,
+    30
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep25/raw/Untitled_recording-chris-screen-00h_21m_52s_056ms-StreamYard.mp4",
+   "block": "WEB_D",
+   "m0": 2843.2,
+   "m1": 2886.4,
+   "anchor": 1311.685,
+   "mode": "corner",
+   "crop": [
+    930,
+    180,
+    495,
+    30
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep25/raw/Untitled_recording-chris-screen-00h_21m_52s_056ms-StreamYard.mp4",
+   "block": "ENCL",
+   "m0": 2898.6,
+   "m1": 3112.65,
+   "anchor": 1311.685,
+   "mode": "corner",
+   "crop": [
+    930,
+    180,
+    495,
+    30
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep25/raw/Untitled_recording-chris-screen-00h_21m_52s_056ms-StreamYard.mp4",
+   "block": "RUMOR",
+   "m0": 3120.2,
+   "m1": 3372.1,
+   "anchor": 1311.685,
+   "mode": "corner",
+   "crop": [
+    930,
+    180,
+    495,
+    30
+   ]
+  },
+  {
+   "file": "/Users/jcook/Personal/permanent-underpod/media/ep25/raw/Untitled_recording-chris-screen-00h_21m_52s_056ms-StreamYard.mp4",
+   "block": "OUTRO",
+   "m0": 3372.1,
+   "m1": 3413.5,
+   "anchor": 1311.685,
+   "mode": "corner",
+   "crop": [
+    930,
+    180,
+    495,
+    30
+   ]
+  }
+ ],
+ "overlays": [
+  {
+   "name": "st_coldopen",
+   "block": "COLD_A",
+   "rel": 0.0,
+   "dur": 6,
+   "kind": "st"
+  },
+  {
+   "name": "st_tease",
+   "block": "COLD_D",
+   "rel": 6.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "lt_intro",
+   "block": "INTRO",
+   "m": 14.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_turkey",
+   "block": "INTRO",
+   "m": 28.5,
+   "dur": 6,
+   "kind": "st"
+  },
+  {
+   "name": "lt_openr",
+   "block": "OPENR_A",
+   "m": 44.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_honest",
+   "block": "OPENR_A",
+   "m": 179.5,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_cheese",
+   "block": "OPENR_A",
+   "m": 270.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "lt_four",
+   "block": "OPENR_A",
+   "m": 281.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_tiers",
+   "block": "OPENR_B",
+   "m": 664.0,
+   "dur": 8,
+   "kind": "st"
+  },
+  {
+   "name": "st_fake",
+   "block": "OPENR_B",
+   "m": 728.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "lt_zdr",
+   "block": "OPENR_B",
+   "m": 757.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "lt_chain",
+   "block": "CHAIN_A",
+   "m": 811.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_thresh",
+   "block": "CHAIN_A",
+   "m": 861.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_took",
+   "block": "CHAIN_A",
+   "m": 966.0,
+   "dur": 6,
+   "kind": "st"
+  },
+  {
+   "name": "lt_deps",
+   "block": "CHAIN_B",
+   "m": 1098.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_isneg",
+   "block": "CHAIN_B",
+   "m": 1116.0,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "lt_perp",
+   "block": "PERP",
+   "m": 1286.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_haiku",
+   "block": "PERP",
+   "m": 1297.5,
+   "dur": 7,
+   "kind": "st"
+  },
+  {
+   "name": "st_later",
+   "block": "PERP",
+   "m": 1352.0,
+   "dur": 8,
+   "kind": "st2"
+  },
+  {
+   "name": "lt_ft",
+   "block": "FT_A",
+   "m": 1404.5,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_base",
+   "block": "FT_A",
+   "m": 1518.5,
+   "dur": 6,
+   "kind": "st2"
+  },
+  {
+   "name": "lt_lora",
+   "block": "FT_A",
+   "m": 1553.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_r8",
+   "block": "FT_A",
+   "m": 1662.0,
+   "dur": 7,
+   "kind": "st2"
+  },
+  {
+   "name": "lt_probe",
+   "block": "FT_A",
+   "m": 1708.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_p93",
+   "block": "FT_B",
+   "m": 1950.0,
+   "dur": 7,
+   "kind": "st2"
+  },
+  {
+   "name": "lt_web",
+   "block": "WEB_A",
+   "m": 2296.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_garbage",
+   "block": "WEB_A",
+   "m": 2323.0,
+   "dur": 6,
+   "kind": "st2"
+  },
+  {
+   "name": "lt_funnel",
+   "block": "WEB_B",
+   "m": 2408.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_flight",
+   "block": "WEB_C",
+   "m": 2752.0,
+   "dur": 8,
+   "kind": "st2"
+  },
+  {
+   "name": "lt_encl",
+   "block": "ENCL",
+   "m": 2900.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_aes",
+   "block": "ENCL",
+   "m": 2958.0,
+   "dur": 8,
+   "kind": "st2"
+  },
+  {
+   "name": "lt_rumor",
+   "block": "RUMOR",
+   "m": 3155.0,
+   "dur": 6,
+   "kind": "lt"
+  },
+  {
+   "name": "st_unconf",
+   "block": "RUMOR",
+   "m": 3197.0,
+   "dur": 8,
+   "kind": "st2"
+  },
+  {
+   "name": "st_rsa",
+   "block": "RUMOR",
+   "m": 3271.5,
+   "dur": 8,
+   "kind": "st2"
+  },
+  {
+   "name": "st_update",
+   "block": "OUTRO",
+   "m": 3376.5,
+   "dur": 9,
+   "kind": "st2"
+  }
+ ],
+ "sheet": [
+  {
+   "label": "Cold open",
+   "block": "COLD_A"
+  },
+  {
+   "label": "Title",
+   "block": "CARD_TITLE"
+  },
+  {
+   "label": "No Tyler, no turkey",
+   "block": "INTRO"
+  },
+  {
+   "label": "OpenRouter: fake API keys went in, someone used them",
+   "block": "OPENR_A"
+  },
+  {
+   "label": "What OpenRouter actually is",
+   "block": "OPENR_A",
+   "m": 192.0
+  },
+  {
+   "label": "Four providers, four ways the prompts got out",
+   "block": "OPENR_A",
+   "m": 281.0
+  },
+  {
+   "label": "Chris's tier list for your credentials",
+   "block": "OPENR_B"
+  },
+  {
+   "label": "Who enforces zero data retention?",
+   "block": "OPENR_B",
+   "m": 733.0
+  },
+  {
+   "label": "The Chainflip hack: a validator took the vault",
+   "block": "CHAIN_A"
+  },
+  {
+   "label": "Is open source still worth the risk?",
+   "block": "CHAIN_B",
+   "m": 1098.0
+  },
+  {
+   "label": "Perp of Fortune: short MiniMax 10×, Bitcoin down",
+   "block": "PERP"
+  },
+  {
+   "label": "Jackson fine-tunes a model on his laptop",
+   "block": "FT_A"
+  },
+  {
+   "label": "LoRA, explained",
+   "block": "FT_A",
+   "m": 1552.0
+  },
+  {
+   "label": "Probing: stop the model halfway",
+   "block": "FT_A",
+   "m": 1707.0
+  },
+  {
+   "label": "The probe beats the fine-tune",
+   "block": "FT_B"
+  },
+  {
+   "label": "How long does the web browser have left?",
+   "block": "WEB_A"
+  },
+  {
+   "label": "Top of the funnel: why Amazon blocks agents",
+   "block": "WEB_B",
+   "m": 2407.0
+  },
+  {
+   "label": "The agent that tried to pay $600 for a $25 flight",
+   "block": "WEB_C"
+  },
+  {
+   "label": "Secure enclaves: what a TEE actually is",
+   "block": "ENCL"
+  },
+  {
+   "label": "Gossip corner: the factoring rumor",
+   "block": "RUMOR"
+  },
+  {
+   "label": "Outro and the flip result",
+   "block": "OUTRO"
+  },
+  {
+   "label": "End card",
+   "block": "CARD_END"
+  }
+ ]
+}

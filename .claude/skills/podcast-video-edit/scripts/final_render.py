@@ -248,7 +248,9 @@ for k, (i, j, p) in enumerate(zip(pip_idx, side_idx, pips)):
         cur = f"[vp{k}]"
         continue
     if p["mode"] == "full":
-        proc, pos = "scale=1280:720", "x=0:y=0"
+        fc = p.get("crop")
+        proc = (f"crop={fc[0]}:{fc[1]}:{fc[2]}:{fc[3]}," if fc else "") + "scale=1280:720"
+        pos = "x=0:y=0"
     else:
         cw, ch, cx0, cy0 = p.get("crop") or [1100, 550, 410, 130]
         proc = f"crop={cw}:{ch}:{cx0}:{cy0},scale=430:-2"
